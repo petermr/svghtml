@@ -4,7 +4,7 @@ import java.util.List;
 
 import nu.xom.Element;
 
-public interface HorizontalElementNew {
+public interface HorizontalElement {
 
 	Element copyElement();
 	

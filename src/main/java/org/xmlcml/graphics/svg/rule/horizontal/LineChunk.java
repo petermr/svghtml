@@ -23,7 +23,7 @@ import nu.xom.Attribute;
  * @author pm286
  *
  */
-public abstract class LineChunk extends SVGG implements HorizontalElementNew {
+public abstract class LineChunk extends SVGG implements HorizontalElement {
 	
 	private static final String TRUE = "true";
 	private static final Logger LOG = Logger.getLogger(LineChunk.class);

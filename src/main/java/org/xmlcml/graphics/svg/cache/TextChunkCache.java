@@ -57,7 +57,7 @@ public class TextChunkCache extends AbstractCache {
 			getOrCreateRawTextList();
 			getOrCreateTextStructurer();
 			textChunkList = textStructurer.getOrCreateTextChunkListFromWords();
-			LOG.debug("TC"+textChunkList);
+//			LOG.debug("TC"+textChunkList);
 //			throw new RuntimeException("TextChunks NYI");
 		}
 		return textChunkList;

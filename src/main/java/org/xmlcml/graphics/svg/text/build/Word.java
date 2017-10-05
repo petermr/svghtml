@@ -27,9 +27,9 @@ import org.xmlcml.xml.XMLUtil;
 import nu.xom.Attribute;
 import nu.xom.Element;
 
-public class WordNew extends LineChunk implements Iterable<SVGText> {
+public class Word extends LineChunk implements Iterable<SVGText> {
 
-	private final static Logger LOG = Logger.getLogger(WordNew.class);
+	private final static Logger LOG = Logger.getLogger(Word.class);
 
 	public final static String TAG = "word";
 	public static String SPACE_SYMBOL = " ";
@@ -38,10 +38,10 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 	private boolean guessWidth = true;
 	private List<? extends LineChunk> lineChunkListForFonts;
 	
-	public static WordNew createEmptyWord(Real2 xy, double fontSize) {
-		WordNew word = new WordNew();
+	public static Word createEmptyWord(Real2 xy, double fontSize) {
+		Word word = new Word();
 		word.childTextList = new ArrayList<SVGText>();
-		SVGText text = new SVGText(xy, WordNew.SPACE_SYMBOL);
+		SVGText text = new SVGText(xy, Word.SPACE_SYMBOL);
 		text.setFontSize(fontSize);
 		word.appendChild(text);
 		word.childTextList.add(text);
@@ -49,20 +49,20 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 	};
 
 
-	public WordNew() {
+	public Word() {
 		super();
 		this.setClassName(TAG);
 		
 	}
 
-	public WordNew(SVGG g) {
+	public Word(SVGG g) {
 		super(g);
-		if (WordNew.TAG.equals(g.getSVGClassName())) {
+		if (Word.TAG.equals(g.getSVGClassName())) {
 			LOG.trace("need to create subclassed Word constructor");
 		}
 	}
 
-	public WordNew(WordNew word) {
+	public Word(Word word) {
 		super(word);
 		XMLUtil.copyAttributesFromTo(word, this);
 		if (word.childTextList != null) {
@@ -72,7 +72,7 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 		guessWidth = word.guessWidth;
 	}
 
-	public WordNew(SVGText text) {
+	public Word(SVGText text) {
 		this();
 		this.add(text);
 	}
@@ -88,8 +88,8 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 	 * 
 	 * @param svgText
 	 */
-	public static WordNew createTestWord(GraphicsElement svgText) {
-		WordNew word = new WordNew();
+	public static Word createTestWord(GraphicsElement svgText) {
+		Word word = new Word();
 		List<SVGText> textList = new ArrayList<SVGText>();
 		String value = svgText.getValue();
 		for (int i = 0; i < value.length(); i++) {
@@ -177,20 +177,20 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 		getOrCreateChildTextList();
 		StringBuilder sb = new StringBuilder();
 		if (hasSuperscript()) {
-			sb.append(PhraseNew.SUPER_START);
+			sb.append(Phrase.SUPER_START);
 		}
 		if (hasSubscript()) {
-			sb.append(PhraseNew.SUB_START);
+			sb.append(Phrase.SUB_START);
 		}
 		for (int i = 0; i < childTextList.size(); i++) {
 			SVGText text = childTextList.get(i);
 			sb.append(text.getValue());
 		}
 		if (hasSuperscript()) {
-			sb.append(PhraseNew.SUPER_END);
+			sb.append(Phrase.SUPER_END);
 		}
 		if (hasSubscript()) {
-			sb.append(PhraseNew.SUB_END);
+			sb.append(Phrase.SUB_END);
 		}
 		this.setStringValueAttribute(sb.toString());
 		return sb.toString();
@@ -198,13 +198,13 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 
 
 
-	public Double getSpaceCountBetween(WordNew followingWord) {
+	public Double getSpaceCountBetween(Word followingWord) {
 		SVGText char0 = get(getCharacterCount() - 1);
 		SVGText char1 = followingWord == null ? null : followingWord.get(0);
 		return char1 == null || char0 == null ? null : char0.getEnSpaceCount(char1);
 	}
 
-	public Double getSeparationBetween(WordNew followingWord) {
+	public Double getSeparationBetween(Word followingWord) {
 		SVGText char0 = get(getCharacterCount() - 1);
 		SVGText char1 = followingWord.get(0);
 		return char0.getSeparation(char1);
@@ -275,10 +275,10 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 	 * 
 	 * @return
 	 */
-	public List<WordNew> splitAtSpaces() {
+	public List<Word> splitAtSpaces() {
 		getOrCreateChildTextList();
-		List<WordNew> newWordList = new ArrayList<WordNew>();
-		WordNew newWord = null;
+		List<Word> newWordList = new ArrayList<Word>();
+		Word newWord = null;
 		for (SVGText text : childTextList) {
 			String value = text.getValue();
 			LOG.trace(value);
@@ -287,7 +287,7 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 				newWord = null;
 			} else {
 				if (newWord == null) {
-					newWord = new WordNew();
+					newWord = new Word();
 					newWordList.add(newWord);
 				}
 				newWord.add(text);
@@ -304,10 +304,10 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 	 * 
 	 * @return
 	 */
-	public PhraseNew createPhrase() {
-		PhraseNew phrase = new PhraseNew();
-		List<WordNew> splitWords = splitAtSpaces();
-		for (WordNew word : splitWords) {
+	public Phrase createPhrase() {
+		Phrase phrase = new Phrase();
+		List<Word> splitWords = splitAtSpaces();
+		for (Word word : splitWords) {
 			phrase.addWord(word);
 		}
 		return phrase;
@@ -334,7 +334,7 @@ public class WordNew extends LineChunk implements Iterable<SVGText> {
 		return (childTextList.size() == 0) ? null : childTextList.get(0).getXY();
 	}
 
-	public static List<Real2Range> createBBoxList(List<WordNew> wordList) {
+	public static List<Real2Range> createBBoxList(List<Word> wordList) {
 		List<Real2Range> bboxList = new ArrayList<Real2Range>();
 		for (SVGElement word : wordList) {
 			bboxList.add(word.getBoundingBox());

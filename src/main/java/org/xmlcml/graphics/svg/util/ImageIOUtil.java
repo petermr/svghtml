@@ -1,4 +1,4 @@
-package org.xmlcml.graphics.image;
+package org.xmlcml.graphics.svg.util;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

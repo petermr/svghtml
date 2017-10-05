@@ -23,7 +23,7 @@ import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
 
-public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
+public class PhraseChunk extends LineChunk implements Iterable<Phrase> {
 	
 
 	private static final Logger LOG = Logger.getLogger(PhraseChunk.class);
@@ -34,7 +34,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 	public final static String TAG = "phraseChunk";
 
 	// this is not exposed
-	private List<PhraseNew> childPhraseList; 
+	private List<Phrase> childPhraseList; 
 
 	public PhraseChunk() {
 		super();
@@ -45,12 +45,12 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		super(phraseChunk);
 	}
 
-	public Iterator<PhraseNew> iterator() {
+	public Iterator<Phrase> iterator() {
 		getOrCreateChildPhraseList();
 		return childPhraseList.iterator();
 	}
 	
-	public void add(PhraseNew phrase) {
+	public void add(Phrase phrase) {
 		this.appendChild(phrase);
 	}
 
@@ -63,7 +63,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 	public IntArray getLeftMargins() {
 		getOrCreateChildPhraseList();
 		IntArray leftMargins = new IntArray();
-		for (PhraseNew phrase : childPhraseList) {
+		for (Phrase phrase : childPhraseList) {
 			Double firstX = phrase.getFirstX();
 			if (firstX != null) {
 				leftMargins.addElement((int)(double) firstX);
@@ -72,18 +72,18 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		return leftMargins;
 	}
 	
-	public PhraseNew get(int i) {
+	public Phrase get(int i) {
 		getOrCreateChildPhraseList();
 		return i < 0 || i >= size() ? null : childPhraseList.get(i);
 	}
 
-	public List<PhraseNew> getOrCreateChildPhraseList() {
+	public List<Phrase> getOrCreateChildPhraseList() {
 		if (childPhraseList == null) {
-			List<Element> phraseChildren = XMLUtil.getQueryElements(this, "*[local-name()='"+SVGG.TAG+"' and @class='"+PhraseNew.TAG+"']");
-			childPhraseList = new ArrayList<PhraseNew>();
+			List<Element> phraseChildren = XMLUtil.getQueryElements(this, "*[local-name()='"+SVGG.TAG+"' and @class='"+Phrase.TAG+"']");
+			childPhraseList = new ArrayList<Phrase>();
 			for (Element child : phraseChildren) {
 				// FIXME 
-				childPhraseList.add(new PhraseNew((SVGG)child));
+				childPhraseList.add(new Phrase((SVGG)child));
 			}
 		}
 		return childPhraseList;
@@ -98,7 +98,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		getOrCreateChildPhraseList();
 		Real2Range bboxTotal = null;
 		for (int i = 0; i < childPhraseList.size(); i++) {
-			PhraseNew phrase = childPhraseList.get(i);
+			Phrase phrase = childPhraseList.get(i);
 			Real2Range bbox = phrase.getBoundingBox();
 			if (i == 0) {
 				bboxTotal = bbox;
@@ -148,7 +148,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		StringBuilder sb = new StringBuilder();
 		LineChunk lastPhrase = null;
 		for (int i = 0; i < childPhraseList.size(); i++) {
-			PhraseNew phrase = childPhraseList.get(i);
+			Phrase phrase = childPhraseList.get(i);
 			if (lastPhrase != null) {
 				if (lastPhrase.shouldAddSpaceBefore(phrase)) {
 					sb.append(SPACE);
@@ -165,7 +165,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 
 	public void rotateAll(Real2 centreOfRotation, Angle angle) {
 		getOrCreateChildPhraseList();
-		for (PhraseNew phrase : childPhraseList) {
+		for (Phrase phrase : childPhraseList) {
 			phrase.rotateAll(centreOfRotation, angle);
 			LOG.trace("P: "+phrase.toXML());
 		}
@@ -185,9 +185,9 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 
 	public PhraseChunk extractIncludedLists(IntRange tableSpan) {
 		PhraseChunk includedPhraseList = new PhraseChunk();
-		for (PhraseNew phrase : this) {
+		for (Phrase phrase : this) {
 			if (tableSpan.includes(phrase.getIntRange())) {
-				includedPhraseList.add(new PhraseNew(phrase));
+				includedPhraseList.add(new Phrase(phrase));
 			} else {
 				LOG.trace("excluded phrase by tableSpan: "+phrase);
 			}
@@ -196,11 +196,11 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 	}
 
 	public void mergeByXCoord(PhraseChunk otherPhraseList) {
-		Queue<PhraseNew> otherQueue = otherPhraseList.getPhraseQueue();
-		Queue<PhraseNew> thisQueue = this.getPhraseQueue();
-		PhraseNew thisPhrase = thisQueue.isEmpty() ? null : thisQueue.remove();
-		PhraseNew otherPhrase = otherQueue.isEmpty() ? null : otherQueue.remove();
-		List<PhraseNew> newPhraseList = new ArrayList<PhraseNew>();
+		Queue<Phrase> otherQueue = otherPhraseList.getPhraseQueue();
+		Queue<Phrase> thisQueue = this.getPhraseQueue();
+		Phrase thisPhrase = thisQueue.isEmpty() ? null : thisQueue.remove();
+		Phrase otherPhrase = otherQueue.isEmpty() ? null : otherQueue.remove();
+		List<Phrase> newPhraseList = new ArrayList<Phrase>();
 		while (thisPhrase != null || otherPhrase != null) {
 			if (thisPhrase == null && !thisQueue.isEmpty()) {
 				thisPhrase = thisQueue.remove();
@@ -225,15 +225,15 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		this.childPhraseList = newPhraseList;
 	}
 
-	public Queue<PhraseNew> getPhraseQueue() {
-		Queue<PhraseNew> phraseQueue = new LinkedList<PhraseNew>();
-		for (PhraseNew phrase : this) {
+	public Queue<Phrase> getPhraseQueue() {
+		Queue<Phrase> phraseQueue = new LinkedList<Phrase>();
+		for (Phrase phrase : this) {
 			phraseQueue.add(phrase);
 		}
 		return phraseQueue;
 	}
 
-	private void addSuperscript(PhraseNew superPhrase) {
+	private void addSuperscript(Phrase superPhrase) {
 		for (int index = 0; index <= this.size(); index++) {
 			LineChunk phrase1 = (index == 0) ? null : this.get(index - 1);
 			LineChunk phrase2 = index == this.size() ? null : this.get(index);
@@ -244,12 +244,12 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		}
 	}
 
-	public void insertSuperscript(int index, PhraseNew superPhrase) {
+	public void insertSuperscript(int index, Phrase superPhrase) {
 		this.childPhraseList.add(index, superPhrase);
 		superPhrase.setSuperscript(true);
 	}
 	
-	public boolean canHaveSuperscript(LineChunk phrase1, PhraseNew superPhrase, LineChunk phrase2) {
+	public boolean canHaveSuperscript(LineChunk phrase1, Phrase superPhrase, LineChunk phrase2) {
 		boolean overlap = false;
 		Real2Range bbox1 = phrase1 == null ? null : phrase1.getOrCreateBoundingBox().format(1).getReal2RangeExtendedInX(0.0, 1.0);
 		Real2Range bbox2 = phrase2 == null ? null : phrase2.getOrCreateBoundingBox().format(1).getReal2RangeExtendedInX(0.0, 1.0);
@@ -280,9 +280,9 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 		HtmlElement span = new HtmlSpan();
 		span.setClassAttribute(TAG);
 		span = addSuscriptsAndStyle(span);
-		PhraseNew lastPhrase = null;
+		Phrase lastPhrase = null;
 		for (int i = 0; i < this.size(); i++) {
-			PhraseNew phrase = this.get(i);
+			Phrase phrase = this.get(i);
 			HtmlElement phraseElement = phrase.toHtml();
 			if (i > 0) {
 				if (lastPhrase.shouldAddSpaceBefore(phrase)) {
@@ -304,7 +304,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 	public List<HtmlTh> getThList() {
 		List<HtmlTh> thList = new ArrayList<HtmlTh>();
 		if (childPhraseList != null) {
-			for (PhraseNew phrase : childPhraseList) {
+			for (Phrase phrase : childPhraseList) {
 				HtmlElement element = phrase.toHtml();
 				HtmlTh th = new HtmlTh();
 				th.appendChild(element.copy());
@@ -316,7 +316,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 
 	public boolean contains(Pattern regex) {
 		getOrCreateChildPhraseList();
-		for (PhraseNew phrase : childPhraseList) {
+		for (Phrase phrase : childPhraseList) {
 			if (phrase.contains(regex)) {
 				return true;
 			}
@@ -326,7 +326,7 @@ public class PhraseChunk extends LineChunk implements Iterable<PhraseNew> {
 
 	public String getCSSStyle() {
 		String plStyle = null;
-		for (PhraseNew phrase : this) {
+		for (Phrase phrase : this) {
 			String pStyle = phrase.getCSSStyle();
 			if (plStyle == null) {
 				pStyle = plStyle;

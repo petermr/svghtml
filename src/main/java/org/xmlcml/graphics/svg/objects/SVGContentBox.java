@@ -12,9 +12,9 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGLineList;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGUtil;
-import org.xmlcml.graphics.svg.rule.GenericRowNew;
+import org.xmlcml.graphics.svg.rule.GenericRow;
 import org.xmlcml.graphics.svg.text.build.PhraseChunk;
-import org.xmlcml.graphics.svg.text.build.PhraseNew;
+import org.xmlcml.graphics.svg.text.build.Phrase;
 import org.xmlcml.graphics.svg.text.build.TextChunk;
 
 /** a contentBox is (usually) a Rect which contains other material.
@@ -70,11 +70,11 @@ public class SVGContentBox extends SVGG {
 		return contentBox;
 	}
 
-	public void addPhrase(PhraseNew phrase) {
+	public void addPhrase(Phrase phrase) {
 		getOrCreateTextChunk();
 		PhraseChunk phraseChunk = new PhraseChunk();
 		// maybe we should detach
-		phraseChunk.add(new PhraseNew(phrase));
+		phraseChunk.add(new Phrase(phrase));
 		textChunk.add(phraseChunk);
 	}
 
@@ -105,7 +105,7 @@ public class SVGContentBox extends SVGG {
 	public void addContainedElements(TextChunk textChunk) {
 		for (PhraseChunk phraseChunk : textChunk) {
 			for (int iPhrase = 0; iPhrase < phraseChunk.size(); iPhrase++) {
-				PhraseNew phrase = phraseChunk.get(iPhrase);
+				Phrase phrase = phraseChunk.get(iPhrase);
 				phrase.setBoundingBoxCached(true);
 				//this is inefficient but it keeps the phrases in order
 				if (getRect().getBoundingBox().includes(phrase.getBoundingBox())) {
@@ -144,7 +144,7 @@ public class SVGContentBox extends SVGG {
 	 * 
 	 * @param row
 	 */
-	public void add(GenericRowNew row) {
+	public void add(GenericRow row) {
 		boolean added = row.addLineToContentBox(this);
 		if (!added) {
 			added = row.addLineListToContentBox(this);

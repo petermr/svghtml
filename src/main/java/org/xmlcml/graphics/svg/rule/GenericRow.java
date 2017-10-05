@@ -20,7 +20,7 @@ import org.xmlcml.graphics.svg.text.build.PhraseChunk;
  * @author pm286
  *
  */
-public class GenericRowNew {
+public class GenericRow {
 	
 
 	public enum RowType {
@@ -44,7 +44,7 @@ public class GenericRowNew {
 		}
 	}
 	
-	private static final Logger LOG = Logger.getLogger(GenericRowNew.class);
+	private static final Logger LOG = Logger.getLogger(GenericRow.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -58,35 +58,35 @@ public class GenericRowNew {
 	private SVGLineList lineList;
 	private SVGContentBox contentBox;
 
-	private GenericRowNew(RowType type) {
+	private GenericRow(RowType type) {
 		this.type = type;
 		if (type == null) {
 			throw new RuntimeException("null type in GenericRow");
 		}
 	}
 	
-	public GenericRowNew(SVGLine line, RowType type) {
+	public GenericRow(SVGLine line, RowType type) {
 		this(type);
 		this.line = line;
 	}
 
-	public GenericRowNew(Real2Range box, RowType type) {
+	public GenericRow(Real2Range box, RowType type) {
 		this(type);
 		this.box = box;
 	}
 	
-	public GenericRowNew(PhraseChunk phraseChunk, RowType type) {
+	public GenericRow(PhraseChunk phraseChunk, RowType type) {
 		this(type);
 		this.phraseChunk = phraseChunk;
 	}
 	
-	public GenericRowNew(SVGLineList lineList, RowType type) {
+	public GenericRow(SVGLineList lineList, RowType type) {
 		this(type);
 		this.lineList = lineList;
 		
 	}
 
-	public GenericRowNew(SVGContentBox contentBox) {
+	public GenericRow(SVGContentBox contentBox) {
 		this(RowType.CONTENT_BOX);
 		this.contentBox = contentBox;
 	}

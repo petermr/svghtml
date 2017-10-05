@@ -9,11 +9,11 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.IntRange;
 import org.xmlcml.graphics.svg.SVGLine;
-import org.xmlcml.graphics.svg.rule.RuleNew;
+import org.xmlcml.graphics.svg.rule.Rule;
 
-public class VerticalRuleNew extends RuleNew {
+public class VerticalRule extends Rule {
 
-	private static final Logger LOG = Logger.getLogger(VerticalRuleNew.class);
+	private static final Logger LOG = Logger.getLogger(VerticalRule.class);
 
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -22,7 +22,7 @@ public class VerticalRuleNew extends RuleNew {
 	/** allowed misalignment for "same X"*/
 	public static final double X_TOLERANCE = 2.0;
 	
-	public VerticalRuleNew(SVGLine line) {
+	public VerticalRule(SVGLine line) {
 		super(line);
 	}
 	
@@ -31,12 +31,12 @@ public class VerticalRuleNew extends RuleNew {
 	 * @param lines
 	 * @return
 	 */
-	public static List<VerticalRuleNew> createSortedRulersFromSVGList(List<SVGLine> lines) {
-		List<VerticalRuleNew> rulerList = new ArrayList<VerticalRuleNew>();
+	public static List<VerticalRule> createSortedRulersFromSVGList(List<SVGLine> lines) {
+		List<VerticalRule> rulerList = new ArrayList<VerticalRule>();
 		for (int i = 0; i < lines.size(); i++) {
 			SVGLine line = lines.get(i);
 			if (line.isVertical(epsilon)) {
-				VerticalRuleNew ruler = new VerticalRuleNew(line);
+				VerticalRule ruler = new VerticalRule(line);
 				rulerList.add(ruler);
 			}
 		}
@@ -49,9 +49,9 @@ public class VerticalRuleNew extends RuleNew {
 	}
 	
 }
-class VerticalRulerComparator implements Comparator<VerticalRuleNew> {
+class VerticalRulerComparator implements Comparator<VerticalRule> {
 
-	public int compare(VerticalRuleNew vr1, VerticalRuleNew vr2) {
+	public int compare(VerticalRule vr1, VerticalRule vr2) {
 		if (vr1 == null || vr2 == null || vr1.getIntRange() == null || vr2.getIntRange() == null) {
 			return 0;
 		}

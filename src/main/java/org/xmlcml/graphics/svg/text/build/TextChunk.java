@@ -56,7 +56,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 	private static final int EPS = 5;
 
 	private List<PhraseChunk> childPhraseChunkList;
-	private List<PhraseNew> phrases;
+	private List<Phrase> phrases;
 	private RealArray ySpacings; 
 	private double paraSpacingTrigger;
 
@@ -156,7 +156,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 		for (PhraseChunk phraseChunk : childPhraseChunkList) {
 			if (phraseChunk.size() == maxColumns) {
 				for (int i = 0; i < phraseChunk.size(); i++) {
-					PhraseNew phrase = phraseChunk.get(i);
+					Phrase phrase = phraseChunk.get(i);
 					IntRange range = phrase.getIntRange();
 					IntRange oldRange = columnRanges.get(i);
 					range = (oldRange == null) ? range : range.plus(oldRange);
@@ -185,7 +185,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 	/** find rightmostWhitespace range which includes start of phrase.
 	 * 
 	 */
-	public int getRightmostEnclosingWhitespace(List<IntRange> bestWhitespaces, PhraseNew phrase) {
+	public int getRightmostEnclosingWhitespace(List<IntRange> bestWhitespaces, Phrase phrase) {
 		for (int i = bestWhitespaces.size() - 1; i >= 0; i--) {
 			IntRange range = bestWhitespaces.get(i);
 			int phraseX = (int)(double) phrase.getStartX();
@@ -299,11 +299,11 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 		}
 	}
 
-	public List<PhraseNew> getOrCreatePhrases() {
+	public List<Phrase> getOrCreatePhrases() {
 		if (phrases == null) {
-			phrases = new ArrayList<PhraseNew>();
+			phrases = new ArrayList<Phrase>();
 			for (PhraseChunk phraseChunk : this) {
-				for (PhraseNew phrase : phraseChunk) {
+				for (Phrase phrase : phraseChunk) {
 					phrases.add(phrase);
 				}
 			}

@@ -51,7 +51,7 @@ public class TextChunkList extends SVGG implements Iterable<TextChunk> {
 	private static final int EPS = 5;
 
 	private List<TextChunk> childTextChunkList;
-//	private List<PhraseNew> phrases;
+//	private List<Phrase> phrases;
 //	private RealArray ySpacings; 
 //	private double paraSpacingTrigger;
 	private TextChunk lastTextChunk;
@@ -222,11 +222,11 @@ public class TextChunkList extends SVGG implements Iterable<TextChunk> {
 //		}
 //	}
 
-//	public List<PhraseNew> getOrCreatePhrases() {
+//	public List<Phrase> getOrCreatePhrases() {
 //		if (phrases == null) {
-//			phrases = new ArrayList<PhraseNew>();
+//			phrases = new ArrayList<Phrase>();
 //			for (PhraseChunk phraseList : this) {
-//				for (PhraseNew phrase : phraseList) {
+//				for (Phrase phrase : phraseList) {
 //					phrases.add(phrase);
 //				}
 //			}

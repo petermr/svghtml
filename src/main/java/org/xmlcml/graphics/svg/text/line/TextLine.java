@@ -30,9 +30,9 @@ import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
 import org.xmlcml.graphics.svg.rule.horizontal.LineChunk;
 import org.xmlcml.graphics.svg.text.TextCoordinate;
-import org.xmlcml.graphics.svg.text.build.BlankNew;
-import org.xmlcml.graphics.svg.text.build.PhraseNew;
-import org.xmlcml.graphics.svg.text.build.WordNew;
+import org.xmlcml.graphics.svg.text.build.Blank;
+import org.xmlcml.graphics.svg.text.build.Phrase;
+import org.xmlcml.graphics.svg.text.build.Word;
 import org.xmlcml.graphics.svg.text.structure.RawWords;
 import org.xmlcml.graphics.svg.text.structure.TextAnalyzer;
 import org.xmlcml.graphics.svg.text.structure.TextStructurer;
@@ -903,7 +903,7 @@ public class TextLine implements Iterable<SVGText> {
 	public RawWords getRawWords() {
 		int ntext = textList.size();
 		RawWords rawWords = new RawWords();
-		WordNew word = new WordNew();
+		Word word = new Word();
 		rawWords.add(word);
 		for (int i = 0; i < ntext; i++) {
 			SVGText text = new SVGText(textList.get(i));
@@ -912,7 +912,7 @@ public class TextLine implements Iterable<SVGText> {
 				SVGText nextText = textList.get(i + 1);
 				Double spaceCount = text.getEnSpaceCount(nextText);
 				if (spaceCount != null && spaceCount > SPACE_FACTOR1) {
-					word = new WordNew();
+					word = new Word();
 					rawWords.add(word);
 				}
 			}
@@ -955,11 +955,11 @@ public class TextLine implements Iterable<SVGText> {
 		return separationArray;
 	}
 
-	public List<PhraseNew> createPhraseList() {
-		List<PhraseNew> phraseList = new ArrayList<PhraseNew>();
+	public List<Phrase> createPhraseList() {
+		List<Phrase> phraseList = new ArrayList<Phrase>();
 		RawWords rawWords = getRawWords();
-		for (WordNew word : rawWords) {
-			PhraseNew phrase = word.createPhrase();
+		for (Word word : rawWords) {
+			Phrase phrase = word.createPhrase();
 			phraseList.add(phrase);
 		}
 		return phraseList;
@@ -967,11 +967,11 @@ public class TextLine implements Iterable<SVGText> {
 	
 	public List<LineChunk> getLineChunks() {
 		List<LineChunk> lineChunkList = new ArrayList<LineChunk>();
-		List<PhraseNew> phraseList = this.createPhraseList();
+		List<Phrase> phraseList = this.createPhraseList();
 		for (int i = 0; i < phraseList.size(); i++) {
-			PhraseNew phrase = phraseList.get(i);
+			Phrase phrase = phraseList.get(i);
 			if (i > 0) {
-				BlankNew blank = phraseList.get(i - 1).createBlankBetween(phrase);
+				Blank blank = phraseList.get(i - 1).createBlankBetween(phrase);
 				lineChunkList.add(blank);
 			}
 			lineChunkList.add(phrase);

@@ -8,14 +8,14 @@ import org.xmlcml.graphics.svg.rule.horizontal.LineChunk;
 
 import nu.xom.Element;
 
-public class BlankNew extends LineChunk {
+public class Blank extends LineChunk {
 
-	private static final Logger LOG = Logger.getLogger(BlankNew.class);
+	private static final Logger LOG = Logger.getLogger(Blank.class);
 	public final static String TAG = "blank";
 	
 	private Real2Range boundingBox;
 
-	public BlankNew(Real2Range bbox) {
+	public Blank(Real2Range bbox) {
 		super();
 		this.setClassName(TAG);
 		this.boundingBox = bbox;

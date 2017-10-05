@@ -1487,7 +1487,7 @@ public class TextStructurer {
 //		for (int i = 0; i < phraseListList.size(); i++) {
 //			PhraseChunk phraseList = phraseListList.get(i);
 //			for (int j = 0; j < phraseList.size(); j++) {
-//				PhraseNew phrase = phraseList.get(j);
+//				Phrase phrase = phraseList.get(j);
 //				Real2Range phraseBox = phrase.getBoundingBox();
 //				phraseBox = phraseBox.getReal2RangeExtendedInX(xMargins.x, xMargins.y).getReal2RangeExtendedInY(yMargins.x, yMargins.y);
 //				int ibox = -1;
@@ -1496,7 +1496,7 @@ public class TextStructurer {
 //					Real2Range bboxi = textBox.getBoundingBox(); 
 //					Real2Range intersect = phraseBox.intersectionWith(bboxi);
 //					if (!SVGUtil.isNullReal2Range(intersect)) {
-//						textBox.add(new PhraseNew(phrase));
+//						textBox.add(new Phrase(phrase));
 //						ibox = k;
 //						break;
 //					}

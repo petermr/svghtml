@@ -5,7 +5,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.GraphicsElement;
 import org.xmlcml.graphics.svg.text.build.PhraseChunk;
-import org.xmlcml.graphics.svg.text.build.PhraseNew;
+import org.xmlcml.graphics.svg.text.build.Phrase;
 import org.xmlcml.graphics.svg.text.build.SusType;
 import org.xmlcml.graphics.svg.text.build.TextChunk;
 
@@ -102,9 +102,9 @@ private boolean hasSuscripts;
 		newPhraseChunk = new PhraseChunk();
 		hasSuscripts = false;
 		while (true) {
-			PhraseNew phrase0 = index0 >= phraseChunk0.size() ? null : phraseChunk0.get(index0);
+			Phrase phrase0 = index0 >= phraseChunk0.size() ? null : phraseChunk0.get(index0);
 			Double x0 = phrase0 == null ? null : phrase0.getX();
-			PhraseNew phrase1 = index1 >= phraseChunk1.size() ? null : phraseChunk1.get(index1);
+			Phrase phrase1 = index1 >= phraseChunk1.size() ? null : phraseChunk1.get(index1);
 			Double x1 = phrase1 == null ? null : phrase1.getX();
 			if (SusType.SUPER.equals(susType) && phrase0 != null) {
 				phrase0.setSuscript(susType, true);
@@ -118,18 +118,18 @@ private boolean hasSuscripts;
 					break;
 				}
 				while (index1 < phraseChunk1.size()) {
-					newPhraseChunk.add(new PhraseNew(phraseChunk1.get(index1++)));
+					newPhraseChunk.add(new Phrase(phraseChunk1.get(index1++)));
 				}
 			} else if (x1 == null) {
 				while (index0 < phraseChunk0.size()) {
 					phrase0 = phraseChunk0.get(index0++);
-					newPhraseChunk.add(new PhraseNew(phrase0));
+					newPhraseChunk.add(new Phrase(phrase0));
 				}
 			} else if (x0 < x1) {
-				newPhraseChunk.add(new PhraseNew(phrase0));
+				newPhraseChunk.add(new Phrase(phrase0));
 				index0++;
 			} else {
-				newPhraseChunk.add(new PhraseNew(phrase1));
+				newPhraseChunk.add(new Phrase(phrase1));
 				index1++;
 			}
 		}
@@ -140,10 +140,10 @@ private boolean hasSuscripts;
 		if (phraseChunk == null || phraseChunk.size() < 2) {
 			return phraseChunk;
 		}
-		PhraseNew lastPhrase = null;
+		Phrase lastPhrase = null;
 		PhraseChunk newPhraseList = new PhraseChunk();
 		for (int i = 0; i < phraseChunk.size(); i++) {
-			PhraseNew phrase = phraseChunk.get(i);
+			Phrase phrase = phraseChunk.get(i);
 			LOG.trace("PH "+phrase+"/"+phrase.hasSubscript());
 			if (lastPhrase == null) {
 				// 1st phrase
@@ -152,12 +152,12 @@ private boolean hasSuscripts;
 				lastPhrase.mergePhrase(phrase);
 				LOG.trace("JOIN "+lastPhrase.toXML()+" => "+phrase);
 			} else {
-				newPhraseList.add(new PhraseNew(lastPhrase));
+				newPhraseList.add(new Phrase(lastPhrase));
 				lastPhrase = phrase;
 			}
 		}
 		if (lastPhrase != null) {
-			newPhraseList.add(new PhraseNew(lastPhrase));
+			newPhraseList.add(new Phrase(lastPhrase));
 		}
 		LOG.trace("NEW "+newPhraseList);
 		return newPhraseList;

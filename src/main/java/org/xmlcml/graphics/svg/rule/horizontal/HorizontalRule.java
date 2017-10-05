@@ -9,11 +9,11 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.IntRange;
 import org.xmlcml.graphics.svg.SVGLine;
-import org.xmlcml.graphics.svg.rule.RuleNew;
-import org.xmlcml.graphics.svg.text.build.WordNew;
-public class HorizontalRuleNew extends RuleNew {
+import org.xmlcml.graphics.svg.rule.Rule;
+import org.xmlcml.graphics.svg.text.build.Word;
+public class HorizontalRule extends Rule {
 
-	private static final Logger LOG = Logger.getLogger(HorizontalRuleNew.class);
+	private static final Logger LOG = Logger.getLogger(HorizontalRule.class);
 
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -22,9 +22,9 @@ public class HorizontalRuleNew extends RuleNew {
 	/** allowed misalignment for "same Y"*/
 	public static final double Y_TOLERANCE = 2.0;
 	
-	private List<WordNew> wordList;
+	private List<Word> wordList;
 
-	public HorizontalRuleNew(SVGLine line) {
+	public HorizontalRule(SVGLine line) {
 		super(line);
 	}
 	
@@ -33,12 +33,12 @@ public class HorizontalRuleNew extends RuleNew {
 	 * @param lines
 	 * @return
 	 */
-	public static List<HorizontalRuleNew> createSortedRulersFromSVGList(List<SVGLine> lines) {
-		List<HorizontalRuleNew> rulerList = new ArrayList<HorizontalRuleNew>();
+	public static List<HorizontalRule> createSortedRulersFromSVGList(List<SVGLine> lines) {
+		List<HorizontalRule> rulerList = new ArrayList<HorizontalRule>();
 		for (int i = 0; i < lines.size(); i++) {
 			SVGLine line = lines.get(i);
 			if (line.isHorizontal(epsilon)) {
-				HorizontalRuleNew ruler = new HorizontalRuleNew(line);
+				HorizontalRule ruler = new HorizontalRule(line);
 				rulerList.add(ruler);
 			}
 		}
@@ -73,9 +73,9 @@ public class HorizontalRuleNew extends RuleNew {
 	}
 	
 }
-class HorizontalRulerComparator implements Comparator<HorizontalRuleNew> {
+class HorizontalRulerComparator implements Comparator<HorizontalRule> {
 
-	public int compare(HorizontalRuleNew hr1, HorizontalRuleNew hr2) {
+	public int compare(HorizontalRule hr1, HorizontalRule hr2) {
 		if (hr1 == null || hr2 == null || hr1.getIntRange() == null || hr2.getIntRange() == null) {
 			return 0;
 		}

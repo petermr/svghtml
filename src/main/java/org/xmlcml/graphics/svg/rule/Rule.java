@@ -14,9 +14,9 @@ import org.xmlcml.graphics.svg.rule.horizontal.LineChunk;
 
 import nu.xom.Element;
 
-public abstract class RuleNew extends LineChunk {
+public abstract class Rule extends LineChunk {
 
-	private static final Logger LOG = Logger.getLogger(RuleNew.class);
+	private static final Logger LOG = Logger.getLogger(Rule.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -25,12 +25,12 @@ public abstract class RuleNew extends LineChunk {
 	
 	protected static double epsilon = 0.01;
 	
-	public RuleNew() {
+	public Rule() {
 		super();
 		this.setClassName(TAG);
 	}
 
-	public RuleNew(SVGLine line) {
+	public Rule(SVGLine line) {
 		this();
 		this.appendChild(line.copy());
 	}
@@ -45,8 +45,8 @@ public abstract class RuleNew extends LineChunk {
 		return (SVGLine) this.getChildElements().get(0);
 	}
 
-	public static void formatStrokeWidth(List<? extends RuleNew> rulerList, int d) {
-		for (RuleNew ruler : rulerList) {
+	public static void formatStrokeWidth(List<? extends Rule> rulerList, int d) {
+		for (Rule ruler : rulerList) {
 			ruler.formatStrokeWidth(d);
 		}
 	}
