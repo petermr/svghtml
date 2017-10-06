@@ -99,7 +99,7 @@ public abstract class SVGPoly extends SVGShape {
 //		setDefaultStyle(this);
 	}
 	
-	public static void setDefaultStyle(GraphicsElement line) {
+	public static void setDefaultStyle(SVGElement line) {
 		line.setStroke("black");
 		line.setStrokeWidth(1.0);
 	}
@@ -535,7 +535,7 @@ public abstract class SVGPoly extends SVGShape {
 		return isAligned;
 	}
 
-	public static void replacePolyLinesBySplitLines(GraphicsElement svgElement) {
+	public static void replacePolyLinesBySplitLines(SVGElement svgElement) {
 		List<SVGPolyline> polylineList = SVGPolyline.extractSelfAndDescendantPolylines(svgElement);
 		for (SVGPoly polyline : polylineList) {
 			SVGPolyline.replacePolyLineBySplitLines(polyline);

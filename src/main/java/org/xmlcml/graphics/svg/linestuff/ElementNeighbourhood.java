@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 
 /** the geometric neighbourhood of an element.
@@ -23,7 +23,7 @@ public class ElementNeighbourhood {
 		this.element = element;
 	}
 
-	public GraphicsElement getElement() {
+	public SVGElement getElement() {
 		return element;
 	}
 
@@ -61,7 +61,7 @@ public class ElementNeighbourhood {
 		}
 	}
 
-	private void remove(GraphicsElement oldElem) {
+	private void remove(SVGElement oldElem) {
 		if (neighbourList != null) {
 			if (!neighbourList.remove(oldElem))  {
 				throw new RuntimeException("cannot remove oldElem"); 

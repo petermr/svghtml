@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -39,7 +39,7 @@ public class SVGDiagram extends SVGG {
 	protected List<SVGPath> pathList;
 	protected List<SVGPolyline> polylineList;
 	protected List<SVGRoundedBox> roundedBoxList;
-	protected GraphicsElement rawDiagram;
+	protected SVGElement rawDiagram;
 
 	public SVGDiagram() {
 		super();
@@ -335,7 +335,7 @@ public class SVGDiagram extends SVGG {
 		return roundedBoxList;
 	}
 
-	public GraphicsElement getRawDiagram() {
+	public SVGElement getRawDiagram() {
 		return rawDiagram;
 	}
 

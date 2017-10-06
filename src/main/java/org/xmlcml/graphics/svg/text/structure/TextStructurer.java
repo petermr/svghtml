@@ -23,7 +23,7 @@ import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.graphics.html.HtmlElement;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -1339,7 +1339,7 @@ public class TextStructurer {
 	 * Detach every character in rawCharacters.
 	 */
 	public void detachCharacters() {
-		for (GraphicsElement character : rawCharacters) {
+		for (SVGElement character : rawCharacters) {
 			character.detach();
 		}
 	}
@@ -1425,7 +1425,7 @@ public class TextStructurer {
 	}
 
 //
-//	public FlowStructurer createFlowStructurer(GraphicsElement phraseListList) {
+//	public FlowStructurer createFlowStructurer(SVGElement phraseListList) {
 ////		createPhraseListListFromWords();
 //		flowStructurer = new FlowStructurer(phraseListList);
 //		flowStructurer.setTextStructurer(this);

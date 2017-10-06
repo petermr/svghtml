@@ -9,7 +9,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealArray.Monotonicity;
 import org.xmlcml.euclid.RealRange;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -271,7 +271,7 @@ public class AnnotatedAxis {
 		return getLineDirection().isHorizontal();
 	}
 
-	public GraphicsElement getSVGElement() {
+	public SVGElement getSVGElement() {
 		SVGG g = new SVGG();
 		g.setClassName("axis");
 		if (axisTickBox != null) {

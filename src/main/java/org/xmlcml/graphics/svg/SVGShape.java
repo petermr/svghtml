@@ -59,7 +59,7 @@ public abstract class SVGShape extends SVGElement {
 	 */
 	public static List<SVGShape> extractShapes(List<SVGElement> elements) {
 		List<SVGShape> shapeList = new ArrayList<SVGShape>();
-		for (GraphicsElement element : elements) {
+		for (SVGElement element : elements) {
 			if (element instanceof SVGShape) {
 				shapeList.add((SVGShape) element);
 			}
@@ -72,7 +72,7 @@ public abstract class SVGShape extends SVGElement {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGShape> extractSelfAndDescendantShapes(GraphicsElement svgElement) {
+	public static List<SVGShape> extractSelfAndDescendantShapes(SVGElement svgElement) {
 		return SVGShape.extractShapes(SVGUtil.getQuerySVGElements(svgElement, ALL_SHAPE_XPATH));
 	}
 

@@ -71,7 +71,7 @@ public class SVGTitle extends SVGElement {
 		super.setDefaultStyle();
 //		setDefaultStyle(this);
 	}
-	public static void setDefaultStyle(GraphicsElement line) {
+	public static void setDefaultStyle(SVGElement line) {
 		line.setStroke("black");
 		line.setStrokeWidth(1.0);
 	}

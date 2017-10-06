@@ -13,7 +13,7 @@ import org.xmlcml.graphics.html.HtmlDiv;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlTable;
 import org.xmlcml.graphics.html.HtmlUl;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.util.SVGZUtil;
@@ -160,7 +160,7 @@ public abstract class AbstractContainer {
 	protected String outputSVGList(String title, List<? extends SVGElement> svgList) {
 		StringBuilder sb = new StringBuilder();
 		if (svgList.size() < 5){
-			for (GraphicsElement element : svgList) {
+			for (SVGElement element : svgList) {
 				String s = element.toXML();
 				int l = s.length();
 				sb.append(s.subSequence(0, Math.min(80, l))+((l > 80) ? "..." : "")+"\n");

@@ -15,7 +15,7 @@ import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealArray.Monotonicity;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -279,7 +279,7 @@ public class SVGPolylineAnalyzer {
 		}
 		for (SVGMarker marker : markerList) {
 //			g.appendChild(new SVGCircle(marker.getSymbol()));
-			GraphicsElement element = marker.getSymbol();
+			SVGElement element = marker.getSymbol();
 			if (element != null) {
 				g.appendChild(element.copy());
 			} else {
@@ -390,7 +390,7 @@ public class SVGPolylineAnalyzer {
 		List<SVGPolyline> polylinesXIncreasing = getNormalizedMonotonicity(polylines, Monotonicity.INCREASING, axis);
 		BoxEdge boxEdge = (Axis2.X.equals(axis)) ? BoxEdge.XMIN : BoxEdge.YMIN;
 		List<SVGElement> sortedPolylines = BoundingBoxManager.getElementsSortedByEdge(polylinesXIncreasing, boxEdge);
-		for (GraphicsElement pp : sortedPolylines) {
+		for (SVGElement pp : sortedPolylines) {
 			SVGPoly p = (SVGPoly) pp;
 			LOG.trace(String.valueOf(p.getFirst())+" ==> "+p.getLast());
 		}
@@ -425,7 +425,7 @@ public class SVGPolylineAnalyzer {
 
 	private List<SVGPolyline> getNormalizedMonotonicity(List<SVGElement> polylines, Monotonicity monotonicity, Axis2 axis) {
 		List<SVGPolyline> polylineSubset = new ArrayList<SVGPolyline>();
-		for (GraphicsElement polylineE : polylines) {
+		for (SVGElement polylineE : polylines) {
 			SVGPolyline polyline = (SVGPolyline) polylineE;
 			Monotonicity monotonicity0  = polyline.getMonotonicity(axis);
 			if (monotonicity0 != null) {

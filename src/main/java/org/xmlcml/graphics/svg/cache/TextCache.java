@@ -7,7 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -62,7 +62,7 @@ public class TextCache extends AbstractCache {
 		this.verticalTextStyleMultiset = null;
 	}
 
-	public void extractTexts(GraphicsElement svgElement) {
+	public void extractTexts(SVGElement svgElement) {
 		List<SVGText> originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
 		textList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
 		if (useCompactOutput) {
@@ -91,7 +91,7 @@ public class TextCache extends AbstractCache {
 	}
 
 	private void appendDebugToG(SVGG g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity, double fontSize, String fontFamily) {
-		for (GraphicsElement e : elementList) {
+		for (SVGElement e : elementList) {
 			SVGText text = (SVGText) e.copy();
 			text.setCSSStyleAndRemoveOldStyle(null);
 			text.setStroke(stroke);

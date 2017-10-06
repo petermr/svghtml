@@ -23,6 +23,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.graphics.svg.text.SVGWordPage;
@@ -40,9 +41,17 @@ import nu.xom.Node;
  */
 public class SVGSVG extends SVGElement {
 
-	private final static Logger LOG = Logger.getLogger(SVGSVG.class);
+	private static final Logger LOG = Logger.getLogger(SVGSVG.class);
+	
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+	
 	public final static String TAG = "svg";
 	private static String svgSuffix = "svg";
+	private static final Double BBOX_MARGIN_X = 10.0;
+	private static final Double BBOX_MARGIN_Y = 10.0;
+	
 	private Double begin = null;
 	private Double dur = null;
 	private SVGWordPageList wordPageList;
@@ -107,7 +116,7 @@ public class SVGSVG extends SVGElement {
 	public static SVGSVG wrapAndWriteAsSVG(List<? extends SVGElement> svgList, File file) {
 		SVGG g = new SVGG();
 		if (svgList != null) {
-			for (GraphicsElement element : svgList) {
+			for (SVGElement element : svgList) {
 				g.appendChild(element.copy());
 			}
 		}
@@ -117,8 +126,16 @@ public class SVGSVG extends SVGElement {
 	/** defaults to heigh=800 width=700.
 	 * 
 	 * */
-	public static SVGSVG wrapAndWriteAsSVG(GraphicsElement svgg, File file) {
-		return wrapAndWriteAsSVG(svgg, file, 800.0, 700.0);
+	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file) {
+		if (svgg == null) {
+			return null;
+		}
+		Real2Range bbox = svgg.getBoundingBox();
+		if (bbox == null) {
+			LOG.warn("BBOX null");
+			return null;
+		}
+		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);
 	}
 	
 	/**	creates an SVGSVG wrapper for any element and outputs to file.
@@ -131,7 +148,7 @@ public class SVGSVG extends SVGElement {
 	 * @param width
 	 * @return
 	 */
-	public static SVGSVG wrapAndWriteAsSVG(GraphicsElement svgg, File file, double height, double width) {
+	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file, double height, double width) {
 		SVGSVG svgsvg = svgg instanceof SVGSVG ? (SVGSVG) svgg : new SVGSVG();
 		if (svgg != null) {
 			svgsvg = wrapAsSVG(svgg);
@@ -147,7 +164,7 @@ public class SVGSVG extends SVGElement {
 		return svgsvg;
 	}
 
-	public static SVGSVG wrapAsSVG(GraphicsElement svgg) {
+	public static SVGSVG wrapAsSVG(SVGElement svgg) {
 		SVGSVG svgsvg = null;
 		if (svgg != null) {
 			if (svgg.getParent() != null) {
@@ -192,7 +209,7 @@ public class SVGSVG extends SVGElement {
 	 * this can be used to set scales, rendering, etc.
 	 * @param element to amend (is changed)
 	 */
-	public static SVGG interposeGBetweenChildren(GraphicsElement element) {
+	public static SVGG interposeGBetweenChildren(SVGElement element) {
 		SVGG g = new SVGG();
 		element.appendChild(g);
 		while (element.getChildCount() > 1) {

@@ -86,6 +86,7 @@ public class SVGElement extends GraphicsElement {
 
 
 	private static final int EXTRA_TRANSFORM_PRECISION = 2;
+	private static final Double DEFAULT_FONT_SIZE = 8.0;
 
 //	public final static String ALL_ELEMENT_XPATH = "//svg:element";
 	public final static String ALL_ELEMENT_XPATH = "//svg:*";
@@ -1427,7 +1428,7 @@ public class SVGElement extends GraphicsElement {
 		this.applyTransformAttributeAndRemove();
 	}
 
-	public static List<SVGElement> extractSelfAndDescendantElements(GraphicsElement element) {
+	public static List<SVGElement> extractSelfAndDescendantElements(SVGElement element) {
 		return SVGUtil.getQuerySVGElements(element, ALL_ELEMENT_XPATH);
 	}
 
@@ -1436,7 +1437,7 @@ public class SVGElement extends GraphicsElement {
 		return SVGUtil.getQuerySVGElements(g, ALL_ELEMENT_XPATH);
 	}
 
-	public static List<SVGElement> getRotatedDescendantElements(GraphicsElement svgElement, Angle angle, double eps) {
+	public static List<SVGElement> getRotatedDescendantElements(SVGElement svgElement, Angle angle, double eps) {
 		List<SVGElement> elementList = SVGElement.extractSelfAndDescendantElements(svgElement);
 		List<SVGElement> filteredList = getRotatedElementList(elementList, angle, eps);
 		return filteredList;
@@ -1552,7 +1553,7 @@ public class SVGElement extends GraphicsElement {
 			if (attVal == null) {
 				attVal = this.getAttributeValue(StyleBundle.FONT_SIZE);
 			}
-			value = attVal == null ? null : StyleBundle.getDouble(attVal);
+			value = attVal == null ? DEFAULT_FONT_SIZE : StyleBundle.getDouble(attVal);
 		}
 		return value;
 	}

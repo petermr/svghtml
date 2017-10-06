@@ -3,7 +3,7 @@ package org.xmlcml.graphics.svg.text.line;
 import org.apache.log4j.Level;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.text.build.PhraseChunk;
 import org.xmlcml.graphics.svg.text.build.Phrase;
 import org.xmlcml.graphics.svg.text.build.SusType;
@@ -165,7 +165,7 @@ private boolean hasSuscripts;
 
 
 
-	public GraphicsElement mergeAll() {
+	public SVGElement mergeAll() {
 		int size = textChunk.size();
 		for (int i = 0; i < size - 1;) {
 			PhraseChunk phraseChunk0 = textChunk.get(i);
@@ -205,7 +205,7 @@ private boolean hasSuscripts;
 		return merged;
 	}
 
-	public GraphicsElement getPhraseListList() {
+	public SVGElement getPhraseListList() {
 		return textChunk;
 	}
 

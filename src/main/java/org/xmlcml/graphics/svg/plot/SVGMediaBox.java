@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -345,7 +345,7 @@ public class SVGMediaBox {
 	
 	public void writeProcessedSVG(File file) {
 		if (file != null) {
-			GraphicsElement processedSVGElement = componentCache.createSVGElement();
+			SVGElement processedSVGElement = componentCache.createSVGElement();
 			processedSVGElement.appendChild(copyAnnotatedAxes());
 			SVGSVG.wrapAndWriteAsSVG(processedSVGElement, file);
 		}

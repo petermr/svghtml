@@ -80,7 +80,7 @@ public class SVGG extends SVGElement {
         return new SVGG(this);
     }
 
-	protected void copyAttributes(GraphicsElement element) {
+	protected void copyAttributes(SVGElement element) {
 		for (int i = 0; i < element.getAttributeCount(); i++) {
 			this.addAttribute(new Attribute(element.getAttribute(i)));
 		}
@@ -119,7 +119,7 @@ public class SVGG extends SVGElement {
 	 * @param width
 	 */
 	public void setWidth(double width) {
-		String widthx = GraphicsElement.addPxUnits(String.valueOf(width));
+		String widthx = SVGElement.addPxUnits(String.valueOf(width));
 		addAttribute(new Attribute(WIDTH, widthx));
 	}
 
@@ -127,7 +127,7 @@ public class SVGG extends SVGElement {
 	 * @param height
 	 */
 	public void setHeight(double height) {
-		String heightx = GraphicsElement.addPxUnits(String.valueOf(height));
+		String heightx = SVGElement.addPxUnits(String.valueOf(height));
 		addAttribute(new Attribute(HEIGHT, heightx));
 	}
 
@@ -158,7 +158,7 @@ public class SVGG extends SVGElement {
 	 */
 	public static List<SVGG> extractGs(List<SVGElement> elements) {
 		List<SVGG> gList = new ArrayList<SVGG>();
-		for (GraphicsElement element : elements) {
+		for (SVGElement element : elements) {
 			if (element instanceof SVGG) {
 				gList.add((SVGG) element);
 			}
@@ -172,13 +172,13 @@ public class SVGG extends SVGElement {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGG> extractSelfAndDescendantGs(GraphicsElement svgElement) {
+	public static List<SVGG> extractSelfAndDescendantGs(SVGElement svgElement) {
 		return SVGG.extractGs(SVGUtil.getQuerySVGElements(svgElement, ALL_G_XPATH));
 	}
 
 	public void copyElementsFrom(List<? extends SVGElement> elementList) {
 		if (elementList != null) {
-			for (GraphicsElement element : elementList) {
+			for (SVGElement element : elementList) {
 				this.appendChild(SVGElement.readAndCreateSVG(element));
 			}
 		}
@@ -193,7 +193,7 @@ public class SVGG extends SVGElement {
 	 * @return null if not found
 	 */
 	public final static SVGG createSVGGChunk(File svgFile, String xPath, int index) {
-		GraphicsElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		List<SVGElement> elementList = SVGG.generateElementList(svgElement, xPath);
 		SVGG graphic = (elementList.size() == 0) ? null : (SVGG) elementList.get(index);
 		return graphic;

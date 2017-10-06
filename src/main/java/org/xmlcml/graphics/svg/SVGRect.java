@@ -77,7 +77,7 @@ public class SVGRect extends SVGShape {
 		super.setDefaultStyle();
 //		setDefaultStyle(this);
 	}
-	public static void setDefaultStyle(GraphicsElement rect) {
+	public static void setDefaultStyle(SVGElement rect) {
 		rect.setStroke("black");
 		rect.setStrokeWidth(1.0);
 		rect.setFill("none");
@@ -253,7 +253,7 @@ public class SVGRect extends SVGShape {
 	 */
 	public static List<SVGRect> extractRects(List<SVGElement> elements) {
 		List<SVGRect> rectList = new ArrayList<SVGRect>();
-		for (GraphicsElement element : elements) {
+		for (SVGElement element : elements) {
 			if (element instanceof SVGRect) {
 				rectList.add((SVGRect) element);
 			}
@@ -266,7 +266,7 @@ public class SVGRect extends SVGShape {
 		return getAttributeValue(X)+" "+getAttributeValue(Y)+" "+getAttributeValue(WIDTH)+" "+getAttributeValue(HEIGHT);
 	}
 
-	public static List<SVGRect> extractSelfAndDescendantRects(GraphicsElement svgElem) {
+	public static List<SVGRect> extractSelfAndDescendantRects(SVGElement svgElem) {
 		return SVGRect.extractRects(SVGUtil.getQuerySVGElements(svgElem, ALL_RECT_XPATH));
 	}
 

@@ -91,7 +91,7 @@ public class SVGTSpan extends SVGText {
 	 */
 	public static List<SVGTSpan> extractTSpans(List<SVGElement> elements) {
 		List<SVGTSpan> tSpanList = new ArrayList<SVGTSpan>();
-		for (GraphicsElement element : elements) {
+		for (SVGElement element : elements) {
 			if (element instanceof SVGTSpan) {
 				tSpanList.add((SVGTSpan) element);
 			}

@@ -87,7 +87,7 @@ public class SVGCircle extends SVGShape {
 	 * 
 	 * @param circle
 	 */
-	public static void setDefaultStyle(GraphicsElement circle) {
+	public static void setDefaultStyle(SVGElement circle) {
 		circle.setStroke("black");
 		circle.setStrokeWidth(0.5);
 		circle.setFill("#aaffff");
@@ -277,7 +277,7 @@ public class SVGCircle extends SVGShape {
 	 */
 	public static List<SVGCircle> extractCircles(List<SVGElement> elements) {
 		List<SVGCircle> circleList = new ArrayList<SVGCircle>();
-		for (GraphicsElement element : elements) {
+		for (SVGElement element : elements) {
 			if (element instanceof SVGCircle) {
 				circleList.add((SVGCircle) element);
 			}
@@ -290,7 +290,7 @@ public class SVGCircle extends SVGShape {
 		return getAttributeValue(CX)+" "+getAttributeValue(CY)+" "+getAttributeValue(R);
 	}
 
-	public static List<SVGCircle> extractSelfAndDescendantCircles(GraphicsElement element) {
+	public static List<SVGCircle> extractSelfAndDescendantCircles(SVGElement element) {
 		return SVGCircle.extractCircles(SVGUtil.getQuerySVGElements(element, ALL_CIRCLE_XPATH));
 	}
 

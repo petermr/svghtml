@@ -7,7 +7,7 @@ import java.util.Map;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGEllipse;
@@ -179,12 +179,12 @@ public class ShapeCache extends AbstractCache {
 	}
 	
 	public static void addList(SVGG g, List<? extends SVGElement> list) {
-		for (GraphicsElement element : list) {
+		for (SVGElement element : list) {
 			g.appendChild(element.copy());
 		}
 	}
 
-	public void createListsOfShapes(GraphicsElement svgElement) {
+	public void createListsOfShapes(SVGElement svgElement) {
 		List<SVGCircle> circles = SVGCircle.extractSelfAndDescendantCircles(svgElement);
 		circleList.addAll(circles);
 		List<SVGEllipse> ellipses = SVGEllipse.extractSelfAndDescendantEllipses(svgElement);
@@ -222,7 +222,7 @@ public class ShapeCache extends AbstractCache {
 		SVGElement.removeElementsInsideBox(unknownShapeList, positiveXBox);
 	}
 
-	public void extractShapes(List<SVGPath> pathList, GraphicsElement svgElement) {
+	public void extractShapes(List<SVGPath> pathList, SVGElement svgElement) {
 		convertToShapes(pathList);
 		createListsOfShapes(svgElement);
 		removeElementsOutsideBox(ownerComponentCache.getPositiveXBox());
@@ -250,7 +250,7 @@ public class ShapeCache extends AbstractCache {
 	}
 
 	private void debug(SVGG g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity) {
-		for (GraphicsElement e : elementList) {
+		for (SVGElement e : elementList) {
 			SVGShape shape = (SVGShape) e.copy();
 			SVGShape shape1 = (SVGShape) shape.copy();
 			Double strokeWidth = shape.getStrokeWidth();

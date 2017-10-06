@@ -11,7 +11,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -60,7 +60,7 @@ public class PathCache extends AbstractCache{
 	 * currently simply extracts paths without splitting, etc.
 	 * @param svgElement
 	 */
-	public void extractPaths(GraphicsElement svgElement) {
+	public void extractPaths(SVGElement svgElement) {
 		this.originalPathList = SVGPath.extractPaths(svgElement);
 		SVGPath.addSignatures(originalPathList);
 		positiveBoxPathList = new ArrayList<SVGPath>(originalPathList);
@@ -82,7 +82,7 @@ public class PathCache extends AbstractCache{
 		pathBoxColor = "orange";
 	}
 
-	public GraphicsElement analyzePaths(List<SVGPath> pathList) {
+	public SVGElement analyzePaths(List<SVGPath> pathList) {
 		this.pathList = pathList;
 		SVGG g = new SVGG();
 		g.setClassName("paths");

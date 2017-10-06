@@ -11,7 +11,7 @@ import org.xmlcml.graphics.html.HtmlI;
 import org.xmlcml.graphics.html.HtmlSpan;
 import org.xmlcml.graphics.html.HtmlSub;
 import org.xmlcml.graphics.html.HtmlSup;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
 
@@ -70,7 +70,7 @@ public class StyleSpan {
 	public HtmlElement createHtmlElement() {
 		HtmlElement htmlElement = new HtmlSpan();
 		HtmlElement currentHtml = htmlElement;
-		GraphicsElement character = (characterList.size() == 0) ? null : characterList.get(0);
+		SVGElement character = (characterList.size() == 0) ? null : characterList.get(0);
 		String suscript = (character == null) ? null : SVGUtil.getSVGXAttribute(character, ScriptLine.SUSCRIPT); 
 		boolean sub = ScriptLine.SUB.equals(suscript);
 		boolean sup = ScriptLine.SUP.equals(suscript);
@@ -179,7 +179,7 @@ public class StyleSpan {
 	
 	public Double getFontSize() {
 		Double fontSize = null;
-		for (GraphicsElement character : characterList) {
+		for (SVGElement character : characterList) {
 			Double fontSize0 = character.getFontSize();
 			
 			// skip inserted spaces
