@@ -259,5 +259,9 @@ public class PathCache extends AbstractCache{
 		
 	}
 
+	public void addAll(List<SVGPath> newPaths) {
+		getCurrentPathList().addAll(newPaths);
+	}
+
 
 }

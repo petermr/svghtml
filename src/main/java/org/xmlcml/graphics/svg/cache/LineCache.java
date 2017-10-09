@@ -414,6 +414,14 @@ public class LineCache extends AbstractCache {
 		lineBbox = null;
 	}
 
+	public void add(SVGLine line) {
+		getOrCreateLineList().add(line);
+	}
+
+	public void addLines(List<SVGLine> lineList) {
+		getOrCreateLineList().addAll(lineList);
+	}
+
 
 
 	

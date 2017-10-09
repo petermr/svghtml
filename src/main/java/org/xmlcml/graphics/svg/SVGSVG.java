@@ -127,14 +127,9 @@ public class SVGSVG extends SVGElement {
 	 * 
 	 * */
 	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file) {
-		if (svgg == null) {
-			return null;
-		}
+		if (svgg == null) return null;
 		Real2Range bbox = svgg.getBoundingBox();
-		if (bbox == null) {
-			LOG.warn("BBOX null");
-			return null;
-		}
+		if (bbox == null) return null;
 		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);
 	}
 	
@@ -148,7 +143,7 @@ public class SVGSVG extends SVGElement {
 	 * @param width
 	 * @return
 	 */
-	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file, double height, double width) {
+	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file, double width, double height) {
 		SVGSVG svgsvg = svgg instanceof SVGSVG ? (SVGSVG) svgg : new SVGSVG();
 		if (svgg != null) {
 			svgsvg = wrapAsSVG(svgg);

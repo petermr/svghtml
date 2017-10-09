@@ -6,6 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.euclid.Transform2;
+import org.xmlcml.euclid.Vector2;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -97,23 +99,70 @@ public class Baudot {
 		rect.setCSSStyle(rectStyle);
 		gg.appendChild(rect);
 		
+		double standHeight = holesWidth + namesWidth + holesWidth;
+		createStandAndSlot(gg, standHeight, tapeWidth, tapeBottom, rectStyle);
+		return gg;
+	}
+
+	private void createStandAndSlot(SVGG gg, double standHeight, double tapeWidth, double tapeBottom,
+			String rectStyle) {
 		double standTopY = tapeBottom + deltay;
-		double standWidth = holesWidth + namesWidth + holesWidth;
-		double standHeight = tapeWidth;
+		double standWidth = tapeWidth;
 		double standBottom = standTopY + standHeight;
 		SVGRect stand = new SVGRect(new Real2(0, standTopY), new Real2(standWidth, standBottom));
 		stand.setCSSStyle(rectStyle);
 		gg.appendChild(stand);
-		double slotWidth = 20.; // this is the thickness of the acrylic;
-		double standSlotX = standWidth / 2. - tapeWidth / 2.;
-		double standSlotY = standTopY + standHeight / 2. - slotWidth / 2.;
-		SVGRect standSlot = new SVGRect(new Real2(standSlotX, standSlotY), new Real2(standSlotX + tapeWidth, standSlotY + slotWidth));
+		double slotWidth = 10.8; // this is the thickness of the acrylic; // trial and error
+		double standSlotX = tapeWidth / 2. - slotWidth / 2.;
+		double standSlotY = standTopY + standHeight / 2. - tapeWidth / 2.;
+		SVGRect standSlot = new SVGRect(new Real2(standSlotX, standSlotY), new Real2(standSlotX + slotWidth, standSlotY + tapeWidth));
 		standSlot.setCSSStyle(rectStyle);
 		gg.appendChild(standSlot);
-		return gg;
 	}
 	
 	public static void main(String[] args) {
+		example1();
+		example2();
+	}
+
+	private static void example2() {
+		SVGG g = new SVGG();
+		Baudot baudot = new Baudot();
+		
+		baudot.createSVG("LAURA TOM BBB 2017", new File("target/baudot/lauratom1.svg"));
+		baudot.createSVG("JUDITH PETER BBB 2017", new File("target/baudot/judithpeter.svg"));
+		baudot.createSVG("ALAN BBB 2017", new File("target/baudot/alan.svg"));
+		baudot.createSVG("SUE BBB 2017", new File("target/baudot/sue.svg"));
+		baudot.createSVG("LIZ NEIL BBB 2017", new File("target/baudot/lizneil.svg"));
+		baudot.createSVG("TERESA DAVE BBB 2017", new File("target/baudot/daveteresa.svg"));
+
+		double x = 250.0;
+		double delta = 250.0;
+		SVGG gg = baudot.getSVGElement("LAURA TOM BBB 2017");
+		g.appendChild(gg);
+		gg = baudot.getSVGElement("JUDITH PETER BBB 2017");
+		gg.setTransform(new Transform2(new Vector2(x, 0.0)));
+		g.appendChild(gg);
+		gg = baudot.getSVGElement("ALAN BBB 2017");
+		x += delta;
+		gg.setTransform(new Transform2(new Vector2(x, 0.0)));
+		g.appendChild(gg);
+		gg = baudot.getSVGElement("SUE BBB 2017");
+		x += delta;
+		gg.setTransform(new Transform2(new Vector2(x, 0.0)));
+		g.appendChild(gg);
+		gg = baudot.getSVGElement("LIZ NEIL BBB 2017");
+		x += delta;
+		gg.setTransform(new Transform2(new Vector2(x, 0.0)));
+		g.appendChild(gg);
+		gg = baudot.getSVGElement("TERESA DAVE BBB 2017");
+		x += delta;
+		gg.setTransform(new Transform2(new Vector2(x, 0.0)));
+		g.appendChild(gg);
+		SVGSVG.wrapAndWriteAsSVG(g, new File("target/baudot/edinburgh.svg"), x + delta, 1200.0);
+	}
+
+	private static Baudot example1() {
 		Baudot baudot = new Baudot();
 		System.out.println(baudot.getCode("C"));
 		SVGG g = baudot.getCode("C").getSVG(10., 20.);
@@ -132,6 +181,13 @@ public class Baudot {
 		String s =  "DAVE 40TH 2017";
 		g = baudot.getSVGElement(s);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/baudot/david.svg"));
+		return baudot;
+	}
+
+	private SVGG createSVG(String s, File outfile) {
+		SVGG g = this.getSVGElement(s);
+		SVGSVG.wrapAndWriteAsSVG(g, outfile);
+		return g;
 	}
 
 	private SVGG getSVGElement(String s) {
@@ -156,6 +212,8 @@ class Code {
 	}
 	
 	public SVGG getSVG(double deltax, double y) {
+		String FILL = "black";
+		String STROKE = "none";
 		this.deltax = deltax;
 		SVGG g = new SVGG();
 		System.out.println(">>"+holes);
@@ -176,7 +234,7 @@ class Code {
 		String font = "Arial";
 		if (character.equals("I")) x += deltax*0.2;
 		SVGText t = new SVGText(new Real2(x+(deltax*0.3), y+deltax*0.85), character);
-		t.setCSSStyle("font-family:" + font + ";font-size:"+(deltax*0.85)+";fill:black;stroke:none;");
+		t.setCSSStyle("font-family:" + font + ";font-size:"+(deltax*0.85)+";fill:"+FILL+";stroke:"+STROKE+";font-weight:bold;");
 		g.appendChild(t);
 		return g;
 	}

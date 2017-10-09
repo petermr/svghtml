@@ -335,4 +335,14 @@ public class ShapeCache extends AbstractCache {
 		convertedShapeList = null;
 	}
 
+	public void add(SVGShape shape) {
+		getOrCreateConvertedShapeList();
+		convertedShapeList.add(shape);
+	}
+
+	public void addAll(List<SVGShape> shapeList) {
+		getOrCreateConvertedShapeList();
+		convertedShapeList.addAll(shapeList);
+	}
+
 }
