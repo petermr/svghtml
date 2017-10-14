@@ -47,7 +47,6 @@ import nu.xom.ParentNode;
  * 
  * @author pm286
  */
-//@Deprecated // use SVG
 public class Path2ShapeConverter {
 
 
@@ -1137,30 +1136,16 @@ public class Path2ShapeConverter {
 
 	/**
 	 * Converts circles represented as polygons (closed paths) into SVG circles
-	 * <p>
-	 * TODO
+	 * takes reasonable default
+	 * doesn't seem to be used. Maybe because of estimating deviations.
 	 * 
 	 * @param polygon
 	 * @return circle
 	 */
 	public SVGCircle convertToCircle(SVGPolygon polygon) {
-		Real2Range bbox = polygon.getBoundingBox();
-		SVGCircle circle = null;
-		double eps = 10 * RECT_EPS;//Why not?
-		if (Math.abs(bbox.getXRange().getRange() - bbox.getYRange().getRange()) < eps) {
-			Real2 centre = bbox.getCentroid();
-			RealArray radArray = new RealArray();
-			for (Real2 point : polygon.getReal2Array()) {
-				radArray.addElement(centre.getDistance(point));
-			}
-			circle = new SVGCircle();
-			circle.copyAttributesFrom(polygon);
-			circle.setRad(radArray.getMean());
-			circle.setCXY(centre);
-		}
-		return circle;
+		return polygon.convertToCircle(10 * RECT_EPS);//Why not?
 	}
-	
+
 	/**
 	 * Converts narrow rectangles into lines
 	 * <p>

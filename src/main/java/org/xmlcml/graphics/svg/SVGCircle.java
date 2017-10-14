@@ -25,7 +25,9 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
 
@@ -329,5 +331,38 @@ public class SVGCircle extends SVGShape {
 		return arc;
 		
 	}
+
+	/** calculate distances of an array of points from centre.
+	 *  
+	 * @return distances
+	 */
+	public RealArray calculateDistancesFromCentre(Real2Array points) {
+		RealArray deviations = new RealArray();
+		Real2 centre = getXY();
+		for (Real2 point : points) {
+			deviations.addElement(centre.getDistance(point));
+		}
+		return deviations;
+		
+	}
 	
+	/** calculate signed distances of an array of points from nearest point on circumference.
+	 *  
+	 * @return distances
+	 */
+	public RealArray calculateSignedDistancesFromCircumference(Real2Array points) {
+		double rad = getRad();
+		RealArray deviations = calculateDistancesFromCentre(points);
+		deviations = deviations.addScalar(-1.0 * rad);
+		return deviations;
+	}
+	
+	/** calculate unsigned distances of an array of points from nearest point on circumference.
+	 *  
+	 * @return distances
+	 */
+	public RealArray calculateUnSignedDistancesFromCircumference(Real2Array points) {
+		RealArray deviations = calculateSignedDistancesFromCircumference(points);
+		return deviations.getAbsoluteValues();
+	}
 }

@@ -28,6 +28,7 @@ import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealArray;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -252,5 +253,58 @@ public class SVGPolygon extends SVGPoly {
 		return hasMirror;
 	}
 
+	/** crude circle generator.
+	 * assumes all points are on circle and simply creates averages.
+	 * does not check points are coincident or collinear.
+	 * For more precise answers use Least Squares or other fitters.
+	 * 
+	 * @param maxMeanDevation from circumference
+	 * @return null if <2 points or mean deviation > maxMeanDeviation
+	 */
+	public SVGCircle createCircle(double maxMeanDevation) {
+		SVGCircle circle = null;
+		if (real2Array != null && real2Array.size() >= 2) {
+			Real2 centre = real2Array.getMean();
+			double radsum = 0.0;
+			for (Real2 point : real2Array) {
+				radsum += centre.getDistance(point);
+			}
+			centre = centre.multiplyBy(1.0 / real2Array.size());
+			circle = new SVGCircle(real2Array.getMean(), radsum / real2Array.size());
+			RealArray deviations = circle.calculateUnSignedDistancesFromCircumference(real2Array);
+			double meanDeviation = deviations.absSumAllElements() / real2Array.size();
+			if (meanDeviation < maxMeanDevation) {
+				circle.copyAttributesFrom(this);
+			} else {
+				circle = null;
+			}
+		}
+		return circle;
+		
+	}
+
+	/**
+	 * Converts circles represented as polygons (closed paths) into SVG circles
+	 * <p>
+	 * 
+	 * @param eps deviation from squareness
+	 * @return circle
+	 */
+	public SVGCircle convertToCircle(double eps) {
+		Real2Range bbox = getBoundingBox();
+		SVGCircle circle = null;
+		if (bbox.isSquare(eps)) {
+			Real2 centre = bbox.getCentroid();
+			RealArray radArray = new RealArray();
+			for (Real2 point : getReal2Array()) {
+				radArray.addElement(centre.getDistance(point));
+			}
+			circle = new SVGCircle();
+			circle.copyAttributesFrom(this);
+			circle.setRad(radArray.getMean());
+			circle.setCXY(centre);
+		}
+		return circle;
+	}
 
 }

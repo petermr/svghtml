@@ -22,7 +22,7 @@ public class ColorStore {
 
 	public enum ColorizerType {
 		CONTRAST(new Color[] {
-			Color.BLACK,
+//			Color.BLACK,
 			Color.BLUE,
 			Color.CYAN,
 			Color.DARK_GRAY,
@@ -33,8 +33,8 @@ public class ColorStore {
 			Color.ORANGE,
 			Color.PINK,
 			Color.RED,
-			Color.YELLOW,
-			}),
+			new Color(0x99, 0x66, 0x00), //brown
+		}),
 		HUGE(new Color[] {
 		      new Color(0x99, 0x00, 0x99),  //purple
 		      new Color(0xcc, 0x33, 0x00),  //red
