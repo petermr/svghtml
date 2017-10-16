@@ -860,6 +860,10 @@ public class SVGLine extends SVGShape {
 		return false;
 	}
 
+	Angle getAngleMadeWith(SVGLine line1) {
+		return line1 == null ? null : getEuclidLine().getAngleMadeWith(line1.getEuclidLine());
+	}
+
 	/** lines outside y=0 are not part of the plot but confuse calculation of
 	 * bounding box 
 	 * @param lineList

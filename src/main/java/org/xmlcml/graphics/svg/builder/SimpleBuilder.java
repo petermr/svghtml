@@ -137,6 +137,9 @@ public class SimpleBuilder {
 		this.timeout = timeout;
 	}
 
+	public SimpleBuilder() {
+	}
+
 	public void setSvgRoot(SVGElement svgRoot) {
 		this.svgRoot = svgRoot;
 		makeCaches(svgRoot);
@@ -206,7 +209,7 @@ public class SimpleBuilder {
 				polygon = ((SVGPolyline) polyline).createPolygon(pointEquivalenceEpsilon);
 			}
 			if (polygon.createLineList(true).size() < maximumEdgesForAbstraction) {
-				abstractPolygon(polygon);
+				normalizeToSmallestMeaningfulPoly(polygon, true);
 			}
 			if (polygon.createLineList(true).size() == 3 || polygon.createLineList(true).size() == 4) {
 				pathsIt.remove(polygon);
@@ -215,7 +218,7 @@ public class SimpleBuilder {
 		}
 		removeNearDuplicateAndObscuredPrimitives();
 		sewTogetherCutPolygons();
-		abstractPolygons();
+		getSmallestMeaningfulPolygons();
 		convertLinelikePolygonsToLines();
 		removeNearDuplicateAndObscuredPrimitives();
 		sewTogetherCutLines();
@@ -722,20 +725,12 @@ public class SimpleBuilder {
 		pathCache.addAll(newPaths);
 	}
 
-	private void abstractPolygons() {
+	private void getSmallestMeaningfulPolygons() {
 		for (SVGPolygon polygon : shapeCache.getPolygonList()) {
 			if (polygon.createLineList(true).size() < maximumEdgesForAbstraction) {
-				abstractPolygon(polygon);
+				normalizeToSmallestMeaningfulPoly(polygon, true);
 			}
 		}
-	}
-	
-	public void abstractPolygon(SVGPolygon polygon) {
-		getSmallestMeaningfulPoly(polygon, true);
-	}
-	
-	public void abstractPolyline(SVGPolyline polyline) {
-		getSmallestMeaningfulPoly(polyline, false);
 	}
 	
 	public static double area(Real2Array points) {
@@ -756,7 +751,7 @@ public class SimpleBuilder {
 	 * @param closed
 	 * @param maxAngleForCorner
 	 */
-	protected void getSmallestMeaningfulPoly(SVGPoly poly, boolean closed) {
+	public void normalizeToSmallestMeaningfulPoly(SVGPoly poly, boolean closed) {
 		Real2Array points = poly.getReal2Array();
 		if (points.size() <= 3) {
 			return;

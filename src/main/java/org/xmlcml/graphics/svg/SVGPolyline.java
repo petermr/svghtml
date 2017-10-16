@@ -28,6 +28,7 @@ import org.xmlcml.euclid.Line2;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
@@ -665,6 +666,27 @@ public class SVGPolyline extends SVGPoly {
 			}
 		}
 		return polylineList;
+	}
+
+	public RealArray getDistances() {
+		getLineList();
+		RealArray distances = new RealArray();
+		for (SVGLine line : lineList) {
+			distances.addElement(line.getLength());
+		}
+		return distances;
+	}
+
+	public RealArray getAngles() {
+		getLineList();
+		RealArray angles = new RealArray();
+		for (int i = 0; i < size() - 1; i++) {
+			SVGLine line0 = lineList.get(i);
+			SVGLine line1 = lineList.get(i + 1);
+			Angle angle = line0.getAngleMadeWith(line1);
+			angles.addElement(angle == null ? Double.NaN : angle.getRadian());
+		}
+		return angles;
 	}
 
 }
