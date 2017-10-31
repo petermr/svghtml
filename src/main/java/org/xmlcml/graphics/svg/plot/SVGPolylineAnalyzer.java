@@ -235,7 +235,6 @@ public class SVGPolylineAnalyzer {
 	private RealArray extractAndScaleCoords(Axis axis, RealArray pixelCoords) {
 		RealArray valueCoords = axis.createScaledArrayToRange(pixelCoords);
 		if (valueCoords != null) {
-//			GraphUtil.format(valueCoords, PDFAnalyzerOptions.PLACES);
 			GraphUtil.format(valueCoords, PLACES);
 		}
 		return valueCoords;
