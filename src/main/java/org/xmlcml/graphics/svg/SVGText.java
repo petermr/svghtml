@@ -421,7 +421,7 @@ public class SVGText extends SVGElement {
 					} else if (text.equals(" ")) {
 						// space without width
 					} else {
-						LOG.info("Missing svgx:width? found strange Null text "+text+"/"+String.valueOf(((int) text.charAt(0))));
+						LOG.trace("Missing svgx:width? found strange Null text "+text+"/"+String.valueOf(((int) text.charAt(0))));
 					}
 				}
 				height = getFontSize() * fontWidthFactor;
