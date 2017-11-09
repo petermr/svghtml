@@ -52,7 +52,7 @@ public class SVGBarredPointTest {
 		List<SVGLineList> lineListList = SVGPath.createLineListListFromPaths(pathList, null);
 		SVGBarredPoint barredPoint0 = SVGBarredPoint.createPoint(circleList.get(0));
 		Assert.assertNotNull("bar not null", barredPoint0);
-		Assert.assertEquals("point0", "[org.xmlcml.graphics.svg.SVGCircle: circle]; (350.28,248.7); bars: []", barredPoint0.toString());
+		Assert.assertEquals("point0", "shape: class org.xmlcml.graphics.svg.SVGCircle; <circle xmlns=\"http://www.w3.org/2000/svg\" cx=\"350.28\" cy=\"248.70000000000002\" r=\"1.297868444797087\" />; (350.28,248.7); bars: []", barredPoint0.toString());
 		SVGLineList lineList0 = lineListList.get(0);
 		SVGLine line0 = lineList0.get(0);
 		line0.format(3);
