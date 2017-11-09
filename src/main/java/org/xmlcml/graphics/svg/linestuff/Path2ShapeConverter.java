@@ -49,8 +49,6 @@ import nu.xom.ParentNode;
  */
 public class Path2ShapeConverter {
 
-
-
 	/** tag as having created line from narrow shapes
 	 * 
 	 */
@@ -297,6 +295,7 @@ public class Path2ShapeConverter {
 		}
 		SVGShape shape = null;
 		SVGShape polygon = null;
+		SVGPolyline polyline = null;
 		SVGShape triangle = null;
 		SVGShape rect = null;
 		shape = createRectOrAxialLine(path, rectEpsilon);
@@ -307,11 +306,13 @@ public class Path2ShapeConverter {
 			shape = path.createCircle(CIRCLE_EPS);
 		}
 		if (shape == null) {
-			SVGPolyline polyline = (SVGPolyline) path.createPolyline();
+			polyline = (SVGPolyline) path.createPolyline();
+			LOG.trace("polyline: "+polyline);
 			//Not a polyline, return unchanged path
 			if (polyline == null) {
 				shape = new SVGPath(path);
 			} else {
+				LOG.trace("POLY:"+polyline);
 				//SVG is a polyline, try the variants
 				//Is it a line?
 				shape = polyline.createSingleLine();
@@ -343,6 +344,8 @@ public class Path2ShapeConverter {
 			shape = applyHeuristics((SVGPath)shape);
 		}
 		copyAttributesIncludingSpecialCases(path, shape);
+		LOG.trace("shape: "+shape.getClass()+" shape: "+shape);
+		if (shape instanceof SVGPolyline) LOG.trace("POLYLINE "+shape);
 		return shape;
 	}
 

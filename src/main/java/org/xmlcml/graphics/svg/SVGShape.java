@@ -218,5 +218,9 @@ public abstract class SVGShape extends SVGElement {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return "shape: "+this.getClass()+"; "+this.toXML();
+	}
 	
 }

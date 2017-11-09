@@ -27,8 +27,6 @@ public class RectCache extends AbstractCache {
 	private List<SVGRect> rectList;
 	private List<SVGRect> horizontalPanelList;
 	private double DEFAULT_PANEL_EPS;
-	private ShapeCache siblingShapeCache;
-
 	private RectCache() {
 		
 	}

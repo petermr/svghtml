@@ -15,17 +15,21 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
+import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
-import org.xmlcml.graphics.svg.cache.LineCache;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
+import org.xmlcml.graphics.svg.cache.LineCache;
+import org.xmlcml.graphics.svg.cache.PolylineCache;
+import org.xmlcml.graphics.svg.cache.RectCache;
+import org.xmlcml.graphics.svg.cache.ShapeCache;
+import org.xmlcml.graphics.svg.cache.TextCache;
 
 /** creates axes from ticks, scales, titles.
  * 
@@ -52,6 +56,7 @@ public class SVGMediaBox {
 			this.direction = direction;
 			this.outsidePositive = outsidePositive;
 		}
+		
 		public static int getSerial(AxisType axisType) {
 			for (int i = 0; i < values().length; i++) {
 				if (values()[i].equals(axisType)) {
@@ -186,6 +191,55 @@ public class SVGMediaBox {
 		extractDataScreenPoints();
 		scaleDataPointsToValues();
 		createCSVContent();
+		writeProcessedSVG(svgOutFile);
+		writeCSV(csvOutFile);
+	}
+
+	public void readAndCreateBarPlot(SVGElement svgElement) {
+		componentCache = new ComponentCache(this);
+		componentCache.setFileRoot(fileRoot);
+		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
+		// these need changing for bar plots
+		RectCache rectCache = componentCache.getOrCreateRectCache();
+		LOG.debug("rect "+rectCache);
+		SVGElement rectCacheSVG = rectCache.getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(rectCacheSVG, new File("target/bar/rect.svg"));
+
+		LineCache lineCache = componentCache.getOrCreateLineCache();
+		LOG.debug("line "+lineCache);
+		SVGElement lineCacheSVG = lineCache.getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(lineCacheSVG, new File("target/bar/line.svg"));
+		
+		TextCache textCache = componentCache.getOrCreateTextCache();
+		LOG.debug("text "+textCache);
+		SVGElement textCacheSVG = textCache.getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(textCacheSVG, new File("target/bar/text.svg"));
+		List<SVGText> horTextList = textCache.getOrCreateHorizontalTexts();
+		SVGSVG.wrapAndWriteAsSVG(horTextList, new File("target/bar/hortext.svg"));
+		List<SVGText> verTextList = textCache.getOrCreateVerticalTexts();
+		SVGSVG.wrapAndWriteAsSVG(verTextList, new File("target/bar/vertext.svg"));
+//		SVGPhraseList phraseList = new SVG PhraseList();
+
+		
+		ShapeCache shapeCache = componentCache.getOrCreateShapeCache();
+		SVGElement shapeCacheSVG = shapeCache.getOrCreateConvertedSVGElement();
+		LOG.debug("shapes: "+shapeCache);
+		SVGSVG.wrapAndWriteAsSVG(shapeCacheSVG, new File("target/bar/shape.svg"));
+
+		List<SVGPolyline> polylineList = shapeCache.getPolylineList();
+		LOG.debug("polylines "+polylineList);
+//		PolylineCache polylineCache = componentCache.getOrCreatePolylineCache();
+//		SVGElement polylineCacheSVG = polylineCache.getOrCreateConvertedSVGElement();
+//		LOG.debug("polyline "+polylineCacheSVG.toXML());
+		SVGSVG.wrapAndWriteAsSVG(polylineList, new File("target/bar/polyline.svg"));
+
+//		makeAxialTickBoxesAndPopulateContents();
+//		makeRangesForAxes();
+//		extractScaleTextsAndMakeScales();
+//		extractTitleTextsAndMakeTitles();
+//		extractDataScreenPoints();
+//		scaleDataPointsToValues();
+//		createCSVContent();
 		writeProcessedSVG(svgOutFile);
 		writeCSV(csvOutFile);
 	}

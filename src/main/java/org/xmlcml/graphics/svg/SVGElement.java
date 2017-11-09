@@ -1301,6 +1301,17 @@ public class SVGElement extends GraphicsElement {
 		return containedElements;
 	}
 
+	public void detachDescendantElementsOutsideBox(Real2Range bbox) {
+		List<SVGElement> descendants = SVGElement.extractSelfAndDescendantElements(this);
+		for (SVGElement descendant : descendants) {
+			if (descendant != this) {
+				if (!bbox.includes(descendant.getBoundingBox())) {
+					descendant.detach();
+				}
+			}
+		}
+	}
+
 	/** elements filtered by yrange
 	 * 
 	 * @param textList

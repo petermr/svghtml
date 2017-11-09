@@ -1,5 +1,6 @@
 package org.xmlcml.graphics.svg.cache;
 
+import java.security.acl.Owner;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,7 +61,6 @@ public class ContentBoxCache extends AbstractCache {
 			contentBoxCache = new ContentBoxCache(rectCache.getOwnerComponentCache());
 			SVGElement.setBoundingBoxCached(rectCache.getOrCreateRectList(), true);
 			textChunkCache.setBoundingBoxCached(true);
-			LOG.debug("ContentBoxCache");
 			contentBoxCache.createContentBoxList(rectCache, textChunkCache);
 		}
 		return contentBoxCache;

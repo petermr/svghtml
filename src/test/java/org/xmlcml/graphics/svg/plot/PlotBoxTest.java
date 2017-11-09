@@ -54,7 +54,7 @@ public class PlotBoxTest {
 	}
 	
 	@Test
-	@Ignore // too long
+//	@Ignore // too long
 	public void testConvertAllSVG2CSV() throws IOException {
 		String[] fileRoots = {
 				"bakkerplot", // OK

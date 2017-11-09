@@ -17,7 +17,6 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.RealRange.Direction;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -154,9 +153,10 @@ public class ComponentCache extends AbstractCache {
 	private ImageCache imageCache;
 	private PathCache pathCache;
 	private TextCache textCache;
+	private PolylineCache polylineCache;
 	private LineCache lineCache;
 	private RectCache rectCache;
-	private ShapeCache shapeCache;
+	ShapeCache shapeCache; // can be accessed by siblings
 	private ContentBoxCache contentBoxCache;
 	private TextChunkCache textChunkCache;
 	// other caches as they are developed
@@ -295,7 +295,7 @@ public class ComponentCache extends AbstractCache {
 			shapeCache = new ShapeCache(this);
 			List<SVGPath> currentPathList = this.pathCache.getCurrentPathList();
 			this.getOrCreateShapeCache().extractShapes(currentPathList, originalSvgElement);
-			List<SVGShape> shapeList = /*getOrCreateShapeCache()*/shapeCache.getOrCreateConvertedShapeList();
+			List<SVGShape> shapeList = shapeCache.getOrCreateConvertedShapeList();
 			addElementsToExtractedElement(shapeList);
 		}
 		return shapeCache;
@@ -313,6 +313,14 @@ public class ComponentCache extends AbstractCache {
 			this.rectCache = new RectCache(this);
 		}
 		return rectCache;
+	}
+
+	public PolylineCache getOrCreatePolylineCache() {
+		if (polylineCache == null) {
+			this.polylineCache = new PolylineCache(this);
+//			polylineCache.setSiblingShapeCache(shapeCache);
+		}
+		return polylineCache;
 	}
 
 	public TextChunkCache getOrCreateTextChunkCache() {
@@ -335,6 +343,7 @@ public class ComponentCache extends AbstractCache {
 //			this.contentBoxCache = new ContentBoxCache(this);
 			contentBoxCache = ContentBoxCache.createCache(rectCache, textChunkCache);
 			contentBoxCache.getOrCreateConvertedSVGElement();
+			LOG.trace("poly1 "+contentBoxCache.ownerComponentCache.shapeCache.getPolylineList());
 			contentBoxCache.getOrCreateContentBoxGrid();
 
 		}
@@ -628,6 +637,8 @@ public class ComponentCache extends AbstractCache {
 		getOrCreateShapeCache();
 		getOrCreateLineCache();
 		getOrCreateRectCache();
+		getOrCreatePolylineCache();
+//		getOrCreateRectCache();
 		// TEXT
 		getOrCreateTextChunkCache();
 		// COMBINED OBJECTS
@@ -740,7 +751,7 @@ public class ComponentCache extends AbstractCache {
 	public void removeBorderingRects() {
 		Real2Range outerBbox = this.getBoundingBox();
 		List<SVGRect> rectList = rectCache.getOrCreateRectList();
-		LOG.debug("pre removal rect bbox "+outerBbox + "; "+rectCache.getOrCreateRectList().size());
+		LOG.trace("pre removal rect bbox "+outerBbox + "; "+rectCache.getOrCreateRectList().size());
 		boolean removed = false;
 		for (int i = rectList.size() - 1; i >= 0; i--) {
 			SVGRect rect = rectList.get(i);
@@ -753,7 +764,7 @@ public class ComponentCache extends AbstractCache {
 		if (removed) {
 			rectCache.clearAll();
 			outerBbox = rectCache.getBoundingBox();
-			LOG.debug("post removal rect bbox "+outerBbox + "; "+rectCache.getOrCreateRectList().size());
+			LOG.trace("post removal rect bbox "+outerBbox + "; "+rectCache.getOrCreateRectList().size());
 		}
 		
 	}

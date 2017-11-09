@@ -90,6 +90,7 @@ public class ShapeCache extends AbstractCache {
 					polygonList.add((SVGPolygon) shape);
 				} else if (shape instanceof SVGPolyline) {
 					polylineList.add((SVGPolyline) shape);
+					LOG.trace("added polyline");
 				} else if (shape instanceof SVGRect) {
 					rectList.add((SVGRect) shape);
 				} else if (shape instanceof SVGTriangle) {
@@ -103,6 +104,7 @@ public class ShapeCache extends AbstractCache {
 				}
 			}
 		}
+		LOG.trace("polylines:: "+polylineList);
 		return;
 	}
 
@@ -155,6 +157,8 @@ public class ShapeCache extends AbstractCache {
 				}
 			}
 		}
+		LOG.trace("polylineList: "+polylineList);
+		LOG.trace("converted shapes: "+convertedShapeList);
 		return convertedShapeList;
 	}
 
@@ -224,10 +228,10 @@ public class ShapeCache extends AbstractCache {
 
 	public void extractShapes(List<SVGPath> pathList, SVGElement svgElement) {
 		convertToShapes(pathList);
+		LOG.trace("polylines: "+polylineList);
 		createListsOfShapes(svgElement);
 		removeElementsOutsideBox(ownerComponentCache.getPositiveXBox());
-		
-//		debug();
+		LOG.trace("polylines: "+polylineList);
 	}
 
 	public SVGG debugToSVG(String outFilename) {

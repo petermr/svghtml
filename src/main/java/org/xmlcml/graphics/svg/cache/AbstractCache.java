@@ -31,6 +31,8 @@ public abstract class AbstractCache {
 	protected ComponentCache ownerComponentCache;
 	protected Real2Range ownerComponentCacheBoundingBox;
 	private SVGMediaBox svgMediaBox;
+
+	protected ShapeCache siblingShapeCache;
 	
 
 	protected AbstractCache() {
@@ -39,6 +41,7 @@ public abstract class AbstractCache {
 
 	public AbstractCache(ComponentCache ownerComponentCache) {
 		this.ownerComponentCache = ownerComponentCache;
+		this.siblingShapeCache = ownerComponentCache == null ? null : ownerComponentCache.shapeCache;
 		getOrCreateElementList();
 	}
 
@@ -131,4 +134,8 @@ public abstract class AbstractCache {
 	}
 	
 	public abstract void clearAll();
+
+	public void setSiblingShapeCache(ShapeCache shapeCache) {
+		this.siblingShapeCache = shapeCache;
+	}
 }

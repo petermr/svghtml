@@ -94,6 +94,11 @@ public class SVGPolyline extends SVGPoly {
         super((SVGElement) element);
 	}
 	
+	@Override
+	public String toString() {
+		return "polyline: "+String.valueOf(real2Array);
+	}
+	
 	/** 
 	 * Constructor.
 	 * 

@@ -64,9 +64,6 @@ public class LineCache extends AbstractCache {
 	private Double lineEps = 5.0; // to start with
 	// for display only
 	private double joinEps = 1.0; // tolerance for joining lines 
-	// structure
-	private ShapeCache siblingShapeCache;
-
 	public LineCache(ComponentCache containingComponentCache) {
 		super(containingComponentCache);
 		siblingShapeCache = containingComponentCache.getOrCreateShapeCache();
@@ -188,6 +185,7 @@ public class LineCache extends AbstractCache {
 				}
 			}
 		}
+		LOG.trace("poly2a "+ownerComponentCache.shapeCache.getPolylineList());
 		return longHorizontalLineList;
 	}
 
@@ -296,15 +294,29 @@ public class LineCache extends AbstractCache {
 
 	void removeLShapesAndReplaceByLines(List<SVGPolyline> polylineList, SVGPolyline axialLShape, SVGElement svgElement) {
 		LOG.trace("replacing LShapes by splitLines");
-		SVGLine vLine = axialLShape.getLineList().get(0);
-		svgElement.appendChild(vLine);
-		this.verticalLines.add(vLine);
-		SVGLine hLine = axialLShape.getLineList().get(1);
-		svgElement.appendChild(hLine);
-		this.horizontalLines.add(hLine);
+		
+		addNewHVLine(axialLShape, svgElement, verticalLines, 1);
+		addNewHVLine(axialLShape, svgElement, horizontalLines, 0);
+		
 		polylineList.remove(axialLShape);
 		axialLShape.detach();
 	}
+
+	private void addNewHVLine(SVGPolyline axialLShape, SVGElement svgElement, List<SVGLine> hvLineList, int axis) {
+		SVGLine hvLine = axialLShape.getLineList().get(axis);
+		hvLine.setCSSStyle(axialLShape.getStyle());
+		svgElement.appendChild(hvLine);
+		hvLineList.add(hvLine);
+		this.lineList.add(hvLine);
+	}
+
+//	private void addNewVLine(SVGPolyline axialLShape, SVGElement svgElement, List<SVGLine> hvLineList, int axis) {
+//		SVGLine vLine = axialLShape.getLineList().get(axis);
+//		vLine.setCSSStyle(axialLShape.getStyle());
+//		svgElement.appendChild(vLine);
+//		hvLineList.add(vLine);
+//		this.lineList.add(vLine);
+//	}
 
 	public AxialLineList getSortedLinesCloseToEdge(List<SVGLine> lines, LineDirection direction, Real2Range bbox) {
 		RealRange.Direction rangeDirection = direction.isHorizontal() ? RealRange.Direction.HORIZONTAL : RealRange.Direction.VERTICAL;

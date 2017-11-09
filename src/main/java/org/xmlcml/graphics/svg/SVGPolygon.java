@@ -306,5 +306,12 @@ public class SVGPolygon extends SVGPoly {
 		}
 		return circle;
 	}
+	
+	@Override
+	public String toString() {
+		return "polygon: "+String.valueOf(real2Array);
+	}
+	
+
 
 }
