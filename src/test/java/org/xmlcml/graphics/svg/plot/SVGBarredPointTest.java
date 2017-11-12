@@ -9,7 +9,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGG;
@@ -31,7 +31,7 @@ public class SVGBarredPointTest {
 	
 	@Test
 	public void testBarredPoint() throws IOException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "barredPoints.svg")));
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "barredPoints.svg")));
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<SVGCircle> circleList = SVGPath.createCirclesFromPaths(pathList);
 		Assert.assertEquals("circles",  52, circleList.size());
@@ -46,7 +46,7 @@ public class SVGBarredPointTest {
 	
 	@Test
 	public void testErrorBar() throws IOException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "barredPoints.svg")));
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "barredPoints.svg")));
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<SVGCircle> circleList = SVGPath.createCirclesFromPaths(pathList);
 		List<SVGLineList> lineListList = SVGPath.createLineListListFromPaths(pathList, null);
@@ -56,7 +56,7 @@ public class SVGBarredPointTest {
 		SVGLineList lineList0 = lineListList.get(0);
 		SVGLine line0 = lineList0.get(0);
 		line0.format(3);
-		SVGErrorBar errorBar0 = barredPoint0.createErrorBar(line0, RAD, Fixtures.EPS);
+		SVGErrorBar errorBar0 = barredPoint0.createErrorBar(line0, RAD, SVGHTMLFixtures.EPS);
 		errorBar0.getLine().format(3);
 		Assert.assertEquals("bar0", "RIGHT", errorBar0.getBarDirection().toString());
 		Assert.assertEquals("bar0", "(349.158,248.738)", errorBar0.getLine().getXY(0).toString());
@@ -64,7 +64,7 @@ public class SVGBarredPointTest {
 	
 	@Test
 	public void testErrorBars() throws IOException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "barredPoints.svg")));
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "barredPoints.svg")));
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<SVGCircle> circleList = SVGPath.createCirclesFromPaths(pathList);
 		List<SVGLineList> lineListList = SVGPath.createLineListListFromPaths(pathList, null);
@@ -73,27 +73,27 @@ public class SVGBarredPointTest {
 		SVGBarredPoint barredPointN = SVGBarredPoint.createPoint(circleList.get(npoints - 1));
 		SVGLineList lineList0 = lineListList.get(0);
 		Assert.assertEquals("line0",  2, lineList0.size());
-		List<SVGErrorBar> errorBarList0 = barredPoint0.createErrorBarList(lineList0, RAD, Fixtures.EPS);
+		List<SVGErrorBar> errorBarList0 = barredPoint0.createErrorBarList(lineList0, RAD, SVGHTMLFixtures.EPS);
 		Assert.assertEquals("bar0",  2, errorBarList0.size());
 		SVGLineList lineListN = lineListList.get(npoints - 1);
 		Assert.assertEquals("lineN",  4, lineListN.size());
-		List<SVGErrorBar> errorBarListN = barredPointN.createErrorBarList(lineListN, RAD, Fixtures.EPS);
+		List<SVGErrorBar> errorBarListN = barredPointN.createErrorBarList(lineListN, RAD, SVGHTMLFixtures.EPS);
 		Assert.assertEquals("bar0",  4, errorBarListN.size());
 		// these should fail as the bars don't point at the points
-		List<SVGErrorBar> errorBarList0N = barredPoint0.createErrorBarList(lineListN, RAD, Fixtures.EPS);
+		List<SVGErrorBar> errorBarList0N = barredPoint0.createErrorBarList(lineListN, RAD, SVGHTMLFixtures.EPS);
 		Assert.assertNull("bar0N", errorBarList0N);
-		List<SVGErrorBar> errorBarListN0 = barredPointN.createErrorBarList(lineList0, RAD, Fixtures.EPS);
+		List<SVGErrorBar> errorBarListN0 = barredPointN.createErrorBarList(lineList0, RAD, SVGHTMLFixtures.EPS);
 		Assert.assertNull("barN0", errorBarListN0);
 	}
 	
 	
 	@Test
 	public void testErrorBarList() throws IOException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "barredPoints.svg")));
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "barredPoints.svg")));
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<SVGCircle> circleList = SVGPath.createCirclesFromPaths(pathList);
 		List<SVGLineList> lineListList = SVGPath.createLineListListFromPaths(pathList, null);
-		SVGBarredPointList barredPointList = SVGBarredPointList.createBarredPointList(circleList, lineListList, RAD, Fixtures.EPS);
+		SVGBarredPointList barredPointList = SVGBarredPointList.createBarredPointList(circleList, lineListList, RAD, SVGHTMLFixtures.EPS);
 		Assert.assertNotNull("barredPoints", barredPointList);
 		Assert.assertEquals("barredPoints", 52, barredPointList.size());
 		int[] points = new int[]{
@@ -109,11 +109,11 @@ public class SVGBarredPointTest {
 	
 	@Test
 	public void testDrawErrorBarList() throws IOException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "barredPoints.svg")));
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "barredPoints.svg")));
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<SVGCircle> circleList = SVGPath.createCirclesFromPaths(pathList);
 		List<SVGLineList> lineListList = SVGPath.createLineListListFromPaths(pathList, null);
-		SVGBarredPointList barredPointList = SVGBarredPointList.createBarredPointList(circleList, lineListList, RAD, Fixtures.EPS);
+		SVGBarredPointList barredPointList = SVGBarredPointList.createBarredPointList(circleList, lineListList, RAD, SVGHTMLFixtures.EPS);
 		SVGG g = new SVGG();
 		for (int i = 0; i < barredPointList.size(); i++) {
 			SVGBarredPoint barredPoint = barredPointList.get(i);

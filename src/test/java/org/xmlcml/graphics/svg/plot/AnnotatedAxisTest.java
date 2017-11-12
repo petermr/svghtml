@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.GraphicsElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -40,8 +40,8 @@ public class AnnotatedAxisTest {
 	@Test
 	@Ignore // changes every time we change parameters
 	public void testFunnelXYAxis() throws FileNotFoundException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, "bakker2014-page11b.svg")));
-		SVGMediaBox plotBox = new SVGMediaBox();
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "bakker2014-page11b.svg")));
+		AbstractPlotBox plotBox = new XYPlotBox();
 		plotBox.readAndCreateCSVPlot(svgElement);
 		SVGSVG.wrapAndWriteAsSVG(plotBox.getComponentCache().createSVGElement(), new File("target/plot/bakker.svg"));
 		SVGRect fullLineBbox = plotBox.getComponentCache().getOrCreateLineCache().getFullLineBox();
@@ -382,8 +382,8 @@ public class AnnotatedAxisTest {
 	// ================================================
 	
 	private static AnnotatedAxis[] getAxisArrayAndTestFullBox(String svgName, String boxCoords) throws FileNotFoundException {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(Fixtures.PLOT_DIR, svgName)));
-		SVGMediaBox plotBox = new SVGMediaBox();
+		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, svgName)));
+		AbstractPlotBox plotBox = new XYPlotBox();
 		try {
 			plotBox.readAndCreateCSVPlot(svgElement);
 		} catch (RuntimeException e) {

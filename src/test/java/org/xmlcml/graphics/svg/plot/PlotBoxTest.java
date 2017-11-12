@@ -7,7 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 
 import junit.framework.Assert;
 
@@ -29,8 +29,8 @@ public class PlotBoxTest {
 			LOG.error("FIXME");
 			return;
 		}
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.PLOT_DIR, "bakker2014-page11b.svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, "bakker2014-page11b.svg");
 		plotBox.setCsvOutFile(new File("target/plot/bakker1.csv"));
 		plotBox.setSvgOutFile(new File("target/plot/bakker1.svg"));
 		plotBox.readAndCreateCSVPlot(inputSVGFile);
@@ -46,8 +46,8 @@ public class PlotBoxTest {
 //		String fileRoot = "calvin";
 //		String fileRoot = "kerr";
 //		String fileRoot = "dong";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.PLOT_DIR, fileRoot+"plot.svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, fileRoot+"plot.svg");
 		plotBox.readAndCreateCSVPlot(inputSVGFile);
 		plotBox.writeProcessedSVG(new File(TARGET_PLOT+fileRoot+".svg"));
 		plotBox.writeCSV(new File(TARGET_PLOT+fileRoot+".csv"));
@@ -65,8 +65,8 @@ public class PlotBoxTest {
 				"sbarraplot"  // OK
 				};
 		for (String fileRoot : fileRoots) {
-			SVGMediaBox plotBox = new SVGMediaBox();
-			File inputSVGFile = new File(Fixtures.PLOT_DIR, fileRoot + ".svg");
+			AbstractPlotBox plotBox = new XYPlotBox();
+			File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, fileRoot + ".svg");
 			try {
 				plotBox.readAndCreateCSVPlot(inputSVGFile);
 			} catch (RuntimeException e) {
@@ -81,8 +81,8 @@ public class PlotBoxTest {
 	@Ignore // test fails in tickbox
 	public void test6400831a1() throws IOException {
 		String fileRoot = "6400831a1";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.PLOT_DIR, fileRoot+".svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, fileRoot+".svg");
 		plotBox.setCsvOutFile(new File(TARGET_PLOT+fileRoot+".csv"));
 		plotBox.readAndCreateCSVPlot(inputSVGFile);
 		plotBox.writeProcessedSVG(new File(TARGET_PLOT+fileRoot+".svg"));
@@ -95,8 +95,8 @@ public class PlotBoxTest {
 	 */
 	public void testScatter13148() throws IOException {
 		String fileRoot = "13148-016-0230-5fig2";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.PLOT_DIR, fileRoot+".svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, fileRoot+".svg");
 		plotBox.setCsvOutFile(new File(TARGET_PLOT+fileRoot+".csv"));
 		try {
 			plotBox.readAndCreateCSVPlot(inputSVGFile);
@@ -111,7 +111,7 @@ public class PlotBoxTest {
 	@Test
 	@Ignore // too many for routine tests
 	public void testTilburgVectors() throws IOException {
-		File TILBURG_DIR = new File(Fixtures.PLOT_DIR, "tilburgVectors");
+		File TILBURG_DIR = new File(SVGHTMLFixtures.PLOT_DIR, "tilburgVectors");
 		String[] roots = {
 				"10.1186_s12885-016-2685-3_1",
 				"10.1186_s12889-016-3083-0_1",
@@ -142,7 +142,7 @@ public class PlotBoxTest {
 		};
 		for (String root : roots) {
 			LOG.info("\n#########################################"+root+"###############################################\n");
-			SVGMediaBox plotBox = new SVGMediaBox();
+			AbstractPlotBox plotBox = new XYPlotBox();
 			File inputSVGFile = new File(TILBURG_DIR, root+".svg");
 			try {
 				plotBox.setCsvOutFile(new File(TARGET_PLOT+root+".csv"));
@@ -159,7 +159,7 @@ public class PlotBoxTest {
 	@Test
 	@Ignore
 	public void testTilburgVector0() throws IOException {
-		File TILBURG_DIR = new File(Fixtures.PLOT_DIR, "tilburgVectors");
+		File TILBURG_DIR = new File(SVGHTMLFixtures.PLOT_DIR, "tilburgVectors");
 		String root =
 // 25 examples				
 //				"10.1186_s12885-016-2685-3_1"        // OK
@@ -188,7 +188,7 @@ public class PlotBoxTest {
 //				"10.5114_aoms.2016.61916_2"          // OK
 //				"10.5812_ircmj.40061_1"              // OK
 		;
-		SVGMediaBox plotBox = new SVGMediaBox();
+		AbstractPlotBox plotBox = new XYPlotBox();
 		File inputSVGFile = new File(TILBURG_DIR, root+".svg");
 		try {
 			plotBox.setCsvOutFile(new File(TARGET_PLOT+root+".csv"));

@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -20,7 +20,7 @@ public class AxisAnalyzerTest {
 	@Test
 	@Ignore // until we write the axis stuff
 	public void testAxes() {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.5);
 		axisAnalyzer.createVerticalHorizontalAxisListAndPlotBox();
@@ -36,7 +36,7 @@ public class AxisAnalyzerTest {
 	 */
 	@Ignore // until we write the axis stuff
 	public void testAxesSmallEpsilon() {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.01);
 		axisAnalyzer.createVerticalHorizontalAxisListAndPlotBox();
@@ -49,7 +49,7 @@ public class AxisAnalyzerTest {
 	@Test
 	@Ignore // until we write the axis stuff
 	public void testPlotBoxLinePlots() {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.5);
 		axisAnalyzer.createVerticalHorizontalAxisListAndPlotBox();
@@ -62,7 +62,7 @@ public class AxisAnalyzerTest {
 	//@Ignore // OOME needs debuggiing
 	@Ignore // until we write the axis stuff
 	public void testPlotScatterplot() {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.SCATTERPLOT_7_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.SCATTERPLOT_7_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.1);
 		axisAnalyzer.createVerticalHorizontalAxisListAndPlotBox();
@@ -75,7 +75,7 @@ public class AxisAnalyzerTest {
 	@Test
 	@Ignore // OOME needs debugging
 	public void testPlotScatterplotFive() {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.SCATTERPLOT_FIVE_7_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.SCATTERPLOT_FIVE_7_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.1);
 		axisAnalyzer.createVerticalHorizontalAxisListAndPlotBox();
@@ -132,7 +132,7 @@ public class AxisAnalyzerTest {
 	@Test
 	@Ignore // until we write the axis stuff
 	public void testLinePlotsHorizontalText() throws FileNotFoundException {
-		SVGG g = SVGG.createSVGGChunk(Fixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
+		SVGG g = SVGG.createSVGGChunk(SVGHTMLFixtures.LINEPLOTS_10_2_SVG,  "./svg:g", 0);
 		AxisAnalyzer axisAnalyzer = new AxisAnalyzer(g);
 		axisAnalyzer.setEpsilon(0.5);
  		Axis horizontalAxis = axisAnalyzer.getHorizontalAxis();

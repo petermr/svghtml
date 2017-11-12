@@ -1,4 +1,4 @@
-package org.xmlcml.graphics.svg.bar;
+package org.xmlcml.graphics.svg.plot.bar;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,8 +7,11 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox;
+import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
+import org.xmlcml.graphics.svg.plot.XYPlotBox;
+import org.xmlcml.graphics.svg.plot.YPlotBox;
 
 public class BarTest {
 	private static final Logger LOG = Logger.getLogger(BarTest.class);
@@ -19,8 +22,8 @@ public class BarTest {
 	@Test
 	public void testBar1() throws IOException {
 		String fileRoot = "../bar/art%3A10.1186%2Fs13148-016-0230-5/svg/fig3";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.PLOT_DIR, fileRoot+".svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.PLOT_DIR, fileRoot+".svg");
 		plotBox.readGraphicsComponents(inputSVGFile);
 		plotBox.writeProcessedSVG(new File("target/bar/"+fileRoot+".svg"));
 	}
@@ -32,8 +35,8 @@ public class BarTest {
 	 */
 	public void testBarPlot() throws IOException {
 		String fileRoot = "barchart1.10";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.BAR_DIR, fileRoot+".svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.BAR_DIR, fileRoot+".svg");
 		try {
 			plotBox.readAndCreateCSVPlot(inputSVGFile);
 		} catch (RuntimeException e) {
@@ -50,8 +53,8 @@ public class BarTest {
 	 */
 	public void testBarPlot1() throws IOException {
 		String fileRoot = "figure4.2";
-		SVGMediaBox plotBox = new SVGMediaBox();
-		File inputSVGFile = new File(Fixtures.BAR_DIR, fileRoot+".svg");
+		AbstractPlotBox plotBox = new XYPlotBox();
+		File inputSVGFile = new File(SVGHTMLFixtures.BAR_DIR, fileRoot+".svg");
 		try {
 			plotBox.readAndCreateCSVPlot(inputSVGFile);
 		} catch (RuntimeException e) {
@@ -60,7 +63,23 @@ public class BarTest {
 		}
 		plotBox.writeProcessedSVG(new File("target/bar/"+fileRoot+".svg"));
 	}
-	
-	
+
+	@Test
+	/** this is a bar plot and we need to FIXME the bottom axis.
+	 * 
+	 */
+	public void testBarNatureP3a() {
+		String fileroot = "figure";
+		File inputDir = new File(SVGHTMLFixtures.FIGURE_DIR, "nature/p3.a");
+		File inputFile = new File(inputDir, fileroot + ".svg");
+		Assert.assertTrue(""+inputFile, inputFile.exists());
+		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		YPlotBox mediaBox = new YPlotBox();
+		try {
+			mediaBox.readAndCreateBarPlot(svgElement);
+		} catch (RuntimeException e) {
+			LOG.error("FIXME: "+e.getMessage());
+		}
+	}
 
 }
