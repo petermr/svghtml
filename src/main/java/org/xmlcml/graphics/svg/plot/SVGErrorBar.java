@@ -3,9 +3,23 @@ package org.xmlcml.graphics.svg.plot;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 
+/** graphical and semantic error bar.
+ * 
+ * consists of the "T" part so 4 components (Top Right Bottom Left)
+ * A "tie-fighter" ("ibeam") consists of Top and Bottom Error bars
+ * OR 
+ * An "hbeam" consists of Left and Right Error bars
+ * 
+ *
+ * 
+ * 
+ * @author pm286
+ *
+ */
 public class SVGErrorBar extends SVGG {
 
 	private static Logger LOG = Logger.getLogger(SVGErrorBar.class);
@@ -43,10 +57,25 @@ public class SVGErrorBar extends SVGG {
 	}
 
 	public final static double ERROR_EPS = 0.5; // pixels
-	private SVGLine line;
-	private BarDirection barDirection;
 	
-	SVGErrorBar() {
+	private SVGLine line;
+	// direction of bar starting from central point;
+	private BarDirection barDirection;
+	// optional crossbar (for visual effect only)
+	private SVGLine crossbar;
+	
+	public SVGErrorBar(SVGLine line) {
+		this.setLine(line);
+	}
+
+	public SVGErrorBar(BarDirection top, SVGLine svgLine, SVGLine crossbar) {
+		this.setBarDirection(barDirection);
+		this.setLine(svgLine);
+		this.setCrossbar(crossbar);
+	}
+
+	private void setCrossbar(SVGLine crossbar) {
+		this.crossbar = crossbar;
 	}
 
 	public SVGLine getLine() {
@@ -69,5 +98,16 @@ public class SVGErrorBar extends SVGG {
 		StringBuilder sb = new StringBuilder();
 		sb.append(""+barDirection+"; "+line);
 		return sb.toString();
+	}
+
+	public SVGElement createSVGElement() {
+		SVGG g = new SVGG();
+		if (line != null) {
+			g.appendChild(line);
+		}
+		if (crossbar != null) {
+			g.appendChild(crossbar);
+		}
+		return g;
 	}
 }

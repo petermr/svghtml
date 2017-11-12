@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -42,7 +42,7 @@ public class RectCacheTest {
 	// ============================
 	
 	private List<SVGRect> extractAndDisplayRects(String svgName, String outName) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(Fixtures.TABLE_RECT_DIR, svgName));
+		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.TABLE_RECT_DIR, svgName));
 		ComponentCache componentCache = new ComponentCache();
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		RectCache rectCache = componentCache.getOrCreateRectCache();

@@ -15,7 +15,7 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
 import org.xmlcml.graphics.svg.SVGLineList;
 import org.xmlcml.graphics.svg.cache.LineCache;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox.AxisType;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox.AxisType;
 
 import com.google.common.collect.Multiset;
 
@@ -44,17 +44,17 @@ public class AnnotatedAxis {
 	private AxisTickBox axisTickBox;
 	private AxisScaleBox axialScaleTextBox;
 	private AxisScaleBox axialTitleTextBox;
-	private SVGMediaBox plotBox;
+	private AbstractPlotBox plotBox;
 	private AxisType axisType;
 	private Double screenToUserScale;
 	private Double screenToUserConstant;
 
 
-	protected AnnotatedAxis(SVGMediaBox plotBox) {
+	protected AnnotatedAxis(AbstractPlotBox plotBox) {
 		this.plotBox = plotBox;
 	}
 	
-	public AnnotatedAxis(SVGMediaBox plotBox, AxisType axisType) {
+	public AnnotatedAxis(AbstractPlotBox plotBox, AxisType axisType) {
 		this(plotBox);
 		this.axisType = axisType;
 		this.lineDirection = axisType == null ? null : axisType.getLineDirection();		
@@ -120,7 +120,7 @@ public class AnnotatedAxis {
 	}
 
 
-	public SVGMediaBox getPlotBox() {
+	public AbstractPlotBox getPlotBox() {
 		return plotBox;
 	}
 

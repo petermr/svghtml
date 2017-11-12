@@ -22,7 +22,7 @@ import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.linestuff.AxialLineList;
 import org.xmlcml.graphics.svg.linestuff.HorizontalLineComparator;
 import org.xmlcml.graphics.svg.plot.AnnotatedAxis;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
@@ -120,15 +120,15 @@ public class LineCache extends AbstractCache {
 		RealRange fullboxYRange = null;
 		if (longHorizontalEdgeLines != null && longHorizontalEdgeLines.size() > 0) {
 			fullboxXRange = createRange(longHorizontalEdgeLines, Direction.HORIZONTAL);
-			fullboxXRange = fullboxXRange == null ? null : fullboxXRange.format(SVGMediaBox.FORMAT_NDEC);
+			fullboxXRange = fullboxXRange == null ? null : fullboxXRange.format(AbstractPlotBox.FORMAT_NDEC);
 		}
 		if (longVerticalEdgeLines != null && longVerticalEdgeLines.size() > 0) {
 			fullboxYRange = createRange(longVerticalEdgeLines, Direction.VERTICAL);
-			fullboxYRange = fullboxYRange == null ? null : fullboxYRange.format(SVGMediaBox.FORMAT_NDEC);
+			fullboxYRange = fullboxYRange == null ? null : fullboxYRange.format(AbstractPlotBox.FORMAT_NDEC);
 		}
 		if (fullboxXRange != null && fullboxYRange != null) {
 			fullLineBox = SVGRect.createFromRealRanges(fullboxXRange, fullboxYRange);
-			fullLineBox.format(SVGMediaBox.FORMAT_NDEC);
+			fullLineBox.format(AbstractPlotBox.FORMAT_NDEC);
 		}
 		if (fullLineBox == null) {
 			Real2Range pathBox = ownerComponentCache.getOrCreatePathCache().getBoundingBox();

@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -38,13 +38,13 @@ public class Path2ShapeConverterTest {
 		
 		@Test
 		public void nopathTest() {
-			List<SVGShape> shapeList = createShapeList(Fixtures.PATHS_NOPATH_SVG);
+			List<SVGShape> shapeList = createShapeList(SVGHTMLFixtures.PATHS_NOPATH_SVG);
 			Assert.assertEquals("converted", 0, shapeList.size());
 		}
 
 		@Test
 		public void rectTest() {
-			List<SVGShape> shapeList = createShapeList(Fixtures.PATHS_TEXT_LINE_SVG);
+			List<SVGShape> shapeList = createShapeList(SVGHTMLFixtures.PATHS_TEXT_LINE_SVG);
 			Assert.assertEquals("converted", 1, shapeList.size());
 			Assert.assertEquals("rect", 
 					"<rect style=\"fill:none;\" x=\"42.52\" y=\"144.433\" height=\"3.005\" width=\"520.044\" id=\"rect.0\" />", 
@@ -62,7 +62,7 @@ public class Path2ShapeConverterTest {
 		 */
 		@Ignore // output of path analysis may have changed
 		public void bmcLogoTest() {
-			List<SVGShape> shapeList = createShapeList(Fixtures.PATHS_BMCLOGO_SVG);
+			List<SVGShape> shapeList = createShapeList(SVGHTMLFixtures.PATHS_BMCLOGO_SVG);
 			Assert.assertEquals("converted", 23, shapeList.size());
 			Assert.assertEquals("E", 
 					"<polygon fill=\"magenta\" stroke=\"green\" stroke-width=\"0.5\"" +
@@ -97,7 +97,7 @@ public class Path2ShapeConverterTest {
 		@Test
 		@Ignore
 		public void bmcLogoTestInSitu() throws IOException {
-			SVGElement svgElement = convertPathsToShapes(Fixtures.PATHS_BMCLOGO_SVG);
+			SVGElement svgElement = convertPathsToShapes(SVGHTMLFixtures.PATHS_BMCLOGO_SVG);
 //			SVGUtil.debug(svgElement, new FileOutputStream("target/converted"+System.currentTimeMillis()+".svg"), 1);
 			List<SVGElement> svgElements = SVGUtil.getQuerySVGElements(svgElement, "/*/*/svg:*");
 			Assert.assertEquals("converted", 23, svgElements.size());
@@ -135,7 +135,7 @@ public class Path2ShapeConverterTest {
 		*/
 		@Test
 		public void testReplaceTwoQuadrantCapsByButt() {
-			SVGElement svgElement = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "roundedline.svg"));
+			SVGElement svgElement = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "roundedline.svg"));
 			SVGLine line = (SVGLine) svgElement.getChildElements().get(0).getChildElements().get(0);
 			Assert.assertEquals("path converted to line", 
 					"<line class=\"lineFromShape\" style=\"fill:#000000;stroke:black;stroke-width:0.0;\" x1=\"172.38\" y1=\"504.06\" x2=\"172.38\" y2=\"512.88\" id=\"line.0\" />",
@@ -144,7 +144,7 @@ public class Path2ShapeConverterTest {
 		
 		@Test
 		public void testHollowline() {
-			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "hollowline.svg"))
+			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowline.svg"))
 					.getChildElements().get(0);
 			Assert.assertEquals("sig",  "MLLL", svgPath.getSignature());
 			Path2ShapeConverter p2sConverter = new Path2ShapeConverter(svgPath);
@@ -161,7 +161,7 @@ public class Path2ShapeConverterTest {
 			C309.175 148.35 309.772 147.745 310.517 147.745 
 			C311.256 147.745 311.86 148.35 311.86 149.088 
 			Z"/>*/
-			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "circle.svg"))
+			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "circle.svg"))
 					.getChildElements().get(0);
 			Assert.assertEquals("sig",  "MCCCCZ", svgPath.getSignature());
 			Path2ShapeConverter p2sConverter = new Path2ShapeConverter();
@@ -192,7 +192,7 @@ public class Path2ShapeConverterTest {
 
 		@Test
 		public void	testRect() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "rect.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "rect.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			SVGElement group61 = (SVGElement)groups.get(6).getChild(1);
 			SVGElement group63 = (SVGElement)groups.get(6).getChild(3);
@@ -204,7 +204,7 @@ public class Path2ShapeConverterTest {
 		
 		@Test
 		public void testCircles() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "circle.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "circle.svg"));
 			Assert.assertTrue("1", output.getChild(1) instanceof SVGCircle);
 			Assert.assertEquals("310.517", ((SVGCircle) output.getChild(1)).getAttribute("cx").getValue());
 			Assert.assertEquals("149.088", ((SVGCircle) output.getChild(1)).getAttribute("cy").getValue());
@@ -213,7 +213,7 @@ public class Path2ShapeConverterTest {
 
 		@Test
 		public void	testPolylines() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "polyline.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "polyline.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			Assert.assertTrue("1", groups.get(6).getChild(1) instanceof SVGPolyline);
 			SVGPolyline polyline61 = (SVGPolyline) groups.get(6).getChild(1);
@@ -242,7 +242,7 @@ public class Path2ShapeConverterTest {
 		@Test
 		@Ignore
 		public void	testPolygons() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "polygon.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "polygon.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			Assert.assertTrue("1", groups.get(6).getChild(1) instanceof SVGPolygon);
 		}
@@ -250,7 +250,7 @@ public class Path2ShapeConverterTest {
 		@Test
 		public void	testLines() {
 			double eps = 0.01;
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "line.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "line.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			Assert.assertTrue("1", groups.get(6).getChild(1) instanceof SVGLine);
 			SVGLine line61 = (SVGLine) groups.get(6).getChild(1);
@@ -325,7 +325,7 @@ public class Path2ShapeConverterTest {
 		@Test
 		@Ignore
 		public void	testLinesFails() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "line.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "line.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			Assert.assertTrue("13", groups.get(6).getChild(25) instanceof SVGLine);
 			Assert.assertTrue("14", groups.get(6).getChild(27) instanceof SVGLine);
@@ -339,7 +339,7 @@ public class Path2ShapeConverterTest {
 		
 		@Test
 		public void testPathWithMoves() {
-			SVGElement output = convertPathsToShapes(new File(Fixtures.PATHS_DIR, "pathwithmoves.svg"));
+			SVGElement output = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "pathwithmoves.svg"));
 			List<SVGG> groups = SVGG.extractSelfAndDescendantGs(output);
 			Assert.assertEquals(output.getChild(433).toString(), "line: from((154.5,434.34)) to((154.5,452.1)) v((0.0,17.760000000000048))");
 			Assert.assertEquals(output.getChild(434).toString(), "line: from((201.78,461.58)) to((216.72,452.58)) v((14.939999999999998,-9.0))");
@@ -350,7 +350,7 @@ public class Path2ShapeConverterTest {
 
 	@Test
 	public void test3SidedRectNoSplit() {
-		SVGG g = (SVGG) SVGSVG.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "unclosedRect.svg"))
+		SVGG g = (SVGG) SVGSVG.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "unclosedRect.svg"))
 				.getChildElements().get(0);
 		SVGPath path = (SVGPath) g.getChildElements().get(0);
 		Assert.assertEquals("M98.055 294.622 L98.055 286.872 L464.854 286.872 L464.854 294.622",  path.getDString().trim());
@@ -365,7 +365,7 @@ public class Path2ShapeConverterTest {
 	
 	@Test
 	public void test3SidedRectSplit() {
-		SVGG g = (SVGG) SVGSVG.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "unclosedRect.svg"))
+		SVGG g = (SVGG) SVGSVG.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "unclosedRect.svg"))
 				.getChildElements().get(0);
 		SVGPath path = (SVGPath) g.getChildElements().get(0);
 		Path2ShapeConverter path2ShapeConverter = new Path2ShapeConverter();

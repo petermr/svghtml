@@ -31,7 +31,7 @@ public class SVGImageTest {
 	
 	@Test 
 	public void testReadContent() {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(Fixtures.IMAGE_SVG);
+		SVGElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
 		 Assert.assertNotNull(svgElement);
 		SVGImage image = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		 Assert.assertNotNull(image);
@@ -44,7 +44,7 @@ public class SVGImageTest {
 	@Test 
 	public void testRoundtripImage() throws Exception {
 
-		SVGElement svgElement = SVGUtil.parseToSVGElement(Fixtures.IMAGE_SVG);
+		SVGElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		 BufferedImage image = svgImage.getBufferedImage();
 		 Assert.assertNotNull(image);
@@ -66,7 +66,7 @@ public class SVGImageTest {
 
 	@Test
 	public void testPNGWrite() throws Exception {
-		BufferedImage bufferedImage = ImageIO.read(Fixtures.IMAGE_TEST_PNG);
+		BufferedImage bufferedImage = ImageIO.read(SVGHTMLFixtures.IMAGE_TEST_PNG);
 		SVGImage svgImage = new SVGImage();
 		svgImage.readImageDataIntoSrcValue(bufferedImage, SVGImage.IMAGE_PNG);
 	}
@@ -74,41 +74,41 @@ public class SVGImageTest {
 
 	@Test
 	public void testPNGReadRaster() throws IOException {
-		transformPixels(Fixtures.IMAGE_TEST_PNG, "target/monochrome.png", Fixtures.MONOCHROME);
+		transformPixels(SVGHTMLFixtures.IMAGE_TEST_PNG, "target/monochrome.png", SVGHTMLFixtures.MONOCHROME);
 	}
 
 	@Test
 	public void testPNGReadRaster1() throws IOException {
-		transformPixels(Fixtures.TEST_PNG, "target/monochrome1.png", Fixtures.MONOCHROME);
+		transformPixels(SVGHTMLFixtures.TEST_PNG, "target/monochrome1.png", SVGHTMLFixtures.MONOCHROME);
 	}
 
 	@Test
 	public void testPNGReadRasterGray() throws IOException {
-		transformPixels(Fixtures.TEST_PNG, "target/gray1.png", GRAYSCALE);
+		transformPixels(SVGHTMLFixtures.TEST_PNG, "target/gray1.png", GRAYSCALE);
 	}
 
 	@Test
 	@Ignore
 	//Some unknown problem on Hudson reading file
 	public void test1MiniCanny1() throws IOException {
-		transformPixels(Fixtures.TEST1MINI_BMP, "target/test1Mini.png", CANNY);
+		transformPixels(SVGHTMLFixtures.TEST1MINI_BMP, "target/test1Mini.png", CANNY);
 	}
 	
 	@Test
 	public void testAddCC0() throws IOException {
-		BufferedImage targetBufferedImage = readBufferedImage(Fixtures.PLOTS1_BMP);
-		WritableRaster cc0Raster = readRaster(Fixtures.CC0_SVG);
+		BufferedImage targetBufferedImage = readBufferedImage(SVGHTMLFixtures.PLOTS1_BMP);
+		WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.CC0_SVG);
 		overpaint(targetBufferedImage, cc0Raster);
-		Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.PLOTS_CC0_PNG);
+		SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.PLOTS_CC0_PNG);
 	}
 
 	@Test
 	public void testAddPubdom() throws IOException {
-		BufferedImage targetBufferedImage = readBufferedImage(Fixtures.PLOTS1_BMP);
+		BufferedImage targetBufferedImage = readBufferedImage(SVGHTMLFixtures.PLOTS1_BMP);
 		try {
-			WritableRaster cc0Raster = readRaster(Fixtures.PUBDOM_PNG);
+			WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.PUBDOM_PNG);
 			overpaint(targetBufferedImage, cc0Raster);
-			Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.PLOTS_PUBDOM_PNG);
+			SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.PLOTS_PUBDOM_PNG);
 		} catch (Exception e) {
 			LOG.error("Cannot read - maybe flaky call to ImageIO - have to ignore "+e);
 		}
@@ -116,11 +116,11 @@ public class SVGImageTest {
 	
 	@Test
 	public void testMonochrome2Pubdom() throws IOException {
-		BufferedImage targetBufferedImage = readBufferedImage(Fixtures.MONOCHROME2_PNG);
+		BufferedImage targetBufferedImage = readBufferedImage(SVGHTMLFixtures.MONOCHROME2_PNG);
 		try {
-			WritableRaster cc0Raster = readRaster(Fixtures.PUBDOM_PNG);
+			WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.PUBDOM_PNG);
 			overpaint(targetBufferedImage, cc0Raster);
-			Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.MONOCHROME2PUBDOM_PNG);
+			SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.MONOCHROME2PUBDOM_PNG);
 		} catch (Exception e) {
 			LOG.error("Cannot read - maybe flaky call to ImageIO - have to ignore "+e);
 		}
@@ -134,9 +134,9 @@ public class SVGImageTest {
 		try {
 			is = new URL("http://previews.figshare.com/1138891/preview_1138891.jpg").openStream();
 			BufferedImage targetBufferedImage = readBufferedImage(is);
-			WritableRaster cc0Raster = readRaster(Fixtures.CCBY_PNG);
+			WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.CCBY_PNG);
 			overpaint(targetBufferedImage, cc0Raster);
-			Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.FIGSHARE1138891_PNG);
+			SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.FIGSHARE1138891_PNG);
 		} catch (IOException e) {
 			// couldn't connect
 		}
@@ -144,12 +144,12 @@ public class SVGImageTest {
 	
 	@Test
 	public void testMonochrome2PubdomStream() throws Exception {
-		FileInputStream fis = new FileInputStream(Fixtures.MONOCHROME2_PNG);
+		FileInputStream fis = new FileInputStream(SVGHTMLFixtures.MONOCHROME2_PNG);
 		try {
 			BufferedImage targetBufferedImage = readBufferedImage(fis);
-			WritableRaster cc0Raster = readRaster(Fixtures.PUBDOM_PNG);
+			WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.PUBDOM_PNG);
 			overpaint(targetBufferedImage, cc0Raster);
-			Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.MONOCHROME2PUBDOM_STREAM_PNG);
+			SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.MONOCHROME2PUBDOM_STREAM_PNG);
 		} catch (Exception e) {
 			LOG.error("Cannot read - maybe flaky call to ImageIO - have to ignore "+e);
 		}
@@ -157,26 +157,26 @@ public class SVGImageTest {
 
 	@Test
 	public void testMonochrome2Text0() throws IOException {
-		BufferedImage targetBufferedImage = readBufferedImage(Fixtures.MONOCHROME2_PNG);
-		WritableRaster cc0Raster = readRaster(Fixtures.PMRCC0_PNG_);
+		BufferedImage targetBufferedImage = readBufferedImage(SVGHTMLFixtures.MONOCHROME2_PNG);
+		WritableRaster cc0Raster = readRaster(SVGHTMLFixtures.PMRCC0_PNG_);
 		overpaint(targetBufferedImage, cc0Raster);
-		Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.MONOCHROME2PMRCC0_PNG);
+		SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.MONOCHROME2PMRCC0_PNG);
 	}
 
 	@Test
 	public void testMonochrome2Text() throws IOException {
-		BufferedImage targetBufferedImage = readBufferedImage(Fixtures.MONOCHROME2_PNG);
+		BufferedImage targetBufferedImage = readBufferedImage(SVGHTMLFixtures.MONOCHROME2_PNG);
 		// height and weight depend on text
 		int height = 12;
 		WritableRaster cc0Raster = readRasterText("CC0 Peter Murray-Rust", 
-				Fixtures.PMRCC0_PNG_.toString(), height);
+				SVGHTMLFixtures.PMRCC0_PNG_.toString(), height);
 		overpaint(targetBufferedImage, cc0Raster);
-		Fixtures.writeImageQuietly(targetBufferedImage, Fixtures.MONOCHROME2TEXT_PNG);
+		SVGHTMLFixtures.writeImageQuietly(targetBufferedImage, SVGHTMLFixtures.MONOCHROME2TEXT_PNG);
 	}
 
 	@Test
 	public void testReadSVG() throws Exception {
-		SVGElement element = SVGElement.readAndCreateSVG(Fixtures.PLOS_GRAPH_SVG);
+		SVGElement element = SVGElement.readAndCreateSVG(SVGHTMLFixtures.PLOS_GRAPH_SVG);
 		SVGImage svgImage =
                 SVGImage.extractImages(SVGUtil.getQuerySVGElements(element, "//*[local-name()='image']")).get(0);
 		svgImage.writeImage("target/testReadSvg.png", SVGImage.IMAGE_PNG);
@@ -184,7 +184,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testRotateImage() throws IOException {
-		SVGImage svgImage = SVGImage.createSVGFromImage(Fixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
+		SVGImage svgImage = SVGImage.createSVGFromImage(SVGHTMLFixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
 		svgImage.applyTransformToImage(new Transform2(new Angle(Math.PI)));
 		svgImage.writeImage(new File("target/rotx.png"), SVGImage.IMAGE_PNG);
 		
@@ -192,7 +192,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testFlipImageHorizontally() throws IOException {
-		SVGImage svgImage = SVGImage.createSVGFromImage(Fixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
+		SVGImage svgImage = SVGImage.createSVGFromImage(SVGHTMLFixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
 		svgImage.applyTransformToImage(new Transform2(new double[]{-1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0}));
 		svgImage.writeImage(new File("target/fliphor.png"), SVGImage.IMAGE_PNG);
 		
@@ -200,7 +200,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testFlipImageVertically() throws IOException {
-		SVGImage svgImage = SVGImage.createSVGFromImage(Fixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
+		SVGImage svgImage = SVGImage.createSVGFromImage(SVGHTMLFixtures.IMAGE_G_2_2_PNG, SVGImage.IMAGE_PNG);
 		svgImage.applyTransformToImage(new Transform2(new double[]{1.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0}));
 		svgImage.writeImage(new File("target/flipvert.png"), SVGImage.IMAGE_PNG);
 		
@@ -208,7 +208,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testTranslate() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(Fixtures.LETTERA_SVG_FILE);
+		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		LOG.trace(svgImage.toXML());
 		Transform2 transform = svgImage.getTransform();
@@ -238,7 +238,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testTranslateToOrigin() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(Fixtures.LETTERA_SVG_FILE);
+		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		LOG.trace(svgImage.toXML());
 		Transform2 transform = svgImage.getTransform();
@@ -257,7 +257,7 @@ public class SVGImageTest {
 
 	@Test
 	public void testApplyExplicitTransformationAndUpdate() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(Fixtures.LETTERA_SVG_FILE);
+		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		svgImage.applyExplicitTransformationAndUpdate();
 		SVGSVG svgx = SVGSVG.wrapAndWriteAsSVG(svgImage, new File("target/explicitxx.svg"));
@@ -348,14 +348,14 @@ public class SVGImageTest {
 
 	private void outputImage(BufferedImage bufferedImage, String filename, String type) {
 		File file = new File(filename);
-		Fixtures.writeImageQuietly(bufferedImage, file);
+		SVGHTMLFixtures.writeImageQuietly(bufferedImage, file);
 	}
 
 	private void transformPixels(File inputFile, String outputFile, String method) throws IOException {
 		BufferedImage bufferedImage = null;
 		int[] iArray = { 0, 0, 0, 255 };
 		WritableRaster raster = readRaster(inputFile);
-		if (method.equals(Fixtures.MONOCHROME)) {
+		if (method.equals(SVGHTMLFixtures.MONOCHROME)) {
 			bufferedImage = createMonochromeImage(iArray, raster);
 		} else if (method.equals(GRAYSCALE)) {
 			bufferedImage = makeGrayscale(iArray, raster);

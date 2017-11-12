@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Point2;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGConstants;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -28,14 +29,21 @@ public class SVGBarredPoint extends SVGG {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	private static final double POINT_RADIUS = 1.0;
+
 	private SVGShape shape;
 	private List<SVGErrorBar> errorBars;
 	private Real2 centroid;
 	private Real2Range errorBox;
 
-	protected SVGBarredPoint() {
+	public SVGBarredPoint() {
 		super();
 		ensureErrorBars();
+	}
+	
+	public SVGBarredPoint(Real2 centroid) {
+		this();
+		this.setCentroid(centroid);
 	}
 	
 	private void ensureErrorBars() {
@@ -54,10 +62,14 @@ public class SVGBarredPoint extends SVGG {
 		return point;
 	}
 	
-	/** creates errorBar from lline and point.
+	/** creates errorBar from line and point.
 	 * 
 	 * If line is horizontal or vertical and point lies on line and line end
-	 * is close to point , then create error bar.
+	 * is close to point , then create error bar. 
+	 * (i.e. o--- or ---o
+	 * |      o
+	 * |  or  |
+	 * o      |
 	 * 
 	 * @param line
 	 * @param maxDist maximum distance of line end from point
@@ -71,25 +83,17 @@ public class SVGBarredPoint extends SVGG {
 			if (centroid != null) {
 				Point2 point = new Point2(centroid.getXY());
 				if (line.getEuclidLine().contains(point, eps, true)) {
-					// swap line so XY(0) is nearest point
-					SVGLine newLine = new SVGLine(line);
-					Real2 xy0 = line.getXY(0);
-					Real2 xy1 = line.getXY(1);
-					if (xy1.getDistance(point) < xy0.getDistance(point)) {
-						newLine.setXY(xy1, 0);
-						newLine.setXY(xy0, 1);
-					}
+					SVGLine newLine = createLineWithPointAt0(line, point);
 					if (newLine.getXY(0).getDistance(point) < maxDist) {
 						int serial = -1;
 						if (line.isHorizontal(eps)) {
-							serial = (xy0.getX() < xy1.getX()) ? 1 : 3;
+							serial = (line.getXY(0).getX() < line.getXY(1).getX()) ? BarDirection.RIGHT.ordinal() : BarDirection.LEFT.ordinal();
 						} else if (line.isVertical(eps)) {
-							serial = (xy0.getY() < xy1.getY()) ? 0 : 2;
+							serial = (line.getXY(0).getY() < line.getXY(1).getY()) ? BarDirection.TOP.ordinal() : BarDirection.BOTTOM.ordinal();
 						}
 						BarDirection barDirection = serial == -1 ? null : BarDirection.values()[serial];
-						errorBar = new SVGErrorBar();
+						errorBar = new SVGErrorBar(newLine);
 						errorBar.setBarDirection(barDirection);
-						errorBar.setLine(newLine);
 					}
 				}
 			}
@@ -97,6 +101,27 @@ public class SVGBarredPoint extends SVGG {
 		return errorBar;
 	}
 
+	/** create line with Point at the 0 end of line.
+	 * 
+	 * @param line
+	 * @param point
+	 * @return
+	 */
+	private SVGLine createLineWithPointAt0(SVGLine line, Point2 point) {
+		SVGLine newLine = new SVGLine(line);
+		Real2 xy0 = line.getXY(0);
+		Real2 xy1 = line.getXY(1);
+		if (xy1.getDistance(point) < xy0.getDistance(point)) {
+			newLine.setXY(xy1, 0);
+			newLine.setXY(xy0, 1);
+		}
+		return newLine;
+	}
+	
+	public void setCentroid(Real2 centroid) {
+		this.centroid = centroid;
+	}
+	
 	Real2 getOrCreateCentroid() {
 		if (centroid == null && shape != null) {
 			centroid = shape.getBoundingBox().getCentroid();
@@ -139,7 +164,28 @@ public class SVGBarredPoint extends SVGG {
 		ensureErrorBars();
 		return errorBars;
 	}
+	
+	/** make a copy and fill with error bars.
+	 * 
+	 * @return
+	 */
+	public SVGG createSVGElement() {
+		SVGG g = new SVGG();
+		if (centroid != null) {
+			SVGCircle circle = new SVGCircle(centroid, POINT_RADIUS);
+			g.appendChild(circle);
+		}
+		ensureErrorBars();
+		for (SVGErrorBar errorBar : errorBars) {
+			g.appendChild(errorBar.createSVGElement());
+		}
+		return g;
+	}
 
+	/** shape is either a rect or a line.
+	 * 
+	 * @return
+	 */
 	public SVGShape getErrorShape() {
 		SVGShape shape = null;
 		Real2Range errorBox = getOrCreateErrorBox();
@@ -154,6 +200,26 @@ public class SVGBarredPoint extends SVGG {
 		return shape;
 	}
 
+	public static List<SVGBarredPoint> extractErrorBarsFromIBeams(List<SVGLine> horizontalLines, List<SVGLine> verticalLines) {
+		List<SVGBarredPoint> barredPoints = new ArrayList<SVGBarredPoint>();
+		for (SVGLine verticalLine : verticalLines) {
+			SVGLine horizontal0 = verticalLine.getTJunctionCrossbar(horizontalLines, 0);
+			SVGLine horizontal1 = verticalLine.getTJunctionCrossbar(horizontalLines, 1);
+			if (horizontal0 != null && horizontal1 != null) {
+				SVGBarredPoint barredPoint = new SVGBarredPoint(verticalLine.getMidPoint());
+				List<SVGLine> splitLines = verticalLine.createSplitLines(2);
+				SVGErrorBar errorBar0 = new SVGErrorBar(BarDirection.TOP, splitLines.get(0), horizontal0);
+				barredPoint.add(errorBar0);
+				SVGErrorBar errorBar1 = new SVGErrorBar(BarDirection.BOTTOM,splitLines.get(1), horizontal1);
+				barredPoint.add(errorBar1);
+				barredPoints.add(barredPoint);
+			}
+		}
+		return barredPoints;
+	}
+
+	// ==============================
+	
 	private Real2Range getOrCreateErrorBox() {
 		if (errorBox == null) {
 			errorBox = new Real2Range();

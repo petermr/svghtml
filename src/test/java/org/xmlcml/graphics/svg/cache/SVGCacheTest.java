@@ -7,16 +7,14 @@ import java.util.List;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.cache.ComponentCache;
-
-import junit.framework.Assert;
 
 public class SVGCacheTest {
 	private static final Logger LOG = Logger.getLogger(SVGCacheTest.class);
@@ -28,7 +26,7 @@ public class SVGCacheTest {
 	public void testSingleFigure() throws IOException {
 		String fileRoot = "10.1186_s12885-016-2685-3_page7";
 		ComponentCache cache = new ComponentCache();
-		File inputSVGFile = new File(Fixtures.FIGURE_DIR, fileRoot+".svg");
+		File inputSVGFile = new File(SVGHTMLFixtures.FIGURE_DIR, fileRoot+".svg");
 		cache.readGraphicsComponents(inputSVGFile);
 		List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
 		displayBoxes(new File("target/plot/debug"), cache, fileRoot, boundingBoxes, "pink");
@@ -40,7 +38,7 @@ public class SVGCacheTest {
 	public void testMultipleFigure() throws IOException {
 		String fileRoot = "fulltext-page4";
 		ComponentCache cache = new ComponentCache();
-		File inputSVGFile = new File(Fixtures.FIGURE_DIR, fileRoot+".svg");
+		File inputSVGFile = new File(SVGHTMLFixtures.FIGURE_DIR, fileRoot+".svg");
 //		store.setPlotDebug(new File("target/plots/", name+"/"));
 		cache.readGraphicsComponents(inputSVGFile);
 		List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
@@ -50,8 +48,8 @@ public class SVGCacheTest {
 	@Test
 	@Ignore // too many for testing
 	public void testManyPapers() throws IOException {
-		File[] files = Fixtures.FIGURE_DIR.listFiles();
-		Assert.assertNotNull("files in "+Fixtures.FIGURE_DIR, files);
+		File[] files = SVGHTMLFixtures.FIGURE_DIR.listFiles();
+		Assert.assertNotNull("files in "+SVGHTMLFixtures.FIGURE_DIR, files);
 		for (File file : files) {
 			if (file.toString().endsWith(".svg")) {
 				ComponentCache cache = new ComponentCache();
@@ -67,8 +65,8 @@ public class SVGCacheTest {
 	@Test
 	@Ignore // too many for tests
 	public void testImages() throws IOException {
-		File[] files = new File(Fixtures.IMAGE_DIR, "10.2147_OTT.S94348").listFiles();
-		Assert.assertNotNull("files in "+Fixtures.IMAGE_DIR, files);
+		File[] files = new File(SVGHTMLFixtures.IMAGE_DIR, "10.2147_OTT.S94348").listFiles();
+		Assert.assertNotNull("files in "+SVGHTMLFixtures.IMAGE_DIR, files);
 		for (File file : files) {
 			if (file.toString().endsWith(".svg")) {
 				ComponentCache cache = new ComponentCache();
@@ -83,7 +81,7 @@ public class SVGCacheTest {
 	@Test
 	@Ignore // uncomment to re-test papers 
 	public void testPapers() throws IOException {
-		File[] dirs = Fixtures.TABLE_DIR.listFiles();
+		File[] dirs = SVGHTMLFixtures.TABLE_DIR.listFiles();
 		for (File dir : dirs) {
 			String base = FilenameUtils.getName(dir.toString());
 			File svgDir = new File(dir, "svg");
@@ -103,7 +101,7 @@ public class SVGCacheTest {
 	
 	@Test
 	public void testShadowedPaths() throws Exception {
-		File file = new File(Fixtures.PLOT_DIR, "tilburgVectors/10.1186_s13027-016-0058-9_1.svg");
+		File file = new File(SVGHTMLFixtures.PLOT_DIR, "tilburgVectors/10.1186_s13027-016-0058-9_1.svg");
 		ComponentCache cache = new ComponentCache();
 		String root = FilenameUtils.getBaseName(file.toString());
 		cache.readGraphicsComponents(file);

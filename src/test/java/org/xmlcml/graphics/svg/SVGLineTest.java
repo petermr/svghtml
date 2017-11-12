@@ -254,5 +254,16 @@ public class SVGLineTest {
 				new SVGLine(new Real2(10.015, 20.005), new Real2(5.005, 15.015)), epsilon));
 	}
 
+	@Test
+	public void testCreateSplitLines() {
+		SVGLine line = new SVGLine(new Real2(1,2), new Real2(9, 18));
+		line.setCSSStyle("fill:blue;");
+		List<SVGLine> splitLines = line.createSplitLines(4);
+		Assert.assertEquals("nlines", 4, splitLines.size());
+		Assert.assertEquals("line0", "<line xmlns=\"http://www.w3.org/2000/svg\" style=\"fill:blue;\" x1=\"1.0\" y1=\"2.0\" x2=\"3.0\" y2=\"6.0\" />", splitLines.get(0).toXML());
+		Assert.assertTrue("line2", new Real2(7.0, 14.0).isEqualTo(splitLines.get(2).getXY(1), 0.01));
+		Assert.assertTrue("line4", new Real2(9.0, 18.0).isEqualTo(splitLines.get(3).getXY(1), 0.01));
+		LOG.debug(splitLines);
+	}
 
 }

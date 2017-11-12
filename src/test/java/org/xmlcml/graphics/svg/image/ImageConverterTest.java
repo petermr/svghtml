@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.euclid.IntRange;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.GraphicsElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGImage;
@@ -23,7 +23,7 @@ public class ImageConverterTest {
 	@Test
 	public void testExtractImageStringBoundaries() {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGString(Fixtures.IMAGE_SVG);
+		imageConverter.readSVGString(SVGHTMLFixtures.IMAGE_SVG);
 		List<IntRange> intRangeList = imageConverter.extractImageStringBoundaries();
 		Assert.assertEquals("image", 1, intRangeList.size());
 		Assert.assertEquals("image", "(83,315)", intRangeList.get(0).toString());
@@ -32,7 +32,7 @@ public class ImageConverterTest {
 	@Test
 	public void testExtractImageString() {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGString(Fixtures.IMAGE_SVG);
+		imageConverter.readSVGString(SVGHTMLFixtures.IMAGE_SVG);
 		List<String> imageStringList = imageConverter.extractImageStrings();
 		Assert.assertEquals("image", 1, imageStringList.size());
 		Assert.assertEquals("image", "<image  x=\"0.0\" y=\"0.0\" width=\"16.0\" height=\"16.0\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mP4J8LwHx0zAAE2cWzyeBUSgxnw2UwMnzouINVmnF4YwmEwmg7Is3kYhQEA6pzZRchLX5wAAAAASUVORK5CYII=\"/>",
@@ -42,7 +42,7 @@ public class ImageConverterTest {
 	@Test
 	public void testExtractHrefString() {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGString(Fixtures.IMAGE_SVG);
+		imageConverter.readSVGString(SVGHTMLFixtures.IMAGE_SVG);
 		List<String> hrefStringList = imageConverter.extractHrefStrings();
 		Assert.assertEquals("href", 1, hrefStringList.size());
 		Assert.assertEquals("href", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mP4J8LwHx0zAAE2cWzyeBUSgxnw2UwMnzouINVmnF4YwmEwmg7Is3kYhQEA6pzZRchLX5wAAAAASUVORK5CYII=",
@@ -52,7 +52,7 @@ public class ImageConverterTest {
 	@Test
 	public void testCreateImageFromHref() throws IOException {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGString(Fixtures.IMAGE_SVG);
+		imageConverter.readSVGString(SVGHTMLFixtures.IMAGE_SVG);
 		imageConverter.setImageDirectory(new File(new File("target"), "images/"));
 		imageConverter.setFileroot("image");
 		imageConverter.setMimeType(SVGImage.IMAGE_PNG);
@@ -70,7 +70,7 @@ public class ImageConverterTest {
 	@Test
 	public void testCreateHref() throws IOException {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGString(Fixtures.IMAGE_SVG);
+		imageConverter.readSVGString(SVGHTMLFixtures.IMAGE_SVG);
 		imageConverter.setImageDirectory(new File(new File("target"), "images/"));
 		imageConverter.setFileroot("image");
 		imageConverter.setMimeType(SVGImage.IMAGE_PNG);
@@ -88,7 +88,7 @@ public class ImageConverterTest {
 	@Test
 	public void testLargeFile() throws IOException {
 		ImageConverter imageConverter = new ImageConverter();
-		imageConverter.readSVGFile(Fixtures.LARGE_IMAGE_SVG);
+		imageConverter.readSVGFile(SVGHTMLFixtures.LARGE_IMAGE_SVG);
 		imageConverter.setImageDirectory(new File(new File("target"), "images/"));
 		imageConverter.setFileroot("imagex");
 		imageConverter.setMimeType(SVGImage.IMAGE_PNG);

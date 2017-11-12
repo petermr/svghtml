@@ -9,7 +9,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -27,7 +27,7 @@ public class SVGArrowTest {
 	// these files already have triangles
 	@Test
 	public void testArrowFactory() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(Fixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
+		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
 		List<SVGTriangle> triangleList = SVGTriangle.extractSelfAndDescendantTriangles(g);
 		Assert.assertEquals(2,  triangleList.size());
 		List<SVGLine> lineList = SVGLine.extractSelfAndDescendantLines(g);
@@ -57,7 +57,7 @@ public class SVGArrowTest {
 	 * @throws FileNotFoundException
 	 */
 	public void testArrowFactory1() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(Fixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
+		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
 		ArrowFactory arrowFactory = new ArrowFactory();
 		arrowFactory.setMarkerEnd(SVGArrow.ARROWHEAD);
 		arrowFactory.setStroke("red");
@@ -72,7 +72,7 @@ public class SVGArrowTest {
 	
 	@Test
 	public void testMultiArrows() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(Fixtures.OBJECTS_DIR, "multiTextBox.svg")).getChildElements().get(0);
+		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "multiTextBox.svg")).getChildElements().get(0);
 		ArrowFactory arrowFactory = new ArrowFactory();
 		arrowFactory.setMarkerEnd(SVGArrow.ARROWHEAD);
 		arrowFactory.setStroke("orange");

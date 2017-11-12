@@ -10,7 +10,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.GraphicsElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -84,9 +84,9 @@ public class HiddenGraphicsTest {
 	 */
 	public void testAntialias() throws Exception {
 		HiddenGraphics hg = new HiddenGraphics();
-		File file = Fixtures.IMAGE_G_2_2_SVG;
+		File file = SVGHTMLFixtures.IMAGE_G_2_2_SVG;
 		Document document = XMLUtil.parseQuietlyToDocument(file);
-		SVGElement svg = SVGElement.readAndCreateSVG(Fixtures.IMAGE_G_2_2_SVG);
+		SVGElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.IMAGE_G_2_2_SVG);
 		hg.createImage(svg);
 		hg.write(SVGImage.IMAGE_PNG, new File("target/image.g.2.2.png"));
 	}
@@ -98,9 +98,9 @@ public class HiddenGraphicsTest {
 	@Ignore // too long
 	public void testImage3_2() throws Exception {
 		HiddenGraphics hg = new HiddenGraphics();
-		File file = Fixtures.IMAGE_G_3_2_SVG;
+		File file = SVGHTMLFixtures.IMAGE_G_3_2_SVG;
 		Document document = XMLUtil.parseQuietlyToDocument(file);
-		SVGElement svg = SVGElement.readAndCreateSVG(Fixtures.IMAGE_G_3_2_SVG);
+		SVGElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.IMAGE_G_3_2_SVG);
 		hg.createImage(svg);
 		hg.write(SVGImage.IMAGE_PNG, new File("target/image.g.3.2.png"));
 	}
@@ -111,9 +111,9 @@ public class HiddenGraphicsTest {
 	 */
 	public void testImage8_2() throws Exception {
 		HiddenGraphics hg = new HiddenGraphics();
-		File file = Fixtures.IMAGE_G_8_2_SVG;
+		File file = SVGHTMLFixtures.IMAGE_G_8_2_SVG;
 		Document document = XMLUtil.parseQuietlyToDocument(file);
-		SVGElement svg = SVGElement.readAndCreateSVG(Fixtures.IMAGE_G_8_2_SVG);
+		SVGElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.IMAGE_G_8_2_SVG);
 		if (1 == 1) {
 			LOG.error("FIXME");
 			return;

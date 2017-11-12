@@ -30,7 +30,7 @@ import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGTitle;
 import org.xmlcml.graphics.svg.SVGUtil;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
 import org.xmlcml.graphics.svg.text.build.TextChunkList;
 import org.xmlcml.graphics.svg.text.structure.TextStructurer;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
@@ -192,7 +192,7 @@ public class ComponentCache extends AbstractCache {
 	 * 
 	 * @param plotBox
 	 */
-	public ComponentCache(SVGMediaBox plotBox) {
+	public ComponentCache(AbstractPlotBox plotBox) {
 		super(plotBox);
 	}
 	

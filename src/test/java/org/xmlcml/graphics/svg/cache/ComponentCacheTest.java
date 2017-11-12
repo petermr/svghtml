@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import org.apache.log4j.Logger;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.util.CSVUtil;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -44,7 +45,7 @@ public class ComponentCacheTest {
 		List<String> headers = new ArrayList<String>();
 		headers.add(ComponentCache.FILE);
 		headers.addAll(Feature.getAbbreviations(Feature.TEXT_SHAPE_FEATURES));
-		for (File typesDir : Fixtures.TABLE_TYPES) {
+		for (File typesDir : SVGHTMLFixtures.TABLE_TYPES) {
 			File[] svgFiles = typesDir.listFiles();
 			if (svgFiles == null) continue;
 			for (File svgFile : svgFiles) {
@@ -76,7 +77,7 @@ public class ComponentCacheTest {
 		List<String> headers = new ArrayList<String>();
 		headers.add(ComponentCache.FILE);
 		TextCache textCache = null;
-		for (File typeDir : Fixtures.TABLE_TYPES) {
+		for (File typeDir : SVGHTMLFixtures.TABLE_TYPES) {
 			String typeName = typeDir.getName();
 			File outParent = new File(TARGET_TABLE_TYPES_DIR, typeName+"/");
 			File[] svgFiles = typeDir.listFiles();			
@@ -114,7 +115,7 @@ public class ComponentCacheTest {
 		List<String> headers = new ArrayList<String>();
 		headers.add(ComponentCache.FILE);
 		headers.addAll(Feature.getAbbreviations(Feature.RECT_LINE_FEATURES));
-		for (File dir : Fixtures.TABLE_TYPES) {
+		for (File dir : SVGHTMLFixtures.TABLE_TYPES) {
 			File[] svgFiles = dir.listFiles();
 			for (File svgFile : svgFiles) {
 				if (svgFile.toString().endsWith(DOT_SVG)) {
@@ -177,7 +178,7 @@ public class ComponentCacheTest {
 	public void testPaintTextStyles() throws IOException {
 		List<List<String>> bodyList = new ArrayList<List<String>>();
 		ColorStore colorStore = ColorStore.createColorizer(ColorizerType.CONTRAST);
-		for (File typeDir : Fixtures.TABLE_TYPES) {
+		for (File typeDir : SVGHTMLFixtures.TABLE_TYPES) {
 			String typeName = typeDir.getName();
 			File outParent = new File(TARGET_TABLE_TYPES_DIR, typeName+"/");
 			File[] svgFiles = typeDir.listFiles();			

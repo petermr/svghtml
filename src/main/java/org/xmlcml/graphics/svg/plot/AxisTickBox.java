@@ -208,10 +208,10 @@ public class AxisTickBox extends AxialBox {
 			Double l = tickLine.getLength();
 			String ss = null;
 			if (Real.isEqual(l,  this.getMajorTickLength(), AnnotatedAxis.EPS)) {
-				ss = SVGMediaBox.MAJOR_CHAR;
+				ss = XYPlotBox.MAJOR_CHAR;
 				majorTickLines.add(tickLine);
 			} else if (l < this.getMajorTickLength()) { // crude
-				ss = SVGMediaBox.MINOR_CHAR;
+				ss = XYPlotBox.MINOR_CHAR;
 				minorTickLines.add(tickLine);
 			}
 			sb.append(ss);

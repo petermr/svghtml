@@ -31,7 +31,7 @@ import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
 import org.xmlcml.graphics.svg.text.TextAnalyzerUtils;
 import org.xmlcml.graphics.svg.text.TextCoordinate;
 import org.xmlcml.graphics.svg.text.build.PhraseChunk;
@@ -743,7 +743,7 @@ public class TextStructurer {
 	 */
 	public static TextStructurer createTextStructurerWithSortedLinesAndCaches(SVGElement svgElement) {
 		// FIXME - may crash later
-		SVGMediaBox box = null;
+		AbstractPlotBox box = null;
 		ComponentCache componentCache = new ComponentCache(box);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		boolean normalized = TextUtil.normalize(svgElement, NORMALIZE_FORM);

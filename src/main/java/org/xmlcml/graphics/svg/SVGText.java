@@ -830,6 +830,11 @@ public class SVGText extends SVGElement {
 	}
 	
 
+	public static List<SVGText> getQuerySVGTexts(SVGElement svgElement, String xpath) {
+		List<SVGElement> elements = SVGUtil.getQuerySVGElements(svgElement, xpath);
+		return extractTexts(elements);
+	}
+
 
 	/** 
 	 * Special routine to make sure characters are correctly oriented

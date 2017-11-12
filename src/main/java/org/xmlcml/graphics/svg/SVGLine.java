@@ -71,6 +71,7 @@ public class SVGLine extends SVGShape {
 			return LineDirection.VERTICAL.equals(this);
 		}
 	}
+	
 	public final static String ALL_LINE_XPATH = ".//svg:line";
 	
 	private static final String X1 = "x1";
@@ -82,6 +83,8 @@ public class SVGLine extends SVGShape {
 
 	public final static String TAG ="line";
 	public final static double EPS = 0.01;
+	// tolerance for making TJunctions
+	public final static double TJUNCTION_DISTANCE = 1.0;
 
 	private Line2D.Double line2;
 	private Line2 euclidLine;
@@ -878,6 +881,53 @@ public class SVGLine extends SVGShape {
 			}
 		}
 		return newLines;
+	}
+
+	/** split into n equal lines
+	 * start at end 0 and move to end 1
+	 * 
+	 * @param n
+	 * @return
+	 */
+	public List<SVGLine> createSplitLines(int n) {
+		List<SVGLine> splitLines = new ArrayList<SVGLine>();
+		Real2 delta = this.getXY(1).subtract(this.getXY(0));
+		for (int i = 0; i < n; i++) {
+			double startRatio = (double) i / (double) n;
+			double endRatio = (double) (i + 1) / (double) n;
+			SVGLine splitLine = new SVGLine(this);
+			Real2 start = this.getXY(0).plus(delta.multiplyBy(startRatio));
+			Real2 end = this.getXY(0).plus(delta.multiplyBy(endRatio));
+			splitLine.setXY(start, 0);
+			splitLine.setXY(end, 1);
+			splitLines.add(splitLine);
+		}
+		return splitLines;
+	}
+
+	/**
+	 * @deprecated Use {@link org.xmlcml.graphics.svg.SVGLine#getTJunction(List<SVGLine>,int)} instead
+	 */
+	public SVGLine getTJunction(List<SVGLine> horizontalLines, SVGLine verticalLine, int end) {
+		return verticalLine.getTJunctionCrossbar(horizontalLines, end);
+	}
+	
+	/** search perpendicular lines for the line whose midpoint touches this at end = end.
+	 * (doesn't actually have to be perpendicular, but has to be midpoint)
+	 * 
+	 * @param perpendicularLines
+	 * @param end
+	 * @return
+	 */
+	public SVGLine getTJunctionCrossbar(List<SVGLine> perpendicularLines, int end) {
+		for (SVGLine perpendicularLine : perpendicularLines) {
+			Real2 midPoint = perpendicularLine.getMidPoint();
+			double dist = midPoint.getDistance(getXY(end));
+			if (dist < SVGLine.TJUNCTION_DISTANCE) {
+				return perpendicularLine;
+			}
+		}
+		return null;
 	}
 
 

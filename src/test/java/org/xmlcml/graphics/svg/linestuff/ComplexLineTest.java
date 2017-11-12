@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -321,7 +321,7 @@ public class ComplexLineTest {
 
 	@Test
 	public void testSimpleTree() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		CombType[] combTypes = {
 				CombType.CROSSING,
@@ -354,7 +354,7 @@ public class ComplexLineTest {
 	
 	@Test
 	public void testOrientation() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> subset = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);
 		Assert.assertEquals(15, subset.size());
@@ -365,7 +365,7 @@ public class ComplexLineTest {
 	
 	@Test
 	public void testHorizontalBackbones() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> horizontalLines = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);
 		List<SVGLine> verticalLines = ComplexLine.createSubset(svgLines, LineOrientation.VERTICAL, EPS);
@@ -381,7 +381,7 @@ public class ComplexLineTest {
 
 	@Test
 	public void testVerticalBackbones() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> horizontalLines = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);
 		List<SVGLine> verticalLines = ComplexLine.createSubset(svgLines, LineOrientation.VERTICAL, EPS);
@@ -397,7 +397,7 @@ public class ComplexLineTest {
 	
 	@Test
 	public void testSortHorizontalLinesByEnds() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> horizontalLines = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);
 		List<SVGElement> horizontalMaxLines = BoundingBoxManager.getElementsSortedByEdge(horizontalLines, BoxEdge.XMAX);
@@ -415,7 +415,7 @@ public class ComplexLineTest {
 
 	@Test
 	public void testSortVerticalLines() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> verticalLines = ComplexLine.createSubset(svgLines, LineOrientation.VERTICAL, EPS);
 		List<SVGElement> verticalMaxLines = BoundingBoxManager.getElementsSortedByEdge(verticalLines, BoxEdge.XMAX);
@@ -427,7 +427,7 @@ public class ComplexLineTest {
 
 	@Test
 	public void testCreateBackbonesFromVerticalLines() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> verticalLines = ComplexLine.createSubset(svgLines, LineOrientation.VERTICAL, EPS);
 		List<SVGLine> horizontalLines = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);
@@ -440,7 +440,7 @@ public class ComplexLineTest {
 
 	@Test
 	public void testCreateBackbonesFromHorizontalLines() {
-		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(Fixtures.PATHS_SIMPLE_TREE_SVG);
+		SVGSVG svg = (SVGSVG) SVGElement.readAndCreateSVG(SVGHTMLFixtures.PATHS_SIMPLE_TREE_SVG);
 		List<SVGLine> svgLines = SVGLine.extractSelfAndDescendantLines(svg);
 		List<SVGLine> verticalLines = ComplexLine.createSubset(svgLines, LineOrientation.VERTICAL, EPS);
 		List<SVGLine> horizontalLines = ComplexLine.createSubset(svgLines, LineOrientation.HORIZONTAL, EPS);

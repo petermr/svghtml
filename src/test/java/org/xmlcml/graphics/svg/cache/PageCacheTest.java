@@ -12,7 +12,7 @@ import org.junit.Test;
 import org.xmlcml.euclid.Int2Range;
 import org.xmlcml.euclid.IntMatrix;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -41,7 +41,7 @@ public class PageCacheTest {
 	@Test
 	public void testPage6Rects() {
 		List<? extends SVGElement> componentList = extractAndDisplayComponents(
-				new File(Fixtures.TABLE_PAGE_DIR, "page6.svg"), new File(Fixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
+				new File(SVGHTMLFixtures.TABLE_PAGE_DIR, "page6.svg"), new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
 		Assert.assertEquals("components", 2995, componentList.size());
 		RectCache rectCache = componentCache.getOrCreateRectCache();
 		Assert.assertEquals("rects", 3, rectCache.getOrCreateRectList().size());
@@ -55,7 +55,7 @@ public class PageCacheTest {
 	@Test
 	public void testPage6Texts() {
 		List<? extends SVGElement> componentList = extractAndDisplayComponents(
-				new File(Fixtures.TABLE_PAGE_DIR, "page6.svg"), new File(Fixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
+				new File(SVGHTMLFixtures.TABLE_PAGE_DIR, "page6.svg"), new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
 		Assert.assertEquals("components", 2995, componentList.size());
 		TextCache textCache = componentCache.getOrCreateTextCache();
 		List<SVGText> textList = textCache.getTextList();
@@ -65,7 +65,7 @@ public class PageCacheTest {
 		Assert.assertEquals("compacted", 100, convertedTextList.size());
 		textList = textCache.getTextList();
 		Assert.assertEquals("compacted", 100, textList.size());
-		SVGSVG.wrapAndWriteAsSVG(g, new File(Fixtures.TARGET_TABLE_CACHE_DIR, "texts6.svg"));
+		SVGSVG.wrapAndWriteAsSVG(g, new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "texts6.svg"));
 	}
 
 	/** a page with a page header, two tables and some text
@@ -74,22 +74,22 @@ public class PageCacheTest {
 	 */
 	@Test
 	public void testFindWhitespace() {
-		extractAndDisplayComponents(new File(Fixtures.TABLE_PAGE_DIR, "page6.svg"), new File(Fixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
+		extractAndDisplayComponents(new File(SVGHTMLFixtures.TABLE_PAGE_DIR, "page6.svg"), new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
 		TextCache textCache = componentCache.getOrCreateTextCache();
 		SVGG g = textCache.createCompactedTextsAndReplace();
 		Assert.assertEquals("bounding boxes", 131, componentCache.getBoundingBoxList().size());
 		double dx = 5;
 		double dy = 5;
 		SVGG gg = componentCache.createWhitespaceG(dx, dy);
-		SVGSVG.wrapAndWriteAsSVG(gg, new File(Fixtures.TARGET_TABLE_CACHE_DIR, "whitespace6.svg"));
+		SVGSVG.wrapAndWriteAsSVG(gg, new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "whitespace6.svg"));
 	}
 	
 	@Test
 	@Ignore // too long
 	public void testArticleWhitespace() {
 		String root = "10.1136_bmjopen-2016-011048";
-		File outDir = new File(Fixtures.TARGET_TABLE_CACHE_DIR, root);
-		File journalDir = new File(Fixtures.TABLE_DIR, root);
+		File outDir = new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, root);
+		File journalDir = new File(SVGHTMLFixtures.TABLE_DIR, root);
 		File svgDir = new File(journalDir, "svg");
 		for (File svgFile : svgDir.listFiles()) {
 			System.out.print(".");
@@ -107,8 +107,8 @@ public class PageCacheTest {
 	@Ignore // DEVELOP// too long
 	public void testSuperPixelArray() {
 		String root = "10.1136_bmjopen-2016-011048";
-		File outDir = new File(Fixtures.TARGET_TABLE_CACHE_DIR, root);
-		File journalDir = new File(Fixtures.TABLE_DIR, root);
+		File outDir = new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, root);
+		File journalDir = new File(SVGHTMLFixtures.TABLE_DIR, root);
 		File svgDir = new File(journalDir, "svg");
 		SuperPixelArray versoPixelArray = null;
 		SuperPixelArray rectoPixelArray = null;
@@ -148,11 +148,11 @@ public class PageCacheTest {
 	@Test
 	@Ignore // DEVELOP// too long
 	public void testArticlesWhitespace() {
-		File[] journalDirs = Fixtures.TABLE_DIR.listFiles();
+		File[] journalDirs = SVGHTMLFixtures.TABLE_DIR.listFiles();
 		for (File journalDir : journalDirs) {
 			System.out.print("*");
 			String root = journalDir.getName();
-			File outDir = new File(Fixtures.TARGET_TABLE_CACHE_DIR, root);
+			File outDir = new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, root);
 			File svgDir = new File(journalDir, "svg");
 			if (svgDir.listFiles() == null) continue;
 			for (File svgFile : svgDir.listFiles()) {
@@ -173,12 +173,12 @@ public class PageCacheTest {
 	@Test
 	@Ignore // DEVELOP// too long
 	public void testSuperPixelArrayForArticles() {
-		File[] journalDirs = Fixtures.TABLE_DIR.listFiles();
+		File[] journalDirs = SVGHTMLFixtures.TABLE_DIR.listFiles();
 		for (File journalDir : journalDirs) {
 			if (!journalDir.isDirectory()) continue;
 			System.out.println(">>"+journalDir);
 			String root = journalDir.getName();
-			File outDir = new File(Fixtures.TARGET_TABLE_CACHE_DIR, root);
+			File outDir = new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, root);
 			File svgDir = new File(journalDir, "svg");
 			SuperPixelArray versoPixelArray = null;
 			SuperPixelArray rectoPixelArray = null;

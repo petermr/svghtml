@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Util;
-import org.xmlcml.graphics.svg.Fixtures;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGPath;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -18,7 +18,7 @@ public class ArcTest {
 
 	@Test
 	public void testArc() {
-		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "hollowcorner.svg"))
+		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
 		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.getSignature());
 		PathPrimitiveList primList = svgPath.ensurePrimitives();
@@ -35,7 +35,7 @@ public class ArcTest {
 
 	@Test
 	public void testMeanArc() {
-		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(Fixtures.PATHS_DIR, "hollowcorner.svg"))
+		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
 		PathPrimitiveList primList = svgPath.ensurePrimitives();
 		Arc meanArc = primList.createMeanCubic(2, 6);

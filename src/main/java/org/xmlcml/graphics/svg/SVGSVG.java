@@ -110,7 +110,7 @@ public class SVGSVG extends SVGElement {
 		return this.getAttributeValue("id");
 	}
 
-	/** defaults to heigh=800 width=700.
+	/** defaults to height=800 width=700.
 	 * 
 	 * */
 	public static SVGSVG wrapAndWriteAsSVG(List<? extends SVGElement> svgList, File file) {
@@ -129,7 +129,10 @@ public class SVGSVG extends SVGElement {
 	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file) {
 		if (svgg == null) return null;
 		Real2Range bbox = svgg.getBoundingBox();
-		if (bbox == null) return null;
+		if (bbox == null || !bbox.isValid()) {
+			return null;
+		}
+		LOG.debug("bbox"+bbox);
 		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);
 	}
 	

@@ -406,7 +406,7 @@ public class SVGPathPrimitiveTest {
 	</svg>*/
 	@Test
 	public void checkAngleForClosedCurve() {
-		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(Fixtures.ROUNDED_LINE_SVG_FILE)
+		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 	    PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.ensurePrimitives();
 		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getSignature());
@@ -422,7 +422,7 @@ public class SVGPathPrimitiveTest {
 
 	@Test
 	public void testQuadrantValue() {
-		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(Fixtures.ROUNDED_LINE_SVG_FILE)
+		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.ensurePrimitives();
 		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getSignature());
@@ -437,7 +437,7 @@ public class SVGPathPrimitiveTest {
 
 	@Test
 	public void testTwoQuadrantList() {
-		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(Fixtures.ROUNDED_LINE_SVG_FILE)
+		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 	PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.ensurePrimitives();
 		List<Integer> quadStartList = primitiveList.getUTurnList(ANGLE_EPS);
@@ -448,7 +448,7 @@ public class SVGPathPrimitiveTest {
 	
 	@Test
 	public void testFindSemiCircles() {
-		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(Fixtures.ROUNDED_LINE_SVG_FILE)
+		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.ensurePrimitives();
 		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getSignature());
@@ -457,7 +457,7 @@ public class SVGPathPrimitiveTest {
 	
 	@Test
 	public void testTwoQuadrantListMolecule() {
-		List<SVGPath> pathList = SVGPath.extractPaths(SVGElement.readAndCreateSVG(Fixtures.IMAGE_2_13_SVG));
+		List<SVGPath> pathList = SVGPath.extractPaths(SVGElement.readAndCreateSVG(SVGHTMLFixtures.IMAGE_2_13_SVG));
 		Assert.assertEquals("paths", 13, pathList.size());
 		SVGPath path = pathList.get(3);
 		SVGSVG.wrapAndWriteAsSVG(path, new File("target/badPath.svg"));

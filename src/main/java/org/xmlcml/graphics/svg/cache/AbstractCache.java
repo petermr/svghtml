@@ -10,7 +10,7 @@ import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.plot.SVGMediaBox;
+import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
 
 /** superclass for caches.
  * 
@@ -30,7 +30,7 @@ public abstract class AbstractCache {
 	protected Real2Range boundingBox;
 	protected ComponentCache ownerComponentCache;
 	protected Real2Range ownerComponentCacheBoundingBox;
-	private SVGMediaBox svgMediaBox;
+	private AbstractPlotBox svgMediaBox;
 
 	protected ShapeCache siblingShapeCache;
 	
@@ -45,7 +45,7 @@ public abstract class AbstractCache {
 		getOrCreateElementList();
 	}
 
-	public AbstractCache(SVGMediaBox svgMediaBox) {
+	public AbstractCache(AbstractPlotBox svgMediaBox) {
 		this.svgMediaBox = svgMediaBox;
 	}
 
