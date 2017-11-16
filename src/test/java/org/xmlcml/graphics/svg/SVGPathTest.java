@@ -109,7 +109,7 @@ public class SVGPathTest {
 	@Test
 	public void testPrimitives1() {
 		SVGPath svgPath = new SVGPath("M100 200L250,300");
-		PathPrimitiveList primitives = svgPath.ensurePrimitives();
+		PathPrimitiveList primitives = svgPath.getOrCreatePathPrimitiveList();
 		Assert.assertEquals("prim", 2, primitives.size());
 		Assert.assertTrue("prim", primitives.get(0) instanceof MovePrimitive);
 		Assert.assertEquals("prim", 1, primitives.get(0).getCoordArray().size());
@@ -120,7 +120,7 @@ public class SVGPathTest {
 	@Test
 	public void testPrimitives2() {
 		SVGPath svgPath = new SVGPath("M100 200 L250,300 C100 290 240 110 400 230 Z");
-		PathPrimitiveList primitives = svgPath.ensurePrimitives();
+		PathPrimitiveList primitives = svgPath.getOrCreatePathPrimitiveList();
 		Assert.assertEquals("prim", 4, primitives.size());
 		Assert.assertTrue("prim", primitives.get(0) instanceof MovePrimitive);
 		Assert.assertTrue("prim", primitives.get(1) instanceof LinePrimitive);
@@ -135,7 +135,7 @@ public class SVGPathTest {
 	public void testGetSkeleton() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		
 		primList.createMeanLine(1, 7);
 		primList.createMeanCubic(2, 6);
@@ -159,14 +159,14 @@ public class SVGPathTest {
 	public void testRemoveRoundedCaps() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg"))
 				.getChildElements().get(0).getChildElements().get(0);
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
-		String signature = svgPath.getSignature();
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
+		String signature = svgPath.createSignatureFromDStringPrimitives();
 		Assert.assertEquals("MLCCLCC", signature);
 		primList.replaceUTurnsByButt(5);
 		primList.replaceUTurnsByButt(2);
 		SVGPath newPath = new SVGPath(primList, svgPath);
 		Assert.assertEquals("new d", "M415.26 526.26 L415.26 517.98 L415.74 517.98 L415.74 526.26 L415.26 526.26", newPath.getDString().trim());
-		Assert.assertEquals("new sig", "MLLLL", newPath.getSignature());
+		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
 		
 	}
 
@@ -174,13 +174,13 @@ public class SVGPathTest {
 	public void testRemoveRoundedCaps1() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg"))
 				.getChildElements().get(0).getChildElements().get(0);
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
-		String signature = svgPath.getSignature();
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
+		String signature = svgPath.createSignatureFromDStringPrimitives();
 		Assert.assertEquals("MLCCLCC", signature);
 		svgPath.replaceAllUTurnsByButt(ANGLE_EPS);
 		SVGPath newPath = new SVGPath(primList, svgPath);
 		Assert.assertEquals("new d", "M415.26 526.26 L415.26 517.98 L415.74 517.98 L415.74 526.26 L415.26 526.26", newPath.getDString().trim());
-		Assert.assertEquals("new sig", "MLLLL", newPath.getSignature());
+		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
 		
 	}
 
@@ -204,7 +204,7 @@ public class SVGPathTest {
 		SVGG g = new SVGG();
 		int i = 0;
 		for (SVGPath path : pathList) {
-			LOG.trace(path.getSignature());
+			LOG.trace(path.createSignatureFromDStringPrimitives());
 			SVGPath newPath = path.replaceAllUTurnsByButt(angleEps);
 			if (newPath != null) {
 				SVGLine line = newPath.createLineFromMLLLL(angleEps, LINE_EPS);
@@ -229,12 +229,12 @@ public class SVGPathTest {
 		List<SVGPath> pathList = SVGPath.extractPaths(SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg")));
 		SVGPath path = pathList.get(9);
 		Angle angle2 = new Angle(0.02, Units.RADIANS);
-		Assert.assertEquals("old sig", "MLCCLCC", path.getSignature());
-		PathPrimitiveList primList = path.ensurePrimitives();
+		Assert.assertEquals("old sig", "MLCCLCC", path.createSignatureFromDStringPrimitives());
+		PathPrimitiveList primList = path.getOrCreatePathPrimitiveList();
 		List<Integer> quadrantStartList = primList.getUTurnList(angle2);
 		Assert.assertEquals("uturns", 2, quadrantStartList.size());
 		SVGPath newPath = path.replaceAllUTurnsByButt(angle2);
-		Assert.assertEquals("new sig", "MLLLL", newPath.getSignature());
+		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
 		SVGShape line = newPath.createLineFromMLLLL(angle2, MAX_WIDTH);
 		Assert.assertNotNull(line);
 	}

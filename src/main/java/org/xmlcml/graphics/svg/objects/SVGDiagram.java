@@ -75,7 +75,7 @@ public class SVGDiagram extends SVGG {
 						addNewPolyline(polyline);
 					}
 				} else if (shape instanceof SVGPath) {
-					if (shape.getSignature().equals("M")) {
+					if (shape.createSignatureFromDStringPrimitives().equals("M")) {
 	//					System.err.println("omitted M");
 					} else {
 						SVGRoundedBox roundedBox = SVGRoundedBox.createRoundedBox((SVGPath)shape);

@@ -1274,5 +1274,18 @@ public class SVGText extends SVGElement {
 		removeAttribute("transform");
 	}
 
+	/** creates textwith default pont-size and fill.
+	 * 
+	 * @param xy
+	 * @param string
+	 * @return
+	 */
+	public static SVGText createDefaultText(Real2 xy, String string) {
+		SVGText text = new SVGText(xy, string);
+		text.setFontSize(8.0);
+		text.setFill("red");
+		return text;
+	}
+
 
 }

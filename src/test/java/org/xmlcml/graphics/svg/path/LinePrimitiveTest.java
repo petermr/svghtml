@@ -22,8 +22,8 @@ public class LinePrimitiveTest {
 	public void testLinePrimitive() {
 		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
 		SVGPath svgPath = SVGPath.extractSelfAndDescendantPaths(svgElement).get(0);
-		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.getSignature());
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
+		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.createSignatureFromDStringPrimitives());
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		LinePrimitive line1 = (LinePrimitive) primList.get(1);
 		Assert.assertEquals("line1", "L287.263 89.045 ", line1.toString());
 		Assert.assertEquals("line1f", "(287.263,89.045)", line1.getFirstCoord().toString());
@@ -42,7 +42,7 @@ public class LinePrimitiveTest {
 	public void testCalculateMeanLine() {
 		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
 		SVGPath svgPath = SVGPath.extractSelfAndDescendantPaths(svgElement).get(0);
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		LinePrimitive line1 = (LinePrimitive) primList.get(1);
 		LinePrimitive line3 = (LinePrimitive) primList.get(3);
 		LinePrimitive line4 = (LinePrimitive) primList.get(4);

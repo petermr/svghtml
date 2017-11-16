@@ -203,7 +203,7 @@ public class SVGEllipse extends SVGShape {
 
 	public static SVGShape getEllipseOrCircle(SVGPath path, double eps) {
 		SVGShape ellipseOrCircle= null;
-		String signature = path.getSignature();
+		String signature = path.createSignatureFromDStringPrimitives();
 		if (signature.equals(ELLIPSE_MCCCC) || signature.equals(ELLIPSE_MCCCCZ)) {
 /**
  d="M350.644 164.631 
@@ -214,7 +214,7 @@ public class SVGEllipse extends SVGShape {
  * 			
  */
 		}
-		PathPrimitiveList primList = path.ensurePrimitives();
+		PathPrimitiveList primList = path.getOrCreatePathPrimitiveList();
 		Real2[] points = new Real2[4];
 		for (int i = 1; i < 5; i++) {
 			SVGPathPrimitive primitive = primList.get(i);

@@ -132,7 +132,6 @@ public class SVGSVG extends SVGElement {
 		if (bbox == null || !bbox.isValid()) {
 			return null;
 		}
-		LOG.debug("bbox"+bbox);
 		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);
 	}
 	

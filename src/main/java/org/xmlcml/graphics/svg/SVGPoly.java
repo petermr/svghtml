@@ -554,7 +554,7 @@ public abstract class SVGPoly extends SVGShape {
 	}
 
 	public static SVGPoly createSVGPoly(SVGPath path) {
-		PathPrimitiveList primList = path.ensurePrimitives();
+		PathPrimitiveList primList = path.getOrCreatePathPrimitiveList();
 		Real2 xyLast = null;
 		List<SVGLine> lineList = new ArrayList<SVGLine>();
 		for (int i = 0; i < primList.size(); i++) {

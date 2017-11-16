@@ -125,7 +125,7 @@ public class PathCache extends AbstractCache{
 		pathBySig = new HashMap<String, SVGPath>();
 		for (SVGPath path : pathList) {
 			path.setStrokeWidth(0.5);
-			String sig = path.getSignature();
+			String sig = path.createSignatureFromDStringPrimitives();
 			sigSet.add(sig);
 			if (!pathBySig.containsKey(sig)) {
 				pathBySig.put(sig, path);
@@ -223,7 +223,7 @@ public class PathCache extends AbstractCache{
 			path.setStrokeWidth(0.2);
 			path.setFill(fill);
 			path.setOpacity(opacity);
-			path.addTitle(p.getSignature());
+			path.addTitle(p.createSignatureFromDStringPrimitives());
 			g.appendChild(path);
 		}
 	}

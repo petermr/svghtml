@@ -75,7 +75,7 @@ public class ImageCache extends AbstractCache{
 			image.setStrokeWidth(0.2);
 			image.setFill(fill);
 			image.setOpacity(opacity);
-			image.addTitle(image.getSignature());
+			image.addTitle(image.createSignatureFromDStringPrimitives());
 			g.appendChild(image);
 		}
 	}

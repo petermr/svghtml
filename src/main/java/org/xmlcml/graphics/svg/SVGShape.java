@@ -81,7 +81,7 @@ public abstract class SVGShape extends SVGElement {
 		lineListNew.remove(iline + 1);
 	}
 
-	public String getSignature() {
+	public String createSignatureFromDStringPrimitives() {
 		return getGeometricHash();
 	}
 

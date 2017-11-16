@@ -64,7 +64,11 @@ public abstract class SVGPathPrimitive {
 		d = primitiveList.createD();
 		return d;
 	}
-	
+
+	/** transforms THIS.
+	 * 
+	 * @param t2
+	 */
 	public void transformBy(Transform2 t2) {
 		
 		if (coordArray != null) {

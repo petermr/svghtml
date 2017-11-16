@@ -49,6 +49,8 @@ import nu.xom.ParentNode;
  */
 public class Path2ShapeConverter {
 
+	private static final String FILL_NONE = "none";
+
 	/** tag as having created line from narrow shapes
 	 * 
 	 */
@@ -104,6 +106,10 @@ public class Path2ShapeConverter {
 	private double rectEpsilon = RECT_EPS;
 
 	private boolean makeRelativePathsAbsolute = true;
+
+	private String currentSignature;
+
+	private String currentFill;
 
 	public Path2ShapeConverter() {
 		
@@ -293,6 +299,8 @@ public class Path2ShapeConverter {
 		if (path == null) {
 			return null;
 		}
+		currentSignature = path.createSignatureFromDStringPrimitives();
+		currentFill = path.getFill();
 		SVGShape shape = null;
 		SVGShape polygon = null;
 		SVGPolyline polyline = null;
@@ -380,7 +388,7 @@ public class Path2ShapeConverter {
 	 */
 	private SVGShape applyHeuristics(SVGPath path) {
 		SVGShape shape = path; // no change
-		String signature = path.getSignature();
+		String signature = path.createSignatureFromDStringPrimitives();
 		LOG.trace("SIG "+signature);
 		if (signature == null) {
 			LOG.warn("Null signature for path");
@@ -401,7 +409,7 @@ public class Path2ShapeConverter {
 			SVGShape ellipseOrCircle = SVGEllipse.getEllipseOrCircle(path, rectEpsilon);
 			if (ellipseOrCircle != null) {
 				shape = ellipseOrCircle;
-				ellipseOrCircle.setFill("none");
+				ellipseOrCircle.setFill(FILL_NONE);
 			}
 		}
 		
@@ -429,18 +437,21 @@ public class Path2ShapeConverter {
 		decimalPlaces = places;
 	}
 	
-	private SVGLine createLineFromMLLLLOrMLCCLCC(SVGPath path) {
+	private SVGLine createLineFromMLLLLOrMLCCLCCorMLLLfill(SVGPath path) {
 		SVGLine line = null;
 		if (path != null) {
 			path = removeRoundedCapsFromPossibleLine(path);
 			//If signature is now MLLLL continue
 			line = path.createLineFromMLLLL(maxAngleForParallel, maxWidthForParallel);
+			if (line == null && MLLL.equals(currentSignature) && (currentFill != null || !FILL_NONE.equals(currentFill))) {
+				line = path.createLineFromMLLL(maxAngleForParallel, maxWidthForParallel);
+			}
 		}
 		return line;
 	}
 
 	private SVGPath removeRoundedCapsFromPossibleLine(SVGPath path) {
-		String signature = path.getSignature();
+		String signature = path.createSignatureFromDStringPrimitives();
 		if (MLCCLCC.equals(signature) || MLCCLCCZ.equals(signature)) {
 			SVGPath newPath = path.replaceAllUTurnsByButt(maxAngleForParallel, true);
 			if (newPath != null) {
@@ -534,7 +545,7 @@ public class Path2ShapeConverter {
 		SVGRect rect = path.createRectangle(eps);
 		SVGLine line = null;
 		if (rect == null) {
-			line = createLineFromMLLLLOrMLCCLCC(path);
+			line = createLineFromMLLLLOrMLCCLCCorMLLLfill(path);
 		} else {
 			line = createLineFromRect(rect); 
 		}
@@ -768,7 +779,7 @@ public class Path2ShapeConverter {
 					 }
 				 }
 				 newPath.setDString(newDString);
-				 newPath.createSignature();
+				 newPath.forceCreateSignatureAttributeValue();
 				 newPath.setId(newPath.getId()+"."+count);
 				 splitPathList.add(newPath);
 //				 LOG.trace("new "+newPath.toXML());
@@ -1090,9 +1101,9 @@ public class Path2ShapeConverter {
 		maxPathWidth = 1.0;
 		if (svgPath == null) return null;
 		SVGShape line = null;
-		String signature = svgPath.getSignature();
+		String signature = svgPath.createSignatureFromDStringPrimitives();
 		if (MLLL.equals(signature) || MLLLL.equals(signature)) {
-			PathPrimitiveList primList = svgPath.ensurePrimitives();
+			PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 			SVGLine line0 = primList.getLine(1);
 			SVGLine line1 = primList.getLine(3);
 			line = createNarrowLine(line0, line1);
@@ -1128,9 +1139,9 @@ public class Path2ShapeConverter {
 	@Deprecated
 	public SVGPath createNarrowQuadrant() {
 		SVGPath newPath = null;
-		String signature = svgPath.getSignature();
+		String signature = svgPath.createSignatureFromDStringPrimitives();
 		if (MCLC.equals(signature)) {
-			PathPrimitiveList primList = svgPath.ensurePrimitives();
+			PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 			Arc quadrant0 = primList.getQuadrant(1, ANGLE_EPS);
 			Arc quadrant2 = primList.getQuadrant(3, ANGLE_EPS);
 		}

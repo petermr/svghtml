@@ -24,6 +24,7 @@ import java.awt.geom.PathIterator;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.PrimitiveIterator;
 import java.util.Set;
 import java.util.regex.Pattern;
 
@@ -78,6 +79,7 @@ public class SVGPath extends SVGShape {
 	private static final String MCCCCZ = "MCCCCZ";
 	private static final String NONE = "none";
 	private static final String BLACK = "black";
+	private static final String MLLL = "MLLL";
 	private static final String MLLLL = "MLLLL";
 	private static final String MLLLLZ = "MLLLLZ";
 	public final static String CC = "CC";
@@ -93,15 +95,15 @@ public class SVGPath extends SVGShape {
 	public final static Pattern REPEATED_ML = Pattern.compile("ML(ML)*");
 	private static final double CIRCLE_EPSILON = 0.01;
 	
-	private GeneralPath path2;
-	private boolean isClosed = false;
-	private Real2Array coords = null; // for diagnostics
-	private SVGPolyline polyline;
-	private Real2Array allCoords;
-	private PathPrimitiveList primitiveList;
-	private Boolean isPolyline;
-	private Real2Array firstCoords;
-	private String signature;
+	protected GeneralPath path2;
+	protected boolean isClosed = false;
+	protected Real2Array coords = null; // for diagnostics
+	protected SVGPolyline polyline;
+	protected Real2Array allCoords;
+	protected PathPrimitiveList primitiveList;
+	protected Boolean isPolyline;
+	protected Real2Array firstCoords;
+//	protected String signature;
 
 	/** 
 	 * Constructor
@@ -155,7 +157,8 @@ public class SVGPath extends SVGShape {
 		if (reference != null) {
 			XMLUtil.copyAttributes(reference, this);
 		}
-		setDString(primitiveList.createD());
+		String d = primitiveList.createD();
+		setDString(d);
 	}
 	
 	public SVGPath(PathPrimitiveList primitives) {
@@ -256,7 +259,7 @@ public class SVGPath extends SVGShape {
 		polyline = null;
 		allCoords = new Real2Array();
 		firstCoords = new Real2Array();
-		ensurePrimitives();
+		getOrCreatePathPrimitiveList();
 		isPolyline = true;
 		for (SVGPathPrimitive primitive : primitiveList) {
 			if (primitive instanceof CubicPrimitive) {
@@ -328,9 +331,9 @@ public class SVGPath extends SVGShape {
 	public SVGCircle createCircle(double epsilon) {
 		createCoordArray();
 		SVGCircle circle = null;
-		String signature = getSignature();
+		String signature = createSignatureFromDStringPrimitives();
 		if (signature.equals(MCCCCZ) || signature.equals(MCCCC) && isClosed) {
-			PathPrimitiveList primList = ensurePrimitives();
+			PathPrimitiveList primList = getOrCreatePathPrimitiveList();
 			Angle angleEps = new Angle(0.05, Units.RADIANS);
 			Real2Array centreArray = new Real2Array();
 			RealArray radiusArray = new RealArray();
@@ -358,7 +361,12 @@ public class SVGPath extends SVGShape {
 		return circle;
 	}
 
+	@Deprecated // use getOrCreatePrimitives()
 	public PathPrimitiveList ensurePrimitives() {
+		return getOrCreatePathPrimitiveList();
+	}
+	
+	public PathPrimitiveList getOrCreatePathPrimitiveList() {
 		isClosed = false;
 		if (primitiveList == null) {
 			primitiveList = createPathPrimitives();
@@ -389,19 +397,17 @@ public class SVGPath extends SVGShape {
 	}
 	
 	public Real2Array getCoords() {
-		//if (coords == null) {
 		coords = new Real2Array();
 		PathPrimitiveList primitives = createPathPrimitives();
 		for (SVGPathPrimitive primitive : primitives) {
 			Real2 coord = primitive.getFirstCoord();
 			Real2Array coordArray = primitive.getCoordArray();
 			if (coord != null) {
-				coords.add(coord);
+				coords.addElement(coord);
 			} else if (coordArray != null) {
 				coords.add(coordArray);
 			}
 		}
-		//}
 		return coords;
 	}
 	
@@ -451,7 +457,10 @@ public class SVGPath extends SVGShape {
 	}
 
 	private PathPrimitiveList createPathPrimitives() {
-		return new SVGPathParser().parseDString(getDString());
+		if (primitiveList == null) {
+			primitiveList = new SVGPathParser().parseDString(getDString());
+		}
+		return primitiveList;
 	}
 
 	/** 
@@ -463,7 +472,14 @@ public class SVGPath extends SVGShape {
 	public Real2Range getBoundingBox() {
 		if (boundingBox == null) {
 			getCoords();
-			boundingBox = coords.getRange2();
+			if (coords.size() == 0) {
+//				LOG.debug("X"+this.toXML());
+//				LOG.debug("D"+this.getDString());
+//				LOG.debug("sig "+getOrCreateSignatureAttributeValue());
+//				throw new RuntimeException("XX");
+			} else {
+				boundingBox = coords.getRange2();
+			}
 		}
 		return boundingBox;
 	}
@@ -500,7 +516,7 @@ public class SVGPath extends SVGShape {
 
 	public GeneralPath createPath2D() {
 		path2 = new GeneralPath();
-		ensurePrimitives();
+		getOrCreatePathPrimitiveList();
 		for (SVGPathPrimitive pathPrimitive : primitiveList) {
 			pathPrimitive.operateOn(path2);
 		}
@@ -538,23 +554,14 @@ public class SVGPath extends SVGShape {
 	}
 
 	@Override
-	public String getSignature() {
-		if (signature == null) {
-			if (getDString() != null) {
-				ensurePrimitives();
-				signature = primitiveList.createSignature();
-			}
+	public String createSignatureFromDStringPrimitives() {
+		String signature = null;
+		if (getDString() != null) {
+ 			getOrCreatePathPrimitiveList();
+			signature = primitiveList.createSignature();
 		}
 		return signature;
 	}
-
-//	private PathPrimitiveList getPrimitiveList() {
-//		if (primitiveList == null) {
-//			primitiveList = new PathPrimitiveList();
-//			primitiveList.add(SVGPathPrimitive.parseDString(getDString()).getPrimitiveList());
-//		}
-//		return primitiveList;
-//	}
 
 	public void normalizeOrigin() {
 		boundingBox = null; // fprce recalculate
@@ -647,7 +654,7 @@ public class SVGPath extends SVGShape {
 	// there are some polylines which contain a small number of curves and may be transformable
 	public SVGPoly createHeuristicPolyline(int minL, int maxC, int minPrimitives) {
 		SVGPoly polyline = null;
-		String signature = this.getSignature();
+		String signature = this.createSignatureFromDStringPrimitives();
 		if (signature.length() < 3) {
 			return null;
 		}
@@ -741,8 +748,8 @@ public class SVGPath extends SVGShape {
 	 */
 	public SVGPath replaceAllUTurnsByButt(Angle angleEps, boolean extend) {
 		SVGPath path = null;
-		if (getSignature().contains(CC)) {
-			PathPrimitiveList primList = ensurePrimitives();
+		if (createSignatureFromDStringPrimitives().contains(CC)) {
+			PathPrimitiveList primList = getOrCreatePathPrimitiveList();
 			List<Integer> quadrantStartList = primList.getUTurnList(angleEps);
 			if (quadrantStartList.size() > 0) {
 				for (int quad = quadrantStartList.size() - 1; quad >= 0; quad--) {
@@ -769,10 +776,33 @@ public class SVGPath extends SVGShape {
 	 */
 	public SVGLine createLineFromMLLLL(Angle angleEps, Double maxWidth) {
 		SVGLine line = null;
-		String sig = getSignature();
+		String sig = createSignatureFromDStringPrimitives();
 		if (MLLLL.equals(sig) || MLLLLZ.equals(sig)) {
-			ensurePrimitives();
+			getOrCreatePathPrimitiveList();
 			line = primitiveList.createLineFromMLLLL(angleEps, maxWidth);
+		}
+		return line;
+	}
+	
+	/** 
+	 * Creates a line from path with signature "MLLL"
+	 * normally requires fill
+	 * 
+	 * creates a line from thin unclosed rectangle.
+
+	 * <p>
+	 * Uses primitiveList.createLineFromMLLL().
+	 * 
+	 * @param angleEps
+	 * @param maxWidth above this assumes it's a rectangle
+	 * @return null if line has wrong signature or is too wide or not antiParallel.
+	 */
+	public SVGLine createLineFromMLLL(Angle angleEps, Double maxWidth) {
+		SVGLine line = null;
+		String sig = createSignatureFromDStringPrimitives();
+		if (MLLL.equals(sig)) {
+			getOrCreatePathPrimitiveList();
+			line = primitiveList.createLineFromMLLL(angleEps, maxWidth);
 		}
 		return line;
 	}
@@ -784,12 +814,12 @@ public class SVGPath extends SVGShape {
 	 * @return list of lines (one for each ML)
 	 */
 	public List<SVGLine> createSeparatedLinesFromRepeatedML(String refSig) {
-		String sig = getSignature();
+		String sig = createSignatureFromDStringPrimitives();
 		List<SVGLine> lineList = new ArrayList<SVGLine>();
 		if (isRepeatedML(sig)) {
 			if (refSig == null || "".equals(refSig.trim()) ||
 			refSig.equals(sig)) {
-				ensurePrimitives();
+				getOrCreatePathPrimitiveList();
 				for (int i = 0; i < primitiveList.size(); i += 2) {
 					MovePrimitive movePrimitive = (MovePrimitive) primitiveList.get(i);
 					LinePrimitive linePrimitive = (LinePrimitive) primitiveList.get(i + 1);
@@ -832,7 +862,7 @@ public class SVGPath extends SVGShape {
 			if (circle != null) {
 				circleList.add(circle);
 			} else {
-				LOG.trace(path.getSignature());
+				LOG.trace(path.createSignatureFromDStringPrimitives());
 			}
 		}
 		return circleList;
@@ -871,7 +901,7 @@ public class SVGPath extends SVGShape {
 
 	@Override
 	public boolean isZeroDimensional() {
-		String signature = this.getSignature().toUpperCase();
+		String signature = this.createSignatureFromDStringPrimitives().toUpperCase();
 		return (signature.equals(MZ) || signature.equals(M));
 	}
 
@@ -884,17 +914,22 @@ public class SVGPath extends SVGShape {
 	}
 
 
-	public void getOrCreateSignature() {
-		if (getAttribute(SIGNATURE) == null) {
-			createSignature();
+	public String getOrCreateSignatureAttributeValue() {
+		String signature = super.getAttributeValue(SIGNATURE);
+		if (signature == null) {
+			signature = createSignatureFromDStringPrimitives();
+			if (signature != null) {
+				addAttribute(new Attribute(SIGNATURE, signature));
+			}
 		}
+		return signature;
 	}
 
 	/** force create signature
 	 * 
 	 */
-	public void createSignature() {
-		addAttribute(new Attribute(SIGNATURE, getSignature()));
+	public void forceCreateSignatureAttributeValue() {
+		addAttribute(new Attribute(SIGNATURE, createSignatureFromDStringPrimitives()));
 	}
 
 	/** some diagrams contain multiple copies of a primitive with different attributes. Remove all but one.
@@ -949,8 +984,19 @@ public class SVGPath extends SVGShape {
 
 	public static void addSignatures(List<SVGPath> pathList) {
 		for (SVGPath path : pathList) {
-			path.getOrCreateSignature();
+			String sig = path.getOrCreateSignatureAttributeValue();
 		}
+	}
+
+	@Override
+	public Real2 getXY() {
+		Real2 xy = null;
+		getOrCreatePathPrimitiveList();
+		if (primitiveList.size() > 0) {
+			SVGPathPrimitive primitive0 = primitiveList.get(0);
+			xy = primitive0.getFirstCoord();
+		}
+		return xy;
 	}
 
 

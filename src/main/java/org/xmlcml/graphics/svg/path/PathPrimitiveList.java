@@ -5,12 +5,20 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
+import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.svg.SVGCircle;
+import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
 import org.xmlcml.graphics.svg.SVGPathPrimitive;
+import org.xmlcml.graphics.svg.SVGText;
 
 /** 
  * Container and manager for primitives from an SVGPath.
@@ -18,9 +26,16 @@ import org.xmlcml.graphics.svg.SVGPathPrimitive;
  * @author pm286
  */
 public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
+	private static final Logger LOG = Logger.getLogger(PathPrimitiveList.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 
 	private List<SVGPathPrimitive> primitiveList;
 	private boolean isClosed;
+	private SVGPath svgPath;
+	private String signature;
+	private Real2Array coords;
 	
 	public PathPrimitiveList() {
 	}
@@ -248,21 +263,6 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 			}
 		}
 	}
-//
-//	/** replaces coordinate array in given primitive.
-//	 * 
-//	 * if indexed primitive is of wrong type, no operation.
-//	 * 
-//	 * @param cubicPrimitive
-//	 * @param i
-//	 */
-//	public void replaceCoordinateArray(LinePrimitive linePrimitive, int i) {
-//		if (primitiveList != null) {
-//			if (this.get(i) instanceof LinePrimitive) {
-//				this.get(i).setCoordArray(linePrimitive.getCoordArray());
-//			}
-//		}
-//	}
 
 	public String getDString() {
 		return SVGPath.constructDString(this);
@@ -337,6 +337,28 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 		return (line1 == null ? line2 : (line2 == null ? line1 : (line1.getLength() > line2.getLength() ? line1 : line2)));
 	}
 
+	/** creates a line from thin unclosed rectangle.
+	 * 
+	 * @param angleEps
+	 * @param maxWidth if great than this assumes it's a real rectangle.
+	 * @return
+	 */
+	public SVGLine createLineFromMLLL(Angle angleEps, double maxWidth) {
+		SVGLine line = null;
+		Real2Array coords = getOrCreateCoordinates();
+		if (coords.size() != 4) {
+			throw new RuntimeException("coords "+coords.size()+" != 4");
+		}
+		SVGLine line1 = new SVGLine(coords.get(0), coords.get(1));
+		SVGLine line2 = new SVGLine(coords.get(2), coords.get(3));
+		if (line1.isAntiParallelTo(line2, angleEps)) {
+			if (coords.get(1).getDistance(coords.get(2)) < maxWidth) {
+				line = new SVGLine(coords.get(1).getMidPoint(coords.get(2)), coords.get(3).getMidPoint(coords.get(0)));
+			}
+		}
+		return line;
+	}
+
 	private SVGLine createLineFromMidPoints(int i, int j) {
 		SVGLine linei = getLine(i);
 		SVGLine linej = getLine(j);
@@ -361,7 +383,7 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 
 	public static PathPrimitiveList createPrimitiveList(String d) {
 		SVGPath path = new SVGPath(d);
-		PathPrimitiveList primitiveList = path.ensurePrimitives();
+		PathPrimitiveList primitiveList = path.getOrCreatePathPrimitiveList();
 		return primitiveList;
 	}
 
@@ -387,4 +409,126 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 		return sb.toString();
 	}
 
+	/** splits primitiveList after a primitive.
+	 * The most likely primitive is Z (ClosePrimitive)
+	 * 
+	 * @param splitPrimitive
+	 * @return
+	 */
+	public List<PathPrimitiveList> splitAfter(Class<? extends SVGPathPrimitive> splitClass) {
+		List<PathPrimitiveList> pathPrimitiveListList = new ArrayList<PathPrimitiveList>();
+		Iterator<SVGPathPrimitive> iterator = this.iterator();
+		PathPrimitiveList pathPrimitiveList = new PathPrimitiveList();
+		pathPrimitiveListList.add(pathPrimitiveList);
+		while (iterator.hasNext()) {
+			SVGPathPrimitive pathPrimitive = iterator.next();
+			pathPrimitiveList.add(pathPrimitive);
+			if (pathPrimitive instanceof ClosePrimitive) {
+				if (iterator.hasNext()) {
+					pathPrimitiveList = new PathPrimitiveList();
+					pathPrimitiveListList.add(pathPrimitiveList);
+				}
+			}
+		}
+		return pathPrimitiveListList;
+	}
+
+	/** splits primitiveList after a primitive.
+	 * The most likely primitive is M (MoveePrimitive)
+	 * 
+	 * @param splitPrimitive
+	 * @return
+	 */
+	public List<PathPrimitiveList> splitBefore(Class<? extends SVGPathPrimitive> pathClass) {
+		List<PathPrimitiveList> pathPrimitiveListList = new ArrayList<PathPrimitiveList>();
+		Iterator<SVGPathPrimitive> iterator = this.iterator();
+		PathPrimitiveList currentPathPrimitiveList = null;
+		PathPrimitiveList lastList = null;
+		while (iterator.hasNext()) {
+			boolean merged = false;
+			SVGPathPrimitive pathPrimitive = iterator.next();
+			if (pathPrimitive.getClass().equals(pathClass)) {
+				if (lastList != null) {
+					Real2Range lastBBox = lastList.getBoundingBox();
+					Real2Range currentBBox = currentPathPrimitiveList.getBoundingBox();
+					if (lastBBox.includes(currentBBox)) {
+						lastList.add(currentPathPrimitiveList);
+//						LOG.debug("P0 "+pathPrimitiveListList.size());
+						pathPrimitiveListList.remove(currentPathPrimitiveList);
+//						LOG.debug("P1 "+pathPrimitiveListList.size());
+						merged = true;
+					}
+					if (currentBBox.includes(lastBBox)) {
+						throw new RuntimeException("Unprocessed: "+currentBBox+" CONTAINS2 "+lastBBox);
+					}
+				}
+				if (!merged) {
+					lastList = currentPathPrimitiveList;
+				}
+				currentPathPrimitiveList = new PathPrimitiveList();
+				pathPrimitiveListList.add(currentPathPrimitiveList);
+			}
+			currentPathPrimitiveList.add(pathPrimitive);
+		}
+		return pathPrimitiveListList;
+	}
+
+	public SVGElement createAnnotatedSVG(String title) {
+		SVGElement g = new SVGG();
+		String sig = createSignature();
+		SVGPath path = new SVGPath(this);
+		path.setCSSStyle("fill:none;stroke-width:0.3;stroke:blue;");
+		g.appendChild(path);
+		SVGText num = SVGText.createDefaultText(path.getXY(), title);
+		num.setFontSize(2.0);
+		g.appendChild(num);
+		SVGCircle circle = new SVGCircle(path.getXY(), 0.7);
+		circle.setCSSStyle("fill:none;stroke:cyan;stroke-width:0.1;");
+		g.appendChild(circle);
+		return g;
+	}
+
+	/** create a wrapping SVGPath.
+	 * 
+	 * @return
+	 */
+	public SVGPath getOrCreateSVGPath() {
+		if (svgPath == null) {
+			svgPath = new SVGPath(this);
+		}
+		return svgPath;
+	}
+
+	public String getOrCreateSignature() {
+		if (signature == null) {
+			signature = getOrCreateSVGPath().createSignatureFromDStringPrimitives();
+		}
+		return signature;
+	}
+	
+	/** transforms THIS
+	 * iterates over primitives
+	 * 
+	 * @param t2
+	 */
+	public void transformBy(Transform2 t2) {
+		for (SVGPathPrimitive primitive : primitiveList) {
+			primitive.transformBy(t2);
+		}
+	}
+
+	Real2Range getBoundingBox() {
+		return getOrCreateSVGPath().getBoundingBox();
+	}
+	
+	public Real2Array getOrCreateCoordinates() {
+		if (coords == null) {
+			coords = new Real2Array(this.size());
+			for (int i = 0; i < primitiveList.size(); i++) {
+				Real2 xy = primitiveList.get(i).getFirstCoord();
+				coords.setElement(i, xy);
+			}
+		}
+		return coords;
+	}
 }

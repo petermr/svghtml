@@ -20,8 +20,8 @@ public class ArcTest {
 	public void testArc() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
-		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.getSignature());
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
+		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.createSignatureFromDStringPrimitives());
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		Arc arc = new Arc((CubicPrimitive) primList.get(2));
 		Real2 centre = arc.getCentre();
 		Assert.assertNotNull("centre", centre);
@@ -37,7 +37,7 @@ public class ArcTest {
 	public void testMeanArc() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
-		PathPrimitiveList primList = svgPath.ensurePrimitives();
+		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		Arc meanArc = primList.createMeanCubic(2, 6);
 		Assert.assertEquals("skeleton", ""
 				+ "M286.583 88.988 "
