@@ -7,7 +7,6 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
-import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGMarker;
 
@@ -95,7 +94,7 @@ public class ArrowFactory {
 		}
 	}
 
-	public void replaceLinesAndTrianglesByArrows(SVGG g) {
+	public void replaceLinesAndTrianglesByArrows(SVGElement g) {
 		List<SVGTriangle> triangleList = SVGTriangle.extractSelfAndDescendantTriangles(g);
 		List<SVGLine> lineList = SVGLine.extractSelfAndDescendantLines(g);
 		readLinesTriangles(lineList, triangleList);

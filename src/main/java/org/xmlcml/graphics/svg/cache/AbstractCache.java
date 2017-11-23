@@ -49,7 +49,7 @@ public abstract class AbstractCache {
 		this.svgMediaBox = svgMediaBox;
 	}
 
-	protected void drawBox(SVGG g, String col, double width) {
+	protected void drawBox(SVGElement g, String col, double width) {
 		Real2Range box = this.getBoundingBox();
 		if (box != null) {
 			SVGRect boxRect = SVGRect.createFromReal2Range(box);

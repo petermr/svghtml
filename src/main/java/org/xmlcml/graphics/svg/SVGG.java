@@ -192,10 +192,10 @@ public class SVGG extends SVGElement {
 	 * @param index in list (Java counting from 0, not XPath)
 	 * @return null if not found
 	 */
-	public final static SVGG createSVGGChunk(File svgFile, String xPath, int index) {
+	public final static SVGElement createSVGGChunk(File svgFile, String xPath, int index) {
 		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		List<SVGElement> elementList = SVGG.generateElementList(svgElement, xPath);
-		SVGG graphic = (elementList.size() == 0) ? null : (SVGG) elementList.get(index);
+		SVGElement graphic = (elementList.size() == 0) ? null : (SVGG) elementList.get(index);
 		return graphic;
 	}
 	
@@ -243,14 +243,5 @@ public class SVGG extends SVGElement {
 	public void setFilename(String filename) {
 		this.addAttribute(new Attribute(FILE, filename));
 	}
-
-//	public ImageCache getOrCreateImageCache(ComponentCache svgCache) {
-//		if (svgCache.imageCache == null) {
-//			svgCache.imageCache = new ImageCache(svgCache);
-//			svgCache.imageCache.getOrCreateImageList();
-//			svgCache.imageBox = svgCache.imageCache.getBoundingBox();
-//		}
-//		return svgCache.imageCache;
-//	}
 
 }

@@ -339,8 +339,14 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 
 	/** creates a line from thin unclosed rectangle.
 	 * 
-	 * @param angleEps
-	 * @param maxWidth if great than this assumes it's a real rectangle.
+	 * assumes M0-------------L1
+	 *                        |
+	 *         L3-------------L2
+	 *       
+	 *         where the numbers are the primitives (and also the indexes of the coord array)
+	 *         
+	 * @param angleEps tolerance for parallelity
+	 * @param maxWidth if greater than this assumes it's a real unclosed rectangle.
 	 * @return
 	 */
 	public SVGLine createLineFromMLLL(Angle angleEps, double maxWidth) {
@@ -351,6 +357,7 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 		}
 		SVGLine line1 = new SVGLine(coords.get(0), coords.get(1));
 		SVGLine line2 = new SVGLine(coords.get(2), coords.get(3));
+		
 		if (line1.isAntiParallelTo(line2, angleEps)) {
 			if (coords.get(1).getDistance(coords.get(2)) < maxWidth) {
 				line = new SVGLine(coords.get(1).getMidPoint(coords.get(2)), coords.get(3).getMidPoint(coords.get(0)));

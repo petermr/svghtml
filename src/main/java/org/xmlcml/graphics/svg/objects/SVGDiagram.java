@@ -29,7 +29,7 @@ public class SVGDiagram extends SVGG {
 	protected List<SVGText> svgTextList;
 	protected List<SVGTextBox> textBoxList;
 	protected List<List<SVGShape>> shapeListList;
-	protected SVGG newG;
+	protected SVGElement newG;
 	protected List<SVGTriangle> triangleList;
 	protected List<SVGLine> lineList;
 	protected List<SVGArrow> arrowList;
@@ -261,7 +261,7 @@ public class SVGDiagram extends SVGG {
 		return connectorList;
 	}
 
-	public SVGG getNewG() {
+	public SVGElement getNewG() {
 		return newG;
 	}
 

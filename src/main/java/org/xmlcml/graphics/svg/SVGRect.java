@@ -52,6 +52,10 @@ public class SVGRect extends SVGShape {
 	private static final String WIDTH = "width";
 	private static final String Y = "y";
 	private static final String X = "x";
+
+	private static double MIN_WIDTH = 0.01;
+	private static double MIN_HEIGHT = 0.01;
+	
 	final public static String TAG ="rect";
 
 	/** constructor
@@ -105,19 +109,83 @@ public class SVGRect extends SVGShape {
 	}
 
 	/** create from bounding box
+	 * mainly for display.
+	 * if one or both dimensions of range are zero (e.g. axial line or dot) increases them
+	 * by MIN_WIDTH or MIN_HEIGHT
 	 * 
 	 * @param r2r
 	 * @return null if r2r is null
 	 */
 	public static SVGRect createFromReal2Range(Real2Range r2r) {
 		SVGRect rect = null;
+		rect = createRect(r2r, rect);
+		return rect;
+	}
+
+
+	/** create from bounding box
+	 * mainly for display.
+	 * if one or both dimensions of range are zero (e.g. axial line or dot) increases them
+	 * by MIN_WIDTH or MIN_HEIGHT
+	 * 
+	 * @param r2r
+	 * @return null if r2r is null
+	 */
+	public static SVGRect createFromReal2Range(Real2Range r2r, double padding) {
+		Real2Range r2ra = new Real2Range(r2r);
+		r2ra.extendBothEndsBy(org.xmlcml.euclid.RealRange.Direction.HORIZONTAL, padding, padding);
+		r2ra.extendBothEndsBy(org.xmlcml.euclid.RealRange.Direction.VERTICAL, padding, padding);
+		SVGRect rect = null;
+		rect = createRect(r2ra, rect);
+		return rect;
+	}
+
+	private static SVGRect createRect(Real2Range r2r, SVGRect rect) {
 		if (r2r != null) {
+			// if rect is a line or dot, extend by small amount
+			// vertical line
+			if (r2r.getXRange().getRange() < MIN_WIDTH) {
+				r2r.extendBothEndsBy(org.xmlcml.euclid.RealRange.Direction.HORIZONTAL, 0.5 * MIN_WIDTH, 0.5 * MIN_WIDTH);
+			}
+			if (r2r.getYRange().getRange() < MIN_HEIGHT) {
+				r2r.extendBothEndsBy(org.xmlcml.euclid.RealRange.Direction.VERTICAL, 0.5 * MIN_HEIGHT, 0.5 * MIN_HEIGHT);
+			}
 			Real2[] corners = r2r.getLLURCorners();
+			
 			if (corners != null && corners.length == 2) {
 				rect = new SVGRect(corners[0], corners[1]);
 			}
 		}
 		return rect;
+	}
+
+	/** create from bounding boxes
+	 * mainly for display.
+	 * 
+	 * @param r2r
+	 * @return null if r2r is null
+	 */
+	public static List<SVGRect> createFromReal2Ranges(List<Real2Range> r2rList) {
+		List<SVGRect>  rectList = new ArrayList<SVGRect>();
+		for (Real2Range r2r : r2rList) {
+			rectList.add(SVGRect.createFromReal2Range(r2r));
+		}
+		return rectList;
+	}
+	
+	/** create from bounding boxes
+	 * mainly for display.
+	 * 
+	 * @param r2r
+	 * @return null if r2r is null
+	 */
+	public static List<SVGRect> createFromReal2Ranges(List<Real2Range> r2rList, double padding) {
+		List<SVGRect>  rectList = new ArrayList<SVGRect>();
+		for (Real2Range r2r : r2rList) {
+			SVGRect rect = SVGRect.createFromReal2Range(r2r, padding);
+			rectList.add(rect);
+		}
+		return rectList;
 	}
 	
 	/** create from edges

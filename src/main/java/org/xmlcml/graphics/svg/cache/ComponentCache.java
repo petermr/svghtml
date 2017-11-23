@@ -22,6 +22,7 @@ import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGImage;
+import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -159,6 +160,7 @@ public class ComponentCache extends AbstractCache {
 	ShapeCache shapeCache; // can be accessed by siblings
 	private ContentBoxCache contentBoxCache;
 	private TextChunkCache textChunkCache;
+	
 	// other caches as they are developed
 	private List<AbstractCache> abstractCacheList;
 	
@@ -185,6 +187,8 @@ public class ComponentCache extends AbstractCache {
 	private double outerBoxEps = 3.0; // outer bbox error
 
 	private TextStructurer textStructurer;
+
+	private List<AbstractCache> cascadingCacheList;
 
 
 	/** this may change as we decide what types of object interact with store
@@ -239,7 +243,7 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	private void debugComponents() {
-		SVGG g;
+		SVGElement g;
 		SVGG gg = new SVGG();
 		g = this.getOrCreatePathCache().debugToSVG(pathDebug+this.fileRoot+".debug.svg");
 		g.appendChild(new SVGTitle("path"));
@@ -399,7 +403,7 @@ public class ComponentCache extends AbstractCache {
 		return g;
 	}
 	
-	private SVGG copyOriginalElements() {
+	private SVGElement copyOriginalElements() {
 		SVGG g = new SVGG();
 		ShapeCache.addList(g, new ArrayList<SVGPath>(pathCache.getOriginalPathList()));
 		ShapeCache.addList(g, new ArrayList<SVGText>(textCache.getTextList()));
@@ -432,7 +436,7 @@ public class ComponentCache extends AbstractCache {
 		this.plotDebug = plotDebug;
 	}
 
-	public SVGG getExtractedSVGElement() {
+	public SVGElement getExtractedSVGElement() {
 		return extractedSVGElement;
 	}
 
@@ -573,12 +577,24 @@ public class ComponentCache extends AbstractCache {
 	 */
 	public Real2Range getBoundingBox() {
 		if (boundingBox == null) {
-			Real2Range imageBox = getOrCreateImageCache().getBoundingBox();
-			Real2Range textBox = getOrCreateTextCache().getBoundingBox();
-			Real2Range pathBox = getOrCreatePathCache().getBoundingBox();
-			addBoxToTotalBox(textBox);
-			addBoxToTotalBox(pathBox);
-			addBoxToTotalBox(imageBox);
+			getOrCreateCascadingCaches();
+			for (AbstractCache cache : cascadingCacheList) {
+				addBoxToTotalBox(cache.getBoundingBox());
+			}
+//			
+//			Real2Range imageBox = getOrCreateImageCache().getBoundingBox();
+//			Real2Range textBox = getOrCreateTextCache().getBoundingBox();
+//			Real2Range pathBox = getOrCreatePathCache().getBoundingBox();
+//			Real2Range rectBox = getOrCreateImageCache().getBoundingBox();
+//			Real2Range lineBox = getOrCreateTextCache().getBoundingBox();
+//			Real2Range pathBox = getOrCreatePathCache().getBoundingBox();
+//			addBoxToTotalBox(textBox);
+//			addBoxToTotalBox(pathBox);
+//			addBoxToTotalBox(imageBox);
+			if (boundingBox == null) {
+				LOG.debug("svg "+(originalSvgElement == null ? "NULL" : originalSvgElement.toXML()));
+				throw new RuntimeException("cannot make bounding box - maybe no primitives");
+			}
 		}
 		return boundingBox;
 	}
@@ -605,10 +621,22 @@ public class ComponentCache extends AbstractCache {
 			// don't add paths as we have already converted to shapes
 //			allElementList.addAll(pathCache.getOrCreateElementList());
 			allElementList.addAll(imageCache.getOrCreateElementList());
-			allElementList.addAll(getOrCreateShapeCache().getOrCreateElementList());
+			List<? extends SVGElement> shapes = getOrCreateShapeCache().getOrCreateElementList();
+			for (SVGElement shape : shapes) {
+				if (shape instanceof SVGRect || shape instanceof SVGLine || shape instanceof SVGText) {
+					LOG.trace("skipped: "+shape);
+					// skip
+				} else {
+					LOG.trace("added: "+shape);
+					allElementList.add(shape);
+				}
+			}
+			LOG.debug("rect: "+allElementList.size());
 			allElementList.addAll(rectCache.getOrCreateElementList());
-			allElementList.addAll(lineCache.getOrCreateElementList());
+			LOG.debug("lines: "+allElementList.size());
+			allElementList.addAll(lineCache.getOrCreateElementList()); 
 			// this goes last in case it would be hidden
+			LOG.debug("text: "+allElementList.size());
 			allElementList.addAll(textCache.getOrCreateElementList());
 		}
 		return allElementList;
@@ -628,32 +656,36 @@ public class ComponentCache extends AbstractCache {
 	 * 
 	 */
 	public void getOrCreateCascadingCaches() {
-		getOrCreatePathCache();
-		getOrCreateTextCache();
-		getOrCreateImageCache();
-		
-		// first pass creates raw caches which may be elaborated later
-		// GEOMETRY
-		getOrCreateShapeCache();
-		getOrCreateLineCache();
-		getOrCreateRectCache();
-		getOrCreatePolylineCache();
-//		getOrCreateRectCache();
-		// TEXT
-		getOrCreateTextChunkCache();
-		// COMBINED OBJECTS
-		getOrCreateContentBoxCache();
-		// tidying heuristics
-		this.removeBorderingRects();
-
+		if (cascadingCacheList == null) {
+			cascadingCacheList = new ArrayList<AbstractCache>();
+			cascadingCacheList.add(getOrCreatePathCache());
+			cascadingCacheList.add(getOrCreateTextCache());
+			cascadingCacheList.add(getOrCreateImageCache());
+			
+			// first pass creates raw caches which may be elaborated later
+			// GEOMETRY
+			cascadingCacheList.add(getOrCreateShapeCache());
+			cascadingCacheList.add(getOrCreateLineCache());
+			cascadingCacheList.add(getOrCreateRectCache());
+			cascadingCacheList.add(getOrCreatePolylineCache());
+	//		cascadingCacheList.add(getOrCreateRectCache());
+			// TEXT
+			cascadingCacheList.add(getOrCreateTextChunkCache());
+			// COMBINED OBJECTS
+			cascadingCacheList.add(getOrCreateContentBoxCache());
+			// tidying heuristics
+			this.removeBorderingRects();
+		}
 	}
 
 	public List<Real2Range> getBoundingBoxList() {
 		if (boundingBoxList == null) {
 			boundingBoxList = new ArrayList<Real2Range>();
 			getOrCreateElementList();
+			
 			for (SVGElement element : allElementList) {
-				boundingBoxList.add(element.getBoundingBox());
+				Real2Range bbox = element.getBoundingBox();
+				boundingBoxList.add(bbox);
 			}
 		}
 		return boundingBoxList;

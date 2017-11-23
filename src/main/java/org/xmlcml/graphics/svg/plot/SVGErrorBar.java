@@ -101,7 +101,7 @@ public class SVGErrorBar extends SVGG {
 	}
 
 	public SVGElement createSVGElement() {
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		if (line != null) {
 			g.appendChild(line);
 		}

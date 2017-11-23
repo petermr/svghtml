@@ -225,7 +225,7 @@ public abstract class AbstractPlotBox {
 		}
 	}
 
-	private SVGG copyAnnotatedAxes() {
+	private SVGElement copyAnnotatedAxes() {
 		SVGG g = new SVGG();
 		g.setClassName("plotBox");
 		for (AnnotatedAxis axis : axisArray) {

@@ -93,17 +93,17 @@ public class PathCache extends AbstractCache{
 	}
 	
 	private void annotatePathsAsGlyphsWithSignatures() {
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		createCharBySig();
-		SVGG gg = annotatePaths();
+		SVGElement gg = annotatePaths();
 		g.appendChild(gg);
 		Iterable<Entry<String>> iterable = MultisetUtil.getEntriesSortedByCount(sigSet);
 		List<Entry<String>> list = MultisetUtil.createStringEntryList(iterable);
-		SVGG ggg = annotatePathsWithSignatures();
+		SVGElement ggg = annotatePathsWithSignatures();
 		g.appendChild(ggg);
 	}
 	
-	private SVGG annotatePathsWithSignatures() {
+	private SVGElement annotatePathsWithSignatures() {
 		SVGG g = new SVGG();
 		g.setClassName("annotateAsGlyphs");
 		for (String sig : pathBySig.keySet()) {
@@ -119,8 +119,8 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 	
-	private SVGG annotatePaths() {
-		SVGG g = new SVGG();
+	private SVGElement annotatePaths() {
+		SVGElement g = new SVGG();
 		sigSet = HashMultiset.create();
 		pathBySig = new HashMap<String, SVGPath>();
 		for (SVGPath path : pathList) {
@@ -149,7 +149,7 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 
-	public SVGG createSVGAnnotation() {
+	public SVGElement createSVGAnnotation() {
 		SVGG g = new SVGG();
 		
 		g.setClassName("pathAnnotation NYI");
@@ -204,7 +204,7 @@ public class PathCache extends AbstractCache{
 		return originalPathList;
 	}
 
-	public SVGG debugToSVG(String outFilename) {
+	public SVGElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 		debug(g, originalPathList, "black", "yellow", 0.3);
 		debug(g, positiveBoxPathList, "black", "red", 0.3);
@@ -216,7 +216,7 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 
-	private void debug(SVGG g, List<SVGPath> pathList, String stroke, String fill, double opacity) {
+	private void debug(SVGElement g, List<SVGPath> pathList, String stroke, String fill, double opacity) {
 		for (SVGPath p : pathList) {
 			SVGPath path = (SVGPath) p.copy();
 			path.setStroke(stroke);

@@ -174,7 +174,7 @@ public class ShapeCache extends AbstractCache {
 		+ "; shapes: "    + unknownShapeList.size();
 	}
 
-	public SVGG createSVGAnnotations() {
+	public SVGElement createSVGAnnotations() {
 		SVGG g = new SVGG();
 		addList(g, polylineList);
 		addList(g, circleList);
@@ -182,7 +182,7 @@ public class ShapeCache extends AbstractCache {
 		return g;
 	}
 	
-	public static void addList(SVGG g, List<? extends SVGElement> list) {
+	public static void addList(SVGElement g, List<? extends SVGElement> list) {
 		for (SVGElement element : list) {
 			g.appendChild(element.copy());
 		}
@@ -234,7 +234,7 @@ public class ShapeCache extends AbstractCache {
 		LOG.trace("polylines: "+polylineList);
 	}
 
-	public SVGG debugToSVG(String outFilename) {
+	public SVGElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 //		debug(g, originalPathList, "black", "yellow", 0.3);
 //		private List<SVGPath> pathList;
@@ -253,7 +253,7 @@ public class ShapeCache extends AbstractCache {
 		return g;
 	}
 
-	private void debug(SVGG g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity) {
+	private void debug(SVGElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity) {
 		for (SVGElement e : elementList) {
 			SVGShape shape = (SVGShape) e.copy();
 			SVGShape shape1 = (SVGShape) shape.copy();
@@ -276,7 +276,7 @@ public class ShapeCache extends AbstractCache {
 		}
 	}
 
-	private void styleAndDraw(SVGG g, String stroke, String fill, double opacity, double strokeWidth, SVGShape shape) {
+	private void styleAndDraw(SVGElement g, String stroke, String fill, double opacity, double strokeWidth, SVGShape shape) {
 		shape.setStroke(stroke);
 		shape.setStrokeWidth(strokeWidth);
 		shape.setFill(fill);

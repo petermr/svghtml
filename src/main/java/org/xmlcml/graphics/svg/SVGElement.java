@@ -1443,10 +1443,10 @@ public class SVGElement extends GraphicsElement {
 		return SVGUtil.getQuerySVGElements(element, ALL_ELEMENT_XPATH);
 	}
 
-	@Deprecated
-	public static List<SVGElement> extractSelfAndDescendantElements(SVGG g) {
-		return SVGUtil.getQuerySVGElements(g, ALL_ELEMENT_XPATH);
-	}
+//	@Deprecated
+//	public static List<SVGElement> extractSelfAndDescendantElements(SVGElement g) {
+//		return SVGUtil.getQuerySVGElements(g, ALL_ELEMENT_XPATH);
+//	}
 
 	public static List<SVGElement> getRotatedDescendantElements(SVGElement svgElement, Angle angle, double eps) {
 		List<SVGElement> elementList = SVGElement.extractSelfAndDescendantElements(svgElement);
@@ -1638,7 +1638,7 @@ public class SVGElement extends GraphicsElement {
 		List<SVGElement> svgElementList = SVGElement.generateElementList(this, "*");
 		Real2Range bbox = getBoundingBox();
 		Real2 centre = bbox.getSquareBoxCentre(BoxDirection.LEFT);
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		Transform2 rotationTransform = new Transform2(angle);
 		Transform2 rotationTranslationTransform = Transform2.getRotationAboutPoint(angle, centre);
 		for (SVGElement svgElement : svgElementList) {
@@ -1683,6 +1683,12 @@ public class SVGElement extends GraphicsElement {
 		return urlIdRef;
 	}
 
+	public void appendChildren(List<? extends SVGElement> elements) {
+		for (SVGElement element : elements) {
+			this.appendChild(element);
+		}
+	}
+
 	/** convenience method to parse SVG text.
 	 * 
 	 * @param svgXml
@@ -1690,6 +1696,17 @@ public class SVGElement extends GraphicsElement {
 	 */
 	public static SVGElement readAndCreateSVG(String svgXml) {
 		return SVGElement.readAndCreateSVG(XMLUtil.parseXML(svgXml));
+	}
+
+	/** sets styles on all elements.
+	 * 
+	 * @param rects
+	 * @param cssValue
+	 */
+	public static void setCSSStyle(List<? extends SVGElement> elements, String cssValue) {
+		for (SVGElement element: elements) {
+			element.setCSSStyle(cssValue);
+		}
 	}
 
 

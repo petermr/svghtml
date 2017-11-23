@@ -324,20 +324,75 @@ public class SVGLine extends SVGShape {
 		return bbox.getXRange().getRange() < eps && bbox.getYRange().getRange() < eps;
 	}
 
-	/** do lines join at ends?
+	/** index of point in line
 	 * 
-	 * @param l
-	 * @param eps
-	 * @return
+	 * @param point in this to test
+	 * @param eps tolerance
+	 * @return which end is matched ? none = -1 else 0/1 (if both return 0)
 	 */
-	public Real2 getCommonEndPoint(SVGLine l, double eps) {
-		Real2 point = null;
-		if (l.getXY(0).isEqualTo(getXY(0), eps) ||  l.getXY(1).isEqualTo(getXY(0), eps)) {
-			point = getXY(0);
-		} else if (l.getXY(0).isEqualTo(getXY(1), eps) ||  l.getXY(1).isEqualTo(getXY(1), eps)) {
-			point = getXY(1);
-		}
-		return point;
+	public int getIndexOfPoint(Real2 point, double eps) {
+		if (point.isEqualTo(this.getXY(0), eps)) return 0;
+		if (point.isEqualTo(this.getXY(1), eps)) return 1;
+		return -1;
+	}
+
+	/** common point of joined lines
+	 * 
+	 * @param line other line
+	 * @param thisEnd index of point in this to test
+	 * @param eps tolerance
+	 * @return common point or null
+	 */
+	public Real2 getCommonEndPoint(SVGLine line, int thisEnd, double eps) {
+		int lineEnd = line.getIndexOfPoint(this.getXY(thisEnd), eps);
+		return lineEnd == -1 ? null : line.getXY(lineEnd);
+	}
+
+//	/** index of point on other line joing with this
+//	 * 
+//	 * @param line other line
+//	 * @param thisEnd index of point in this to test
+//	 * @param eps tolerance
+//	 * @return index of common point in other line (0, 1) or -1 if no match
+//	 */
+//	public int getEndIndex(SVGLine line, int thisEnd, double eps) {
+//		int lineEnd = -1;
+//		if (hasCommonPoint(line, thisEnd, 0, eps)) {
+//			lineEnd = 0;
+//		} else if (hasCommonPoint(line, thisEnd, 1, eps)) {
+//			lineEnd = 1;
+//		}
+//		return lineEnd;
+//	}
+
+//	/** index of point on other line joing with this
+//	 * 
+//	 * @param line other line
+//	 * @param thisEnd index of point in this to test
+//	 * @param eps tolerance
+//	 * @return index of common point in other line (0, 1) or -1 if no match
+//	 */
+//	public int getCommonEndIndex(SVGLine line, int thisEnd, double eps) {
+//		int lineEnd = -1;
+//		if (hasCommonPoint(line, thisEnd, 0, eps)) {
+//			lineEnd = 0;
+//		} else if (hasCommonPoint(line, thisEnd, 1, eps)) {
+//			lineEnd = 1;
+//		}
+//		return lineEnd;
+//	}
+
+	/**
+	 * does given end of this match given end of line?
+	 * 
+	 * @param line
+	 * @param thisEnd 0 or 1
+	 * @param lineEnd 0 or 1
+	 * @param eps tolerance
+	 * @return common point or null
+	 */
+	public boolean hasCommonPoint(SVGLine line, int thisEnd, int lineEnd, double eps) {
+		return line.getXY(thisEnd).isEqualTo(getXY(lineEnd), eps);
 	}
 
 	/** if this butts onto line at right angles.
@@ -616,8 +671,8 @@ public class SVGLine extends SVGShape {
 	 * @param close if true create line (n-1)->0
 	 * @return
 	 */
-	public static SVGG plotPointsAsTouchingLines(List<Real2> points, boolean close) {
-		SVGG g = new SVGG();
+	public static SVGElement plotPointsAsTouchingLines(List<Real2> points, boolean close) {
+		SVGElement g = new SVGG();
 		for (int i = 0; i < points.size() - 1; i++) {
 			SVGLine line = new SVGLine(points.get(i), points.get((i + 1)));
 			g.appendChild(line);

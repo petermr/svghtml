@@ -65,7 +65,7 @@ public class SVGPolylineAnalyzer {
 	private Map<Integer, List<SVGLine>> horizontalMap;
 	private Map<Integer, List<SVGLine>> verticalMap;
 	private boolean mergePolylinesAtContiguousEndPoints = true;
-	private SVGG svgg;
+	private SVGElement svgg;
 
 	public SVGPolylineAnalyzer() {
 	}
@@ -170,7 +170,7 @@ public class SVGPolylineAnalyzer {
 	}
 
 
-	public void analyzePolylines(SVGG svgg, List<SVGPolyline> polylines) {
+	public void analyzePolylines(SVGElement svgg, List<SVGPolyline> polylines) {
 		this.svgg = svgg;
 		// will fail
 //		ChunkAnalyzerXOld chunkAnalyzerX = null;
@@ -184,7 +184,7 @@ public class SVGPolylineAnalyzer {
 	}
 
 	// FIXME not used or tested
-	public void analyzePolylines(SVGG svgg, List<SVGPolyline> polylines, GraphPlotBox plotBox) {
+	public void analyzePolylines(SVGElement svgg, List<SVGPolyline> polylines, GraphPlotBox plotBox) {
 		Real2Range boxRange = (plotBox == null) ? null : plotBox.getBoxRange();
 		if (boxRange != null)
 		for (SVGPoly polyline : polylines) {
@@ -263,7 +263,7 @@ public class SVGPolylineAnalyzer {
 
 	public SVGSVG editSVG() {
 		SVGSVG svg = new SVGSVG();
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		svg.appendChild(g);
 		for (SVGLine zeroLine : zeroLineList) {
 			g.appendChild(new SVGLine(zeroLine));

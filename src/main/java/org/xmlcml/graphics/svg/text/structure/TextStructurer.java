@@ -1551,7 +1551,7 @@ public class TextStructurer {
 		return g;
 	}
 
-	public SVGG createChunkFromVerticalText(Angle angle) {
+	public SVGElement createChunkFromVerticalText(Angle angle) {
 		Real2 centre = svgChunk.getCentreForClockwise90Rotation();
 		return createChunkFromVerticalText(centre, angle);
 	}

@@ -325,9 +325,9 @@ public class SVGCircle extends SVGShape {
 	 * @param nsteps
 	 * @return
 	 */
-	public static SVGG createCircleArc(Real2 centre, double radius, Angle start, Angle end/*, int nsteps*/) {
+	public static SVGElement createCircleArc(Real2 centre, double radius, Angle start, Angle end/*, int nsteps*/) {
 		double PI4 = Math.PI / 4.0;
-		SVGG arc = new SVGG();
+		SVGElement arc = new SVGG();
 		return arc;
 		
 	}

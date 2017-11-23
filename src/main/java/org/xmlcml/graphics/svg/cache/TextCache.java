@@ -78,8 +78,8 @@ public class TextCache extends AbstractCache {
 		return getTextList();
 	}
 
-	public SVGG debug(String outFilename) {
-		SVGG g = new SVGG();
+	public SVGElement debug(String outFilename) {
+		SVGElement g = new SVGG();
 //		// derived
 //		appendDebugToG(g, originalTextList,"yellow",  "black", 0.3, 10.0, "Helvetica");
 //		appendDebugToG(g, nonNegativeYTextList, "red", "black", 0.3, 12.0, "serif");
@@ -90,7 +90,7 @@ public class TextCache extends AbstractCache {
 		return g;
 	}
 
-	private void appendDebugToG(SVGG g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity, double fontSize, String fontFamily) {
+	private void appendDebugToG(SVGElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity, double fontSize, String fontFamily) {
 		for (SVGElement e : elementList) {
 			SVGText text = (SVGText) e.copy();
 			text.setCSSStyleAndRemoveOldStyle(null);
@@ -127,7 +127,7 @@ public class TextCache extends AbstractCache {
 		}
 	}
 
-	private void addAnnotationRect(SVGG g, SVGText text) {
+	private void addAnnotationRect(SVGElement g, SVGText text) {
 		Real2Range box = text.getBoundingBox();
 		SVGRect box0 = SVGElement.createGraphicalBox(box, 0.0, 0.0);
 		box0.setStrokeWidth(0.1);
@@ -288,7 +288,7 @@ public class TextCache extends AbstractCache {
 	 * 
 	 * @return
 	 */
-	public SVGG createColoredTextStyles() {
+	public SVGElement createColoredTextStyles() {
 		return createColoredTextStyles(ComponentCache.MAJOR_COLORS);
 	}
 
@@ -298,13 +298,13 @@ public class TextCache extends AbstractCache {
 	 * @param color
 	 * @return
 	 */
-	public SVGG createColoredTextStyles(String[] color) {
+	public SVGElement createColoredTextStyles(String[] color) {
 		List<SVGText> horTexts = getTextList();
 		Multiset<String> horizontalStyleSet = getOrCreateHorizontalTextStyleMultiset();
 		createAttributeFactoryLists(horizontalStyleSet);
 		createMainAndDerivativeFactpryLists();
 		linkDerivativeToMainStyles(mainStyleAttributeFactoryList, derivativeStyleAttributeFactoryList);
-		SVGG g = createAnnotatedTextArea(color, horTexts, sortedHorizontalStyles);
+		SVGElement g = createAnnotatedTextArea(color, horTexts, sortedHorizontalStyles);
 		return g;
 	}
 
@@ -344,9 +344,9 @@ public class TextCache extends AbstractCache {
 		}
 	}
 
-	private SVGG createAnnotatedTextArea(String[] color, List<SVGText> horTexts,
+	private SVGElement createAnnotatedTextArea(String[] color, List<SVGText> horTexts,
 			List<Multiset.Entry<String>> sortedHorizontalStyles) {
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		for (SVGText horText : horTexts) {
 			String style = horText.getStyle();
 			for (int i = 0; i < sortedHorizontalStyles.size(); i++) {

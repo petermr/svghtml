@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
@@ -97,7 +98,7 @@ public class TextDecorator extends AbstractDecorator {
 		}
 	}
 	
-	public SVGG decompact(List<SVGText> texts) {
+	public SVGElement decompact(List<SVGText> texts) {
 		throw new RuntimeException("decompact NYI");
 	}
 

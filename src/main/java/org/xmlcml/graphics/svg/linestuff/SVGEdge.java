@@ -1,0 +1,116 @@
+package org.xmlcml.graphics.svg.linestuff;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGLine;
+import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.builder.MultipleBond;
+
+public class SVGEdge extends SVGLine {
+	private static final Logger LOG = Logger.getLogger(SVGEdge.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+
+	/** each node has a list of edges.
+	 * ethene has 0,0
+	 * propene has 0,1
+	 * but-2-ene has 0,2
+	 * but-2-ene has 1,1
+	 */
+	protected List<SVGNode> nodeList;
+	
+	private double weight = 1;
+	private String label = "";
+
+	public SVGEdge() {
+		getOrCreateNodeList();
+	}
+
+	public SVGEdge(SVGLine line) {
+		super();
+		this.copyAttributesChildrenElements(line);
+	}
+	
+	public void addNode(SVGNode node, int iend) {
+		getOrCreateNodeList();
+		nodeList.set(iend, node);
+		node.add(this);
+	}
+
+	/** get nodeList or create a new one.
+	 * if new one created, fill with 2 null nodes
+	 * @return
+	 */
+	public List<SVGNode> getOrCreateNodeList() {
+		if (nodeList == null) {
+			nodeList = new ArrayList<SVGNode>();
+			nodeList.add((SVGNode)null);
+			nodeList.add((SVGNode)null);
+		}
+		return nodeList;
+	}
+	
+	public SVGElement getOrCreateSVG() {
+		SVGG g = new SVGG();
+		SVGLine edgeCopy = (SVGLine) this.copy();
+		edgeCopy.setStrokeWidth(this.getWeight());
+		g.appendChild(edgeCopy);
+		g.appendChild(SVGText.createText(this.getMidPoint(), getId(), "fill:green;font-size:2;"));
+		return g;
+	}
+	
+	public String toString() {
+		getOrCreateNodeList();
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.getId()+": ");
+		sb.append(nodeList.get(0).getId()+"; ");
+		sb.append(nodeList.get(1).getId()+"; ");
+		sb.append(this.getXY(0)+" "+this.getXY(1)+"; label: "+label+"; wt: "+getWeight()+" ");
+		return sb.toString();
+	}
+
+	public void removeNode(SVGNode node) {
+		int iend = nodeList.indexOf(node);
+		removeNode(iend);
+	}
+	
+	public void removeNode(int iend) {
+		nodeList.set(iend, (SVGNode)null);
+	}
+
+	public SVGNode getNode(int index) {
+		getOrCreateNodeList();
+		return index >= 2 ? null :  nodeList.get(index);
+	}
+
+	/** gets total number of edges hanging off edge.
+	 * 
+	 * @return
+	 */
+	public int getBranchEdgeCount() {
+		// subtract 1 so as not to count this
+		int edges0 = getNode(0).getOrCreateEdges().size() - 1;
+		int edges1 = getNode(1).getOrCreateEdges().size() - 1;
+		return edges0 + edges1;
+	}
+
+	public void setWeight(int w) {
+		this.weight = w;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+
+	
+}

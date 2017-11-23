@@ -206,8 +206,8 @@ public class SVGSVG extends SVGElement {
 	 * this can be used to set scales, rendering, etc.
 	 * @param element to amend (is changed)
 	 */
-	public static SVGG interposeGBetweenChildren(SVGElement element) {
-		SVGG g = new SVGG();
+	public static SVGElement interposeGBetweenChildren(SVGElement element) {
+		SVGElement g = new SVGG();
 		element.appendChild(g);
 		while (element.getChildCount() > 1) {
 			Node child = element.getChild(0);

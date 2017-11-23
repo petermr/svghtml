@@ -1280,10 +1280,15 @@ public class SVGText extends SVGElement {
 	 * @param string
 	 * @return
 	 */
-	public static SVGText createDefaultText(Real2 xy, String string) {
-		SVGText text = new SVGText(xy, string);
-		text.setFontSize(8.0);
-		text.setFill("red");
+	public static SVGText createDefaultText(Real2 xy, String value) {
+		String cssStyle = "fill:red;font-size:3;";
+		SVGText text = SVGText.createText(xy, value, cssStyle);
+		return text;
+	}
+
+	public static SVGText createText(Real2 xy, String value, String cssValue) {
+		SVGText text = new SVGText(xy, value);
+		text.setCSSStyle(cssValue);
 		return text;
 	}
 

@@ -9,6 +9,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Vector2;
 import org.xmlcml.graphics.svg.SVGCircle;
+import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -104,7 +105,7 @@ public class Baudot {
 		return gg;
 	}
 
-	private void createStandAndSlot(SVGG gg, double standHeight, double tapeWidth, double tapeBottom,
+	private void createStandAndSlot(SVGElement gg, double standHeight, double tapeWidth, double tapeBottom,
 			String rectStyle) {
 		double standTopY = tapeBottom + deltay;
 		double standWidth = tapeWidth;
@@ -126,7 +127,7 @@ public class Baudot {
 	}
 
 	private static void example2() {
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		Baudot baudot = new Baudot();
 		
 		baudot.createSVG("LAURA TOM BBB 2017", new File("target/baudot/lauratom1.svg"));
@@ -184,7 +185,7 @@ public class Baudot {
 		return baudot;
 	}
 
-	private SVGG createSVG(String s, File outfile) {
+	private SVGElement createSVG(String s, File outfile) {
 		SVGG g = this.getSVGElement(s);
 		SVGSVG.wrapAndWriteAsSVG(g, outfile);
 		return g;

@@ -315,7 +315,7 @@ public class Axis {
 	 * @param boxThickness
 	 * @param boxLengthExtension
 	 */
-	public void processScaleValuesAndTitlesNew(SVGG g) {
+	public void processScaleValuesAndTitlesNew(SVGElement g) {
 		throw new RuntimeException("MUST REWRITE");
 //		List<SVGText> textList = extractText(g);
 //		TextStructurer textStructurer = new TextStructurer(textList);
@@ -423,7 +423,7 @@ public class Axis {
 		}
 	}
 
-	private void groupField(SVGG svgg, String fieldName, SVGElement field) {
+	private void groupField(SVGElement svgg, String fieldName, SVGElement field) {
 		if (field != null) {
 			field.setClassName(fieldName);
 			field.detach();
@@ -431,7 +431,7 @@ public class Axis {
 		}
 	}
 
-	private void groupFields(SVGG svgg, String fieldName, List<? extends SVGElement> fields) {
+	private void groupFields(SVGElement svgg, String fieldName, List<? extends SVGElement> fields) {
 		if (fields != null) {
 			for (SVGElement field : fields) {
 				field.setClassName(fieldName);
@@ -447,7 +447,7 @@ public class Axis {
 //		svgg.appendChild(backbone);
 //	}
 
-	private void groupTickJoints(SVGG svgg, String tickType, List<Joint> tickList) {
+	private void groupTickJoints(SVGElement svgg, String tickType, List<Joint> tickList) {
 		SVGG jointG = new SVGG();
 		jointG.setClassName(tickType);
 		svgg.appendChild(jointG);

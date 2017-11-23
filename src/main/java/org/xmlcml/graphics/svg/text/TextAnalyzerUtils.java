@@ -8,7 +8,6 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
-import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
 
@@ -105,7 +104,7 @@ public class TextAnalyzerUtils {
 
 	private static SVGElement findSingleSVGText(List<SVGElement> gList) {
 		SVGElement svgText = null;
-		SVGG gName = (SVGG) gList.get(0);
+		SVGElement gName = (SVGElement) gList.get(0);
 		List<SVGElement> texts = SVGUtil.getQuerySVGElements(gName, "./svg:text");
 		if (texts.size() == 1) {
 			svgText = (SVGElement) texts.get(0);

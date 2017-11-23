@@ -111,7 +111,7 @@ public abstract class AbstractContainer {
 //		return htmlElement;
 	}
 	
-	public abstract SVGG createSVGGChunk();
+	public abstract SVGElement createSVGGChunk();
 	
 	private void ensureContainerList() {
 		if (containerList == null) {
@@ -392,7 +392,7 @@ public abstract class AbstractContainer {
 		htmlElement = new HtmlDiv();
 	}
 
-	void removeAnnotatedRects(SVGG svgChunk) {
+	void removeAnnotatedRects(SVGElement svgChunk) {
 		Nodes nodes = svgChunk.query(".//*[@title='org.xmlcml.svg2xml.page.ShapeAnalyzer1']");
 		for (int i = 0; i < nodes.size(); i++) {
 			nodes.get(i).detach();

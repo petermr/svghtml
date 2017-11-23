@@ -61,14 +61,14 @@ public class ImageCache extends AbstractCache{
 		return imageList;
 	}
 
-	public SVGG debugToSVG(String outFilename) {
+	public SVGElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 		debug(g, imageList, "blue", "pink", 0.3);
 		writeDebug("images",outFilename, g);
 		return g;
 	}
 
-	private void debug(SVGG g, List<SVGImage> imageList, String stroke, String fill, double opacity) {
+	private void debug(SVGElement g, List<SVGImage> imageList, String stroke, String fill, double opacity) {
 		for (SVGImage img : imageList) {
 			SVGImage image = (SVGImage) img.copy();
 			image.setStroke(stroke);

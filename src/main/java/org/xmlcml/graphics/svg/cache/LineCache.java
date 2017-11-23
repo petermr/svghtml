@@ -177,6 +177,9 @@ public class LineCache extends AbstractCache {
 			longHorizontalLineList = new SVGLineList();
 			getOrCreateHorizontalLineList();
 			Real2Range ownerBBox = getOrCreateComponentCacheBoundingBox();
+			if (ownerBBox == null) {
+				throw new RuntimeException("null ownerBBox");
+			}
 			RealRange xrange = ownerBBox.getRealRange(Direction.HORIZONTAL);
 			for (SVGLine line : horizontalLines) {
 				RealRange lineRange = line.getRealRange(Direction.HORIZONTAL);
@@ -349,7 +352,7 @@ public class LineCache extends AbstractCache {
 	}
 
 	
-	public SVGG createColoredHorizontalLineStyles() {
+	public SVGElement createColoredHorizontalLineStyles() {
 		return createColoredHorizontalLineStyles(ComponentCache.MAJOR_COLORS);
 	}
 
@@ -358,10 +361,10 @@ public class LineCache extends AbstractCache {
 	 * @param color
 	 * @return
 	 */
-	public SVGG createColoredHorizontalLineStyles(String[] color) {
+	public SVGElement createColoredHorizontalLineStyles(String[] color) {
 		List<SVGLine> lines = getOrCreateHorizontalLineList();
 		Multiset<Double> lineWidths = getHorizontalLineStrokeWidthSet();
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		if (lineWidths != null) {
 			List<Multiset.Entry<Double>> sortedLineWidths = MultisetUtil.createDoubleListSortedByCount(lineWidths);
 			for (SVGLine line : lines) {

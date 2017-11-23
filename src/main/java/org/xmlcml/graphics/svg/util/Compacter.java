@@ -172,7 +172,7 @@ public class Compacter {
 	}
 
 	public void compactGroups(List<SVGG> gList) {
-		for(SVGG g : gList) {
+		for(SVGElement g : gList) {
 			List<SVGElement> elementList = SVGUtil.getQuerySVGElements(g,  "*");
 			createGroupsAndMoveLocallyUbiquitousAttributesUp(elementList);
 			for (Element element : elementList) {

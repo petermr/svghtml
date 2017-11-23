@@ -39,15 +39,18 @@ import nu.xom.Attribute;
  *
  */
 public class GlyphSet {
-	private static final String GLYPH_LIST = "glyphList";
-	private static final String GLYPH_SET = "glyphSet";
-	private static String CHARACTER = "character";
 	
 	private static final Logger LOG = Logger.getLogger(GlyphSet.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	private static final String GLYPH_LIST = "glyphList";
+	private static final String GLYPH_SET = "glyphSet";
+	private static String CHARACTER = "character";
+	public static final double CHARACTER_DY = -0.15;
+	public static final double CHARACTER_DX = -0.1;
+	
 	private Multiset<String> signatureSet;
 	private Multimap<String, SVGGlyph> glyphMapBySignature;
 	private HashMap<String, String> characterBySignatureMap;
@@ -112,7 +115,7 @@ public class GlyphSet {
 			Entry<String> sigEntry = signatureListSortedByCount.get(i);
 			String sig = sigEntry.getElement();
 			List<SVGGlyph> glyphList = new ArrayList<SVGGlyph>(getOrCreateGlyphBySignatureMap().get(sig));
-			SVGG g = this.createSVG(glyphList, i);
+			SVGElement g = this.createSVG(glyphList, i);
 			SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileroot+"/"+"glyph."+i+".svg"), 300, 100);
 		}
 	}
@@ -128,8 +131,8 @@ public class GlyphSet {
 		}
 	}
 
-	public SVGG createSVG(List<SVGGlyph> glyphList, int serial) {
-		SVGG g = new SVGG();
+	public SVGElement createSVG(List<SVGGlyph> glyphList, int serial) {
+		SVGElement g = new SVGG();
 		Transform2 t2 = Transform2.applyScale(5.0);
 		g.appendChild(SVGText.createDefaultText(new Real2(10,10.), ""+serial+" "+glyphList.get(0).getOrCreateSignature()));
 		for (SVGGlyph glyph : glyphList) {

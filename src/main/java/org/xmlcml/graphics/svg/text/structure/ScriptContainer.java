@@ -226,8 +226,8 @@ public class ScriptContainer extends AbstractContainer implements Iterable<Scrip
 		}
 	}
 
-	public SVGG createSVGGChunk() {
-		SVGG g = new SVGG();
+	public SVGElement createSVGGChunk() {
+		SVGElement g = new SVGG();
 		for (ScriptLine scriptLine : scriptLineList) {
 			if (scriptLine != null) {
 				List<SVGText> textList = scriptLine.getTextList();
