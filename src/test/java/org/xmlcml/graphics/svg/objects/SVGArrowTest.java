@@ -27,7 +27,7 @@ public class SVGArrowTest {
 	// these files already have triangles
 	@Test
 	public void testArrowFactory() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
+		SVGElement g = (SVGElement) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
 		List<SVGTriangle> triangleList = SVGTriangle.extractSelfAndDescendantTriangles(g);
 		Assert.assertEquals(2,  triangleList.size());
 		List<SVGLine> lineList = SVGLine.extractSelfAndDescendantLines(g);
@@ -37,7 +37,7 @@ public class SVGArrowTest {
 		arrowFactory.createFirstComeArrows();
 		List<SVGArrow> arrowList = arrowFactory.getArrowList();
 		Assert.assertEquals(2,  arrowList.size());
-		SVGG gg = new SVGG();
+		SVGElement gg = new SVGG();
 		for (int i = 0; i < arrowList.size(); i++) {
 			gg.appendChild(arrowList.get(i));
 			arrowList.get(i).setMarkerEndRef(SVGArrow.ARROWHEAD); 
@@ -57,7 +57,7 @@ public class SVGArrowTest {
 	 * @throws FileNotFoundException
 	 */
 	public void testArrowFactory1() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
+		SVGElement g = (SVGElement) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "arrows.svg")).getChildElements().get(0);
 		ArrowFactory arrowFactory = new ArrowFactory();
 		arrowFactory.setMarkerEnd(SVGArrow.ARROWHEAD);
 		arrowFactory.setStroke("red");
@@ -72,7 +72,7 @@ public class SVGArrowTest {
 	
 	@Test
 	public void testMultiArrows() throws FileNotFoundException {
-		SVGG g = (SVGG) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "multiTextBox.svg")).getChildElements().get(0);
+		SVGElement g = (SVGElement) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.OBJECTS_DIR, "multiTextBox.svg")).getChildElements().get(0);
 		ArrowFactory arrowFactory = new ArrowFactory();
 		arrowFactory.setMarkerEnd(SVGArrow.ARROWHEAD);
 		arrowFactory.setStroke("orange");

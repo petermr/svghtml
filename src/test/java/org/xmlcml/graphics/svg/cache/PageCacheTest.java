@@ -76,7 +76,7 @@ public class PageCacheTest {
 	public void testFindWhitespace() {
 		extractAndDisplayComponents(new File(SVGHTMLFixtures.TABLE_PAGE_DIR, "page6.svg"), new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
 		TextCache textCache = componentCache.getOrCreateTextCache();
-		SVGG g = textCache.createCompactedTextsAndReplace();
+		SVGElement g = textCache.createCompactedTextsAndReplace();
 		Assert.assertEquals("bounding boxes", 131, componentCache.getBoundingBoxList().size());
 		double dx = 5;
 		double dy = 5;
@@ -96,7 +96,7 @@ public class PageCacheTest {
 			String basename = FilenameUtils.getBaseName(svgFile.toString());
 			extractAndDisplayComponents(svgFile, new File(outDir, basename+".convert.svg"));
 			TextCache textCache = componentCache.getOrCreateTextCache();
-			SVGG g = textCache.createCompactedTextsAndReplace();
+			SVGElement g = textCache.createCompactedTextsAndReplace();
 			SVGG gg = componentCache.createWhitespaceG(5, 5);
 			SVGSVG.wrapAndWriteAsSVG(gg, new File(outDir, basename+".textline.svg"));
 		}
@@ -160,7 +160,7 @@ public class PageCacheTest {
 				String basename = FilenameUtils.getBaseName(svgFile.toString());
 				extractAndDisplayComponents(svgFile, new File(outDir, basename+".convert.svg"));
 				TextCache textCache = componentCache.getOrCreateTextCache();
-				SVGG g = textCache.createCompactedTextsAndReplace();
+				SVGElement g = textCache.createCompactedTextsAndReplace();
 				SVGG gg = componentCache.createWhitespaceG(5, 5);
 				SVGSVG.wrapAndWriteAsSVG(gg, new File(outDir, basename+".textline.svg"));
 			}

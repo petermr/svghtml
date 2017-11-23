@@ -42,7 +42,7 @@ public class PolylineTest {
 //		componentCache.debug();
 		List<SVGPolyline> polylines = componentCache.getOrCreatePolylineCache().getOrCreatePolylineList();
 		LOG.debug("P "+polylines.size());
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		for (SVGPolyline polyline : polylines) {
 			LOG.debug(polyline.toXML());
 		}

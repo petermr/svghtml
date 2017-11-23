@@ -37,6 +37,7 @@ import com.google.common.collect.Multiset;
  *
  */
 public class GlyphTest {
+	
 	public static final Logger LOG = Logger.getLogger(GlyphTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -120,7 +121,7 @@ public class GlyphTest {
 		for (SVGPath path : paths) {
 			PathPrimitiveList pathPrimitiveList = path.getOrCreatePathPrimitiveList();
 			List<PathPrimitiveList> pathPrimitiveListList = pathPrimitiveList.splitBefore(MovePrimitive.class);
-			SVGG gg = createAnnotatedSVG(pathPrimitiveListList);
+			SVGElement gg = createAnnotatedSVG(pathPrimitiveListList);
 			g.appendChild(gg);
 		}
 		SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileroot+"/"+"splitAllBeforeM.svg"));
@@ -168,7 +169,9 @@ public class GlyphTest {
 		
 	}
 
-	/** this is chemistry as well
+	/** reads a chemistry diagram and creates a path set using GlyphSet
+	 * includes writing lines to glyphset.
+	 * we will triage these out in a later version
 	 * @throws IOException 
 	 * 
 	 */
@@ -182,14 +185,18 @@ public class GlyphTest {
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
 		GlyphSet glyphSet = new GlyphSet();
 		glyphSet.createGlyphSetsAndAnalyze(fileroot, outputDir, inputFile);
-		glyphSet.writeGlyphSet(new File(outputDir, fileroot+"/"+"glyphSet.xml"));
+		glyphSet.writeGlyphSet(new File(outputDir, fileroot+"/"+"rawPathSet.xml"));
 	}	
 	
 	/** this is chemistry as well
+	 * contains lines and glyphs as paths.
+	 * 
+	 * translates each path either to a line or looks up as a glyph. The glyphs have already been stored 
+	 * and interpreted manually in glyphSet.xml
 	 * 
 	 */
 	@Test
-	public void testFigure1M1Lines() {
+	public void testFigure1M1Chemistry() {
 		String fileroot = "figure1.M1";
 		String dirRoot = "glyphs";
 		File outputDir = new File("target/", dirRoot);
@@ -208,6 +215,7 @@ public class GlyphTest {
 			g.appendChild(line.copy());
 			
 		}
+		// prepared glyphs
 		GlyphSet glyphSet = GlyphSet.readGlyphSet(new File(inputDir, "glyphSet.xml"));
 		double fontSize = 4.0;
 		List<SVGPath> paths = componentCache.getOrCreatePathCache().getCurrentPathList();
@@ -224,7 +232,7 @@ public class GlyphTest {
 			if (character.equals("") || character.equals("?")) {
 				
 			} else {
-				Real2 delta = new Real2(-0.1 * fontSize, -0.15 * fontSize);
+				Real2 delta = new Real2(GlyphSet.CHARACTER_DX * fontSize, GlyphSet.CHARACTER_DY * fontSize);
 				SVGText text = new SVGText(path.getXY().plus(delta), character);
 				text.setFontSize(fontSize);
 				g.appendChild(text);

@@ -394,7 +394,7 @@ public class Path2ShapeConverterTest {
 		Path2ShapeConverter path2ShapeConverter = new Path2ShapeConverter();
 		path2ShapeConverter.setSplitPolyLines(false);
 		// this shouldn't be necessary
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		g.appendChild(path);
 		List<SVGShape> shapes = path2ShapeConverter.convertPathsToShapes(g);
 		Assert.assertEquals(1, shapes.size());
@@ -415,7 +415,7 @@ public class Path2ShapeConverterTest {
 		Path2ShapeConverter path2ShapeConverter = new Path2ShapeConverter();
 		path2ShapeConverter.setSplitPolyLines(false);
 		// this shouldn't be necessary
-		SVGG g = new SVGG();
+		SVGElement g = new SVGG();
 		g.appendChild(path);
 		List<SVGShape> shapes = path2ShapeConverter.convertPathsToShapes(g);
 		Assert.assertEquals(2, shapes.size());
@@ -443,7 +443,7 @@ public class Path2ShapeConverterTest {
 					+ "m 99.317,0 69.449,0 0,11.283 -69.449,0 z "
 					+ "m 69.449,0 63.426,0 0,11.283 -63.426,0 z "
 					+ "m 63.426,0 62.112,0 0,11.283 -62.112,0 z ");
-			SVGG g = new SVGG();
+			SVGElement g = new SVGG();
 			g.appendChild(path);
 			Path2ShapeConverter path2ShapeConverter = new Path2ShapeConverter();
 			List<SVGShape> shapes = path2ShapeConverter.convertPathsToShapes(g);
