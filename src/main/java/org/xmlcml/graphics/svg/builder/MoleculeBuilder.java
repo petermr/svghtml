@@ -2,7 +2,11 @@ package org.xmlcml.graphics.svg.builder;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -16,7 +20,6 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
-import org.xmlcml.graphics.svg.linestuff.SVGEdge;
 import org.xmlcml.graphics.svg.linestuff.SVGNode;
 import org.xmlcml.graphics.svg.plot.XPlotBox;
 
@@ -40,6 +43,8 @@ public class MoleculeBuilder {
 	private Angle parallelEps = new Angle(0.05, Units.RADIANS);
 	private List<SVGAtom> atomList;
 	private List<SVGBond> bondList;
+	private Map<String, SVGBond> bondById;
+	private Set<SVGAtom> nonCarbonAtoms;
 
 	public void createWeightedLabelledGraph(SVGElement svgElement) {
 		XPlotBox xPlotBox = new XPlotBox();
@@ -51,24 +56,41 @@ public class MoleculeBuilder {
 		// make nodes from all texts
 		addNonCarbonAtoms(textList);
 		addLinesAndJoin();
+		getOrCreateBondMap();
 		gatherMultipleBonds();
-//		LOG.debug(this.toString());
-//		debugGraph();
+		joinDisconnectedAtoms();
+		createSmiles();
 	}
 
-/** inefficient quadratic
+    private Map<String, SVGBond> getOrCreateBondMap() {
+    	if (bondById == null) {
+    		bondById = new HashMap<String, SVGBond>();
+    	}
+    	return bondById;
+	}
+
+	private void joinDisconnectedAtoms() {
+    	for (SVGAtom atom : nonCarbonAtoms) {
+    		Real2 xy = atom.getCenterOfIntersectionOfNeighbouringStubBonds();
+    		if (xy != null) {
+    			atom.setXY(xy);
+    			atom.joinNeighbouringStubBonds();
+    		}
+    	}
+	}
+
+	/** inefficient quadratic
  * only does double bonds ATM
  */
 	private void gatherMultipleBonds() {
 		SVGG g = new SVGG();
-		for (int i = 0; i < bondList.size() - 1; i++) {
-			SVGBond bondi = bondList.get(i);
-			for (int j = i + 1; j < bondList.size(); j++) {
-				SVGBond bondj = bondList.get(j);
+		for (int i = 0; i < getBondList().size() - 1; i++) {
+			SVGBond bondi = getBondList().get(i);
+			for (int j = i + 1; j < getBondList().size(); j++) {
+				SVGBond bondj = getBondList().get(j);
 				if (bondi.isAntiParallelTo(bondj, parallelEps) || bondi.isParallelTo(bondj, parallelEps)) {
 					double delta = bondi.getMidPoint().getDistance(bondj.getMidPoint());
 					if (delta < midPointDelta) {
-						LOG.debug("double "+delta+"; "+bondi+"; "+bondj);
 						SVGBond primaryBond = getPrimaryBond(bondi, bondj);
 						if (primaryBond == null) {
 							primaryBond = createAverageBond(bondi, bondj);
@@ -86,10 +108,8 @@ public class MoleculeBuilder {
 
 	private void removeAtoms(List<SVGAtom> atomList) {
 		for (SVGAtom atom : atomList) {
-			this.atomList.remove(atom);
-			LOG.debug("removed atom "+atom);
+			this.getAtomList().remove(atom);
 		}
-		LOG.debug("atom count: "+this.atomList.size());
 	}
 
 	/** find average bond
@@ -118,13 +138,7 @@ public class MoleculeBuilder {
 	private void removeBond(SVGBond bond) {
 		if (bond != null) {
 			// don't remove atoms!
-//			SVGAtom atom0 = (SVGAtom) bond.getNode(0);
-//			atomList.remove(atom0);
-//			SVGAtom atom1 = (SVGAtom) bond.getNode(1);
-//			atomList.remove(atom1);
-//			LOG.debug("BL "+bondList.size());
-			bondList.remove(bond);
-//			LOG.debug("BL "+bondList.size());
+			getBondList().remove(bond);
 		}
 	}
 
@@ -159,8 +173,8 @@ public class MoleculeBuilder {
 
 	private SVGG debugBonds() {
 		SVGG g = new SVGG();
-		for (int j = 0; j < bondList.size(); j++) {
-			SVGLine line = bondList.get(j);
+		for (int j = 0; j < getBondList().size(); j++) {
+			SVGLine line = getBondList().get(j);
 			g.appendChild(line.copy());
 		}
 		return g;
@@ -169,8 +183,8 @@ public class MoleculeBuilder {
 
 	private SVGG debugAtoms() {
 		SVGG g = new SVGG();
-		for (int i = 0; i < atomList.size(); i++) {
-			SVGAtom atom = atomList.get(i);
+		for (int i = 0; i < getAtomList().size(); i++) {
+			SVGAtom atom = getAtomList().get(i);
 			Real2 xy = atom.getXY();
 			SVGCircle circle = new SVGCircle(xy, 2.0);
 			circle.setCSSStyle("fill:none;stroke:red;stroke-width:0.3;");
@@ -192,16 +206,16 @@ public class MoleculeBuilder {
 		return bondList;
 	}
 
-
 	private void addBondAndCreateId(SVGBond bond) {
 		bond.setId(BOND_ID + bondList.size());
 		bondList.add(bond);
+		getOrCreateBondMap().put(bond.getId(), bond);
 	}
 
 	void addNodeAndCreateId(SVGAtom atom) {
 		getOrCreateAtomList();
-		atom.setId(NODE_ID + atomList.size());
-		atomList.add(atom);
+		atom.setId(NODE_ID + getAtomList().size());
+		getAtomList().add(atom);
 	}
 
 	public List<SVGAtom> getOrCreateAtomList() {
@@ -218,46 +232,29 @@ public class MoleculeBuilder {
 		return bondList;
 	}
 
-//	/** remove node from edges
-//	 * crude quadratic
-//	 * 
-//	 * @param nodei
-//	 */
-//	private void removeNodeFromEdges(SVGNode node) {
-//		node.getOrCreateEdges().remove(node);
-//	}
-//
-//	private void joinNodes(SVGNode nodei, SVGNode nodej) {
-//		List<SVGEdge> edgesj = nodej.getOrCreateEdges();
-//		for (int j = 0; j < edgesj.size(); j++) {
-//			SVGEdge edgej = edgesj.get(j);
-//			boolean add = nodei.addEdge(edgej, endDelta);
-//			if (!add) {
-//				LOG.error("Cannot add edge "+edgej.getId()+" to "+nodei.getId());
-//			} else {
-//				LOG.debug("added "+edgej.getId()+" to "+nodei.getId());
-//			}
-//		}
-//	}
-
 	private void addNonCarbonAtoms(List<SVGText> textList) {
 		getOrCreateAtomList();
+		nonCarbonAtoms = new HashSet<SVGAtom>();
 		for (int idx = 0; idx < textList.size(); idx++) {
-			SVGAtom atom = new SVGAtom(textList.get(idx));
+			SVGAtom atom = this.createAtom(textList.get(idx));
 			atom.setId(NODE_ID+idx);
 			addNodeAndCreateId(atom);
+			nonCarbonAtoms.add(atom);
 		}
+	}
+
+	private SVGAtom createAtom(SVGText svgText) {
+		SVGAtom atom = new SVGAtom(this, svgText);
+		return atom;
 	}
 
 	private void addLinesAndJoin() {
-		for (int idx = 0; idx < bondList.size(); idx++) {
-			SVGBond bond = bondList.get(idx);
+		for (int idx = 0; idx < getBondList().size(); idx++) {
+			SVGBond bond = getBondList().get(idx);
 			joinOrCreateAtomsAtEnd(bond, 0);
 			joinOrCreateAtomsAtEnd(bond, 1);
 		}
-		LOG.debug("Atoms: "+atomList);
 	}
-
 	
 	private void joinOrCreateAtomsAtEnd(SVGBond bond, int iend) {
 		Real2 xyEnd = bond.getXY(iend);
@@ -265,17 +262,17 @@ public class MoleculeBuilder {
 		if (foundAtom == null) {
 			// make new carbon
 			SVGText text = SVGText.createDefaultText(xyEnd, "C");
-			foundAtom = new SVGAtom(text);
-			atomList.add(foundAtom);
-			foundAtom.setId("n"+atomList.size());
+			foundAtom = this.createAtom(text);
+			getAtomList().add(foundAtom);
+			foundAtom.setId("n"+getAtomList().size());
 		}
 		bond.addNode(foundAtom, iend);
 	}
 
 	private SVGAtom joinToExistingAtom(Real2 xyEnd) {
 		SVGAtom foundAtom = null;
-		for (int i = 0; i < atomList.size(); i++) {
-			SVGAtom atom = atomList.get(i);
+		for (int i = 0; i < getAtomList().size(); i++) {
+			SVGAtom atom = getAtomList().get(i);
 			if (atom.getXY().getDistance(xyEnd) < endDelta) {
 				foundAtom = atom;
 				break;
@@ -284,33 +281,12 @@ public class MoleculeBuilder {
 		return foundAtom;
 	}
 
-//	private void addCAtomsAtLineEnds() {
-//		for (int idx = 0; idx < bondList.size(); idx++) {
-//			SVGEdge edge = bondList.get(idx);
-//			LOG.debug("adding edge "+edge);
-//			createAndAddCarbonNode(edge, 0);
-//			createAndAddCarbonNode(edge, 1);
-//		}
-//		LOG.debug("Nodes: "+atomList);
-//	}
-
-//	private void createAndAddCarbonNode(SVGEdge edge, int atom) {
-//		SVGText cText = new SVGText(edge.getXY(atom), "C");
-//		cText.setFontSize(2.0);
-//		SVGAtom node = new SVGAtom(cText);
-//		addNodeAndCreateId(node);
-//		node.addEdge(edge, atom);
-//		LOG.debug("C "+node);
-//	}
-	
 	public SVGElement getOrCreateSVG() {
 		SVGG g = new SVGG();
-		LOG.debug("nodes: "+atomList.size());
-		for (SVGAtom atom : atomList) {
+		for (SVGAtom atom : getAtomList()) {
 			g.appendChild(atom.getOrCreateSVG());
 		}
-		LOG.debug("edges: "+bondList.size());
-		for (SVGBond bond : bondList) {
+		for (SVGBond bond : getBondList()) {
 			g.appendChild(bond.getOrCreateSVG());
 		}
 		return g;
@@ -318,23 +294,40 @@ public class MoleculeBuilder {
 	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("================\n");
+		sb.append("================>>>\n");
 		getOrCreateAtomList();
-		for (SVGNode node : atomList) {
-			sb.append(node);
+		for (SVGAtom atom : getAtomList()) {
+			sb.append(atom.toString());
 			sb.append("\n");
 		}
 		getOrCreateBondList();
-		for (SVGBond bond : bondList) {
-			sb.append(bond);
+		for (SVGBond bond : getBondList()) {
+			sb.append(bond.toString());
 			sb.append("\n");
 		}
+		sb.append("<<<================\n");
 		return sb.toString();
 	}
 	
 	public String createSmiles() {
+		
 		StringBuilder sb = new StringBuilder();
+		LOG.debug("NYI ? CML");
+//		Set<SVGAtom> unused = new HashSet<SVGAtom>(atomList);
+//		Set<SVGAtom> used = new HashSet<SVGAtom>();
+//		while (!unused.isEmpty()) {
+//			SVGAtom atom = unused.iterator().next();
+//			
+//		}
 		return sb.toString();
+	}
+
+	public List<SVGAtom> getAtomList() {
+		return atomList;
+	}
+
+	public List<SVGBond> getBondList() {
+		return bondList;
 	}
 
 }

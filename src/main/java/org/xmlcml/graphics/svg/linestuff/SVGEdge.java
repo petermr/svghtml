@@ -26,7 +26,7 @@ public class SVGEdge extends SVGLine {
 	protected List<SVGNode> nodeList;
 	
 	private double weight = 1;
-	private String label = "";
+	protected String label = "";
 
 	public SVGEdge() {
 		getOrCreateNodeList();
@@ -35,6 +35,7 @@ public class SVGEdge extends SVGLine {
 	public SVGEdge(SVGLine line) {
 		super();
 		this.copyAttributesChildrenElements(line);
+		return;
 	}
 	
 	public void addNode(SVGNode node, int iend) {
@@ -52,6 +53,7 @@ public class SVGEdge extends SVGLine {
 			nodeList = new ArrayList<SVGNode>();
 			nodeList.add((SVGNode)null);
 			nodeList.add((SVGNode)null);
+//			LOG.debug("added null to bond: "+this.getId());
 		}
 		return nodeList;
 	}
@@ -69,8 +71,10 @@ public class SVGEdge extends SVGLine {
 		getOrCreateNodeList();
 		StringBuilder sb = new StringBuilder();
 		sb.append(this.getId()+": ");
-		sb.append(nodeList.get(0).getId()+"; ");
-		sb.append(nodeList.get(1).getId()+"; ");
+		SVGNode node0 = nodeList.get(0);
+		sb.append(node0 == null ? "null " : node0.getId()+"; ");
+		SVGNode node1 = nodeList.get(1);
+		sb.append(node1 == null ? "null ": node1.getId()+"; ");
 		sb.append(this.getXY(0)+" "+this.getXY(1)+"; label: "+label+"; wt: "+getWeight()+" ");
 		return sb.toString();
 	}
@@ -112,5 +116,8 @@ public class SVGEdge extends SVGLine {
 		this.weight = weight;
 	}
 
+	public int indexOf(SVGNode node) {
+		return (node == null || nodeList == null || nodeList.size() != 2) ? null : nodeList.indexOf(node);
+	}
 	
 }

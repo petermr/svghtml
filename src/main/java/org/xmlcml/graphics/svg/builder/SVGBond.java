@@ -13,7 +13,9 @@ import org.xmlcml.graphics.svg.linestuff.SVGEdge;
 import org.xmlcml.graphics.svg.linestuff.SVGNode;
 
 public class SVGBond extends SVGEdge {
+	
 	private static final Logger LOG = Logger.getLogger(SVGBond.class);
+	private List<SVGAtom> atomList;
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -22,7 +24,6 @@ public class SVGBond extends SVGEdge {
 		super(line);
 	}
 	
-//	private 
 	public SVGAtom getAtom(int index) {
 		getOrCreateNodeList();
 		return index >= 2 ? null :  (SVGAtom) nodeList.get(index);
@@ -31,11 +32,11 @@ public class SVGBond extends SVGEdge {
 	public List<SVGAtom> getAtomList() {
 		// these are actually atoms
 		List<SVGNode> nodes = super.getOrCreateNodeList();
-		List<SVGAtom> atoms = new ArrayList<SVGAtom>();
+		atomList = new ArrayList<SVGAtom>();
 		for (SVGNode node : nodes) {
-			atoms.add((SVGAtom)node);
+			atomList.add((SVGAtom)node);
 		}
-		return atoms;
+		return atomList;
 	}
 
 	public SVGElement getOrCreateSVG() {
@@ -49,10 +50,22 @@ public class SVGBond extends SVGEdge {
 			line.setWidth(1.0 / 3.0);
 			line.setStroke("white");
 			g.appendChild(line);
-			LOG.debug("LINE: "+line);
 		}
 		return g;
 	}
+
+	public String toString() {
+		getAtomList();
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.getId()+": ");
+		SVGAtom atom0 = atomList.get(0);
+		sb.append(atom0 == null ? "null " : atom0.getId()+"; ");
+		SVGAtom atom1 = atomList.get(1);
+		sb.append(atom1 == null ? "null ": atom1.getId()+"; ");
+		sb.append(this.getXY(0)+" "+this.getXY(1)+"; label: "+label+"; wt: "+getWeight()+" ");
+		return sb.toString();
+	}
+
 
 	
 }

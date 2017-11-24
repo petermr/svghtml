@@ -33,8 +33,6 @@ public class MoleculeBuilderTest {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
 		moleculeBuilder.createWeightedLabelledGraph(svgElement);
 		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		
-//		g.appendChild(svgElement.copy());
 		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
 
 	}
@@ -98,17 +96,16 @@ Edges: [
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
 		moleculeBuilder.createWeightedLabelledGraph(svgElement);
 		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		LOG.debug("++++++++++++++++++++++++++++++++++++++");
-		LOG.debug(moleculeBuilder);
-		
-//		g.appendChild(svgElement.copy());
 		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
 
 	}
 
+	/** minimal molecule to test double bond gathering.
+	 * 
+	 */
 	@Test
-	public void testCreateSimpleMolecule00() {
-		String fileroot = "simpleMolecule00";
+	public void testDoubleBond() {
+		String fileroot = "doubleBond";
 		String dirRoot = "glyphs/figure1.M1";
 		File outputDir = new File("target/", dirRoot);
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
@@ -118,10 +115,45 @@ Edges: [
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
 		moleculeBuilder.createWeightedLabelledGraph(svgElement);
 		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		LOG.debug("++++++++++++++++++++++++++++++++++++++");
-		LOG.debug(moleculeBuilder);
-		
-//		g.appendChild(svgElement.copy());
+		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+
+	}
+
+	/** minimal molecule to test bonds meeting hetero atom.
+	 * 
+	 */
+	@Test
+	public void testHetero() {
+		String fileroot = "hetero";
+		String dirRoot = "glyphs/figure1.M1";
+		File outputDir = new File("target/", dirRoot);
+		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
+		File inputFile = new File(inputDir, fileroot + ".svg");
+		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
+		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		moleculeBuilder.createWeightedLabelledGraph(svgElement);
+		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
+		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+
+	}
+
+
+	/** test stub join.
+	 * 
+	 */
+	@Test
+	public void testStubJoin() {
+		String fileroot = "stubJoin";
+		String dirRoot = "glyphs/figure1.M1";
+		File outputDir = new File("target/", dirRoot);
+		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
+		File inputFile = new File(inputDir, fileroot + ".svg");
+		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
+		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		moleculeBuilder.createWeightedLabelledGraph(svgElement);
+		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
 		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
 
 	}
