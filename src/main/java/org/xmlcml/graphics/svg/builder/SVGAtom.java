@@ -146,16 +146,18 @@ public class SVGAtom extends SVGNode {
 				}
 			}
 			double deltaAngMin = 0.1;
-			meanXY = getMeanIntersection(intersectingBondList, deltaAngMin).format(2);
-//			LOG.debug("Mean XY: "+meanXY);
+			meanXY = getMeanIntersection(intersectingBondList, deltaAngMin);
 		}
 		return meanXY;
 	}
 
 	private Real2 getMeanIntersection(List<? extends SVGLine> intersectingLineList, double deltaAngMin) {
+		Real2 meanXY = null;
 		Real2Array intersectionsXY = new Real2Array();
-		for (SVGLine line0 : intersectingLineList) {
-			for (SVGLine line1 : intersectingLineList) {
+		for (int i = 0; i < intersectingLineList.size() - 1; i++) {
+			SVGLine line0 = intersectingLineList.get(i);
+			for (int j = i + 1; j < intersectingLineList.size(); j++) {
+				SVGLine line1 = intersectingLineList.get(j);
 				Angle angle = line1.getEuclidLine().getAngleMadeWith(line0.getEuclidLine());
 				double radians = Math.abs(angle.getRadian());
 				if (Math.PI - radians > deltaAngMin) {
@@ -166,7 +168,10 @@ public class SVGAtom extends SVGNode {
 				}
 			}
 		}
-		Real2 meanXY = intersectionsXY.size() == 0 ? null : intersectionsXY.getMean();
+		if (intersectionsXY == null || intersectionsXY.size() == 0) {
+		} else {
+			meanXY = intersectionsXY.getMean();
+		}
 		return meanXY;
 	}
 
@@ -207,6 +212,15 @@ public class SVGAtom extends SVGNode {
 	public Real2 getCenterOfIntersectionOfNeighbouringStubBonds() {
 		List<SVGAtom> neighbours = createDisconnectedNeighbourList();
 		centreOfStubIntersectionXY = getIntersection(neighbours);
+		LOG.debug("COI "+centreOfStubIntersectionXY);
+		// debug
+		if (neighbours != null) {
+		for (SVGAtom neighbour : neighbours) {
+			SVGBond neighbond = neighbour.getBondList().get(0);
+			Angle angle = Real2.getAngle(neighbond.getXY(1), neighbond.getXY(0), centreOfStubIntersectionXY);
+			LOG.debug("ang "+angle);
+		}
+		}
 		return centreOfStubIntersectionXY;
 	}
 

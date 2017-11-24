@@ -71,6 +71,7 @@ public class MoleculeBuilder {
 
 	private void joinDisconnectedAtoms() {
     	for (SVGAtom atom : nonCarbonAtoms) {
+    		LOG.debug("Orig "+atom.getXY());
     		Real2 xy = atom.getCenterOfIntersectionOfNeighbouringStubBonds();
     		if (xy != null) {
     			atom.setXY(xy);
