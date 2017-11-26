@@ -1,14 +1,12 @@
 package org.xmlcml.graphics.svg.builder;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.euclid.Angle;
-import org.xmlcml.euclid.Real2;
-import org.xmlcml.euclid.Angle.Units;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -22,21 +20,11 @@ public class MoleculeBuilderTest {
 	
 	
 	@Test
-	public void testCreateSimpleMolecule() {
-		String fileroot = "atomSymbolsFromPaths";
-		String dirRoot = "glyphs/figure1.M1";
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
-		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+	public void testCreateFullMolecule() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
-
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("atomSymbolsFromPaths", "glyphs/figure1.M1");
 	}
-	
+
 	/*
 Nodes: 
 [
@@ -85,76 +73,80 @@ Edges: [
 ]
 	 */
 	@Test
-	public void testCreateSimpleMolecule0() {
-		String fileroot = "simpleMolecule0";
-		String dirRoot = "glyphs/figure1.M1";
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
-		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+	public void testCreateSimpleMolecule0() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("simpleMolecule0", "glyphs/figure1.M1");
 
 	}
 
 	/** minimal molecule to test double bond gathering.
+	 * @throws IOException 
 	 * 
 	 */
 	@Test
-	public void testDoubleBond() {
-		String fileroot = "doubleBond";
-		String dirRoot = "glyphs/figure1.M1";
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
-		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+	public void testDoubleBond() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("doubleBond", "glyphs/figure1.M1");
 
 	}
 
 	/** minimal molecule to test bonds meeting hetero atom.
+	 * @throws IOException 
 	 * 
 	 */
 	@Test
-	public void testHetero() {
-		String fileroot = "hetero";
-		String dirRoot = "glyphs/figure1.M1";
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
-		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+	public void testHetero() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("hetero", "glyphs/figure1.M1");
 
 	}
 
 
 	/** test stub join.
+	 * @throws IOException 
 	 * 
 	 */
 	@Test
-	public void testStubJoin() {
-		String fileroot = "stubJoin";
-		String dirRoot = "glyphs/figure1.M1";
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
-		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+	public void testStubJoin() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = moleculeBuilder.getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("stubJoin", "glyphs/figure1.M1");
+
+	}
+
+	/** test undeleted atom.
+	 * @throws IOException 
+	 * 
+	 */
+	@Test
+	public void testUndeletedAtom() throws IOException {
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("propionic", "glyphs/figure1.M1");
+
+	}
+
+	/** test undeleted atom.
+	 * @throws IOException 
+	 * 
+	 */
+	@Test
+	public void testUndeletedAtom0() throws IOException {
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("formic", "glyphs/figure1.M1");
+
+	}
+
+	/** test undeleted atom.
+	 * @throws IOException 
+	 * 
+	 */
+	@Test
+	public void testUndeletedAtom1() throws IOException {
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		// this is very sensitive
+		// 0.1 misses a join while 0.3 fails to join an N-N bond.
+		// needs more work
+		moleculeBuilder.setEndDelta(0.2);
+		moleculeBuilder.createTestMoleculeAndDefaultOutput("doubleBond1", "glyphs/figure1.M1");
 
 	}
 

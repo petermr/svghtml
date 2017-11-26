@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -16,6 +17,7 @@ public class SVGBond extends SVGEdge {
 	
 	private static final Logger LOG = Logger.getLogger(SVGBond.class);
 	private List<SVGAtom> atomList;
+	private MoleculeBuilder moleculeBuilder;
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -64,6 +66,49 @@ public class SVGBond extends SVGEdge {
 		sb.append(atom1 == null ? "null ": atom1.getId()+"; ");
 		sb.append(this.getXY(0)+" "+this.getXY(1)+"; label: "+label+"; wt: "+getWeight()+" ");
 		return sb.toString();
+	}
+
+	public void mergeAverageBondWithNearestAtom() {
+		List<SVGAtom> moleculeBuilderAtomList = moleculeBuilder.getAtomList();
+		for (int i = 0; i < 2; i++) {
+			SVGAtom atomInBond = this.getAtom(i);
+			Real2 thisXY = atomInBond.getXY();
+			// find nearest atom
+			SVGAtom nearestAtom = findNearestAtom(moleculeBuilderAtomList, thisXY);
+			if (nearestAtom != null) {
+				moleculeBuilderAtomList.remove(atomInBond);
+//				LOG.info("Removing atom: "+atomInBond);
+				this.getOrCreateNodeList().set(i, nearestAtom);
+//				LOG.info("replaced with: "+nearestAtom);
+			}
+		}
+	}
+
+	private SVGAtom findNearestAtom(List<SVGAtom> moleculeBuilderAtomList, Real2 thisXY) {
+		SVGAtom nearestAtom = null;
+		double minDist = Double.MAX_VALUE;
+		for (int j = 0; j < moleculeBuilderAtomList.size(); j++) {
+			SVGAtom atom = moleculeBuilderAtomList.get(j);
+			if (this.indexOf(atom) == -1) {
+				double dist = atom.getXY().getDistance(thisXY);
+				if (dist < getMoleculeBuilder().getMidPointDelta() && dist < minDist) {
+					minDist = dist;
+					nearestAtom = atom;
+				}
+			}
+		}
+		if (nearestAtom != null) {
+//			LOG.debug(nearestAtom+"; "+minDist);
+		}
+		return nearestAtom;
+	}
+
+	public MoleculeBuilder getMoleculeBuilder() {
+		return moleculeBuilder;
+	}
+
+	public void setMoleculeBuilder(MoleculeBuilder moleculeBuilder) {
+		this.moleculeBuilder = moleculeBuilder;
 	}
 
 

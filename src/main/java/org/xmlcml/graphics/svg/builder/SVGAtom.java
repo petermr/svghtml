@@ -40,6 +40,8 @@ public class SVGAtom extends SVGNode {
 	private SVGText labelText;
 	private double maxDistanceForStubNeighbour;
 	private Real2 centreOfStubIntersectionXY;
+	// empirical proportion of length to be added onto stub bond
+	private double stubExtensionFactor = 0.4;
 	
 	public SVGAtom(MoleculeBuilder moleculeBuilder, SVGText text) {
 		super(text);
@@ -132,7 +134,6 @@ public class SVGAtom extends SVGNode {
 		List<SVGBond> intersectingBondList = new ArrayList<SVGBond>();
 		if (neighbours != null) {
 			for (SVGAtom neighbour : neighbours) {
-				LOG.debug("neighbour atom: "+neighbour);
 				List<SVGBond> neighbourBonds = neighbour.getBondList();
 				SVGBond neighbourBond = neighbourBonds.get(0);
 				Angle angle = this.getAngle(neighbourBond, neighbour);
@@ -146,41 +147,61 @@ public class SVGAtom extends SVGNode {
 				}
 			}
 			double deltaAngMin = 0.1;
-			meanXY = getMeanIntersection(intersectingBondList, deltaAngMin);
+			if (intersectingBondList.size() == 1) {
+				meanXY = extendStubBond(neighbours, intersectingBondList.get(0));
+			} else {
+				meanXY = getMeanIntersection(intersectingBondList, deltaAngMin);
+			}
 		}
+		return meanXY;
+	}
+
+	private Real2 extendStubBond(List<SVGAtom> neighbours, SVGBond bond) {
+		Real2 meanXY;
+		SVGAtom stubAtom = neighbours.get(0);
+		int stubAtomIndex = bond.indexOf(stubAtom);
+		Real2 bondVec = bond.getXY(stubAtomIndex).subtract(bond.getXY(1 - stubAtomIndex));
+		Real2 projection = bondVec.multiplyBy(stubExtensionFactor );
+		meanXY = bond.getXY(stubAtomIndex).plus(projection);
 		return meanXY;
 	}
 
 	private Real2 getMeanIntersection(List<? extends SVGLine> intersectingLineList, double deltaAngMin) {
 		Real2 meanXY = null;
 		Real2Array intersectionsXY = new Real2Array();
-		for (int i = 0; i < intersectingLineList.size() - 1; i++) {
-			SVGLine line0 = intersectingLineList.get(i);
-			for (int j = i + 1; j < intersectingLineList.size(); j++) {
-				SVGLine line1 = intersectingLineList.get(j);
-				Angle angle = line1.getEuclidLine().getAngleMadeWith(line0.getEuclidLine());
-				double radians = Math.abs(angle.getRadian());
-				if (Math.PI - radians > deltaAngMin) {
-					Real2 intersectXY = line0.getIntersection(line1);
-					intersectionsXY.addElement(intersectXY);
-				} else {
-					LOG.warn("angle too small for intersection: "+radians);
+		if (intersectingLineList.size() == 0) {
+			throw new RuntimeException("no intersecting bonds "+intersectingLineList);
+		} else if (intersectingLineList.size() == 1) {
+			throw new RuntimeException("one intersecting bonds "+intersectingLineList);
+		} else {
+			for (int i = 0; i < intersectingLineList.size() - 1; i++) {
+				SVGLine line0 = intersectingLineList.get(i);
+				for (int j = i + 1; j < intersectingLineList.size(); j++) {
+					SVGLine line1 = intersectingLineList.get(j);
+					Angle angle = line1.getEuclidLine().getAngleMadeWith(line0.getEuclidLine());
+					double radians = Math.abs(angle.getRadian());
+					if (Math.PI - radians > deltaAngMin) {
+						Real2 intersectXY = line0.getIntersection(line1);
+						intersectionsXY.addElement(intersectXY);
+					} else {
+						LOG.warn("angle too small for intersection: "+radians);
+					}
 				}
 			}
-		}
-		if (intersectionsXY == null || intersectionsXY.size() == 0) {
-		} else {
-			meanXY = intersectionsXY.getMean();
+			if (intersectionsXY == null || intersectionsXY.size() == 0) {
+				LOG.warn("no intersections from "+intersectingLineList);
+			} else {
+				meanXY = intersectionsXY.getMean();
+			}
 		}
 		return meanXY;
 	}
 
 	private Angle getAngle(SVGBond bond, SVGAtom atom) {
-		LOG.debug("bond "+bond);
 		Angle angle = null;
 		int index = bond.indexOf(atom);
 		if (index == -1) {
-			LOG.debug("*** cannot find atom "+atom+" in "+bond.hashCode()+"; "+bond);
+			LOG.error("*** cannot find atom "+atom+" in "+bond.hashCode()+"; "+bond);
 			LOG.debug("MOL "+moleculeBuilder.toString());
 		} else {
 			SVGNode n1 = bond.getNode(index);
@@ -189,7 +210,6 @@ public class SVGAtom extends SVGNode {
 			Real2 xy1 = n1.getXY();
 			Real2 xy2 = n2.getXY();
 			angle = Real2.getAngle(xy0, xy1, xy2);
-			LOG.debug("N0 N1 N2 "+this+"; "+n1+"; "+n2+" *** angle "+angle);
 		}
 		return angle;
 	}
@@ -212,14 +232,12 @@ public class SVGAtom extends SVGNode {
 	public Real2 getCenterOfIntersectionOfNeighbouringStubBonds() {
 		List<SVGAtom> neighbours = createDisconnectedNeighbourList();
 		centreOfStubIntersectionXY = getIntersection(neighbours);
-		LOG.debug("COI "+centreOfStubIntersectionXY);
 		// debug
 		if (neighbours != null) {
-		for (SVGAtom neighbour : neighbours) {
-			SVGBond neighbond = neighbour.getBondList().get(0);
-			Angle angle = Real2.getAngle(neighbond.getXY(1), neighbond.getXY(0), centreOfStubIntersectionXY);
-			LOG.debug("ang "+angle);
-		}
+			for (SVGAtom neighbour : neighbours) {
+				SVGBond neighbond = neighbour.getBondList().get(0);
+				Angle angle = Real2.getAngle(neighbond.getXY(1), neighbond.getXY(0), centreOfStubIntersectionXY);
+			}
 		}
 		return centreOfStubIntersectionXY;
 	}
@@ -228,19 +246,19 @@ public class SVGAtom extends SVGNode {
 	 * 
 	 */
 	public void joinNeighbouringStubBonds() {
-		for (SVGAtom neighbour : neighbourList) {
-			SVGBond neighbourBond = neighbour.getBondList().get(0); // there is only one bond
-			int idx = neighbourBond.indexOf(neighbour);
+		for (SVGAtom stubNeighbour : neighbourList) {
+			SVGBond stubNeighbourBond = stubNeighbour.getBondList().get(0); // there is only one bond
+			int idx = stubNeighbourBond.indexOf(stubNeighbour);
 			if (idx == -1) {
-				LOG.debug(""+neighbour+"; "+neighbourBond); 
-				LOG.error("could not find atom in neighbour bond");
+				LOG.error("could not find atom in neighbour bond "+stubNeighbour+"; "+stubNeighbourBond);
 				continue;
 			}
-			LOG.debug("found atom");
-			neighbourBond.setXY(centreOfStubIntersectionXY, idx);
+			stubNeighbourBond.setXY(centreOfStubIntersectionXY, idx);
 			// replace stub atom by this
-			List<SVGNode> atoms = neighbourBond.getOrCreateNodeList();
-			atoms.set(idx, this);
+			List<SVGNode> subNeighbourBondedAtoms = stubNeighbourBond.getOrCreateNodeList();
+			subNeighbourBondedAtoms.set(idx, this);
+			// remove stub neighbour
+			moleculeBuilder.getAtomList().remove(stubNeighbour);
 		}
 	}
 

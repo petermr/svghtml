@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.builder;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -8,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
@@ -16,12 +18,16 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
-import org.xmlcml.graphics.svg.linestuff.SVGNode;
 import org.xmlcml.graphics.svg.plot.XPlotBox;
+import org.xmlcml.xml.XMLUtil;
+
+import nu.xom.Attribute;
+import nu.xom.Element;
 
 /** a simple class to make molecules from SVGs.
  * 
@@ -29,22 +35,40 @@ import org.xmlcml.graphics.svg.plot.XPlotBox;
  *
  */
 public class MoleculeBuilder {
-	private static final String BOND_ID = "e";
-	private static final String NODE_ID = "n";
 	private static final Logger LOG = Logger.getLogger(MoleculeBuilder.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	private static final String BOND_ID = "e";
+	private static final String NODE_ID = "n";
+
 	private static final String C = "C";
 	private static final String H = "H";
+	
+	private static final String CML_NS = "http://www.xml-cml.org/schema"; // check this
+	private static final String CML = "cml";
+	private static final String ATOM = "atom";
+	private static final String ATOM_ARRAY = "atomArray";
+	private static final String ATOM_REFS2 = "atomRefs2";
+	private static final String BOND = "bond";
+	private static final String BOND_ARRAY = "bondArray";
+	private static final String ELEMENT_TYPE = "elementType";
+	private static final String ID = "id";
+	
+	private static final String MOLECULE = "molecule";
+	private static final String ORDER = "order";
+	private static final String X2 = "x2";
+	private static final String Y2 = "y2";
 
-	private double endDelta = 0.1;
+	private double endDelta = 0.3;
 	private double midPointDelta = 2.0;
 	private Angle parallelEps = new Angle(0.05, Units.RADIANS);
 	private List<SVGAtom> atomList;
 	private List<SVGBond> bondList;
 	private Map<String, SVGBond> bondById;
 	private Set<SVGAtom> nonCarbonAtoms;
+	private String title;
+	private String program;
 
 	public void createWeightedLabelledGraph(SVGElement svgElement) {
 		XPlotBox xPlotBox = new XPlotBox();
@@ -58,8 +82,8 @@ public class MoleculeBuilder {
 		addLinesAndJoin();
 		getOrCreateBondMap();
 		gatherMultipleBonds();
+//		LOG.warn("must no skipp joinDisconnectedAtoms");
 		joinDisconnectedAtoms();
-		createSmiles();
 	}
 
     private Map<String, SVGBond> getOrCreateBondMap() {
@@ -71,7 +95,6 @@ public class MoleculeBuilder {
 
 	private void joinDisconnectedAtoms() {
     	for (SVGAtom atom : nonCarbonAtoms) {
-    		LOG.debug("Orig "+atom.getXY());
     		Real2 xy = atom.getCenterOfIntersectionOfNeighbouringStubBonds();
     		if (xy != null) {
     			atom.setXY(xy);
@@ -91,15 +114,21 @@ public class MoleculeBuilder {
 				SVGBond bondj = getBondList().get(j);
 				if (bondi.isAntiParallelTo(bondj, parallelEps) || bondi.isParallelTo(bondj, parallelEps)) {
 					double delta = bondi.getMidPoint().getDistance(bondj.getMidPoint());
-					if (delta < midPointDelta) {
+					if (delta < getMidPointDelta()) {
 						SVGBond primaryBond = getPrimaryBond(bondi, bondj);
 						if (primaryBond == null) {
 							primaryBond = createAverageBond(bondi, bondj);
+							removeAtoms(bondj.getAtomList());
+							removeBond(bondj);
+//							LOG.warn("equal double bonds; need to relocate average atom");
+							primaryBond.mergeAverageBondWithNearestAtom();
+						} else {
+							SVGBond minorBond = primaryBond == bondi ? bondj : bondi;
+							removeAtoms(minorBond.getAtomList());
+							removeBond(minorBond);
+							
 						}
 						primaryBond.setWeight(2);
-						SVGBond minorBond = primaryBond == null ? null : (primaryBond == bondi ? bondj : bondi);
-						removeAtoms(minorBond.getAtomList());
-						removeBond(minorBond);
 					}
 				}
 			}
@@ -107,9 +136,9 @@ public class MoleculeBuilder {
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/debug/double.svg"));
 	}
 
-	private void removeAtoms(List<SVGAtom> atomList) {
-		for (SVGAtom atom : atomList) {
-			this.getAtomList().remove(atom);
+	private void removeAtoms(List<SVGAtom> atomAtomList) {
+		for (SVGAtom atomAtom : atomAtomList) {
+			this.atomList.remove(atomAtom);
 		}
 	}
 
@@ -120,18 +149,18 @@ public class MoleculeBuilder {
 	 * @return
 	 */
 	private SVGBond createAverageBond(SVGBond bondi, SVGBond bondj) {
-		int indexi = 0;
-		int indexj = 1;
+		int index0 = 0;
+		int index1 = 1;
 		if (bondi.isAntiParallelTo(bondj, parallelEps)) {
-			indexi = 1;
-			indexj = 0;
+			index0 = 1;
+			index1 = 0;
 		}
 		Real2 xy0i = bondi.getXY(0);
-		Real2 xy0j = bondj.getXY(indexi);
+		Real2 xy0j = bondj.getXY(index0);
 		Real2 xymean = xy0i.getMidPoint(xy0j);
 		bondi.setXY(xymean, 0);
 		Real2 xy1i = bondi.getXY(1);
-		Real2 xy1j = bondj.getXY(indexj);
+		Real2 xy1j = bondj.getXY(index1);
 		bondi.setXY(xy1i.getMidPoint(xy1j), 1);
 		return bondi;
 	}
@@ -201,10 +230,16 @@ public class MoleculeBuilder {
 		bondList = new ArrayList<SVGBond>();
 		for (int i = 0; i < lineList.size(); i++) {
 			SVGLine line = lineList.get(i);
-			SVGBond bond = new SVGBond(line);
+			SVGBond bond = this.createBond(line);
 			addBondAndCreateId(bond);
 		}
 		return bondList;
+	}
+
+	private SVGBond createBond(SVGLine line) {
+		SVGBond bond = new SVGBond(line);
+		bond.setMoleculeBuilder(this);
+		return bond;
 	}
 
 	private void addBondAndCreateId(SVGBond bond) {
@@ -310,19 +345,6 @@ public class MoleculeBuilder {
 		return sb.toString();
 	}
 	
-	public String createSmiles() {
-		
-		StringBuilder sb = new StringBuilder();
-		LOG.debug("NYI ? CML");
-//		Set<SVGAtom> unused = new HashSet<SVGAtom>(atomList);
-//		Set<SVGAtom> used = new HashSet<SVGAtom>();
-//		while (!unused.isEmpty()) {
-//			SVGAtom atom = unused.iterator().next();
-//			
-//		}
-		return sb.toString();
-	}
-
 	public List<SVGAtom> getAtomList() {
 		return atomList;
 	}
@@ -330,5 +352,153 @@ public class MoleculeBuilder {
 	public List<SVGBond> getBondList() {
 		return bondList;
 	}
+
+	public Element createCML() {
+		Element cmlCml = new Element(CML, CML_NS);
+		Element cmlMolecule = new Element(MOLECULE, CML_NS);
+		cmlCml.appendChild(cmlMolecule);
+		Element cmlAtomArray = new Element(ATOM_ARRAY, CML_NS);
+		cmlMolecule.appendChild(cmlAtomArray);
+		for (SVGAtom atom : atomList) {
+			Element cmlAtom = new Element(ATOM, CML_NS);
+			cmlAtom.addAttribute(new Attribute(ID, atom.getId()));
+			String atomType = atom.getLabel();
+			cmlAtom.addAttribute(new Attribute(ELEMENT_TYPE, atomType));
+			Real2 xy = atom.getXY().format(3);
+			cmlAtom.addAttribute(new Attribute(X2, ""+xy.getX()));
+			cmlAtom.addAttribute(new Attribute(Y2, ""+xy.getY()));
+			cmlAtomArray.appendChild(cmlAtom);
+		}
+		Element cmlBondArray = new Element(BOND_ARRAY, CML_NS);
+		cmlMolecule.appendChild(cmlBondArray);
+		for (SVGBond bond : bondList) {
+			Element cmlBond = new Element(BOND, CML_NS);
+			cmlBond.addAttribute(new Attribute(ID, bond.getId()));
+			String atomRefs2 = bond.getAtomList().get(0).getId()+" "+bond.getAtomList().get(1).getId();
+			cmlBond.addAttribute(new Attribute(ATOM_REFS2, atomRefs2));
+			int order = (int)bond.getWeight();
+			String orderS = order == 1 ? "S" : "D";
+			cmlBond.addAttribute(new Attribute(ORDER, orderS));
+			cmlBondArray.appendChild(cmlBond);
+		}
+		return cmlCml;
+	}
+	
+	/**
+ benzene
+ ACD/Labs0812062058
+ 
+  6  6  0  0  0  0  0  0  0  0  1 V2000
+    1.9050   -0.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9050   -2.1232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7531   -0.1282    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7531   -2.7882    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3987   -0.7932    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3987   -2.1232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  3  1  2  0  0  0  0
+  4  2  2  0  0  0  0
+  5  3  1  0  0  0  0
+  6  4  1  0  0  0  0
+  6  5  2  0  0  0  0
+ M  END
+ $$$$
+
+Lines 	Section 	Description
+1-3 	Header 	
+1 		Molecule name ("benzene")
+2 		User/Program/Date/etc information
+3 		Comment (blank)
+4-17 	Connection table (Ctab) 	
+4 		Counts line: 6 atoms, 6 bonds, ..., V2000 standard
+5-10 		Atom block (1 line for each atom): x, y, z (in angstroms), element, etc.
+11-16 		Bond block (1 line for each bond): 1st atom, 2nd atom, type, etc.
+17 		Properties block (empty)
+18 	$$$$
+	 */
+	public String createMolFileContent() {
+		StringBuilder sb = new StringBuilder();
+		title = "title";
+		program = "AMI";
+		String comment = "";
+		sb.append(title+"\n");
+		sb.append(program+"\n");
+		sb.append(comment+"\n");
+		String ctHeader = format("   "+atomList.size(), 3) + format("   "+bondList.size(), 3);
+		sb.append(ctHeader+"\n");
+		String atomTrail =   "  0  0  0  0  0  0  0  0  0  0  0  0";
+		String bondTrail =   "  0  0  0  0";
+		Map<String, Integer> serialByIdMap = new HashMap<String, Integer>();
+		Integer serial = 1;
+		for (SVGAtom atom : atomList) {
+			Real2 xy = atom.getXY().format(3);
+			String s = format(""+xy.getX(), 10) + format(""+xy.getY(), 10)+"   0.00000";
+			sb.append(s);
+			String label = atom.getLabel();
+			sb.append(" "+label+(label.length() == 1 ? " " : ""));
+			sb.append(atomTrail);
+			sb.append("\n");
+			serialByIdMap.put(atom.getId(), serial);
+			serial++;
+		}
+		for (SVGBond bond : bondList) {
+			Integer a0 = serialByIdMap.get(bond.getAtomList().get(0).getId());
+			sb.append(format(""+a0, 3));
+			Integer a1 = serialByIdMap.get(bond.getAtomList().get(1).getId());
+			sb.append(format(""+a1, 3));
+			int order = (int)bond.getWeight();
+			sb.append(format(""+order, 3));
+			sb.append(bondTrail);
+			sb.append("\n");
+		}
+		sb.append(" M  END"+"\n");
+		
+		return sb.toString();
+	}
+
+	private String format(String string, int ndec) {
+		string = "              "+string;
+		int l = string.length();
+		return string.substring(l-ndec);
+	}
+
+	public void createTestMoleculeAndDefaultOutput(String fileroot, String dirRoot) throws IOException {
+		File outputDir = new File("target/", dirRoot);
+		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
+		File inputFile = new File(inputDir, fileroot + ".svg");
+		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		createWeightedLabelledGraph(svgElement);
+		SVGElement svgx = getOrCreateSVG();
+		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+		Element cmlElement = createCML();
+		XMLUtil.debug(cmlElement, new File(outputDir, fileroot+".cml"), 1);
+		String mol = createMolFileContent();
+		FileUtils.write(new File(outputDir, fileroot+".mol"), mol, "UTF-8");
+	}
+
+	public double getMidPointDelta() {
+		return midPointDelta;
+	}
+
+	public void setMidPointDelta(double midPointDelta) {
+		this.midPointDelta = midPointDelta;
+	}
+
+	public double getEndDelta() {
+		return endDelta;
+	}
+
+	public void setEndDelta(double endDelta) {
+		this.endDelta = endDelta;
+	}
+
+	public Angle getParallelEps() {
+		return parallelEps;
+	}
+
+	public void setParallelEps(Angle parallelEps) {
+		this.parallelEps = parallelEps;
+	}
+
 
 }
