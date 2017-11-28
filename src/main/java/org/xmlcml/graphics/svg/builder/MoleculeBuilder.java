@@ -69,6 +69,9 @@ public class MoleculeBuilder {
 	private Set<SVGAtom> nonCarbonAtoms;
 	private String title;
 	private String program;
+	private File outputDir;
+	private File inputDir;
+	private File inputFile;
 
 	public void createWeightedLabelledGraph(SVGElement svgElement) {
 		XPlotBox xPlotBox = new XPlotBox();
@@ -463,17 +466,43 @@ Lines 	Section 	Description
 	}
 
 	public void createTestMoleculeAndDefaultOutput(String fileroot, String dirRoot) throws IOException {
-		File outputDir = new File("target/", dirRoot);
-		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
-		File inputFile = new File(inputDir, fileroot + ".svg");
+		setOutputDir(new File("target/", dirRoot));
+		setInputDir(new File(SVGHTMLFixtures.SVG_DIR, dirRoot));
+		setInputFile(new File(inputDir, fileroot + ".svg"));
 		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		createWeightedLabelledGraph(svgElement);
-		SVGElement svgx = getOrCreateSVG();
-		SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
-		Element cmlElement = createCML();
-		XMLUtil.debug(cmlElement, new File(outputDir, fileroot+".cml"), 1);
-		String mol = createMolFileContent();
-		FileUtils.write(new File(outputDir, fileroot+".mol"), mol, "UTF-8");
+		outputFiles(fileroot);
+	}
+
+	public void createTestMoleculeAndDefaultOutput(SVGElement inputSvgElement, String fileroot, String dirRoot) throws IOException {
+		setOutputDir(new File("target/", dirRoot));
+		createWeightedLabelledGraph(inputSvgElement);
+		outputFiles(fileroot);
+	}
+
+	void outputFiles(String fileroot) throws IOException {
+		if (fileroot != null) {
+			SVGElement svgx = getOrCreateSVG();
+			SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
+			Element cmlElement = createCML();
+			File cmlFile = new File(outputDir, fileroot+".cml");
+			LOG.debug("writing to CML "+cmlFile.getAbsolutePath());
+			XMLUtil.debug(cmlElement, cmlFile, 1);
+			String mol = createMolFileContent();
+			FileUtils.write(new File(outputDir, fileroot+".mol"), mol, "UTF-8");
+		}
+	}
+
+	public void setInputFile(File inputFile) {
+		this.inputFile = inputFile;
+	}
+
+	public void setInputDir(File inputDir) {
+		this.inputDir = inputDir;
+	}
+
+	public void setOutputDir(File outputDir) {
+		this.outputDir = outputDir;
 	}
 
 	public double getMidPointDelta() {

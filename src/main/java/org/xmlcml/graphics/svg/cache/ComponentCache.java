@@ -581,16 +581,6 @@ public class ComponentCache extends AbstractCache {
 			for (AbstractCache cache : cascadingCacheList) {
 				addBoxToTotalBox(cache.getBoundingBox());
 			}
-//			
-//			Real2Range imageBox = getOrCreateImageCache().getBoundingBox();
-//			Real2Range textBox = getOrCreateTextCache().getBoundingBox();
-//			Real2Range pathBox = getOrCreatePathCache().getBoundingBox();
-//			Real2Range rectBox = getOrCreateImageCache().getBoundingBox();
-//			Real2Range lineBox = getOrCreateTextCache().getBoundingBox();
-//			Real2Range pathBox = getOrCreatePathCache().getBoundingBox();
-//			addBoxToTotalBox(textBox);
-//			addBoxToTotalBox(pathBox);
-//			addBoxToTotalBox(imageBox);
 			if (boundingBox == null) {
 				LOG.debug("svg "+(originalSvgElement == null ? "NULL" : originalSvgElement.toXML()));
 				throw new RuntimeException("cannot make bounding box - maybe no primitives");
@@ -668,7 +658,6 @@ public class ComponentCache extends AbstractCache {
 			cascadingCacheList.add(getOrCreateLineCache());
 			cascadingCacheList.add(getOrCreateRectCache());
 			cascadingCacheList.add(getOrCreatePolylineCache());
-	//		cascadingCacheList.add(getOrCreateRectCache());
 			// TEXT
 			cascadingCacheList.add(getOrCreateTextChunkCache());
 			// COMBINED OBJECTS
@@ -831,7 +820,32 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	public void addContentBoxCache(ContentBoxCache contentBoxCache) {
-		// TODO Auto-generated method stub
+		throw new RuntimeException(" addContentBoxCache NYI");
 		
 	}
+
+	/** creates a pseudo original containing element.
+	 * COPIES elements so elements not affected.
+	 * typical usage is that elementList are extracted from some other object
+	 * 
+	 * @param elementList list of elements
+	 * @return
+	 */
+	public static SVGElement createContainingElement(List<SVGElement> elementList) {
+		SVGElement containingElement = new SVGG();
+		for (SVGElement element : elementList) {
+			containingElement.appendChild(element.copy());
+		}
+		return containingElement;
+	}
+
+	/** reads from a list of elements.
+	 * COPIED so can be used multiple times.
+	 * @param elementList
+	 */
+	public void readGraphicsComponentsAndMakeCaches(List<SVGElement> elementList) {
+		SVGElement element = ComponentCache.createContainingElement(elementList);
+		readGraphicsComponentsAndMakeCaches(element);
+	}
+
 }

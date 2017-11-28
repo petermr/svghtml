@@ -2,6 +2,7 @@ package org.xmlcml.graphics.svg.glyphs;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -29,7 +30,6 @@ import org.xmlcml.graphics.svg.path.PathPrimitiveList;
 import org.xmlcml.graphics.svg.plot.XPlotBox;
 
 import com.google.common.collect.Multimap;
-import com.google.common.collect.Multiset;
 
 /** translates cursive glyphs into characters.
  * 
@@ -217,35 +217,20 @@ public class GlyphTest {
 		}
 		// prepared glyphs
 		GlyphSet glyphSet = GlyphSet.readGlyphSet(new File(inputDir, "glyphSet.xml"));
-		double fontSize = 4.0;
 		List<SVGPath> paths = componentCache.getOrCreatePathCache().getCurrentPathList();
+		List<SVGText> textList = new ArrayList<SVGText>();
 		for (SVGPath path : paths) {
-			String signature = path.createSignatureFromDStringPrimitives();
-			String character = glyphSet.getCharacterBySignature(signature);
-			if (character == null) {
-				character = "*";
-			} else if (character.equals("")) {
-				character = "?";
-			} else if (character.equals("l")) {
-				character = "";
-			}
-			if (character.equals("") || character.equals("?")) {
-				
-			} else {
-				Real2 delta = new Real2(GlyphSet.CHARACTER_DX * fontSize, GlyphSet.CHARACTER_DY * fontSize);
-				SVGText text = new SVGText(path.getXY().plus(delta), character);
-				text.setFontSize(fontSize);
-				g.appendChild(text);
-			}
-//			LOG.debug("character: "+character);
+			SVGText text = glyphSet.createTextFromGlyph(path);
+			textList.add(text);
 		}
-		SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileroot+"/"+"lines.svg"));
+		for (SVGText text : textList) {
+			g.appendChild(text);
+		}
+		File file = new File(outputDir, fileroot+"/"+"characters.svg");
+		LOG.debug("characters written to "+file);
+		SVGSVG.wrapAndWriteAsSVG(g, file);
 		
-//		GlyphSet glyphSet = new GlyphSet();
-//		glyphSet.createGlyphSetsAndAnalyze(fileroot, outputDir, inputFile);
-	}	
-
-
+	}
 
 	@Test
 	public void testCompareMergeGlyphSets() {

@@ -197,4 +197,19 @@ public class SVGElementTest {
 		Assert.assertEquals(2,  rotatedElements.size());
 		
 	}
+
+	@Test
+	public void testRemoveLargerObjects() {
+		List<SVGElement> elements =  new ArrayList<SVGElement>();
+		elements.add(new SVGRect(new Real2(100., 100.), new Real2(200., 350)));
+		elements.add(new SVGRect(new Real2(150., 100.), new Real2(200., 350)));
+		elements.add(new SVGRect(new Real2(150., 100.), new Real2(200., 10)));
+		SVGElement.removeElementsSmallerThanBox(elements, new Real2(10., 10.));
+		Assert.assertEquals(3,elements.size());
+		SVGElement.removeElementsSmallerThanBox(elements, new Real2(70., 70.));
+		Assert.assertEquals(1,elements.size());
+		SVGElement.removeElementsSmallerThanBox(elements, new Real2(300.,30.));
+		Assert.assertEquals(0,elements.size());
+	}
+	
 }

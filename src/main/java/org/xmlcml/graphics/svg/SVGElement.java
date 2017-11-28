@@ -1301,6 +1301,44 @@ public class SVGElement extends GraphicsElement {
 		return containedElements;
 	}
 
+	/** filters out elements larger than boxSize.
+	 * compares the boundingBoxes of elements and selects if either range is larger than
+	 * corresponding range in box size
+	 * 
+	 * @param elements modifies list by removing failures
+	 * @param boxSize
+	 * @return list of boxes larger in either x or y (never null) 
+	 */
+	public static void removeElementsLargerThanBox(List<? extends SVGElement> elements, Real2 boxSize) {
+		for (int i = elements.size() - 1; i >= 0; i--) {
+			SVGElement element = elements.get(i);
+			Real2Range bbox = element.getBoundingBox();
+			if (bbox.getXRange().getRange() > boxSize.x ||
+			    bbox.getYRange().getRange() > boxSize.y) {
+				elements.remove(i);
+			}
+		}
+	}
+
+	/** filters out elements smaller than boxSize.
+	 * compares the boundingBoxes of elements and selects if either range is smaller than
+	 * corresponding range in box size
+	 * 
+	 * @param elements modifies list by removing failures
+	 * @param boxSize
+	 * @return list of boxes smaller in either x or y (never null) 
+	 */
+	public static void removeElementsSmallerThanBox(List<? extends SVGElement> elements, Real2 boxSize) {
+		for (int i = elements.size() - 1; i >= 0; i--) {
+			SVGElement element = elements.get(i);
+			Real2Range bbox = element.getBoundingBox();
+			if (bbox.getXRange().getRange() < boxSize.x ||
+			    bbox.getYRange().getRange() < boxSize.y) {
+				elements.remove(i);
+			}
+		}
+	}
+
 	public void detachDescendantElementsOutsideBox(Real2Range bbox) {
 		List<SVGElement> descendants = SVGElement.extractSelfAndDescendantElements(this);
 		for (SVGElement descendant : descendants) {

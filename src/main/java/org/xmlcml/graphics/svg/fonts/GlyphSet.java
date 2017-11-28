@@ -9,8 +9,8 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.log.Log;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -55,6 +55,9 @@ public class GlyphSet {
 	private Multimap<String, SVGGlyph> glyphMapBySignature;
 	private HashMap<String, String> characterBySignatureMap;
 	private List<Multiset.Entry<String>> signatureListSortedByCount;
+	
+	private double fontSizeRatio = 1.0;
+	
 	public GlyphSet() {
 		
 	}
@@ -171,6 +174,8 @@ public class GlyphSet {
 	public static GlyphSet readGlyphSet(File file) {
 		GlyphSet glyphSet = new GlyphSet();
 		SVGElement glyphSetXml = SVGElement.readAndCreateSVG(file);
+		LOG.debug("read glyphset "+file);
+//		LOG.debug("glyphset "+glyphSetXml.toXML());
 //		List<SVGElement> glyphList = SVGUtil.getQuerySVGElements(glyphSetXml, "./*/*[local-name()='"+GLYPH_LIST+"']");
 		// no local name yet
 		List<SVGElement> glyphList = SVGUtil.getQuerySVGElements(glyphSetXml, "./*");
@@ -179,6 +184,7 @@ public class GlyphSet {
 			glyphSet.getOrCreateSignatureSet().add(signature);
 			String character = glyph.getAttributeValue(GlyphSet.CHARACTER);
 			glyphSet.getOrCreateCharacterMapBySignature().put(signature, character);
+			LOG.debug("glyphset "+signature+" => "+character);
 		}
 		return glyphSet;
 	}
@@ -188,6 +194,77 @@ public class GlyphSet {
 		getOrCreateCharacterMapBySignature();
 		return characterBySignatureMap.get(signature);
 	}
+
+	/** convert paths in list to text where possible.
+	 * 
+	 * @param elementList list of SVGElements
+	 * @return list of converted and unconverted elements in same order
+	 */
+	public List<SVGElement> createTextFromGlyph(List<SVGElement> elementList) {
+		List<SVGElement> convertedElementList = new ArrayList<SVGElement>();
+		for (SVGElement element : elementList) {
+			SVGElement convertedElement = element;
+			if (element instanceof SVGPath) {
+				SVGPath svgPath = (SVGPath) element;
+				String signature = svgPath.createSignatureFromDStringPrimitives();
+				if (signature.equals(SVGPath.MLLLL) ||
+					signature.equals(SVGPath.MLLLLZ) ||
+					signature.equals(SVGPath.MLLLZ) ||
+					signature.equals(SVGPath.MLLL)) {
+					LOG.trace("skipped "+signature);
+					// skip lines or rects
+				} else {
+					convertedElement = createTextFromGlyph(svgPath);
+				}
+			}
+			convertedElementList.add(convertedElement);
+		}
+		return convertedElementList;
+	}
+
+	public SVGText createTextFromGlyph(SVGPath path) {
+		Real2Range bbox = path.getBoundingBox();
+		double fontSize = 4.0;
+		String signature = path.createSignatureFromDStringPrimitives();
+		String character = getCharacterBySignature(signature);
+		if (character == null) {
+			LOG.debug("cannot find character for: "+signature);
+			character = "*";
+		} else if (character.equals("")) {
+			LOG.debug("uncertain character for: "+signature);
+			character = "?";
+		} else if (character.equals("l")) {
+			LOG.debug("l character for: "+signature);
+			character = "l";
+		} else {
+			LOG.debug(">"+character+"<");
+		}
+		Real2 delta = new Real2(0.0, 0.0);
+		if (!character.equals("") && !character.equals("?")) {
+			delta = new Real2(GlyphSet.CHARACTER_DX * fontSize, GlyphSet.CHARACTER_DY * fontSize);
+		}
+		SVGText text = new SVGText(path.getXY().plus(delta), character);
+		text.setFontSize(bbox.getYRange().getRange() * fontSizeRatio);
+		text.setSVGXFontWidth(bbox.getXRange().getRange() * fontSizeRatio);
+		return text;
+	}
 	
+	/** fudge factor to translate glyph boxSize to font size.
+	 * 
+	 * @return
+	 */
+	public double getFontSizeRatio() {
+		return fontSizeRatio;
+	}
+
+	/** fudge factor to translate glyph boxSize to font size.
+	 * 
+	 * @param fontSizeRatio
+	 */
+	public void setFontSizeRatio(double fontSizeRatio) {
+		this.fontSizeRatio = fontSizeRatio;
+	}
+
+
 	
 }
