@@ -18,7 +18,6 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
-import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -465,15 +464,29 @@ Lines 	Section 	Description
 		return string.substring(l-ndec);
 	}
 
-	public void createTestMoleculeAndDefaultOutput(String fileroot, String dirRoot) throws IOException {
+	/** convenience method for testing.
+	 * 
+	 * @param inputDirRoot
+	 * @param fileroot
+	 * @param dirRoot
+	 * @throws IOException
+	 */
+	public void createTestMoleculeAndDefaultOutput(File inputDirRoot, String fileroot, String dirRoot) throws IOException {
 		setOutputDir(new File("target/", dirRoot));
-		setInputDir(new File(SVGHTMLFixtures.SVG_DIR, dirRoot));
+		setInputDir(new File(inputDirRoot, dirRoot));
 		setInputFile(new File(inputDir, fileroot + ".svg"));
 		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		createWeightedLabelledGraph(svgElement);
 		outputFiles(fileroot);
 	}
 
+	/** convenience method for testing.
+	 * 
+	 * @param inputSvgElement
+	 * @param fileroot
+	 * @param dirRoot
+	 * @throws IOException
+	 */
 	public void createTestMoleculeAndDefaultOutput(SVGElement inputSvgElement, String fileroot, String dirRoot) throws IOException {
 		setOutputDir(new File("target/", dirRoot));
 		createWeightedLabelledGraph(inputSvgElement);
