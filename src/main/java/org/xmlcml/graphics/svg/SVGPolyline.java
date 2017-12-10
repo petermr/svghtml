@@ -216,20 +216,24 @@ public class SVGPolyline extends SVGPoly {
 	public static List<SVGPolyline> quadraticMergePolylines(List<SVGPolyline> polylineList, double eps) {
 		List<SVGPolyline> polylineListNew = new ArrayList<SVGPolyline>(polylineList);
 		boolean change = true;
-		int startLine = 0;
 		while (change) {
 			change = false;
 			int size = polylineListNew.size();
-			for (int iline = startLine; iline < size - 1; iline++) {
-				SVGPolyline line0 = polylineListNew.get(iline);
-				SVGPolyline line1 = polylineListNew.get(iline + 1);
-				SVGPolyline newLine = createMergedLine(line0, line1, eps);
-				newLine = (newLine != null) ? newLine : createMergedLine(line1, line0, eps);
-				if (newLine != null) {
-					startLine = iline;
-					replaceLineAndCloseUp(iline, newLine, polylineListNew);
-					break;
+			for (int iline = 0; iline < size - 1; iline++) {
+				SVGPolyline linei = polylineListNew.get(iline);
+				for (int jline = iline + 1; jline < size ; jline++) {
+					SVGPolyline linej = polylineListNew.get(jline);
+					SVGPolyline newLine = createMergedLine(linei, linej, eps);
+					if (newLine != null) {
+						LOG.debug("Li "+linei);
+						LOG.debug("Lj "+linej);
+						LOG.debug("LINE "+newLine);
+						replaceLineAndCloseUp(iline, newLine, polylineListNew);
+						change = true;
+						break;
+					}
 				}
+				if (change) break;
 			}
 		}
 		return polylineListNew;
@@ -238,6 +242,7 @@ public class SVGPolyline extends SVGPoly {
 	private static void replaceLineAndCloseUp(int iline, SVGPolyline newLine, List<SVGPolyline> polylineListNew) {
 		polylineListNew.set(iline, newLine);
 		polylineListNew.remove(iline + 1);
+		LOG.debug("POLYSIZE "+polylineListNew.size());
 	}
 
 	/** merges lines where endA = startB.
@@ -285,15 +290,48 @@ public class SVGPolyline extends SVGPoly {
 	 * @return
 	 */
 	public static SVGPolyline createMergedLine(SVGPoly poly0, SVGPoly poly1, double eps) {
+		int[] ends0 = {0, 1}; 
+		int[] ends1 = {0, 1}; 
+		// have to manage all 4 possibilities
+		SVGPolyline newPolyline = null;
+		for (int end0 : ends0) {
+			for (int end1 : ends1) {
+//				LOG.debug("end0: "+end0+"; end1 "+end1);
+				newPolyline = joinPolylines(poly0, poly1, eps, end0, end1);
+				if (newPolyline != null) return newPolyline;
+			}
+		}
+		return newPolyline;
+	}
+
+	/** join polylines at selected ends
+	 * if endIndex is > 0 line is running backwards and should be reversed
+	 * 
+	 * @param poly0 polyline to join
+	 * @param poly1 polyline to join
+	 * @param eps
+	 * @param endIndex0 index of end point (0 or last - 1)
+	 * @param endIndex1 index of end point (0 or last - 1)
+	 * @return
+	 */
+	private static SVGPolyline joinPolylines(SVGPoly poly0, SVGPoly poly1, double eps, int endIndex0, int endIndex1) {
+//		LOG.debug("P0 "+poly0);
+//		LOG.debug("P1 "+poly1);
 		SVGPolyline newPoly = null;
-		Real2 last0 = poly0.getLast();
-		Real2 first1 = poly1.getFirst();
-		if (last0.isEqualTo(first1, eps)) {
+		Real2 endXY0 = poly0.getEndCoordinate(endIndex0);
+		Real2 endXY1 = poly1.getEndCoordinate(endIndex1);
+		if (endXY0.isEqualTo(endXY1, eps)) {
 			newPoly = new SVGPolyline(poly0);
-			Real2Array r20 = newPoly.getReal2Array();
-			Real2Array r21 = poly1.getReal2Array();
+			Real2Array r20 = new Real2Array(newPoly.getReal2Array());
+			if (endIndex0 == 0) {
+				r20.reverse();
+			}
+			Real2Array r21 = new Real2Array(poly1.getReal2Array());
+			if (endIndex1 > 0) {
+				r21.reverse();
+			}
 			for (int i = 1; i < r21.size(); i++) {
-				r20.add(new Real2(r21.get(i)));
+				r20.addElement(new Real2(r21.get(i)));
 			}
 			newPoly.setReal2Array(r20);
 		}
@@ -421,6 +459,11 @@ public class SVGPolyline extends SVGPoly {
 		//pointList = null;
 	}
 	
+	/** creates a new polygon if polyline ends are within tolerance.
+	 * 
+	 * @param eps tolerance
+	 * @return new polygon or null if outside tolerance
+	 */
 	public SVGPolygon createPolygon(double eps) {
 		createLineList();
 		SVGPolygon polygon = null;
@@ -478,7 +521,7 @@ public class SVGPolyline extends SVGPoly {
 	 * @param elements
 	 * @return
 	 */
-	public static List<SVGPolyline> extractPolylines(List<SVGElement> elements) {
+	public static List<SVGPolyline> extractPolylines(List<? extends SVGElement> elements) {
 		List<SVGPolyline> polylineList = new ArrayList<SVGPolyline>();
 		for (SVGElement element : elements) {
 			if (element instanceof SVGPolyline) {
@@ -597,8 +640,8 @@ public class SVGPolyline extends SVGPoly {
 		if (xDelta < delta || yDelta < delta) {
 			line = new SVGLine();
 			XMLUtil.copyAttributes(this, line);
-			line.setXY(this.getFirst(), 0);
-			line.setXY(this.getLast(), 1);
+			line.setXY(this.getFirstCoordinate(), 0);
+			line.setXY(this.getLastCoordinate(), 1);
 		}
 		return line;
 	}
@@ -693,5 +736,37 @@ public class SVGPolyline extends SVGPoly {
 		}
 		return angles;
 	}
+
+	/** create a list of new single polylines.
+	 * does not alter lineList
+	 * the lines can be merged later with SVGPolyline.quadraticMergePolylines(List<SVGPolyline>, double)
+	 * 
+	 * @param lineList 
+	 * @return list of new polylines (of size 1) empty if lineList is empty
+	 */
+	public static List<SVGPolyline> createSinglePolylineList(List<SVGLine> lineList) {
+		List<SVGPolyline> polylineList = new ArrayList<SVGPolyline>();
+		for (SVGLine line : lineList) {
+			polylineList.add(new SVGPolyline(line));
+		}
+		return polylineList;
+	}
+	
+	/** will join lines to create polylines
+	 * if more than one joining is possible (e.g. branches) the result is unpredictable and
+	 * some joins will not be made
+	 * 
+	 * @param lineList unaffected
+	 * @param eps tolerance for joining
+	 * 
+	 * @return list of polylines
+	 */
+	public static List<SVGPolyline> createPolylinesFromLines(List<SVGLine> lineList, double eps) {
+		List<SVGPoly> polylineGonList = SVGPoly.createSVGPolyList(lineList, eps );
+		List<SVGPolyline> polylineList = SVGPolyline.extractPolylines(polylineGonList);
+		return polylineList;
+	}
+
+
 
 }

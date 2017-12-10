@@ -391,7 +391,7 @@ public class SVGPolylineAnalyzer {
 		List<SVGElement> sortedPolylines = BoundingBoxManager.getElementsSortedByEdge(polylinesXIncreasing, boxEdge);
 		for (SVGElement pp : sortedPolylines) {
 			SVGPoly p = (SVGPoly) pp;
-			LOG.trace(String.valueOf(p.getFirst())+" ==> "+p.getLast());
+			LOG.trace(String.valueOf(p.getFirstCoordinate())+" ==> "+p.getLastCoordinate());
 		}
 		SVGPolyline newPolyline = null;
 		Real2 lastXY = null;
@@ -402,7 +402,7 @@ public class SVGPolylineAnalyzer {
 				polyline.getParent().replaceChild(polyline, newPolyline);
 				newPolyline.addAttribute(new Attribute(MERGED, "true"));
 			} else {
-				Real2 firstXY = polyline.getFirst();
+				Real2 firstXY = polyline.getFirstCoordinate();
 				double delta = (axis.equals(Axis2.X)) ? 
 						firstXY.getX() - lastXY.getX() : firstXY.getY() - lastXY.getY(); 
 				if (delta > eps) { // no remaining lines in range
@@ -415,7 +415,7 @@ public class SVGPolylineAnalyzer {
 					polyline.detach();
 				}
 			}
-			lastXY = newPolyline.getLast();
+			lastXY = newPolyline.getLastCoordinate();
 		}
 		LOG.trace("new points "+newPolyline.getPointList().size());
 //		newPolyline.debug("NEW POLY");

@@ -155,6 +155,7 @@ public class ComponentCache extends AbstractCache {
 	private PathCache pathCache;
 	private TextCache textCache;
 	private PolylineCache polylineCache;
+	private PolygonCache polygonCache;
 	private LineCache lineCache;
 	private RectCache rectCache;
 	ShapeCache shapeCache; // can be accessed by siblings
@@ -325,6 +326,14 @@ public class ComponentCache extends AbstractCache {
 //			polylineCache.setSiblingShapeCache(shapeCache);
 		}
 		return polylineCache;
+	}
+
+	public PolygonCache getOrCreatePolygonCache() {
+		if (polygonCache == null) {
+			this.polygonCache = new PolygonCache(this);
+//			polygonCache.setSiblingShapeCache(shapeCache);
+		}
+		return polygonCache;
 	}
 
 	public TextChunkCache getOrCreateTextChunkCache() {

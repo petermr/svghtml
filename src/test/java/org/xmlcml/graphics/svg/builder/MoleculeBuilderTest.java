@@ -32,7 +32,7 @@ public class MoleculeBuilderTest {
 	@Test
 	public void testCreateFullMolecule() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("atomSymbolsFromPaths", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "atomSymbolsFromPaths", "glyphs/figure1.M1");
 	}
 
 	/*
@@ -85,7 +85,7 @@ Edges: [
 	@Test
 	public void testCreateSimpleMolecule0() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("simpleMolecule0", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "simpleMolecule0", "glyphs/figure1.M1");
 
 	}
 
@@ -96,7 +96,7 @@ Edges: [
 	@Test
 	public void testDoubleBond() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("doubleBond", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "doubleBond", "glyphs/figure1.M1");
 
 	}
 
@@ -107,7 +107,7 @@ Edges: [
 	@Test
 	public void testHetero() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("hetero", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "hetero", "glyphs/figure1.M1");
 
 	}
 
@@ -119,7 +119,7 @@ Edges: [
 	@Test
 	public void testStubJoin() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("stubJoin", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "stubJoin", "glyphs/figure1.M1");
 
 	}
 
@@ -130,7 +130,7 @@ Edges: [
 	@Test
 	public void testUndeletedAtom() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("propionic", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "propionic", "glyphs/figure1.M1");
 
 	}
 
@@ -139,9 +139,20 @@ Edges: [
 	 * 
 	 */
 	@Test
-	public void testUndeletedAtom0() throws IOException {
+	public void testFormic() throws IOException {
 		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("formic", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "formic", "glyphs/figure1.M1");
+
+	}
+
+	/** test undeleted atom.
+	 * @throws IOException 
+	 * 
+	 */
+	@Test
+	public void testM1a() throws IOException {
+		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "m1", "glyphs/figure1.M1");
 
 	}
 
@@ -156,8 +167,49 @@ Edges: [
 		// 0.1 misses a join while 0.3 fails to join an N-N bond.
 		// needs more work
 		moleculeBuilder.setEndDelta(0.2);
-		moleculeBuilder.createTestMoleculeAndDefaultOutput("doubleBond1", "glyphs/figure1.M1");
+		moleculeBuilder.createTestMoleculeAndDefaultOutput(SVGHTMLFixtures.SVG_DIR, "doubleBond1", "glyphs/figure1.M1");
 
+	}
+
+	@Test
+	public void testM1() {
+//		MoleculeBuilder moleculeBuilder = new MoleculeBuilder();
+		String dirRoot = "molecules/cypMolecules";
+		String fileroot = "m1";
+		File outputDir = new File("target/", dirRoot);
+		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
+		File inputFile = new File(inputDir, fileroot + ".svg");
+		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		XPlotBox xPlotBox = new XPlotBox();
+		ComponentCache componentCache = new ComponentCache(xPlotBox); 
+		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
+		List<SVGRect> rectList = componentCache.getOrCreateRectCache().getOrCreateRectList();
+		// picks up some of the characters as rects
+		SVGElement.removeElementsSmallerThanBox(rectList, new Real2(30., 30.));
+		SVGSVG.wrapAndWriteAsSVG(rectList, new File(outputDir, fileroot+"/"+"rects.svg"));
+		List<SVGElement> allElements0 = SVGElement.extractSelfAndDescendantElements(svgElement);
+		GlyphSet glyphSet = GlyphSet.readGlyphSet(new File(inputDir, "glyphSet.xml"));
+		// doesn't work
+		List<SVGElement> allElements = glyphSet.createTextFromGlyph(allElements0);
+		int box = 0;
+		String boxFileroot = fileroot+"/"+"box"+"."+box;
+		String outputFileRoot = boxFileroot+"/"+"orig.svg";
+		File boxOutputFile = new File(outputDir, outputFileRoot);
+		SVGSVG.wrapAndWriteAsSVG(allElements, boxOutputFile);
+		LOG.debug("writing: "+boxOutputFile);
+		MoleculeBuilder moleculeBuilderi = new MoleculeBuilder();
+		try {
+			File outputDir2 = new File("target/", dirRoot+"/"+boxFileroot);
+			moleculeBuilderi.setOutputDir(outputDir2);
+			File inputDir2 = new File("target/", dirRoot);
+			moleculeBuilderi.setInputDir(inputDir2);
+			moleculeBuilderi.setInputFile(boxOutputFile);
+			SVGElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
+			moleculeBuilderi.createWeightedLabelledGraph(svgElementi);
+			moleculeBuilderi.outputFiles(fileroot);
+		} catch (Exception e) {
+			LOG.error("Cannot parse box: "+box+"; skipping: "+e);
+		}
 	}
 
 	@Test
@@ -188,9 +240,8 @@ Edges: [
 			SVGRect rect = rectList.get(box);
 			List<SVGElement> allElementsTemp = new ArrayList<SVGElement>(allElements);
 			// FIXME this is messy
-//			rect.getBoundingBox().extendBothEndsBy(Direction.VERTICAL, 2.0, 2.0);
-			List<SVGElement> elementsInBox = SVGElement.extractElementsContainedInBox(allElementsTemp, rect.getBoundingBox().extendBothEndsBy(Direction.VERTICAL, 2.0, 2.0));
-//			Assert.assertEquals("box "+box, boxCount[box], elementsInBox.size());
+			List<SVGElement> elementsInBox = SVGElement.extractElementsContainedInBox(allElementsTemp, 
+					rect.getBoundingBox().extendBothEndsBy(Direction.VERTICAL, 2.0, 2.0));
 			// kludge
 			String boxFileroot = fileroot+"/"+"box"+"."+box;
 			String outputFileRoot = boxFileroot+"/"+"orig.svg";
@@ -199,14 +250,10 @@ Edges: [
 			LOG.debug("writing: "+boxOutputFile);
 			MoleculeBuilder moleculeBuilderi = new MoleculeBuilder();
 			try {
-//				moleculeBuilderi.createTestMoleculeAndDefaultOutput(boxFileroot, dirRoot);
 				File outputDir2 = new File("target/", dirRoot+"/"+boxFileroot);
-//				LOG.debug("output dir "+outputDir2);
 				moleculeBuilderi.setOutputDir(outputDir2);
 				File inputDir2 = new File("target/", dirRoot);
 				moleculeBuilderi.setInputDir(inputDir2);
-//				File inputFileBox = new File(inputDir2, fileroot + ".svg");
-//				LOG.debug("new input: "+inputFileBox);
 				moleculeBuilderi.setInputFile(boxOutputFile);
 				SVGElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
 				moleculeBuilderi.createWeightedLabelledGraph(svgElementi);

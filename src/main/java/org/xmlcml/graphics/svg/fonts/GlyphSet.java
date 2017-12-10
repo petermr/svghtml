@@ -175,8 +175,6 @@ public class GlyphSet {
 		GlyphSet glyphSet = new GlyphSet();
 		SVGElement glyphSetXml = SVGElement.readAndCreateSVG(file);
 		LOG.debug("read glyphset "+file);
-//		LOG.debug("glyphset "+glyphSetXml.toXML());
-//		List<SVGElement> glyphList = SVGUtil.getQuerySVGElements(glyphSetXml, "./*/*[local-name()='"+GLYPH_LIST+"']");
 		// no local name yet
 		List<SVGElement> glyphList = SVGUtil.getQuerySVGElements(glyphSetXml, "./*");
 		for (SVGElement glyph : glyphList) {
@@ -184,7 +182,7 @@ public class GlyphSet {
 			glyphSet.getOrCreateSignatureSet().add(signature);
 			String character = glyph.getAttributeValue(GlyphSet.CHARACTER);
 			glyphSet.getOrCreateCharacterMapBySignature().put(signature, character);
-			LOG.debug("glyphset "+signature+" => "+character);
+//			LOG.debug("glyphset "+signature+" => "+character);
 		}
 		return glyphSet;
 	}
@@ -214,12 +212,37 @@ public class GlyphSet {
 					LOG.trace("skipped "+signature);
 					// skip lines or rects
 				} else {
-					convertedElement = createTextFromGlyph(svgPath);
+					List<SVGPath> pathList = splitPaths(svgPath);
+					if (pathList.size() > 1) {
+//						LOG.debug("PL"+pathList);
+					}
+					LOG.debug("===================");
+					for (SVGPath path : pathList) {
+						convertedElement = createTextFromGlyph(path);
+						convertedElementList.add(convertedElement);
+						LOG.debug(">gs >"+convertedElement.getValue()+";" +convertedElement.toXML());
+					}
 				}
 			}
-			convertedElementList.add(convertedElement);
+//			convertedElementList.add(convertedElement);
 		}
 		return convertedElementList;
+	}
+
+	/** splits path at M.
+	 * if no split returns list with original path
+	 * @param path
+	 * @return
+	 */
+	public List<SVGPath> splitPaths(SVGPath path) {
+		List<SVGPath> pathList = new ArrayList<SVGPath>();
+		PathPrimitiveList pathPrimitiveList = path.getOrCreatePathPrimitiveList();
+		List<PathPrimitiveList> pathPrimitiveListList = pathPrimitiveList.splitBefore(MovePrimitive.class);
+		for (PathPrimitiveList primitiveList : pathPrimitiveListList) {
+			SVGPath path0 = primitiveList.getOrCreateSVGPath();
+			pathList.add(path0);
+		}
+		return pathList;
 	}
 
 	public SVGText createTextFromGlyph(SVGPath path) {

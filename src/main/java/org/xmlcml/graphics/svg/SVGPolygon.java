@@ -148,7 +148,7 @@ public class SVGPolygon extends SVGPoly {
 	 * @param elements
 	 * @return
 	 */
-	public static List<SVGPolygon> extractPolygons(List<SVGElement> elements) {
+	public static List<SVGPolygon> extractPolygons(List<? extends SVGElement> elements) {
 		List<SVGPolygon> polygonList = new ArrayList<SVGPolygon>();
 		for (SVGElement element : elements) {
 			if (element instanceof SVGPolygon) {
@@ -311,6 +311,22 @@ public class SVGPolygon extends SVGPoly {
 	public String toString() {
 		return "polygon: "+String.valueOf(real2Array);
 	}
+
+	/** will join lines to create polygons
+	 * if more than one joining is possible (e.g. bicycles) the result is unpredictable and
+	 * some joins will not be made
+	 * 
+	 * @param lineList unaffected
+	 * @param eps tolerance for joining
+	 * 
+	 * @return list of polygons
+	 */
+	public static List<SVGPolygon> createPolygonsFromLines(List<SVGLine> lineList, double eps) {
+		List<SVGPoly> polylineGonList = SVGPoly.createSVGPolyList(lineList, eps );
+		List<SVGPolygon> polygonList = SVGPolygon.extractPolygons(polylineGonList);
+		return polygonList;
+	}
+
 	
 
 

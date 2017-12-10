@@ -67,6 +67,7 @@ public class SVGHTMLFixtures {
 	public static final File LINEPLOTS_10_2_SVG = new File(PLOT_DIR, "lineplots.g.10.2.svg");
 	public static final File SCATTERPLOT_FIVE_7_2_SVG = new File(PLOT_DIR, "scatterplot5.g.7.2.svg");
 	public static final File SCATTERPLOT_7_2_SVG = new File(PLOT_DIR, "scatterplot.g.7.2.svg");
+	public static final File FOREST_DIR = new File(PLOT_DIR, "forest");
 	public static final File FUNNEL_DIR = new File(PLOT_DIR, "funnel");
 	public static final File TEX_PLOT_DIR = new File(PLOT_DIR, "tex");
 	public static final File BLKSAM_PLOT_DIR = new File(PLOT_DIR, "blk_sam");

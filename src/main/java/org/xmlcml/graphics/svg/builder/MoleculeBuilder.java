@@ -496,6 +496,7 @@ Lines 	Section 	Description
 	void outputFiles(String fileroot) throws IOException {
 		if (fileroot != null) {
 			SVGElement svgx = getOrCreateSVG();
+			LOG.debug("writing to: "+fileroot);
 			SVGSVG.wrapAndWriteAsSVG(svgx, new File(outputDir, fileroot+".svg"));
 			Element cmlElement = createCML();
 			File cmlFile = new File(outputDir, fileroot+".cml");

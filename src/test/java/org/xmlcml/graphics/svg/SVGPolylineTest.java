@@ -217,4 +217,30 @@ public class SVGPolylineTest {
 		Assert.assertFalse(polyline2.isGeometricallyEqualTo(polyline, 0.006));
 	}
 
+	@Test
+	public void testCreateMergedLine() {
+		SVGPolyline line0 = new SVGPolyline(Real2Array.createFromCoords("((1.1,12.2)(2.2,13.3))"));
+		SVGPolyline line1 = new SVGPolyline(Real2Array.createFromCoords("((2.2,13.3)(3.3,15.0))"));
+		SVGPolyline line2 = SVGPolyline.createMergedLine(line0, line1, 0.01);
+		Assert.assertNotNull("line2 exists ", line2);
+		Assert.assertEquals("merged", "polyline: ((1.1,12.2)(2.2,13.3)(3.3,15.0))", line2.toString());
+		
+		line0 = new SVGPolyline(Real2Array.createFromCoords("((2.2,13.3)(1.1,12.2))"));
+		line1 = new SVGPolyline(Real2Array.createFromCoords("((2.2,13.3)(3.3,15.0))"));
+		line2 = SVGPolyline.createMergedLine(line0, line1, 0.01);
+		Assert.assertNotNull("line2 exists ", line2);
+		Assert.assertEquals("merged", "polyline: ((1.1,12.2)(2.2,13.3)(3.3,15.0))", line2.toString());
+		
+		line0 = new SVGPolyline(Real2Array.createFromCoords("((2.2,13.3)(1.1,12.2))"));
+		line1 = new SVGPolyline(Real2Array.createFromCoords("((3.3,15.0)(2.2,13.3))"));
+		line2 = SVGPolyline.createMergedLine(line0, line1, 0.01);
+		Assert.assertNotNull("line2 exists ", line2);
+		Assert.assertEquals("merged", "polyline: ((1.1,12.2)(2.2,13.3)(3.3,15.0))", line2.toString());
+		
+		line0 = new SVGPolyline(Real2Array.createFromCoords("((1.1,12.2)(2.2,13.3))"));
+		line1 = new SVGPolyline(Real2Array.createFromCoords("((3.3,15.0)(2.2,13.3))"));
+		line2 = SVGPolyline.createMergedLine(line0, line1, 0.01);
+		Assert.assertNotNull("line2 exists ", line2);
+		Assert.assertEquals("merged", "polyline: ((1.1,12.2)(2.2,13.3)(3.3,15.0))", line2.toString());
+	}
 }

@@ -201,12 +201,31 @@ public abstract class SVGPoly extends SVGShape {
     	}
     }
     
-    public Real2 getLast() {
+    /** gets either end of poly
+     * 
+     * @param end
+     * @return
+     */
+    public Real2 getEndCoordinate(int end) {
+    	return (end < 0 || end > 1) ? null : (end == 0 ? getFirstCoordinate() : getLastCoordinate()); 
+    }
+    
+    /** number of points
+     * 
+     * number of segments is numberOfPoints() - 1 for a polyline, numberOfPoints() if closed polygon
+     * @return number of points
+     */
+    public int numberOfPoints() {
+		Real2Array r2a = this.getReal2Array();
+		return r2a.size();
+    }
+ 	
+    public Real2 getLastCoordinate() {
 		Real2Array r2a = this.getReal2Array();
 		return r2a.get(r2a.size()-1);
     }
  	
-    public Real2 getFirst() {
+    public Real2 getFirstCoordinate() {
 		Real2Array r2a = this.getReal2Array();
 		return r2a.get(0);
     }
@@ -587,5 +606,40 @@ public abstract class SVGPoly extends SVGShape {
 			return this.getReal2Array().isEqualTo(((SVGPoly) shape).getReal2Array(), epsilon);
 		}
 		return false;
+	}
+
+	/** create polylines or polygons from a list of lines.
+	 * 
+	 * creates polygons if ends are within eps.
+	 * If lines actually form branches there will be an arbitrary set of 
+	 * unjoined branches. The user needs to detect this later.
+	 * 
+	 * @param lineList list of lines forming polylines or polygons
+	 * @return list of SVGPoly (empty if lineList is empty)
+	 */
+	public static List<SVGPoly> createSVGPolyList(List<SVGLine> lineList, double eps) {
+		List<SVGPolyline> singlePolylineList = SVGPolyline.createSinglePolylineList(lineList);
+		LOG.debug("premerge "+singlePolylineList.size()+" "+singlePolylineList);
+		List<SVGPolyline> newPolylineList = SVGPolyline.quadraticMergePolylines(singlePolylineList, eps);
+		LOG.debug("merged "+newPolylineList.size()+" "+newPolylineList);
+		List<SVGPoly> polylineGonList = SVGPoly.closePolygons(newPolylineList, eps);
+		return polylineGonList;
+	}
+
+	/** closes any polylines to polygons
+	 * reads polyline list and transforms any lines with touching ends into polygons
+	 * copies unclosed lines unaltered
+	 * 
+	 * @param polylineList list of polylines which may or may not be unclosed polygons
+	 * @param eps tolerance for closing lines
+	 * @return mixed list of polygons and polylines
+	 */
+	public static List<SVGPoly> closePolygons(List<SVGPolyline> polylineList, double eps) {
+		List<SVGPoly> polyList = new ArrayList<SVGPoly>();
+		for (SVGPolyline polyline : polylineList) {
+			SVGPoly polygon = polyline.createPolygon(eps);
+			polyList.add(polygon == null ? polyline : polygon);
+		}
+		return polyList;
 	}
 }

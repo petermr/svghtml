@@ -11,6 +11,7 @@ import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGPathPrimitive;
 
 public class SVGPathParser {
+	private static final String PRIMITIVE_ABBREVS= "mMcClLqQhHvVZz";
 	private static final Logger LOG = Logger.getLogger(SVGPathParser.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -442,7 +443,7 @@ treated as relative even though the initial moveto is interpreted as an absolute
 		int numberStart = -1;
 		for (int i = 0; i < d.length(); i++) {
 			char c = d.charAt(i);
-			if (Character.isWhitespace(c) ||c == ',') {
+			if (Character.isWhitespace(c) || c == ',') {
 				String token = getCurrentNumber(d, tokenList, numberStart, i);
 				addToken(tokenList, token);
 				numberStart = -1;
@@ -452,7 +453,7 @@ treated as relative even though the initial moveto is interpreted as an absolute
 				}
 			} else if ("EeDd".indexOf(c) != -1) {  // floats
 				LOG.trace("processed E-notation");
-			} else if ("mMcClLqQhHvHZz".indexOf(c) != -1) {
+			} else if (PRIMITIVE_ABBREVS.indexOf(c) != -1) {
 				String token = getCurrentNumber(d, tokenList, numberStart, i);
 				addToken(tokenList, token);
 				token = String.valueOf(c);

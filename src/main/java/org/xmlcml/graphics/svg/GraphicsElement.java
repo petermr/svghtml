@@ -76,8 +76,6 @@ public class GraphicsElement extends Element implements SVGConstants {
 		NORMAL
 	}
 	
-//	private static final String BOLD = "bold";
-//	private static final String CLASS = "class";
 	static Map<String, Color> colorMap;
 
 	static {
@@ -259,14 +257,6 @@ public class GraphicsElement extends Element implements SVGConstants {
 		}
 	}
 
-//    public void setSvgClass(String svgClass) {
-//    	addAttribute(new Attribute(CLASS, svgClass));
-//    }
-    
-//    public String getSvgClass() {
-//    	return getAttributeValue(CLASS);
-//    }
-    
 	/**
 	 * @return the clip path
 	 */
