@@ -16,7 +16,9 @@
 
 package org.xmlcml.graphics.html;
 
+import java.util.ArrayList;
 import java.util.List;
+import nu.xom.Elements;
 
 import org.apache.log4j.Logger;
 
@@ -37,8 +39,31 @@ public class HtmlTbody extends HtmlElement {
 	public HtmlTbody() {
 		super(TAG);
 	}
+
+  public void addRow(HtmlTr row) {
+		this.appendChild(row);
+	}
 	
 	public List<HtmlElement> getRows() {
 		return getChildElements(this, HtmlTr.TAG);
 	}
+
+  public List<HtmlTr> getChildTrs() {
+	  List<HtmlTr> rowList = new ArrayList<HtmlTr>();
+    List<HtmlElement> rows = getChildElements(this, HtmlTr.TAG);
+    for (HtmlElement el : rows) {
+    	rowList.add((HtmlTr) el);
+    }
+    	return rowList;
+    }
+        
+    public List<HtmlElement> getChildElementsList() {
+      Elements elts = this.getChildElements();
+          
+      List<HtmlElement> elements = new ArrayList<HtmlElement>();
+      for (int i = 0; i < elts.size(); i++) {
+        elements.add((HtmlElement) elts.get(i));
+      }
+      return elements;
+    }
 }
