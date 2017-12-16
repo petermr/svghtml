@@ -902,7 +902,9 @@ public class SVGPath extends SVGShape {
 
 	@Override
 	public boolean isZeroDimensional() {
-		String signature = this.createSignatureFromDStringPrimitives().toUpperCase();
+		String signature = this.createSignatureFromDStringPrimitives();
+		if (signature == null) return false;
+		signature = signature.toUpperCase();
 		return (signature.equals(MZ) || signature.equals(M));
 	}
 

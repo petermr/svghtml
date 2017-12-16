@@ -17,10 +17,12 @@
 package org.xmlcml.graphics.html;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.html.util.HtmlUtil;
+
 
 
 /** base class for lightweight generic SVG element.

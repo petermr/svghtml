@@ -16,6 +16,9 @@
 
 package org.xmlcml.graphics.html;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 
 
@@ -41,4 +44,14 @@ public class HtmlThead extends HtmlElement {
 	public HtmlThead() {
 		super(TAG);
 	}
+	
+    public List<HtmlTr> getChildTrs() {
+        List<HtmlTr> rowList = new ArrayList<HtmlTr>();
+        List<HtmlElement> rows = getChildElements(this, HtmlTr.TAG);
+        for (HtmlElement el : rows) {
+            rowList.add((HtmlTr) el);
+        }
+        return rowList;
+    }
+
 }

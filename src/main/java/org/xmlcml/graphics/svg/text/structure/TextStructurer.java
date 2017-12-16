@@ -123,14 +123,64 @@ public class TextStructurer {
 	private List<TextLine> subscriptLineList;
 	private List<TextLine> superscriptLineList;
 
-//	private List<TextBox> textBoxList;
-
 	private boolean rotatable;
 
 	private boolean omitShapeList = true;
 
 	public TextStructurer() {
 		this(new TextAnalyzer((List<SVGText>) null));
+	}
+	
+	/** shallow copy constructor
+	 * 
+	 */
+	public TextStructurer(TextStructurer textStructurer) {
+		
+        this.textAnalyzer = textStructurer.textAnalyzer ;
+        
+        this.linesWithCommonestFont = textStructurer.linesWithCommonestFont ;
+        this.linesWithLargestFont = textStructurer.linesWithLargestFont ;
+        this.textLineList = textStructurer.textLineList ;
+        this.largestFontSize = textStructurer.largestFontSize ;
+        this.commonestFontSize = textStructurer.commonestFontSize ;
+        this.textLinesLargetFontBoundingBox = textStructurer.textLinesLargetFontBoundingBox ; 
+        this.fontSizeSet = textStructurer.fontSizeSet ;
+
+        this.fontFamilySet = textStructurer.fontFamilySet ;
+        this.actualWidthsOfSpaceCharactersList = textStructurer.actualWidthsOfSpaceCharactersList ;
+        this.textLineSerialMap = textStructurer.textLineSerialMap ;
+        this.textLineContentList = textStructurer.textLineContentList ;
+
+        this.interTextLineSeparationArray = textStructurer.interTextLineSeparationArray ;
+        this.meanFontSizeArray = textStructurer.meanFontSizeArray ;
+        this.separationSet = textStructurer.separationSet ;
+        this.textLineByYCoordMap = textStructurer.textLineByYCoordMap ;
+        this.textLineCoordinateArray = textStructurer.textLineCoordinateArray ;
+        this.textLineListByFontSize = textStructurer.textLineListByFontSize ;
+
+        this.textLineChunkBoxes = textStructurer.textLineChunkBoxes ;
+
+        this.initialScriptLineList = textStructurer.initialScriptLineList ;
+        this.commonestFontSizeTextLineList = textStructurer.commonestFontSizeTextLineList ;
+        this.scriptedLineList = textStructurer.scriptedLineList ;
+        this.createdHtmlElement = textStructurer.createdHtmlElement ;
+        this.svgChunk = textStructurer.svgChunk ;
+
+        this.boundingBox = textStructurer.boundingBox ;
+        this.scriptContainer = textStructurer.scriptContainer ;
+        this.htmlElement = textStructurer.htmlElement ;
+        this.rawCharacters = textStructurer.rawCharacters ;
+        this.textOrientation = textStructurer.textOrientation ;
+
+        this.rawWordsList = textStructurer.rawWordsList ;
+        this.textChunkList = textStructurer.textChunkList ;
+        this.subscriptLineList = textStructurer.subscriptLineList ;
+        this.superscriptLineList = textStructurer.superscriptLineList ;
+
+        this.rotatable = textStructurer.rotatable ;
+
+        this.omitShapeList =  textStructurer.omitShapeList;
+
 	}
 	
 	/** 
@@ -727,13 +777,23 @@ public class TextStructurer {
 	}
 
 	public static TextStructurer createTextStructurerWithSortedLines(SVGElement svgElement) {
-		SVGDefs.removeDefs(svgElement);
-		List<SVGText> textCharacters = SVGText.extractSelfAndDescendantTexts(svgElement);
-		boolean normalized = TextUtil.normalize(textCharacters, NORMALIZE_FORM);
+		List<SVGText> textCharacters = createNormalizedCharacters(svgElement);
 		TextStructurer textStructurer = createTextStructurerWithSortedLines(textCharacters);
 		textStructurer.setSvgChunk(svgElement);
 		textStructurer.getOrCreateTextChunkListFromWords();
 		return textStructurer;
+	}
+
+	/** extract text elements from svg and normalize.
+	 * 
+	 * @param svgElement
+	 * @return
+	 */
+	public static List<SVGText> createNormalizedCharacters(SVGElement svgElement) {
+		SVGDefs.removeDefs(svgElement);
+		List<SVGText> textCharacters = SVGText.extractSelfAndDescendantTexts(svgElement);
+		boolean normalized = TextUtil.normalize(textCharacters, NORMALIZE_FORM);
+		return textCharacters;
 	}
 
 	/** may not be used - if I can seamlessly merge TextCache in here.
@@ -755,7 +815,7 @@ public class TextStructurer {
 		return textStructurer;
 	}
 
-	private void setSvgChunk(SVGElement svgChunk) {
+	public void setSvgChunk(SVGElement svgChunk) {
 		this.svgChunk = svgChunk;
 	}
 
@@ -1555,22 +1615,6 @@ public class TextStructurer {
 		Real2 centre = svgChunk.getCentreForClockwise90Rotation();
 		return createChunkFromVerticalText(centre, angle);
 	}
-
-//	public SVGElement rotateClockwise() {
-//		SVGG rotatedVerticalText = createChunkFromVerticalText(new Angle(-1.0 * Math.PI / 2));
-//		TableStructurer tableStructurer = createTableStructurer();
-//		SVGElement chunk = getSVGChunk();
-//		Angle angle = new Angle(-1.0 * Math.PI / 2);
-//		List<SVGShape> shapeList = tableStructurer.getOrCreateShapeList();
-//		SVGElement.rotateAndAlsoUpdateTransforms(shapeList, chunk.getCentreForClockwise90Rotation(), angle);
-//		chunk.removeChildren();
-//		XMLUtil.transferChildren(rotatedVerticalText, chunk);
-//		for (SVGShape shape : shapeList) {
-//			shape.detach();
-//			chunk.appendChild(shape);
-//		}
-//		return chunk;
-//	}
 
 	public boolean hasAntiClockwiseCharacters() {
 		return getRotatedCharacters(new Angle(Math.PI / 2.0), 0.0001).size() > 0;
