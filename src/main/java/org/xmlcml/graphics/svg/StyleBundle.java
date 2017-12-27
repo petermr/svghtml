@@ -47,6 +47,9 @@ public class StyleBundle implements XMLConstants {
 	public static final String NORMAL = "normal";
 	// not used in bundle
 	private static final String STROKE_LINECAP = "stroke-linecap";
+	// not standard SVG
+	public static final String FONT_NAME = "font-name";
+	public static final String FONT_WIDTH = "font-width";
 
 	// not yet @Deprecated
     public static List<String> BUNDLE_ATTRIBUTES;
@@ -61,6 +64,10 @@ public class StyleBundle implements XMLConstants {
 				OPACITY,
 				STROKE,
 				STROKE_WIDTH,
+				// non-standard
+				FONT_NAME,
+				FONT_WIDTH,
+
 		};
 		BUNDLE_ATTRIBUTES = Arrays.asList(bundleAttributes);
 	}
@@ -135,6 +142,11 @@ public class StyleBundle implements XMLConstants {
 	private Double opacity;
 	private String stroke;
 	private Double strokeWidth;
+	// not standard, not yet used
+	private String fontName;
+	private Double fontWidth;
+	
+	
 	private Map<String, String> atts = new HashMap<String, String>();
 
 	static final String STYLE = "style";

@@ -10,6 +10,7 @@ import java.util.Set;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.svg.fonts.FontAnalyzer;
 import org.xmlcml.graphics.svg.normalize.AttributeComparer;
 
 import nu.xom.Attribute;
@@ -364,6 +365,76 @@ public class StyleAttributeFactory {
 			}
 		}
 		return false;
+	}
+
+	/** font-name is non-standard SVG
+	 * we are gradually adding it as additional attribute
+	 * 
+	 * @param text
+	 */
+	public void addFontName(SVGText text) {
+		String fontName = text.getSVGXFontName();
+		addFontName(fontName);
+	}
+
+	public void addFontName(String fontName) {
+		if (fontName != null) {
+			fontName = StyleAttributeFactory.stripPublisherCode(fontName);
+			addToMap(SVGText.FONT_NAME, fontName);
+		}
+	}
+
+	public static String stripPublisherCode(String fontName) {
+		fontName = fontName.replaceAll("^[A-Z]{6}\\+", "");
+		return fontName;
+	}
+
+	public void addFontStyle(SVGText text) {
+		String fontStyle = text.getFontStyle();
+		addFontStyle(fontStyle);
+	}
+
+	public void addFontStyle(String fontStyle) {
+		if (fontStyle != null) {
+			addToMap(StyleBundle.FONT_STYLE, fontStyle);
+		}
+	}
+
+	public void addFontWeight(SVGText text) {
+		String fontWeight = text.getFontWeight();
+		addFontWeight(fontWeight);
+	}
+
+	public void addFontWeight(String fontWeight) {
+		if (fontWeight != null) {
+			addToMap(StyleBundle.FONT_WEIGHT, fontWeight);
+		}
+	}
+
+	public  void addFontSize(SVGText text) {
+		Double fontSize = text.getFontSize();
+		addFontSize(fontSize);
+	}
+
+	public void addFontSize(Double fontSize) {
+		if (fontSize != null) {
+			addToMap(StyleBundle.FONT_SIZE, String.valueOf(fontSize));
+		}
+	}
+	
+	/** font-width is non-standard SVG.
+	 * 
+	 * @param text
+	 */
+	public  void addFontWidth(SVGText text) {
+		Double fontWidth = text.getSVGXFontWidth();
+		addFontWidth(fontWidth);
+	}
+
+	public void addFontWidth(Double fontWidth) {
+		if (fontWidth != null) {
+			addToMap(StyleBundle.FONT_WIDTH, String.valueOf(fontWidth));
+		}
 	}
 	
 }

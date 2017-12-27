@@ -40,6 +40,8 @@ public static String[] FONT = {
     "font-style",
     "font-variant",
     "font-weight",
+    
+    "font-name", // not SVG standard
 };
     public static String[] TEXT = {
     "direction",

@@ -73,7 +73,9 @@ public class SVGText extends SVGElement {
 	private static final String BOLD = "bold";
 	private static final String ITALIC = "italic";
 
-	public static final String FONT_NAME = "fontName";
+	// old font name was "fontName", 
+	public static final String FONT_NAME = "font-name";
+	public static final String FONT_NAME_OLD = "fontName";
 	public static final String WIDTH = "width";
 
 	/** 
@@ -908,6 +910,10 @@ public class SVGText extends SVGElement {
 	 */
 	public String getSVGXFontName() {
 		String fontName = SVGUtil.getSVGXAttribute(this, FONT_NAME);
+		// old style
+		if (fontName == null) {
+			fontName = SVGUtil.getSVGXAttribute(this, FONT_NAME_OLD);
+		}
 		return fontName; 
 	}
 	
@@ -1291,6 +1297,16 @@ public class SVGText extends SVGElement {
 		text.setCSSStyle(cssValue);
 		return text;
 	}
+
+	public static List<SVGText> readAndCreateTexts(List<File> svgFiles) {
+		List<SVGText> texts = new ArrayList<SVGText>();
+		for (File svgFile : svgFiles) {
+			List<SVGText> texts0 = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+			texts.addAll(texts0);
+		}
+		return texts;
+	}
+
 
 
 }
