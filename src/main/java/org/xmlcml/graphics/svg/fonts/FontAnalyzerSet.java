@@ -112,4 +112,8 @@ public class FontAnalyzerSet {
 	private void add(String style, FontAnalyzer fontAnalyzer) {
 		fontAnalyzerByStyle.put(style, fontAnalyzer);
 	}
+
+	public int size() {
+		return fontAnalyzerByStyle == null ? 0 : fontAnalyzerByStyle.size();
+	}
 }

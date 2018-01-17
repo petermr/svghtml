@@ -86,7 +86,7 @@ public class FontAnalyzer {
 				String s = String.valueOf(ch);
 				if (Character.isWhitespace(ch)) {
 					s = Util.createUnicodeString(ch);
-					throw new RuntimeException("C:"+(int)ch);
+//					throw new RuntimeException("C:"+(int)ch);
 				}
 				this.characterSet.add(String.valueOf(ch));
 			}
