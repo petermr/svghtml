@@ -9,9 +9,16 @@ import java.util.Map;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGPolygon;
+import org.xmlcml.graphics.svg.SVGRect;
+import org.xmlcml.graphics.svg.SVGShape;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.SVGTitle;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.StyleBundle;
 
@@ -31,7 +38,7 @@ public class StyleRecordSet {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	private Map<String, StyleRecord> styleRecordByCSSStyle;
+	private Map<String, StyleRecord> styleRecordByStyle;
 	private Multimap<String, StyleRecord> styleRecordByFontName;
 	private Multimap<Double, StyleRecord> styleRecordByFontSize;
 	private Multimap<String, StyleRecord> styleRecordByFontWeight;
@@ -43,7 +50,7 @@ public class StyleRecordSet {
 	private Multiset<String> fontNameSet;
 
 	public StyleRecordSet() {
-		styleRecordByCSSStyle =   new HashMap<String, StyleRecord>();
+		styleRecordByStyle =   new HashMap<String, StyleRecord>();
 		styleRecordByFontName =   ArrayListMultimap.create();
 		styleRecordByFontSize =   ArrayListMultimap.create();
 		styleRecordByFontWeight = ArrayListMultimap.create();
@@ -77,15 +84,14 @@ public class StyleRecordSet {
 	public StyleRecord getOrCreateStyleRecord(SVGText text) {
 		StyleRecord styleRecord = null;
 		if (text != null) {
-//			LOG.debug(text.toXML());
 			String cssStyle = StyleRecord.getCSSStyle(text);
 			String value = text.getValue();
 			value = value.replaceAll("\\s+", "");
 			if (cssStyle != null) {
-				styleRecord = styleRecordByCSSStyle.get(cssStyle);
+				styleRecord = styleRecordByStyle.get(cssStyle);
 				if (styleRecord == null) {
 					styleRecord = new StyleRecord(cssStyle);
-					styleRecordByCSSStyle.put(cssStyle, styleRecord);
+					styleRecordByStyle.put(cssStyle, styleRecord);
 					AddToOtherAnalyzers(cssStyle, styleRecord);
 				}
 				Double yCoordinate = createYCoordinate(text.getY());
@@ -128,13 +134,13 @@ public class StyleRecordSet {
 
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		List<String> styles = new ArrayList<String>(styleRecordByCSSStyle.keySet());
+		List<String> styles = new ArrayList<String>(styleRecordByStyle.keySet());
 		Collections.sort(styles);
 		for (String style : styles) {
-			StyleRecord styleRecord = styleRecordByCSSStyle.get(style);
+			StyleRecord styleRecord = styleRecordByStyle.get(style);
 			sb.append(styleRecord.toString()+"\n");
 		}
-		return styleRecordByCSSStyle.toString();
+		return styleRecordByStyle.toString();
 	}
 
 	public static StyleRecordSet createStyleRecordSet(File svgFile) {
@@ -157,11 +163,11 @@ public class StyleRecordSet {
 	public StyleRecordSet getStyleRecordSet(String attName, String attValue) {
 		StyleRecordSet styleRecordSet = new StyleRecordSet();
 		if (attName != null && attValue != null) {
-			for (String cssStyle : styleRecordByCSSStyle.keySet()) {
+			for (String cssStyle : styleRecordByStyle.keySet()) {
 				StyleAttributeFactory attributeFactory = new StyleAttributeFactory(cssStyle);
 				String value = attributeFactory.getAttributeValue(attName);
 				if (attValue.equals(value)) {
-					StyleRecord styleRecord = styleRecordByCSSStyle.get(cssStyle);
+					StyleRecord styleRecord = styleRecordByStyle.get(cssStyle);
 					styleRecordSet.add(cssStyle, styleRecord);
 				}
 			}
@@ -170,11 +176,11 @@ public class StyleRecordSet {
 	}
 
 	private void add(String cssStyle, StyleRecord styleRecord) {
-		styleRecordByCSSStyle.put(cssStyle, styleRecord);
+		styleRecordByStyle.put(cssStyle, styleRecord);
 	}
 
 	public int size() {
-		return styleRecordByCSSStyle == null ? 0 : styleRecordByCSSStyle.size();
+		return styleRecordByStyle == null ? 0 : styleRecordByStyle.size();
 	}
 
 	public TypefaceMaps extractTypefaceMaps(String mapsName) {
@@ -240,11 +246,35 @@ public class StyleRecordSet {
 
 	public Multiset<String> extractFontNameSet() {
 		fontNameSet = HashMultiset.create();
-		for (StyleRecord styleRecord : styleRecordByCSSStyle.values()) {
+		for (StyleRecord styleRecord : styleRecordByStyle.values()) {
 			String fontName = styleRecord.getFontName();
 			fontNameSet.add(fontName);
 		}
 		return fontNameSet;
+	}
+
+	public SVGElement createStyledSVG(List<SVGText> svgTexts) {
+		SVGElement g = new SVGG();
+		for (SVGText svgText : svgTexts) {
+			String cssStyle = StyleRecord.getCSSStyle(svgText);
+			String content = svgText.getText();
+			StyleBundle styleBundle = new StyleBundle(cssStyle);
+			String fontStyle = styleBundle.getFontStyle(); 
+			String fontWeight = styleBundle.getFontWeight(); 
+			double strokeWidth = (StyleBundle.BOLD.equals(fontWeight)) ? 1.0 : 0.2;
+			String fill = (StyleBundle.ITALIC.equals(fontStyle)) ? "#ffeeee" : "#ffcccc";
+			Real2Range bbox = svgText.getBoundingBox();
+			SVGShape rect = SVGRect.createFromReal2Range(bbox);
+			rect.setStrokeWidth(strokeWidth);
+			rect.setStroke("black");
+			rect.setFill(fill);
+			int len = Math.min(200, content.length());
+			String title = styleBundle.getFontSize() + "; "+
+			    content.substring(0, len)+"; "+styleBundle.getFontName();
+			rect.appendChild(new SVGTitle(title));
+			g.appendChild(rect);
+		}
+		return g;
 	}
 	
 }

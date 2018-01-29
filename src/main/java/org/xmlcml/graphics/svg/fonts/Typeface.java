@@ -26,7 +26,7 @@ import org.apache.log4j.Logger;
  * @author pm286
  *
  */
-public class Typeface {
+public class Typeface implements Comparable<Typeface> {
 	private static final Logger LOG = Logger.getLogger(Typeface.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -111,6 +111,10 @@ public class Typeface {
 			typefaceNameList.add(typeface.getTypefaceName());
 		}
 		return typefaceNameList;
+	}
+
+	public int compareTo(Typeface o) {
+		return this.toString().compareTo(((Typeface)o).toString());
 	}
 
 }

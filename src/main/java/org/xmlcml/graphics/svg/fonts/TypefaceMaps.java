@@ -2,6 +2,7 @@ package org.xmlcml.graphics.svg.fonts;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -228,6 +229,8 @@ public class TypefaceMaps implements Set<Typeface> {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Typefaces:\n");
 		
+		List<Typeface> typefaceList = new ArrayList<Typeface>(typefaceSet);
+		Collections.sort(typefaceList);
 		return typefaceSet.toString();
 	}
 	
