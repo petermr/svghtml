@@ -10,7 +10,7 @@ import java.util.Set;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.graphics.svg.fonts.FontAnalyzer;
+import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.normalize.AttributeComparer;
 
 import nu.xom.Attribute;
@@ -419,6 +419,28 @@ public class StyleAttributeFactory {
 	public void addFontSize(Double fontSize) {
 		if (fontSize != null) {
 			addToMap(StyleBundle.FONT_SIZE, String.valueOf(fontSize));
+		}
+	}
+	
+	public  void addFill(SVGText text) {
+		String fill = text.getFill();
+		addFill(fill);
+	}
+
+	public void addFill(String fill) {
+		if (fill != null) {
+			addToMap(StyleBundle.FILL, fill);
+		}
+	}
+	
+	public  void addStroke(SVGText text) {
+		String stroke = text.getStroke();
+		addStroke(stroke);
+	}
+
+	public void addStroke(String stroke) {
+		if (stroke != null) {
+			addToMap(StyleBundle.STROKE, stroke);
 		}
 	}
 	

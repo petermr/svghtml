@@ -44,6 +44,8 @@ public class StyleBundle implements XMLConstants {
 	public static final String STROKE_WIDTH = "stroke-width";
 	public static final String BOLD = "bold";
 	public static final String ITALIC = "italic";
+	public static final String BLACK = "black";
+	public static final String NONE = "none";
 	public static final String NORMAL = "normal";
 	// not used in bundle
 	private static final String STROKE_LINECAP = "stroke-linecap";
@@ -58,6 +60,7 @@ public class StyleBundle implements XMLConstants {
 				CLIP_PATH,
 				FILL,
 				FONT_FAMILY,
+				FONT_NAME,
 				FONT_SIZE,
 				FONT_STYLE,
 				FONT_WEIGHT,
@@ -77,6 +80,7 @@ public class StyleBundle implements XMLConstants {
 		CLIP_PATH("clip-path"),
 		FILL("fill"),
 		FONT_FAMILY("font-family"),
+		FONT_NAME("font-name"),
 		FONT_SIZE("font-size"),
 		FONT_STYLE("font-style"),
 		FONT_WEIGHT("font-weight"),
@@ -142,7 +146,7 @@ public class StyleBundle implements XMLConstants {
 	private Double opacity;
 	private String stroke;
 	private Double strokeWidth;
-	// not standard, not yet used
+	// not standard, partially used
 	private String fontName;
 	private Double fontWidth;
 	
@@ -156,75 +160,104 @@ public class StyleBundle implements XMLConstants {
 	}
 	
 	public StyleBundle(String style) {
-		processStyle(style);
+		processCSSStyle(style);
 	}
 	
 	public StyleBundle(
-		String clipPath,
-		String fill,
-		String fontFamily,
-		double fontSize,
-		String fontStyle,
-		String fontWeight,
-		double opacity,
-		String stroke,
-		double strokeWidth
-		) {
-		if (clipPath != null && !clipPath.trim().equals(S_EMPTY)) {
-			this.clipPath = clipPath.trim();
+			String clipPath,
+			String fill,
+			String fontFamily,
+			double fontSize,
+			String fontStyle,
+			String fontWeight,
+			double opacity,
+			String stroke,
+			double strokeWidth
+			) {
+			if (clipPath != null && !clipPath.trim().equals(S_EMPTY)) {
+				this.clipPath = clipPath.trim();
+			}
+			if (fill != null && !fill.trim().equals(S_EMPTY)) {
+				this.fill = fill.trim();
+			}
+			if (fontFamily != null && !fontFamily.trim().equals(S_EMPTY)) {
+				this.fontFamily = fontFamily.trim();
+			}
+			if (fontName != null && !fontName.trim().equals(S_EMPTY)) {
+				this.fontName = fontName.trim();
+			}
+			if (fontSize > 0) {
+				this.fontSize = new Double(fontSize);
+			}
+			if (fontStyle != null && !fontStyle.trim().equals(S_EMPTY)) {
+				this.fontStyle = fontStyle.trim();
+			}
+			if (fontWeight != null && !fontWeight.trim().equals(S_EMPTY)) {
+				this.fontWeight = fontWeight.trim();
+			}
+			if (opacity > 0) {
+				this.opacity = new Double(opacity);
+			}
+			if (stroke != null && !stroke.trim().equals(S_EMPTY)) {
+				this.stroke = stroke.trim();
+			}
+			if (strokeWidth > 0) {
+				this.strokeWidth = new Double(strokeWidth);
+			}
 		}
-		if (fill != null && !fill.trim().equals(S_EMPTY)) {
-			this.fill = fill.trim();
+	public StyleBundle(
+			String clipPath,
+			String fill,
+			String fontFamily,
+			double fontSize,
+			String fontStyle,
+			String fontWeight,
+			double opacity,
+			String stroke,
+			double strokeWidth,
+			String fontName
+			) {
+		this(clipPath,
+			fill,
+			fontFamily,
+			fontSize,
+			fontStyle,
+			fontWeight,
+			opacity,
+			stroke,
+			strokeWidth);
+			if (fontName != null && !fontName.trim().equals(S_EMPTY)) {
+				this.fontName = fontName.trim();
+			}
 		}
-		if (fontFamily != null && !fontFamily.trim().equals(S_EMPTY)) {
-			this.fontFamily = fontFamily.trim();
-		}
-		if (fontSize > 0) {
-			this.fontSize = new Double(fontSize);
-		}
-		if (fontStyle != null && !fontStyle.trim().equals(S_EMPTY)) {
-			this.fontStyle = fontStyle.trim();
-		}
-		if (fontWeight != null && !fontWeight.trim().equals(S_EMPTY)) {
-			this.fontWeight = fontWeight.trim();
-		}
-		if (opacity > 0) {
-			this.opacity = new Double(opacity);
-		}
-		if (stroke != null && !stroke.trim().equals(S_EMPTY)) {
-			this.stroke = stroke.trim();
-		}
-		if (strokeWidth > 0) {
-			this.strokeWidth = new Double(strokeWidth);
-		}
-	}
-	public StyleBundle(StyleBundle style) {
-		this.copy(style);
+	public StyleBundle(StyleBundle styleBundle) {
+		this.copy(styleBundle);
 	}
 	
-	public void copy(StyleBundle style) {
-		if (style != null) {
-			this.clipPath = style.clipPath;
-			this.fill = style.fill;
-			this.fontFamily = style.fontFamily;
-			this.fontSize = style.fontSize;
-			this.fontStyle = style.fontStyle;
-			this.fontWeight = style.fontWeight;
-			this.opacity = style.opacity;
-			this.stroke = style.stroke;
-			this.strokeWidth = style.strokeWidth;
-			this.atts = new HashMap<String, String>();
-			for (String name : style.atts.keySet()) {
+	public void copy(StyleBundle styleBundle) {
+		if (styleBundle != null) {
+			this.clipPath    = styleBundle.clipPath;
+			this.fill        = styleBundle.fill;
+			this.fontFamily  = styleBundle.fontFamily;
+			this.fontName    = styleBundle.fontName;
+			this.fontSize    = styleBundle.fontSize;
+			this.fontStyle   = styleBundle.fontStyle;
+			this.fontWeight  = styleBundle.fontWeight;
+			this.opacity     = styleBundle.opacity;
+			this.stroke      = styleBundle.stroke;
+			this.strokeWidth = styleBundle.strokeWidth;
+			this.atts        = new HashMap<String, String>();
+			for (String name : styleBundle.atts.keySet()) {
 				atts.put(name, atts.get(name));
 			}
 		}
 	}
 	
-	void processStyle(String style) {
-		if (style != null) {
-			style = style.trim();
-			if (!style.equals(S_EMPTY)) {
-				String[] ss = style.split(S_SEMICOLON);
+	void processCSSStyle(String cssStyle) {
+		if (cssStyle != null) {
+			cssStyle = cssStyle.trim();
+			if (!cssStyle.equals(S_EMPTY)) {
+				String[] ss = cssStyle.split(S_SEMICOLON);
 				for (String s : ss) {
 					s = s.trim();
 					if (s.equals(S_EMPTY)) {
@@ -239,6 +272,8 @@ public class StyleBundle implements XMLConstants {
 						fill = attVal;
 					} else if (attName.equals(FONT_FAMILY)) {
 						fontFamily = attVal; 
+					} else if (attName.equals(FONT_NAME)) {
+						fontName = attVal; 
 					} else if (attName.equals(FONT_SIZE)) {
 						fontSize = getDouble(attVal); 
 					} else if (attName.equals(FONT_STYLE)) {
@@ -275,6 +310,8 @@ public class StyleBundle implements XMLConstants {
 			fill = (String) attVal;
 		} else if (attName.equals(FONT_FAMILY)) {
 			fontFamily = (String) attVal; 
+		} else if (attName.equals(FONT_NAME)) {
+			fontName = (String) attVal; 
 		} else if (attName.equals(FONT_SIZE)) {
 			fontSize = getDouble(String.valueOf(attVal)); 
 		} else if (attName.equals(FONT_STYLE)) {
@@ -301,6 +338,8 @@ public class StyleBundle implements XMLConstants {
 			subStyle = getFill();
 		} else if (attName.equals(FONT_FAMILY)) {
 			subStyle = getFontFamily();
+		} else if (attName.equals(FONT_NAME)) {
+			subStyle = getFontName();
 		} else if (attName.equals(FONT_SIZE)) {
 			subStyle = getFontSize();
 		} else if (attName.equals(FONT_WEIGHT)) {
@@ -415,6 +454,14 @@ public class StyleBundle implements XMLConstants {
 
 	public void setFontFamily(String fontFamily) {
 		this.fontFamily = fontFamily;
+	}
+
+	public String getFontName() {
+		return fontName;
+	}
+
+	public void setFontName(String fontName) {
+		this.fontName = fontName;
 	}
 
 	public Double getFontSize() {
@@ -550,6 +597,38 @@ public class StyleBundle implements XMLConstants {
 		String style = element.getAttributeValue(STYLE);
 		return style == null ? null : new StyleBundle(style);
 	}
-	
+
+	public String getCSSStyle() {
+		StringBuilder sb = new StringBuilder();
+		addNameValueTo(sb, CLIP_PATH, clipPath);
+		addNameValueTo(sb, FILL, fill);
+		addNameValueTo(sb, FONT_FAMILY, fontFamily);
+		addNameValueTo(sb, FONT_SIZE, fontSize);
+		addNameValueTo(sb, FONT_STYLE, fontStyle);
+		addNameValueTo(sb, FONT_WEIGHT, fontWeight);
+		addNameValueTo(sb, OPACITY, opacity);
+		addNameValueTo(sb, STROKE, stroke);
+		addNameValueTo(sb, STROKE_WIDTH, strokeWidth);
+		addNameValueTo(sb, FONT_NAME, fontName);
+		addNameValueTo(sb, FONT_WIDTH, fontWidth);
+		return sb.toString();
+		
+	}
+
+	private void addNameValueTo(StringBuilder sb, String name, String value) {
+		if (value != null) {
+			sb.append(createNameValue(name, value));
+		}
+	}
+
+	private void addNameValueTo(StringBuilder sb, String name, Double value) {
+		if (value != null) {
+			sb.append(createNameValue(name, String.valueOf(value)));
+		}
+	}
+
+	private String createNameValue(String name, String value) {
+		return name+":"+value+";";
+	}
 
 }

@@ -521,7 +521,7 @@ public class GraphicsElement extends Element implements SVGConstants {
 		if (styleBundle == null) {
 			styleBundle = new StyleBundle();
 		}
-		styleBundle.processStyle(this.getAttributeValue(StyleBundle.STYLE));
+		styleBundle.processCSSStyle(this.getAttributeValue(StyleBundle.STYLE));
 		styleBundle.convertAndRemoveExplicitAttributes(this);
 		return styleBundle;
 	}
@@ -692,15 +692,15 @@ public class GraphicsElement extends Element implements SVGConstants {
 	 * Use very carefully. Prefer
 	 * setCSSStyle(packedValue); which checks
 	 * 
-	 * @param style
+	 * @param cssStyle
 	 */
-	protected void setStyle(String style) {
+	protected void setStyle(String cssStyle) {
 		Attribute styleAttribute = this.getAttribute(STYLE); 
 		if (styleAttribute != null) {
 			styleAttribute.detach();
 		}
-		if (style != null) {
-			Attribute att = new Attribute(STYLE, style);
+		if (cssStyle != null) {
+			Attribute att = new Attribute(STYLE, cssStyle);
 			this.addAttribute(att);
 		}
 	}
@@ -879,9 +879,5 @@ public class GraphicsElement extends Element implements SVGConstants {
 		return value == null || value.trim().length() == 0;
 	}
 	
-
-
-
-
 }
 

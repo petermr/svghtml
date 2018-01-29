@@ -339,6 +339,7 @@ public class SVGText extends SVGElement {
 	 * Clears text and replaces if not null
 	 * 
 	 * @param text the text to set
+	 * @throws nu.xom.IllegalCharacterDataException for non-XML character
 	 */
 	public void setText(String text) {
 		if (this.getChildCount() > 0) {
@@ -357,8 +358,7 @@ public class SVGText extends SVGElement {
 			try {
 				this.appendChild(text);
 			} catch (nu.xom.IllegalCharacterDataException e) {
-				//e.printStackTrace();
-				LOG.error("Cannot append text: "+text+" (char-"+(int)text.charAt(0)+")", e);
+				throw new nu.xom.IllegalCharacterDataException("Cannot append text: "+text+" (char-"+(int)text.charAt(0)+")", e);
 			}
 		}
 		boundingBox = null;
@@ -1307,6 +1307,23 @@ public class SVGText extends SVGElement {
 		return texts;
 	}
 
+	/** convenience method that reads SVGFiles in directory and extracts all texts
+	 * 
+	 * @param indir
+	 * @return
+	 */
+	public static List<SVGText> readSVGFilesAndCreateTexts(File indir) {
+		File[] files = indir.listFiles();
+		List<File> svgFiles = new ArrayList<File>();
+		for (File file : files) {
+			if (file.toString().endsWith(".svg")) {
+				svgFiles.add(file);
+			}
+		}
+		List<SVGText> svgTexts = SVGText.readAndCreateTexts(svgFiles);
+		return svgTexts;
+	}
+	
 
 
 }

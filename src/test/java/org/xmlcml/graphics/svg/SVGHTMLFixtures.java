@@ -59,6 +59,7 @@ public class SVGHTMLFixtures {
 	public static final File SVG_PAGE6_SVG = new File(SVGHTMLFixtures.SVG_DIR, "page6.svg");
 
 	public static final File FIGURE_DIR = new File(SVG_DIR, "figure");
+	public static final File FONTS_DIR = new File(SVG_DIR, "fonts");
 	public static final File IMAGE_DIR = new File(SVG_DIR, "images");
 	public static final File PLOT_DIR = new File(SVG_DIR, "plot");
 	public static final File BAR_DIR = new File(SVG_DIR, "bar");
