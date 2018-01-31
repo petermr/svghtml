@@ -1,5 +1,6 @@
 package org.xmlcml.graphics.svg.cache;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,10 +9,10 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
 import org.xmlcml.graphics.svg.SVGRect;
+import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.normalize.TextDecorator;
@@ -65,6 +66,7 @@ public class TextCache extends AbstractCache {
 	public void extractTexts(SVGElement svgElement) {
 		List<SVGText> originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
 		textList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
+		LOG.trace(textList);
 		if (useCompactOutput) {
 			createCompactedTextsAndReplace();
 		}

@@ -921,6 +921,7 @@ public class SVGElement extends GraphicsElement {
 	}
 
 	public Double getX() {
+		// manage arrays ...
 		return this.getCoordinateValueDefaultZero(X);
 	}
 

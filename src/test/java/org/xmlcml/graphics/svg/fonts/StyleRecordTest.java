@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Test;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -227,7 +228,7 @@ public class StyleRecordTest {
 				+ ", StoneSerif-Italic: weights: [normal]; styles: [italic]; strokes: []; fills: [#000000]; fontSizes: [9.0];\n"
 				+ "]", typefaceSet.toString());
 	}
-	
+
 	/** extraction of equations by text style
 	 * 
 	 */
@@ -240,6 +241,22 @@ public class StyleRecordTest {
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
 	}
 
-
+	@Test
+	public void testStyleArrays() {
+		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
+		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		List<StyleRecord> sortedStyles = styleRecordSet.createSortedStyleRecords();
+//		LOG.debug(sortedStyles);
+		for (StyleRecord styleRecord : sortedStyles) {
+			Multiset<Double> yCoordinateSet = styleRecord.getOrCreateYCoordinateSet();
+			List<Double> yCoords = new ArrayList<Double>(yCoordinateSet.elementSet());
+			RealArray yCoordinateArray = new RealArray(yCoords);
+			yCoordinateArray.sortAscending();
+//			LOG.debug(styleRecord.getFontName()+" "+yCoordinateArray);
+			Multiset<Double> diffs = yCoordinateArray.createDoubleDifferenceMultiset(1);
+			LOG.debug(styleRecord.getFontName()+" "+diffs+" "+yCoordinateArray);
+		}
+	}
 
 }

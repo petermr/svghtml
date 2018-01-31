@@ -202,15 +202,64 @@ public class SVGText extends SVGElement {
      * @return first Xcoordinate
      */
 	public Real2 getXY() {
-		xArray = parseSingleOrArrayAttribute(SVGElement.X);
-		Double x = (xArray == null || xArray.size() == 0) ? null : xArray.elementAt(0);
-		yArray = parseSingleOrArrayAttribute(SVGElement.Y);
-		Double y = (yArray == null || yArray.size() == 0) ? null : yArray.elementAt(0);
+		Double x = getFirstX();
+		Double y = getFirstY();
 		return (x == null || y == null) ? null : new Real2(x, y);
 	}
 
+	private Double getFirstY() {
+		yArray = parseSingleOrArrayAttribute(SVGElement.Y);
+		Double y = (yArray == null || yArray.size() == 0) ? null : yArray.elementAt(0);
+		return y;
+	}
+
+	private Double getFirstX() {
+		xArray = parseSingleOrArrayAttribute(SVGElement.X);
+		Double x = (xArray == null || xArray.size() == 0) ? null : xArray.elementAt(0);
+		return x;
+	}
+
+	@Override
+	/** required to parse single and compact form.
+	 * 
+	 */
+	public Double getX() {
+		Double x = getFirstX();
+		return x;
+	}
+	
+	/** required to parse single and compact form.
+	 * 
+	 */
+	public RealArray getXArray() {
+		xArray = parseSingleOrArrayAttribute(SVGElement.X);
+		return xArray;
+	}
+	
+	/** required to parse single and compact form.
+	 * 
+	 */
+	public RealArray getYArray() {
+		yArray = parseSingleOrArrayAttribute(SVGElement.Y);
+		return yArray;
+	}
+	
+	@Override
+	/** required to parse single and compact form.
+	 * 
+	 */
+	public Double getY() {
+		Double y = getFirstY();
+		return y;
+	}
+	
 	private RealArray parseSingleOrArrayAttribute(String attName) {
 		String attValue = this.getAttributeValue(attName);
+		return parseRealArray(attValue);
+	}
+
+	private RealArray parseSingleOrArraySVGXAttribute(String attName) {
+		String attValue = SVGUtil.getSVGXAttribute(this, attName);
 		return parseRealArray(attValue);
 	}
 
@@ -930,6 +979,22 @@ public class SVGText extends SVGElement {
 		String widthS = SVGUtil.getSVGXAttribute(this, WIDTH);
 		return widthS == null ? null : Double.valueOf(widthS); 
 	}
+	
+	/** 
+	 * Normally only present when added by PDF2SVG or textDecorator.compactText()
+	 * <p>
+	 * Of form svgx:width="234.0,450.0".
+	 * <p>
+	 * Different to getWidth, which uses "width" attribute and is probably wrong for SVGText.
+	 * 
+	 * @return width (or null)
+	 */
+	public RealArray getSVGXFontWidthArray() {
+		xArray = parseSingleOrArraySVGXAttribute(SVGElement.WIDTH);
+		return xArray;
+	}
+
+	
 	
 	/** 
 	 * Adds svgx:width attribute.

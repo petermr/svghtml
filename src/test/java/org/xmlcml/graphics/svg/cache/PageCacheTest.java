@@ -18,6 +18,7 @@ import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
 
 /** analyses pages for components.
@@ -191,14 +192,14 @@ public class PageCacheTest {
 				System.out.print(".");
 				String basename = FilenameUtils.getBaseName(svgFile.toString());
 				SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
-				componentCache = new ComponentCache();
-				componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
-				TextCache textCache = componentCache.getOrCreateTextCache();
+				PageCache pageCache = new PageCache();
+				pageCache.readGraphicsComponentsAndMakeCaches(svgElement);
+				TextCache textCache = pageCache.getOrCreateTextCache();
 				textCache.createCompactedTextsAndReplace();
-				Real2Range bbox = Real2Range.createTotalBox(componentCache.getBoundingBoxList());
-				LOG.debug(">> "+bbox+" "+componentCache.getBoundingBoxList().size());
+				Real2Range bbox = Real2Range.createTotalBox(pageCache.getBoundingBoxList());
+				LOG.debug(">> "+bbox+" "+pageCache.getBoundingBoxList().size());
 				SuperPixelArray superPixelArray = new SuperPixelArray(new Int2Range(bbox));
-				superPixelArray.setPixels(1, componentCache.getBoundingBoxList());
+				superPixelArray.setPixels(1, pageCache.getBoundingBoxList());
 				
 				SVGG g = new SVGG();
 				superPixelArray.draw(g, new File(outDir, basename+".superPixels.svg"));
@@ -215,7 +216,19 @@ public class PageCacheTest {
 		}
 	}
 	
-
+	/** extraction of equations by text style
+	 * 
+	 */
+	@Test
+	public void testDisplayStyles() {
+		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
+		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
+	}
+	
+	
 	// ============================
 	
 	private List<? extends SVGElement> extractAndDisplayComponents(File infile, File outfile) {

@@ -15,9 +15,6 @@ import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
-
 import nu.xom.Attribute;
 
 /**
@@ -68,9 +65,13 @@ public class TextDecorator extends AbstractDecorator {
 	public SVGG compactTexts(List<SVGText> texts) {
 		uncompactedTextListList = new ArrayList<List<SVGText>>();
 		if (texts != null && texts.size() > 0) {
-			addSingleCharTextToUncompactedList(texts.get(0));
+			SVGText text0 = texts.get(0);
+			LOG.trace(text0.toXML());
+			addSingleCharTextToUncompactedList(text0);
 			for (int ichar = 1; ichar < texts.size(); ichar++) {
-				addCharacterToTextLists(texts.get(ichar));
+				SVGText texti = texts.get(ichar);
+				LOG.trace(texti.toXML());
+				addCharacterToTextLists(texti);
 			}
 			for (SVGText text : texts) {
 				text.detach();
@@ -85,7 +86,12 @@ public class TextDecorator extends AbstractDecorator {
 		attributeComparer.setElement1(text);
 		Set<String> attNames0Not1 = attributeComparer.getAttNames0Not1();
 		Set<String> attNames1Not0 = attributeComparer.getAttNames1Not0();
-		if (attNames0Not1.size() + attNames1Not0.size() != 0) {
+		String attNames0Not1S = attNames0Not1.toString();
+		String attNames1Not0S = attNames1Not0.toString();
+		LOG.trace(""+text+": "+attNames0Not1S+" // "+attNames1Not0S);
+		if (attNames0Not1S.equals("[svgxcharCode, svgxhexCode]") || attNames1Not0S.equals("[svgxcharCode, svgxhexCode]")) {
+				LOG.trace("SKIP char conversion");
+		} else if (attNames0Not1.size() + attNames1Not0.size() != 0) {
 			addSingleCharTextToUncompactedList(text);
 		}
 		Set<Pair<Attribute, Attribute>> unequalAttValues = attributeComparer.getUnequalTextValues();
@@ -107,6 +113,7 @@ public class TextDecorator extends AbstractDecorator {
 		textList = new ArrayList<SVGText>();
 		uncompactedTextListList.add(textList);
 		textList.add(text);
+		LOG.trace("TEXT: "+textList);
 		attributeComparer.setElement0(text);
 	}
 
@@ -142,12 +149,13 @@ public class TextDecorator extends AbstractDecorator {
 
 	public SVGG makeCompactedTextsAndAddToG() {
 		SVGG g = new SVGG();
-		Multiset<String> styleSet = HashMultiset.create();
+		// not yet used
+//		Multiset<String> styleSet = HashMultiset.create();
 		for (List<SVGText> textList : uncompactedTextListList) {
 			SVGText compactedText = createCompactText(textList);
 			g.appendChild(compactedText);
-			String style = compactedText.getStyle();
-			styleSet.add(style);
+//			String style = compactedText.getStyle();
+//			styleSet.add(style);
 		}
 		
 		return g;
@@ -168,9 +176,11 @@ public class TextDecorator extends AbstractDecorator {
 		for (int i = 0; i < textList.size(); i++) {
 			SVGText text = textList.get(i);
 			textBoundingBox.plusEquals(text.getBoundingBox());
-			xCoordinateArray.addElement(text.getX());
+			xCoordinateArray.addArray(text.getXArray());
+//			xCoordinateArray.addElement(text.getX());
 			textContentBuilder.append(text.getValue());
-			widthArray.addElement(text.getSVGXFontWidth());
+			widthArray.addArray(text.getSVGXFontWidthArray());
+//			widthArray.addElement(text.getSVGXFontWidth());
 		}
 		SVGText arrayText = new SVGText(textList.get(0));
 		arrayText.setX(xCoordinateArray);

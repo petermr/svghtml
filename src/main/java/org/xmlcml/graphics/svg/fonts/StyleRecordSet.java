@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -32,7 +33,7 @@ import com.google.common.collect.Multiset;
  * @author pm286
  *
  */
-public class StyleRecordSet {
+public class StyleRecordSet implements Iterable<StyleRecord> {
 	private static final Logger LOG = Logger.getLogger(StyleRecordSet.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -133,14 +134,34 @@ public class StyleRecordSet {
 	}
 
 	public String toString() {
+		String s = createStringFromSortedStyleRecords();
+		return styleRecordByStyle.toString();
+	}
+
+	private String createStringFromSortedStyleRecords() {
 		StringBuilder sb = new StringBuilder();
-		List<String> styles = new ArrayList<String>(styleRecordByStyle.keySet());
-		Collections.sort(styles);
+		List<String> styles = createSortedStyles();
 		for (String style : styles) {
 			StyleRecord styleRecord = styleRecordByStyle.get(style);
 			sb.append(styleRecord.toString()+"\n");
 		}
-		return styleRecordByStyle.toString();
+		return sb.toString();
+	}
+
+	public List<String> createSortedStyles() {
+		List<String> styles = new ArrayList<String>(styleRecordByStyle.keySet());
+		Collections.sort(styles);
+		return styles;
+	}
+
+	public List<StyleRecord> createSortedStyleRecords() {
+		List<StyleRecord> styleRecords = new ArrayList<StyleRecord>();
+		List<String> styles = createSortedStyles();
+		for (String style : styles) {
+			StyleRecord styleRecord = styleRecordByStyle.get(style);
+			styleRecords.add(styleRecord);
+		}
+		return styleRecords;
 	}
 
 	public static StyleRecordSet createStyleRecordSet(File svgFile) {
@@ -275,6 +296,11 @@ public class StyleRecordSet {
 			g.appendChild(rect);
 		}
 		return g;
+	}
+
+	public Iterator<StyleRecord> iterator() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
