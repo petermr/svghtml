@@ -204,6 +204,11 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 		return styleRecordByStyle == null ? 0 : styleRecordByStyle.size();
 	}
 
+//	public List<TypefaceMaps> extractSortedTypefaceMaps(String mapsName) {
+//		extractTypefaceMaps(mapsName);
+//		List<TypefaceMaps> sortedMaps = new ArrayList<TypefaceMaps>(typefaceMaps);
+// 	}
+
 	public TypefaceMaps extractTypefaceMaps(String mapsName) {
 		extractFontNameSet();
 		typefaceMaps.setMapsName(mapsName);
@@ -299,8 +304,8 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 	}
 
 	public Iterator<StyleRecord> iterator() {
-		// TODO Auto-generated method stub
-		return null;
+		return styleRecordByStyle.values().iterator();
 	}
+
 	
 }

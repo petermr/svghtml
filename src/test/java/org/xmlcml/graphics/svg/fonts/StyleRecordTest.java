@@ -216,17 +216,19 @@ public class StyleRecordTest {
 				+ " coords: 19 [328.3 x 7, 339.8 x 9, 351.3 x 2, 362.8 x 6, 374.3 x 2, 385.8 x 7, 397.3 x 6, 408.8 x 2,"
 				+ " 420.3 x 7, 431.8 x 6, 443.3 x 6, 454.8 x 7, 466.3 x 6, 477.8 x 4, 489.3 x 7, 500.8 x 7, 512.3 x 7, 523.8 x 7, 535.3 x 3]}", 
 				styleRecordSet.toString());
-		TypefaceMaps typefaceSet = styleRecordSet.extractTypefaceMaps("equationsPage");
+		TypefaceMaps typefaceMaps = styleRecordSet.extractTypefaceMaps("equationsPage");
+		List<Typeface> typefaceList = typefaceMaps.getSortedTypefaceList();
+		
 		Assert.assertEquals("["
-				+ "StoneSans-Semibold: weights: [bold]; styles: []; strokes: []; fills: [#000000]; fontSizes: [12.0, 9.0];\n"
-				+ ", Cochin-Bold: weights: [bold]; styles: []; strokes: []; fills: [#000000]; fontSizes: [7.668, 5.751];\n"
-				+ ", StoneSerif-SemiboldItalic: weights: [bold]; styles: [italic]; strokes: []; fills: [#000000]; fontSizes: [7.0];\n"
+				+ "Cochin-Bold: weights: [bold]; styles: []; strokes: []; fills: [#000000]; fontSizes: [7.668, 5.751];\n"
+				+ ", StoneSans-Semibold: weights: [bold]; styles: []; strokes: []; fills: [#000000]; fontSizes: [12.0, 9.0];\n"
 				+ ", StoneSans: weights: [normal]; styles: []; strokes: []; fills: [#000000]; fontSizes: [6.0, 7.0];\n"
+				+ ", StoneSerif-Italic: weights: [normal]; styles: [italic]; strokes: []; fills: [#000000]; fontSizes: [9.0];\n"
+				+ ", StoneSerif-Semibold: weights: [bold]; styles: []; strokes: []; fills: [#ffffff]; fontSizes: [12.0, 9.0];\n"
+				+ ", StoneSerif-SemiboldItalic: weights: [bold]; styles: [italic]; strokes: []; fills: [#000000]; fontSizes: [7.0];\n"
 				+ ", StoneSerif: weights: [normal]; styles: []; strokes: []; fills: [#000000]; fontSizes: [10.5, 9.0, 5.85, 7.0, 4.55, 6.0, 3.9];\n"
 				+ ", Universal-GreekwithMathPi: weights: [normal]; styles: []; strokes: [red]; fills: [red]; fontSizes: [7.0];\n"
-				+ ", StoneSerif-Semibold: weights: [bold]; styles: []; strokes: []; fills: [#ffffff]; fontSizes: [12.0, 9.0];\n"
-				+ ", StoneSerif-Italic: weights: [normal]; styles: [italic]; strokes: []; fills: [#000000]; fontSizes: [9.0];\n"
-				+ "]", typefaceSet.toString());
+				+ "]", typefaceList.toString());
 	}
 
 	/** extraction of equations by text style

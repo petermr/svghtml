@@ -233,5 +233,18 @@ public class TypefaceMaps implements Set<Typeface> {
 		Collections.sort(typefaceList);
 		return typefaceSet.toString();
 	}
+
+	public Set<Typeface> getTypefaceSet() {
+		return typefaceSet;
+	}
+	
+	public List<Typeface> getSortedTypefaceList() {
+		List<Typeface> typefaceList = new ArrayList<Typeface>();
+		if (typefaceSet != null) {
+			typefaceList = new ArrayList<Typeface>(typefaceSet);
+			Collections.sort(typefaceList);
+		}
+		return typefaceList;
+	}
 	
 }
