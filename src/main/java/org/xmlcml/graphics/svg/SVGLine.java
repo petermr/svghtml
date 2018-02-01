@@ -499,6 +499,16 @@ public class SVGLine extends SVGShape {
 		return lineList;
 	}
 
+	public static List<SVGLine> findHorizontaLines(List<SVGLine> lines, double eps) {
+		List<SVGLine> lineList = new ArrayList<SVGLine>();
+		for (SVGLine line : lines) {
+			if (line.isHorizontal(eps)) {
+				lineList.add(line);
+			}
+		}
+		return lineList;
+	}
+
 	public void setWidth(double width) {
 		this.addAttribute(new Attribute("stroke-width", String.valueOf(width)));
 	}
