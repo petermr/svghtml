@@ -10,14 +10,14 @@ import java.util.Map;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
+import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
-import org.xmlcml.graphics.svg.SVGPolygon;
+import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGRect;
-import org.xmlcml.graphics.svg.SVGShape;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGTitle;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
@@ -27,6 +27,7 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import com.google.common.collect.Multiset.Entry;
 
 /** collection of fonts, normally created from page/s in document.
  * 
@@ -35,6 +36,8 @@ import com.google.common.collect.Multiset;
  */
 public class StyleRecordSet implements Iterable<StyleRecord> {
 	private static final Logger LOG = Logger.getLogger(StyleRecordSet.class);
+	private static final double YMIN = 50;
+	private static final double YMAX = 750;
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -281,6 +284,8 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 
 	public SVGElement createStyledSVG(List<SVGText> svgTexts) {
 		SVGElement g = new SVGG();
+		Multiset<Integer> xStarts = HashMultiset.create();
+		Multiset<Integer> xEnds = HashMultiset.create();
 		for (SVGText svgText : svgTexts) {
 			String cssStyle = StyleRecord.getCSSStyle(svgText);
 			String content = svgText.getText();
@@ -290,17 +295,40 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 			double strokeWidth = (StyleBundle.BOLD.equals(fontWeight)) ? 1.0 : 0.2;
 			String fill = (StyleBundle.ITALIC.equals(fontStyle)) ? "#ffeeee" : "#ffcccc";
 			Real2Range bbox = svgText.getBoundingBox();
-			SVGShape rect = SVGRect.createFromReal2Range(bbox);
+			SVGRect rect = SVGRect.createFromReal2Range(bbox);
 			rect.setStrokeWidth(strokeWidth);
 			rect.setStroke("black");
 			rect.setFill(fill);
+			xStarts.add((int)(double)bbox.getXMin());
+			xEnds.add((int)(double)bbox.getXMax());
 			int len = Math.min(200, content.length());
 			String title = styleBundle.getFontSize() + "; "+
 			    content.substring(0, len)+"; "+styleBundle.getFontName();
 			rect.appendChild(new SVGTitle(title));
 			g.appendChild(rect);
 		}
+//		List<Entry<Double>> createDoubleListSortedByCount = MultisetUtil.createDoubleListSortedByCount(xStarts);
+//		LOG.debug(createDoubleListSortedByCount);
+		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xStarts), "blue");
+		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xEnds), "green");
 		return g;
+	}
+
+	private void drawWeightedVerticalLines(SVGElement g, List<Multiset.Entry<Integer>> list, String stroke) {
+		if (list.size() > 0) {
+			double scale = 1.0;
+			int commonest = list.get(0).getCount();
+			for (Multiset.Entry<Integer> entry : list) {
+				int count = entry.getCount();
+				if (count > 1) {
+					Integer x = entry.getElement();
+					SVGLine line = new SVGLine(new Real2(x, YMIN), new Real2(x, YMAX));
+					line.setStrokeWidth(scale * (double)count / (double)commonest);
+					line.setStroke(stroke);
+					g.appendChild(line);
+				}
+			}
+		}
 	}
 
 	public Iterator<StyleRecord> iterator() {

@@ -1,7 +1,9 @@
 package org.xmlcml.graphics.svg.fonts;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -118,7 +120,6 @@ public class StyleRecordTest {
 		List<SVGText> svgTexts = SVGText.readSVGFilesAndCreateTexts(indir);
 		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
 		Multiset<String> fontNameSet = cssStyleRecordSet.extractFontNameSet();
-		LOG.debug(fontNameSet);
 		Assert.assertEquals(15, fontNameSet.entrySet().size());
 		Assert.assertEquals(69, fontNameSet.size());
 	}
@@ -241,6 +242,48 @@ public class StyleRecordTest {
 		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
+	}
+
+	/** extraction of equations by text style
+	 * 
+	 */
+	@Test
+	public void testDisplayStylesDocument() {
+		List<File> svgFiles = extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "bmc"));
+		for (File svgFile : svgFiles) {
+			String name = svgFile.getName();
+			LOG.debug(name);
+			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+			SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/bmc/", name));
+		}
+	}
+
+	/** extraction of equations by text style
+	 * 
+	 */
+	@Test
+	public void testDisplayStylesDocument1() {
+		List<File> svgFiles = extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
+		for (File svgFile : svgFiles) {
+			String name = svgFile.getName();
+			LOG.debug(name);
+			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+			SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/varga/compact/", name));
+		}
+	}
+
+	private List<File> extractSVGFiles(File bmcDir) {
+		List<File> svgFiles = new ArrayList<File>(Arrays.asList(bmcDir.listFiles(new FileFilter() {
+			public boolean accept(File pathname) {
+				return pathname.toString().endsWith(".svg");
+			}
+		})));
+		Collections.sort(svgFiles);
+		return svgFiles;
 	}
 
 	@Test
