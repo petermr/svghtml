@@ -77,6 +77,9 @@ public class TextCache extends AbstractCache {
 	}
 	
 	public List<? extends SVGElement> getOrCreateElementList() {
+		if (textList == null) {
+			textList = new ArrayList<SVGText>();
+		}
 		return getTextList();
 	}
 
@@ -153,6 +156,9 @@ public class TextCache extends AbstractCache {
 	public List<SVGText> getOrCreateHorizontalTexts() {
 		if (horizontalTexts == null) {
 			horizontalTexts = SVGText.findHorizontalOrRot90Texts(textList, LineDirection.HORIZONTAL, AnnotatedAxis.EPS);
+			if (horizontalTexts == null) {
+				horizontalTexts = new ArrayList<SVGText>();
+			}
 		}
 		return horizontalTexts;
 	}

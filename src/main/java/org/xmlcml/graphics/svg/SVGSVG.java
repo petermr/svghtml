@@ -127,9 +127,13 @@ public class SVGSVG extends SVGElement {
 	 * 
 	 * */
 	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file) {
-		if (svgg == null) return null;
+		if (svgg == null) {
+			LOG.warn("NULL svgg");
+			return null;
+		}
 		Real2Range bbox = svgg.getBoundingBox();
 		if (bbox == null || !bbox.isValid()) {
+			LOG.trace("NULL bbox");
 			return null;
 		}
 		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);

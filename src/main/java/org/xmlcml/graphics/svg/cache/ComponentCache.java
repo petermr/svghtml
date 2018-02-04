@@ -179,16 +179,13 @@ public class ComponentCache extends AbstractCache {
 	private boolean removeWhitespace = false;
 	private boolean splitAtMove = true;
 	
-	private SVGG extractedSVGElement;
-	List<SVGElement> allElementList;
+	protected SVGG extractedSVGElement;
+	protected List<SVGElement> allElementList;
 	List<Real2Range> boundingBoxList;
 
 	private List<Real2> whitespaceSpixels;
-
 	private double outerBoxEps = 3.0; // outer bbox error
-
 	private TextStructurer textStructurer;
-
 	private List<AbstractCache> cascadingCacheList;
 
 
@@ -219,41 +216,55 @@ public class ComponentCache extends AbstractCache {
 
 	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
 		if (svgElement != null) {
-			this.extractSVGComponentsAndMakeCaches(svgElement);
+			this.originalSvgElement = (SVGElement) svgElement.copy();
+			this.extractedSVGElement = new SVGG();
+			
+			 // is this a good idea? These are clipping boxes. 
+			SVGDefs.removeDefs(this.originalSvgElement);
+			StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(this.originalSvgElement);
+			
+			this.positiveXBox = new Real2Range(new RealRange(-100., 10000), new RealRange(-10., 10000));
+			this.removeEmptyTextElements();
+			this.removeNegativeXorYElements();
+			
+			this.getOrCreateCascadingCaches();
+			this.lineCache.createSpecializedLines();
+			LOG.debug("lines: "+lineCache);
+			LOG.debug("text: "+textCache);
+			
+			this.debugComponentsToSVGFiles();
 		} else {
 			throw new RuntimeException("Null svgElement");
 		}
 	}
 
-	private void extractSVGComponentsAndMakeCaches(SVGElement svgElem) {
-		originalSvgElement = (SVGElement) svgElem.copy();
-		extractedSVGElement = new SVGG();
-		
-		 // is this a good idea? These are clipping boxes. 
-		SVGDefs.removeDefs(originalSvgElement);
-		StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(originalSvgElement);
-		
-		positiveXBox = new Real2Range(new RealRange(-100., 10000), new RealRange(-10., 10000));
-		removeEmptyTextElements();
-		removeNegativeXorYElements();
-		
-		getOrCreateCascadingCaches();
-		lineCache.createSpecializedLines();
+//	private void extractSVGComponentsAndMakeCaches(SVGElement svgElem) {
+//		originalSvgElement = (SVGElement) svgElem.copy();
+//		extractedSVGElement = new SVGG();
+//		
+//		 // is this a good idea? These are clipping boxes. 
+//		SVGDefs.removeDefs(originalSvgElement);
+//		StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(originalSvgElement);
+//		
+//		positiveXBox = new Real2Range(new RealRange(-100., 10000), new RealRange(-10., 10000));
+//		removeEmptyTextElements();
+//		removeNegativeXorYElements();
+//		
+//		getOrCreateCascadingCaches();
+//		lineCache.createSpecializedLines();
+//
+//		debugComponentsToSVGFiles();
+//	}
 
-		debugComponents();
-	}
-
-	private void debugComponents() {
+	private void debugComponentsToSVGFiles() {
 		SVGElement g;
 		SVGG gg = new SVGG();
 		g = this.getOrCreatePathCache().debugToSVG(pathDebug+this.fileRoot+".debug.svg");
 		g.appendChild(new SVGTitle("path"));
-	//		gg.appendChild(g.copy());
 		
 		
 		g = this.imageCache.debugToSVG(imageDebug+this.fileRoot+".debug.svg");
 		g.appendChild(new SVGTitle("image"));
-	//		gg.appendChild(g.copy());
 		
 		g = this.getOrCreateShapeCache().debugToSVG(shapeDebug + fileRoot+".debug.svg");
 		g.appendChild(new SVGTitle("shape"));
@@ -591,8 +602,7 @@ public class ComponentCache extends AbstractCache {
 				addBoxToTotalBox(cache.getBoundingBox());
 			}
 			if (boundingBox == null) {
-				LOG.debug("svg "+(originalSvgElement == null ? "NULL" : originalSvgElement.toXML()));
-				throw new RuntimeException("cannot make bounding box - maybe no primitives");
+				LOG.trace("null BBox (maybe no primitives) "+(originalSvgElement == null ? "NULL" : originalSvgElement.toXML()));
 			}
 		}
 		return boundingBox;
@@ -636,7 +646,8 @@ public class ComponentCache extends AbstractCache {
 			allElementList.addAll(lineCache.getOrCreateElementList()); 
 			// this goes last in case it would be hidden
 			LOG.debug("text: "+allElementList.size());
-			allElementList.addAll(textCache.getOrCreateElementList());
+			List<? extends SVGElement> elementList = textCache.getOrCreateElementList();
+			allElementList.addAll(elementList);
 		}
 		return allElementList;
 	}

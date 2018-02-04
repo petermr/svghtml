@@ -10,14 +10,17 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.Int2Range;
-import org.xmlcml.euclid.IntMatrix;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
 
@@ -29,7 +32,7 @@ import org.xmlcml.graphics.svg.util.SuperPixelArray;
  */
 // @Ignore // too long
 public class PageCacheTest {
-	private static final Logger LOG = Logger.getLogger(PageCacheTest.class);
+	public static final Logger LOG = Logger.getLogger(PageCacheTest.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -222,11 +225,85 @@ public class PageCacheTest {
 	@Test
 	public void testDisplayStyles() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
-		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgElement));
 		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
-		SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
 	}
+	
+	/** extraction of equations by text style
+	 * 
+	 */
+	@Test
+	public void testDisplayPage() {
+		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgElement));
+		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
+		// won't work as we don't have lines till they have gone through the Caches
+		List<SVGLine> lines = SVGLine.extractSelfAndDescendantLines(svgElement);
+		List<SVGLine> lines1 = SVGLine.findHorizontaLines(lines, 0.001);
+		g.appendChildren(lines1);
+		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
+	}
+	
+	/** extraction of equations by text style
+	 * 
+	 */
+	@Test
+	public void testDissectPage() {
+		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
+		File targetDir = new File("target/demos/varga/");
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgElement));
+		Real2Range cropBox = new Real2Range(new RealRange(13, 513), new RealRange(63, 683));
+		Assert.assertEquals("raw", 351, svgTexts.size());
+		List<SVGElement> workingTexts = SVGElement.extractElementsContainedInBox(svgTexts, cropBox);
+		SVGSVG.wrapAndWriteAsSVG(workingTexts, new File(targetDir, "page7cropped.svg"));
+		Assert.assertEquals("cropped", 339, workingTexts.size());
+		// get chunks
+		//this will come from clipping
+		Real2Range cropBoxLeft = new Real2Range(new RealRange(13, 256), new RealRange(63, 683));
+		List<SVGText> leftTexts = SVGText.extractTexts(SVGElement.extractElementsContainedInBox(svgTexts, cropBoxLeft));
+		SVGSVG.wrapAndWriteAsSVG(leftTexts, new File(targetDir, "page7left.svg"));
+		Assert.assertEquals("leftTexts", 98, leftTexts.size());
+		StyleRecordSet leftStyleRecordSet = StyleRecordSet.createStyleRecordSet(leftTexts);
+		List<StyleRecord> sortedStyleRecords = leftStyleRecordSet.createSortedStyleRecords();
+		Assert.assertEquals("styleRecords", 3, sortedStyleRecords.size());
+		// italics
+		Assert.assertEquals("record 0", "chars: total: 25; unique: 6; coords: 4 [523.7, 534.7, 545.7, 655.6]", sortedStyleRecords.get(0).toString());
+		Assert.assertEquals("record 1", "chars: total: 50; unique: 13; coords: 7 ["
+				+ "278.7 x 4, 355.7 x 4, 360.9, 377.7 x 6, 382.9, 388.7 x 2, 421.7 x 4"
+				+ "]", sortedStyleRecords.get(1).toString());
+		Assert.assertEquals("record 2", "chars: total: 2600; unique: 50; coords: 57 [72.7, 83.7, 94.7, 105.7,"
+				+ " 116.7, 127.7, 138.7, 149.7, 160.7, 171.7, 182.7, 193.7, 204.7, 215.7, 226.6, 237.6,"
+				+ " 248.6, 259.6, 270.6, 281.6, 281.7 x 2, 292.7, 303.7, 314.7, 325.7, 336.7, 347.7,"
+				+ " 358.7 x 4, 369.7 x 3, 380.7 x 4, 391.7 x 3, 402.7, 413.7, 424.7 x 3, 435.7, 446.7,"
+				+ " 457.7, 468.7, 479.7, 490.7, 501.7, 512.7, 523.7, 534.7, 545.7 x 2, 556.7, 567.7,"
+				+ " 578.7, 589.6, 600.6, 611.6, 622.6, 633.6, 644.6, 655.6 x 2, 666.6, 677.6]", sortedStyleRecords.get(2).toString());
+		double eps = 0.2;
+		List<RealArray> aps = sortedStyleRecords.get(0).createSortedCompressedYCoordAPList(eps);
+		Assert.assertEquals("[(523.7,534.7,545.7)]",  aps.toString());
+		aps = sortedStyleRecords.get(1).createSortedCompressedYCoordAPList(eps);
+		Assert.assertEquals("[(355.7,360.9), (377.7,382.9)]",  aps.toString());
+		aps = sortedStyleRecords.get(2).createSortedCompressedYCoordAPList(eps);
+		Assert.assertEquals("["
+				+ "(72.7,83.7,94.7,105.7,116.7,127.7,138.7,149.7,160.7,171.7,182.7,193.7,204.7,215.7,"
+				+ "226.6,237.6,248.6,259.6,270.6,281.6,292.7,303.7,314.7,325.7,336.7,347.7,358.7,"
+				+ "369.7,380.7,391.7,402.7,413.7,424.7,435.7,446.7,457.7,468.7,479.7,490.7,501.7,"
+				+ "512.7,523.7,534.7,545.7,556.7,567.7,578.7,589.6,600.6,611.6,622.6,633.6,644.6,655.6,666.6,677.6)]",
+				aps.toString());
+		
+		SVGElement g = leftStyleRecordSet.createStyledTextBBoxes(leftTexts);
+		// won't work as we don't have lines till they have gone through the Caches
+		List<SVGLine> lines = SVGLine.extractSelfAndDescendantLines(svgElement);
+		List<SVGLine> lines1 = SVGLine.findHorizontaLines(lines, 0.001);
+		g.appendChildren(lines1);
+		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "page7leftBoxes.svg"));
+	}
+	
 	
 	
 	// ============================

@@ -1,13 +1,17 @@
 package org.xmlcml.graphics.svg.fonts;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.StyleBundle;
+import org.xmlcml.graphics.svg.cache.PageCacheTest;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
@@ -123,5 +127,24 @@ public class StyleRecord {
 		yCoordinateSet.add(yCoordinate);
 	}
 
+	/** sorted list of child arithmetic progressions.
+	 * split a realArray into a list of sub arrays each of which is an arithmetic progression
+	 * within the tolerance of epsilon.
+	 * 
+	 * the inijtial Ycoordinate array is sorted and compressed to remove "near equivalents"
+	 * (i.e. within epsilon) and then chunked into RealArrays which are APs within epsilon.
+	 * 
+	 * @param epsilon
+	 * @return list of RealArrays ; some could have one element
+	 */
+	public List<RealArray> createSortedCompressedYCoordAPList(double epsilon) {
+		// 
+		List<Double> yCoords = new ArrayList<Double>(getOrCreateYCoordinateSet().elementSet());
+		Collections.sort(yCoords);
+		RealArray realArray = new RealArray(yCoords);
+		realArray = realArray.compressNearNeighbours(epsilon);
+		List<RealArray> aps = realArray.createArithmeticProgressionList(epsilon);
+		return aps;
+	}
 	
 }

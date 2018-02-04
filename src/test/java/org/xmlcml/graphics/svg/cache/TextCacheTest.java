@@ -20,6 +20,10 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	/**
+	 * bug where svgx:char changes, hopefully now fixed.
+	 * 
+	 */
 	@Test
 	public void testAsciiCompact() {
 		ComponentCache componentCache = new ComponentCache();
@@ -32,6 +36,11 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 				"[[3-9]((304.054,534.992))]]", texts.toString());
 
 	}
+	
+	/**
+	 * bug where svgx:char changes, hopefully now fixed.
+	 * 
+	 */
 	@Test
 	public void testCompactBug() {
 		ComponentCache componentCache = new ComponentCache();
@@ -45,6 +54,11 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 				"[[3((304.054,534.992))], [–((309.219,534.992))], [9]((313.718,534.992))]]", texts.toString());
 
 	}
+	
+	/**
+	 * bug where svgx:char changes, hopefully now fixed.
+	 * 
+	 */
 	@Test
 	public void testExtendBug() {
 		ComponentCache componentCache = new ComponentCache();

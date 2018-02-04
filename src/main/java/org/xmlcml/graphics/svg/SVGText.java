@@ -64,6 +64,7 @@ public class SVGText extends SVGElement {
     public static String SUB1 = XMLConstants.S_RCURLY+XMLConstants.S_UNDER;
     public static String SUP1 = XMLConstants.S_RCURLY+XMLConstants.S_CARET;
     
+    public final static Double DEFAULT_FONT_WIDTH = 500.0;
     public final static Double DEFAULT_FONT_WIDTH_FACTOR = 10.0;
     public final static Double MIN_WIDTH = 0.001; // useful for non printing characters
 	private final static Double SCALE1000 = 0.001; // width multiplied by 1000
@@ -105,6 +106,7 @@ public class SVGText extends SVGElement {
 
 	private RealArray xArray;
 	private RealArray yArray;
+	private RealArray fontWidthArray;
 	
 	/** 
 	 * Constructor
@@ -515,15 +517,20 @@ public class SVGText extends SVGElement {
 	public Double getEstimatedHorizontalLength(double fontWidthFactor) {
 		estimatedHorizontallength = Double.NaN;
 		if (xArray != null && yArray != null) {
-			String widthS = SVGUtil.getSVGXAttribute(this, WIDTH);
-			if (widthS == null) {
-				return null;
-			}
-			RealArray widthArray = parseRealArray(widthS);
 			String text = getText();
 			int nchar = xArray.size();
+			// get length from x-coordinates
 			estimatedHorizontallength = xArray.get(nchar - 1) - xArray.get(0);
-			estimatedHorizontallength += widthArray.get(nchar - 1) * 0.001 * this.getFontSize();
+			getSVGXFontWidthArray();
+			Double lastFontWidth = null;
+			if (fontWidthArray == null) {
+				lastFontWidth = xArray.size() > 1 ? xArray.getMean() : DEFAULT_FONT_WIDTH;
+			} else if (fontWidthArray.size() == xArray.size()) {
+				lastFontWidth = fontWidthArray.getLast();
+			} else {
+				lastFontWidth = fontWidthArray.getMean();
+			}
+			estimatedHorizontallength += lastFontWidth * 0.001 * this.getFontSize();
 		} else if (getChildTSpans().size() == 0) {
 			String s = getText();
 			if (s != null) {
@@ -973,11 +980,13 @@ public class SVGText extends SVGElement {
 	 * <p>
 	 * Different to getWidth, which uses "width" attribute and is probably wrong for SVGText.
 	 * 
+	 * NOTE has to deal with arrays of widths in compacted form, so may also need
+	 * getSVGXFontWidthArray().  If multiple values are found returns the first
 	 * @return width (or null)
 	 */
 	public Double getSVGXFontWidth() {
-		String widthS = SVGUtil.getSVGXAttribute(this, WIDTH);
-		return widthS == null ? null : Double.valueOf(widthS); 
+		getSVGXFontWidthArray();
+		return fontWidthArray == null || fontWidthArray.size() == 0 ? null : fontWidthArray.get(0); 
 	}
 	
 	/** 
@@ -990,8 +999,8 @@ public class SVGText extends SVGElement {
 	 * @return width (or null)
 	 */
 	public RealArray getSVGXFontWidthArray() {
-		xArray = parseSingleOrArraySVGXAttribute(SVGElement.WIDTH);
-		return xArray;
+		fontWidthArray = parseSingleOrArraySVGXAttribute(SVGElement.WIDTH);
+		return fontWidthArray;
 	}
 
 	
@@ -1248,8 +1257,10 @@ public class SVGText extends SVGElement {
 	public static List<SVGText> getRotatedTexts(List<SVGText> texts, Angle angle, double eps) {
 		List<SVGElement> elements = SVGElement.getRotatedElementList(texts, angle, eps);
 		List<SVGText> textList = new ArrayList<SVGText>();
-		for (SVGElement element : elements) {
-			textList.add((SVGText) element);
+		if (elements != null) {
+			for (SVGElement element : elements) {
+				textList.add((SVGText) element);
+			}
 		}
 		return textList;
 	}

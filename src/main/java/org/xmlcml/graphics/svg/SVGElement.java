@@ -21,11 +21,14 @@ import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -77,8 +80,6 @@ public class SVGElement extends GraphicsElement {
 
 
 
-	public static final String STROKE_DASHARRAY = "stroke-dasharray";
-
 	private static final Logger LOG = Logger.getLogger(SVGElement.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -88,7 +89,6 @@ public class SVGElement extends GraphicsElement {
 	private static final int EXTRA_TRANSFORM_PRECISION = 2;
 	private static final Double DEFAULT_FONT_SIZE = 8.0;
 
-//	public final static String ALL_ELEMENT_XPATH = "//svg:element";
 	public final static String ALL_ELEMENT_XPATH = "//svg:*";
 
 	public final static String SVG_CLASS = "class";
@@ -108,6 +108,10 @@ public class SVGElement extends GraphicsElement {
 	public final static String YPLUS = "Y";
 	public final static String TITLE = "title";
 	public final static String ID = "id";
+	public static final String SVG = ".svg";
+
+	public static final String STROKE_DASHARRAY = "stroke-dasharray";
+
 
 
 	public final static Set<String> COMMON_ATT_NAMES = new HashSet<String>();
@@ -1502,9 +1506,11 @@ public class SVGElement extends GraphicsElement {
 	 */
 	public static List<SVGElement> getRotatedElementList(List<? extends SVGElement> elements, Angle angle, double eps) {
 		List<SVGElement> filteredList = new ArrayList<SVGElement>();
-		for (SVGElement svgElem : elements) {
-			if (angle.isEqualTo(svgElem.getAngleOfRotation(), eps)) {
-				filteredList.add(svgElem);
+		if (elements != null) {
+			for (SVGElement svgElem : elements) {
+				if (angle.isEqualTo(svgElem.getAngleOfRotation(), eps)) {
+					filteredList.add(svgElem);
+				}
 			}
 		}
 		return filteredList;
@@ -1747,6 +1753,22 @@ public class SVGElement extends GraphicsElement {
 			element.setCSSStyle(cssValue);
 		}
 	}
+
+	/** extract all files with extension *.svg in directory.
+	 * 
+	 * @param dir
+	 * @return
+	 */
+	public static List<File> extractSVGFiles(File dir) {
+		List<File> svgFiles = new ArrayList<File>(Arrays.asList(dir.listFiles(new FileFilter() {
+			public boolean accept(File pathname) {
+				return pathname.toString().endsWith(SVG);
+			}
+		})));
+		Collections.sort(svgFiles);
+		return svgFiles;
+	}
+
 
 
 }

@@ -27,7 +27,6 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
-import com.google.common.collect.Multiset.Entry;
 
 /** collection of fonts, normally created from page/s in document.
  * 
@@ -282,7 +281,7 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 		return fontNameSet;
 	}
 
-	public SVGElement createStyledSVG(List<SVGText> svgTexts) {
+	public SVGElement createStyledTextBBoxes(List<SVGText> svgTexts) {
 		SVGElement g = new SVGG();
 		Multiset<Integer> xStarts = HashMultiset.create();
 		Multiset<Integer> xEnds = HashMultiset.create();
@@ -307,8 +306,6 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 			rect.appendChild(new SVGTitle(title));
 			g.appendChild(rect);
 		}
-//		List<Entry<Double>> createDoubleListSortedByCount = MultisetUtil.createDoubleListSortedByCount(xStarts);
-//		LOG.debug(createDoubleListSortedByCount);
 		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xStarts), "blue");
 		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xEnds), "green");
 		return g;

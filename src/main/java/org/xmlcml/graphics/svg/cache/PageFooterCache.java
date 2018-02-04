@@ -1,0 +1,55 @@
+package org.xmlcml.graphics.svg.cache;
+
+import java.io.File;
+import java.util.List;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGSVG;
+
+public class PageFooterCache extends PageComponentCache {
+	private static final Logger LOG = Logger.getLogger(PageFooterCache.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
+
+	private static Double YPAGE_MAX = 800.;
+	private static Double YMIN = YPAGE_MAX - 100.; // I think this is a good start
+	private Double ymin = null;
+	
+	public PageFooterCache(PageCache pageCache) {
+		ymin = YMIN;
+		setPageCache(pageCache);
+		processCache();
+	}
+
+	private void processCache() {
+		findBottomWhitespace();
+		getSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(svgElement, new File("target/debug/pageFooter"+pageCache.getSerialNumber()+".svg"));
+	}
+
+	private void findBottomWhitespace() {
+		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getOriginalSVGElement());
+		getOrCreateAllElementList();
+
+		for (SVGElement element : elements) {
+			Real2Range bbox = element.getBoundingBox();
+			if (bbox != null && bbox.getYMin() > ymin) {
+				this.allElementList.add(element);
+			}
+		}
+		LOG.debug("BOTTOM "+allElementList.size());
+	}
+	
+	public Double getYmin() {
+		return ymin;
+	}
+	
+	public void setYmin(Double ymin) {
+		this.ymin = ymin;
+	}
+
+}

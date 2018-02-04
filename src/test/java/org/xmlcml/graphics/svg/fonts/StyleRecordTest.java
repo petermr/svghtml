@@ -240,7 +240,7 @@ public class StyleRecordTest {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
 		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
-		SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
 	}
 
@@ -249,56 +249,47 @@ public class StyleRecordTest {
 	 */
 	@Test
 	public void testDisplayStylesDocument() {
-		List<File> svgFiles = extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "bmc"));
+		List<File> svgFiles = SVGElement.extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "bmc"));
 		for (File svgFile : svgFiles) {
 			String name = svgFile.getName();
 			LOG.debug(name);
 			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
 			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
-			SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+			SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/bmc/", name));
 		}
 	}
 
-	/** extraction of equations by text style
+	/** processing a directory of compact SVG.
 	 * 
 	 */
 	@Test
 	public void testDisplayStylesDocument1() {
-		List<File> svgFiles = extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
+		List<File> svgFiles = SVGElement.extractSVGFiles(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
 		for (File svgFile : svgFiles) {
 			String name = svgFile.getName();
 			LOG.debug(name);
 			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
 			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
-			SVGElement g = styleRecordSet.createStyledSVG(svgTexts);
+			SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/varga/compact/", name));
 		}
 	}
 
-	private List<File> extractSVGFiles(File bmcDir) {
-		List<File> svgFiles = new ArrayList<File>(Arrays.asList(bmcDir.listFiles(new FileFilter() {
-			public boolean accept(File pathname) {
-				return pathname.toString().endsWith(".svg");
-			}
-		})));
-		Collections.sort(svgFiles);
-		return svgFiles;
-	}
-
+	/** subset of page containing equations with sub abd superscripts.
+	 * 
+	 */
 	@Test
 	public void testStyleArrays() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
 		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
 		List<StyleRecord> sortedStyles = styleRecordSet.createSortedStyleRecords();
-//		LOG.debug(sortedStyles);
 		for (StyleRecord styleRecord : sortedStyles) {
 			Multiset<Double> yCoordinateSet = styleRecord.getOrCreateYCoordinateSet();
 			List<Double> yCoords = new ArrayList<Double>(yCoordinateSet.elementSet());
 			RealArray yCoordinateArray = new RealArray(yCoords);
 			yCoordinateArray.sortAscending();
-//			LOG.debug(styleRecord.getFontName()+" "+yCoordinateArray);
 			Multiset<Double> diffs = yCoordinateArray.createDoubleDifferenceMultiset(1);
 			LOG.debug(styleRecord.getFontName()+" "+diffs+" "+yCoordinateArray);
 		}

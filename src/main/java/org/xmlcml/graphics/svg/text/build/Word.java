@@ -318,7 +318,7 @@ public class Word extends LineChunk implements Iterable<SVGText> {
 			getOrCreateChildTextList();
 			boundingBox = new Real2Range();
 			RealRange xrange = getStartX() == null || getEndX() == null ? null: new RealRange(getStartX(), getEndX());
-			RealRange yrange = childTextList.get(0).getBoundingBox().getYRange();
+			RealRange yrange = childTextList.size() == 0 ? null : childTextList.get(0).getBoundingBox().getYRange();
 			boundingBox = xrange == null || yrange == null ? null : new Real2Range(xrange, yrange);
 		}
 		return boundingBox;
