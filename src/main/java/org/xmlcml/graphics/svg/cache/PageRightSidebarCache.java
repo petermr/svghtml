@@ -16,7 +16,7 @@ public class PageRightSidebarCache extends PageComponentCache {
 	}
 
 	private static Double XPAGE_MAX = 600.;
-	private static Double XMIN = XPAGE_MAX - 50.; // I think this is a good start
+	private static Double XMIN = XPAGE_MAX - 25.; // I think this is a good start
 	private Double xmin = null;
 	
 	public PageRightSidebarCache(PageCache pageCache) {

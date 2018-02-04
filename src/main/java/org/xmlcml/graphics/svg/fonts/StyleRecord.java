@@ -11,7 +11,6 @@ import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.StyleBundle;
-import org.xmlcml.graphics.svg.cache.PageCacheTest;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
