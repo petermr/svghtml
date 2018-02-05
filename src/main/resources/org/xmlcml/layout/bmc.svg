@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     height="800.0" style="stroke:none;stroke-width:0.0;">
+  <defs>
+    <rect id="doubleColumn" x="0" y="0" width="230" height="560" style="fill:purple;opacity:0.3;"/>
+    <rect id="doubleFloat" x="0" y="0" width="490" height="160" style="fill:orange;opacity:0.3;"/>
+    <rect id="singleFloat" x="0" y="0" width="230" height="200" style="fill:cyan;opacity:0.3;"/>
+  </defs>
+  <g class="document">
+    <g class="titlePage">
+      
+    </g>
+    <g class="page">
+      <g class="header">
+        <rect x="0" y="0" width="600" height="65" style="fill:red;opacity:0.3;"/>
+      </g>
+      <g class="leftSidebar">
+        <rect x="0" y="65" width="20" height="645" style="fill:yellow;opacity:0.3;"/>
+      </g>
+      <g class="rightSidebar">
+        <rect x="582" y="65" width="18" height="645" style="fill:yellow;opacity:0.3;"/>
+      </g>
+      <g class="footer">
+        <rect x="0" y="710" width="600" height="67" style="fill:blue;opacity:0.3;"/>
+      </g>
+      <g class="body">
+        <rect x="20" y="65" width="562" height="645" style="fill:green;opacity:0.3;"/>
+		<!-- double column-->
+		<use xlink:href="#doubleColumn" x="60" y="120"/>
+		<use xlink:href="#doubleColumn" x="320" y="120"/>
+		<!-- floats -->
+		<use xlink:href="#doubleFloat" x="60" y="120"/>
+		<use xlink:href="#singleFloat" x="320" y="480"/>
+		<use xlink:href="#singleFloat" x="60" y="350"/>
+      </g>
+    </g>
+  </g>
+</svg>
