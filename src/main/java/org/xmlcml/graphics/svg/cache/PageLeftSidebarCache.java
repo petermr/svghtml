@@ -16,11 +16,11 @@ public class PageLeftSidebarCache extends PageComponentCache {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	private static Double XMIN = 25.; // I think this is a good start
-	private Double xmin = null;
+	private static Double XMAX = 25.; // I think this is a good start
+	private Double xmax = null;
 	
 	public PageLeftSidebarCache(PageCache pageCache) {
-		xmin = XMIN;
+		xmax = XMAX;
 		setPageCache(pageCache);
 		processCache();
 	}
@@ -37,24 +37,23 @@ public class PageLeftSidebarCache extends PageComponentCache {
 
 		for (SVGElement element : elements) {
 			Real2Range bbox = element.getBoundingBox();
-			if (bbox != null && bbox.getXMax() < xmin) {
-				String s = "";
-				if (element instanceof SVGText) {
-					s = ((SVGText) element).getText();
-				}
-				LOG.debug("LL "+bbox.format(1)+" "+s);
+			if (bbox != null && bbox.getXMax() < xmax) {
+//				String s = "";
+//				if (element instanceof SVGText) {
+//					s = ((SVGText) element).getText();
+//				}
 				this.allElementList.add(element);
 			}
 		}
 		LOG.debug("LEFT "+allElementList.size());
 	}
 	
-	public Double getXmin() {
-		return xmin;
+	public Double getXmax() {
+		return xmax;
 	}
 	
-	public void setXmin(Double xmin) {
-		this.xmin = xmin;
+	public void setXmin(Double xmax) {
+		this.xmax = xmax;
 	}
 
 

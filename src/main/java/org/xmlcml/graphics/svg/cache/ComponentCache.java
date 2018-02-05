@@ -201,14 +201,23 @@ public class ComponentCache extends AbstractCache {
 	public ComponentCache() {
 	}
 
-	public void readGraphicsComponents(File file) throws FileNotFoundException {
+	/** 
+	 * 
+	 * @param file
+	 * @throws RuntimeException if file not found
+	 */
+	public void readGraphicsComponentsAndMakeCaches(File file) throws RuntimeException {
 		this.fileRoot = FilenameUtils.getBaseName(file.getName());
-		readGraphicsComponents(new FileInputStream(file));
+		try {
+			readGraphicsComponentsAndMakeCaches(new FileInputStream(file));
+		} catch (FileNotFoundException e) {
+			throw new RuntimeException(e.getMessage());
+		}
 	}
 	
-	public void readGraphicsComponents(InputStream inputStream) {
+	public void readGraphicsComponentsAndMakeCaches(InputStream inputStream) {
 		if (inputStream == null) {
-			throw new RuntimeException("Null input stream");
+			throw new RuntimeException("Null input stream: "+inputStream);
 		}
 		SVGElement svgElement = SVGUtil.parseToSVGElement(inputStream);
 		readGraphicsComponentsAndMakeCaches(svgElement);

@@ -1,8 +1,10 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.List;
 
+import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Int2Range;
@@ -11,9 +13,9 @@ import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
-import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
+import org.xmlcml.graphics.svg.util.SuperPixelArray;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
@@ -40,6 +42,9 @@ public class PageCache extends ComponentCache {
 	private PageFooterCache footerCache;
 	private PageLeftSidebarCache leftSidebarCache;
 	private PageRightSidebarCache rightSidebarCache;
+	private PageBodyCache bodyCache;
+	private String basename;
+	private SVGElement pageLayoutElement;
 
 	public PageCache() {
 		
@@ -52,31 +57,57 @@ public class PageCache extends ComponentCache {
 	@Override
 	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
 		super.readGraphicsComponentsAndMakeCaches(svgElement);
-		makePageComponentCaches();
+		ensurePageComponentCaches();
 	}
 	
 
-	private void makePageComponentCaches() {
-		makeHeaderCache();
-		makeFooterCache();
-		makeLeftSidebarCache();
-		makeRightSidebarCache();
+	private void ensurePageComponentCaches() {
+		// done in this order so the margins can inform the body size
+		ensureTopBottomLeftRightMarginCaches();
+		// this must be the order at present as body is defined 
+		// by the others
+		getOrCreateBodyCache();
 	}
 
-	private void makeHeaderCache() {
-		headerCache = new PageHeaderCache(this);
+	void ensureTopBottomLeftRightMarginCaches() {
+		getOrCreateHeaderCache();
+		getOrCreateFooterCache();
+		getOrCreateLeftSidebarCache();
+		getOrCreateRightSidebarCache();
 	}
 
-	private void makeFooterCache() {
-		footerCache = new PageFooterCache(this);
+	public void getOrCreateBodyCache() {
+		if (bodyCache == null) {
+			bodyCache = new PageBodyCache(this);
+		}
 	}
 
-	private void makeLeftSidebarCache() {
-		leftSidebarCache = new PageLeftSidebarCache(this);
+	public PageHeaderCache getOrCreateHeaderCache() {
+		if (headerCache == null) {
+			headerCache = new PageHeaderCache(this);
+		}
+		return headerCache;
 	}
 
-	private void makeRightSidebarCache() {
-		rightSidebarCache = new PageRightSidebarCache(this);
+	public PageFooterCache getOrCreateFooterCache() {
+		if (footerCache == null) {
+			footerCache = new PageFooterCache(this);
+		}
+		return footerCache;
+	}
+
+	public PageLeftSidebarCache getOrCreateLeftSidebarCache() {
+		if (leftSidebarCache == null) {
+			leftSidebarCache = new PageLeftSidebarCache(this);
+		}
+		return leftSidebarCache;
+	}
+
+	public PageRightSidebarCache getOrCreateRightSidebarCache() {
+		if (rightSidebarCache == null) {
+			rightSidebarCache = new PageRightSidebarCache(this);
+		}
+		return rightSidebarCache;
 	}
 
 	void createSummaryBoxes() {
@@ -141,6 +172,62 @@ public class PageCache extends ComponentCache {
 		return extractedSVGElement;
 	}
 
-	
+	public SuperPixelArray createSuperpixelArray(File outDir, File svgFile) {
+		basename = getBaseName(svgFile);
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		readGraphicsComponentsAndMakeCaches(svgElement);
+		TextCache textCache = getOrCreateTextCache();
+		textCache.createCompactedTextsAndReplace();
+		Real2Range bbox = Real2Range.createTotalBox(getBoundingBoxList());
+		LOG.debug(">> "+bbox+" "+getBoundingBoxList().size());
+		SuperPixelArray superPixelArray = new SuperPixelArray(new Int2Range(bbox));
+		superPixelArray.setPixels(1, getBoundingBoxList());
+		return superPixelArray;
+	}
+
+	private String getBaseName(File svgFile) {
+		return svgFile == null ? null : FilenameUtils.getBaseName(svgFile.toString());
+	}
+
+	public void setSvgFile(File svgFile) {
+		this.svgFile = svgFile;
+	}
+
+	public File getSvgFile() {
+		return svgFile;
+	}
+
+	public SVGElement getExtractedSVGElement() {
+		return extractedSVGElement;
+	}
+
+	public void readPageLayoutFromResource(String layoutResource) {
+		InputStream is = this.getClass().getResourceAsStream(layoutResource);
+		readPageLayout(is);
+	}
+
+	public void readPageLayout(InputStream is) {
+		SVGElement layout = (SVGElement) SVGElement.readAndCreateSVG(is);
+		setPageLayout(layout);
+	}
+
+	private void setPageLayout(SVGElement layout) {
+		this.pageLayoutElement = layout;
+		ensurePageComponentCaches();
+		this.bodyCache.setBoxLimits();
+		LOG.debug("Body "+bodyCache);
+	}
+
+	public String getBasename() {
+		return basename;
+	}
+
+	public void setBasename(String basename) {
+		this.basename = basename;
+	}
+
+	public SVGElement getPageLayoutElement() {
+		return pageLayoutElement;
+	}
 
 }

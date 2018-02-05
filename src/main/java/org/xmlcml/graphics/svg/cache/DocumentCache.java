@@ -53,12 +53,7 @@ public class DocumentCache extends ComponentCache {
 			LOG.debug("processingPage: "+svgFile);
 			PageCache pageCache = new PageCache(this);
 			pageCache.setSerialNumber(ifile + 1);
-			try {
-				pageCache.readGraphicsComponents(svgFile);
-			} catch (FileNotFoundException e) {
-				LOG.warn("File not found: "+e.getMessage());
-				continue;
-			}
+			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
 			pageCacheList.add(pageCache);
 			pageCache.setSVGFile(svgFile);
 		}
