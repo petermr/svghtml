@@ -27,7 +27,7 @@ public class SVGCacheTest {
 		String fileRoot = "10.1186_s12885-016-2685-3_page7";
 		ComponentCache cache = new ComponentCache();
 		File inputSVGFile = new File(SVGHTMLFixtures.FIGURE_DIR, fileRoot+".svg");
-		cache.readGraphicsComponents(inputSVGFile);
+		cache.readGraphicsComponentsAndMakeCaches(inputSVGFile);
 		List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
 		displayBoxes(new File("target/plot/debug"), cache, fileRoot, boundingBoxes, "pink");
 		
@@ -40,7 +40,7 @@ public class SVGCacheTest {
 		ComponentCache cache = new ComponentCache();
 		File inputSVGFile = new File(SVGHTMLFixtures.FIGURE_DIR, fileRoot+".svg");
 //		store.setPlotDebug(new File("target/plots/", name+"/"));
-		cache.readGraphicsComponents(inputSVGFile);
+		cache.readGraphicsComponentsAndMakeCaches(inputSVGFile);
 		List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
 		displayBoxes(new File("target/plot/debug"), cache, fileRoot, boundingBoxes, "pink");
 	}
@@ -54,7 +54,7 @@ public class SVGCacheTest {
 			if (file.toString().endsWith(".svg")) {
 				ComponentCache cache = new ComponentCache();
 				String root = FilenameUtils.getBaseName(file.toString());
-				cache.readGraphicsComponents(file);
+				cache.readGraphicsComponentsAndMakeCaches(file);
 				List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
 				displayBoxes(new File("target/plot/debug/"), cache, root, boundingBoxes, "pink");
 
@@ -71,7 +71,7 @@ public class SVGCacheTest {
 			if (file.toString().endsWith(".svg")) {
 				ComponentCache cache = new ComponentCache();
 				String root = FilenameUtils.getBaseName(file.toString());
-				cache.readGraphicsComponents(file);
+				cache.readGraphicsComponentsAndMakeCaches(file);
 				List<Real2Range> imageBoxes = cache.getImageBoxes();
 				displayBoxes(new File("target/plot/debug/images/"), cache, root, imageBoxes, "mauve");
 			}
@@ -89,7 +89,7 @@ public class SVGCacheTest {
 				if (svgFile.toString().endsWith(".svg")) {
 					String root = FilenameUtils.getBaseName(svgFile.toString());
 					ComponentCache cache = new ComponentCache();
-					cache.readGraphicsComponents(svgFile);
+					cache.readGraphicsComponentsAndMakeCaches(svgFile);
 					List<Real2Range> boundingBoxes = cache.getMergedBoundingBoxes(2.0);
 					if (boundingBoxes.size() > 0) {
 						displayBoxes(new File("target/plot/debug/table/"+base+"/"), cache, root, boundingBoxes, "green");
@@ -104,7 +104,7 @@ public class SVGCacheTest {
 		File file = new File(SVGHTMLFixtures.PLOT_DIR, "tilburgVectors/10.1186_s13027-016-0058-9_1.svg");
 		ComponentCache cache = new ComponentCache();
 		String root = FilenameUtils.getBaseName(file.toString());
-		cache.readGraphicsComponents(file);
+		cache.readGraphicsComponentsAndMakeCaches(file);
 //		displayBoxes(new File("target/plot/debug/images/"), store, root, imageBoxes, "mauve");
 	}
 

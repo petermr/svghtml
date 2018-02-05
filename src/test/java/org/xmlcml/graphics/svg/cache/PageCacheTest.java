@@ -193,19 +193,11 @@ public class PageCacheTest {
 				recto = !recto;
 				verso = !verso;
 				System.out.print(".");
-				String basename = FilenameUtils.getBaseName(svgFile.toString());
-				SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 				PageCache pageCache = new PageCache();
-				pageCache.readGraphicsComponentsAndMakeCaches(svgElement);
-				TextCache textCache = pageCache.getOrCreateTextCache();
-				textCache.createCompactedTextsAndReplace();
-				Real2Range bbox = Real2Range.createTotalBox(pageCache.getBoundingBoxList());
-				LOG.debug(">> "+bbox+" "+pageCache.getBoundingBoxList().size());
-				SuperPixelArray superPixelArray = new SuperPixelArray(new Int2Range(bbox));
-				superPixelArray.setPixels(1, pageCache.getBoundingBoxList());
-				
+				pageCache.setSvgFile(svgFile);
+				SuperPixelArray superPixelArray = pageCache.createSuperpixelArray(outDir, svgFile);
 				SVGG g = new SVGG();
-				superPixelArray.draw(g, new File(outDir, basename+".superPixels.svg"));
+				superPixelArray.draw(g, new File(outDir, pageCache.getBasename()+".superPixels.svg"));
 				if (verso) {
 					versoPixelArray = superPixelArray.plus(versoPixelArray);
 				}
@@ -253,7 +245,7 @@ public class PageCacheTest {
 	 * 
 	 */
 	@Test
-	public void testDissectPage() {
+	public void testDissectMainPage() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		File targetDir = new File("target/demos/varga/");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
@@ -303,8 +295,6 @@ public class PageCacheTest {
 		g.appendChildren(lines1);
 		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "page7leftBoxes.svg"));
 	}
-	
-	
 	
 	// ============================
 	

@@ -190,7 +190,7 @@ public class ComponentCacheTest {
 					LOG.debug(baseName);
 					row.add(filename);
 					ComponentCache cache = new ComponentCache();
-					cache.readGraphicsComponents(svgFile);
+					cache.readGraphicsComponentsAndMakeCaches(svgFile);
 					TextCache textCache = cache.getOrCreateTextCache();
 					textCache.createCompactedTextsAndReplace();
 					SVGG g = new SVGG();
