@@ -172,7 +172,7 @@ public abstract class AbstractPlotBox {
 		fileRoot = inputFile.getName();
 		componentCache = new ComponentCache(this);
 		try {
-			componentCache.readGraphicsComponents(new FileInputStream(inputFile));
+			componentCache.readGraphicsComponentsAndMakeCaches(new FileInputStream(inputFile));
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot read inputFile", e);
 		}
