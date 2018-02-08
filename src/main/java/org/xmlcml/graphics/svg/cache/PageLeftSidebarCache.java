@@ -6,9 +6,9 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.SVGText;
 
 public class PageLeftSidebarCache extends PageComponentCache {
 	private static final Logger LOG = Logger.getLogger(PageLeftSidebarCache.class);
@@ -17,6 +17,8 @@ public class PageLeftSidebarCache extends PageComponentCache {
 	}
 
 	private static Double XMAX = 25.; // I think this is a good start
+	private static String ORANGE = "orange";
+	
 	private Double xmax = null;
 	
 	public PageLeftSidebarCache(PageCache pageCache) {
@@ -48,13 +50,18 @@ public class PageLeftSidebarCache extends PageComponentCache {
 		LOG.debug("LEFT "+allElementList.size());
 	}
 	
-	public Double getXmax() {
+	public Double getXMax() {
 		return xmax;
 	}
 	
-	public void setXmin(Double xmax) {
+	public void setXMax(Double xmax) {
 		this.xmax = xmax;
+		this.boundingBox = new Real2Range(new RealRange(0, this.xmax), 
+				new RealRange(pageCache.getOrCreateHeaderCache().getYMax(), pageCache.getOrCreateFooterCache().getYMin()));
 	}
 
+	public String getFill() {
+		return ORANGE;
+	}
 
 }

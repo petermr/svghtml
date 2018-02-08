@@ -247,24 +247,6 @@ public class ComponentCache extends AbstractCache {
 		}
 	}
 
-//	private void extractSVGComponentsAndMakeCaches(SVGElement svgElem) {
-//		originalSvgElement = (SVGElement) svgElem.copy();
-//		extractedSVGElement = new SVGG();
-//		
-//		 // is this a good idea? These are clipping boxes. 
-//		SVGDefs.removeDefs(originalSvgElement);
-//		StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(originalSvgElement);
-//		
-//		positiveXBox = new Real2Range(new RealRange(-100., 10000), new RealRange(-10., 10000));
-//		removeEmptyTextElements();
-//		removeNegativeXorYElements();
-//		
-//		getOrCreateCascadingCaches();
-//		lineCache.createSpecializedLines();
-//
-//		debugComponentsToSVGFiles();
-//	}
-
 	private void debugComponentsToSVGFiles() {
 		SVGElement g;
 		SVGG gg = new SVGG();
@@ -286,7 +268,6 @@ public class ComponentCache extends AbstractCache {
 		SVGSVG.wrapAndWriteAsSVG(gg, new File(plotDebug, fileRoot+".debug.svg"));
 	}
 
-	
 	public PathCache getOrCreatePathCache() {
 		if (pathCache == null) {
 			this.pathCache = new PathCache(this);
@@ -318,6 +299,7 @@ public class ComponentCache extends AbstractCache {
 	public ShapeCache getOrCreateShapeCache() {
 		if (shapeCache == null) {
 			shapeCache = new ShapeCache(this);
+			pathCache = getOrCreatePathCache();
 			List<SVGPath> currentPathList = this.pathCache.getCurrentPathList();
 			this.getOrCreateShapeCache().extractShapes(currentPathList, originalSvgElement);
 			List<SVGShape> shapeList = shapeCache.getOrCreateConvertedShapeList();

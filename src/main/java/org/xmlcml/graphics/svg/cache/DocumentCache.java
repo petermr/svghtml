@@ -2,6 +2,7 @@ package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +11,8 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.util.CMFileUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.svg.SVGSVG;
 
 /** manages a complete document of several pages.
  * NYI
@@ -22,12 +25,20 @@ public class DocumentCache extends ComponentCache {
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	public static final String DOT_SVG = ".svg";
+	public static final String FULLTEXT_PAGE = "fulltext-page";
+
 	private File svgDir;
 	private SVGElement totalSvgElement;
 	private boolean createSummaryBoxes;
 	private List<File> svgFiles;
 	private List<PageCache> pageCacheList;
-	
+
+	private PageLayout frontPageLayout;
+	private PageLayout middlePageLayout;
+	private PageLayout backPageLayout;
+	private PageLayout currentPageLayout;
+
 	public DocumentCache() {
 		
 	}
@@ -58,6 +69,21 @@ public class DocumentCache extends ComponentCache {
 			pageCache.setSVGFile(svgFile);
 		}
 		summarizePages();
+	}
+
+	public void analyzePages(String pubstyle, int npages, String fileDir, File targetDir) {
+		makePageLayouts(pubstyle);
+		for (int ipage = 1; ipage <= npages; ipage++) {
+			PageCache pageCache = new PageCache(this);
+			currentPageLayout = getCurrentPageLayout(npages, ipage);
+			pageCache.setPageLayout(currentPageLayout);
+			File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
+			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
+			pageCache.readPageLayoutAndMakeBBoxesAndMargins(currentPageLayout);
+			pageCache.createSummaryBoxes(svgFile);
+			SVGElement boxes = pageCache.createSVGElementFromComponents();
+			SVGSVG.wrapAndWriteAsSVG(boxes, new File(targetDir, fileDir+"/fulltext-page" + ipage + DocumentCache.DOT_SVG));
+		}
 	}
 
 	private void summarizePages() {
@@ -105,5 +131,28 @@ public class DocumentCache extends ComponentCache {
 	public SVGElement getTotalSvgElement() {
 		return totalSvgElement;
 	}
+	
+	private void makePageLayouts(String pubstyle) {
+		InputStream frontInputStream = getClass().getResourceAsStream(pubstyle+PageLayout.FRONT+PageLayout.DOT_SVG);
+		this.frontPageLayout = PageLayout.readPageLayoutFromStream(frontInputStream);
+		InputStream middleInputStream = getClass().getResourceAsStream(pubstyle+PageLayout.MIDDLE+PageLayout.DOT_SVG);
+		this.middlePageLayout = PageLayout.readPageLayoutFromStream(middleInputStream);
+		InputStream backInputStream = getClass().getResourceAsStream(pubstyle+PageLayout.BACK+PageLayout.DOT_SVG);
+		this.backPageLayout = PageLayout.readPageLayoutFromStream(backInputStream);
+	}
+	
+	private PageLayout getCurrentPageLayout(int npages, int i) {
+		PageLayout pageLayout = null;
+		if (i == 1 && frontPageLayout != null) {
+			pageLayout = frontPageLayout;
+		} else if (i == npages && backPageLayout != null) {
+			pageLayout = backPageLayout;
+		} else {
+			pageLayout = middlePageLayout;
+		}
+		return pageLayout;
+	}
+
+
 
 }

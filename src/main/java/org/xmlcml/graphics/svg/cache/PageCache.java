@@ -33,6 +33,9 @@ public class PageCache extends ComponentCache {
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	
+	public final static Double DEFAULT_XMAX = 600.0;
+	public final static Double DEFAULT_YMAX = 800.0;
 
 	private File svgFile;
 	private int serialNumber;
@@ -42,12 +45,12 @@ public class PageCache extends ComponentCache {
 	private PageFooterCache footerCache;
 	private PageLeftSidebarCache leftSidebarCache;
 	private PageRightSidebarCache rightSidebarCache;
-	private PageBodyCache bodyCache;
+	private PageComponentCache bodyCache;
 	private String basename;
-	private SVGElement pageLayoutElement;
+	private List<SVGRect> rectsList;
+	private PageLayout pageLayout;
 
 	public PageCache() {
-		
 	}
 	
 	public PageCache(DocumentCache documentCache) {
@@ -110,9 +113,14 @@ public class PageCache extends ComponentCache {
 		return rightSidebarCache;
 	}
 
-	void createSummaryBoxes() {
+	void createSummaryBoxes(File svgFile) {
+		this.svgFile = svgFile;
 		Multiset<Int2Range> intBoxes1 = HashMultiset.create();
 //		this.processPages(svgFiles, intBoxes1);
+		SVGElement boxg = this.getStyledBoxes(intBoxes1);
+		// DEBUG this
+		LOG.debug("DEBUG HERE");
+		getOrCreateExtractedSVGElement().appendChild(boxg);
 		Multiset<Int2Range> intBoxes = intBoxes1;
 		List<Multiset.Entry<Int2Range>> sortedIntBoxes1 = MultisetUtil.createInt2RangeListSortedByCount(intBoxes);
 		for (Multiset.Entry<Int2Range> box : sortedIntBoxes1) {
@@ -127,9 +135,7 @@ public class PageCache extends ComponentCache {
 		}
 	}
 
-	private void processPage(Multiset<Int2Range> intBoxes, File svgFile) {
-		String name = svgFile.getName();
-		LOG.debug(name);
+	private SVGElement getStyledBoxes(Multiset<Int2Range> intBoxes) {
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
 		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
@@ -138,8 +144,8 @@ public class PageCache extends ComponentCache {
 			Int2Range intBox = new Int2Range(box.getBoundingBox());
 			intBoxes.add(intBox);
 		}
+		return g;
 	}
-	
 
 	public void setSerialNumber(int serial) {
 		this.serialNumber = serial;
@@ -201,21 +207,16 @@ public class PageCache extends ComponentCache {
 		return extractedSVGElement;
 	}
 
-	public void readPageLayoutFromResource(String layoutResource) {
-		InputStream is = this.getClass().getResourceAsStream(layoutResource);
-		readPageLayout(is);
-	}
-
-	public void readPageLayout(InputStream is) {
-		SVGElement layout = (SVGElement) SVGElement.readAndCreateSVG(is);
-		setPageLayout(layout);
-	}
-
-	private void setPageLayout(SVGElement layout) {
-		this.pageLayoutElement = layout;
+	void readPageLayoutAndMakeBBoxesAndMargins(PageLayout pageLayout) {
 		ensurePageComponentCaches();
-		this.bodyCache.setBoxLimits();
-		LOG.debug("Body "+bodyCache);
+		bodyCache.boundingBox = pageLayout.getBodyLimits();
+		LOG.debug("body "+bodyCache.boundingBox);
+		this.headerCache.setYMax(bodyCache.boundingBox.getYMin());
+		this.footerCache.setYMin(bodyCache.boundingBox.getYMax());
+		this.leftSidebarCache.setXMax(bodyCache.boundingBox.getXMin());
+		this.rightSidebarCache.setXMin(bodyCache.boundingBox.getXMax());
+		rectsList = pageLayout.getRectList(PageLayout.BODY);
+		LOG.debug("page ***** "+this);
 	}
 
 	public String getBasename() {
@@ -226,8 +227,40 @@ public class PageCache extends ComponentCache {
 		this.basename = basename;
 	}
 
-	public SVGElement getPageLayoutElement() {
-		return pageLayoutElement;
+
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("body: "+bodyCache.toString()+"\n");
+		sb.append("header: "+headerCache.toString()+"\n");
+		sb.append("footer: "+footerCache.toString()+"\n");
+		sb.append("left: "+leftSidebarCache.toString()+"\n");
+		sb.append("right: "+rightSidebarCache.toString()+"\n");
+		return sb.toString();
+	}
+
+	public SVGElement createSVGElementFromComponents() {
+		SVGElement g = new SVGG();
+		addElementAndChildren(g, bodyCache);
+		addElementAndChildren(g,headerCache);
+		addElementAndChildren(g,footerCache);
+		addElementAndChildren(g,leftSidebarCache);
+		addElementAndChildren(g,rightSidebarCache);
+		g.appendChild(originalSvgElement.copy());
+		for (SVGRect rect : rectsList) {
+			g.appendChild(rect.copy());
+		}
+		return g;
+	}
+
+	private void addElementAndChildren(SVGElement g, PageComponentCache cache) {
+		g.appendChild(cache.getSVGElement().copy());
+		for (SVGElement element : cache.getOrCreateAllElementList()) {
+			g.appendChild(element.copy());
+		}
+	}
+
+	public void setPageLayout(PageLayout pageLayout) {
+		this.pageLayout = pageLayout;
 	}
 
 }

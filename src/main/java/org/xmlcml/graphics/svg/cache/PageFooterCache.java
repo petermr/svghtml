@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGSVG;
 
@@ -17,6 +18,8 @@ public class PageFooterCache extends PageComponentCache {
 
 	private static Double YPAGE_MAX = 800.;
 	private static Double YMIN = YPAGE_MAX - 100.; // I think this is a good start
+	private static String BLUE = "blue";
+	
 	private Double ymin = null;
 	
 	public PageFooterCache(PageCache pageCache) {
@@ -44,12 +47,17 @@ public class PageFooterCache extends PageComponentCache {
 		LOG.debug("BOTTOM "+allElementList.size());
 	}
 	
-	public Double getYmin() {
+	public Double getYMin() {
 		return ymin;
 	}
 	
-	public void setYmin(Double ymin) {
+	public void setYMin(Double ymin) {
 		this.ymin = ymin;
+		this.boundingBox = new Real2Range(new RealRange(0, PageCache.DEFAULT_XMAX), new RealRange(ymin, PageCache.DEFAULT_YMAX));
+	}
+
+	public String getFill() {
+		return BLUE;
 	}
 
 }
