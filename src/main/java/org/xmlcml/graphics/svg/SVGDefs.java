@@ -78,17 +78,17 @@ public class SVGDefs extends SVGElement {
 	}
 
 	public static void removeDefs(SVGElement svgElement) {
-		List<SVGDefs> defsList = extractSelfAndDescendantRects(svgElement);
+		List<SVGDefs> defsList = extractSelfAndDescendantDefs(svgElement);
 		for (SVGDefs defs : defsList) {
 			defs.detach();
 		}
 	}
 	
-	public static List<SVGDefs> extractSelfAndDescendantRects(SVGElement svgElem) {
+	public static List<SVGDefs> extractSelfAndDescendantDefs(SVGElement svgElem) {
 		return SVGDefs.extractDefss(SVGUtil.getQuerySVGElements(svgElem, ALL_DEFS_XPATH));
 	}
 
-	/** makes a new list composed of the rects in the list
+	/** makes a new list composed of the defs in the list
 	 * 
 	 * @param elements
 	 * @return

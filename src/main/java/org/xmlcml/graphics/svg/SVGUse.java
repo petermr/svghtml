@@ -16,6 +16,9 @@
 
 package org.xmlcml.graphics.svg;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 
@@ -103,5 +106,21 @@ public class SVGUse extends SVGElement {
 		return null;
 	}
 	
+	/** makes a new list composed of the use elements in the list
+	 * 
+	 * @param elements
+	 * @return
+	 */
+	public static List<SVGUse> extractUses(List<SVGElement> elements) {
+		List<SVGUse> useList = new ArrayList<SVGUse>();
+		for (SVGElement element : elements) {
+			if (element instanceof SVGUse) {
+				useList.add((SVGUse) element);
+			}
+		}
+		return useList;
+	}
+	
+
 
 }
