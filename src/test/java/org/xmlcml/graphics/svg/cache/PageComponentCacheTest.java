@@ -5,7 +5,6 @@ import java.io.File;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 
 /** tests all page companents (Top, Bottom, etc.).
  * May change later
@@ -18,13 +17,5 @@ public class PageComponentCacheTest {
 		LOG.setLevel(Level.DEBUG);
 	}
 
-	@Test 
-	public void testPageComponents() {
-		File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact/fulltext-page2.svg");
-		PageCache pageCache = new PageCache();
-		pageCache.readPageLayoutFromResource(PageLayout.BMC);
-		
-		pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
-	}
 	
 }

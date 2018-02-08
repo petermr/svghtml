@@ -30,4 +30,14 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 		LOG.debug("wrote: "+file.getAbsolutePath());
 		SVGSVG.wrapAndWriteAsSVG(g, file);
 	}
+	
+	@Test 
+	public void testPageComponents() {
+		
+		DocumentCache documentCache = new DocumentCache();
+//		documentCache.analyzePages(PageLayout.AMSOCGENE, 9, "varga/compact/", new File("target/cache"));
+//		documentCache.analyzePages(PageLayout.BMC, 8, "bmc/1471-2148-11-329/", new File("target/cache"));
+		documentCache.analyzePages(PageLayout.PLOSONE2016, 15, "TimmermansPLOS/", new File("target/cache"));
+	}
+
 }

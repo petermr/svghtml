@@ -148,7 +148,7 @@ public class SVGElementTest {
 		RealRangeArray maskRef = new RealRangeArray();
 		maskRef.add(new RealRange(0., 30.));
 		maskRef.add(new RealRange(40., 55.));
-		Assert.assertEquals("create mask", maskRef, mask);
+		Assert.assertEquals("create mask", maskRef.toString(), mask.toString());
 	 }
 
 	/**
@@ -170,7 +170,7 @@ public class SVGElementTest {
 		maskRef = new RealRangeArray();
 		maskRef.add(new RealRange(-1.0, 31.));
 		maskRef.add(new RealRange(39., 56.));
-		Assert.assertEquals("create mask", maskRef, mask);
+		Assert.assertEquals("create mask", maskRef.toString(), mask.toString());
 	 }
 
 	@Test
