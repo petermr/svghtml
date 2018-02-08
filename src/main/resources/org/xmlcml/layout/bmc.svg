@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600.0"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      height="800.0" style="stroke:none;stroke-width:0.0;">
-     <!-- American Society for Gene Therapy -->
+     <!-- BMC BiomedCentral -->
   <defs>
     <rect id="doubleColumn" x="0" y="0" width="230" height="560" style="fill:purple;opacity:0.3;"/>
     <rect id="doubleFloat" x="0" y="0" width="490" height="160" style="fill:orange;opacity:0.3;"/>
@@ -12,25 +12,11 @@
       
     </g>
     <g class="page">
-    <!--
-      <g class="header">
-        <rect x="0" y="0" width="600" height="65" style="fill:red;opacity:0.3;"/>
-      </g>
-      <g class="leftSidebar">
-        <rect x="0" y="65" width="18" height="645" style="fill:yellow;opacity:0.3;"/>
-      </g>
-      <g class="rightSidebar">
-        <rect x="582" y="65" width="18" height="645" style="fill:yellow;opacity:0.3;"/>
-      </g>
-      <g class="footer">
-        <rect x="0" y="710" width="600" height="67" style="fill:blue;opacity:0.3;"/>
-      </g>
-		-->
       <g class="body">
 	  <!-- height varies slightly between pages
 	  page 1 double column fits -->
 	  
-        <rect x="12" y="40" width="502" height="658" style="fill:green;opacity:0.3;"/>
+        <rect x="55" y="50" width="485" height="682" style="fill:green;opacity:0.3;"/>
 		<!-- double column-->
 		<use xlink:href="#doubleColumn" x="60" y="120"/>
 		<use xlink:href="#doubleColumn" x="320" y="120"/>
