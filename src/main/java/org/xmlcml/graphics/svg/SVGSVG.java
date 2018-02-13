@@ -133,7 +133,7 @@ public class SVGSVG extends SVGElement {
 		}
 		Real2Range bbox = svgg.getBoundingBox();
 		if (bbox == null || !bbox.isValid()) {
-			LOG.trace("NULL bbox");
+			LOG.warn("NULL bbox: "+bbox+" // "+svgg.toXML());
 			return null;
 		}
 		return wrapAndWriteAsSVG(svgg, file, bbox.getXMax() + BBOX_MARGIN_X, bbox.getYMax() + BBOX_MARGIN_Y);

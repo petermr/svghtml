@@ -1,19 +1,15 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.eclipse.jetty.util.log.Log;
-import org.junit.Assert;
 import org.xmlcml.euclid.util.CMFileUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
-import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
 
 /** manages a complete document of several pages.
@@ -75,12 +71,12 @@ public class DocumentCache extends ComponentCache {
 		summarizePages();
 	}
 
-	public void analyzePages(String pubstyle, int npages, String fileDir, File targetDir) {
+	public void analyzePages(File pageDir, String pubstyle, int npages, String fileDir, File targetDir) {
 		makePageLayouts(pubstyle);
 		this.setPageCount(npages);
 		for (int ipage = 1; ipage <= npages; ipage++) {
 			PageCache pageCache = new PageCache(this);
-			SVGElement boxes = debugPage(fileDir, ipage, pageCache);
+			SVGElement boxes = debugPage(pageDir, fileDir, ipage, pageCache);
 			File outFileSVG = new File(targetDir, fileDir+"/fulltext-page" + ipage + DocumentCache.DOT_SVG);
 			LOG.debug("out "+outFileSVG);
 			SVGSVG.wrapAndWriteAsSVG(boxes, outFileSVG);
@@ -91,10 +87,10 @@ public class DocumentCache extends ComponentCache {
 		this.npages = npages;
 	}
 
-	private SVGElement debugPage(String fileDir, int ipage, PageCache pageCache) {
+	private SVGElement debugPage(File pageDir, String fileDir, int ipage, PageCache pageCache) {
 		currentPageLayout = getCurrentPageLayout(ipage);
 		pageCache.setPageLayout(currentPageLayout);
-		File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
+		File svgFile = new File(pageDir, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
 		pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
 		pageCache.readPageLayoutAndMakeBBoxesAndMargins(currentPageLayout);
 		SVGElement boxg = pageCache.createSummaryBoxes(svgFile);
