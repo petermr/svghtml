@@ -70,8 +70,9 @@ public abstract class AbstractAnimate extends SVGElement {
 		this.addAttribute(new Attribute(TO, to));
 	}
 	
-	public void setFill(String freeze) {
+	public GraphicsElement setFill(String freeze) {
 		this.addAttribute(new Attribute(FILL, freeze));
+		return this;
 	}
 	public void setX(double to, double from) {
 		setFromTo(X, to, from);

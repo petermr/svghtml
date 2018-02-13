@@ -281,8 +281,9 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param fill the fill to set
 	 */
-	public void setFill(String fill) {
+	public GraphicsElement setFill(String fill) {
 		setSubStyle(StyleBundle.FILL, fill);
+		return this;
 	}
 
 	/**
@@ -295,8 +296,9 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param stroke the stroke to set
 	 */
-	public void setStroke(String stroke) {
+	public GraphicsElement setStroke(String stroke) {
 		setSubStyle(StyleBundle.STROKE, stroke);
+		return this;
 	}
 
 	/**
@@ -309,8 +311,9 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param fontFamily the font to set
 	 */
-	public void setFontFamily(String fontFamily) {
+	public GraphicsElement setFontFamily(String fontFamily) {
 		setSubStyle(StyleBundle.FONT_FAMILY, fontFamily);
+		return this;
 	}
 
 	/**
@@ -323,15 +326,17 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param fontStyle the font style to set
 	 */
-	public void setFontStyle(String fontStyle) {
+	public GraphicsElement setFontStyle(String fontStyle) {
 		setSubStyle(StyleBundle.FONT_STYLE, fontStyle);
+		return this;
 	}
 
 	/**
 	 * @param fontStyle the font style to set
 	 */
-	public void setFontStyle(FontStyle fontStyle) {
+	public GraphicsElement setFontStyle(FontStyle fontStyle) {
 		this.setFontStyle(fontStyle == null ? null : fontStyle.toString().toLowerCase());
+		return this;
 	}
 
 	/**
@@ -344,15 +349,18 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param fontWeight the font weight to set
 	 */
-	public void setFontWeight(String fontWeight) {
+	public GraphicsElement setFontWeight(String fontWeight) {
 		setSubStyle(StyleBundle.FONT_WEIGHT, fontWeight);
+		return this;
 	}
 
 	/**
 	 * @param fontWeight the font weight to set
 	 */
-	public void setFontWeight(FontWeight fontWeight) {
+	public GraphicsElement setFontWeight(FontWeight fontWeight) {
 		setFontWeight((fontWeight == null) ? null : fontWeight.toString().toLowerCase());
+		return this;
+
 	}
 
 	/**
@@ -366,8 +374,9 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param opacity the opacity to set
 	 */
-	public void setOpacity(double opacity) {
+	public GraphicsElement setOpacity(double opacity) {
 		setSubStyle(StyleBundle.OPACITY, getDouble(opacity));
+		return this;
 	}
 
 	/**
@@ -381,8 +390,10 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param strokeWidth the stroke width to set
 	 */
-	public void setStrokeWidth(Double strokeWidth) {
+	public GraphicsElement setStrokeWidth(Double strokeWidth) {
 		setSubStyle(StyleBundle.STROKE_WIDTH, getDouble(strokeWidth));
+		return this;
+
 	}
 	
 	public String getStrokeDashArray() {
@@ -390,10 +401,11 @@ public class GraphicsElement extends Element implements SVGConstants {
 		return (dashes == null ? null : dashes.toString());
 	}
 
-	public void setStrokeDashArray(String dashArray) {
+	public GraphicsElement setStrokeDashArray(String dashArray) {
 		setSubStyle(StyleBundle.DASHARRAY, dashArray);
 		addAttribute(new Attribute(StyleBundle.DASHARRAY, dashArray));
 		LOG.trace("DASH "+dashArray);
+		return this;
 	}
 
 	/**
@@ -406,7 +418,7 @@ public class GraphicsElement extends Element implements SVGConstants {
 	/**
 	 * @param fontSize the font size to set
 	 */
-	public void setFontSize(Double fontSize) {
+	public GraphicsElement setFontSize(Double fontSize) {
 		if (fontSize == null) {
 			setSubStyle(StyleBundle.FONT_SIZE, null);
 			Attribute fontSizeAttribute = this.getAttribute(StyleBundle.FONT_SIZE);
@@ -416,6 +428,7 @@ public class GraphicsElement extends Element implements SVGConstants {
 		} else {
 			setSubStyle(StyleBundle.FONT_SIZE, new Double(fontSize));
 		}
+		return this;
 	}
 
 	private Double getDouble(Object subStyle) {

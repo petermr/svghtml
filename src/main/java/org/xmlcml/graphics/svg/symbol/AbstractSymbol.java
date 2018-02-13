@@ -2,6 +2,7 @@ package org.xmlcml.graphics.svg.symbol;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.graphics.svg.GraphicsElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 
@@ -101,9 +102,10 @@ public abstract class AbstractSymbol extends SVGG {
 	 * Do not allow separate stroke.
 	 * 
 	 */
-	public void setFill(String fill) {
+	public GraphicsElement setFill(String fill) {
 		super.setFill(fill);
 		super.setStroke(null);
+		return this;
 	}
 
 	@Override
@@ -112,8 +114,9 @@ public abstract class AbstractSymbol extends SVGG {
 	 * Do not allow separate stroke.
 	 * 
 	 */
-	public void setStroke(String stroke) {
+	public GraphicsElement setStroke(String stroke) {
 		this.setFill(stroke);
+		return this;
 	}
 	
 

@@ -1734,6 +1734,12 @@ public class SVGElement extends GraphicsElement {
 		}
 	}
 
+	public void appendChildCopies(List<? extends SVGElement> elements) {
+		for (SVGElement element : elements) {
+			this.appendChild(element.copy());
+		}
+	}
+
 	/** convenience method to parse SVG text.
 	 * 
 	 * @param svgXml
@@ -1767,6 +1773,19 @@ public class SVGElement extends GraphicsElement {
 		})));
 		Collections.sort(svgFiles);
 		return svgFiles;
+	}
+
+	public static Real2Range createTotalBox(List<? extends SVGElement> elementList) {
+		Real2Range bbox = null;
+		if (elementList.size() > 0) {
+			bbox = ((SVGElement)elementList.get(0)).getBoundingBox();
+			for (int i = 1; i < elementList.size(); i++) {
+				SVGElement element = elementList.get(i);
+				Real2Range box1 = element.getBoundingBox();
+				bbox = bbox.plusEquals(box1);
+			}
+		}
+		return bbox;
 	}
 
 

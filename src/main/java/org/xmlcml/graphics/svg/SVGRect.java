@@ -20,6 +20,7 @@ import java.awt.Graphics2D;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -379,18 +380,5 @@ public class SVGRect extends SVGShape {
 		}
 		return newRects;
 	}
-	
-//	public static List<SVGRect> createRectsFromPaths(List<SVGPath> pathList) {
-//		List<SVGRect> allRects = new ArrayList<SVGRect>();
-//		for (SVGPath path : pathList) {
-//			List<SVGRect> rectList = path.createRectListFromRepeatedML(null);
-//			if (rectList != null) {
-//				allRects.addAll(rectList.getRectList());
-//			}
-//		}
-//		return allRects;
-//	}
-
-
 
 }
