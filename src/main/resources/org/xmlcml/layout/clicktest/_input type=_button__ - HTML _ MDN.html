@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button -->
+<html lang="en-US" dir="ltr" class="" data-ffo-opensans="true" data-ffo-zillaslab="true"><head prefix="og: http://ogp.me/ns#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script async="" src="./_input type=_button__ - HTML _ MDN_files/analytics.js"></script><script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+  <title>&lt;input type="button"&gt; - HTML | MDN</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+    <link rel="home" href="https://developer.mozilla.org/en-US/">
+    <link rel="license" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#license">
+  
+
+  
+    
+    
+
+    <link href="./_input type=_button__ - HTML _ MDN_files/mdn.5e883c91cc88.css" rel="stylesheet" type="text/css">
+
+    
+  
+
+    <link href="./_input type=_button__ - HTML _ MDN_files/wiki.b6f31ca9a664.css" rel="stylesheet" type="text/css">
+
+
+    
+
+  <link href="./_input type=_button__ - HTML _ MDN_files/locale-en-US.7e45c23d7d30.css" rel="stylesheet" type="text/css">
+
+  
+    <script type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/mozilla-dnthelper.3936bd979b1d.js" charset="utf-8"></script>
+    
+
+<script type="text/javascript">
+    // only load GA if DNT is not enabled
+    if (Mozilla && !Mozilla.dntEnabled()) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36116321-5', 'mozilla.org');
+        ga('set', 'anonymizeIp', true);
+
+        
+
+        // dimension9 == "Section editing"
+        
+            // dimension12 == 'Page Revision'
+            ga('set', 'dimension12', '1351267');
+            // dimension17 == 'English Slug'
+            ga('set', 'dimension17', 'Web/HTML/Element/input/button');
+
+        (function() {
+            // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+            var win = window;
+            var removeUtms = function(){
+                var location = win.location;
+                if (location.href.indexOf('utm') != -1 && win.history.replaceState) {
+                    win.history.replaceState({}, '', location.pathname);
+                }
+            };
+
+            ga('send', 'pageview', {'hitCallback': removeUtms});
+        })();
+    }
+</script>
+
+  
+    <!-- common social tags -->
+    
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta property="og:site_name" content="MDN Web Docs">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://cdn.mdn.mozilla.net/static/img/opengraph-logo.72382e605ce3.png">
+    <meta name="twitter:site" content="@MozDevNet">
+    <meta name="twitter:creator" content="@MozDevNet">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/en-US/search/xml" title="MDN Web Docs">
+  
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cdn.mdn.mozilla.net/static/img/favicon144.e7e21ca263ca.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://cdn.mdn.mozilla.net/static/img/favicon114.d526f38b09c5.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://cdn.mdn.mozilla.net/static/img/favicon72.cc65d1d762a0.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.mdn.mozilla.net/static/img/favicon57.de33179910ae.png">
+  <!-- basic favicon -->
+     <!-- basic favicon -->
+  
+    
+  
+  <link rel="shortcut icon" href="https://cdn.mdn.mozilla.net/static/img/favicon32.7f3da72dcea1.png">
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/html5shiv.3948ccddab6f.js" charset="utf-8"></script>
+  <![endif]-->
+
+  <script type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/font-check.713e9d01025c.js" charset="utf-8"></script>
+
+  
+  <link rel="dns-prefetch" href="https://interactive-examples.mdn.mozilla.net/" pr="0.75">
+  <link rel="preconnect" href="https://interactive-examples.mdn.mozilla.net/" pr="0.75">
+
+  <link rel="preload" href="https://interactive-examples.mdn.mozilla.net/js/codemirror-5-31-0.js" as="script">
+  <link rel="preload" href="https://interactive-examples.mdn.mozilla.net/js/editor-js.js" as="script">
+
+  <link rel="alternate" type="application/json" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button$json">
+  <link rel="canonical" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button">
+
+  
+    
+      <link rel="alternate" hreflang="de" href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/button" title="&lt;input type =&quot;button&quot;&gt;">
+    
+      <link rel="alternate" hreflang="es" href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input/Bot%C3%B3n" title="&lt;input type =&quot;button&quot;&gt;">
+    
+      <link rel="alternate" hreflang="fr" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/button" title="&lt;input type =&quot;button&quot;&gt;">
+    
+      <link rel="alternate" hreflang="ja" href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/Input/button" title="&lt;input type=&quot;button&quot;&gt;">
+    
+      <link rel="alternate" hreflang="zh-CN" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/button" title="&lt;input type=&quot;button&quot;&gt;">
+    
+  
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="&lt;input type=&quot;button&quot;&gt;">
+  <meta property="og:url" content="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button">
+  <meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button">
+  <meta name="twitter:title" content="&lt;input type=&quot;button&quot;&gt;">
+  
+  <meta property="og:description" content="input elements of type &quot;button&quot; are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the click event).">
+  <meta name="description" content="input elements of type &quot;button&quot; are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the click event).">
+  <meta name="twitter:description" content="input elements of type &quot;button&quot; are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the click event).">
+  
+
+<script async="" data-manual="true" src="./_input type=_button__ - HTML _ MDN_files/syntax-prism.05dc5663d445.js"></script></head>
+<body data-slug="Web/HTML/Element/input/button" contextmenu="edit-history-menu" data-search-url="" class="document  ">
+
+  <script type="text/javascript">
+    // make sure global mdn object exists
+    var mdn = window.mdn || {};
+
+    (function(win) {
+        'use strict';
+
+        (function(){
+  var FLAGS = {
+    'compat_data': true,'kumaediting': false,'line_length': true,'page_move': false,'registration_disabled': false,'search_suggestions': false,'section_edit': false,'sg_task_completion': false,'spam_admin_override': false,'spam_checks_enabled': true,'spam_spammer_override': false,'spam_submissions_enabled': false,'spam_testing_mode': false,'wiki_samples': true,'wiki_spam_exempted': false,'wiki_spam_training': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': false,'enable_optimizely': false,'welcome_email': true,'application_ACAO': true,'store_revision_ips': true,'dumb_doc_urls': true,'newsletter': true,'newsletter_article': true,'foundation_callout': false,'helpful-survey-2': true,'wiki_spam_training': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+
+        // This needs to be set before ckeditor.js loads
+        window.CKEDITOR_BASEPATH = '/static/js/libs/ckeditor/build/ckeditor/';
+
+        // Site configuration
+        win.mdn.ckeditor = {};
+        win.mdn.features = {};
+        win.mdn.staticPath = 'https://cdn.mdn.mozilla.net/static/';
+        win.mdn.wiki = {
+            autosuggestTitleUrl: '/en-US/docs/get-documents'
+        };
+        win.mdn.assets = {
+            css: {
+                'editor-content': ['https://cdn.mdn.mozilla.net/static/build/styles/editor-content.a7ed0a79c0d6.css','https://cdn.mdn.mozilla.net/static/build/styles/editor-locale-en-US.7e45c23d7d30.css',
+                ],
+
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/styles/wiki-compat-tables.aaae6c040d67.css',]
+            },
+            js: {
+                'syntax-prism': ['https://cdn.mdn.mozilla.net/static/build/js/syntax-prism.05dc5663d445.js',],
+                'wiki-compat-tables': ['https://cdn.mdn.mozilla.net/static/build/js/wiki-compat-tables.003f4acf76ea.js',]
+            }
+        };
+
+        win.mdn.notifications = [];
+
+        
+
+        // interactive editor config
+        win.mdn.interactiveEditor = {
+            siteUrl: "https://developer.mozilla.org",
+            editorUrl: "https://interactive-examples.mdn.mozilla.net"
+        };
+
+    })(this);
+</script>
+    
+  <ul id="nav-access">
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#document-main" id="skip-main">Skip to main content</a></li>
+    <li><a id="skip-language" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#language">Select language</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#q" id="skip-search">Skip to search</a></li>
+  </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+    <a href="https://developer.mozilla.org/en-US/" class="logo">MDN Web Docs</a>
+
+    <div id="nav-sec">
+      <ul>
+      <li class="nav-login"><div class="login">
+    
+        
+        <a href="https://developer.mozilla.org/users/github/login/?next=%2Fen-US%2Fdocs%2FWeb%2FHTML%2FElement%2Finput%2Fbutton" class="login-link js-login-link" data-service="GitHub" rel="nofollow">
+            Sign in
+            <i class="icon-github" aria-hidden="true"></i>
+        </a>
+    
+</div></li>
+      </ul>
+    </div>
+
+    <nav id="main-nav" class="nav-main" role="navigation"><ul><li class="nav-main-item"><a href="https://developer.mozilla.org/en-US/docs/Web">Technologies<i aria-hidden="true" class="icon-caret-down"></i></a>
+      <div class="submenu js-submenu" id="nav-tech-submenu" aria-hidden="true" style="z-index: 99998;">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics">Graphics</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API">APIs / DOM</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">Browser Extensions</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/MathML">MathML</a></li>
+          </ul>
+        </div><button type="button" class="submenu-close transparent"><span class="offscreen">Close submenu</span><i aria-hidden="true" class="icon-times"></i></button></div></li><li class="nav-main-item"><a href="https://developer.mozilla.org/en-US/docs/Learn">References &amp; Guides<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-learn-submenu">
+        <div class="submenu-column">
+          <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn">Learn web development</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Tutorials">Tutorials</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Reference">References</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide">Developer Guides</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">Accessibility</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Games">Game development</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web">...more docs</a></li>
+          </ul>
+        </div>
+      </div>
+      </li><li class="nav-main-item"><a href="https://developer.mozilla.org/en-US/docs/MDN/Feedback">Feedback<i aria-hidden="true" class="icon-caret-down"></i></a>
+        <div class="submenu js-submenu" id="nav-contact-submenu">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="https://support.mozilla.org/">Get Firefox help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a href="https://stackoverflow.com/">Get web development help<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/MDN/Community">Join the MDN community</a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.doc?bug_file_loc=https%3A//developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button">Report a content problem<i aria-hidden="true" class="icon-external-link"></i></a></li>
+              <li><a target="_blank" href="https://bugzilla.mozilla.org/form.mdn">Report a bug<i aria-hidden="true" class="icon-external-link"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="nav-main-search"><form action="https://developer.mozilla.org/en-US/search" method="get" role="search">
+        <div class="search-wrap">
+          <label for="main-q" class="offscreen">Search</label>
+          <input type="search" id="main-q" name="q" placeholder="Search" data-value="" value="">
+          <span class="search-trigger"><i aria-hidden="true" class="icon-search"></i></span>
+          <button type="submit" class="offscreen">Search</button>
+        </div>
+      </form></li>
+    </ul></nav>
+  </div></header> 
+
+  <!-- Content will go here -->
+  <main id="content">
+      
+  <!-- heading -->
+  <div id="wiki-document-head" class="document-head">
+    <div class="center">
+      <!-- action buttons -->
+      <div class="document-actions">
+        
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  <ul class="page-buttons">
+      <li><button id="languages-menu" class="transparent" aria-haspopup="true" aria-owns="languages-menu-submenu" aria-expanded="false"><span>Languages</span><i aria-hidden="true" class="icon-language"></i></button>
+
+        <div class="submenu js-submenu" id="languages-menu-submenu">
+          <div class="submenu-column">
+            <ul id="translations">
+              
+                
+                
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/de/docs/Web/HTML/Element/Input/button" data-locale="de" title="German">Deutsch (de)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input/Bot%C3%B3n" data-locale="es" title="Spanish">Español (es)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/button" data-locale="fr" title="French">Français (fr)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/Input/button" data-locale="ja" title="Japanese">日本語 (ja)</a></bdi></li>
+                
+                  <li><bdi><a rel="internal" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/button" data-locale="zh-CN" title="Chinese (Simplified)">中文 (简体) (zh-CN)</a></bdi></li>
+                
+              
+
+              
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button$locales" rel="nofollow" id="translations-add">Add a translation</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </li>
+      
+      <li class="page-buttons-edit"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button$edit" class="button neutral" id="edit-button" rel="nofollow">Edit<i aria-hidden="true" class="icon-pencil"></i></a></li>
+      
+
+        
+
+        <li class="page-buttons-advanced"><button id="advanced-menu" class="only-icon" aria-haspopup="true" aria-owns="advanced-menu-submenu" aria-expanded="false"><span>Advanced</span><i aria-hidden="true" class="icon-cog"></i></button>
+        <div class="submenu js-submenu" id="advanced-menu-submenu">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Advanced</div>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button$history" rel="nofollow">History</a></li>
+                
+                
+                
+
+
+                
+
+                
+                
+                
+                <li class="page-print"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#" onclick="return window.print();">Print this article</a></li>
+            </ul>
+          </div>
+        </div>
+  </li></ul>
+      </div>
+
+      <div class="document-title">
+        
+
+        <h1>&lt;input type="button"&gt;</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div id="toc" class="toc">
+    <div class="center">
+      <div class="toc-head">Jump to:</div>
+        <ol class="toc-links">
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Value" rel="internal" class="">Value</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Using_buttons" rel="internal" class="">Using buttons</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Validation" rel="internal" class="">Validation</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Examples" rel="internal" class="toc-current">Examples</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Specifications" rel="internal">Specifications</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Browser_compatibility" rel="internal">Browser compatibility</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#See_also" rel="internal">See also</a>
+        </li></ol>
+    </div>
+  </div>
+  
+
+      <div class="center clear">
+      
+
+    <div class="wiki-main-content" id="document-main" role="main"><div class="center">
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-left-present">
+
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-main wiki-column text-content">
+
+              
+
+              
+              
+
+              
+
+              
+              
+
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                
+                  
+                    <p></p><p></p>
+
+<p><span class="seoSummary"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user."><code>&lt;input&gt;</code></a> elements of type <strong><code>"button"</code></strong>&nbsp; are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the <code><a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" title="/en-US/docs/Web/Events/click">click</a></code> event).</span></p>
+
+<div id="summary-example2">
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Click Me<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/summary-example2.html" class="live-sample-frame sample-code-frame" height="30" width="650" id="frame_summary-example2" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<div class="note">
+<p><strong>Note</strong>: While <code>&lt;input&gt;</code> elements of type <code>"button"</code> are still perfectly valid HTML, the newer <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a> element is now the favored way to create buttons. Given that a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a>’s label text is inserted between the opening and closing tags, you can include HTML in the label, even images.</p>
+</div>
+
+<table class="properties">
+ <tbody>
+  <tr>
+   <td><strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button#Value">Value</a></strong></td>
+   <td>A <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMString" title="DOMString is a UTF-16 String. As JavaScript already uses such strings, DOMString is mapped directly to a String."><code>DOMString</code></a> used as the button's label</td>
+  </tr>
+  <tr>
+   <td><strong>Events</strong></td>
+   <td><code><a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" title="/en-US/docs/Web/Events/click">click</a></code></td>
+  </tr>
+  <tr>
+   <td><strong>Supported common attributes</strong></td>
+   <td><code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-type">type</a></code>, and <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-value">value</a></code></td>
+  </tr>
+  <tr>
+   <td><strong>IDL attributes</strong></td>
+   <td><code>value</code></td>
+  </tr>
+  <tr>
+   <td><strong>Methods</strong></td>
+   <td>None</td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Value">Value</h2>
+
+<p>An <code>&lt;input type="button"&gt;</code> elements' <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-value">value</a></code> attribute contains a <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMString" title="DOMString is a UTF-16 String. As JavaScript already uses such strings, DOMString is mapped directly to a String."><code>DOMString</code></a> that is used as the button's label.</p>
+
+<div id="summary-example3">
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Click Me<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/summary-example3.html" class="live-sample-frame sample-code-frame" height="30" width="650" id="frame_summary-example3" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<p>If you don't specify a <code>value</code>, you get an empty button:</p>
+
+<div id="summary-example1">
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/summary-example1.html" class="live-sample-frame sample-code-frame" height="30" width="650" id="frame_summary-example1" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<h2 id="Using_buttons">Using buttons</h2>
+
+<p><code>&lt;input type="button"&gt;</code> elements have no default behavior (their cousins,<code> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit">&lt;input type="submit"&gt;</a></code> and <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset">&lt;input type="reset"&gt;</a></code> are used to submit and reset forms, respectively). To make buttons do anything, you have to write JavaScript code to do the work.</p>
+
+<h3 id="A_simple_button" class="highlight-spanned"><span class="highlight-span">A simple button</span></h3>
+
+<p>We'll begin by creating a simple button with a <code><a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" title="/en-US/docs/Web/Events/click">click</a></code> event handler that starts our machine (well, it toggles the <code>value</code> of the button and the text content of the following paragraph):</p>
+
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span> 
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Start machine<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>The machine is stopped.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="brush: js line-numbers  language-js"><code class=" language-js"><span class="token keyword">var</span> btn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> txt <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> updateBtn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">updateBtn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>btn<span class="token punctuation">.</span>value <span class="token operator">===</span> <span class="token string">'Start machine'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Stop machine'</span><span class="token punctuation">;</span>
+    txt<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'The machine has started!'</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Start machine'</span><span class="token punctuation">;</span>
+    txt<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'The machine is stopped.'</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>The script gets a reference to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement" title="The HTMLInputElement interface provides special properties and methods for manipulating the layout and presentation of input elements."><code>HTMLInputElement</code></a> object representing the <code>&lt;input&gt;</code> in the DOM, saving this refence in the variable <code>btn</code>. <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" title="The EventTarget.addEventListener() method adds the specified EventListener-compatible object to the list of event listeners for the specified event type on the EventTarget on which it is called. The event target may be an Element in a document, the Document itself, a Window, or any other object that supports events (such as XMLHttpRequest)."><code>addEventListener()</code></a> is then used to establish a function that will be run when <code><a href="https://developer.mozilla.org/en-US/docs/Web/Events/click" title="/en-US/docs/Web/Events/click">click</a></code> events occur on the button.</p>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/A_simple_button.html" class="live-sample-frame sample-code-frame" height="100" width="650" id="frame_A_simple_button" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<h3 id="Adding_keyboard_shortcuts_to_buttons" class="highlight-spanned"><span class="highlight-span">Adding keyboard shortcuts to buttons</span></h3>
+
+<p>Keyboard shortcuts, also known as access keys and keyboard equivalents, let the user trigger a button using a key or combination of keys on the keyboard. To add a keyboard shortcut to a button — just as you would with any <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user."><code>&lt;input&gt;</code></a> for which it makes sense — you use the <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-accesskey">accesskey</a></code> global attribute.</p>
+
+<p>In this example, <kbd>s</kbd> is specified as the access key (you'll need to press <kbd>s</kbd> plus the particular modifier keys for your browser/OS combination; see <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-accesskey">accesskey</a></code> for a useful list of those).</p>
+
+<div id="accesskey-example1">
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Start machine<span class="token punctuation">"</span></span> <span class="token attr-name">accesskey</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>s<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>The machine is stopped.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</div>
+
+<div class="hidden">
+<pre class="brush: js line-numbers  language-js"><code class=" language-js"><span class="token keyword">var</span> btn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> txt <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> updateBtn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">updateBtn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>btn<span class="token punctuation">.</span>value <span class="token operator">===</span> <span class="token string">'Start machine'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Stop machine'</span><span class="token punctuation">;</span>
+    txt<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'The machine has started!'</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Start machine'</span><span class="token punctuation">;</span>
+    txt<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'The machine is stopped.'</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/Adding_keyboard_shortcuts_to_buttons.html" class="live-sample-frame sample-code-frame" height="100" width="650" id="frame_Adding_keyboard_shortcuts_to_buttons" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<div class="note">
+<p><strong>Note</strong>: The problem with the above example of course is that the user will not know what the access key is! In a real site, you'd have to provide this information in a way that doesn't intefere with the site design (for example by providing an easily accessible link that points to information on what the site accesskeys are).</p>
+</div>
+
+<h3 id="Disabling_and_enabling_a_button" class="highlight-spanned"><span class="highlight-span">Disabling and enabling a button</span></h3>
+
+<p>To disable a button, simply specify the <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-disabled">disabled</a></code> global attribute on it, like so:</p>
+
+<div id="disable-example1">
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Disable me<span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span></span></code></pre>
+</div>
+
+<p>You can enable and disable buttons at run time by simply setting <code>disabled</code> to <code>true</code> or <code>false</code>. In this example our button starts off enabled, but if you press it, it is disabled using <code>btn.disabled = true</code>. A <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setTimeout" title="Sets a timer which executes a function or specified piece of code once after the timer expires."><code>setTimeout()</code></a> function is then used to rest the button back to its enabled state after two seconds.</p>
+
+<div class="hidden">
+<h6 id="Hidden_code_1">Hidden code 1</h6>
+
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Enabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="brush: js line-numbers  language-js"><code class=" language-js"><span class="token keyword">var</span> btn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> disableBtn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">disableBtn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  btn<span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token keyword">true</span><span class="token punctuation">;</span>
+  btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Disabled'</span><span class="token punctuation">;</span>
+  window<span class="token punctuation">.</span><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    btn<span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
+    btn<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token string">'Enabled'</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/Hidden_code_1.html" class="live-sample-frame sample-code-frame" height="60" width="650" id="frame_Hidden_code_1" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<p>If the <code>disabled</code> attribute isn't specified, the button inherits its <code>disabled</code> state from its parent element. This makes it possible to enable and disable groups of elements all at once by enclosing them in a container such as a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" title="The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form."><code>&lt;fieldset&gt;</code></a> element, and then setting <code>disabled</code> on the container.</p>
+
+<p>The example below shows this in action. This is very similar to the previous example, except that the <code>disabled</code> attribute is set on the <code>&lt;fieldset&gt;</code> when the first button is pressed — this causes all three buttons to be disabled until the two second timeout has passed.</p>
+
+<div class="hidden">
+<h6 id="Hidden_code_2">Hidden code 2</h6>
+
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>fieldset</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>legend</span><span class="token punctuation">&gt;</span></span>Button group<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>legend</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Button 1<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Button 2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Button 3<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>fieldset</span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="brush: js line-numbers  language-js"><code class=" language-js"><span class="token keyword">var</span> btn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> fieldset <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'fieldset'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> disableBtn<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">function</span> <span class="token function">disableBtn</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  fieldset<span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token keyword">true</span><span class="token punctuation">;</span>
+  window<span class="token punctuation">.</span><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    fieldset<span class="token punctuation">.</span>disabled <span class="token operator">=</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</div>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/Hidden_code_2.html" class="live-sample-frame sample-code-frame" height="60" width="650" id="frame_Hidden_code_2" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<div class="note">
+<p><strong>Note</strong>: Firefox will, unlike other browsers, by default, <a href="http://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing" class="external external-icon" rel="noopener">persist the dynamic disabled state</a> of a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a> across page loads. Use the <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-autocomplete">autocomplete</a></code> attribute to control this feature.</p>
+</div>
+
+<h2 id="Validation">Validation</h2>
+
+<p>Buttons don't participate in constraint validation; they have no real value to be constrained.</p>
+
+<h2 id="Examples">Examples</h2>
+
+<p>The below example shows a very simple drawing app created using a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" title="Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations."><code>&lt;canvas&gt;</code></a> element and some simple CSS and JavaScript (we'll hide the CSS for brevity). The top two controls allow you to choose the color and size of the drawing pen. The button, when clicked, invokes a function that clears the canvas.</p>
+
+<pre class="brush: html line-numbers  language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>toolbar<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>color<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>select pen color<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>range<span class="token punctuation">"</span></span> <span class="token attr-name">min</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span> <span class="token attr-name">max</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>50<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>30<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>select pen size<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>output<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>30<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Clear canvas<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>canvas</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>myCanvas<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Add suitable fallback here.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>canvas</span><span class="token punctuation">&gt;</span></span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<div class="hidden">
+<pre class="brush: css line-numbers  language-css"><code class=" language-css"><span class="token selector">body </span><span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#ccc</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector"><span class="token class">.toolbar</span> </span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">150</span>px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">75</span>px<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#ccc</span><span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">5</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">input[type="color"], input[type="button"] </span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">90%</span><span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span> auto<span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">input[type="range"] </span><span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">70%</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+ <span class="token selector">span </span><span class="token punctuation">{</span>
+   <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+   <span class="token property">bottom</span><span class="token punctuation">:</span> <span class="token number">5</span>px<span class="token punctuation">;</span>
+ <span class="token punctuation">}</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</div>
+
+<pre class="brush: js line-numbers  language-js"><code class=" language-js"><span class="token keyword">var</span> canvas <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.myCanvas'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> width <span class="token operator">=</span> canvas<span class="token punctuation">.</span>width <span class="token operator">=</span> window<span class="token punctuation">.</span>innerWidth<span class="token punctuation">;</span>
+<span class="token keyword">var</span> height <span class="token operator">=</span> canvas<span class="token punctuation">.</span>height <span class="token operator">=</span> window<span class="token punctuation">.</span>innerHeight<span class="token number">-85</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> ctx <span class="token operator">=</span> canvas<span class="token punctuation">.</span><span class="token function">getContext</span><span class="token punctuation">(</span><span class="token string">'2d'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+ctx<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> <span class="token string">'rgb(0,0,0)'</span><span class="token punctuation">;</span>
+ctx<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>width<span class="token punctuation">,</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> colorPicker <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input[type="color"]'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> sizePicker <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input[type="range"]'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> output <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.output'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> clearBtn <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'input[type="button"]'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// covert degrees to radians</span>
+<span class="token keyword">function</span> <span class="token function">degToRad</span><span class="token punctuation">(</span>degrees<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> degrees <span class="token operator">*</span> Math<span class="token punctuation">.</span>PI <span class="token operator">/</span> <span class="token number">180</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// update sizepicker output value</span>
+
+sizePicker<span class="token punctuation">.</span>oninput <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  output<span class="token punctuation">.</span>textContent <span class="token operator">=</span> sizePicker<span class="token punctuation">.</span>value<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">// store mouse pointer coordinates, and whether the button is pressed</span>
+<span class="token keyword">var</span> curX<span class="token punctuation">;</span>
+<span class="token keyword">var</span> curY<span class="token punctuation">;</span>
+<span class="token keyword">var</span> pressed <span class="token operator">=</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">// update mouse pointer coordinates</span>
+document<span class="token punctuation">.</span>onmousemove <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  curX <span class="token operator">=</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>Event<span class="token punctuation">)</span> <span class="token operator">?</span> e<span class="token punctuation">.</span>pageX <span class="token punctuation">:</span> e<span class="token punctuation">.</span>clientX <span class="token operator">+</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>scrollLeft <span class="token operator">?</span> document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>scrollLeft <span class="token punctuation">:</span> document<span class="token punctuation">.</span>body<span class="token punctuation">.</span>scrollLeft<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  curY <span class="token operator">=</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>Event<span class="token punctuation">)</span> <span class="token operator">?</span> e<span class="token punctuation">.</span>pageY <span class="token punctuation">:</span> e<span class="token punctuation">.</span>clientY <span class="token operator">+</span> <span class="token punctuation">(</span>document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>scrollTop <span class="token operator">?</span> document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>scrollTop <span class="token punctuation">:</span> document<span class="token punctuation">.</span>body<span class="token punctuation">.</span>scrollTop<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+canvas<span class="token punctuation">.</span>onmousedown <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  pressed <span class="token operator">=</span> <span class="token keyword">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+canvas<span class="token punctuation">.</span>onmouseup <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  pressed <span class="token operator">=</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+clearBtn<span class="token punctuation">.</span>onclick <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  ctx<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> <span class="token string">'rgb(0,0,0)'</span><span class="token punctuation">;</span>
+  ctx<span class="token punctuation">.</span><span class="token function">fillRect</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span>width<span class="token punctuation">,</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>pressed<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    ctx<span class="token punctuation">.</span>fillStyle <span class="token operator">=</span> colorPicker<span class="token punctuation">.</span>value<span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">beginPath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">arc</span><span class="token punctuation">(</span>curX<span class="token punctuation">,</span> curY<span class="token number">-85</span><span class="token punctuation">,</span> sizePicker<span class="token punctuation">.</span>value<span class="token punctuation">,</span> <span class="token function">degToRad</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">degToRad</span><span class="token punctuation">(</span><span class="token number">360</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    ctx<span class="token punctuation">.</span><span class="token function">fill</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">requestAnimationFrame</span><span class="token punctuation">(</span>draw<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">draw</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><iframe src="./_input type=_button__ - HTML _ MDN_files/Examples.html" class="live-sample-frame sample-code-frame" height="600" width="100%" id="frame_Examples" frameborder="0"></iframe><div class="open-in-host-container"><button class="open-in-host button neutral">Open in CodePen <i class="icon-codepen" aria-hidden="true"></i></button><button class="open-in-host button neutral">Open in JSFiddle <i class="icon-jsfiddle" aria-hidden="true"></i></button></div></p>
+
+<h2 id="Specifications">Specifications</h2>
+
+<table class="standard-table">
+ <tbody>
+  <tr>
+   <td>Specification</td>
+   <td>Status</td>
+  </tr>
+  <tr>
+   <td><a href="https://html.spec.whatwg.org/multipage/forms.html#button-state-(type=button)" hreflang="en" lang="en" class="external external-icon" rel="noopener">HTML Living Standard<br><small lang="en-US">The definition of '&lt;input type="button"&gt;' in that specification.</small></a></td>
+   <td><span class="spec-Living">Living Standard</span></td>
+  </tr>
+  <tr>
+   <td><a href="https://www.w3.org/TR/html50/forms.html#button-state-(type=button)" hreflang="en" lang="en" class="external external-icon" rel="noopener">HTML5<br><small lang="en-US">The definition of '&lt;input type="button"&gt;' in that specification.</small></a></td>
+   <td><span class="spec-REC">Recommendation</span></td>
+  </tr>
+ </tbody>
+</table>
+
+<h2 id="Browser_compatibility">Browser compatibility</h2>
+
+<p></p><p class="warning"><strong><a href="https://github.com/mdn/browser-compat-data" class="external external-icon" rel="noopener">We're converting our compatibility data into a machine-readable JSON format</a></strong>.
+            This compatibility table still uses the old format,
+            because we haven't yet converted the data it contains.
+            <strong><a href="https://developer.mozilla.org/en-US/docs/MDN/Contribute/Structures/Compatibility_tables">Find out how you can help!</a></strong></p>
+
+<div class="htab">
+    <a id="AutoCompatibilityTable" name="AutoCompatibilityTable"></a>
+    <ul>
+        <li class="selected"><a>Desktop</a></li>
+        <li><a>Mobile</a></li>
+    </ul>
+<div id="compat-desktop" style="display: block;">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Chrome</th>
+   <th>Firefox (Gecko)</th>
+   <th>Internet Explorer</th>
+   <th>Opera</th>
+   <th>Safari</th>
+  </tr>
+  <tr>
+   <td>Basic support</td>
+   <td>1.0</td>
+   <td>1.0 (1.7 or earlier)</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>1.0</td>
+  </tr>
+ </tbody>
+</table>
+</div><div id="compat-mobile" style="display: none;">
+<table class="compat-table">
+ <tbody>
+  <tr>
+   <th>Feature</th>
+   <th>Android</th>
+   <th>Firefox Mobile (Gecko)</th>
+   <th>IE Mobile</th>
+   <th>Opera Mobile</th>
+   <th>Safari Mobile</th>
+  </tr>
+  <tr>
+   <td>Basic support</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td>4.0 (4.0)</td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+   <td><span style="color: #888;" title="Please update this with the earliest version of support.">(Yes)</span></td>
+  </tr>
+ </tbody>
+</table>
+</div></div><p></p>
+
+
+
+
+
+<h2 id="See_also">See also</h2>
+
+<ul>
+ <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user."><code>&lt;input&gt;</code></a> and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement" title="The HTMLInputElement interface provides special properties and methods for manipulating the layout and presentation of input elements."><code>HTMLInputElement</code></a> interface which implements it.</li>
+ <li>The more modern <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a> element.</li>
+</ul>
+                  
+                
+              </article>
+
+              <!-- contributors -->
+              <div class="wiki-block contributors">
+                <h2 class="offscreen">Document Tags and Contributors</h2>
+                
+                
+  <div class="tag-attach-list contributors-sub">
+    <i aria-hidden="true" class="icon-tags icon-fw"></i>
+    <strong>Tags:</strong>&nbsp;
+    <ul class="tags tags-small">
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/button" rel="nofollow">button</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Element" rel="nofollow">Element</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Forms" rel="nofollow">Forms</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/HTML" rel="nofollow">HTML</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/HTML%20forms" rel="nofollow">HTML forms</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Input" rel="nofollow">Input</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Input%20Element" rel="nofollow">Input Element</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Input%20Type" rel="nofollow">Input Type</a></li>
+      
+        <li><a href="https://developer.mozilla.org/en-US/docs/tag/Reference" rel="nofollow">Reference</a></li>
+      
+    </ul>
+  </div>
+
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-group icon-fw"></i>&nbsp;<strong>Contributors to this page:</strong> 
+        <a href="https://developer.mozilla.org/en-US/profiles/chrisdavidmills">chrisdavidmills</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/zixuan75">zixuan75</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/chharvey">chharvey</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/Sheppy">Sheppy</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/rudijuri">rudijuri</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/0918nobita">0918nobita</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/Lemondoge">Lemondoge</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/fscholz">fscholz</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/Sebastianz">Sebastianz</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/TylerH">TylerH</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/teoli">teoli</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/sidgan">sidgan</a>, 
+    
+        <a href="https://developer.mozilla.org/en-US/profiles/kscarfone">kscarfone</a>
+    
+                  </div>
+                
+
+                
+                  <div class="contributors-sub">
+                    <i aria-hidden="true" class="icon-clock-o icon-fw"></i>&nbsp;<strong>Last updated by:</strong>
+                    <a href="https://developer.mozilla.org/en-US/profiles/chrisdavidmills">chrisdavidmills</a>,
+                    <time datetime="2018-01-27T02:55:44.918960-08:00">Jan 27, 2018, 2:55:44 AM</time>
+                  </div>
+                
+              </div>
+            </div>
+
+            
+              <!-- quick links and zone subnav strip -->
+              <div id="wiki-left" class="column-strip wiki-column">
+
+                
+                  <!-- crumbs -->
+                  
+  
+    <nav class="crumbs" role="navigation">
+      <ol typeof="BreadcrumbList" vocab="https://schema.org/" aria-label="breadcrumbs">
+        
+          <li property="itemListElement" typeof="ListItem" class="crumb">
+            <a href="https://developer.mozilla.org/en-US/docs/Web" property="item" typeof="WebPage">
+              <span property="name">Web technology for developers</span>
+            </a>
+            <meta property="position" content="1">
+          </li>
+        
+          <li property="itemListElement" typeof="ListItem" class="crumb">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" property="item" typeof="WebPage">
+              <span property="name">HTML</span>
+            </a>
+            <meta property="position" content="2">
+          </li>
+        
+          <li property="itemListElement" typeof="ListItem" class="crumb">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" property="item" typeof="WebPage">
+              <span property="name">HTML elements reference</span>
+            </a>
+            <meta property="position" content="3">
+          </li>
+        
+          <li property="itemListElement" typeof="ListItem" class="crumb">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" property="item" typeof="WebPage">
+              <span property="name">&lt;input&gt;</span>
+            </a>
+            <meta property="position" content="4">
+          </li>
+        
+        <li property="itemListElement" typeof="ListItem" class="crumb">
+          <span property="name">&lt;input type="button"&gt;</span>
+        </li>
+      </ol>
+    </nav>
+  
+                
+
+                
+
+                
+                  <!-- quick links -->
+                  
+  <div class="quick-links" id="quick-links">
+    <div class="quick-links-head">Related Topics</div>
+    
+  <ol>
+   
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist" title="The HTML &lt;datalist&gt; element contains a set of &lt;option&gt; elements that represent the values available for other controls."><code>&lt;datalist&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" title="The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form."><code>&lt;fieldset&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" title="The HTML &lt;form&gt; element represents a document section that contains interactive controls to submit information to a web server."><code>&lt;form&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user."><code>&lt;input&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen" title="The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate."><code>&lt;keygen&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" title="The HTML &lt;label&gt; element represents a caption for an item in a user interface."><code>&lt;label&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend" title="The HTML &lt;legend&gt; element represents a caption for the content of its parent &lt;fieldset&gt;."><code>&lt;legend&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter" title="The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value."><code>&lt;meter&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup" title="The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element."><code>&lt;optgroup&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option" title="The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt; element. As such, &lt;option&gt; can represent menu items in popups and other lists of items in an HTML document."><code>&lt;option&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output" title="The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action."><code>&lt;output&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" title="The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar."><code>&lt;progress&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" title="The HTML &lt;select&gt; element represents a control that provides a menu of options:"><code>&lt;select&gt;</code></a></li>
+  
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea" title="The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control."><code>&lt;textarea&gt;</code></a></li>
+  
+    
+   <li data-default-state="open" class="toggleable current" data-closed=""><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_&lt;input&gt;_types" class="toggler" aria-haspopup="true"><i aria-hidden="true" class="icon-caret-down"></i><code>&lt;input&gt;</code> types</a>
+    <ol class="toggle-container" aria-expanded="true" style="display: block;"><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button" title="&lt;input&gt; elements of type &quot;button&quot;  are rendered as simple push buttons, which can be programmed to control custom functionality anywhere on a webpage as required when assigned an event handler function (typically for the click event)."><code>&lt;input type="button"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox" title="&lt;input&gt; elements of type checkbox are rendered by default as square boxes that are checked (ticked) when activated, like you might see in an official government paper form. They allow you to select single values for submission in a form (or not)."><code>&lt;input type="checkbox"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color" title="&lt;input&gt; elements of type &quot;color&quot; provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in &quot;#rrggbb&quot; hexadecimal format."><code>&lt;input type="color"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date" title="&lt;input&gt; elements of type date create input fields that let the user enter a date, either using a text box that automatically validates the content, or using a special date picker interface. The resulting value includes the year, month, and day, but not the time. The time and datetime-local input types support time and date/time inputs."><code>&lt;input type="date"&gt;</code></a></li><li><span class="sidebar-icon"><span title="This is an obsolete API and is no longer guaranteed to work."><i class="icon-trash"> </i></span></span><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime" title="The HTML &lt;input type=&quot;datetime&quot;&gt; was a control for entering a date and time (hour, minute, second, and fraction of a second) as well as a timezone. This feature has been removed from WHATWG HTML, and is no longer supported in browsers."><code>&lt;input type="datetime"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local" title="&lt;input&gt; elements of type datetime-local create input controls that let the user easily enter both a date and a time, including the year, month, and day as well as the time in hours and minutes. The user&#39;s local time zone is used."><code>&lt;input type="datetime-local"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email" title="&lt;input&gt; elements of type &quot;email&quot; are used to let the user enter and edit an email address, or, if the multiple attribute is specified, a list of email addresses. The input value is automatically validated to ensure that it&#39;s either empty or a properly-formatted email address (or list of addresses) before the form can be submitted."><code>&lt;input type="email"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file" title="&lt;input&gt; elements with type=&quot;file&quot; let the user choose one or more files from their device storage. Once chosen, the files can be uploaded to a server using form submission, or manipulated using JavaScript code and the File API."><code>&lt;input type="file"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden" title="&lt;input&gt; elements of type &quot;hidden&quot; let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page&#39;s content."><code>&lt;input type="hidden"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image" title="&lt;input&gt; elements of type &quot;image&quot; are used to create graphical submit buttons, i.e. submit buttons that take the form of an image rather than text."><code>&lt;input type="image"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month" title="&lt;input&gt; elements of type month create input fields that let the user enter a month and year allowing a month and year to be easily entered. The value is a string whose value is in the format &quot;YYYY-MM&quot;, where YYYY is the four-digit year and MM is the month number."><code>&lt;input type="month"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number" title="&lt;input&gt; elements of type &quot;number&quot; are used to let the user enter a number. They include built-in validation to reject non-numerical entries."><code>&lt;input type="number"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password" title="&lt;input&gt; elements of type &quot;password&quot; provide a way for the user to securely enter a password."><code>&lt;input type="password"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio" title="&lt;input&gt; elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options."><code>&lt;input type="radio"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range" title="&lt;input&gt; elements of type &quot;range&quot; let the user specify a numeric value which must be no less than a given value, and no more than another given value. The precise value, however, is not considered important. This is typically represented using a slider or dial control rather than a text entry box like the &quot;number&quot; input type."><code>&lt;input type="range"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset" title="&lt;input&gt; elements of type &quot;reset&quot;  are rendered as buttons, with a default click event handler that resets all of the inputs in the form to their initial values."><code>&lt;input type="reset"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search" title="&lt;input&gt; elements of type &quot;search&quot; are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent. "><code>&lt;input type="search"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit" title="&lt;input&gt; elements of type &quot;submit&quot; are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the form to the server."><code>&lt;input type="submit"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel" title="&lt;input&gt; elements of type &quot;tel&quot; are used to let the user enter and edit a telephone number. Unlike &lt;input type=&quot;email&quot;&gt; and &lt;input type=&quot;url&quot;&gt; , the input value is not automatically validated to a particular format before the form can be submitted, because formats for telephone numbers vary so much around the world."><code>&lt;input type="tel"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text" title="&lt;input&gt; elements of type &quot;text&quot; create basic single-line text fields. "><code>&lt;input type="text"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time" title="&lt;input&gt; elements of type time create input fields designed to let the user easily enter a time (hours and minutes, and optionally seconds)."><code>&lt;input type="time"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url" title="&lt;input&gt; elements of type &quot;url&quot; are used to let the user enter and edit a URL. The input value is automatically validated to ensure that it&#39;s either empty or a properly-formatted URL before the form can be submitted."><code>&lt;input type="url"&gt;</code></a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week" title="&lt;input&gt; elements of type &quot;week&quot; create input fields allowing easy entry of a year plus the number of the week during that year (e.g. week 1 to 52)."><code>&lt;input type="week"&gt;</code></a></li></ol></li>
+    
+   <li class="toggleable" data-closed="true"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="toggler" aria-haspopup="true"><i aria-hidden="true" class="icon-caret-right"></i>HTML Elements</a><ol class="toggle-container" style="display: none;">
+   <li>A
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" title="The HTML &lt;a&gt; element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL."><code>&lt;a&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" title="The HTML &lt;abbr&gt; element represents an abbreviation and optionally provides a full description for it. If present, the title attribute must contain this full description and nothing else."><code>&lt;abbr&gt;</code></a></li>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym" title="The HTML Acronym Element (&lt;acronym&gt;) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word. This element has been removed in HTML5. Use &lt;abbr&gt; element."><code>&lt;acronym&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" title="The HTML &lt;address&gt; element indicates that the enclosed HTML provides contact information for a person or people, or for an organization."><code>&lt;address&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet" title="The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;."><code>&lt;applet&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area" title="The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element."><code>&lt;area&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" title="The HTML &lt;article&gt; element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry."><code>&lt;article&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" title="The HTML &lt;aside&gt; element represents a portion of a document whose content is only indirectly related to the document&#39;s main content."><code>&lt;aside&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" title="The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream."><code>&lt;audio&gt;</code></a></li>
+ </ol>
+ </li><li>B
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b" title="The HTML Bring Attention To element (&lt;b&gt;)  is used to draw the reader&#39;s attention to the element&#39;s contents, which are not otherwise granted special importance."><code>&lt;b&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base" title="The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs contained within a document. There can be only one &lt;base&gt; element in a document."><code>&lt;base&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont" title="The obsolete HTML Base Font element (&lt;basefont&gt;) sets a default font face, size, and color for the other elements which are descended from its parent element."><code>&lt;basefont&gt;</code></a></s></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi" title="The HTML &lt;bdi&gt; element (bidirectional isolation) isolates a span of text that might be formatted in a different direction from other text outside it."><code>&lt;bdi&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo" title="The HTML Bidirectional Text Override element (&lt;bdo&gt;) overrides the current directionality of text, so that the text within is rendered in a different direction."><code>&lt;bdo&gt;</code></a></li>
+  <li><s class="nonStdElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound" title="The Internet Explorer only HTML Background Sound element (&lt;bgsound&gt;) sets up a sound file to play in the background while the page is used; use &lt;audio&gt; instead."><code>&lt;bgsound&gt;</code></a></s></li>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/big" title="The obsolete HTML Big Element (&lt;big&gt;) renders the enclosed text at a font size one level larger than the surrounding text (medium becomes large, for example)."><code>&lt;big&gt;</code></a></s></li>
+  <li><s class="nonStdElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink" title="The HTML Blink Element (&lt;blink&gt;) is a non-standard element which causes the enclosed text to flash slowly."><code>&lt;blink&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" title="The HTML &lt;blockquote&gt; Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the &lt;cite&gt; element."><code>&lt;blockquote&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" title="The HTML &lt;body&gt; Element represents the content of an HTML document. There can be only one &lt;body&gt; element in a document."><code>&lt;body&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" title="The HTML &lt;br&gt; element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant."><code>&lt;br&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" title="The HTML &lt;button&gt; element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality."><code>&lt;button&gt;</code></a></li>
+ </ol>
+ </li><li>C
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" title="Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations."><code>&lt;canvas&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption" title="The HTML Table Caption element (&lt;caption&gt;) specifies the caption (or title) of a table, and if used is always the first child of a &lt;table&gt;."><code>&lt;caption&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center" title="The obsolete HTML Center Element (&lt;center&gt;) is a block-level element that displays its block-level or inline contents centered horizontally within its containing element."><code>&lt;center&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" title="The HTML Citation element (&lt;cite&gt;) is used to describe a reference to a cited creative work, and must include either the title or the URL of that work."><code>&lt;cite&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" title="The HTML &lt;code&gt; element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code."><code>&lt;code&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col" title="The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element."><code>&lt;col&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup" title="The HTML &lt;colgroup&gt; element defines a group of columns within a table."><code>&lt;colgroup&gt;</code></a></li>
+  <li class="webcomp"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/content" title="The HTML &lt;content&gt; element—an obsolete part of the Web Components suite of technologies—was used inside of Shadow DOM as an insertion point, and wasn&#39;t meant to be used in ordinary HTML."><code>&lt;content&gt;</code></a></li>
+ </ol>
+ </li><li>D
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" title="The HTML &lt;data&gt; element links a given content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used."><code>&lt;data&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist" title="The HTML &lt;datalist&gt; element contains a set of &lt;option&gt; elements that represent the values available for other controls."><code>&lt;datalist&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd" title="The HTML &lt;dd&gt; element provides the details about or the definition of the preceding term (&lt;dt&gt;) in a description list (&lt;dl&gt;)."><code>&lt;dd&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del" title="The HTML &lt;del&gt; element represents a range of text that has been deleted from a document."><code>&lt;del&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" title="The HTML Details Element (&lt;details&gt;) is used to create a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state. A summary or label can be provided using the &lt;summary&gt; element."><code>&lt;details&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" title="The HTML Definition element (&lt;dfn&gt;) is used to indicate the term being defined within the context of a definition phrase or sentence."><code>&lt;dfn&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog" title="The HTML &lt;dialog&gt; element represents a dialog box or other interactive component, such as an inspector or window."><code>&lt;dialog&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dir" title="The obsolete HTML Directory element (&lt;dir&gt;) is used as a container for a directory of files and/or folders, potentially with styles and icons applied by the user agent."><code>&lt;dir&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" title="The HTML Content Division element (&lt;div&gt;) is the generic container for flow content. It has no effect on the content or layout until styled using CSS."><code>&lt;div&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl" title="The HTML &lt;dl&gt; element represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs)."><code>&lt;dl&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt" title="The HTML &lt;dt&gt; element specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element."><code>&lt;dt&gt;</code></a></li>
+ </ol>
+ </li><li>E
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" title="The HTML &lt;em&gt; element marks text that has stress emphasis. The &lt;em&gt; element can be nested, with each level of nesting indicating a greater degree of emphasis."><code>&lt;em&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed" title="The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in."><code>&lt;embed&gt;</code></a></li>
+ </ol>
+ </li><li>F
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" title="The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form."><code>&lt;fieldset&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" title="The HTML &lt;figcaption&gt; element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the &lt;figure&gt; element which is its immediate ancestor."><code>&lt;figcaption&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" title="The HTML &lt;figure&gt; element represents self-contained content, frequently with a caption (&lt;figcaption&gt;), and is typically referenced as a single unit."><code>&lt;figure&gt;</code></a></li>
+  <li><s class="deprecatedElement obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font" title="The HTML Font Element (&lt;font&gt;) defines the font size, color and face for its content."><code>&lt;font&gt;</code></a></s></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" title="The HTML &lt;footer&gt; element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents."><code>&lt;footer&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" title="The HTML &lt;form&gt; element represents a document section that contains interactive controls to submit information to a web server."><code>&lt;form&gt;</code></a></li>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame" title="&lt;frame&gt; is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a &lt;frameset&gt;."><code>&lt;frame&gt;</code></a></s></li>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset" title="&lt;frameset&gt; is an HTML element which is used to contain &lt;frame&gt; elements."><code>&lt;frameset&gt;</code></a></s></li>
+ </ol>
+ </li><li>G H
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h1&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h2&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h3&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h4&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h5&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6" title="Heading elements implement six levels of document headings, &lt;h1&gt; is the most important and &lt;h6&gt; is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically."><code>&lt;h6&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" title="The HTML &lt;head&gt; element provides general information (metadata) about the document, including its title and links to its scripts and style sheets."><code>&lt;head&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" title="The HTML &lt;header&gt; element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, a search form, an author name, and so on."><code>&lt;header&gt;</code></a></li>
+  <li class="html5"><s class="deprecatedElement obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup" title="The HTML &lt;hgroup&gt; element represents a multi-level heading for a section of a document. It groups a set of &lt;h1&gt;–&lt;h6&gt; elements."><code>&lt;hgroup&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" title="The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section); historically, this has been presented as a horizontal rule or line."><code>&lt;hr&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" title="The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element."><code>&lt;html&gt;</code></a></li>
+ </ol>
+ </li><li>I
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i" title="The HTML &lt;i&gt; element represents a range of text that is set off from the normal text for some reason, for example, technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type."><code>&lt;i&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" title="The HTML &lt;iframe&gt; element represents a nested browsing context, effectively embedding another HTML page into the current page. In HTML 4.01, a document may contain a head and a body or a head and a frameset, but not both a body and a frameset. However, an &lt;iframe&gt; can be used within a normal document body. Each browsing context has its own session history and active document. The browsing context that contains the embedded content is called the parent browsing context. The top-level browsing context (which has no parent) is typically the browser window."><code>&lt;iframe&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" title="The HTML &lt;img&gt; element embeds an image into the document."><code>&lt;img&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" title="The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user."><code>&lt;input&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins" title="The HTML &lt;ins&gt; element represents a range of text that has been added to a document."><code>&lt;ins&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/isindex" title="&lt;isindex&gt; is an obsolete HTML element that puts a text field in a page for querying the document."><code>&lt;isindex&gt;</code></a></s></li>
+ </ol>
+ </li><li>J K
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" title="The HTML Keyboard Input element (&lt;kbd&gt;) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device."><code>&lt;kbd&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen" title="The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate."><code>&lt;keygen&gt;</code></a></li>
+ </ol>
+ </li><li>L
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" title="The HTML &lt;label&gt; element represents a caption for an item in a user interface."><code>&lt;label&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend" title="The HTML &lt;legend&gt; element represents a caption for the content of its parent &lt;fieldset&gt;."><code>&lt;legend&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" title="The HTML &lt;li&gt; element is used to represent an item in a list. It must be contained in a parent element: an ordered list (&lt;ol&gt;), an unordered list (&lt;ul&gt;), or a menu (&lt;menu&gt;). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter."><code>&lt;li&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" title="The HTML &lt;link&gt; element specifies relationships between the current document and an external resource. Possible uses for this element include defining a relational framework for navigation. This element is most used to link to style sheets."><code>&lt;link&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/listing" title="The HTML Listing Element (&lt;listing&gt;) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn&#39;t be broken when not greater than 132 characters."><code>&lt;listing&gt;</code></a></s></li>
+ </ol>
+ </li><li>M
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" title="The HTML &lt;main&gt; element represents the main content of the &lt;body&gt; of a document, portion of a document, or application. The main content area consists of content that is directly related to, or expands upon the central topic of, a document or the central functionality of an application."><code>&lt;main&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map" title="The HTML &lt;map&gt; element is used with &lt;area&gt; elements to define an image map (a clickable link area)."><code>&lt;map&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" title="The HTML Mark Text element (&lt;mark&gt;) represents text which is marked or highlighted for reference or notation purposes, due to the marked passage&#39;s relevance or importance in the enclosing context."><code>&lt;mark&gt;</code></a></li>
+  <li><s class="nonStdElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee" title="The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes."><code>&lt;marquee&gt;</code></a></s></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu" title="The HTML &lt;menu&gt; element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked."><code>&lt;menu&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem" title="The HTML &lt;menuitem&gt; element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button."><code>&lt;menuitem&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" title="The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;."><code>&lt;meta&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter" title="The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value."><code>&lt;meter&gt;</code></a></li>
+ </ol>
+ </li><li>N
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" title="The HTML &lt;nav&gt; element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes."><code>&lt;nav&gt;</code></a></li>
+  <li><s class="nonStdElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nobr" title="The non-standard, obsolete HTML &lt;nobr&gt; element prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text."><code>&lt;nobr&gt;</code></a></s></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noframes" title="The obsolete HTML No Frames or frame fallback element, &lt;noframes&gt;, provides content to be presented in browsers that don&#39;t support (or have disabled support for) the &lt;frame&gt; element."><code>&lt;noframes&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript" title="The HTML &lt;noscript&gt; element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser."><code>&lt;noscript&gt;</code></a></li>
+ </ol>
+ </li><li>O
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object" title="The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin."><code>&lt;object&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" title="The HTML &lt;ol&gt; element represents an ordered list of items, typically rendered as a numbered list."><code>&lt;ol&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup" title="The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element."><code>&lt;optgroup&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option" title="The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt; element. As such, &lt;option&gt; can represent menu items in popups and other lists of items in an HTML document."><code>&lt;option&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output" title="The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action."><code>&lt;output&gt;</code></a></li>
+ </ol>
+ </li><li>P
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" title="The HTML &lt;p&gt; element represents a paragraph of text."><code>&lt;p&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param" title="The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element."><code>&lt;param&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture" title="The HTML &lt;picture&gt; element serves as a container for zero or more &lt;source&gt; elements and one &lt;img&gt; element to provide versions of an image for different display device scenarios."><code>&lt;picture&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/plaintext" title="The HTML Plaintext Element (&lt;plaintext&gt;) renders everything following the start tag as raw text, without interpreting any HTML. There is no closing tag, since everything after it is considered raw text."><code>&lt;plaintext&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" title="The HTML &lt;pre&gt; element represents preformatted text which is to be presented exactly as written in the HTML file."><code>&lt;pre&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" title="The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar."><code>&lt;progress&gt;</code></a></li>
+ </ol>
+ </li><li>Q
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" title="The HTML &lt;q&gt; element  indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. "><code>&lt;q&gt;</code></a></li>
+ </ol>
+ </li><li>R
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp" title="The HTML Ruby Fallback Parenthesis (&lt;rp&gt;) element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the &lt;ruby&gt; element."><code>&lt;rp&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt" title="The HTML Ruby Text (&lt;rt&gt;) element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The &lt;rt&gt; element must always be contained within a &lt;ruby&gt; element."><code>&lt;rt&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc" title="The HTML Ruby Text Container (&lt;rtc&gt;) element embraces semantic annotations of characters presented in a ruby of &lt;rb&gt; elements used inside of &lt;ruby&gt; element. &lt;rb&gt; elements can have both pronunciation (&lt;rt&gt;) and semantic (&lt;rtc&gt;) annotations."><code>&lt;rtc&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby" title="The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters."><code>&lt;ruby&gt;</code></a></li>
+ </ol>
+ </li><li>S
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" title="The HTML &lt;s&gt; element renders text with a strikethrough, or a line through it. Use the &lt;s&gt; element to represent things that are no longer relevant or no longer accurate. However, &lt;s&gt; is not appropriate when indicating document edits; for that, use the &lt;del&gt; and &lt;ins&gt; elements, as appropriate."><code>&lt;s&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" title="The HTML Sample Element (&lt;samp&gt;) is used to enclose inline text which represents sample (or quoted) output from a computer program."><code>&lt;samp&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" title="The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code."><code>&lt;script&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" title="The HTML &lt;section&gt; element represents a standalone section — which doesn&#39;t have a more specific semantic element to represent it — contained within an HTML document."><code>&lt;section&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" title="The HTML &lt;select&gt; element represents a control that provides a menu of options:"><code>&lt;select&gt;</code></a></li>
+  <li class="webcomp"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/shadow" title="The HTML &lt;shadow&gt; element—an obsolete part of the Web Components technology suite—was intended to be used as a shadow DOM insertion point. You might have used it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML."><code>&lt;shadow&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot" title="The HTML &lt;slot&gt; element—part of the Web Components technology suite—is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together."><code>&lt;slot&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" title="The HTML &lt;small&gt; element makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser&#39;s minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation."><code>&lt;small&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source" title="The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element. It is an empty element. It is commonly used to serve the same media content in multiple formats supported by different browsers."><code>&lt;source&gt;</code></a></li>
+  <li><s class="nonStdElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/spacer" title="&lt;spacer&gt; is an obsolete HTML element which allowed insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, &lt;spacer&gt; no longer supported by any major browser and the same effects can now be achieved using simple CSS. "><code>&lt;spacer&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" title="The HTML &lt;span&gt; element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang."><code>&lt;span&gt;</code></a></li>
+  <li><s class="obsoleteElement deprecatedElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strike" title="The HTML &lt;strike&gt; element (or HTML Strikethrough Element) places a strikethrough (horizontal line) over text."><code>&lt;strike&gt;</code></a></s></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" title="The HTML Strong Importance Element (&lt;strong&gt;) indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type."><code>&lt;strong&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" title="The HTML &lt;style&gt; element contains style information for a document, or part of a document."><code>&lt;style&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" title="The HTML Subscript element (&lt;sub&gt;) specifies inline text which should be displayed as subscript for solely typographical reasons. Subscripts are typically rendered with a lowered baseline using smaller text."><code>&lt;sub&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" title="The HTML Disclosure Summary element (&lt;summary&gt;) element specifies a summary, caption, or legend for a &lt;details&gt; element&#39;s disclosure box."><code>&lt;summary&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" title="The HTML Superscript element (&lt;sup&gt;) specifies inline text which is to be displayed as superscript for solely typographical reasons."><code>&lt;sup&gt;</code></a></li>
+ </ol>
+ </li><li>T
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" title="The HTML &lt;table&gt; element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data."><code>&lt;table&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" title="The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table row (&lt;tr&gt; elements, indicating that they comprise the body of the table (&lt;table&gt;)."><code>&lt;tbody&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" title="The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model."><code>&lt;td&gt;</code></a></li>
+  <li class="webcomp"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template" title="The HTML &lt;template&gt; element is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript."><code>&lt;template&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea" title="The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control."><code>&lt;textarea&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot" title="The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table."><code>&lt;tfoot&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" title="The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes."><code>&lt;th&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead" title="The HTML &lt;thead&gt; element defines a set of rows defining the head of the columns of the table."><code>&lt;thead&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" title="The HTML &lt;time&gt; element represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information)."><code>&lt;time&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" title="The HTML Title element (&lt;title&gt;) defines the title of the document, shown in a browser&#39;s title bar or on the page&#39;s tab."><code>&lt;title&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" title="The HTML &lt;tr&gt; element specifies that the markup contained inside the &lt;tr&gt; block comprises one row of a table, inside which the &lt;th&gt; and &lt;td&gt; elements create header and data cells, respectively, within the row."><code>&lt;tr&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track" title="The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks."><code>&lt;track&gt;</code></a></li>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt" title="The obsolete HTML Teletype Text element (&lt;tt&gt;) creates inline text which is presented using the user agent&#39;s default monospace font face."><code>&lt;tt&gt;</code></a></s></li>
+ </ol>
+ </li><li>U
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u" title="The HTML Unarticulated Annotation element (&lt;u&gt;) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation."><code>&lt;u&gt;</code></a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" title="The HTML &lt;ul&gt; element represents an unordered list of items, typically rendered as a bulleted list."><code>&lt;ul&gt;</code></a></li>
+ </ol>
+ </li><li>V
+ <ol>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var" title="The HTML Variable element (&lt;var&gt;) represents the name of a variable in a mathematical expression or a programming context."><code>&lt;var&gt;</code></a></li>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" title="Use the HTML &lt;video&gt; element to embed video content in a document."><code>&lt;video&gt;</code></a></li>
+ </ol>
+ </li><li>W
+ <ol>
+  <li class="html5"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr" title="The HTML &lt;wbr&gt; element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location."><code>&lt;wbr&gt;</code></a></li>
+ </ol>
+ </li><li>X Y Z 
+ <ol>
+  <li><s class="obsoleteElement"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp" title="The HTML Example Element (&lt;xmp&gt;) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line."><code>&lt;xmp&gt;</code></a></s></li>
+ </ol>
+    </li>  
+   </ol></li>
+   </ol>
+  
+  </div>
+                
+
+                <!-- approvals -->
+                
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+    
+      <div class="newsletter-box">
+        <div class="newsletter">
+    <form id="newsletterForm" class="newsletter-form nodisable" name="newsletter-form" action="https://www.mozilla.org/en-US/newsletter/" method="post">
+        <div class="newsletter-head">
+            <h2 class="newsletter-teaser">Learn the best of web development</h2>
+            <p class="newsletter-description">Get the latest and greatest from MDN delivered straight to your inbox.</p>
+            
+        </div>
+
+        <div class="newsletter-fields">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletterNewslettersInput" name="newsletters" value="app-dev">
+            <div id="newsletterErrors" class="newsletter-errors"></div>
+
+            <div id="newsletterEmail" class="form-group newsletter-group-email">
+                <label for="newsletterEmailInput" class="form-label offscreen">E-mail</label>
+                <input type="email" id="newsletterEmailInput" name="email" class="form-input newsletter-input-email" required="" placeholder="you@example.com" size="30">
+            </div>
+
+            <div id="newsletterPrivacy" class="form-group form-group-agree newsletter-group-privacy hidden">
+                <input type="checkbox" id="newsletterPrivacyInput" name="privacy" required="">
+                <label for="newsletterPrivacyInput">
+                I'm okay with Mozilla handling my info as explained in this <a href="https://www.mozilla.org/privacy/">Privacy Policy</a>.
+                </label>
+            </div>
+            <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">Sign up now</button>
+            </div>
+        </div>
+    </form>
+    <div id="newsletterThanks" class="newsletter-thanks hidden">
+        <h2>Thanks! Please check your inbox to confirm your subscription.</h2>
+        <p>If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us.
+        </p>
+    </div>
+    <button id="newsletterHide" type="button" class="only-icon newsletter-hide"><span>Hide Newsletter Sign-up</span><i aria-hidden="true" class="icon-times"></i></button>
+</div>
+      </div>
+    
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="/en-US/docs/Web/HTML/Element/input/button$edit" label="Edit page"></menuitem>
+    <menuitem data-action="/en-US/docs/Web/HTML/Element/input/button$history" label="View page history"></menuitem>
+  </menu>
+
+      </div>
+  </main>
+  <!-- Footer -->
+    <footer id="nav-footer" class="nav-footer">
+      <div class="center">
+          <a href="https://developer.mozilla.org/en-US/" class="nav-footer-logo">MDN Web Docs</a>
+          <div class="footer-group footer-group-mdn">
+            <h2 class="footer-title">MDN</h2>
+            <ul class="footer-list">
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web">Web Technologies</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Learn">Learn Web Development</a></li>
+              <li><a href="https://developer.mozilla.org/docs/MDN/About">About MDN</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/MDN/Feedback">Feedback</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozdevnet" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://github.com/mdn/" class="only-icon"><i aria-hidden="true" class="icon-github"></i> <span>GitHub</span></a></li>
+            </ul>
+          </div>
+
+          <a href="https://mozilla.org/" class="nav-footer-mozilla">Mozilla</a>
+          <div class="footer-group footer-group-mozilla">
+            <h2 class="footer-title">Mozilla</h2>
+            <ul class="footer-list">
+              <li><a href="https://www.mozilla.org/about/">About</a></li>
+              <li><a href="https://www.mozilla.org/contact/">Contact Us</a></li>
+              <li><a href="https://donate.mozilla.org/?utm_source=developer.mozilla.org&amp;utm_medium=referral&amp;utm_content=footer">Donate</a></li>
+              <li><a href="https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&amp;utm_campaign=footer&amp;utm_medium=referral">Firefox</a></li>
+              <li class="footer-social"><a href="https://twitter.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-twitter"></i> <span>Twitter</span></a></li>
+              <li class="footer-social"><a href="https://www.facebook.com/mozilla" class="only-icon"><i aria-hidden="true" class="icon-facebook"></i> <span>Facebook</span></a></li>
+              <li class="footer-social"><a href="https://www.instagram.com/mozillagram/" class="only-icon"><i aria-hidden="true" class="icon-instagram"></i> <span>Instagram</span></a></li>
+            </ul>
+          </div>
+
+          
+  
+    <form class="languages go" method="get" action="https://developer.mozilla.org/en-US/docs/Web">
+      <label for="language">Other languages:</label>
+      <select id="language" class="wiki-l10n" name="next" dir="ltr">
+        <option title="English (US)" data-locale="en-US" value="/en-US/docs/Web/HTML/Element/input/button" selected="">
+          English (US) (en-US)
+        </option>
+        
+          <option title="German" data-locale="en-US" value="/de/docs/Web/HTML/Element/Input/button">
+            Deutsch (de)
+          </option>
+          <option title="Spanish" data-locale="en-US" value="/es/docs/Web/HTML/Elemento/input/Bot%C3%B3n">
+            Español (es)
+          </option>
+          <option title="French" data-locale="en-US" value="/fr/docs/Web/HTML/Element/Input/button">
+            Français (fr)
+          </option>
+          <option title="Japanese" data-locale="en-US" value="/ja/docs/Web/HTML/Element/Input/button">
+            日本語 (ja)
+          </option>
+          <option title="Chinese (Simplified)" data-locale="en-US" value="/zh-CN/docs/Web/HTML/Element/Input/button">
+            中文 (简体) (zh-CN)
+          </option>
+      </select>
+      <noscript>&lt;button type="submit"&gt;Go&lt;/button&gt;</noscript>
+    </form>
+  
+
+
+          
+            <ul class="footer-tos">
+              <li><a href="https://www.mozilla.org/about/legal/terms/mozilla">Terms</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/">Privacy</a></li>
+              <li><a href="https://www.mozilla.org/privacy/websites/#cookies">Cookies</a></li>
+            </ul>
+
+            <div id="license" class="contentinfo">
+              <p>© 2005-2018 Mozilla and individual contributors.</p> <p>Content is available under <a href="https://developer.mozilla.org/en-US/docs/MDN/About#Copyrights_and_licenses">these licenses</a>.</p>
+            </div>
+          
+      </div>
+    </footer> 
+
+  <!-- site js -->
+  
+    
+    <!--[if lte IE 8]><script type="text/javascript" src="https://cdn.mdn.mozilla.net/static/build/js/selectivizr.091e18cf669b.js" charset="utf-8"></script><![endif]-->
+
+    
+    <script type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/javascript.b28203373cc1.js"></script>
+    <script type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/main.226517b2a7dc.js" charset="utf-8"></script>
+    <script>
+      if(window.mdn && mdn.analytics) mdn.analytics.trackOutboundLinks();
+    </script>
+    
+
+  
+
+    <script async="" type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/wiki.c60705233ffd.js" charset="utf-8"></script>
+
+
+
+  
+
+  
+
+  
+
+  
+    <script async="" type="text/javascript" src="./_input type=_button__ - HTML _ MDN_files/newsletter.7cd3274169f2.js" charset="utf-8"></script>
+  
+
+
+
+</body></html>

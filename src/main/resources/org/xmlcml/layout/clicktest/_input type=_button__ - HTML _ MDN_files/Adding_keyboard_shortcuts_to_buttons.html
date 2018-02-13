@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- saved from url=(0131)https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input/button$samples/Adding_keyboard_shortcuts_to_buttons?revision=1351267 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./samples.37902ba3b7fe.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        
+            <form>
+  <input type="button" value="Start machine" accesskey="s">
+</form>
+<p>The machine is stopped.</p>
+        
+        
+            <script type="text/javascript">
+                var btn = document.querySelector('input');
+var txt = document.querySelector('p');
+
+btn.addEventListener('click', updateBtn);
+
+function updateBtn() {
+  if (btn.value === 'Start machine') {
+    btn.value = 'Stop machine';
+    txt.textContent = 'The machine has started!';
+  } else {
+    btn.value = 'Start machine';
+    txt.textContent = 'The machine is stopped.';
+  }
+}
+            </script>
+        
+    
+</body></html>

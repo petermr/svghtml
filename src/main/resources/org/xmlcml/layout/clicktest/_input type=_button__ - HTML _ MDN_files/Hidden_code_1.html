@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input/button$samples/Hidden_code_1?revision=1351267 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./samples.37902ba3b7fe.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        
+            <input type="button" value="Enabled">
+        
+        
+            <script type="text/javascript">
+                var btn = document.querySelector('input');
+
+btn.addEventListener('click', disableBtn);
+
+function disableBtn() {
+  btn.disabled = true;
+  btn.value = 'Disabled';
+  window.setTimeout(function() {
+    btn.disabled = false;
+    btn.value = 'Enabled';
+  }, 2000);
+}
+            </script>
+        
+    
+</body></html>
