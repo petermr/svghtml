@@ -1,7 +1,11 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
@@ -13,6 +17,9 @@ import org.xmlcml.euclid.Int2Range;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.euclid.Util;
+import org.xmlcml.graphics.svg.RectComparator;
+import org.xmlcml.graphics.svg.RectComparator.RectEdge;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -21,8 +28,12 @@ import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.fonts.StyleRecord;
+import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
+
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.Multimap;
 
 /** analyses pages for components.
  * may extend to compete documents.
@@ -219,7 +230,9 @@ public class PageCacheTest {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgElement));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		styleRecordFactory.setNormalizeFontNames(true);
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
 	}
@@ -232,7 +245,8 @@ public class PageCacheTest {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgElement));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		// won't work as we don't have lines till they have gone through the Caches
 		List<SVGLine> lines = SVGLine.extractSelfAndDescendantLines(svgElement);
@@ -261,7 +275,8 @@ public class PageCacheTest {
 		List<SVGText> leftTexts = SVGText.extractTexts(SVGElement.extractElementsContainedInBox(svgTexts, cropBoxLeft));
 		SVGSVG.wrapAndWriteAsSVG(leftTexts, new File(targetDir, "page7left.svg"));
 		Assert.assertEquals("leftTexts", 98, leftTexts.size());
-		StyleRecordSet leftStyleRecordSet = StyleRecordSet.createStyleRecordSet(leftTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet leftStyleRecordSet = styleRecordFactory.createStyleRecordSet(leftTexts);
 		List<StyleRecord> sortedStyleRecords = leftStyleRecordSet.createSortedStyleRecords();
 		Assert.assertEquals("styleRecords", 3, sortedStyleRecords.size());
 		// italics
@@ -294,6 +309,168 @@ public class PageCacheTest {
 		List<SVGLine> lines1 = SVGLine.findHorizontaLines(lines, 0.001);
 		g.appendChildren(lines1);
 		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "page7leftBoxes.svg"));
+	}
+	
+	@Test
+	/** reads a file with the bounding boxes of text and creates lines.
+	 * 
+	 */
+	public void testGetRectLinesFromBoxes() {
+		
+		for (int ipage = 1; ipage <= 9; ipage++) {
+		
+		File pageFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/box/"+"fulltext-page"+ipage+".box.svg");
+		SVGElement pageElement = SVGElement.readAndCreateSVG(pageFile);
+		List<SVGRect> rectList = SVGRect.extractSelfAndDescendantRects(pageElement);
+		PageCache pageCache = new PageCache();  // just for the test
+		List<Real2Range> clipBoxes = pageCache.getDefault2ColumnClipBoxes();
+		SVGG g = new SVGG();
+		for (Real2Range clipBox : clipBoxes) {
+			Multimap<Double, SVGRect> rectByYCoordinate = ArrayListMultimap.create();
+			for (SVGRect rect : rectList) {
+				rect.format(1);
+				Real2Range bbox = rect.getBoundingBox();
+				bbox = bbox.format(1);
+				LOG.trace(rect+"//"+bbox);
+				if (clipBox.includes(bbox)) {
+					Double ymax = (Double) Util.format(rect.getBoundingBox().getYMax(), 1); // max since text line
+					rectByYCoordinate.put(ymax, rect);
+				}
+			}
+		
+			List<Double> yList = new ArrayList<Double>(rectByYCoordinate.keySet());
+			Collections.sort(yList);
+			Real2Range lastBBox = null;
+			List<SVGRect> lastRowRectList;
+			Double lastFontSize = null;
+			SVGRect lastTotalRect = null;
+			for (Double y : yList) {
+				List<SVGRect> rowRectList = new ArrayList<SVGRect>(rectByYCoordinate.get(y));
+				Double fontSize  = getCommonFontSize(rowRectList);
+				Collections.sort(rowRectList, new RectComparator(RectEdge.LEFT_EDGE));
+				g.appendChildCopies(rowRectList);
+				Real2Range rowBBox = SVGElement.createTotalBox(rowRectList);
+				SVGRect totalRect = SVGRect.createFromReal2Range(rowBBox);
+				totalRect.setFill("yellow").setOpacity(0.3);
+				g.appendChild(totalRect);
+				LOG.debug(y+": "+rowRectList);
+				Real2Range intersection = rowBBox.getIntersectionWith(lastBBox);
+				if (intersection != null) {
+					LOG.debug("intersection "+intersection+" // "+lastFontSize+" // "+fontSize);
+					SVGRect intersectionRect = SVGRect.createFromReal2Range(intersection);
+					intersectionRect.setFill("red").setOpacity(0.3);
+					g.appendChild(intersectionRect);
+					if (lastFontSize / fontSize < 0.8) {
+						lastTotalRect.setFill("blue");
+					} else if (lastFontSize / fontSize > 1.2) {
+						totalRect.setFill("orange");
+					}
+				}
+				lastBBox = rowBBox;
+				lastFontSize = fontSize;
+				lastRowRectList = rowRectList;
+				lastTotalRect = totalRect;
+			}
+			LOG.debug("==================\n");
+		}
+		File targetDir = new File("target/demos/varga/");
+		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "boxes"+ipage+".svg"));
+		}
+	}
+
+	
+	@Test
+	/** reads a file with the bounding boxes of text and creates lines.
+	 * 
+	 */
+	public void testGetRectLinesFromSVGAndBoxes() {
+		
+		int ipage = 7;
+		
+		File pageFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/box/"+"fulltext-page"+ipage+".box.svg");
+		SVGElement pageElement = SVGElement.readAndCreateSVG(pageFile);
+		List<SVGRect> rectList = SVGRect.extractSelfAndDescendantRects(pageElement);
+		PageCache pageCache = new PageCache();  // just for the test
+		List<Real2Range> clipBoxes = pageCache.getDefault2ColumnClipBoxes();
+		SVGG g = new SVGG();
+		for (Real2Range clipBox : clipBoxes) {
+			Multimap<Double, SVGRect> rectByYCoordinate = ArrayListMultimap.create();
+			for (SVGRect rect : rectList) {
+				rect.format(1);
+				Real2Range bbox = rect.getBoundingBox();
+				bbox = bbox.format(1);
+				LOG.trace(rect+"//"+bbox);
+				if (clipBox.includes(bbox)) {
+					Double ymax = (Double) Util.format(rect.getBoundingBox().getYMax(), 1); // max since text line
+					rectByYCoordinate.put(ymax, rect);
+				}
+			}
+		
+			List<Double> yList = new ArrayList<Double>(rectByYCoordinate.keySet());
+			Collections.sort(yList);
+			Real2Range lastBBox = null;
+			List<SVGRect> lastRowRectList;
+			Double lastFontSize = null;
+			SVGRect lastTotalRect = null;
+			for (Double y : yList) {
+				List<SVGRect> rowRectList = new ArrayList<SVGRect>(rectByYCoordinate.get(y));
+				Double fontSize  = getCommonFontSize(rowRectList);
+				Collections.sort(rowRectList, new RectComparator(RectEdge.LEFT_EDGE));
+				g.appendChildCopies(rowRectList);
+				Real2Range rowBBox = SVGElement.createTotalBox(rowRectList);
+				SVGRect totalRect = SVGRect.createFromReal2Range(rowBBox);
+				totalRect.setFill("yellow").setOpacity(0.3);
+				g.appendChild(totalRect);
+				LOG.debug(y+": "+rowRectList);
+				Real2Range intersection = rowBBox.getIntersectionWith(lastBBox);
+				if (intersection != null) {
+					LOG.debug("intersection "+intersection+" // "+lastFontSize+" // "+fontSize);
+					SVGRect intersectionRect = SVGRect.createFromReal2Range(intersection);
+					intersectionRect.setFill("red").setOpacity(0.3);
+					g.appendChild(intersectionRect);
+					if (lastFontSize / fontSize < 0.8) {
+						lastTotalRect.setFill("blue");
+					} else if (lastFontSize / fontSize > 1.2) {
+						totalRect.setFill("orange");
+					}
+				}
+				lastBBox = rowBBox;
+				lastFontSize = fontSize;
+				lastRowRectList = rowRectList;
+				lastTotalRect = totalRect;
+			}
+			LOG.debug("==================\n");
+		}
+		File targetDir = new File("target/demos/varga/");
+		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "boxes"+ipage+".svg"));
+	}
+	
+
+	private Double getCommonFontSize(List<SVGRect> rowRectList) {
+		Double fontSize = null;
+		for (SVGRect rect : rowRectList) {
+			String s = rect.getChildElements().get(0).getValue();
+			try {
+				fontSize = Double.parseDouble(s.split("\\s*;\\s*")[0]);
+			} catch (NumberFormatException nfe) {
+				throw new RuntimeException("s "+s, nfe);
+			}
+		}
+		return fontSize;
+	}
+	
+	@Test
+	public void testRegexNamedCapture() {
+		String s = "B8,N6,N8,N8,N8,N10,N10,";
+		Pattern pattern = Pattern.compile("(?<title>(B8,?)+),(?<head>(N6,?))(?<body>(N8,?)+)(?<bottom>(N10,?)+)");
+		Matcher matcher = pattern.matcher(s);
+		if (matcher.matches()) {
+			LOG.debug(matcher.groupCount());
+			LOG.debug(matcher.group("title"));
+			LOG.debug(matcher.group("head"));
+			LOG.debug(matcher.group("body"));
+			LOG.debug(matcher.group("bottom"));
+		}
 	}
 	
 	// ============================

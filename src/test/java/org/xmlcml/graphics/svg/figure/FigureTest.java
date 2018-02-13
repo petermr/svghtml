@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.figure;
 
 import java.io.File;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -18,13 +19,13 @@ import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.SVGTextComparator;
 import org.xmlcml.graphics.svg.SVGUtil;
+import org.xmlcml.graphics.svg.SVGTextComparator.TextComparatorType;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
 import org.xmlcml.graphics.svg.plot.SVGBarredPoint;
 import org.xmlcml.graphics.svg.plot.XPlotBox;
 import org.xmlcml.graphics.svg.plot.YPlotBox;
-import org.xmlcml.svg.SVGTextComparator;
-import org.xmlcml.svg.SVGTextComparator.TextComparatorType;
 
 public class FigureTest {
 	private static final Logger LOG = Logger.getLogger(FigureTest.class);
