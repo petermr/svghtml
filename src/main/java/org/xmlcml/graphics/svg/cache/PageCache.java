@@ -1,7 +1,8 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
-import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
@@ -9,11 +10,13 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Int2Range;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
 
@@ -113,13 +116,11 @@ public class PageCache extends ComponentCache {
 		return rightSidebarCache;
 	}
 
-	void createSummaryBoxes(File svgFile) {
+	SVGElement createSummaryBoxes(File svgFile) {
+		LOG.debug("CREATE SUMMARY BOXES");
 		this.svgFile = svgFile;
 		Multiset<Int2Range> intBoxes1 = HashMultiset.create();
-//		this.processPages(svgFiles, intBoxes1);
 		SVGElement boxg = this.getStyledBoxes(intBoxes1);
-		// DEBUG this
-		LOG.debug("DEBUG HERE");
 		getOrCreateExtractedSVGElement().appendChild(boxg);
 		Multiset<Int2Range> intBoxes = intBoxes1;
 		List<Multiset.Entry<Int2Range>> sortedIntBoxes1 = MultisetUtil.createInt2RangeListSortedByCount(intBoxes);
@@ -133,11 +134,13 @@ public class PageCache extends ComponentCache {
 				getOrCreateExtractedSVGElement().appendChild(rect);
 			}
 		}
+		return boxg;
 	}
 
 	private SVGElement getStyledBoxes(Multiset<Int2Range> intBoxes) {
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		List<SVGRect> boxes = SVGRect.extractSelfAndDescendantRects(g);
 		for (SVGRect box : boxes) {
@@ -216,7 +219,7 @@ public class PageCache extends ComponentCache {
 		this.leftSidebarCache.setXMax(bodyCache.boundingBox.getXMin());
 		this.rightSidebarCache.setXMin(bodyCache.boundingBox.getXMax());
 		rectsList = pageLayout.getRectList(PageLayout.BODY);
-		LOG.debug("page ***** "+this);
+		LOG.debug("made rects: "+rectsList.size());
 	}
 
 	public String getBasename() {
@@ -260,7 +263,39 @@ public class PageCache extends ComponentCache {
 	}
 
 	public void setPageLayout(PageLayout pageLayout) {
+		if (pageLayout == null) {
+			throw new RuntimeException("null pageLayout");
+		}
 		this.pageLayout = pageLayout;
+	}
+
+	/** this is a default two-column layout.
+	 * 
+	 * @return
+	 */
+	public List<Real2Range> getDefault2ColumnClipBoxes() {
+		return Arrays.asList(
+			new Real2Range[] {
+				new Real2Range(new RealRange(13., 255.), new RealRange(0,999)),
+				new Real2Range(new RealRange(260., 999.), new RealRange(0,999)),
+			});
+	}
+
+	/** general Lyout (NYI)
+	 * 
+	 * @return
+	 */
+	public List<Real2Range> getSpecificClipBoxes() {
+		List<Real2Range> clipBoxes = new ArrayList<Real2Range>();
+		if (pageLayout != null) {
+			clipBoxes = pageLayout.getClipBoxes();
+//			clipBoxes = Arrays.asList(
+//				new Real2Range[] {
+//					new Real2Range(new RealRange(13., 255.), new RealRange(0,999)),
+//					new Real2Range(new RealRange(260., 999.), new RealRange(0,999)),
+//				});
+		}
+		return clipBoxes;
 	}
 
 }

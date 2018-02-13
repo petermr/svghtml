@@ -8,6 +8,8 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.eclipse.jetty.util.log.Log;
+import org.junit.Assert;
 import org.xmlcml.euclid.util.CMFileUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -15,11 +17,11 @@ import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
 
 /** manages a complete document of several pages.
- * NYI
  * @author pm286
  *
  */
 public class DocumentCache extends ComponentCache {
+	
 	private static final Logger LOG = Logger.getLogger(DocumentCache.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -27,6 +29,7 @@ public class DocumentCache extends ComponentCache {
 
 	public static final String DOT_SVG = ".svg";
 	public static final String FULLTEXT_PAGE = "fulltext-page";
+	private static final String BOX = ".box";
 
 	private File svgDir;
 	private SVGElement totalSvgElement;
@@ -38,6 +41,7 @@ public class DocumentCache extends ComponentCache {
 	private PageLayout middlePageLayout;
 	private PageLayout backPageLayout;
 	private PageLayout currentPageLayout;
+	private int npages;
 
 	public DocumentCache() {
 		
@@ -73,17 +77,30 @@ public class DocumentCache extends ComponentCache {
 
 	public void analyzePages(String pubstyle, int npages, String fileDir, File targetDir) {
 		makePageLayouts(pubstyle);
+		this.setPageCount(npages);
 		for (int ipage = 1; ipage <= npages; ipage++) {
 			PageCache pageCache = new PageCache(this);
-			currentPageLayout = getCurrentPageLayout(npages, ipage);
-			pageCache.setPageLayout(currentPageLayout);
-			File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
-			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
-			pageCache.readPageLayoutAndMakeBBoxesAndMargins(currentPageLayout);
-			pageCache.createSummaryBoxes(svgFile);
-			SVGElement boxes = pageCache.createSVGElementFromComponents();
-			SVGSVG.wrapAndWriteAsSVG(boxes, new File(targetDir, fileDir+"/fulltext-page" + ipage + DocumentCache.DOT_SVG));
+			SVGElement boxes = debugPage(fileDir, ipage, pageCache);
+			File outFileSVG = new File(targetDir, fileDir+"/fulltext-page" + ipage + DocumentCache.DOT_SVG);
+			LOG.debug("out "+outFileSVG);
+			SVGSVG.wrapAndWriteAsSVG(boxes, outFileSVG);
 		}
+	}
+
+	private void setPageCount(int npages) {
+		this.npages = npages;
+	}
+
+	private SVGElement debugPage(String fileDir, int ipage, PageCache pageCache) {
+		currentPageLayout = getCurrentPageLayout(ipage);
+		pageCache.setPageLayout(currentPageLayout);
+		File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
+		pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
+		pageCache.readPageLayoutAndMakeBBoxesAndMargins(currentPageLayout);
+		SVGElement boxg = pageCache.createSummaryBoxes(svgFile);
+		SVGElement boxes = pageCache.createSVGElementFromComponents();
+		boxes.appendChild(boxg.copy());
+		return boxes;
 	}
 
 	private void summarizePages() {
@@ -141,14 +158,18 @@ public class DocumentCache extends ComponentCache {
 		this.backPageLayout = PageLayout.readPageLayoutFromStream(backInputStream);
 	}
 	
-	private PageLayout getCurrentPageLayout(int npages, int i) {
+	private PageLayout getCurrentPageLayout(int ipage) {
 		PageLayout pageLayout = null;
-		if (i == 1 && frontPageLayout != null) {
+		if (ipage == 1 && frontPageLayout != null) {
 			pageLayout = frontPageLayout;
-		} else if (i == npages && backPageLayout != null) {
+		} else if (ipage == npages && backPageLayout != null) {
 			pageLayout = backPageLayout;
 		} else {
 			pageLayout = middlePageLayout;
+		}
+		if (pageLayout == null) {
+			pageLayout = PageLayout.getDefaultPageLayout();
+			LOG.warn("Couldn't find bespoke layout, using default");
 		}
 		return pageLayout;
 	}

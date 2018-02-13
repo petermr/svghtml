@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -24,6 +25,7 @@ public class PageLayout {
 	public static final String RESOURCE_PREFIX = "/org/xmlcml";
 	public static final String LAYOUT = RESOURCE_PREFIX+"/layout";
 	
+	public static final String MEDIABOX = "mediabox";
 	public static final String BODY = "body";
 	public static final String HEADER = "header";
 	public static final String FOOTER = "footer";
@@ -35,13 +37,17 @@ public class PageLayout {
 	public static final String FRONT = "front";
 	public static final String MIDDLE = "middle";
 	public static final String BACK = "back";
+	
 	public static final String DOT_SVG = ".svg";
-	public static final String AMSOCGENE = LAYOUT+"/asgt"+DOT_SVG;
-	public static final String BMC = LAYOUT+"/bmc"+DOT_SVG;
+	public static final String AMSOCGENE = LAYOUT+"/asgt/";
+	public static final String BMC = LAYOUT+"/bmc/";
 	public static final String PLOSONE2016 = LAYOUT+"/plosone2016/";
+	public static final String DEFAULT = LAYOUT+"/default/";
 	
 
 	private SVGElement layoutElement;
+	private static PageLayout defaultPageLayout;
+	private Real2Range mediaBox;
 
 	public PageLayout() {
 	}
@@ -58,26 +64,27 @@ public class PageLayout {
 		return getLimits(BODY);
 	}
 
+	public Real2Range getMediaBox() {
+		mediaBox = (layoutElement != null) ? getBoundingBoxFromId(MEDIABOX) : null;
+		return mediaBox;
+	}
+
 	private Real2Range getLimits(String boxClass) {
-		Real2Range limits = (layoutElement != null) ? getBoundingBoxFromId(/*PageLayout.ALL*/ "main.body") : null;
+		Real2Range limits = (layoutElement != null) ? getBoundingBoxFromId("main.body") : null;
 		return limits;
 	}
 	
 	List<SVGRect> getRectList(String boxClass) {
 		String tagName = SVGRect.TAG;
-		List<SVGElement> elements = SVGUtil.getQuerySVGElements(
-				layoutElement, ".//*[local-name()='" + G + "' and @class='" + boxClass + "']/"
-						+ "*[local-name()='" + tagName + "']");
+		List<SVGElement> elements = SVGUtil.getQuerySVGElements(layoutElement, 
+			".//*[local-name()='" + G + "' and @class='" + boxClass + "']/*[local-name()='" + tagName + "']");
 		return SVGRect.extractRects(elements);
 	}
 
 	private Real2Range getBoundingBoxFromId(String role) {
-//		String xpath = ".//*[local-name()='" + G + "' and @class='" + boxClass + "']/"
-//				+ "*[local-name()='" + tagName + "' and @class='" + role + "']";
 		String xpath = ".//*[@id='" + role + "']";
 		List<SVGElement> boxList = SVGUtil.getQuerySVGElements(layoutElement, xpath);
 		LOG.debug(xpath);
-///		LOG.debug("LAY "+layoutElement.toXML());
 		SVGRect rect = (boxList.size() == 1) ? (SVGRect) boxList.get(0): null;
 		Real2Range limits = rect == null ? null : rect.getBoundingBox();
 		return limits;
@@ -103,6 +110,18 @@ public class PageLayout {
 		return pageLayout;
 	}
 
+	public static PageLayout getDefaultPageLayout() {
+		if (defaultPageLayout == null) {
+			String defaultResource = DEFAULT+MIDDLE+DOT_SVG;
+			defaultPageLayout = readPageLayoutFromResource(defaultResource);
+		}
+		return defaultPageLayout;
+	}
+
+	public List<Real2Range> getClipBoxes() {
+		List<Real2Range> clipBoxes = new ArrayList<Real2Range>();
+		return clipBoxes;
+	}
 
 
  }
