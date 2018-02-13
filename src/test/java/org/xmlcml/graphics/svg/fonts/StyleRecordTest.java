@@ -32,7 +32,8 @@ public class StyleRecordTest {
 	public void testCreateStyleRecordsFromPage() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgElement);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		Assert.assertEquals("styleRecords", 
 //		"{font-name:YtvlrqAdvTTe45e47d2;font-size:8.0px;font-weight:normal;=chars: [,, -, . x 2, / x 5, 0 x 4, 1 x 4, 2 x 4, 4 x 3, 5 x 2, 6 x 2, 7 x 2, 9, : x 2, H, P, a x 3, b, c x 2, d, e x 4, f, g, h, i, k, l, m x 2, n, o x 3, p, r, s, t x 3, w x 4],"
 //		+ " font-name:CdrtkwAdvTTaf7f9f4f.B;font-size:8.0px;font-weight:bold;=chars: [1, 2],"
@@ -58,7 +59,8 @@ public class StyleRecordTest {
 	public void testGetSingleStyleRecordByStyle() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgElement);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		StyleRecordSet boldSet = cssStyleRecordSet.getStyleRecordSet(StyleBundle.FONT_WEIGHT, StyleBundle.BOLD);
 		Assert.assertEquals("bold", "{fill:#000000;font-name:CdrtkwAdvTTaf7f9f4f.B;font-size:8.0px;font-weight:bold;stroke:none;=chars: total: 2; unique: 2; coords: 1 [39.7 x 2]}", boldSet.toString());
 	}
@@ -70,7 +72,8 @@ public class StyleRecordTest {
 	public void testGetMultipleStyleRecordsByStyle() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
 		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgElement);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		StyleRecordSet italicSet = cssStyleRecordSet.getStyleRecordSet(StyleBundle.FONT_STYLE, StyleBundle.ITALIC);
 		Assert.assertEquals("italic", 
 				"{fill:#000000;font-name:MsjdcxAdvTT7329fd89.I;font-size:8.0px;font-style:italic;font-weight:normal;stroke:none;=chars: total: 14; unique: 11; coords: 1 [39.7 x 14], fill:#000000;font-name:TrfkklAdvTT8861b38f.I;font-size:9.8px;font-style:italic;font-weight:normal;stroke:none;=chars: total: 206; unique: 25; coords: 6 [528.1 x 44, 540.0 x 42, 552.1 x 41, 564.1 x 27, 612.0 x 17, 624.1 x 35], fill:#000000;font-name:KchfjlAdvTT83913201.I;font-size:9.2px;font-style:italic;font-weight:normal;stroke:none;=chars: total: 80; unique: 24; coords: 4 [168.1 x 18, 312.1 x 5, 444.1 x 33, 588.1 x 24]}",
@@ -94,7 +97,8 @@ public class StyleRecordTest {
 		File indir = new File(BAKKER_SVG_DIR);
 		Assert.assertTrue("indir exists "+indir, indir.exists());
 		List<SVGText> svgTexts = SVGText.readSVGFilesAndCreateTexts(indir);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		Assert.assertEquals("font analyzer set", 69, cssStyleRecordSet.size());
 		// omit whitespace characters
 
@@ -118,7 +122,8 @@ public class StyleRecordTest {
 	public void testCreateFontNameSet() {
 		File indir = new File(BAKKER_SVG_DIR);
 		List<SVGText> svgTexts = SVGText.readSVGFilesAndCreateTexts(indir);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		Multiset<String> fontNameSet = cssStyleRecordSet.extractFontNameSet();
 		Assert.assertEquals(15, fontNameSet.entrySet().size());
 		Assert.assertEquals(69, fontNameSet.size());
@@ -134,7 +139,8 @@ public class StyleRecordTest {
 	public void testExtractTypefaceSet() {
 		File indir = new File(BAKKER_SVG_DIR);
 		List<SVGText> svgTexts = SVGText.readSVGFilesAndCreateTexts(indir);
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		TypefaceMaps typefaceSet = cssStyleRecordSet.extractTypefaceMaps("Bakker typefaces");
 		LOG.debug("\n"+typefaceSet);
 		Assert.assertEquals(15, typefaceSet.size());
@@ -157,7 +163,8 @@ public class StyleRecordTest {
 	public void testFontFill() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "page1.blue.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordSet cssStyleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		TypefaceMaps typefaceSet = cssStyleRecordSet.extractTypefaceMaps("fill");
 		List<Typeface> typefaceList = typefaceSet.getTypefaceListByFill("#2b5bf9");
 		Assert.assertEquals("blue", 2, typefaceList.size());
@@ -170,7 +177,8 @@ public class StyleRecordTest {
 	public void testExtractEquations() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		Assert.assertEquals(""
 				+ "{fill:#000000;font-name:StoneSerif;font-size:7.0px;font-weight:normal;=chars: total: 1843; unique: 53;"
 				+ " coords: 32 [149.4, 158.4, 167.4, 176.4, 185.4, 194.4, 203.4, 212.4, 221.4, 230.4, 239.4, 248.5, 257.5,"
@@ -239,7 +247,8 @@ public class StyleRecordTest {
 	public void testDisplayStyles() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 		SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/", "equations.svg"));
 	}
@@ -254,7 +263,8 @@ public class StyleRecordTest {
 			String name = svgFile.getName();
 			LOG.debug(name);
 			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+			StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+			StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 			SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/bmc/", name));
 		}
@@ -270,7 +280,8 @@ public class StyleRecordTest {
 			String name = svgFile.getName();
 			LOG.debug(name);
 			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-			StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+			StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+			StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 			SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
 			SVGSVG.wrapAndWriteAsSVG(g, new File("target/demos/varga/compact/", name));
 		}
@@ -283,7 +294,8 @@ public class StyleRecordTest {
 	public void testStyleArrays() {
 		File svgFile = new File(SVGHTMLFixtures.FONTS_DIR, "styledequations.svg");
 		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(svgTexts);
+		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
 		List<StyleRecord> sortedStyles = styleRecordSet.createSortedStyleRecords();
 		for (StyleRecord styleRecord : sortedStyles) {
 			Multiset<Double> yCoordinateSet = styleRecord.getOrCreateYCoordinateSet();

@@ -631,4 +631,45 @@ public class StyleBundle implements XMLConstants {
 		return name+":"+value+";";
 	}
 
+	/** empirically guesses the "parent font name" for bold and italic modifiers.
+	 * 
+	 * @return
+	 */
+	public String createNormalizedFontName() {
+		LOG.debug(fontName + "// "+fontStyle+" // "+fontWeight);
+		String newFontName = normalizeBold(fontName);
+		newFontName = normalizeItalic(newFontName);
+		return newFontName;
+	}
+
+	private String normalizeBold(String fontName) {
+		// examples are FooBold Foo-Bold, Foo.B, Foo+20
+		String bold1 = "(\\-?Bold)";
+		String bold2 = "(\\.B$)";
+		String bold3 = "(\\+20$)";
+		String newFontName = fontName.replaceAll("(" + bold1 + "|" + bold2 + "|" + bold3 + ")", "");
+		if (!newFontName.equals(fontName)) {
+			if (!StyleBundle.BOLD.equals(fontWeight)) {
+				LOG.warn("Bold font?? without explicit weight: "+fontName);
+				fontWeight = StyleBundle.BOLD;
+			}
+		}
+		return newFontName;
+	}
+
+	private String normalizeItalic(String fontName) {
+		// examples are FooBold Foo-Bold, Foo.B, Foo+20
+		String ital1 = "(\\-?Italic)";
+		String ital2 = "(\\-?Oblique)";
+		String ital3 = "(\\.I$)";
+		String newFontName = fontName.replaceAll("(" + ital1 + "|" + ital2 + "|" + ital3 + ")", "");
+		if (!newFontName.equals(fontName)) {
+			if (!StyleBundle.BOLD.equals(fontWeight)) {
+				LOG.warn("Bold font?? without explicit weight: "+fontName);
+				fontWeight = StyleBundle.BOLD;
+			}
+		}
+		return newFontName;
+	}
+
 }

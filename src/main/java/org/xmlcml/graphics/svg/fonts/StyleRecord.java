@@ -38,16 +38,22 @@ public class StyleRecord {
 	private StyledFont styledFont;
 	private StyleBundle styleBundle;
 	private Multiset<Double> yCoordinateSet;
+	private String cssStyle;
 
 	public StyleRecord(String cssStyle) {
 		styledFont = new StyledFont(cssStyle);
 		styleBundle = new StyleBundle(cssStyle);
 		this.characterSet = HashMultiset.create();
+		this.cssStyle = cssStyle;
+	}
+
+	public StyleRecord(StyleRecord styleRecord) {
 	}
 
 	/** gets style attributes related to font.
-	 * currently name, size, style, weight
-	 * maybe should add fill and stroke later
+	 * currently name, size, style, weight, fill, stroke
+	 * 
+	 * this is the raw style (not enhanced by StyleRecordFactory)
 	 * 
 	 * @param text
 	 * @return
@@ -55,17 +61,22 @@ public class StyleRecord {
 	public static String getCSSStyle(SVGText text) {
 		String cssStyle = null;
 		if (text != null) {
-			StyleAttributeFactory attributeFactory = new StyleAttributeFactory();
-			attributeFactory.addFontName(text);
-			attributeFactory.addFontSize(text);
-			attributeFactory.addFontStyle(text);
-			attributeFactory.addFontWeight(text);
-			attributeFactory.addFill(text);
-			attributeFactory.addStroke(text);
-			attributeFactory.addFontWeight(text);
+			StyleAttributeFactory attributeFactory = createStyleAttributeFactory(text);
 			cssStyle = attributeFactory.getAttributeValue();
 		}
 		return cssStyle;
+	}
+
+	private static StyleAttributeFactory createStyleAttributeFactory(SVGText text) {
+		StyleAttributeFactory attributeFactory = new StyleAttributeFactory();
+		attributeFactory.addFontName(text);
+		attributeFactory.addFontSize(text);
+		attributeFactory.addFontStyle(text);
+		attributeFactory.addFontWeight(text);
+		attributeFactory.addFill(text);
+		attributeFactory.addStroke(text);
+		attributeFactory.addFontWeight(text);
+		return attributeFactory;
 	}
 
 	public String toString() {
@@ -110,10 +121,6 @@ public class StyleRecord {
 		return styleBundle == null ? StyleBundle.NONE : styleBundle.getStroke();
 	}
 	
-	public String getCSSStyle() {
-		return styleBundle == null ? null : styleBundle.getCSSStyle();
-	}
-
 	public Multiset<Double> getOrCreateYCoordinateSet() {
 		if (yCoordinateSet == null) {
 			yCoordinateSet = HashMultiset.create();
@@ -145,5 +152,18 @@ public class StyleRecord {
 		List<RealArray> aps = realArray.createArithmeticProgressionList(epsilon);
 		return aps;
 	}
+
+	public String getCSSStyle() {
+		return styleBundle == null ? null : styleBundle.getCSSStyle();
+	}
+
+	public StyleBundle getStyleBundle() {
+		return styleBundle;
+	}
+
+	public void setStyleBundle(StyleBundle styleBundle) {
+		this.styleBundle = styleBundle;
+	}
+
 	
 }

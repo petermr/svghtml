@@ -1,6 +1,5 @@
 package org.xmlcml.graphics.svg.fonts;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -51,6 +50,7 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 	private Multimap<Double, StyleRecord> styleRecordByYCoord;
 	private TypefaceMaps typefaceMaps;
 	private Multiset<String> fontNameSet;
+	private boolean normalizeFontNames;
 
 	public StyleRecordSet() {
 		styleRecordByStyle =   new HashMap<String, StyleRecord>();
@@ -65,17 +65,6 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 
 	}
 	
-	public static StyleRecordSet createStyleRecordSet(List<SVGText> texts) {
-		StyleRecordSet styleRecordSet = null;
-		if (texts != null) {
-			styleRecordSet = new StyleRecordSet();
-			for (SVGText text : texts) {
-				styleRecordSet.getOrCreateStyleRecord(text);
-			}
-		}
-		return styleRecordSet;
-		
-	}
 
 	/** creates a style from the text.
 	 * searches for StyleRecord with that style. If none, creates one
@@ -164,17 +153,6 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 			styleRecords.add(styleRecord);
 		}
 		return styleRecords;
-	}
-
-	public static StyleRecordSet createStyleRecordSet(File svgFile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
-		return createStyleRecordSet(svgElement);
-	}
-
-	public static StyleRecordSet createStyleRecordSet(SVGElement svgElement) {
-		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(svgElement);
-		StyleRecordSet styleRecordSet = StyleRecordSet.createStyleRecordSet(texts);
-		return styleRecordSet;
 	}
 
 	/** gets all StyleRecords with given attribute.
@@ -330,6 +308,25 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 
 	public Iterator<StyleRecord> iterator() {
 		return styleRecordByStyle.values().iterator();
+	}
+
+
+	/** create new StyleRecordSet with normalized FontNames
+	 * mainly bold and italic at this stage
+	 * 
+	 * @return
+	 */
+	public void  normalizeFontNamesByStyleAndWeight() {
+		for (StyleRecord styleRecord : this) {
+			StyleBundle styleBundle = styleRecord.getStyleBundle();
+			String newFontName = styleBundle.createNormalizedFontName();
+			LOG.debug("new fontName "+newFontName);
+		}
+	}
+
+
+	public void setNormalizeFontNames(boolean normalizeFontNames) {
+		this.normalizeFontNames = normalizeFontNames;
 	}
 
 	
