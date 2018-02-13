@@ -1,7 +1,6 @@
-package org.xmlcml.svg;
+package org.xmlcml.graphics.svg;
 
 import java.util.Comparator;
-import org.xmlcml.graphics.svg.SVGText;
 
 public class SVGTextComparator implements Comparator<SVGText> {
 
