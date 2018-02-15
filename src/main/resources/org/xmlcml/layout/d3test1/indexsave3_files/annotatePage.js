@@ -73,7 +73,7 @@ var selectionRect = {
 			this.currentRect.id = annotator.type;
 			this.currentRect.title = annotator.type;
 //			this.currentRect.type = annotator.type;
-			this.currentRect.append("title").text(annotator.type);
+var title = this.currentRect.append("title").text("ajsk");
 		
     },
     removeCurrentRect: function() {
@@ -154,6 +154,21 @@ var annotator = {
 		type : "doi"
 }
 
+function selectDOI() {
+	messageText.text("selectDOI");
+	doiPicker.fill="red";
+	console.log("selectDOI");
+	annotator.color = "red";
+	annotator.type = "doi";
+	
+}
+function selectTitle() {
+	messageText.text("selectTitle");
+	titlePicker.fill="red";
+	console.log("selectTitle");
+	annotator.color = "green";
+	annotator.type = "title";
+}
 
 function textClick() {
 	messageText.text("testClick");
@@ -170,6 +185,26 @@ function handleMouseOut(d, i) {
 	messageText.text("mouseOutX");
 	console.log("mouseOouX");
 }
+
+// // Create Event Handlers for mouse
+// function handleMouseOver(d, i) {  // Add interactivity
+//
+//       // Use D3 to select element, change color and size
+//       d3.select(this).attr({
+//         fill: "orange",
+//         r: radius * 2
+//       });
+//
+//       // Specify where to put label of text
+//       svg.append("text").attr({
+//          id: "t" + d.x + "-" + d.y + "-" + i,  // Create an id for text so we can select it later for removing on mouseout
+//           x: function() { return xScale(d.x) - 30; },
+//           y: function() { return yScale(d.y) - 15; }
+//       })
+//       .text(function() {
+//         return [d.x, d.y];  // Value of the text
+//       });
+//     }
 
 function clicked() {
 	var d = new Date();
@@ -189,29 +224,29 @@ function clicked() {
 	    }).style("stroke-width", "3.5")
 		.on("entry", textClick);
 }
-function setColorTypeReport(color, type) {
-	messageText.text(type);	console.log(type);
-	annotator.color = color;
-	annotator.type = type;
-}
-function selectDOI()         	{setColorTypeReport("red",     "doi");}
-function selectTitle()       	{setColorTypeReport("green",   "title");}
-function selectAuth()        	{setColorTypeReport("blue",    "auth");}
-function selectAffil()       	{setColorTypeReport("cyan",    "affil");}
-function selectEmail()       	{setColorTypeReport("orange",  "email");}
-function selectAbstract()    	{setColorTypeReport("magenta", "abstract");}
-function selectColumn()      	{setColorTypeReport("#ffaacc", "column");}
-function selectSectionHead() 	{setColorTypeReport("cyan",    "section");}
-function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subSection");}
-function selectBiblio()      	{setColorTypeReport("#ccff77", "biblio");}
-function selectPage()        	{setColorTypeReport("#cc77ff", "page");}
-function selectFigure()      	{setColorTypeReport("#ffcc77", "figure");}
-function selectFigureCaption()  {setColorTypeReport("#77ccff", "figureCaption");}
-function selectTable()       	{setColorTypeReport("#77ffcc", "table");}
-function selectTableTitle()  	{setColorTypeReport("#00ccff", "tableTitle");}
-function selectTableHead()   	{setColorTypeReport("#00ffcc", "tableHead");}
-function selectTableBody()   	{setColorTypeReport("#ff00cc", "tableBody");}
-function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
-function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
-function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
+
+	    // <input name="doiButton"       class="doi"    value="DOI"   onclick="selectDOI()" type="button">
+	    // <input name="titleButton"     class="title"  value="Title" onclick="selectTitle()" type="button">
+	    // <input name="authorsButton"   class="author" value="Auth"  onclick="selectAuthors()" type="button">
+	    // <input name="affilButton"     class="affil"  value="Affil" onclick="selectAffil()" type="button">
+	    // <input name="emailButton"     class="email"  value="Email" onclick="selectEmail()" type="button">
+	    // <input name="abstractButton"  class="abst"   value="Abst"  onclick="selectAbstract()" type="button">
+	    // <input name="leftColButton"   class="lCol"   value="LCol"  onclick="selectLeftCol()" type="button">
+	    // <input name="rightColButton"  class="rCol"   value="RCol"  onclick="selectRightCol()" type="button">
+	    // <input name="sectionButton"     class="section"  value="Sect" onclick="selectSection()" type="button">
+	    // <input name="sectionHeadButton" class="sectionHead" value="SHead" onclick="selectSectionHead()" type="button">
+	    // <input name="sectionSubHeadButton" class="subSectionHead" value="SubHd" onclick="selectSubSectionHead()" type="button">
+	    // <input name="biblioButton"    class="biblio" value="Bib"   onclick="selectBiblio()" type="button">
+	    // <input name="pageButton"      class="page"   value="Page"  onclick="selectPage()" type="button">
+	    // <input name="figureButton"    class="figure" value="Fig" onclick="selectFigure()" type="button">
+	    // <input name="figureCaptionButton"   class="figureCaption" value="fCap" onclick="selectFigureCaption()" type="button">
+	    // <input name="tableButton"   class="table" value="Table" onclick="selectTable()" type="button">
+	    // <input name="tableTitleButton"   class="tableTitle" value="TTitl" onclick="selectTableTitle()" type="button">
+	    // <input name="tableHeaderButton"   class="tableHead" value="THead" onclick="selectTableHead()" type="button">
+	    // <input name="tableBodyButton"   class="table" value="TBody" onclick="selectTableBody()" type="button">
+	    // <input name="tableFooterButton"   class="table" value="TFoot" onclick="selectTableFoot()" type="button">
+	    // <input name="mathsButton"   class="math" value="Math" onclick="selectMath()" type="button">
+	    // <input name="referenceButton"   class="references" value="Refs" onclick="selectRefs()" type="button">
+
+
 

@@ -154,6 +154,21 @@ var annotator = {
 		type : "doi"
 }
 
+function selectDOI() {
+	messageText.text("selectDOI");
+	doiPicker.fill="red";
+	console.log("selectDOI");
+	annotator.color = "red";
+	annotator.type = "doi";
+	
+}
+function selectTitle() {
+	messageText.text("selectTitle");
+	titlePicker.fill="red";
+	console.log("selectTitle");
+	annotator.color = "green";
+	annotator.type = "title";
+}
 
 function textClick() {
 	messageText.text("testClick");
@@ -189,29 +204,63 @@ function clicked() {
 	    }).style("stroke-width", "3.5")
 		.on("entry", textClick);
 }
-function setColorTypeReport(color, type) {
-	messageText.text(type);	console.log(type);
-	annotator.color = color;
-	annotator.type = type;
+function selectAuth() {
+	annotator.color = "blue";
+	annotator.type = "auth";
 }
-function selectDOI()         	{setColorTypeReport("red",     "doi");}
-function selectTitle()       	{setColorTypeReport("green",   "title");}
-function selectAuth()        	{setColorTypeReport("blue",    "auth");}
-function selectAffil()       	{setColorTypeReport("cyan",    "affil");}
-function selectEmail()       	{setColorTypeReport("orange",  "email");}
-function selectAbstract()    	{setColorTypeReport("magenta", "abstract");}
-function selectColumn()      	{setColorTypeReport("#ffaacc", "column");}
-function selectSectionHead() 	{setColorTypeReport("cyan",    "section");}
-function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subSection");}
-function selectBiblio()      	{setColorTypeReport("#ccff77", "biblio");}
-function selectPage()        	{setColorTypeReport("#cc77ff", "page");}
-function selectFigure()      	{setColorTypeReport("#ffcc77", "figure");}
-function selectFigureCaption()  {setColorTypeReport("#77ccff", "figureCaption");}
-function selectTable()       	{setColorTypeReport("#77ffcc", "table");}
-function selectTableTitle()  	{setColorTypeReport("#00ccff", "tableTitle");}
-function selectTableHead()   	{setColorTypeReport("#00ffcc", "tableHead");}
-function selectTableBody()   	{setColorTypeReport("#ff00cc", "tableBody");}
-function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
-function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
-function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
+function selectAffil() {
+	annotator.color = "cyan";
+	annotator.type = "affil";
+}
+function selectEmail() {
+	annotator.color = "orange";
+	annotator.type = "email";
+}
+function selectAbstract() {
+	annotator.color = "magenta";
+	annotator.type = "abstract";
+}
+function selectLCol() {
+	annotator.color = "gray";
+	annotator.type = "leftColumn";
+}
+function selectSect() {
+	annotator.color = "brown";
+	annotator.type = "section";
+}
+function selectSHead() {
+	annotator.color = "#ffaacc";
+	annotator.type = "heading";
+}
+function selectSubHd() {
+	annotator.color = "#77ffaa";
+	annotator.type = "subHead";
+}
+function selectBib() {
+	annotator.color = "#ccff77";
+	annotator.type = "bib";
+}
+function selectPage() {
+	annotator.color = "#cc77ff";
+	annotator.type = "page";
+}
+
+	    // <input name="leftColButton"   class="lCol"   value="LCol"  onclick="selectLeftCol()" type="button">
+	    // <input name="rightColButton"  class="rCol"   value="RCol"  onclick="selectRightCol()" type="button">
+	    // <input name="sectionButton"     class="section"  value="Sect" onclick="selectSection()" type="button">
+	    // <input name="sectionHeadButton" class="sectionHead" value="SHead" onclick="selectSectionHead()" type="button">
+	    // <input name="sectionSubHeadButton" class="subSectionHead" value="SubHd" onclick="selectSubSectionHead()" type="button">
+	    // <input name="biblioButton"    class="biblio" value="Bib"   onclick="selectBiblio()" type="button">
+	    // <input name="pageButton"      class="page"   value="Page"  onclick="selectPage()" type="button">
+	    // <input name="figureButton"    class="figure" value="Fig" onclick="selectFigure()" type="button">
+	    // <input name="figureCaptionButton"   class="figureCaption" value="fCap" onclick="selectFigureCaption()" type="button">
+	    // <input name="tableButton"   class="table" value="Table" onclick="selectTable()" type="button">
+	    // <input name="tableTitleButton"   class="tableTitle" value="TTitl" onclick="selectTableTitle()" type="button">
+	    // <input name="tableHeaderButton"   class="tableHead" value="THead" onclick="selectTableHead()" type="button">
+	    // <input name="tableBodyButton"   class="table" value="TBody" onclick="selectTableBody()" type="button">
+	    // <input name="tableFooterButton"   class="table" value="TFoot" onclick="selectTableFoot()" type="button">
+	    // <input name="mathsButton"   class="math" value="Math" onclick="selectMath()" type="button">
+	    // <input name="referenceButton"   class="references" value="Refs" onclick="selectRefs()" type="button">
+
+
 

@@ -189,29 +189,57 @@ function clicked() {
 	    }).style("stroke-width", "3.5")
 		.on("entry", textClick);
 }
+function selectDOI() {
+	setColorTypeReport("red", "doi");
+}
+function selectTitle() {
+	setColorTypeReport("green", "title");
+}
+function selectAuth() {
+	setColorTypeReport("blue", "auth");
+}
+function selectAffil() {
+	messageText.text("selectAffil");	console.log("selectAffil");
+	annotator.color = "cyan";
+	annotator.type = "affil";
+}
 function setColorTypeReport(color, type) {
 	messageText.text(type);	console.log(type);
 	annotator.color = color;
 	annotator.type = type;
 }
-function selectDOI()         	{setColorTypeReport("red",     "doi");}
-function selectTitle()       	{setColorTypeReport("green",   "title");}
-function selectAuth()        	{setColorTypeReport("blue",    "auth");}
-function selectAffil()       	{setColorTypeReport("cyan",    "affil");}
-function selectEmail()       	{setColorTypeReport("orange",  "email");}
-function selectAbstract()    	{setColorTypeReport("magenta", "abstract");}
-function selectColumn()      	{setColorTypeReport("#ffaacc", "column");}
-function selectSectionHead() 	{setColorTypeReport("cyan",    "section");}
-function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subSection");}
-function selectBiblio()      	{setColorTypeReport("#ccff77", "biblio");}
-function selectPage()        	{setColorTypeReport("#cc77ff", "page");}
-function selectFigure()      	{setColorTypeReport("#ffcc77", "figure");}
-function selectFigureCaption()  {setColorTypeReport("#77ccff", "figureCaption");}
-function selectTable()       	{setColorTypeReport("#77ffcc", "table");}
-function selectTableTitle()  	{setColorTypeReport("#00ccff", "tableTitle");}
-function selectTableHead()   	{setColorTypeReport("#00ffcc", "tableHead");}
-function selectTableBody()   	{setColorTypeReport("#ff00cc", "tableBody");}
-function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
-function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
-function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
-
+function selectEmail() {
+	messageText.text("selectEmail");	console.log("selectEmail");
+	annotator.color = "orange";
+	annotator.type = "email";
+}
+function selectAbstract() {
+	messageText.text("selectAbst");	console.log("selectAbst");
+	annotator.color = "magenta";
+	annotator.type = "abstract";
+}
+function selectCol() {
+	messageText.text("selectCol");	console.log("selectCol");
+	annotator.color = "gray";
+	annotator.type = "column";
+}
+function selectSHead() {
+	messageText.text("selectSHead");	console.log("selectSHead");
+	annotator.color = "#ffaacc";
+	annotator.type = "heading";
+}
+function selectSubHd() {
+	messageText.text("selectSubHd");	console.log("selectSubHd");
+	annotator.color = "#77ffaa";
+	annotator.type = "subHead";
+}
+function selectBib() {
+	messageText.text("selectBib");	console.log("selectBib");
+	annotator.color = "#ccff77";
+	annotator.type = "bib";
+}
+function selectPage() {
+	messageText.text("selectSPage");	console.log("selectPage");
+	annotator.color = "#cc77ff";
+	annotator.type = "page";
+}

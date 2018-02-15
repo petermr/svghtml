@@ -1,5 +1,5 @@
 var selectionRect = {
-	currentRect		: null,
+	currentRect			: null,
 	previousRect : null,
 	currentY		: 0,
 	currentX		: 0,
@@ -9,8 +9,6 @@ var selectionRect = {
 	setRectAndRememberPrevious: function(ele) {
 		this.previousRect = this.currentRect;
 		this.currentRect = ele;
-		// this.previousRect.on("mouseover", handleMouseOver);
-		// this.previousRect.on("mouseout", handleMouseOut);
 	},
 
 	getNewXYRecalculateWH: function() {
@@ -68,13 +66,8 @@ var selectionRect = {
 	updateStrokeAndWidth: function() {
 		messageText.text("updateStrokeAndWidth");
         this.currentRect
-            .style("stroke", annotator.color)
-			.style("stroke-width", "4.5");
-			this.currentRect.id = annotator.type;
-			this.currentRect.title = annotator.type;
-//			this.currentRect.type = annotator.type;
-			this.currentRect.append("title").text(annotator.type);
-		
+            .style("stroke", "red")
+            .style("stroke-width", "2.5");
     },
     removeCurrentRect: function() {
     	this.currentRect.remove();
@@ -87,6 +80,18 @@ var selectionRect = {
     	 	this.previousRect.remove();
     	 }
     }
+	// ,
+	// .on("click", function(){
+	// 	messageText.text("CLICK");
+	// 	// // Determine if current line is visible
+	// 	// var active   = blueLine.active ? false : true,
+	// 	//   newOpacity = active ? 0 : 1;
+	// 	// // Hide or show the elements
+	// 	// d3.select("#blueLine").style("opacity", newOpacity).style("stroke-width", 3);
+	// 	// d3.select("#blueAxis").style("opacity", newOpacity);
+	// 	// // Update whether or not the elements are active
+	// 	// blueLine.active = active;
+	// })
 	
 };
 
@@ -126,7 +131,7 @@ function dragEnd() {
 		console.log("range selected");
 		// range selected
 		d3.event.sourceEvent.preventDefault();
-		selectionRect.updateStrokeAndWidth();
+//		selectionRect.updateStrokeAndWidth();
 	} else {
 		messageText.text("single point no drag");		
 		console.log("single point");
@@ -149,26 +154,17 @@ svg.call(dragBehavior);
 var doiPicker = document.querySelector('input[name="doiButton"]');
 var titlePicker = document.querySelector('input[name="titleButton"]');
 var authPicker = document.querySelector('input[name="authButton"]');
-var annotator = {
-		color : "red",
-		type : "doi"
-}
 
+function selectTitle() {
+	messageText.text("selectTitle");
+	titlePicker.fill="red";
+	console.log("selectTitle");
+}
 
 function textClick() {
 	messageText.text("testClick");
 	console.log("testClick");
 	
-}
-
-function handleMouseOver(d, i) {
-	messageText.text("mouseOverX");
-	console.log("mouseOverX");
-}
-
-function handleMouseOut(d, i) {
-	messageText.text("mouseOutX");
-	console.log("mouseOouX");
 }
 
 function clicked() {
@@ -187,31 +183,6 @@ function clicked() {
 			fill    : "none",
 			stroke  : "blue",
 	    }).style("stroke-width", "3.5")
-		.on("entry", textClick);
+		.on("click", textClick);
 }
-function setColorTypeReport(color, type) {
-	messageText.text(type);	console.log(type);
-	annotator.color = color;
-	annotator.type = type;
-}
-function selectDOI()         	{setColorTypeReport("red",     "doi");}
-function selectTitle()       	{setColorTypeReport("green",   "title");}
-function selectAuth()        	{setColorTypeReport("blue",    "auth");}
-function selectAffil()       	{setColorTypeReport("cyan",    "affil");}
-function selectEmail()       	{setColorTypeReport("orange",  "email");}
-function selectAbstract()    	{setColorTypeReport("magenta", "abstract");}
-function selectColumn()      	{setColorTypeReport("#ffaacc", "column");}
-function selectSectionHead() 	{setColorTypeReport("cyan",    "section");}
-function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subSection");}
-function selectBiblio()      	{setColorTypeReport("#ccff77", "biblio");}
-function selectPage()        	{setColorTypeReport("#cc77ff", "page");}
-function selectFigure()      	{setColorTypeReport("#ffcc77", "figure");}
-function selectFigureCaption()  {setColorTypeReport("#77ccff", "figureCaption");}
-function selectTable()       	{setColorTypeReport("#77ffcc", "table");}
-function selectTableTitle()  	{setColorTypeReport("#00ccff", "tableTitle");}
-function selectTableHead()   	{setColorTypeReport("#00ffcc", "tableHead");}
-function selectTableBody()   	{setColorTypeReport("#ff00cc", "tableBody");}
-function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
-function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
-function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
 

@@ -200,10 +200,10 @@ function selectAuth()        	{setColorTypeReport("blue",    "auth");}
 function selectAffil()       	{setColorTypeReport("cyan",    "affil");}
 function selectEmail()       	{setColorTypeReport("orange",  "email");}
 function selectAbstract()    	{setColorTypeReport("magenta", "abstract");}
-function selectColumn()      	{setColorTypeReport("#ffaacc", "column");}
-function selectSectionHead() 	{setColorTypeReport("cyan",    "section");}
-function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subSection");}
-function selectBiblio()      	{setColorTypeReport("#ccff77", "biblio");}
+function selectColumn()      	{setColorTypeReport("#ffaacc", "heading");}
+function selectSectionHead() 	{setColorTypeReport("cyan",    "affil");}
+function selectSubSectionHead() {setColorTypeReport("#77ffaa", "subHead");}
+function selectBiblio()      	{setColorTypeReport("#ccff77", "bib");}
 function selectPage()        	{setColorTypeReport("#cc77ff", "page");}
 function selectFigure()      	{setColorTypeReport("#ffcc77", "figure");}
 function selectFigureCaption()  {setColorTypeReport("#77ccff", "figureCaption");}
@@ -211,7 +211,8 @@ function selectTable()       	{setColorTypeReport("#77ffcc", "table");}
 function selectTableTitle()  	{setColorTypeReport("#00ccff", "tableTitle");}
 function selectTableHead()   	{setColorTypeReport("#00ffcc", "tableHead");}
 function selectTableBody()   	{setColorTypeReport("#ff00cc", "tableBody");}
-function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
+function selectTableFooter() 	{setColorTypeReport("#ffcc00", "tableFooter");}
+function selectTableHead()   	{setColorTypeReport("#cc00ff", "tableHead");}
 function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
 function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
 
