@@ -3,17 +3,29 @@ package org.xmlcml.graphics.svg;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 public class SVGHTMLFixtures {
+	
+
+	private static final Logger LOG = Logger.getLogger(SVGHTMLFixtures.class);
+	static {
+		LOG.setLevel(Level.DEBUG);
+	}
 
 
 	public static final File RESOURCES_DIR = new File("src/test/resources/");
 	
-	public static final File SVG_DIR = new File(RESOURCES_DIR, "org/xmlcml/graphics/svg");
+	private static final String ORG_XMLCML_GRAPHICS = "org/xmlcml/graphics/";
+	public static final File SVG_DIR = new File(RESOURCES_DIR, ORG_XMLCML_GRAPHICS + "svg");
+	public static final File LAYOUT_DIR = new File(RESOURCES_DIR, ORG_XMLCML_GRAPHICS + "layout");
 	
 	public static final File IMAGES_DIR = new File(SVG_DIR, "images");
 	public static final File IMAGE_G_2_2_SVG = new File(IMAGES_DIR, "image.g.2.2.svg");
@@ -77,25 +89,11 @@ public class SVGHTMLFixtures {
 	public static final File TEX_PLOT_DIR = new File(PLOT_DIR, "tex");
 	public static final File BLKSAM_PLOT_DIR = new File(PLOT_DIR, "blk_sam");
 
-	//	public final static String IMAGE_SVG = ""
-	//	 		+ "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" >"
-	//	 		+ "  <image transform=\"matrix(0.05999946966767311,-0.0,-0.0,-0.05999946966767311,197.92599487304688,562.9089965820312)\" x=\"0.0\" y=\"0.0\" "
-	//	 		+ "   width=\"16.0\" height=\"16.0\" "
-	//	 		+ "   xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mP4J8LwHx0zAAE2cWzyeBUSgxnw2UwMnzouINVmnF4YwmEwmg7Is3kYhQEA6pzZRchLX5wAAAAASUVORK5CYII=\" "
-	//	 		+ "  />"
-	//	 		+ "</svg>";
 	public static final File SVG_IMAGES_DIR = new File(SVG_DIR, "svgimages");
 	
 	public final static String IMAGE_SVG = ""
 		 + "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><image  x=\"0.0\" y=\"0.0\" width=\"16.0\" height=\"16.0\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR42mP4J8LwHx0zAAE2cWzyeBUSgxnw2UwMnzouINVmnF4YwmEwmg7Is3kYhQEA6pzZRchLX5wAAAAASUVORK5CYII=\"/></svg>";
 	public final static File LARGE_IMAGE_SVG = new File(SVG_IMAGES_DIR, "multiple-image-page6.svg"); 
-//	public final static String IMAGE_SCALE_SVG = ""
-//	 +"<svg xmlns=\"http://www.w3.org/2000/svg\" >"
-//	 +"<image transform=\"matrix(0.160000000808920095,-0.0,-0.0,-0.159999995788164284,261.77996826171875,801.2996826171875)\" "
-//	 + "x=\"0.0\" y=\"0.0\" width=\"56.0\" height=\"330.0\" "
-//	 + "xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAFKCAYAAABIG5xgAAABQ0lEQVR42u3aQQ7CMAwAwf7/0+HEjYJa4thOZySOkCyIplgcBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8GDjxyNqjfSwGZuKet3pYXc2E/3mhcRd2dBYHTkCHlHrlYj7tpmx8KsQHvhpQ2Nl5MpP586a314//Tg4e+7MN7HElSzyIlXmLIo6aqYtmnHW9los4xYt5V5QoECBlxcT2D1wdA48nhC4OlJg1GRt1aJpgatmoemB0Z9micDIyDKBUaHlAmeHlg2ctcHygf9utE3g3dFHu8AZI8I2gTND29g+sMKo8nQDFY+ZkjfYArNHFkOgQIECOyyYdtBvP1F7xMiw0h8Rtp2ktRwXlvyZlPWPwrbjhy3GhO1/uW8b1uri8fYCr8WfmTxzW6MAAAAASUVORK5CYII=\""
-//	 + " xmlns:xlink=\"http://www.w3.org/1999/xlink\"/>"
-//	 + "</svg>";
 	public final static File LETTERA_SVG_FILE = new File(SVGHTMLFixtures.IMAGES_DIR, "lettera.svg");
 
 	public final static File ROUNDED_LINE_SVG_FILE = new File(SVGHTMLFixtures.PATHS_DIR, "roundedline.svg");
@@ -147,6 +145,18 @@ public class SVGHTMLFixtures {
 			throw new RuntimeException("cannot write image "+file, e);
 		}
 	}
+	
+	public static void cleanAndCopyDir(File sourceDir, File targetDir) {
+		try {
+			if (targetDir.exists()) FileUtils.forceDelete(targetDir);
+			LOG.trace(sourceDir.getAbsolutePath());
+			FileUtils.copyDirectory(sourceDir, targetDir);
+		} catch (IOException ioe) {
+			throw new RuntimeException("failed to clean and copy: "+sourceDir+" @ "+targetDir +": "+ioe, ioe);
+		}
+	}
+
+
 
 
 }

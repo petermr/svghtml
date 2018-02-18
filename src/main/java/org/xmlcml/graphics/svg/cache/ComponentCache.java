@@ -859,4 +859,11 @@ public class ComponentCache extends AbstractCache {
 		readGraphicsComponentsAndMakeCaches(element);
 	}
 
+	public static ComponentCache readAndCreateComponentCache(File svgFile) {
+		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		ComponentCache componentCache = new ComponentCache(); 
+		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
+		return componentCache;
+	}
+
 }
