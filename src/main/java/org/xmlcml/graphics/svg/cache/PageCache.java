@@ -40,10 +40,9 @@ public class PageCache extends ComponentCache {
 	public final static Double DEFAULT_XMAX = 600.0;
 	public final static Double DEFAULT_YMAX = 800.0;
 
-	private File svgFile;
+	private File inputSvgFile;
 	private int serialNumber;
 	private DocumentCache documentCache;
-	private SVGElement extractedSVGElement;
 	private PageHeaderCache headerCache;
 	private PageFooterCache footerCache;
 	private PageLeftSidebarCache leftSidebarCache;
@@ -63,6 +62,13 @@ public class PageCache extends ComponentCache {
 	@Override
 	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
 		super.readGraphicsComponentsAndMakeCaches(svgElement);
+		ensurePageComponentCaches();
+	}
+	
+	public void readGraphicsComponentsAndMakeCaches(File inputSvgFile) {
+		this.setSVGFile(inputSvgFile);
+		inputSVGElement = SVGElement.readAndCreateSVG(inputSvgFile);
+		super.readGraphicsComponentsAndMakeCaches(inputSVGElement);
 		ensurePageComponentCaches();
 	}
 	
@@ -118,7 +124,7 @@ public class PageCache extends ComponentCache {
 
 	SVGElement createSummaryBoxes(File svgFile) {
 		LOG.debug("CREATE SUMMARY BOXES");
-		this.svgFile = svgFile;
+		this.inputSvgFile = svgFile;
 		Multiset<Int2Range> intBoxes1 = HashMultiset.create();
 		SVGElement boxg = this.getStyledBoxes(intBoxes1);
 		getOrCreateExtractedSVGElement().appendChild(boxg);
@@ -138,14 +144,17 @@ public class PageCache extends ComponentCache {
 	}
 
 	private SVGElement getStyledBoxes(Multiset<Int2Range> intBoxes) {
-		List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(SVGElement.readAndCreateSVG(svgFile));
-		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
-		StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
-		SVGElement g = styleRecordSet.createStyledTextBBoxes(svgTexts);
-		List<SVGRect> boxes = SVGRect.extractSelfAndDescendantRects(g);
-		for (SVGRect box : boxes) {
-			Int2Range intBox = new Int2Range(box.getBoundingBox());
-			intBoxes.add(intBox);
+		SVGElement g = new SVGG();
+		if (inputSVGElement != null) {
+			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(inputSVGElement); 
+			StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
+			StyleRecordSet styleRecordSet = styleRecordFactory.createStyleRecordSet(svgTexts);
+			g = styleRecordSet.createStyledTextBBoxes(svgTexts);
+			List<SVGRect> boxes = SVGRect.extractSelfAndDescendantRects(g);
+			for (SVGRect box : boxes) {
+				Int2Range intBox = new Int2Range(box.getBoundingBox());
+				intBoxes.add(intBox);
+			}
 		}
 		return g;
 	}
@@ -159,11 +168,11 @@ public class PageCache extends ComponentCache {
 	}
 	
 	public File getSVGFile() {
-		return svgFile;
+		return inputSvgFile;
 	}
 
 	public void setSVGFile(File svgFile) {
-		this.svgFile = svgFile;
+		this.inputSvgFile = svgFile;
 	}
 
 	public DocumentCache getDocumentCache() {
@@ -175,10 +184,10 @@ public class PageCache extends ComponentCache {
 	}
 
 	public SVGElement getOrCreateExtractedSVGElement() {
-		if (extractedSVGElement == null) {
-			extractedSVGElement = new SVGG();
+		if (convertedSVGElement == null) {
+			convertedSVGElement = new SVGG();
 		}
-		return extractedSVGElement;
+		return convertedSVGElement;
 	}
 
 	public SuperPixelArray createSuperpixelArray(File outDir, File svgFile) {
@@ -199,15 +208,15 @@ public class PageCache extends ComponentCache {
 	}
 
 	public void setSvgFile(File svgFile) {
-		this.svgFile = svgFile;
+		this.inputSvgFile = svgFile;
 	}
 
 	public File getSvgFile() {
-		return svgFile;
+		return inputSvgFile;
 	}
 
 	public SVGElement getExtractedSVGElement() {
-		return extractedSVGElement;
+		return convertedSVGElement;
 	}
 
 	void readPageLayoutAndMakeBBoxesAndMargins(PageLayout pageLayout) {
@@ -248,7 +257,7 @@ public class PageCache extends ComponentCache {
 		addElementAndChildren(g,footerCache);
 		addElementAndChildren(g,leftSidebarCache);
 		addElementAndChildren(g,rightSidebarCache);
-		g.appendChild(originalSvgElement.copy());
+		g.appendChild(inputSVGElement.copy());
 		for (SVGRect rect : rectsList) {
 			g.appendChild(rect.copy());
 		}
@@ -256,7 +265,7 @@ public class PageCache extends ComponentCache {
 	}
 
 	private void addElementAndChildren(SVGElement g, PageComponentCache cache) {
-		g.appendChild(cache.getSVGElement().copy());
+		g.appendChild(cache.getOrCreateConvertedSVGElement().copy());
 		for (SVGElement element : cache.getOrCreateAllElementList()) {
 			g.appendChild(element.copy());
 		}
@@ -296,6 +305,10 @@ public class PageCache extends ComponentCache {
 //				});
 		}
 		return clipBoxes;
+	}
+	
+	public File getInputSVGFile() {
+		return inputSvgFile;
 	}
 
 }

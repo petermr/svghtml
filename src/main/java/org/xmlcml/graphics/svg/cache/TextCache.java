@@ -27,13 +27,13 @@ import com.google.common.collect.Multiset;
  *
  */
 public class TextCache extends AbstractCache {
-	private static final char BLACK_VERTICAL_RECTANGLE = (char)0x25AE;
-	private static final char WHITE_VERTICAL_RECTANGLE = (char)0x25AF;
-	private static final char WHITE_SQUARE = (char)0x25A1;
 	static final Logger LOG = Logger.getLogger(TextCache.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	private static final char BLACK_VERTICAL_RECTANGLE = (char)0x25AE;
+	private static final char WHITE_VERTICAL_RECTANGLE = (char)0x25AF;
+	private static final char WHITE_SQUARE = (char)0x25A1;
 
 	private List<SVGText> horizontalTexts;
 	private List<SVGText> verticalTexts;

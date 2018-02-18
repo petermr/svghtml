@@ -30,12 +30,12 @@ public class PageRightSidebarCache extends PageComponentCache {
 
 	private void processCache() {
 		findBottomWhitespace();
-		getSVGElement();
-		SVGSVG.wrapAndWriteAsSVG(svgElement, new File("target/debug/pageRightSidebar"+pageCache.getSerialNumber()+".svg"));
+		getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(convertedSVGElement, new File("target/debug/pageRightSidebar"+pageCache.getSerialNumber()+".svg"));
 	}
 
 	private void findBottomWhitespace() {
-		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getOriginalSVGElement());
+		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getInputSVGElement());
 		getOrCreateAllElementList();
 
 		for (SVGElement element : elements) {

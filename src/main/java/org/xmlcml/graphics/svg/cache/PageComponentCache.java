@@ -20,7 +20,7 @@ public abstract class PageComponentCache extends ComponentCache {
 	public static String YELLOW = "yellow";
 	
 	protected PageCache pageCache;
-	protected SVGElement svgElement;
+//	protected SVGElement svgElement;
 	protected Real2Range boundingBox;
 	
 	protected PageComponentCache() {
@@ -38,20 +38,21 @@ public abstract class PageComponentCache extends ComponentCache {
 		return allElementList;
 	}
 	
-	public SVGElement getSVGElement() {
-		svgElement = new SVGG();
+	@Override
+	public SVGElement getOrCreateConvertedSVGElement() {
+		convertedSVGElement = new SVGG();
 		if (allElementList != null) {
 			for (SVGElement element : allElementList) {
-				svgElement.appendChild(element.copy());
+				convertedSVGElement.appendChild(element.copy());
 			}
 		}
 		SVGRect rect = SVGRect.createFromReal2Range(boundingBox);
 		if (rect != null) {
-			svgElement.appendChild(rect);
+			convertedSVGElement.appendChild(rect);
 			rect.setFill(getFill());
 			rect.setOpacity(OPACITY);
 		}
-		return svgElement;
+		return convertedSVGElement;
 	}
 	
 	public String getFill() {

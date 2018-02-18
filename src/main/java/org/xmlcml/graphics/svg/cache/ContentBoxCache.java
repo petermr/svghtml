@@ -1,6 +1,5 @@
 package org.xmlcml.graphics.svg.cache;
 
-import java.security.acl.Owner;
 import java.util.ArrayList;
 import java.util.List;
 

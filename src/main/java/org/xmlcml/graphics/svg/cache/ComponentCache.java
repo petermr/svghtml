@@ -168,7 +168,6 @@ public class ComponentCache extends AbstractCache {
 	private Real2Range positiveXBox;
 
 	public String fileRoot;
-	public SVGElement originalSvgElement;
 	public String debugRoot = "target/debug/";
 	private String imageDebug = "target/images/";
 	private String pathDebug = "target/paths/";
@@ -179,7 +178,6 @@ public class ComponentCache extends AbstractCache {
 	private boolean removeWhitespace = false;
 	private boolean splitAtMove = true;
 	
-	protected SVGG extractedSVGElement;
 	protected List<SVGElement> allElementList;
 	List<Real2Range> boundingBoxList;
 
@@ -187,6 +185,7 @@ public class ComponentCache extends AbstractCache {
 	private double outerBoxEps = 3.0; // outer bbox error
 	private TextStructurer textStructurer;
 	private List<AbstractCache> cascadingCacheList;
+
 
 
 	/** this may change as we decide what types of object interact with store
@@ -225,12 +224,12 @@ public class ComponentCache extends AbstractCache {
 
 	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
 		if (svgElement != null) {
-			this.originalSvgElement = (SVGElement) svgElement.copy();
-			this.extractedSVGElement = new SVGG();
+			this.inputSVGElement = (SVGElement) svgElement.copy();
+			this.convertedSVGElement = new SVGG();
 			
 			 // is this a good idea? These are clipping boxes. 
-			SVGDefs.removeDefs(this.originalSvgElement);
-			StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(this.originalSvgElement);
+			SVGDefs.removeDefs(this.inputSVGElement);
+			StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(this.inputSVGElement);
 			
 			this.positiveXBox = new Real2Range(new RealRange(-100., 10000), new RealRange(-10., 10000));
 			this.removeEmptyTextElements();
@@ -271,7 +270,7 @@ public class ComponentCache extends AbstractCache {
 	public PathCache getOrCreatePathCache() {
 		if (pathCache == null) {
 			this.pathCache = new PathCache(this);
-			this.pathCache.extractPaths(this.originalSvgElement);
+			this.pathCache.extractPaths(this.inputSVGElement);
 		}
 		return pathCache;
 	}
@@ -287,8 +286,8 @@ public class ComponentCache extends AbstractCache {
 	public TextCache getOrCreateTextCache() {
 		if (textCache == null) {
 			this.textCache = new TextCache(this);
-			if (this.originalSvgElement != null) {
-				this.textCache.extractTexts(this.originalSvgElement);
+			if (this.inputSVGElement != null) {
+				this.textCache.extractTexts(this.inputSVGElement);
 				addElementsToExtractedElement(textCache.getTextList());
 				textCache.createHorizontalAndVerticalTexts();
 			}
@@ -301,7 +300,7 @@ public class ComponentCache extends AbstractCache {
 			shapeCache = new ShapeCache(this);
 			pathCache = getOrCreatePathCache();
 			List<SVGPath> currentPathList = this.pathCache.getCurrentPathList();
-			this.getOrCreateShapeCache().extractShapes(currentPathList, originalSvgElement);
+			this.getOrCreateShapeCache().extractShapes(currentPathList, inputSVGElement);
 			List<SVGShape> shapeList = shapeCache.getOrCreateConvertedShapeList();
 			addElementsToExtractedElement(shapeList);
 		}
@@ -344,7 +343,7 @@ public class ComponentCache extends AbstractCache {
 			textStructurer = textChunkCache.getOrCreateTextStructurer();
 			TextChunkList textChunkList = textChunkCache.getOrCreateTextChunkList();
 			// should probably move TextStructure to TextChunkCache
-			textStructurer = TextStructurer.createTextStructurerWithSortedLines(extractedSVGElement);
+			textStructurer = TextStructurer.createTextStructurerWithSortedLines(convertedSVGElement);
 			SVGElement inputSVGChunk = textStructurer.getSVGChunk();
 			textChunkCache.cleanChunk(inputSVGChunk);
 			SVGElement textChunk = textStructurer.getTextChunkList().getLastTextChunk();
@@ -371,7 +370,7 @@ public class ComponentCache extends AbstractCache {
 			
 			StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(elementCopy);
 //			StyleAttributeFactory.createUpdatedStyleAttribute(elementCopy, AttributeStrategy.MERGE);
-			extractedSVGElement.appendChild(elementCopy);
+			convertedSVGElement.appendChild(elementCopy);
 		}
 	}
 
@@ -381,7 +380,7 @@ public class ComponentCache extends AbstractCache {
 	 * 
 	 */
 	public void removeNegativeXorYElements() {
-		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(originalSvgElement);
+		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(inputSVGElement);
 		for (int i = texts.size() - 1; i >= 0; i--) {
 			SVGText text = texts.get(i);
 			Real2 xy = text.getXY();
@@ -393,7 +392,7 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	public void removeEmptyTextElements() {
-		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(this.originalSvgElement);
+		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(this.inputSVGElement);
 		for (int i = texts.size() - 1; i >= 0; i--) {
 			SVGText text = texts.get(i);
 			String s = text.getValue();
@@ -448,7 +447,7 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	public SVGElement getExtractedSVGElement() {
-		return extractedSVGElement;
+		return convertedSVGElement;
 	}
 
 
@@ -593,7 +592,7 @@ public class ComponentCache extends AbstractCache {
 				addBoxToTotalBox(cache.getBoundingBox());
 			}
 			if (boundingBox == null) {
-				LOG.trace("null BBox (maybe no primitives) "+(originalSvgElement == null ? "NULL" : originalSvgElement.toXML()));
+				LOG.trace("null BBox (maybe no primitives) "+(inputSVGElement == null ? "NULL" : inputSVGElement.toXML()));
 			}
 		}
 		return boundingBox;
@@ -801,10 +800,6 @@ public class ComponentCache extends AbstractCache {
 		
 	}
 	
-	public SVGElement getOriginalSVGElement() {
-		return originalSvgElement;
-	}
-	
 	@Override
 	public void clearAll() {
 		superClearAll();
@@ -820,9 +815,9 @@ public class ComponentCache extends AbstractCache {
 		positiveXBox = null;
 
 		fileRoot = null;
-		originalSvgElement = null;
+		inputSVGElement = null;
 
-		extractedSVGElement = null;
+		convertedSVGElement = null;
 		allElementList = null;
 		boundingBoxList = null;
 

@@ -29,12 +29,12 @@ public class PageHeaderCache extends PageComponentCache {
 
 	private void processCache() {
 		findTopWhitespace();
-		getSVGElement();
-		SVGSVG.wrapAndWriteAsSVG(svgElement, new File("target/debug/pageHeader"+pageCache.getSerialNumber()+".svg"));
+		getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(convertedSVGElement, new File("target/debug/pageHeader"+pageCache.getSerialNumber()+".svg"));
 	}
 
 	private void findTopWhitespace() {
-		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getOriginalSVGElement());
+		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getInputSVGElement());
 		getOrCreateAllElementList();
 
 		for (SVGElement element : elements) {

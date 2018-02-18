@@ -33,6 +33,9 @@ public abstract class AbstractCache {
 	private AbstractPlotBox svgMediaBox;
 
 	protected ShapeCache siblingShapeCache;
+
+	protected SVGElement inputSVGElement;
+	protected SVGElement convertedSVGElement;
 	
 
 	protected AbstractCache() {
@@ -94,17 +97,31 @@ public abstract class AbstractCache {
 	
 	public abstract List<? extends SVGElement> getOrCreateElementList();
 
+	/** initial SVGElement.
+	 * normally read in from other sources, including files or extraction
+	 * from other elements. 
+	 * @return
+	 */
+	public SVGElement getInputSVGElement() {
+		return inputSVGElement;
+	}
+
 	/** SVGG containing (copies of) all elements after processing.
 	 * 
 	 * @return
 	 */
-	public SVGG getOrCreateConvertedSVGElement() {
-		SVGG svgg = new SVGG();
-		List<? extends SVGElement> elementList = getOrCreateElementList();
-		for (SVGElement component : elementList) {
-			svgg.appendChild(component.copy());
+	public SVGElement getOrCreateConvertedSVGElement() {
+		if (convertedSVGElement == null) {
+			convertedSVGElement = new SVGG();
+			List<? extends SVGElement> elementList = getOrCreateElementList();
+			if (elementList.size() == 0) {
+				LOG.warn("Empty elementList");
+			}
+			for (SVGElement component : elementList) {
+				convertedSVGElement.appendChild(component.copy());
+			}
 		}
-		return svgg;
+		return convertedSVGElement;
 	}
 
 	public ComponentCache getOwnerComponentCache() {

@@ -29,12 +29,12 @@ public class PageLeftSidebarCache extends PageComponentCache {
 
 	private void processCache() {
 		findLeftWhitespace();
-		getSVGElement();
-		SVGSVG.wrapAndWriteAsSVG(svgElement, new File("target/debug/pageLeftSidebar"+pageCache.getSerialNumber()+".svg"));
+		getOrCreateConvertedSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(convertedSVGElement, new File("target/debug/pageLeftSidebar"+pageCache.getSerialNumber()+".svg"));
 	}
 
 	private void findLeftWhitespace() {
-		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getOriginalSVGElement());
+		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(pageCache.getInputSVGElement());
 		getOrCreateAllElementList();
 
 		for (SVGElement element : elements) {

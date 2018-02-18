@@ -28,7 +28,7 @@ public class DocumentCache extends ComponentCache {
 	private static final String BOX = ".box";
 
 	private File svgDir;
-	private SVGElement totalSvgElement;
+//	private SVGElement totalSvgElement;
 	private boolean createSummaryBoxes;
 	private List<File> svgFiles;
 	private List<PageCache> pageCacheList;
@@ -47,7 +47,7 @@ public class DocumentCache extends ComponentCache {
 		this.setSvgDir(svgDir);
 		svgFiles = SVGElement.extractSVGFiles(svgDir);
 		processSVGFiles(svgFiles);
-		return totalSvgElement;
+		return convertedSVGElement;
 	}
 
 	/**
@@ -57,7 +57,7 @@ public class DocumentCache extends ComponentCache {
 	 */
 	public void processSVGFiles(List<File> svgFiles) {
 		this.svgFiles = CMFileUtil.sortUniqueFilesByEmbeddedIntegers(svgFiles);
-		totalSvgElement = new SVGG();
+		convertedSVGElement = new SVGG();
 		getOrCreatePageCacheList();
 		for (int ifile = 0; ifile < svgFiles.size(); ifile++) {
 			File svgFile = svgFiles.get(ifile);	
@@ -66,7 +66,11 @@ public class DocumentCache extends ComponentCache {
 			pageCache.setSerialNumber(ifile + 1);
 			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
 			pageCacheList.add(pageCache);
-			pageCache.setSVGFile(svgFile);
+			SVGElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
+			if (extractedSvgCacheElement == null) {
+				throw new RuntimeException("null element in cache");
+			}
+			convertedSVGElement.appendChild(extractedSvgCacheElement.copy());
 		}
 		summarizePages();
 	}
@@ -141,10 +145,6 @@ public class DocumentCache extends ComponentCache {
 		this.svgFiles = svgFiles;
 	}
 
-	public SVGElement getTotalSvgElement() {
-		return totalSvgElement;
-	}
-	
 	private void makePageLayouts(String pubstyle) {
 		InputStream frontInputStream = getClass().getResourceAsStream(pubstyle+PageLayout.FRONT+PageLayout.DOT_SVG);
 		this.frontPageLayout = PageLayout.readPageLayoutFromStream(frontInputStream);
@@ -169,7 +169,5 @@ public class DocumentCache extends ComponentCache {
 		}
 		return pageLayout;
 	}
-
-
 
 }

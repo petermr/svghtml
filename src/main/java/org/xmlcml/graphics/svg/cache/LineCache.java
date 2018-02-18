@@ -252,7 +252,7 @@ public class LineCache extends AbstractCache {
 		List<SVGPolyline> polylineList = siblingShapeCache.getPolylineList();
 		List<SVGPolyline> axialLShapes = SVGPolyline.findLShapes(polylineList);
 		for (int i = axialLShapes.size() - 1; i >= 0; i--) {
-			removeLShapesAndReplaceByLines(polylineList, axialLShapes.get(i), ownerComponentCache.getOriginalSVGElement());
+			removeLShapesAndReplaceByLines(polylineList, axialLShapes.get(i), ownerComponentCache.getInputSVGElement());
 		}
 		allLines = new ArrayList<SVGLine>();
 		allLines.addAll(this.horizontalLines);
