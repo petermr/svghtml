@@ -168,7 +168,7 @@ public class ForestPlot {
 			}
 		}
 		SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileRoot+"/"+POLYGONS+SVG));
-		SVGG svgg = componentCache.getOrCreateConvertedSVGElement();
+		SVGElement svgg = componentCache.getOrCreateConvertedSVGElement();
 		SVGSVG.wrapAndWriteAsSVG(svgg, new File(outputDir, fileRoot+"/"+CACHE+SVG));
 	}
 

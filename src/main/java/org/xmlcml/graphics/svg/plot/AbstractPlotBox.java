@@ -20,6 +20,7 @@ import org.xmlcml.graphics.svg.SVGLine.LineDirection;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
+import org.xmlcml.graphics.svg.cache.AbstractCache;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
 import org.xmlcml.graphics.svg.cache.LineCache;
 

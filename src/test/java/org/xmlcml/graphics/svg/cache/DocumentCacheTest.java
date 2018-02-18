@@ -23,11 +23,12 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 	/** 9-page article.
 	 * 
 	 */
-	@Ignore//(empty g)
+//	@Ignore//(empty g)
 	public void testDocument() {
 		DocumentCache documentCache = new DocumentCache();
 		documentCache.setCreateSummaryBoxes(true);
 		documentCache.processSVGDirectory(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
+		// not sure this is a good idea 
 		SVGElement g = documentCache.getOrCreateConvertedSVGElement();
 		Assert.assertNotNull("non-null g", g);
 		Assert.assertTrue("empty g", g.getChildCount() > 0);
@@ -49,5 +50,6 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 //		documentCache.analyzePages(PageLayout.BMC, 8, "bmc/1471-2148-11-329/", new File("target/cache"));
 //		documentCache.analyzePages(PageLayout.PLOSONE2016, 15, "TimmermansPLOS/", new File("target/cache"));
 	}
+	
 
 }

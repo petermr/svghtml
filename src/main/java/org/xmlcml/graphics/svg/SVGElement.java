@@ -1808,7 +1808,7 @@ public class SVGElement extends GraphicsElement {
 	 * @param g
 	 * @param elementList
 	 */
-	public static void appendCopy(SVGG g, List<SVGElement> elementList) {
+	public static void appendCopy(SVGG g, List<? extends SVGElement> elementList) {
 		for (SVGElement element : elementList) {
 			g.appendChild(element.copy());
 		}

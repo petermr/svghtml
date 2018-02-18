@@ -43,7 +43,7 @@ public class AnnotatedAxisTest {
 		SVGElement svgElement = SVGUtil.parseToSVGElement(new FileInputStream(new File(SVGHTMLFixtures.PLOT_DIR, "bakker2014-page11b.svg")));
 		AbstractPlotBox plotBox = new XYPlotBox();
 		plotBox.readAndCreateCSVPlot(svgElement);
-		SVGSVG.wrapAndWriteAsSVG(plotBox.getComponentCache().createSVGElement(), new File("target/plot/bakker.svg"));
+		SVGSVG.wrapAndWriteAsSVG(plotBox.getComponentCache().getOrCreateConvertedSVGElement(), new File("target/plot/bakker.svg"));
 		SVGRect fullLineBbox = plotBox.getComponentCache().getOrCreateLineCache().getFullLineBox();
 		fullLineBbox.format(3);
 		Assert.assertEquals("full box",  "((140.415,426.016),(483.056,650.628))", fullLineBbox.toString());
