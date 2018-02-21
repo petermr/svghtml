@@ -6,8 +6,12 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.StyleBundle;
@@ -163,6 +167,24 @@ public class StyleRecord {
 
 	public void setStyleBundle(StyleBundle styleBundle) {
 		this.styleBundle = styleBundle;
+	}
+
+	public SVGG getSortedCompressedYCoordAPGrid(RealRange xRange, String stroke, String fill, double d) {
+		List<RealArray> arrayList = createSortedCompressedYCoordAPList(d);
+		SVGG g = new SVGG();
+		for (RealArray yChunk : arrayList) {
+			for (int i = 1; i < yChunk.size(); i++) {
+				RealRange yRange = new RealRange(yChunk.get(i - 1), yChunk.get(i));
+				SVGRect rect = SVGRect.createFromReal2Range(new Real2Range(xRange, yRange));
+				rect.setOpacity(0.3).setStroke("black").setStrokeWidth(0.5).setFill(fill);
+				g.appendChild(rect);
+			}
+			SVGRect box = SVGRect.createFromReal2Range(new Real2Range(xRange, new RealRange(yChunk.get(0), yChunk.getLast())));
+			box.setStrokeWidth(2.0).setStroke(stroke).setFill("none");
+			g.appendChild(box);
+		}
+		return g;
+		
 	}
 
 	

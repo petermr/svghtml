@@ -282,7 +282,10 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 			String title = styleBundle.getFontSize() + "; "+
 			    content.substring(0, len)+"; "+styleBundle.getFontName();
 			rect.appendChild(new SVGTitle(title));
-			g.appendChild(rect);
+			SVGG gg = new SVGG();
+			gg.appendChild(rect);
+			gg.appendChild(svgText.copy());
+			g.appendChild(gg);
 		}
 		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xStarts), "blue");
 		drawWeightedVerticalLines(g, MultisetUtil.createIntegerListSortedByCount(xEnds), "green");

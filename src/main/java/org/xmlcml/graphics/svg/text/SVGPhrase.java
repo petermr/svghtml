@@ -150,7 +150,7 @@ public class SVGPhrase extends SVGG {
 	 *   it runs downwards
 	 *   but phrases run upwards
 	 *   
-	 * @param textList
+	 * @param texts
 	 * @return
 	 */
 	private static SVGPhrase extractRot90Phrase(List<SVGText> texts) {

@@ -78,7 +78,7 @@ public class MoleculeBuilder {
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		List<SVGLine> lineList = componentCache.getOrCreateLineCache().getOrCreateLineList();
 		bondList = createBondList(lineList);
-		List<SVGText> textList = componentCache.getOrCreateTextCache().getTextList();
+		List<SVGText> textList = componentCache.getOrCreateTextCache().getOrCreateOriginalTextList();
 		// make nodes from all texts
 		addNonCarbonAtoms(textList);
 		addLinesAndJoin();
