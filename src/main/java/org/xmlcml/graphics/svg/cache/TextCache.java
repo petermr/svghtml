@@ -1,6 +1,5 @@
 package org.xmlcml.graphics.svg.cache;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,13 +10,12 @@ import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
+import org.xmlcml.graphics.svg.SVGRect;
+import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
-import org.xmlcml.graphics.svg.SVGRect;
-import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.SVGText;
-import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.normalize.TextDecorator;
 import org.xmlcml.graphics.svg.plot.AnnotatedAxis;
 
@@ -513,15 +511,15 @@ public class TextCache extends AbstractCache {
 		SVGG g = new SVGG();
 		List<SVGText> texts = extractCurrentTextElementsContainedInBox(cropBox);
 		List<StyleRecord> sortedStyleRecords = createSortedStyleRecords();
-		PageCacheTest.LOG.debug(sortedStyleRecords.size());
+		LOG.debug(sortedStyleRecords.size());
 		String stroke[] = {"red", "green", "blue", "black"};
 		String fill[] = {"cyan", "magenta", "yellow", "pink"};
 		for (int i = 0; i < sortedStyleRecords.size(); i++) {
 			StyleRecord styleRecord = sortedStyleRecords.get(i);
 			SVGG gg = styleRecord.getSortedCompressedYCoordAPGrid(
 					cropBox.getXRange(), stroke[i % stroke.length], fill[i % fill.length], 0.2);
-			PageCacheTest.LOG.debug(styleRecord.createSortedCompressedYCoordAPList(0.2));
-			PageCacheTest.LOG.debug(styleRecord.getCSSStyle());
+			LOG.debug(styleRecord.createSortedCompressedYCoordAPList(0.2));
+			LOG.debug(styleRecord.getCSSStyle());
 			g.appendChild(gg);
 		}
 		return g;
@@ -531,7 +529,7 @@ public class TextCache extends AbstractCache {
 		SVGG g = new SVGG();
 		List<SVGText> texts = extractCurrentTextElementsContainedInBox(cropBox);
 		List<StyleRecord> sortedStyleRecords = createSortedStyleRecords();
-		PageCacheTest.LOG.debug(sortedStyleRecords.size());
+		LOG.debug(sortedStyleRecords.size());
 		for (int i = 0; i < sortedStyleRecords.size(); i++) {
 			StyleRecordSet leftStyleRecordSet = getStyleRecordSet();
 			SVGElement gg = leftStyleRecordSet.createStyledTextBBoxes(texts);
