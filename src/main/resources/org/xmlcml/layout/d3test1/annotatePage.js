@@ -9,8 +9,6 @@ var selectionRect = {
 	setRectAndRememberPrevious: function(ele) {
 		this.previousRect = this.currentRect;
 		this.currentRect = ele;
-		// this.previousRect.on("mouseover", handleMouseOver);
-		// this.previousRect.on("mouseout", handleMouseOut);
 	},
 
 	getNewXYRecalculateWH: function() {
@@ -45,7 +43,6 @@ var selectionRect = {
 	},
 	createNewRect: function(newX, newY) {
 		// create a new rectangle
-		nrect++;
 		var rectElement = svg.append("rect")
 		    .attr({
 		        rx      : 4,
@@ -75,7 +72,6 @@ var selectionRect = {
 			this.currentRect.id = annotator.type;
 			this.currentRect.title = annotator.type;
 			this.currentRect.append("title").text(annotator.type);
-			this.currentRect.style("stroke-dasharray", "5 5");
 		
     },
     removeCurrentRect: function() {
@@ -98,7 +94,6 @@ var svg = d3.select("svg");
 var clickTime = d3.select("#clicktime");
 var attributesText = d3.select("#attributestext");
 var messageText = d3.select("#messagetext");
-var nrect = 0;
 
 
 function dragStart() {
@@ -115,7 +110,6 @@ function dragMove() {
     selectionRect.updateXYandWH(xy[0], xy[1]);
     attributesText
     	.text(selectionRect.getCurrentRectCoordsAsText());
-	selectionRect.currentRect.style("stroke-dasharray", "5 5");
 }
 
 function dragEnd() {
@@ -128,24 +122,14 @@ function dragEnd() {
 		// range selected
 		d3.event.sourceEvent.preventDefault();
 		selectionRect.updateStrokeAndWidth();
-		selectionRect.currentRect.style("stroke-dasharray", "");
-		selectionRect.currentRect.attr("id", "rect_"+nrect);
-//		selectionRect.currentRect.on("click", clickme);
-		selectionRect.currentRect.on("mouseover", handleMouseOver());
-		selectionRect.currentRect.on("mouseout", handleMouseOut());
-		message("nrect "+nrect);
 	} else {
-		messageText.text("single point");		
+		messageText.text("single point no drag");		
 		console.log("single point");
         // single point selected
         selectionRect.removeCurrentRect();
         // trigger click event manually
         clicked();
     }
-}
-
-function enterme() {
-	message("ENTER");
 }
 
 var dragBehavior = d3.behavior.drag()
@@ -157,14 +141,26 @@ var dragBehavior = d3.behavior.drag()
 
 svg.call(dragBehavior);
 
+var doiPicker = document.querySelector('input[name="doiButton"]');
+var titlePicker = document.querySelector('input[name="titleButton"]');
+var authPicker = document.querySelector('input[name="authButton"]');
 var annotator = {
 		color : "red",
 		type : "doi"
 }
 
 
-function handleMouseOver(d, i) {message("handleMouseOver");}
-function handleMouseOut(d, i) {message("mouseOutX");}
+function textClick() {
+	message("testClick");
+}
+
+function handleMouseOver(d, i) {
+	message("handleMouseOver");
+}
+
+function handleMouseOut(d, i) {
+	message("mouseOutX");
+}
 
 function clicked() {
 	var d = new Date();
@@ -201,35 +197,3 @@ function selectTableFoot() 	    {setColorTypeReport("#ffcc00", "tableFoot");}
 function selectMaths()       	{setColorTypeReport("#ccff00", "maths");}
 function selectReferences()  	{setColorTypeReport("#cc77aa", "references");}
 
-
-// Create Event Handlers for mouse
-function handleMouseOver(d, i) {  // Add interactivity
-
-message("IN")
-//      Use D3 to select element, change color and size
-	message(d);
-	selectionRect.currentRect.style("fill", "green");
-
-      // // Specify where to put label of text
-      // svg.append("text").attr({
-      //    id: "t" + d.x + "-" + d.y + "-" + i,  // Create an id for text so we can select it later for removing on mouseout
-      //     x: function() { return xScale(d.x) - 30; },
-      //     y: function() { return yScale(d.y) - 15; }
-      // })
-      // .text(function() {
-      //   return [d.x, d.y];  // Value of the text
-      // });
-    }
-
-function handleMouseOut(d, i) {
-message("OUT")
-	selectionRect.currentRect.style("fill", "none");
-      // // Use D3 to select element, change color back to normal
-      // d3.select(this).attr({
-      //   fill: "black",
-      //   r: radius
-      // });
-
-      // // Select text by id and then remove
-      // d3.select("#t" + d.x + "-" + d.y + "-" + i).remove();  // Remove text location
-    }

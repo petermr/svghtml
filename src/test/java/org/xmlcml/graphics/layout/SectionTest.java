@@ -33,7 +33,7 @@ public class SectionTest {
 		Assert.assertEquals(18, rectList.size());
 		List<SVGRect> markedRectList = SVGRect.extractRects(SVGElement.extractElementList(rectList, "self::*[*[local-name()='title']]"));
 		Assert.assertEquals(9, markedRectList.size());
-		List<SVGText> textList = componentCache.getOrCreateTextCache().getTextList();
+		List<SVGText> textList = componentCache.getOrCreateTextCache().getOrCreateOriginalTextList();
 		Assert.assertEquals(198, textList.size());
 		SVGG g = new SVGG();
 		for (SVGRect markedRect : markedRectList) {
