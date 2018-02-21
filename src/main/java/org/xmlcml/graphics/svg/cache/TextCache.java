@@ -11,6 +11,9 @@ import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
+import org.xmlcml.graphics.svg.fonts.StyleRecord;
+import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
+import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -38,7 +41,7 @@ public class TextCache extends AbstractCache {
 	private List<SVGText> horizontalTexts;
 	private List<SVGText> verticalTexts;
 
-	private List<SVGText> textList;
+	private List<SVGText> originalTextList;
 	private Multiset<String> horizontalTextStyleMultiset;
 	private Multiset<String> verticalTextStyleMultiset;
 	private boolean useCompactOutput;
@@ -48,6 +51,10 @@ public class TextCache extends AbstractCache {
 	private List<StyleAttributeFactory> totalAttributeFactoryList;
 	// parameters
 	private int maxStylesInRow = 5;
+	private List<SVGText> currentTextList;
+	private StyleRecordFactory styleRecordFactory;
+	private List<StyleRecord> sortedStyleRecords;
+	private StyleRecordSet styleRecordSet;
 
 	
 	public TextCache(ComponentCache svgCache) {
@@ -63,24 +70,35 @@ public class TextCache extends AbstractCache {
 		this.verticalTextStyleMultiset = null;
 	}
 
+	/** create texts from element.
+	 * filter through SVGText.removeTextsWithEmptyContent and 
+	 * createCompactedOutout
+	 * @param svgElement
+	 */
 	public void extractTexts(SVGElement svgElement) {
-		List<SVGText> originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
-		textList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
-		LOG.trace(textList);
-		if (useCompactOutput) {
-			createCompactedTextsAndReplace();
+		if (svgElement != null) {
+			originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
+			originalTextList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
+			if (useCompactOutput) {
+				createCompactedTextsAndReplace();
+			}
 		}
 	}
 
-	public List<SVGText> getTextList() {
-		return textList;
+	public List<SVGText> getOrCreateOriginalTextList() {
+		if (originalTextList == null) {
+			if (inputSVGElement != null) {
+				extractTexts(inputSVGElement);
+			}
+		}
+		return originalTextList;
 	}
 	
 	public List<? extends SVGElement> getOrCreateElementList() {
-		if (textList == null) {
-			textList = new ArrayList<SVGText>();
+		if (originalTextList == null) {
+			originalTextList = new ArrayList<SVGText>();
 		}
-		return getTextList();
+		return getOrCreateOriginalTextList();
 	}
 
 	public SVGElement debug(String outFilename) {
@@ -146,7 +164,7 @@ public class TextCache extends AbstractCache {
 	 * @return the bounding box of the contained text
 	 */
 	public Real2Range getBoundingBox() {
-		return getOrCreateBoundingBox(textList);
+		return getOrCreateBoundingBox(originalTextList);
 	}
 
 	public void createHorizontalAndVerticalTexts() {
@@ -155,7 +173,7 @@ public class TextCache extends AbstractCache {
 	}
 	public List<SVGText> getOrCreateHorizontalTexts() {
 		if (horizontalTexts == null) {
-			horizontalTexts = SVGText.findHorizontalOrRot90Texts(textList, LineDirection.HORIZONTAL, AnnotatedAxis.EPS);
+			horizontalTexts = SVGText.findHorizontalOrRot90Texts(originalTextList, LineDirection.HORIZONTAL, AnnotatedAxis.EPS);
 			if (horizontalTexts == null) {
 				horizontalTexts = new ArrayList<SVGText>();
 			}
@@ -165,7 +183,7 @@ public class TextCache extends AbstractCache {
 
 	public List<SVGText> getOrCreateVerticalTexts() {
 		if (verticalTexts == null) {
-			verticalTexts = SVGText.findHorizontalOrRot90Texts(textList, LineDirection.VERTICAL, AnnotatedAxis.EPS);
+			verticalTexts = SVGText.findHorizontalOrRot90Texts(originalTextList, LineDirection.VERTICAL, AnnotatedAxis.EPS);
 		}
 		return verticalTexts;
 	}
@@ -282,8 +300,8 @@ public class TextCache extends AbstractCache {
 	public SVGG createCompactedTextsAndReplace() {
 
 		TextDecorator textDecorator = new TextDecorator();
-		SVGG g = textDecorator.compactTexts(textList);
-		textList = SVGText.extractSelfAndDescendantTexts(g);
+		SVGG g = textDecorator.compactTexts(originalTextList);
+		originalTextList = SVGText.extractSelfAndDescendantTexts(g);
 		clearVariables();
 		return g;
 	}
@@ -307,7 +325,7 @@ public class TextCache extends AbstractCache {
 	 * @return
 	 */
 	public SVGElement createColoredTextStyles(String[] color) {
-		List<SVGText> horTexts = getTextList();
+		List<SVGText> horTexts = getOrCreateOriginalTextList();
 		Multiset<String> horizontalStyleSet = getOrCreateHorizontalTextStyleMultiset();
 		createAttributeFactoryLists(horizontalStyleSet);
 		createMainAndDerivativeFactpryLists();
@@ -410,7 +428,7 @@ public class TextCache extends AbstractCache {
 		String s = ""
 			+ "hor: "+horizontalTexts.size()+"; "
 			+ "vert: "+verticalTexts.size()+"; "
-			+ "textList "+textList.size();
+			+ "textList "+originalTextList.size();
 		return s;
 
 	}
@@ -421,7 +439,7 @@ public class TextCache extends AbstractCache {
 		horizontalTexts = null;
 		verticalTexts = null;
 
-		textList = null;
+		originalTextList = null;
 		horizontalTextStyleMultiset = null;
 		verticalTextStyleMultiset = null;
 		useCompactOutput = false;
@@ -431,4 +449,97 @@ public class TextCache extends AbstractCache {
 		totalAttributeFactoryList = null;
 	}
 
+	/** creates a sublist of texts withn a cropBox.
+	 * results are held in currentTextList;
+	 * 
+	 * @param cropBox
+	 * @return
+	 */
+	public List<SVGText> extractCurrentTextElementsContainedInBox(Real2Range cropBox) {
+		getOrCreateOriginalTextList();
+		List<SVGText> textListCopy = new ArrayList<SVGText>(originalTextList);
+		currentTextList = SVGText.extractTexts(
+				SVGElement.extractElementsContainedInBox(textListCopy, cropBox));
+		return currentTextList;
+	}
+
+	/** hold a selection of the textList.
+	 * does not affect originalTextList.
+	 * 
+	 * @return
+	 */
+	public List<SVGText> getCurrentTextList() {
+		return currentTextList;
+	}
+
+	public void setCurrentTextList(List<SVGText> currentTextList) {
+		this.currentTextList = currentTextList;
+	}
+
+	public List<StyleRecord> createSortedStyleRecords() {
+		getOrCreateStyleRecordFactory();
+		getOrCreateCurrentTextList();
+		styleRecordSet = styleRecordFactory.createStyleRecordSet(currentTextList);
+		sortedStyleRecords = getStyleRecordSet().createSortedStyleRecords();
+		return sortedStyleRecords;
+	}
+
+	/** get currentTextList.
+	 * if null, copies originalTextList
+	 * 
+	 * @return
+	 */
+	public List<SVGText> getOrCreateCurrentTextList() {
+		if (currentTextList == null) {
+			if (originalTextList != null) {
+				currentTextList = new ArrayList<SVGText>(originalTextList);
+			}
+		}
+		return originalTextList;
+	}
+
+	public StyleRecordFactory getOrCreateStyleRecordFactory() {
+		if (styleRecordFactory == null) {
+			styleRecordFactory = new StyleRecordFactory();
+		}
+		return styleRecordFactory;
+	}
+
+	public StyleRecordSet getStyleRecordSet() {
+		return styleRecordSet;
+	}
+
+	public SVGG extractYcoordAPs(Real2Range cropBox) {
+		SVGG g = new SVGG();
+		List<SVGText> texts = extractCurrentTextElementsContainedInBox(cropBox);
+		List<StyleRecord> sortedStyleRecords = createSortedStyleRecords();
+		PageCacheTest.LOG.debug(sortedStyleRecords.size());
+		String stroke[] = {"red", "green", "blue", "black"};
+		String fill[] = {"cyan", "magenta", "yellow", "pink"};
+		for (int i = 0; i < sortedStyleRecords.size(); i++) {
+			StyleRecord styleRecord = sortedStyleRecords.get(i);
+			SVGG gg = styleRecord.getSortedCompressedYCoordAPGrid(
+					cropBox.getXRange(), stroke[i % stroke.length], fill[i % fill.length], 0.2);
+			PageCacheTest.LOG.debug(styleRecord.createSortedCompressedYCoordAPList(0.2));
+			PageCacheTest.LOG.debug(styleRecord.getCSSStyle());
+			g.appendChild(gg);
+		}
+		return g;
+	}
+
+	public SVGG extractStyledTextBBoxes(Real2Range cropBox) {
+		SVGG g = new SVGG();
+		List<SVGText> texts = extractCurrentTextElementsContainedInBox(cropBox);
+		List<StyleRecord> sortedStyleRecords = createSortedStyleRecords();
+		PageCacheTest.LOG.debug(sortedStyleRecords.size());
+		for (int i = 0; i < sortedStyleRecords.size(); i++) {
+			StyleRecordSet leftStyleRecordSet = getStyleRecordSet();
+			SVGElement gg = leftStyleRecordSet.createStyledTextBBoxes(texts);
+			gg.setId("text boxes");
+			g.appendChild(gg);
+		}
+		return g;
+	}
+
+	
 }

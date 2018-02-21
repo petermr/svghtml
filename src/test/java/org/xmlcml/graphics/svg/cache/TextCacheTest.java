@@ -31,7 +31,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		TextCache textCache = new TextCache(componentCache);
 		textCache.setUseCompactOutput(true);
 		textCache.extractTexts(svgElement);
-		List<SVGText> texts = textCache.getTextList();
+		List<SVGText> texts = textCache.getOrCreateOriginalTextList();
 		Assert.assertEquals("compacted from ascii", 
 				"[[3-9]((304.054,534.992))]]", texts.toString());
 
@@ -48,7 +48,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		TextCache textCache = new TextCache(componentCache);
 		textCache.setUseCompactOutput(true);
 		textCache.extractTexts(svgElement);
-		List<SVGText> texts = textCache.getTextList();
+		List<SVGText> texts = textCache.getOrCreateOriginalTextList();
 		// note confusing to read since there are square brackets in stream!
 		Assert.assertEquals("compacted from ascii", 
 				"[[3((304.054,534.992))], [–((309.219,534.992))], [9]((313.718,534.992))]]", texts.toString());
@@ -66,7 +66,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		TextCache textCache = new TextCache(componentCache);
 		textCache.setUseCompactOutput(false);
 		textCache.extractTexts(svgElement);
-		List<SVGText> texts = textCache.getTextList();
+		List<SVGText> texts = textCache.getOrCreateOriginalTextList();
 		// note confusing to read since there are square brackets in stream!
 		Assert.assertEquals("uncompact", 
 				"[[3((304.054,534.992))], [–((309.219,534.992))], [9((313.718,534.992))], []((318.883,534.992))]]",

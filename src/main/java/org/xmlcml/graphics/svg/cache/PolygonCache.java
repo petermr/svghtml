@@ -24,6 +24,7 @@ public class PolygonCache extends AbstractCache {
 	private List<SVGPolygon> polygonList;
 //	private List<SVGPolygon> horizontalPanelList;
 	private double DEFAULT_PANEL_EPS;
+	
 	private PolygonCache() {
 		
 	}

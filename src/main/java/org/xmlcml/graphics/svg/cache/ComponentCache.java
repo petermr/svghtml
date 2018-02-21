@@ -288,7 +288,7 @@ public class ComponentCache extends AbstractCache {
 			this.textCache = new TextCache(this);
 			if (this.inputSVGElement != null) {
 				this.textCache.extractTexts(this.inputSVGElement);
-				addElementsToExtractedElement(textCache.getTextList());
+				addElementsToExtractedElement(textCache.getOrCreateOriginalTextList());
 				textCache.createHorizontalAndVerticalTexts();
 			}
 		}
@@ -356,10 +356,11 @@ public class ComponentCache extends AbstractCache {
 		if (contentBoxCache == null) {
 //			this.contentBoxCache = new ContentBoxCache(this);
 			contentBoxCache = ContentBoxCache.createCache(rectCache, textChunkCache);
-			contentBoxCache.getOrCreateConvertedSVGElement();
-			LOG.trace("poly1 "+contentBoxCache.ownerComponentCache.shapeCache.getPolylineList());
-			contentBoxCache.getOrCreateContentBoxGrid();
-
+			if (contentBoxCache != null) {
+				contentBoxCache.getOrCreateConvertedSVGElement();
+				LOG.trace("poly1 "+contentBoxCache.ownerComponentCache.shapeCache.getPolylineList());
+				contentBoxCache.getOrCreateContentBoxGrid();
+			}
 		}
 		return contentBoxCache;
 	}
@@ -416,7 +417,7 @@ public class ComponentCache extends AbstractCache {
 	private SVGElement copyOriginalElements() {
 		SVGG g = new SVGG();
 		ShapeCache.addList(g, new ArrayList<SVGPath>(pathCache.getOriginalPathList()));
-		ShapeCache.addList(g, new ArrayList<SVGText>(textCache.getTextList()));
+		ShapeCache.addList(g, new ArrayList<SVGText>(textCache.getOrCreateOriginalTextList()));
 		g.setStroke("pink");
 		return g;
 	}
@@ -669,6 +670,7 @@ public class ComponentCache extends AbstractCache {
 			cascadingCacheList.add(getOrCreateRectCache());
 			cascadingCacheList.add(getOrCreatePolylineCache());
 			// TEXT
+			// WARNING - FIXME
 			cascadingCacheList.add(getOrCreateTextChunkCache());
 			// COMBINED OBJECTS
 			cascadingCacheList.add(getOrCreateContentBoxCache());

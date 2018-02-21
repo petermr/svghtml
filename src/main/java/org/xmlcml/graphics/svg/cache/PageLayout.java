@@ -84,9 +84,9 @@ public class PageLayout {
 	private Real2Range getBoundingBoxFromId(String role) {
 		String xpath = ".//*[@id='" + role + "']";
 		List<SVGElement> boxList = SVGUtil.getQuerySVGElements(layoutElement, xpath);
-		LOG.debug(xpath);
-		SVGRect rect = (boxList.size() == 1) ? (SVGRect) boxList.get(0): null;
-		Real2Range limits = rect == null ? null : rect.getBoundingBox();
+//		LOG.debug(xpath + "// \n"+boxList.get(0).toXML());
+		SVGElement g = (boxList.size() == 1) ? (SVGElement) boxList.get(0): null;
+		Real2Range limits = g == null ? null : g.getBoundingBox();
 		return limits;
 	}
 

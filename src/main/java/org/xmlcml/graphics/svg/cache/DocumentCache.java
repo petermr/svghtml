@@ -79,6 +79,7 @@ public class DocumentCache extends ComponentCache {
 		makePageLayouts(pubstyle);
 		this.setPageCount(npages);
 		for (int ipage = 1; ipage <= npages; ipage++) {
+			LOG.debug("PAGE "+ipage);
 			PageCache pageCache = new PageCache(this);
 			SVGElement boxes = debugPage(pageDir, fileDir, ipage, pageCache);
 			File outFileSVG = new File(targetDir, fileDir+"/fulltext-page" + ipage + DocumentCache.DOT_SVG);

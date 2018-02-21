@@ -47,7 +47,7 @@ public class TextChunkCache extends AbstractCache {
 	public List<SVGText> getOrCreateRawTextList() {
 		if (rawTextList == null) {
 			getOrCreateSiblingTextCache();
-			rawTextList = siblingTextCache.getTextList();
+			rawTextList = siblingTextCache.getOrCreateOriginalTextList();
 		}
 		return rawTextList;
 	}
