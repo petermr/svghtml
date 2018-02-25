@@ -12,6 +12,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -45,7 +46,7 @@ public class FigureTest {
 		File inputDir = new File(SVGHTMLFixtures.FIGURE_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue(""+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 	//	List<SVGElement> largeCharsElements = SVGUtil.getQuerySVGElements(svgElement, ".//*[local-name()='text' and @font-size[.='12.0']]");
 		List<SVGText> largeCharsText = SVGText.getQuerySVGTexts(svgElement, ".//*[local-name()='text' and @font-size[.='12.0']]");
 		SVGSVG.wrapAndWriteAsSVG(largeCharsText, new File(outputDir, "largeChars.svg"));
@@ -87,7 +88,7 @@ public class FigureTest {
 		File inputDir = new File(SVGHTMLFixtures.FIGURE_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		YPlotBox yPlotBox = new YPlotBox();
 		ComponentCache componentCache = new ComponentCache(yPlotBox);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -120,7 +121,7 @@ public class FigureTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -156,7 +157,7 @@ public class FigureTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);

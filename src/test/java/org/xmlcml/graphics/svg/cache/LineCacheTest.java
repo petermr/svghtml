@@ -6,6 +6,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -34,7 +35,7 @@ public class LineCacheTest {
 	// ============================
 	
 	private List<SVGLine> extractAndDisplayLines(File inDir, String svgName, String outName) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(inDir, svgName));
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(new File(inDir, svgName));
 		ComponentCache componentCache = new ComponentCache();
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		LineCache lineCache = componentCache.getOrCreateLineCache();

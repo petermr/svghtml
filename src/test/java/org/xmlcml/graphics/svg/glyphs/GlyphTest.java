@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -51,7 +52,7 @@ public class GlyphTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -86,7 +87,7 @@ public class GlyphTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -112,7 +113,7 @@ public class GlyphTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -121,7 +122,7 @@ public class GlyphTest {
 		for (SVGPath path : paths) {
 			PathPrimitiveList pathPrimitiveList = path.getOrCreatePathPrimitiveList();
 			List<PathPrimitiveList> pathPrimitiveListList = pathPrimitiveList.splitBefore(MovePrimitive.class);
-			SVGElement gg = createAnnotatedSVG(pathPrimitiveListList);
+			AbstractCMElement gg = createAnnotatedSVG(pathPrimitiveListList);
 			g.appendChild(gg);
 		}
 		SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileroot+"/"+"splitAllBeforeM.svg"));
@@ -203,7 +204,7 @@ public class GlyphTest {
 		File inputDir = new File(SVGHTMLFixtures.SVG_DIR, dirRoot);
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue("exists: "+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);

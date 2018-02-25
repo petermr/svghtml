@@ -20,6 +20,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class SVGUtilTest {
 
@@ -32,7 +33,7 @@ public class SVGUtilTest {
 		svg.appendChild(new SVGText(new Real2(40, 50), "test"));
 		Assert.assertEquals("before child", 2, svg.getChildCount());
 		Assert.assertEquals("before child", SVGCircle.class, svg.getChild(0).getClass());
-		SVGElement g = SVGUtil.interposeGBetweenChildren(svg);
+		AbstractCMElement g = SVGUtil.interposeGBetweenChildren(svg);
 		Assert.assertEquals("after child", 1, svg.getChildCount());
 		Assert.assertEquals("after child", 2, g.getChildCount());
 		Assert.assertEquals("after child", SVGCircle.class, g.getChild(0).getClass());
@@ -59,7 +60,7 @@ public class SVGUtilTest {
 	@Test
 	public void testAffineTransformationRotate() throws Exception { 
 		double[] matrix = new double[6];
-		SVGElement svgG = new SVGG();
+		AbstractCMElement svgG = new SVGG();
 		Transform2 transform2 = new Transform2(new Angle(0.3));
 		AffineTransform affineTransform = transform2.getAffineTransform();
 		LOG.trace(affineTransform);
@@ -102,7 +103,7 @@ public class SVGUtilTest {
 		double[] matrix = new double[6];
 		SVGSVG svg = new SVGSVG();
 		svg.appendChild(new SVGRect(new Real2(0., 0.), new Real2(width, height)));
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		svg.appendChild(g);
 		Real2 xy00 = new Real2(10.,  10.);
 		SVGCircle circle0 = createCircle(xy00, 20., "red", "black", 2.0);

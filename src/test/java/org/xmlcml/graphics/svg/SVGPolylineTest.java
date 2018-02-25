@@ -29,6 +29,7 @@ import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class SVGPolylineTest {
 	public static final Logger LOG = Logger.getLogger(SVGPolylineTest.class);
@@ -90,7 +91,7 @@ public class SVGPolylineTest {
 	
 	@Test
 	public void testCreateLineListFromPolyList() {
-		SVGElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_2_SVG);
+		AbstractCMElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_2_SVG);
 		List<SVGPolyline> polylineList = SVGPolyline.extractSelfAndDescendantPolylines(svg);
 		Assert.assertEquals("polylines", 21, polylineList.size());
 		List<SVGLine> lineList = SVGPoly.splitPolylinesToLines(polylineList);
@@ -122,7 +123,7 @@ public class SVGPolylineTest {
 	
 	@Test
 	public void testReplacePolylinesBySplitLines() {
-		SVGElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_2_SVG);
+		AbstractCMElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_2_SVG);
 		SVGUtil.debug(svg, "target/beforesplitlines.svg", 1);
 		Assert.assertEquals("before polylines", 21, SVGPolyline.extractSelfAndDescendantPolylines(svg).size());
 		Assert.assertEquals("lines", 1, SVGLine.extractSelfAndDescendantLines(svg).size());

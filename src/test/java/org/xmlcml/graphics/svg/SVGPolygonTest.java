@@ -47,8 +47,8 @@ public class SVGPolygonTest {
 
 	@Test
 	public void testIsMirror() {
-		Assert.assertFalse(ARROWHEAD.hasMirror(0, SVGPolygon.EPS));
-		Assert.assertTrue(ARROWHEAD.hasMirror(1, SVGPolygon.EPS));
+		Assert.assertFalse(ARROWHEAD.hasMirror(0, SVGLine.EPS));
+		Assert.assertTrue(ARROWHEAD.hasMirror(1, SVGLine.EPS));
 	}
 	
 	@Test

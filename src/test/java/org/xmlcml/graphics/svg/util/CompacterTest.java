@@ -6,10 +6,11 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.xmlcml.graphics.svg.SVGHTMLFixtures;
-import org.xmlcml.graphics.svg.GraphicsElement;
+import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
+import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
 
@@ -123,7 +124,7 @@ public class CompacterTest {
 	
 	@Test
 	public void testChunk() throws Exception {
-		GraphicsElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_0_SVG);
+		AbstractCMElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_G_8_0_SVG);
 		List<SVGElement> textList = SVGText.generateElementList(svg, "//*[local-name()='text']");
 		Compacter compacter = new Compacter();
 		compacter.setAttributeNames(SVGNAMES);
@@ -135,7 +136,7 @@ public class CompacterTest {
 	
 	@Test
 	public void testPage6Elements() throws Exception {
-		GraphicsElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_PAGE6_SVG);
+		AbstractCMElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_PAGE6_SVG);
 		List<SVGElement> elementList = SVGText.generateElementList(svg, 
 				"./*[local-name()='text' or local-name()='path' or local-name()='image']");
 		Compacter compacter = new Compacter();
@@ -148,7 +149,7 @@ public class CompacterTest {
 	
 	@Test
 	public void testPage6ElementsAttributes() throws Exception {
-		GraphicsElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_PAGE6_SVG);
+		AbstractCMElement svg = SVGElement.readAndCreateSVG(SVGHTMLFixtures.SVG_PAGE6_SVG);
 		List<SVGElement> elementList = SVGText.generateElementList(svg, 
 				"./*[local-name()='text' or local-name()='path' or local-name()='image']");
 		Compacter compacter = new Compacter();

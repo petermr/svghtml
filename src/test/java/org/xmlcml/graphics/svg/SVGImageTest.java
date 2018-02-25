@@ -21,6 +21,7 @@ import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class SVGImageTest {
 
@@ -31,7 +32,7 @@ public class SVGImageTest {
 	
 	@Test 
 	public void testReadContent() {
-		SVGElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
+		AbstractCMElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
 		 Assert.assertNotNull(svgElement);
 		SVGImage image = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		 Assert.assertNotNull(image);
@@ -44,7 +45,7 @@ public class SVGImageTest {
 	@Test 
 	public void testRoundtripImage() throws Exception {
 
-		SVGElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
+		AbstractCMElement svgElement = SVGUtil.parseToSVGElement(SVGHTMLFixtures.IMAGE_SVG);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		 BufferedImage image = svgImage.getBufferedImage();
 		 Assert.assertNotNull(image);
@@ -176,7 +177,7 @@ public class SVGImageTest {
 
 	@Test
 	public void testReadSVG() throws Exception {
-		SVGElement element = SVGElement.readAndCreateSVG(SVGHTMLFixtures.PLOS_GRAPH_SVG);
+		AbstractCMElement element = SVGElement.readAndCreateSVG(SVGHTMLFixtures.PLOS_GRAPH_SVG);
 		SVGImage svgImage =
                 SVGImage.extractImages(SVGUtil.getQuerySVGElements(element, "//*[local-name()='image']")).get(0);
 		svgImage.writeImage("target/testReadSvg.png", SVGImage.IMAGE_PNG);
@@ -208,7 +209,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testTranslate() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		LOG.trace(svgImage.toXML());
 		Transform2 transform = svgImage.getTransform();
@@ -238,7 +239,7 @@ public class SVGImageTest {
 	
 	@Test
 	public void testTranslateToOrigin() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		LOG.trace(svgImage.toXML());
 		Transform2 transform = svgImage.getTransform();
@@ -257,7 +258,7 @@ public class SVGImageTest {
 
 	@Test
 	public void testApplyExplicitTransformationAndUpdate() throws IOException {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(SVGHTMLFixtures.LETTERA_SVG_FILE);
 		SVGImage svgImage = SVGImage.extractSelfAndDescendantImages(svgElement).get(0);
 		svgImage.applyExplicitTransformationAndUpdate();
 		SVGSVG svgx = SVGSVG.wrapAndWriteAsSVG(svgImage, new File("target/explicitxx.svg"));

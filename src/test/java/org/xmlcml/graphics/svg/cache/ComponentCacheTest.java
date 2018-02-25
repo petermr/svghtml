@@ -13,6 +13,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.util.CSVUtil;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -54,7 +55,7 @@ public class ComponentCacheTest {
 					String filename = svgFile.getName();
 					LOG.debug(filename);
 					row.add(filename);
-					SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+					AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 					ComponentCache cache = new ComponentCache();
 					cache.readGraphicsComponentsAndMakeCaches(svgElement);
 					List<String> featureValues = cache.getFeatureValues(Feature.TEXT_SHAPE_FEATURES);
@@ -88,7 +89,7 @@ public class ComponentCacheTest {
 					String baseName = FilenameUtils.getBaseName(filename);
 					LOG.debug(baseName);
 					row.add(filename);
-					SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+					AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 					ComponentCache cache = new ComponentCache();
 					cache.readGraphicsComponentsAndMakeCaches(svgElement);
 					textCache = cache.getOrCreateTextCache();
@@ -210,7 +211,7 @@ public class ComponentCacheTest {
 		String filename = createCTreeTableName(svgFile);
 		List<String> rowx = new ArrayList<String>();
 		rowx.add(filename);
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgElement);
 		List<String> featureValues = cache.getFeatureValues(features);

@@ -11,6 +11,7 @@ import org.junit.Test;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange.Direction;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -204,7 +205,7 @@ Edges: [
 			File inputDir2 = new File("target/", dirRoot);
 			moleculeBuilderi.setInputDir(inputDir2);
 			moleculeBuilderi.setInputFile(boxOutputFile);
-			SVGElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
+			AbstractCMElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
 			moleculeBuilderi.createWeightedLabelledGraph(svgElementi);
 			moleculeBuilderi.outputFiles(fileroot);
 		} catch (Exception e) {
@@ -255,7 +256,7 @@ Edges: [
 				File inputDir2 = new File("target/", dirRoot);
 				moleculeBuilderi.setInputDir(inputDir2);
 				moleculeBuilderi.setInputFile(boxOutputFile);
-				SVGElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
+				AbstractCMElement svgElementi = SVGElement.readAndCreateSVG(boxOutputFile);
 				moleculeBuilderi.createWeightedLabelledGraph(svgElementi);
 				moleculeBuilderi.outputFiles(fileroot);
 			} catch (Exception e) {

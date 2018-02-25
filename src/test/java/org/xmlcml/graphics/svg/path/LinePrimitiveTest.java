@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -20,7 +21,7 @@ public class LinePrimitiveTest {
 
 	@Test
 	public void testLinePrimitive() {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
 		SVGPath svgPath = SVGPath.extractSelfAndDescendantPaths(svgElement).get(0);
 		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.createSignatureFromDStringPrimitives());
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
@@ -40,7 +41,7 @@ public class LinePrimitiveTest {
 	
 	@Test
 	public void testCalculateMeanLine() {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
 		SVGPath svgPath = SVGPath.extractSelfAndDescendantPaths(svgElement).get(0);
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		LinePrimitive line1 = (LinePrimitive) primList.get(1);

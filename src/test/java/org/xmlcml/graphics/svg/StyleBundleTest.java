@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg;
 
 import org.junit.Test;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class StyleBundleTest {
 
@@ -11,7 +12,7 @@ public class StyleBundleTest {
 		+ " font-size=\"7.0\" y=\"658.945\" x=\"135.925\" svgx:width=\"333.0\""
 		+ " svgx:fontName=\"YCWIXW+Helvetica-Bold\" clip-path=\"url(#clipPath1)\""
 		+ " fill=\"#000000\" stroke=\"none\" xmlns:svgx=\"http://www.xml-cml.org/schema/svgx\">-</text>";
-		SVGElement textElement = SVGElement.readAndCreateSVG(textXml);
+		AbstractCMElement textElement = SVGElement.readAndCreateSVG(textXml);
 	}
 
 }

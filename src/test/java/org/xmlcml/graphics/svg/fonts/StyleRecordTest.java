@@ -11,6 +11,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -31,7 +32,7 @@ public class StyleRecordTest {
 	@Test
 	public void testCreateStyleRecordsFromPage() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
-		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(infile);
 		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
 		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		Assert.assertEquals("styleRecords", 
@@ -58,7 +59,7 @@ public class StyleRecordTest {
 	@Test
 	public void testGetSingleStyleRecordByStyle() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
-		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(infile);
 		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
 		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		StyleRecordSet boldSet = cssStyleRecordSet.getStyleRecordSet(StyleBundle.FONT_WEIGHT, StyleBundle.BOLD);
@@ -71,7 +72,7 @@ public class StyleRecordTest {
 	 */
 	public void testGetMultipleStyleRecordsByStyle() {
 		File infile = new File(SVGHTMLFixtures.TEXT_DIR, "CM_pdf2svg_BMCCancer_9_page4.svg");
-		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(infile);
 		StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
 		StyleRecordSet cssStyleRecordSet = styleRecordFactory.createStyleRecordSet(svgElement);
 		StyleRecordSet italicSet = cssStyleRecordSet.getStyleRecordSet(StyleBundle.FONT_STYLE, StyleBundle.ITALIC);

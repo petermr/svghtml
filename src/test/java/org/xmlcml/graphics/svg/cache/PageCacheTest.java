@@ -21,6 +21,7 @@ import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.RectComparator;
 import org.xmlcml.graphics.svg.RectComparator.RectEdge;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -97,7 +98,7 @@ public class PageCacheTest {
 	public void testFindWhitespace() {
 		extractAndDisplayComponents(new File(SVGHTMLFixtures.TABLE_PAGE_DIR, "page6.svg"), new File(SVGHTMLFixtures.TARGET_TABLE_CACHE_DIR, "page6.svg"));
 		TextCache textCache = componentCache.getOrCreateTextCache();
-		SVGElement g = textCache.createCompactedTextsAndReplace();
+		AbstractCMElement g = textCache.createCompactedTextsAndReplace();
 		Assert.assertEquals("bounding boxes", 118/*131*/, componentCache.getBoundingBoxList().size());
 		double dx = 5;
 		double dy = 5;
@@ -117,7 +118,7 @@ public class PageCacheTest {
 			String basename = FilenameUtils.getBaseName(svgFile.toString());
 			extractAndDisplayComponents(svgFile, new File(outDir, basename+".convert.svg"));
 			TextCache textCache = componentCache.getOrCreateTextCache();
-			SVGElement g = textCache.createCompactedTextsAndReplace();
+			AbstractCMElement g = textCache.createCompactedTextsAndReplace();
 			SVGG gg = componentCache.createWhitespaceG(5, 5);
 			SVGSVG.wrapAndWriteAsSVG(gg, new File(outDir, basename+".textline.svg"));
 		}
@@ -140,7 +141,7 @@ public class PageCacheTest {
 			verso = !verso;
 			System.out.print(".");
 			String basename = FilenameUtils.getBaseName(svgFile.toString());
-			SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+			AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 			componentCache = new ComponentCache();
 			componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 			TextCache textCache = componentCache.getOrCreateTextCache();
@@ -181,7 +182,7 @@ public class PageCacheTest {
 				String basename = FilenameUtils.getBaseName(svgFile.toString());
 				extractAndDisplayComponents(svgFile, new File(outDir, basename+".convert.svg"));
 				TextCache textCache = componentCache.getOrCreateTextCache();
-				SVGElement g = textCache.createCompactedTextsAndReplace();
+				AbstractCMElement g = textCache.createCompactedTextsAndReplace();
 				SVGG gg = componentCache.createWhitespaceG(5, 5);
 				SVGSVG.wrapAndWriteAsSVG(gg, new File(outDir, basename+".textline.svg"));
 			}
@@ -379,7 +380,7 @@ public class PageCacheTest {
 		for (int ipage = 1; ipage <= 9; ipage++) {
 		
 		File pageFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/box/"+FULLTEXT_PAGE+ipage+".box.svg");
-		SVGElement pageElement = SVGElement.readAndCreateSVG(pageFile);
+		AbstractCMElement pageElement = SVGElement.readAndCreateSVG(pageFile);
 		List<SVGRect> rectList = SVGRect.extractSelfAndDescendantRects(pageElement);
 		PageCache pageCache = new PageCache();  // just for the test
 		List<Real2Range> clipBoxes = pageCache.getDefault2ColumnClipBoxes();
@@ -445,7 +446,7 @@ public class PageCacheTest {
 		int ipage = 7;
 		
 		File pageFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/box/"+FULLTEXT_PAGE+ipage+".box.svg");
-		SVGElement pageElement = SVGElement.readAndCreateSVG(pageFile);
+		AbstractCMElement pageElement = SVGElement.readAndCreateSVG(pageFile);
 		List<SVGRect> rectList = SVGRect.extractSelfAndDescendantRects(pageElement);
 		PageCache pageCache = new PageCache();  // just for the test
 		List<Real2Range> clipBoxes = pageCache.getDefault2ColumnClipBoxes();
@@ -616,7 +617,7 @@ public class PageCacheTest {
 	}
 	
 	private List<? extends SVGElement> extractAndDisplayComponents(File infile, File outfile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(infile);
 		componentCache = new ComponentCache();
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		SVGSVG.wrapAndWriteAsSVG(componentCache.getOrCreateConvertedSVGElement(), outfile);

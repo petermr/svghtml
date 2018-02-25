@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.plot.AbstractPlotBox;
@@ -73,7 +74,7 @@ public class BarTest {
 		File inputDir = new File(SVGHTMLFixtures.FIGURE_DIR, "nature/p3.a");
 		File inputFile = new File(inputDir, fileroot + ".svg");
 		Assert.assertTrue(""+inputFile, inputFile.exists());
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		YPlotBox mediaBox = new YPlotBox();
 		try {
 			mediaBox.readAndCreateBarPlot(svgElement);

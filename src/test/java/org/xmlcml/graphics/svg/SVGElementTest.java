@@ -30,6 +30,7 @@ import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.RealRange.Direction;
 import org.xmlcml.euclid.RealRangeArray;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.testutil.TestUtils;
 import org.xmlcml.xml.XMLConstants;
 
@@ -48,7 +49,7 @@ public class SVGElementTest {
 	public final void testcreateSVGElement() {
 		Element oldElement =TestUtils.parseValidFile(GRAPHICS_RESOURCE + XMLConstants.U_S
 				+ "image12.svg");
-		GraphicsElement newSvg = SVGElement.readAndCreateSVG(oldElement);
+		AbstractCMElement newSvg = SVGElement.readAndCreateSVG(oldElement);
 		Assert.assertEquals("class", SVGSVG.class, newSvg.getClass());
 		TestUtils.assertEqualsCanonically("copy",TestUtils.parseValidFile(GRAPHICS_RESOURCE + XMLConstants.U_S
 				+ "image12.svg"), newSvg, true);

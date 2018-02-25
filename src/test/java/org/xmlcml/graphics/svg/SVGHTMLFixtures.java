@@ -74,6 +74,7 @@ public class SVGHTMLFixtures {
 	public static final File FIGURE_DIR = new File(SVG_DIR, "figure");
 	public static final File FONTS_DIR = new File(SVG_DIR, "fonts");
 	public static final File IMAGE_DIR = new File(SVG_DIR, "images");
+	public static final File MATH_DIR = new File(SVG_DIR, "math");
 	public static final File PAGE_DIR = new File(SVG_DIR, "page");
 	public static final File PATH_DIR = new File(SVG_DIR, "path");
 	public static final File PLOT_DIR = new File(SVG_DIR, "plot");

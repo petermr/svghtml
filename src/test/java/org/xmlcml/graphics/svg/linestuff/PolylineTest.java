@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -35,14 +36,14 @@ public class PolylineTest {
 	// ===========================
 	
 	private void createPolylinesAndAnalyze(String fileroot, File outputDir, File inputFile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 //		componentCache.debug();
 		List<SVGPolyline> polylines = componentCache.getOrCreatePolylineCache().getOrCreatePolylineList();
 		LOG.debug("P "+polylines.size());
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		for (SVGPolyline polyline : polylines) {
 			LOG.debug(polyline.toXML());
 		}
