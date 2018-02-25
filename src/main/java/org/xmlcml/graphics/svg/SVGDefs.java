@@ -22,6 +22,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -77,14 +78,14 @@ public class SVGDefs extends SVGElement {
 		return TAG;
 	}
 
-	public static void removeDefs(SVGElement svgElement) {
+	public static void removeDefs(AbstractCMElement svgElement) {
 		List<SVGDefs> defsList = extractSelfAndDescendantDefs(svgElement);
 		for (SVGDefs defs : defsList) {
 			defs.detach();
 		}
 	}
 	
-	public static List<SVGDefs> extractSelfAndDescendantDefs(SVGElement svgElem) {
+	public static List<SVGDefs> extractSelfAndDescendantDefs(AbstractCMElement svgElem) {
 		return SVGDefs.extractDefss(SVGUtil.getQuerySVGElements(svgElem, ALL_DEFS_XPATH));
 	}
 
@@ -95,7 +96,7 @@ public class SVGDefs extends SVGElement {
 	 */
 	public static List<SVGDefs> extractDefss(List<SVGElement> elements) {
 		List<SVGDefs> defsList = new ArrayList<SVGDefs>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGDefs) {
 				defsList.add((SVGDefs) element);
 			}

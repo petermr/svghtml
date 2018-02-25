@@ -24,6 +24,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.graphics.svg.cache.ImageCache;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.cache.ComponentCache;
 import org.xmlcml.xml.XMLUtil;
 
@@ -158,7 +159,7 @@ public class SVGG extends SVGElement {
 	 */
 	public static List<SVGG> extractGs(List<SVGElement> elements) {
 		List<SVGG> gList = new ArrayList<SVGG>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGG) {
 				gList.add((SVGG) element);
 			}
@@ -172,7 +173,7 @@ public class SVGG extends SVGElement {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGG> extractSelfAndDescendantGs(SVGElement svgElement) {
+	public static List<SVGG> extractSelfAndDescendantGs(AbstractCMElement svgElement) {
 		return SVGG.extractGs(SVGUtil.getQuerySVGElements(svgElement, ALL_G_XPATH));
 	}
 
@@ -192,10 +193,10 @@ public class SVGG extends SVGElement {
 	 * @param index in list (Java counting from 0, not XPath)
 	 * @return null if not found
 	 */
-	public final static SVGElement createSVGGChunk(File svgFile, String xPath, int index) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+	public final static AbstractCMElement createSVGGChunk(File svgFile, String xPath, int index) {
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		List<SVGElement> elementList = SVGG.generateElementList(svgElement, xPath);
-		SVGElement graphic = (elementList.size() == 0) ? null : (SVGG) elementList.get(index);
+		AbstractCMElement graphic = (elementList.size() == 0) ? null : (SVGG) elementList.get(index);
 		return graphic;
 	}
 	

@@ -21,6 +21,7 @@ import java.util.List;
 
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -113,7 +114,7 @@ public class SVGUse extends SVGElement {
 	 */
 	public static List<SVGUse> extractUses(List<SVGElement> elements) {
 		List<SVGUse> useList = new ArrayList<SVGUse>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGUse) {
 				useList.add((SVGUse) element);
 			}

@@ -1,12 +1,14 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -18,8 +20,11 @@ import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.normalize.TextDecorator;
 import org.xmlcml.graphics.svg.plot.AnnotatedAxis;
+import org.xmlcml.graphics.svg.text.SVGTextLine;
 
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 
 /** extracts texts within graphic area.
@@ -53,6 +58,9 @@ public class TextCache extends AbstractCache {
 	private StyleRecordFactory styleRecordFactory;
 	private List<StyleRecord> sortedStyleRecords;
 	private StyleRecordSet styleRecordSet;
+	private Multimap<Double, SVGText> horizontalTextsByYCoordinate;
+	private Multimap<Double, SVGText> horizontalTextsByFontSize;
+	private int coordinateDecimalPlaces = 1;
 
 	
 	public TextCache(ComponentCache svgCache) {
@@ -73,12 +81,22 @@ public class TextCache extends AbstractCache {
 	 * createCompactedOutout
 	 * @param svgElement
 	 */
-	public void extractTexts(SVGElement svgElement) {
+	public void extractTexts(AbstractCMElement svgElement) {
 		if (svgElement != null) {
 			originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
 			originalTextList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
+			formatCoordinates(originalTextList, coordinateDecimalPlaces);
 			if (useCompactOutput) {
 				createCompactedTextsAndReplace();
+			}
+		}
+	}
+
+	public static void formatCoordinates(List<SVGText> textList, int decimalPlaces) {
+		if (textList != null) {
+			for (int i = 0; i < textList.size(); i++) {
+				SVGText text = textList.get(i);
+				text.format(decimalPlaces);
 			}
 		}
 	}
@@ -99,8 +117,8 @@ public class TextCache extends AbstractCache {
 		return getOrCreateOriginalTextList();
 	}
 
-	public SVGElement debug(String outFilename) {
-		SVGElement g = new SVGG();
+	public AbstractCMElement debug(String outFilename) {
+		AbstractCMElement g = new SVGG();
 //		// derived
 //		appendDebugToG(g, originalTextList,"yellow",  "black", 0.3, 10.0, "Helvetica");
 //		appendDebugToG(g, nonNegativeYTextList, "red", "black", 0.3, 12.0, "serif");
@@ -111,8 +129,8 @@ public class TextCache extends AbstractCache {
 		return g;
 	}
 
-	private void appendDebugToG(SVGElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity, double fontSize, String fontFamily) {
-		for (SVGElement e : elementList) {
+	private void appendDebugToG(AbstractCMElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity, double fontSize, String fontFamily) {
+		for (AbstractCMElement e : elementList) {
 			SVGText text = (SVGText) e.copy();
 			text.setCSSStyleAndRemoveOldStyle(null);
 			text.setStroke(stroke);
@@ -148,7 +166,7 @@ public class TextCache extends AbstractCache {
 		}
 	}
 
-	private void addAnnotationRect(SVGElement g, SVGText text) {
+	private void addAnnotationRect(AbstractCMElement g, SVGText text) {
 		Real2Range box = text.getBoundingBox();
 		SVGRect box0 = SVGElement.createGraphicalBox(box, 0.0, 0.0);
 		box0.setStrokeWidth(0.1);
@@ -200,10 +218,6 @@ public class TextCache extends AbstractCache {
 		return verticalTextStyleMultiset;
 	}
 	
-//	public Multiset<String> getVerticalTextStyles() {
-//		return getTextStyleMultiset(verticalTexts);
-//	}
-
 	private Multiset<String> getTextStyleMultiset(List<SVGText> texts) {
 		Multiset<String> styleSet = HashMultiset.create();
 		for (SVGText text : texts) {
@@ -312,7 +326,7 @@ public class TextCache extends AbstractCache {
 	 * 
 	 * @return
 	 */
-	public SVGElement createColoredTextStyles() {
+	public AbstractCMElement createColoredTextStyles() {
 		return createColoredTextStyles(ComponentCache.MAJOR_COLORS);
 	}
 
@@ -322,13 +336,13 @@ public class TextCache extends AbstractCache {
 	 * @param color
 	 * @return
 	 */
-	public SVGElement createColoredTextStyles(String[] color) {
+	public AbstractCMElement createColoredTextStyles(String[] color) {
 		List<SVGText> horTexts = getOrCreateOriginalTextList();
 		Multiset<String> horizontalStyleSet = getOrCreateHorizontalTextStyleMultiset();
 		createAttributeFactoryLists(horizontalStyleSet);
 		createMainAndDerivativeFactpryLists();
 		linkDerivativeToMainStyles(mainStyleAttributeFactoryList, derivativeStyleAttributeFactoryList);
-		SVGElement g = createAnnotatedTextArea(color, horTexts, sortedHorizontalStyles);
+		AbstractCMElement g = createAnnotatedTextArea(color, horTexts, sortedHorizontalStyles);
 		return g;
 	}
 
@@ -368,9 +382,9 @@ public class TextCache extends AbstractCache {
 		}
 	}
 
-	private SVGElement createAnnotatedTextArea(String[] color, List<SVGText> horTexts,
+	private AbstractCMElement createAnnotatedTextArea(String[] color, List<SVGText> horTexts,
 			List<Multiset.Entry<String>> sortedHorizontalStyles) {
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		for (SVGText horText : horTexts) {
 			String style = horText.getStyle();
 			for (int i = 0; i < sortedHorizontalStyles.size(); i++) {
@@ -537,6 +551,55 @@ public class TextCache extends AbstractCache {
 			g.appendChild(gg);
 		}
 		return g;
+	}
+
+	public Multimap<Double, SVGText> getOrCreateHorizontalTextsByYCoordinate() {
+		if (horizontalTextsByYCoordinate == null) {
+			horizontalTextsByYCoordinate = ArrayListMultimap.create();
+			getOrCreateCurrentTextList();
+			for (SVGText text : horizontalTexts) {
+				Double y = text.getY();
+				horizontalTextsByYCoordinate.put(y, text);
+			}
+		}
+		return horizontalTextsByYCoordinate;
+	}
+
+	public Multimap<Double, SVGText> getOrCreateHorizontalTextsByFontSize() {
+		if (horizontalTextsByFontSize == null) {
+			horizontalTextsByFontSize = ArrayListMultimap.create();
+			getOrCreateCurrentTextList();
+			for (SVGText text : horizontalTexts) {
+				Double y = text.getFontSize();
+				horizontalTextsByFontSize.put(y, text);
+			}
+		}
+		return horizontalTextsByFontSize;
+	}
+
+	public List<SVGTextLine> getTextLinesForFontSize(Double largestFont) {
+		List<SVGTextLine> textLineList = new ArrayList<SVGTextLine>();
+		Multimap<Double, SVGText> textByYCoord = getOrCreateHorizontalTextsByYCoordinate();
+		List<Double> yCoords =  new ArrayList<Double>(textByYCoord.keySet());
+		Collections.sort(yCoords);
+		for (Double y : yCoords) {
+			List<SVGText> lineTexts = new ArrayList<SVGText>(textByYCoord.get(y));
+			LOG.trace(lineTexts);
+			SVGTextLine textLine = new SVGTextLine(lineTexts);
+			if (largestFont.equals(textLine.getOrCreateCommonFontSize())) {
+				textLineList.add(textLine);
+				LOG.trace("ADD "+textLine);
+			}
+		}
+		return textLineList;
+	}
+
+	public int getCoordinateDecimalPlaces() {
+		return coordinateDecimalPlaces;
+	}
+
+	public void setCoordinateDecimalPlaces(int decimalPlaces) {
+		this.coordinateDecimalPlaces = decimalPlaces;
 	}
 
 	

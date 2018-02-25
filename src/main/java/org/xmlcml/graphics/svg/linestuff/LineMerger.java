@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -64,7 +65,7 @@ public class LineMerger extends ElementMerger {
 	public void setMethod(MergeMethod method) {
 		this.method = method;
 	}
-	public SVGElement createNewElement(SVGElement line1x) {
+	public SVGElement createNewElement(AbstractCMElement line1x) {
 		if (line1x == null) {
 			throw new RuntimeException("null line1");
 		}
@@ -75,7 +76,7 @@ public class LineMerger extends ElementMerger {
 		return result;
 	}
 
-	private SVGLine mergeLineLine(SVGElement line1x, MergeMethod method) {
+	private SVGLine mergeLineLine(AbstractCMElement line1x, MergeMethod method) {
 		SVGLine line0 = (SVGLine) elem0;
 		SVGLine line1 = (SVGLine) line1x;
 		
@@ -179,7 +180,7 @@ public class LineMerger extends ElementMerger {
 					continue;
 				}
 				List<SVGElement> neighbours = neighbourhood.getNeighbourList();
-				for (SVGElement neighbour : neighbours) {
+				for (AbstractCMElement neighbour : neighbours) {
 					if (neighbour instanceof SVGLine) {
 						oldElem = (SVGLine) neighbour;
 						newElem = lineMerger.createNewElement(oldElem);

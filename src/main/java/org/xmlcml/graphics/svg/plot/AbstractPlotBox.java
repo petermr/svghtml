@@ -14,6 +14,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -152,7 +153,7 @@ public abstract class AbstractPlotBox {
 		if (inputStream == null) {
 			throw new RuntimeException("Null input stream");
 		}
-		SVGElement svgElement = SVGUtil.parseToSVGElement(inputStream);
+		AbstractCMElement svgElement = SVGUtil.parseToSVGElement(inputStream);
 		if (svgElement == null) {
 			throw new RuntimeException("Null svgElement");
 		}
@@ -179,7 +180,7 @@ public abstract class AbstractPlotBox {
 		}
 	}
 
-	protected abstract void readAndCreateCSVPlot(SVGElement svgElement);
+	protected abstract void readAndCreateCSVPlot(AbstractCMElement svgElement);
 
 	protected void extractDataScreenPoints() {
 		// TODO Auto-generated method stub
@@ -226,7 +227,7 @@ public abstract class AbstractPlotBox {
 		}
 	}
 
-	private SVGElement copyAnnotatedAxes() {
+	private AbstractCMElement copyAnnotatedAxes() {
 		SVGG g = new SVGG();
 		g.setClassName("plotBox");
 		for (AnnotatedAxis axis : axisArray) {
@@ -291,7 +292,7 @@ public abstract class AbstractPlotBox {
 		this.csvOutFile = csvOutFile;
 	}
 
-	public void readAndStructureFigures(SVGElement svgElement) {
+	public void readAndStructureFigures(AbstractCMElement svgElement) {
 		List<SVGElement> textElements = SVGUtil.getQuerySVGElements(svgElement, ".//*[local-name()='text']");
 		List<SVGText> texts = SVGText.extractTexts(textElements);
 		LOG.debug("texts "+texts.size());

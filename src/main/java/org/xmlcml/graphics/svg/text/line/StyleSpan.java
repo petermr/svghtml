@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlB;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlI;

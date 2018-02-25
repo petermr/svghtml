@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -124,7 +125,7 @@ public class SVGContentBox extends SVGG {
 		return s;
 	}
 		
-	public SVGElement getOrCreateSVGElement() {
+	public AbstractCMElement getOrCreateSVGElement() {
 		if (svgElement == null) {
 			svgElement = new SVGG();
 			svgElement.setClassName(CONTENT_BOX);

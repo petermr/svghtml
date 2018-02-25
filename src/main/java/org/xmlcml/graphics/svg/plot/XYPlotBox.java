@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -60,7 +61,7 @@ public class XYPlotBox extends AbstractPlotBox {
 		screenXYs.format(getNdecimal());
 	}
 
-	public void readAndCreateCSVPlot(SVGElement svgElement) {
+	public void readAndCreateCSVPlot(AbstractCMElement svgElement) {
 		componentCache = new ComponentCache(this);
 		componentCache.setFileRoot(fileRoot);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -89,7 +90,7 @@ public class XYPlotBox extends AbstractPlotBox {
 	
 	// static methods
 	
-	public void readAndStructureFigures(SVGElement svgElement) {
+	public void readAndStructureFigures(AbstractCMElement svgElement) {
 		List<SVGElement> textElements = SVGUtil.getQuerySVGElements(svgElement, ".//*[local-name()='text']");
 		List<SVGText> texts = SVGText.extractTexts(textElements);
 		LOG.debug("texts "+texts.size());

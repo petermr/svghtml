@@ -8,6 +8,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class SVGLineList extends SVGG implements Iterable<SVGLine> {
 	
@@ -40,7 +41,7 @@ public class SVGLineList extends SVGG implements Iterable<SVGLine> {
 	 */
 	public static SVGLineList createLineList(List<SVGElement> elements) {
 		SVGLineList lineList = new SVGLineList();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGLine) {
 				lineList.add((SVGLine) element);
 			}

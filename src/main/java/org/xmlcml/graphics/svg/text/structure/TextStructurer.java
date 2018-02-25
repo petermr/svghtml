@@ -22,8 +22,8 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlElement;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -789,7 +789,7 @@ public class TextStructurer {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGText> createNormalizedCharacters(SVGElement svgElement) {
+	public static List<SVGText> createNormalizedCharacters(AbstractCMElement svgElement) {
 		SVGDefs.removeDefs(svgElement);
 		List<SVGText> textCharacters = SVGText.extractSelfAndDescendantTexts(svgElement);
 		boolean normalized = TextUtil.normalize(textCharacters, NORMALIZE_FORM);
@@ -1399,7 +1399,7 @@ public class TextStructurer {
 	 * Detach every character in rawCharacters.
 	 */
 	public void detachCharacters() {
-		for (SVGElement character : rawCharacters) {
+		for (AbstractCMElement character : rawCharacters) {
 			character.detach();
 		}
 	}
@@ -1611,7 +1611,7 @@ public class TextStructurer {
 		return g;
 	}
 
-	public SVGElement createChunkFromVerticalText(Angle angle) {
+	public SVGG createChunkFromVerticalText(Angle angle) {
 		Real2 centre = svgChunk.getCentreForClockwise90Rotation();
 		return createChunkFromVerticalText(centre, angle);
 	}

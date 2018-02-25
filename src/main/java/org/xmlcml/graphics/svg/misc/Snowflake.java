@@ -9,6 +9,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -38,13 +39,13 @@ public class Snowflake {
 		SVGG g = new SVGG();
 		g.setTransform(new Transform2(new Vector2(scale * 0.5, scale * 0.5)));
 		for (int i = 0; i < 3; i++) {
-			SVGElement edge = createEdge(level, points[i], points[(i + 1) % 3]);
+			AbstractCMElement edge = createEdge(level, points[i], points[(i + 1) % 3]);
 			g.appendChild(edge);
 		}
 		return g;
 	}
 	
-	public SVGElement createEdge(int level, Real2 start, Real2 end) {
+	public AbstractCMElement createEdge(int level, Real2 start, Real2 end) {
 		
 		SVGElement element = null;
 		if (level == 0) {

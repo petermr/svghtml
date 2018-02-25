@@ -29,6 +29,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
@@ -139,7 +140,7 @@ public class SVGPolyline extends SVGPoly {
 	 * @param element
 	 * @return
 	 */
-	public static SVGPoly getOrCreatePolyline(SVGElement element) {
+	public static SVGPoly getOrCreatePolyline(AbstractCMElement element) {
 		SVGPoly polyline = null;
 		if (element instanceof SVGLine) {
 			polyline = new SVGPolyline((SVGLine) element);
@@ -170,7 +171,7 @@ public class SVGPolyline extends SVGPoly {
 	 * @param element
 	 * @return
 	 */
-	public static SVGPoly createPolyline(SVGElement element) {
+	public static SVGPoly createPolyline(AbstractCMElement element) {
 		SVGPoly polyline = null;
 		if (element instanceof SVGLine) {
 			polyline = new SVGPolyline((SVGLine) element);
@@ -523,7 +524,7 @@ public class SVGPolyline extends SVGPoly {
 	 */
 	public static List<SVGPolyline> extractPolylines(List<? extends SVGElement> elements) {
 		List<SVGPolyline> polylineList = new ArrayList<SVGPolyline>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGPolyline) {
 				polylineList.add((SVGPolyline) element);
 			}
@@ -537,7 +538,7 @@ public class SVGPolyline extends SVGPoly {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGPolyline> extractSelfAndDescendantPolylines(SVGElement svgElement) {
+	public static List<SVGPolyline> extractSelfAndDescendantPolylines(AbstractCMElement svgElement) {
 		return SVGPolyline.extractPolylines(SVGUtil.getQuerySVGElements(svgElement, ALL_POLYLINE_XPATH));
 	}
 

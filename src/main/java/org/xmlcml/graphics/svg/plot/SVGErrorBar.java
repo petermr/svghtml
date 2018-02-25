@@ -3,7 +3,7 @@ package org.xmlcml.graphics.svg.plot;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Vector2;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 
@@ -100,8 +100,8 @@ public class SVGErrorBar extends SVGG {
 		return sb.toString();
 	}
 
-	public SVGElement createSVGElement() {
-		SVGElement g = new SVGG();
+	public AbstractCMElement createSVGElement() {
+		AbstractCMElement g = new SVGG();
 		if (line != null) {
 			g.appendChild(line);
 		}

@@ -13,6 +13,7 @@ import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGEllipse;
@@ -1049,7 +1050,7 @@ public class Path2ShapeConverter {
 	 * // FIXME - don't think we have to work on lists of Paths
 	 * @param svgElement
 	 */
-	public List<SVGShape> convertPathsToShapes(SVGElement svgElement) {
+	public List<SVGShape> convertPathsToShapes(AbstractCMElement svgElement) {
 		List<SVGPath> pathList = SVGPath.extractPaths(svgElement);
 		List<List<SVGShape>> shapeListList = convertPathsToShapesAndSplitAtMoves(pathList);
 		replaceEachPathWithShapesOrPaths(shapeListList, pathList);

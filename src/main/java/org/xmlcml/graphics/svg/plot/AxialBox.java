@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -121,10 +122,10 @@ public class AxialBox {
 		return bbox;
 	}
 
-	public SVGElement createSVGElement() {
+	public AbstractCMElement createSVGElement() {
 		SVGG g = new SVGG();
 		g.setClassName("axialBox");
-		for (SVGElement element : containedGraphicalElements) {
+		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}
 		addAnnotatedBox(g, captureBox, "yellow");
@@ -132,7 +133,7 @@ public class AxialBox {
 		return g;
 	}
 
-	private void addAnnotatedBox(SVGElement g, Real2Range bbox, String color) {
+	private void addAnnotatedBox(AbstractCMElement g, Real2Range bbox, String color) {
 		if (bbox != null && bbox.isValid()) {
 			SVGRect rect = SVGRect.createFromReal2Range(bbox);
 			rect.setStrokeWidth(0.2);

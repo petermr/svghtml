@@ -7,6 +7,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGUtil;
@@ -45,18 +46,18 @@ public class PageLayout {
 	public static final String DEFAULT = LAYOUT+"/default/";
 	
 
-	private SVGElement layoutElement;
+	private AbstractCMElement layoutElement;
 	private static PageLayout defaultPageLayout;
 	private Real2Range mediaBox;
 
 	public PageLayout() {
 	}
 	
-	public PageLayout(SVGElement layout) {
+	public PageLayout(AbstractCMElement layout) {
 		this.setLayout(layout);
 	}
 
-	public void setLayout(SVGElement layout) {
+	public void setLayout(AbstractCMElement layout) {
 		this.layoutElement = layout;
 	}
 
@@ -104,7 +105,7 @@ public class PageLayout {
 	public static PageLayout readPageLayoutFromStream(InputStream is) {
 		PageLayout pageLayout = null;
 		if (is != null) {
-			SVGElement layoutElement = (SVGElement) SVGElement.readAndCreateSVG(is);
+			AbstractCMElement layoutElement = (AbstractCMElement) SVGElement.readAndCreateSVG(is);
 			pageLayout = new PageLayout(layoutElement);
 		}
 		return pageLayout;

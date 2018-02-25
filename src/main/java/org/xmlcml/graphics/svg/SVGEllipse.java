@@ -27,6 +27,7 @@ import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.path.PathPrimitiveList;
 
 import nu.xom.Attribute;
@@ -278,7 +279,7 @@ public class SVGEllipse extends SVGShape {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGEllipse> extractSelfAndDescendantEllipses(SVGElement svgElement) {
+	public static List<SVGEllipse> extractSelfAndDescendantEllipses(AbstractCMElement svgElement) {
 		return SVGEllipse.extractEllipses(SVGUtil.getQuerySVGElements(svgElement, ALL_ELLIPSE_XPATH));
 	}
 
@@ -289,7 +290,7 @@ public class SVGEllipse extends SVGShape {
 	 */
 	public static List<SVGEllipse> extractEllipses(List<SVGElement> elements) {
 		List<SVGEllipse> ellipseList = new ArrayList<SVGEllipse>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGEllipse) {
 				ellipseList.add((SVGEllipse) element);
 			}

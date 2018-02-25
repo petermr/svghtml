@@ -26,6 +26,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.text.SVGWordPage;
 import org.xmlcml.graphics.svg.text.SVGWordPageList;
 import org.xmlcml.xml.XMLConstants;
@@ -116,7 +117,7 @@ public class SVGSVG extends SVGElement {
 	public static SVGSVG wrapAndWriteAsSVG(List<? extends SVGElement> svgList, File file) {
 		SVGG g = new SVGG();
 		if (svgList != null) {
-			for (SVGElement element : svgList) {
+			for (AbstractCMElement element : svgList) {
 				g.appendChild(element.copy());
 			}
 		}
@@ -149,7 +150,7 @@ public class SVGSVG extends SVGElement {
 	 * @param width
 	 * @return
 	 */
-	public static SVGSVG wrapAndWriteAsSVG(SVGElement svgg, File file, double width, double height) {
+	public static SVGSVG wrapAndWriteAsSVG(AbstractCMElement svgg, File file, double width, double height) {
 		SVGSVG svgsvg = svgg instanceof SVGSVG ? (SVGSVG) svgg : new SVGSVG();
 		if (svgg != null) {
 			svgsvg = wrapAsSVG(svgg);
@@ -165,7 +166,7 @@ public class SVGSVG extends SVGElement {
 		return svgsvg;
 	}
 
-	public static SVGSVG wrapAsSVG(SVGElement svgg) {
+	public static SVGSVG wrapAsSVG(AbstractCMElement svgg) {
 		SVGSVG svgsvg = null;
 		if (svgg != null) {
 			if (svgg.getParent() != null) {
@@ -210,8 +211,8 @@ public class SVGSVG extends SVGElement {
 	 * this can be used to set scales, rendering, etc.
 	 * @param element to amend (is changed)
 	 */
-	public static SVGElement interposeGBetweenChildren(SVGElement element) {
-		SVGElement g = new SVGG();
+	public static AbstractCMElement interposeGBetweenChildren(AbstractCMElement element) {
+		AbstractCMElement g = new SVGG();
 		element.appendChild(g);
 		while (element.getChildCount() > 1) {
 			Node child = element.getChild(0);

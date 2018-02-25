@@ -22,6 +22,7 @@ import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.html.HtmlUl;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.rule.horizontal.LineChunk;
+import org.xmlcml.xml.XMLConstants;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
@@ -320,7 +321,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 	}
 	
 	public HtmlElement toHtml() {
-		HtmlElement div = new HtmlDiv();
+		HtmlDiv div = new HtmlDiv();
 		createParaSpacingTrigger();
 		PhraseChunk lastPhraseList = null;
 		HtmlP p = new HtmlP();
@@ -383,7 +384,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 		return ySpacings;
 	}
 
-	public HtmlElement toHtmlUL() {
+	public HtmlUl toHtmlUL() {
 		HtmlUl ul = new HtmlUl();
 		for (PhraseChunk phraseChunk : this) {
 			HtmlLi li = new HtmlLi();

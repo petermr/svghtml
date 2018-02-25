@@ -36,6 +36,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealArray.Monotonicity;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.path.PathPrimitiveList;
 
 import nu.xom.Attribute;
@@ -554,7 +555,7 @@ public abstract class SVGPoly extends SVGShape {
 		return isAligned;
 	}
 
-	public static void replacePolyLinesBySplitLines(SVGElement svgElement) {
+	public static void replacePolyLinesBySplitLines(AbstractCMElement svgElement) {
 		List<SVGPolyline> polylineList = SVGPolyline.extractSelfAndDescendantPolylines(svgElement);
 		for (SVGPoly polyline : polylineList) {
 			SVGPolyline.replacePolyLineBySplitLines(polyline);

@@ -16,15 +16,13 @@
 
 package org.xmlcml.graphics.svg;
 
-import org.xmlcml.xml.XMLConstants;
-
 /** superclass for graphics operations
  * allows (hopefully) rerouting to Java, SVG, etc.
  * experimental
  * @author pm286
  *
  */
-public class GraphicsTool implements XMLConstants {
+public class GraphicsTool {
 
 	SVGSVG svg;
 	
@@ -34,6 +32,9 @@ public class GraphicsTool implements XMLConstants {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+
+	protected void removeAttributeWithName(String name) {
 	}
 
 }

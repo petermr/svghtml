@@ -12,6 +12,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -233,7 +234,7 @@ public class Axis {
 	 * @param boxThickness
 	 * @param boxLengthExtension
 	 */
-	public List<SVGText> extractText(SVGElement container) {
+	public List<SVGText> extractText(AbstractCMElement container) {
 		if (LineOrientation.HORIZONTAL.equals(lineOrientation)) {
 			return extractHorizontalAxisText(container, Direction.BELOW); // below to start with
 		} else if (LineOrientation.VERTICAL.equals(lineOrientation)) {
@@ -243,7 +244,7 @@ public class Axis {
 		}
 	}
 
-	private List<SVGText> extractHorizontalAxisText(SVGElement container, Direction direction) {
+	private List<SVGText> extractHorizontalAxisText(AbstractCMElement container, Direction direction) {
 		Real2Range bbox = complexLine.getBoundingBoxWithoutJoints();
 		LOG.trace(bbox);
 		Real2Range bboxExt = bbox.getReal2RangeExtendedInX((double)X_SIDE, (double)X_SIDE);
@@ -256,7 +257,7 @@ public class Axis {
 		return textList;
 	}
 
-	private List<SVGText> extractVerticalAxisText(SVGElement container, Direction direction) {
+	private List<SVGText> extractVerticalAxisText(AbstractCMElement container, Direction direction) {
 		Real2Range bbox = complexLine.getBoundingBoxWithoutJoints();
 		LOG.trace(bbox);
 		Real2Range bboxExt = bbox.getReal2RangeExtendedInY((double)Y_SIDE, (double)Y_SIDE);
@@ -277,7 +278,7 @@ public class Axis {
 	 * @param boxLengthExtension
 	 */
 	@Deprecated // because it relies on TSpans
-	public void processScaleValuesAndTitles(SVGElement container) {
+	public void processScaleValuesAndTitles(AbstractCMElement container) {
 		texts = SVGUtil.getQuerySVGElements(container, ".//svg:text");
 		countTSpanChildren("ALL ", texts);
 		Real2Range textBox = getTextBox(complexLine.getBackbone());
@@ -290,7 +291,7 @@ public class Axis {
 		if (LineOrientation.HORIZONTAL.equals(lineOrientation)) {
 			List<SVGText> horizontalTexts = getTexts(boundedTexts, LineOrientation.HORIZONTAL);
 			countTSpanChildren("HOR ", horizontalTexts);
-			for (SVGElement horizontalText : horizontalTexts) {
+			for (AbstractCMElement horizontalText : horizontalTexts) {
 				LOG.trace("HOR TEXT"+horizontalText);
 			}
 			analyzeHorizontalAxis(horizontalTexts);
@@ -315,7 +316,7 @@ public class Axis {
 	 * @param boxThickness
 	 * @param boxLengthExtension
 	 */
-	public void processScaleValuesAndTitlesNew(SVGElement g) {
+	public void processScaleValuesAndTitlesNew(AbstractCMElement g) {
 		throw new RuntimeException("MUST REWRITE");
 //		List<SVGText> textList = extractText(g);
 //		TextStructurer textStructurer = new TextStructurer(textList);
@@ -340,7 +341,7 @@ public class Axis {
 
 	private void countTSpanChildren(String msg, List<? extends SVGElement> texts) {
 		int tspanCount = 0;
-		for (SVGElement text : texts) {
+		for (AbstractCMElement text : texts) {
 			tspanCount += ((SVGText)text).getChildTSpans().size();
 		}
 		LOG.trace(msg+" TSPANS****************"+tspanCount);
@@ -396,7 +397,7 @@ public class Axis {
 
  */
 		SVGLine backbone = complexLine.getBackbone();
-		SVGElement parent = (SVGElement) backbone.getParent();
+		AbstractCMElement parent = (AbstractCMElement) backbone.getParent();
 		if (parent == null) {
 			throw new RuntimeException("backbone has no parent");
 		}
@@ -418,12 +419,12 @@ public class Axis {
 			axisMark.setStroke("yellow");
 		}
 		List<SVGElement> rects = SVGUtil.getQuerySVGElements(svgg, ".//svg:rect");
-		for (SVGElement rect : rects) {
+		for (AbstractCMElement rect : rects) {
 			rect.detach();
 		}
 	}
 
-	private void groupField(SVGElement svgg, String fieldName, SVGElement field) {
+	private void groupField(AbstractCMElement svgg, String fieldName, SVGElement field) {
 		if (field != null) {
 			field.setClassName(fieldName);
 			field.detach();
@@ -431,7 +432,7 @@ public class Axis {
 		}
 	}
 
-	private void groupFields(SVGElement svgg, String fieldName, List<? extends SVGElement> fields) {
+	private void groupFields(AbstractCMElement svgg, String fieldName, List<? extends SVGElement> fields) {
 		if (fields != null) {
 			for (SVGElement field : fields) {
 				field.setClassName(fieldName);
@@ -447,7 +448,7 @@ public class Axis {
 //		svgg.appendChild(backbone);
 //	}
 
-	private void groupTickJoints(SVGElement svgg, String tickType, List<Joint> tickList) {
+	private void groupTickJoints(AbstractCMElement svgg, String tickType, List<Joint> tickList) {
 		SVGG jointG = new SVGG();
 		jointG.setClassName(tickType);
 		svgg.appendChild(jointG);
@@ -460,12 +461,12 @@ public class Axis {
 
 	private void transformArrayFromPixelsToScale(List<SVGPolyline> polylines) {
 		getOrientation();
-		SVGElement parentSVG = (SVGElement)complexLine.getBackbone().getParent();
+		AbstractCMElement parentSVG = (AbstractCMElement)complexLine.getBackbone().getParent();
 		if (parentSVG == null) {
 			LOG.trace("NULL SVG PARENT");
 		} else {
 			ensureTickmarks();
-			SVGElement parent = (SVGElement) parentSVG.getParent();
+			AbstractCMElement parent = (AbstractCMElement) parentSVG.getParent();
 			for (SVGPoly polyline : polylines) {
 				Real2Array polylineCoords = polyline.getReal2Array();
 				RealArray polylineAxisPixelCoords = (LineOrientation.HORIZONTAL.equals(lineOrientation)) ?

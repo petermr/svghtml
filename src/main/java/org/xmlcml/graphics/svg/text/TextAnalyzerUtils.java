@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
@@ -102,12 +103,12 @@ public class TextAnalyzerUtils {
 //		return svgText;
 //	}
 
-	private static SVGElement findSingleSVGText(List<SVGElement> gList) {
-		SVGElement svgText = null;
-		SVGElement gName = (SVGElement) gList.get(0);
+	private static AbstractCMElement findSingleSVGText(List<SVGElement> gList) {
+		AbstractCMElement svgText = null;
+		AbstractCMElement gName = (AbstractCMElement) gList.get(0);
 		List<SVGElement> texts = SVGUtil.getQuerySVGElements(gName, "./svg:text");
 		if (texts.size() == 1) {
-			svgText = (SVGElement) texts.get(0);
+			svgText = (AbstractCMElement) texts.get(0);
 		}
 		return svgText;
 	}

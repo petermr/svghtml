@@ -1,6 +1,6 @@
 package org.xmlcml.graphics.svg.text.structure;
 
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 
 /** placeholder from svg2xml
  * 
@@ -9,9 +9,9 @@ import org.xmlcml.graphics.svg.SVGElement;
  */
 public class PageAnalyzer {
 
-	private SVGElement svgElement;
+	private AbstractCMElement svgElement;
 
-	public PageAnalyzer(SVGElement svgElement) {
+	public PageAnalyzer(AbstractCMElement svgElement) {
 		this.svgElement = svgElement;
 	}
 

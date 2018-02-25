@@ -672,4 +672,7 @@ public class StyleBundle implements XMLConstants {
 		return newFontName;
 	}
 
+	protected void removeAttributeWithName(String name) {
+	}
+
 }

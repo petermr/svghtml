@@ -13,6 +13,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -106,12 +107,12 @@ public class GraphUtil {
 		return ss;
 	}
 
-	public static void debugTextXML(SVGElement textChunk, int length) {
+	public static void debugTextXML(AbstractCMElement textChunk, int length) {
 		String s = textChunk.toXML();
 		LOG.debug(s.substring(0, Math.min(s.length(), length)));
 	}
 
-	public static void debugTextValue(SVGElement textChunk, int length) {
+	public static void debugTextValue(AbstractCMElement textChunk, int length) {
 		String s = textChunk.getValue();
 		LOG.debug(s.substring(0, Math.min(s.length(), length)));
 	}
@@ -124,7 +125,7 @@ public class GraphUtil {
 		}
 	}
 
-	public static Nodes query(SVGElement svgElement, String xpath) {
+	public static Nodes query(AbstractCMElement svgElement, String xpath) {
 		Nodes nodes = null;
 		try {
 			nodes = svgElement.query(xpath, XMLConstants.SVG_XPATH);
@@ -134,7 +135,7 @@ public class GraphUtil {
 		return nodes;
 	}
 	
-	public static SVGElement readAndCreateSVGFromFile(String filename) {
+	public static AbstractCMElement readAndCreateSVGFromFile(String filename) {
 		Element element = readAndCreateElement(filename);
 		return SVGElement.readAndCreateSVG(element);
 	}

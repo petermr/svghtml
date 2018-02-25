@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -29,7 +29,7 @@ public class SVGDiagram extends SVGG {
 	protected List<SVGText> svgTextList;
 	protected List<SVGTextBox> textBoxList;
 	protected List<List<SVGShape>> shapeListList;
-	protected SVGElement newG;
+	protected AbstractCMElement newG;
 	protected List<SVGTriangle> triangleList;
 	protected List<SVGLine> lineList;
 	protected List<SVGArrow> arrowList;
@@ -39,7 +39,7 @@ public class SVGDiagram extends SVGG {
 	protected List<SVGPath> pathList;
 	protected List<SVGPolyline> polylineList;
 	protected List<SVGRoundedBox> roundedBoxList;
-	protected SVGElement rawDiagram;
+	protected AbstractCMElement rawDiagram;
 
 	public SVGDiagram() {
 		super();
@@ -261,7 +261,7 @@ public class SVGDiagram extends SVGG {
 		return connectorList;
 	}
 
-	public SVGElement getNewG() {
+	public AbstractCMElement getNewG() {
 		return newG;
 	}
 
@@ -335,7 +335,7 @@ public class SVGDiagram extends SVGG {
 		return roundedBoxList;
 	}
 
-	public SVGElement getRawDiagram() {
+	public AbstractCMElement getRawDiagram() {
 		return rawDiagram;
 	}
 

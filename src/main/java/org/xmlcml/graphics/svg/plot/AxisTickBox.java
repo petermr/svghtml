@@ -33,6 +33,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -271,10 +272,10 @@ public class AxisTickBox extends AxialBox {
 		return added;
 	}
 
-	public SVGElement createSVGElement() {
+	public AbstractCMElement createSVGElement() {
 		SVGG g = (SVGG) super.createSVGElement();
 		g.setClassName("axisTickBox");
-		for (SVGElement element : containedGraphicalElements) {
+		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}
 		return g;

@@ -30,6 +30,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -279,7 +280,7 @@ public class SVGCircle extends SVGShape {
 	 */
 	public static List<SVGCircle> extractCircles(List<SVGElement> elements) {
 		List<SVGCircle> circleList = new ArrayList<SVGCircle>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGCircle) {
 				circleList.add((SVGCircle) element);
 			}
@@ -292,7 +293,7 @@ public class SVGCircle extends SVGShape {
 		return getAttributeValue(CX)+" "+getAttributeValue(CY)+" "+getAttributeValue(R);
 	}
 
-	public static List<SVGCircle> extractSelfAndDescendantCircles(SVGElement element) {
+	public static List<SVGCircle> extractSelfAndDescendantCircles(AbstractCMElement element) {
 		return SVGCircle.extractCircles(SVGUtil.getQuerySVGElements(element, ALL_CIRCLE_XPATH));
 	}
 
@@ -325,9 +326,9 @@ public class SVGCircle extends SVGShape {
 	 * @param nsteps
 	 * @return
 	 */
-	public static SVGElement createCircleArc(Real2 centre, double radius, Angle start, Angle end/*, int nsteps*/) {
+	public static AbstractCMElement createCircleArc(Real2 centre, double radius, Angle start, Angle end/*, int nsteps*/) {
 		double PI4 = Math.PI / 4.0;
-		SVGElement arc = new SVGG();
+		AbstractCMElement arc = new SVGG();
 		return arc;
 		
 	}

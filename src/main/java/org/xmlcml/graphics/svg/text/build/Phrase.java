@@ -358,7 +358,7 @@ public class Phrase extends LineChunk implements Iterable<Word> {
 	}
 
 	private HtmlElement addStyledWord(HtmlSpan phraseSpan, Word word) {
-		HtmlElement wordSpan = new HtmlSpan();
+		HtmlSpan wordSpan = new HtmlSpan();
 		phraseSpan.appendChild(wordSpan);
 		addStyles(word, wordSpan);
 		return wordSpan;

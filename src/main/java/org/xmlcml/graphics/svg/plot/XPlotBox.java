@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGPolyline;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -40,7 +41,7 @@ public class XPlotBox extends AbstractPlotBox {
 		setDefaults();
 	}
 	
-	public void readAndCreateBarPlot(SVGElement svgElement) {
+	public void readAndCreateBarPlot(AbstractCMElement svgElement) {
 		componentCache = new ComponentCache(this);
 		componentCache.setFileRoot(fileRoot);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -112,7 +113,7 @@ public class XPlotBox extends AbstractPlotBox {
 		screenYs.format(getNdecimal());
 	}
 
-	public void readAndCreateCSVPlot(SVGElement svgElement) {
+	public void readAndCreateCSVPlot(AbstractCMElement svgElement) {
 		componentCache = new ComponentCache(this);
 		componentCache.setFileRoot(fileRoot);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);

@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -60,7 +61,7 @@ public class PathCache extends AbstractCache{
 	 * currently simply extracts paths without splitting, etc.
 	 * @param svgElement
 	 */
-	public void extractPaths(SVGElement svgElement) {
+	public void extractPaths(AbstractCMElement svgElement) {
 		this.originalPathList = SVGPath.extractPaths(svgElement);
 		SVGPath.addSignatures(originalPathList);
 		positiveBoxPathList = new ArrayList<SVGPath>(originalPathList);
@@ -82,7 +83,7 @@ public class PathCache extends AbstractCache{
 		pathBoxColor = "orange";
 	}
 
-	public SVGElement analyzePaths(List<SVGPath> pathList) {
+	public AbstractCMElement analyzePaths(List<SVGPath> pathList) {
 		this.pathList = pathList;
 		SVGG g = new SVGG();
 		g.setClassName("paths");
@@ -93,17 +94,17 @@ public class PathCache extends AbstractCache{
 	}
 	
 	private void annotatePathsAsGlyphsWithSignatures() {
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		createCharBySig();
-		SVGElement gg = annotatePaths();
+		AbstractCMElement gg = annotatePaths();
 		g.appendChild(gg);
 		Iterable<Entry<String>> iterable = MultisetUtil.getEntriesSortedByCount(sigSet);
 		List<Entry<String>> list = MultisetUtil.createStringEntryList(iterable);
-		SVGElement ggg = annotatePathsWithSignatures();
+		AbstractCMElement ggg = annotatePathsWithSignatures();
 		g.appendChild(ggg);
 	}
 	
-	private SVGElement annotatePathsWithSignatures() {
+	private AbstractCMElement annotatePathsWithSignatures() {
 		SVGG g = new SVGG();
 		g.setClassName("annotateAsGlyphs");
 		for (String sig : pathBySig.keySet()) {
@@ -119,8 +120,8 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 	
-	private SVGElement annotatePaths() {
-		SVGElement g = new SVGG();
+	private AbstractCMElement annotatePaths() {
+		AbstractCMElement g = new SVGG();
 		sigSet = HashMultiset.create();
 		pathBySig = new HashMap<String, SVGPath>();
 		for (SVGPath path : pathList) {
@@ -149,7 +150,7 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 
-	public SVGElement createSVGAnnotation() {
+	public AbstractCMElement createSVGAnnotation() {
 		SVGG g = new SVGG();
 		
 		g.setClassName("pathAnnotation NYI");
@@ -204,7 +205,7 @@ public class PathCache extends AbstractCache{
 		return originalPathList;
 	}
 
-	public SVGElement debugToSVG(String outFilename) {
+	public AbstractCMElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 		debug(g, originalPathList, "black", "yellow", 0.3);
 		debug(g, positiveBoxPathList, "black", "red", 0.3);
@@ -216,7 +217,7 @@ public class PathCache extends AbstractCache{
 		return g;
 	}
 
-	private void debug(SVGElement g, List<SVGPath> pathList, String stroke, String fill, double opacity) {
+	private void debug(AbstractCMElement g, List<SVGPath> pathList, String stroke, String fill, double opacity) {
 		for (SVGPath p : pathList) {
 			SVGPath path = (SVGPath) p.copy();
 			path.setStroke(stroke);

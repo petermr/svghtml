@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,6 +13,7 @@ import org.xmlcml.euclid.Int2Range;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -24,8 +26,6 @@ import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 
 /** cache of components relevant to a single page.
- * 
- * NYI fully
  * 
  * 
  * @author pm286
@@ -60,7 +60,7 @@ public class PageCache extends ComponentCache {
 	}
 	
 	@Override
-	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
+	public void readGraphicsComponentsAndMakeCaches(AbstractCMElement svgElement) {
 		super.readGraphicsComponentsAndMakeCaches(svgElement);
 		ensurePageComponentCaches();
 	}
@@ -122,11 +122,11 @@ public class PageCache extends ComponentCache {
 		return rightSidebarCache;
 	}
 
-	SVGElement createSummaryBoxes(File svgFile) {
+	AbstractCMElement createSummaryBoxes(File svgFile) {
 		LOG.debug("CREATE SUMMARY BOXES");
 		this.inputSvgFile = svgFile;
 		Multiset<Int2Range> intBoxes1 = HashMultiset.create();
-		SVGElement boxg = this.getStyledBoxes(intBoxes1);
+		AbstractCMElement boxg = this.getStyledBoxes(intBoxes1);
 		getOrCreateExtractedSVGElement().appendChild(boxg);
 		Multiset<Int2Range> intBoxes = intBoxes1;
 		List<Multiset.Entry<Int2Range>> sortedIntBoxes1 = MultisetUtil.createInt2RangeListSortedByCount(intBoxes);
@@ -143,8 +143,8 @@ public class PageCache extends ComponentCache {
 		return boxg;
 	}
 
-	private SVGElement getStyledBoxes(Multiset<Int2Range> intBoxes) {
-		SVGElement g = new SVGG();
+	private AbstractCMElement getStyledBoxes(Multiset<Int2Range> intBoxes) {
+		AbstractCMElement g = new SVGG();
 		if (inputSVGElement != null) {
 			List<SVGText> svgTexts = SVGText.extractSelfAndDescendantTexts(inputSVGElement); 
 			StyleRecordFactory styleRecordFactory = new StyleRecordFactory();
@@ -183,7 +183,7 @@ public class PageCache extends ComponentCache {
 		this.documentCache = documentCache;
 	}
 
-	public SVGElement getOrCreateExtractedSVGElement() {
+	public AbstractCMElement getOrCreateExtractedSVGElement() {
 		if (convertedSVGElement == null) {
 			convertedSVGElement = new SVGG();
 		}
@@ -192,7 +192,7 @@ public class PageCache extends ComponentCache {
 
 	public SuperPixelArray createSuperpixelArray(File outDir, File svgFile) {
 		basename = getBaseName(svgFile);
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		readGraphicsComponentsAndMakeCaches(svgElement);
 		TextCache textCache = getOrCreateTextCache();
 		textCache.createCompactedTextsAndReplace();
@@ -215,7 +215,7 @@ public class PageCache extends ComponentCache {
 		return inputSvgFile;
 	}
 
-	public SVGElement getExtractedSVGElement() {
+	public AbstractCMElement getExtractedSVGElement() {
 		return convertedSVGElement;
 	}
 
@@ -264,9 +264,9 @@ public class PageCache extends ComponentCache {
 		return g;
 	}
 
-	private void addElementAndChildren(SVGElement g, PageComponentCache cache) {
+	private void addElementAndChildren(AbstractCMElement g, PageComponentCache cache) {
 		g.appendChild(cache.getOrCreateConvertedSVGElement().copy());
-		for (SVGElement element : cache.getOrCreateAllElementList()) {
+		for (AbstractCMElement element : cache.getOrCreateAllElementList()) {
 			g.appendChild(element.copy());
 		}
 	}

@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 
@@ -78,7 +78,7 @@ public class ContentBoxGrid {
 	 * 
 	 * @return
 	 */
-	public SVGElement getOrCreateSVGElement() {
+	public AbstractCMElement getOrCreateSVGElement() {
 		SVGG g = new SVGG();
 		g.setClassName(CONTEXT_BOX_GRID);
 		for (Real2Range box : bboxList) {

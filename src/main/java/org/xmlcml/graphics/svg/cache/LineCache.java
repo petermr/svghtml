@@ -12,6 +12,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.RealRange.Direction;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -295,7 +296,7 @@ public class LineCache extends AbstractCache {
 		return hRange;
 	}
 
-	void removeLShapesAndReplaceByLines(List<SVGPolyline> polylineList, SVGPolyline axialLShape, SVGElement svgElement) {
+	void removeLShapesAndReplaceByLines(List<SVGPolyline> polylineList, SVGPolyline axialLShape, AbstractCMElement svgElement) {
 		LOG.trace("replacing LShapes by splitLines");
 		
 		addNewHVLine(axialLShape, svgElement, verticalLines, 1);
@@ -305,7 +306,7 @@ public class LineCache extends AbstractCache {
 		axialLShape.detach();
 	}
 
-	private void addNewHVLine(SVGPolyline axialLShape, SVGElement svgElement, List<SVGLine> hvLineList, int axis) {
+	private void addNewHVLine(SVGPolyline axialLShape, AbstractCMElement svgElement, List<SVGLine> hvLineList, int axis) {
 		SVGLine hvLine = axialLShape.getLineList().get(axis);
 		hvLine.setCSSStyle(axialLShape.getStyle());
 		svgElement.appendChild(hvLine);
@@ -352,7 +353,7 @@ public class LineCache extends AbstractCache {
 	}
 
 	
-	public SVGElement createColoredHorizontalLineStyles() {
+	public AbstractCMElement createColoredHorizontalLineStyles() {
 		return createColoredHorizontalLineStyles(ComponentCache.MAJOR_COLORS);
 	}
 
@@ -361,10 +362,10 @@ public class LineCache extends AbstractCache {
 	 * @param color
 	 * @return
 	 */
-	public SVGElement createColoredHorizontalLineStyles(String[] color) {
+	public AbstractCMElement createColoredHorizontalLineStyles(String[] color) {
 		List<SVGLine> lines = getOrCreateHorizontalLineList();
 		Multiset<Double> lineWidths = getHorizontalLineStrokeWidthSet();
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		if (lineWidths != null) {
 			List<Multiset.Entry<Double>> sortedLineWidths = MultisetUtil.createDoubleListSortedByCount(lineWidths);
 			for (SVGLine line : lines) {

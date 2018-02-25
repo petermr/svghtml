@@ -13,9 +13,9 @@ import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlSpan;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -88,7 +88,7 @@ public class Word extends LineChunk implements Iterable<SVGText> {
 	 * 
 	 * @param svgText
 	 */
-	public static Word createTestWord(SVGElement svgText) {
+	public static Word createTestWord(AbstractCMElement svgText) {
 		Word word = new Word();
 		List<SVGText> textList = new ArrayList<SVGText>();
 		String value = svgText.getValue();
@@ -125,7 +125,7 @@ public class Word extends LineChunk implements Iterable<SVGText> {
 			List<Element> textChildren = XMLUtil.getQueryElements(this, "*[local-name()='"+SVGText.TAG+"']");
 			childTextList = new ArrayList<SVGText>();
 			for (Element child : textChildren) {
-				SVGElement childText = new SVGText(child);
+				AbstractCMElement childText = new SVGText(child);
 				String s = child.getValue();
 				childTextList.add((SVGText)child);
 			}
@@ -496,7 +496,7 @@ public class Word extends LineChunk implements Iterable<SVGText> {
 	public Element copyElement() {
 		getOrCreateChildTextList();
 		Element element = (Element) this.copy();
-		for (SVGElement text : childTextList) {
+		for (AbstractCMElement text : childTextList) {
 			element.appendChild(text.copy());
 		}
 		return element;

@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
@@ -122,13 +123,13 @@ public class TextChunkCache extends AbstractCache {
 		return siblingTextCache;
 	}
 
-	void cleanChunk(SVGElement chunk) {
+	void cleanChunk(AbstractCMElement chunk) {
 		if (omitWhitespace) {
 			detachWhitespaceTexts(chunk);
 		}
 	}
 
-	private void detachWhitespaceTexts(SVGElement chunk) {
+	private void detachWhitespaceTexts(AbstractCMElement chunk) {
 		List<SVGText> spaceList = SVGText.extractSelfAndDescendantTexts(chunk);
 		for (SVGText text : spaceList) {
 			String textS = text.getText();

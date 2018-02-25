@@ -13,6 +13,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -103,7 +104,7 @@ public class GlyphSet {
 	}
 
 	public void createGlyphSetsAndAnalyze(String fileroot, File outputDir, File inputFile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -118,7 +119,7 @@ public class GlyphSet {
 			Entry<String> sigEntry = signatureListSortedByCount.get(i);
 			String sig = sigEntry.getElement();
 			List<SVGGlyph> glyphList = new ArrayList<SVGGlyph>(getOrCreateGlyphBySignatureMap().get(sig));
-			SVGElement g = this.createSVG(glyphList, i);
+			AbstractCMElement g = this.createSVG(glyphList, i);
 			SVGSVG.wrapAndWriteAsSVG(g, new File(outputDir, fileroot+"/"+"glyph."+i+".svg"), 300, 100);
 		}
 	}
@@ -134,8 +135,8 @@ public class GlyphSet {
 		}
 	}
 
-	public SVGElement createSVG(List<SVGGlyph> glyphList, int serial) {
-		SVGElement g = new SVGG();
+	public AbstractCMElement createSVG(List<SVGGlyph> glyphList, int serial) {
+		AbstractCMElement g = new SVGG();
 		Transform2 t2 = Transform2.applyScale(5.0);
 		g.appendChild(SVGText.createDefaultText(new Real2(10,10.), ""+serial+" "+glyphList.get(0).getOrCreateSignature()));
 		for (SVGGlyph glyph : glyphList) {
@@ -158,7 +159,7 @@ public class GlyphSet {
 	 * @throws IOException
 	 */
 	public void writeGlyphSet(File file) throws IOException {
-		SVGElement glyphSetXml = new SVGElement(GLYPH_SET);
+		AbstractCMElement glyphSetXml = new SVGElement(GLYPH_SET);
 		for (String signature : glyphMapBySignature.keySet()) {
 			SVGElement sigXml = new SVGElement(GLYPH_LIST);
 			sigXml.addAttribute(new Attribute(SVGPath.SIGNATURE, signature));
@@ -173,7 +174,7 @@ public class GlyphSet {
 
 	public static GlyphSet readGlyphSet(File file) {
 		GlyphSet glyphSet = new GlyphSet();
-		SVGElement glyphSetXml = SVGElement.readAndCreateSVG(file);
+		AbstractCMElement glyphSetXml = SVGElement.readAndCreateSVG(file);
 		LOG.debug("read glyphset "+file);
 		// no local name yet
 		List<SVGElement> glyphList = SVGUtil.getQuerySVGElements(glyphSetXml, "./*");

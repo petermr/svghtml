@@ -2,7 +2,7 @@ package org.xmlcml.graphics.svg.plot;
 
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.linestuff.BoundingBoxManager;
@@ -69,8 +69,8 @@ public class GraphPlotBox {
 		return touching;
 	}
 	
-	public SVGElement drawBox() {
-		SVGElement g = new SVGG();
+	public AbstractCMElement drawBox() {
+		AbstractCMElement g = new SVGG();
 		SVGRect bbox = this.createRect();
 		bbox.setClassName(AXES_BOX);
 		bbox.setOpacity(0.3);

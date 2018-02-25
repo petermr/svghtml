@@ -31,6 +31,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -322,7 +323,7 @@ public class SVGRect extends SVGShape {
 	 */
 	public static List<SVGRect> extractRects(List<SVGElement> elements) {
 		List<SVGRect> rectList = new ArrayList<SVGRect>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGRect) {
 				rectList.add((SVGRect) element);
 			}
@@ -335,7 +336,7 @@ public class SVGRect extends SVGShape {
 		return getAttributeValue(X)+" "+getAttributeValue(Y)+" "+getAttributeValue(WIDTH)+" "+getAttributeValue(HEIGHT);
 	}
 
-	public static List<SVGRect> extractSelfAndDescendantRects(SVGElement svgElem) {
+	public static List<SVGRect> extractSelfAndDescendantRects(AbstractCMElement svgElem) {
 		return SVGRect.extractRects(SVGUtil.getQuerySVGElements(svgElem, ALL_RECT_XPATH));
 	}
 

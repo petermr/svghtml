@@ -13,6 +13,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.util.MultisetUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -51,6 +52,7 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 	private TypefaceMaps typefaceMaps;
 	private Multiset<String> fontNameSet;
 	private boolean normalizeFontNames;
+	private Double largestFont;
 
 	public StyleRecordSet() {
 		styleRecordByStyle =   new HashMap<String, StyleRecord>();
@@ -292,7 +294,7 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 		return g;
 	}
 
-	private void drawWeightedVerticalLines(SVGElement g, List<Multiset.Entry<Integer>> list, String stroke) {
+	private void drawWeightedVerticalLines(AbstractCMElement g, List<Multiset.Entry<Integer>> list, String stroke) {
 		if (list.size() > 0) {
 			double scale = 1.0;
 			int commonest = list.get(0).getCount();
@@ -330,6 +332,60 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 
 	public void setNormalizeFontNames(boolean normalizeFontNames) {
 		this.normalizeFontNames = normalizeFontNames;
+	}
+
+
+	public Map<String, StyleRecord> getStyleRecordByStyle() {
+		return styleRecordByStyle;
+	}
+
+
+	public Multimap<Double, StyleRecord> getStyleRecordByFontSize() {
+		return styleRecordByFontSize;
+	}
+
+
+	public Multimap<String, StyleRecord> getStyleRecordByFontWeight() {
+		return styleRecordByFontWeight;
+	}
+
+
+	public Multimap<String, StyleRecord> getStyleRecordByFontStyle() {
+		return styleRecordByFontStyle;
+	}
+
+
+	public Multimap<String, StyleRecord> getStyleRecordByFill() {
+		return styleRecordByFill;
+	}
+
+
+	public Multimap<String, StyleRecord> getStyleRecordByStroke() {
+		return styleRecordByStroke;
+	}
+
+
+	public Multimap<Double, StyleRecord> getStyleRecordByYCoord() {
+		return styleRecordByYCoord;
+	}
+
+
+	public List<Double> getSortedFontSizesDescending() {
+		Multimap<Double, StyleRecord> styleRecordByFontSize = getStyleRecordByFontSize();
+		List<Double> sortedFontSizesDescending = new ArrayList<Double>(styleRecordByFontSize.keySet());
+		Collections.sort(sortedFontSizesDescending);
+		Collections.reverse(sortedFontSizesDescending);
+		return sortedFontSizesDescending;
+	}
+
+	/** get largest fontsize.
+	 * 
+	 * @return fontsize (null if no font sizes)
+	 */
+	public Double getLargestFontSize() {
+		List<Double> sortedFontSizes = getSortedFontSizesDescending();
+		largestFont = sortedFontSizes.size() == 0 ? null : sortedFontSizes.get(0);
+		return largestFont;
 	}
 
 	

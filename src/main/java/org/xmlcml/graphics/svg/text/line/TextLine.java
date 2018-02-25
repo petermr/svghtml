@@ -19,12 +19,12 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.html.HtmlSpan;
 import org.xmlcml.graphics.html.HtmlSub;
 import org.xmlcml.graphics.html.HtmlSup;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGUtil;
@@ -811,7 +811,7 @@ public class TextLine implements Iterable<SVGText> {
 	public String getSpacedLineString() {
 		StringBuilder sb = new StringBuilder();
 		if (textList != null) {
-			for (SVGElement text : textList) {
+			for (AbstractCMElement text : textList) {
 				String s = text.getValue();
 				if (s.trim().length() == 0) {
 					s = " ";
@@ -837,7 +837,7 @@ public class TextLine implements Iterable<SVGText> {
 	public String getRawValue() {
 		StringBuilder sb = new StringBuilder();
 		if (textList != null) {
-			for (SVGElement text : textList) {
+			for (AbstractCMElement text : textList) {
 				sb.append(text.getValue());
 			}
 		}
@@ -940,7 +940,7 @@ public class TextLine implements Iterable<SVGText> {
 
 	public List<String> getValueList() {
 		List<String> valueList = new ArrayList<String>();
-		for (SVGElement text : textList) {
+		for (AbstractCMElement text : textList) {
 			valueList.add(text.getValue());
 		}
 		return valueList;

@@ -29,6 +29,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -150,7 +151,7 @@ public class SVGPolygon extends SVGPoly {
 	 */
 	public static List<SVGPolygon> extractPolygons(List<? extends SVGElement> elements) {
 		List<SVGPolygon> polygonList = new ArrayList<SVGPolygon>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGPolygon) {
 				polygonList.add((SVGPolygon) element);
 			}
@@ -158,7 +159,7 @@ public class SVGPolygon extends SVGPoly {
 		return polygonList;
 	}
 
-	public static List<SVGPolygon> extractSelfAndDescendantPolygons(SVGElement g) {
+	public static List<SVGPolygon> extractSelfAndDescendantPolygons(AbstractCMElement g) {
 		return SVGPolygon.extractPolygons(SVGUtil.getQuerySVGElements(g, ALL_POLYGON_XPATH));
 	}
 	

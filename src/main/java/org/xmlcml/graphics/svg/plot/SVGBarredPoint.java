@@ -8,9 +8,9 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Point2;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGConstants;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGLineList;
@@ -170,8 +170,8 @@ public class SVGBarredPoint extends SVGG {
 	 * 
 	 * @return
 	 */
-	public SVGElement createSVGElement() {
-		SVGElement g = new SVGG();
+	public AbstractCMElement createSVGElement() {
+		AbstractCMElement g = new SVGG();
 		if (centroid != null) {
 			SVGCircle circle = new SVGCircle(centroid, POINT_RADIUS);
 			g.appendChild(circle);

@@ -44,6 +44,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealSquareMatrix;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -323,7 +324,7 @@ public class SVGImage extends SVGShape {
 	 */
 	public static List<SVGImage> extractImages(List<SVGElement> elements) {
 		List<SVGImage> imageList = new ArrayList<SVGImage>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGImage) {
 				imageList.add((SVGImage) element);
 			}
@@ -336,7 +337,7 @@ public class SVGImage extends SVGShape {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGImage> extractSelfAndDescendantImages(SVGElement svgElement) {
+	public static List<SVGImage> extractSelfAndDescendantImages(AbstractCMElement svgElement) {
 		return SVGImage.extractImages(SVGUtil.getQuerySVGElements(svgElement, ALL_IMAGE_XPATH));
 	}
 

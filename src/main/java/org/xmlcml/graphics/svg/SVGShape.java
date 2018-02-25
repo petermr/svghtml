@@ -8,6 +8,7 @@ import java.util.Set;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.IntArray;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Attribute;
 
@@ -59,7 +60,7 @@ public abstract class SVGShape extends SVGElement {
 	 */
 	public static List<SVGShape> extractShapes(List<SVGElement> elements) {
 		List<SVGShape> shapeList = new ArrayList<SVGShape>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGShape) {
 				shapeList.add((SVGShape) element);
 			}
@@ -72,7 +73,7 @@ public abstract class SVGShape extends SVGElement {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGShape> extractSelfAndDescendantShapes(SVGElement svgElement) {
+	public static List<SVGShape> extractSelfAndDescendantShapes(AbstractCMElement svgElement) {
 		return SVGShape.extractShapes(SVGUtil.getQuerySVGElements(svgElement, ALL_SHAPE_XPATH));
 	}
 

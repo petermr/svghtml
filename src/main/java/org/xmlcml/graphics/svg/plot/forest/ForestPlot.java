@@ -10,6 +10,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Util;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
@@ -72,7 +73,7 @@ public class ForestPlot {
 		setDiamondEps(0.5);
 	}
 
-	public ComponentCache createCaches(SVGElement svgElement) {
+	public ComponentCache createCaches(AbstractCMElement svgElement) {
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -139,7 +140,7 @@ public class ForestPlot {
 		rangeScaler.setInputRange(new RealRange(235, 364));
 		rangeScaler.setOutputRange(new RealRange(-1.0,1.0)); // logarithmic
 		File infile = new File(inputDir, fileRoot + SVG);
-		SVGElement svgElement = SVGElement.readAndCreateSVG(infile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(infile);
 		ComponentCache componentCache = createCaches(svgElement);
 		PathCache pathCache = componentCache.getOrCreatePathCache();
 		LineCache lineCache = componentCache.getOrCreateLineCache();

@@ -17,7 +17,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.GrahamScan;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
 import org.xmlcml.graphics.svg.SVGPathPrimitive;
@@ -105,7 +105,7 @@ public class SimpleBuilder {
 
 	private final static Logger LOG = Logger.getLogger(SimpleBuilder.class);
 	
-	protected SVGElement svgRoot;
+	protected AbstractCMElement svgRoot;
 	
 
 	protected static double pointEquivalenceEpsilon = DEFAULT_POINT_EQUIVALENCE_EPSILON;
@@ -127,12 +127,12 @@ public class SimpleBuilder {
 	private RectCache rectCache;
 	private double maxAreaChangeRatio = MAX_AREA_CHANGE_FOR_POLYGON;
 
-	public SimpleBuilder(SVGElement svgRoot) {
+	public SimpleBuilder(AbstractCMElement svgRoot) {
 		setSvgRoot(svgRoot);
 		this.timeout = Long.MAX_VALUE;
 	}
 
-	public SimpleBuilder(SVGElement svgRoot, long timeout) {
+	public SimpleBuilder(AbstractCMElement svgRoot, long timeout) {
 		setSvgRoot(svgRoot);
 		this.timeout = timeout;
 	}
@@ -140,7 +140,7 @@ public class SimpleBuilder {
 	public SimpleBuilder() {
 	}
 
-	public void setSvgRoot(SVGElement svgRoot) {
+	public void setSvgRoot(AbstractCMElement svgRoot) {
 		this.svgRoot = svgRoot;
 		makeCaches(svgRoot);
 	}
@@ -150,7 +150,7 @@ public class SimpleBuilder {
 	 * 
 	 * @param svgRoot
 	 */
-	private void makeCaches(SVGElement svgRoot) {
+	private void makeCaches(AbstractCMElement svgRoot) {
 		ComponentCache componentCache = new ComponentCache();
 		componentCache.readGraphicsComponentsAndMakeCaches(svgRoot);
 		componentCache.getOrCreateCascadingCaches();
@@ -799,7 +799,7 @@ public class SimpleBuilder {
 		}
 	}*/
 
-	public SVGElement getSVGRoot() {
+	public AbstractCMElement getSVGRoot() {
 		return svgRoot;
 	}
 

@@ -7,21 +7,14 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
-import org.xmlcml.euclid.IntArray;
-import org.xmlcml.euclid.IntRange;
-import org.xmlcml.euclid.IntRangeArray;
-import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.euclid.RealArray;
-import org.xmlcml.euclid.Util;
 import org.xmlcml.graphics.html.HtmlDiv;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlLi;
 import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.html.HtmlUl;
 import org.xmlcml.graphics.svg.SVGG;
-import org.xmlcml.graphics.svg.rule.horizontal.LineChunk;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
@@ -243,7 +236,7 @@ public class TextChunkList extends SVGG implements Iterable<TextChunk> {
 	}
 	
 	public HtmlElement toHtml() {
-		HtmlElement div = new HtmlDiv();
+		HtmlDiv div = new HtmlDiv();
 		HtmlP p = new HtmlP("FIXME; ");
 //		createParaSpacingTrigger();
 //		TextChunk lastTextList = null;
@@ -307,7 +300,7 @@ public class TextChunkList extends SVGG implements Iterable<TextChunk> {
 //		return ySpacings;
 //	}
 
-	public HtmlElement toHtmlUL() {
+	public HtmlUl toHtmlUL() {
 		HtmlUl ul = new HtmlUl();
 		for (TextChunk textChunk : this) {
 			HtmlLi li = new HtmlLi();

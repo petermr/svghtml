@@ -8,6 +8,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGEllipse;
@@ -174,7 +175,7 @@ public class ShapeCache extends AbstractCache {
 		+ "; shapes: "    + unknownShapeList.size();
 	}
 
-	public SVGElement createSVGAnnotations() {
+	public AbstractCMElement createSVGAnnotations() {
 		SVGG g = new SVGG();
 		addList(g, polylineList);
 		addList(g, circleList);
@@ -182,13 +183,13 @@ public class ShapeCache extends AbstractCache {
 		return g;
 	}
 	
-	public static void addList(SVGElement g, List<? extends SVGElement> list) {
-		for (SVGElement element : list) {
+	public static void addList(AbstractCMElement g, List<? extends SVGElement> list) {
+		for (AbstractCMElement element : list) {
 			g.appendChild(element.copy());
 		}
 	}
 
-	public void createListsOfShapes(SVGElement svgElement) {
+	public void createListsOfShapes(AbstractCMElement svgElement) {
 		List<SVGCircle> circles = SVGCircle.extractSelfAndDescendantCircles(svgElement);
 		circleList.addAll(circles);
 		List<SVGEllipse> ellipses = SVGEllipse.extractSelfAndDescendantEllipses(svgElement);
@@ -226,7 +227,7 @@ public class ShapeCache extends AbstractCache {
 		SVGElement.removeElementsInsideBox(unknownShapeList, positiveXBox);
 	}
 
-	public void extractShapes(List<SVGPath> pathList, SVGElement svgElement) {
+	public void extractShapes(List<SVGPath> pathList, AbstractCMElement svgElement) {
 		convertToShapes(pathList);
 		LOG.trace("polylines: "+polylineList);
 		createListsOfShapes(svgElement);
@@ -234,7 +235,7 @@ public class ShapeCache extends AbstractCache {
 		LOG.trace("polylines: "+polylineList);
 	}
 
-	public SVGElement debugToSVG(String outFilename) {
+	public AbstractCMElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 //		debug(g, originalPathList, "black", "yellow", 0.3);
 //		private List<SVGPath> pathList;
@@ -253,8 +254,8 @@ public class ShapeCache extends AbstractCache {
 		return g;
 	}
 
-	private void debug(SVGElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity) {
-		for (SVGElement e : elementList) {
+	private void debug(AbstractCMElement g, List<? extends SVGElement> elementList, String stroke, String fill, double opacity) {
+		for (AbstractCMElement e : elementList) {
 			SVGShape shape = (SVGShape) e.copy();
 			SVGShape shape1 = (SVGShape) shape.copy();
 			Double strokeWidth = shape.getStrokeWidth();
@@ -276,7 +277,7 @@ public class ShapeCache extends AbstractCache {
 		}
 	}
 
-	private void styleAndDraw(SVGElement g, String stroke, String fill, double opacity, double strokeWidth, SVGShape shape) {
+	private void styleAndDraw(AbstractCMElement g, String stroke, String fill, double opacity, double strokeWidth, SVGShape shape) {
 		shape.setStroke(stroke);
 		shape.setStrokeWidth(strokeWidth);
 		shape.setFill(fill);

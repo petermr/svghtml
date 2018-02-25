@@ -16,6 +16,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealArray.Monotonicity;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -65,7 +66,7 @@ public class SVGPolylineAnalyzer {
 	private Map<Integer, List<SVGLine>> horizontalMap;
 	private Map<Integer, List<SVGLine>> verticalMap;
 	private boolean mergePolylinesAtContiguousEndPoints = true;
-	private SVGElement svgg;
+	private AbstractCMElement svgg;
 
 	public SVGPolylineAnalyzer() {
 	}
@@ -170,7 +171,7 @@ public class SVGPolylineAnalyzer {
 	}
 
 
-	public void analyzePolylines(SVGElement svgg, List<SVGPolyline> polylines) {
+	public void analyzePolylines(AbstractCMElement svgg, List<SVGPolyline> polylines) {
 		this.svgg = svgg;
 		// will fail
 //		ChunkAnalyzerXOld chunkAnalyzerX = null;
@@ -184,7 +185,7 @@ public class SVGPolylineAnalyzer {
 	}
 
 	// FIXME not used or tested
-	public void analyzePolylines(SVGElement svgg, List<SVGPolyline> polylines, GraphPlotBox plotBox) {
+	public void analyzePolylines(AbstractCMElement svgg, List<SVGPolyline> polylines, GraphPlotBox plotBox) {
 		Real2Range boxRange = (plotBox == null) ? null : plotBox.getBoxRange();
 		if (boxRange != null)
 		for (SVGPoly polyline : polylines) {
@@ -263,7 +264,7 @@ public class SVGPolylineAnalyzer {
 
 	public SVGSVG editSVG() {
 		SVGSVG svg = new SVGSVG();
-		SVGElement g = new SVGG();
+		AbstractCMElement g = new SVGG();
 		svg.appendChild(g);
 		for (SVGLine zeroLine : zeroLineList) {
 			g.appendChild(new SVGLine(zeroLine));
@@ -278,7 +279,7 @@ public class SVGPolylineAnalyzer {
 		}
 		for (SVGMarker marker : markerList) {
 //			g.appendChild(new SVGCircle(marker.getSymbol()));
-			SVGElement element = marker.getSymbol();
+			AbstractCMElement element = marker.getSymbol();
 			if (element != null) {
 				g.appendChild(element.copy());
 			} else {
@@ -389,7 +390,7 @@ public class SVGPolylineAnalyzer {
 		List<SVGPolyline> polylinesXIncreasing = getNormalizedMonotonicity(polylines, Monotonicity.INCREASING, axis);
 		BoxEdge boxEdge = (Axis2.X.equals(axis)) ? BoxEdge.XMIN : BoxEdge.YMIN;
 		List<SVGElement> sortedPolylines = BoundingBoxManager.getElementsSortedByEdge(polylinesXIncreasing, boxEdge);
-		for (SVGElement pp : sortedPolylines) {
+		for (AbstractCMElement pp : sortedPolylines) {
 			SVGPoly p = (SVGPoly) pp;
 			LOG.trace(String.valueOf(p.getFirstCoordinate())+" ==> "+p.getLastCoordinate());
 		}
@@ -424,7 +425,7 @@ public class SVGPolylineAnalyzer {
 
 	private List<SVGPolyline> getNormalizedMonotonicity(List<SVGElement> polylines, Monotonicity monotonicity, Axis2 axis) {
 		List<SVGPolyline> polylineSubset = new ArrayList<SVGPolyline>();
-		for (SVGElement polylineE : polylines) {
+		for (AbstractCMElement polylineE : polylines) {
 			SVGPolyline polyline = (SVGPolyline) polylineE;
 			Monotonicity monotonicity0  = polyline.getMonotonicity(axis);
 			if (monotonicity0 != null) {

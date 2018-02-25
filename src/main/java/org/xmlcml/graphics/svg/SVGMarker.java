@@ -23,6 +23,7 @@ import java.util.List;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
@@ -147,8 +148,8 @@ public class SVGMarker extends SVGElement {
     }
 
 
-    public void setSymbol(SVGElement symbol) {
-    	SVGElement symb = this.getSymbol();
+    public void setSymbol(AbstractCMElement symbol) {
+    	AbstractCMElement symb = this.getSymbol();
     	if (symb != null) {
     		symb.detach();
     	}
@@ -169,7 +170,7 @@ public class SVGMarker extends SVGElement {
 	public SVGMarker(Real2 xy) {
 		this();
 //		SVGElement symbol = new SVGCircle(xy.plus(new Real2(-size, -size)), size);
-		SVGElement symbol = new SVGCircle(xy, size);
+		AbstractCMElement symbol = new SVGCircle(xy, size);
 		this.appendChild(symbol);
 	}
 

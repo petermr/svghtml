@@ -15,7 +15,7 @@
  */
 
 package org.xmlcml.graphics.svg;
-
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.xml.XMLConstants;
 
 import nu.xom.XPathContext;
@@ -36,5 +36,9 @@ public interface SVGConstants extends XMLConstants {
     /** XPathContext for SVG.
      */
     XPathContext SVG_XPATH = new XPathContext("svg", SVG_NAMESPACE);
+
+	String getNamespaceURIForPrefix(String prefix);
+
+	void copyNamespaces(AbstractCMElement element);
     
 }

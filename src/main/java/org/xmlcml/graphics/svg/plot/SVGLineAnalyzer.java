@@ -7,7 +7,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Vector2;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGLine;
 
 import com.google.common.collect.ArrayListMultimap;
@@ -26,7 +26,7 @@ public class SVGLineAnalyzer {
 	private List<GraphPlotBox> plotBoxList;
 	private GraphPlotBox plotBox;
 	private Double eps = EPS;
-	private SVGElement svgg;
+	private AbstractCMElement svgg;
 
 	public SVGLineAnalyzer() {
 	}
@@ -68,7 +68,7 @@ public class SVGLineAnalyzer {
 		return lineAngleMap;
 	}
 	
-	public List<GraphPlotBox> findGraphPlotBoxList(SVGElement svgg) {
+	public List<GraphPlotBox> findGraphPlotBoxList(AbstractCMElement svgg) {
 		this.svgg = svgg;
 		ensureLines();
 		return findGraphPlotBoxList();

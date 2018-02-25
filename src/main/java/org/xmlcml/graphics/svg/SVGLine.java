@@ -33,6 +33,7 @@ import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.xml.XMLConstants;
 import org.xmlcml.xml.XMLUtil;
 
@@ -466,7 +467,7 @@ public class SVGLine extends SVGShape {
 		return getXY(0) + S_SPACE + getXY(1);
 	}
 
-	public static List<SVGLine> findHorizontalOrVerticalLines(SVGElement svgElement, double eps) {
+	public static List<SVGLine> findHorizontalOrVerticalLines(AbstractCMElement svgElement, double eps) {
 		List<SVGLine> horizontalVerticalList = new ArrayList<SVGLine>();
 		Nodes lines = svgElement.query(".//svg:line", XMLConstants.SVG_XPATH);
 		for (int i = 0; i < lines.size(); i++) {
@@ -567,7 +568,7 @@ public class SVGLine extends SVGShape {
 	 */
 	public static List<SVGLine> extractLines(List<SVGElement> elements) {
 		List<SVGLine> lineList = new ArrayList<SVGLine>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGLine) {
 				lineList.add((SVGLine) element);
 			}
@@ -610,7 +611,7 @@ public class SVGLine extends SVGShape {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGLine> extractSelfAndDescendantLines(SVGElement svgElement) {
+	public static List<SVGLine> extractSelfAndDescendantLines(AbstractCMElement svgElement) {
 		return SVGLine.extractLines(SVGUtil.getQuerySVGElements(svgElement, ALL_LINE_XPATH));
 	}
 
@@ -681,8 +682,8 @@ public class SVGLine extends SVGShape {
 	 * @param close if true create line (n-1)->0
 	 * @return
 	 */
-	public static SVGElement plotPointsAsTouchingLines(List<Real2> points, boolean close) {
-		SVGElement g = new SVGG();
+	public static AbstractCMElement plotPointsAsTouchingLines(List<Real2> points, boolean close) {
+		AbstractCMElement g = new SVGG();
 		for (int i = 0; i < points.size() - 1; i++) {
 			SVGLine line = new SVGLine(points.get(i), points.get((i + 1)));
 			g.appendChild(line);

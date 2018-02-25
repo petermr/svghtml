@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -11,12 +12,14 @@ import java.util.List;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Test;
 import org.xmlcml.euclid.Int2;
 import org.xmlcml.euclid.Int2Range;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.RealRange.Direction;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -153,10 +156,11 @@ public class ComponentCache extends AbstractCache {
 
 	private ImageCache imageCache;
 	private PathCache pathCache;
-	private TextCache textCache;
+	TextCache textCache;
 	private PolylineCache polylineCache;
 	private PolygonCache polygonCache;
 	private LineCache lineCache;
+	private MathCache mathCache;
 	private RectCache rectCache;
 	ShapeCache shapeCache; // can be accessed by siblings
 	private ContentBoxCache contentBoxCache;
@@ -218,11 +222,11 @@ public class ComponentCache extends AbstractCache {
 		if (inputStream == null) {
 			throw new RuntimeException("Null input stream: "+inputStream);
 		}
-		SVGElement svgElement = SVGUtil.parseToSVGElement(inputStream);
+		AbstractCMElement svgElement = SVGUtil.parseToSVGElement(inputStream);
 		readGraphicsComponentsAndMakeCaches(svgElement);
 	}
 
-	public void readGraphicsComponentsAndMakeCaches(SVGElement svgElement) {
+	public void readGraphicsComponentsAndMakeCaches(AbstractCMElement svgElement) {
 		if (svgElement != null) {
 			this.inputSVGElement = (SVGElement) svgElement.copy();
 			this.convertedSVGElement = new SVGG();
@@ -247,7 +251,7 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	private void debugComponentsToSVGFiles() {
-		SVGElement g;
+		AbstractCMElement g;
 		SVGG gg = new SVGG();
 		g = this.getOrCreatePathCache().debugToSVG(pathDebug+this.fileRoot+".debug.svg");
 		g.appendChild(new SVGTitle("path"));
@@ -284,8 +288,20 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	public TextCache getOrCreateTextCache() {
+		return getOrCreateTextCache(-1);
+	}
+
+	/**
+	 * 
+	 * @param ndecimal format the coordinates ; if -1 then uses default
+	 * @return
+	 */
+	public TextCache getOrCreateTextCache(int ndecimal) {
 		if (textCache == null) {
 			this.textCache = new TextCache(this);
+			if (ndecimal >= 0) {
+				textCache.setCoordinateDecimalPlaces(ndecimal);
+			}
 			if (this.inputSVGElement != null) {
 				this.textCache.extractTexts(this.inputSVGElement);
 				addElementsToExtractedElement(textCache.getOrCreateOriginalTextList());
@@ -344,9 +360,9 @@ public class ComponentCache extends AbstractCache {
 			TextChunkList textChunkList = textChunkCache.getOrCreateTextChunkList();
 			// should probably move TextStructure to TextChunkCache
 			textStructurer = TextStructurer.createTextStructurerWithSortedLines(convertedSVGElement);
-			SVGElement inputSVGChunk = textStructurer.getSVGChunk();
+			AbstractCMElement inputSVGChunk = textStructurer.getSVGChunk();
 			textChunkCache.cleanChunk(inputSVGChunk);
-			SVGElement textChunk = textStructurer.getTextChunkList().getLastTextChunk();
+			AbstractCMElement textChunk = textStructurer.getTextChunkList().getLastTextChunk();
 			textStructurer.condenseSuscripts();
 		}
 		return textChunkCache;
@@ -366,7 +382,7 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	private void addElementsToExtractedElement(List<? extends SVGElement> elementList) {
-		for (SVGElement element : elementList) {
+		for (AbstractCMElement element : elementList) {
 			SVGElement elementCopy = (SVGElement) element.copy();
 			
 			StyleAttributeFactory.convertElementAndChildrenFromOldStyleAttributesToCSS(elementCopy);
@@ -414,7 +430,7 @@ public class ComponentCache extends AbstractCache {
 		return g;
 	}
 	
-	private SVGElement copyOriginalElements() {
+	private AbstractCMElement copyOriginalElements() {
 		SVGG g = new SVGG();
 		ShapeCache.addList(g, new ArrayList<SVGPath>(pathCache.getOriginalPathList()));
 		ShapeCache.addList(g, new ArrayList<SVGText>(textCache.getOrCreateOriginalTextList()));
@@ -447,7 +463,7 @@ public class ComponentCache extends AbstractCache {
 		this.plotDebug = plotDebug;
 	}
 
-	public SVGElement getExtractedSVGElement() {
+	public AbstractCMElement getExtractedSVGElement() {
 		return convertedSVGElement;
 	}
 
@@ -839,9 +855,9 @@ public class ComponentCache extends AbstractCache {
 	 * @param elementList list of elements
 	 * @return
 	 */
-	public static SVGElement createContainingElement(List<SVGElement> elementList) {
-		SVGElement containingElement = new SVGG();
-		for (SVGElement element : elementList) {
+	public static AbstractCMElement createContainingElement(List<SVGElement> elementList) {
+		AbstractCMElement containingElement = new SVGG();
+		for (AbstractCMElement element : elementList) {
 			containingElement.appendChild(element.copy());
 		}
 		return containingElement;
@@ -852,15 +868,22 @@ public class ComponentCache extends AbstractCache {
 	 * @param elementList
 	 */
 	public void readGraphicsComponentsAndMakeCaches(List<SVGElement> elementList) {
-		SVGElement element = ComponentCache.createContainingElement(elementList);
+		AbstractCMElement element = ComponentCache.createContainingElement(elementList);
 		readGraphicsComponentsAndMakeCaches(element);
 	}
 
 	public static ComponentCache readAndCreateComponentCache(File svgFile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		ComponentCache componentCache = new ComponentCache(); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
 		return componentCache;
+	}
+
+	public MathCache getOrCreateMathCache() {
+		if (mathCache == null) {
+			this.mathCache = new MathCache(this);
+		}
+		return mathCache;
 	}
 
 }

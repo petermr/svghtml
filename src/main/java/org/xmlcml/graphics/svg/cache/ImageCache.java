@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -45,7 +46,7 @@ public class ImageCache extends AbstractCache{
 		imageBoxColor = "pink";
 	}
 
-	public SVGElement analyzeImages(List<SVGImage> imageList) {
+	public AbstractCMElement analyzeImages(List<SVGImage> imageList) {
 		this.imageList = imageList;
 		SVGG g = new SVGG();
 		g.setClassName("images");
@@ -61,14 +62,14 @@ public class ImageCache extends AbstractCache{
 		return imageList;
 	}
 
-	public SVGElement debugToSVG(String outFilename) {
+	public AbstractCMElement debugToSVG(String outFilename) {
 		SVGG g = new SVGG();
 		debug(g, imageList, "blue", "pink", 0.3);
 		writeDebug("images",outFilename, g);
 		return g;
 	}
 
-	private void debug(SVGElement g, List<SVGImage> imageList, String stroke, String fill, double opacity) {
+	private void debug(AbstractCMElement g, List<SVGImage> imageList, String stroke, String fill, double opacity) {
 		for (SVGImage img : imageList) {
 			SVGImage image = (SVGImage) img.copy();
 			image.setStroke(stroke);

@@ -21,6 +21,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.graphics.AbstractCMElement;
 
 import nu.xom.Element;
 import nu.xom.Node;
@@ -91,7 +92,7 @@ public class SVGTSpan extends SVGText {
 	 */
 	public static List<SVGTSpan> extractTSpans(List<SVGElement> elements) {
 		List<SVGTSpan> tSpanList = new ArrayList<SVGTSpan>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGTSpan) {
 				tSpanList.add((SVGTSpan) element);
 			}

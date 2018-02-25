@@ -3,6 +3,7 @@ package org.xmlcml.graphics.svg.util;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGConstants;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -172,7 +173,7 @@ public class Compacter {
 	}
 
 	public void compactGroups(List<SVGG> gList) {
-		for(SVGElement g : gList) {
+		for(AbstractCMElement g : gList) {
 			List<SVGElement> elementList = SVGUtil.getQuerySVGElements(g,  "*");
 			createGroupsAndMoveLocallyUbiquitousAttributesUp(elementList);
 			for (Element element : elementList) {

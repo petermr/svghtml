@@ -9,7 +9,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Util;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.text.SVGPhrase;
@@ -262,10 +262,10 @@ public class AxisScaleBox extends AxialBox {
 		return textList;
 	}
 	
-	public SVGElement createSVGElement() {
+	public AbstractCMElement createSVGElement() {
 		SVGG g = (SVGG) super.createSVGElement();
 		g.setClassName("axisTextBox");
-		for (SVGElement element : containedGraphicalElements) {
+		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}
 		return g;

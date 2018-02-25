@@ -3,6 +3,7 @@ package org.xmlcml.graphics.svg.util;
 import java.util.Iterator;
 import java.util.List;
 
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 
@@ -48,8 +49,8 @@ class ElementsIterator {
 		return index < elements.size();
 	}
 
-	SVGElement next() {
-		return (SVGElement) elements.get(index++);
+	AbstractCMElement next() {
+		return (AbstractCMElement) elements.get(index++);
 	}
 	
 	// this adances the pointer. Apparently it's mandatory

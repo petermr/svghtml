@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -42,7 +43,7 @@ public abstract class PageComponentCache extends ComponentCache {
 	public SVGElement getOrCreateConvertedSVGElement() {
 		convertedSVGElement = new SVGG();
 		if (allElementList != null) {
-			for (SVGElement element : allElementList) {
+			for (AbstractCMElement element : allElementList) {
 				convertedSVGElement.appendChild(element.copy());
 			}
 		}

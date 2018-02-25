@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Util;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -42,11 +43,11 @@ public class SVGWord extends SVGG {
 		this.setClassName(CLASS);
 	}
 
-	public SVGWord(SVGElement svgText) {
+	public SVGWord(AbstractCMElement svgText) {
 		this.appendChild(svgText.copy());
 	}
 
-	public SVGWord(SVGElement svgText, boolean isRot90) {
+	public SVGWord(AbstractCMElement svgText, boolean isRot90) {
 		this.appendChild(svgText.copy());
 		this.setRot90(isRot90);
 	}
@@ -161,7 +162,7 @@ public class SVGWord extends SVGG {
 	}
 	
 	public String getSVGTextValue() {
-		SVGElement text = this.getSVGText();
+		AbstractCMElement text = this.getSVGText();
 		return text == null ? null : text.getValue();
 	}
 

@@ -7,13 +7,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlDiv;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlTable;
 import org.xmlcml.graphics.html.HtmlUl;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.util.SVGZUtil;
@@ -72,7 +70,7 @@ public abstract class AbstractContainer {
 	protected PageAnalyzer pageAnalyzer;
 //	protected ChunkId chunkId;
 	protected SVGG svgChunk;
-	protected HtmlElement htmlElement;
+	protected AbstractCMElement htmlElement;
 	private HtmlDiv figureElement;
 	private HtmlUl listElement;
 	private HtmlTable tableElement;
@@ -111,7 +109,7 @@ public abstract class AbstractContainer {
 //		return htmlElement;
 	}
 	
-	public abstract SVGElement createSVGGChunk();
+	public abstract AbstractCMElement createSVGGChunk();
 	
 	private void ensureContainerList() {
 		if (containerList == null) {
@@ -160,7 +158,7 @@ public abstract class AbstractContainer {
 	protected String outputSVGList(String title, List<? extends SVGElement> svgList) {
 		StringBuilder sb = new StringBuilder();
 		if (svgList.size() < 5){
-			for (SVGElement element : svgList) {
+			for (AbstractCMElement element : svgList) {
 				String s = element.toXML();
 				int l = s.length();
 				sb.append(s.subSequence(0, Math.min(80, l))+((l > 80) ? "..." : "")+"\n");
@@ -392,7 +390,7 @@ public abstract class AbstractContainer {
 		htmlElement = new HtmlDiv();
 	}
 
-	void removeAnnotatedRects(SVGElement svgChunk) {
+	void removeAnnotatedRects(AbstractCMElement svgChunk) {
 		Nodes nodes = svgChunk.query(".//*[@title='org.xmlcml.svg2xml.page.ShapeAnalyzer1']");
 		for (int i = 0; i < nodes.size(); i++) {
 			nodes.get(i).detach();

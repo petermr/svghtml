@@ -2,6 +2,7 @@ package org.xmlcml.graphics.svg;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 
 /** only used for display, mainly debugging.
  * 
@@ -34,7 +35,7 @@ public class SVGRadialGradient extends AbstractSVGGradient {
 
 	 * @return
 	 */
-	public static SVGElement getDefaultRadialGradient() {
+	public static AbstractCMElement getDefaultRadialGradient() {
 		SVGRadialGradient radialGradient = new SVGRadialGradient();
 		radialGradient.setId(DEFAULT_ID);
 		radialGradient.appendStop(0, "stop-color:yellow;stop-opacity:0;");

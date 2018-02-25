@@ -20,6 +20,7 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 
 public class SVGGBox extends SVGG {
 	private static final Logger LOG = Logger.getLogger(SVGGBox.class);
@@ -35,12 +36,12 @@ public class SVGGBox extends SVGG {
 	
 	public void addRect(SVGRect newRect) {
 		List<SVGElement> boxList = SVGUtil.getQuerySVGElements(this, "./*[local-name()='"+SVGG.TAG+"' and @class='"+BOX+"']");
-		for (SVGElement box0 : boxList) {
+		for (AbstractCMElement box0 : boxList) {
 			SVGGBox box = SVGGBox.createBox(box0);
 		}
 	}
 
-	private static SVGGBox createBox(SVGElement box0) {
+	private static SVGGBox createBox(AbstractCMElement box0) {
 		LOG.warn("createBox NYI");
 		return null;
 	}

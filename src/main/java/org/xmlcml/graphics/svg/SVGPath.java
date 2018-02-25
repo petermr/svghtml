@@ -24,7 +24,6 @@ import java.awt.geom.PathIterator;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.PrimitiveIterator;
 import java.util.Set;
 import java.util.regex.Pattern;
 
@@ -39,6 +38,7 @@ import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Vector2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.path.Arc;
 import org.xmlcml.graphics.svg.path.ClosePrimitive;
 import org.xmlcml.graphics.svg.path.CubicPrimitive;
@@ -302,7 +302,7 @@ public class SVGPath extends SVGShape {
 			SVGPath path = (SVGPath) copy();
 			Real2 orig = path.getOrigin();
 			path.normalizeOrigin();
-			SVGShape line = path.createHorizontalOrVerticalLine(EPS);
+			SVGShape line = path.createHorizontalOrVerticalLine(SVGLine.EPS);
 			symbol.appendChild(path);
 			symbol.setId(path.getId()+".s");
 			List<SVGElement> defsNodes = SVGUtil.getQuerySVGElements(this, "/svg:svg/svg:defs");
@@ -429,7 +429,7 @@ public class SVGPath extends SVGShape {
 			Real2Range bb2 = path2.getBoundingBox();
 			double xr = bb.getXRange().getRange();
 			double yr = bb.getYRange().getRange();
-			if (xr > EPS && yr > EPS) {
+			if (xr > SVGConstants.EPS && yr > SVGConstants.EPS) {
 				s = Math.sqrt(bb2.getXRange().getRange()/xr * bb2.getYRange().getRange()/yr);
 			}
 		}
@@ -699,7 +699,7 @@ public class SVGPath extends SVGShape {
 	 */
 	public static List<SVGPath> extractPaths(List<SVGElement> elements) {
 		List<SVGPath> pathList = new ArrayList<SVGPath>();
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			if (element instanceof SVGPath) {
 				pathList.add((SVGPath) element);
 			}
@@ -718,11 +718,11 @@ public class SVGPath extends SVGShape {
 	 * @param svgElement
 	 * @return
 	 */
-	public static List<SVGPath> extractPaths(SVGElement svgElement) {
+	public static List<SVGPath> extractPaths(AbstractCMElement svgElement) {
 		return SVGPath.extractPaths(SVGUtil.getQuerySVGElements(svgElement, ALL_PATH_XPATH));
 	}
 
-	public static List<SVGPath> extractSelfAndDescendantPaths(SVGElement svgElement) {
+	public static List<SVGPath> extractSelfAndDescendantPaths(AbstractCMElement svgElement) {
 		return SVGPath.extractPaths(SVGUtil.getQuerySVGElements(svgElement, ALL_PATH_XPATH));
 	}
 

@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGText;
@@ -41,7 +41,7 @@ public class SVGBond extends SVGEdge {
 		return atomList;
 	}
 
-	public SVGElement getOrCreateSVG() {
+	public AbstractCMElement getOrCreateSVG() {
 		SVGG g = new SVGG();
 		SVGLine edgeCopy = (SVGLine) this.copy();
 		edgeCopy.setStrokeWidth(this.getWeight());

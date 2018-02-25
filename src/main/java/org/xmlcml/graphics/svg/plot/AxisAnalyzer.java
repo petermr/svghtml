@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.linestuff.ComplexLine;
 import org.xmlcml.graphics.svg.linestuff.ComplexLine.CombType;
@@ -37,10 +37,10 @@ public class AxisAnalyzer {
 	private Axis verticalAxis;
 	private GraphPlotBox plotBox;
 	
-	private SVGElement g;
+	private AbstractCMElement g;
 	public double eps;
 
-	public AxisAnalyzer(SVGElement g) {
+	public AxisAnalyzer(AbstractCMElement g) {
 		super();
 		this.g = g;
 		ensureSVGLines();

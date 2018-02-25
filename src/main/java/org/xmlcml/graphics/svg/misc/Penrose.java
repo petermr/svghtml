@@ -9,8 +9,8 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -137,8 +137,8 @@ public class Penrose {
 		return axisVector;
 	}
 
-	private SVGElement drawEdge(Real2 offset, double scale, Angle angle, int direction) {
-		SVGElement g;
+	private AbstractCMElement drawEdge(Real2 offset, double scale, Angle angle, int direction) {
+		AbstractCMElement g;
 		Real2Array horizontalEdge  = createHorizontalEdge();
 		if (direction == -1) {
 			horizontalEdge = horizontalEdge.getRotatedAboutMidPoint();
@@ -170,8 +170,8 @@ public class Penrose {
 		return Real2Array.createReal2Array(xy1, xy2, xy3, xy4, xy5, xy6, xy7, xy8, xy9, xy10, xy11, xy12);
 	}
 	
-	private SVGElement drawEdge(Real2Array ra) {
-		SVGElement g = new SVGG();
+	private AbstractCMElement drawEdge(Real2Array ra) {
+		AbstractCMElement g = new SVGG();
 		SVGLine line = createLine(ra.get(0), ra.get(1));
 		g.appendChild(line);
 		SVGPath path = createQuadPath(ra.get(1), ra.get(2), ra.get(3));

@@ -46,6 +46,7 @@ import org.xmlcml.euclid.RealRange.Direction;
 import org.xmlcml.euclid.RealRangeArray;
 import org.xmlcml.euclid.RealSquareMatrix;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.objects.SVGArrow;
 import org.xmlcml.graphics.svg.objects.SVGTriangle;
 import org.xmlcml.graphics.svg.text.SVGWord;
@@ -91,7 +92,6 @@ public class SVGElement extends GraphicsElement {
 
 	public final static String ALL_ELEMENT_XPATH = "//svg:*";
 
-	public final static String SVG_CLASS = "class";
 	public final static String IMPROPER = "improper";
 	public final static String IMPROPER_TRUE = "true";
 	public final static String MATRIX = "matrix";
@@ -106,8 +106,6 @@ public class SVGElement extends GraphicsElement {
 	public final static String CY = "cy";
 	public final static String YMINUS = "-Y";
 	public final static String YPLUS = "Y";
-	public final static String TITLE = "title";
-	public final static String ID = "id";
 	public static final String SVG = ".svg";
 
 	public static final String STROKE_DASHARRAY = "stroke-dasharray";
@@ -261,15 +259,6 @@ public class SVGElement extends GraphicsElement {
 		return newElement;
 	}
 
-	/** value of the "class" attribute.
-	 * 
-	 * @param element
-	 * @return null if element is null.
-	 */
-	private static String getClassAttributeValue(Element element) {
-		return element == null ? null : element.getAttributeValue(SVG_CLASS);
-	}
-
 	/** 
 	 * Converts an SVG file to SVGElement
 	 * 
@@ -287,12 +276,12 @@ public class SVGElement extends GraphicsElement {
 	 * @param file
 	 * @return
 	 */
-	public static GraphicsElement readAndCreateSVG(InputStream is) {
+	public static AbstractCMElement readAndCreateSVG(InputStream is) {
 		Element element = XMLUtil.parseQuietlyToDocument(is).getRootElement();
 		return (element == null ? null : readAndCreateSVG(element));
 	}
 	
-	protected static void createSubclassedChildren(Element oldElement, GraphicsElement newElement) {
+	protected static void createSubclassedChildren(Element oldElement, AbstractCMElement newElement) {
 		if (oldElement != null) {
 			for (int i = 0; i < oldElement.getChildCount(); i++) {
 				Node node = oldElement.getChild(i);
@@ -314,7 +303,7 @@ public class SVGElement extends GraphicsElement {
 		}
 	}
 	
-	public boolean isEqualTo(GraphicsElement element) {
+	public boolean isEqualTo(AbstractCMElement element) {
 		boolean equals = false;
 		if (element.getClass().equals(this.getClass())) {
 			XMLUtil.equalsCanonically(element, this, true);
@@ -1010,11 +999,11 @@ public class SVGElement extends GraphicsElement {
 	}
 	
 	public void setClassName(String name) {
-		this.addAttribute(new Attribute(SVG_CLASS, name));
+		this.addAttribute(new Attribute(CLASS, name));
 	}
 	
 	public String getSVGClassName() {
-		return this.getAttributeValue(SVG_CLASS);
+		return this.getAttributeValue(CLASS);
 	}
 
 	/** traverse all children recursively
@@ -1172,7 +1161,7 @@ public class SVGElement extends GraphicsElement {
 		return 1.0;
 	}
 
-	public static void drawBoundingBoxes(List<SVGElement> elements, GraphicsElement svgParent, String stroke, String fill, double strokeWidth, double opacity) {
+	public static void drawBoundingBoxes(List<SVGElement> elements, AbstractCMElement svgParent, String stroke, String fill, double strokeWidth, double opacity) {
 		for (SVGElement element : elements) {
 			SVGRect svgBox = SVGElement.drawBox(element.getBoundingBox(), svgParent, stroke, fill, strokeWidth, opacity);
 		}
@@ -1183,12 +1172,12 @@ public class SVGElement extends GraphicsElement {
 		}
 	}
 	
-	public static void drawBoxes(List<Real2Range> boxes, GraphicsElement svgParent, String stroke, String fill, double strokeWidth, double opacity) {
+	public static void drawBoxes(List<Real2Range> boxes, AbstractCMElement svgParent, String stroke, String fill, double strokeWidth, double opacity) {
 		for (Real2Range box : boxes) {
 			SVGRect svgBox = SVGElement.drawBox(box, svgParent, stroke, fill, strokeWidth, opacity);
 		}
 	}
-	public static SVGRect drawBox(Real2Range box, GraphicsElement svgParent,
+	public static SVGRect drawBox(Real2Range box, AbstractCMElement svgParent,
 			String stroke, String fill, double strokeWidth, double opacity) {
 		SVGRect svgBox = createGraphicalBox(box, stroke, fill, strokeWidth, opacity);
 		if (svgBox != null && svgParent != null) {
@@ -1210,7 +1199,7 @@ public class SVGElement extends GraphicsElement {
 		return SVGElement.drawBox(getBoundingBox(), this, stroke, fill, strokeWidth, opacity);
 	}
 
-	public static void applyTransformsWithinElementsAndFormat(GraphicsElement svgElement) {
+	public static void applyTransformsWithinElementsAndFormat(AbstractCMElement svgElement) {
 		List<SVGElement> elementList = generateElementList(svgElement, ".//svg:*[@" + TRANSFORM + "]");
 		for (SVGElement element : elementList) {
 			element.applyTransformAttributeAndRemove();
@@ -1262,7 +1251,7 @@ public class SVGElement extends GraphicsElement {
 
 	public void removeEmptySVGG() {
 		List<SVGElement> emptyGList = SVGUtil.getQuerySVGElements(this, ".//svg:g[(count(*)+count(svg:*))=0]");
-		for (GraphicsElement g : emptyGList) {
+		for (AbstractCMElement g : emptyGList) {
 			g.detach();
 		}
 		LOG.trace("removed emptyG: "+emptyGList.size());
@@ -1486,11 +1475,6 @@ public class SVGElement extends GraphicsElement {
 		return SVGUtil.getQuerySVGElements(element, ALL_ELEMENT_XPATH);
 	}
 
-//	@Deprecated
-//	public static List<SVGElement> extractSelfAndDescendantElements(SVGElement g) {
-//		return SVGUtil.getQuerySVGElements(g, ALL_ELEMENT_XPATH);
-//	}
-
 	public static List<SVGElement> getRotatedDescendantElements(SVGElement svgElement, Angle angle, double eps) {
 		List<SVGElement> elementList = SVGElement.extractSelfAndDescendantElements(svgElement);
 		List<SVGElement> filteredList = getRotatedElementList(elementList, angle, eps);
@@ -1547,6 +1531,11 @@ public class SVGElement extends GraphicsElement {
 		String value = StyleBundle.getFontFamily(this);
 		return (value != null) ? value : this.getAttributeValue(StyleBundle.FONT_FAMILY);
 	}
+
+//	public String getFontName() {
+//		String value = StyleBundle.getFontName(this);
+//		return (value != null) ? value : this.getAttributeValue(StyleBundle.FONT_NAME);
+//	}
 
 	public String getFontWeight() {
 		String value = StyleBundle.getFontWeight(this);
@@ -1686,7 +1675,7 @@ public class SVGElement extends GraphicsElement {
 		SVGElement g = new SVGG();
 		Transform2 rotationTransform = new Transform2(angle);
 		Transform2 rotationTranslationTransform = Transform2.getRotationAboutPoint(angle, centre);
-		for (SVGElement svgElement : svgElementList) {
+		for (AbstractCMElement svgElement : svgElementList) {
 			SVGElement elementCopy = (SVGElement) svgElement.copy();
 			if (svgElement instanceof SVGText) {
 				SVGText text1 = (SVGText) elementCopy;
@@ -1729,13 +1718,13 @@ public class SVGElement extends GraphicsElement {
 	}
 
 	public void appendChildren(List<? extends SVGElement> elements) {
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			this.appendChild(element);
 		}
 	}
 
 	public void appendChildCopies(List<? extends SVGElement> elements) {
-		for (SVGElement element : elements) {
+		for (AbstractCMElement element : elements) {
 			this.appendChild(element.copy());
 		}
 	}
@@ -1745,7 +1734,7 @@ public class SVGElement extends GraphicsElement {
 	 * @param svgXml
 	 * @return
 	 */
-	public static SVGElement readAndCreateSVG(String svgXml) {
+	public static AbstractCMElement readAndCreateSVG(String svgXml) {
 		return SVGElement.readAndCreateSVG(XMLUtil.parseXML(svgXml));
 	}
 
@@ -1796,7 +1785,7 @@ public class SVGElement extends GraphicsElement {
 	 */
 	public static List<SVGElement> extractElementList(List<? extends SVGElement> elementList, String xpath) {
 		List<SVGElement> newElementList = new ArrayList<SVGElement>();
-		for (SVGElement element : elementList) {
+		for (AbstractCMElement element : elementList) {
 			List<SVGElement> newElements = SVGElement.generateElementList(element, xpath);
 			newElementList.addAll(newElements);
 		}
@@ -1809,7 +1798,7 @@ public class SVGElement extends GraphicsElement {
 	 * @param elementList
 	 */
 	public static void appendCopy(SVGG g, List<? extends SVGElement> elementList) {
-		for (SVGElement element : elementList) {
+		for (AbstractCMElement element : elementList) {
 			g.appendChild(element.copy());
 		}
 	}

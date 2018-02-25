@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.util.CMFileUtil;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
@@ -43,7 +44,7 @@ public class DocumentCache extends ComponentCache {
 		
 	}
 	
-	public SVGElement processSVGDirectory(File svgDir) {
+	public AbstractCMElement processSVGDirectory(File svgDir) {
 		this.setSvgDir(svgDir);
 		svgFiles = SVGElement.extractSVGFiles(svgDir);
 		processSVGFiles(svgFiles);
@@ -66,7 +67,7 @@ public class DocumentCache extends ComponentCache {
 			pageCache.setSerialNumber(ifile + 1);
 			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
 			pageCacheList.add(pageCache);
-			SVGElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
+			AbstractCMElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
 			if (extractedSvgCacheElement == null) {
 				throw new RuntimeException("null element in cache");
 			}
@@ -98,7 +99,7 @@ public class DocumentCache extends ComponentCache {
 		File svgFile = new File(pageDir, fileDir + "/" + DocumentCache.FULLTEXT_PAGE + ipage + PageLayout.DOT_SVG);
 		pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
 		pageCache.readPageLayoutAndMakeBBoxesAndMargins(currentPageLayout);
-		SVGElement boxg = pageCache.createSummaryBoxes(svgFile);
+		AbstractCMElement boxg = pageCache.createSummaryBoxes(svgFile);
 		SVGElement boxes = pageCache.createSVGElementFromComponents();
 		boxes.appendChild(boxg.copy());
 		return boxes;

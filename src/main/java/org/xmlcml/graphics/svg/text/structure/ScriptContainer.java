@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.html.HtmlSpan;
@@ -226,8 +227,8 @@ public class ScriptContainer extends AbstractContainer implements Iterable<Scrip
 		}
 	}
 
-	public SVGElement createSVGGChunk() {
-		SVGElement g = new SVGG();
+	public AbstractCMElement createSVGGChunk() {
+		AbstractCMElement g = new SVGG();
 		for (ScriptLine scriptLine : scriptLineList) {
 			if (scriptLine != null) {
 				List<SVGText> textList = scriptLine.getTextList();

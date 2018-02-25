@@ -12,8 +12,8 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.Transform2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGPath;
@@ -480,8 +480,8 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 		return pathPrimitiveListList;
 	}
 
-	public SVGElement createAnnotatedSVG(String title) {
-		SVGElement g = new SVGG();
+	public AbstractCMElement createAnnotatedSVG(String title) {
+		AbstractCMElement g = new SVGG();
 		String sig = createSignature();
 		SVGPath path = new SVGPath(this);
 		path.setCSSStyle("fill:none;stroke-width:0.3;stroke:blue;");

@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
 
@@ -44,11 +45,11 @@ public class StyleRecordFactory {
 	}
 
 	public StyleRecordSet createStyleRecordSet(File svgFile) {
-		SVGElement svgElement = SVGElement.readAndCreateSVG(svgFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(svgFile);
 		return createStyleRecordSet(svgElement);
 	}
 
-	public StyleRecordSet createStyleRecordSet(SVGElement svgElement) {
+	public StyleRecordSet createStyleRecordSet(AbstractCMElement svgElement) {
 		List<SVGText> texts = SVGText.extractSelfAndDescendantTexts(svgElement);
 		StyleRecordSet styleRecordSet = this.createStyleRecordSet(texts);
 		return styleRecordSet;

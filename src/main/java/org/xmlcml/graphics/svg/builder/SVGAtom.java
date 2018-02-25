@@ -11,8 +11,8 @@ import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Array;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
-import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -53,7 +53,7 @@ public class SVGAtom extends SVGNode {
 	}
 
 	@Override
-	public SVGElement getOrCreateSVG() {
+	public AbstractCMElement getOrCreateSVG() {
 		SVGG g = new SVGG();
 		if (label != null && !"C".equals(label)) {
 			SVGCircle circle = new SVGCircle(this.getMidXY(), radius);

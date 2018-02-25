@@ -15,6 +15,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Angle;
 import org.xmlcml.euclid.Angle.Units;
 import org.xmlcml.euclid.Real2;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGCircle;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -72,7 +73,7 @@ public class MoleculeBuilder {
 	private File inputDir;
 	private File inputFile;
 
-	public void createWeightedLabelledGraph(SVGElement svgElement) {
+	public void createWeightedLabelledGraph(AbstractCMElement svgElement) {
 		XPlotBox xPlotBox = new XPlotBox();
 		ComponentCache componentCache = new ComponentCache(xPlotBox); 
 		componentCache.readGraphicsComponentsAndMakeCaches(svgElement);
@@ -475,7 +476,7 @@ Lines 	Section 	Description
 		setOutputDir(new File("target/", dirRoot));
 		setInputDir(new File(inputDirRoot, dirRoot));
 		setInputFile(new File(inputDir, fileroot + ".svg"));
-		SVGElement svgElement = SVGElement.readAndCreateSVG(inputFile);
+		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(inputFile);
 		createWeightedLabelledGraph(svgElement);
 		outputFiles(fileroot);
 	}
@@ -487,7 +488,7 @@ Lines 	Section 	Description
 	 * @param dirRoot
 	 * @throws IOException
 	 */
-	public void createTestMoleculeAndDefaultOutput(SVGElement inputSvgElement, String fileroot, String dirRoot) throws IOException {
+	public void createTestMoleculeAndDefaultOutput(AbstractCMElement inputSvgElement, String fileroot, String dirRoot) throws IOException {
 		setOutputDir(new File("target/", dirRoot));
 		createWeightedLabelledGraph(inputSvgElement);
 		outputFiles(fileroot);

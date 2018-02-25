@@ -6,7 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2;
-import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 
@@ -100,7 +100,7 @@ public class SVGNode extends SVGG {
 		return sb.toString();
 	}
 
-	public SVGElement getOrCreateSVG() {
+	public AbstractCMElement getOrCreateSVG() {
 		SVGG g = new SVGG();
 		g.appendChild(this.copy());
 		g.appendChild(SVGText.createText(this.getXY(), getId(), "fill:red;font-size:2;"));

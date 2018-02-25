@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -33,6 +34,7 @@ public abstract class AbstractCache {
 	private AbstractPlotBox svgMediaBox;
 
 	protected ShapeCache siblingShapeCache;
+	protected TextCache siblingTextCache;
 
 	protected SVGElement inputSVGElement;
 	protected SVGElement convertedSVGElement;
@@ -45,6 +47,7 @@ public abstract class AbstractCache {
 	public AbstractCache(ComponentCache ownerComponentCache) {
 		this.ownerComponentCache = ownerComponentCache;
 		this.siblingShapeCache = ownerComponentCache == null ? null : ownerComponentCache.shapeCache;
+		this.siblingTextCache = ownerComponentCache == null ? null : ownerComponentCache.textCache;
 		getOrCreateElementList();
 	}
 
@@ -52,7 +55,7 @@ public abstract class AbstractCache {
 		this.svgMediaBox = svgMediaBox;
 	}
 
-	protected void drawBox(SVGElement g, String col, double width) {
+	protected void drawBox(AbstractCMElement g, String col, double width) {
 		Real2Range box = this.getBoundingBox();
 		if (box != null) {
 			SVGRect boxRect = SVGRect.createFromReal2Range(box);
@@ -117,7 +120,7 @@ public abstract class AbstractCache {
 			if (elementList.size() == 0) {
 				LOG.warn("Empty elementList");
 			}
-			for (SVGElement component : elementList) {
+			for (AbstractCMElement component : elementList) {
 				convertedSVGElement.appendChild(component.copy());
 			}
 		}
@@ -128,7 +131,7 @@ public abstract class AbstractCache {
 		return ownerComponentCache;
 	}
 
-	public boolean remove(SVGElement element) {
+	public boolean remove(AbstractCMElement element) {
 		List<? extends SVGElement> elementList = this.getOrCreateElementList();
 		boolean remove = elementList.remove(element);
 		if (remove) {
