@@ -21,6 +21,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.html.util.HtmlUtil;
+import org.xmlcml.xml.XMLConstants;
 
 import nu.xom.Attribute;
 

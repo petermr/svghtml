@@ -18,20 +18,17 @@
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.StyleBundle;
-import org.xmlcml.xml.XMLConstants;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Attribute;
 import nu.xom.Element;
 import nu.xom.Node;
-import nu.xom.Nodes;
 
 
 /*
@@ -135,24 +132,16 @@ VAR 	  	  	  	  	  	instance of a variable or program argument
  * @author pm286
  *
  */
-public abstract class HtmlElement extends Element implements XMLConstants {
+public abstract class HtmlElement extends AbstractCMElement {
 
 
 	private final static Logger LOG = Logger.getLogger(HtmlElement.class);
 
-	private static final String CLASS = "class";
-	private static final String ID = "id";
-	private static final String NAME = "name";
-	private static final String STYLE = "style";
 
 
 	public static final String STYLESHEET = "stylesheet";
 	public static final String TEXT_CSS = "text/css";
 	public static final String TEXT_JAVASCRIPT = "text/javascript";
-	public static final String TITLE = "title";
-	public static final String UTF_8 = "UTF-8";
-	public static final String TYPE = "type";
-	private static final String CHARSET = "charset";
 
 	public static String[] tags = {
 		"A", 
@@ -396,7 +385,7 @@ public abstract class HtmlElement extends Element implements XMLConstants {
 		for (int i = 0; i < element.getChildCount(); i++) {
 			Node child = element.getChild(i);
 			if (child instanceof Element) {
-				HtmlElement htmlChild = HtmlElement.create((Element)child, abort, ignoreNamespaces);
+				AbstractCMElement htmlChild = HtmlElement.create((Element)child, abort, ignoreNamespaces);
 				if (htmlElement != null) {	
 					htmlElement.appendChild(htmlChild);
 				}
@@ -487,54 +476,6 @@ public abstract class HtmlElement extends Element implements XMLConstants {
 
 	public void setTitle(String title) {
 		this.addAttribute(new Attribute(TITLE, title));
-	}
-
-	public static List<HtmlElement> getSelfOrDescendants(HtmlElement root, String tag) {
-		tag = tag.toLowerCase();
-		String xpath = ".//*[local-name()='"+tag+"']";
-		Nodes nodes = root.query(xpath);
-		List<HtmlElement> elements = new ArrayList<HtmlElement>();
-		for (int i = 0; i < nodes.size(); i++) {
-			elements.add((HtmlElement)nodes.get(i));
-		}
-		return elements;
-	}
-
-	public static HtmlElement getSingleSelfOrDescendant(HtmlElement root, String tag) {
-		List<HtmlElement> elements = getSelfOrDescendants(root, tag);
-		return (elements.size() != 1) ? null : elements.get(0);
-	}
-
-	public static List<HtmlElement> getChildElements(HtmlElement root, String tag) {
-		tag = tag.toLowerCase();
-		Nodes nodes = root.query("./*[local-name()='"+tag+"']");
-		List<HtmlElement> elements = new ArrayList<HtmlElement>();
-		for (int i = 0; i < nodes.size(); i++) {
-			elements.add((HtmlElement)nodes.get(i));
-		}
-		return elements;
-	}
-
-	public static HtmlElement getSingleChildElement(HtmlElement root, String tag) {
-		List<HtmlElement> elements = getChildElements(root, tag);
-		return (elements.size() != 1) ? null : elements.get(0);
-	}
-
-	private void setAttributeOrRemoveIfNull(String attName, String attVal) {
-		if (attName == null) {
-			throw new RuntimeException("Null name for attribute");
-		} if (attVal == null) {
-			this.removeAttributeWithName(attName);
-		} else {
-			this.addAttribute(new Attribute(attName, attVal));
-		}
-	}
-
-	private void removeAttributeWithName(String name) {
-		Attribute attribute = name == null ? null : this.getAttribute(name);
-		if (attribute != null) {
-			this.removeAttribute(attribute);
-		}
 	}
 
 	/** the value should be constructed used StyleBundle

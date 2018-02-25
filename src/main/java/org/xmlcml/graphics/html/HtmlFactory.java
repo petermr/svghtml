@@ -23,6 +23,7 @@ import org.jsoup.nodes.Document;
 import org.xmlcml.graphics.html.util.HtmlUtil;
 import org.xmlcml.graphics.svg.SVGConstants;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.xml.XMLConstants;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Attribute;
@@ -386,7 +387,7 @@ public class HtmlFactory {
 		Element xmlElement = null;
 		String tag = element.getLocalName();
 		String namespaceURI = element.getNamespaceURI();
-		if (!"".equals(namespaceURI) && !HtmlElement.XHTML_NS.equals(namespaceURI)) {
+		if (!"".equals(namespaceURI) && !XMLConstants.XHTML_NS.equals(namespaceURI)) {
 			if (SVGConstants.SVG_NAMESPACE.equals(namespaceURI)) {
 				xmlElement = SVGElement.readAndCreateSVG(element);
 			} else if (abortOnError) {

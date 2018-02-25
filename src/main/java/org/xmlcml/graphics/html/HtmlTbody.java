@@ -18,9 +18,9 @@ package org.xmlcml.graphics.html;
 
 import java.util.ArrayList;
 import java.util.List;
-import nu.xom.Elements;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.xml.XMLConstants;
 
 import nu.xom.Elements;
 
