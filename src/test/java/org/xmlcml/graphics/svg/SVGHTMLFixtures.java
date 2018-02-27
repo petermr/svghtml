@@ -25,6 +25,7 @@ public class SVGHTMLFixtures {
 	
 	private static final String ORG_XMLCML_GRAPHICS = "org/xmlcml/graphics/";
 	public static final File SVG_DIR = new File(RESOURCES_DIR, ORG_XMLCML_GRAPHICS + "svg");
+	public static final File MATHML_DIR = new File(RESOURCES_DIR, ORG_XMLCML_GRAPHICS + "math");
 	public static final File LAYOUT_DIR = new File(RESOURCES_DIR, ORG_XMLCML_GRAPHICS + "layout");
 	
 	public static final File IMAGES_DIR = new File(SVG_DIR, "images");

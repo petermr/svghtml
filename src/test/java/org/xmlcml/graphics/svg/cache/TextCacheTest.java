@@ -6,12 +6,22 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
+import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.fonts.StyleRecord;
+import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
+import org.xmlcml.graphics.svg.text.SVGTextLine;
+import org.xmlcml.graphics.svg.text.SVGTextLineList;
+
+import com.google.common.collect.Multimap;
 
 public class TextCacheTest {
 
@@ -74,4 +84,118 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 				texts.toString());
 
 	}
+	
+	@Test
+	public void testStyles() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		StyleRecordSet styleRecordSet = textCache.getOrCreateHorizontalStyleRecordSet();
+		Assert.assertEquals(2, styleRecordSet.size());
+		Multimap<Double, StyleRecord> styleRecordByFontSize = styleRecordSet.getStyleRecordByFontSize();
+		Assert.assertEquals("sizes", 2, styleRecordByFontSize.size());
+	}
+		
+	@Test
+	public void testLines() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		// assume that y-coords will be the most important structure
+		StyleRecordSet horizontalStyleRecordSet =
+				textCache.getOrCreateHorizontalStyleRecordSet();
+		Double largestFont = horizontalStyleRecordSet.getLargestFontSize();
+		Assert.assertNotNull("largest font not null", largestFont);
+		Assert.assertEquals(6.0, largestFont, 0.1);
+		List<SVGTextLine> textLineList = textCache.getTextLinesForFontSize(largestFont);
+		Assert.assertEquals(19, textLineList.size());
+	}
+		
+	@Test
+	public void testIndents() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache componentCache = new ComponentCache();
+		componentCache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = componentCache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.getTextLinesForLargestFont();
+		Assert.assertEquals(19, textLineList.size());
+		RealArray indents = textLineList.calculateIndents(1);
+		Assert.assertEquals(""
+				+ "(269.7,269.7,278.2,269.7,278.2,269.7,269.7,278.2,269.7,269.7,"
+				+ "269.7,269.7,269.7,279.7,269.7,269.7,269.7,269.7,269.7)", 
+				indents.toString());
+	}
+
+	/**
+	 * this is just the largest font so the answer looks sparse.
+	 * 
+	 */
+	@Test
+	
+	public void testJoinLinesAtIndents() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		File targetDir = new File("target/math/demos/varga/");
+		ComponentCache componentCache = new ComponentCache();
+		componentCache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = componentCache.getOrCreateTextCache();
+		int ndecimal = 1; 
+		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = textCache.createAndJoinIndentedTextLineList(ndecimal, minimumOffsetInFontSize);
+		Assert.assertEquals(15, textLineList.size());
+		LOG.debug("joined: "+textLineList);
+		SVGG g = textLineList.createSVGElement();
+		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "equations7.svg"), 1200., 800.);
+	}
+
+	@Test
+	public void testMinorFontSizes() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		List<Double> minorFontSizes = textCache.getMinorFontSizes();
+		Assert.assertEquals(1, minorFontSizes.size());
+	}
+
+	@Test
+	@Ignore // not yet ready
+	public void testMinorFontTextLines() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.getTextLinesForLargestFont();
+		List<Double> yCoords = textLineList.getYCoords();
+		List<Double> minorFontSizes = textCache.getMinorFontSizes();
+		for (Double fontSize : minorFontSizes) {
+			SVGTextLineList textLines = textCache.getTextLinesForFontSize(fontSize);
+			for (SVGTextLine textLine : textLines) {
+				
+				
+			}
+		}
+		StyleRecordSet horizontalStyleRecordSet =
+				textCache.getOrCreateHorizontalStyleRecordSet();
+		Double largestFont = horizontalStyleRecordSet.getLargestFontSize();
+		List<SVGTextLine> textLineList0 = textCache.getTextLinesForFontSize(largestFont);
+		List<SVGTextLine> minorTextLineList = textCache.getTextLinesForMinorFontSizes();
+		List<Double> minorFontSizes0 = horizontalStyleRecordSet.getMinorFontSizes();
+		
+		Assert.assertEquals(1, minorFontSizes.size());
+	}
+		
+	@Test
+	public void testAddSuscripts() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		textCache.addSuscripts();
+		LOG.debug("TL "+textCache.getOrCreateTextLines());
+		
+	}
+
+
 }

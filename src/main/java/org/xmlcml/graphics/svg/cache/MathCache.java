@@ -6,18 +6,18 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGTextComparator;
-import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.math.SVGMath;
 import org.xmlcml.graphics.svg.text.SVGTextLine;
+import org.xmlcml.graphics.svg.text.SVGTextLineList;
 
-import com.google.common.collect.Multiset;
-
-/** extracts polylines within graphic area.
+/** creates maths from primitives and other caches
+ * Most of the material will be from the sibling textCache
  * 
  * @author pm286
  *
@@ -31,6 +31,7 @@ public class MathCache extends AbstractCache {
 	private List<SVGText> horizontalTextList;
 	private List<SVGMath> mathList;
 	private StyleRecordSet horizontalStyleRecordSet;
+	private SVGTextLineList textLineList;
 	
 	private MathCache() {
 		
@@ -42,20 +43,8 @@ public class MathCache extends AbstractCache {
 		if (siblingTextCache == null) {
 			throw new RuntimeException("null siblingTextCache");
 		}
-		horizontalTextList = getOrCreateHorizontalTextListSortedY();
+		horizontalTextList = siblingTextCache.getOrCreateHorizontalTextListSortedY();
 		// 
-	}
-
-	public List<SVGText> getOrCreateHorizontalTextListSortedY() {
-		if (horizontalTextList == null) {
-			horizontalTextList = siblingTextCache == null ? null : siblingTextCache.getOrCreateHorizontalTexts();
-			if (horizontalTextList == null) {
-				horizontalTextList = new ArrayList<SVGText>();
-			}
-			Collections.sort(horizontalTextList, new SVGTextComparator(SVGTextComparator.TextComparatorType.Y_COORD));
-			horizontalStyleRecordSet = new StyleRecordFactory().createStyleRecordSet(horizontalTextList);
-		}
-		return horizontalTextList;
 	}
 
 	public List<SVGMath> getOrCreateMathList() {
@@ -86,19 +75,11 @@ public class MathCache extends AbstractCache {
 		mathList = null;
 	}
 
-	public StyleRecordSet getOrCreateHorizontalTextStyleMultiset() {
-		if (horizontalStyleRecordSet == null) {
-			horizontalStyleRecordSet = new StyleRecordFactory().createStyleRecordSet(getOrCreateHorizontalTextListSortedY());
-		}
-		return horizontalStyleRecordSet;
+	public SVGTextLineList createTextLineList() {
+		textLineList = siblingTextCache.getTextLinesForLargestFont();
+		return textLineList;
 	}
 
-	public void createTextLineList() {
-		TextCache textCache = ownerComponentCache.getOrCreateTextCache();
-		// assume that y-coords will be the most important structure
-		StyleRecordSet styleRecordSet = getOrCreateHorizontalTextStyleMultiset();
-		Double largestFont = styleRecordSet.getLargestFontSize();
-		List<SVGTextLine> textLineList = textCache.getTextLinesForFontSize(largestFont);
-	}
+
 
 }

@@ -87,7 +87,7 @@ public abstract class AbstractCMElement extends Element implements XMLConstants 
 		return element == null ? null : element.getAttributeValue(CLASS);
 	}
 
-	protected void copyAttributesChildrenElements(GraphicsElement element) {
+	protected void copyAttributesChildrenElements(AbstractCMElement element) {
 		copyAttributesFrom(element);
 	    copyChildrenFrom(element);
 	    copyNamespaces(element);

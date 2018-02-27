@@ -254,17 +254,33 @@ public class MathMLElement extends AbstractCMElement implements MathMLConstants 
 		MathMLElement htmlElement = null;
 		String tag = element.getLocalName();
 		String namespaceURI = element.getNamespaceURI();
-		if (!ignoreNamespaces && !XHTML_NS.equals(namespaceURI)) {
-			// might be SVG 
+		if (!ignoreNamespaces && !MATHML_NS.equals(namespaceURI)) {
+			// might be SVG or MathML 
 			if (!namespaceURI.equals("")) {
 				LOG.trace("multiple Namespaces "+namespaceURI);
 			}
 			LOG.trace("Unknown namespace: "+namespaceURI);
 			htmlElement = addUnknownTag(namespaceURI,tag);
+		} else if(MathMLApply.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLApply();
 		} else if(MathMLCi.TAG.equalsIgnoreCase(tag)) {
 			htmlElement = new MathMLCi();
 		} else if(MathMLCn.TAG.equalsIgnoreCase(tag)) {
 			htmlElement = new MathMLCn();
+		} else if(MathMLDiff.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLDiff();
+		} else if(MathMLEq.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLEq();
+		} else if(MathMLExp.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLExp();
+		} else if(MathMLMath.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLMath();
+		} else if(MathMLMinus.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLMinus();
+		} else if(MathMLPlus.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLPlus();
+		} else if(MathMLTimes.TAG.equalsIgnoreCase(tag)) {
+			htmlElement = new MathMLTimes();
 		} else if (TAGSET.contains(tag.toUpperCase())) {
 			htmlElement = new MathMLElement(tag.toLowerCase());
 		} else {
@@ -290,12 +306,6 @@ public class MathMLElement extends AbstractCMElement implements MathMLConstants 
 		}
 		return htmlElement;
 		
-	}
-
-	protected void copyAttributesChildrenElements(AbstractCMElement element) {
-		copyAttributesFrom(element);
-        copyChildrenFrom(element);
-        copyNamespaces(element);
 	}
 
 	private static MathMLElement addUnknownTag(String namespaceURI, String tag) {
@@ -400,22 +410,6 @@ public class MathMLElement extends AbstractCMElement implements MathMLConstants 
 		return (elements.size() != 1) ? null : elements.get(0);
 	}
 
-//	private void setAttributeOrRemoveIfNull(String attName, String attVal) {
-//		if (attName == null) {
-//			throw new RuntimeException("Null name for attribute");
-//		} if (attVal == null) {
-//			this.removeAttributeWithName(attName);
-//		} else {
-//			this.addAttribute(new Attribute(attName, attVal));
-//		}
-//	}
-//
-//	private void removeAttributeWithName(String name) {
-//		Attribute attribute = name == null ? null : this.getAttribute(name);
-//		if (attribute != null) {
-//			this.removeAttribute(attribute);
-//		}
-//	}
 
 
 }

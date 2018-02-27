@@ -6,7 +6,9 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -14,6 +16,7 @@ import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
 import org.xmlcml.graphics.svg.SVGRect;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.SVGTextComparator;
 import org.xmlcml.graphics.svg.StyleAttributeFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
@@ -21,6 +24,7 @@ import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.normalize.TextDecorator;
 import org.xmlcml.graphics.svg.plot.AnnotatedAxis;
 import org.xmlcml.graphics.svg.text.SVGTextLine;
+import org.xmlcml.graphics.svg.text.SVGTextLineList;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
@@ -61,6 +65,11 @@ public class TextCache extends AbstractCache {
 	private Multimap<Double, SVGText> horizontalTextsByYCoordinate;
 	private Multimap<Double, SVGText> horizontalTextsByFontSize;
 	private int coordinateDecimalPlaces = 1;
+	private SVGTextLineList textLineListForLargestFont;
+	private StyleRecordSet horizontalStyleRecordSet;
+	private List<SVGText> horizontalTextListSortedY;
+	private Double largestCurrentFont;
+	private SVGTextLineList textLines;
 
 	
 	public TextCache(ComponentCache svgCache) {
@@ -577,21 +586,43 @@ public class TextCache extends AbstractCache {
 		return horizontalTextsByFontSize;
 	}
 
-	public List<SVGTextLine> getTextLinesForFontSize(Double largestFont) {
+	public SVGTextLineList getTextLinesForFontSize(Double fontSize) {
 		List<SVGTextLine> textLineList = new ArrayList<SVGTextLine>();
 		Multimap<Double, SVGText> textByYCoord = getOrCreateHorizontalTextsByYCoordinate();
 		List<Double> yCoords =  new ArrayList<Double>(textByYCoord.keySet());
 		Collections.sort(yCoords);
 		for (Double y : yCoords) {
 			List<SVGText> lineTexts = new ArrayList<SVGText>(textByYCoord.get(y));
-			LOG.trace(lineTexts);
+			LOG.trace(">>"+lineTexts);
 			SVGTextLine textLine = new SVGTextLine(lineTexts);
-			if (largestFont.equals(textLine.getOrCreateCommonFontSize())) {
+			Double commonFontSize = textLine.getOrCreateCommonFontSize();
+			if (fontSize.equals(commonFontSize)) {
 				textLineList.add(textLine);
 				LOG.trace("ADD "+textLine);
 			}
 		}
-		return textLineList;
+		textLineListForLargestFont = new SVGTextLineList(textLineList);
+		return textLineListForLargestFont;
+	}
+
+	/** get the text as lines of different Y.
+	 * 
+	 * @return
+	 */
+	public SVGTextLineList getOrCreateTextLines() {
+		if (textLines == null) {
+			List<SVGTextLine> textLineList = new ArrayList<SVGTextLine>();
+			Multimap<Double, SVGText> textByYCoord = getOrCreateHorizontalTextsByYCoordinate();
+			List<Double> yCoords =  new ArrayList<Double>(textByYCoord.keySet());
+			Collections.sort(yCoords);
+			for (Double y : yCoords) {
+				List<SVGText> lineTexts = new ArrayList<SVGText>(textByYCoord.get(y));
+				SVGTextLine textLine = new SVGTextLine(lineTexts);
+				textLineList.add(textLine);
+			}
+			textLines = new SVGTextLineList(textLineList);
+		}
+		return textLines;
 	}
 
 	public int getCoordinateDecimalPlaces() {
@@ -602,5 +633,112 @@ public class TextCache extends AbstractCache {
 		this.coordinateDecimalPlaces = decimalPlaces;
 	}
 
+	public SVGTextLineList getTextLinesForLargestFont() {
+		// assume that y-coords will be the most important structure
+		StyleRecordSet styleRecordSet = getOrCreateHorizontalStyleRecordSet();
+		largestCurrentFont = styleRecordSet.getLargestFontSize();
+		textLineListForLargestFont = this.getTextLinesForFontSize(largestCurrentFont);
+		return textLineListForLargestFont;
+	}
+
+	public StyleRecordSet getOrCreateHorizontalStyleRecordSet() {
+		if (horizontalStyleRecordSet == null) {
+			List<SVGText> orCreateHorizontalTextListSortedY = getOrCreateHorizontalTextListSortedY();
+			horizontalStyleRecordSet = new StyleRecordFactory().createStyleRecordSet(orCreateHorizontalTextListSortedY);
+		}
+		return horizontalStyleRecordSet;
+	}
+
+	public List<SVGText> getOrCreateHorizontalTextListSortedY() {
+		if (horizontalTextListSortedY == null) {
+			horizontalTextListSortedY = this.getOrCreateHorizontalTexts();
+			if (horizontalTextListSortedY == null) {
+				horizontalTextListSortedY = new ArrayList<SVGText>();
+			}
+			Collections.sort(horizontalTextListSortedY, new SVGTextComparator(SVGTextComparator.TextComparatorType.Y_COORD));
+		}
+		return horizontalTextListSortedY;
+	}
 	
+	/** joins lines if they are indented.
+	 * 
+	 * @return
+	 */
+	public SVGTextLineList createAndJoinIndentedTextLineList(int ndecimal, double minIndentFactor) {
+		getTextLinesForLargestFont();
+		RealArray xLeftArray = textLineListForLargestFont.calculateIndents(ndecimal);
+		double minimumLeftX = xLeftArray.getMin();
+		for (int index = textLineListForLargestFont.size() - 1; index > 0; index--) {
+			SVGTextLine textLine = textLineListForLargestFont.get(index);
+			if (textLine.isLeftIndented(minIndentFactor * largestCurrentFont, minimumLeftX)) {
+				LOG.debug("indent "+index+"; "+textLine);
+				if (index > 0) {
+					SVGTextLine precedingTextLine = textLineListForLargestFont.get(index - 1);
+					precedingTextLine.append(textLine, largestCurrentFont);
+				}
+				textLineListForLargestFont.remove(index);
+			}
+		}
+		return textLineListForLargestFont;
+	}
+
+	public List<SVGTextLine> getTextLinesForMinorFontSizes() {
+		LOG.error("getTextLinesForMinorFontSizes NYI");
+		return null;
+	}
+
+	public List<Double> getMinorFontSizes() {
+		StyleRecordSet horizontalStyleRecordSet =
+				getOrCreateHorizontalStyleRecordSet();
+		List<Double> minorFontSizes = horizontalStyleRecordSet.getMinorFontSizes();
+		return minorFontSizes;
+	}
+
+	/** merges lines to create subscripted lines
+	 * removes any lines merged as suscripts
+	 */
+	public void addSuscripts() {
+		SVGTextLineList allTextLineList = getOrCreateTextLines();
+		SVGTextLineList largeTextLineList = getTextLinesForLargestFont();
+		allTextLineList.removeAll(largeTextLineList);
+		if (largeTextLineList.size() == 0 || allTextLineList.size() == 0) {
+			return;
+		}
+		
+		int indexAll = 0;
+		SVGTextLine lineAll = allTextLineList.get(0);
+		Real2Range allBBox = lineAll.getBoundingBox().format(1);
+		
+		int indexLarge = 0;
+		SVGTextLine lineLarge = largeTextLineList.get(0);
+		Real2Range largeBBox = lineLarge.getBoundingBox().format(1);
+		
+		List<SVGTextLine> removedLines = new ArrayList<SVGTextLine>();
+		while (indexAll < allTextLineList.size() && indexLarge < largeTextLineList.size()) {
+			// if allLine is lower Y or identical to largeLine advance it
+			if (allBBox.getYMax() < largeBBox.getYMin()) {
+				if (++indexAll >= allTextLineList.size()) break;
+				lineAll = allTextLineList.get(indexAll);
+				allBBox = lineAll.getBoundingBox().format(1);
+			} else if (largeBBox.getYMax() < allBBox.getYMin()) {
+				if (++indexLarge >= largeTextLineList.size()) break;
+				lineLarge = largeTextLineList.get(indexLarge);
+				largeBBox = lineLarge.getBoundingBox().format(1);
+			} else {
+				lineLarge.mergeLine(lineAll);
+				removedLines.add(lineAll);
+				if (++indexAll >= allTextLineList.size()) break;
+				lineAll = allTextLineList.get(indexAll);
+				allBBox = lineAll.getBoundingBox().format(1);
+			}
+		}
+		textLines.removeAll(removedLines);
+		textLines.addAll(largeTextLineList);
+	}
+
+
+
+
+
+
 }

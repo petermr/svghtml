@@ -388,5 +388,12 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 		return largestFont;
 	}
 
+
+	public List<Double> getMinorFontSizes() {
+		List<Double> sortedFontSizes = getSortedFontSizesDescending();
+		List<Double> minorFontSizes = sortedFontSizes.subList(1,  sortedFontSizes.size());
+		return minorFontSizes;
+	}
+
 	
 }
