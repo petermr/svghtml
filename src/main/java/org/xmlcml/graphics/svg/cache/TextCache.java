@@ -8,9 +8,10 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
-import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlDiv;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -71,6 +72,7 @@ public class TextCache extends AbstractCache {
 	private List<SVGText> horizontalTextListSortedY;
 	private Double largestCurrentFont;
 	private SVGTextLineList textLines;
+	private SVGTextLineList processedTextLines;
 
 	
 	public TextCache(ComponentCache svgCache) {
@@ -679,16 +681,12 @@ public class TextCache extends AbstractCache {
 		for (int index = lines.size() - 1; index > 0; index--) {
 			SVGTextLine textLine = lines.get(index);
 			if (textLine.isLeftIndented(minIndentFactor * fontSize, minimumLeftX)) {
-				LOG.trace("indent "+index+"; "+textLine);
 				if (index > 0) {
 					SVGTextLine precedingTextLine = lines.get(index - 1);
-//					LOG.debug("PP "+precedingTextLine.getTextValue()+"; "+textLine.getTextValue());
 					precedingTextLine.append(textLine, fontSize);
 					precedingTextLine.forceFullSVGElement();
-//					LOG.debug("PPP "+precedingTextLine.getTextValue());
 				}
 				lines.remove(index);
-//				LOG.debug("MERGED "+lines.size()+"; "+lines);
 			}
 		}
 		return lines;
@@ -759,8 +757,25 @@ public class TextCache extends AbstractCache {
 		addSuscripts();
 		int ndecimal = 1; 
 		double minimumOffsetInFontSize = 1.3;
-		SVGTextLineList textLineList = joinFollowingIndentedLines(getOrCreateTextLines(), ndecimal, minimumOffsetInFontSize, getLargestCurrentFont());
-		return textLineList;
+		processedTextLines = joinFollowingIndentedLines(getOrCreateTextLines(), ndecimal, minimumOffsetInFontSize, getLargestCurrentFont());
+		return processedTextLines;
+	}
+
+	public SVGTextLineList getProcessedTextLines() {
+		return processedTextLines;
+	}
+
+	public HtmlElement createHtmlElement() {
+		HtmlElement htmlDiv = new HtmlDiv();
+		if (processedTextLines != null) {
+			for (SVGTextLine textLine : processedTextLines) {
+				HtmlElement lineElement = textLine.createHtmlElement();
+				htmlDiv.appendChild(lineElement);
+//				LOG.debug(textLine);
+			}
+		}
+		return htmlDiv;
+		
 	}
 
 }

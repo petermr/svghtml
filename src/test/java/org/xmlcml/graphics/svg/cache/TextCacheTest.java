@@ -1,6 +1,7 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.log4j.Level;
@@ -9,8 +10,9 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.xmlcml.euclid.RealArray;
-import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlUl;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -20,6 +22,7 @@ import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
 import org.xmlcml.graphics.svg.text.SVGTextLine;
 import org.xmlcml.graphics.svg.text.SVGTextLineList;
+import org.xmlcml.xml.XMLUtil;
 
 import com.google.common.collect.Multimap;
 
@@ -254,6 +257,30 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
 		SVGSVG.wrapAndWriteAsSVG(textLineList.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines7.svg"));
 		
+	}
+
+	@Test
+	public void testCreateHTML2() throws IOException {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations2.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		HtmlElement htmlElement = textCache.createHtmlElement();
+		XMLUtil.debug(htmlElement, new File("target/html/equations2.html"), 1);
+	}
+
+	@Test
+	public void testCreateHTML() throws IOException {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+//		SVGSVG.wrapAndWriteAsSVG(textLineList.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines7.svg"));
+		HtmlElement htmlElement = textCache.createHtmlElement();
+		XMLUtil.debug(htmlElement, new File("target/html/equations7.html"), 1);
+
 	}
 
 

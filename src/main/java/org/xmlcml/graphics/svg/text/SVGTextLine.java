@@ -11,6 +11,10 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlP;
+import org.xmlcml.graphics.html.HtmlSub;
+import org.xmlcml.graphics.html.HtmlSup;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -35,6 +39,8 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 	}
 	private final static String TAG = "textLine";
 	private final static double YEPS = 0.0001;
+	private static final double FONT_EPS = 0.1;
+	private static final double SUS_EPS = 0.1;
 
 	private List<SVGText> lineTexts;
 	private Double fontSize;
@@ -220,12 +226,13 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 	 */
 	public void append(SVGTextLine appendTextLine, double deltaX) {
 		List<SVGText> appendLineTexts = new ArrayList<SVGText>(appendTextLine.lineTexts);
-		double offset = this.getRightX() + deltaX - appendTextLine.getLeftX();
+		double xOffset = this.getRightX() + deltaX - appendTextLine.getLeftX();
+		double yOffset = appendTextLine.getY();
 		for (SVGText appendText : appendLineTexts) {
 			SVGText textCopy = (SVGText) appendText.copy();
 			// end of "this" + space and relative position in appendLine
-			textCopy.setX(textCopy.getXArray().plus(offset));
-			textCopy.setY(this.getY());
+			textCopy.setX(textCopy.getXArray().plus(xOffset));
+			textCopy.setY(this.getY() + textCopy.getY() - yOffset);
 			this.lineTexts.add(textCopy);
 		}
 		clearVariables();
@@ -344,6 +351,30 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 		lineTexts.addAll(textLine.lineTexts);
 		forceFullSVGElement();
 		this.sortAndGetCommonValues();
+	}
+
+	public HtmlElement createHtmlElement() {
+		HtmlElement p = new HtmlP();
+		for (SVGText text : lineTexts) {
+			
+			double tSize = text.getFontSize();
+//			LOG.debug(tSize+"; "+fontSize);
+			Double textY = text.getY();
+			Double thisY = this.getY();
+			LOG.debug(thisY+" ; "+textY+"; "+text.getText());
+			if (textY - thisY > SUS_EPS) {
+				HtmlSub sub = new HtmlSub();
+				sub.appendChild(text.getText());
+				p.appendChild(sub);
+			} else if (thisY - textY  > SUS_EPS) {
+				HtmlSup sup = new HtmlSup();
+				sup.appendChild(text.getText());
+				p.appendChild(sup);
+			} else {
+				p.appendChild(text.getText());
+			}
+		}
+		return p;
 	}
 
 	
