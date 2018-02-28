@@ -187,13 +187,72 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 	}
 		
 	@Test
+	public void testAddSuscript0() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equation1.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		textCache.addSuscripts();
+		SVGTextLineList textLines = textCache.getOrCreateTextLines();
+		LOG.debug("TL "+textLines.size()+"; "+textLines);
+		LOG.debug("TLL: "+textLines.getTextLineList());
+		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "equation1.svg"));
+		
+	}
+
+	@Test
 	public void testAddSuscripts() {
 		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
 		textCache.addSuscripts();
-		LOG.debug("TL "+textCache.getOrCreateTextLines());
+		SVGTextLineList textLines = textCache.getOrCreateTextLines();
+		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "suscripts.svg"));
+		
+	}
+
+	@Test
+	public void testAddSuscriptsAndJoin0() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations2.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		textCache.addSuscripts();
+		SVGTextLineList textLines = textCache.getOrCreateTextLines();
+		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines02.svg"));
+		int ndecimal = 1; 
+		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = textCache.joinFollowingIndentedLines(textLines, ndecimal, minimumOffsetInFontSize, textCache.getLargestCurrentFont());
+		List<SVGTextLine> textLines1 = textLineList.getTextLineList();
+		SVGSVG.wrapAndWriteAsSVG(textLines1, new File(new File("target/math/demos/varga/"), "wrappedLines12.svg"));
+	}
+
+	@Test
+	public void testAddSuscriptsAndJoin() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		textCache.addSuscripts();
+		SVGTextLineList textLines = textCache.getOrCreateTextLines();
+		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines0.svg"));
+		int ndecimal = 1; 
+		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = textCache.joinFollowingIndentedLines(textLines, ndecimal, minimumOffsetInFontSize, textCache.getLargestCurrentFont());
+		List<SVGTextLine> textLines1 = textLineList.getTextLineList();
+		SVGSVG.wrapAndWriteAsSVG(textLines1, new File(new File("target/math/demos/varga/"), "wrappedLines.svg"));
+		
+	}
+
+	@Test
+	public void testAddSuscriptsAndJoin1() {
+		File svgFile = new File(SVGHTMLFixtures.MATH_DIR, "equations7.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		SVGSVG.wrapAndWriteAsSVG(textLineList.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines7.svg"));
 		
 	}
 

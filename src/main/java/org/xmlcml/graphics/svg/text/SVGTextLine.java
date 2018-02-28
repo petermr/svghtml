@@ -9,12 +9,15 @@ import java.util.ListIterator;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.SVGTextComparator;
+
+import nu.xom.Element;
+import nu.xom.Elements;
 
 /** holds a line for text, including subscripts, etc.
  * 
@@ -25,17 +28,20 @@ import org.xmlcml.graphics.svg.SVGTextComparator;
  * @author pm286
  *
  */
-public class SVGTextLine implements List<SVGText> {
+public class SVGTextLine extends SVGG implements List<SVGText> {
 	private static final Logger LOG = Logger.getLogger(SVGTextLine.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
-	
+	private final static String TAG = "textLine";
+	private final static double YEPS = 0.0001;
+
 	private List<SVGText> lineTexts;
 	private Double fontSize;
 	private String fontName;
 
 	public SVGTextLine() {
+		super(TAG);
 		this.lineTexts = new ArrayList<SVGText>();
 	}
 
@@ -91,8 +97,12 @@ public class SVGTextLine implements List<SVGText> {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(""+fontName+"; "+fontSize+"\n");
-		sb.append(lineTexts.toString());
+		sb.append(getLineTextString());
 		return sb.toString();
+	}
+	
+	public String getLineTextString() {
+		return lineTexts == null ? null : lineTexts.toString();
 	}
 
 	public String getTextValue() {
@@ -210,24 +220,14 @@ public class SVGTextLine implements List<SVGText> {
 	 */
 	public void append(SVGTextLine appendTextLine, double deltaX) {
 		List<SVGText> appendLineTexts = new ArrayList<SVGText>(appendTextLine.lineTexts);
-		double offset0 = this.getRightX() + deltaX;
-		double appendLeftX = appendTextLine.getLeftX();
-		double offset = offset0 /*+ textCopy.getX()*/ - appendLeftX;
-		double y = this.getY();
-		LOG.debug(offset0+"; "+appendLeftX);
+		double offset = this.getRightX() + deltaX - appendTextLine.getLeftX();
 		for (SVGText appendText : appendLineTexts) {
 			SVGText textCopy = (SVGText) appendText.copy();
-			LOG.debug("append copy: "+textCopy+"; "+textCopy.getText().length());
 			// end of "this" + space and relative position in appendLine
-			RealArray xArray = textCopy.getXArray();
-			LOG.debug("off "+offset+"; xArray"+xArray); 
-			xArray = xArray.plus(offset);
-			LOG.debug("; xArray1"+xArray); 
-			textCopy.setX(xArray);
-			textCopy.setY(y);
+			textCopy.setX(textCopy.getXArray().plus(offset));
+			textCopy.setY(this.getY());
 			this.lineTexts.add(textCopy);
 		}
-		LOG.debug(">"+this.lineTexts);
 		clearVariables();
 	}
 
@@ -246,51 +246,103 @@ public class SVGTextLine implements List<SVGText> {
 		fontName = null;
 	}
 
-	public SVGElement createSVGElement() {
-		SVGG g = new SVGG();
-		for (SVGText text : lineTexts) {
-			g.appendChild(text.copy());
+	/** copy text into child elements.
+	 * 
+	 * @return
+	 */
+	public SVGElement forceFullSVGElement() {
+		Elements childElements = this.getChildElements();
+		removeAllChildTextElements(childElements);
+		getOrCreateFullSVGElement();
+		return this;
+	}
+
+	private void removeAllChildTextElements(Elements childElements) {
+		for (int i = childElements.size() - 1; i >= 0; i--) {
+			Element childElement = childElements.get(i);
+			if (childElement instanceof SVGText) {
+				childElement.detach();
+			}
 		}
-		return g;
+	}
+	
+	/** copy text into child elements.
+	 * 
+	 * @return
+	 */
+	public SVGElement getOrCreateFullSVGElement() {
+		if (this.getChildElements().size() == 0) {
+			for (SVGText text : lineTexts) {
+				LOG.trace("appending text: "+text.toXML());
+				this.appendChild(text.copy());
+			}
+		}
+		return this;
 	}
 	
 	public Real2Range getBoundingBox() {
+		getOrCreateFullSVGElement();
 		Real2Range bbox = lineTexts.size() == 0 ? null : lineTexts.get(0).getBoundingBox();
 		if (bbox != null) {
 			for (int i = 1; i < lineTexts.size(); i++) {
 				bbox = bbox.plus(lineTexts.get(i).getBoundingBox());
+				LOG.trace("textLine "+bbox);
 			}
 		}
+//		LOG.debug("box "+bbox);
 		return bbox;
 	}
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((lineTexts == null) ? 0 : lineTexts.hashCode());
-		return result;
+	/** compares textLines
+	 * first uses getY(), then compares getTextValue()
+	 * @param line1
+	 * @return
+	 */
+	public int compareTo(SVGTextLine line2) {
+		String textValue = this.getTextValue();
+		String textValue2 = line2.getTextValue();
+		Double y = this.getY();
+		Double y2 = line2.getY();
+//		LOG.debug(y+"; "+y2);
+		if (Real.isEqual(y, y2, YEPS)) {
+			int textDiff = textValue.compareTo(textValue2);
+			if (textDiff != 0) {
+				return textDiff;
+			}
+//			LOG.debug("same" );
+			return 0;
+		} else {
+			return (this.getY() - line2.getY()) < 0 ? -1 : 1;
+		}
+		
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		SVGTextLine other = (SVGTextLine) obj;
-		if (lineTexts == null) {
-			if (other.lineTexts != null)
-				return false;
-		} else if (!lineTexts.equals(other.lineTexts))
-			return false;
-		return true;
-	}
+//	public int hashCode() {
+//		final int prime = 31;
+//		int result = 1;
+//		result = prime * result + ((lineTexts == null) ? 0 : lineTexts.hashCode());
+//		return result;
+//	}
+//
+//	public boolean equals(Object obj) {
+//		if (this == obj)
+//			return true;
+//		if (obj == null)
+//			return false;
+//		if (getClass() != obj.getClass())
+//			return false;
+//		SVGTextLine other = (SVGTextLine) obj;
+//		if (lineTexts == null) {
+//			if (other.lineTexts != null)
+//				return false;
+//		} else if (!lineTexts.equals(other.lineTexts))
+//			return false;
+//		return true;
+//	}
 
 	public void mergeLine(SVGTextLine textLine) {
 		lineTexts.addAll(textLine.lineTexts);
+		forceFullSVGElement();
 		this.sortAndGetCommonValues();
 	}
 

@@ -60,6 +60,11 @@ public class SVGG extends SVGElement {
 	public SVGG() {
 		super(TAG);
 	}
+	
+	public SVGG(String clazz) {
+		this();
+		this.setClassName(clazz);
+	}
 
 	public SVGG(SVGElement element) {
         super(element);
@@ -139,17 +144,17 @@ public class SVGG extends SVGElement {
 		addAttribute(new Attribute(TRANSFORM, SCALE + "("+scale+","+scale+")"));
 	}
 	
-	/** 
-	 * Traverse all children recursively
-	 * 
-	 * @return null by default
-	 */
-	public Real2Range getBoundingBox() {
-		if (boundingBoxNeedsUpdating()) {
-			aggregateBBfromSelfAndDescendants();
-		}
-		return boundingBox;
-	}
+//	/** 
+//	 * Traverse all children recursively
+//	 * 
+//	 * @return null by default
+//	 */
+//	public Real2Range getBoundingBox() {
+//		if (boundingBoxNeedsUpdating()) {
+//			aggregateBBfromSelfAndDescendants();
+//		}
+//		return boundingBox;
+//	}
 
 	/** 
 	 * Makes a new list composed of the SVGGs in the list

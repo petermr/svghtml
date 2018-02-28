@@ -117,10 +117,13 @@ public class SVGSVG extends SVGElement {
 	public static SVGSVG wrapAndWriteAsSVG(List<? extends SVGElement> svgList, File file) {
 		SVGG g = new SVGG();
 		if (svgList != null) {
-			for (AbstractCMElement element : svgList) {
+			for (SVGElement element : svgList) {
 				g.appendChild(element.copy());
 			}
 		}
+		g.setBoundingBoxCached(false);
+		g.getBoundingBox();
+		LOG.debug("wrote "+file.getAbsolutePath());
 		return wrapAndWriteAsSVG(g, file);
 	}
 	
@@ -195,15 +198,15 @@ public class SVGSVG extends SVGElement {
 		this.begin = d;
 	}
 	
-	/** traverse all children recursively
-	 * @return bbox
-	 */
-	public Real2Range getBoundingBox() {
-		if (boundingBoxNeedsUpdating()) {
-			aggregateBBfromSelfAndDescendants();
-		}
-		return boundingBox;
-	}
+//	/** traverse all children recursively
+//	 * @return bbox
+//	 */
+//	public Real2Range getBoundingBox() {
+//		if (boundingBoxNeedsUpdating()) {
+//			aggregateBBfromSelfAndDescendants();
+//		}
+//		return boundingBox;
+//	}
 
 
 	/**

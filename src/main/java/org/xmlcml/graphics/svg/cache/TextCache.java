@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.svg.SVGElement;
@@ -37,6 +37,7 @@ import com.google.common.collect.Multiset;
  *
  */
 public class TextCache extends AbstractCache {
+	private static final int MIN_DIFF_TEXT = 10;
 	static final Logger LOG = Logger.getLogger(TextCache.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -604,6 +605,8 @@ public class TextCache extends AbstractCache {
 		textLineListForLargestFont = new SVGTextLineList(textLineList);
 		return textLineListForLargestFont;
 	}
+	
+	
 
 	/** get the text as lines of different Y.
 	 * 
@@ -666,20 +669,29 @@ public class TextCache extends AbstractCache {
 	 */
 	public SVGTextLineList createAndJoinIndentedTextLineList(int ndecimal, double minIndentFactor) {
 		getTextLinesForLargestFont();
-		RealArray xLeftArray = textLineListForLargestFont.calculateIndents(ndecimal);
+		textLineListForLargestFont = joinFollowingIndentedLines(textLineListForLargestFont, ndecimal, minIndentFactor, largestCurrentFont);
+		return textLineListForLargestFont;
+	}
+
+	public SVGTextLineList joinFollowingIndentedLines(SVGTextLineList lines, int ndecimal, double minIndentFactor, Double fontSize) {
+		RealArray xLeftArray = lines.calculateIndents(ndecimal);
 		double minimumLeftX = xLeftArray.getMin();
-		for (int index = textLineListForLargestFont.size() - 1; index > 0; index--) {
-			SVGTextLine textLine = textLineListForLargestFont.get(index);
-			if (textLine.isLeftIndented(minIndentFactor * largestCurrentFont, minimumLeftX)) {
-				LOG.debug("indent "+index+"; "+textLine);
+		for (int index = lines.size() - 1; index > 0; index--) {
+			SVGTextLine textLine = lines.get(index);
+			if (textLine.isLeftIndented(minIndentFactor * fontSize, minimumLeftX)) {
+				LOG.trace("indent "+index+"; "+textLine);
 				if (index > 0) {
-					SVGTextLine precedingTextLine = textLineListForLargestFont.get(index - 1);
-					precedingTextLine.append(textLine, largestCurrentFont);
+					SVGTextLine precedingTextLine = lines.get(index - 1);
+//					LOG.debug("PP "+precedingTextLine.getTextValue()+"; "+textLine.getTextValue());
+					precedingTextLine.append(textLine, fontSize);
+					precedingTextLine.forceFullSVGElement();
+//					LOG.debug("PPP "+precedingTextLine.getTextValue());
 				}
-				textLineListForLargestFont.remove(index);
+				lines.remove(index);
+//				LOG.debug("MERGED "+lines.size()+"; "+lines);
 			}
 		}
-		return textLineListForLargestFont;
+		return lines;
 	}
 
 	public List<SVGTextLine> getTextLinesForMinorFontSizes() {
@@ -700,7 +712,7 @@ public class TextCache extends AbstractCache {
 	public void addSuscripts() {
 		SVGTextLineList allTextLineList = getOrCreateTextLines();
 		SVGTextLineList largeTextLineList = getTextLinesForLargestFont();
-		allTextLineList.removeAll(largeTextLineList);
+		allTextLineList.removeDuplicates(largeTextLineList);
 		if (largeTextLineList.size() == 0 || allTextLineList.size() == 0) {
 			return;
 		}
@@ -715,18 +727,21 @@ public class TextCache extends AbstractCache {
 		
 		List<SVGTextLine> removedLines = new ArrayList<SVGTextLine>();
 		while (indexAll < allTextLineList.size() && indexLarge < largeTextLineList.size()) {
-			// if allLine is lower Y or identical to largeLine advance it
-			if (allBBox.getYMax() < largeBBox.getYMin()) {
+			if (allBBox.hasAllYCompletelyLowerThan(largeBBox)) {
 				if (++indexAll >= allTextLineList.size()) break;
 				lineAll = allTextLineList.get(indexAll);
 				allBBox = lineAll.getBoundingBox().format(1);
-			} else if (largeBBox.getYMax() < allBBox.getYMin()) {
+			} else if (largeBBox.hasAllYCompletelyLowerThan(allBBox)) {
 				if (++indexLarge >= largeTextLineList.size()) break;
 				lineLarge = largeTextLineList.get(indexLarge);
 				largeBBox = lineLarge.getBoundingBox().format(1);
 			} else {
-				lineLarge.mergeLine(lineAll);
-				removedLines.add(lineAll);
+				if (lineLarge.compareTo(lineAll) == 0) {
+					LOG.trace("SKIPPED DUPLICATE");
+				} else {
+					lineLarge.mergeLine(lineAll);
+					removedLines.add(lineAll);
+				}
 				if (++indexAll >= allTextLineList.size()) break;
 				lineAll = allTextLineList.get(indexAll);
 				allBBox = lineAll.getBoundingBox().format(1);
@@ -736,9 +751,16 @@ public class TextCache extends AbstractCache {
 		textLines.addAll(largeTextLineList);
 	}
 
+	public Double getLargestCurrentFont() {
+		return largestCurrentFont;
+	}
 
-
-
-
+	public SVGTextLineList addSuscriptsAndJoinWrappedLines() {
+		addSuscripts();
+		int ndecimal = 1; 
+		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = joinFollowingIndentedLines(getOrCreateTextLines(), ndecimal, minimumOffsetInFontSize, getLargestCurrentFont());
+		return textLineList;
+	}
 
 }

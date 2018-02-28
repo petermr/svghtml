@@ -1,5 +1,6 @@
 package org.xmlcml.graphics.svg.text;
 
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -8,18 +9,21 @@ import java.util.ListIterator;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.graphics.svg.SVGG;
 
-public class SVGTextLineList implements List<SVGTextLine> {
+public class SVGTextLineList extends SVGG implements List<SVGTextLine> {
 	private static final Logger LOG = Logger.getLogger(SVGTextLineList.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	public final static String TAG = "textLineList";
 
 	private List<SVGTextLine> textLineList;
 	
 	public SVGTextLineList() {
+		super(TAG);
 		textLineList = new ArrayList<SVGTextLine>();
 	}
 
@@ -141,7 +145,7 @@ public class SVGTextLineList implements List<SVGTextLine> {
 	public SVGG createSVGElement() {
 		SVGG g = new SVGG();
 		for (SVGTextLine textLine : textLineList) {
-			g.appendChild(textLine.createSVGElement().copy());
+			g.appendChild(textLine.forceFullSVGElement().copy());
 		}
 		return g;
 	}
@@ -152,5 +156,36 @@ public class SVGTextLineList implements List<SVGTextLine> {
 			yCoordList.add((Double)textLine.getY());
 		}
 		return yCoordList;
+	}
+
+	public List<SVGTextLine> getTextLineList() {
+		return textLineList;
+	}
+	
+	public Real2Range getBoundingBox() {
+		Real2Range bbox = textLineList.size() == 0 ? null : textLineList.get(0).getBoundingBox();
+		if (bbox != null) {
+			for (int i = 1; i < textLineList.size(); i++) {
+				bbox = bbox.plus(textLineList.get(i).getBoundingBox());
+			}
+		}
+		return bbox;
+	}
+
+	/** removes lines in this which "are the same".
+	 * crude quadratic since we don't yet know what equality is
+	 * 
+	 * @param textLineList
+	 */
+	public void removeDuplicates(SVGTextLineList textLineList2) {
+		for (int index = this.size() - 1; index >= 0; index--) {
+			SVGTextLine lineIndex = this.get(index);
+			for (int index2 = 0; index2 < textLineList2.size(); index2++) {
+				SVGTextLine lineIndex2 = textLineList2.get(index2);
+				if (lineIndex.compareTo(lineIndex2) == 0) {
+					this.remove(index);
+				}
+			}
+		}
 	}
 }

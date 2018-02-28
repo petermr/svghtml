@@ -1051,10 +1051,13 @@ public class SVGElement extends GraphicsElement {
 		}
 		for (int i = 0; i < childNodes.size(); i++) {
 			SVGElement child = (SVGElement) childNodes.get(i);
+			LOG.trace(child.toXML());
+			child.setBoundingBoxCached(false);
 			Real2Range childBoundingBox = child.getBoundingBox();
+			LOG.trace("CHILD BBOX "+childBoundingBox);
 			if (childBoundingBox != null) {
 				if (!childBoundingBox.isValid()) {
-					//LOG.error("invalid child BBox: "+"parent: "+child.getClass()+"; "+childBoundingBox);
+					LOG.error("invalid child BBox: "+"parent: "+child.getClass()+"; "+childBoundingBox);
 				} else {
 					boundingBox = boundingBox.plus(childBoundingBox);
 				}
