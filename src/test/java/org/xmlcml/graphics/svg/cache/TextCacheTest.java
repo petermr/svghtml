@@ -9,10 +9,13 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlDiv;
 import org.xmlcml.graphics.html.HtmlElement;
-import org.xmlcml.graphics.html.HtmlUl;
+import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
@@ -277,11 +280,54 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
 		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
-//		SVGSVG.wrapAndWriteAsSVG(textLineList.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines7.svg"));
 		HtmlElement htmlElement = textCache.createHtmlElement();
 		XMLUtil.debug(htmlElement, new File("target/html/equations7.html"), 1);
 
 	}
+	
+	@Test
+	public void testCreateHTMLPage2() throws IOException {
+		File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact/page2.svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		HtmlElement htmlElement = textCache.createHtmlElement();
+		XMLUtil.debug(htmlElement, new File("target/html/page2a.html"), 1);
+
+	}
+	
+	@Test
+	public void testCreateHTMLPageAllCrop() throws IOException {
+		HtmlElement div = new HtmlDiv();
+		for (int i = 1; i <= 9; i++) {
+			File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact/fulltext-page"+i+".svg");
+			ComponentCache cache = new ComponentCache();
+			cache.readGraphicsComponentsAndMakeCaches(svgFile);
+			TextCache textCache = cache.getOrCreateTextCache();
+			div.appendChild(new HtmlP("======page "+i+" L======="));
+			RealRange yr = new RealRange(33, 698);
+			HtmlElement htmlElementL = processHtmlInPage(textCache, new RealRange(0, 260), yr);
+			div.appendChild(htmlElementL);
+			div.appendChild(new HtmlP("======page "+i+" R======="));
+			HtmlElement htmlElementR = processHtmlInPage(textCache, new RealRange(250, 550), yr);
+			div.appendChild(htmlElementR);
+		}
+		XMLUtil.debug(div, new File("target/html/pages.html"), 1);
+
+	}
+
+	private HtmlElement processHtmlInPage(TextCache textCache, RealRange xr, RealRange yr) {
+		Real2Range cropBox = new Real2Range(xr, yr); 
+		List<SVGText> textLinesL = textCache.extractCurrentTextElementsContainedInBox(cropBox);
+		TextCache textCacheL = new TextCache(null);
+		textCacheL.ingestOrginalTextList(textLinesL);
+		SVGTextLineList textLineList = textCacheL.addSuscriptsAndJoinWrappedLines();
+		HtmlElement htmlElement = textCacheL.createHtmlElement();
+		return htmlElement;
+	}
+	
+	
 
 
 }

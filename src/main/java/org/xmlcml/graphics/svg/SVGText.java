@@ -1039,7 +1039,9 @@ public class SVGText extends SVGElement {
 		int arbitraryFontSize = 20;
 		Font font = new Font(getFontFamily(), (isItalic() ? (isBold() ? Font.BOLD | Font.ITALIC : Font.ITALIC): (isBold() ? Font.BOLD : Font.PLAIN)), arbitraryFontSize);
 		font = font.deriveFont((float) (double) getFontSize());
-		GlyphVector glyphVector = font.createGlyphVector(new FontRenderContext(new AffineTransform(), true, true), getText());
+		String text = getText();
+		GlyphVector glyphVector = text == null ? null :
+			font.createGlyphVector(new FontRenderContext(new AffineTransform(), true, true), text);
 		return glyphVector;
 	}
 	

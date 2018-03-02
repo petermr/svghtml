@@ -310,42 +310,17 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 		String textValue2 = line2.getTextValue();
 		Double y = this.getY();
 		Double y2 = line2.getY();
-//		LOG.debug(y+"; "+y2);
 		if (Real.isEqual(y, y2, YEPS)) {
 			int textDiff = textValue.compareTo(textValue2);
 			if (textDiff != 0) {
 				return textDiff;
 			}
-//			LOG.debug("same" );
 			return 0;
 		} else {
 			return (this.getY() - line2.getY()) < 0 ? -1 : 1;
 		}
 		
 	}
-
-//	public int hashCode() {
-//		final int prime = 31;
-//		int result = 1;
-//		result = prime * result + ((lineTexts == null) ? 0 : lineTexts.hashCode());
-//		return result;
-//	}
-//
-//	public boolean equals(Object obj) {
-//		if (this == obj)
-//			return true;
-//		if (obj == null)
-//			return false;
-//		if (getClass() != obj.getClass())
-//			return false;
-//		SVGTextLine other = (SVGTextLine) obj;
-//		if (lineTexts == null) {
-//			if (other.lineTexts != null)
-//				return false;
-//		} else if (!lineTexts.equals(other.lineTexts))
-//			return false;
-//		return true;
-//	}
 
 	public void mergeLine(SVGTextLine textLine) {
 		lineTexts.addAll(textLine.lineTexts);
@@ -358,10 +333,8 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 		for (SVGText text : lineTexts) {
 			
 			double tSize = text.getFontSize();
-//			LOG.debug(tSize+"; "+fontSize);
 			Double textY = text.getY();
 			Double thisY = this.getY();
-			LOG.debug(thisY+" ; "+textY+"; "+text.getText());
 			if (textY - thisY > SUS_EPS) {
 				HtmlSub sub = new HtmlSub();
 				sub.appendChild(text.getText());
@@ -376,6 +349,4 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 		}
 		return p;
 	}
-
-	
 }

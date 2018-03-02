@@ -96,12 +96,26 @@ public class TextCache extends AbstractCache {
 	public void extractTexts(AbstractCMElement svgElement) {
 		if (svgElement != null) {
 			originalTextList = SVGText.extractSelfAndDescendantTexts(svgElement);
-			originalTextList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache.isRemoveWhitespace());
-			formatCoordinates(originalTextList, coordinateDecimalPlaces);
-			if (useCompactOutput) {
-				createCompactedTextsAndReplace();
-			}
+			ingestOriginalTextList();
 		}
+	}
+
+	public void ingestOrginalTextList(List<SVGText> textList) {
+		this.originalTextList = textList;
+		ingestOriginalTextList();
+	}
+	
+	void ingestOriginalTextList() {
+		originalTextList = SVGText.removeTextsWithEmptyContent(originalTextList, ownerComponentCache == null ? true : ownerComponentCache.isRemoveWhitespace());
+		formatCoordinates(originalTextList, coordinateDecimalPlaces);
+		if (useCompactOutput) {
+			createCompactedTextsAndReplace();
+		}
+		if (ownerComponentCache != null) {
+			ownerComponentCache.addElementsToExtractedElement(this.getOrCreateOriginalTextList());
+		}
+		this.createHorizontalAndVerticalTexts();
+
 	}
 
 	public static void formatCoordinates(List<SVGText> textList, int decimalPlaces) {
@@ -569,6 +583,9 @@ public class TextCache extends AbstractCache {
 		if (horizontalTextsByYCoordinate == null) {
 			horizontalTextsByYCoordinate = ArrayListMultimap.create();
 			getOrCreateCurrentTextList();
+			if (horizontalTexts == null) {
+				throw new RuntimeException("null horizontal texts");
+			}
 			for (SVGText text : horizontalTexts) {
 				Double y = text.getY();
 				horizontalTextsByYCoordinate.put(y, text);
@@ -677,16 +694,18 @@ public class TextCache extends AbstractCache {
 
 	public SVGTextLineList joinFollowingIndentedLines(SVGTextLineList lines, int ndecimal, double minIndentFactor, Double fontSize) {
 		RealArray xLeftArray = lines.calculateIndents(ndecimal);
-		double minimumLeftX = xLeftArray.getMin();
-		for (int index = lines.size() - 1; index > 0; index--) {
-			SVGTextLine textLine = lines.get(index);
-			if (textLine.isLeftIndented(minIndentFactor * fontSize, minimumLeftX)) {
-				if (index > 0) {
-					SVGTextLine precedingTextLine = lines.get(index - 1);
-					precedingTextLine.append(textLine, fontSize);
-					precedingTextLine.forceFullSVGElement();
+		if (xLeftArray.size() > 0) {
+			double minimumLeftX = xLeftArray.getMin();
+			for (int index = lines.size() - 1; index > 0; index--) {
+				SVGTextLine textLine = lines.get(index);
+				if (textLine.isLeftIndented(minIndentFactor * fontSize, minimumLeftX)) {
+					if (index > 0) {
+						SVGTextLine precedingTextLine = lines.get(index - 1);
+						precedingTextLine.append(textLine, fontSize);
+						precedingTextLine.forceFullSVGElement();
+					}
+					lines.remove(index);
 				}
-				lines.remove(index);
 			}
 		}
 		return lines;

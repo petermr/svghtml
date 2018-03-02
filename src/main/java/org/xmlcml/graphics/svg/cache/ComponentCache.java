@@ -304,8 +304,6 @@ public class ComponentCache extends AbstractCache {
 			}
 			if (this.inputSVGElement != null) {
 				this.textCache.extractTexts(this.inputSVGElement);
-				addElementsToExtractedElement(textCache.getOrCreateOriginalTextList());
-				textCache.createHorizontalAndVerticalTexts();
 			}
 		}
 		return textCache;
@@ -381,7 +379,7 @@ public class ComponentCache extends AbstractCache {
 		return contentBoxCache;
 	}
 
-	private void addElementsToExtractedElement(List<? extends SVGElement> elementList) {
+	void addElementsToExtractedElement(List<? extends SVGElement> elementList) {
 		for (AbstractCMElement element : elementList) {
 			SVGElement elementCopy = (SVGElement) element.copy();
 			
