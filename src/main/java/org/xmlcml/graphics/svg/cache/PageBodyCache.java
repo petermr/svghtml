@@ -1,5 +1,8 @@
 package org.xmlcml.graphics.svg.cache;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
@@ -17,7 +20,14 @@ public class PageBodyCache extends PageComponentCache {
 	}
 	private static String CYAN = "cyan";
 
+	private List<PageColumnCache> pageColumnList;
+
+	private PageBodyCache() {
+		pageColumnList = new ArrayList<PageColumnCache>();
+	}
+	
 	public PageBodyCache(PageCache pageCache) {
+		this();
 		setPageCache(pageCache);
 		processCache();
 	}

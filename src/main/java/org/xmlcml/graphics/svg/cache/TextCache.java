@@ -3,15 +3,17 @@ package org.xmlcml.graphics.svg.cache;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Stack;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
-import org.xmlcml.euclid.RealArray;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
 import org.xmlcml.graphics.html.HtmlDiv;
 import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlSpan;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
@@ -38,6 +40,7 @@ import com.google.common.collect.Multiset;
  *
  */
 public class TextCache extends AbstractCache {
+	
 	private static final int MIN_DIFF_TEXT = 10;
 	static final Logger LOG = Logger.getLogger(TextCache.class);
 	static {
@@ -67,16 +70,25 @@ public class TextCache extends AbstractCache {
 	private Multimap<Double, SVGText> horizontalTextsByYCoordinate;
 	private Multimap<Double, SVGText> horizontalTextsByFontSize;
 	private int coordinateDecimalPlaces = 1;
-	private SVGTextLineList textLineListForLargestFont;
+	SVGTextLineList textLineListForLargestFont;
 	private StyleRecordSet horizontalStyleRecordSet;
 	private List<SVGText> horizontalTextListSortedY;
-	private Double largestCurrentFont;
-	private SVGTextLineList textLines;
-	private SVGTextLineList processedTextLines;
+	Double largestCurrentFont;
+	SVGTextLineList textLines;
+	SVGTextLineList processedTextLines;
+	private Stack<LineFormatter> lineFormatterStack;
+	private SuscriptFormatter suscriptFormatter;
 
 	
 	public TextCache(ComponentCache svgCache) {
 		super(svgCache);
+		init();
+	}
+
+	private void init() {
+		this.lineFormatterStack = new Stack<LineFormatter>();
+		lineFormatterStack.push(LineFormatter.createDefaultFormatter(this));
+		setSuscriptFormatter(new SuscriptFormatter());
 	}
 
 	private void clearVariables() {
@@ -682,35 +694,6 @@ public class TextCache extends AbstractCache {
 		return horizontalTextListSortedY;
 	}
 	
-	/** joins lines if they are indented.
-	 * 
-	 * @return
-	 */
-	public SVGTextLineList createAndJoinIndentedTextLineList(int ndecimal, double minIndentFactor) {
-		getTextLinesForLargestFont();
-		textLineListForLargestFont = joinFollowingIndentedLines(textLineListForLargestFont, ndecimal, minIndentFactor, largestCurrentFont);
-		return textLineListForLargestFont;
-	}
-
-	public SVGTextLineList joinFollowingIndentedLines(SVGTextLineList lines, int ndecimal, double minIndentFactor, Double fontSize) {
-		RealArray xLeftArray = lines.calculateIndents(ndecimal);
-		if (xLeftArray.size() > 0) {
-			double minimumLeftX = xLeftArray.getMin();
-			for (int index = lines.size() - 1; index > 0; index--) {
-				SVGTextLine textLine = lines.get(index);
-				if (textLine.isLeftIndented(minIndentFactor * fontSize, minimumLeftX)) {
-					if (index > 0) {
-						SVGTextLine precedingTextLine = lines.get(index - 1);
-						precedingTextLine.append(textLine, fontSize);
-						precedingTextLine.forceFullSVGElement();
-					}
-					lines.remove(index);
-				}
-			}
-		}
-		return lines;
-	}
-
 	public List<SVGTextLine> getTextLinesForMinorFontSizes() {
 		LOG.error("getTextLinesForMinorFontSizes NYI");
 		return null;
@@ -723,61 +706,8 @@ public class TextCache extends AbstractCache {
 		return minorFontSizes;
 	}
 
-	/** merges lines to create subscripted lines
-	 * removes any lines merged as suscripts
-	 */
-	public void addSuscripts() {
-		SVGTextLineList allTextLineList = getOrCreateTextLines();
-		SVGTextLineList largeTextLineList = getTextLinesForLargestFont();
-		allTextLineList.removeDuplicates(largeTextLineList);
-		if (largeTextLineList.size() == 0 || allTextLineList.size() == 0) {
-			return;
-		}
-		
-		int indexAll = 0;
-		SVGTextLine lineAll = allTextLineList.get(0);
-		Real2Range allBBox = lineAll.getBoundingBox().format(1);
-		
-		int indexLarge = 0;
-		SVGTextLine lineLarge = largeTextLineList.get(0);
-		Real2Range largeBBox = lineLarge.getBoundingBox().format(1);
-		
-		List<SVGTextLine> removedLines = new ArrayList<SVGTextLine>();
-		while (indexAll < allTextLineList.size() && indexLarge < largeTextLineList.size()) {
-			if (allBBox.hasAllYCompletelyLowerThan(largeBBox)) {
-				if (++indexAll >= allTextLineList.size()) break;
-				lineAll = allTextLineList.get(indexAll);
-				allBBox = lineAll.getBoundingBox().format(1);
-			} else if (largeBBox.hasAllYCompletelyLowerThan(allBBox)) {
-				if (++indexLarge >= largeTextLineList.size()) break;
-				lineLarge = largeTextLineList.get(indexLarge);
-				largeBBox = lineLarge.getBoundingBox().format(1);
-			} else {
-				if (lineLarge.compareTo(lineAll) == 0) {
-					LOG.trace("SKIPPED DUPLICATE");
-				} else {
-					lineLarge.mergeLine(lineAll);
-					removedLines.add(lineAll);
-				}
-				if (++indexAll >= allTextLineList.size()) break;
-				lineAll = allTextLineList.get(indexAll);
-				allBBox = lineAll.getBoundingBox().format(1);
-			}
-		}
-		textLines.removeAll(removedLines);
-		textLines.addAll(largeTextLineList);
-	}
-
 	public Double getLargestCurrentFont() {
 		return largestCurrentFont;
-	}
-
-	public SVGTextLineList addSuscriptsAndJoinWrappedLines() {
-		addSuscripts();
-		int ndecimal = 1; 
-		double minimumOffsetInFontSize = 1.3;
-		processedTextLines = joinFollowingIndentedLines(getOrCreateTextLines(), ndecimal, minimumOffsetInFontSize, getLargestCurrentFont());
-		return processedTextLines;
 	}
 
 	public SVGTextLineList getProcessedTextLines() {
@@ -785,16 +715,60 @@ public class TextCache extends AbstractCache {
 	}
 
 	public HtmlElement createHtmlElement() {
-		HtmlElement htmlDiv = new HtmlDiv();
+		LineFormatter lineFormatter = getCurrentLineFormatter();
 		if (processedTextLines != null) {
+			lineFormatter.setTextLines(processedTextLines);
 			for (SVGTextLine textLine : processedTextLines) {
-				HtmlElement lineElement = textLine.createHtmlElement();
-				htmlDiv.appendChild(lineElement);
-//				LOG.debug(textLine);
+				HtmlSpan lineSpan = textLine.createLineSpan(SVGTextLine.COLUMN_SPAN);
+				lineFormatter.appendLine(lineSpan);
 			}
 		}
-		return htmlDiv;
+		HtmlElement htmlElement = lineFormatter.createHtmlElement();
+		return htmlElement;
 		
 	}
 
+	public LineFormatter getCurrentLineFormatter() {
+		LineFormatter currentLineFormatter = this.lineFormatterStack.peek();
+		return currentLineFormatter;
+	}
+
+	public HtmlElement createHtmlFromBox(RealRange xr, RealRange yr) {
+		Real2Range cropBox = new Real2Range(xr, yr); 
+		List<SVGText> textLines = extractCurrentTextElementsContainedInBox(cropBox);
+		TextCache boxTextCache = new TextCache(null);
+		boxTextCache.ingestOrginalTextList(textLines);
+		LineFormatter currentLineFormatter = boxTextCache.getCurrentLineFormatter();
+		SVGTextLineList textLineList = currentLineFormatter.addSuscriptsAndJoinWrappedLines();
+		HtmlElement htmlElement = boxTextCache.createHtmlElement();
+		return htmlElement;
+	}
+
+	/** pushes new LineFormatter and saves current one in stack.
+	 * 
+	 * @param lineFormatter
+	 */
+	public void pushFormatter(LineFormatter lineFormatter) {
+		lineFormatterStack.push(lineFormatter);
+	}
+
+	/** clear current LineFormatter and restore previous from stack.
+	 * 
+	 * if stack has 1 element, ignore
+	 */
+	public void popFormatter() {
+		if (lineFormatterStack.size() > 1) {
+			lineFormatterStack.pop();
+		}
+	}
+	
+	public SuscriptFormatter getSuscriptFormatter() {
+		return suscriptFormatter;
+	}
+
+	public void setSuscriptFormatter(SuscriptFormatter suscriptFormatter) {
+		this.suscriptFormatter = suscriptFormatter;
+	}
+
+	
 }

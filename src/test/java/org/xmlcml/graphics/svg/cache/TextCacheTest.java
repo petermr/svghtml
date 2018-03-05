@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealArray;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.graphics.AbstractCMElement;
@@ -146,9 +145,9 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache componentCache = new ComponentCache();
 		componentCache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = componentCache.getOrCreateTextCache();
-		int ndecimal = 1; 
-		double minimumOffsetInFontSize = 1.3;
-		SVGTextLineList textLineList = textCache.createAndJoinIndentedTextLineList(ndecimal, minimumOffsetInFontSize);
+		LineFormatter currentLineFormatter = textCache.getCurrentLineFormatter();
+		SVGTextLineList textLineList = currentLineFormatter.createAndJoinIndentedTextLineList(
+				textCache);
 		Assert.assertEquals(15, textLineList.size());
 		LOG.debug("joined: "+textLineList);
 		SVGG g = textLineList.createSVGElement();
@@ -198,10 +197,8 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		textCache.addSuscripts();
+		textCache.getSuscriptFormatter().addSuscripts(textCache);
 		SVGTextLineList textLines = textCache.getOrCreateTextLines();
-		LOG.debug("TL "+textLines.size()+"; "+textLines);
-		LOG.debug("TLL: "+textLines.getTextLineList());
 		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "equation1.svg"));
 		
 	}
@@ -212,7 +209,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		textCache.addSuscripts();
+		textCache.getSuscriptFormatter().addSuscripts(textCache);
 		SVGTextLineList textLines = textCache.getOrCreateTextLines();
 		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "suscripts.svg"));
 		
@@ -224,12 +221,13 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		textCache.addSuscripts();
+		textCache.getSuscriptFormatter().addSuscripts(textCache);
 		SVGTextLineList textLines = textCache.getOrCreateTextLines();
 		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines02.svg"));
-		int ndecimal = 1; 
-		double minimumOffsetInFontSize = 1.3;
-		SVGTextLineList textLineList = textCache.joinFollowingIndentedLines(textLines, ndecimal, minimumOffsetInFontSize, textCache.getLargestCurrentFont());
+//		int ndecimal = 1; 
+//		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().joinFollowingIndentedLines(
+				/*textLines, */ /*ndecimal, minimumOffsetInFontSize, */textCache.getLargestCurrentFont());
 		List<SVGTextLine> textLines1 = textLineList.getTextLineList();
 		SVGSVG.wrapAndWriteAsSVG(textLines1, new File(new File("target/math/demos/varga/"), "wrappedLines12.svg"));
 	}
@@ -240,12 +238,13 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		textCache.addSuscripts();
+		textCache.getSuscriptFormatter().addSuscripts(textCache);
 		SVGTextLineList textLines = textCache.getOrCreateTextLines();
 		SVGSVG.wrapAndWriteAsSVG(textLines.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines0.svg"));
-		int ndecimal = 1; 
-		double minimumOffsetInFontSize = 1.3;
-		SVGTextLineList textLineList = textCache.joinFollowingIndentedLines(textLines, ndecimal, minimumOffsetInFontSize, textCache.getLargestCurrentFont());
+//		int ndecimal = 1; 
+//		double minimumOffsetInFontSize = 1.3;
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().joinFollowingIndentedLines(
+				/*textLines, */ /*ndecimal, minimumOffsetInFontSize, */textCache.getLargestCurrentFont());
 		List<SVGTextLine> textLines1 = textLineList.getTextLineList();
 		SVGSVG.wrapAndWriteAsSVG(textLines1, new File(new File("target/math/demos/varga/"), "wrappedLines.svg"));
 		
@@ -257,7 +256,9 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		textCache.pushFormatter(LineFormatter.createEquationFormatter(textCache));
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().addSuscriptsAndJoinWrappedLines();
+		textCache.popFormatter();
 		SVGSVG.wrapAndWriteAsSVG(textLineList.getTextLineList(), new File(new File("target/math/demos/varga/"), "wrappedLines7.svg"));
 		
 	}
@@ -268,7 +269,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().addSuscriptsAndJoinWrappedLines();
 		HtmlElement htmlElement = textCache.createHtmlElement();
 		XMLUtil.debug(htmlElement, new File("target/html/equations2.html"), 1);
 	}
@@ -279,7 +280,7 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().addSuscriptsAndJoinWrappedLines();
 		HtmlElement htmlElement = textCache.createHtmlElement();
 		XMLUtil.debug(htmlElement, new File("target/html/equations7.html"), 1);
 
@@ -291,12 +292,28 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		ComponentCache cache = new ComponentCache();
 		cache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = cache.getOrCreateTextCache();
-		SVGTextLineList textLineList = textCache.addSuscriptsAndJoinWrappedLines();
+		SVGTextLineList textLineList = textCache.getCurrentLineFormatter().addSuscriptsAndJoinWrappedLines();
 		HtmlElement htmlElement = textCache.createHtmlElement();
 		XMLUtil.debug(htmlElement, new File("target/html/page2a.html"), 1);
 
 	}
+
+	@Test
+	public void testCreateWrappedColumn() throws IOException {
+		HtmlElement div = new HtmlDiv();
+		int page = 7;
+		File svgFile = new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact/fulltext-page"+page+".svg");
+		ComponentCache cache = new ComponentCache();
+		cache.readGraphicsComponentsAndMakeCaches(svgFile);
+		TextCache textCache = cache.getOrCreateTextCache();
+		RealRange yr = new RealRange(33, 698);
+		HtmlElement htmlElementL = textCache.createHtmlFromBox(new RealRange(0, 260), yr);
+		div.appendChild(htmlElementL);
+		XMLUtil.debug(div, new File("target/html/page"+page+"Wrapped.html"), 1);
+
+	}
 	
+
 	@Test
 	public void testCreateHTMLPageAllCrop() throws IOException {
 		HtmlElement div = new HtmlDiv();
@@ -307,24 +324,14 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 			TextCache textCache = cache.getOrCreateTextCache();
 			div.appendChild(new HtmlP("======page "+i+" L======="));
 			RealRange yr = new RealRange(33, 698);
-			HtmlElement htmlElementL = processHtmlInPage(textCache, new RealRange(0, 260), yr);
+			HtmlElement htmlElementL = textCache.createHtmlFromBox(new RealRange(0, 260), yr);
 			div.appendChild(htmlElementL);
 			div.appendChild(new HtmlP("======page "+i+" R======="));
-			HtmlElement htmlElementR = processHtmlInPage(textCache, new RealRange(250, 550), yr);
+			HtmlElement htmlElementR = textCache.createHtmlFromBox(new RealRange(250, 550), yr);
 			div.appendChild(htmlElementR);
 		}
 		XMLUtil.debug(div, new File("target/html/pages.html"), 1);
 
-	}
-
-	private HtmlElement processHtmlInPage(TextCache textCache, RealRange xr, RealRange yr) {
-		Real2Range cropBox = new Real2Range(xr, yr); 
-		List<SVGText> textLinesL = textCache.extractCurrentTextElementsContainedInBox(cropBox);
-		TextCache textCacheL = new TextCache(null);
-		textCacheL.ingestOrginalTextList(textLinesL);
-		SVGTextLineList textLineList = textCacheL.addSuscriptsAndJoinWrappedLines();
-		HtmlElement htmlElement = textCacheL.createHtmlElement();
-		return htmlElement;
 	}
 	
 	

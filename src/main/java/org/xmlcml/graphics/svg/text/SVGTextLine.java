@@ -12,9 +12,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.graphics.html.HtmlElement;
-import org.xmlcml.graphics.html.HtmlP;
-import org.xmlcml.graphics.html.HtmlSub;
-import org.xmlcml.graphics.html.HtmlSup;
+import org.xmlcml.graphics.html.HtmlSpan;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGText;
@@ -41,6 +39,7 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 	private final static double YEPS = 0.0001;
 	private static final double FONT_EPS = 0.1;
 	private static final double SUS_EPS = 0.1;
+	public static final String COLUMN_SPAN = "columnSpan";
 
 	private List<SVGText> lineTexts;
 	private Double fontSize;
@@ -328,25 +327,28 @@ public class SVGTextLine extends SVGG implements List<SVGText> {
 		this.sortAndGetCommonValues();
 	}
 
-	public HtmlElement createHtmlElement() {
-		HtmlElement p = new HtmlP();
+	/** create an HtmlSpan element for complete line.
+	 * will contain suscripts if they occur
+	 * @param clazz 
+	 * 
+	 * @return
+	 */
+	public HtmlSpan createLineSpan(String clazz) {
+		HtmlSpan span = new HtmlSpan();
+		span.setClassAttribute(clazz);
 		for (SVGText text : lineTexts) {
 			
 			double tSize = text.getFontSize();
 			Double textY = text.getY();
 			Double thisY = this.getY();
 			if (textY - thisY > SUS_EPS) {
-				HtmlSub sub = new HtmlSub();
-				sub.appendChild(text.getText());
-				p.appendChild(sub);
+				span.appendChild(text.createSubscript());
 			} else if (thisY - textY  > SUS_EPS) {
-				HtmlSup sup = new HtmlSup();
-				sup.appendChild(text.getText());
-				p.appendChild(sup);
+				span.appendChild(text.createSuperscript());
 			} else {
-				p.appendChild(text.getText());
+				span.appendChild(text.getText());
 			}
 		}
-		return p;
+		return span;
 	}
 }

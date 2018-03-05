@@ -288,7 +288,8 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	public TextCache getOrCreateTextCache() {
-		return getOrCreateTextCache(-1);
+		int ndecimal = -1;
+		return getOrCreateTextCache(ndecimal);
 	}
 
 	/**
@@ -380,6 +381,9 @@ public class ComponentCache extends AbstractCache {
 	}
 
 	void addElementsToExtractedElement(List<? extends SVGElement> elementList) {
+		if (convertedSVGElement == null) {
+			convertedSVGElement = new SVGG();
+		}
 		for (AbstractCMElement element : elementList) {
 			SVGElement elementCopy = (SVGElement) element.copy();
 			

@@ -21,7 +21,9 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.html.util.HtmlUtil;
-import org.xmlcml.xml.XMLConstants;
+
+import nu.xom.Node;
+import nu.xom.Text;
 
 
 /** 
@@ -74,5 +76,6 @@ public class HtmlSpan extends HtmlElement {
 	public static List<HtmlSpan> extractSpans(HtmlElement htmlElement, String xpath) {
 		return HtmlSpan.extractSpans(HtmlUtil.getQueryHtmlElements(htmlElement, xpath));
 	}
+
 
 }

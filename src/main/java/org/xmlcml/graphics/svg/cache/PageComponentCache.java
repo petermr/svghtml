@@ -21,7 +21,6 @@ public abstract class PageComponentCache extends ComponentCache {
 	public static String YELLOW = "yellow";
 	
 	protected PageCache pageCache;
-//	protected SVGElement svgElement;
 	protected Real2Range boundingBox;
 	
 	protected PageComponentCache() {

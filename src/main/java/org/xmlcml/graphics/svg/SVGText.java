@@ -27,6 +27,8 @@ import org.xmlcml.euclid.Transform2;
 import org.xmlcml.euclid.Util;
 import org.xmlcml.euclid.Vector2;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlSub;
+import org.xmlcml.graphics.html.HtmlSup;
 import org.xmlcml.graphics.svg.SVGLine.LineDirection;
 import org.xmlcml.graphics.svg.fonts.FontWidths;
 import org.xmlcml.xml.XMLConstants;
@@ -1360,6 +1362,18 @@ public class SVGText extends SVGElement {
 		Real2 textXY1 = centre.plus(delta);
 		setXY(textXY1);
 		removeAttribute("transform");
+	}
+
+	public HtmlSup createSuperscript() {
+		HtmlSup sup = new HtmlSup();
+		sup.appendChild(getText());
+		return sup;
+	}
+
+	public HtmlSub createSubscript() {
+		HtmlSub sub = new HtmlSub();
+		sub.appendChild(getText());
+		return sub;
 	}
 
 	/** creates textwith default pont-size and fill.

@@ -29,6 +29,7 @@ import org.xmlcml.xml.XMLUtil;
 import nu.xom.Attribute;
 import nu.xom.Element;
 import nu.xom.Node;
+import nu.xom.Text;
 
 
 /*
@@ -518,6 +519,29 @@ public abstract class HtmlElement extends AbstractCMElement {
 		return StyleBundle.getFontSize(this);
 	}
 
-	
+	/** if the final child node is Text return it.
+	 * 
+	 * @return
+	 */
+	public Text getFinalTextNode() {
+		Text textNode = null;
+		int childCount = this.getChildCount();
+		if (childCount > 0) {
+			Node finalNode = this.getChild(childCount - 1);
+			if (finalNode instanceof Text) {
+				textNode = (Text) finalNode;
+			}
+		}
+		return textNode;
+	}
+
+    public void appendChild(Node child) {
+    	if (child == null) {
+    		LOG.error("null child");
+    	} else {
+    		super.appendChild(child);
+    	}
+    }
+
 
 }

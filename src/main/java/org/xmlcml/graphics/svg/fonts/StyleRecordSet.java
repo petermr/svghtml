@@ -280,9 +280,12 @@ public class StyleRecordSet implements Iterable<StyleRecord> {
 			rect.setFill(fill);
 			xStarts.add((int)(double)bbox.getXMin());
 			xEnds.add((int)(double)bbox.getXMax());
-			int len = Math.min(200, content.length());
-			String title = styleBundle.getFontSize() + "; "+
-			    content.substring(0, len)+"; "+styleBundle.getFontName();
+			String title = "no title";
+			if (content != null) {
+				int len = Math.min(200, content.length());
+				title = styleBundle.getFontSize() + "; "+
+				    content.substring(0, len)+"; "+styleBundle.getFontName();
+			}
 			rect.appendChild(new SVGTitle(title));
 			SVGG gg = new SVGG();
 			gg.appendChild(rect);
