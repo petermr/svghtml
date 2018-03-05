@@ -51,7 +51,7 @@ public class LineFormatter {
 	
 	public LineFormatter(TextCache textCache) {
 		setDefaults();
-		this.textCache = textCache;
+		this.setTextCache(textCache);
 	}
 
 	private void setDefaults() {
@@ -247,26 +247,38 @@ public class LineFormatter {
 
 	public SVGTextLineList addSuscriptsAndJoinWrappedLines() {
 		
-		textCache.getSuscriptFormatter().addSuscripts(textCache);
-		textLines = textCache.getOrCreateTextLines();
-		textCache.processedTextLines = joinFollowingIndentedLines(textCache.getLargestCurrentFont());
-		return textCache.processedTextLines;
+		getTextCache().getSuscriptFormatter().addSuscripts(getTextCache());
+		textLines = getTextCache().getOrCreateTextLines();
+		getTextCache().processedTextLines = joinFollowingIndentedLines(getTextCache().getLargestCurrentFont());
+		return getTextCache().processedTextLines;
 	}
 
 	public SVGTextLineList joinFollowingIndentedLines(Double fontSize) {
-		RealArray xLeftArray = textLines.calculateIndents(ndecimal);
-		if (xLeftArray.size() > 0) {
-			double minimumLeftX = xLeftArray.getMin();
-			for (int index = textLines.size() - 1; index > 0; index--) {
-				SVGTextLine textLine = textLines.get(index);
-				if (textLine.isLeftIndented(minimumFontScaledLeftIndent * fontSize, minimumLeftX)) {
-					if (index > 0) {
-						SVGTextLine precedingTextLine = textLines.get(index - 1);
-						precedingTextLine.append(textLine, fontSize);
-						precedingTextLine.forceFullSVGElement();
+		getOrCreateTextLines();
+		if (textLines != null) {
+			RealArray xLeftArray = textLines.calculateIndents(ndecimal);
+			if (xLeftArray.size() > 0) {
+				double minimumLeftX = xLeftArray.getMin();
+				for (int index = textLines.size() - 1; index > 0; index--) {
+					SVGTextLine textLine = textLines.get(index);
+					if (textLine.isLeftIndented(minimumFontScaledLeftIndent * fontSize, minimumLeftX)) {
+						if (index > 0) {
+							SVGTextLine precedingTextLine = textLines.get(index - 1);
+							precedingTextLine.append(textLine, fontSize);
+							precedingTextLine.forceFullSVGElement();
+						}
+						textLines.remove(index);
 					}
-					textLines.remove(index);
 				}
+			}
+		}
+		return textLines;
+	}
+
+	private SVGTextLineList getOrCreateTextLines() {
+		if (textLines == null) {
+			if (textCache != null) {
+				textLines = textCache.getOrCreateTextLines();
 			}
 		}
 		return textLines;
@@ -279,10 +291,18 @@ public class LineFormatter {
 	 * @param minIndentFactor TODO
 	 * @return
 	 */
-	public SVGTextLineList createAndJoinIndentedTextLineList(TextCache textCache) {
+	public SVGTextLineList createAndJoinIndentedTextLineList() {
 		textCache.getTextLinesForLargestFont();
 		textCache.textLineListForLargestFont = joinFollowingIndentedLines(textCache.largestCurrentFont);
 		return textCache.textLineListForLargestFont;
+	}
+
+	public TextCache getTextCache() {
+		return textCache;
+	}
+
+	public void setTextCache(TextCache textCache) {
+		this.textCache = textCache;
 	}
 	
 	

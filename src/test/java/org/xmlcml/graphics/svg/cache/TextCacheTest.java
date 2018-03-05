@@ -146,9 +146,8 @@ private static final Logger LOG = Logger.getLogger(TextCacheTest.class);
 		componentCache.readGraphicsComponentsAndMakeCaches(svgFile);
 		TextCache textCache = componentCache.getOrCreateTextCache();
 		LineFormatter currentLineFormatter = textCache.getCurrentLineFormatter();
-		SVGTextLineList textLineList = currentLineFormatter.createAndJoinIndentedTextLineList(
-				textCache);
-		Assert.assertEquals(15, textLineList.size());
+		SVGTextLineList textLineList = currentLineFormatter.createAndJoinIndentedTextLineList();
+		Assert.assertEquals(16, textLineList.size());
 		LOG.debug("joined: "+textLineList);
 		SVGG g = textLineList.createSVGElement();
 		SVGSVG.wrapAndWriteAsSVG(g, new File(targetDir, "equations7.svg"), 1200., 800.);

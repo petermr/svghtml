@@ -730,6 +730,9 @@ public class TextCache extends AbstractCache {
 
 	public LineFormatter getCurrentLineFormatter() {
 		LineFormatter currentLineFormatter = this.lineFormatterStack.peek();
+		if (currentLineFormatter.getTextCache() == null) {
+			currentLineFormatter.setTextCache(this);
+		}
 		return currentLineFormatter;
 	}
 
