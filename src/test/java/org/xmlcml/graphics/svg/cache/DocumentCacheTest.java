@@ -1,15 +1,21 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+import java.io.IOException;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.xmlcml.euclid.RealRange;
+import org.xmlcml.graphics.html.HtmlDiv;
+import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlP;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGHTMLFixtures;
 import org.xmlcml.graphics.svg.SVGSVG;
+import org.xmlcml.xml.XMLUtil;
 
 public class DocumentCacheTest {
 
@@ -26,7 +32,7 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 	public void testDocument() {
 		DocumentCache documentCache = new DocumentCache();
 		documentCache.setCreateSummaryBoxes(true);
-		documentCache.processSVGDirectory(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
+		documentCache.processSVGInCTreeDirectory(new File(SVGHTMLFixtures.PAGE_DIR, "varga/compact"));
 		// superimposed pages
 		SVGElement g = documentCache.getOrCreateConvertedSVGElement();
 		Assert.assertNotNull("non-null g", g);
@@ -47,5 +53,17 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 //		documentCache.analyzePages(PageLayout.PLOSONE2016, 15, "TimmermansPLOS/", new File("target/cache"));
 	}
 	
+
+	@Test
+	public void testCreateHTMLPageAllCrop() throws IOException {
+		File targetDir = new File("target/document/varga1");
+		SVGHTMLFixtures.cleanAndCopyDir(new File(SVGHTMLFixtures.PAGE_DIR, "varga1/"), targetDir);
+		DocumentCache documentCache = new DocumentCache(targetDir);
+		documentCache.processSVGInCTreeDirectory(targetDir);
+		XMLUtil.debug(documentCache.getHtmlDiv(), new File("target/html/pages.html"), 1);
+
+	}
+	
+
 
 }

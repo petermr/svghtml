@@ -62,6 +62,7 @@ public class PathCache extends AbstractCache{
 	 * @param svgElement
 	 */
 	public void extractPaths(AbstractCMElement svgElement) {
+		long millis = System.currentTimeMillis();
 		this.originalPathList = SVGPath.extractPaths(svgElement);
 		SVGPath.addSignatures(originalPathList);
 		positiveBoxPathList = new ArrayList<SVGPath>(originalPathList);
@@ -71,6 +72,7 @@ public class PathCache extends AbstractCache{
 		
 		currentPathList = originalPathList;
 		currentPathList = SVGPath.removeShadowedPaths(currentPathList);
+		LOG.debug("Paths time: "+(System.currentTimeMillis() - millis)/1000);
 		return;
 	}
 
@@ -126,7 +128,7 @@ public class PathCache extends AbstractCache{
 		pathBySig = new HashMap<String, SVGPath>();
 		for (SVGPath path : pathList) {
 			path.setStrokeWidth(0.5);
-			String sig = path.createSignatureFromDStringPrimitives();
+			String sig = path.getOrCreateSignatureAttributeValue();
 			sigSet.add(sig);
 			if (!pathBySig.containsKey(sig)) {
 				pathBySig.put(sig, path);
@@ -224,7 +226,7 @@ public class PathCache extends AbstractCache{
 			path.setStrokeWidth(0.2);
 			path.setFill(fill);
 			path.setOpacity(opacity);
-			path.addTitle(p.createSignatureFromDStringPrimitives());
+			path.addTitle(p.getOrCreateSignatureAttributeValue());
 			g.appendChild(path);
 		}
 	}

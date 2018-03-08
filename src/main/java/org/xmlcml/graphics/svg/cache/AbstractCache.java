@@ -7,6 +7,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -38,7 +39,8 @@ public abstract class AbstractCache {
 
 	protected SVGElement inputSVGElement;
 	protected SVGElement convertedSVGElement;
-	
+	protected HtmlElement convertedHtmlElement;
+
 
 	protected AbstractCache() {
 		

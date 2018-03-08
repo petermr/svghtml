@@ -312,12 +312,14 @@ public class ComponentCache extends AbstractCache {
 
 	public ShapeCache getOrCreateShapeCache() {
 		if (shapeCache == null) {
+			long millis = System.currentTimeMillis();
 			shapeCache = new ShapeCache(this);
 			pathCache = getOrCreatePathCache();
 			List<SVGPath> currentPathList = this.pathCache.getCurrentPathList();
 			this.getOrCreateShapeCache().extractShapes(currentPathList, inputSVGElement);
 			List<SVGShape> shapeList = shapeCache.getOrCreateConvertedShapeList();
 			addElementsToExtractedElement(shapeList);
+			LOG.debug("shapes: "+(System.currentTimeMillis() - millis)/1000);
 		}
 		return shapeCache;
 	}

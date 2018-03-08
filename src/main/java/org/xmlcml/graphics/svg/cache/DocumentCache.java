@@ -1,17 +1,25 @@
 package org.xmlcml.graphics.svg.cache;
 
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.CMFileUtil;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlDiv;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
+import org.xmlcml.graphics.util.CMineGlobberNew;
+
+import nu.xom.Comment;
+import nu.xom.Element;
 
 /** manages a complete document of several pages.
  * @author pm286
@@ -27,9 +35,10 @@ public class DocumentCache extends ComponentCache {
 	public static final String DOT_SVG = ".svg";
 	public static final String FULLTEXT_PAGE = "fulltext-page";
 	private static final String BOX = ".box";
+	// note we have to have leading .* to match whole name
+	public static final String FULLTEXT_SVG_REGEX = ".*/svg/fulltext\\-page(\\d+)(\\.svg\\.compact)?\\.svg";
 
-	private File svgDir;
-//	private SVGElement totalSvgElement;
+	private File cTreeDir;
 	private boolean createSummaryBoxes;
 	private List<File> svgFiles;
 	private List<PageCache> pageCacheList;
@@ -39,41 +48,75 @@ public class DocumentCache extends ComponentCache {
 	private PageLayout backPageLayout;
 	private PageLayout currentPageLayout;
 	private int npages;
+	private HtmlElement htmlDiv;
 
 	public DocumentCache() {
 		
 	}
 	
-	public AbstractCMElement processSVGDirectory(File svgDir) {
-		this.setSvgDir(svgDir);
-		svgFiles = SVGElement.extractSVGFiles(svgDir);
+	public DocumentCache(File cproject) {
+		if (cproject == null || !cproject.exists()) {
+			throw new RuntimeException("does not exist "+cproject);
+		}
+		if (!cproject.isDirectory()) {
+			throw new RuntimeException("not a directory "+cproject);
+		}
+		this.processSVGInCTreeDirectory(cproject);
+	}
+
+	public AbstractCMElement processSVGInCTreeDirectory(File cTreeDir) {
+		this.setCTreeDir(cTreeDir);
+		CMineGlobberNew globber = new CMineGlobberNew();
+		globber.setRegex(DocumentCache.FULLTEXT_SVG_REGEX).setUseDirectories(false).setLocation(cTreeDir.toString());
+		try {
+			svgFiles = globber.listFiles();
+		} catch (IOException e) {
+			throw new RuntimeException("Globber failed", e);
+		}
 		processSVGFiles(svgFiles);
 		return convertedSVGElement;
 	}
 
 	/**
 	 * this can be called publicly as well as internally
-	 * 
+	 * currently:
+	 * 		getOrCreatePageCacheList();
+		addPagesToConvertedSVGElement();
+		createHtmlElementFromPages();
+		summarizePages();
+
 	 * @param svgFiles
 	 */
 	public void processSVGFiles(List<File> svgFiles) {
 		this.svgFiles = CMFileUtil.sortUniqueFilesByEmbeddedIntegers(svgFiles);
 		convertedSVGElement = new SVGG();
 		getOrCreatePageCacheList();
-		for (int ifile = 0; ifile < svgFiles.size(); ifile++) {
-			File svgFile = svgFiles.get(ifile);	
-			LOG.debug("processingPage: "+svgFile);
-			PageCache pageCache = new PageCache(this);
-			pageCache.setSerialNumber(ifile + 1);
-			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
-			pageCacheList.add(pageCache);
-			AbstractCMElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
-			if (extractedSvgCacheElement == null) {
-				throw new RuntimeException("null element in cache");
-			}
-			convertedSVGElement.appendChild(extractedSvgCacheElement.copy());
-		}
+		addPagesToConvertedSVGElement();
+		createHtmlElementFromPages();
 		summarizePages();
+	}
+
+	private void createHtmlElementFromPages() {
+		htmlDiv = new HtmlDiv();
+		for (int ipage = 0; ipage < pageCacheList.size(); ipage++) {
+			PageCache pageCache = pageCacheList.get(ipage);
+			TextCache textCache = pageCache.getOrCreateTextCache();
+			htmlDiv.appendChild(new Comment("======page "+ipage+" L======="));
+			RealRange yr = new RealRange(33, 698);
+			HtmlElement htmlElementL = textCache.createHtmlFromBox(new RealRange(0, 260), yr);
+			htmlDiv.appendChild(htmlElementL);
+			htmlDiv.appendChild(new Comment("======page "+ipage+" R======="));
+			HtmlElement htmlElementR = textCache.createHtmlFromBox(new RealRange(250, 550), yr);
+			htmlDiv.appendChild(htmlElementR);
+			convertedSVGElement.appendChild(pageCache.getExtractedSVGElement().copy());
+		}
+	}
+
+	private void addPagesToConvertedSVGElement() {
+		for (int ipage = 0; ipage < pageCacheList.size(); ipage++) {
+			PageCache pageCache = pageCacheList.get(ipage);
+			convertedSVGElement.appendChild(pageCache.getExtractedSVGElement().copy());
+		}
 	}
 
 	public void analyzePages(File pageDir, String pubstyle, int npages, String fileDir, File targetDir) {
@@ -113,15 +156,35 @@ public class DocumentCache extends ComponentCache {
 		if (pageCacheList == null) {
 			pageCacheList = new ArrayList<PageCache>();
 		}
+		if (pageCacheList.size() == 0) {
+			addSVGFilesToPageCacheList();
+		}
 		return pageCacheList;
 	}
 
-	public File getSvgDir() {
-		return svgDir;
+	private void addSVGFilesToPageCacheList() {
+		for (int ifile = 0; ifile < svgFiles.size(); ifile++) {
+			File svgFile = svgFiles.get(ifile);	
+			PageCache pageCache = new PageCache(this);
+			pageCache.setSerialNumber(ifile + 1);
+			LOG.debug("F: "+svgFile);
+			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
+			LOG.debug("F1: "+svgFile);
+			pageCacheList.add(pageCache);
+			AbstractCMElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
+			LOG.debug("Got Cache "+ifile);
+			if (extractedSvgCacheElement == null) {
+				throw new RuntimeException("null element in cache");
+			}
+		}
 	}
 
-	public void setSvgDir(File svgDir) {
-		this.svgDir = svgDir;
+	public File getCTreeDir() {
+		return cTreeDir;
+	}
+
+	public void setCTreeDir(File cTreeDir) {
+		this.cTreeDir = cTreeDir;
 	}
 
 	public boolean isCreateSummaryBoxes() {
@@ -170,6 +233,19 @@ public class DocumentCache extends ComponentCache {
 			LOG.warn("Couldn't find bespoke layout, using default");
 		}
 		return pageLayout;
+	}
+
+	public HtmlElement getOrCreateConvertedHtmlElement() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public HtmlElement getHtmlDiv() {
+		return htmlDiv;
+	}
+
+	public String getTitle() {
+		return cTreeDir == null ? null : cTreeDir.getName();
 	}
 
 }
