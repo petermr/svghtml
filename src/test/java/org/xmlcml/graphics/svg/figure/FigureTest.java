@@ -181,9 +181,11 @@ public class FigureTest {
 
 	private void addColouredBBoxes(List<Real2Range> bboxList, SVGG g) {
 		for (Real2Range bbox : bboxList) {
-			SVGRect rect = SVGRect.createFromReal2Range(bbox);
-			rect.setCSSStyle("fill:none;stroke-width:0.5;stroke:red;");
-			g.appendChild(rect);
+			if (bbox != null) {
+				SVGRect rect = SVGRect.createFromReal2Range(bbox);
+				rect.setCSSStyle("fill:none;stroke-width:0.5;stroke:red;");
+				g.appendChild(rect);
+			}
 		}
 	}
 	
@@ -207,16 +209,20 @@ public class FigureTest {
 		List<Real2Range> mergedBoxes = new ArrayList<Real2Range>();
 		for (int i = 0; i < bboxList.size(); i++) {
 			Real2Range bbox = bboxList.get(i);
-			boolean merged = false;
-			for (int j = 0; j < mergedBoxes.size(); j++) {
-				Real2Range mergedBox = mergedBoxes.get(j);
-				if (bbox.intersects(mergedBox, delta)) {
-					merged = true;
-					mergedBox.plusEquals(bbox);
+			if (bbox != null) {
+				boolean merged = false;
+				for (int j = 0; j < mergedBoxes.size(); j++) {
+					Real2Range mergedBox = mergedBoxes.get(j);
+					if (mergedBox != null) {
+						if (bbox.intersects(mergedBox, delta)) {
+							merged = true;
+							mergedBox.plusEquals(bbox);
+						}
+					}
 				}
-			}
-			if (!merged) {
-				mergedBoxes.add(bbox);
+				if (!merged) {
+					mergedBoxes.add(bbox);
+				}
 			}
 		}
 		return mergedBoxes;

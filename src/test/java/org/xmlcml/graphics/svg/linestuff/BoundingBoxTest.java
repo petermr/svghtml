@@ -41,10 +41,12 @@ public class BoundingBoxTest {
 		List<Real2Range> bboxList = componentCache.getBoundingBoxList();
 		SVGG g = new SVGG();
 		for (Real2Range bbox : bboxList) {
-			SVGRect boxRect = SVGRect.createFromReal2Range(bbox);
-			boxRect.setCSSStyle("fill:none;stroke-width:2.0;stroke:red;");
-//			LOG.debug("BB "+bbox+"; "+boxRect.toXML()+"; "+bbox.getXRange());
-			g.appendChild(boxRect);
+			if (bbox != null) {
+				SVGRect boxRect = SVGRect.createFromReal2Range(bbox);
+				boxRect.setCSSStyle("fill:none;stroke-width:2.0;stroke:red;");
+	//			LOG.debug("BB "+bbox+"; "+boxRect.toXML()+"; "+bbox.getXRange());
+				g.appendChild(boxRect);
+			}
 		}
 		SVGElement figure = (SVGElement) svgElement.copy();
 		g.appendChild(figure);

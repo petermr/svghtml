@@ -28,7 +28,9 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 	@Test
 	/** 9-page article.
 	 * 
+	 * probably meaningless
 	 */
+	@Ignore
 	public void testDocument() {
 		DocumentCache documentCache = new DocumentCache();
 		documentCache.setCreateSummaryBoxes(true);

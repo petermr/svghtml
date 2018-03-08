@@ -120,7 +120,12 @@ public class CorpusCache extends ComponentCache {
 			for (DocumentCache documentCache : documentCacheList) {
 				LOG.debug("********************Document: "+documentCache.getTitle()+"******************");
 				HtmlElement element = documentCache.getOrCreateConvertedHtmlElement();
-				htmlElementList.add(element);
+				if (element == null) {
+					LOG.warn("Null html");
+					throw new RuntimeException("Null element");
+				} else {
+					htmlElementList.add(element);
+				}
 			}
 		}
 		return htmlElementList;

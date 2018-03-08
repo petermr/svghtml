@@ -48,7 +48,7 @@ public class Path2ShapeConverterTest {
 			List<SVGShape> shapeList = createShapeList(SVGHTMLFixtures.PATHS_TEXT_LINE_SVG);
 			Assert.assertEquals("converted", 1, shapeList.size());
 			Assert.assertEquals("rect", 
-					"<rect style=\"fill:none;\" x=\"42.52\" y=\"144.433\" height=\"3.005\" width=\"520.044\" id=\"rect.0\" />", 
+					"<rect style=\"fill:none;\" signature=\"MLLLL\" x=\"42.52\" y=\"144.433\" height=\"3.005\" width=\"520.044\" id=\"rect.0\" />", 
 					shapeList.get(0).toXML());
 		}
 		
@@ -139,7 +139,7 @@ public class Path2ShapeConverterTest {
 			SVGElement svgElement = convertPathsToShapes(new File(SVGHTMLFixtures.PATHS_DIR, "roundedline.svg"));
 			SVGLine line = (SVGLine) svgElement.getChildElements().get(0).getChildElements().get(0);
 			Assert.assertEquals("path converted to line", 
-					"<line class=\"lineFromShape\" style=\"fill:#000000;stroke:black;stroke-width:0.0;\" x1=\"172.38\" y1=\"504.06\" x2=\"172.38\" y2=\"512.88\" id=\"line.0\" />",
+					"<line class=\"lineFromShape\" signature=\"MLCCLCC\" style=\"fill:#000000;stroke:black;stroke-width:0.0;\" x1=\"172.38\" y1=\"504.06\" x2=\"172.38\" y2=\"512.88\" id=\"line.0\" />",
 					line.toXML());
 		}
 		
@@ -172,7 +172,7 @@ public class Path2ShapeConverterTest {
 			SVGCircle svgCircle = (SVGCircle) circle;
 			svgCircle.format(3);
 			Assert.assertEquals("circle", 
-					"<circle xmlns=\"http://www.w3.org/2000/svg\" cx=\"310.517\" cy=\"149.088\" r=\"1.379\" />", circle.toXML());
+					"<circle xmlns=\"http://www.w3.org/2000/svg\" signature=\"MCCCCZ\" cx=\"310.517\" cy=\"149.088\" r=\"1.379\" />", circle.toXML());
 		}
 		
 		// ============================================================================
@@ -256,7 +256,7 @@ public class Path2ShapeConverterTest {
 			Assert.assertTrue("1", groups.get(6).getChild(1) instanceof SVGLine);
 			SVGLine line61 = (SVGLine) groups.get(6).getChild(1);
 			line61.format(2);
-			Assert.assertEquals("line61", "<line class=\"lineFromShape\" inkscape:connector-curvature=\"0\" sodipodi:nodetypes=\"ccccc\" style=\"fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.0;\" id=\"line.0\" x1=\"377.81\" y1=\"281.62\" x2=\"113.38\" y2=\"281.62\" />",
+			Assert.assertEquals("line61", "<line class=\"lineFromShape\" inkscape:connector-curvature=\"0\" sodipodi:nodetypes=\"ccccc\" signature=\"MLLLL\" style=\"fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.0;\" id=\"line.0\" x1=\"377.81\" y1=\"281.62\" x2=\"113.38\" y2=\"281.62\" />",
 					line61.toXML());
 //			SVGLine line63 = (SVGLine) groups.get(6).getChild(3);
 //			line63.format(2);

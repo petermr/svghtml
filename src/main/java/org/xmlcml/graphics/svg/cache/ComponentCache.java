@@ -489,9 +489,11 @@ public class ComponentCache extends AbstractCache {
 		List<Real2Range> boundingBoxes = new ArrayList<Real2Range>();
 		for (SVGShape shape : getOrCreateShapeCache().getOrCreateAllShapeList()) {
 			Real2Range bbox = shape.getBoundingBox();
-			bbox.extendBothEndsBy(Direction.HORIZONTAL, d, d);
-			bbox.extendBothEndsBy(Direction.VERTICAL, d, d);
-			boundingBoxes.add(bbox);
+			if (bbox != null) {
+				bbox.extendBothEndsBy(Direction.HORIZONTAL, d, d);
+				bbox.extendBothEndsBy(Direction.VERTICAL, d, d);
+				boundingBoxes.add(bbox);
+			}
 		}
 		mergeBoundingBoxes(boundingBoxes);
 		return boundingBoxes;
@@ -730,7 +732,8 @@ public class ComponentCache extends AbstractCache {
 				};
 				for (int k = 0; k < boundingBoxList.size(); k++) {
 					for (Real2 xy0 : xy) {
-						if (boundingBoxList.get(k).includes(xy0)) {
+						Real2Range bbox = boundingBoxList.get(k);
+						if (bbox != null && bbox.includes(xy0)) {
 							inside = true;
 							break;
 						}

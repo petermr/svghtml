@@ -159,6 +159,11 @@ public class SVGPath extends SVGShape {
 		this();
 		if (reference != null) {
 			XMLUtil.copyAttributes(reference, this);
+			// might be cached
+			Attribute sig = this.getAttribute(SIGNATURE);
+			if (sig != null) {
+				this.removeAttribute(sig);
+			}
 		}
 		String d = primitiveList.createD();
 		setDString(d);
