@@ -167,7 +167,6 @@ public class PhraseChunk extends LineChunk implements Iterable<Phrase> {
 		getOrCreateChildPhraseList();
 		for (Phrase phrase : childPhraseList) {
 			phrase.rotateAll(centreOfRotation, angle);
-			LOG.trace("P: "+phrase.toXML());
 		}
 		updateChildPhraseList();
 	}

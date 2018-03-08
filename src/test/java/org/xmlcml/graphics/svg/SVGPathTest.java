@@ -160,13 +160,13 @@ public class SVGPathTest {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg"))
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
-		String signature = svgPath.createSignatureFromDStringPrimitives();
+		String signature = svgPath.getOrCreateSignatureAttributeValue();
 		Assert.assertEquals("MLCCLCC", signature);
 		primList.replaceUTurnsByButt(5);
 		primList.replaceUTurnsByButt(2);
 		SVGPath newPath = new SVGPath(primList, svgPath);
 		Assert.assertEquals("new d", "M415.26 526.26 L415.26 517.98 L415.74 517.98 L415.74 526.26 L415.26 526.26", newPath.getDString().trim());
-		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("new sig", "MLLLL", newPath.getOrCreateSignatureAttributeValue());
 		
 	}
 
@@ -175,12 +175,12 @@ public class SVGPathTest {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg"))
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
-		String signature = svgPath.createSignatureFromDStringPrimitives();
+		String signature = svgPath.getOrCreateSignatureAttributeValue();
 		Assert.assertEquals("MLCCLCC", signature);
 		svgPath.replaceAllUTurnsByButt(ANGLE_EPS);
 		SVGPath newPath = new SVGPath(primList, svgPath);
 		Assert.assertEquals("new d", "M415.26 526.26 L415.26 517.98 L415.74 517.98 L415.74 526.26 L415.26 526.26", newPath.getDString().trim());
-		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("new sig", "MLLLL", newPath.getOrCreateSignatureAttributeValue());
 		
 	}
 
@@ -204,7 +204,7 @@ public class SVGPathTest {
 		SVGG g = new SVGG();
 		int i = 0;
 		for (SVGPath path : pathList) {
-			LOG.trace(path.createSignatureFromDStringPrimitives());
+			LOG.trace(path.getOrCreateSignatureAttributeValue());
 			SVGPath newPath = path.replaceAllUTurnsByButt(angleEps);
 			if (newPath != null) {
 				SVGLine line = newPath.createLineFromMLLLL(angleEps, LINE_EPS);
@@ -229,12 +229,12 @@ public class SVGPathTest {
 		List<SVGPath> pathList = SVGPath.extractPaths(SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.MOLECULES_DIR, "image.g.2.13.svg")));
 		SVGPath path = pathList.get(9);
 		Angle angle2 = new Angle(0.02, Units.RADIANS);
-		Assert.assertEquals("old sig", "MLCCLCC", path.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("old sig", "MLCCLCC", path.getOrCreateSignatureAttributeValue());
 		PathPrimitiveList primList = path.getOrCreatePathPrimitiveList();
 		List<Integer> quadrantStartList = primList.getUTurnList(angle2);
 		Assert.assertEquals("uturns", 2, quadrantStartList.size());
 		SVGPath newPath = path.replaceAllUTurnsByButt(angle2);
-		Assert.assertEquals("new sig", "MLLLL", newPath.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("new sig", "MLLLL", newPath.getOrCreateSignatureAttributeValue());
 		SVGShape line = newPath.createLineFromMLLLL(angle2, MAX_WIDTH);
 		Assert.assertNotNull(line);
 	}

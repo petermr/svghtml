@@ -16,7 +16,11 @@
 
 package org.xmlcml.graphics.html;
 
+import java.io.File;
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
+import org.xmlcml.xml.XMLUtil;
 
 
 /** base class for lightweight generic SVG element.
@@ -85,5 +89,23 @@ public class HtmlHtml extends HtmlElement {
 
 	public HtmlBody getBody() {
 		return (HtmlBody) getSingleChildElement(this, HtmlBody.TAG);
+	}
+	
+	public static void wrapAndWriteAsHtml(HtmlElement htmlElement, File file) {
+		if (htmlElement == null) {
+			LOG.error("Cannot write null element");
+			return;
+		} 
+		if (htmlElement instanceof HtmlHtml) {
+		} else {
+			HtmlHtml html = HtmlHtml.createUTF8Html();
+			html.getOrCreateBody().appendChild(htmlElement.copy());
+		}
+		try {
+			XMLUtil.debug(htmlElement, file, 1);
+		} catch (IOException e) {
+			LOG.error("cannot write html ",  e);
+		}
+		
 	}
 }

@@ -409,7 +409,7 @@ public class SVGPathPrimitiveTest {
 		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 	    PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.getOrCreatePathPrimitiveList();
-		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getOrCreateSignatureAttributeValue());
 		Assert.assertTrue("closed", primitiveList.isClosed());
 		Assert.assertNull("angle0", primitiveList.getAngle(0)); //MOVE
 		Assert.assertEquals("angle1", 0.0, primitiveList.getAngle(1).getRadian(), ANGLE_EPS.getRadian());
@@ -425,7 +425,7 @@ public class SVGPathPrimitiveTest {
 		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.getOrCreatePathPrimitiveList();
-		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getOrCreateSignatureAttributeValue());
 		Assert.assertEquals("q0", 0, primitiveList.quadrantValue(0, ANGLE_EPS));
 		Assert.assertEquals("q1", 0, primitiveList.quadrantValue(1, ANGLE_EPS));
 		Assert.assertEquals("q2", 1, primitiveList.quadrantValue(2, ANGLE_EPS));
@@ -451,7 +451,7 @@ public class SVGPathPrimitiveTest {
 		SVGPath ROUNDED_LINE_SVG = (SVGPath) SVGElement.readAndCreateSVG(SVGHTMLFixtures.ROUNDED_LINE_SVG_FILE)
 				.getChildElements().get(0).getChildElements().get(0);
 		PathPrimitiveList primitiveList = ROUNDED_LINE_SVG.getOrCreatePathPrimitiveList();
-		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("MLCCLCC", ROUNDED_LINE_SVG.getOrCreateSignatureAttributeValue());
 		Assert.assertTrue(primitiveList.isUTurn(2, ANGLE_EPS));
 	}
 	

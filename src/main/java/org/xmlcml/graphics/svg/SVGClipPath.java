@@ -177,7 +177,7 @@ public class SVGClipPath extends SVGElement {
 	}
 	
 	public String getSignature() {
-		return getOrCreatePath() == null ? null : getOrCreatePath().createSignatureFromDStringPrimitives();
+		return getOrCreatePath() == null ? null : getOrCreatePath().getOrCreateSignatureAttributeValue();
 	}
 	public String toString() {
 		String s = "("+this.getId()+" "+getSignature()+") "+getBoundingBox(); 

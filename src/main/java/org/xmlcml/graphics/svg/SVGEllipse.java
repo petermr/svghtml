@@ -204,7 +204,7 @@ public class SVGEllipse extends SVGShape {
 
 	public static SVGShape getEllipseOrCircle(SVGPath path, double eps) {
 		SVGShape ellipseOrCircle= null;
-		String signature = path.createSignatureFromDStringPrimitives();
+		String signature = path.getOrCreateSignatureAttributeValue();
 		if (signature.equals(ELLIPSE_MCCCC) || signature.equals(ELLIPSE_MCCCCZ)) {
 /**
  d="M350.644 164.631 

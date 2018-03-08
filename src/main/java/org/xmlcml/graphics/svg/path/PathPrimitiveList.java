@@ -401,9 +401,14 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 	}
 
 	public String createSignature() {
+		long millis = System.currentTimeMillis();
 		StringBuilder sig = new StringBuilder();
 		for (SVGPathPrimitive primitive : this) {
 			sig.append(primitive.getTag());
+		}
+		long tt = (System.currentTimeMillis() - millis)/1000;
+		if (tt > 1) {
+			LOG.debug("SIG "+tt);
 		}
 		return sig.toString();
 	}
@@ -508,7 +513,7 @@ public class PathPrimitiveList implements Iterable<SVGPathPrimitive> {
 
 	public String getOrCreateSignature() {
 		if (signature == null) {
-			signature = getOrCreateSVGPath().createSignatureFromDStringPrimitives();
+			signature = getOrCreateSVGPath().getOrCreateSignatureAttributeValue();
 		}
 		return signature;
 	}

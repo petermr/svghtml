@@ -147,7 +147,7 @@ public class Path2ShapeConverterTest {
 		public void testHollowline() {
 			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowline.svg"))
 					.getChildElements().get(0);
-			Assert.assertEquals("sig",  "MLLL", svgPath.createSignatureFromDStringPrimitives());
+			Assert.assertEquals("sig",  "MLLL", svgPath.getOrCreateSignatureAttributeValue());
 			Path2ShapeConverter p2sConverter = new Path2ShapeConverter(svgPath);
 			SVGShape line = p2sConverter.createNarrowLine();
 			Assert.assertNotNull("line", line);
@@ -164,7 +164,7 @@ public class Path2ShapeConverterTest {
 			Z"/>*/
 			SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "circle.svg"))
 					.getChildElements().get(0);
-			Assert.assertEquals("sig",  "MCCCCZ", svgPath.createSignatureFromDStringPrimitives());
+			Assert.assertEquals("sig",  "MCCCCZ", svgPath.getOrCreateSignatureAttributeValue());
 			Path2ShapeConverter p2sConverter = new Path2ShapeConverter();
 			SVGShape circle = p2sConverter.convertPathToShape(svgPath);
 			Assert.assertNotNull("circle", circle);

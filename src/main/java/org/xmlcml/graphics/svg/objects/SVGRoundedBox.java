@@ -27,7 +27,7 @@ public class SVGRoundedBox extends SVGG {
 
 	public static SVGRoundedBox createRoundedBox(SVGPath path) {
 		SVGRoundedBox roundedBox = null;
-		if ("MCLCLCLCZ".equals(path.createSignatureFromDStringPrimitives())) {
+		if ("MCLCLCLCZ".equals(path.getOrCreateSignatureAttributeValue())) {
 			roundedBox = new SVGRoundedBox(path);
 		}
 		return roundedBox;

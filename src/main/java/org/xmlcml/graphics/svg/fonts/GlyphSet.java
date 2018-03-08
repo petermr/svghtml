@@ -205,7 +205,7 @@ public class GlyphSet {
 			SVGElement convertedElement = element;
 			if (element instanceof SVGPath) {
 				SVGPath svgPath = (SVGPath) element;
-				String signature = svgPath.createSignatureFromDStringPrimitives();
+				String signature = svgPath.getOrCreateSignatureAttributeValue();
 				if (signature.equals(SVGPath.MLLLL) ||
 					signature.equals(SVGPath.MLLLLZ) ||
 					signature.equals(SVGPath.MLLLZ) ||
@@ -249,7 +249,7 @@ public class GlyphSet {
 	public SVGText createTextFromGlyph(SVGPath path) {
 		Real2Range bbox = path.getBoundingBox();
 		double fontSize = 4.0;
-		String signature = path.createSignatureFromDStringPrimitives();
+		String signature = path.getOrCreateSignatureAttributeValue();
 		String character = getCharacterBySignature(signature);
 		if (character == null) {
 			LOG.debug("cannot find character for: "+signature);

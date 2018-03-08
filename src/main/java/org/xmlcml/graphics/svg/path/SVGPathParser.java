@@ -27,6 +27,7 @@ public class SVGPathParser {
 	private SVGPathPrimitive lastPrimitive;
 	
 	public PathPrimitiveList parseDString(String d) {
+		long millis = System.currentTimeMillis();
 		LOG.trace(">d>"+d);
 		this.d = d;
 		primitiveList = new PathPrimitiveList();
@@ -34,6 +35,11 @@ public class SVGPathParser {
 			return primitiveList;
 		}
 		tokenList = extractTokenList(d);
+		long mm = System.currentTimeMillis();
+		long tt = (mm-millis)/1000;
+		if (tt > 1) {
+			throw new RuntimeException("long: "+tt);
+		}
 		int itok = 0;
 		firstPoint = null;
 		currentPoint = null;
@@ -71,6 +77,12 @@ public class SVGPathParser {
 				throw new RuntimeException("unknown or unsupported primitive "+t+" in token "+itok+"("+token+") in "+d);
 			}
 		}
+		mm = System.currentTimeMillis();
+		tt = (mm-millis)/1000;
+		if (tt > 1) {
+			LOG.debug("longParse: "+tt);
+		}
+
 		return primitiveList;
 	}
 

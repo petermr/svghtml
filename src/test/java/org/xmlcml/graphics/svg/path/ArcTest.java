@@ -20,7 +20,7 @@ public class ArcTest {
 	public void testArc() {
 		SVGPath svgPath = (SVGPath) SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"))
 				.getChildElements().get(0);
-		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.getOrCreateSignatureAttributeValue());
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		Arc arc = new Arc((CubicPrimitive) primList.get(2));
 		Real2 centre = arc.getCentre();

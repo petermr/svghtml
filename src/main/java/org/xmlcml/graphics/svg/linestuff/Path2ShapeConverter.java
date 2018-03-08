@@ -300,7 +300,7 @@ public class Path2ShapeConverter {
 		if (path == null) {
 			return null;
 		}
-		currentSignature = path.createSignatureFromDStringPrimitives();
+		currentSignature = path.getOrCreateSignatureAttributeValue();
 		currentFill = path.getFill();
 		SVGShape shape = null;
 		SVGShape polygon = null;
@@ -389,7 +389,7 @@ public class Path2ShapeConverter {
 	 */
 	private SVGShape applyHeuristics(SVGPath path) {
 		SVGShape shape = path; // no change
-		String signature = path.createSignatureFromDStringPrimitives();
+		String signature = path.getOrCreateSignatureAttributeValue();
 		LOG.trace("SIG "+signature);
 		if (signature == null) {
 			LOG.warn("Null signature for path");
@@ -452,7 +452,7 @@ public class Path2ShapeConverter {
 	}
 
 	private SVGPath removeRoundedCapsFromPossibleLine(SVGPath path) {
-		String signature = path.createSignatureFromDStringPrimitives();
+		String signature = path.getOrCreateSignatureAttributeValue();
 		if (MLCCLCC.equals(signature) || MLCCLCCZ.equals(signature)) {
 			SVGPath newPath = path.replaceAllUTurnsByButt(maxAngleForParallel, true);
 			if (newPath != null) {
@@ -1102,7 +1102,7 @@ public class Path2ShapeConverter {
 		maxPathWidth = 1.0;
 		if (svgPath == null) return null;
 		SVGShape line = null;
-		String signature = svgPath.createSignatureFromDStringPrimitives();
+		String signature = svgPath.getOrCreateSignatureAttributeValue();
 		if (MLLL.equals(signature) || MLLLL.equals(signature)) {
 			PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 			SVGLine line0 = primList.getLine(1);
@@ -1140,7 +1140,7 @@ public class Path2ShapeConverter {
 	@Deprecated
 	public SVGPath createNarrowQuadrant() {
 		SVGPath newPath = null;
-		String signature = svgPath.createSignatureFromDStringPrimitives();
+		String signature = svgPath.getOrCreateSignatureAttributeValue();
 		if (MCLC.equals(signature)) {
 			PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 			Arc quadrant0 = primList.getQuadrant(1, ANGLE_EPS);

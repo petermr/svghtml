@@ -69,7 +69,7 @@ public class SVGTriangle extends SVGPolygon {
 	 */
 	public static SVGTriangle getPseudoTriangle(SVGPath path) {
 		SVGTriangle triangle = null;
-		String signature = path.createSignatureFromDStringPrimitives();
+		String signature = path.getOrCreateSignatureAttributeValue();
 		if (signature.equals("MCLCCC")) {
 			SVGPoly svgPoly = SVGPoly.createSVGPoly(path);
 			if (svgPoly instanceof SVGPolygon) {

@@ -58,6 +58,7 @@ import nu.xom.Node;
  */
 public class SVGPath extends SVGShape {
 
+	private static final String M_NULL = "M";
 	private static Logger LOG = Logger.getLogger(SVGPath.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
@@ -95,6 +96,7 @@ public class SVGPath extends SVGShape {
 	private static final Double MAX_WIDTH = 2.0;
 	public final static Pattern REPEATED_ML = Pattern.compile("ML(ML)*");
 	private static final double CIRCLE_EPSILON = 0.01;
+	private static final int DSTRING_MAX = 100000 ; // omit longer attributes 
 	
 	protected GeneralPath path2;
 	protected boolean isClosed = false;
@@ -332,7 +334,7 @@ public class SVGPath extends SVGShape {
 	public SVGCircle createCircle(double epsilon) {
 		createCoordArray();
 		SVGCircle circle = null;
-		String signature = createSignatureFromDStringPrimitives();
+		String signature = getOrCreateSignatureAttributeValue();
 		if (signature.equals(MCCCCZ) || signature.equals(MCCCC) && isClosed) {
 			PathPrimitiveList primList = getOrCreatePathPrimitiveList();
 			Angle angleEps = new Angle(0.05, Units.RADIANS);
@@ -557,9 +559,40 @@ public class SVGPath extends SVGShape {
 	@Override
 	public String createSignatureFromDStringPrimitives() {
 		String signature = null;
-		if (getDString() != null) {
- 			getOrCreatePathPrimitiveList();
-			signature = primitiveList.createSignature();
+		String dString = getDString();
+		long millis = System.currentTimeMillis();
+		if (dString != null) {
+			int length = dString.length();
+//			LOG.debug("D "+length);
+			boolean longString = length > DSTRING_MAX;
+			if (longString) {
+				LOG.debug("skipped long string: "+length);
+				signature = M_NULL;
+				primitiveList = new PathPrimitiveList(); // empty, don't recompute
+			} else {
+				if (length > 10000) {
+					LOG.debug("longSig: "+length);
+				}
+	 			getOrCreatePathPrimitiveList();
+	 			long mm = System.currentTimeMillis();
+	 			long tt = (mm - millis)/1000;
+	 			boolean long1 = false;
+	 			if (tt > 1) {
+	 				LOG.debug("T "+tt+"; "+";"+length+";"+longString);
+	 				long1 = true;
+	 			}
+				signature = primitiveList.createSignature();
+	 			long mmm = System.currentTimeMillis();
+	 			long ttt = (mmm - mm)/1000;
+	 			if (long1) {
+//	 				LOG.debug("TT "+ttt+"; "+";"+length+";"+longString);
+	 			}
+	 			if (length > 10000) {
+	 				LOG.info("long path: "+primitiveList.size());
+	 			}
+			}
+		} else {
+			signature = M_NULL;
 		}
 		return signature;
 	}
@@ -655,7 +688,7 @@ public class SVGPath extends SVGShape {
 	// there are some polylines which contain a small number of curves and may be transformable
 	public SVGPoly createHeuristicPolyline(int minL, int maxC, int minPrimitives) {
 		SVGPoly polyline = null;
-		String signature = this.createSignatureFromDStringPrimitives();
+		String signature = this.getOrCreateSignatureAttributeValue();
 		if (signature.length() < 3) {
 			return null;
 		}
@@ -749,7 +782,7 @@ public class SVGPath extends SVGShape {
 	 */
 	public SVGPath replaceAllUTurnsByButt(Angle angleEps, boolean extend) {
 		SVGPath path = null;
-		if (createSignatureFromDStringPrimitives().contains(CC)) {
+		if (getOrCreateSignatureAttributeValue().contains(CC)) {
 			PathPrimitiveList primList = getOrCreatePathPrimitiveList();
 			List<Integer> quadrantStartList = primList.getUTurnList(angleEps);
 			if (quadrantStartList.size() > 0) {
@@ -777,7 +810,7 @@ public class SVGPath extends SVGShape {
 	 */
 	public SVGLine createLineFromMLLLL(Angle angleEps, Double maxWidth) {
 		SVGLine line = null;
-		String sig = createSignatureFromDStringPrimitives();
+		String sig = getOrCreateSignatureAttributeValue();
 		if (MLLLL.equals(sig) || MLLLLZ.equals(sig)) {
 			getOrCreatePathPrimitiveList();
 			line = primitiveList.createLineFromMLLLL(angleEps, maxWidth);
@@ -800,7 +833,7 @@ public class SVGPath extends SVGShape {
 	 */
 	public SVGLine createLineFromMLLL(Angle angleEps, Double maxWidth) {
 		SVGLine line = null;
-		String sig = createSignatureFromDStringPrimitives();
+		String sig = getOrCreateSignatureAttributeValue();
 		if (MLLL.equals(sig)) {
 			getOrCreatePathPrimitiveList();
 			line = primitiveList.createLineFromMLLL(angleEps, maxWidth);
@@ -815,7 +848,7 @@ public class SVGPath extends SVGShape {
 	 * @return list of lines (one for each ML)
 	 */
 	public List<SVGLine> createSeparatedLinesFromRepeatedML(String refSig) {
-		String sig = createSignatureFromDStringPrimitives();
+		String sig = getOrCreateSignatureAttributeValue();
 		List<SVGLine> lineList = new ArrayList<SVGLine>();
 		if (isRepeatedML(sig)) {
 			if (refSig == null || "".equals(refSig.trim()) ||
@@ -863,7 +896,7 @@ public class SVGPath extends SVGShape {
 			if (circle != null) {
 				circleList.add(circle);
 			} else {
-				LOG.trace(path.createSignatureFromDStringPrimitives());
+				LOG.trace(path.getOrCreateSignatureAttributeValue());
 			}
 		}
 		return circleList;
@@ -902,7 +935,7 @@ public class SVGPath extends SVGShape {
 
 	@Override
 	public boolean isZeroDimensional() {
-		String signature = this.createSignatureFromDStringPrimitives();
+		String signature = this.getOrCreateSignatureAttributeValue();
 		if (signature == null) return false;
 		signature = signature.toUpperCase();
 		return (signature.equals(MZ) || signature.equals(M));
@@ -932,7 +965,10 @@ public class SVGPath extends SVGShape {
 	 * 
 	 */
 	public void forceCreateSignatureAttributeValue() {
-		addAttribute(new Attribute(SIGNATURE, createSignatureFromDStringPrimitives()));
+		String signature = createSignatureFromDStringPrimitives();
+		if (signature != null) {
+			addAttribute(new Attribute(SIGNATURE, signature));
+		}
 	}
 
 	/** some diagrams contain multiple copies of a primitive with different attributes. Remove all but one.

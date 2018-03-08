@@ -23,7 +23,7 @@ public class LinePrimitiveTest {
 	public void testLinePrimitive() {
 		AbstractCMElement svgElement = SVGElement.readAndCreateSVG(new File(SVGHTMLFixtures.PATHS_DIR, "hollowcorner.svg"));
 		SVGPath svgPath = SVGPath.extractSelfAndDescendantPaths(svgElement).get(0);
-		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.createSignatureFromDStringPrimitives());
+		Assert.assertEquals("sig",  "MLCLLLCL", svgPath.getOrCreateSignatureAttributeValue());
 		PathPrimitiveList primList = svgPath.getOrCreatePathPrimitiveList();
 		LinePrimitive line1 = (LinePrimitive) primList.get(1);
 		Assert.assertEquals("line1", "L287.263 89.045 ", line1.toString());
