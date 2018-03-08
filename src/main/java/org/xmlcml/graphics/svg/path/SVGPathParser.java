@@ -80,7 +80,10 @@ public class SVGPathParser {
 		mm = System.currentTimeMillis();
 		tt = (mm-millis)/1000;
 		if (tt > 1) {
-			LOG.debug("longParse: "+tt);
+			LOG.debug("longParse: "+tt+"; d "+d.length());
+			if (d.length() == 225300) {
+				LOG.debug("stop");
+			}
 		}
 
 		return primitiveList;

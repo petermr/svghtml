@@ -191,17 +191,19 @@ public class SVGPath extends SVGShape {
 		path.setFill(NONE);
 	}
 	
-	/** 
-	 * Creates a list of primitives
-	 * <p>
-	 * At present Move, Line, Curve, Z
-	 * @param d
-	 * @return
-	 */
-	public PathPrimitiveList parseDString() {
-		String d = getDString();
-		return (d == null ? null : new SVGPathParser().parseDString(d));
-	}
+//	/** 
+//	 * Creates a list of primitives
+//	 * <p>
+//	 * At present Move, Line, Curve, Z
+//	 * 
+//	 * NOTE - use getOrCreate
+//	 * @param d
+//	 * @return
+//	 */
+//	public PathPrimitiveList parseDString() {
+//		String d = getDString();
+//		return (d == null ? null : new SVGPathParser().parseDString(d));
+//	}
 	
     private static String createD(Real2Array xy) {
 		String s = XMLConstants.S_EMPTY;
@@ -372,7 +374,7 @@ public class SVGPath extends SVGShape {
 	public PathPrimitiveList getOrCreatePathPrimitiveList() {
 		isClosed = false;
 		if (primitiveList == null) {
-			primitiveList = createPathPrimitives();
+			primitiveList = getOrCreatePathPrimitives();
 		}
 		if (primitiveList.size() > 1) {
 			SVGPathPrimitive primitive0 = primitiveList.get(0);
@@ -401,7 +403,7 @@ public class SVGPath extends SVGShape {
 	
 	public Real2Array getCoords() {
 		coords = new Real2Array();
-		PathPrimitiveList primitives = createPathPrimitives();
+		PathPrimitiveList primitives = getOrCreatePathPrimitives();
 		for (SVGPathPrimitive primitive : primitives) {
 			Real2 coord = primitive.getFirstCoord();
 			Real2Array coordArray = primitive.getCoordArray();
@@ -459,9 +461,17 @@ public class SVGPath extends SVGShape {
 		return s;
 	}
 
-	private PathPrimitiveList createPathPrimitives() {
+	private PathPrimitiveList getOrCreatePathPrimitives() {
 		if (primitiveList == null) {
-			primitiveList = new SVGPathParser().parseDString(getDString());
+			String dString = getDString();
+			if (dString == null) {
+				primitiveList = new PathPrimitiveList();
+			} else if (dString.length() > DSTRING_MAX) {
+				LOG.debug("skipped long DString: "+dString.length());
+				primitiveList = new PathPrimitiveList();
+			} else {
+				primitiveList = new SVGPathParser().parseDString(dString);
+			}
 		}
 		return primitiveList;
 	}
@@ -542,7 +552,7 @@ public class SVGPath extends SVGShape {
 	}
 	
 	public void applyTransform(Transform2 t2) {
-		PathPrimitiveList pathPrimitives = this.createPathPrimitives();
+		PathPrimitiveList pathPrimitives = this.getOrCreatePathPrimitives();
 		for (SVGPathPrimitive primitive : pathPrimitives) {
 			primitive.transformBy(t2);
 		}
@@ -563,7 +573,6 @@ public class SVGPath extends SVGShape {
 		long millis = System.currentTimeMillis();
 		if (dString != null) {
 			int length = dString.length();
-//			LOG.debug("D "+length);
 			boolean longString = length > DSTRING_MAX;
 			if (longString) {
 				LOG.debug("skipped long string: "+length);
@@ -612,7 +621,7 @@ public class SVGPath extends SVGShape {
 	}
 
 	private void applyTransformationToPrimitives(Transform2 t2) {
-		PathPrimitiveList primitives = this.parseDString();
+		PathPrimitiveList primitives = this.getOrCreatePathPrimitiveList();
 		for (SVGPathPrimitive primitive : primitives) {
 			primitive.transformBy(t2);
 		}

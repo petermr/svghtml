@@ -65,12 +65,13 @@ public class CorpusCache extends ComponentCache {
 		int count = 0;
 		for (File cTreeDir : dirFiles) {
 			count++;
-			if (count != 4) continue; // this has problems
 			LOG.debug("*****"+count+"*****making DocumentCache: "+cTreeDir+" ****************");
 			DocumentCache documentCache = new DocumentCache(cTreeDir);
-//			documentCacheList.add(documentCache);
+			documentCacheList.add(documentCache);
 			HtmlElement htmlDiv = documentCache.getHtmlDiv();
-			HtmlHtml.wrapAndWriteAsHtml(htmlDiv, new File(cTreeDir, "html/html.html"));
+			File file = new File(cTreeDir, "html/html.html");
+			LOG.debug("WROTE: "+file);
+			HtmlHtml.wrapAndWriteAsHtml(htmlDiv, file);
 			convertedSVGElement.appendChild(new SVGText(new Real2(x, y), cTreeDir.getName()));
 			y += deltaY;
 		}

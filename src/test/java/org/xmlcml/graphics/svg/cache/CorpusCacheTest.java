@@ -7,6 +7,9 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.xmlcml.graphics.html.HtmlElement;
+import org.xmlcml.graphics.html.HtmlHtml;
+
+import junit.framework.Assert;
 
 public class CorpusCacheTest {
 	private static final Logger LOG = Logger.getLogger(CorpusCacheTest.class);
@@ -22,7 +25,10 @@ public class CorpusCacheTest {
 			return;
 		}
 		CorpusCache corpusCache = new CorpusCache(corpusDir);
+		
 		LOG.debug("MADE CORPUS");
 		List<HtmlElement> htmlElementList = corpusCache.getHtmlElementList();
+		Assert.assertEquals("html files ", 10, htmlElementList.size());
+		HtmlHtml.wrapAndWriteAsHtml(htmlElementList, corpusDir);
 	}
 }

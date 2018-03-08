@@ -188,7 +188,8 @@ public class SimpleBuilder {
 		convertLinelikePolygonsToLines();
 		List<SVGPath> pathsIt = pathCache.getCurrentPathList();
 		for (SVGPath path : pathsIt) {
-			PathPrimitiveList primitives = path.parseDString();
+//			PathPrimitiveList primitives = path.parseDString();
+			PathPrimitiveList primitives = path.getOrCreatePathPrimitiveList();
 			PathPrimitiveList newPrimitives = new PathPrimitiveList();
 			for (SVGPathPrimitive primitive : primitives) {
 				if (primitive instanceof CubicPrimitive) {
@@ -264,7 +265,7 @@ public class SimpleBuilder {
 		// this may be wrong - 
 		for (int i = pathList.size() - 1; i >= 0; i--) {
 			SVGPath line = pathList.get(i);
-			for (SVGPathPrimitive p : line.parseDString()) {
+			for (SVGPathPrimitive p : line.getOrCreatePathPrimitiveList()) {
 				if (!(p instanceof ClosePrimitive) && !(p instanceof MovePrimitive)) {
 					continue;
 				} else {

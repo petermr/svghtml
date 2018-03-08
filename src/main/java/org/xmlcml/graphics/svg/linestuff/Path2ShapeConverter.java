@@ -648,10 +648,9 @@ public class Path2ShapeConverter {
 	
 
 	private static SVGPath removeRedundantMoveCommands(SVGPath path, double eps) {
-		String d = path.getDString();
-		if (d != null) {
+		PathPrimitiveList primitives = path.getOrCreatePathPrimitiveList();
 			PathPrimitiveList newPrimitives = new PathPrimitiveList();
-			PathPrimitiveList primitives = new SVGPathParser().parseDString(d);
+//			PathPrimitiveList primitives = new SVGPathParser().parseDString(d);
 			int primitiveCount = primitives.size();
 			SVGPathPrimitive lastPrimitive = null;
 			for (int i = 0; i < primitives.size(); i++) {
@@ -680,16 +679,16 @@ public class Path2ShapeConverter {
 				}
 				lastPrimitive = currentPrimitive;
 			}
-			return createNewPathIfModified(path, d, newPrimitives, primitiveCount);
-		}
-		return path;
+			return createNewPathIfModified(path, path.getDString(), newPrimitives, primitiveCount);
+//		}
+//		return path;
 	}
 	
 	private static SVGPath removeRedundantLineCommands(SVGPath path, double eps) {
-		String d = path.getDString();
-		if (d != null) {
+		PathPrimitiveList primitives = path.getOrCreatePathPrimitiveList();
+//				PathPrimitiveList primitives = new SVGPathParser().parseDString(d);
 			PathPrimitiveList newPrimitives = new PathPrimitiveList();
-			PathPrimitiveList primitives = new SVGPathParser().parseDString(d);
+//			PathPrimitiveList primitives = new SVGPathParser().parseDString(d);
 			int primitiveCount = primitives.size();
 			SVGPathPrimitive lastPrimitive = null;
 			for (int i = 0; i < primitives.size(); i++) {
@@ -709,9 +708,9 @@ public class Path2ShapeConverter {
 				}
 				lastPrimitive = currentPrimitive;
 			}
-			return createNewPathIfModified(path, d, newPrimitives, primitiveCount);
-		}
-		return path;
+			return createNewPathIfModified(path, path.getDString(), newPrimitives, primitiveCount);
+//		}
+//		return path;
 	}
 
 	//TODO why not modify in place?
