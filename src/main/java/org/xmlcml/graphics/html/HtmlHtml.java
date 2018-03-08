@@ -18,6 +18,7 @@ package org.xmlcml.graphics.html;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.xmlcml.xml.XMLUtil;
@@ -107,5 +108,34 @@ public class HtmlHtml extends HtmlElement {
 			LOG.error("cannot write html ",  e);
 		}
 		
+	}
+
+	public static void wrapAndWriteAsHtml(List<HtmlElement> htmlElementList, File dir) {
+		if (htmlElementList == null) {
+			LOG.debug("null element list");
+		} else if (dir == null) {
+			LOG.debug("null dir");
+		} else if (!dir.isDirectory()) {
+			LOG.debug("requires directory");
+		} else {
+			if (!dir.exists()) {
+				dir.mkdirs();
+			}
+			int doc = 0;
+			for (HtmlElement htmlElement : htmlElementList) {
+				doc++;
+				if (htmlElement != null) {
+					String title = htmlElement.getTitle();
+					if (title == null) {
+						title = "html"+doc;
+					}
+					File file = new File(dir, title+".html");
+					LOG.debug("wrote: "+file);
+					HtmlHtml.wrapAndWriteAsHtml(htmlElement, file);
+				} else {
+					LOG.debug("null HTML output");
+				}
+			}
+		}
 	}
 }
