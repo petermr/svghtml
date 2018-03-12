@@ -1,0 +1,295 @@
+{
+  "id": [
+    "27109362"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27109362"
+  ],
+  "pmcid": [
+    "PMC4842989"
+  ],
+  "doi": [
+    "10.1038/srep24792"
+  ],
+  "title": [
+    "Accelerated nucleation of the 2014 Iquique, Chile Mw 8.2 Earthquake."
+  ],
+  "authorString": [
+    "Kato A, Fukuda J, Kumazawa T, Nakagawa S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kato A"
+          ],
+          "firstName": [
+            "Aitaro"
+          ],
+          "lastName": [
+            "Kato"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Earthquake Research Institute, University of Tokyo, Tokyo, Japan, 1-1-1 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Fukuda J"
+          ],
+          "firstName": [
+            "Jun'ichi"
+          ],
+          "lastName": [
+            "Fukuda"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Earthquake Research Institute, University of Tokyo, Tokyo, Japan, 1-1-1 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Kumazawa T"
+          ],
+          "firstName": [
+            "Takao"
+          ],
+          "lastName": [
+            "Kumazawa"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "The Institute of Statistical Mathematics, Tachikawa, Japan, 10-3 Midori-cho, Tachikawa, Tokyo, 190-8562, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Nakagawa S"
+          ],
+          "firstName": [
+            "Shigeki"
+          ],
+          "lastName": [
+            "Nakagawa"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Earthquake Research Institute, University of Tokyo, Tokyo, Japan, 1-1-1 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2460839"
+      ],
+      "dateOfPublication": [
+        "2016 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "24792"
+  ],
+  "abstractText": [
+    "The earthquake nucleation process has been vigorously investigated based on geophysical observations, laboratory experiments, and theoretical studies; however, a general consensus has yet to be achieved. Here, we studied nucleation process for the 2014 Iquique, Chile Mw 8.2 megathrust earthquake located within the current North Chile seismic gap, by analyzing a long-term earthquake catalog constructed from a cross-correlation detector using continuous seismic data. Accelerations in seismicity, the amount of aseismic slip inferred from repeating earthquakes, and the background seismicity, accompanied by an increasing frequency of earthquake migrations, started around 270 days before the mainshock at locations up-dip of the largest coseismic slip patch. These signals indicate that repetitive sequences of fast and slow slip took place on the plate interface at a transition zone between fully locked and creeping portions. We interpret that these different sliding modes interacted with each other and promoted accelerated unlocking of the plate interface during the nucleation phase."
+  ],
+  "affiliation": [
+    "Earthquake Research Institute, University of Tokyo, Tokyo, Japan, 1-1-1 Yayoi, Bunkyo-ku, Tokyo, 113-0032, Japan."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4842989?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4842989"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/srep24792"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-08-02"
+  ],
+  "dateOfCreation": [
+    "2016-04-25"
+  ],
+  "dateOfRevision": [
+    "2017-08-02"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-25"
+  ],
+  "firstPublicationDate": [
+    "2016-04-25"
+  ]
+}

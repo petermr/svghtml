@@ -1,0 +1,370 @@
+{
+  "id": [
+    "29081809"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29081809"
+  ],
+  "pmcid": [
+    "PMC5610870"
+  ],
+  "doi": [
+    "10.1155/2017/1719050"
+  ],
+  "title": [
+    "Astrocytes at the Hub of the Stress Response: Potential Modulation of Neurogenesis by miRNAs in Astrocyte-Derived Exosomes."
+  ],
+  "authorString": [
+    "Luarte A, Cisternas P, Caviedes A, Batiz LF, Lafourcade C, Wyneken U, Henzi R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Luarte A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Luarte"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Biomedical Neuroscience Institute, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cisternas P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Cisternas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Cells for Cells, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Caviedes A"
+          ],
+          "firstName": [
+            "Ariel"
+          ],
+          "lastName": [
+            "Caviedes"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Biomédicas, Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Batiz LF"
+          ],
+          "firstName": [
+            "Luis Federico"
+          ],
+          "lastName": [
+            "Batiz"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3043-8797",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Biomédicas, Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lafourcade C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Lafourcade"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Biomédicas, Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wyneken U"
+          ],
+          "firstName": [
+            "Ursula"
+          ],
+          "lastName": [
+            "Wyneken"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Biomédicas, Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Henzi R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "Henzi"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5448-5790",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Biomédicas, Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5448-5790",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3043-8797",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517868"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Stem cells international"
+          ],
+          "ISOAbbreviation": [
+            "Stem Cells Int"
+          ],
+          "medlineAbbreviation": [
+            "Stem Cells Int"
+          ],
+          "NLMid": [
+            "101535822"
+          ],
+          "ISSN": [
+            "1687-966X"
+          ],
+          "ESSN": [
+            "1687-9678"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1719050"
+  ],
+  "abstractText": [
+    "Repetitive stress negatively affects several brain functions and neuronal networks. Moreover, adult neurogenesis is consistently impaired in chronic stress models and in associated human diseases such as unipolar depression and bipolar disorder, while it is restored by effective antidepressant treatments. The adult neurogenic niche contains neural progenitor cells in addition to amplifying progenitors, neuroblasts, immature and mature neurons, pericytes, astrocytes, and microglial cells. Because of their particular and crucial position, with their end feet enwrapping endothelial cells and their close communication with the cells of the niche, astrocytes might constitute a nodal point to bridge or transduce systemic stress signals from peripheral blood, such as glucocorticoids, to the cells involved in the neurogenic process. It has been proposed that communication between astrocytes and niche cells depends on direct cell-cell contacts and soluble mediators. In addition, new evidence suggests that this communication might be mediated by extracellular vesicles such as exosomes, and in particular, by their miRNA cargo. Here, we address some of the latest findings regarding the impact of stress in the biology of the neurogenic niche, and postulate how astrocytic exosomes (and miRNAs) may play a fundamental role in such phenomenon."
+  ],
+  "affiliation": [
+    "Biomedical Neuroscience Institute, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5610870?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5610870"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/1719050"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-31"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-07"
+  ],
+  "firstPublicationDate": [
+    "2017-09-07"
+  ]
+}

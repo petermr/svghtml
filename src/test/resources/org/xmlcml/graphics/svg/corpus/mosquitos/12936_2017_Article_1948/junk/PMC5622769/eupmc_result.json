@@ -1,0 +1,458 @@
+{
+  "id": [
+    "28902162"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28902162"
+  ],
+  "pmcid": [
+    "PMC5622769"
+  ],
+  "doi": [
+    "10.3390/nu9091009"
+  ],
+  "title": [
+    "Percentage of Body Fat and Fat Mass Index as a Screening Tool for Metabolic Syndrome Prediction in Colombian University Students."
+  ],
+  "authorString": [
+    "Ramírez-Vélez R, Correa-Bautista JE, Sanders-Tordecilla A, Ojeda-Pardo ML, Cobo-Mejía EA, Castellanos-Vega RDP, García-Hermoso A, González-Jiménez E, Schmidt-RioValle J, González-Ruíz K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramírez-Vélez R"
+          ],
+          "firstName": [
+            "Robinson"
+          ],
+          "lastName": [
+            "Ramírez-Vélez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3075-6960",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física CEMA, Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robin640@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Correa-Bautista JE"
+          ],
+          "firstName": [
+            "Jorge Enrique"
+          ],
+          "lastName": [
+            "Correa-Bautista"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0646-2316",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física CEMA, Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. jorge.correa@urosario.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanders-Tordecilla A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Sanders-Tordecilla"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física CEMA, Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. alesanders_0615@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Ojeda-Pardo ML"
+          ],
+          "firstName": [
+            "Mónica Liliana"
+          ],
+          "lastName": [
+            "Ojeda-Pardo"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Grupo CORPS, Universidad de Boyacá, Facultad de Ciencias de la Salud, Boyacá 150003, Colombia. mlojeda@uniboyaca.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Cobo-Mejía EA"
+          ],
+          "firstName": [
+            "Elisa Andrea"
+          ],
+          "lastName": [
+            "Cobo-Mejía"
+          ],
+          "initials": [
+            "EA"
+          ],
+          "affiliation": [
+            "Grupo CORPS, Universidad de Boyacá, Facultad de Ciencias de la Salud, Boyacá 150003, Colombia. eacobo@uniboyaca.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Castellanos-Vega RDP"
+          ],
+          "firstName": [
+            "Rocío Del Pilar"
+          ],
+          "lastName": [
+            "Castellanos-Vega"
+          ],
+          "initials": [
+            "RDP"
+          ],
+          "affiliation": [
+            "Grupo CORPS, Universidad de Boyacá, Facultad de Ciencias de la Salud, Boyacá 150003, Colombia. dpcastellanos@uniboyaca.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Hermoso A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "García-Hermoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1397-7182",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Ciencias de la Actividad Física, el Deporte y la Salud, Facultad de Ciencias Médicas, Universidad de Santiago de Chile, USACH, Santiago 7500618, Chile. antonio.garcia.h@usach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Jiménez E"
+          ],
+          "firstName": [
+            "Emilio"
+          ],
+          "lastName": [
+            "González-Jiménez"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5103-6028",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Grupo CTS-436, Adscrito al Centro de Investigación Mente, Cerebro y Comportamiento (CIMCYC), University of Granada, 18071 Granada, Spain. emigoji@ugr.es."
+          ]
+        },
+        {
+          "fullName": [
+            "Schmidt-RioValle J"
+          ],
+          "firstName": [
+            "Jacqueline"
+          ],
+          "lastName": [
+            "Schmidt-RioValle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Grupo CTS-436, Adscrito al Centro de Investigación Mente, Cerebro y Comportamiento (CIMCYC), University of Granada, 18071 Granada, Spain. jschmidt@ugr.es."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Ruíz K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "González-Ruíz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Grupo de Ejercicio Físico y Deportes, Vicerrectoría de Investigaciones, Universidad Manuela Beltrán, Bogotá DC 110231, Colombia. katherine.gonzalez@docentes.umb.edu.co."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1397-7182",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3075-6960",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0646-2316",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5103-6028",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2591555"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nutrients"
+          ],
+          "ISOAbbreviation": [
+            "Nutrients"
+          ],
+          "medlineAbbreviation": [
+            "Nutrients"
+          ],
+          "NLMid": [
+            "101521595"
+          ],
+          "ISSN": [
+            "2072-6643"
+          ],
+          "ESSN": [
+            "2072-6643"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "High body fat is related to metabolic syndrome (MetS) in all ethnic groups. Based on the International Diabetes Federation (IDF) definition of MetS, the aim of this study was to explore thresholds of body fat percentage (BF%) and fat mass index (FMI) for the prediction of MetS among Colombian University students. A cross-sectional study was conducted on 1687 volunteers (63.4% women, mean age = 20.6 years). Weight, waist circumference, serum lipids indices, blood pressure, and fasting plasma glucose were measured. Body composition was measured by bioelectrical impedance analysis (BIA) and FMI was calculated. MetS was defined as including more than or equal to three of the metabolic abnormalities according to the IDF definition. Receiver operating curve (ROC) analysis was used to determine optimal cut-off points for BF% and FMI in relation to the area under the curve (AUC), sensitivity, and specificity in both sexes. The overall prevalence of MetS was found to be 7.7%, higher in men than women (11.1% vs. 5.3%; p < 0.001). BF% and FMI were positively correlated to MetS components (p < 0.05). ROC analysis indicated that BF% and FMI can be used with moderate accuracy to identify MetS in university-aged students. BF% and FMI thresholds of 25.55% and 6.97 kg/m² in men, and 38.95% and 11.86 kg/m² in women, were found to be indicative of high MetS risk. Based on the IDF criteria, both indexes' thresholds seem to be good tools to identify university students with unfavorable metabolic profiles."
+  ],
+  "affiliation": [
+    "Centro de Estudios para la Medición de la Actividad Física CEMA, Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robin640@hotmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Obesity",
+        "Adiposity",
+        "metabolic syndrome",
+        "Fat Mass"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622769?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622769"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nu9091009"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-13"
+  ],
+  "dateOfRevision": [
+    "2017-10-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-13"
+  ],
+  "firstPublicationDate": [
+    "2017-09-13"
+  ]
+}

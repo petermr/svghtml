@@ -1,0 +1,307 @@
+{
+  "id": [
+    "29358586"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29358586"
+  ],
+  "pmcid": [
+    "PMC5777999"
+  ],
+  "doi": [
+    "10.1038/s41598-018-19461-4"
+  ],
+  "title": [
+    "Hydroclimatic conditions trigger record harmful algal bloom in western Patagonia (summer 2016)."
+  ],
+  "authorString": [
+    "León-Muñoz J, Urbina MA, Garreaud R, Iriarte JL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "León-Muñoz J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "León-Muñoz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile. jleonm@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Urbina MA"
+          ],
+          "firstName": [
+            "Mauricio A"
+          ],
+          "lastName": [
+            "Urbina"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8040-6147",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Zoología, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, Concepción, 4070386, Chile. mauriciourbina@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Garreaud R"
+          ],
+          "firstName": [
+            "René"
+          ],
+          "lastName": [
+            "Garreaud"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Universidad de Chile, Santiago, 8370449, Región Metropolitana, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Iriarte JL"
+          ],
+          "firstName": [
+            "José Luis"
+          ],
+          "lastName": [
+            "Iriarte"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Instituto de Acuicultura and Centro de Investigación Dinámica de Ecosistemas Marinos de Altas Latitudes - IDEAL, Universidad Austral de Chile, Los Pinos s/n, Puerto Montt, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8040-6147",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2635309"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "1330"
+  ],
+  "abstractText": [
+    "A harmful algal bloom (HAB) of the raphidophyta alga Pseudochattonella cf. verruculosa during the 2016 austral summer (February-March) killed nearly 12% of the Chilean salmon production, causing the worst mass mortality of fish and shellfish ever recorded in the coastal waters of western Patagonia. The HAB coincided with a strong El Niño event and the positive phase of the Southern Annular Mode that altered the atmospheric circulation in southern South America and the adjacent Pacific Ocean. This led to very dry conditions and higher than normal solar radiation reaching the surface. Using time series of atmospheric, hydrologic and oceanographic data we show here that an increase in surface water temperature and reduced freshwater input resulted in a weakening of the vertical stratification in the fjords and sounds of this region. This allowed the advection of more saline and nutrient-rich waters, ultimately resulting in an active harmful algal bloom in coastal southern Chile."
+  ],
+  "affiliation": [
+    "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile. jleonm@udec.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5777999?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5777999"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-19461-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-01"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-22"
+  ],
+  "firstPublicationDate": [
+    "2018-01-22"
+  ]
+}

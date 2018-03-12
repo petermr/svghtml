@@ -1,0 +1,570 @@
+{
+  "id": [
+    "27281092"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27281092"
+  ],
+  "pmcid": [
+    "PMC4907670"
+  ],
+  "doi": [
+    "10.1097/md.0000000000003844"
+  ],
+  "title": [
+    "World Health Organization (WHO) surgical safety checklist implementation and its impact on perioperative morbidity and mortality in an academic medical center in Chile."
+  ],
+  "authorString": [
+    "Lacassie HJ, Ferdinand C, Guzmán S, Camus L, Echevarria GC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lacassie HJ"
+          ],
+          "firstName": [
+            "Hector J"
+          ],
+          "lastName": [
+            "Lacassie"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "affiliation": [
+            "aDivisión de Anestesiología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile bClínica Las Condes, Santiago, Chile cDivisión de Cirugía, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile dFacultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile eDepartment of Anesthesiology, Perioperative Care & Pain Medicine, New York University School of Medicine, New York, NY."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferdinand C"
+          ],
+          "firstName": [
+            "Constanza"
+          ],
+          "lastName": [
+            "Ferdinand"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Guzmán S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Guzmán"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Camus L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Camus"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Echevarria GC"
+          ],
+          "firstName": [
+            "Ghislaine C"
+          ],
+          "lastName": [
+            "Echevarria"
+          ],
+          "initials": [
+            "GC"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "23"
+      ],
+      "volume": [
+        "95"
+      ],
+      "journalIssueId": [
+        "2418108"
+      ],
+      "dateOfPublication": [
+        "2016 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Medicine"
+          ],
+          "ISOAbbreviation": [
+            "Medicine (Baltimore)"
+          ],
+          "medlineAbbreviation": [
+            "Medicine (Baltimore)"
+          ],
+          "NLMid": [
+            "2985248R"
+          ],
+          "ISSN": [
+            "0025-7974"
+          ],
+          "ESSN": [
+            "1536-5964"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e3844"
+  ],
+  "abstractText": [
+    "Health care organizations are unsafe. Numerous centers have incorporated the WHO Surgical Safety Checklist in their processes with good results; however, only limited information is available about its effectiveness in Latin America. We aimed to evaluate the impact of the checklist implementation on the in-hospital morbidity and mortality rate in a tertiary health care center. After Institutional review board approval, and using data from our hospital administrative records, we conducted a retrospective analysis of all surgical encounters (n = 70,639) over the period from January 2005 to December 2012. Propensity scoring (PS) methods (matching and inverse weighting) were used to compare the pre and postintervention period, after controlling for selection bias. After PS matching (n = 29,250 matched pairs), the in-hospital mortality rate was 0.82% [95% confidence interval (CI), 0.73-0.92] before and 0.65% (95% CI, 0.57-0.74) after checklist implementation [odds ratio (OR) 0.73; 95% CI, 0.61-0.89]. The median length of stay was 3 days [interquartile range (IQR), 1-5] and 2 days (IQR, 1-4) for the pre and postchecklist period, respectively (P < 0.01).This is the first Latin American study reporting a decrease in mortality after the implementation of the WHO Surgical Checklist in adult surgical patients. This is a strong and simple tool to make health care safer, especially in developing countries."
+  ],
+  "affiliation": [
+    "aDivisión de Anestesiología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile bClínica Las Condes, Santiago, Chile cDivisión de Cirugía, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile dFacultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile eDepartment of Anesthesiology, Perioperative Care & Pain Medicine, New York University School of Medicine, New York, NY."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Observational Study",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Postoperative Complications"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Morbidity"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hospital Mortality"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Odds Ratio"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Retrospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Forecasting"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Academic Medical Centers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "World Health Organization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Guideline Adherence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Checklist"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Propensity Score"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Quality Improvement"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "AIM"
+          ],
+          "name": [
+            "Core clinical journals"
+          ]
+        },
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4907670?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4907670"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1097/MD.0000000000003844"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-02-02"
+  ],
+  "dateOfCreation": [
+    "2016-06-10"
+  ],
+  "dateOfRevision": [
+    "2017-02-02"
+  ],
+  "firstPublicationDate": [
+    "2016-06-01"
+  ]
+}

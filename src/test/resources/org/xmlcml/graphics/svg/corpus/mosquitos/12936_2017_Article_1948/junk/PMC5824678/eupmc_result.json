@@ -1,0 +1,261 @@
+{
+  "id": [
+    "29479502"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29479502"
+  ],
+  "pmcid": [
+    "PMC5824678"
+  ],
+  "doi": [
+    "10.7717/peerj.4404"
+  ],
+  "title": [
+    "Phylogeny, time divergence, and historical biogeography of the South American Liolaemus alticolor-bibronii group (Iguania: Liolaemidae)."
+  ],
+  "authorString": [
+    "Portelli SN, Quinteros AS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Portelli SN"
+          ],
+          "firstName": [
+            "Sabrina N"
+          ],
+          "lastName": [
+            "Portelli"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "affiliation": [
+            "UNSa-CONICET, Instituto de Bio y Geociencias del NOA, Rosario de Lerma, Salta, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Quinteros AS"
+          ],
+          "firstName": [
+            "Andrés S"
+          ],
+          "lastName": [
+            "Quinteros"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "affiliation": [
+            "UNSa-CONICET, Instituto de Bio y Geociencias del NOA, Rosario de Lerma, Salta, Argentina."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2636959"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e4404"
+  ],
+  "abstractText": [
+    "The genus Liolaemus comprises more than 260 species and can be divided in two subgenera: Eulaemus and Liolaemus sensu stricto. In this paper, we present a phylogenetic analysis, divergence times, and ancestral distribution ranges of the Liolaemus alticolor-bibronii group (Liolaemus sensu stricto subgenus). We inferred a total evidence phylogeny combining molecular (Cytb and 12S genes) and morphological characters using Maximum Parsimony and Bayesian Inference. Divergence times were calculated using Bayesian MCMC with an uncorrelated lognormal distributed relaxed clock, calibrated with a fossil record. Ancestral ranges were estimated using the Dispersal-Extinction-Cladogenesis (DEC-Lagrange). Effects of some a priori parameters of DEC were also tested. Distribution ranged from central Perú to southern Argentina, including areas at sea level up to the high Andes. The L. alticolor-bibronii group was recovered as monophyletic, formed by two clades: L. walkeri and L. gracilis, the latter can be split in two groups. Additionally, many species candidates were recognized. We estimate that the L. alticolor-bibronii group diversified 14.5 Myr ago, during the Middle Miocene. Our results suggest that the ancestor of the Liolaemus alticolor-bibronii group was distributed in a wide area including Patagonia and Puna highlands. The speciation pattern follows the South-North Diversification Hypothesis, following the Andean uplift."
+  ],
+  "affiliation": [
+    "UNSa-CONICET, Instituto de Bio y Geociencias del NOA, Rosario de Lerma, Salta, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Lizards",
+        "Andean Uplift",
+        "Total Evidence",
+        "Liolaemus",
+        "Ancestral Range"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5824678?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5824678"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.4404"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-27"
+  ],
+  "dateOfRevision": [
+    "2018-02-28"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-20"
+  ],
+  "firstPublicationDate": [
+    "2018-02-20"
+  ]
+}

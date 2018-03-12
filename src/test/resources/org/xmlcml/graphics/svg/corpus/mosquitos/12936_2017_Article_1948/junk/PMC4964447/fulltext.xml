@@ -1,0 +1,622 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4964447</article-id><article-id pub-id-type="doi">10.3390/ijms17071071</article-id><article-id pub-id-type="publisher-id">ijms-17-01071</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Protonation Sites, Tandem Mass Spectrometry and Computational Calculations of <italic>o</italic>-Carbonyl Carbazolequinone Derivatives</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Mart&#x000ed;nez-Cifuentes</surname><given-names>Maximiliano</given-names></name><xref ref-type="aff" rid="af1-ijms-17-01071">1</xref><xref rid="c1-ijms-17-01071" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Clavijo-Allancan</surname><given-names>Graciela</given-names></name><xref ref-type="aff" rid="af2-ijms-17-01071">2</xref></contrib><contrib contrib-type="author"><name><surname>Zu&#x000f1;iga-Hormazabal</surname><given-names>Pamela</given-names></name><xref ref-type="aff" rid="af2-ijms-17-01071">2</xref></contrib><contrib contrib-type="author"><name><surname>Aranda</surname><given-names>Braulio</given-names></name><xref ref-type="aff" rid="af2-ijms-17-01071">2</xref></contrib><contrib contrib-type="author"><name><surname>Barriga</surname><given-names>Andr&#x000e9;s</given-names></name><xref ref-type="aff" rid="af3-ijms-17-01071">3</xref></contrib><contrib contrib-type="author"><name><surname>Weiss-L&#x000f3;pez</surname><given-names>Boris</given-names></name><xref ref-type="aff" rid="af2-ijms-17-01071">2</xref></contrib><contrib contrib-type="author"><name><surname>Araya-Maturana</surname><given-names>Ramiro</given-names></name><xref ref-type="aff" rid="af4-ijms-17-01071">4</xref><xref rid="c1-ijms-17-01071" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Putz</surname><given-names>Habil. Mihai V.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijms-17-01071"><label>1</label>Programa Institucional de Fomento a la Investigaci&#x000f3;n, Desarrollo e Innovaci&#x000f3;n, Universidad Tecnol&#x000f3;gica Metropolitana, Las Palmeras 3360, Casilla 9845, Santiago 7800003, Chile</aff><aff id="af2-ijms-17-01071"><label>2</label>Departamento de Qu&#x000ed;mica, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile; <email>gracielaclavijo@gmail.com</email> (G.C.-A.); <email>pamela.zuniga@ug.uchile.cl</email> (P.Z.-H.); <email>braulio.aranda.z@gmail.com</email> (B.A.); <email>bweiss@uchile.cl</email> (B.W.-L.)</aff><aff id="af3-ijms-17-01071"><label>3</label>Unidad de Espectrometr&#x000ed;a de Masas, Facultad de Ciencias Qu&#x000ed;micas y Farmac&#x000e9;uticas, Universidad de Chile, Santos Dumont 964, Casilla 233, Santiago 8380494, Chile; <email>anbarr@gmail.com</email></aff><aff id="af4-ijms-17-01071"><label>4</label>Instituto de Qu&#x000ed;mica de Recursos Naturales, Universidad de Talca, Av. Lircay s/n, Casilla 747, Talca 3460000, Chile</aff><author-notes><corresp id="c1-ijms-17-01071"><label>*</label>Correspondence: <email>mmartinez@utem.cl</email> (M.M.-C.); <email>raraya@utalca.cl</email> (R.A.-M.); Tel.: +56-2-2787-7174 (M.M.-C.); +56-2-2978-2874 (R.A.-M.)</corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>7</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2016</year></pub-date><volume>17</volume><issue>7</issue><elocation-id>1071</elocation-id><history><date date-type="received"><day>03</day><month>5</month><year>2016</year></date><date date-type="accepted"><day>28</day><month>6</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>A series of a new type of tetracyclic carbazolequinones incorporating a carbonyl group at the ortho position relative to the quinone moiety was synthesized and analyzed by tandem electrospray ionization mass spectrometry (ESI/MS-MS), using Collision-Induced Dissociation (CID) to dissociate the protonated species. Theoretical parameters such as molecular electrostatic potential (MEP), local Fukui functions and local Parr function for electrophilic attack as well as proton affinity (PA) and gas phase basicity (GB), were used to explain the preferred protonation sites. Transition states of some main fragmentation routes were obtained and the energies calculated at density functional theory (DFT) B3LYP level were compared with the obtained by ab initio quadratic configuration interaction with single and double excitation (QCISD). The results are in accordance with the observed distribution of ions. The nature of the substituents in the aromatic ring has a notable impact on the fragmentation routes of the molecules.</p></abstract><kwd-group><kwd>quinones</kwd><kwd>mass spectrometry</kwd><kwd>carbazole</kwd><kwd>DFT</kwd><kwd>QCISD</kwd></kwd-group></article-meta></front><body><sec id="sec1-ijms-17-01071"><title>1. Introduction</title><p>Quinones are a class of compounds with high structural diversity and widely present in nature [<xref rid="B1-ijms-17-01071" ref-type="bibr">1</xref>,<xref rid="B2-ijms-17-01071" ref-type="bibr">2</xref>,<xref rid="B3-ijms-17-01071" ref-type="bibr">3</xref>]. Some of them perform essential roles in the respiratory chain of cells [<xref rid="B4-ijms-17-01071" ref-type="bibr">4</xref>]. In addition, quinones are considered a privileged scaffold in medicinal chemistry as anticancer [<xref rid="B5-ijms-17-01071" ref-type="bibr">5</xref>,<xref rid="B6-ijms-17-01071" ref-type="bibr">6</xref>], antifungal [<xref rid="B7-ijms-17-01071" ref-type="bibr">7</xref>,<xref rid="B8-ijms-17-01071" ref-type="bibr">8</xref>], and antiparasitic drugs [<xref rid="B9-ijms-17-01071" ref-type="bibr">9</xref>]. Moreover, it has been found that carcinogenic polyaromatic quinones are generated in air suspended particulate by oxidation of polycyclic aromatic hydrocarbons [<xref rid="B10-ijms-17-01071" ref-type="bibr">10</xref>]. Interestingly, some quinones have also been found in interstellar dust particles [<xref rid="B11-ijms-17-01071" ref-type="bibr">11</xref>]. Quinones also have relevance in industrial applications such as dyes [<xref rid="B12-ijms-17-01071" ref-type="bibr">12</xref>], in biodegradation of priority pollutants [<xref rid="B13-ijms-17-01071" ref-type="bibr">13</xref>] and more recently in energy storage applications [<xref rid="B14-ijms-17-01071" ref-type="bibr">14</xref>].</p><p>In addition, the carbazole motif is present in several biologically active molecules [<xref rid="B15-ijms-17-01071" ref-type="bibr">15</xref>,<xref rid="B16-ijms-17-01071" ref-type="bibr">16</xref>]. For example, 1,4-Carbazolequinones have attracted interest as anticancer compounds [<xref rid="B17-ijms-17-01071" ref-type="bibr">17</xref>,<xref rid="B18-ijms-17-01071" ref-type="bibr">18</xref>]. The alkaloid murrayaquinone A, and a number of analogs that contain this moiety, have shown promising cytotoxicities [<xref rid="B19-ijms-17-01071" ref-type="bibr">19</xref>]. Also calothrixin B shows a high in-vitro cytotoxicity against HeLa cancer cells, by interaction with human topoisomerase I [<xref rid="B20-ijms-17-01071" ref-type="bibr">20</xref>] and by generation of reactive oxygen species [<xref rid="B21-ijms-17-01071" ref-type="bibr">21</xref>].</p><p>On the other hand, mass spectrometry (MS) has been demonstrated to be a very valuable tool in chemistry and life science research [<xref rid="B22-ijms-17-01071" ref-type="bibr">22</xref>]. The small amount of substance necessary for analysis, when compared with other techniques, confers MS a privileged site in structural analysis [<xref rid="B23-ijms-17-01071" ref-type="bibr">23</xref>]. The fragmentation patterns of different types of molecules are one of the most useful data for structure elucidation of unknown compounds [<xref rid="B24-ijms-17-01071" ref-type="bibr">24</xref>,<xref rid="B25-ijms-17-01071" ref-type="bibr">25</xref>]. The analysis of quinones has been performed using diverse methodologies such as conventional gas chromatography-electron impact-mass spectrometry (GC/EI-MS) [<xref rid="B26-ijms-17-01071" ref-type="bibr">26</xref>], matrix-assisted laser desorption/ionization time-of-flight (TOF) mass spectrometry [<xref rid="B27-ijms-17-01071" ref-type="bibr">27</xref>], electrospray ionization mass spectrometry (ESI-MS) [<xref rid="B28-ijms-17-01071" ref-type="bibr">28</xref>,<xref rid="B29-ijms-17-01071" ref-type="bibr">29</xref>,<xref rid="B30-ijms-17-01071" ref-type="bibr">30</xref>], atmospheric pressure chemical ionization mass spectrometry [<xref rid="B31-ijms-17-01071" ref-type="bibr">31</xref>], two-step laser desorption/post-photoionization mass spectrometry (L2MS/PIMS) [<xref rid="B32-ijms-17-01071" ref-type="bibr">32</xref>], infrared laser desorption/tunable synchrotron vacuum ultraviolet (VUV), photoionization TOF mass spectrometry [<xref rid="B33-ijms-17-01071" ref-type="bibr">33</xref>], and, more recently, desorption electrospray ionization (DESI), developed almost twenty years after matrix-assisted laser desorption/ionization technique (MALDI) [<xref rid="B34-ijms-17-01071" ref-type="bibr">34</xref>].</p><p>The fragmentation mechanisms of some quinones, especially substituted 1,4-naphthoquinones [<xref rid="B35-ijms-17-01071" ref-type="bibr">35</xref>,<xref rid="B36-ijms-17-01071" ref-type="bibr">36</xref>,<xref rid="B37-ijms-17-01071" ref-type="bibr">37</xref>] and substituted anthraquinones [<xref rid="B37-ijms-17-01071" ref-type="bibr">37</xref>,<xref rid="B38-ijms-17-01071" ref-type="bibr">38</xref>] have been previously described. </p><p>MS/MS experiments commonly lead to different routes of fragmentation of the molecule, depending on the thermodynamic and kinetic phenomena associated with the intermediates species formed during the fragmentation process. The study of these gas-phase intermediaries is not an easy task and the assistance of computational chemistry is a very useful and powerful tool to achieve this goal [<xref rid="B39-ijms-17-01071" ref-type="bibr">39</xref>,<xref rid="B40-ijms-17-01071" ref-type="bibr">40</xref>]. Some MS studies of quinones have been assisted in this way. For example, the role of the chain of 2-(acylamino)-1,4-naphthoquinones in the fragmentation of the protonated species generated by electrospray ionization, and in the fragmentation analysis of lapachol [<xref rid="B30-ijms-17-01071" ref-type="bibr">30</xref>,<xref rid="B41-ijms-17-01071" ref-type="bibr">41</xref>]. Also, the atoms in molecules theory has been used in the mass spectra analysis of 1,4-naphthoquinone derivatives, and to explain the generation of anion radicals of these class of compounds by ESI-MS [<xref rid="B42-ijms-17-01071" ref-type="bibr">42</xref>,<xref rid="B43-ijms-17-01071" ref-type="bibr">43</xref>].</p><p>For many years, we have been interested in quinones and hydroquinones as antitumor and antifungal agents [<xref rid="B8-ijms-17-01071" ref-type="bibr">8</xref>,<xref rid="B44-ijms-17-01071" ref-type="bibr">44</xref>,<xref rid="B45-ijms-17-01071" ref-type="bibr">45</xref>,<xref rid="B46-ijms-17-01071" ref-type="bibr">46</xref>,<xref rid="B47-ijms-17-01071" ref-type="bibr">47</xref>,<xref rid="B48-ijms-17-01071" ref-type="bibr">48</xref>], and in their unequivocal structural characterization using nuclear magnetic resonance (NMR) [<xref rid="B49-ijms-17-01071" ref-type="bibr">49</xref>,<xref rid="B50-ijms-17-01071" ref-type="bibr">50</xref>,<xref rid="B51-ijms-17-01071" ref-type="bibr">51</xref>] and MS [<xref rid="B52-ijms-17-01071" ref-type="bibr">52</xref>] techniques. Particularly interesting is the presence of a <italic>o</italic>-carbonyl group attached to the quinone/hydroquinone ring [<xref rid="B47-ijms-17-01071" ref-type="bibr">47</xref>,<xref rid="B53-ijms-17-01071" ref-type="bibr">53</xref>,<xref rid="B54-ijms-17-01071" ref-type="bibr">54</xref>], which can affect both, the electronic structure of the molecule as well as the possibility to form an intramolecular hydrogen bond (intraHB) [<xref rid="B55-ijms-17-01071" ref-type="bibr">55</xref>].</p><p>In this work, we report four new compounds, as an example of a new structural type of <italic>o</italic>-carbonyl quinone derivatives, with different substituents on ring D (<xref ref-type="fig" rid="ijms-17-01071-f001">Figure 1</xref>). Their gas-phase dissociation by electrospray ionization technique is also presented. In order to assist with the interpretation of the experimental results, density functional theory (DFT) and ab-initio calculations, were performed. </p></sec><sec id="sec2-ijms-17-01071"><title>2. Results and Discussion</title><sec id="sec2dot1-ijms-17-01071"><title>2.1. Synthesis of Carbazolequinones</title><p><italic>o</italic>-carbonylanilinoquinones <bold>6</bold>&#x02013;<bold>9</bold> were synthesized following the previously reported on water green procedure [<xref rid="B53-ijms-17-01071" ref-type="bibr">53</xref>]. These compounds were used as starting products in an oxidative coupling with palladium acetate, under nitrogen atmosphere, generating the corresponding new <italic>o</italic>-carbonyl carbazolequinones <bold>CQ1</bold>&#x02013;<bold>CQ4</bold> (<xref ref-type="fig" rid="ijms-17-01071-f002">Figure 2</xref>), following a procedure similar to one described before [<xref rid="B56-ijms-17-01071" ref-type="bibr">56</xref>].</p><p>We observed that <bold>CQ1,</bold> unsubstituted in the aromatic ring, is obtained in 52% yield for the cyclization reaction. This yield increases to 77% with the 2-methyl substituted compound (<bold>CQ2</bold>) and decreased to 23% and 39% for compounds <bold>CQ3</bold> and <bold>CQ4</bold> (4&#x02013;Br and 4&#x02013;COOEt substituted, respectively), suggesting the importance of the substituent in the aromatic ring for the reactivity in this kind of cyclization reaction. </p></sec><sec id="sec2dot2-ijms-17-01071"><title>2.2. Determination of Most Favorable Protonation Site</title><p>These molecules present four to six possible protonation sites corresponding to oxygen and nitrogen atoms. Our initial approach to study the most favorable protonation site was to calculate the static properties in the neutral ground state of the molecules. The calculations of optimized structures were carried out at DFT B3LYP/6-31G(d,p) level (Cartesian coordinates for all optimized structures can be found in <xref ref-type="app" rid="app1-ijms-17-01071">Tables S1&#x02013;S82 (supplementary materials)</xref>). Then, molecular electrostatic potential (MEP) plots (<xref ref-type="fig" rid="ijms-17-01071-f003">Figure 3</xref>) were obtained, which allows a qualitative determination of the most favorable protonation site.</p><p>The MEPs plot for all CQs show a strong basic region (red color) on oxygen atoms 1 and 2, and a weak basic region on oxygen 3. Additionally, <bold>CQ3</bold> shows a basic region on the carbonyl ester oxygen 5&#x02032;. On the other hand, nitrogen 4 does not exhibit basic character, possibly due to an efficient delocalization of the non-bonded electrons through the rest of the aromatic ring. Judging by the color (blue), it is clearly an electron deficient region. </p><p>Another way to assess the most favorable site of protonation involves obtaining local Fukui functions for electrophilic attack (<bold><italic>f</italic><sup>&#x02212;</sup></bold>) [<xref rid="B57-ijms-17-01071" ref-type="bibr">57</xref>] and the recently developed local Parr function for electrophilic attack (<bold><italic>P</italic><sup>&#x02212;</sup></bold>) [<xref rid="B58-ijms-17-01071" ref-type="bibr">58</xref>]. The values of these parameters are displayed in <xref ref-type="table" rid="ijms-17-01071-t001">Table 1</xref>. Both parameters are a quantitative measurement of the local nucleophilic reactivity and therefore, the most favorable protonation site. The new parameter <bold><italic>P</italic><sup>&#x02212;</sup></bold> has been invocated to be more suitable for polar reactions than local Fukui function. In this study, both parameters were compared.</p><p>In all <bold>CQ</bold>s, both parameters, <bold><italic>f</italic><sup>&#x02212;</sup></bold> and <bold><italic>P</italic><sup>&#x02212;</sup></bold>, show that the most reactive site for an electrophilic attack, towards which a proton can diffuse and eventually attach, is oxygen 1. However, according to <bold><italic>P</italic><sup>&#x02212;</sup></bold>, nitrogen 4 is shown to be the second most favorable site to attach the proton, unlike <bold><italic>f</italic></bold><sup>&#x02212;</sup>, which indicates that O2 is the second most favorable site, in agreement with MEP plots. The electrostatic potential reflects the hard reactivity [<xref rid="B59-ijms-17-01071" ref-type="bibr">59</xref>]. On the other hand, local descriptors from conceptual DFT, such as <bold><italic>f</italic><sup>&#x02212;</sup></bold> and <bold><italic>P</italic><sup>&#x02212;</sup></bold>, are representative of the soft reactivity, which have a greater orbital influence [<xref rid="B59-ijms-17-01071" ref-type="bibr">59</xref>]. Since the intermolecular protonation reaction is mainly an electrostatically controlled phenomenon, it is reasonable to consider the results that agree with those given by MEPs plots. Additionally, these results show that DFT local descriptors should be carefully used for this kind of studies. </p><p>Thermodynamic parameters are key tools to study and accurately determine the most favorable protonation site. For instance, the protonation sites of 1,4-benzoquinone (1,4-Bq) have been studied through experimental work and theoretically determined by proton affinity (PA) [<xref rid="B60-ijms-17-01071" ref-type="bibr">60</xref>]. The results showed that oxygen atoms were the most favorable sites for protonation, by around 50 kcal&#x000b7;mol<sup>&#x02212;1</sup> relative to the quinone ring carbons. Experimental PA of 1,4-benzoquinone was 191.4 kcal&#x000b7;mol<sup>&#x02212;1</sup> [<xref rid="B60-ijms-17-01071" ref-type="bibr">60</xref>]. In our case, we calculated thermodynamic parameters such as proton affinity (PA) and gas-phase basicity (GB) [<xref rid="B60-ijms-17-01071" ref-type="bibr">60</xref>,<xref rid="B61-ijms-17-01071" ref-type="bibr">61</xref>,<xref rid="B62-ijms-17-01071" ref-type="bibr">62</xref>], for the protonation of all oxygen and nitrogen atoms in the molecules. The results for all protonation sites are included in the <xref ref-type="app" rid="app1-ijms-17-01071">supplementary materials (Tables S83&#x02013;S88)</xref>. Both PA and GB (<xref ref-type="table" rid="ijms-17-01071-t002">Table 2</xref>) show that the protonation on O1 and O2 are energetically more favorable than other sites, giving both the same value in all cases. Comparison of PA from these CQs with PA from 1,4-Bq shows an increase of around 50 kcal&#x000b7;mol<sup>&#x02212;1</sup> for CQs, indicating that the effect of the fused carbazole moiety on BQ favors the protonation.</p><p>However, given that the above calculations were carried out without considering the activation of the ion, it is possible that additional proton migration, induced by collisions, can occur following the initial protonation step [<xref rid="B63-ijms-17-01071" ref-type="bibr">63</xref>].</p></sec><sec id="sec2dot3-ijms-17-01071"><title>2.3. Fragmentation Pathways of Carbazolquinone Derivatives </title><p>The main fragment ions observed in the ESI-MS analysis of carbazolequinones <bold>CQ1</bold>&#x02013;<bold>4</bold> are listed in <xref ref-type="table" rid="ijms-17-01071-t003">Table 3</xref>. A first overview shows some differences in the behavior of <bold>CQ1</bold> and <bold>CQ2</bold>, both sodic and potassic adducts, were observed, beside the protonated species. For <bold>CQ3</bold> the potassic specie was not observed, while for <bold>CQ4</bold> only the protonated specie was observed. For <bold>CQ4</bold> the presence of bromide was observed by a peak with <italic>m</italic>/<italic>z</italic> 370.</p><p>Protonated species were selected and dissociated to obtain fragmentation patterns for all compounds. </p><p><xref ref-type="table" rid="ijms-17-01071-t004">Table 4</xref> lists the main fragments observed in the ESI-MS<sup>n</sup> analysis of carbazolequinones. Starting from the initial molecular ions, we found, as a common fragmentation pattern, the water and carbon monoxide losses. In <xref ref-type="scheme" rid="ijms-17-01071-sch001">Scheme 1</xref>, a plausible mechanism representative of this fragmentation is presented for <bold>CQ1</bold>. On the other hand, the spectrum shows two unusual fragments with <italic>m</italic>/<italic>z</italic> 144 (100%) and <italic>m</italic>/<italic>z</italic> 149 (40%) that will be analyzed later.</p><p>Theoretical calculations were performed in selected structures and mechanisms. Enthalpies and Gibbs free energies are relative to initial molecular ion in all schemes (Gibbs free energies are presented in parentheses in all cases). From the initial protonated molecular ion at <italic>m</italic>/<italic>z</italic> 292, we propose a dienone-phenol rearrangement to achieve the water loss, giving a <italic>m</italic>/<italic>z</italic> 274 ion. CO loss should occur via ring contraction, to give the <italic>m</italic>/<italic>z</italic> 264 ion. We consider the loss of CO in the carbonyl oxygen where the protonation is less probable, according to the results in <xref ref-type="sec" rid="sec3dot2-ijms-17-01071">Section 3.2</xref>. Whereas water loss requires two steps, CO loss occurs directly through one step. Enthalpy and free energy from DFT calculations show that CO loss is energetically more favored. This proposition is in agreement with the percentage observed for <italic>m</italic>/<italic>z</italic> 264 (100%) and <italic>m</italic>/<italic>z</italic> 274 (40%) in the spectrum, indicating that CO loss is more favored than water loss. Both ions <italic>m</italic>/<italic>z</italic> 274 and <italic>m</italic>/<italic>z</italic> 264 lead to formation of ion with <italic>m</italic>/<italic>z</italic> 264 by a CO and water losses respectively. We also propose a dienone-phenol rearrangement, previous to water loss from ion <italic>m</italic>/<italic>z</italic> 264 to give the ion <italic>m</italic>/<italic>z</italic> 246. </p><p>For the fragments with <italic>m</italic>/<italic>z</italic> 144 (100%) and <italic>m</italic>/<italic>z</italic> 149 (40%), a parallel mechanism is plausible, starting from the proton transfer equilibrium between O<sub>1</sub> and O<sub>2</sub> (<xref ref-type="scheme" rid="ijms-17-01071-sch002">Scheme 2</xref>). Both PA and GB have the same values for protonation on O<sub>1</sub> and O<sub>2</sub> (<xref ref-type="table" rid="ijms-17-01071-t002">Table 2</xref>). The ion <italic>m</italic>/<italic>z</italic> 292e is 10.57 and 10.17 kcal&#x000b7;mol<sup>&#x02212;1</sup> lower than 292d in enthalpy and Gibbs free energy, respectively. <xref ref-type="scheme" rid="ijms-17-01071-sch003">Scheme 3</xref> and <xref ref-type="scheme" rid="ijms-17-01071-sch004">Scheme 4</xref> show the DFT calculated energy profile for the <italic>m</italic>/<italic>z</italic> 292e and 292d ion fragmentation route. The critical energy Ec, defined as the barrier energy for the transition state are 51.77 kcal&#x000b7;mol<sup>&#x02212;1</sup> (Gibbs critical energy 48.88 kcal mol<sup>&#x02212;1</sup>) for TS_<italic>m</italic>/<italic>z</italic> 292g (<xref ref-type="scheme" rid="ijms-17-01071-sch003">Scheme 3</xref>) and 92.46 kcal&#x000b7;mol<sup>&#x02212;1</sup> (Gibbs critical energy 87.15 kcal&#x000b7;mol<sup>&#x02212;1</sup>) for TS_<italic>m</italic>/<italic>z</italic> 292f (<xref ref-type="scheme" rid="ijms-17-01071-sch004">Scheme 4</xref>), respectively. In order to obtain a most accurate description, relative energy for the TSs at DFT Minnesota functional M06-2x/6-311++G(3df,3pd) (<italic>E</italic><sub>rel1</sub>) and ab-initio quadratic configuration interaction, with single and double excitation at QCISD/6-31++G(d,p) (<italic>E</italic><sub>rel2</sub>) level were obtained at the B3LYP optimized geometries. M06-2x energies underrate the energies of TSs compared with high level calculation at QCISD. For TS_<italic>m</italic>/<italic>z</italic> 292g the difference is 5.50 kcal&#x000b7;mol<sup>&#x02212;1</sup>, while for TS_<italic>m</italic>/<italic>z</italic> 292f it is 3.72 kcal&#x000b7;mol<sup>&#x02212;1</sup>. These results are in agreement with the differences in the observed relative populations for ions with <italic>m</italic>/<italic>z</italic> 144(100) and <italic>m</italic>/<italic>z</italic> 149(40). </p><p>A very similar fragmentation route was found for <bold>CQ2</bold>. Compared with <bold>CQ1</bold>, the only difference was an additional methyl radical loss from the <italic>m</italic>/<italic>z</italic> 278 ion, obtained initially by CO loss. </p><p>Moreover, <bold>CQ3</bold> and <bold>CQ4</bold> display a fragmentation similar to <bold>CQ1</bold>, but the substituent present in the aromatic ring leads to some different fragmentation steps. <xref ref-type="table" rid="ijms-17-01071-t003">Table 3</xref> shows that CO and water loss are present in <bold>CQ3</bold>. Additionally, the loss of &#x02013;C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> fragment was also observed. <xref ref-type="scheme" rid="ijms-17-01071-sch005">Scheme 5</xref> shows the fragmentation route proposed for <bold>CQ3</bold>; we propose that water loss goes in a similar way than <bold>CQ1</bold> and <bold>CQ2</bold>, with a dienone-phenol rearrangement followed by water loss to give the fragment with <italic>m</italic>/<italic>z</italic> 346. Also, the CO loss proceeds in a similar way to <bold>CQ1</bold> and <bold>CQ2</bold>, to give the fragment <italic>m</italic>/<italic>z</italic> 336 with the lower enthalpy and free energy, according to the higher percentages observed for this ion. Finally, both routes lead to the same molecular ion with <italic>m</italic>/<italic>z</italic> 318, by CO loss from ion with <italic>m</italic>/<italic>z</italic> 346 and by water loss from ion with <italic>m</italic>/<italic>z</italic> 336. For loss of fragment C<sub>3</sub>H<sub>4</sub>O<sub>2</sub> we investigate two possibilities, loss of 3-methyloxiran-2-one (<bold>A</bold>) and loss of vinyl formate (<bold>B</bold>). The formation of linear specie vinyl formate is thermodynamically favorable, as reflects their lower enthalpy and free energy. Ion with <italic>m</italic>/<italic>z</italic> 292 has the same structure than the protonated molecular ion of <bold>CQ1</bold> and experiences a similar subsequent fragmentation pathway (see <xref ref-type="scheme" rid="ijms-17-01071-sch001">Scheme 1</xref>). </p><p>Protonated molecular ion of <bold>CQ4</bold> presents a Br loss to give the fragment with <italic>m</italic>/<italic>z</italic> 291 and a CO loss to give a fragment with <italic>m</italic>/<italic>z</italic> 342 (<xref ref-type="scheme" rid="ijms-17-01071-sch006">Scheme 6</xref>). Enthalpies and free energies indicate that a fragment with <italic>m</italic>/<italic>z</italic> 342 should be more easily formed, but the spectrum shows a greater ratio for <italic>m</italic>/<italic>z</italic> 291. This fragment also corresponds to the protonated radical cation of <bold>CQ1</bold>. Both ions with <italic>m</italic>/<italic>z</italic> 291 and <italic>m</italic>/<italic>z</italic> 342 can lead to a fragment with <italic>m</italic>/<italic>z</italic> 263 by CO and radical Br losses, respectively.</p></sec></sec><sec id="sec3-ijms-17-01071"><title>3. Experimental</title><sec id="sec3dot1-ijms-17-01071"><title>3.1. Mass Spectrometry </title><p>Stock solutions for ESI-MS experiments were prepared by dissolving the compound of interest in 200 &#x003bc;L of acetonitrile. Working solutions were prepared in two different ways: (a) by mixing 20 &#x003bc;L of stock solution and 80 &#x003bc;L of acetonitrile or (b) by adding 60 &#x003bc;L of acetonitrile, 16 &#x003bc;L of water and 4 &#x003bc;L of formic acid 5% <italic>v</italic>/<italic>v</italic>, to 20 &#x003bc;L of stock solution. Spectra were acquired in an Esquire 4000 ESI-IT ion trap mass spectrometer (Bruker Daltonik GmbH, Bremen, Germany). Working solutions were analyzed by direct infusion (50 &#x003bc;L) at a flow rate of 3.0 &#x003bc;L/min using a syringe pump (Cole-Parmer, Vernon Hills, IL, USA). The ionization process was performed by electrospray at 4000 V, assisted by nitrogen as nebulizer gas at a temperature of 300 &#x000b0;C, pressure of 10 psi, and flow rate of 5 L/min. </p><p>Collision-induced dissociation (CID) was performed by collisions with helium background gas present in the trap. Fragmentation was set with Smart Frag between 30% and 200%, with an isolation width of 4.0 <italic>m</italic>/<italic>z</italic>; 1.0 V fragmentation amplitude; fragmentation time of 40 ms; fragmentation delay of 0 ms, and the average of 5 spectra were obtained in all cases. Spectra can be found in <xref ref-type="app" rid="app1-ijms-17-01071">Figures S1&#x02013;S4 (Supplementary Materials)</xref>.</p></sec><sec id="sec3dot2-ijms-17-01071" sec-type="methods"><title>3.2. Synthetic Methodology</title><p>Melting points were determined on a hot-stage apparatus and are uncorrected. The IR spectra were recorded on a FT-IR Bruker IFS 55 spectrophotometer (Bruker Daltonik GmbH, Bremen, Germany) from KBr discs. <sup>1</sup>H and <sup>13</sup>C NMR spectra were acquired using a Bruker AVANCE 400 spectrometer (Bruker Daltonik GmbH, Bremen, Germany) operating at 400 MHz (<sup>1</sup>H) or 100 MHz (<sup>13</sup>C). All measurements were carried out at a probe temperature of 300 K, in CDCl<sub>3</sub> or DMSO-<italic>d</italic><sub>6</sub> containing tetramethylsilane (TMS) as an internal standard.</p><sec id="sec3dot2dot1-ijms-17-01071"><title>Synthesis of Carbazolequinones: General Procedure</title><p>In a Schlenk tube under inert atmosphere, a mixture of one equivalent of the respective anilinoquinone and one equivalent of Pd(OAc)<sub>2</sub> in glacial acetic acid, is heated under reflux by 4 h. and then filtered. The filtered is extracted 3 times with ethyl acetate and washed with a solution of sodium bicarbonate; the organic phase is dried with anhydrous sodium sulfate and then evaporated under vacuum. Column chromatography on silica gel with hexane:EtOAc 2:1 mixture as eluent allow to obtain pure carbazolequinones.</p><p>10,10-Dimethyl-5<italic>H</italic>-benzo[b]carbazole-6,7,11(10<italic>H</italic>)-trione (<bold>CQ1</bold>)</p><p>Seventy milligrams (0.24 mmol) of 3-anilino-8,8-dimethylnaphthalene-1,4,5(8<italic>H</italic>)-trione and Pd(OAc)<sub>2</sub> 54 mg (0.24 mmol) in glacial acetic acid (4 mL) yield 36 mg of <bold>CQ1</bold> (52%). <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) &#x003b4;: 1.71 (s, 6H), 6.36 (d, <italic>J</italic> = 10 Hz, 1H), 6.81 (d, <italic>J</italic> = 10 Hz, 1H), 7.39 (t, <italic>J</italic> = 8 Hz, 1H), 7.46 (t, <italic>J</italic> = 8 Hz, 1H), 7.59 (d, <italic>J</italic> = 8 Hz, 1H), 8.27 (d, <italic>J</italic> = 8 Hz, 1H), 9.57 (s, 1H). <sup>13</sup>C NMR (101 MHz, CDCl<sub>3</sub>) &#x003b4;: 184.87, 183.64, 179.00, 160.50, 159.17, 158.84, 138.42, 135.57, 128.58, 125.65, 125.12, 124.25, 123.98, 118.57, 114.19, 40.69, 30.67. IR(KBr): 3237, 1683, 741 cm<sup>&#x02212;1</sup>. M.p.: 297&#x02013;299 &#x000b0;C.</p><p>4,10,10-Trimethyl-5<italic>H</italic>-benzo[b]carbazole-6,7,11(10<italic>H</italic>)-trione (<bold>CQ2</bold>)</p><p>Sixty-eight milligrams (0.22 mmol) of 8,8-dimethyl-3-[(2-methylphenyl)amino]naphthalene-1,4,5(8<italic>H</italic>)-trione and Pd(OAc)<sub>2</sub> 49 mg (0.22 mmoles) yield 32 mg of carbazolequinone 7 (77%). <sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>) &#x003b4;: 1.71 (s, 6H), 2.58 (s, 3H), 6.35 (d, <italic>J</italic> = 10 Hz, 1H), 6.80 (d, <italic>J</italic> = 10 Hz, 1H), 7.24 (d, <italic>J</italic> = 8 Hz, 1H), 7.30 (t, <italic>J</italic> = 8 Hz, 1H), 8.1 (d, <italic>J</italic> = 8 Hz, 1H), 9.43 (s, 1H); <sup>13</sup>C NMR (101 MHz, CDCl<sub>3</sub>) &#x003b4; 184.82, 183.73, 178.99, 160.60, 158.97, 138.12, 134.99, 130.96, 128.98, 128.27, 125.99, 124.79, 123.60, 121.63, 118.88, 40.68, 36.62, 27.72. IR: 3215, 1686, 811 cm<sup>&#x02212;1</sup>. M.p.: 291&#x02013;293 &#x000b0;C.</p><p>2-Bromo-10,10-dimethyl-5H-benzo[b]carbazole-6,7,11(10<italic>H</italic>)-trione (<bold>CQ3</bold>)</p><p>Forty-one milligrams of 3-[(4-bromophenyl)amino]-8,8-dimethylnaphthalene-1,4,5(8<italic>H</italic>)-trione (0.11 mmoles) and Pd(OAc)<sub>2</sub> 25 mg (0.11 mmoles) yield 17 mg of <bold>CQ3</bold> (39%). <sup>1</sup>H NMR (400 MHz, DMSO-<italic>d</italic><sub>6</sub>) &#x003b4;: 1.66 (s, 6H), 6.31 (d, <italic>J</italic> = 10 Hz, 1H), 7.06 (d, <italic>J</italic> = 10 Hz, 1H), 7.57 (d, <italic>J</italic> = 8 Hz, 1H), 7.62 (d, <italic>J</italic> = 8 Hz, 1H), 9.47 (s, 1H). <sup>13</sup>C NMR (100 MHz, DMSO) &#x003b4; 187.55, 181.64, 181.44, 178.41, 177.03, 159.62, 145.04, 144.27, 137.91, 130.74, 130.25, 128.01, 126.40, 118.03, 112.43, 31.24, 27.63. IR: 3220, 1690, 817 cm<sup>&#x02212;1</sup>. M.p.: 272&#x02013;274 &#x000b0;C.</p><p>Ethyl10,10-dimethyl-6,7,11-trioxo-6,7,10,11-tetrahydro-5<italic>H</italic>-benzo[b]carbazole-2 carboxylate (<bold>CQ4</bold>)</p><p>Ninety-three miligrams (0.25 mmol) of ethyl 4-[(5,5-dimethyl-1,4,8-trioxo-1,4,5,8-tetrahydronaphthalen-2-yl)amino]benzoate and Pd(OAc)<sub>2</sub> 57 mg (0.25 mmol) yield 21 mg of <bold>CQ4</bold> (23%). <sup>1</sup>H NMR (400 MHz, DMSO-<italic>d</italic><sub>6</sub>) &#x003b4;: 1.36 (t, <italic>J</italic> = 7 Hz, 3H), 1.61 (s, 6H), 4.35 (q, <italic>J</italic> = 7 Hz, 2H), 6.26 (d, <italic>J</italic> = 10 Hz, 1H), 7.02 (d, <italic>J</italic> = 10 Hz, 1H), 7.63 (d, <italic>J</italic> = 9 Hz, 1H), 7.98 (d, <italic>J</italic> = 9 Hz, 1H), 8.72 (s, 1H), 13.19 (s, 1H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic>d</italic><sub>6</sub>) &#x003b4;: 184.31, 183.88, 178.88, 174.23, 167.23, 159.83, 159.21, 141.58, 137.86, 131.20, 128.07, 127.00, 125.80, 124.46, 118.38, 115.20, 61.75, 30.52, 27.77, 15.46. IR: 3263, 1687, 1278. IR: 3263, 1687, 1278 cm<sup>&#x02212;1</sup>. M.p.: 265&#x02013;267 &#x000b0;C.</p></sec></sec><sec id="sec3dot3-ijms-17-01071" sec-type="methods"><title>3.3. Computational Methodology </title><p>The calculations were carried out using the Gaussian 09 [<xref rid="B64-ijms-17-01071" ref-type="bibr">64</xref>] program package, running in a Microsystem cluster of blades. No symmetry constraints were imposed on the optimizations, which were performed at DFT B3LYP/6-31G(d,p) level. No imaginary vibrational frequencies were found at the optimized geometries, indicating that they are true minima of the potential energy surface.</p><p>Protonation sites were obtained on the basis of molecular electrostatic potential (MEP) [<xref rid="B65-ijms-17-01071" ref-type="bibr">65</xref>], local Fukui indexes [<xref rid="B66-ijms-17-01071" ref-type="bibr">66</xref>], Parr functions [<xref rid="B58-ijms-17-01071" ref-type="bibr">58</xref>], proton affinity (PA) and gas-phase basicities (GB) among several protonated forms. GB was calculated from the Gibbs free energies of the following reaction in gas phase: CQ + H<sup>+</sup> &#x02192; CQH<sup>+</sup>, where a Gibbs energy of 6.28 kcal&#x000b7;mol<sup>&#x02212;1</sup> was considered for the proton [<xref rid="B67-ijms-17-01071" ref-type="bibr">67</xref>].</p><p>The energies for the products and the corresponding transition state (TS) were obtained relative to their respective precursors. Relative energies for TS were obtained at DFT M06-2x/6-311++G(3df,3pd)//B3LYP/6-31G(d,p) and ab-initio QCISD/6-31++G(d,p)//B3LYP/6-31G(d,p) levels. Only one imaginary vibrational frequency was found for the TS. Intrinsic reaction coordinate (IRC) calculations were carried out to verify the connections of the transition states with reactants and products [<xref rid="B68-ijms-17-01071" ref-type="bibr">68</xref>]. Cartesian coordinates and energies of optimized structures can be found in <xref ref-type="app" rid="app1-ijms-17-01071">Supplementary Materials (Tables S1&#x02013;S82)</xref>.</p></sec></sec><sec id="sec4-ijms-17-01071"><title>4. Conclusions</title><p>A series of four new <italic>o</italic>-carbonyl carbazolquinones were synthetized from anilinquinones previously prepared. The influence of the substituent in ring D on the fragmentation route obtained by ESI-MS/MS analysis was computationally assisted and allowed a detailed interpretation of the experimental results. The most favorable protonation site for all molecules was established through molecular electrostatic potential, local Fukui functions and local Parr function for electrophilic attack, as well as proton affinity and gas phase basicity. On the basis of this initial analysis, fragmentation routes were proposed and supported by theoretical calculations.</p><p>The unusual kind of fragmentations leading to <italic>m</italic>/<italic>z</italic> 144 and <italic>m</italic>/<italic>z</italic> 149 ions for <bold>CQ1</bold> were studied in detail. The critical energies for the transition states for the proposed fragmentations were in agreement with the differences in the observed relative populations for both ions, supporting the proposed mechanism. </p><p>These results have importance in establishing a guide for future analysis of this kind of carbazolequinones and similar scaffolds, with possible applications in drug development and organic materials. </p></sec></body><back><ack><title>Acknowledgments</title><p>We are grateful to <italic>Fondo Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico</italic> (FONDECYT) grants 1140753 (Ramiro Araya-Maturana) and FONDECYT/POSTDOCTORADO 3140286 (Maximiliano Mart&#x000ed;nez-Cifuentes).</p></ack><app-group><app id="app1-ijms-17-01071"><title>Supplementary Materials</title><p>Supplementary materials can be found at <uri xlink:type="simple" xlink:href="http://www.mdpi.com/1422-0067/17/7/1071/s1">http://www.mdpi.com/1422-0067/17/7/1071/s1</uri>.</p><supplementary-material content-type="local-data" id="ijms-17-01071-s001"><media xlink:href="ijms-17-01071-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></app></app-group><notes><title>Authors Contributions</title><p>Maximiliano Mart&#x000ed;nez-Cifuentes and Ramiro Araya-Maturana designed research; Graciela Clavijo-Allancan, Pamela Zu&#x000f1;iga-Hormazabal and Braulio Aranda performed the synthesis of compounds; Andr&#x000e9;s Barriga performed mass spectrometry experiments; Maximiliano Mart&#x000ed;nez-Cifuentes perform the computational calculations; Maximiliano Mart&#x000ed;nez-Cifuentes, Ramiro Araya-Maturana and Boris Weiss-L&#x000f3;pez analyzed the data; Maximiliano Mart&#x000ed;nez-Cifuentes and Ramiro Araya-Maturana wrote the paper. All authors read and approved the final manuscript.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-ijms-17-01071"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hargreaves</surname><given-names>R.H.J.</given-names></name><name><surname>Hartley</surname><given-names>J.A.</given-names></name><name><surname>Butler</surname><given-names>J.</given-names></name></person-group>
+<article-title>Mechanisms of action of quinone-containing alkylating agents: DNA alkylation by aziridinylquinones</article-title>
+<source>Front. Biosci.</source>
+<year>2000</year>
+<volume>5</volume>
+<fpage>E172</fpage>
+<lpage>E180</lpage>
+<pub-id pub-id-type="doi">10.2741/hargreav</pub-id>
+<?supplied-pmid 11056081?><pub-id pub-id-type="pmid">11056081</pub-id></element-citation></ref><ref id="B2-ijms-17-01071"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sissi</surname><given-names>C.</given-names></name><name><surname>Palumbo</surname><given-names>M.</given-names></name></person-group>
+<article-title>Antitumor potential of aza-bioisosterism in anthracenedione-based drugs</article-title>
+<source>Curr. Top. Med. Chem.</source>
+<year>2004</year>
+<volume>4</volume>
+<fpage>219</fpage>
+<lpage>230</lpage>
+<pub-id pub-id-type="doi">10.2174/1568026043451483</pub-id>
+<?supplied-pmid 14754455?><pub-id pub-id-type="pmid">14754455</pub-id></element-citation></ref><ref id="B3-ijms-17-01071"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garuti</surname><given-names>L.</given-names></name><name><surname>Roberti</surname><given-names>M.</given-names></name><name><surname>Pizzirani</surname><given-names>D.</given-names></name></person-group>
+<article-title>Nitrogen-containing Heterocyclic quinones: A class of potential selective antitumor agents</article-title>
+<source>Mini.-Rev. Med. Chem.</source>
+<year>2007</year>
+<volume>7</volume>
+<fpage>481</fpage>
+<lpage>489</lpage>
+<pub-id pub-id-type="doi">10.2174/138955707780619626</pub-id>
+<?supplied-pmid 17504183?><pub-id pub-id-type="pmid">17504183</pub-id></element-citation></ref><ref id="B4-ijms-17-01071"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nowicka</surname><given-names>B.</given-names></name><name><surname>Kruk</surname><given-names>J.</given-names></name></person-group>
+<article-title>Occurrence, biosynthesis and function of isoprenoid quinones</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2010</year>
+<volume>1797</volume>
+<fpage>1587</fpage>
+<lpage>1605</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bbabio.2010.06.007</pub-id>
+<?supplied-pmid 20599680?><pub-id pub-id-type="pmid">20599680</pub-id></element-citation></ref><ref id="B5-ijms-17-01071"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dandawate</surname><given-names>P.R.</given-names></name><name><surname>Vyas</surname><given-names>A.C.</given-names></name><name><surname>Padhye</surname><given-names>S.B.</given-names></name><name><surname>Singh</surname><given-names>M.W.</given-names></name><name><surname>Baruah</surname><given-names>J.B.</given-names></name></person-group>
+<article-title>Perspectives on medicinal properties of benzoquinone compounds</article-title>
+<source>Mini.-Rev. Med. Chem.</source>
+<year>2010</year>
+<volume>10</volume>
+<fpage>436</fpage>
+<lpage>454</lpage>
+<pub-id pub-id-type="doi">10.2174/138955710791330909</pub-id>
+<?supplied-pmid 20370705?><pub-id pub-id-type="pmid">20370705</pub-id></element-citation></ref><ref id="B6-ijms-17-01071"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>M.R.S.</given-names></name><name><surname>Aithal</surname><given-names>K.</given-names></name><name><surname>Rao</surname><given-names>B.N.</given-names></name><name><surname>Udupa</surname><given-names>N.</given-names></name><name><surname>Rao</surname><given-names>B.S.S.</given-names></name></person-group>
+<article-title>Cytotoxic, genotoxic and oxidative stress induced by 1,4-naphthoquinone in B16F1 melanoma tumor cells</article-title>
+<source>Toxicol. In Vitro</source>
+<year>2009</year>
+<volume>23</volume>
+<fpage>242</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tiv.2008.12.004</pub-id>
+<?supplied-pmid 19121382?><pub-id pub-id-type="pmid">19121382</pub-id></element-citation></ref><ref id="B7-ijms-17-01071"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Santos</surname><given-names>M.M.M.</given-names></name><name><surname>Faria</surname><given-names>N.</given-names></name><name><surname>Iley</surname><given-names>J.</given-names></name><name><surname>Coles</surname><given-names>S.J.</given-names></name><name><surname>Hursthouse</surname><given-names>M.B.</given-names></name><name><surname>Martins</surname><given-names>M.L.</given-names></name><name><surname>Moreira</surname><given-names>R.</given-names></name></person-group>
+<article-title>Reaction of naphthoquinones with substituted nitromethanes. Facile synthesis and antifungal activity of naphtho 2,3-d isoxazole-4,9-diones</article-title>
+<source>Bioorg. Med. Chem. Lett.</source>
+<year>2010</year>
+<volume>20</volume>
+<fpage>193</fpage>
+<lpage>195</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bmcl.2009.10.137</pub-id>
+<?supplied-pmid 19926280?><pub-id pub-id-type="pmid">19926280</pub-id></element-citation></ref><ref id="B8-ijms-17-01071"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mendoza</surname><given-names>L.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Cardona</surname><given-names>W.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Garcia</surname><given-names>C.</given-names></name><name><surname>Lagos</surname><given-names>C.</given-names></name><name><surname>Cotoras</surname><given-names>M.</given-names></name></person-group>
+<article-title>In vitro sensitivity of Botrytis cinerea to anthraquinone and anthrahydroquinone derivatives</article-title>
+<source>J. Agric. Food Chem.</source>
+<year>2005</year>
+<volume>53</volume>
+<fpage>10080</fpage>
+<lpage>10084</lpage>
+<pub-id pub-id-type="doi">10.1021/jf0511749</pub-id>
+<?supplied-pmid 16366698?><pub-id pub-id-type="pmid">16366698</pub-id></element-citation></ref><ref id="B9-ijms-17-01071"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pinto</surname><given-names>A.V.</given-names></name><name><surname>de Castro</surname><given-names>S.L.</given-names></name></person-group>
+<article-title>The trypanocidal activity of naphthoquinones: A review</article-title>
+<source>Molecules</source>
+<year>2009</year>
+<volume>14</volume>
+<fpage>4570</fpage>
+<lpage>4590</lpage>
+<pub-id pub-id-type="doi">10.3390/molecules14114570</pub-id>
+<?supplied-pmid 19924086?><pub-id pub-id-type="pmid">19924086</pub-id></element-citation></ref><ref id="B10-ijms-17-01071"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pierce</surname><given-names>R.C.</given-names></name><name><surname>Katz</surname><given-names>M.</given-names></name></person-group>
+<article-title>Chromatographic isolation and spectral analysis of polycyclic quinones. Application to air pollution analysis</article-title>
+<source>Environ. Sci. Technol.</source>
+<year>1976</year>
+<volume>10</volume>
+<fpage>45</fpage>
+<lpage>51</lpage>
+<pub-id pub-id-type="doi">10.1021/es60112a007</pub-id>
+</element-citation></ref><ref id="B11-ijms-17-01071"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krueger</surname><given-names>F.R.</given-names></name><name><surname>Werther</surname><given-names>W.</given-names></name><name><surname>Kissel</surname><given-names>J.</given-names></name><name><surname>Schmid</surname><given-names>E.R.</given-names></name></person-group>
+<article-title>Assignment of quinone derivatives as the main compound class composing &#x02018;interstellar&#x02019; grains based on both polarity ions detected by the &#x02018;Cometary and Interstellar Dust Analyser&#x02019; (CIDA) onboard the spacecraft STARDUST</article-title>
+<source>Rapid Commun. Mass Spectrom.</source>
+<year>2004</year>
+<volume>18</volume>
+<fpage>103</fpage>
+<lpage>111</lpage>
+<pub-id pub-id-type="doi">10.1002/rcm.1291</pub-id>
+<?supplied-pmid 14689566?><pub-id pub-id-type="pmid">14689566</pub-id></element-citation></ref><ref id="B12-ijms-17-01071"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferreira</surname><given-names>E.S.</given-names></name><name><surname>Hulme</surname><given-names>A.N.</given-names></name><name><surname>McNab</surname><given-names>H.</given-names></name><name><surname>Quye</surname><given-names>A.</given-names></name></person-group>
+<article-title>The natural constituents of historical textile dyes</article-title>
+<source>Chem. Soc. Rev.</source>
+<year>2004</year>
+<volume>33</volume>
+<fpage>329</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="doi">10.1039/b305697j</pub-id>
+<?supplied-pmid 15280965?><pub-id pub-id-type="pmid">15280965</pub-id></element-citation></ref><ref id="B13-ijms-17-01071"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cervantes</surname><given-names>F.J.</given-names></name><name><surname>Duong-Dac</surname><given-names>T.</given-names></name><name><surname>Roest</surname><given-names>K.</given-names></name><name><surname>Akkermans</surname><given-names>A.D.</given-names></name><name><surname>Lettinga</surname><given-names>G.</given-names></name><name><surname>Field</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Enrichment and immobilization of quinone-respiring bacteria in anaerobic granular sludge</article-title>
+<source>Water Sci. Technol.</source>
+<year>2003</year>
+<volume>48</volume>
+<fpage>9</fpage>
+<lpage>16</lpage>
+<?supplied-pmid 14640194?><pub-id pub-id-type="pmid">14640194</pub-id></element-citation></ref><ref id="B14-ijms-17-01071"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Er</surname><given-names>S.</given-names></name><name><surname>Suh</surname><given-names>C.</given-names></name><name><surname>Marshak</surname><given-names>M.P.</given-names></name><name><surname>Aspuru-Guzik</surname><given-names>A.</given-names></name></person-group>
+<article-title>Computational design of molecules for an all-quinone redox flow battery</article-title>
+<source>Chem. Sci.</source>
+<year>2015</year>
+<volume>6</volume>
+<fpage>885</fpage>
+<lpage>893</lpage>
+<pub-id pub-id-type="doi">10.1039/C4SC03030C</pub-id>
+</element-citation></ref><ref id="B15-ijms-17-01071"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmidt</surname><given-names>A.W.</given-names></name><name><surname>Reddy</surname><given-names>K.R.</given-names></name><name><surname>Knolker</surname><given-names>H.J.</given-names></name></person-group>
+<article-title>Occurrence, biogenesis, and synthesis of biologically active carbazole alkaloids</article-title>
+<source>Chem. Rev.</source>
+<year>2012</year>
+<volume>112</volume>
+<fpage>3193</fpage>
+<lpage>3328</lpage>
+<pub-id pub-id-type="doi">10.1021/cr200447s</pub-id>
+<?supplied-pmid 22480243?><pub-id pub-id-type="pmid">22480243</pub-id></element-citation></ref><ref id="B16-ijms-17-01071"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Knolker</surname><given-names>H.J.</given-names></name><name><surname>Reddy</surname><given-names>K.R.</given-names></name></person-group>
+<article-title>Isolation and synthesis of biologically active carbazole alkaloids</article-title>
+<source>Chem. Rev.</source>
+<year>2002</year>
+<volume>102</volume>
+<fpage>4303</fpage>
+<lpage>4427</lpage>
+<pub-id pub-id-type="doi">10.1021/cr020059j</pub-id>
+<?supplied-pmid 12428991?><pub-id pub-id-type="pmid">12428991</pub-id></element-citation></ref><ref id="B17-ijms-17-01071"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aouacheria</surname><given-names>A.</given-names></name><name><surname>Neel</surname><given-names>B.</given-names></name><name><surname>Bouaziz</surname><given-names>Z.</given-names></name><name><surname>Dominique</surname><given-names>R.</given-names></name><name><surname>Walchshofer</surname><given-names>N.</given-names></name><name><surname>Paris</surname><given-names>J.</given-names></name><name><surname>Fillion</surname><given-names>H.</given-names></name><name><surname>Gillet</surname><given-names>G.</given-names></name></person-group>
+<article-title>Carbazolequinone induction of caspase-dependent cell death in Src-overexpressing cells</article-title>
+<source>Biochem. Pharmacol.</source>
+<year>2002</year>
+<volume>64</volume>
+<fpage>1605</fpage>
+<lpage>1616</lpage>
+<pub-id pub-id-type="doi">10.1016/S0006-2952(02)01385-0</pub-id>
+<pub-id pub-id-type="pmid">12429350</pub-id></element-citation></ref><ref id="B18-ijms-17-01071"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanchez</surname><given-names>J.D.</given-names></name><name><surname>Egris</surname><given-names>R.</given-names></name><name><surname>Perumal</surname><given-names>S.</given-names></name><name><surname>Villacampa</surname><given-names>M.</given-names></name><name><surname>Menendez</surname><given-names>J.C.</given-names></name></person-group>
+<article-title>Aryl grignard reagents in chemodivergent <italic>N</italic>- and <italic>C</italic>-arylations: Concise access to two families of tetracyclic fused carbazoles from 6-nitroquinolines</article-title>
+<source>Eur. J. Org. Chem.</source>
+<year>2012</year>
+<volume>2012</volume>
+<fpage>2375</fpage>
+<lpage>2385</lpage>
+<pub-id pub-id-type="doi">10.1002/ejoc.201101848</pub-id>
+</element-citation></ref><ref id="B19-ijms-17-01071"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Itoigawa</surname><given-names>M.</given-names></name><name><surname>Kashiwada</surname><given-names>Y.</given-names></name><name><surname>Ito</surname><given-names>C.</given-names></name><name><surname>Furukawa</surname><given-names>H.</given-names></name><name><surname>Tachibana</surname><given-names>Y.</given-names></name><name><surname>Bastow</surname><given-names>K.F.</given-names></name><name><surname>Lee</surname><given-names>K.H.</given-names></name></person-group>
+<article-title>Antitumor agents. 203. Carbazole alkaloid murrayaquinone A and related synthetic carbazolequinones as cytotoxic agents</article-title>
+<source>J. Nat. Prod.</source>
+<year>2000</year>
+<volume>63</volume>
+<fpage>893</fpage>
+<lpage>897</lpage>
+<pub-id pub-id-type="doi">10.1021/np000020e</pub-id>
+<?supplied-pmid 10924160?><pub-id pub-id-type="pmid">10924160</pub-id></element-citation></ref><ref id="B20-ijms-17-01071"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khan</surname><given-names>Q.A.</given-names></name><name><surname>Lu</surname><given-names>J.</given-names></name><name><surname>Hecht</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Calothrixins, a new class of human DNA topoisomerase I poisons</article-title>
+<source>J. Nat. Prod.</source>
+<year>2009</year>
+<volume>72</volume>
+<fpage>438</fpage>
+<lpage>442</lpage>
+<pub-id pub-id-type="doi">10.1021/np8007232</pub-id>
+<?supplied-pmid 19203291?><pub-id pub-id-type="pmid">19203291</pub-id></element-citation></ref><ref id="B21-ijms-17-01071"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernardo</surname><given-names>P.H.</given-names></name><name><surname>Chai</surname><given-names>C.L.L.</given-names></name><name><surname>Heath</surname><given-names>G.A.</given-names></name><name><surname>Mahon</surname><given-names>P.J.</given-names></name><name><surname>Smith</surname><given-names>G.D.</given-names></name><name><surname>Waring</surname><given-names>P.</given-names></name><name><surname>Wilkes</surname><given-names>B.A.</given-names></name></person-group>
+<article-title>Synthesis, electrochemistry, and bioactivity of the cyanobacterial calothrixins and related quinones</article-title>
+<source>J. Med. Chem.</source>
+<year>2004</year>
+<volume>47</volume>
+<fpage>4958</fpage>
+<lpage>4963</lpage>
+<pub-id pub-id-type="doi">10.1021/jm049625o</pub-id>
+<?supplied-pmid 15369400?><pub-id pub-id-type="pmid">15369400</pub-id></element-citation></ref><ref id="B22-ijms-17-01071"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horai</surname><given-names>H.</given-names></name><name><surname>Arita</surname><given-names>M.</given-names></name><name><surname>Kanaya</surname><given-names>S.</given-names></name><name><surname>Nihei</surname><given-names>Y.</given-names></name><name><surname>Ikeda</surname><given-names>T.</given-names></name><name><surname>Suwa</surname><given-names>K.</given-names></name><name><surname>Ojima</surname><given-names>Y.</given-names></name><name><surname>Tanaka</surname><given-names>K.</given-names></name><name><surname>Tanaka</surname><given-names>S.</given-names></name><name><surname>Aoshima</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title>MassBank: A public repository for sharing mass spectral data for life sciences</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2010</year>
+<volume>45</volume>
+<fpage>703</fpage>
+<lpage>714</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.1777</pub-id>
+<?supplied-pmid 20623627?><pub-id pub-id-type="pmid">20623627</pub-id></element-citation></ref><ref id="B23-ijms-17-01071"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Von Bargen</surname><given-names>C.</given-names></name><name><surname>Hubner</surname><given-names>F.</given-names></name><name><surname>Cramer</surname><given-names>B.</given-names></name><name><surname>Rzeppa</surname><given-names>S.</given-names></name><name><surname>Humpf</surname><given-names>H.U.</given-names></name></person-group>
+<article-title>Systematic approach for structure elucidation of polyphenolic compounds using a bottom-up approach combining ion trap experiments and accurate mass measurements</article-title>
+<source>J. Agric. Food Chem.</source>
+<year>2012</year>
+<volume>60</volume>
+<fpage>11274</fpage>
+<lpage>11282</lpage>
+<pub-id pub-id-type="doi">10.1021/jf3030369</pub-id>
+<?supplied-pmid 23101583?><pub-id pub-id-type="pmid">23101583</pub-id></element-citation></ref><ref id="B24-ijms-17-01071"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van der Hooft</surname><given-names>J.J.J.</given-names></name><name><surname>Vervoort</surname><given-names>J.</given-names></name><name><surname>Bino</surname><given-names>R.J.</given-names></name><name><surname>Beekwilder</surname><given-names>J.</given-names></name><name><surname>de Vos</surname><given-names>R.C.H.</given-names></name></person-group>
+<article-title>Polyphenol identification based on systematic and robust high-resolution accurate mass spectrometry fragmentation</article-title>
+<source>Anal. Chem.</source>
+<year>2010</year>
+<volume>83</volume>
+<fpage>409</fpage>
+<lpage>416</lpage>
+<pub-id pub-id-type="doi">10.1021/ac102546x</pub-id>
+<?supplied-pmid 21141940?><pub-id pub-id-type="pmid">21141940</pub-id></element-citation></ref><ref id="B25-ijms-17-01071"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kerwin</surname><given-names>J.L.</given-names></name></person-group>
+<article-title>Negative ion electrospray mass spectrometry of polyphenols, catecholamines and their oxidation products</article-title>
+<source>J. Mass Spectrom.</source>
+<year>1996</year>
+<volume>31</volume>
+<fpage>1429</fpage>
+<lpage>1439</lpage>
+<pub-id pub-id-type="doi">10.1002/(SICI)1096-9888(199612)31:12&#x0003c;1429::AID-JMS443&#x0003e;3.0.CO;2-I</pub-id>
+<pub-id pub-id-type="pmid">8990524</pub-id></element-citation></ref><ref id="B26-ijms-17-01071"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mosi</surname><given-names>A.A.</given-names></name><name><surname>Reimer</surname><given-names>K.J.</given-names></name><name><surname>Eigendorf</surname><given-names>G.K.</given-names></name></person-group>
+<article-title>Analysis of polyaromatic quinones in a complex environmental matrix using gas chromatography ion trap tandem mass spectrometry</article-title>
+<source>Talanta</source>
+<year>1997</year>
+<volume>44</volume>
+<fpage>985</fpage>
+<lpage>1001</lpage>
+<pub-id pub-id-type="doi">10.1016/S0039-9140(96)02172-8</pub-id>
+<pub-id pub-id-type="pmid">18966830</pub-id></element-citation></ref><ref id="B27-ijms-17-01071"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lou</surname><given-names>X.</given-names></name><name><surname>Sinkeldam</surname><given-names>R.W.</given-names></name><name><surname>van Houts</surname><given-names>W.</given-names></name><name><surname>Nicolas</surname><given-names>Y.</given-names></name><name><surname>Janssen</surname><given-names>P.G.</given-names></name><name><surname>van Dongen</surname><given-names>J.L.</given-names></name><name><surname>Vekemans</surname><given-names>J.A.</given-names></name><name><surname>Meijer</surname><given-names>E.W.</given-names></name></person-group>
+<article-title>Double cation adduction in matrix-assisted laser desorption/ionization time-of-flight mass spectrometry of electron deficient anthraquinone derivatives</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2007</year>
+<volume>42</volume>
+<fpage>293</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.1161</pub-id>
+<?supplied-pmid 17200982?><pub-id pub-id-type="pmid">17200982</pub-id></element-citation></ref><ref id="B28-ijms-17-01071"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Noji</surname><given-names>N.</given-names></name><name><surname>Nakamura</surname><given-names>T.</given-names></name><name><surname>Kitahata</surname><given-names>N.</given-names></name><name><surname>Taguchi</surname><given-names>K.</given-names></name><name><surname>Kudo</surname><given-names>T.</given-names></name><name><surname>Yoshida</surname><given-names>S.</given-names></name><name><surname>Tsujimoto</surname><given-names>M.</given-names></name><name><surname>Sugiyama</surname><given-names>T.</given-names></name><name><surname>Asami</surname><given-names>T.</given-names></name></person-group>
+<article-title>Simple and sensitive method for pyrroloquinoline quinone (PQQ) analysis in various foods using liquid chromatography/electrospray-ionization tandem mass spectrometry</article-title>
+<source>J. Agric. Food Chem.</source>
+<year>2007</year>
+<volume>55</volume>
+<fpage>7258</fpage>
+<lpage>7263</lpage>
+<pub-id pub-id-type="doi">10.1021/jf070483r</pub-id>
+<?supplied-pmid 17685628?><pub-id pub-id-type="pmid">17685628</pub-id></element-citation></ref><ref id="B29-ijms-17-01071"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Puchalska</surname><given-names>M.</given-names></name><name><surname>Orlinska</surname><given-names>M.</given-names></name><name><surname>Ackacha</surname><given-names>M.A.</given-names></name><name><surname>Polec-Pawlak</surname><given-names>K.</given-names></name><name><surname>Jarosz</surname><given-names>M.</given-names></name></person-group>
+<article-title>Identification of anthraquinone coloring matters in natural red dyes by electrospray mass spectrometry coupled to capillary electrophoresis</article-title>
+<source>J. Mass. Spectrom.</source>
+<year>2003</year>
+<volume>38</volume>
+<fpage>1252</fpage>
+<lpage>1258</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.549</pub-id>
+<?supplied-pmid 14696204?><pub-id pub-id-type="pmid">14696204</pub-id></element-citation></ref><ref id="B30-ijms-17-01071"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessecchi</surname><given-names>R.</given-names></name><name><surname>Nascimento</surname><given-names>P.</given-names></name><name><surname>Lopes</surname><given-names>J.N.C.</given-names></name><name><surname>Lopes</surname><given-names>N.P.</given-names></name></person-group>
+<article-title>Fragmentation studies of synthetic 2-acylamino-1,4-naphthoquinones by electrospray ionization mass spectrometry</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2006</year>
+<volume>41</volume>
+<fpage>1219</fpage>
+<lpage>1225</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.1092</pub-id>
+<?supplied-pmid 16924598?><pub-id pub-id-type="pmid">16924598</pub-id></element-citation></ref><ref id="B31-ijms-17-01071"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Geyer</surname><given-names>R.</given-names></name><name><surname>Peacock</surname><given-names>A.D.</given-names></name><name><surname>White</surname><given-names>D.C.</given-names></name><name><surname>Lytle</surname><given-names>C.</given-names></name><name><surname>van Berkel</surname><given-names>G.J.</given-names></name></person-group>
+<article-title>Atmospheric pressure chemical ionization and atmospheric pressure photoionization for simultaneous mass spectrometric analysis of microbial respiratory ubiquinones and menaquinones</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2004</year>
+<volume>39</volume>
+<fpage>922</fpage>
+<lpage>929</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.670</pub-id>
+<?supplied-pmid 15329844?><pub-id pub-id-type="pmid">15329844</pub-id></element-citation></ref><ref id="B32-ijms-17-01071"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dale</surname><given-names>M.J.</given-names></name><name><surname>Jones</surname><given-names>A.C.</given-names></name><name><surname>Langridge-Smith</surname><given-names>P.R.R.</given-names></name><name><surname>Costello</surname><given-names>K.F.</given-names></name><name><surname>Cummins</surname><given-names>P.G.</given-names></name></person-group>
+<article-title>Laser desorption laser photoionization time-of-flight mass spectrometry of dyes</article-title>
+<source>Anal. Chem.</source>
+<year>1993</year>
+<volume>65</volume>
+<fpage>793</fpage>
+<lpage>801</lpage>
+<pub-id pub-id-type="doi">10.1021/ac00054a025</pub-id>
+</element-citation></ref><ref id="B33-ijms-17-01071"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Zhang</surname><given-names>T.</given-names></name><name><surname>Guo</surname><given-names>H.</given-names></name><name><surname>Hong</surname><given-names>X.</given-names></name><name><surname>Qi</surname><given-names>F.</given-names></name></person-group>
+<article-title>Photoionization studies on various quinones by an infrared laser desorption/tunable VUV photoionization TOF mass spectrometry</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2008</year>
+<volume>43</volume>
+<fpage>1701</fpage>
+<lpage>1710</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.1465</pub-id>
+<?supplied-pmid 18636469?><pub-id pub-id-type="pmid">18636469</pub-id></element-citation></ref><ref id="B34-ijms-17-01071"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Badu-Tawiah</surname><given-names>A.K.</given-names></name><name><surname>Eberlin</surname><given-names>L.S.</given-names></name><name><surname>Ouyang</surname><given-names>Z.</given-names></name><name><surname>Cooks</surname><given-names>R.G.</given-names></name></person-group>
+<article-title>Chemical aspects of the extractive methods of ambient ionization mass spectrometry</article-title>
+<source>Annu. Rev. Phys. Chem.</source>
+<year>2013</year>
+<volume>64</volume>
+<fpage>481</fpage>
+<lpage>505</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-physchem-040412-110026</pub-id>
+<?supplied-pmid 23331308?><pub-id pub-id-type="pmid">23331308</pub-id></element-citation></ref><ref id="B35-ijms-17-01071"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becher</surname><given-names>D.</given-names></name><name><surname>Djerassi</surname><given-names>C.</given-names></name><name><surname>Moore</surname><given-names>R.E.</given-names></name><name><surname>Singh</surname><given-names>H.</given-names></name><name><surname>Scheuer</surname><given-names>P.J.</given-names></name></person-group>
+<article-title>Mass spectrometry in structural and stereochemical problems. CXI. The mass spectrometric fragmentation of substituted naphthoquinones and its application to structural elucidation of echinoderm pigments</article-title>
+<source>J. Org. Chem.</source>
+<year>1966</year>
+<volume>31</volume>
+<fpage>11</fpage>
+<pub-id pub-id-type="doi">10.1021/jo01349a041</pub-id>
+</element-citation></ref><ref id="B36-ijms-17-01071"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Di Mari</surname><given-names>S.J.</given-names></name><name><surname>Supple</surname><given-names>J.H.</given-names></name><name><surname>Rapoport</surname><given-names>H.</given-names></name></person-group>
+<article-title>Mass spectra of naphthoquinones. Vitamin K<sub>1(20)</sub></article-title>
+<source>J. Am. Chem. Soc.</source>
+<year>1966</year>
+<volume>88</volume>
+<fpage>7</fpage>
+<pub-id pub-id-type="doi">10.1021/ja00958a026</pub-id>
+</element-citation></ref><ref id="B37-ijms-17-01071"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Proctor</surname><given-names>C.J.</given-names></name><name><surname>Kralj</surname><given-names>B.</given-names></name><name><surname>Larka</surname><given-names>E.A.</given-names></name><name><surname>Porter</surname><given-names>C.J.</given-names></name><name><surname>Maquestiau</surname><given-names>A.</given-names></name><name><surname>Beynon</surname><given-names>J.H.</given-names></name></person-group>
+<article-title>Studies of consecutive reactions of quinones in a reversed geometry mass spectrometer</article-title>
+<source>Org. Mass Spectrom.</source>
+<year>1981</year>
+<volume>16</volume>
+<fpage>312</fpage>
+<lpage>322</lpage>
+<pub-id pub-id-type="doi">10.1002/oms.1210160710</pub-id>
+</element-citation></ref><ref id="B38-ijms-17-01071"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beynon</surname><given-names>J.H.</given-names></name><name><surname>Williams</surname><given-names>A.E.</given-names></name></person-group>
+<article-title>Mass spectra of various quinones and polycyclic ketones</article-title>
+<source>Appl. Spectrosc.</source>
+<year>1960</year>
+<volume>14</volume>
+<fpage>156</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="doi">10.1366/000370260774614210</pub-id>
+</element-citation></ref><ref id="B39-ijms-17-01071"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alcami</surname><given-names>M.</given-names></name><name><surname>Mo</surname><given-names>O.</given-names></name><name><surname>Yanez</surname><given-names>M.</given-names></name></person-group>
+<article-title>Computational chemistry: A useful (sometimes mandatory) tool in mass spectrometry studies</article-title>
+<source>Mass Spectrom. Rev.</source>
+<year>2001</year>
+<volume>20</volume>
+<fpage>195</fpage>
+<lpage>245</lpage>
+<pub-id pub-id-type="doi">10.1002/mas.10005</pub-id>
+<?supplied-pmid 11835306?><pub-id pub-id-type="pmid">11835306</pub-id></element-citation></ref><ref id="B40-ijms-17-01071"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessecchi</surname><given-names>R.</given-names></name><name><surname>Galembeck</surname><given-names>S.E.</given-names></name><name><surname>Lopes</surname><given-names>N.P.</given-names></name><name><surname>Nascimento</surname><given-names>P.</given-names></name><name><surname>Crotti</surname><given-names>A.E.M.</given-names></name></person-group>
+<article-title>Application of computational quantum chemistry to chemical processes involved in mass spectrometry</article-title>
+<source>Quim. Nova</source>
+<year>2008</year>
+<volume>31</volume>
+<fpage>840</fpage>
+<lpage>853</lpage>
+<pub-id pub-id-type="doi">10.1590/S0100-40422008000400026</pub-id>
+</element-citation></ref><ref id="B41-ijms-17-01071"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessecchi</surname><given-names>R.</given-names></name><name><surname>Emery</surname><given-names>F.S.</given-names></name><name><surname>Galembeck</surname><given-names>S.E.</given-names></name><name><surname>Lopes</surname><given-names>N.P.</given-names></name></person-group>
+<article-title>Fragmentation studies and electrospray ionization mass spectrometry of lapachol: protonated, deprotonated and cationized species</article-title>
+<source>Rapid Commun. Mass Spectrom.</source>
+<year>2010</year>
+<volume>24</volume>
+<fpage>2101</fpage>
+<lpage>2108</lpage>
+<pub-id pub-id-type="doi">10.1002/rcm.4625</pub-id>
+<?supplied-pmid 20552691?><pub-id pub-id-type="pmid">20552691</pub-id></element-citation></ref><ref id="B42-ijms-17-01071"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessecchi</surname><given-names>R.</given-names></name><name><surname>Naal</surname><given-names>Z.</given-names></name><name><surname>Lopes</surname><given-names>J.N.C.</given-names></name><name><surname>Galembeck</surname><given-names>S.E.</given-names></name><name><surname>Lopes</surname><given-names>N.P.</given-names></name></person-group>
+<article-title>Generation of naphthoquinone radical anions by electrospray ionization: Solution, gas-phase, and computational chemistry studies</article-title>
+<source>J. Phys. Chem. A</source>
+<year>2011</year>
+<volume>115</volume>
+<fpage>5453</fpage>
+<lpage>5460</lpage>
+<pub-id pub-id-type="doi">10.1021/jp202322n</pub-id>
+<?supplied-pmid 21561138?><pub-id pub-id-type="pmid">21561138</pub-id></element-citation></ref><ref id="B43-ijms-17-01071"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessecchi</surname><given-names>R.</given-names></name><name><surname>Lopes</surname><given-names>J.N.C.</given-names></name><name><surname>Lopes</surname><given-names>N.P.</given-names></name><name><surname>Galembeck</surname><given-names>S.E.</given-names></name></person-group>
+<article-title>Application of the atoms in molecules theory and computational chemistry in mass spectrometry analysis of 1,4-naphthoquinone derivatives</article-title>
+<source>J. Phys. Chem. A</source>
+<year>2011</year>
+<volume>115</volume>
+<fpage>12780</fpage>
+<lpage>12788</lpage>
+<pub-id pub-id-type="doi">10.1021/jp203912d</pub-id>
+<?supplied-pmid 21714561?><pub-id pub-id-type="pmid">21714561</pub-id></element-citation></ref><ref id="B44-ijms-17-01071"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Cardona</surname><given-names>W.</given-names></name><name><surname>Cassels</surname><given-names>B.K.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Ferreira</surname><given-names>J.</given-names></name><name><surname>Miranda</surname><given-names>D.</given-names></name><name><surname>Pavani</surname><given-names>M.</given-names></name><name><surname>Pessoa-Mahana</surname><given-names>H.</given-names></name><name><surname>Soto-Delgado</surname><given-names>J.</given-names></name><name><surname>Weiss-Lopez</surname><given-names>B.</given-names></name></person-group>
+<article-title>Effects of 9,10-dihydroxy-4,4-dimethyl-5,8-dihydro-1(4H)-anthracenone derivatives on tumor cell respiration</article-title>
+<source>Bioorg. Med. Chem.</source>
+<year>2006</year>
+<volume>14</volume>
+<fpage>4664</fpage>
+<lpage>4669</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bmc.2006.02.011</pub-id>
+<?supplied-pmid 16504517?><pub-id pub-id-type="pmid">16504517</pub-id></element-citation></ref><ref id="B45-ijms-17-01071"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Garate</surname><given-names>M.</given-names></name><name><surname>Ferreira</surname><given-names>J.</given-names></name><name><surname>Pavani</surname><given-names>M.</given-names></name><name><surname>Pessoa-Mahana</surname><given-names>H.</given-names></name><name><surname>Cassels</surname><given-names>B.K.</given-names></name></person-group>
+<article-title>Effects of 4,4-dimethyl-5,8-dihydroxynaphtalene-1-one and 4,4-dimethyl-5,8-dihydroxytetralone derivatives on tumor cell respiration</article-title>
+<source>Bioorg. Med. Chem.</source>
+<year>2002</year>
+<volume>10</volume>
+<fpage>3057</fpage>
+<lpage>3060</lpage>
+<pub-id pub-id-type="doi">10.1016/S0968-0896(02)00154-2</pub-id>
+<pub-id pub-id-type="pmid">12110329</pub-id></element-citation></ref><ref id="B46-ijms-17-01071"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez</surname><given-names>J.</given-names></name><name><surname>Olea-Azar</surname><given-names>C.</given-names></name><name><surname>Cavieres</surname><given-names>C.</given-names></name><name><surname>Norambuena</surname><given-names>E.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Soto-Delgado</surname><given-names>J.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>Antioxidant properties and free radical-scavenging reactivity of a family of hydroxynaphthalenones and dihydroxyanthracenones</article-title>
+<source>Bioorg. Med. Chem.</source>
+<year>2007</year>
+<volume>15</volume>
+<fpage>7058</fpage>
+<lpage>7065</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bmc.2007.07.013</pub-id>
+<?supplied-pmid 17845855?><pub-id pub-id-type="pmid">17845855</pub-id></element-citation></ref><ref id="B47-ijms-17-01071"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Urra</surname><given-names>F.A.</given-names></name><name><surname>Martinez-Cifuentes</surname><given-names>M.</given-names></name><name><surname>Pavani</surname><given-names>M.</given-names></name><name><surname>Lapier</surname><given-names>M.</given-names></name><name><surname>Jana-Prado</surname><given-names>F.</given-names></name><name><surname>Parra</surname><given-names>E.</given-names></name><name><surname>Maya</surname><given-names>J.D.</given-names></name><name><surname>Pessoa-Mahana</surname><given-names>H.</given-names></name><name><surname>Ferreira</surname><given-names>J.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>An ortho-carbonyl substituted hydroquinone derivative is an anticancer agent that acts by inhibiting mitochondrial bioenergetics and by inducing G(2)/M-phase arrest in mammary adenocarcinoma TA3</article-title>
+<source>Toxicol. Appl. Pharm.</source>
+<year>2013</year>
+<volume>267</volume>
+<fpage>218</fpage>
+<lpage>227</lpage>
+<pub-id pub-id-type="doi">10.1016/j.taap.2012.12.023</pub-id>
+<?supplied-pmid 23333614?><pub-id pub-id-type="pmid">23333614</pub-id></element-citation></ref><ref id="B48-ijms-17-01071"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Urra</surname><given-names>F.A.</given-names></name><name><surname>C&#x000f3;rdova-Delgado</surname><given-names>M.</given-names></name><name><surname>Lapier</surname><given-names>M.</given-names></name><name><surname>Orellana-Manzano</surname><given-names>A.</given-names></name><name><surname>Acevedo-Ar&#x000e9;valo</surname><given-names>L.</given-names></name><name><surname>Pessoa-Mahana</surname><given-names>H.</given-names></name><name><surname>Gonz&#x000e1;lez-Vivanco</surname><given-names>J.M.</given-names></name><name><surname>Mart&#x000ed;nez-Cifuentes</surname><given-names>M.</given-names></name><name><surname>Ram&#x000ed;rez-Rodr&#x000f3;guez</surname><given-names>O.</given-names></name><name><surname>Millas-Vargas</surname><given-names>J.P.</given-names></name><etal/></person-group>
+<article-title>Small structural changes on a hydroquinone scaffold determine the complex I inhibition or uncoupling of tumoral oxidative phosphorylation</article-title>
+<source>Toxicol. Appl. Pharmacol.</source>
+<year>2016</year>
+<volume>291</volume>
+<fpage>46</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="doi">10.1016/j.taap.2015.12.005</pub-id>
+<?supplied-pmid 26712467?><pub-id pub-id-type="pmid">26712467</pub-id></element-citation></ref><ref id="B49-ijms-17-01071"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dobado</surname><given-names>J.A.</given-names></name><name><surname>Gomez-Tamayo</surname><given-names>J.C.</given-names></name><name><surname>Calvo-Flores</surname><given-names>F.G.</given-names></name><name><surname>Martinez-Garcia</surname><given-names>H.</given-names></name><name><surname>Cardona</surname><given-names>W.</given-names></name><name><surname>Weiss-Lopez</surname><given-names>B.</given-names></name><name><surname>Ramirez-Rodriguez</surname><given-names>O.</given-names></name><name><surname>Pessoa-Mahana</surname><given-names>H.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>NMR assignment in regioisomeric hydroquinones</article-title>
+<source>Magn. Reson. Chem.</source>
+<year>2011</year>
+<volume>49</volume>
+<fpage>358</fpage>
+<lpage>365</lpage>
+<pub-id pub-id-type="doi">10.1002/mrc.2745</pub-id>
+<?supplied-pmid 21452342?><pub-id pub-id-type="pmid">21452342</pub-id></element-citation></ref><ref id="B50-ijms-17-01071"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Cardona</surname><given-names>W.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Jullian</surname><given-names>C.</given-names></name></person-group>
+<article-title>Complete assignment of the C-13 NMR spectra of 4,4-dimethylanthracene-1,9,10(4H)-trione and the regioisomeric monomethyl derivatives</article-title>
+<source>Magn. Res. Chem.</source>
+<year>2000</year>
+<volume>38</volume>
+<fpage>135</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="doi">10.1002/(SICI)1097-458X(200002)38:2&#x0003c;135::AID-MRC590&#x0003e;3.0.CO;2-V</pub-id>
+</element-citation></ref><ref id="B51-ijms-17-01071"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Cassels</surname><given-names>B.K.</given-names></name><name><surname>Delgado-Castro</surname><given-names>T.</given-names></name><name><surname>Hurtado-Guzm&#x000e1;n</surname><given-names>C.</given-names></name><name><surname>Jullian</surname><given-names>C.</given-names></name></person-group>
+<article-title>Complete assignment of the 13C NMR spectra of a series of 5,8-disubstituted 4,4-dimethylanthracene-1,9,10(4h)-triones</article-title>
+<source>Magn. Res. Chem.</source>
+<year>1999</year>
+<volume>37</volume>
+<fpage>312</fpage>
+<lpage>316</lpage>
+<pub-id pub-id-type="doi">10.1002/(SICI)1097-458X(199904)37:4&#x0003c;312::AID-MRC443&#x0003e;3.0.CO;2-P</pub-id>
+</element-citation></ref><ref id="B52-ijms-17-01071"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Almodovar</surname><given-names>I.</given-names></name><name><surname>Ramirez-Rodriguez</surname><given-names>O.</given-names></name><name><surname>Barriga</surname><given-names>A.</given-names></name><name><surname>Rezende</surname><given-names>M.C.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>Electrospray ionization mass spectrometric fragmentation of hydroquinone derivatives</article-title>
+<source>Rapid Commun. Mass Spectrom.</source>
+<year>2011</year>
+<volume>25</volume>
+<fpage>370</fpage>
+<lpage>378</lpage>
+<pub-id pub-id-type="doi">10.1002/rcm.4868</pub-id>
+<?supplied-pmid 21192032?><pub-id pub-id-type="pmid">21192032</pub-id></element-citation></ref><ref id="B53-ijms-17-01071"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mart&#x000ed;nez-Cifuentes</surname><given-names>M.</given-names></name><name><surname>Clavijo-Allancan</surname><given-names>G.</given-names></name><name><surname>di Vaggio-Conejeros</surname><given-names>C.</given-names></name><name><surname>Weiss-L&#x000f3;pez</surname><given-names>B.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>On-water reactivity and regioselectivity of quinones in C&#x02013;N coupling with amines: Experimental and theoretical study</article-title>
+<source>Aust. J. Chem.</source>
+<year>2014</year>
+<volume>67</volume>
+<fpage>217</fpage>
+<lpage>224</lpage>
+</element-citation></ref><ref id="B54-ijms-17-01071"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salazar</surname><given-names>R.</given-names></name><name><surname>Vidal</surname><given-names>J.</given-names></name><name><surname>Mart&#x000ed;nez-Cifuentes</surname><given-names>M.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name><name><surname>Ram&#x000ed;rez-Rodr&#x000ed;guez</surname><given-names>O.</given-names></name></person-group>
+<article-title>Electrochemical characterization of hydroquinone derivatives with different substituents in acetonitrile</article-title>
+<source>New J. Chem.</source>
+<year>2015</year>
+<volume>39</volume>
+<fpage>1237</fpage>
+<lpage>1246</lpage>
+<pub-id pub-id-type="doi">10.1039/C4NJ01657B</pub-id>
+</element-citation></ref><ref id="B55-ijms-17-01071"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mart&#x000ed;nez-Cifuentes</surname><given-names>M.</given-names></name><name><surname>Weiss-L&#x000f3;pez</surname><given-names>B.E.</given-names></name><name><surname>Santos</surname><given-names>L.S.</given-names></name><name><surname>Araya-Maturana</surname><given-names>R.</given-names></name></person-group>
+<article-title>Intramolecular hydrogen bond in biologically active <italic>o</italic>-carbonyl hydroquinones</article-title>
+<source>Molecules</source>
+<year>2014</year>
+<volume>19</volume>
+<fpage>9354</fpage>
+<lpage>9368</lpage>
+<pub-id pub-id-type="doi">10.3390/molecules19079354</pub-id>
+<?supplied-pmid 24995921?><pub-id pub-id-type="pmid">24995921</pub-id></element-citation></ref><ref id="B56-ijms-17-01071"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sridharan</surname><given-names>V.</given-names></name><name><surname>Martin</surname><given-names>M.A.</given-names></name><name><surname>Menendez</surname><given-names>J.C.</given-names></name></person-group>
+<article-title>Acid-free synthesis of carbazoles and carbazolequinones by intramolecular pd-catalyzed, microwave-assisted oxidative biaryl coupling reactions&#x02014;Efficient syntheses of murrayafoline a, 2-methoxy-3-methylcarbazole, and glycozolidine</article-title>
+<source>Eur. J. Org. Chem.</source>
+<year>2009</year>
+<volume>2009</volume>
+<fpage>4614</fpage>
+<lpage>4621</lpage>
+<pub-id pub-id-type="doi">10.1002/ejoc.200900537</pub-id>
+</element-citation></ref><ref id="B57-ijms-17-01071"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parr</surname><given-names>R.G.</given-names></name><name><surname>Yang</surname><given-names>W.</given-names></name></person-group>
+<article-title>Density functional approach to the frontier-electron theory of chemical reactivity</article-title>
+<source>J. Am. Chem. Soc.</source>
+<year>1984</year>
+<volume>106</volume>
+<fpage>2</fpage>
+<pub-id pub-id-type="doi">10.1021/ja00326a036</pub-id>
+</element-citation></ref><ref id="B58-ijms-17-01071"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Domingo</surname><given-names>L.R.</given-names></name><name><surname>Perez</surname><given-names>P.</given-names></name><name><surname>Saez</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Understanding the local reactivity in polar organic reactions through electrophilic and nucleophilic Parr functions</article-title>
+<source>RSC Adv.</source>
+<year>2013</year>
+<volume>3</volume>
+<fpage>1486</fpage>
+<lpage>1494</lpage>
+<pub-id pub-id-type="doi">10.1039/C2RA22886F</pub-id>
+</element-citation></ref><ref id="B59-ijms-17-01071"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borgoo</surname><given-names>A.</given-names></name><name><surname>Tozer</surname><given-names>D.J.</given-names></name><name><surname>Geerlings</surname><given-names>P.</given-names></name><name><surname>de Proft</surname><given-names>F.</given-names></name></person-group>
+<article-title>Confinement effects on excitation energies and regioselectivity as probed by the Fukui function and the molecular electrostatic potential</article-title>
+<source>Phys. Chem. Chem. Phys.</source>
+<year>2009</year>
+<volume>11</volume>
+<fpage>2862</fpage>
+<lpage>2868</lpage>
+<pub-id pub-id-type="doi">10.1039/b820114e</pub-id>
+<?supplied-pmid 19421500?><pub-id pub-id-type="pmid">19421500</pub-id></element-citation></ref><ref id="B60-ijms-17-01071"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Irikura</surname><given-names>K.K.</given-names></name><name><surname>MeotNer</surname><given-names>M.</given-names></name><name><surname>Sieck</surname><given-names>L.W.</given-names></name><name><surname>Fant</surname><given-names>A.D.</given-names></name><name><surname>Liebman</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>Protonated <italic>p</italic>-benzoquinone</article-title>
+<source>J. Org. Chem.</source>
+<year>1996</year>
+<volume>61</volume>
+<fpage>3167</fpage>
+<lpage>3171</lpage>
+<pub-id pub-id-type="doi">10.1021/jo951580z</pub-id>
+<?supplied-pmid 11667180?><pub-id pub-id-type="pmid">11667180</pub-id></element-citation></ref><ref id="B61-ijms-17-01071"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>L.M.</given-names></name><name><surname>He</surname><given-names>Y.L.</given-names></name></person-group>
+<article-title>Halogenated silanes, radicals, and cations: Theoretical predictions on ionization energies, structures and potential energy surfaces of cations, proton affinities, and enthalpies of formation</article-title>
+<source>Int. J. Mass Spectrom.</source>
+<year>2008</year>
+<volume>276</volume>
+<fpage>56</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ijms.2008.07.004</pub-id>
+</element-citation></ref><ref id="B62-ijms-17-01071"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bouchoux</surname><given-names>G.</given-names></name></person-group>
+<article-title>Gas-phase basicities of polyfunctional molecules. Part 4: Carbonyl groups as basic sites</article-title>
+<source>Mass Spectrom. Rev.</source>
+<year>2015</year>
+<volume>34</volume>
+<fpage>493</fpage>
+<lpage>534</lpage>
+<pub-id pub-id-type="doi">10.1002/mas.21416</pub-id>
+<?supplied-pmid 24399766?><pub-id pub-id-type="pmid">24399766</pub-id></element-citation></ref><ref id="B63-ijms-17-01071"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Madeira</surname><given-names>P.J.A.</given-names></name><name><surname>Sitoe</surname><given-names>A.R.F.</given-names></name><name><surname>Goncalves</surname><given-names>D.</given-names></name><name><surname>Rodrigues</surname><given-names>T.</given-names></name><name><surname>Guedes</surname><given-names>R.C.</given-names></name><name><surname>Lopes</surname><given-names>F.</given-names></name><name><surname>Moreira</surname><given-names>R.</given-names></name><name><surname>Bronze</surname><given-names>M.R.</given-names></name></person-group>
+<article-title>Antiplasmodial drugs in the gas phase: A CID and DFT study of quinolon-4(1H)-imine derivatives</article-title>
+<source>J. Am. Soc. Mass Spectrom.</source>
+<year>2014</year>
+<volume>25</volume>
+<fpage>1650</fpage>
+<lpage>1661</lpage>
+<pub-id pub-id-type="doi">10.1007/s13361-014-0940-x</pub-id>
+<?supplied-pmid 25001380?><pub-id pub-id-type="pmid">25001380</pub-id></element-citation></ref><ref id="B64-ijms-17-01071"><label>64.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Frisch</surname><given-names>M.J.</given-names></name><name><surname>Trucks</surname><given-names>G.W.</given-names></name><name><surname>Schlegel</surname><given-names>H.B.</given-names></name><name><surname>Scuseria</surname><given-names>G.E.</given-names></name><name><surname>Robb</surname><given-names>M.A.</given-names></name><name><surname>Cheeseman</surname><given-names>J.R.</given-names></name><name><surname>Scalmani</surname><given-names>G.</given-names></name><name><surname>Barone</surname><given-names>V.</given-names></name><name><surname>Mennucci</surname><given-names>B.</given-names></name><name><surname>Petersson</surname><given-names>G.A.</given-names></name><etal/></person-group>
+<source>Revision A.01, Gaussian 09</source>
+<publisher-name>Gaussian, Inc.</publisher-name>
+<publisher-loc>Wallingford, CT, USA</publisher-loc>
+<year>2009</year>
+</element-citation></ref><ref id="B65-ijms-17-01071"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bonaccorsi</surname><given-names>R.</given-names></name><name><surname>Scrocco</surname><given-names>E.</given-names></name><name><surname>Tomasi</surname><given-names>J.</given-names></name></person-group>
+<article-title>Molecular SCF calculations for the ground state of some three-membered ring molecules: (CH2)3, (CH2)2NH, (CH2)2NH2 +, (CH2)2O, (CH2)2S, (CH)2CH2, and N2CH2</article-title>
+<source>J. Phys. Chem.</source>
+<year>1970</year>
+<volume>52</volume>
+<fpage>5270</fpage>
+<lpage>5284</lpage>
+<pub-id pub-id-type="doi">10.1063/1.1672775</pub-id>
+</element-citation></ref><ref id="B66-ijms-17-01071"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>W.</given-names></name><name><surname>Mortier</surname><given-names>W.J.</given-names></name></person-group>
+<article-title>The use of global and local molecular parameters for the analysis of the gas-phase basicity of amines</article-title>
+<source>J. Am. Chem. Soc.</source>
+<year>1986</year>
+<volume>108</volume>
+<fpage>5708</fpage>
+<lpage>5711</lpage>
+<pub-id pub-id-type="doi">10.1021/ja00279a008</pub-id>
+<?supplied-pmid 22175316?><pub-id pub-id-type="pmid">22175316</pub-id></element-citation></ref><ref id="B67-ijms-17-01071"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Range</surname><given-names>K.</given-names></name><name><surname>Riccardi</surname><given-names>D.</given-names></name><name><surname>Cui</surname><given-names>Q.</given-names></name><name><surname>Elstner</surname><given-names>M.</given-names></name><name><surname>York</surname><given-names>D.M.</given-names></name></person-group>
+<article-title>Benchmark calculations of proton affinities and gas-phase basicities of molecules important in the study of biological phosphoryl transfer</article-title>
+<source>Phys. Chem. Chem. Phys.</source>
+<year>2005</year>
+<volume>7</volume>
+<fpage>3070</fpage>
+<lpage>3079</lpage>
+<pub-id pub-id-type="doi">10.1039/b504941e</pub-id>
+<?supplied-pmid 16186912?><pub-id pub-id-type="pmid">16186912</pub-id></element-citation></ref><ref id="B68-ijms-17-01071"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalez</surname><given-names>C.</given-names></name><name><surname>Schlegel</surname><given-names>H.B.</given-names></name></person-group>
+<article-title>Reaction-path following in mass-weighted internal coordinates</article-title>
+<source>J. Phys. Chem.</source>
+<year>1990</year>
+<volume>94</volume>
+<fpage>5523</fpage>
+<lpage>5527</lpage>
+<pub-id pub-id-type="doi">10.1021/j100377a021</pub-id>
+</element-citation></ref></ref-list><sec sec-type="display-objects"><title>Figures, Schemes and Tables</title><fig id="ijms-17-01071-f001" position="float"><label>Figure 1</label><caption><p>Structure of <italic>o</italic>-carbonyl carbazolequinones.</p></caption><graphic xlink:href="ijms-17-01071-g001"/></fig><fig id="ijms-17-01071-f002" position="float"><label>Figure 2</label><caption><p>Synthetic route to obtain <italic>o</italic>-carbonylcarbazolquinones <bold>CQ1</bold> to <bold>CQ4</bold>.</p></caption><graphic xlink:href="ijms-17-01071-g002"/><table-wrap id="d36e5170" position="anchor"><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>R</italic></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">CQ</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Yield (%)</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">&#x02013;H</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>1</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">52</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">1&#x02032;&#x02013;CH<sub>3</sub></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>2</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">77</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">3&#x02032;&#x02013;CO<sup>(5&#x02032;)</sup>O<sup>(6&#x02032;)</sup>Et</td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>3</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">23</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3&#x02032;&#x02013;Br</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><bold>4</bold></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">39</td></tr></tbody></table></table-wrap></fig><fig id="ijms-17-01071-f003" position="float"><label>Figure 3</label><caption><p>Molecular electrostatic potential maps (MEP) for <italic>o</italic>-carbonylcarbazolequinones <bold>CQ1</bold> to <bold>CQ4</bold>. Red color indicates high electron density and blue color low electron density.</p></caption><graphic xlink:href="ijms-17-01071-g003"/></fig><fig id="ijms-17-01071-sch001" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch001_Scheme 1</object-id><label>Scheme 1</label><caption><p>Fragmentation patterns for water and CO losses from protonated <bold>CQ1</bold>.</p></caption><graphic xlink:href="ijms-17-01071-sch001"/></fig><fig id="ijms-17-01071-sch002" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch002_Scheme 2</object-id><label>Scheme 2</label><caption><p>Proton transfer equilibria between O<sub>1</sub> and O<sub>2</sub> for <bold>CQ1</bold>.</p></caption><graphic xlink:href="ijms-17-01071-sch002"/></fig><fig id="ijms-17-01071-sch003" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch003_Scheme 3</object-id><label>Scheme 3</label><caption><p>Energy profile of [CQ1 + H]<sup>+</sup> fragmentation to give <italic>m</italic>/<italic>z</italic> 144. Energy relative 1 (<italic>E</italic><sub>rel1</sub>) at M06-2x/6-311++G(3df,3pd) and Energy relative 2 (<italic>E</italic><sub>rel2</sub>) at QCISD/6-31++G(d,p).</p></caption><graphic xlink:href="ijms-17-01071-sch003"/></fig><fig id="ijms-17-01071-sch004" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch004_Scheme 4</object-id><label>Scheme 4</label><caption><p>Energy profile of [CQ1 + H]<sup>+</sup> fragmentation to <italic>m</italic>/<italic>z</italic> 149. Energy relative 1 (<italic>E</italic><sub>rel1</sub>) at M06-2x/6-311++G(3df,3pd) and Energy relative 2 (<italic>E</italic><sub>rel2</sub>) at QCISD/6-31++G(d,p).</p></caption><graphic xlink:href="ijms-17-01071-sch004"/></fig><fig id="ijms-17-01071-sch005" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch005_Scheme 5</object-id><label>Scheme 5</label><caption><p>Fragmentation pattern for protonated <bold>CQ3</bold>.</p></caption><graphic xlink:href="ijms-17-01071-sch005"/></fig><fig id="ijms-17-01071-sch006" position="float"><object-id pub-id-type="pii">ijms-17-01071-sch006_Scheme 6</object-id><label>Scheme 6</label><caption><p>Fragmentation pattern for protonated <bold>CQ4</bold>.</p></caption><graphic xlink:href="ijms-17-01071-sch006"/></fig><table-wrap id="ijms-17-01071-t001" position="float"><object-id pub-id-type="pii">ijms-17-01071-t001_Table 1</object-id><label>Table 1</label><caption><p>Fukui function (<bold><italic>f</italic></bold><sup>&#x02212;</sup>) and Parr function (<bold><italic>P</italic></bold><sup>&#x02212;</sup>) for electrophilic attack.</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">Atom</th><th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Fukui Function for Electrophilic Attack</th><th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Parr Function for Electrophilic Attack</th></tr><tr><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ1</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ2</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ3</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ4</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ1</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ2</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ3</th><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CQ4</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">O1</td><td align="center" valign="middle" rowspan="1" colspan="1">0.149</td><td align="center" valign="middle" rowspan="1" colspan="1">0.111</td><td align="center" valign="middle" rowspan="1" colspan="1">0.148</td><td align="center" valign="middle" rowspan="1" colspan="1">0.149</td><td align="center" valign="middle" rowspan="1" colspan="1">0.262</td><td align="center" valign="middle" rowspan="1" colspan="1">0.224</td><td align="center" valign="middle" rowspan="1" colspan="1">0.270</td><td align="center" valign="middle" rowspan="1" colspan="1">0.282</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">O2</td><td align="center" valign="middle" rowspan="1" colspan="1">0.091</td><td align="center" valign="middle" rowspan="1" colspan="1">0.067</td><td align="center" valign="middle" rowspan="1" colspan="1">0.089</td><td align="center" valign="middle" rowspan="1" colspan="1">0.087</td><td align="center" valign="middle" rowspan="1" colspan="1">0.061</td><td align="center" valign="middle" rowspan="1" colspan="1">0.043</td><td align="center" valign="middle" rowspan="1" colspan="1">0.066</td><td align="center" valign="middle" rowspan="1" colspan="1">0.080</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">O3</td><td align="center" valign="middle" rowspan="1" colspan="1">0.054</td><td align="center" valign="middle" rowspan="1" colspan="1">0.054</td><td align="center" valign="middle" rowspan="1" colspan="1">0.052</td><td align="center" valign="middle" rowspan="1" colspan="1">0.049</td><td align="center" valign="middle" rowspan="1" colspan="1">0.054</td><td align="center" valign="middle" rowspan="1" colspan="1">0.050</td><td align="center" valign="middle" rowspan="1" colspan="1">0.053</td><td align="center" valign="middle" rowspan="1" colspan="1">0.038</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">N4</td><td align="center" valign="middle" rowspan="1" colspan="1">0.008</td><td align="center" valign="middle" rowspan="1" colspan="1">0.012</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.008</td><td align="center" valign="middle" rowspan="1" colspan="1">0.006</td><td align="center" valign="middle" rowspan="1" colspan="1">0.110</td><td align="center" valign="middle" rowspan="1" colspan="1">0.122</td><td align="center" valign="middle" rowspan="1" colspan="1">0.108</td><td align="center" valign="middle" rowspan="1" colspan="1">0.103</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">O5&#x02032;</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.026</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.003</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">O6&#x02032;</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&#x02212;0.001</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.009</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+</td></tr></tbody></table></table-wrap><table-wrap id="ijms-17-01071-t002" position="float"><object-id pub-id-type="pii">ijms-17-01071-t002_Table 2</object-id><label>Table 2</label><caption><p>Calculated Proton Affinities (PA) and Gas-Phase Basicity (GB), in kcal&#x000b7;mol<sup>&#x02212;1</sup>, for the protonation of oxygens 1 and 2 (same value for both oxygens) for all CQs. Results for all protonation sites are in the <xref ref-type="app" rid="app1-ijms-17-01071">Supplementary Materials</xref>.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">PA</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">GB</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>CQ1</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">240.0</td><td align="center" valign="middle" rowspan="1" colspan="1">231.3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>CQ2</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">241.0</td><td align="center" valign="middle" rowspan="1" colspan="1">232.4</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>CQ3</bold></td><td align="center" valign="middle" rowspan="1" colspan="1">238.4</td><td align="center" valign="middle" rowspan="1" colspan="1">229.9</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><bold>CQ4</bold></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">238.1</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">229.5</td></tr></tbody></table></table-wrap><table-wrap id="ijms-17-01071-t003" position="float"><object-id pub-id-type="pii">ijms-17-01071-t003_Table 3</object-id><label>Table 3</label><caption><p>Ionic species observed in the electrospray ionization mass spectrometry (ESI-MS) spectra of CQs.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Ion</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">CQ1 <italic>m</italic>/<italic>z</italic></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">CQ2 <italic>m</italic>/<italic>z</italic></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">CQ3 <italic>m</italic>/<italic>z</italic></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">CQ4 <italic>m</italic>/<italic>z</italic></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">[M + H]<sup>+</sup></td><td align="center" valign="middle" rowspan="1" colspan="1">292</td><td align="center" valign="middle" rowspan="1" colspan="1">306</td><td align="center" valign="middle" rowspan="1" colspan="1">364</td><td align="center" valign="middle" rowspan="1" colspan="1">370</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">[M + Na]<sup>+</sup></td><td align="center" valign="middle" rowspan="1" colspan="1">314</td><td align="center" valign="middle" rowspan="1" colspan="1">328</td><td align="center" valign="middle" rowspan="1" colspan="1">386</td><td align="center" valign="middle" rowspan="1" colspan="1"><sup>a</sup></td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[M + K]<sup>+</sup></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">330</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">344</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><sup>a</sup></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><sup>a</sup></td></tr></tbody></table><table-wrap-foot><fn><p><sup>a</sup> Not observed.</p></fn></table-wrap-foot></table-wrap><table-wrap id="ijms-17-01071-t004" position="float"><object-id pub-id-type="pii">ijms-17-01071-t004_Table 4</object-id><label>Table 4</label><caption><p>Molecular and main fragment <sup>ions</sup> observed by ESI-MS<sup>n</sup> analysis of <bold>CQ1</bold> to <bold>CQ4</bold>.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Compound</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">[M + H]<sup>+</sup>
+<italic>m</italic>/<italic>z</italic> (%)</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">MS<sup>2</sup>
+<italic>m</italic>/<italic>z</italic> (%)</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">MS<sup>3</sup>
+<italic>m</italic>/<italic>z</italic> (%)</th></tr></thead><tbody><tr><td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><bold>CQ1</bold></td><td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">292</td><td align="center" valign="middle" rowspan="1" colspan="1">274(40) &#x02013;H<sub>2</sub>O</td><td align="center" valign="middle" rowspan="1" colspan="1">246(100) &#x02013;CO</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">264(100) &#x02013;CO</td><td align="center" valign="middle" rowspan="1" colspan="1">246(86) &#x02013;H<sub>2</sub>O</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">149(40) &#x02013;C<sub>9</sub>H<sub>5</sub>NO</td><td align="center" valign="middle" rowspan="1" colspan="1">121(100) &#x02013;CO</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">144(100) &#x02013;C<sub>9</sub>H<sub>8</sub>O<sub>2</sub></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">116(100) &#x02013;CO</td></tr><tr><td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><bold>CQ2</bold></td><td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">306</td><td align="center" valign="middle" rowspan="1" colspan="1">288(48) &#x02013;H<sub>2</sub>O</td><td align="center" valign="middle" rowspan="1" colspan="1">260(100) &#x02013;CO</td></tr><tr><td align="center" valign="top" rowspan="1" colspan="1">278(100) &#x02013;CO</td><td align="center" valign="middle" rowspan="1" colspan="1">263(100) &#x02013;CH<sub>3</sub>
+<break/>260(95) &#x02013;H<sub>2</sub>O</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">158(61)</td><td align="center" valign="middle" rowspan="1" colspan="1">130(100) &#x02013;CO</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">149(13)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">121(100) &#x02013;CO</td></tr><tr><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><bold>CQ3</bold></td><td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">364</td><td align="center" valign="middle" rowspan="1" colspan="1">346(15) &#x02013;H<sub>2</sub>O</td><td align="center" valign="middle" rowspan="1" colspan="1">318(100) &#x02013;CO</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">336(50) &#x02013;CO</td><td align="center" valign="middle" rowspan="1" colspan="1">318(35) &#x02013;H<sub>2</sub>O</td></tr><tr><td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">292(100) &#x02013;C<sub>3</sub>H<sub>4</sub>O<sub>2</sub></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">264(100) &#x02013;CO<break/> 149(35) &#x02013;C<sub>9</sub>H<sub>9</sub>O<sub>2</sub><break/> 144(100) &#x02013;C<sub>9</sub>H<sub>6</sub>NO</td></tr><tr><td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1"><bold>CQ4</bold></td><td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">370</td><td align="center" valign="middle" rowspan="1" colspan="1">291(100) &#x02013;Br</td><td align="center" valign="middle" rowspan="1" colspan="1">263(100) &#x02013;CO</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">342(10) &#x02013;CO</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">263(100) &#x02013;Br</td></tr></tbody></table></table-wrap></sec></back></article>

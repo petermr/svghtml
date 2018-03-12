@@ -1,0 +1,776 @@
+{
+  "id": [
+    "27216920"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27216920"
+  ],
+  "pmcid": [
+    "PMC4877574"
+  ],
+  "doi": [
+    "10.1038/srep25861"
+  ],
+  "title": [
+    "Corrigendum: An integrative approach to investigate the respective roles of single-nucleotide variants and copy-number variants in Attention-Deficit/Hyperactivity Disorder."
+  ],
+  "authorString": [
+    "Lima Lde A, Feio-Dos-Santos AC, Belangero SI, Gadelha A, Bressan RA, Salum GA, Pan PM, Moriyama TS, Graeff-Martins AS, Tamanaha AC, Alvarenga P, Krieger FV, Fleitlich-Bilyk B, Jackowski AP, Brietzke E, Sato JR, Polanczyk GV, Mari Jde J, Manfro GG, do Rosário MC, Miguel EC, Puga RD, Tahira AC, Souza VN, Chile T, Gouveia GR, Simões SN, Chang X, Pellegrino R, Tian L, Glessner JT, Hashimoto RF, Rohde LA, Sleiman PM, Hakonarson H, Brentani H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lima Lde A"
+          ],
+          "firstName": [
+            "Leandro de Araújo"
+          ],
+          "lastName": [
+            "Lima"
+          ],
+          "initials": [
+            "Lde A"
+          ]
+        },
+        {
+          "fullName": [
+            "Feio-Dos-Santos AC"
+          ],
+          "firstName": [
+            "Ana Cecília"
+          ],
+          "lastName": [
+            "Feio-Dos-Santos"
+          ],
+          "initials": [
+            "AC"
+          ]
+        },
+        {
+          "fullName": [
+            "Belangero SI"
+          ],
+          "firstName": [
+            "Sintia Iole"
+          ],
+          "lastName": [
+            "Belangero"
+          ],
+          "initials": [
+            "SI"
+          ]
+        },
+        {
+          "fullName": [
+            "Gadelha A"
+          ],
+          "firstName": [
+            "Ary"
+          ],
+          "lastName": [
+            "Gadelha"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Bressan RA"
+          ],
+          "firstName": [
+            "Rodrigo Affonseca"
+          ],
+          "lastName": [
+            "Bressan"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0868-4449",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Salum GA"
+          ],
+          "firstName": [
+            "Giovanni Abrahão"
+          ],
+          "lastName": [
+            "Salum"
+          ],
+          "initials": [
+            "GA"
+          ]
+        },
+        {
+          "fullName": [
+            "Pan PM"
+          ],
+          "firstName": [
+            "Pedro Mario"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "PM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1943-6520",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Moriyama TS"
+          ],
+          "firstName": [
+            "Tais Silveira"
+          ],
+          "lastName": [
+            "Moriyama"
+          ],
+          "initials": [
+            "TS"
+          ]
+        },
+        {
+          "fullName": [
+            "Graeff-Martins AS"
+          ],
+          "firstName": [
+            "Ana Soledade"
+          ],
+          "lastName": [
+            "Graeff-Martins"
+          ],
+          "initials": [
+            "AS"
+          ]
+        },
+        {
+          "fullName": [
+            "Tamanaha AC"
+          ],
+          "firstName": [
+            "Ana Carina"
+          ],
+          "lastName": [
+            "Tamanaha"
+          ],
+          "initials": [
+            "AC"
+          ]
+        },
+        {
+          "fullName": [
+            "Alvarenga P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Alvarenga"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Krieger FV"
+          ],
+          "firstName": [
+            "Fernanda Valle"
+          ],
+          "lastName": [
+            "Krieger"
+          ],
+          "initials": [
+            "FV"
+          ]
+        },
+        {
+          "fullName": [
+            "Fleitlich-Bilyk B"
+          ],
+          "firstName": [
+            "Bacy"
+          ],
+          "lastName": [
+            "Fleitlich-Bilyk"
+          ],
+          "initials": [
+            "B"
+          ]
+        },
+        {
+          "fullName": [
+            "Jackowski AP"
+          ],
+          "firstName": [
+            "Andrea Parolin"
+          ],
+          "lastName": [
+            "Jackowski"
+          ],
+          "initials": [
+            "AP"
+          ]
+        },
+        {
+          "fullName": [
+            "Brietzke E"
+          ],
+          "firstName": [
+            "Elisa"
+          ],
+          "lastName": [
+            "Brietzke"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Sato JR"
+          ],
+          "firstName": [
+            "João Ricardo"
+          ],
+          "lastName": [
+            "Sato"
+          ],
+          "initials": [
+            "JR"
+          ]
+        },
+        {
+          "fullName": [
+            "Polanczyk GV"
+          ],
+          "firstName": [
+            "Guilherme Vanoni"
+          ],
+          "lastName": [
+            "Polanczyk"
+          ],
+          "initials": [
+            "GV"
+          ]
+        },
+        {
+          "fullName": [
+            "Mari Jde J"
+          ],
+          "firstName": [
+            "Jair de Jesus"
+          ],
+          "lastName": [
+            "Mari"
+          ],
+          "initials": [
+            "Jde J"
+          ]
+        },
+        {
+          "fullName": [
+            "Manfro GG"
+          ],
+          "firstName": [
+            "Gisele Gus"
+          ],
+          "lastName": [
+            "Manfro"
+          ],
+          "initials": [
+            "GG"
+          ]
+        },
+        {
+          "fullName": [
+            "do Rosário MC"
+          ],
+          "firstName": [
+            "Maria Conceição"
+          ],
+          "lastName": [
+            "do Rosário"
+          ],
+          "initials": [
+            "MC"
+          ]
+        },
+        {
+          "fullName": [
+            "Miguel EC"
+          ],
+          "firstName": [
+            "Eurípedes Constantino"
+          ],
+          "lastName": [
+            "Miguel"
+          ],
+          "initials": [
+            "EC"
+          ]
+        },
+        {
+          "fullName": [
+            "Puga RD"
+          ],
+          "firstName": [
+            "Renato David"
+          ],
+          "lastName": [
+            "Puga"
+          ],
+          "initials": [
+            "RD"
+          ]
+        },
+        {
+          "fullName": [
+            "Tahira AC"
+          ],
+          "firstName": [
+            "Ana Carolina"
+          ],
+          "lastName": [
+            "Tahira"
+          ],
+          "initials": [
+            "AC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7036-7305",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Souza VN"
+          ],
+          "firstName": [
+            "Viviane Neri"
+          ],
+          "lastName": [
+            "Souza"
+          ],
+          "initials": [
+            "VN"
+          ]
+        },
+        {
+          "fullName": [
+            "Chile T"
+          ],
+          "firstName": [
+            "Thais"
+          ],
+          "lastName": [
+            "Chile"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Gouveia GR"
+          ],
+          "firstName": [
+            "Gisele Rodrigues"
+          ],
+          "lastName": [
+            "Gouveia"
+          ],
+          "initials": [
+            "GR"
+          ]
+        },
+        {
+          "fullName": [
+            "Simões SN"
+          ],
+          "firstName": [
+            "Sérgio Nery"
+          ],
+          "lastName": [
+            "Simões"
+          ],
+          "initials": [
+            "SN"
+          ]
+        },
+        {
+          "fullName": [
+            "Chang X"
+          ],
+          "firstName": [
+            "Xiao"
+          ],
+          "lastName": [
+            "Chang"
+          ],
+          "initials": [
+            "X"
+          ]
+        },
+        {
+          "fullName": [
+            "Pellegrino R"
+          ],
+          "firstName": [
+            "Renata"
+          ],
+          "lastName": [
+            "Pellegrino"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Tian L"
+          ],
+          "firstName": [
+            "Lifeng"
+          ],
+          "lastName": [
+            "Tian"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Glessner JT"
+          ],
+          "firstName": [
+            "Joseph T"
+          ],
+          "lastName": [
+            "Glessner"
+          ],
+          "initials": [
+            "JT"
+          ]
+        },
+        {
+          "fullName": [
+            "Hashimoto RF"
+          ],
+          "firstName": [
+            "Ronaldo Fumio"
+          ],
+          "lastName": [
+            "Hashimoto"
+          ],
+          "initials": [
+            "RF"
+          ]
+        },
+        {
+          "fullName": [
+            "Rohde LA"
+          ],
+          "firstName": [
+            "Luis Augusto"
+          ],
+          "lastName": [
+            "Rohde"
+          ],
+          "initials": [
+            "LA"
+          ]
+        },
+        {
+          "fullName": [
+            "Sleiman PM"
+          ],
+          "firstName": [
+            "Patrick M A"
+          ],
+          "lastName": [
+            "Sleiman"
+          ],
+          "initials": [
+            "PM"
+          ]
+        },
+        {
+          "fullName": [
+            "Hakonarson H"
+          ],
+          "firstName": [
+            "Hakon"
+          ],
+          "lastName": [
+            "Hakonarson"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Brentani H"
+          ],
+          "firstName": [
+            "Helena"
+          ],
+          "lastName": [
+            "Brentani"
+          ],
+          "initials": [
+            "H"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1943-6520",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0868-4449",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7036-7305",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2358449"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "25861"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "correction",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4877574?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4877574"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/srep25861"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-05-24"
+  ],
+  "dateOfRevision": [
+    "2016-06-09"
+  ],
+  "electronicPublicationDate": [
+    "2016-05-24"
+  ],
+  "firstPublicationDate": [
+    "2016-05-24"
+  ]
+}

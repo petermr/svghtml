@@ -1,0 +1,299 @@
+{
+  "id": [
+    "28790994"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28790994"
+  ],
+  "pmcid": [
+    "PMC5523582"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.01397"
+  ],
+  "title": [
+    "Insight Into the Origin and Evolution of the Vibrio parahaemolyticus Pandemic Strain."
+  ],
+  "authorString": [
+    "Espejo RT, García K, Plaza N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Espejo RT"
+          ],
+          "firstName": [
+            "Romilio T"
+          ],
+          "lastName": [
+            "Espejo"
+          ],
+          "initials": [
+            "RT"
+          ],
+          "affiliation": [
+            "Laboratory of Biotechnology, Institute of Nutrition and Food Technology, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Plaza N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Plaza"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6742-3265",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6742-3265",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1397"
+  ],
+  "abstractText": [
+    "A strain of Vibrio parahaemolyticus that emerged in 1995 caused the first known pandemic involving this species. This strain comprises clonal autochthonous ocean-dwelling bacteria whose evolution has occurred in the ocean environment. The low sequence diversity in this population enabled the discovery of information on its origin and evolution that has been hidden in bacterial clones that have evolved over a long period. Multilocus sequencing and microarray analysis, together with phylogenetic analysis, of pandemic and pre-pandemic isolates has suggested that the founder clone was an O3:K6 non-pathogenic strain that initially acquired a toxRS/new region and subsequently acquired at least seven novel genomic islands. Sequencing and comparison of whole genomes later confirmed these early observations, and it confirmed that most of the genetic changes occurred via gene conversion involving horizontally transmitted DNA. The highly clonal population rapidly diversified, especially in terms of antigenicity, and 27 serotypes have already been reported. Comparisons of the core genomes derived from the founder clone indicate that there are only a few hundred single-nucleotide variations between isolates. However, when the whole genome is considered (the core plus non-core genome and from any clonal frame), the amount of DNA with a different clonal frame can reach up to 4.2% and the number of single-nucleotide variations can reach several hundred thousand. Altogether, these and previous observations based on multilocus sequence typing, microarray analysis, and whole-genome sequencing indicate the large contribution made by DNA with different clonal genealogy to genome diversification. The evidence also indicates that horizontal gene transfer (HGT) caused the emergence of new pathogens. Furthermore, the extent of HGT seems to depend on the vicissitudes of the life of each bacterium, as exemplified by differences in thousands of base pairs acquired by HGT among almost identical genetic isolates."
+  ],
+  "affiliation": [
+    "Laboratory of Biotechnology, Institute of Nutrition and Food Technology, Universidad de ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Ecology",
+        "Phylogeny",
+        "Genomic",
+        "Horizontal gene transfer",
+        "Diarrhea"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5523582?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5523582"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.01397"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-09"
+  ],
+  "dateOfRevision": [
+    "2017-08-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-24"
+  ],
+  "firstPublicationDate": [
+    "2017-07-24"
+  ]
+}

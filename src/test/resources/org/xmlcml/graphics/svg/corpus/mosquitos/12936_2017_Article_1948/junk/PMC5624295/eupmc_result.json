@@ -1,0 +1,321 @@
+{
+  "id": [
+    "28975055"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28975055"
+  ],
+  "pmcid": [
+    "PMC5624295"
+  ],
+  "doi": [
+    "10.7717/peerj.3835"
+  ],
+  "title": [
+    "Unraveling the diversification history of grasshoppers belonging to the \"Trimerotropis pallidipennis\" (Oedipodinae: Acrididae) species group: a hotspot of biodiversity in the Central Andes."
+  ],
+  "authorString": [
+    "Guzmán NV, Pietrokovsky SM, Cigliano MM, Confalonieri VA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guzmán NV"
+          ],
+          "firstName": [
+            "Noelia Verónica"
+          ],
+          "lastName": [
+            "Guzmán"
+          ],
+          "initials": [
+            "NV"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires y Consejo Nacional de Investigaciones Científicas y Tecnológicas, Instituto de Ecología, Genética y Evolución (IEGEBA), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Pietrokovsky SM"
+          ],
+          "firstName": [
+            "Silvia Mónica"
+          ],
+          "lastName": [
+            "Pietrokovsky"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires y Consejo Nacional de Investigaciones Científicas y Tecnológicas, Instituto de Ecología, Genética y Evolución (IEGEBA), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Cigliano MM"
+          ],
+          "firstName": [
+            "Maria Marta"
+          ],
+          "lastName": [
+            "Cigliano"
+          ],
+          "initials": [
+            "MM"
+          ],
+          "affiliation": [
+            "Consejo Nacional de Investigaciones Científicas y Tecnológicas, Museo de La Plata, Universidad Nacional de la Plata, Centro de Estudios Parasitológicos y de Vectores (CEPAVE), La Plata, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Confalonieri VA"
+          ],
+          "firstName": [
+            "Viviana Andrea"
+          ],
+          "lastName": [
+            "Confalonieri"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4499-9816",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires y Consejo Nacional de Investigaciones Científicas y Tecnológicas, Instituto de Ecología, Genética y Evolución (IEGEBA), Buenos Aires, Argentina."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4499-9816",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3835"
+  ],
+  "abstractText": [
+    "The Andean Mountain range has been recognized as one of the biodiversity hotspots of the world. The proposed mechanisms for such species diversification, among others, are due to the elevation processes occurring during the Miocene and the intensive glacial action during the Pleistocene. In this study we investigated the diversification history of the grasshopper Trimerotropis pallidipennis species complex which shows a particularly wide latitudinal and altitudinal distribution range across the northern, central and southern Andes in South America. Many genetic lineages of this complex have been so far discovered, making it an excellent model to investigate the role of the central Andes Mountains together with climatic fluctuations as drivers of speciation. Phylogenetics, biogeographic and molecular clock analyses using a multi-locus dataset revealed that in Peru there are at least two, and possibly four genetic lineages. Two different stocks originated from a common ancestor from North/Central America-would have dispersed toward southern latitudes favored by the closure of the Panama Isthmus giving rise to two lineages, the coastal and mountain lineages, which still coexist in Peru (i.e., T. pallidipennis and T. andeana). Subsequent vicariant and dispersal events continued the differentiation process, giving rise to three to six genetic lineages (i.e., clades) detected in this study, which were geographically restricted to locations dispersed over the central Andes Mountains in South America. Our results provide another interesting example of \"island diversification\" motored by the topography plus unstable climatic conditions during the Pleistocene, pointing out the presence of a hotspot of diversification in the Andean region of Peru."
+  ],
+  "affiliation": [
+    "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires y Consejo Nacional de Investigaciones Científicas y Tecnológicas, Instituto de Ecología, Genética y Evolución (IEGEBA), Buenos Aires, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Biogeography",
+        "Grasshopper",
+        "Phylogenetic",
+        "species delimitation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624295?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624295"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3835"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-10-04"
+  ],
+  "dateOfRevision": [
+    "2017-10-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-29"
+  ],
+  "firstPublicationDate": [
+    "2017-09-29"
+  ]
+}

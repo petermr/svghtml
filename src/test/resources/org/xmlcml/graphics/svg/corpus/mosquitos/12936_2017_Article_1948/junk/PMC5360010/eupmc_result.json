@@ -1,0 +1,503 @@
+{
+  "id": [
+    "28377753"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28377753"
+  ],
+  "pmcid": [
+    "PMC5360010"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.00456"
+  ],
+  "title": [
+    "Comparative Genomics Analysis of a New Exiguobacterium Strain from Salar de Huasco Reveals a Repertoire of Stress-Related Genes and Arsenic Resistance."
+  ],
+  "authorString": [
+    "Castro-Severyn J, Remonsellez F, Valenzuela SL, Salinas C, Fortt J, Aguilar P, Pardo-Esté C, Dorador C, Quatrini R, Molina F, Aguayo D, Castro-Nallar E, Saavedra CP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castro-Severyn J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Castro-Severyn"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andres BelloSantiago, Chile; Centro de Bioinformática y Biología Integrativa, Facultad de Ciencias Biológicas, Universidad Andrés BelloSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Remonsellez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Remonsellez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Tecnologías de Membranas, Biotecnología y Medio Ambiente, Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias Geológicas, Universidad Católica del Norte Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela SL"
+          ],
+          "firstName": [
+            "Sandro L"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "SL"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Biología Integrativa, Facultad de Ciencias Biológicas, Universidad Andrés Bello Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salinas C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Salinas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andres Bello Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fortt J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Fortt"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Tecnologías de Membranas, Biotecnología y Medio Ambiente, Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias Geológicas, Universidad Católica del Norte Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilar P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Aguilar"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7913-7963",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Tecnologías de Membranas, Biotecnología y Medio Ambiente, Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias Geológicas, Universidad Católica del NorteAntofagasta, Chile; Laboratorio de Complejidad Microbiana y Ecología Funcional, Instituto Antofagasta and Departamento de Biotecnología, Facultad de Ciencias del Mar y Recursos Biológicos, Universidad de AntofagastaAntofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pardo-Esté C"
+          ],
+          "firstName": [
+            "Coral"
+          ],
+          "lastName": [
+            "Pardo-Esté"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andres Bello Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dorador C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "Dorador"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7641-2154",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Complejidad Microbiana y Ecología Funcional, Instituto Antofagasta and Departamento de Biotecnología, Facultad de Ciencias del Mar y Recursos Biológicos, Universidad de AntofagastaAntofagasta, Chile; Centre for Biotechnology and BioengineeringAntofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quatrini R"
+          ],
+          "firstName": [
+            "Raquel"
+          ],
+          "lastName": [
+            "Quatrini"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Ecofisiología Microbiana, Fundación Ciencia and Vida Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina F"
+          ],
+          "firstName": [
+            "Franck"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Sys2Diag CNRS/Bio-Rad UMR3145 Montpellier, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Biología Integrativa, Facultad de Ciencias Biológicas, Universidad Andrés BelloSantiago, Chile; Centro Interdisciplinario de Neurociencia de Valparaíso, Facultad de Ciencias, Universidad de ValparaísoValparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro-Nallar E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Castro-Nallar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4384-8661",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Biología Integrativa, Facultad de Ciencias Biológicas, Universidad Andrés Bello Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra CP"
+          ],
+          "firstName": [
+            "Claudia P"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andres Bello Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7641-2154",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7913-7963",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4384-8661",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "456"
+  ],
+  "abstractText": [
+    "The Atacama Desert hosts diverse ecosystems including salt flats and shallow Andean lakes. Several heavy metals are found in the Atacama Desert, and microorganisms growing in this environment show varying levels of resistance/tolerance to copper, tellurium, and arsenic, among others. Herein, we report the genome sequence and comparative genomic analysis of a new Exiguobacterium strain, sp. SH31, isolated from an altiplanic shallow athalassohaline lake. Exiguobacterium sp. SH31 belongs to the phylogenetic Group II and its closest relative is Exiguobacterium sp. S17, isolated from the Argentinian Altiplano (95% average nucleotide identity). Strain SH31 encodes a wide repertoire of proteins required for cadmium, copper, mercury, tellurium, chromium, and arsenic resistance. Of the 34 Exiguobacterium genomes that were inspected, only isolates SH31 and S17 encode the arsenic efflux pump Acr3. Strain SH31 was able to grow in up to 10 mM arsenite and 100 mM arsenate, indicating that it is arsenic resistant. Further, expression of the ars operon and acr3 was strongly induced in response to both toxics, suggesting that the arsenic efflux pump Acr3 mediates arsenic resistance in Exiguobacterium sp. SH31."
+  ],
+  "affiliation": [
+    "Laboratorio de Microbiología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andres BelloSantiago, Chile; Centro de Bioinformática y Biología Integrativa, Facultad de Ciencias Biológicas, Universidad Andrés BelloSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Stress",
+        "Comparative genomics",
+        "Exiguobacterium",
+        "Polyextremophile",
+        "Chilean Altiplano"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5360010?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5360010"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.00456"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-04-05"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-21"
+  ],
+  "firstPublicationDate": [
+    "2017-03-21"
+  ]
+}

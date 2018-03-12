@@ -1,0 +1,406 @@
+{
+  "id": [
+    "27313292"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27313292"
+  ],
+  "pmcid": [
+    "PMC4911471"
+  ],
+  "doi": [
+    "10.1128/genomea.00525-16"
+  ],
+  "title": [
+    "Draft Genome Sequence of a Copper-Resistant Marine Bacterium, Pantoea agglomerans Strain LMAE-2, a Bacterial Strain with Potential Use in Bioremediation."
+  ],
+  "authorString": [
+    "Corsini G, Valdés N, Pradel P, Tello M, Cottet L, Muiño L, Karahanian E, Castillo A, Gonzalez AR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Corsini G"
+          ],
+          "firstName": [
+            "Gino"
+          ],
+          "lastName": [
+            "Corsini"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile Universidad Científica del Sur, Lima, Perú"
+          ]
+        },
+        {
+          "fullName": [
+            "Valdés N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Valdés"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Facultad de Química y Biología, Unidad de Apoyo Bioinformatico, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pradel P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Pradel"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Fisiología y Biologia Molecular Vegetal, Facultad de Ciencias Agropecuarias y Forestales, Universidad de la Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tello M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Tello"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4573-6460",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología Facultad de Química y Biología, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cottet L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Cottet"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Laboratorio de Virología de Hongos, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muiño L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Muiño"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6198-5304",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Karahanian E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Karahanian"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Laboratorio de Virología de Hongos, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez AR"
+          ],
+          "firstName": [
+            "Alex R"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Biológicas y Biodiversidad, Laboratorio de Microbiología Ambiental y Extremófilos, Universidad de Los Lagos, Los Lagos, Chile alex.gonzalez@ulagos.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6198-5304",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4573-6460",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2405937"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Pantoea agglomerans LMAE-2 was isolated from seabed sediment moderately contaminated with Cu(2+) Here, we report its draft genome sequence, which has a size of 4.98 Mb. The presence of cop genes related with copper homeostasis in its genome may explain the resistance and strengthen its potential for use as bioremediation agent."
+  ],
+  "affiliation": [
+    "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile Universidad Científica del Sur, Lima, Perú"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4911471?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4911471"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00525-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-06-17"
+  ],
+  "dateOfCreation": [
+    "2016-06-17"
+  ],
+  "dateOfRevision": [
+    "2016-06-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-16"
+  ],
+  "firstPublicationDate": [
+    "2016-06-16"
+  ]
+}

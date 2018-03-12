@@ -1,0 +1,419 @@
+{
+  "id": [
+    "28879169"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28879169"
+  ],
+  "pmcid": [
+    "PMC5572415"
+  ],
+  "doi": [
+    "10.3389/fcimb.2017.00371"
+  ],
+  "title": [
+    "Herpes Simplex Virus Type 1 Neuronal Infection Perturbs Golgi Apparatus Integrity through Activation of Src Tyrosine Kinase and Dyn-2 GTPase."
+  ],
+  "authorString": [
+    "Martin C, Leyton L, Hott M, Arancibia Y, Spichiger C, McNiven MA, Court FA, Concha MI, Burgos PV, Otth C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martin C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leyton L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Leyton"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hott M"
+          ],
+          "firstName": [
+            "Melissa"
+          ],
+          "lastName": [
+            "Hott"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arancibia Y"
+          ],
+          "firstName": [
+            "Yennyfer"
+          ],
+          "lastName": [
+            "Arancibia"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Spichiger C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Spichiger"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "McNiven MA"
+          ],
+          "firstName": [
+            "Mark A"
+          ],
+          "lastName": [
+            "McNiven"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Department of Biochemistry and Molecular Biology and the Center for Basic Research in Digestive Diseases, Mayo ClinicRochester, MN, United States."
+          ]
+        },
+        {
+          "fullName": [
+            "Court FA"
+          ],
+          "firstName": [
+            "Felipe A"
+          ],
+          "lastName": [
+            "Court"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Center for Integrative Biology, Faculty of Sciences, Universidad MayorSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Concha MI"
+          ],
+          "firstName": [
+            "Margarita I"
+          ],
+          "lastName": [
+            "Concha"
+          ],
+          "initials": [
+            "MI"
+          ],
+          "affiliation": [
+            "Faculty of Sciences, Institute of Biochemistry and Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Burgos PV"
+          ],
+          "firstName": [
+            "Patricia V"
+          ],
+          "lastName": [
+            "Burgos"
+          ],
+          "initials": [
+            "PV"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Physiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Otth C"
+          ],
+          "firstName": [
+            "Carola"
+          ],
+          "lastName": [
+            "Otth"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2519726"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "371"
+  ],
+  "abstractText": [
+    "Herpes simplex virus type 1 (HSV-1) is a ubiquitous pathogen that establishes a latent persistent neuronal infection in humans. The pathogenic effects of repeated viral reactivation in infected neurons are still unknown. Several studies have reported that during HSV-1 epithelial infection, the virus could modulate diverse cell signaling pathways remodeling the Golgi apparatus (GA) membranes, but the molecular mechanisms implicated, and the functional consequences to neurons is currently unknown. Here we report that infection of primary neuronal cultures with HSV-1 triggers Src tyrosine kinase activation and subsequent phosphorylation of Dynamin 2 GTPase, two players with a role in GA integrity maintenance. Immunofluorescence analyses showed that HSV-1 productive neuronal infection caused a scattered and fragmented distribution of the GA through the cytoplasm, contrasting with the uniform perinuclear distribution pattern observed in control cells. In addition, transmission electron microscopy revealed swollen cisternae and disorganized stacks in HSV-1 infected neurons compared to control cells. Interestingly, PP2, a selective inhibitor for Src-family kinases markedly reduced these morphological alterations of the GA induced by HSV-1 infection strongly supporting the possible involvement of Src tyrosine kinase. Finally, we showed that HSV-1 tegument protein VP11/12 is necessary but not sufficient to induce Dyn2 phosphorylation. Altogether, these results show that HSV-1 neuronal infection triggers activation of Src tyrosine kinase, phosphorylation of Dynamin 2 GTPase, and perturbation of GA integrity. These findings suggest a possible neuropathogenic mechanism triggered by HSV-1 infection, which could involve dysfunction of the secretory system in neurons and central nervous system."
+  ],
+  "affiliation": [
+    "Faculty of Medicine, Institute of Clinical Microbiology, Universidad Austral de ChileValdivia, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 DK044650"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "HSV-1",
+        "Neurodegeneration",
+        "Src",
+        "Vesicular Trafficking",
+        "Neuronal Dysfunction",
+        "Dynamin",
+        "Golgi Fragmentation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5572415?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5572415"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2017.00371"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-08"
+  ],
+  "dateOfRevision": [
+    "2018-02-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-22"
+  ],
+  "firstPublicationDate": [
+    "2017-08-22"
+  ]
+}

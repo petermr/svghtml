@@ -1,0 +1,422 @@
+{
+  "id": [
+    "28704449"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28704449"
+  ],
+  "pmcid": [
+    "PMC5507535"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0180661"
+  ],
+  "title": [
+    "Postfire responses of the woody flora of Central Chile: Insights from a germination experiment."
+  ],
+  "authorString": [
+    "Gómez-González S, Paula S, Cavieres LA, Pausas JG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gómez-González S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Gómez-González"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3779-8701",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Science and Resilience Research [(CR)2], Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paula S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Paula"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cavieres LA"
+          ],
+          "firstName": [
+            "Lohengrin A"
+          ],
+          "lastName": [
+            "Cavieres"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "affiliation": [
+            "Instituto de Ecología y Biodiversidad (IEB), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pausas JG"
+          ],
+          "firstName": [
+            "Juli G"
+          ],
+          "lastName": [
+            "Pausas"
+          ],
+          "initials": [
+            "JG"
+          ],
+          "affiliation": [
+            "Centro de Investigación sobre Desertificación (CIDE-CSIC), Valencia, España."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3779-8701",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2572928"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0180661"
+  ],
+  "abstractText": [
+    "Fire is a selective agent shaping plant traits and community assembly in fire-prone ecosystems. However, in ecosystems with no fire history, it can be a cause of land degradation when it is suddenly introduced by humans, as plant species may not be able to respond to such novel disturbance. Unlike other Mediterranean-type ecosystems (MTE) of the world, natural fires have not been frequent during the Quaternary in the matorral of Central Chile, and thus, plant adaptive responses are expected to be uncommon. We evaluated the effect of heat shock on seed survival and germination of 21 native woody plants of the Chilean matorral and compiled information on smoke-stimulation and resprouting, to evaluate the importance of fire-adaptive responses in the context of the other MTE. We found that in the Chilean woody flora negative seed responses to fire cues were more frequent than positive responses. Although resprouting is a relatively widespread trait, fire-stimulated germination is not as common in the Chilean matorral as in other MTE. The seeds of seven endemic species were strongly damaged by fire cues and this should be considered in post-fire restoration planning. However, our results also showed that many species were resistant to elevated doses of heat shock and in some, germination was even stimulated. Thus, future research should focus on the evolutionary causes of these responses. These findings could help to develop strategies for fire management in the Chilean matorral. In addition, they will improve our understanding of the evolutionary forces that shaped this plant community and to better frame this region among the other MTE worldwide."
+  ],
+  "affiliation": [
+    "Centre for Science and Resilience Research [(CR)2], Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seeds"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fires"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomass"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Germination"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Selection, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biological Evolution"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Forests"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5507535?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5507535"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0180661"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-03"
+  ],
+  "dateOfCreation": [
+    "2017-07-13"
+  ],
+  "dateOfRevision": [
+    "2017-10-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-12"
+  ],
+  "firstPublicationDate": [
+    "2017-07-12"
+  ]
+}

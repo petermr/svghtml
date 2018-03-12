@@ -1,0 +1,253 @@
+{
+  "id": [
+    "29211195"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29211195"
+  ],
+  "pmcid": [
+    "PMC5738873"
+  ],
+  "doi": [
+    "10.1590/1518-8345.2190.2951"
+  ],
+  "title": [
+    "Impact of two bundles on central catheter-related bloodstream infection in critically ill patients."
+  ],
+  "authorString": [
+    "Padilla Fortunatti CF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Padilla Fortunatti CF"
+          ],
+          "firstName": [
+            "Cristobal Felipe"
+          ],
+          "lastName": [
+            "Padilla Fortunatti"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5452-8415",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Student in Master's degree, Escuela de Enfermería, Pontificia Universidad Católica de Chile, Santiago, Chile. RN, Unidad de Paciente Crítico, Hospital Clinico Red de Salud UC - CHRISTUS, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5452-8415",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "25"
+      ],
+      "journalIssueId": [
+        "2626544"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Revista latino-americana de enfermagem"
+          ],
+          "ISOAbbreviation": [
+            "Rev Lat Am Enfermagem"
+          ],
+          "medlineAbbreviation": [
+            "Rev Lat Am Enfermagem"
+          ],
+          "NLMid": [
+            "9420934"
+          ],
+          "ISSN": [
+            "0104-1169"
+          ],
+          "ESSN": [
+            "1518-8345"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e2951"
+  ],
+  "abstractText": [
+    "To evaluate the impact of the implementation of insertion and maintenance bundles on the rates of catheter-related bloodstream infection in an intensive care unit.This is a quasi-experimental, before-and-after study with a non-equivalent control group. During a six-month period, insertion and maintenance bundles for the central venous catheters were implemented. Supervision guidelines were developed to assess compliance with the bundle and catheter characteristics.A total of 444 central catheters corresponding to 390 patients were observed, of which 68.7% were inserted in the unit. The maintenance and insertion bundles reached 62.9% and 94.7% compliance, respectively, and 50.7% of the insertions were supervised. It was possible to observe a 54.5% decrease in the rate of central catheter infection (3.48 vs 1.52 x 1000 days/catheter, p<0.05) when compared with the control group.The simultaneous implementation of insertion and maintenance bundles has a positive impact on the reduction of catheter-related bloodstream infection; therefore it is an efficient alternative to improve the quality and safety of care in high complexity units."
+  ],
+  "affiliation": [
+    "Student in Master's degree, Escuela de Enfermería, Pontificia Universidad Católica de Chile, Santiago, Chile. RN, Unidad de Paciente Crítico, Hospital Clinico Red de Salud UC - CHRISTUS, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5738873?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5738873"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1590/1518-8345.2190.2951"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-07"
+  ],
+  "dateOfRevision": [
+    "2018-01-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-04"
+  ],
+  "firstPublicationDate": [
+    "2017-12-04"
+  ]
+}

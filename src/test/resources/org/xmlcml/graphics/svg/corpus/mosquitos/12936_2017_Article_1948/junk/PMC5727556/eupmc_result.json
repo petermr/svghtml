@@ -1,0 +1,304 @@
+{
+  "id": [
+    "29318058"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29318058"
+  ],
+  "pmcid": [
+    "PMC5727556"
+  ],
+  "doi": [
+    "10.1155/2017/9408591"
+  ],
+  "title": [
+    "A Novel Technique for Bulk-Fill Resin-Based Restorations: Achieving Function and Esthetics in Posterior Teeth."
+  ],
+  "authorString": [
+    "Durán Ojeda G, Henríquez Gutiérrez I, Tisi JP, Báez Rosales A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Durán Ojeda G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "Durán Ojeda"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2610-8330",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Henríquez Gutiérrez I"
+          ],
+          "firstName": [
+            "Ismael"
+          ],
+          "lastName": [
+            "Henríquez Gutiérrez"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tisi JP"
+          ],
+          "firstName": [
+            "José Pablo"
+          ],
+          "lastName": [
+            "Tisi"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Báez Rosales A"
+          ],
+          "firstName": [
+            "Abelardo"
+          ],
+          "lastName": [
+            "Báez Rosales"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Restorative Dentistry Department, University Andrés Bello, Viña del Mar, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2610-8330",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518641"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Case reports in dentistry"
+          ],
+          "ISOAbbreviation": [
+            "Case Rep Dent"
+          ],
+          "medlineAbbreviation": [
+            "Case Rep Dent"
+          ],
+          "NLMid": [
+            "101573242"
+          ],
+          "ISSN": [
+            "2090-6447"
+          ],
+          "ESSN": [
+            "2090-6455"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "9408591"
+  ],
+  "abstractText": [
+    "Advances in the mechanical properties of composite resins have allowed for their use in posterior teeth. Conventional resins have several problems associated with polymerization shrinkage stress. The development of \"bulk-fill\" resins has allowed for their use in single increments up to depths of 4 mm, with very low polymerization shrinkage stress. Nevertheless, differences in anatomy and the desire for optimal esthetics present unique difficulties. This article describes a step-by-step technique using flowable bulk-fill resin as a substitute for dentin in a single increment, together with a high-reflective-index resin to restore enamel and decrease clinical time, obtaining anatomically and esthetically acceptable results without detriment to the mechanical properties required to restore the functionality of the posterior teeth."
+  ],
+  "affiliation": [
+    "Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5727556?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5727556"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/9408591"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-11"
+  ],
+  "dateOfRevision": [
+    "2018-01-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-26"
+  ],
+  "firstPublicationDate": [
+    "2017-11-26"
+  ]
+}

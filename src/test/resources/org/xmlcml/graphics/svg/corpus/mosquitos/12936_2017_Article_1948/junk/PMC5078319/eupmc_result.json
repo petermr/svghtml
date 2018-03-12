@@ -1,0 +1,550 @@
+{
+  "id": [
+    "27826300"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27826300"
+  ],
+  "pmcid": [
+    "PMC5078319"
+  ],
+  "doi": [
+    "10.3389/fimmu.2016.00458"
+  ],
+  "title": [
+    "Treatment with Dexamethasone and Monophosphoryl Lipid A Removes Disease-Associated Transcriptional Signatures in Monocyte-Derived Dendritic Cells from Rheumatoid Arthritis Patients and Confers Tolerogenic Features."
+  ],
+  "authorString": [
+    "García-González PA, Schinnerling K, Sepúlveda-Gutiérrez A, Maggi J, Hoyos L, Morales RA, Mehdi AM, Nel HJ, Soto L, Pesce B, Molina MC, Cuchacovich M, Larrondo ML, Neira Ó, Catalán DF, Hilkens CM, Thomas R, Verdugo RA, Aguillón JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García-González PA"
+          ],
+          "firstName": [
+            "Paulina A"
+          ],
+          "lastName": [
+            "García-González"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schinnerling K"
+          ],
+          "firstName": [
+            "Katina"
+          ],
+          "lastName": [
+            "Schinnerling"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda-Gutiérrez A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Sepúlveda-Gutiérrez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Programa de Genética Humana, ICBM, Facultad de Medicina, Universidad de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maggi J"
+          ],
+          "firstName": [
+            "Jaxaira"
+          ],
+          "lastName": [
+            "Maggi"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hoyos L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Hoyos"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morales RA"
+          ],
+          "firstName": [
+            "Rodrigo A"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mehdi AM"
+          ],
+          "firstName": [
+            "Ahmed M"
+          ],
+          "lastName": [
+            "Mehdi"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute , Woolloongabba, QLD , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Nel HJ"
+          ],
+          "firstName": [
+            "Hendrik J"
+          ],
+          "lastName": [
+            "Nel"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute , Woolloongabba, QLD , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto L"
+          ],
+          "firstName": [
+            "Lilian"
+          ],
+          "lastName": [
+            "Soto"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Unidad de Dolor, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pesce B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Pesce"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina MC"
+          ],
+          "firstName": [
+            "María Carmen"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuchacovich M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Cuchacovich"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Medicina, Hospital Clínico de la Universidad de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Larrondo ML"
+          ],
+          "firstName": [
+            "Milton L"
+          ],
+          "lastName": [
+            "Larrondo"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Banco de Sangre, Hospital Clínico de la Universidad de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Neira Ó"
+          ],
+          "firstName": [
+            "Óscar"
+          ],
+          "lastName": [
+            "Neira"
+          ],
+          "initials": [
+            "Ó"
+          ],
+          "affiliation": [
+            "Sección de Reumatología, Hospital del Salvador , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Catalán DF"
+          ],
+          "firstName": [
+            "Diego Francisco"
+          ],
+          "lastName": [
+            "Catalán"
+          ],
+          "initials": [
+            "DF"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hilkens CM"
+          ],
+          "firstName": [
+            "Catharien M"
+          ],
+          "lastName": [
+            "Hilkens"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "Musculoskeletal Research Group, Faculty of Medical Sciences, Institute of Cellular Medicine, Newcastle University , Newcastle upon Tyne , UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Thomas R"
+          ],
+          "firstName": [
+            "Ranjeny"
+          ],
+          "lastName": [
+            "Thomas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute , Woolloongabba, QLD , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Verdugo RA"
+          ],
+          "firstName": [
+            "Ricardo A"
+          ],
+          "lastName": [
+            "Verdugo"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Programa de Genética Humana, ICBM, Facultad de Medicina, Universidad de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguillón JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Aguillón"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2549136"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in Immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "458"
+  ],
+  "abstractText": [
+    "Tolerogenic dendritic cells (TolDCs) are promising tools for therapy of autoimmune diseases, such as rheumatoid arthritis (RA). Here, we characterize monocyte-derived TolDCs from RA patients modulated with dexamethasone and activated with monophosphoryl lipid A (MPLA), referred to as MPLA-tDCs, in terms of gene expression, phenotype, cytokine profile, migratory properties, and T cell-stimulatory capacity in order to explore their suitability for cellular therapy. MPLA-tDCs derived from RA patients displayed an anti-inflammatory profile with reduced expression of co-stimulatory molecules and high IL-10/IL-12 ratio, but were capable of migrating toward the lymphoid chemokines CXCL12 and CCL19. These MPLA-tDCs induced hyporesponsiveness of autologous CD4+ T cells specific for synovial antigens in vitro. Global transcriptome analysis confirmed a unique transcriptional profile of MPLA-tDCs and revealed that RA-associated genes, which were upregulated in untreated DCs from RA patients, returned to expression levels of healthy donor-derived DCs after treatment with dexamethasone and MPLA. Thus, monocyte-derived DCs from RA patients have the capacity to develop tolerogenic features at transcriptional as well as at translational level, when modulated with dexamethasone and MPLA, overcoming disease-related effects. Furthermore, the ability of MPLA-tDCs to impair T cell responses to synovial antigens validates their potential as cellular treatment for RA."
+  ],
+  "affiliation": [
+    "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Tolerance",
+        "Rheumatoid arthritis",
+        "Dendritic cells",
+        "Transcriptome",
+        "Cell-based Therapy"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5078319?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5078319"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2016.00458"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-09"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-25"
+  ],
+  "firstPublicationDate": [
+    "2016-10-25"
+  ]
+}

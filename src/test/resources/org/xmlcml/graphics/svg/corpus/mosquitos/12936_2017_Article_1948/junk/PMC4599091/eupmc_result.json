@@ -1,0 +1,324 @@
+{
+  "id": [
+    "26450732"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26450732"
+  ],
+  "pmcid": [
+    "PMC4599091"
+  ],
+  "doi": [
+    "10.1128/genomea.01160-15"
+  ],
+  "title": [
+    "Draft Genome Sequences of Four Xanthomonas arboricola pv. juglandis Strains Associated with Walnut Blight in Chile."
+  ],
+  "authorString": [
+    "Higuera G, González-Escalona N, Véliz C, Vera F, Romero J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Higuera G"
+          ],
+          "firstName": [
+            "Gastón"
+          ],
+          "lastName": [
+            "Higuera"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Escalona N"
+          ],
+          "firstName": [
+            "Narjol"
+          ],
+          "lastName": [
+            "González-Escalona"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4568-0022",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Microbiology, Center for Food Safety and Applied Nutrition, Food and Drug Administration, College Park, Maryland, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Véliz C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Véliz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vera F"
+          ],
+          "firstName": [
+            "Francisca"
+          ],
+          "lastName": [
+            "Vera"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Romero J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Romero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile jromero@inta.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4568-0022",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2320893"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "abstractText": [
+    "Xanthomonas arboricola pv. juglandis is an important pathogen responsible for walnut blight outbreaks globally. Here, we report four draft genome sequences of X. arboricola pv. juglandis strains isolated from Chilean walnut trees."
+  ],
+  "affiliation": [
+    "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4599091?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4599091"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.01160-15"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2015-10-09"
+  ],
+  "dateOfCreation": [
+    "2015-10-09"
+  ],
+  "dateOfRevision": [
+    "2015-10-13"
+  ],
+  "electronicPublicationDate": [
+    "2015-10-08"
+  ],
+  "firstPublicationDate": [
+    "2015-10-08"
+  ]
+}

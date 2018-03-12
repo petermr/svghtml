@@ -1,0 +1,460 @@
+{
+  "id": [
+    "28828232"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28828232"
+  ],
+  "pmcid": [
+    "PMC5560225"
+  ],
+  "doi": [
+    "10.7717/peerj.3531"
+  ],
+  "title": [
+    "Extensive analysis of native and non-native Centaurea solstitialis L. populations across the world shows no traces of polyploidization."
+  ],
+  "authorString": [
+    "Irimia RE, Montesinos D, Eren Ö, Lortie CJ, French K, Cavieres LA, Sotes GJ, Hierro JL, Jorge A, Loureiro J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Irimia RE"
+          ],
+          "firstName": [
+            "Ramona-Elena"
+          ],
+          "lastName": [
+            "Irimia"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5304-8660",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Institute of Research and Development for Biological Sciences, Stejarul Research Centre for Biological Sciences, Piatra Neamt, Romania."
+          ]
+        },
+        {
+          "fullName": [
+            "Montesinos D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Montesinos"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2893-0878",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Functional Ecology, Department of Life Sciences, University of Coimbra, Coimbra, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Eren Ö"
+          ],
+          "firstName": [
+            "Özkan"
+          ],
+          "lastName": [
+            "Eren"
+          ],
+          "initials": [
+            "Ö"
+          ],
+          "affiliation": [
+            "Adnan Menderes Üniversitesi, Fen-Edebiyat Fakültesi, Biyoloji Bölümü, Aydın, Turkey."
+          ]
+        },
+        {
+          "fullName": [
+            "Lortie CJ"
+          ],
+          "firstName": [
+            "Christopher J"
+          ],
+          "lastName": [
+            "Lortie"
+          ],
+          "initials": [
+            "CJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4291-7023",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology, York University, Toronto, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "French K"
+          ],
+          "firstName": [
+            "Kristine"
+          ],
+          "lastName": [
+            "French"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "School of Biological Sciences, University of Wollongong, Wollongong, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Cavieres LA"
+          ],
+          "firstName": [
+            "Lohengrin A"
+          ],
+          "lastName": [
+            "Cavieres"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "affiliation": [
+            "Instituto de Ecología y Biodiversidad (IEB), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sotes GJ"
+          ],
+          "firstName": [
+            "Gastón J"
+          ],
+          "lastName": [
+            "Sotes"
+          ],
+          "initials": [
+            "GJ"
+          ],
+          "affiliation": [
+            "Instituto de Ecología y Biodiversidad (IEB), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hierro JL"
+          ],
+          "firstName": [
+            "José L"
+          ],
+          "lastName": [
+            "Hierro"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de La Tierra y Ambientales de la Pampa, Consejo Nacional de Investigaciones Científicas y Técnicas (INCITAP-CONICET) and Facultad de Ciencias Exactas y Naturales, Universidad Nacional de La Pampa, Santa Rosa, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Jorge A"
+          ],
+          "firstName": [
+            "Andreia"
+          ],
+          "lastName": [
+            "Jorge"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre for Functional Ecology, Department of Life Sciences, University of Coimbra, Coimbra, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Loureiro J"
+          ],
+          "firstName": [
+            "João"
+          ],
+          "lastName": [
+            "Loureiro"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9068-3954",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Functional Ecology, Department of Life Sciences, University of Coimbra, Coimbra, Portugal."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4291-7023",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2893-0878",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5304-8660",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9068-3954",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3531"
+  ],
+  "abstractText": [
+    "Centaurea solstitialis L. (yellow starthistle, Asteraceae) is a Eurasian native plant introduced as an exotic into North and South America, and Australia, where it is regarded as a noxious invasive. Changes in ploidy level have been found to be responsible for numerous plant biological invasions, as they are involved in trait shifts critical to invasive success, like increased growth rate and biomass, longer life-span, or polycarpy. C. solstitialis had been reported to be diploid (2n = 2x = 16 chromosomes), however, actual data are scarce and sometimes contradictory. We determined for the first time the absolute nuclear DNA content by flow cytometry and estimated ploidy level in 52 natural populations of C. solstitialis across its native and non-native ranges, around the world. All the C. solstitialis populations screened were found to be homogeneously diploid (average 2C value of 1.72 pg, SD = ±0.06 pg), with no significant variation in DNA content between invasive and non-invasive genotypes. We did not find any meaningful difference among the extensive number of native and non-native C. solstitialis populations sampled around the globe, indicating that the species invasive success is not due to changes in genome size or ploidy level."
+  ],
+  "affiliation": [
+    "National Institute of Research and Development for Biological Sciences, Stejarul Research Centre for Biological Sciences, Piatra Neamt, Romania."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hybridization",
+        "Flow cytometry",
+        "Genome size",
+        "Invasiveness",
+        "Yellow Starthistle",
+        "Ploidy Level"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5560225?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5560225"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3531"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-22"
+  ],
+  "dateOfRevision": [
+    "2017-08-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-14"
+  ],
+  "firstPublicationDate": [
+    "2017-08-14"
+  ]
+}

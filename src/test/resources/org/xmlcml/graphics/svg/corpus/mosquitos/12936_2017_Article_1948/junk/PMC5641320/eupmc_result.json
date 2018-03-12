@@ -1,0 +1,350 @@
+{
+  "id": [
+    "29066952"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29066952"
+  ],
+  "pmcid": [
+    "PMC5641320"
+  ],
+  "doi": [
+    "10.3389/fncel.2017.00302"
+  ],
+  "title": [
+    "The Sleep-Wake Cycle in the Nicotinic Alpha-9 Acetylcholine Receptor Subunit Knock-Out Mice."
+  ],
+  "authorString": [
+    "Madrid-López N, Estrada J, Díaz J, Bassi A, Délano PH, Ocampo-Garcés A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Madrid-López N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Madrid-López"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Departamento de Neurociencia, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Estrada J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Estrada"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Sueño y Cronobiología, Programa de Fisiología y Biofísica, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2803-0570",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Sueño y Cronobiología, Programa de Fisiología y Biofísica, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bassi A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Bassi"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Sueño y Cronobiología, Programa de Fisiología y Biofísica, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Délano PH"
+          ],
+          "firstName": [
+            "Paul H"
+          ],
+          "lastName": [
+            "Délano"
+          ],
+          "initials": [
+            "PH"
+          ],
+          "affiliation": [
+            "Departamento de Otorrinolaringología, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ocampo-Garcés A"
+          ],
+          "firstName": [
+            "Adrián"
+          ],
+          "lastName": [
+            "Ocampo-Garcés"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Sueño y Cronobiología, Programa de Fisiología y Biofísica, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2803-0570",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2550603"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Neurosci"
+          ],
+          "NLMid": [
+            "101477935"
+          ],
+          "ISSN": [
+            "1662-5102"
+          ],
+          "ESSN": [
+            "1662-5102"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "302"
+  ],
+  "abstractText": [
+    "There is a neural matrix controlling the sleep-wake cycle (SWC) embedded within high ranking integrative mechanisms in the central nervous system. Nicotinic alpha-9 acetylcholine receptor subunit (alpha-9 nAChR) participate in physiological processes occurring in sensory, endocrine and immune systems. There is a relationship between the SWC architecture, body homeostasis and sensory afferents so that disruption of afferent signaling is expected to affect the temporal organization of sleep and wake states. The analysis of the SWC of 9 nAChR knock-out animals may help to reveal the contribution of alpha-9 nAChR to sleep chronobiological determinants. Here we explore the polysomnogram in chronically implanted alpha-9 nAChR knock-out (KO) and wild-type (WT) individuals of the hybrid CBA/Sv129 mouse strain. Records were obtained in isolation chambers under a stable 12:12 light:dark cycle (LD). To unmask the 24-h modulation of the SWC a skeleton photoperiod (SP) protocol was performed. Under LD the daily quota (in %) of wakefulness (W), NREM sleep and REM sleep obtained in KO and WT animals were 45, 48 and 7, and 46, 46 and 8 respectively. Both groups exhibit nocturnal phase preference of W as well as diurnal and unimodal phase preference of NREM and REM sleep. The acrophase mean angles of KO vs. WT genotypes were not different (Zeitgeber Time: 6.5 vs. 14.9 for W, 4.3 vs. 2.8 for NREM sleep and 5.3 vs. 3.4 for REM sleep, respectively). Transference to SP do not affect daily state quotas, phase preferences and acrophases among genotypes. Unmasking phenomena of the SWC such as wake increment during the rest phase under SP was evident only among WT mice suggesting the involvement of retinal structures containing alpha-9 nAChR in masking processes. Furthermore, KO animals exhibit longer NREM and REM sleep episodes that is independent of illumination conditions. Consolidated diurnal NREM sleep contributed to obtain higher values of NREM sleep delta-EEG activity among KO mice during rest phase. In conclusion, circadian and sleep homeostatic aspects of the SWC are operative among alpha-9 nAChR KO animals. We propose that alpha-9 nAChR participate in retinal signaling processes responsible of the positive masking of sleep by light."
+  ],
+  "affiliation": [
+    "Departamento de Neurociencia, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Circadian",
+        "Sleep Homeostasis",
+        "Sleep Chronobiology",
+        "Delta Eeg Buildup",
+        "Nicotinic Alpha 9 Acetylcholine Receptor",
+        "Photic Masking"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5641320?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5641320"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fncel.2017.00302"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-26"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-10"
+  ],
+  "firstPublicationDate": [
+    "2017-10-10"
+  ]
+}

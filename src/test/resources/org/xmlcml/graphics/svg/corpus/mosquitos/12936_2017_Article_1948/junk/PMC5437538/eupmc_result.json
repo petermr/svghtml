@@ -1,0 +1,735 @@
+{
+  "id": [
+    "28525966"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28525966"
+  ],
+  "pmcid": [
+    "PMC5437538"
+  ],
+  "doi": [
+    "10.1186/s12866-017-1030-6"
+  ],
+  "title": [
+    "Gene expression of Vibrio parahaemolyticus growing in laboratory isolation conditions compared to those common in its natural ocean environment."
+  ],
+  "authorString": [
+    "García K, Yáñez C, Plaza N, Peña F, Sepúlveda P, Pérez-Reytor D, Espejo RT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Av. El Llano Subercaseaux, 2801, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Yáñez C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Yáñez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, Universidad de Chile, Av. El Líbano 5524, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Plaza N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Plaza"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6742-3265",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Av. El Llano Subercaseaux, 2801, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peña F"
+          ],
+          "firstName": [
+            "Francisca"
+          ],
+          "lastName": [
+            "Peña"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "School of Bioinformatics Engineering, University of Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "School of Bioinformatics Engineering, University of Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez-Reytor D"
+          ],
+          "firstName": [
+            "Diliana"
+          ],
+          "lastName": [
+            "Pérez-Reytor"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Av. El Llano Subercaseaux, 2801, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espejo RT"
+          ],
+          "firstName": [
+            "Romilio T"
+          ],
+          "lastName": [
+            "Espejo"
+          ],
+          "initials": [
+            "RT"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, Universidad de Chile, Av. El Líbano 5524, Macul, Santiago, Chile. romilio.espejo@gmail.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6742-3265",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2552718"
+      ],
+      "dateOfPublication": [
+        "2017 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC microbiology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Microbiol."
+          ],
+          "medlineAbbreviation": [
+            "BMC Microbiol"
+          ],
+          "NLMid": [
+            "100966981"
+          ],
+          "ISSN": [
+            "1471-2180"
+          ],
+          "ESSN": [
+            "1471-2180"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "118"
+  ],
+  "abstractText": [
+    "Vibrio parahaemolyticus is an autochthonous marine bacterial species comprising strains able to grow in broth containing bile salts at 37 °C, a condition seldom found in the ocean. However, this condition is used for isolation in the laboratory because it is considered a necessary property for pathogenesis. In this context, revealing how gene expression enables V. parahaemolyticus to adapt to this particular condition -common to almost all V. parahaemolyticus isolates- will improve our understanding of the biology of this important pathogen. To determine the genes of V. parahaemolyticus differentially expressed when growing in isolation condition (37 °C, 0.9% NaCl, and 0.04% bile salts) referred to those at the temperature and salt concentration prevailing in ocean south of Chile (marine-like condition; 12 °C, 3% NaCl, and absence of bile salts) we used high-throughput sequencing of RNA.Our results showed that in the isolation condition, among the 5034 genes annotated in the V. parahaemolyticus RIMD2210633 genome, 344 were upregulated and 433 downregulated referred to the marine-like condition, managing an adjusted P-value (Padj) < E-5. Between the 50 more highly expressed genes, among the small RNAs (sRNA), the three carbon storage regulators B (CsrB) were up four to six times, while RyhB, related to iron metabolism besides motility control, was down about eight times. Among proteins, BfdA, a hemolysin-co-regulated protein (Hcp1) secreted by T6SS1, one of the most highly expressed genes, was about 140 times downregulated in isolation condition. The highest changes in relative expression were found among neighboring genes coding for proteins related to respiration, which were about 40 times upregulated.When V. parahaemolyticus is grown in conditions used for laboratory isolation 777 genes are up- or downregulated referred to conditions prevailing in the marine-like condition; the most significantly overrepresented categories among upregulated processes were those related to transport and localization, while secretion and pathogenesis were overrepresented among downregulated genes. Genes with the highest differential expression included the sRNAs CsrB and RhyB and the mRNAs related with secretion, nutritional upshift, respiration and rapid growing."
+  ],
+  "affiliation": [
+    "Centro de Investigación Biomédica, Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Av. El Llano Subercaseaux, 2801, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vibrio parahaemolyticus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PY"
+                  ],
+                  "qualifierName": [
+                    "pathogenicity"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vibrio Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacterial Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Bacterial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Culture Media"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Alignment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Environment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Temperature"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seawater"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Bacterial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Base Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genes, Bacterial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oceans and Seas"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Screening Assays"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Genome",
+        "mRNA",
+        "Bioinformatics",
+        "Vibrio parahaemolyticus",
+        "sRNA",
+        "Rna Seq"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Culture Media"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Bacterial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Bacterial Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5437538?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5437538"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12866-017-1030-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-02"
+  ],
+  "dateOfCreation": [
+    "2017-05-21"
+  ],
+  "dateOfRevision": [
+    "2018-02-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-19"
+  ],
+  "firstPublicationDate": [
+    "2017-05-19"
+  ]
+}

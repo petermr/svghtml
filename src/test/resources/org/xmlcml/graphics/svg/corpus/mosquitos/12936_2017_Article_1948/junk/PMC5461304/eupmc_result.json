@@ -1,0 +1,768 @@
+{
+  "id": [
+    "28581257"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28581257"
+  ],
+  "pmcid": [
+    "PMC5461304"
+  ],
+  "doi": [
+    "10.3346/jkms.2017.32.7.1051"
+  ],
+  "title": [
+    "Data Sharing Statements for Clinical Trials: A Requirement of the International Committee of Medical Journal Editors."
+  ],
+  "authorString": [
+    "Taichman DB, Sahni P, Pinborg A, Peiperl L, Laine C, James A, Hong ST, Haileamlak A, Gollogly L, Godlee F, Frizelle FA, Florenzano F, Drazen JM, Bauchner H, Baethge C, Backus J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Taichman DB"
+          ],
+          "firstName": [
+            "Darren B"
+          ],
+          "lastName": [
+            "Taichman"
+          ],
+          "initials": [
+            "DB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3535-5966",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Secretary, ICMJE, Executive Deputy Editor, Annals of Internal Medicine. DTaichman@mail.acponline.org."
+          ]
+        },
+        {
+          "fullName": [
+            "Sahni P"
+          ],
+          "firstName": [
+            "Peush"
+          ],
+          "lastName": [
+            "Sahni"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6910-062X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Representative and Past President, World Association of Medical Editors."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinborg A"
+          ],
+          "firstName": [
+            "Anja"
+          ],
+          "lastName": [
+            "Pinborg"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8340-104X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Scientific Editor-in-Chief, Ugeskrift for Laeger (Danish Medical Journal)."
+          ]
+        },
+        {
+          "fullName": [
+            "Peiperl L"
+          ],
+          "firstName": [
+            "Larry"
+          ],
+          "lastName": [
+            "Peiperl"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1237-4846",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Chief Editor, PLOS Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "Laine C"
+          ],
+          "firstName": [
+            "Christine"
+          ],
+          "lastName": [
+            "Laine"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Annals of Internal Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "James A"
+          ],
+          "firstName": [
+            "Astrid"
+          ],
+          "lastName": [
+            "James"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Deputy Editor, The Lancet."
+          ]
+        },
+        {
+          "fullName": [
+            "Hong ST"
+          ],
+          "firstName": [
+            "Sung Tae"
+          ],
+          "lastName": [
+            "Hong"
+          ],
+          "initials": [
+            "ST"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0300-1944",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Journal of Korean Medical Science."
+          ]
+        },
+        {
+          "fullName": [
+            "Haileamlak A"
+          ],
+          "firstName": [
+            "Abraham"
+          ],
+          "lastName": [
+            "Haileamlak"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3095-9074",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Ethiopian Journal of Health Sciences."
+          ]
+        },
+        {
+          "fullName": [
+            "Gollogly L"
+          ],
+          "firstName": [
+            "Laragh"
+          ],
+          "lastName": [
+            "Gollogly"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Editor, Bulletin of the World Health Organization, Coordinator, WHO Press."
+          ]
+        },
+        {
+          "fullName": [
+            "Godlee F"
+          ],
+          "firstName": [
+            "Fiona"
+          ],
+          "lastName": [
+            "Godlee"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, The British Medical Journal (BMJ)."
+          ]
+        },
+        {
+          "fullName": [
+            "Frizelle FA"
+          ],
+          "firstName": [
+            "Frank A"
+          ],
+          "lastName": [
+            "Frizelle"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0739-4802",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, New Zealand Medical Journal."
+          ]
+        },
+        {
+          "fullName": [
+            "Florenzano F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Florenzano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Editor, Revista Médica de Chile (Medical Journal of Chile)."
+          ]
+        },
+        {
+          "fullName": [
+            "Drazen JM"
+          ],
+          "firstName": [
+            "Jeffrey M"
+          ],
+          "lastName": [
+            "Drazen"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2715-9890",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, New England Journal of Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "Bauchner H"
+          ],
+          "firstName": [
+            "Howard"
+          ],
+          "lastName": [
+            "Bauchner"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8368-9805",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Journal of the American Medical Association (JAMA) and the JAMA Network."
+          ]
+        },
+        {
+          "fullName": [
+            "Baethge C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Baethge"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Chief Scientific Editor, Deutsches Ärzteblatt (German Medical Journal) & Deutsches Ärzteblatt International."
+          ]
+        },
+        {
+          "fullName": [
+            "Backus J"
+          ],
+          "firstName": [
+            "Joyce"
+          ],
+          "lastName": [
+            "Backus"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Representative and Associate Director for Library Operations, National Library of Medicine."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6910-062X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1237-4846",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0300-1944",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2715-9890",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8340-104X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8368-9805",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3535-5966",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3095-9074",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0739-4802",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "32"
+      ],
+      "journalIssueId": [
+        "2564349"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of Korean medical science"
+          ],
+          "ISOAbbreviation": [
+            "J. Korean Med. Sci."
+          ],
+          "medlineAbbreviation": [
+            "J Korean Med Sci"
+          ],
+          "NLMid": [
+            "8703518"
+          ],
+          "ISSN": [
+            "1011-8934"
+          ],
+          "ESSN": [
+            "1598-6357"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1051-1053"
+  ],
+  "affiliation": [
+    "Secretary, ICMJE, Executive Deputy Editor, Annals of Internal Medicine. DTaichman@mail.acponline.org."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Information Dissemination"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "International Cooperation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Editorial Policies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Societies, Medical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Clinical Trials as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "OG"
+                  ],
+                  "qualifierName": [
+                    "organization & administration"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Periodicals as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Datasets as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5461304?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5461304"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3346/jkms.2017.32.7.1051"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-12"
+  ],
+  "dateOfCreation": [
+    "2017-06-06"
+  ],
+  "dateOfRevision": [
+    "2017-12-12"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ],
+  "embargoDate": [
+    "2017-07-01"
+  ]
+}

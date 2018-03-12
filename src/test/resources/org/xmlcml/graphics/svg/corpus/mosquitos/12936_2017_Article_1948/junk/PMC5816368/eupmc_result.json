@@ -1,0 +1,399 @@
+{
+  "id": [
+    "29454313"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29454313"
+  ],
+  "pmcid": [
+    "PMC5816368"
+  ],
+  "doi": [
+    "10.1186/s12859-018-2052-2"
+  ],
+  "title": [
+    "StructRNAfinder: an automated pipeline and web server for RNA families prediction."
+  ],
+  "authorString": [
+    "Arias-Carrasco R, Vásquez-Morán Y, Nakaya HI, Maracaja-Coutinho V."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Arias-Carrasco R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Arias-Carrasco"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, 8580745, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez-Morán Y"
+          ],
+          "firstName": [
+            "Yessenia"
+          ],
+          "lastName": [
+            "Vásquez-Morán"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, 8580745, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nakaya HI"
+          ],
+          "firstName": [
+            "Helder I"
+          ],
+          "lastName": [
+            "Nakaya"
+          ],
+          "initials": [
+            "HI"
+          ],
+          "affiliation": [
+            "Faculdade de Ciências Farmacêuticas, Universidade de São Paulo, São Paulo, 05508-900, Brazil. hnakaya@usp.br."
+          ]
+        },
+        {
+          "fullName": [
+            "Maracaja-Coutinho V"
+          ],
+          "firstName": [
+            "Vinicius"
+          ],
+          "lastName": [
+            "Maracaja-Coutinho"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8873-9381",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, 8580745, Santiago, Chile. viniciusmaracaja@integrativebioinformatics.me."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8873-9381",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2645703"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ISSN": [
+            "1471-2105"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "55"
+  ],
+  "abstractText": [
+    "The function of many noncoding RNAs (ncRNAs) depend upon their secondary structures. Over the last decades, several methodologies have been developed to predict such structures or to use them to functionally annotate RNAs into RNA families. However, to fully perform this analysis, researchers should utilize multiple tools, which require the constant parsing and processing of several intermediate files. This makes the large-scale prediction and annotation of RNAs a daunting task even to researchers with good computational or bioinformatics skills.We present an automated pipeline named StructRNAfinder that predicts and annotates RNA families in transcript or genome sequences. This single tool not only displays the sequence/structural consensus alignments for each RNA family, according to Rfam database but also provides a taxonomic overview for each assigned functional RNA. Moreover, we implemented a user-friendly web service that allows researchers to upload their own nucleotide sequences in order to perform the whole analysis. Finally, we provided a stand-alone version of StructRNAfinder to be used in large-scale projects. The tool was developed under GNU General Public License (GPLv3) and is freely available at http://structrnafinder.integrativebioinformatics.me .The main advantage of StructRNAfinder relies on the large-scale processing and integrating the data obtained by each tool and database employed along the workflow, of which several files are generated and displayed in user-friendly reports, useful for downstream analyses and data exploration."
+  ],
+  "affiliation": [
+    "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, 8580745, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "11161020"
+          ],
+          "agency": [
+            "Comisión Nacional de Investigación Científica y Tecnológica"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "12/19278-6"
+          ],
+          "agency": [
+            "Fundação de Amparo à Pesquisa do Estado de São Paulo"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "PAI79170021"
+          ],
+          "agency": [
+            "Comisión Nacional de Investigación Científica y Tecnológica"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "15130011"
+          ],
+          "agency": [
+            "Comisión Nacional de Investigación Científica y Tecnológica"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "16BPE-62321"
+          ],
+          "agency": [
+            "Corporación de Fomento de la Producción (CL)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "14-SSAF-27061-9"
+          ],
+          "agency": [
+            "Corporación de Fomento de la Producción"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "RNA structure",
+        "Noncoding RNAs",
+        "Tool",
+        "Web Server",
+        "pipeline",
+        "Covariance Models",
+        "Rna Family"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5816368?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5816368"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12859-018-2052-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-02-19"
+  ],
+  "dateOfRevision": [
+    "2018-02-22"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-17"
+  ],
+  "firstPublicationDate": [
+    "2018-02-17"
+  ]
+}

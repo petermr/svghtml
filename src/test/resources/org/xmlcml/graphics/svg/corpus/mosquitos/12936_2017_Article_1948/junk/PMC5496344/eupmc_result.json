@@ -1,0 +1,434 @@
+{
+  "id": [
+    "28676050"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28676050"
+  ],
+  "pmcid": [
+    "PMC5496344"
+  ],
+  "doi": [
+    "10.1186/s12918-017-0441-1"
+  ],
+  "title": [
+    "Reconstruction of the microalga Nannochloropsis salina genome-scale metabolic model with applications to lipid production."
+  ],
+  "authorString": [
+    "Loira N, Mendoza S, Paz Cortés M, Rojas N, Travisany D, Genova AD, Gajardo N, Ehrenfeld N, Maass A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Loira N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Loira"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3653-2901",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile. nloira@dim.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Mendoza S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Mendoza"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2192-5569",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paz Cortés M"
+          ],
+          "firstName": [
+            "María"
+          ],
+          "lastName": [
+            "Paz Cortés"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Universidad Adolfo Ibáñez, Diagonal Las Torres 2640, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Travisany D"
+          ],
+          "firstName": [
+            "Dante"
+          ],
+          "lastName": [
+            "Travisany"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2545-176X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Genova AD"
+          ],
+          "firstName": [
+            "Alex Di"
+          ],
+          "lastName": [
+            "Genova"
+          ],
+          "initials": [
+            "AD"
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Centro de Investigación Austral Biotech, Universidad Santo Tomás, Avenida Ejercito 146, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ehrenfeld N"
+          ],
+          "firstName": [
+            "Nicole"
+          ],
+          "lastName": [
+            "Ehrenfeld"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Centro de Investigación Austral Biotech, Universidad Santo Tomás, Avenida Ejercito 146, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maass A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Maass"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2545-176X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3653-2901",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2192-5569",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2573727"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC systems biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "NLMid": [
+            "101301827"
+          ],
+          "ESSN": [
+            "1752-0509"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "66"
+  ],
+  "abstractText": [
+    "Nannochloropsis salina (= Eustigmatophyceae) is a marine microalga which has become a biotechnological target because of its high capacity to produce polyunsaturated fatty acids and triacylglycerols. It has been used as a source of biofuel, pigments and food supplements, like Omega 3. Only some Nannochloropsis species have been sequenced, but none of them benefit from a genome-scale metabolic model (GSMM), able to predict its metabolic capabilities.We present iNS934, the first GSMM for N. salina, including 2345 reactions, 934 genes and an exhaustive description of lipid and nitrogen metabolism. iNS934 has a 90% of accuracy when making simple growth/no-growth predictions and has a 15% error rate in predicting growth rates in different experimental conditions. Moreover, iNS934 allowed us to propose 82 different knockout strategies for strain optimization of triacylglycerols.iNS934 provides a powerful tool for metabolic improvement, allowing predictions and simulations of N. salina metabolism under different media and genetic conditions. It also provides a systemic view of N. salina metabolism, potentially guiding research and providing context to -omics data."
+  ],
+  "affiliation": [
+    "Center for Genome Regulation (Fondap 15090007), Universidad de Chile, Blanco Encalada 2085, Santiago, Chile. nloira@dim.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Tag",
+        "Nannochloropsis Salina",
+        "Genome-scale Metabolic Model",
+        "Microalgæ"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5496344?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5496344"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12918-017-0441-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-07-05"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-04"
+  ],
+  "firstPublicationDate": [
+    "2017-07-04"
+  ]
+}

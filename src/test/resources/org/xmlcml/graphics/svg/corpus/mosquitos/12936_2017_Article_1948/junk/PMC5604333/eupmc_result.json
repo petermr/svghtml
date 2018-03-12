@@ -1,0 +1,284 @@
+{
+  "id": [
+    "28923048"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28923048"
+  ],
+  "pmcid": [
+    "PMC5604333"
+  ],
+  "doi": [
+    "10.1186/s12909-017-1010-4"
+  ],
+  "title": [
+    "Implementation of a Smartphone application in medical education: a randomised trial (iSTART)."
+  ],
+  "authorString": [
+    "Martínez F, Tobar C, Taramasco C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martínez F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Área de Investigación y Estudios Clínicos, Clínica Ciudad del Mar, Viña del Mar, Chile. felipe.martinez@uv.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Tobar C"
+          ],
+          "firstName": [
+            "Catalina"
+          ],
+          "lastName": [
+            "Tobar"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Interna, Hospital Gustavo Fricke, Álvares, 1532, Viña del Mar, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Taramasco C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Taramasco"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Información y Tecnología, Escuela de Ingeniería Informática, Universidad de Valparaíso, General Cruz, 222, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2593115"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC medical education"
+          ],
+          "ISOAbbreviation": [
+            "BMC Med Educ"
+          ],
+          "medlineAbbreviation": [
+            "BMC Med Educ"
+          ],
+          "NLMid": [
+            "101088679"
+          ],
+          "ISSN": [
+            "1472-6920"
+          ],
+          "ESSN": [
+            "1472-6920"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "168"
+  ],
+  "affiliation": [
+    "Área de Investigación y Estudios Clínicos, Clínica Ciudad del Mar, Viña del Mar, Chile. felipe.martinez@uv.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Medical education",
+        "Internal Medicine",
+        "Smartphones",
+        "Student, Medical"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5604333?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5604333"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12909-017-1010-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-19"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-18"
+  ],
+  "firstPublicationDate": [
+    "2017-09-18"
+  ]
+}

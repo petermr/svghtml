@@ -1,0 +1,368 @@
+{
+  "id": [
+    "29075617"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29075617"
+  ],
+  "pmcid": [
+    "PMC5643428"
+  ],
+  "doi": [
+    "10.3389/fcimb.2017.00424"
+  ],
+  "title": [
+    "Distinctive Gut Microbiota Is Associated with Diarrheagenic Escherichia coli Infections in Chilean Children."
+  ],
+  "authorString": [
+    "Gallardo P, Izquierdo M, Vidal RM, Chamorro-Veloso N, Rosselló-Móra R, O'Ryan M, Farfán MJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gallardo P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Gallardo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Pediatría y Cirugía Infantil, Facultad de Medicina, Campus Oriente-Hospital Dr. Luis Calvo Mackenna, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Izquierdo M"
+          ],
+          "firstName": [
+            "Mariana"
+          ],
+          "lastName": [
+            "Izquierdo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Pediatría y Cirugía Infantil, Facultad de Medicina, Campus Oriente-Hospital Dr. Luis Calvo Mackenna, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal RM"
+          ],
+          "firstName": [
+            "Roberto M"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Facultad de Medicina, Instituto de Ciencias Biomédicas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chamorro-Veloso N"
+          ],
+          "firstName": [
+            "Nayaret"
+          ],
+          "lastName": [
+            "Chamorro-Veloso"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Facultad de Medicina, Instituto de Ciencias Biomédicas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rosselló-Móra R"
+          ],
+          "firstName": [
+            "Ramon"
+          ],
+          "lastName": [
+            "Rosselló-Móra"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8253-3107",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Grupo de Microbiología Marina, IMEDEA (CSIC-UIB), España, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Ryan M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "O'Ryan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Instituto Milenio de Inmunología e Inmunoterapia, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Farfán MJ"
+          ],
+          "firstName": [
+            "Mauricio J"
+          ],
+          "lastName": [
+            "Farfán"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Laboratorio de Biología Molecular, Clínica Las Condes, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8253-3107",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2519726"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "424"
+  ],
+  "abstractText": [
+    "Background: Diarrheagenic Escherichia coli (DEC) strains are a major cause of diarrhea in children under 5 years of age worldwide. DEC pathogenicity relies on the interaction of bacteria with environmental factors, including the host's resident gut microbiota. Previous reports have shown changes in the gut microbiota's composition during episodes of diarrhea, which may increase the pathogenicity of DEC strains. More intense and detailed identification of microbiota strains specifically associated with DEC infections and disease is needed to pinpoint their role in DEC pathogenicity. Aim: To identify resident indicative bacterial taxa in DEC-positive diarrhea stool samples of Chilean children. Methods: We analyzed 63 diarrheal stool samples from children 1-5 years of age by FilmArray® GI in order to identify a potential pathogen and to group diarrhea episodes into those caused by DEC as sole pathogen (DEC group, 32 samples) and those caused by an enteric virus as sole pathogen (viral group, 31 samples). In addition, 30 stool samples from healthy children, negative for enteric pathogens, were evaluated (healthy group). The 16S rRNA gene was amplified and sequenced using 454 pyrosequencing. Sequences were clustered into operational taxonomic units (OTUs) at 99% identity and their representatives were used to assign them to operational phylogenetic units (OPUs) using a phylogenetic inference approach. Results: Taxa assignment using the OPU approach resulted in a lower number of units but with higher accuracy compared to the OTU approach. Data analysis indicated an increase in sequences belonging to the phylum Proteobacteria in the DEC group compared to the viral and healthy groups. Samples displayed a statistically different community structure by sample grouping by redundancy analysis and ANOVA. Escherichia albertii (p = 0.001), Citrobacter werkmanii (p = 0.001), Yersinia enterocolitica, subsp. paleartica (p = 0.048), and Haemophilus sputorum (p = 0.028) were indicative species for the DEC group as compared to the viral and healthy groups. Conclusion: Gut microbiota in Chilean children with DEC-positive diarrhea differed from microbiota associated with enteric virus and healthy children. Indicative species found in this study may prove relevant in advancing our understanding of the relationship between resident gut microbiota and DEC leading to the occurrence of disease."
+  ],
+  "affiliation": [
+    "Departamento de Pediatría y Cirugía Infantil, Facultad de Medicina, Campus Oriente-Hospital Dr. Luis Calvo Mackenna, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Microbiota",
+        "Diarrhea",
+        "Diarrheagenic Escherichia coli",
+        "Opu",
+        "Operational Phylogenetic Units",
+        "Indicative Species",
+        "Taxa Assignment"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5643428?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5643428"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2017.00424"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-28"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-12"
+  ],
+  "firstPublicationDate": [
+    "2017-10-12"
+  ]
+}

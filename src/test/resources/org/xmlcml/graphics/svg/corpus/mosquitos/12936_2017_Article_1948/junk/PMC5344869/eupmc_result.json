@@ -1,0 +1,487 @@
+{
+  "id": [
+    "28281216"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28281216"
+  ],
+  "pmcid": [
+    "PMC5344869"
+  ],
+  "doi": [
+    "10.1186/s13613-017-0253-x"
+  ],
+  "title": [
+    "A hypoperfusion context may aid to interpret hyperlactatemia in sepsis-3 septic shock patients: a proof-of-concept study."
+  ],
+  "authorString": [
+    "Alegría L, Vera M, Dreyse J, Castro R, Carpio D, Henriquez C, Gajardo D, Bravo S, Araneda F, Kattan E, Torres P, Ospina-Tascón G, Teboul JL, Bakker J, Hernández G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Alegría L"
+          ],
+          "firstName": [
+            "Leyla"
+          ],
+          "lastName": [
+            "Alegría"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vera M"
+          ],
+          "firstName": [
+            "Magdalena"
+          ],
+          "lastName": [
+            "Vera"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dreyse J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Dreyse"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carpio D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Carpio"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Henriquez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Henriquez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araneda F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Araneda"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kattan E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Kattan"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Hospital San Francisco, Quito, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Ospina-Tascón G"
+          ],
+          "firstName": [
+            "Gustavo"
+          ],
+          "lastName": [
+            "Ospina-Tascón"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Intensive Care Medicine Department, Fundación Valle del Lili - Universidad ICESI, Cali, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Teboul JL"
+          ],
+          "firstName": [
+            "Jean-Louis"
+          ],
+          "lastName": [
+            "Teboul"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Assistance Publique-Hôpitaux de Paris, Hôpitaux universitaires Paris-Sud, Hôpital de Bicêtre, Service de Réanimation Médicale, Le Kremlin-Bicêtre, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Adults, Erasmus University Medical Center, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández G"
+          ],
+          "firstName": [
+            "Glenn"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile. glenn@med.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2511063"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Annals of intensive care"
+          ],
+          "ISOAbbreviation": [
+            "Ann Intensive Care"
+          ],
+          "medlineAbbreviation": [
+            "Ann Intensive Care"
+          ],
+          "NLMid": [
+            "101562873"
+          ],
+          "ISSN": [
+            "2110-5820"
+          ],
+          "ESSN": [
+            "2110-5820"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "29"
+  ],
+  "abstractText": [
+    "Persistent hyperlactatemia is particularly difficult to interpret in septic shock. Besides hypoperfusion, adrenergic-driven lactate production and impaired lactate clearance are important contributors. However, clinical recognition of different sources of hyperlactatemia is unfortunately not a common practice and patients are treated with the same strategy despite the risk of over-resuscitation in some. Indeed, pursuing additional resuscitation in non-hypoperfusion-related cases might lead to the toxicity of fluid overload and vasoactive drugs. We hypothesized that two different clinical patterns can be recognized in septic shock patients through a multimodal perfusion monitoring. Hyperlactatemic patients with a hypoperfusion context probably represent a more severe acute circulatory dysfunction, and the absence of a hypoperfusion context is eventually associated with a good outcome. We performed a retrospective analysis of a database of septic shock patients with persistent hyperlactatemia after initial resuscitation.We defined hypoperfusion context by the presence of a ScvO2 < 70%, or a P(cv-a)CO2 ≥6 mmHg, or a CRT ≥4 s together with hyperlactatemia. Ninety patients were included, of whom seventy exhibited a hypoperfusion-related pattern and 20 did not. Although lactate values were comparable at baseline (4.8 ± 2.8 vs. 4.7 ± 3.7 mmol/L), patients with a hypoperfusion context exhibited a more severe circulatory dysfunction with higher vasopressor requirements, and a trend to longer mechanical ventilation days, ICU stay, and more rescue therapies. Only one of the 20 hyperlactatemic patients without a hypoperfusion context died (5%) compared to 11 of the 70 with hypoperfusion-related hyperlactatemia (16%).Two different clinical patterns among hyperlactatemic septic shock patients may be identified according to hypoperfusion context. Patients with hyperlactatemia plus low ScvO2, or high P(cv-a)CO2, or high CRT values exhibited a more severe circulatory dysfunction. This provides a starting point to launch further prospective studies to confirm if this approach can lead to a more selective resuscitation strategy."
+  ],
+  "affiliation": [
+    "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Septic shock",
+        "Resuscitation",
+        "Hypoperfusion",
+        "Hyperlactatemia",
+        "Central Venous Oxygen Saturation",
+        "Capillary Refill Time",
+        "Central Venous-arterial Pco2 Gradient"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5344869?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5344869"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13613-017-0253-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-10"
+  ],
+  "dateOfRevision": [
+    "2017-03-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-09"
+  ],
+  "firstPublicationDate": [
+    "2017-03-09"
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "id": [
+    "29221464"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29221464"
+  ],
+  "pmcid": [
+    "PMC5723097"
+  ],
+  "doi": [
+    "10.1186/s40659-017-0144-5"
+  ],
+  "title": [
+    "Molecular and functional characterization of ferredoxin NADP(H) oxidoreductase from Gracilaria chilensis and its complex with ferredoxin."
+  ],
+  "authorString": [
+    "Vorphal MA, Bruna C, Wandersleben T, Dagnino-Leone J, Lobos-González F, Uribe E, Martínez-Oyanedel J, Bunster M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vorphal MA"
+          ],
+          "firstName": [
+            "María Alejandra"
+          ],
+          "lastName": [
+            "Vorphal"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bruna C"
+          ],
+          "firstName": [
+            "Carola"
+          ],
+          "lastName": [
+            "Bruna"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0554-7147",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wandersleben T"
+          ],
+          "firstName": [
+            "Traudy"
+          ],
+          "lastName": [
+            "Wandersleben"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dagnino-Leone J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Dagnino-Leone"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lobos-González F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Lobos-González"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe E"
+          ],
+          "firstName": [
+            "Elena"
+          ],
+          "lastName": [
+            "Uribe"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratorio de Enzimología, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez-Oyanedel J"
+          ],
+          "firstName": [
+            "José"
+          ],
+          "lastName": [
+            "Martínez-Oyanedel"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile. jmartine@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Bunster M"
+          ],
+          "firstName": [
+            "Marta"
+          ],
+          "lastName": [
+            "Bunster"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2261-2484",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile. mbunster@udec.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2261-2484",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0554-7147",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "50"
+      ],
+      "journalIssueId": [
+        "2627772"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biological research"
+          ],
+          "ISOAbbreviation": [
+            "Biol. Res."
+          ],
+          "medlineAbbreviation": [
+            "Biol Res"
+          ],
+          "NLMid": [
+            "9308271"
+          ],
+          "ISSN": [
+            "0716-9760"
+          ],
+          "ESSN": [
+            "0717-6287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "39"
+  ],
+  "abstractText": [
+    "Ferredoxin NADP(H) oxidoreductases (EC 1.18.1.2) (FNR) are flavoenzymes present in photosynthetic organisms; they are relevant for the production of reduced donors to redox reactions, i.e. in photosynthesis, the reduction of NADP+ to NADPH using the electrons provided by Ferredoxin (Fd), a small FeS soluble protein acceptor of electrons from PSI in chloroplasts. In rhodophyta no information about this system has been reported, this work is a contribution to the molecular and functional characterization of FNR from Gracilaria chilensis, also providing a structural analysis of the complex FNR/Fd.The biochemical and kinetic characterization of FNR was performed from the enzyme purified from phycobilisomes enriched fractions. The sequence of the gene that codifies for the enzyme, was obtained using primers designed by comparison with sequences of Synechocystis and EST from Gracilaria. 5'RACE was used to confirm the absence of a CpcD domain in FNRPBS of Gracilaria chilensis. A three dimensional model for FNR and Fd, was built by comparative modeling and a model for the complex FNR: Fd by docking.The kinetic analysis shows KMNADPH of 12.5 M and a k cat of 86 s-1, data consistent with the parameters determined for the enzyme purified from a soluble extract. The sequence for FNR was obtained and translated to a protein of 33646 Da. A FAD and a NADP+ binding domain were clearly identified by sequence analysis as well as a chloroplast signal sequence. Phycobilisome binding domain, present in some cyanobacteria was absent. Transcriptome analysis of Gch revealed the presence of two Fd; FdL and FdS , sharing the motif CX5CX2CX29X. The analysis indicated that the most probable partner for FNR is FdS.The interaction model produced, was consistent with functional properties reported for FNR in plants leaves, and opens the possibilities for research in other rhodophyta of commercial interest."
+  ],
+  "affiliation": [
+    "Laboratorio de Biofísica Molecular, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Barrio Universitario S/N, Casilla 160_C, Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "01_2017"
+          ],
+          "agency": [
+            "CR_LBFM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "216.037.021-1.0"
+          ],
+          "agency": [
+            "VRID_UDEC_ENLACE"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "113.0256"
+          ],
+          "agency": [
+            "FONDECYT"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "108.065"
+          ],
+          "agency": [
+            "FONDECYT"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gracilaria"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ferredoxin-NADP Reductase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PK"
+                  ],
+                  "qualifierName": [
+                    "pharmacokinetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ferredoxins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Electrophoresis, Polyacrylamide Gel"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Photosynthesis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Amino Acid Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oxidation-Reduction"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Sequence",
+        "Kinetic parameters",
+        "structural features",
+        "ferredoxin",
+        "Ferredoxin Nadp+ Reductase"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Ferredoxins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Ferredoxin-NADP Reductase"
+          ],
+          "registryNumber": [
+            "EC 1.18.1.2"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5723097?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5723097"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40659-017-0144-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-01-16"
+  ],
+  "dateOfCreation": [
+    "2017-12-10"
+  ],
+  "dateOfRevision": [
+    "2018-01-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-08"
+  ],
+  "firstPublicationDate": [
+    "2017-12-08"
+  ]
+}

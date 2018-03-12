@@ -1,0 +1,298 @@
+{
+  "id": [
+    "28815105"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28815105"
+  ],
+  "pmcid": [
+    "PMC5543359"
+  ],
+  "title": [
+    "Extracting Country-of-Origin from Electronic Health Records for Gene- Environment Studies as Part of the Epidemiologic Architecture for Genes Linked to Environment (EAGLE) Study."
+  ],
+  "authorString": [
+    "Farber-Eger E, Goodloe R, Boston J, Bush WS, Crawford DC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farber-Eger E"
+          ],
+          "firstName": [
+            "Eric"
+          ],
+          "lastName": [
+            "Farber-Eger"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Center for Human Genetics Research, Vanderbilt University, Nashville, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Goodloe R"
+          ],
+          "firstName": [
+            "Robert"
+          ],
+          "lastName": [
+            "Goodloe"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Center for Human Genetics Research, Vanderbilt University, Nashville, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Boston J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Boston"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Center for Human Genetics Research, Vanderbilt University, Nashville, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Bush WS"
+          ],
+          "firstName": [
+            "William S"
+          ],
+          "lastName": [
+            "Bush"
+          ],
+          "initials": [
+            "WS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9729-6519",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Epidemiology and Biostatistics, Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Crawford DC"
+          ],
+          "firstName": [
+            "Dana C"
+          ],
+          "lastName": [
+            "Crawford"
+          ],
+          "initials": [
+            "DC"
+          ],
+          "affiliation": [
+            "Department of Epidemiology and Biostatistics, Institute for Computational Biology, Case Western Reserve University, Cleveland, OH, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9729-6519",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2587996"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science"
+          ],
+          "ISOAbbreviation": [
+            "AMIA Jt Summits Transl Sci Proc"
+          ],
+          "medlineAbbreviation": [
+            "AMIA Jt Summits Transl Sci Proc"
+          ],
+          "NLMid": [
+            "101539486"
+          ],
+          "ISSN": [
+            "2153-4063"
+          ],
+          "ESSN": [
+            "2153-4063"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "50-57"
+  ],
+  "abstractText": [
+    "We describe here the extraction of country-of-origin, an acculturation variable relevant for gene-environment studies, in a biorepository linked to de-identified electronic health records (EHRs) assessed by the Epidemiologic Architecture for Genes Linked to Environment (EAGLE), a study site of the Population Architecture using Genomics and Epidemiology (PAGE) I study. We extracted country-of-origin from the unstructured clinical free text using regular expressions within the MySQL relational database system in a cohort of 15,863 subjects of mostly non-European descent (including 11,519 African Americans, 1,702 Hispanics, and 1,118 Asians). We performed searches for 231 world countries (including independent sovereign states, dependent areas, and disputed territories) and common misspellings in >14 gigabytes of data including >13 billion characters of clinical text. Manual review of a fraction of the initial country-of-origin assignments established rules for data cleaning and quality control to achieve final country-of-origin status for each subject. After data cleaning, a total of 1,911/15,893 (12.02%) subjects were assigned to a country-of-origin outside of the United States. Mexico was the most commonly assigned country outside of the United States (264 subjects; 13.8% of subjects with a foreign country-of-origin assignment). The distribution of the countries assigned followed expectations based on known migration patterns to the United States with an emphasis on the southeastern region. These data suggest country-of-origin can be successfully extracted from unstructured clinical text for downstream genetic association studies."
+  ],
+  "affiliation": [
+    "Center for Human Genetics Research, Vanderbilt University, Nashville, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543359?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543359"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-17"
+  ],
+  "dateOfRevision": [
+    "2017-08-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-26"
+  ],
+  "firstPublicationDate": [
+    "2017-07-26"
+  ]
+}

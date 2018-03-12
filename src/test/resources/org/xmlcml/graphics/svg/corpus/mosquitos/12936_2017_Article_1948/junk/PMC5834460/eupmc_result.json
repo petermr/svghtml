@@ -1,0 +1,423 @@
+{
+  "id": [
+    "29500472"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29500472"
+  ],
+  "pmcid": [
+    "PMC5834460"
+  ],
+  "doi": [
+    "10.1038/s41598-018-22311-y"
+  ],
+  "title": [
+    "Geotechnology in the analysis of forest fragments in northern Mato Grosso, Brazil."
+  ],
+  "authorString": [
+    "Barbosa SG, Spletozer AG, Roque MPB, Ferreira Neto JA, Dias HCT, Ramos MP, Bonilla MAC, Ribeiro WS, Alcántara-de la Cruz R, Zanuncio JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Barbosa SG"
+          ],
+          "firstName": [
+            "Sergio Guedes"
+          ],
+          "lastName": [
+            "Barbosa"
+          ],
+          "initials": [
+            "SG"
+          ],
+          "affiliation": [
+            "Departamento de Engenharia Florestal, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Spletozer AG"
+          ],
+          "firstName": [
+            "Aline Gonçalves"
+          ],
+          "lastName": [
+            "Spletozer"
+          ],
+          "initials": [
+            "AG"
+          ],
+          "affiliation": [
+            "Departamento de Engenharia Florestal, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Roque MPB"
+          ],
+          "firstName": [
+            "Mariane Paulina Batalha"
+          ],
+          "lastName": [
+            "Roque"
+          ],
+          "initials": [
+            "MPB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5267-1007",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Economia Rural, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreira Neto JA"
+          ],
+          "firstName": [
+            "José Ambrosio"
+          ],
+          "lastName": [
+            "Ferreira Neto"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Departamento de Economia Rural, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Dias HCT"
+          ],
+          "firstName": [
+            "Herly Carlos Teixeira"
+          ],
+          "lastName": [
+            "Dias"
+          ],
+          "initials": [
+            "HCT"
+          ],
+          "affiliation": [
+            "Departamento de Engenharia Florestal, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramos MP"
+          ],
+          "firstName": [
+            "Marcony Paulo"
+          ],
+          "lastName": [
+            "Ramos"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Departamento de Engenharia Civil, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Bonilla MAC"
+          ],
+          "firstName": [
+            "Michael Alejandro Castro"
+          ],
+          "lastName": [
+            "Bonilla"
+          ],
+          "initials": [
+            "MAC"
+          ],
+          "affiliation": [
+            "Departamento de Biologia Vegetal, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Ribeiro WS"
+          ],
+          "firstName": [
+            "Wellington Souto"
+          ],
+          "lastName": [
+            "Ribeiro"
+          ],
+          "initials": [
+            "WS"
+          ],
+          "affiliation": [
+            "Departamento de Entomologia/BIOAGRO, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Alcántara-de la Cruz R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Alcántara-de la Cruz"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6302-0947",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Entomologia/BIOAGRO, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Zanuncio JC"
+          ],
+          "firstName": [
+            "José Cola"
+          ],
+          "lastName": [
+            "Zanuncio"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Departamento de Entomologia/BIOAGRO, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil. zanuncio@ufv.br."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6302-0947",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5267-1007",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2656503"
+      ],
+      "dateOfPublication": [
+        "2018 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "3959"
+  ],
+  "abstractText": [
+    "Pasture implantation fragments and reduces the Amazonian forest area. The objective was to quantify landscape changes in 1985, 2000 and 2015 in northern Mato Grosso, Brazil. The study was carried out in three scenes obtained by the LANDSAT satellite of a microbasin (2742.33 ha) in the municipality of Alta Floresta. Forest, water bodies, pasture and exposed soil were the thematic classes determined to e mapping the land use evolution. The edge, density and shape indexes of the fragments were measured. Normalized vegetation difference (NDVI) values were high in 1985. Land use and occupation over 15 years (1985-2000) reduced forest cover by 69.8%, but it increased by 1.7% over the next 15 years (2000-2015). The number of exposed soil patches increased between the periods, but the total area and number of the patches of the forest fragments decreased. The high values of NDVI in 1985 showed vegetated areas with high density. Reducing forest cover decreases the size of the fragments, increases the isolation and the number of soil patches exposed. The mapping of land use showed a reduction of the Amazon forest in the microbasin in the north of Mato Grosso, in the years 2000 and 2015 compared to 1985."
+  ],
+  "affiliation": [
+    "Departamento de Engenharia Florestal, Universidade Federal de Viçosa, 36570-900, Viçosa, Minas Gerais, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5834460?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5834460"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-22311-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-03-04"
+  ],
+  "dateOfRevision": [
+    "2018-03-07"
+  ],
+  "electronicPublicationDate": [
+    "2018-03-02"
+  ],
+  "firstPublicationDate": [
+    "2018-03-02"
+  ]
+}

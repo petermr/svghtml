@@ -1,0 +1,299 @@
+{
+  "id": [
+    "27999577"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27999577"
+  ],
+  "pmcid": [
+    "PMC5138211"
+  ],
+  "doi": [
+    "10.3389/fpls.2016.01729"
+  ],
+  "title": [
+    "Latin America: A Development Pole for Phenomics."
+  ],
+  "authorString": [
+    "Camargo AV, Lobos GA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Camargo AV"
+          ],
+          "firstName": [
+            "Anyela V"
+          ],
+          "lastName": [
+            "Camargo"
+          ],
+          "initials": [
+            "AV"
+          ],
+          "affiliation": [
+            "The National Plant Phenomics Centre, Institute of Biological, Environmental and Rural Sciences, Aberystwyth University Aberystwyth, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Lobos GA"
+          ],
+          "firstName": [
+            "Gustavo A"
+          ],
+          "lastName": [
+            "Lobos"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0874-4309",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Agrarias, Plant Breeding and Phenomic Center, PIEI Adaptación de la Agricultura al Cambio Climático (A2C2), Universidad de Talca Talca, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0874-4309",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2373635"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in plant science"
+          ],
+          "ISOAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "medlineAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "NLMid": [
+            "101568200"
+          ],
+          "ISSN": [
+            "1664-462X"
+          ],
+          "ESSN": [
+            "1664-462X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1729"
+  ],
+  "abstractText": [
+    "Latin America and the Caribbean (LAC) has long been associated with the production and export of a diverse range of agricultural commodities. Due to its strategic geographic location, which encompasses a wide range of climates, it is possible to produce almost any crop. The climate diversity in LAC is a major factor in its agricultural potential but this also means climate change represents a real threat to the region. Therefore, LAC farming must prepare and quickly adapt to an environment that is likely to feature long periods of drought, excessive rainfall and extreme temperatures. With the aim of moving toward a more resilient agriculture, LAC scientists have created the Latin American Plant Phenomics Network (LatPPN) which focuses on LAC's economically important crops. LatPPN's key strategies to achieve its main goal are: (1) training of LAC members on plant phenomics and phenotyping, (2) establish international and multidisciplinary collaborations, (3) develop standards for data exchange and research protocols, (4) share equipment and infrastructure, (5) disseminate data and research results, (6) identify funding opportunities and (7) develop strategies to guarantee LatPPN's relevance and sustainability across time. Despite the challenges ahead, LatPPN represents a big step forward toward the consolidation of a common mind-set in the field of plant phenotyping and phenomics in LAC."
+  ],
+  "affiliation": [
+    "The National Plant Phenomics Centre, Institute of Biological, Environmental and Rural Sciences, Aberystwyth University Aberystwyth, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BBS/E/W/10961A01"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Plant breeding",
+        "Climate change",
+        "Genomic",
+        "Phenotyping",
+        "lac",
+        "Latppn"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5138211?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5138211"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpls.2016.01729"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-12-21"
+  ],
+  "dateOfRevision": [
+    "2016-12-23"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-06"
+  ],
+  "firstPublicationDate": [
+    "2016-12-06"
+  ]
+}

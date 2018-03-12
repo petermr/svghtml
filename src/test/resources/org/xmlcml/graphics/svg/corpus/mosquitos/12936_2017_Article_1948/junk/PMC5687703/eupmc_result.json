@@ -1,0 +1,630 @@
+{
+  "id": [
+    "29140978"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29140978"
+  ],
+  "pmcid": [
+    "PMC5687703"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0186777"
+  ],
+  "title": [
+    "Adherence to inhaled therapies of COPD patients from seven Latin American countries: The LASSYC study."
+  ],
+  "authorString": [
+    "Montes de Oca M, Menezes A, Wehrmeister FC, Lopez Varela MV, Casas A, Ugalde L, Ramirez-Venegas A, Mendoza L, López A, Surmont F, Miravitlles M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Montes de Oca M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Montes de Oca"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5274-7574",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Central de Venezuela, Caracas, Venezuela."
+          ]
+        },
+        {
+          "fullName": [
+            "Menezes A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Menezes"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Post-Graduate Program in Epidemiology, Federal University of Pelotas, Pelotas, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Wehrmeister FC"
+          ],
+          "firstName": [
+            "Fernando C"
+          ],
+          "lastName": [
+            "Wehrmeister"
+          ],
+          "initials": [
+            "FC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7137-1747",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Post-Graduate Program in Epidemiology, Federal University of Pelotas, Pelotas, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Lopez Varela MV"
+          ],
+          "firstName": [
+            "Maria Victorina"
+          ],
+          "lastName": [
+            "Lopez Varela"
+          ],
+          "initials": [
+            "MV"
+          ],
+          "affiliation": [
+            "Universidad de la República, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Casas A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Casas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Fundación Neumológica Colombiana, Bogotá, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Ugalde L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Ugalde"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Clínica Americana, San José, Costa Rica."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramirez-Venegas A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Ramirez-Venegas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Enfermedades Respiratorias, Ciudad de México, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Mendoza L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Mendoza"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Hospital Clínico Universidad de Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Hospital Privado Universitario de Córdoba, Córdoba, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Surmont F"
+          ],
+          "firstName": [
+            "Filip"
+          ],
+          "lastName": [
+            "Surmont"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "AstraZeneca, Wilmington, Delaware, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Miravitlles M"
+          ],
+          "firstName": [
+            "Marc"
+          ],
+          "lastName": [
+            "Miravitlles"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Pneumology, Hospital Universitari Vall d'Hebron, CIBER de Enfermedades Respiratorias (CIBERES) Barcelona, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7137-1747",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5274-7574",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0186777"
+  ],
+  "abstractText": [
+    "This study assessed the adherence profiles to inhaled therapies and the agreement between two patient self-report adherence methods in stable COPD lpatients from seven Latin American countries.This observational, cross-sectional, multinational, multicenter study involved 795 COPD patients (post-bronchodilator forced expiratory volume in 1 second/forced vital capacity [FEV1/FVC] <0.70). Adherence to inhaled therapy was assessed using the specific Test of Adherence to Inhalers (10-item TAI) and the generic 8-item Morisky Medication Adherence Scale (MMAS-8) questionnaires. The percentage agreement and the kappa index were used to compare findings.59.6% of patients were male (69.5±8.7 years); post-bronchodilator FEV1 percent predicted was 50.0±18.6%. Mean values for 10-item TAI and MMAS-8 questionnaires were 47.4±4.9 and 6.8±1.6, respectively. Based on the TAI questionnaire, 54.1% of patients had good, 26.5% intermediate, and 19.4% poor adherence. Using the MMAS-8 questionnaire, 51% had high, 29.1% medium, and 19.9% low adherence. According to both questionnaires, patients with poor adherence had lower smoking history, schooling but higher COPD Assessment Test score, exacerbations in the past-year and post-bronchodilator FEV1. The agreement between 10-item TAI and MMAS-8 questionnaires was moderate (Kappa index: 0.42; agreement: 64.7%).Suboptimal adherence to medication was frequent in COPD patients from Latin America. Low adherence was associated with worse health status impairment and more exacerbations. There was inadequate agreement between the two questionnaires. Greater effort should be made to improve COPD patients' adherence to treatment, and assessment of adherence with more specific instruments, such as the TAI questionnaire, would be more convenient in these patients.NCT02789540."
+  ],
+  "affiliation": [
+    "Universidad Central de Venezuela, Caracas, Venezuela."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Multicenter Study",
+        "Journal Article",
+        "Observational Study"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pulmonary Disease, Chronic Obstructive"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bronchodilator Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AD"
+                  ],
+                  "qualifierName": [
+                    "administration & dosage"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TU"
+                  ],
+                  "qualifierName": [
+                    "therapeutic use"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Administration, Inhalation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Patient Compliance"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Bronchodilator Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687703?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687703"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0186777"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-12-11"
+  ],
+  "dateOfCreation": [
+    "2017-11-16"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-15"
+  ],
+  "firstPublicationDate": [
+    "2017-11-15"
+  ]
+}

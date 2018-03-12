@@ -1,0 +1,324 @@
+{
+  "id": [
+    "28646203"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28646203"
+  ],
+  "pmcid": [
+    "PMC5482826"
+  ],
+  "doi": [
+    "10.1038/s41598-017-04467-1"
+  ],
+  "title": [
+    "Incoherent-mediator for quantum state transfer in the ultrastrong coupling regime."
+  ],
+  "authorString": [
+    "Cárdenas-López FA, Albarrán-Arriagada F, Barrios GA, Retamal JC, Romero G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cárdenas-López FA"
+          ],
+          "firstName": [
+            "F A"
+          ],
+          "lastName": [
+            "Cárdenas-López"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Center for the Development of Nanoscience and Nanotechnology, 9170124, Estación Central, Santiago, Chile. francisco.cardenas@usach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Albarrán-Arriagada F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Albarrán-Arriagada"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Santiago de Chile (USACH), Avenida Ecuador 3493, 9170124, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrios GA"
+          ],
+          "firstName": [
+            "G Alvarado"
+          ],
+          "lastName": [
+            "Barrios"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Santiago de Chile (USACH), Avenida Ecuador 3493, 9170124, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal JC"
+          ],
+          "firstName": [
+            "J C"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7174-7879",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for the Development of Nanoscience and Nanotechnology, 9170124, Estación Central, Santiago, Chile. juan.retamal@usach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Romero G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Romero"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Santiago de Chile (USACH), Avenida Ecuador 3493, 9170124, Santiago, Chile. guillermo.romero@usach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7174-7879",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2562821"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4157"
+  ],
+  "abstractText": [
+    "We study quantum state transfer between two qubits coupled to a common quantum bus that is constituted by an ultrastrong coupled light-matter system. By tuning both qubit frequencies on resonance with a forbidden transition in the mediating system, we demonstrate a high-fidelity swap operation even though the quantum bus is thermally populated. We discuss a possible physical implementation in a realistic circuit QED scheme that leads to the multimode Dicke model. This proposal may have applications on hot quantum information processing within the context of ultrastrong coupling regime of light-matter interaction."
+  ],
+  "affiliation": [
+    "Center for the Development of Nanoscience and Nanotechnology, 9170124, Estación Central, Santiago, Chile. francisco.cardenas@usach.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5482826?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5482826"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-04467-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-24"
+  ],
+  "dateOfRevision": [
+    "2017-06-27"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-23"
+  ],
+  "firstPublicationDate": [
+    "2017-06-23"
+  ]
+}

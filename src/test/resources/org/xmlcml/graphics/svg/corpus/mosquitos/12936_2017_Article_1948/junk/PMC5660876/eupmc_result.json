@@ -1,0 +1,322 @@
+{
+  "id": [
+    "29085750"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29085750"
+  ],
+  "pmcid": [
+    "PMC5660876"
+  ],
+  "doi": [
+    "10.7717/peerj.3941"
+  ],
+  "title": [
+    "Phylogenomic analysis of the Chilean clade of Liolaemus lizards (Squamata: Liolaemidae) based on sequence capture data."
+  ],
+  "authorString": [
+    "Panzera A, Leaché AD, D'Elía G, Victoriano PF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Panzera A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Panzera"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Programa de Doctorado en Sistemática y Biodiversidad, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leaché AD"
+          ],
+          "firstName": [
+            "Adam D"
+          ],
+          "lastName": [
+            "Leaché"
+          ],
+          "initials": [
+            "AD"
+          ],
+          "affiliation": [
+            "Department of Biology & Burke Museum of Natural History and Culture, University of Washington, Seattle, WA, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "D'Elía G"
+          ],
+          "firstName": [
+            "Guillermo"
+          ],
+          "lastName": [
+            "D'Elía"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Victoriano PF"
+          ],
+          "firstName": [
+            "Pedro F"
+          ],
+          "lastName": [
+            "Victoriano"
+          ],
+          "initials": [
+            "PF"
+          ],
+          "affiliation": [
+            "Departamento de Zoología, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3941"
+  ],
+  "abstractText": [
+    "The genus Liolaemus is one of the most ecologically diverse and species-rich genera of lizards worldwide. It currently includes more than 250 recognized species, which have been subject to many ecological and evolutionary studies. Nevertheless, Liolaemus lizards have a complex taxonomic history, mainly due to the incongruence between morphological and genetic data, incomplete taxon sampling, incomplete lineage sorting and hybridization. In addition, as many species have restricted and remote distributions, this has hampered their examination and inclusion in molecular systematic studies. The aims of this study are to infer a robust phylogeny for a subsample of lizards representing the Chilean clade (subgenus Liolaemus sensu stricto), and to test the monophyly of several of the major species groups. We use a phylogenomic approach, targeting 541 ultra-conserved elements (UCEs) and 44 protein-coding genes for 16 taxa. We conduct a comparison of phylogenetic analyses using maximum-likelihood and several species tree inference methods. The UCEs provide stronger support for phylogenetic relationships compared to the protein-coding genes; however, the UCEs outnumber the protein-coding genes by 10-fold. On average, the protein-coding genes contain over twice the number of informative sites. Based on our phylogenomic analyses, all the groups sampled are polyphyletic. Liolaemus tenuis tenuis is difficult to place in the phylogeny, because only a few loci (nine) were recovered for this species. Topologies or support values did not change dramatically upon exclusion of L. t. tenuis from analyses, suggesting that missing data did not had a significant impact on phylogenetic inference in this data set. The phylogenomic analyses provide strong support for sister group relationships between L. fuscus, L. monticola, L. nigroviridis and L. nitidus, and L. platei and L. velosoi. Despite our limited taxon sampling, we have provided a reliable starting hypothesis for the relationships among many major groups of the Chilean clade of Liolaemus that will help future work aimed at resolving the Liolaemus phylogeny."
+  ],
+  "affiliation": [
+    "Programa de Doctorado en Sistemática y Biodiversidad, Universidad de Concepción, Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "S10 OD018174"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "OD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Systematics",
+        "Chile",
+        "Ultra-conserved Elements",
+        "Liolaemids"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5660876?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5660876"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3941"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-01"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-26"
+  ],
+  "firstPublicationDate": [
+    "2017-10-26"
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "id": [
+    "27861550"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27861550"
+  ],
+  "pmcid": [
+    "PMC5115819"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0166824"
+  ],
+  "title": [
+    "Fruit Size Determines the Role of Three Scatter-Hoarding Rodents as Dispersers or Seed Predators of a Fleshy-Fruited Atacama Desert Shrub."
+  ],
+  "authorString": [
+    "Luna CA, Loayza AP, Squeo FA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Luna CA"
+          ],
+          "firstName": [
+            "Claudia A"
+          ],
+          "lastName": [
+            "Luna"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9296-5253",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad de La Serena, Departamento de Biología, La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Loayza AP"
+          ],
+          "firstName": [
+            "Andrea P"
+          ],
+          "lastName": [
+            "Loayza"
+          ],
+          "initials": [
+            "AP"
+          ],
+          "affiliation": [
+            "Universidad de La Serena, Departamento de Biología, La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Squeo FA"
+          ],
+          "firstName": [
+            "Francisco A"
+          ],
+          "lastName": [
+            "Squeo"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Centro de Estudios Avanzados en Zonas Áridas (CEAZA), La Serena, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9296-5253",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2483849"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS ONE"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0166824"
+  ],
+  "abstractText": [
+    "Scatter-hoarding rodents can act as both predators and dispersers for many large-seeded plants because they cache seeds for future use, but occasionally forget them in sites with high survival and establishment probabilities. The most important fruit or seed trait influencing rodent foraging behavior is seed size; rodents prefer large seeds because they have higher nutritional content, but this preference can be counterbalanced by the higher costs of handling larger seeds. We designed a cafeteria experiment to assess whether fruit and seed size of Myrcianthes coquimbensis, an endangered desert shrub, influence the decision-making process during foraging by three species of scatter-hoarding rodents differing in body size: Abrothrix olivaceus, Phyllotis darwini and Octodon degus. We found that the size of fruits and seeds influenced foraging behavior in the three rodent species; the probability of a fruit being harvested and hoarded was higher for larger fruits than for smaller ones. Patterns of fruit size preference were not affected by rodent size; all species were able to hoard fruits within the entire range of sizes offered. Finally, fruit and seed size had no effect on the probability of seed predation, rodents typically ate only the fleshy pulp of the fruits offered and discarded whole, intact seeds. In conclusion, our results reveal that larger M. coquimbensis fruits have higher probabilities of being harvested, and ultimately of its seeds being hoarded and dispersed by scatter-hoarding rodents. As this plant has no other dispersers, rodents play an important role in its recruitment dynamics."
+  ],
+  "affiliation": [
+    "Universidad de La Serena, Departamento de Biología, La Serena, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Rodentia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fruit"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Seeds"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Predatory Behavior"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Streptophyta"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Seed Dispersal"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5115819?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5115819"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0166824"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-26"
+  ],
+  "dateOfCreation": [
+    "2016-11-18"
+  ],
+  "dateOfRevision": [
+    "2017-06-26"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-18"
+  ],
+  "firstPublicationDate": [
+    "2016-11-18"
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": [
+    "29018118"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29018118"
+  ],
+  "pmcid": [
+    "PMC5635688"
+  ],
+  "doi": [
+    "10.1128/mbio.01234-17"
+  ],
+  "title": [
+    "Transgenerational Diapause as an Avoidance Strategy against Bacterial Pathogens in Caenorhabditis elegans."
+  ],
+  "authorString": [
+    "Palominos MF, Verdugo L, Gabaldon C, Pollak B, Ortíz-Severín J, Varas MA, Chávez FP, Calixto A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Palominos MF"
+          ],
+          "firstName": [
+            "M Fernanda"
+          ],
+          "lastName": [
+            "Palominos"
+          ],
+          "initials": [
+            "MF"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso (CINV), Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Verdugo L"
+          ],
+          "firstName": [
+            "Lidia"
+          ],
+          "lastName": [
+            "Verdugo"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gabaldon C"
+          ],
+          "firstName": [
+            "Carolaing"
+          ],
+          "lastName": [
+            "Gabaldon"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pollak B"
+          ],
+          "firstName": [
+            "Bernardo"
+          ],
+          "lastName": [
+            "Pollak"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2329-7401",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular y Molecular, Facultad de Ciencias Biológicas Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortíz-Severín J"
+          ],
+          "firstName": [
+            "Javiera"
+          ],
+          "lastName": [
+            "Ortíz-Severín"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Varas MA"
+          ],
+          "firstName": [
+            "Macarena A"
+          ],
+          "lastName": [
+            "Varas"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chávez FP"
+          ],
+          "firstName": [
+            "Francisco P"
+          ],
+          "lastName": [
+            "Chávez"
+          ],
+          "initials": [
+            "FP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6838-208X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Calixto A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Calixto"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6168-7286",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso (CINV), Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2329-7401",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6838-208X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6168-7286",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2603730"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "mBio"
+          ],
+          "ISOAbbreviation": [
+            "MBio"
+          ],
+          "medlineAbbreviation": [
+            "MBio"
+          ],
+          "NLMid": [
+            "101519231"
+          ],
+          "ISSN": [
+            "2150-7511"
+          ],
+          "ESSN": [
+            "2150-7511"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "The dynamic response of organisms exposed to environmental pathogens determines their survival or demise, and the outcome of this interaction depends on the host's susceptibility and pathogen-dependent virulence factors. The transmission of acquired information about the nature of a pathogen to progeny may ensure effective defensive strategies for the progeny's survival in adverse environments. Environmental RNA interference (RNAi) is a systemic and heritable mechanism and has recently been linked to antibacterial and antifungal defenses in both plants and animals. Here, we report that the second generation of Caenorhabditis elegans living on pathogenic bacteria can avoid bacterial infection by entering diapause in an RNAi pathway-dependent mechanism. Furthermore, we demonstrate that the information encoding this survival strategy is transgenerationally transmitted to the progeny via the maternal germ line.IMPORTANCE Bacteria vastly influence physiology and behavior, and yet, the specific mechanisms by which they cause behavioral changes in hosts are not known. We use C. elegans as a host and the bacteria they eat to understand how microbes trigger a behavioral change that helps animals to survive. We found that animals faced with an infection for two generations could enter a hibernationlike state, arresting development by forming dauer larvae. Dauers have closed mouths and effectively avoid infection. Animals accumulate information that is transgenerationally transmitted to the next generations to form dauers. This work gives insight on how bacteria communicate in noncanonical ways with their hosts, resulting in long-lasting effects providing survival strategies to the community."
+  ],
+  "affiliation": [
+    "Centro Interdisciplinario de Neurociencia de Valparaíso (CINV), Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Caenorhabditis elegans",
+        "Diapause",
+        "RNA interference",
+        "Pathogenesis",
+        "Defense",
+        "survival strategies"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5635688?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5635688"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/mBio.01234-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-12"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-10"
+  ],
+  "firstPublicationDate": [
+    "2017-10-10"
+  ]
+}

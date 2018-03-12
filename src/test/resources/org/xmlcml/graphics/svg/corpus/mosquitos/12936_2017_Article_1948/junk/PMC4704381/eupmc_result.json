@@ -1,0 +1,342 @@
+{
+  "id": [
+    "26738753"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26738753"
+  ],
+  "pmcid": [
+    "PMC4704381"
+  ],
+  "doi": [
+    "10.1186/s12898-015-0055-7"
+  ],
+  "title": [
+    "Correspondence between the habitat of the threatened pudú (Cervidae) and the national protected-area system of Chile."
+  ],
+  "authorString": [
+    "Pavez-Fox M, Estay SA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pavez-Fox M"
+          ],
+          "firstName": [
+            "Melissa"
+          ],
+          "lastName": [
+            "Pavez-Fox"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Magíster en Ciencias Biológicas mención Neurociencia, Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, 2360102, Chile. melissa.pavez.fox@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Estay SA"
+          ],
+          "firstName": [
+            "Sergio A"
+          ],
+          "lastName": [
+            "Estay"
+          ],
+          "initials": [
+            "SA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3797-8964",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center of Applied Ecology and Sustainability (CAPES), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, 6513677, Chile. sergio.estay@uach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3797-8964",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2402731"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC ecology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Ecol."
+          ],
+          "medlineAbbreviation": [
+            "BMC Ecol"
+          ],
+          "NLMid": [
+            "101088674"
+          ],
+          "ISSN": [
+            "1472-6785"
+          ],
+          "ESSN": [
+            "1472-6785"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1"
+  ],
+  "abstractText": [
+    "Currently, many species are facing serious conservation problems due to habitat loss. The impact of the potential loss of biodiversity associated with habitat loss is difficult to measure. This is particularly the case with inconspicuous species such as the threatened pudú (Pudu puda), an endemic Cervidae of temperate forests of Chile and Argentina. To evaluate the effectiveness of the Chilean protected-area system in protecting the habitat of the pudú, we measured the congruence between this specie's potential distribution and the geographical area occupied by the protected areas in central and southern Chile. The measurements of congruency were made using the Maxent modeling method.The potential habitat of the pudú was found to be poorly represented in the system (3-8%) and even the most suitable areas for the species are not currenly protected. According to these results, the protected area network cannot be considered as a key component of the conservation strategy for this species.The results presented here also serve as a guide for the reevaluation of current pudú conservation strategies, for the design of new field studies to detect the presence of this species in human-disturbed areas or remaining patches of native forest, and for the implementation of corridors to maximize the success of conservation efforts."
+  ],
+  "affiliation": [
+    "Magíster en Ciencias Biológicas mención Neurociencia, Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, 2360102, Chile. melissa.pavez.fox@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Deer"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Endangered Species"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4704381?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4704381"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12898-015-0055-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "9"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-12"
+  ],
+  "dateOfCreation": [
+    "2016-01-07"
+  ],
+  "dateOfRevision": [
+    "2016-01-10"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-07"
+  ],
+  "firstPublicationDate": [
+    "2016-01-07"
+  ]
+}

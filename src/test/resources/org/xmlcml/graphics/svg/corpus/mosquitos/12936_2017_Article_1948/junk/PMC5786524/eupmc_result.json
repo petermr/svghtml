@@ -1,0 +1,318 @@
+{
+  "id": [
+    "29403459"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29403459"
+  ],
+  "pmcid": [
+    "PMC5786524"
+  ],
+  "doi": [
+    "10.3389/fmicb.2018.00005"
+  ],
+  "title": [
+    "Helicobacter pylori and Gastric Cancer: Adaptive Cellular Mechanisms Involved in Disease Progression."
+  ],
+  "authorString": [
+    "Díaz P, Valenzuela Valderrama M, Bravo J, Quest AFG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Díaz P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1479-7340",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela Valderrama M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Valenzuela Valderrama"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo J"
+          ],
+          "firstName": [
+            "Jimena"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AFG"
+          ],
+          "firstName": [
+            "Andrew F G"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AFG"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1479-7340",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2645049"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "5"
+  ],
+  "abstractText": [
+    "Helicobacter pylori (H. pylori) infection is the major risk factor associated with the development of gastric cancer. The transition from normal mucosa to non-atrophic gastritis, triggered primarily by H. pylori infection, initiates precancerous lesions which may then progress to atrophic gastritis and intestinal metaplasia. Further progression to dysplasia and gastric cancer is generally believed to be attributable to processes that no longer require the presence of H. pylori. The responses that develop upon H. pylori infection are directly mediated through the action of bacterial virulence factors, which drive the initial events associated with transformation of infected gastric cells. Besides genetic and to date poorly defined environmental factors, alterations in gastric cell stress-adaptive mechanisms due to H. pylori appear to be crucial during chronic infection and gastric disease progression. Firstly, H. pylori infection promotes gastric cell death and reduced epithelial cell turnover in the majority of infected cells, resulting in primary tissue lesions associated with an initial inflammatory response. However, in the remaining gastric cell population, adaptive responses are induced that increase cell survival and proliferation, resulting in the acquisition of potentially malignant characteristics that may lead to precancerous gastric lesions. Thus, deregulation of these intrinsic survival-related responses to H. pylori infection emerge as potential culprits in promoting disease progression. This review will highlight the most relevant cellular adaptive mechanisms triggered upon H. pylori infection, including endoplasmic reticulum stress and the unfolded protein response, autophagy, oxidative stress, and inflammation, together with a subsequent discussion on how these factors may participate in the progression of a precancerous lesion. Finally, this review will shed light on how these mechanisms may be exploited as pharmacological targets, in the perspective of opening up new therapeutic alternatives for non-invasive risk control in gastric cancer."
+  ],
+  "affiliation": [
+    "Cellular Communication Laboratory, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Helicobacter Pylori",
+        "Oxidative stress",
+        "Inflammation",
+        "Gastric cancer",
+        "Precancerous lesion",
+        "Autophagy",
+        "endoplasmic reticulum stress"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5786524?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5786524"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2018.00005"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-07"
+  ],
+  "dateOfRevision": [
+    "2018-02-08"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-22"
+  ],
+  "firstPublicationDate": [
+    "2018-01-22"
+  ]
+}

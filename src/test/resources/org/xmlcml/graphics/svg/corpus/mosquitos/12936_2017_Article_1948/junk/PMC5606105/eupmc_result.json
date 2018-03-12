@@ -1,0 +1,369 @@
+{
+  "id": [
+    "29018815"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29018815"
+  ],
+  "pmcid": [
+    "PMC5606105"
+  ],
+  "doi": [
+    "10.1155/2017/6571671"
+  ],
+  "title": [
+    "Effect of Free Ammonia, Free Nitrous Acid, and Alkalinity on the Partial Nitrification of Pretreated Pig Slurry, Using an Alternating Oxic/Anoxic SBR."
+  ],
+  "authorString": [
+    "Belmonte M, Hsieh CF, Campos JL, Guerrero L, Méndez R, Mosquera-Corral A, Vidal G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Belmonte M"
+          ],
+          "firstName": [
+            "Marisol"
+          ],
+          "lastName": [
+            "Belmonte"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3337-9649",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Biotechnology, Environment and Engineering, Faculty of Engineering, University of Playa Ancha, 2340000 Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hsieh CF"
+          ],
+          "firstName": [
+            "Chia-Fang"
+          ],
+          "lastName": [
+            "Hsieh"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "affiliation": [
+            "Engineering and Environmental Biotechnology Group, Environmental Science Faculty & Center EULA-Chile, University of Concepción, P.O. Box 160-C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Campos JL"
+          ],
+          "firstName": [
+            "José Luis"
+          ],
+          "lastName": [
+            "Campos"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5750-1699",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería y Ciencias, Universidad Adolfo Ibáñez, 2503500 Viña del Mar, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Guerrero L"
+          ],
+          "firstName": [
+            "Lorna"
+          ],
+          "lastName": [
+            "Guerrero"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Chemical and Environmental Engineering, University Federico Santa María, 2390123 Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Méndez R"
+          ],
+          "firstName": [
+            "Ramón"
+          ],
+          "lastName": [
+            "Méndez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering, School of Engineering, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Mosquera-Corral A"
+          ],
+          "firstName": [
+            "Anuska"
+          ],
+          "lastName": [
+            "Mosquera-Corral"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering, School of Engineering, University of Santiago de Compostela, 15782 Santiago de Compostela, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal G"
+          ],
+          "firstName": [
+            "Gladys"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Engineering and Environmental Biotechnology Group, Environmental Science Faculty & Center EULA-Chile, University of Concepción, P.O. Box 160-C, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3337-9649",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5750-1699",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "6571671"
+  ],
+  "abstractText": [
+    "The effect of free ammonia (NH3 or FA), free nitrous acid (HNO2 or FNA), and total alkalinity (TA) on the performance of a partial nitrification (PN) sequencing batch reactor (SBR) treating anaerobically pretreated pig slurry was studied. The SBR was operated under alternating oxic/anoxic (O/A) conditions and was fed during anoxic phases. This strategy allowed using organic matter to partially remove nitrite (NO2-) and nitrate (NO3-) generated during oxic phases. The desired NH4+ to NO2- ratio of 1.3 g N/g N was obtained when an Ammonium Loading Rate (ALR) of 0.09 g NH4+-N/L·d was applied. The system was operated at a solid retention time (SRT) of 15-20 d and dissolved oxygen (DO) levels higher than 3 mg O2/L during the whole operational period. PN mainly occurred caused by the inhibitory effect of FNA on nitrite oxidizing bacteria (NOB). Once HNO2 concentration was negligible, NH4+ was fully oxidized to NO3- in spite of the presence of FA. The use of biomass acclimated to ammonium as inoculum avoided a possible effect of FA on NOB activity."
+  ],
+  "affiliation": [
+    "Laboratory of Biotechnology, Environment and Engineering, Faculty of Engineering, University of Playa Ancha, 2340000 Valparaíso, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5606105?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5606105"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/6571671"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-12"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-06"
+  ],
+  "firstPublicationDate": [
+    "2017-09-06"
+  ]
+}

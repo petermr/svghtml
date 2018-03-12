@@ -1,0 +1,331 @@
+{
+  "id": [
+    "28800723"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28800723"
+  ],
+  "pmcid": [
+    "PMC5553735"
+  ],
+  "doi": [
+    "10.1186/s12868-017-0379-7"
+  ],
+  "title": [
+    "A CLCA regulatory protein present in the chemosensory cilia of olfactory sensory neurons induces a Ca2+-activated Cl- current when transfected into HEK293."
+  ],
+  "authorString": [
+    "Mura CV, Delgado R, Delgado MG, Restrepo D, Bacigalupo J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mura CV"
+          ],
+          "firstName": [
+            "Casilda V"
+          ],
+          "lastName": [
+            "Mura"
+          ],
+          "initials": [
+            "CV"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, Las Palmeras 3425, Ñuñoa, 7800024, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, Las Palmeras 3425, Ñuñoa, 7800024, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado MG"
+          ],
+          "firstName": [
+            "María Graciela"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "MG"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, Las Palmeras 3425, Ñuñoa, 7800024, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Restrepo D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Restrepo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Cell and Developmental Biology, Neuroscience Program and Rocky Mountain Taste and Smell Center, University of Colorado Anschutz Medical Campus, Aurora, CO, 80045, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Bacigalupo J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Bacigalupo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2688-6068",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, Las Palmeras 3425, Ñuñoa, 7800024, Santiago, Chile. bacigalu@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2688-6068",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2582311"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "BMC Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "BMC Neurosci"
+          ],
+          "NLMid": [
+            "100966986"
+          ],
+          "ESSN": [
+            "1471-2202"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "61"
+  ],
+  "abstractText": [
+    "CLCA is a family of metalloproteases that regulate Ca2+-activated Cl- fluxes in epithelial tissues. In HEK293 cells, CLCA1 promotes membrane expression of an endogenous Anoctamin 1 (ANO1, also termed TMEM16A)-dependent Ca2+-activated Cl- current. Motif architecture similarity with CLCA2, 3 and 4 suggested that they have similar functions. We previously detected the isoform CLCA4L in rat olfactory sensory neurons, where Anoctamin 2 is the principal chemotransduction Ca2+-activated Cl- channel. We explored the possibility that this protein plays a role in odor transduction.We cloned and expressed CLCA4L from rat olfactory epithelium in HEK293 cells. In the transfected HEK293 cells we measured a Cl--selective Ca2+-activated current, blocked by niflumic acid, not present in the non-transfected cells. Thus, CLCA4L mimics the CLCA1 current on its ability to induce the ANO1-dependent Ca2+-activated Cl- current endogenous to these cells. By immunocytochemistry, a CLCA protein, presumably CLCA4L, was detected in the cilia of olfactory sensory neurons co-expressing with ANO2.These findings suggests that a CLCA isoform, namely CLCA4L, expressed in OSN cilia, might have a regulatory function over the ANO2-dependent Ca2+-activated Cl- channel involved in odor transduction."
+  ],
+  "affiliation": [
+    "Department of Biology, Faculty of Sciences, University of Chile, Las Palmeras 3425, Ñuñoa, 7800024, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Olfactory Cilia",
+        "Clca",
+        "Ca2+-activated Cl− Current",
+        "Anoctamin Channels"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5553735?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5553735"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12868-017-0379-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-12"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-11"
+  ],
+  "firstPublicationDate": [
+    "2017-08-11"
+  ]
+}

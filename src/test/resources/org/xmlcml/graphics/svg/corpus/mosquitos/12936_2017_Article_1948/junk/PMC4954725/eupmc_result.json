@@ -1,0 +1,508 @@
+{
+  "id": [
+    "27438267"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27438267"
+  ],
+  "pmcid": [
+    "PMC4954725"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0159655"
+  ],
+  "title": [
+    "Seed Pubescence and Shape Modulate Adaptive Responses to Fire Cues."
+  ],
+  "authorString": [
+    "Gómez-González S, Ojeda F, Torres-Morales P, Palma JE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gómez-González S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Gómez-González"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Biología-IVAGRO, Universidad de Cádiz, Campus Río San Pedro, Puerto Real, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Ojeda F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Ojeda"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5480-0925",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología-IVAGRO, Universidad de Cádiz, Campus Río San Pedro, Puerto Real, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres-Morales P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Torres-Morales"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palma JE"
+          ],
+          "firstName": [
+            "Jazmín E"
+          ],
+          "lastName": [
+            "Palma"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Centre for Science and Resilience Research (CR²), Universidad de Chile, Santiago de Chile, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5480-0925",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2424094"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0159655"
+  ],
+  "abstractText": [
+    "Post-fire recruitment by seeds is regarded as an adaptive response in fire-prone ecosystems. Nevertheless, little is known about which heritable seed traits are functional to the main signals of fire (heat and smoke), thus having the potential to evolve. Here, we explored whether three seed traits (pubescence, dormancy and shape) and fire regime modulate seed response to fire cues(heat and smoke). As a model study system, we used Helenium aromaticum (Asteraceae), a native annual forb from the Chilean matorral, where fires are anthropogenic. We related seed trait values with fitness responses (germination and survival) after exposure to heat-shock and smoke experimental treatments on seeds from 10 H. aromaticum wild populations. We performed a phenotypic selection experiment to examine the relationship of seed traits with post-treatment fitness within a population (adaptive hypothesis). We then explored whether fire frequency in natural habitats was associated with trait expression across populations, and with germination and survival responses to experimental fire-cues. We found that populations subjected to higher fire frequency had, in average, more rounded and pubescent seeds than populations from rarely burned areas. Populations with more rounded and pubescent seeds were more resistant to 80°C heat-shock and smoke treatments.There was correlated selection on seed traits: pubescent-rounded or glabrouscent-elongated seeds had the highest probability of germinating after heat-shock treatments. Seed pubescence and shape in H. aromaticum are heritable traits that modulate adaptive responses to fire. Our results provide new insights into the process of plant adaptation to fire and highlight the relevance of human-made fires as a strong evolutionary agent in the Anthropocene."
+  ],
+  "affiliation": [
+    "Departamento de Biología-IVAGRO, Universidad de Cádiz, Campus Río San Pedro, Puerto Real, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Asteraceae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seeds"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disasters"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fires"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Smoke"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adaptation, Physiological"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Heat-Shock Response"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hot Temperature"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Smoke"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4954725?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4954725"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0159655"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-07-21"
+  ],
+  "dateOfCreation": [
+    "2016-07-21"
+  ],
+  "dateOfRevision": [
+    "2017-07-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-20"
+  ],
+  "firstPublicationDate": [
+    "2016-07-20"
+  ]
+}

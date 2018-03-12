@@ -1,0 +1,335 @@
+{
+  "id": [
+    "PMC5819372"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC5819372"
+  ],
+  "title": [
+    "Measuring the Benefits of Healthcare: DALYs and QALYs – Does the Choice of Measure Matter? A Case Study of Two Preventive Interventions."
+  ],
+  "authorString": [
+    "Augustovski F, Colantonio LD, Galante J, Bardach A, Caporale JE, Zárate V, Chuang LH, Riviere AP, Kind P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Augustovski F"
+          ],
+          "firstName": [
+            "Federico"
+          ],
+          "lastName": [
+            "Augustovski"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "1Institute for Clinical Effectiveness and Health Policy (IECS-CONICET), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Colantonio LD"
+          ],
+          "firstName": [
+            "Lisandro D."
+          ],
+          "lastName": [
+            "Colantonio"
+          ],
+          "initials": [
+            "LD"
+          ]
+        },
+        {
+          "fullName": [
+            "Galante J"
+          ],
+          "firstName": [
+            "Julieta"
+          ],
+          "lastName": [
+            "Galante"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Bardach A"
+          ],
+          "firstName": [
+            "Ariel"
+          ],
+          "lastName": [
+            "Bardach"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Caporale JE"
+          ],
+          "firstName": [
+            "Joaquín E."
+          ],
+          "lastName": [
+            "Caporale"
+          ],
+          "initials": [
+            "JE"
+          ]
+        },
+        {
+          "fullName": [
+            "Zárate V"
+          ],
+          "firstName": [
+            "Víctor"
+          ],
+          "lastName": [
+            "Zárate"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Chuang LH"
+          ],
+          "firstName": [
+            "Ling Hsiang"
+          ],
+          "lastName": [
+            "Chuang"
+          ],
+          "initials": [
+            "LH"
+          ]
+        },
+        {
+          "fullName": [
+            "Riviere AP"
+          ],
+          "firstName": [
+            "Andres Pichon"
+          ],
+          "lastName": [
+            "Riviere"
+          ],
+          "initials": [
+            "AP"
+          ]
+        },
+        {
+          "fullName": [
+            "Kind P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Kind"
+          ],
+          "initials": [
+            "P"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2654707"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International Journal of Health Policy and Management"
+          ],
+          "ISOAbbreviation": [
+            "Int J Health Policy Manag"
+          ],
+          "medlineAbbreviation": [
+            "Int J Health Policy Manag"
+          ],
+          "NLMid": [
+            "101619905"
+          ],
+          "ISSN": [
+            "2322-5939"
+          ],
+          "ESSN": [
+            "2322-5939"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "120-136"
+  ],
+  "abstractText": [
+    "Background: The measurement of health benefits is a key issue in health economic evaluations. There is very scarce empirical literature exploring the differences of using quality-adjusted life years (QALYs) or disability-adjusted life years (DALYs) as benefit metrics and their potential impact in decision-making.  Methods: Two previously published models delivering outputs in QALYs, were adapted to estimate DALYs: a Markov model for human papilloma virus (HPV) vaccination, and a pneumococcal vaccination deterministic model (PNEUMO). Argentina, Chile, and the United Kingdom studies were used, where local EQ-5D social value weights were available to provide local QALY weights. A primary study with descriptive vignettes was done (n = 73) to obtain EQ-5D data for all health states included in both models. Several scenario analyses were carried-out to evaluate the relative importance of using different metrics (DALYS or QALYs) to estimate health benefits on these economic evaluations.  Results: QALY gains were larger than DALYs avoided in all countries for HPV, leading to more favorable decisions using the former. With discounting and age-weighting – scenario with greatest differences in all countries – incremental DALYs avoided represented the 75%, 68%, and 43% of the QALYs gained in Argentina, Chile, and United Kingdom respectively. Differences using QALYs or DALYs were less consistent and sometimes in the opposite direction for PNEUMO. These differences, similar to other widely used assumptions, could directly influence decision-making using usual gross domestic products (GDPs) per capita per DALY or QALY thresholds.  Conclusion: We did not find evidence that contradicts current practice of many researchers and decision-makers of using QALYs or DALYs interchangeably. Differences attributed to the choice of metric could influence final decisions, but similarly to other frequently used assumptions."
+  ],
+  "affiliation": [
+    "1Institute for Clinical Effectiveness and Health Policy (IECS-CONICET), Buenos Aires, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Economic evaluation",
+        "Quality-adjusted Life Year (Qaly)",
+        "Health Benefit Measure",
+        "Disability-adjusted Life Year (Daly)"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5819372"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819372/?tool=EBI"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-27"
+  ],
+  "dateOfRevision": [
+    "2018-02-27"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-06"
+  ],
+  "firstPublicationDate": [
+    "2017-05-06"
+  ]
+}

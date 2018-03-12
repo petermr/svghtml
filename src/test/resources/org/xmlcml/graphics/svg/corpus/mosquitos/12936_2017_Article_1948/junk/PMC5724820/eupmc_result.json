@@ -1,0 +1,555 @@
+{
+  "id": [
+    "29228015"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29228015"
+  ],
+  "pmcid": [
+    "PMC5724820"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0189043"
+  ],
+  "title": [
+    "Development of an iron-selective antioxidant probe with protective effects on neuronal function."
+  ],
+  "authorString": [
+    "García-Beltrán O, Mena NP, Aguirre P, Barriga-González G, Galdámez A, Nagles E, Adasme T, Hidalgo C, Núñez MT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García-Beltrán O"
+          ],
+          "firstName": [
+            "Olimpo"
+          ],
+          "lastName": [
+            "García-Beltrán"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Biomedical Neuroscience Institute (BNI), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mena NP"
+          ],
+          "firstName": [
+            "Natalia P"
+          ],
+          "lastName": [
+            "Mena"
+          ],
+          "initials": [
+            "NP"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguirre P"
+          ],
+          "firstName": [
+            "Pabla"
+          ],
+          "lastName": [
+            "Aguirre"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barriga-González G"
+          ],
+          "firstName": [
+            "Germán"
+          ],
+          "lastName": [
+            "Barriga-González"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Universidad Metropolitana de Ciencias de la Educación, Facultad de Ciencias Básicas, Departamento de Química, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galdámez A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Galdámez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Chemistry, Faculty of Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nagles E"
+          ],
+          "firstName": [
+            "Edgar"
+          ],
+          "lastName": [
+            "Nagles"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Naturales y Matemáticas, Universidad de Ibagué, Ibagué, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Adasme T"
+          ],
+          "firstName": [
+            "Tatiana"
+          ],
+          "lastName": [
+            "Adasme"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Integrative Center for Applied Biology and Chemistry (CIBQA), Universidad Bernardo O'Higgins, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hidalgo C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Hidalgo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1256-9651",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Neuroscience, CEMC and ICBM, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Núñez MT"
+          ],
+          "firstName": [
+            "Marco T"
+          ],
+          "lastName": [
+            "Núñez"
+          ],
+          "initials": [
+            "MT"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1256-9651",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2632138"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0189043"
+  ],
+  "abstractText": [
+    "Iron accumulation, oxidative stress and calcium signaling dysregulation are common pathognomonic signs of several neurodegenerative diseases, including Parkinson´s and Alzheimer's diseases, Friedreich ataxia and Huntington's disease. Given their therapeutic potential, the identification of multifunctional compounds that suppress these damaging features is highly desirable. Here, we report the synthesis and characterization of N-(1,3-dihydroxy-2-(hydroxymethyl)propan-2-yl)-2-(7-hydroxy-2-oxo-2H-chromen-4-yl)acetamide, named CT51, which exhibited potent free radical neutralizing activity both in vitro and in cells. CT51 bound Fe2+ with high selectivity and Fe3+ with somewhat lower affinity. Cyclic voltammetric analysis revealed irreversible binding of Fe3+ to CT51, an important finding since stopping Fe2+/Fe3+ cycling in cells should prevent hydroxyl radical production resulting from the Fenton-Haber-Weiss cycle. When added to human neuroblastoma cells, CT51 freely permeated the cell membrane and distributed to both mitochondria and cytoplasm. Intracellularly, CT51 bound iron reversibly and protected against lipid peroxidation. Treatment of primary hippocampal neurons with CT51 reduced the sustained calcium release induced by an agonist of ryanodine receptor-calcium channels. These protective properties of CT51 on cellular function highlight its possible therapeutic use in diseases with significant oxidative, iron and calcium dysregulation."
+  ],
+  "affiliation": [
+    "Biomedical Neuroscience Institute (BNI), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neurons"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line, Tumor"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Iron"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antioxidants"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calcium Signaling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oxidative Stress"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Antioxidants"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Iron"
+          ],
+          "registryNumber": [
+            "E1UOL152H7"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5724820?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5724820"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0189043"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-04"
+  ],
+  "dateOfCreation": [
+    "2017-12-12"
+  ],
+  "dateOfRevision": [
+    "2018-01-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-11"
+  ],
+  "firstPublicationDate": [
+    "2017-12-11"
+  ]
+}

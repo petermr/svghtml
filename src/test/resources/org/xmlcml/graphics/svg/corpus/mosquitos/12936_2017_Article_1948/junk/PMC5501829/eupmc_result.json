@@ -1,0 +1,304 @@
+{
+  "id": [
+    "28687741"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28687741"
+  ],
+  "pmcid": [
+    "PMC5501829"
+  ],
+  "doi": [
+    "10.1038/s41598-017-05123-4"
+  ],
+  "title": [
+    "InSAR constraints on soil moisture evolution after the March 2015 extreme precipitation event in Chile."
+  ],
+  "authorString": [
+    "Scott CP, Lohman RB, Jordan TE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Scott CP"
+          ],
+          "firstName": [
+            "C P"
+          ],
+          "lastName": [
+            "Scott"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "affiliation": [
+            "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 85287, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lohman RB"
+          ],
+          "firstName": [
+            "R B"
+          ],
+          "lastName": [
+            "Lohman"
+          ],
+          "initials": [
+            "RB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7240-3165",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, NY, 14853, USA. rbl62@cornell.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Jordan TE"
+          ],
+          "firstName": [
+            "T E"
+          ],
+          "lastName": [
+            "Jordan"
+          ],
+          "initials": [
+            "TE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6638-433X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, NY, 14853, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7240-3165",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6638-433X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2573257"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4903"
+  ],
+  "abstractText": [
+    "Constraints on soil moisture can guide agricultural practices, act as input into weather, flooding and climate models and inform water resource policies. Space-based interferometric synthetic aperture radar (InSAR) observations provide near-global coverage, even in the presence of clouds, of proxies for soil moisture derived from the amplitude and phase content of radar imagery. We describe results from a 1.5 year-long InSAR time series spanning the March, 2015 extreme precipitation event in the hyperarid Atacama desert of Chile, constraining the immediate increase in soil moisture and drying out over the following months, as well as the response to a later, smaller precipitation event. The inferred temporal evolution of soil moisture is remarkably consistent between independent, overlapping SAR tracks covering a region ~100 km in extent. The unusually large rain event, combined with the extensive spatial and temporal coverage of the SAR dataset, present an unprecedented opportunity to image the time-evolution of soil characteristics over different surface types. Constraints on the timescale of shallow water storage after precipitation events are increasingly valuable as global water resources continue to be stretched to their limits and communities continue to develop in flood-prone areas."
+  ],
+  "affiliation": [
+    "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 85287, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5501829?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5501829"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-05123-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-08"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-07"
+  ],
+  "firstPublicationDate": [
+    "2017-07-07"
+  ]
+}

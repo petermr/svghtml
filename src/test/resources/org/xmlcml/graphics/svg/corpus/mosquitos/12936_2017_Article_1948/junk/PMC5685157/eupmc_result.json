@@ -1,0 +1,522 @@
+{
+  "id": [
+    "29135974"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29135974"
+  ],
+  "pmcid": [
+    "PMC5685157"
+  ],
+  "doi": [
+    "10.1038/sdata.2017.169"
+  ],
+  "title": [
+    "Early meteorological records from Latin-America and the Caribbean during the 18th and 19th centuries."
+  ],
+  "authorString": [
+    "Domínguez-Castro F, Vaquero JM, Gallego MC, Farrona AMM, Antuña-Marrero JC, Cevallos EE, Herrera RG, de la Guía C, Mejía RD, Naranjo JM, Del Rosario Prieto M, Ramos Guadalupe LE, Seiner L, Trigo RM, Villacís M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Domínguez-Castro F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Domínguez-Castro"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Instituto Pirenaico de Ecología, Consejo Superior de Investigaciones Científicas (IPE-CSIC), Aragón, Zaragoza 50059, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Vaquero JM"
+          ],
+          "firstName": [
+            "José Manuel"
+          ],
+          "lastName": [
+            "Vaquero"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8754-1509",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Extremadura, Badajoz 060071, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallego MC"
+          ],
+          "firstName": [
+            "María Cruz"
+          ],
+          "lastName": [
+            "Gallego"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8591-0382",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Extremadura, Badajoz 060071, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Farrona AMM"
+          ],
+          "firstName": [
+            "Ana María Marín"
+          ],
+          "lastName": [
+            "Farrona"
+          ],
+          "initials": [
+            "AMM"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Extremadura, Badajoz 060071, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Antuña-Marrero JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Antuña-Marrero"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Grupo de Óptica Atmosférica de Camagüey, Centro Meteorológico Provincial de Camagüey (INSMET), Camagüey 70600, Cuba."
+          ]
+        },
+        {
+          "fullName": [
+            "Cevallos EE"
+          ],
+          "firstName": [
+            "Erika Elizabeth"
+          ],
+          "lastName": [
+            "Cevallos"
+          ],
+          "initials": [
+            "EE"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería Eléctrica y Electrónica, Escuela Politécnica Nacional, Pichincha, Quito 170525, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Herrera RG"
+          ],
+          "firstName": [
+            "Ricardo García"
+          ],
+          "lastName": [
+            "Herrera"
+          ],
+          "initials": [
+            "RG"
+          ],
+          "affiliation": [
+            "Departamento de Física de la Tierra II, Universidad Complutense de Madrid, Madrid 28040, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "de la Guía C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "de la Guía"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias de la Energía y Mecánica, Universidad de las Fuerzas Armadas (ESPE), Pichincha, Sangolqui 170501, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Mejía RD"
+          ],
+          "firstName": [
+            "Raúl David"
+          ],
+          "lastName": [
+            "Mejía"
+          ],
+          "initials": [
+            "RD"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería Eléctrica y Electrónica, Escuela Politécnica Nacional, Pichincha, Quito 170525, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Naranjo JM"
+          ],
+          "firstName": [
+            "José Manuel"
+          ],
+          "lastName": [
+            "Naranjo"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Extremadura, Badajoz 060071, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Rosario Prieto M"
+          ],
+          "firstName": [
+            "María"
+          ],
+          "lastName": [
+            "Del Rosario Prieto"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto Argentino de Nivología, Glaciología y Ciencias Ambientales (IANIGLA-CONICET), Mendoza, Mendoza 5500, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramos Guadalupe LE"
+          ],
+          "firstName": [
+            "Luis Enrique"
+          ],
+          "lastName": [
+            "Ramos Guadalupe"
+          ],
+          "initials": [
+            "LE"
+          ],
+          "affiliation": [
+            "Meteorological Society of Cuba, Commission of History, La Habana, Habana 10400, Cuba."
+          ]
+        },
+        {
+          "fullName": [
+            "Seiner L"
+          ],
+          "firstName": [
+            "Lizardo"
+          ],
+          "lastName": [
+            "Seiner"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Instituto Riva Agüero, Pontificia Universidad Católica del Perú, Lima 15088, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Trigo RM"
+          ],
+          "firstName": [
+            "Ricardo Machado"
+          ],
+          "lastName": [
+            "Trigo"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Instituto Dom Luiz (IDL), Faculdade de Ciências, Universidade de Lisboa, Lisboa 1749-016, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Villacís M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Villacís"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Civil y Ambiental, Escuela Politécnica Nacional, Pichincha, Quito 170525, Ecuador."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8591-0382",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8754-1509",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9911-4387",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2616496"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific data"
+          ],
+          "ISOAbbreviation": [
+            "Sci Data"
+          ],
+          "medlineAbbreviation": [
+            "Sci Data"
+          ],
+          "NLMid": [
+            "101640192"
+          ],
+          "ISSN": [
+            "2052-4463"
+          ],
+          "ESSN": [
+            "2052-4463"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "170169"
+  ],
+  "abstractText": [
+    "This paper provides early instrumental data recovered for 20 countries of Latin-America and the Caribbean (Argentina, Bahamas, Belize, Brazil, British Guiana, Chile, Colombia, Costa Rica, Cuba, Ecuador, France (Martinique and Guadalupe), Guatemala, Jamaica, Mexico, Nicaragua, Panama, Peru, Puerto Rico, El Salvador and Suriname) during the 18th and 19th centuries. The main meteorological variables retrieved were air temperature, atmospheric pressure, and precipitation, but other variables, such as humidity, wind direction, and state of the sky were retrieved when possible. In total, more than 300,000 early instrumental data were rescued (96% with daily resolution). Especial effort was made to document all the available metadata in order to allow further post-processing. The compilation is far from being exhaustive, but the dataset will contribute to a better understanding of climate variability in the region, and to enlarging the period of overlap between instrumental data and natural/documentary proxies."
+  ],
+  "affiliation": [
+    "Instituto Pirenaico de Ecología, Consejo Superior de Investigaciones Científicas (IPE-CSIC), Aragón, Zaragoza 50059, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "data-paper",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5685157?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5685157"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/sdata.2017.169"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-03-05"
+  ],
+  "dateOfCreation": [
+    "2017-11-15"
+  ],
+  "dateOfRevision": [
+    "2018-03-05"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-14"
+  ],
+  "firstPublicationDate": [
+    "2017-11-14"
+  ]
+}

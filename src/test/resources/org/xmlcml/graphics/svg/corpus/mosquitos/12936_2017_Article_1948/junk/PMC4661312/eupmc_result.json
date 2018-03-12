@@ -1,0 +1,471 @@
+{
+  "id": [
+    "26607893"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26607893"
+  ],
+  "pmcid": [
+    "PMC4661312"
+  ],
+  "doi": [
+    "10.1128/genomea.01385-15"
+  ],
+  "title": [
+    "Complete Genome Sequence of Corynebacterium pseudotuberculosis Strain E19, Isolated from a Horse in Chile."
+  ],
+  "authorString": [
+    "Cavalcante AL, Dias LM, Alves JT, Veras AA, Guimarães LC, Rocha FS, Gala-García A, Retamal P, Ramos RT, Azevedo V, Silva A, Carneiro AR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cavalcante AL"
+          ],
+          "firstName": [
+            "Ana Lídia Q"
+          ],
+          "lastName": [
+            "Cavalcante"
+          ],
+          "initials": [
+            "AL"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Dias LM"
+          ],
+          "firstName": [
+            "Larissa M"
+          ],
+          "lastName": [
+            "Dias"
+          ],
+          "initials": [
+            "LM"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Alves JT"
+          ],
+          "firstName": [
+            "Jorianne T C"
+          ],
+          "lastName": [
+            "Alves"
+          ],
+          "initials": [
+            "JT"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Veras AA"
+          ],
+          "firstName": [
+            "Adonney A O"
+          ],
+          "lastName": [
+            "Veras"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Guimarães LC"
+          ],
+          "firstName": [
+            "Luis C"
+          ],
+          "lastName": [
+            "Guimarães"
+          ],
+          "initials": [
+            "LC"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Rocha FS"
+          ],
+          "firstName": [
+            "Flávia S"
+          ],
+          "lastName": [
+            "Rocha"
+          ],
+          "initials": [
+            "FS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4520-1389",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Biological Sciences, Federal University of Minas Gerais, Belo Horizonte, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Gala-García A"
+          ],
+          "firstName": [
+            "Alfonso"
+          ],
+          "lastName": [
+            "Gala-García"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Institute of Biological Sciences, Federal University of Minas Gerais, Belo Horizonte, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8597-9550",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Animal Preventive Medicine, Faculty of Veterinary and Animal Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramos RT"
+          ],
+          "firstName": [
+            "Rommel T J"
+          ],
+          "lastName": [
+            "Ramos"
+          ],
+          "initials": [
+            "RT"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Azevedo V"
+          ],
+          "firstName": [
+            "Vasco"
+          ],
+          "lastName": [
+            "Azevedo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Institute of Biological Sciences, Federal University of Minas Gerais, Belo Horizonte, Minas Gerais, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva A"
+          ],
+          "firstName": [
+            "Artur"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Carneiro AR"
+          ],
+          "firstName": [
+            "Adriana R"
+          ],
+          "lastName": [
+            "Carneiro"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "affiliation": [
+            "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil adrianarc@ufpa.br."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4520-1389",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8597-9550",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2341003"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "abstractText": [
+    "Corynebacterium pseudotuberculosis is related to several diseases infecting horses and small ruminants, causing economic losses to agribusiness. Here, we present the genome sequence of C. pseudotuberculosis strain E19. The genome includes one circular chromosome 2,367,956 bp (52.1% G+C content), with 2,112 genes predicted, 12 rRNAs, and 48 tRNAs."
+  ],
+  "affiliation": [
+    "Federal University of Pará, Center of Genomic and Systems Biology, Laboratory of Genomics and Bioinformatics, Belém, Pará, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4661312?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4661312"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.01385-15"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2015-11-26"
+  ],
+  "dateOfCreation": [
+    "2015-11-26"
+  ],
+  "dateOfRevision": [
+    "2015-12-14"
+  ],
+  "electronicPublicationDate": [
+    "2015-11-25"
+  ],
+  "firstPublicationDate": [
+    "2015-11-25"
+  ]
+}

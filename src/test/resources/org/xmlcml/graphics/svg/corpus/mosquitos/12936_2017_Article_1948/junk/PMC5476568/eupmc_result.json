@@ -1,0 +1,502 @@
+{
+  "id": [
+    "28630492"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28630492"
+  ],
+  "pmcid": [
+    "PMC5476568"
+  ],
+  "doi": [
+    "10.1038/s41598-017-04204-8"
+  ],
+  "title": [
+    "Towards affordable biomarkers of frontotemporal dementia: A classification study via network's information sharing."
+  ],
+  "authorString": [
+    "Dottori M, Sedeño L, Martorell Caro M, Alifano F, Hesse E, Mikulan E, García AM, Ruiz-Tagle A, Lillo P, Slachevsky A, Serrano C, Fraiman D, Ibanez A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dottori M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Dottori"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "National Scientific and Technical Research Council (CONICET), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Sedeño L"
+          ],
+          "firstName": [
+            "Lucas"
+          ],
+          "lastName": [
+            "Sedeño"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "National Scientific and Technical Research Council (CONICET), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Martorell Caro M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Martorell Caro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratory of Experimental Psychology and Neuroscience (LPEN), Institute of Cognitive and Translational Neuroscience (INCYT), INECO Foundation, Favaloro University, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Alifano F"
+          ],
+          "firstName": [
+            "Florencia"
+          ],
+          "lastName": [
+            "Alifano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratory of Experimental Psychology and Neuroscience (LPEN), Institute of Cognitive and Translational Neuroscience (INCYT), INECO Foundation, Favaloro University, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Hesse E"
+          ],
+          "firstName": [
+            "Eugenia"
+          ],
+          "lastName": [
+            "Hesse"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Instituto de Ingeniería Biomédica, Facultad de Ingeniería, Universidad de Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Mikulan E"
+          ],
+          "firstName": [
+            "Ezequiel"
+          ],
+          "lastName": [
+            "Mikulan"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "National Scientific and Technical Research Council (CONICET), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "García AM"
+          ],
+          "firstName": [
+            "Adolfo M"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6936-0114",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Faculty of Education, National University of Cuyo (UNCuyo), Mendoza, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz-Tagle A"
+          ],
+          "firstName": [
+            "Amparo"
+          ],
+          "lastName": [
+            "Ruiz-Tagle"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre for Advanced Research in Education, Periodista Jose Carrasco, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lillo P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Lillo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Neurociencia, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Slachevsky A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Slachevsky"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6285-3189",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Servicio de Neurología, Departamento de Medicina, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Serrano C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Serrano"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Memory and Balance Clinic, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Fraiman D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Fraiman"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0482-9137",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Neurociencia, Universidad de San Andrés, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ibanez A"
+          ],
+          "firstName": [
+            "Agustin"
+          ],
+          "lastName": [
+            "Ibanez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6758-5101",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Social and Cognitive Neuroscience (CSCN), School of Psychology, Universidad Adolfo Ibáñez, Santiago de Chile, Chile. aibanez@ineco.org.ar."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6936-0114",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6285-3189",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6758-5101",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0482-9137",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2562821"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "3822"
+  ],
+  "abstractText": [
+    "Developing effective and affordable biomarkers for dementias is critical given the difficulty to achieve early diagnosis. In this sense, electroencephalographic (EEG) methods offer promising alternatives due to their low cost, portability, and growing robustness. Here, we relied on EEG signals and a novel information-sharing method to study resting-state connectivity in patients with behavioral variant frontotemporal dementia (bvFTD) and controls. To evaluate the specificity of our results, we also tested Alzheimer's disease (AD) patients. The classification power of the ensuing connectivity patterns was evaluated through a supervised classification algorithm (support vector machine). In addition, we compared the classification power yielded by (i) functional connectivity, (ii) relevant neuropsychological tests, and (iii) a combination of both. BvFTD patients exhibited a specific pattern of hypoconnectivity in mid-range frontotemporal links, which showed no alterations in AD patients. These functional connectivity alterations in bvFTD were replicated with a low-density EEG setting (20 electrodes). Moreover, while neuropsychological tests yielded acceptable discrimination between bvFTD and controls, the addition of connectivity results improved classification power. Finally, classification between bvFTD and AD patients was better when based on connectivity than on neuropsychological measures. Taken together, such findings underscore the relevance of EEG measures as potential biomarker signatures for clinical settings."
+  ],
+  "affiliation": [
+    "National Scientific and Technical Research Council (CONICET), Buenos Aires, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5476568?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5476568"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-04204-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-20"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-19"
+  ],
+  "firstPublicationDate": [
+    "2017-06-19"
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": [
+    "29075647"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29075647"
+  ],
+  "pmcid": [
+    "PMC5624173"
+  ],
+  "doi": [
+    "10.1155/2017/7134389"
+  ],
+  "title": [
+    "Systematic Standardized and Individualized Assessment of Masticatory Cycles Using Electromagnetic 3D Articulography and Computer Scripts."
+  ],
+  "authorString": [
+    "Fuentes R, Arias A, Lezcano MF, Saravia D, Kuramochi G, Dias FJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fuentes R"
+          ],
+          "firstName": [
+            "Ramón"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5895-024X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Integral Dentistry, Research Centre in Dental Sciences (CICO), Dental School, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arias A"
+          ],
+          "firstName": [
+            "Alain"
+          ],
+          "lastName": [
+            "Arias"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Universidad Adventista de Chile, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lezcano MF"
+          ],
+          "firstName": [
+            "María Florencia"
+          ],
+          "lastName": [
+            "Lezcano"
+          ],
+          "initials": [
+            "MF"
+          ],
+          "affiliation": [
+            "Facultad de Ingenieria, Universidad Nacional de Entre Ríos, Entre Ríos, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Saravia D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Saravia"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Integral Dentistry, Research Centre in Dental Sciences (CICO), Dental School, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kuramochi G"
+          ],
+          "firstName": [
+            "Gisaku"
+          ],
+          "lastName": [
+            "Kuramochi"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7780-2755",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Restorative Dentistry, School of Dentistry, Universidad Finis Terrae, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dias FJ"
+          ],
+          "firstName": [
+            "Fernando José"
+          ],
+          "lastName": [
+            "Dias"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Department of Integral Dentistry, Research Centre in Dental Sciences (CICO), Dental School, Universidad de La Frontera, Temuco, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5895-024X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7780-2755",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7134389"
+  ],
+  "abstractText": [
+    "Masticatory movements are studied for decades in odontology; a better understanding of them could improve dental treatments. The aim of this study was to describe an innovative, accurate, and systematic method of analyzing masticatory cycles, generating comparable quantitative data. The masticatory cycles of 5 volunteers (Class I, 19 ± 1.7 years) without articular or dental occlusion problems were evaluated using 3D electromagnetic articulography supported by MATLAB software. The method allows the trajectory morphology of the set of chewing cycles to be analyzed from different views and angles. It was also possible to individualize the trajectory of each cycle providing accurate quantitative data, such as number of cycles, cycle areas in frontal view, and the ratio between each cycle area and the frontal mandibular border movement area. There was a moderate negative correlation (-0.61) between the area and the number of cycles: the greater the cycle area, the smaller the number of repetitions. Finally it was possible to evaluate the area of the cycles through time, which did not reveal a standardized behavior. The proposed method provided reproducible, intelligible, and accurate quantitative and graphical data, suggesting that it is promising and may be applied in different clinical situations and treatments."
+  ],
+  "affiliation": [
+    "Department of Integral Dentistry, Research Centre in Dental Sciences (CICO), Dental School, Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624173?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624173"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/7134389"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-28"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-18"
+  ],
+  "firstPublicationDate": [
+    "2017-09-18"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "id": [
+    "28937982"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28937982"
+  ],
+  "pmcid": [
+    "PMC5609739"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0183460"
+  ],
+  "title": [
+    "Protein complex prediction via dense subgraphs and false positive analysis."
+  ],
+  "authorString": [
+    "Hernandez C, Mella C, Navarro G, Olivera-Nappa A, Araya J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hernandez C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Hernandez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1301-6987",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Biotechnology and Bioengineering (CeBiB), Department of Computer Science, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mella C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Mella"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Computer Science, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarro G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Navarro"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Center for Biotechnology and Bioengineering (CeBiB), Department of Computer Science, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olivera-Nappa A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Olivera-Nappa"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Center for Biotechnology and Bioengineering (CeBiB), Department of Chemical Engineering and Biotechnology, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Araya"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Computer Science, University of Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1301-6987",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2591647"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0183460"
+  ],
+  "abstractText": [
+    "Many proteins work together with others in groups called complexes in order to achieve a specific function. Discovering protein complexes is important for understanding biological processes and predict protein functions in living organisms. Large-scale and throughput techniques have made possible to compile protein-protein interaction networks (PPI networks), which have been used in several computational approaches for detecting protein complexes. Those predictions might guide future biologic experimental research. Some approaches are topology-based, where highly connected proteins are predicted to be complexes; some propose different clustering algorithms using partitioning, overlaps among clusters for networks modeled with unweighted or weighted graphs; and others use density of clusters and information based on protein functionality. However, some schemes still require much processing time or the quality of their results can be improved. Furthermore, most of the results obtained with computational tools are not accompanied by an analysis of false positives. We propose an effective and efficient mining algorithm for discovering highly connected subgraphs, which is our base for defining protein complexes. Our representation is based on transforming the PPI network into a directed acyclic graph that reduces the number of represented edges and the search space for discovering subgraphs. Our approach considers weighted and unweighted PPI networks. We compare our best alternative using PPI networks from Saccharomyces cerevisiae (yeast) and Homo sapiens (human) with state-of-the-art approaches in terms of clustering, biological metrics and execution times, as well as three gold standards for yeast and two for human. Furthermore, we analyze false positive predicted complexes searching the PDBe (Protein Data Bank in Europe) database in order to identify matching protein complexes that have been purified and structurally characterized. Our analysis shows that more than 50 yeast protein complexes and more than 300 human protein complexes found to be false positives according to our prediction method, i.e., not described in the gold standard complex databases, in fact contain protein complexes that have been characterized structurally and documented in PDBe. We also found that some of these protein complexes have recently been classified as part of a Periodic Table of Protein Complexes. The latest version of our software is publicly available at http://doi.org/10.6084/m9.figshare.5297314.v1."
+  ],
+  "affiliation": [
+    "Center for Biotechnology and Bioengineering (CeBiB), Department of Computer Science, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Saccharomyces cerevisiae"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Interaction Mapping"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Molecular"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Internet"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5609739?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5609739"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0183460"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi",
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-10-17"
+  ],
+  "dateOfCreation": [
+    "2017-09-22"
+  ],
+  "dateOfRevision": [
+    "2017-10-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-22"
+  ],
+  "firstPublicationDate": [
+    "2017-09-22"
+  ]
+}

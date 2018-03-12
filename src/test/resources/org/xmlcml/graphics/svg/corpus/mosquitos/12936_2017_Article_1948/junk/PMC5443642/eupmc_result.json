@@ -1,0 +1,548 @@
+{
+  "id": [
+    "28560337"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28560337"
+  ],
+  "pmcid": [
+    "PMC5443642"
+  ],
+  "doi": [
+    "10.1126/sciadv.1602778"
+  ],
+  "title": [
+    "Simple technologies and diverse food strategies of the Late Pleistocene and Early Holocene at Huaca Prieta, Coastal Peru."
+  ],
+  "authorString": [
+    "Dillehay TD, Goodbred S, Pino M, Vásquez Sánchez VF, Tham TR, Adovasio J, Collins MB, Netherly PJ, Hastorf CA, Chiou KL, Piperno D, Rey I, Velchoff N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dillehay TD"
+          ],
+          "firstName": [
+            "Tom D"
+          ],
+          "lastName": [
+            "Dillehay"
+          ],
+          "initials": [
+            "TD"
+          ],
+          "affiliation": [
+            "Department of Anthropology, Vanderbilt University, Nashville, TN 37205, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Goodbred S"
+          ],
+          "firstName": [
+            "Steve"
+          ],
+          "lastName": [
+            "Goodbred"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7626-9864",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Earth and Environmental Science, Vanderbilt University, Nashville, TN 37205, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Pino M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Pino"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6181-353X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez Sánchez VF"
+          ],
+          "firstName": [
+            "Víctor F"
+          ],
+          "lastName": [
+            "Vásquez Sánchez"
+          ],
+          "initials": [
+            "VF"
+          ],
+          "affiliation": [
+            "Biólogo, Centro de Investigaciones Arqueobiológicos y Paleoecológicos Andinos, Arqueobios-Apartado Postal 595, Trujillo, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Tham TR"
+          ],
+          "firstName": [
+            "Teresa Rosales"
+          ],
+          "lastName": [
+            "Tham"
+          ],
+          "initials": [
+            "TR"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Sociales, Arqueología, Universidad Nacional de Trujillo, Trujillo, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Adovasio J"
+          ],
+          "firstName": [
+            "James"
+          ],
+          "lastName": [
+            "Adovasio"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6715-9938",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Harbor Branch Oceanographic Institute, Florida Atlantic University, Fort Pierce, FL 34946, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Collins MB"
+          ],
+          "firstName": [
+            "Michael B"
+          ],
+          "lastName": [
+            "Collins"
+          ],
+          "initials": [
+            "MB"
+          ],
+          "affiliation": [
+            "Texas Archeological Research Laboratory, University of Texas at Austin, 116 Inner Campus Drive, Stop G6000, Austin, TX 78712, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Netherly PJ"
+          ],
+          "firstName": [
+            "Patricia J"
+          ],
+          "lastName": [
+            "Netherly"
+          ],
+          "initials": [
+            "PJ"
+          ],
+          "affiliation": [
+            "Department of Anthropology, Vanderbilt University, Nashville, TN 37205, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Hastorf CA"
+          ],
+          "firstName": [
+            "Christine A"
+          ],
+          "lastName": [
+            "Hastorf"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4661-5524",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Anthropology, University of California, Berkeley, Berkeley, CA 94701, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Chiou KL"
+          ],
+          "firstName": [
+            "Katherine L"
+          ],
+          "lastName": [
+            "Chiou"
+          ],
+          "initials": [
+            "KL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0160-8037",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Anthropology, University of California, Berkeley, Berkeley, CA 94701, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Piperno D"
+          ],
+          "firstName": [
+            "Dolores"
+          ],
+          "lastName": [
+            "Piperno"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Smithsonian Tropical Research Institute, Panama."
+          ]
+        },
+        {
+          "fullName": [
+            "Rey I"
+          ],
+          "firstName": [
+            "Isabel"
+          ],
+          "lastName": [
+            "Rey"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2122-5124",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Tissue and DNA Collections, Museo Nacional de Ciencias Naturales, Madrid, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Velchoff N"
+          ],
+          "firstName": [
+            "Nancy"
+          ],
+          "lastName": [
+            "Velchoff"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Department of Anthropology, Texas State University, San Marcos, TX 78666, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0160-8037",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2122-5124",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2555-6032",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4661-5524",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6181-353X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6715-9938",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7626-9864",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2558050"
+      ],
+      "dateOfPublication": [
+        "2017 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Science advances"
+          ],
+          "ISOAbbreviation": [
+            "Sci Adv"
+          ],
+          "medlineAbbreviation": [
+            "Sci Adv"
+          ],
+          "NLMid": [
+            "101653440"
+          ],
+          "ISSN": [
+            "2375-2548"
+          ],
+          "ESSN": [
+            "2375-2548"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e1602778"
+  ],
+  "abstractText": [
+    "Simple pebble tools, ephemeral cultural features, and the remains of maritime and terrestrial foods are present in undisturbed Late Pleistocene and Early Holocene deposits underneath a large human-made mound at Huaca Prieta and nearby sites on the Pacific coast of northern Peru. Radiocarbon ages indicate an intermittent human presence dated between ~15,000 and 8000 calendar years ago before the mound was built. The absence of fishhooks, harpoons, and bifacial stone tools suggests that technologies of gathering, trapping, clubbing, and exchange were used primarily to procure food resources along the shoreline and in estuarine wetlands and distant mountains. The stone artifacts are minimally worked unifacial stone tools characteristic of several areas of South America. Remains of avocado, bean, and possibly cultivated squash and chile pepper are also present, suggesting human transport and consumption. Our new findings emphasize an early coastal lifeway of diverse food procurement strategies that suggest detailed observation of resource availability in multiple environments and a knowledgeable economic organization, although technologies were simple and campsites were seemingly ephemeral and discontinuous. These findings raise questions about the pace of early human movement along some areas of the Pacific coast and the level of knowledge and technology required to exploit maritime and inland resources."
+  ],
+  "affiliation": [
+    "Department of Anthropology, Vanderbilt University, Nashville, TN 37205, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Late pleistocene",
+        "Peru",
+        "Chile Pepper",
+        "Early Holocene Huaca Prieta",
+        "Early Peopling",
+        "Simple Stone Tools"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5443642?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5443642"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1126/sciadv.1602778"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-31"
+  ],
+  "dateOfRevision": [
+    "2017-06-02"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-24"
+  ],
+  "firstPublicationDate": [
+    "2017-05-24"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": [
+    "28553328"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28553328"
+  ],
+  "pmcid": [
+    "PMC5436346"
+  ],
+  "doi": [
+    "10.4103/1673-5374.205087"
+  ],
+  "title": [
+    "Analyzing the role of extracellular matrix during nervous system development to advance new regenerative strategies."
+  ],
+  "authorString": [
+    "Caprile T, Montecinos H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Caprile T"
+          ],
+          "firstName": [
+            "Teresa"
+          ],
+          "lastName": [
+            "Caprile"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0897-7049",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Axon Guidance Laboratory, Department of Cell Biology, Faculty of Biological Sciences, Universidad de Concepción, Casilla, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecinos H"
+          ],
+          "firstName": [
+            "Hernán"
+          ],
+          "lastName": [
+            "Montecinos"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Axon Guidance Laboratory, Department of Cell Biology, Faculty of Biological Sciences, Universidad de Concepción, Casilla, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0897-7049",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2561065"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Neural regeneration research"
+          ],
+          "ISOAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "medlineAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "NLMid": [
+            "101316351"
+          ],
+          "ISSN": [
+            "1673-5374"
+          ],
+          "ESSN": [
+            "1876-7958"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "566-567"
+  ],
+  "affiliation": [
+    "Axon Guidance Laboratory, Department of Cell Biology, Faculty of Biological Sciences, Universidad de Concepción, Casilla, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5436346"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4103/1673-5374.205087"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-29"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "firstPublicationDate": [
+    "2017-04-01"
+  ]
+}

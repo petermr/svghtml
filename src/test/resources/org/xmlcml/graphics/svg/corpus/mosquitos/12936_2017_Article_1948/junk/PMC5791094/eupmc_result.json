@@ -1,0 +1,382 @@
+{
+  "id": [
+    "29295581"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29295581"
+  ],
+  "pmcid": [
+    "PMC5791094"
+  ],
+  "doi": [
+    "10.3390/nano8010007"
+  ],
+  "title": [
+    "Prevention of Synaptic Alterations and Neurotoxic Effects of PAMAM Dendrimers by Surface Functionalization."
+  ],
+  "authorString": [
+    "Vidal F, Vásquez P, Cayumán FR, Díaz C, Fuentealba J, Aguayo LG, Yévenes GE, Alderete J, Guzmán L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vidal F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Neurobiology, Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. felipevidal@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez P"
+          ],
+          "firstName": [
+            "Pilar"
+          ],
+          "lastName": [
+            "Vásquez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Neurobiology, Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. pivasquez@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Cayumán FR"
+          ],
+          "firstName": [
+            "Francisca R"
+          ],
+          "lastName": [
+            "Cayumán"
+          ],
+          "initials": [
+            "FR"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Neurobiology, Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. fcayuman@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz C"
+          ],
+          "firstName": [
+            "Carola"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratory of Biomaterials and Molecular Design, Department of Organic Chemistry, Faculty of Chemical Sciences, University of Concepcion, Concepción 4070386, Chile. caroladiaz@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentealba J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Fuentealba"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. jorgefuentealba@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo LG"
+          ],
+          "firstName": [
+            "Luis G"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "LG"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. laguayo@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Yévenes GE"
+          ],
+          "firstName": [
+            "Gonzalo E"
+          ],
+          "lastName": [
+            "Yévenes"
+          ],
+          "initials": [
+            "GE"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. gyevenes@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Alderete J"
+          ],
+          "firstName": [
+            "Joel"
+          ],
+          "lastName": [
+            "Alderete"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratory of Biomaterials and Molecular Design, Department of Organic Chemistry, Faculty of Chemical Sciences, University of Concepcion, Concepción 4070386, Chile. jalderet@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Guzmán L"
+          ],
+          "firstName": [
+            "Leonardo"
+          ],
+          "lastName": [
+            "Guzmán"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Neurobiology, Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. joseguzman@udec.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2632118"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nanomaterials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "NLMid": [
+            "101610216"
+          ],
+          "ISSN": [
+            "2079-4991"
+          ],
+          "ESSN": [
+            "2079-4991"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "One of the most studied nanocarriers for drug delivery are polyamidoamine (PAMAM) dendrimers. However, the alterations produced by PAMAM dendrimers in neuronal function have not been thoroughly investigated, and important aspects such as effects on synaptic transmission remain unexplored. We focused on the neuronal activity disruption induced by dendrimers and the possibility to prevent these effects by surface chemical modifications. Therefore, we studied the effects of fourth generation PAMAM with unmodified positively charged surface (G4) in hippocampal neurons, and compared the results with dendrimers functionalized in 25% of their surface groups with folate (PFO25) and polyethylene glycol (PPEG25). G4 dendrimers significantly reduced cell viability at 1 µM, which was attenuated by both chemical modifications, PPEG25 being the less cytotoxic. Patch clamp recordings demonstrated that G4 induced a 7.5-fold increment in capacitive currents as a measure of membrane permeability. Moreover, treatment with this dendrimer increased intracellular Ca2+ by 8-fold with a complete disruption of transients pattern, having as consequence that G4 treatment increased the synaptic vesicle release and frequency of synaptic events by 2.4- and 3-fold, respectively. PFO25 and PPEG25 treatments did not alter membrane permeability, total Ca2+ intake, synaptic vesicle release or synaptic activity frequency. These results demonstrate that cationic G4 dendrimers have neurotoxic effects and induce alterations in normal synaptic activity, which are generated by the augmentation of membrane permeability and a subsequent intracellular Ca2+ increase. Interestingly, these toxic effects and synaptic alterations are prevented by the modification of 25% of PAMAM surface with either folate or polyethylene glycol."
+  ],
+  "affiliation": [
+    "Laboratory of Molecular Neurobiology, Department of Physiology, Faculty of Biological Sciences, University of Concepcion, Concepción 4070386, Chile. felipevidal@udec.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Drug Delivery",
+        "Nanocarriers",
+        "Pamam Dendrimers",
+        "Nanosafety",
+        "Neurotoxicity Of Nanomaterials",
+        "Safe Nanomaterial Design",
+        "Synaptic Effects"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791094?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791094"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nano8010007"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-04"
+  ],
+  "dateOfRevision": [
+    "2018-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-25"
+  ],
+  "firstPublicationDate": [
+    "2017-12-25"
+  ]
+}

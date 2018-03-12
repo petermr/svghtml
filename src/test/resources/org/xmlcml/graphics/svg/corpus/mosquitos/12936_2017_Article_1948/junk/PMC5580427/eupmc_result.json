@@ -1,0 +1,447 @@
+{
+  "id": [
+    "28928937"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28928937"
+  ],
+  "pmcid": [
+    "PMC5580427"
+  ],
+  "doi": [
+    "10.12688/f1000research.12321.1"
+  ],
+  "title": [
+    "Second ISCB Latin American Student Council Symposium (LA-SCS) 2016."
+  ],
+  "authorString": [
+    "Monzon AM, Hasenahuer MA, Mancini E, Coimbra N, Cravero F, Cáceres-Molina J, Ramírez-Sarmiento CA, Palopoli N, Meysman P, Parra RG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Monzon AM"
+          ],
+          "firstName": [
+            "Alexander Miguel"
+          ],
+          "lastName": [
+            "Monzon"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0362-8218",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Structural Bioinformatics Group, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Buenos Aires, B1876BXD, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Hasenahuer MA"
+          ],
+          "firstName": [
+            "Marcia A"
+          ],
+          "lastName": [
+            "Hasenahuer"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Structural Bioinformatics Group, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Buenos Aires, B1876BXD, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Mancini E"
+          ],
+          "firstName": [
+            "Estefanía"
+          ],
+          "lastName": [
+            "Mancini"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Regulation of Alternative pre-mRNA Splicing during Cell Differentiation, Development and Disease, Centre for Genomic Regulation, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Coimbra N"
+          ],
+          "firstName": [
+            "Nilson"
+          ],
+          "lastName": [
+            "Coimbra"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics, Institute of Biological Sciences, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Minas Gerais, 31270-90, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Cravero F"
+          ],
+          "firstName": [
+            "Fiorella"
+          ],
+          "lastName": [
+            "Cravero"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Chemoinformatics Group, Process Engineering PLAPIQUI (UNS-CONICET), Bahía Blanca, 8000, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Cáceres-Molina J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Cáceres-Molina"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Fisiología y Genómica de Frutales, Centro de Biotecnología Vegetal (CBV), Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez-Sarmiento CA"
+          ],
+          "firstName": [
+            "César A"
+          ],
+          "lastName": [
+            "Ramírez-Sarmiento"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palopoli N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Palopoli"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Structural Bioinformatics Group, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Buenos Aires, B1876BXD, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Meysman P"
+          ],
+          "firstName": [
+            "Pieter"
+          ],
+          "lastName": [
+            "Meysman"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5903-633X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Biomedical Informatics Research Center Antwerp (biomina), University of Antwerp, Antwerp, 2000, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Parra RG"
+          ],
+          "firstName": [
+            "R Gonzalo"
+          ],
+          "lastName": [
+            "Parra"
+          ],
+          "initials": [
+            "RG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2446-016X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Quantitative and Computational Biology Group, Max Planck Institute for Biophysical Chemistry, Göttingen, 37077, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2446-016X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0362-8218",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5903-633X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2520313"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "F1000Research"
+          ],
+          "ISOAbbreviation": [
+            "F1000Res"
+          ],
+          "medlineAbbreviation": [
+            "F1000Res"
+          ],
+          "NLMid": [
+            "101594320"
+          ],
+          "ISSN": [
+            "2046-1402"
+          ],
+          "ESSN": [
+            "2046-1402"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "This report summarizes the scientific content and activities of the second edition of the Latin American Symposium (LA-SCS), organized by the Student Council (SC) of the International Society for Computational Biology (ISCB), held in conjunction with the Fourth Latin American conference from the International Society for Computational Biology (ISCB-LA 2016) in Buenos Aires, Argentina, on November 19, 2016."
+  ],
+  "affiliation": [
+    "Structural Bioinformatics Group, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Buenos Aires, B1876BXD, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5580427?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5580427"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.12688/f1000research.12321.1"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.12688/f1000research.12321.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-21"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-16"
+  ],
+  "firstPublicationDate": [
+    "2017-08-16"
+  ]
+}

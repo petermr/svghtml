@@ -1,0 +1,403 @@
+{
+  "id": [
+    "27811092"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27811092"
+  ],
+  "pmcid": [
+    "PMC5095462"
+  ],
+  "doi": [
+    "10.1128/genomea.01178-16"
+  ],
+  "title": [
+    "Genome Sequence of Clostridium paraputrificum 373-A1 Isolated in Chile from a Patient Infected with Clostridium difficile."
+  ],
+  "authorString": [
+    "Guerrero-Araya E, Plaza-Garrido A, Díaz-Yañez F, Pizaro-Guajardo M, Valenzuela SL, Meneses C, Gil F, Castro-Nallar E, Paredes-Sabja D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guerrero-Araya E"
+          ],
+          "firstName": [
+            "Enzo"
+          ],
+          "lastName": [
+            "Guerrero-Araya"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Plaza-Garrido A"
+          ],
+          "firstName": [
+            "Angela"
+          ],
+          "lastName": [
+            "Plaza-Garrido"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz-Yañez F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Díaz-Yañez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Microbiota-Host Interactions and Clostridia Research Group, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pizaro-Guajardo M"
+          ],
+          "firstName": [
+            "Marjorie"
+          ],
+          "lastName": [
+            "Pizaro-Guajardo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela SL"
+          ],
+          "firstName": [
+            "Sandro L"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "SL"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Meneses C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Meneses"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6452-8950",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "FONDAP Center for Genome Regulation, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gil F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Gil"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Microbiota-Host Interactions and Clostridia Research Group, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro-Nallar E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Castro-Nallar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4384-8661",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile eduardo.castro@unab.cl daniel.paredes.sabja@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Paredes-Sabja D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Paredes-Sabja"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6452-8950",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4384-8661",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2485805"
+      ],
+      "dateOfPublication": [
+        "2016 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Clostridium paraputrificum is a gut microbiota member reported in several cases of bacteremia and coinfections. So far, only one genome sequence of a C. paraputrificum (AGR2156) isolate is available. Here, we present the draft genome of C. paraputrificum strain 373-A1, isolated from stools from a patient with C. difficile infection."
+  ],
+  "affiliation": [
+    "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés, Bello, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5095462?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5095462"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.01178-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-04"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-03"
+  ],
+  "firstPublicationDate": [
+    "2016-11-03"
+  ]
+}

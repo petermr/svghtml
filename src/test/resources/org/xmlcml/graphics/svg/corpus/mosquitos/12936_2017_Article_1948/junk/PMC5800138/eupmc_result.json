@@ -1,0 +1,348 @@
+{
+  "id": [
+    "29280971"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29280971"
+  ],
+  "pmcid": [
+    "PMC5800138"
+  ],
+  "doi": [
+    "10.3390/ijerph15010039"
+  ],
+  "title": [
+    "Estimating the Causal Impact of Proximity to Gold and Copper Mines on Respiratory Diseases in Chilean Children: An Application of Targeted Maximum Likelihood Estimation."
+  ],
+  "authorString": [
+    "Herrera R, Berger U, von Ehrenstein OS, Díaz I, Huber S, Moraga Muñoz D, Radon K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Herrera R"
+          ],
+          "firstName": [
+            "Ronald"
+          ],
+          "lastName": [
+            "Herrera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Occupational and Environmental Epidemiology and NetTeaching Unit, Institute for Occupational, Social and Environmental Medicine, University Hospital Munich (Ludwig Maximilians University), 80336 Munich, Germany. rherrera@med.lmu.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Berger U"
+          ],
+          "firstName": [
+            "Ursula"
+          ],
+          "lastName": [
+            "Berger"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Institute for Medical Informatics, Biometry and Epidemiology-IBE, Ludwig Maximilians University, 81377 Munich, Germany. berger@ibe.med.uni-muenchen.de."
+          ]
+        },
+        {
+          "fullName": [
+            "von Ehrenstein OS"
+          ],
+          "firstName": [
+            "Ondine S"
+          ],
+          "lastName": [
+            "von Ehrenstein"
+          ],
+          "initials": [
+            "OS"
+          ],
+          "affiliation": [
+            "Departments of Community Health Sciences and Epidemiology, Fielding School of Public Health, University of California Los Angeles, Los Angeles, CA 90025, USA. ovehren@ucla.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Biostatistics Bloomberg, School of Public Health, Johns Hopkins University, Baltimore, MD 21218, USA. ildiazm84@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Huber S"
+          ],
+          "firstName": [
+            "Stella"
+          ],
+          "lastName": [
+            "Huber"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Occupational and Environmental Epidemiology and NetTeaching Unit, Institute for Occupational, Social and Environmental Medicine, University Hospital Munich (Ludwig Maximilians University), 80336 Munich, Germany. stella.cifuentesbelmar@gmx.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Moraga Muñoz D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Moraga Muñoz"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Medicine School, Science Faculty, Tarapaca University, Past Staff Catholic University of the North, Coquimbo 1781421, Chile. dmm2640@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Radon K"
+          ],
+          "firstName": [
+            "Katja"
+          ],
+          "lastName": [
+            "Radon"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Occupational and Environmental Epidemiology and NetTeaching Unit, Institute for Occupational, Social and Environmental Medicine, University Hospital Munich (Ludwig Maximilians University), 80336 Munich, Germany. katja.radon@gmail.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2631957"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of environmental research and public health"
+          ],
+          "ISOAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "medlineAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "NLMid": [
+            "101238455"
+          ],
+          "ISSN": [
+            "1661-7827"
+          ],
+          "ESSN": [
+            "1660-4601"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "In a town located in a desert area of Northern Chile, gold and copper open-pit mining is carried out involving explosive processes. These processes are associated with increased dust exposure, which might affect children's respiratory health. Therefore, we aimed to quantify the causal attributable risk of living close to the mines on asthma or allergic rhinoconjunctivitis risk burden in children. Data on the prevalence of respiratory diseases and potential confounders were available from a cross-sectional survey carried out in 2009 among 288 (response: 69 % ) children living in the community. The proximity of the children's home addresses to the local gold and copper mine was calculated using geographical positioning systems. We applied targeted maximum likelihood estimation to obtain the causal attributable risk (CAR) for asthma, rhinoconjunctivitis and both outcomes combined. Children living more than the first quartile away from the mines were used as the unexposed group. Based on the estimated CAR, a hypothetical intervention in which all children lived at least one quartile away from the copper mine would decrease the risk of rhinoconjunctivitis by 4.7 percentage points (CAR: - 4.7 ; 95 % confidence interval ( 95 % CI): - 8.4 ; - 0.11 ); and 4.2 percentage points (CAR: - 4.2 ; 95 % CI: - 7.9 ; - 0.05 ) for both outcomes combined. Overall, our results suggest that a hypothetical intervention intended to increase the distance between the place of residence of the highest exposed children would reduce the prevalence of respiratory disease in the community by around four percentage points. This approach could help local policymakers in the development of efficient public health strategies."
+  ],
+  "affiliation": [
+    "Occupational and Environmental Epidemiology and NetTeaching Unit, Institute for Occupational, Social and Environmental Medicine, University Hospital Munich (Ludwig Maximilians University), 80336 Munich, Germany. rherrera@med.lmu.de."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Children",
+        "Chile",
+        "Machine Learning",
+        "Causal Inference",
+        "Respiratory Health",
+        "Tmle",
+        "Environmental Public Health"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5800138?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5800138"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijerph15010039"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-28"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-27"
+  ],
+  "firstPublicationDate": [
+    "2017-12-27"
+  ]
+}

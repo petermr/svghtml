@@ -1,0 +1,346 @@
+{
+  "id": [
+    "29374214"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29374214"
+  ],
+  "pmcid": [
+    "PMC5785998"
+  ],
+  "doi": [
+    "10.1038/s41598-018-19946-2"
+  ],
+  "title": [
+    "Phylogenomic reclassification of the world's most venomous spiders (Mygalomorphae, Atracinae), with implications for venom evolution."
+  ],
+  "authorString": [
+    "Hedin M, Derkarabetian S, Ramírez MJ, Vink C, Bond JE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hedin M"
+          ],
+          "firstName": [
+            "Marshal"
+          ],
+          "lastName": [
+            "Hedin"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Biology, San Diego State University, San Diego, CA, 92182-4614, USA. mhedin@mail.sdsu.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Derkarabetian S"
+          ],
+          "firstName": [
+            "Shahan"
+          ],
+          "lastName": [
+            "Derkarabetian"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9163-9277",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology, San Diego State University, San Diego, CA, 92182-4614, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez MJ"
+          ],
+          "firstName": [
+            "Martín J"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Division of Arachnology Museo Argentino de Ciencias Naturales \"Bernardino Rivadavia\" Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) Ciudad Autónoma de Buenos Aires, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Vink C"
+          ],
+          "firstName": [
+            "Cor"
+          ],
+          "lastName": [
+            "Vink"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4237-0117",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Canterbury Museum Christchurch, Christchurch, 8013, New Zealand."
+          ]
+        },
+        {
+          "fullName": [
+            "Bond JE"
+          ],
+          "firstName": [
+            "Jason E"
+          ],
+          "lastName": [
+            "Bond"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, Auburn University, Auburn, AL, 36849, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9163-9277",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4237-0117",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2635309"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "1636"
+  ],
+  "abstractText": [
+    "Here we show that the most venomous spiders in the world are phylogenetically misplaced. Australian atracine spiders (family Hexathelidae), including the notorious Sydney funnel-web spider Atrax robustus, produce venom peptides that can kill people. Intriguingly, eastern Australian mouse spiders (family Actinopodidae) are also medically dangerous, possessing venom peptides strikingly similar to Atrax hexatoxins. Based on the standing morphology-based classification, mouse spiders are hypothesized distant relatives of atracines, having diverged over 200 million years ago. Using sequence-capture phylogenomics, we instead show convincingly that hexathelids are non-monophyletic, and that atracines are sister to actinopodids. Three new mygalomorph lineages are elevated to the family level, and a revised circumscription of Hexathelidae is presented. Re-writing this phylogenetic story has major implications for how we study venom evolution in these spiders, and potentially genuine consequences for antivenom development and bite treatment research. More generally, our research provides a textbook example of the applied importance of modern phylogenomic research."
+  ],
+  "affiliation": [
+    "Department of Biology, San Diego State University, San Diego, CA, 92182-4614, USA. mhedin@mail.sdsu.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5785998?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5785998"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-19946-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-01-28"
+  ],
+  "dateOfRevision": [
+    "2018-02-08"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-26"
+  ],
+  "firstPublicationDate": [
+    "2018-01-26"
+  ]
+}

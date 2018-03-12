@@ -1,0 +1,278 @@
+{
+  "id": [
+    "27065087"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27065087"
+  ],
+  "pmcid": [
+    "PMC4814521"
+  ],
+  "doi": [
+    "10.3389/fnbeh.2016.00062"
+  ],
+  "title": [
+    "Editorial: Learned Brain Self-Regulation for Emotional Processing and Attentional Modulation: From Theory to Clinical Applications."
+  ],
+  "authorString": [
+    "Ruiz S, Birbaumer N, Sitaram R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ruiz S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Psychiatry Department, Interdisciplinary Center for Neuroscience, School of Medicine, Pontificia Universidad Católica de ChileSantiago, Chile; Laboratory of Brain-Machine Interfaces and Neuromodulation, Pontificia Universidad Católica de ChileSantiago, Chile; Institute of Medical Psychology and Behavioral Neurobiology, University of TübingenTübingen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Birbaumer N"
+          ],
+          "firstName": [
+            "Niels"
+          ],
+          "lastName": [
+            "Birbaumer"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Institute of Medical Psychology and Behavioral Neurobiology, University of TübingenTübingen, Germany; Ospedale San Camillo, Istituto di Ricovero e Cura a Carattere ScientificoVenezia, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Sitaram R"
+          ],
+          "firstName": [
+            "Ranganatha"
+          ],
+          "lastName": [
+            "Sitaram"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Psychiatry Department, Interdisciplinary Center for Neuroscience, School of Medicine, Pontificia Universidad Católica de ChileSantiago, Chile; Laboratory of Brain-Machine Interfaces and Neuromodulation, Pontificia Universidad Católica de ChileSantiago, Chile; Institute of Medical Psychology and Behavioral Neurobiology, University of TübingenTübingen, Germany; Institute for Biological and Medical Engineering, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2369084"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in behavioral neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Front Behav Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Front Behav Neurosci"
+          ],
+          "NLMid": [
+            "101477952"
+          ],
+          "ISSN": [
+            "1662-5153"
+          ],
+          "ESSN": [
+            "1662-5153"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "62"
+  ],
+  "affiliation": [
+    "Psychiatry Department, Interdisciplinary Center for Neuroscience, School of Medicine, Pontificia Universidad Católica de ChileSantiago, Chile; Laboratory of Brain-Machine Interfaces and Neuromodulation, Pontificia Universidad Católica de ChileSantiago, Chile; Institute of Medical Psychology and Behavioral Neurobiology, University of TübingenTübingen, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "editorial",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Attention",
+        "emotion",
+        "Neurofeedback",
+        "Self-regulation",
+        "Brain-computer Interfaces"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4814521?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4814521"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fnbeh.2016.00062"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-04-12"
+  ],
+  "dateOfCreation": [
+    "2016-04-12"
+  ],
+  "dateOfRevision": [
+    "2016-04-13"
+  ],
+  "electronicPublicationDate": [
+    "2016-03-31"
+  ],
+  "firstPublicationDate": [
+    "2016-03-31"
+  ]
+}

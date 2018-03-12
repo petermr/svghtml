@@ -1,0 +1,324 @@
+{
+  "id": [
+    "29026212"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29026212"
+  ],
+  "pmcid": [
+    "PMC5638951"
+  ],
+  "doi": [
+    "10.1038/s41598-017-13595-7"
+  ],
+  "title": [
+    "Infrared light field imaging system free of fixed-pattern noise."
+  ],
+  "authorString": [
+    "Coelho PA, Tapia JE, Pérez F, Torres SN, Saavedra C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Coelho PA"
+          ],
+          "firstName": [
+            "Pablo A"
+          ],
+          "lastName": [
+            "Coelho"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Center for Optics and Photonics, Universidad de Concepción, Casilla, 4012, Concepción, Chile. pcoelho@udec.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia JE"
+          ],
+          "firstName": [
+            "Jorge E"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Concepción, Casilla, 160-C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Pérez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Eléctrica, Universidad de Concepción, Casilla, 160-C, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres SN"
+          ],
+          "firstName": [
+            "Sergio N"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "affiliation": [
+            "Center for Optics and Photonics, Universidad de Concepción, Casilla, 4012, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6201-5326",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad de Concepción, Casilla, 160-C, Concepción, Chile. carlos.saavedra@udec.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6201-5326",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2603102"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "13040"
+  ],
+  "abstractText": [
+    "Digital photonic sensors have greatly evolved to maximize sensitivity and spatial, spectral, and temporal imaging resolution. For low-energy photons, new designs have generated new types of noise that degrade the formed-image signal-to-noise ratio to values lower than 1. Fixed-pattern noise (FPN), which is produced by the non-uniform focal-plane-array optoelectronics response, is an ill-posed problem in infrared and hyperspectral imaging science. Here, we experimentally show that the FPN behaves as an object at a depth of infinity when a light field is captured by an imaging system. The proposed method is based on the capture of the light field of a scene and digital refocusing to any nearby objects in the scene. Unlike standard techniques for FPN reduction, our method does not require knowledge of the physical parameters of the optoelectronic transducer, the motion scene, or the presence of off-line blackbody sources. The ability of the proposed method to reduce FPN is measured by evaluating the structural similarity (SSIM) index employing a blackbody-based FPN reduction technique as a reference. This new interpretation of the FPN opens avenues to create new cameras for low-energy photons with the ability to perform denoising by digital refocusing."
+  ],
+  "affiliation": [
+    "Center for Optics and Photonics, Universidad de Concepción, Casilla, 4012, Concepción, Chile. pcoelho@udec.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5638951?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5638951"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-13595-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-14"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-12"
+  ],
+  "firstPublicationDate": [
+    "2017-10-12"
+  ]
+}

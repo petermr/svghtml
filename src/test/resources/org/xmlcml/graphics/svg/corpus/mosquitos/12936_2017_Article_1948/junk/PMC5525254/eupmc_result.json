@@ -1,0 +1,391 @@
+{
+  "id": [
+    "28770028"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28770028"
+  ],
+  "pmcid": [
+    "PMC5525254"
+  ],
+  "doi": [
+    "10.1186/s40793-017-0252-4"
+  ],
+  "title": [
+    "First draft genome sequence of a strain from the genus Fusibacter isolated from Salar de Ascotán in Northern Chile."
+  ],
+  "authorString": [
+    "Serrano AE, Escudero LV, Tebes-Cayo C, Acosta M, Encalada O, Fernández-Moroso S, Demergasso C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Serrano AE"
+          ],
+          "firstName": [
+            "Antonio E"
+          ],
+          "lastName": [
+            "Serrano"
+          ],
+          "initials": [
+            "AE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6728-0081",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escudero LV"
+          ],
+          "firstName": [
+            "Lorena V"
+          ],
+          "lastName": [
+            "Escudero"
+          ],
+          "initials": [
+            "LV"
+          ],
+          "affiliation": [
+            "Centro de Investigación Científica y Tecnológica para la Minería, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tebes-Cayo C"
+          ],
+          "firstName": [
+            "Cinthya"
+          ],
+          "lastName": [
+            "Tebes-Cayo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Acosta"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Encalada O"
+          ],
+          "firstName": [
+            "Olga"
+          ],
+          "lastName": [
+            "Encalada"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández-Moroso S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Fernández-Moroso"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Demergasso C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Demergasso"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4563-3066",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Científica y Tecnológica para la Minería, Antofagasta, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4563-3066",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6728-0081",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2516380"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Standards in genomic sciences"
+          ],
+          "ISOAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "medlineAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "NLMid": [
+            "101530505"
+          ],
+          "ISSN": [
+            "1944-3277"
+          ],
+          "ESSN": [
+            "1944-3277"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "43"
+  ],
+  "abstractText": [
+    "Fusibacter sp. 3D3 (ATCC BAA-2418) is an arsenate-reducing halotolerant strain within the Firmicutes phylum, isolated from the Salar de Ascotán, a hypersaline salt flat in Northern Chile. This high-Andean closed basin is an athalassohaline environment located at the bottom of a tectonic basin surrounded by mountain range, including some active volcanoes. This landscape can be an advantageous system to explore the effect of salinity on microorganisms that mediate biogeochemical reactions. Since 2000, microbial reduction of arsenic has been evidenced in the system, and the phylogenetic analysis of the original community plus the culture enrichments has revealed the predominance of Firmicutes phylum. Here, we describe the first whole draft genome sequence of an arsenic-reducing strain belonging to the Fusibacter genus showing the highest 16S rRNA gene sequence similarity (98%) with Fusibacter sp. strain Vns02. The draft genome consists of 57 contigs with 5,111,250 bp and an average G + C content of 37.6%. Out of 4780 total genes predicted, 4700 genes code for proteins and 80 genes for RNAs. Insights from the genome sequence and some microbiological features of the strain 3D3 are available under Bioproject accession PRJDB4973 and Biosample SAMD00055724. The release of the genome sequence of this strain could contribute to the understanding of the arsenic biogeochemistry in extreme environments."
+  ],
+  "affiliation": [
+    "Centro de Biotecnología, Universidad Católica del Norte, Antofagasta, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Firmicutes",
+        "Clostridiales",
+        "Hypersaline Environment",
+        "Arsenate-reducing Bacteria",
+        "Fusibacter",
+        "Arsenic Biogeochemistry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5525254?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5525254"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40793-017-0252-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "gen",
+        "sprot",
+        "biosample"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-03"
+  ],
+  "dateOfRevision": [
+    "2017-08-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-24"
+  ],
+  "firstPublicationDate": [
+    "2017-07-24"
+  ]
+}

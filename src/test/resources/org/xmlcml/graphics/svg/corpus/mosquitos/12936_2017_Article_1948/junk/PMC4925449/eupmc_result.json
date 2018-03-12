@@ -1,0 +1,376 @@
+{
+  "id": [
+    "27408806"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27408806"
+  ],
+  "pmcid": [
+    "PMC4925449"
+  ],
+  "doi": [
+    "10.1016/j.gdata.2016.06.010"
+  ],
+  "title": [
+    "De novo transcriptome assembly of 'Angeleno' and 'Lamoon' Japanese plum cultivars (Prunus salicina)."
+  ],
+  "authorString": [
+    "González M, Maldonado J, Salazar E, Silva H, Carrasco B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "González M"
+          ],
+          "firstName": [
+            "Máximo"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3226-8936",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Agronomía e Ingeniería Forestal, Pontificia Universidad Católica de Chile, Vicuña Mackenna 4860, Casilla 306, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9967-0885",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad de Chile, Facultad de Ciencias Agronómicas, Departamento de Producción Agrícola, Laboratorio de Genómica Funcional & Bioinformática. Av. Santa Rosa 11315, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar E"
+          ],
+          "firstName": [
+            "Erika"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2440-7812",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro Regional de Investigación La Platina, Unidad de Recursos Genéticos y Banco de Germoplasma, Instituto de Investigaciones Agropecuarias. Av. Santa Rosa 11610, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva H"
+          ],
+          "firstName": [
+            "Herman"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1007-7442",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad de Chile, Facultad de Ciencias Agronómicas, Departamento de Producción Agrícola, Laboratorio de Genómica Funcional & Bioinformática. Av. Santa Rosa 11315, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco B"
+          ],
+          "firstName": [
+            "Basilio"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Facultad de Agronomía e Ingeniería Forestal, Pontificia Universidad Católica de Chile, Vicuña Mackenna 4860, Casilla 306, Macul, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9967-0885",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3226-8936",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2440-7812",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1007-7442",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2421948"
+      ],
+      "dateOfPublication": [
+        "2016 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genomics data"
+          ],
+          "ISOAbbreviation": [
+            "Genom Data"
+          ],
+          "medlineAbbreviation": [
+            "Genom Data"
+          ],
+          "NLMid": [
+            "101634120"
+          ],
+          "ISSN": [
+            "2213-5960"
+          ],
+          "ESSN": [
+            "2213-5960"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "35-36"
+  ],
+  "abstractText": [
+    "Japanese plum (Prunus salicina L.) is a fruit tree of the Rosaceae family, which is an economically important stone fruit around the world. Currently, Japanese plum breeding programs combine traditional breeding and plant physiology strategies with genetic and genomic analysis. In order to understand the flavonoid pathway regulation and to develop molecular markers associated to the fuit skin color (EST-SSRs), we performed a next generation sequencing based on Illumina Hiseq2000 platform. A total of 22.4 GB and 21 GB raw data were obtained from 'Lamoon' and 'Angeleno' respectively, corresponding to 85,404,726 raw reads to 'Lamoon' and 79,781,666 to 'Angeleno'. A total of 139,775,975 reads were filtered after removing low-quality reads and trimming the adapter sequences. De novo transcriptome assembly was performed using CLC Genome Workbench software and a total of 54,584 unique contigs were generated, with an N50 of 1343 base pair (bp) and a mean length of 829 bp. This work contributed with a specific Japanese plum skin transcriptome, providing two libraries of contrasting fruit skin color phenotype (yellow and red) and increasing substantially the GB of raw data available until now for this specie."
+  ],
+  "affiliation": [
+    "Facultad de Agronomía e Ingeniería Forestal, Pontificia Universidad Católica de Chile, Vicuña Mackenna 4860, Casilla 306, Macul, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Color",
+        "SKin",
+        "De Novo Transcriptome",
+        "Japanese Plum"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4925449?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4925449"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.gdata.2016.06.010"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-07-13"
+  ],
+  "dateOfCreation": [
+    "2016-07-13"
+  ],
+  "dateOfRevision": [
+    "2016-07-15"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-19"
+  ],
+  "firstPublicationDate": [
+    "2016-06-19"
+  ]
+}

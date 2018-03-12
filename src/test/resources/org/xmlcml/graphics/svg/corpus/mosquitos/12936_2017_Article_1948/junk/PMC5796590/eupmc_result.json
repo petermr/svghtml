@@ -1,0 +1,308 @@
+{
+  "id": [
+    "29391001"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29391001"
+  ],
+  "pmcid": [
+    "PMC5796590"
+  ],
+  "doi": [
+    "10.1186/s12917-018-1363-x"
+  ],
+  "title": [
+    "Detection of persistent pestivirus infection in pudú (Pudu puda) in a captive population of artiodactyls in Chile."
+  ],
+  "authorString": [
+    "Salgado R, Hidalgo-Hermoso E, Pizarro-Lucero J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Salgado R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Salgado"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratory of Animal Virology, Department of Animal Preventive Medicine, Faculty of Livestock and Veterinary Sciences, University of Chile, Av. Santa Rosa, 11735, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hidalgo-Hermoso E"
+          ],
+          "firstName": [
+            "Ezequiel"
+          ],
+          "lastName": [
+            "Hidalgo-Hermoso"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Conservation and Research, Buin Zoo Zoological Park, Panamericana Sur Km, 32, Buin, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pizarro-Lucero J"
+          ],
+          "firstName": [
+            "José"
+          ],
+          "lastName": [
+            "Pizarro-Lucero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3631-678X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Animal Virology, Department of Animal Preventive Medicine, Faculty of Livestock and Veterinary Sciences, University of Chile, Av. Santa Rosa, 11735, Santiago, Chile. jpizarro@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3631-678X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2645719"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC veterinary research"
+          ],
+          "ISOAbbreviation": [
+            "BMC Vet. Res."
+          ],
+          "medlineAbbreviation": [
+            "BMC Vet Res"
+          ],
+          "NLMid": [
+            "101249759"
+          ],
+          "ISSN": [
+            "1746-6148"
+          ],
+          "ESSN": [
+            "1746-6148"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "37"
+  ],
+  "abstractText": [
+    "Bovine Viral Diarrhea Virus (BVDV) is the viral agent causing the most important economic losses in livestock throughout the world. Infection of fetuses before their immunological maturity causes the birth of animals persistently infected with BVDV (PI), which are the main source of infection and maintenance of this pathogen in a herd. There is evidence of susceptibility to infection with BVDV in more than 50 species of the order Artiodactyla, and the ability to establish persistent infection in wild cervid species of South America could represent an important risk in control and eradication programs of BVDV in cattle, and a threat to conservation of these wild species. In this study, a serological and virological study was performed to detect BVDV infection in a captive population of non-bovine artiodactyl species in a Chilean zoo with antecedents of abortions whose pathology suggests an infectious etiology.Detection of neutralizing antibodies against BVDV was performed in 112 artiodactyl animals from a zoo in Chile. Three alpacas (Vicugna pacos), one guanaco (Lama guanicoe) and seven pudús (Pudu puda) resulted seropositive, and the only seronegative pudú was suspected to be persistently infected with BVDV. Then two blood samples nine months apart were analyzed by a viral neutralization test and RT-PCR. Non-cytopathogenic BVDVs were isolated in both samples. A phylogenetic analysis showed that the virus was highly related to BVDV-1b strains circulating among Chilean cattle.This is the first report of a South American deer persistently infected with Bovine Viral Diarrhea Virus. Further studies are needed to determine the possible role of BVDV as a pathogen in pudús and as a threat to their conservation."
+  ],
+  "affiliation": [
+    "Laboratory of Animal Virology, Department of Animal Preventive Medicine, Faculty of Livestock and Veterinary Sciences, University of Chile, Av. Santa Rosa, 11735, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bovine viral diarrhea virus",
+        "Zoo",
+        "Pestivirus",
+        "Pudú",
+        "Virus Persistent Infection"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5796590?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5796590"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12917-018-1363-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-02-03"
+  ],
+  "dateOfRevision": [
+    "2018-02-14"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-01"
+  ],
+  "firstPublicationDate": [
+    "2018-02-01"
+  ]
+}

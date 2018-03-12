@@ -1,0 +1,461 @@
+{
+  "id": [
+    "29255572"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29255572"
+  ],
+  "pmcid": [
+    "PMC5731081"
+  ],
+  "doi": [
+    "10.1186/s40793-017-0282-y"
+  ],
+  "title": [
+    "Draft genome sequence of the type strain of the sulfur-oxidizing acidophile, Acidithiobacillus albertensis (DSM 14366)."
+  ],
+  "authorString": [
+    "Castro M, Moya-Beltrán A, Covarrubias PC, Gonzalez M, Cardenas JP, Issotta F, Nuñez H, Acuña LG, Encina G, Holmes DS, Johnson DB, Quatrini R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castro M"
+          ],
+          "firstName": [
+            "Matías"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moya-Beltrán A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Moya-Beltrán"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Covarrubias PC"
+          ],
+          "firstName": [
+            "Paulo C"
+          ],
+          "lastName": [
+            "Covarrubias"
+          ],
+          "initials": [
+            "PC"
+          ],
+          "affiliation": [
+            "Current Address: uBiome Chile, SpA, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cardenas JP"
+          ],
+          "firstName": [
+            "Juan Pablo"
+          ],
+          "lastName": [
+            "Cardenas"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Current Address: uBiome Chile, SpA, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Issotta F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Issotta"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nuñez H"
+          ],
+          "firstName": [
+            "Harold"
+          ],
+          "lastName": [
+            "Nuñez"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Current Address: uBiome Chile, SpA, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña LG"
+          ],
+          "firstName": [
+            "Lillian G"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "LG"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Encina G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Encina"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Genómica S.p.A, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Holmes DS"
+          ],
+          "firstName": [
+            "David S"
+          ],
+          "lastName": [
+            "Holmes"
+          ],
+          "initials": [
+            "DS"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Biologicas, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Johnson DB"
+          ],
+          "firstName": [
+            "D Barrie"
+          ],
+          "lastName": [
+            "Johnson"
+          ],
+          "initials": [
+            "DB"
+          ],
+          "affiliation": [
+            "College of Natural Sciences, Bangor University, Bangor, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Quatrini R"
+          ],
+          "firstName": [
+            "Raquel"
+          ],
+          "lastName": [
+            "Quatrini"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2600-2605",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2600-2605",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2516380"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Standards in genomic sciences"
+          ],
+          "ISOAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "medlineAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "NLMid": [
+            "101530505"
+          ],
+          "ISSN": [
+            "1944-3277"
+          ],
+          "ESSN": [
+            "1944-3277"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "77"
+  ],
+  "abstractText": [
+    "Acidithiobacillus albertensis is an extremely acidophilic, mesophilic, obligatory autotrophic sulfur-oxidizer, with potential importance in the bioleaching of sulfidic metal ores, first described in the 1980s. Here we present the draft genome sequence of Acidithiobacillus albertensis DSM 14366T, thereby both filling a long-standing gap in the genomics of the acidithiobacilli, and providing further insight into the understanding of the biology of the non iron-oxidizing members of the Acidithiobacillus genus. The assembled genome is 3,1 Mb, and contains 47 tRNAs, tmRNA gene and 2 rRNA operons, along with 3149 protein-coding predicted genes. The Whole Genome Shotgun project was deposited in DDBJ/EMBL/GenBank under the accession MOAD00000000."
+  ],
+  "affiliation": [
+    "Fundación Ciencia & Vida, Av. Zañartu 1482, Santiago, 7780272 Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bioleaching",
+        "Phylogenomics",
+        "Sulfur Oxidizer",
+        "Acidithiobacilli",
+        "Extreme Acidophile",
+        "Sulfidic Metal Ores"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5731081?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5731081"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40793-017-0282-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "gen",
+        "refseq"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-12-20"
+  ],
+  "dateOfRevision": [
+    "2017-12-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-15"
+  ],
+  "firstPublicationDate": [
+    "2017-12-15"
+  ]
+}

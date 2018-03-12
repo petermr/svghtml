@@ -1,0 +1,357 @@
+{
+  "id": [
+    "27583549"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27583549"
+  ],
+  "pmcid": [
+    "PMC5008801"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0162567"
+  ],
+  "title": [
+    "Correction: Real-Time Subject-Independent Pattern Classification of Overt and Covert Movements from fNIRS Signals."
+  ],
+  "authorString": [
+    "Robinson N, Zaidi AD, Rana M, Prasad VA, Guan C, Birbaumer N, Sitaram R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Robinson N"
+          ],
+          "firstName": [
+            "Neethu"
+          ],
+          "lastName": [
+            "Robinson"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Zaidi AD"
+          ],
+          "firstName": [
+            "Ali Danish"
+          ],
+          "lastName": [
+            "Zaidi"
+          ],
+          "initials": [
+            "AD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8370-1774",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rana M"
+          ],
+          "firstName": [
+            "Mohit"
+          ],
+          "lastName": [
+            "Rana"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Prasad VA"
+          ],
+          "firstName": [
+            "Vinod A"
+          ],
+          "lastName": [
+            "Prasad"
+          ],
+          "initials": [
+            "VA"
+          ]
+        },
+        {
+          "fullName": [
+            "Guan C"
+          ],
+          "firstName": [
+            "Cuntai"
+          ],
+          "lastName": [
+            "Guan"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Birbaumer N"
+          ],
+          "firstName": [
+            "Niels"
+          ],
+          "lastName": [
+            "Birbaumer"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Sitaram R"
+          ],
+          "firstName": [
+            "Ranganatha"
+          ],
+          "lastName": [
+            "Sitaram"
+          ],
+          "initials": [
+            "R"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8370-1774",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2445807"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0162567"
+  ],
+  "abstractText": [
+    "[This corrects the article DOI: 10.1371/journal.pone.0159959.]."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5008801?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5008801"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0162567"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "27467528"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "PLoS One. 2016 Jul 28;11(7):e0159959. doi: 10.1371/journal.pone.0159959. eCollection 2016."
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-09-01"
+  ],
+  "dateOfRevision": [
+    "2016-09-01"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-01"
+  ],
+  "firstPublicationDate": [
+    "2016-09-01"
+  ]
+}

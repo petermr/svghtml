@@ -1,0 +1,534 @@
+{
+  "id": [
+    "27920724"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27920724"
+  ],
+  "pmcid": [
+    "PMC5118463"
+  ],
+  "doi": [
+    "10.3389/fphys.2016.00529"
+  ],
+  "title": [
+    "Insulin Induces Relaxation and Decreases Hydrogen Peroxide-Induced Vasoconstriction in Human Placental Vascular Bed in a Mechanism Mediated by Calcium-Activated Potassium Channels and L-Arginine/Nitric Oxide Pathways."
+  ],
+  "authorString": [
+    "Cabrera L, Saavedra A, Rojas S, Cid M, Valenzuela C, Gallegos D, Careaga P, Basualto E, Haensgen A, Peña E, Rivas C, Vera JC, Gallardo V, Zúñiga L, Escudero C, Sobrevia L, Wareing M, González M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cabrera L"
+          ],
+          "firstName": [
+            "Lissette"
+          ],
+          "lastName": [
+            "Cabrera"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de ConcepciónConcepción, Chile; Department of Morphophysiology, Faculty of Medicine, Universidad Diego PortalesSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cid M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Cid"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Childcare, Faculty of Medicine, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallegos D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Gallegos"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Careaga P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Careaga"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Basualto E"
+          ],
+          "firstName": [
+            "Emerita"
+          ],
+          "lastName": [
+            "Basualto"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Haensgen A"
+          ],
+          "firstName": [
+            "Astrid"
+          ],
+          "lastName": [
+            "Haensgen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peña E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Peña"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Pathophysiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rivas C"
+          ],
+          "firstName": [
+            "Coralia"
+          ],
+          "lastName": [
+            "Rivas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Pathophysiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vera JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Vera"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pathophysiology, Faculty of Biological Sciences, Universidad de Concepción Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallardo V"
+          ],
+          "firstName": [
+            "Victoria"
+          ],
+          "lastName": [
+            "Gallardo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Department of Pathophysiology, Faculty of Biological Sciences, Universidad de ConcepciónConcepción, Chile; Group of Research and Innovation in Vascular Health (GRIVAS Health)Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zúñiga L"
+          ],
+          "firstName": [
+            "Leandro"
+          ],
+          "lastName": [
+            "Zúñiga"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Médicas (CIM), School of Medicine, Universidad de Talca Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escudero C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Escudero"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Group of Research and Innovation in Vascular Health (GRIVAS Health)Chillán, Chile; Vascular Physiology Laboratory, Group of Investigation in Tumor Angiogenesis (GIANT), Department of Basic Sciences, Universidad del BiobíoChillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sobrevia L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Sobrevia"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de ChileSantiago, Chile; Department of Physiology, Faculty of Pharmacy, Universidad de SevillaSeville, Spain; University of Queensland Centre for Clinical Research (UQCCR), Faculty of Medicine and Biomedical Sciences, University of QueenslandHerston, QLD, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Wareing M"
+          ],
+          "firstName": [
+            "Mark"
+          ],
+          "lastName": [
+            "Wareing"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Maternal and Fetal Health Research Centre, Institute of Human Development, University of ManchesterManchester, UK; Maternal and Fetal Health Research Centre, St. Mary's Hospital, Central Manchester University Hospitals NHS Foundation Trust, Manchester Academic Health Science CentreManchester, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "González M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de ConcepciónConcepción, Chile; Group of Research and Innovation in Vascular Health (GRIVAS Health)Chillán, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2378597"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in physiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Physiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Physiol"
+          ],
+          "NLMid": [
+            "101549006"
+          ],
+          "ISSN": [
+            "1664-042X"
+          ],
+          "ESSN": [
+            "1664-042X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "529"
+  ],
+  "abstractText": [
+    "HIGHLIGHTS Short-term incubation with insulin increases the L-arginine transport in HUVECs.Short-term incubation with insulin increases the NO synthesis in HUVECs.Insulin induces relaxation in human placental vascular bed.Insulin attenuates the constriction induced by hydrogen peroxide in human placenta.The relaxation induced by insulin is dependent on BKCa channels activity in human placenta. Insulin induces relaxation in umbilical veins, increasing the expression of human amino acid transporter 1 (hCAT-1) and nitric oxide synthesis (NO) in human umbilical vein endothelial cells (HUVECs). Short-term effects of insulin on vasculature have been reported in healthy subjects and cell cultures; however, its mechanisms remain unknown. The aim of this study was to characterize the effect of acute incubation with insulin on the regulation of vascular tone of placental vasculature. HUVECs and chorionic vein rings were isolated from normal pregnancies. The effect of insulin on NO synthesis, L-arginine transport, and hCAT-1 abundance was measured in HUVECs. Isometric tension induced by U46619 (thromboxane A2 analog) or hydrogen peroxide (H2O2) were measured in vessels previously incubated 30 min with insulin and/or the following pharmacological inhibitors: tetraethylammonium (KCa channels), iberiotoxin (BKCa channels), genistein (tyrosine kinases), and wortmannin (phosphatidylinositol 3-kinase). Insulin increases L-arginine transport and NO synthesis in HUVECs. In the placenta, this hormone caused relaxation of the chorionic vein, and reduced perfusion pressure in placental cotyledons. In vessels pre-incubated with insulin, the constriction evoked by H2O2 and U46619 was attenuated and the effect on H2O2-induced constriction was blocked with tetraethylammonium and iberiotoxin, but not with genistein, or wortmannin. Insulin rapidly dilates the placental vasculature through a mechanism involving activity of BKCa channels and L-arginine/NO pathway in endothelial cells. This phenomenon is related to quick increases of hCAT-1 abundance and higher capacity of endothelial cells to take up L-arginine and generate NO."
+  ],
+  "affiliation": [
+    "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de ConcepciónConcepción, Chile; Department of Morphophysiology, Faculty of Medicine, Universidad Diego PortalesSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Insulin",
+        "Nitric oxide",
+        "Placenta",
+        "L-arginine",
+        "Bkca Channels",
+        "Hcat-1"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5118463?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5118463"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fphys.2016.00529"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-12-06"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-22"
+  ],
+  "firstPublicationDate": [
+    "2016-11-22"
+  ]
+}

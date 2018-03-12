@@ -1,0 +1,376 @@
+{
+  "id": [
+    "29136016"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29136016"
+  ],
+  "pmcid": [
+    "PMC5685572"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0188117"
+  ],
+  "title": [
+    "Monitoring the effects of land cover change on the supply of ecosystem services in an urban region: A study of Santiago-Valparaíso, Chile."
+  ],
+  "authorString": [
+    "Montoya-Tangarife C, de la Barrera F, Salazar A, Inostroza L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Montoya-Tangarife C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Montoya-Tangarife"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7085-2805",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Geografía, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "de la Barrera F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "de la Barrera"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Facultad de Arquitectura, Urbanismo y Geografía, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro del Desarrollo Urbano Sustentable, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Inostroza L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Inostroza"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6303-4529",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6303-4529",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7085-2805",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0188117"
+  ],
+  "abstractText": [
+    "Mankind's quest for well-being results in continuous pressure to transform landscapes, with said transformation driven by land use changes, urbanization, production activity, and protective measures in addition to climate variability and other environmental drivers. The relationship between anthropogenic landscape changes and the provision of ecosystem services (ES) is a topic of increasing interest in Latin America. In Chile, land cover changes due to increased urbanization and forestry, and expansion of agricultural land, in addition to conservation initiatives as a part of land planning, have been intensive in the last few decades. In this study, the effects of anthropogenic landscape changes on the supply of ES were analyzed for the urban region of Santiago-Valparaiso (Chile) using a method based on expert consultation and land cover change assessment. A pool of experts scored the potential of specific land covers to provide certain ES. The results enabled calculation and mapping of changes in the potential of the landscape to supply ES. The aforementioned changes over a period of 15 years were evaluated. The results indicate a tenuous balance between positive and negative changes to the supply of ES derived from land cover changes. Understanding and reporting how these processes occur in urban regions contributes to the conservation of valuable landscapes through spatial planning tools, especially in areas close to housing developments and sensitive ecosystems."
+  ],
+  "affiliation": [
+    "Instituto de Geografía, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Urbanization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5685572?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5685572"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0188117"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-11"
+  ],
+  "dateOfCreation": [
+    "2017-11-15"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-14"
+  ],
+  "firstPublicationDate": [
+    "2017-11-14"
+  ]
+}

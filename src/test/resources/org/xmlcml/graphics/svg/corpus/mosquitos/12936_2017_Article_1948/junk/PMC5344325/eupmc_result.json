@@ -1,0 +1,449 @@
+{
+  "id": [
+    "28282615"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28282615"
+  ],
+  "pmcid": [
+    "PMC5344325"
+  ],
+  "doi": [
+    "10.1016/j.redox.2017.02.024"
+  ],
+  "title": [
+    "MLN64 induces mitochondrial dysfunction associated with increased mitochondrial cholesterol content."
+  ],
+  "authorString": [
+    "Balboa E, Castro J, Pinochet MJ, Cancino GI, Matías N, Sáez PJ, Martínez A, Álvarez AR, Garcia-Ruiz C, Fernandez-Checa JC, Zanlungo S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Balboa E"
+          ],
+          "firstName": [
+            "Elisa"
+          ],
+          "lastName": [
+            "Balboa"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile. Electronic address: ebalboa@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinochet MJ"
+          ],
+          "firstName": [
+            "María-José"
+          ],
+          "lastName": [
+            "Pinochet"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cancino GI"
+          ],
+          "firstName": [
+            "Gonzalo I"
+          ],
+          "lastName": [
+            "Cancino"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular y Molecular, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile; Center for Integrative Biology, Universidad Mayor."
+          ]
+        },
+        {
+          "fullName": [
+            "Matías N"
+          ],
+          "firstName": [
+            "Nuria"
+          ],
+          "lastName": [
+            "Matías"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Liver Unit, Hospital Clínic i Provincial, Institut d'Investigacions Biomèdiques August Pi i Sunyer, and CIBEREHD, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Sáez PJ"
+          ],
+          "firstName": [
+            "P J"
+          ],
+          "lastName": [
+            "Sáez"
+          ],
+          "initials": [
+            "PJ"
+          ],
+          "affiliation": [
+            "Institut Curie, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular y Molecular, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Álvarez AR"
+          ],
+          "firstName": [
+            "Alejandra R"
+          ],
+          "lastName": [
+            "Álvarez"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular y Molecular, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Garcia-Ruiz C"
+          ],
+          "firstName": [
+            "Carmen"
+          ],
+          "lastName": [
+            "Garcia-Ruiz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Liver Unit, Hospital Clínic i Provincial, Institut d'Investigacions Biomèdiques August Pi i Sunyer, and CIBEREHD, Barcelona, Spain; Research Center for ALPD, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez-Checa JC"
+          ],
+          "firstName": [
+            "José C"
+          ],
+          "lastName": [
+            "Fernandez-Checa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3422-2990",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Liver Unit, Hospital Clínic i Provincial, Institut d'Investigacions Biomèdiques August Pi i Sunyer, and CIBEREHD, Barcelona, Spain; Research Center for ALPD, Keck School of Medicine, University of Southern California, Los Angeles, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Zanlungo S"
+          ],
+          "firstName": [
+            "Silvana"
+          ],
+          "lastName": [
+            "Zanlungo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile. Electronic address: silvana@med.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2652-6102",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3422-2990",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2569633"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Redox biology"
+          ],
+          "ISOAbbreviation": [
+            "Redox Biol"
+          ],
+          "medlineAbbreviation": [
+            "Redox Biol"
+          ],
+          "NLMid": [
+            "101605639"
+          ],
+          "ISSN": [
+            "2213-2317"
+          ],
+          "ESSN": [
+            "2213-2317"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "274-284"
+  ],
+  "abstractText": [
+    "MLN64 is a late endosomal cholesterol-binding membrane protein that has been implicated in cholesterol transport from endosomal membranes to the plasma membrane and/or mitochondria, in toxin-induced resistance, and in mitochondrial dysfunction. Down-regulation of MLN64 in Niemann-Pick C1 deficient cells decreased mitochondrial cholesterol content, suggesting that MLN64 functions independently of NPC1. However, the role of MLN64 in the maintenance of endosomal cholesterol flow and intracellular cholesterol homeostasis remains unclear. We have previously described that hepatic MLN64 overexpression increases liver cholesterol content and induces liver damage. Here, we studied the function of MLN64 in normal and NPC1-deficient cells and we evaluated whether MLN64 overexpressing cells exhibit alterations in mitochondrial function. We used recombinant-adenovirus-mediated MLN64 gene transfer to overexpress MLN64 in mouse liver and hepatic cells; and RNA interference to down-regulate MLN64 in NPC1-deficient cells. In MLN64-overexpressing cells, we found increased mitochondrial cholesterol content and decreased glutathione (GSH) levels and ATPase activity. Furthermore, we found decreased mitochondrial membrane potential and mitochondrial fragmentation and increased mitochondrial superoxide levels in MLN64-overexpressing cells and in NPC1-deficient cells. Consequently, MLN64 expression was increased in NPC1-deficient cells and reduction of its expression restore mitochondrial membrane potential and mitochondrial superoxide levels. Our findings suggest that MLN64 overexpression induces an increase in mitochondrial cholesterol content and consequently a decrease in mitochondrial GSH content leading to mitochondrial dysfunction. In addition, we demonstrate that MLN64 expression is increased in NPC cells and plays a key role in cholesterol transport into the mitochondria."
+  ],
+  "affiliation": [
+    "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile. Electronic address: ebalboa@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P50 AA011999"
+          ],
+          "agency": [
+            "NIAAA NIH HHS"
+          ],
+          "acronym": [
+            "AA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5344325?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5344325"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.redox.2017.02.024"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-11"
+  ],
+  "dateOfRevision": [
+    "2018-01-24"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-02"
+  ],
+  "firstPublicationDate": [
+    "2017-03-02"
+  ]
+}

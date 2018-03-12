@@ -1,0 +1,385 @@
+{
+  "id": [
+    "28234957"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28234957"
+  ],
+  "pmcid": [
+    "PMC5325190"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0169182"
+  ],
+  "title": [
+    "Frequency of chimerism in populations of the kelp Lessonia spicata in central Chile."
+  ],
+  "authorString": [
+    "González AV, Santelices B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "González AV"
+          ],
+          "firstName": [
+            "Alejandra V"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "AV"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7482-1328",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santelices B"
+          ],
+          "firstName": [
+            "Bernabé"
+          ],
+          "lastName": [
+            "Santelices"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile. Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7482-1328",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2520051"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0169182"
+  ],
+  "abstractText": [
+    "Chimerism occurs when two genetically distinct conspecific individuals fuse together generating a single entity. Coalescence and chimerism in red seaweeds has been positively related to an increase in body size, and the consequent reduction in susceptibility to mortality factors, thus increasing survival, reproductive potential and tolerance to stress in contrast to genetically homogeneous organisms. In addition, they showed that a particular pattern of post-fusion growth maintains higher genetic diversity and chimerism in the holdfast but homogenous axes. In Chilean kelps (brown seaweeds), intraorganismal genetic heterogeneity (IGH) and holdfast coalescence has been described in previous research, but the extent of chimerism in wild populations and the patterns of distribution of the genetically heterogeneous thallus zone have scarcely been studied. Since kelps are under continuous harvesting, with enormous social, ecological and economic importance, natural chimerism can be considered a priceless in-situ reservoir of natural genetic resources and variability. In this study, we therefore examined the frequency of IGH and chimerism in three harvested populations of Lessonia spicata. We then evaluated whether chimeric wild-type holdfasts show higher genetic diversity than erect axes (stipe and lamina) and explored the impact of this on the traditional estimation of genetic diversity at the population level. We found a high frequency of IGH (60-100%) and chimerism (33.3-86.7%), varying according to the studied population. We evidenced that chimerism occurs mostly in holdfasts, exhibiting heterogeneous tissues, whereas stipes and lamina were more homogeneous, generating a vertical gradient of allele and genotype abundance as well as divergence, constituting the first time \"within- plant\" genetic patterns have been reported in kelps. This is very different from the chimeric patterns described in land plants and animals. Finally, we evidenced that IGH affected genetic differentiation among populations, showed lower levels of FST index when we compared holdfast than lamina samples. In the light of this, future studies should evaluate the significance of chimeric holdfasts in their ability to increase kelps resilience, improve restoration and ecosystem service."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genetic Heterogeneity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Chimerism"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alleles"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phaeophyta"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5325190?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5325190"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0169182"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-16"
+  ],
+  "dateOfCreation": [
+    "2017-02-24"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-24"
+  ],
+  "firstPublicationDate": [
+    "2017-02-24"
+  ]
+}

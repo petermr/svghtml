@@ -1,0 +1,286 @@
+{
+  "id": [
+    "PMC5462306"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC5462306"
+  ],
+  "title": [
+    "First detection of Salmonella spp. in backyard production farms from central Chile."
+  ],
+  "authorString": [
+    "Alegria-Moran R, Lazo A, Rivera D, Toledo V, Moreno-Switt A, Hamilton-West C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Alegria-Moran R"
+          ],
+          "firstName": [
+            "Raul"
+          ],
+          "lastName": [
+            "Alegria-Moran"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "1Department of Preventive Veterinary Medicine, Faculty of Veterinary and Animal Science, Universidad de Chile, Santiago, Chile;"
+          ]
+        },
+        {
+          "fullName": [
+            "Lazo A"
+          ],
+          "firstName": [
+            "Andres"
+          ],
+          "lastName": [
+            "Lazo"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Rivera D"
+          ],
+          "firstName": [
+            "Dacil"
+          ],
+          "lastName": [
+            "Rivera"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Toledo V"
+          ],
+          "firstName": [
+            "Viviana"
+          ],
+          "lastName": [
+            "Toledo"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno-Switt A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Moreno-Switt"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Hamilton-West C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Hamilton-West"
+          ],
+          "initials": [
+            "C"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2568910"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Online Journal of Public Health Informatics"
+          ],
+          "ISOAbbreviation": [
+            "Online J Public Health Inform"
+          ],
+          "medlineAbbreviation": [
+            "Online J Public Health Inform"
+          ],
+          "NLMid": [
+            "101536954"
+          ],
+          "ISSN": [
+            "1947-2579"
+          ],
+          "ESSN": [
+            "1947-2579"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "affiliation": [
+    "1Department of Preventive Veterinary Medicine, Faculty of Veterinary and Animal Science, Universidad de Chile, Santiago, Chile;"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Abstract"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Salmonella spp.",
+        "One Health",
+        "Backyard Production Systems",
+        "Backyard Surveillance"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5462306"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5462306/?tool=EBI"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-18"
+  ],
+  "dateOfRevision": [
+    "2018-01-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-01"
+  ],
+  "firstPublicationDate": [
+    "2017-05-01"
+  ]
+}

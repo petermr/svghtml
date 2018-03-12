@@ -1,0 +1,372 @@
+{
+  "id": [
+    "29082252"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29082252"
+  ],
+  "pmcid": [
+    "PMC5610864"
+  ],
+  "doi": [
+    "10.1155/2017/6535479"
+  ],
+  "title": [
+    "Multivalent Fusion DNA Vaccine against Brucella abortus."
+  ],
+  "authorString": [
+    "Gómez L, Llanos J, Escalona E, Sáez D, Álvarez F, Molina R, Flores M, Oñate A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gómez L"
+          ],
+          "firstName": [
+            "Leonardo"
+          ],
+          "lastName": [
+            "Gómez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Llanos J"
+          ],
+          "firstName": [
+            "Javiera"
+          ],
+          "lastName": [
+            "Llanos"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escalona E"
+          ],
+          "firstName": [
+            "Emilia"
+          ],
+          "lastName": [
+            "Escalona"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sáez D"
+          ],
+          "firstName": [
+            "Darwin"
+          ],
+          "lastName": [
+            "Sáez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Álvarez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Álvarez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Flores M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Flores"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oñate A"
+          ],
+          "firstName": [
+            "Angel"
+          ],
+          "lastName": [
+            "Oñate"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4358-1015",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4358-1015",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "6535479"
+  ],
+  "abstractText": [
+    "As an alternative brucellosis prevention method, we evaluated the immunogenicity induced by new multivalent DNA vaccines in BALB/c mice. We constructed the vaccines by fusion of BAB1_0273 and/or BAB1_0278 open reading frames (ORFs) from genomic island 3 (GI-3) and the Brucella abortus 2308 sodC gene with a link based on prolines and alanines (pV273-sod, pV278-sod, and pV273-278-sod, resp.). Results show that immunization with all tested multivalent DNA vaccines induced a specific humoral and cellular immune response. These novel multivalent vaccines significantly increased the production of IgM, IgG, and IgG2a antibodies as well as IFN-γ levels and the lymphoproliferative response of splenocytes. Although immunization with these multivalent vaccines induced a typical T-helper 1- (Th1-) dominated immune response, such immunogenicity conferred low protection levels in mice challenged with the B. abortus 2308 pathogenic strain. Our results demonstrated that the expression of BAB1_0273 and/or BABl_0278 antigens conjugated to SOD protein can polarize mice immunity to a Th1-type phenotype, conferring low levels of protection."
+  ],
+  "affiliation": [
+    "Laboratory of Molecular Immunology, Department of Microbiology, Faculty of Biological Sciences, University of Concepción, Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5610864?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5610864"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/6535479"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-31"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-07"
+  ],
+  "firstPublicationDate": [
+    "2017-09-07"
+  ]
+}

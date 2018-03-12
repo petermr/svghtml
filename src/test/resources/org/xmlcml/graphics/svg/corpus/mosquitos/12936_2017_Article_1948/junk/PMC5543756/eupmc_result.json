@@ -1,0 +1,301 @@
+{
+  "id": [
+    "28774316"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28774316"
+  ],
+  "pmcid": [
+    "PMC5543756"
+  ],
+  "doi": [
+    "10.1186/s13054-017-1779-x"
+  ],
+  "title": [
+    "Driving pressure: a marker of severity, a safety limit, or a goal for mechanical ventilation?"
+  ],
+  "authorString": [
+    "Bugedo G, Retamal J, Bruhn A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bugedo G"
+          ],
+          "firstName": [
+            "Guillermo"
+          ],
+          "lastName": [
+            "Bugedo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7527-6202",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Pontificia Universidad Catolica de Chile, Marcoleta 367, Zip code 6510260, Santiago, Chile. gbugedo@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Pontificia Universidad Catolica de Chile, Marcoleta 367, Zip code 6510260, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bruhn A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Bruhn"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8034-1937",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Pontificia Universidad Catolica de Chile, Marcoleta 367, Zip code 6510260, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8034-1937",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7527-6202",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "2582355"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Critical care (London, England)"
+          ],
+          "ISOAbbreviation": [
+            "Crit Care"
+          ],
+          "medlineAbbreviation": [
+            "Crit Care"
+          ],
+          "NLMid": [
+            "9801902"
+          ],
+          "ISSN": [
+            "1364-8535"
+          ],
+          "ESSN": [
+            "1466-609X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "199"
+  ],
+  "affiliation": [
+    "Departamento de Medicina Intensiva, Pontificia Universidad Catolica de Chile, Marcoleta 367, Zip code 6510260, Santiago, Chile. gbugedo@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543756?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543756"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13054-017-1779-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-05"
+  ],
+  "dateOfRevision": [
+    "2018-01-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-04"
+  ],
+  "firstPublicationDate": [
+    "2017-08-04"
+  ]
+}

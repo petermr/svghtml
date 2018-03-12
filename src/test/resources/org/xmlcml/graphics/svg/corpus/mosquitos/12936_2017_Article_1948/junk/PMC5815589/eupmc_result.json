@@ -1,0 +1,273 @@
+{
+  "id": [
+    "29451910"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29451910"
+  ],
+  "pmcid": [
+    "PMC5815589"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0192280"
+  ],
+  "title": [
+    "The fruit and vegetable import pathway for potential invasive pest arrivals."
+  ],
+  "authorString": [
+    "Lichtenberg E, Olson LJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lichtenberg E"
+          ],
+          "firstName": [
+            "Erik"
+          ],
+          "lastName": [
+            "Lichtenberg"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0619-6254",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Agricultural and Resource Economics, University of Maryland, College Park, Maryland, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Olson LJ"
+          ],
+          "firstName": [
+            "Lars J"
+          ],
+          "lastName": [
+            "Olson"
+          ],
+          "initials": [
+            "LJ"
+          ],
+          "affiliation": [
+            "Department of Agricultural and Resource Economics, University of Maryland, College Park, Maryland, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0619-6254",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2645507"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e0192280"
+  ],
+  "abstractText": [
+    "The expansion of international trade in commodities increases the risk of alien species invasions. Invaders are difficult to detect on introduction, so prevention remains the preferred strategy for managing the threat of invasions. Propagule pressure has been shown to be a good predictor of invasion risk. Most studies to date, however, link potential invasive species arrivals with indirect measures of propagule pressure such as aggregate trade volumes. This paper estimates propagule pressure using data that measure actual arrivals. Specifically, it uses inspection data that covers almost all U.S. fruit and vegetable imports from 2005-2014 to estimate a logit model of the probability of potential invasive species arrival and expected propagule frequencies for 2,240 commodity/country of origin combinations. Clear patterns in the geographic origin and commodity pathways for potential pests are identified. The average probability of arrival is low, approximately 0.03, but is two to ten times higher for some commodities, most notably herbs. We identify commodities with a high number of expected arrivals due to either a large volume of trade, high interception rates, or a combination of both. Seven of the top ten countries of origin for propagule frequency are from the Western Hemisphere and further trade liberalization within the Western Hemisphere is likely to heighten challenges to enforcement of US phytosanitary standards. Patterns in the data can help identify the commodities and countries of origin in greatest need of technical assistance and guide targeting of surveillance for the pathways of greatest phytosanitary concern."
+  ],
+  "affiliation": [
+    "Department of Agricultural and Resource Economics, University of Maryland, College Park, Maryland, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5815589?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5815589"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0192280"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-17"
+  ],
+  "dateOfRevision": [
+    "2018-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-16"
+  ],
+  "firstPublicationDate": [
+    "2018-02-16"
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "id": [
+    "29150209"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29150209"
+  ],
+  "pmcid": [
+    "PMC5725506"
+  ],
+  "doi": [
+    "10.1016/j.vaccine.2017.11.006"
+  ],
+  "title": [
+    "Exploring the relationship between polio type 2 serum neutralizing antibodies and intestinal immunity using data from two randomized controlled trials of new bOPV-IPV immunization schedules."
+  ],
+  "authorString": [
+    "Bandyopadhyay AS, Asturias EJ, O'Ryan M, Oberste MS, Weldon W, Clemens R, Rüttimann R, Modlin JF, Gast C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bandyopadhyay AS"
+          ],
+          "firstName": [
+            "Ananda S"
+          ],
+          "lastName": [
+            "Bandyopadhyay"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "affiliation": [
+            "Bill & Melinda Gates Foundation, Seattle, WA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Asturias EJ"
+          ],
+          "firstName": [
+            "Edwin J"
+          ],
+          "lastName": [
+            "Asturias"
+          ],
+          "initials": [
+            "EJ"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, University of Colorado School of Medicine, Aurora, CO, USA; Center for Global Health and Department of Epidemiology, Colorado School of Public Health, Aurora, CO, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Ryan M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "O'Ryan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Millennium Institute of Immunology and Immunotherapy, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oberste MS"
+          ],
+          "firstName": [
+            "M Steven"
+          ],
+          "lastName": [
+            "Oberste"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "affiliation": [
+            "Centers for Disease Control and Prevention, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Weldon W"
+          ],
+          "firstName": [
+            "William"
+          ],
+          "lastName": [
+            "Weldon"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Centers for Disease Control and Prevention, Atlanta, GA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Clemens R"
+          ],
+          "firstName": [
+            "Ralf"
+          ],
+          "lastName": [
+            "Clemens"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Global Research in Infectious Diseases (GRID), Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Rüttimann R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Rüttimann"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Fighting Infectious Diseases in Emerging Countries (FIDEC), Miami, FL, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Modlin JF"
+          ],
+          "firstName": [
+            "John F"
+          ],
+          "lastName": [
+            "Modlin"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "Bill & Melinda Gates Foundation, Seattle, WA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gast C"
+          ],
+          "firstName": [
+            "Chris"
+          ],
+          "lastName": [
+            "Gast"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Fred Hutchinson Cancer Research Center, Seattle, WA, USA. Electronic address: chris@gastsc.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "52"
+      ],
+      "volume": [
+        "35"
+      ],
+      "journalIssueId": [
+        "2623943"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Vaccine"
+          ],
+          "ISOAbbreviation": [
+            "Vaccine"
+          ],
+          "medlineAbbreviation": [
+            "Vaccine"
+          ],
+          "NLMid": [
+            "8406899"
+          ],
+          "ISSN": [
+            "0264-410X"
+          ],
+          "ESSN": [
+            "1873-2518"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7283-7291"
+  ],
+  "abstractText": [
+    "Inactivated polio vaccine (IPV) is now the only source of routine type 2 protection. The relationship, if any, between vaccine-induced type 2 humoral and intestinal immunity is poorly understood.Two clinical trials in five Latin American countries of mixed or sequential bOPV-IPV schedules in 1640 infants provided data on serum neutralizing antibodies (NAb) and intestinal immunity, assessed as viral shedding following oral mOPV2 challenge. Analyses with generalized additive and quantile regression models examined the relationships between prechallenge NAb titers and proportion, duration and titers (magnitude) of viral shedding.We found a statistically significant (p < .0001) but weak relationship between NAb titer at the time of mOPV2 challenge and the Shedding Index Endpoint, the mean log10 stool viral titer over 4 post-challenge assessments. Day 28 post-challenge shedding was 13.4% (8.1%, 18.8%) lower and the Day 21 post-challenge median titer of shed virus was 3.10 log10 (2.21, 3.98) lower for subjects with NAb titers at the ULOQ as compared with LLOQ on day of challenge. Overall, there was a weak but significant negative relationship, with high NAb titers associated with lower rates of viral shedding, an effect supported by subset analysis to elucidate between-country differences.Taken alone, the weak association between pre-challenge NAb titers following IPV or mixed/sequential bOPV/IPV immunization and differences in intestinal immunity is insufficient to predict polio type 2 intestinal immunity; even very high titers may not preclude viral shedding. Further research is needed to identify predictive markers of intestinal immunity in the context of global OPV cessation and IPV-only immunization."
+  ],
+  "affiliation": [
+    "Bill & Melinda Gates Foundation, Seattle, WA, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Poliovirus",
+        "Vaccination",
+        "Humoral immunity",
+        "Intestinal Immunity",
+        "Endgame"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5725506?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5725506"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.vaccine.2017.11.006"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-19"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-14"
+  ],
+  "firstPublicationDate": [
+    "2017-11-14"
+  ]
+}

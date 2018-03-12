@@ -1,0 +1,959 @@
+{
+  "id": [
+    "28209916"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28209916"
+  ],
+  "pmcid": [
+    "PMC5400552"
+  ],
+  "doi": [
+    "10.18632/oncotarget.15348"
+  ],
+  "title": [
+    "Diabetic concentrations of metformin inhibit platelet-mediated ovarian cancer cell progression."
+  ],
+  "authorString": [
+    "Erices R, Cubillos S, Aravena R, Santoro F, Marquez M, Orellana R, Ramírez C, González P, Fuenzalida P, Bravo ML, Oliva B, Kato S, Ibañez C, Brañes J, Bravo E, Alonso C, García K, Arab C, Torres VA, Godoy AS, Pereira J, Bustos G, Cardenas JC, Cuello MA, Owen GI."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Erices R"
+          ],
+          "firstName": [
+            "Rafaela"
+          ],
+          "lastName": [
+            "Erices"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cubillos S"
+          ],
+          "firstName": [
+            "Sofía"
+          ],
+          "lastName": [
+            "Cubillos"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aravena R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Aravena"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad Santo Tomás, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santoro F"
+          ],
+          "firstName": [
+            "Felice"
+          ],
+          "lastName": [
+            "Santoro"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marquez M"
+          ],
+          "firstName": [
+            "Monica"
+          ],
+          "lastName": [
+            "Marquez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Orellana R"
+          ],
+          "firstName": [
+            "Renan"
+          ],
+          "lastName": [
+            "Orellana"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad Bernardo OHiggins, Facultad de Salud, Departamento de Ciencias Químicas y Biológicas, General Gana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Biomedical Research Consortium of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuenzalida P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Fuenzalida"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo ML"
+          ],
+          "firstName": [
+            "María Loreto"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oliva B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Oliva"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Biomedical Research Consortium of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kato S"
+          ],
+          "firstName": [
+            "Sumie"
+          ],
+          "lastName": [
+            "Kato"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Division of Obstetrics and Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ibañez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Ibañez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center UC Investigation in Oncology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brañes J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Brañes"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Division of Obstetrics and Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo E"
+          ],
+          "firstName": [
+            "Erasmo"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Hospital Gustavo Fricke, Viña de Mar, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alonso C"
+          ],
+          "firstName": [
+            "Catalina"
+          ],
+          "lastName": [
+            "Alonso"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Hospital Gustavo Fricke, Viña de Mar, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García K"
+          ],
+          "firstName": [
+            "Karen"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Hospital Sotero del Rio, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arab C"
+          ],
+          "firstName": [
+            "Clemente"
+          ],
+          "lastName": [
+            "Arab"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Hospital Luis Tisne, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres VA"
+          ],
+          "firstName": [
+            "Vicente A"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Godoy AS"
+          ],
+          "firstName": [
+            "Alejandro S"
+          ],
+          "lastName": [
+            "Godoy"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "affiliation": [
+            "Roswell Park Department of Urology, Roswell Park Cancer Institute, Buffalo, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Pereira J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Pereira"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Hematology and Oncology Department, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustos G"
+          ],
+          "firstName": [
+            "Galdo"
+          ],
+          "lastName": [
+            "Bustos"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Anatomy and Developmental Biology, Institute of Biomedical Science, Geroscience Center for Brain Health and Metabolism, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cardenas JC"
+          ],
+          "firstName": [
+            "Julio Cesar"
+          ],
+          "lastName": [
+            "Cardenas"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Buck Institute for Research on Aging, Novato, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuello MA"
+          ],
+          "firstName": [
+            "Mauricio A"
+          ],
+          "lastName": [
+            "Cuello"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Division of Obstetrics and Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "13"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2547878"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncotarget"
+          ],
+          "ISOAbbreviation": [
+            "Oncotarget"
+          ],
+          "medlineAbbreviation": [
+            "Oncotarget"
+          ],
+          "NLMid": [
+            "101532965"
+          ],
+          "ISSN": [
+            "1949-2553"
+          ],
+          "ESSN": [
+            "1949-2553"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "20865-20880"
+  ],
+  "abstractText": [
+    "Clinical studies have suggested a survival benefit in ovarian cancer patients with type 2 diabetes mellitus taking metformin, however the mechanism by which diabetic concentrations of metformin could deliver this effect is still poorly understood. Platelets not only represent an important reservoir of growth factors and angiogenic regulators, they are also known to participate in the tumor microenvironment implicated in tumor growth and dissemination. Herein, we investigated if diabetic concentrations of metformin could impinge upon the previously reported observation that platelet induces an increase in the tube forming capacity of endothelial cells (angiogenesis) and upon ovarian cancer cell aggressiveness. We demonstrate that metformin inhibits the increase in angiogenesis brought about by platelets in a mechanism that did not alter endothelial cell migration. In ovarian cancer cell lines and primary cultured cancer cells isolated from the ascitic fluid of ovarian cancer patients, we assessed the effect of combinations of platelets and metformin upon angiogenesis, migration, invasion and cancer sphere formation. The enhancement of each of these parameters by platelets was abrogated by the present of metformin in the vast majority of cancer cell cultures tested. Neither metformin nor platelets altered proliferation; however, metformin inhibited the increase in phosphorylation of focal adhesion kinase induced by platelets. We present the first evidence suggesting that concentrations of metformin present in diabetic patients may reduce the actions of platelets upon both endothelial cells and cancer cell survival and dissemination."
+  ],
+  "affiliation": [
+    "Department of Physiological Sciences, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Blood Platelets"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tumor Cells, Cultured"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ovarian Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetes Mellitus, Type 2"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Progression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neovascularization, Pathologic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Metformin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TU"
+                  ],
+                  "qualifierName": [
+                    "therapeutic use"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hypoglycemic Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TU"
+                  ],
+                  "qualifierName": [
+                    "therapeutic use"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Apoptosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Proliferation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Movement"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hemostasis",
+        "Thrombocytosis",
+        "Ea.hy926",
+        "Skov3",
+        "Uci101"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Hypoglycemic Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Metformin"
+          ],
+          "registryNumber": [
+            "9100L32L2N"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5400552?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5400552"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.18632/oncotarget.15348"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-13"
+  ],
+  "dateOfCreation": [
+    "2017-02-17"
+  ],
+  "dateOfRevision": [
+    "2017-10-13"
+  ],
+  "firstPublicationDate": [
+    "2017-02-15"
+  ]
+}

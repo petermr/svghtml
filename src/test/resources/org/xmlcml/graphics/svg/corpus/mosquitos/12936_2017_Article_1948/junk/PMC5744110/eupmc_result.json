@@ -1,0 +1,282 @@
+{
+  "id": [
+    "29189742"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29189742"
+  ],
+  "pmcid": [
+    "PMC5744110"
+  ],
+  "doi": [
+    "10.3390/toxins9120390"
+  ],
+  "title": [
+    "Targeting Metastasis with Snake Toxins: Molecular Mechanisms."
+  ],
+  "authorString": [
+    "Urra FA, Araya-Maturana R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Urra FA"
+          ],
+          "firstName": [
+            "Félix A"
+          ],
+          "lastName": [
+            "Urra"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Geroscience Center for Brain Health and Metabolism, Independencia 1027, Casilla 7, Santiago 7800003, Chile. felix.urra@qf.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya-Maturana R"
+          ],
+          "firstName": [
+            "Ramiro"
+          ],
+          "lastName": [
+            "Araya-Maturana"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5082-9146",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Química de Recursos Naturales, Universidad de Talca, Casilla 747, Talca 3460000, Chile. raraya@utalca.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5082-9146",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2621594"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Toxins"
+          ],
+          "ISOAbbreviation": [
+            "Toxins (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Toxins (Basel)"
+          ],
+          "NLMid": [
+            "101530765"
+          ],
+          "ISSN": [
+            "2072-6651"
+          ],
+          "ESSN": [
+            "2072-6651"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Metastasis involves the migration of cancer cells from a primary tumor to invade and establish secondary tumors in distant organs, and it is the main cause for cancer-related deaths. Currently, the conventional cytostatic drugs target the proliferation of malignant cells, being ineffective in metastatic disease. This highlights the need to find new anti-metastatic drugs. Toxins isolated from snake venoms are a natural source of potentially useful molecular scaffolds to obtain agents with anti-migratory and anti-invasive effects in cancer cells. While there is greater evidence concerning the mechanisms of cell death induction of several snake toxin classes on cancer cells; only a reduced number of toxin classes have been reported on (i.e., disintegrins/disintegrin-like proteins, C-type lectin-like proteins, C-type lectins, serinproteases, cardiotoxins, snake venom cystatins) as inhibitors of adhesion, migration, and invasion of cancer cells. Here, we discuss the anti-metastatic mechanisms of snake toxins, distinguishing three targets, which involve (1) inhibition of extracellular matrix components-dependent adhesion and migration, (2) inhibition of epithelial-mesenchymal transition, and (3) inhibition of migration by alterations in the actin/cytoskeleton network."
+  ],
+  "affiliation": [
+    "Geroscience Center for Brain Health and Metabolism, Independencia 1027, Casilla 7, Santiago 7800003, Chile. felix.urra@qf.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cancer cells",
+        "Snake venom",
+        "Invasion",
+        "Anti-cancer Agents",
+        "Migrastatic Drugs"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5744110?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5744110"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/toxins9120390"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-01"
+  ],
+  "dateOfRevision": [
+    "2018-01-01"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-30"
+  ],
+  "firstPublicationDate": [
+    "2017-11-30"
+  ]
+}

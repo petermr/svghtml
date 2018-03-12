@@ -1,0 +1,406 @@
+{
+  "id": [
+    "28378757"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28378757"
+  ],
+  "pmcid": [
+    "PMC5381107"
+  ],
+  "doi": [
+    "10.1038/srep45918"
+  ],
+  "title": [
+    "Coseismic seafloor deformation in the trench region during the Mw8.8 Maule megathrust earthquake."
+  ],
+  "authorString": [
+    "Maksymowicz A, Chadwell CD, Ruiz J, Tréhu AM, Contreras-Reyes E, Weinrebe W, Díaz-Naveas J, Gibson JC, Lonsdale P, Tryon MD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Maksymowicz A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Maksymowicz"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chadwell CD"
+          ],
+          "firstName": [
+            "C D"
+          ],
+          "lastName": [
+            "Chadwell"
+          ],
+          "initials": [
+            "CD"
+          ],
+          "affiliation": [
+            "Scripps Institution of Oceanography, University of California, San Diego, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tréhu AM"
+          ],
+          "firstName": [
+            "A M"
+          ],
+          "lastName": [
+            "Tréhu"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "College of Earth, Ocean and Atmospheric Sciences, Oregon State University, Corvallis, OR, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Contreras-Reyes E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Contreras-Reyes"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Weinrebe W"
+          ],
+          "firstName": [
+            "W"
+          ],
+          "lastName": [
+            "Weinrebe"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "GEOMAR - Helmholtz-Centre for Ocean Research, Kiel, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz-Naveas J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Díaz-Naveas"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Escuela de Ciencias del Mar, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gibson JC"
+          ],
+          "firstName": [
+            "J C"
+          ],
+          "lastName": [
+            "Gibson"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1637-3533",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Lamont-Doherty Earth Observatory, Columbia University, New York, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lonsdale P"
+          ],
+          "firstName": [
+            "P"
+          ],
+          "lastName": [
+            "Lonsdale"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Scripps Institution of Oceanography, University of California, San Diego, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Tryon MD"
+          ],
+          "firstName": [
+            "M D"
+          ],
+          "lastName": [
+            "Tryon"
+          ],
+          "initials": [
+            "MD"
+          ],
+          "affiliation": [
+            "Scripps Institution of Oceanography, University of California, San Diego, CA, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1637-3533",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2542553"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "45918"
+  ],
+  "abstractText": [
+    "The Mw 8.8 megathrust earthquake that occurred on 27 February 2010 offshore the Maule region of central Chile triggered a destructive tsunami. Whether the earthquake rupture extended to the shallow part of the plate boundary near the trench remains controversial. The up-dip limit of rupture during large subduction zone earthquakes has important implications for tsunami generation and for the rheological behavior of the sedimentary prism in accretionary margins. However, in general, the slip models derived from tsunami wave modeling and seismological data are poorly constrained by direct seafloor geodetic observations. We difference swath bathymetric data acquired across the trench in 2008, 2011 and 2012 and find ~3-5 m of uplift of the seafloor landward of the deformation front, at the eastern edge of the trench. Modeling suggests this is compatible with slip extending seaward, at least, to within ~6 km of the deformation front. After the Mw 9.0 Tohoku-oki earthquake, this result for the Maule earthquake represents only the second time that repeated bathymetric data has been used to detect the deformation following megathrust earthquakes, providing methodological guidelines for this relatively inexpensive way of obtaining seafloor geodetic data across subduction zone."
+  ],
+  "affiliation": [
+    "Departamento de Geofísica, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5381107?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5381107"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/srep45918"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-05"
+  ],
+  "dateOfRevision": [
+    "2017-04-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-05"
+  ],
+  "firstPublicationDate": [
+    "2017-04-05"
+  ]
+}

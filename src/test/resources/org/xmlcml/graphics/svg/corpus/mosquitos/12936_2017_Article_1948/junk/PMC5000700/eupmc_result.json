@@ -1,0 +1,570 @@
+{
+  "id": [
+    "27548142"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27548142"
+  ],
+  "pmcid": [
+    "PMC5000700"
+  ],
+  "doi": [
+    "10.3390/ijms17081303"
+  ],
+  "title": [
+    "Secondary Metabolites in Ramalina terebrata Detected by UHPLC/ESI/MS/MS and Identification of Parietin as Tau Protein Inhibitor."
+  ],
+  "authorString": [
+    "Cornejo A, Salgado F, Caballero J, Vargas R, Simirgiotis M, Areche C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cornejo A"
+          ],
+          "firstName": [
+            "Alberto"
+          ],
+          "lastName": [
+            "Cornejo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Escuela de Tecnología Médica, Universidad Andrés Bello, Sazié 2315, Primer Piso, Santiago 8370092, Chile. alberto.cornejo@unab.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Salgado F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Salgado"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Química, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago 8320000, Chile. fsalgado@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Caballero J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Caballero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0182-1444",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular, Facultad de Ingeniería, Universidad de Talca, 2 Norte 685, Casilla 721, Talca 3460000, Chile. jcaballero@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Vargas R"
+          ],
+          "firstName": [
+            "Reinaldo"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Universidad Metropolitana de Ciencias de la Educación, Avda. Jose Pedro Alessandri 774, Ñuñoa, Santiago 8320000, Chile. reinaldo.vargas@umce.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Simirgiotis M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Simirgiotis"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Productos Naturales, Instituto de Farmacia, Facultad de Ciencias, Universidad Austral de Chile, Casilla 567, Valdivia 5090000, Chile. mario.simirgiotis@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Areche C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Areche"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Química, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago 8320000, Chile. areche@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0182-1444",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2478018"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Liquid chromatography coupled with mass spectrometry is an outstanding methodology for fast analysis of phenolic compounds in biological samples. Twenty two compounds were quickly and accurately identified in the methanolic extract of the Antarctic lichen Ramalina terebrata for the first time using ultra high pressure liquid chromatography coupled with photodiode array detector and high resolution mass spectrometry (UHPLC-PDA-Q/Orbitrap/MS/MS). In addition, the extract and the four compounds isolated from this species were tested for the inhibitory activity of tau protein aggregation, which is a protein involved in Alzheimer's disease (AD). All compounds showed null activity with the exception of parietin, which it was able to inhibit aggregation process of tau in a concentration range between 3 µg/mL (10 µM) to 28 µg/mL (100 µM). In addition, we show how parietin interact with tau (306)VQIVYK(311) hexapeptide inside of the microtubule binding domain (4R) with the help of molecular docking experiments. Finally, the constituents present in the methanolic extract could possibly contribute to the established anti-aggregation activity for this extract and this in-depth analysis of the chemical composition of R. terebrata could guide further research into its medicinal properties and potential uses."
+  ],
+  "affiliation": [
+    "Facultad de Medicina, Escuela de Tecnología Médica, Universidad Andrés Bello, Sazié 2315, Primer Piso, Santiago 8370092, Chile. alberto.cornejo@unab.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lichens"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Emodin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AA"
+                  ],
+                  "qualifierName": [
+                    "analogs & derivatives"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "tau Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AI"
+                  ],
+                  "qualifierName": [
+                    "antagonists & inhibitors"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Extracts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Structure"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tandem Mass Spectrometry"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "tau Protein",
+        "Alzheimer’s disease",
+        "Docking",
+        "lichens",
+        "Ramalina",
+        "Uhplc/ms",
+        "Parietin"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Plant Extracts"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "tau Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "physcione"
+          ],
+          "registryNumber": [
+            "H6PT94IV61"
+          ]
+        },
+        {
+          "name": [
+            "Emodin"
+          ],
+          "registryNumber": [
+            "KA46RNI6HN"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000700?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000700"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms17081303"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "CHEBI"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-04-17"
+  ],
+  "dateOfCreation": [
+    "2016-08-23"
+  ],
+  "dateOfRevision": [
+    "2017-04-17"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-18"
+  ],
+  "firstPublicationDate": [
+    "2016-08-18"
+  ]
+}

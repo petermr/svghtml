@@ -1,0 +1,405 @@
+{
+  "id": [
+    "27606592"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27606592"
+  ],
+  "pmcid": [
+    "PMC5015864"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0162464"
+  ],
+  "title": [
+    "A Heat Vulnerability Index: Spatial Patterns of Exposure, Sensitivity and Adaptive Capacity for Santiago de Chile."
+  ],
+  "authorString": [
+    "Inostroza L, Palme M, de la Barrera F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Inostroza L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Inostroza"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6303-4529",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Autónoma de Chile, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palme M"
+          ],
+          "firstName": [
+            "Massimo"
+          ],
+          "lastName": [
+            "Palme"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1166-2926",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto Nacional de Eficiencia Energética y Energía Renovable, Iñaquito y Serrano, Quito, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "de la Barrera F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "de la Barrera"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6854-3197",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Geografía & Centro del Desarrollo Urbano Sustentable, Pontificia Universidad Católica de Chile, Vicuña Mackenna 4860, Macul, Santiago de Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1166-2926",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6854-3197",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6303-4529",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2445807"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0162464"
+  ],
+  "abstractText": [
+    "Climate change will worsen the high levels of urban vulnerability in Latin American cities due to specific environmental stressors. Some impacts of climate change, such as high temperatures in urban environments, have not yet been addressed through adaptation strategies, which are based on poorly supported data. These impacts remain outside the scope of urban planning. New spatially explicit approaches that identify highly vulnerable urban areas and include specific adaptation requirements are needed in current urban planning practices to cope with heat hazards. In this paper, a heat vulnerability index is proposed for Santiago, Chile. The index was created using a GIS-based spatial information system and was constructed from spatially explicit indexes for exposure, sensitivity and adaptive capacity levels derived from remote sensing data and socio-economic information assessed via principal component analysis (PCA). The objective of this study is to determine the levels of heat vulnerability at local scales by providing insights into these indexes at the intra city scale. The results reveal a spatial pattern of heat vulnerability with strong variations among individual spatial indexes. While exposure and adaptive capacities depict a clear spatial pattern, sensitivity follows a complex spatial distribution. These conditions change when examining PCA results, showing that sensitivity is more robust than exposure and adaptive capacity. These indexes can be used both for urban planning purposes and for proposing specific policies and measures that can help minimize heat hazards in highly dynamic urban areas. The proposed methodology can be applied to other Latin American cities to support policy making."
+  ],
+  "affiliation": [
+    "Universidad Autónoma de Chile, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plants"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cluster Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Cities"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geography"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Principal Component Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Statistics as Topic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Hot Temperature"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5015864?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5015864"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0162464"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-04"
+  ],
+  "dateOfCreation": [
+    "2016-09-09"
+  ],
+  "dateOfRevision": [
+    "2017-08-04"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-08"
+  ],
+  "firstPublicationDate": [
+    "2016-09-08"
+  ]
+}

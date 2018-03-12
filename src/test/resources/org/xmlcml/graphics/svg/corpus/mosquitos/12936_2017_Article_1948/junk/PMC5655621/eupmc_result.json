@@ -1,0 +1,262 @@
+{
+  "id": [
+    "29118517"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29118517"
+  ],
+  "pmcid": [
+    "PMC5655621"
+  ],
+  "doi": [
+    "10.4103/ijt.ijt_2_17"
+  ],
+  "title": [
+    "Dissecting Cellulitis of the Scalp Early Diagnosed by Color Doppler Ultrasound."
+  ],
+  "authorString": [
+    "Cataldo-Cerda K, Wortsman X."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cataldo-Cerda K"
+          ],
+          "firstName": [
+            "Karina"
+          ],
+          "lastName": [
+            "Cataldo-Cerda"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Dermatology, Faculty of Medicine, Pontifical Catholic University, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wortsman X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Wortsman"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3359-5023",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Dermatology, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3359-5023",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2617177"
+      ],
+      "dateOfPublication": [
+        "2017 Oct-Dec"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of trichology"
+          ],
+          "ISOAbbreviation": [
+            "Int J Trichology"
+          ],
+          "medlineAbbreviation": [
+            "Int J Trichology"
+          ],
+          "NLMid": [
+            "101534370"
+          ],
+          "ISSN": [
+            "0974-7753"
+          ],
+          "ESSN": [
+            "0974-9241"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "147-148"
+  ],
+  "abstractText": [
+    "Dissecting cellulitis of the scalp (DC) is a chronic inflammatory condition of the scalp that ultimately leads to scarring alopecia. A healthy 19-year-old male presented with a solitary, soft, alopecic nodule that had appeared 1 year before. A color Doppler ultrasound examination showed a hypodermal anechoic fluid collection in the left parietotemporal region of the scalp, connected to the base of widened hair follicles, and presented inner echoes suggestive of debris, as well as several fragments of hair tracts. A diagnosis of DC was made and an epidermal or trichilemmal cyst was ruled out. This case shows the importance of color Doppler ultrasound for supporting the diagnosis at an early stage or with an unusual presentation of DC."
+  ],
+  "affiliation": [
+    "Department of Dermatology, Faculty of Medicine, Pontifical Catholic University, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Ultrasonography",
+        "Early diagnosis",
+        "Alopecia"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5655621"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4103/ijt.ijt_2_17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-10"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "firstPublicationDate": [
+    "2017-10-01"
+  ]
+}

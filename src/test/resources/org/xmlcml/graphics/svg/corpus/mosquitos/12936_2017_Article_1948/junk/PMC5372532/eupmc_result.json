@@ -1,0 +1,616 @@
+{
+  "id": [
+    "28282853"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28282853"
+  ],
+  "pmcid": [
+    "PMC5372532"
+  ],
+  "doi": [
+    "10.3390/ijms18030516"
+  ],
+  "title": [
+    "Synthesis of Five Known Brassinosteroid Analogs from Hyodeoxycholic Acid and Their Activities as Plant-Growth Regulators."
+  ],
+  "authorString": [
+    "Duran MI, González C, Acosta A, Olea AF, Díaz K, Espinoza L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Duran MI"
+          ],
+          "firstName": [
+            "María Isabel"
+          ],
+          "lastName": [
+            "Duran"
+          ],
+          "initials": [
+            "MI"
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Avenida España 1680, Valparaíso 2340000, Chile. maria.duranp@alumnos.usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "González C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Avenida España 1680, Valparaíso 2340000, Chile. cesar.gonzalez@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta A"
+          ],
+          "firstName": [
+            "Alison"
+          ],
+          "lastName": [
+            "Acosta"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería en Biotecnología, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Quillota 980, Viña del Mar 2520000, Chile. al.acosta@uandresbello.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Olea AF"
+          ],
+          "firstName": [
+            "Andrés F"
+          ],
+          "lastName": [
+            "Olea"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8007-6264",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Químicas Aplicadas, Facultad de Ingeniería, Universidad Autónoma de Chile, Santiago 8910339, Chile. andres.olea@uautonoma.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz K"
+          ],
+          "firstName": [
+            "Katy"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Avenida España 1680, Valparaíso 2340000, Chile. katy.díaz@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Avenida España 1680, Valparaíso 2340000, Chile. luis.espinozac@usm.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8007-6264",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2529765"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Brassinosteroids (BRs) are plant hormones that promote growth in different plant organs and tissues. The structural requirements that these compounds should possess to exhibit this biological activity have been studied. In this work, a series of known BR analogs 5-15, were synthesized starting from hyodeoxycholic acid 4, and maintaining the alkyl side chain as cholic acid or its methyl ester. The growth-promoting effects of brassinolide (1) and synthesized analogs were evaluated by using the rice lamina inclination assay at concentrations ranging from 1 × 10-8-1 × 10-6 M. Our results indicate that in this concentration range the induced bending angle of rice seedlings increases with increasing concentration of BRs. Analysis of the activities, determined at the lowest tested concentration, in terms of BR structures shows that the 2α,3α-dihydroxy-7-oxa-6-ketone moiety existing in brassinolide is required for the plant growing activity of these compounds, as it has been proposed by some structure-activity relationship studies. The effect of compound 8 on cell elongation was assessed by microscopy analysis, and the results indicate that the growth-promoting effect of analog 8 is mainly due to cell elongation of the adaxial sides, instead of an increase on cell number."
+  ],
+  "affiliation": [
+    "Departamento de Química, Universidad Técnica Federico Santa María, Avenida España 1680, Valparaíso 2340000, Chile. maria.duranp@alumnos.usm.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Deoxycholic Acid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Growth Regulators"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CS"
+                  ],
+                  "qualifierName": [
+                    "chemical synthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Magnetic Resonance Spectroscopy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Structure"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brassinosteroids"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CS"
+                  ],
+                  "qualifierName": [
+                    "chemical synthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oryza"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seedlings"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Synthesis",
+        "Plant-growth Regulators",
+        "Brassinosteroid Analogs",
+        "Lamina Inclination Test"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Plant Growth Regulators"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Brassinosteroids"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "hyodeoxycholic acid"
+          ],
+          "registryNumber": [
+            "7A33Y6EHYK"
+          ]
+        },
+        {
+          "name": [
+            "Deoxycholic Acid"
+          ],
+          "registryNumber": [
+            "005990WHZZ"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372532?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372532"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18030516"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-28"
+  ],
+  "dateOfCreation": [
+    "2017-03-11"
+  ],
+  "dateOfRevision": [
+    "2017-04-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-08"
+  ],
+  "firstPublicationDate": [
+    "2017-03-08"
+  ]
+}

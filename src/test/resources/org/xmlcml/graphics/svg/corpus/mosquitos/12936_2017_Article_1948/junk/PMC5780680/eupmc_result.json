@@ -1,0 +1,555 @@
+{
+  "id": [
+    "29326182"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29326182"
+  ],
+  "pmcid": [
+    "PMC5780680"
+  ],
+  "doi": [
+    "10.1136/bmjopen-2017-017993"
+  ],
+  "title": [
+    "Variations in childbirth interventions in high-income countries: protocol for a multinational cross-sectional study."
+  ],
+  "authorString": [
+    "Seijmonsbergen-Schermers A, de Jonge A, van den Akker T, Beeckman K, Bogaerts A, Barros M, Janssen P, Binfa L, Rydahl E, Frith L, Gross M, Hálfdánsdóttir B, Daly D, Calleja-Agius J, Gillen P, Vika Nilsen AB, Declercq E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Seijmonsbergen-Schermers A"
+          ],
+          "firstName": [
+            "Anna"
+          ],
+          "lastName": [
+            "Seijmonsbergen-Schermers"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5946-2205",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Midwifery Science, AVAG, Amsterdam Public Health Research Institute, VU University Medical Center, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "de Jonge A"
+          ],
+          "firstName": [
+            "Ank"
+          ],
+          "lastName": [
+            "de Jonge"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5384-3744",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Midwifery Science, VU University Medical Center, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "van den Akker T"
+          ],
+          "firstName": [
+            "Thomas"
+          ],
+          "lastName": [
+            "van den Akker"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Obstetrics, Leiden University Medical Center, Leiden, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Beeckman K"
+          ],
+          "firstName": [
+            "Katrien"
+          ],
+          "lastName": [
+            "Beeckman"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Nursing and Midwifery Research Unit, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Brussel, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Bogaerts A"
+          ],
+          "firstName": [
+            "Annick"
+          ],
+          "lastName": [
+            "Bogaerts"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Development and Regeneration KU Leuven, University of Leuven, Leuven, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Barros M"
+          ],
+          "firstName": [
+            "Monalisa"
+          ],
+          "lastName": [
+            "Barros"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Universidade Estadual do Sudoeste da Bahia, Vitória da Conquista, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Janssen P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Janssen"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "University of British Columbia, Vancouver, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Binfa L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Binfa"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Women's and New Born Health Promotion-School of Midwifery Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rydahl E"
+          ],
+          "firstName": [
+            "Eva"
+          ],
+          "lastName": [
+            "Rydahl"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Midwifery, Metropolitan University College, Copenhagen, Denmark."
+          ]
+        },
+        {
+          "fullName": [
+            "Frith L"
+          ],
+          "firstName": [
+            "Lucy"
+          ],
+          "lastName": [
+            "Frith"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Health Services Research, The University of Liverpool, Liverpool, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Gross M"
+          ],
+          "firstName": [
+            "Mechthild"
+          ],
+          "lastName": [
+            "Gross"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Midwifery Research and Education Unit, Department of Obstetrics, Gynaecology and Reproductive Medicine, Hannover Medical School, Hannover, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Hálfdánsdóttir B"
+          ],
+          "firstName": [
+            "Berglind"
+          ],
+          "lastName": [
+            "Hálfdánsdóttir"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Midwifery Programme, Faculty of Nursing, School of Health Sciences, University of Iceland, Reykjavík, Iceland."
+          ]
+        },
+        {
+          "fullName": [
+            "Daly D"
+          ],
+          "firstName": [
+            "Deirdre"
+          ],
+          "lastName": [
+            "Daly"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "School of Nursing and Midwifery, Trinity College Dublin, Dublin, Ireland."
+          ]
+        },
+        {
+          "fullName": [
+            "Calleja-Agius J"
+          ],
+          "firstName": [
+            "Jean"
+          ],
+          "lastName": [
+            "Calleja-Agius"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Anatomy, Faculty of Medicine and Surgery, University of Malta, Tal-Qroqq, Malta."
+          ]
+        },
+        {
+          "fullName": [
+            "Gillen P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Gillen"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Institute of Nursing and Health Research, Ulster University, Jordanstown, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Vika Nilsen AB"
+          ],
+          "firstName": [
+            "Anne Britt"
+          ],
+          "lastName": [
+            "Vika Nilsen"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "affiliation": [
+            "Western Norway University of Applied Sciences (HVL), Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Declercq E"
+          ],
+          "firstName": [
+            "Eugene"
+          ],
+          "lastName": [
+            "Declercq"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Boston University School of Public Health, Boston, Massachusetts, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5384-3744",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5946-2205",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2635283"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMJ open"
+          ],
+          "ISOAbbreviation": [
+            "BMJ Open"
+          ],
+          "medlineAbbreviation": [
+            "BMJ Open"
+          ],
+          "NLMid": [
+            "101552874"
+          ],
+          "ISSN": [
+            "2044-6055"
+          ],
+          "ESSN": [
+            "2044-6055"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e017993"
+  ],
+  "abstractText": [
+    "There are growing concerns about the increase in rates of commonly used childbirth interventions. When indicated, childbirth interventions are crucial for preventing maternal and perinatal morbidity and mortality, but their routine use in healthy women and children leads to avoidable maternal and neonatal harm. Establishing ideal rates of interventions can be challenging. This study aims to describe the range of variations in the use of commonly used childbirth interventions in high-income countries around the world, and in outcomes in nulliparous and multiparous women.This multinational cross-sectional study will use data from births in 2013 with national population data or representative samples of the population of pregnant women in high-income countries. Data from women who gave birth to a single child from 37 weeks gestation onwards will be included and the results will be presented for nulliparous and multiparous women separately. Anonymised individual level data will be analysed. Primary outcomes are rates of commonly used childbirth interventions, including induction and/or augmentation of labour, intrapartum antibiotics, epidural and pharmacological pain relief, episiotomy in vaginal births, instrument-assisted birth (vacuum or forceps), caesarean section and use of oxytocin postpartum. Secondary outcomes are maternal and perinatal mortality, Apgar score below 7 at 5 min, postpartum haemorrhage and obstetric anal sphincter injury. Univariable and multivariable logistic regression analyses will be conducted to investigate variations among countries, adjusted for maternal age, body mass index, gestational weight gain, ethnic background, socioeconomic status and infant birth weight. The overall mean rates will be considered as a reference category, weighted for the size of the study population per country.The Medical Ethics Review Committee of VU University Medical Center Amsterdam confirmed that an official approval of this study was not required. Results will be disseminated at national and international conferences and published in peer-reviewed journals."
+  ],
+  "affiliation": [
+    "Department of Midwifery Science, AVAG, Amsterdam Public Health Research Institute, VU University Medical Center, Amsterdam, The Netherlands."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "protocol",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Caesarean section",
+        "Episiotomy",
+        "Instrumental Delivery",
+        "International Variations",
+        "Childbirth Interventions",
+        "Maternal And Perinatal Outcmes"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5780680?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5780680"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1136/bmjopen-2017-017993"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-13"
+  ],
+  "dateOfRevision": [
+    "2018-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-10"
+  ],
+  "firstPublicationDate": [
+    "2018-01-10"
+  ]
+}

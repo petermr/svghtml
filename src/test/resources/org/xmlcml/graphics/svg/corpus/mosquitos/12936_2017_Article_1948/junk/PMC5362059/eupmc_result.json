@@ -1,0 +1,484 @@
+{
+  "id": [
+    "28328932"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28328932"
+  ],
+  "pmcid": [
+    "PMC5362059"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0173895"
+  ],
+  "title": [
+    "Comparing internal migration across the countries of Latin America: A multidimensional approach."
+  ],
+  "authorString": [
+    "Bernard A, Rowe F, Bell M, Ueffing P, Charles-Edwards E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bernard A"
+          ],
+          "firstName": [
+            "Aude"
+          ],
+          "lastName": [
+            "Bernard"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "University of Queensland, Brisbane, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Rowe F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Rowe"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "University of Liverpool, Liverpool, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Bell M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Bell"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "University of Queensland, Brisbane, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Ueffing P"
+          ],
+          "firstName": [
+            "Philipp"
+          ],
+          "lastName": [
+            "Ueffing"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "United Nations Population Division, New York, New York, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Charles-Edwards E"
+          ],
+          "firstName": [
+            "Elin"
+          ],
+          "lastName": [
+            "Charles-Edwards"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2580-207X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "University of Queensland, Brisbane, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2580-207X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2528339"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0173895"
+  ],
+  "abstractText": [
+    "While considerable progress has been made in understanding the way particular aspects of internal migration, such as its intensity, age profile and spatial impact, vary between countries around the world, little attention to date has been given to establishing how these dimensions of migration interact in different national settings. We use recently developed measures of internal migration that are scale-independent to compare the overall intensity, age composition, spatial impact, and distance profile of internal migration in 19 Latin American countries. Comparisons reveal substantial cross-national variation but cluster analysis suggests the different dimensions of migration evolve systematically to form a broad sequence characterised by low intensities, young ages at migration, unbalanced flows and high friction of distance at lower levels of development, trending to high intensities, an older age profile of migration, more closely balanced flows and lower friction of distance at later stages of development. However, the transition is not linear and local contingencies, such as international migration and political control, often distort the migration-development nexus, leading to unique migration patterns in individual national contexts."
+  ],
+  "affiliation": [
+    "University of Queensland, Brisbane, Australia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Age Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Population Dynamics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Emigration and Immigration"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Developed Countries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Developing Countries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transients and Migrants"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5362059?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5362059"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0173895"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-21"
+  ],
+  "dateOfCreation": [
+    "2017-03-22"
+  ],
+  "dateOfRevision": [
+    "2017-08-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-22"
+  ],
+  "firstPublicationDate": [
+    "2017-03-22"
+  ]
+}

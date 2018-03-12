@@ -1,0 +1,286 @@
+{
+  "id": [
+    "29170643"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29170643"
+  ],
+  "pmcid": [
+    "PMC5684187"
+  ],
+  "doi": [
+    "10.3389/fphys.2017.00892"
+  ],
+  "title": [
+    "Combining Mass Spectrometry and X-Ray Crystallography for Analyzing Native-Like Membrane Protein Lipid Complexes."
+  ],
+  "authorString": [
+    "Montenegro FA, Cantero JR, Barrera NP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Montenegro FA"
+          ],
+          "firstName": [
+            "Felipe A"
+          ],
+          "lastName": [
+            "Montenegro"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Laboratory of Nanophysiology and Structural Biology, Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cantero JR"
+          ],
+          "firstName": [
+            "Jorge R"
+          ],
+          "lastName": [
+            "Cantero"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Laboratory of Nanophysiology and Structural Biology, Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrera NP"
+          ],
+          "firstName": [
+            "Nelson P"
+          ],
+          "lastName": [
+            "Barrera"
+          ],
+          "initials": [
+            "NP"
+          ],
+          "affiliation": [
+            "Laboratory of Nanophysiology and Structural Biology, Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550597"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in physiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Physiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Physiol"
+          ],
+          "NLMid": [
+            "101549006"
+          ],
+          "ISSN": [
+            "1664-042X"
+          ],
+          "ESSN": [
+            "1664-042X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "892"
+  ],
+  "abstractText": [
+    "Membrane proteins represent a challenging family of macromolecules, particularly related to the methodology aimed at characterizing their three-dimensional structure. This is mostly due to their amphipathic nature as well as requirements of ligand bindings to stabilize or control their function. Recently, Mass Spectrometry (MS) has become an important tool to identify the overall stoichiometry of native-like membrane proteins complexed to ligand bindings as well as to provide insights into the transport mechanism across the membrane, with complementary information coming from X-ray crystallography. This perspective article emphasizes MS findings coupled with X-ray crystallography in several membrane protein lipid complexes, in particular transporters, ion channels and molecular machines, with an overview of techniques that allows a more thorough structural interpretation of the results, which can help us to unravel hidden mysteries on the membrane protein function."
+  ],
+  "affiliation": [
+    "Laboratory of Nanophysiology and Structural Biology, Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Membrane protein",
+        "Mass spectrometry",
+        "Molecular dynamics",
+        "Ligand binding",
+        "Gas Phase",
+        "Native Mass Spectrometry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5684187?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5684187"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fphys.2017.00892"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-25"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-09"
+  ],
+  "firstPublicationDate": [
+    "2017-11-09"
+  ]
+}

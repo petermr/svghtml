@@ -1,0 +1,615 @@
+{
+  "id": [
+    "27924808"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27924808"
+  ],
+  "pmcid": [
+    "PMC5180366"
+  ],
+  "doi": [
+    "10.1038/emi.2016.121"
+  ],
+  "title": [
+    "Avian H11 influenza virus isolated from domestic poultry in a Colombian live animal market."
+  ],
+  "authorString": [
+    "Jiménez-Bluhm P, Karlsson EA, Ciuoderis KA, Cortez V, Marvin SA, Hamilton-West C, Schultz-Cherry S, Osorio JE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Jiménez-Bluhm P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Jiménez-Bluhm"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Karlsson EA"
+          ],
+          "firstName": [
+            "Erik A"
+          ],
+          "lastName": [
+            "Karlsson"
+          ],
+          "initials": [
+            "EA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6004-5671",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ciuoderis KA"
+          ],
+          "firstName": [
+            "Karl A"
+          ],
+          "lastName": [
+            "Ciuoderis"
+          ],
+          "initials": [
+            "KA"
+          ],
+          "affiliation": [
+            "Department of Pathobiological Sciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI 53706, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortez V"
+          ],
+          "firstName": [
+            "Valerie"
+          ],
+          "lastName": [
+            "Cortez"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Marvin SA"
+          ],
+          "firstName": [
+            "Shauna A"
+          ],
+          "lastName": [
+            "Marvin"
+          ],
+          "initials": [
+            "SA"
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Hamilton-West C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Hamilton-West"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Veterinary Science, Department of Preventive Medicine, University of Chile, Santiago 8820808, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schultz-Cherry S"
+          ],
+          "firstName": [
+            "Stacey"
+          ],
+          "lastName": [
+            "Schultz-Cherry"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Osorio JE"
+          ],
+          "firstName": [
+            "Jorge E"
+          ],
+          "lastName": [
+            "Osorio"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Department of Pathobiological Sciences, School of Veterinary Medicine, University of Wisconsin-Madison, Madison, WI 53706, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6004-5671",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2502150"
+      ],
+      "dateOfPublication": [
+        "2016 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging microbes & infections"
+          ],
+          "ISOAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "medlineAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "NLMid": [
+            "101594885"
+          ],
+          "ISSN": [
+            "2222-1751"
+          ],
+          "ESSN": [
+            "2222-1751"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e121"
+  ],
+  "abstractText": [
+    "Live animal markets (LAMs) are an essential source of food and trade in Latin American countries; however, they can also serve as 'hotbeds' for the emergence and potential spillover of avian influenza viruses (AIV). Despite extensive knowledge of AIV in Asian LAMs, little is known about the prevalence South American LAMs. To fill this gap in knowledge, active surveillance was carried out at the major LAM in Medellin, Colombia between February and September 2015. During this period, overall prevalence in the market was 2.67% and a North American origin H11N2 AIV most similar to a virus isolated from Chilean shorebirds asymptomatically spread through multiple bird species in the market resulting in 17.0% positivity at peak of infection. Phenotypically, the H11 viruses displayed no known molecular markers associated with increased virulence in birds or mammals, had α2,3-sialic acid binding preference, and caused minimal replication in vitro and little morbidity in vivo. However, the Colombian H11N2 virus replicated and transmitted effectively in chickens explaining the spread throughout the market. Genetic similarity to H11 viruses isolated from North and South American shorebirds suggest that the LAM occurrence may have resulted from a wild bird to domestic poultry spillover event. The ability to spread in domestic poultry as well as potential for human infection by H11 viruses highlight the need for enhanced AIV surveillance in South America in both avian species and humans."
+  ],
+  "affiliation": [
+    "Department of Infectious Diseases, St Jude Children's Research Hospital, Memphis, TN 38105, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice, Inbred BALB C"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Poultry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Influenza A virus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Orthomyxoviridae Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Models, Animal"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Virus Replication"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Virulence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Colombia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Influenza in Birds"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5180366?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5180366"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/emi.2016.121"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-02-08"
+  ],
+  "dateOfCreation": [
+    "2016-12-07"
+  ],
+  "dateOfRevision": [
+    "2017-02-08"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-07"
+  ],
+  "firstPublicationDate": [
+    "2016-12-07"
+  ]
+}

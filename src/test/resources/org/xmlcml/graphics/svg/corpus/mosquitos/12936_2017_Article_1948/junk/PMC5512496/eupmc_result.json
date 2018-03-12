@@ -1,0 +1,446 @@
+{
+  "id": [
+    "28628443"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28628443"
+  ],
+  "pmcid": [
+    "PMC5512496"
+  ],
+  "doi": [
+    "10.3201/eid2307.170054"
+  ],
+  "title": [
+    "Novel Avulaviruses in Penguins, Antarctica."
+  ],
+  "authorString": [
+    "Neira V, Tapia R, Verdugo C, Barriga G, Mor S, Ng TFF, García V, Del Río J, Rodrigues P, Briceño C, Medina RA, González-Acuña D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Neira V"
+          ],
+          "firstName": [
+            "Víctor"
+          ],
+          "lastName": [
+            "Neira"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9062-9969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Verdugo C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Verdugo"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Barriga G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Barriga"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Mor S"
+          ],
+          "firstName": [
+            "Sunil"
+          ],
+          "lastName": [
+            "Mor"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Ng TFF"
+          ],
+          "firstName": [
+            "Terry Fei Fan"
+          ],
+          "lastName": [
+            "Ng"
+          ],
+          "initials": [
+            "TFF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4815-8697",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "García V"
+          ],
+          "firstName": [
+            "Victoria"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Del Río J"
+          ],
+          "firstName": [
+            "José"
+          ],
+          "lastName": [
+            "Del Río"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Rodrigues P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Rodrigues"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2974-5909",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Briceño C"
+          ],
+          "firstName": [
+            "Cristóbal"
+          ],
+          "lastName": [
+            "Briceño"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Medina RA"
+          ],
+          "firstName": [
+            "Rafael A"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "RA"
+          ]
+        },
+        {
+          "fullName": [
+            "González-Acuña D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "González-Acuña"
+          ],
+          "initials": [
+            "D"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2974-5909",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9062-9969",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4815-8697",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "23"
+      ],
+      "journalIssueId": [
+        "2536273"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging Infectious Diseases"
+          ],
+          "ISOAbbreviation": [
+            "Emerging Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "Emerg Infect Dis"
+          ],
+          "NLMid": [
+            "9508155"
+          ],
+          "ISSN": [
+            "1080-6040"
+          ],
+          "ESSN": [
+            "1080-6059"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1212-1214"
+  ],
+  "abstractText": [
+    "We identified 3 novel and distinct avulaviruses from Gentoo penguins sampled in Antarctica. We isolated these viruses and sequenced their complete genomes; serologic assays demonstrated that the viruses do not have cross-reactivity between them. Our findings suggest that these 3 new viruses represent members of 3 novel avulavirus species."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Viruses",
+        "Antarctica",
+        "Zoonoses",
+        "Penguins",
+        "Avulavirus",
+        "Avian Paramyxovirus"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5512496?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5512496"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3201/eid2307.170054"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-06-19"
+  ],
+  "dateOfRevision": [
+    "2017-11-09"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ]
+}

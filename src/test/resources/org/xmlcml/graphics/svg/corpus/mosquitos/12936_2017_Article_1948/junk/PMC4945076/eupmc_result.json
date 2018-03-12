@@ -1,0 +1,700 @@
+{
+  "id": [
+    "27414643"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27414643"
+  ],
+  "pmcid": [
+    "PMC4945076"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0159147"
+  ],
+  "title": [
+    "Differences on Primary Care Labor Perceptions in Medical Students from 11 Latin American Countries."
+  ],
+  "authorString": [
+    "Pereyra-Elías R, Mayta-Tristán P, Montenegro-Idrogo JJ, Mejia CR, Abudinén A G, Azucas-Peralta R, Barrezueta-Fernandez J, Cerna-Urrutia L, DaSilva-DeAbreu A, Mondragón-Cardona A, Moya G, Valverde-Solano CD, Theodorus-Villar R, Vizárraga-León M, Red-LIRHUS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pereyra-Elías R"
+          ],
+          "firstName": [
+            "Reneé"
+          ],
+          "lastName": [
+            "Pereyra-Elías"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6398-4287",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Perú"
+          ]
+        },
+        {
+          "fullName": [
+            "Mayta-Tristán P"
+          ],
+          "firstName": [
+            "Percy"
+          ],
+          "lastName": [
+            "Mayta-Tristán"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0861-6606",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Perú"
+          ]
+        },
+        {
+          "fullName": [
+            "Montenegro-Idrogo JJ"
+          ],
+          "firstName": [
+            "Juan José"
+          ],
+          "lastName": [
+            "Montenegro-Idrogo"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Perú"
+          ]
+        },
+        {
+          "fullName": [
+            "Mejia CR"
+          ],
+          "firstName": [
+            "Christian R"
+          ],
+          "lastName": [
+            "Mejia"
+          ],
+          "initials": [
+            "CR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5940-7281",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Perú"
+          ]
+        },
+        {
+          "fullName": [
+            "Abudinén A G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Abudinén A"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Hospital de Illapel, Illapel, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Azucas-Peralta R"
+          ],
+          "firstName": [
+            "Rita"
+          ],
+          "lastName": [
+            "Azucas-Peralta"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Nacional de Asunción, Asunción, Paraguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrezueta-Fernandez J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Barrezueta-Fernandez"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de Guayaquil, Guayaquil, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerna-Urrutia L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Cerna-Urrutia"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Dr. Jose Matias Delgado, San Salvador, El Salvador."
+          ]
+        },
+        {
+          "fullName": [
+            "DaSilva-DeAbreu A"
+          ],
+          "firstName": [
+            "Adrián"
+          ],
+          "lastName": [
+            "DaSilva-DeAbreu"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Central de Venezuela, Caracas, Venezuela."
+          ]
+        },
+        {
+          "fullName": [
+            "Mondragón-Cardona A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Mondragón-Cardona"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Tecnológica de Pereira, Pereira, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Moya G"
+          ],
+          "firstName": [
+            "Geovanna"
+          ],
+          "lastName": [
+            "Moya"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1555-7904",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Nacional Autónoma de Honduras, Tegucigalpa, Honduras."
+          ]
+        },
+        {
+          "fullName": [
+            "Valverde-Solano CD"
+          ],
+          "firstName": [
+            "Christian D"
+          ],
+          "lastName": [
+            "Valverde-Solano"
+          ],
+          "initials": [
+            "CD"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Hispanoamericana, San José, Costa Rica."
+          ]
+        },
+        {
+          "fullName": [
+            "Theodorus-Villar R"
+          ],
+          "firstName": [
+            "Rhanniel"
+          ],
+          "lastName": [
+            "Theodorus-Villar"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Católica Boliviana San Pablo, Santa Cruz de la Sierra, Bolivia."
+          ]
+        },
+        {
+          "fullName": [
+            "Vizárraga-León M"
+          ],
+          "firstName": [
+            "Maribel"
+          ],
+          "lastName": [
+            "Vizárraga-León"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Juárez, Durango, México."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Red-LIRHUS"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0861-6606",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6675-6562",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5940-7281",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1555-7904",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6398-4287",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2424094"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0159147"
+  ],
+  "abstractText": [
+    "The shortage in Latin-American Primary Care (PC) workforce may be due to negative perceptions about it. These perceptions might be probably influenced by particular features of health systems and academic environments, thus varying between countries.Observational, analytic and cross-sectional multicountry study that evaluated 9,561 first and fifth-year medical students from 63 medical schools of 11 Latin American countries through a survey. Perceptions on PC work was evaluated through a previously validated scale. Tertiles of the scores were created in order to compare the different countries. Crude and adjusted prevalence ratios were calculated using simple and multiple Poisson regression with robust variance.Approximately 53% of subjects were female; mean age was 20.4±2.9 years; 35.5% were fifth-year students. Statistically significant differences were found between the study subjects' country, using Peru as reference. Students from Chile, Colombia, Mexico and Paraguay perceived PC work more positively, while those from Ecuador showed a less favorable position. No differences were found among perceptions of Bolivian, Salvadoran, Honduran and Venezuelan students when compared to their Peruvian peers.Perceptions of PC among medical students from Latin America vary according to country. Considering such differences can be of major importance for potential local specific interventions."
+  ],
+  "affiliation": [
+    "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Perú"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article",
+        "Observational Study"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Multivariate Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Perception"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Schools, Medical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Students, Medical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PX"
+                  ],
+                  "qualifierName": [
+                    "psychology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Medically Underserved Area"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Primary Health Care"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MA"
+                  ],
+                  "qualifierName": [
+                    "manpower"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Surveys and Questionnaires"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4945076?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4945076"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0159147"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-07-24"
+  ],
+  "dateOfCreation": [
+    "2016-07-15"
+  ],
+  "dateOfRevision": [
+    "2017-07-24"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-14"
+  ],
+  "firstPublicationDate": [
+    "2016-07-14"
+  ]
+}

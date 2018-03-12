@@ -1,0 +1,676 @@
+{
+  "id": [
+    "27777899"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27777899"
+  ],
+  "pmcid": [
+    "PMC5056170"
+  ],
+  "doi": [
+    "10.3389/fcimb.2016.00121"
+  ],
+  "title": [
+    "Helicobacter pylori Infection Is Associated with Decreased Expression of SLC5A8, a Cancer Suppressor Gene, in Young Children."
+  ],
+  "authorString": [
+    "Orellana-Manzano A, O'Ryan MG, Lagomarcino AJ, George S, Muñoz MS, Mamani N, Serrano CA, Harris PR, Ramilo O, Mejías A, Torres JP, Lucero Y, Quest AF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Orellana-Manzano A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Orellana-Manzano"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of ChileSantiago, Chile; Center for Molecular Studies of the Cell (CEMC), Faculty of Medicine, University of ChileSantiago, Chile; Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, University of ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Ryan MG"
+          ],
+          "firstName": [
+            "Miguel G"
+          ],
+          "lastName": [
+            "O'Ryan"
+          ],
+          "initials": [
+            "MG"
+          ],
+          "affiliation": [
+            "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagomarcino AJ"
+          ],
+          "firstName": [
+            "Anne J"
+          ],
+          "lastName": [
+            "Lagomarcino"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "George S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "George"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz MS"
+          ],
+          "firstName": [
+            "Mindy S"
+          ],
+          "lastName": [
+            "Muñoz"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "affiliation": [
+            "Computational Systems Biology Laboratory, Faculty of Pharmaceutical Sciences, University of São Paulo São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Mamani N"
+          ],
+          "firstName": [
+            "Nora"
+          ],
+          "lastName": [
+            "Mamani"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Serrano CA"
+          ],
+          "firstName": [
+            "Carolina A"
+          ],
+          "lastName": [
+            "Serrano"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Pediatric Gastroenterology and Nutrition Department, School of Medicine, Pontifical Catholic University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Harris PR"
+          ],
+          "firstName": [
+            "Paul R"
+          ],
+          "lastName": [
+            "Harris"
+          ],
+          "initials": [
+            "PR"
+          ],
+          "affiliation": [
+            "Pediatric Gastroenterology and Nutrition Department, School of Medicine, Pontifical Catholic University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramilo O"
+          ],
+          "firstName": [
+            "Octavio"
+          ],
+          "lastName": [
+            "Ramilo"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Center for Vaccines and Immunity, The Research Institute at Nationwide Children's Hospital Columbus, OH, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Mejías A"
+          ],
+          "firstName": [
+            "Asunción"
+          ],
+          "lastName": [
+            "Mejías"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5983-8006",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Vaccines and Immunity, The Research Institute at Nationwide Children's Hospital Columbus, OH, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres JP"
+          ],
+          "firstName": [
+            "Juan P"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3565-5467",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery (Eastern Campus), Faculty of Medicine, Luis Calvo Mackenna Hospital, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lucero Y"
+          ],
+          "firstName": [
+            "Yalda"
+          ],
+          "lastName": [
+            "Lucero"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery (Eastern Campus), Faculty of Medicine, Luis Calvo Mackenna Hospital, University of Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AF"
+          ],
+          "firstName": [
+            "Andrew F G"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Center for Molecular Studies of the Cell (CEMC), Faculty of Medicine, University of ChileSantiago, Chile; Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, University of ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5983-8006",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3565-5467",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2378215"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "121"
+  ],
+  "abstractText": [
+    "Background:Helicobacter pylori infects half of the world's population and causes gastric cancer in a subset of infected adults. Previous blood microarray findings showed that apparently healthy children, persistently infected with H. pylori have differential gene expression compared to age-matched, non-infected children. SLC5A8, a cancer suppressor gene with decreased expression among infected children, was chosen for further study based on bioinformatics analysis. Methods: A pilot study was conducted using specific qRT-PCR amplification of SLC5A8 in blood samples from H. pylori infected and non-infected children, followed by a larger, blinded, case-control study. We then analyzed gastric tissue from H. pylori infected and non-infected children undergoing endoscopy for clinical purposes. Results: Demographics, clinical findings, and family history were similar between groups. SLC5A8 expression was decreased in infected vs. non-infected children in blood, 0.12 (IQR: 0-0.89) vs. 1.86 (IQR: 0-8.94, P = 0.002), and in gastric tissue, 0.08 (IQR: 0.04-0.15) vs. 1.88 (IQR: 0.55-2.56; P = 0.001). Children who were both stool positive and seropositive for H. pylori had the lowest SLC5A8 expression levels. Conclusions:H. pylori infection is associated with suppression of SCL5A8, a cancer suppressor gene, in both blood and tissue samples from young children. Key Points: Young children, persistently infected with Helicobacter pylori show decreased expression of SLC5A8 mRNA in both blood and tissue samples as compared to non-infected children."
+  ],
+  "affiliation": [
+    "Host-Pathogen Interaction Laboratory, Microbiology and Mycology Program, Faculty of Medicine, University of ChileSantiago, Chile; Center for Molecular Studies of the Cell (CEMC), Faculty of Medicine, University of ChileSantiago, Chile; Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, University of ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gastric Mucosa"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Helicobacter Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Monocarboxylic Acid Transporters"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Case-Control Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genes, Tumor Suppressor"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Real-Time Polymerase Chain Reaction"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Helicobacter Pylori",
+        "Children",
+        "Persistent infection",
+        "Slc5a8",
+        "Cancer Suppressor Gene",
+        "Qpcr Detection"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "SLC5A8 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Monocarboxylic Acid Transporters"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5056170?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5056170"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2016.00121"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2016.00121"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-09-20"
+  ],
+  "dateOfCreation": [
+    "2016-10-26"
+  ],
+  "dateOfRevision": [
+    "2017-12-24"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-10"
+  ],
+  "firstPublicationDate": [
+    "2016-10-10"
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": [
+    "29356390"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29356390"
+  ],
+  "pmcid": [
+    "PMC5810329"
+  ],
+  "doi": [
+    "10.1002/jia2.25066"
+  ],
+  "title": [
+    "Adherence to antiretroviral therapy for HIV/AIDS in Latin America and the Caribbean: Systematic review and meta-analysis."
+  ],
+  "authorString": [
+    "Costa JM, Torres TS, Coelho LE, Luz PM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Costa JM"
+          ],
+          "firstName": [
+            "Jessica de Mattos"
+          ],
+          "lastName": [
+            "Costa"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Infectologia Evandro Chagas, Fundação Oswaldo Cruz, Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres TS"
+          ],
+          "firstName": [
+            "Thiago Silva"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "TS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2557-601X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto Nacional de Infectologia Evandro Chagas, Fundação Oswaldo Cruz, Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Coelho LE"
+          ],
+          "firstName": [
+            "Lara Esteves"
+          ],
+          "lastName": [
+            "Coelho"
+          ],
+          "initials": [
+            "LE"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Infectologia Evandro Chagas, Fundação Oswaldo Cruz, Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Luz PM"
+          ],
+          "firstName": [
+            "Paula Mendes"
+          ],
+          "lastName": [
+            "Luz"
+          ],
+          "initials": [
+            "PM"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Infectologia Evandro Chagas, Fundação Oswaldo Cruz, Rio de Janeiro, Brazil."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2557-601X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "2637178"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of the International AIDS Society"
+          ],
+          "ISOAbbreviation": [
+            "J Int AIDS Soc"
+          ],
+          "medlineAbbreviation": [
+            "J Int AIDS Soc"
+          ],
+          "NLMid": [
+            "101478566"
+          ],
+          "ISSN": [
+            "1758-2652"
+          ],
+          "ESSN": [
+            "1758-2652"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "abstractText": [
+    "Optimal adherence to antiretroviral therapy is closely related with suppression of the HIV viral load in plasma, slowing disease progression and decreasing HIV transmission rates. Despite its importance, the estimated proportion of people living with HIV in Latin America and the Caribbean with optimal adherence has not yet been reported in a meta-analysis. Moreover, little is known of the factors leading to poor adherence which may be setting-specific. We present a pooled estimate of adherence to antiretroviral therapy (ART) of people living with HIV in Latin America and Caribbean, report the methods used to measure adherence and describe the factors associated with poor adherence among the selected studies.We electronically searched published studies up to July 2016 on the PubMed, Web of Science and Virtual Health Library (Latin America and the Caribbean Regional Portal); considering the following databases: MEDLINE, LILACS, PAHO and IBECS. Two independent reviewers selected and extracted data on ART adherence and study characteristics. Pooled estimate of adherence was derived using a random-effects model. Risk of bias in individual studies was assessed independently by two investigators using the Risk of Bias Assessment tool for Non-randomized Studies (RoBANS).The meta-analysis included 53 studies published between 2005 and 2016, which analysed 22,603 people living with HIV in 25 Latin America and Caribbean countries. Overall adherence in Latin America and Caribbean was 70% (95% CI: 63-76; I2  = 98%), similar to levels identified by studies conducted in high-income regions. Self-report was the most frequently used method to measure adherence. Subgroup analysis showed that adherence was higher for the shortest recall time frame used, as well as in countries with lower income level, Gross National Income (GNI) per capita and Human Development Index (HDI). Studies reported diverse adherence barriers, such as alcohol and substance misuse, depression, unemployment and pill burden.Our study suggests that adherence to ART in Latin America and Caribbean may be below the sufficient levels required for a successful long-term viral load suppression."
+  ],
+  "affiliation": [
+    "Instituto Nacional de Infectologia Evandro Chagas, Fundação Oswaldo Cruz, Rio de Janeiro, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "anti-HIV agents",
+        "Antiretroviral therapy",
+        "Developing Countries",
+        "Latin America",
+        "Medication Adherence",
+        "Highly Active",
+        "Caribbean Region"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5810329?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5810329"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/jia2.25066"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-23"
+  ],
+  "dateOfRevision": [
+    "2018-02-16"
+  ],
+  "firstPublicationDate": [
+    "2018-01-01"
+  ]
+}

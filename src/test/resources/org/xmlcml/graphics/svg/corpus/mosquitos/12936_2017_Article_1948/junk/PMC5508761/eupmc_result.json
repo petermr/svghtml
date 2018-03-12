@@ -1,0 +1,495 @@
+{
+  "id": [
+    "28701191"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28701191"
+  ],
+  "pmcid": [
+    "PMC5508761"
+  ],
+  "doi": [
+    "10.1186/s12987-017-0067-0"
+  ],
+  "title": [
+    "Blood-brain barrier and foetal-onset hydrocephalus, with a view on potential novel treatments beyond managing CSF flow."
+  ],
+  "authorString": [
+    "Guerra M, Blázquez JL, Rodríguez EM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guerra M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Guerra"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile. monserratguerra@uach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Blázquez JL"
+          ],
+          "firstName": [
+            "J L"
+          ],
+          "lastName": [
+            "Blázquez"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Departamento de Anatomía e Histología Humana, Facultad de Medicina, Universidad de Salamanca, Salamanca, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodríguez EM"
+          ],
+          "firstName": [
+            "E M"
+          ],
+          "lastName": [
+            "Rodríguez"
+          ],
+          "initials": [
+            "EM"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2574340"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Fluids and barriers of the CNS"
+          ],
+          "ISOAbbreviation": [
+            "Fluids Barriers CNS"
+          ],
+          "medlineAbbreviation": [
+            "Fluids Barriers CNS"
+          ],
+          "NLMid": [
+            "101553157"
+          ],
+          "ISSN": [
+            "2045-8118"
+          ],
+          "ESSN": [
+            "2045-8118"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "19"
+  ],
+  "abstractText": [
+    "Despite decades of research, no compelling non-surgical therapies have been developed for foetal hydrocephalus. So far, most efforts have pointed to repairing disturbances in the cerebrospinal fluid (CSF) flow and to avoid further brain damage. There are no reports trying to prevent or diminish abnormalities in brain development which are inseparably associated with hydrocephalus. A key problem in the treatment of hydrocephalus is the blood-brain barrier that restricts the access to the brain for therapeutic compounds or systemically grafted cells. Recent investigations have started to open an avenue for the development of a cell therapy for foetal-onset hydrocephalus. Potential cells to be used for brain grafting include: (1) pluripotential neural stem cells; (2) mesenchymal stem cells; (3) genetically-engineered stem cells; (4) choroid plexus cells and (5) subcommissural organ cells. Expected outcomes are a proper microenvironment for the embryonic neurogenic niche and, consequent normal brain development."
+  ],
+  "affiliation": [
+    "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile. monserratguerra@uach.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Blood-Brain Barrier"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SU"
+                  ],
+                  "qualifierName": [
+                    "surgery"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Choroid Plexus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pluripotent Stem Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TR"
+                  ],
+                  "qualifierName": [
+                    "transplantation"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cerebrospinal Fluid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hydrocephalus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SU"
+                  ],
+                  "qualifierName": [
+                    "surgery"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mesenchymal Stem Cell Transplantation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mesenchymal Stromal Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cerebrospinal fluid",
+        "Cell therapy",
+        "Blood–brain Barrier",
+        "Foetal-onset Hydrocephalus"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5508761?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5508761"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12987-017-0067-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-31"
+  ],
+  "dateOfCreation": [
+    "2017-07-14"
+  ],
+  "dateOfRevision": [
+    "2018-01-31"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-13"
+  ],
+  "firstPublicationDate": [
+    "2017-07-13"
+  ]
+}

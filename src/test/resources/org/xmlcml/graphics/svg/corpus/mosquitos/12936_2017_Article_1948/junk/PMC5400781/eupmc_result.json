@@ -1,0 +1,281 @@
+{
+  "id": [
+    "28490831"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28490831"
+  ],
+  "pmcid": [
+    "PMC5400781"
+  ],
+  "doi": [
+    "10.1007/s10680-017-9419-3"
+  ],
+  "title": [
+    "Parental Separation and School Performance Among Children of Immigrant Mothers in Sweden."
+  ],
+  "authorString": [
+    "Erman J, Härkönen J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Erman J"
+          ],
+          "firstName": [
+            "Jeylan"
+          ],
+          "lastName": [
+            "Erman"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Sociology, University of Pennsylvania, 239 McNeil Building, 3718 Locus Walk, Philadelphia, PA 19104-6299 USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Härkönen J"
+          ],
+          "firstName": [
+            "Juho"
+          ],
+          "lastName": [
+            "Härkönen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9687-1932",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Sociology, Stockholm University, 106 91 Stockholm, Sweden."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9687-1932",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "33"
+      ],
+      "journalIssueId": [
+        "2556446"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "European journal of population = Revue europeenne de demographie"
+          ],
+          "ISOAbbreviation": [
+            "Eur J Popul"
+          ],
+          "medlineAbbreviation": [
+            "Eur J Popul"
+          ],
+          "NLMid": [
+            "8511777"
+          ],
+          "ISSN": [
+            "0168-6577"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "267-292"
+  ],
+  "abstractText": [
+    "Immigration and family change are two demographic processes that have changed the face of European societies and are associated with inequalities in child outcomes. Yet there is little research outside the USA on whether the effects of family dynamics on children's life chances vary by immigrant background. We asked whether the effect of parental separation on educational achievement varies between immigrant backgrounds (ancestries) in Sweden. We used Swedish population register data on two birth cohorts (born in 1995 and 1996) of Swedish-born children and analyzed parental separation penalties on grade sums and non-passing grades (measured at ninth grade) across ten ancestry groups, defined by the mother's country of birth. We found that the parental separation effects vary across ancestries, being weakest among children with Chilean-born mothers and strongest among children with mothers born in Bosnia and Herzegovina. In general, the effects were weaker in groups in which parental separation was a more common experience."
+  ],
+  "affiliation": [
+    "Department of Sociology, University of Pennsylvania, 239 McNeil Building, 3718 Locus Walk, Philadelphia, PA 19104-6299 USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Separation",
+        "Education",
+        "Divorce",
+        "Inequality",
+        "Race And Ethnicity"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5400781?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5400781"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s10680-017-9419-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-12"
+  ],
+  "dateOfRevision": [
+    "2018-03-02"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-22"
+  ],
+  "firstPublicationDate": [
+    "2017-03-22"
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": [
+    "29190657"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29190657"
+  ],
+  "pmcid": [
+    "PMC5708814"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0188686"
+  ],
+  "title": [
+    "Tree seedlings respond to both light and soil nutrients in a Patagonian evergreen-deciduous forest."
+  ],
+  "authorString": [
+    "Promis A, Allen RB."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Promis A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Promis"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1596-4940",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Silviculture and Nature Conservancy, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Allen RB"
+          ],
+          "firstName": [
+            "Robert B"
+          ],
+          "lastName": [
+            "Allen"
+          ],
+          "initials": [
+            "RB"
+          ],
+          "affiliation": [
+            "Independent Researcher, Lincoln, New Zealand."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1596-4940",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0188686"
+  ],
+  "abstractText": [
+    "Seedlings of co-occurring species vary in their response to resource availability and this has implications for the conservation and management of forests. Differential shade-tolerance is thought to influence seedling performance in mixed Nothofagus betuloides-Nothofagus pumilio forests of Patagonia. However, these species also vary in their soil nutrient requirements. To determine the effects of light and soil nutrient resources on small seedlings we examined responses to an experimental reduction in canopy tree root competition through root trenching and restricting soil nutrient depletion through the addition of fertilizer. To understand the effect of light these treatments were undertaken in small canopy gaps and nearby beneath undisturbed canopy with lower light levels. Seedling diameter growth was greater for N. pumilio and height growth was greater for N. betuloides. Overall, diameter and height growth were greater in canopy gaps than beneath undisturbed canopy. Such growths were also greater with fertilizer and root trenching treatments, even beneath undisturbed canopy. Seedling survival was lower under such treatments, potentially reflecting thinning facilitated by resource induced growth. Finally, above-ground biomass did not vary among species although the less shade tolerant N. pumilio had higher below-ground biomass and root to shoot biomass ratio than the more shade tolerant N. betuloides. Above- and below-ground biomass were higher in canopy gaps so that the root to shoot biomass ratio was similar to that beneath undisturbed canopy. Above-ground biomass was also higher with fertilizer and root trenching treatments and that lowered the root to shoot biomass ratio. Restricting soil nutrient depletion allowed seedlings of both species to focus their responses above-ground. Our results support a view that soil nutrient resources, as well as the more commonly studied light resources, are important to seedlings of Nothofagus species occurring on infertile soils."
+  ],
+  "affiliation": [
+    "Department of Silviculture and Nature Conservancy, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Trees"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Soil"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Light"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Argentina"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Forests"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Soil"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5708814?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5708814"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0188686"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-29"
+  ],
+  "dateOfCreation": [
+    "2017-12-01"
+  ],
+  "dateOfRevision": [
+    "2017-12-29"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-30"
+  ],
+  "firstPublicationDate": [
+    "2017-11-30"
+  ]
+}

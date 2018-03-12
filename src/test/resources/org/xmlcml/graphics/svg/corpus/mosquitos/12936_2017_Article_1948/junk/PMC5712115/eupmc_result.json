@@ -1,0 +1,396 @@
+{
+  "id": [
+    "29214116"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29214116"
+  ],
+  "pmcid": [
+    "PMC5712115"
+  ],
+  "doi": [
+    "10.1186/s40164-017-0092-3"
+  ],
+  "title": [
+    "Compassionate use of ruxolitinib in acute and chronic graft versus host disease refractory both to corticosteroids and extracorporeal photopheresis."
+  ],
+  "authorString": [
+    "Maldonado MS, Ramírez Villanueva P, Bertín Cortes-Monroy P, Jara Arias V, Soto Donoso K, Uribe Gonzalez P, Ocqueteau Tachini M, Perez-Simón JA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Maldonado MS"
+          ],
+          "firstName": [
+            "Mauricio Sarmiento"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3715-9886",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez Villanueva P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Ramírez Villanueva"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "School of Medicine, Universidad Austral de Chile, Independencia 641, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bertín Cortes-Monroy P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Bertín Cortes-Monroy"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jara Arias V"
+          ],
+          "firstName": [
+            "Veronica"
+          ],
+          "lastName": [
+            "Jara Arias"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto Donoso K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "Soto Donoso"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe Gonzalez P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Uribe Gonzalez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ocqueteau Tachini M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Ocqueteau Tachini"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez-Simón JA"
+          ],
+          "firstName": [
+            "Jose Antonio"
+          ],
+          "lastName": [
+            "Perez-Simón"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0621-5809",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Hematology, Hospital Universitario Virgen del Rocío, Instituto de Biomedicina de Sevilla (IBIS/CSIC), Manuel Siurot 41013, Seville, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3715-9886",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0621-5809",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2516403"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Experimental hematology & oncology"
+          ],
+          "ISOAbbreviation": [
+            "Exp Hematol Oncol"
+          ],
+          "medlineAbbreviation": [
+            "Exp Hematol Oncol"
+          ],
+          "NLMid": [
+            "101590676"
+          ],
+          "ISSN": [
+            "2162-3619"
+          ],
+          "ESSN": [
+            "2162-3619"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "32"
+  ],
+  "abstractText": [
+    "Ruxolitinib is a potent inhibitor of JAK1/2 with proven efficacy in myelofibrosis. In recent years, research in graft versus host disease (GVHD) has revealed the role of activation of JAK pathways in alloreactive lymphocytes. Some reports have shown significant responses in refractory GVHD patients.In this report we present our experience in 8 patients with acute or chronic GVHD with refractoriness to steroids and extracorporeal photopheresis treated with ruxolitinib. Three patients had acute GVHD (1 pulmonary, 2 cutaneous, 1 multi-systemic) and 5 had chronic GVHD (3 cutaneous); 85% obtained an overall response and 50% a complete response with a tolerable toxicity profile.In our series, Ruxolitinib was very active as a rescue therapy for patients with acute or chronic GVHD refractory to standard treatment."
+  ],
+  "affiliation": [
+    "Adult Hematopoietic Stem Cell Transplantation Program, Pontificia Universidad Católica de Chile, Diagonal Paraguay 362, 6th Floor, ZC 832000 Santiago, RM Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Graft versus host disease",
+        "Ruxolitinib",
+        "Extracorporeal Photopheresis",
+        "Corticoid Refractoriness"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5712115?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5712115"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40164-017-0092-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-08"
+  ],
+  "dateOfRevision": [
+    "2017-12-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-02"
+  ],
+  "firstPublicationDate": [
+    "2017-12-02"
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "id": [
+    "26756869"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26756869"
+  ],
+  "pmcid": [
+    "PMC4710505"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0146047"
+  ],
+  "title": [
+    "Where Are Socioeconomically Deprived Immigrants Located in Chile? A Spatial Analysis of Census Data Using an Index of Multiple Deprivation from the Last Three Decades (1992-2012)."
+  ],
+  "authorString": [
+    "Vasquez A, Cabieses B, Tunstall H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vasquez A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Vasquez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "National Research Center for Integrated Natural Disaster Management CIGIDEN, Fondap 15110017, School of Engineering, Pontificia Universidad Catolica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cabieses B"
+          ],
+          "firstName": [
+            "Baltica"
+          ],
+          "lastName": [
+            "Cabieses"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Health Sciences, University of York, York, England, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Tunstall H"
+          ],
+          "firstName": [
+            "Helena"
+          ],
+          "lastName": [
+            "Tunstall"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "School of GeoSciences, University of Edinburgh, Edinburgh, Scotland, United Kingdom."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2358464"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0146047"
+  ],
+  "abstractText": [
+    "Immigrants in Chile have diverse characteristics and include socioeconomically deprived populations. The location of socioeconomically deprived immigrants is important for the development of public policy intelligence at the local and national levels but their areas of residence have not been mapped in Chile. This study explored the spatial distribution of socioeconomic deprivation among immigrants in Chile, 1992-2012, and compared it to the total population.Areas with socioeconomically deprived populations were identified with a deprivation index which we developed modelled upon the Index of Multiple Deprivation (IMD) for England. Our IMD was based upon the indicators of unemployment, low educational level (primary) and disability from Census data at county level for the three decades 1992, 2002 and 2012, for 332, 339 and 343 counties respectively. We developed two versions of the IMD one based on disadvantage among the total population and another focused upon the circumstances of immigrants only. We generated a spatial representation of the IMD using GIS, for the overall IMD score and for each dimension of the index, separately. We also compared the immigrants´ IMD to the total population´s IMD using Pearson´s correlation test.Results showed that socioeconomically deprived immigrants tended to be concentrated in counties in the northern and central area of Chile, in particular within the Metropolitan Region of Santiago. These were the same counties where there was the greatest concentration of socioeconomic deprivation for the total population during the same time periods. Since 1992 there have been significant change in the location of the socioeconomically deprived populations within the Metropolitan Region of Santiago with the highest IMD scores for both the total population and immigrants becoming increasingly concentrated in the central and eastern counties of the Region.This is the first study analysing the spatial distribution of socioeconomic deprivation among international immigrants and the total population in a Latin American country. Findings could inform policy makers about location of areas of higher need of social protection in Chile, for both immigrants and the total resident population in the country."
+  ],
+  "affiliation": [
+    "National Research Center for Integrated Natural Disaster Management CIGIDEN, Fondap 15110017, School of Engineering, Pontificia Universidad Catolica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Data Collection"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Status Indicators"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Censuses"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Status"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geography"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Social Class"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Public Policy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Poverty"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Poverty Areas"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geographic Information Systems"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Emigrants and Immigrants"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4710505?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4710505"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0146047"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-07-19"
+  ],
+  "dateOfCreation": [
+    "2016-01-13"
+  ],
+  "dateOfRevision": [
+    "2016-01-27"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-12"
+  ],
+  "firstPublicationDate": [
+    "2016-01-12"
+  ]
+}

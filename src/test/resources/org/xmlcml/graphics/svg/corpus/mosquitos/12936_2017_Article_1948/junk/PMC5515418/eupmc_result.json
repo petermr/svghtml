@@ -1,0 +1,424 @@
+{
+  "id": [
+    "28719627"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28719627"
+  ],
+  "pmcid": [
+    "PMC5515418"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0181317"
+  ],
+  "title": [
+    "The role of gender in the association between self-rated health and mortality among older adults in Santiago, Chile: A cohort study."
+  ],
+  "authorString": [
+    "Moreno X, Albala C, Lera L, Sánchez H, Fuentes-García A, Dangour AD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Moreno X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile.ElLíbano 5524, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Albala C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Albala"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile.ElLíbano 5524, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lera L"
+          ],
+          "firstName": [
+            "Lydia"
+          ],
+          "lastName": [
+            "Lera"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile.ElLíbano 5524, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez H"
+          ],
+          "firstName": [
+            "Hugo"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile.ElLíbano 5524, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes-García A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Fuentes-García"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Public Health School, Faculty of Medicine, University of Chile. Av. Independencia 939, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dangour AD"
+          ],
+          "firstName": [
+            "Alan D"
+          ],
+          "lastName": [
+            "Dangour"
+          ],
+          "initials": [
+            "AD"
+          ],
+          "affiliation": [
+            "Department of Population Health, Faculty of Epidemiology and Population Health, London School of Hygiene & Tropical Medicine, London, United Kingdom."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2572928"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0181317"
+  ],
+  "abstractText": [
+    "Previous studies on the role of gender in the association between self-rated health and mortality have shown contrasting results. This study was aimed to determine the importance of gender in the association between self-rated health and mortality among older people in Santiago, Chile.A 10 year follow-up of 1066 people aged 60 or more, from the Chilean cohort of the Study of Health, Ageing and Well-Being. Self-rated health was assessed in face to face interviews through a single general question, along with socio-demographic and health status information. Cox proportional hazards and flexible parametric models for survival analyses were employed.By the end of follow-up, 30.7% of women and 39.4% of men died. Adjusted hazard ratio of poor self-rated health, compared to good self-rated health, was 1.92(95% CI 1.29-2.86). In models stratified by gender, an increased risk of mortality was observed among women who rated their health as poor (HR = 2.21, 95% CI 1.43-3.40), but not among men (HR = 1.04, 95% CI 0.58-1.86). Age was associated with mortality in both groups; for men, functional limitation and underweight were also risk factors and obesity was a protective factor.Compared to older women who rated their health as good, older women who rated their health as poor had a 2 fold increased risk of mortality over the subsequent 10 years. These findings stress the importance of considering a gender perspective into health programmes, including those focused on older people, in order to address the different elements that increase, on the long run, the risk of dying among older women and men."
+  ],
+  "affiliation": [
+    "Institute of Nutrition and Food Technology, University of Chile.ElLíbano 5524, Macul, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Survival Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cohort Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sex Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Status"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Self Report"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5515418?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5515418"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0181317"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-25"
+  ],
+  "dateOfCreation": [
+    "2017-07-18"
+  ],
+  "dateOfRevision": [
+    "2017-09-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-18"
+  ],
+  "firstPublicationDate": [
+    "2017-07-18"
+  ]
+}

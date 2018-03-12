@@ -1,0 +1,345 @@
+{
+  "id": [
+    "28679394"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28679394"
+  ],
+  "pmcid": [
+    "PMC5497347"
+  ],
+  "doi": [
+    "10.1186/s12864-017-3909-x"
+  ],
+  "title": [
+    "Erratum to: Identification of conserved genes triggering puberty in European sea bass males (Dicentrarchus labrax) by microarray expression profiling."
+  ],
+  "authorString": [
+    "Blázquez M, Medina P, Crespo B, Gómez A, Zanuy S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Blázquez M"
+          ],
+          "firstName": [
+            "Mercedes"
+          ],
+          "lastName": [
+            "Blázquez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0522-2107",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias del Mar, Consejo Superior de Investigaciones Científicas (ICM-CSIC), Passeig Maritim 37-49, 08003, Barcelona, Spain. blazquez@icm.csic.es."
+          ]
+        },
+        {
+          "fullName": [
+            "Medina P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Present address: Universidad de Antofagasta, Avda Angamos, 601, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Crespo B"
+          ],
+          "firstName": [
+            "Berta"
+          ],
+          "lastName": [
+            "Crespo"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Present address: UCL Great Ormond Street Institute of Child Health, 30 Guilford Street, London, WC1N 1EH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Gómez A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Gómez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Acuicultura de Torre la Sal, Consejo Superior de Investigaciones Científicas (IATS-CSIC), Ribera de Cabanes, 12595, Castellón, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Zanuy S"
+          ],
+          "firstName": [
+            "Silvia"
+          ],
+          "lastName": [
+            "Zanuy"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Instituto de Acuicultura de Torre la Sal, Consejo Superior de Investigaciones Científicas (IATS-CSIC), Ribera de Cabanes, 12595, Castellón, Spain. s.zanuy@csic.es."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0522-2107",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2572181"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ISSN": [
+            "1471-2164"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "513"
+  ],
+  "affiliation": [
+    "Instituto de Ciencias del Mar, Consejo Superior de Investigaciones Científicas (ICM-CSIC), Passeig Maritim 37-49, 08003, Barcelona, Spain. blazquez@icm.csic.es."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5497347?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5497347"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12864-017-3909-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "28583077"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "BMC Genomics. 2017 Jun 5;18(1):441"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-06"
+  ],
+  "dateOfRevision": [
+    "2017-11-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-05"
+  ],
+  "firstPublicationDate": [
+    "2017-07-05"
+  ]
+}

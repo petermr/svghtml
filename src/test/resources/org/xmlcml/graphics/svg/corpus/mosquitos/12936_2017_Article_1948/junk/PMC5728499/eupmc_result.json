@@ -1,0 +1,614 @@
+{
+  "id": [
+    "29236755"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29236755"
+  ],
+  "pmcid": [
+    "PMC5728499"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0188371"
+  ],
+  "title": [
+    "Genomic features of \"Candidatus Venteria ishoeyi\", a new sulfur-oxidizing macrobacterium from the Humboldt Sulfuretum off Chile."
+  ],
+  "authorString": [
+    "Fonseca A, Ishoey T, Espinoza C, Pérez-Pantoja D, Manghisi A, Morabito M, Salas-Burgos A, Gallardo VA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fonseca A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Fonseca"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4580-6270",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Oceanography, University of Concepcion, Concepcion, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ishoey T"
+          ],
+          "firstName": [
+            "Thomas"
+          ],
+          "lastName": [
+            "Ishoey"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Independent consultant, Encinitas, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza C"
+          ],
+          "firstName": [
+            "Carola"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "College of Ocean Science and Resources, Institute Marine Affairs and Resource Management, National Taiwan Ocean University, Keelung, Taiwan."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez-Pantoja D"
+          ],
+          "firstName": [
+            "Danilo"
+          ],
+          "lastName": [
+            "Pérez-Pantoja"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Programa Institucional de Fomento a la Investigación, Desarrollo e Innovación, Universidad Tecnológica Metropolitana, San Joaquin, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Manghisi A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Manghisi"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7727-6820",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Chemical, Biological, Pharmaceutical and Environmental Sciences, University of Messina, Messina, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Morabito M"
+          ],
+          "firstName": [
+            "Marina"
+          ],
+          "lastName": [
+            "Morabito"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Chemical, Biological, Pharmaceutical and Environmental Sciences, University of Messina, Messina, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Salas-Burgos A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Salas-Burgos"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Pharmacology, University of Concepcion, Concepcion, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallardo VA"
+          ],
+          "firstName": [
+            "Víctor A"
+          ],
+          "lastName": [
+            "Gallardo"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "affiliation": [
+            "College of Ocean Science and Resources, Institute Marine Affairs and Resource Management, National Taiwan Ocean University, Keelung, Taiwan."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7727-6820",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4580-6270",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2632138"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0188371"
+  ],
+  "abstractText": [
+    "The Humboldt Sulfuretum (HS), in the productive Humboldt Eastern Boundary Current Upwelling Ecosystem, extends under the hypoxic waters of the Peru-Chile Undercurrent (ca. 6°S and ca. 36°S). Studies show that primeval sulfuretums held diverse prokaryotic life, and, while rare today, still sustain species-rich giant sulfur-oxidizing bacterial communities. We here present the genomic features of a new bacteria of the HS, \"Candidatus Venteria ishoeyi\" (\"Ca. V. ishoeyi\") in the family Thiotrichaceae.Three identical filaments were micro-manipulated from reduced sediments collected off central Chile; their DNA was extracted, amplified, and sequenced by a Roche 454 GS FLX platform. Using three sequenced libraries and through de novo genome assembly, a draft genome of 5.7 Mbp, 495 scaffolds, and a N50 of 70 kbp, was obtained. The 16S rRNA gene phylogenetic analysis showed that \"Ca. V. ishoeyi\" is related to non-vacuolate forms presently known as Beggiatoa or Beggiatoa-like forms. The complete set of genes involved in respiratory nitrate-reduction to dinitrogen was identified in \"Ca. V. ishoeyi\"; including genes likely leading to ammonification. As expected, the sulfur-oxidation pathway reported for other sulfur-oxidizing bacteria were deduced and also, key inorganic and organic carbon acquisition related genes were identified. Unexpectedly, the genome of \"Ca. V. ishoeyi\" contained numerous CRISPR repeats and an I-F CRISPR-Cas type system gene coding array. Findings further show that, as a member of an eons-old marine ecosystem, \"Ca. V. ishoeyi\" contains the needed metabolic plasticity for life in an increasingly oxygenated and variable ocean."
+  ],
+  "affiliation": [
+    "Department of Oceanography, University of Concepcion, Concepcion, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacteria"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sulfur"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Bacterial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Ribosomal, 16S"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oxidation-Reduction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome, Bacterial"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Bacterial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Ribosomal, 16S"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Sulfur"
+          ],
+          "registryNumber": [
+            "70FD1KFU70"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5728499?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5728499"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0188371"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-01-04"
+  ],
+  "dateOfCreation": [
+    "2017-12-14"
+  ],
+  "dateOfRevision": [
+    "2018-01-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-13"
+  ],
+  "firstPublicationDate": [
+    "2017-12-13"
+  ]
+}

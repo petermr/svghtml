@@ -1,0 +1,722 @@
+{
+  "id": [
+    "27518286"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27518286"
+  ],
+  "pmcid": [
+    "PMC4982630"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0160434"
+  ],
+  "title": [
+    "Analysis of Mycobacterium tuberculosis Genotypic Lineage Distribution in Chile and Neighboring Countries."
+  ],
+  "authorString": [
+    "Lagos J, Couvin D, Arata L, Tognarelli J, Aguayo C, Leiva T, Arias F, Hormazabal JC, Rastogi N, Fernández J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lagos J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Lagos"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Couvin D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Couvin"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "WHO Supranational TB Reference Laboratory, TB and Mycobacteria Unit, Institut Pasteur de la Guadeloupe, Guadeloupe, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Arata L"
+          ],
+          "firstName": [
+            "Loredana"
+          ],
+          "lastName": [
+            "Arata"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tognarelli J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Tognarelli"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leiva T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Leiva"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Mycobacteria Laboratory, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arias F"
+          ],
+          "firstName": [
+            "Fabiola"
+          ],
+          "lastName": [
+            "Arias"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Mycobacteria Laboratory, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hormazabal JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Hormazabal"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Subdepartment of Infectious Disease, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rastogi N"
+          ],
+          "firstName": [
+            "Nalin"
+          ],
+          "lastName": [
+            "Rastogi"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7199-7747",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "WHO Supranational TB Reference Laboratory, TB and Mycobacteria Unit, Institut Pasteur de la Guadeloupe, Guadeloupe, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Fernández"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7199-7747",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2435494"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0160434"
+  ],
+  "abstractText": [
+    "Tuberculosis (TB), caused by the pathogen Mycobacterium tuberculosis (MTB), remains a disease of high importance to global public health. Studies into the population structure of MTB have become vital to monitoring possible outbreaks and also to develop strategies regarding disease control. Although Chile has a low incidence of MTB, the current rates of migration have the potential to change this scenario. We collected and analyzed a total of 458 M. tuberculosis isolates (1 isolate per patient) originating from all 15 regions of Chile. The isolates were genotyped using the spoligotyping method and the data obtained were analyzed and compared with the SITVIT2 database. A total of 169 different patterns were identified, of which, 119 patterns (408 strains) corresponded to Spoligotype International Types (SITs) and 50 patterns corresponded to orphan strains. The most abundantly represented SITs/lineages were: SIT53/T1 (11.57%), SIT33/LAM3 (9.6%), SIT42/LAM9 (9.39%), SIT50/H3 (5.9%), SIT37/T3 (5%); analysis of the spoligotyping minimum spanning tree as well as spoligoforest were suggestive of a recent expansion of SIT42, SIT50 and SIT37; all of which potentially evolved from SIT53. The most abundantly represented lineages were LAM (40.6%), T (34.1%) and Haarlem (13.5%). LAM was more prevalent in the Santiago (43.6%) and Concepción (44.1%) isolates, rather than the Iquique (29.4%) strains. The proportion of X lineage was appreciably higher in Iquique and Concepción (11.7% in both) as compared to Santiago (1.6%). Global analysis of MTB lineage distribution in Chile versus neighboring countries showed that evolutionary recent lineages (LAM, T and Haarlem) accounted together for 88.2% of isolates in Chile, a pattern which mirrored MTB lineage distribution in neighboring countries (n = 7378 isolates recorded in SITVIT2 database for Peru, Brazil, Paraguay, and Argentina; and published studies), highlighting epidemiological advantage of Euro-American lineages in this region. Finally, we also observed exclusive emergence of patterns SIT4014/X1 and SIT4015 (unknown lineage signature) that have hitherto been found exclusively in Chile, indicating that conditions specific to Chile, along with the unique genetic makeup of the Chilean population, might have allowed for a possible co-evolution leading to the success of these emerging genotypes."
+  ],
+  "affiliation": [
+    "Subdepartment of Molecular Genetics, Public Health Institute of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mycobacterium tuberculosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tuberculosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacterial Typing Techniques"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Incidence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Argentina"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brazil"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Paraguay"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Peru"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4982630?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4982630"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0160434"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-07-27"
+  ],
+  "dateOfCreation": [
+    "2016-08-13"
+  ],
+  "dateOfRevision": [
+    "2017-07-27"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-12"
+  ],
+  "firstPublicationDate": [
+    "2016-08-12"
+  ]
+}

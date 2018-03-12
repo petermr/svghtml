@@ -1,0 +1,571 @@
+{
+  "id": [
+    "29140980"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29140980"
+  ],
+  "pmcid": [
+    "PMC5687714"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0186867"
+  ],
+  "title": [
+    "Prokaryotic diversity and biogeochemical characteristics of benthic microbial ecosystems at La Brava, a hypersaline lake at Salar de Atacama, Chile."
+  ],
+  "authorString": [
+    "Farias ME, Rasuk MC, Gallagher KL, Contreras M, Kurth D, Fernandez AB, Poiré D, Novoa F, Visscher PT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farias ME"
+          ],
+          "firstName": [
+            "Maria Eugenia"
+          ],
+          "lastName": [
+            "Farias"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2771-8915",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Investigaciones Microbiológicas de Lagunas Andinas (LIMLA), Planta Piloto de Procesos Industriales Microbiológicos (PROIMI), CCT-Tucumán, CONICET, Tucumán, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Rasuk MC"
+          ],
+          "firstName": [
+            "Maria Cecilia"
+          ],
+          "lastName": [
+            "Rasuk"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigaciones Microbiológicas de Lagunas Andinas (LIMLA), Planta Piloto de Procesos Industriales Microbiológicos (PROIMI), CCT-Tucumán, CONICET, Tucumán, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallagher KL"
+          ],
+          "firstName": [
+            "Kimberley L"
+          ],
+          "lastName": [
+            "Gallagher"
+          ],
+          "initials": [
+            "KL"
+          ],
+          "affiliation": [
+            "Department of Marine Sciences, University of Connecticut, Groton, Connecticut, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Contreras M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Contreras"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Ecología Aplicada (CEA), Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kurth D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Kurth"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigaciones Microbiológicas de Lagunas Andinas (LIMLA), Planta Piloto de Procesos Industriales Microbiológicos (PROIMI), CCT-Tucumán, CONICET, Tucumán, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez AB"
+          ],
+          "firstName": [
+            "Ana Beatriz"
+          ],
+          "lastName": [
+            "Fernandez"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigaciones Microbiológicas de Lagunas Andinas (LIMLA), Planta Piloto de Procesos Industriales Microbiológicos (PROIMI), CCT-Tucumán, CONICET, Tucumán, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Poiré D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Poiré"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Investigaciones Geológicas, Universidad Nacional de La Plata-Conicet, La Plata, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Novoa F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Novoa"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centro de Ecología Aplicada (CEA), Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Visscher PT"
+          ],
+          "firstName": [
+            "Pieter T"
+          ],
+          "lastName": [
+            "Visscher"
+          ],
+          "initials": [
+            "PT"
+          ],
+          "affiliation": [
+            "Australian Centre for Astrobiology, University of New South Wales, Sydney, New South Wales, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2771-8915",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0186867"
+  ],
+  "abstractText": [
+    "Benthic microbial ecosystems of Laguna La Brava, Salar de Atacama, a high altitude hypersaline lake, were characterized in terms of bacterial and archaeal diversity, biogeochemistry, (including O2 and sulfide depth profiles and mineralogy), and physicochemical characteristics. La Brava is one of several lakes in the Salar de Atacama where microbial communities are growing in extreme conditions, including high salinity, high solar insolation, and high levels of metals such as lithium, arsenic, magnesium, and calcium. Evaporation creates hypersaline conditions in these lakes and mineral precipitation is a characteristic geomicrobiological feature of these benthic ecosystems. In this study, the La Brava non-lithifying microbial mats, microbialites, and rhizome-associated concretions were compared to each other and their diversity was related to their environmental conditions. All the ecosystems revealed an unusual community where Euryarchaeota, Crenarchaeota, Acetothermia, Firmicutes and Planctomycetes were the most abundant groups, and cyanobacteria, typically an important primary producer in microbial mats, were relatively insignificant or absent. This suggests that other microorganisms, and possibly novel pathways unique to this system, are responsible for carbon fixation. Depth profiles of O2 and sulfide showed active production and respiration. The mineralogy composition was calcium carbonate (as aragonite) and increased from mats to microbialites and rhizome-associated concretions. Halite was also present. Further analyses were performed on representative microbial mats and microbialites by layer. Different taxonomic compositions were observed in the upper layers, with Archaea dominating the non-lithifying mat, and Planctomycetes the microbialite. The bottom layers were similar, with Euryarchaeota, Crenarchaeota and Planctomycetes as dominant phyla. Sequences related to Cyanobacteria were very scarce. These systems may contain previously uncharacterized community metabolisms, some of which may be contributing to net mineral precipitation. Further work on these sites might reveal novel organisms and metabolisms of biotechnological interest."
+  ],
+  "affiliation": [
+    "Laboratorio de Investigaciones Microbiológicas de Lagunas Andinas (LIMLA), Planta Piloto de Procesos Industriales Microbiológicos (PROIMI), CCT-Tucumán, CONICET, Tucumán, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Metals"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Water Microbiology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Biodiversity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sunlight"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geologic Sediments"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Salinity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lakes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Microbiota"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Metals"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687714?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687714"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0186867"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-11"
+  ],
+  "dateOfCreation": [
+    "2017-11-16"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-15"
+  ],
+  "firstPublicationDate": [
+    "2017-11-15"
+  ]
+}

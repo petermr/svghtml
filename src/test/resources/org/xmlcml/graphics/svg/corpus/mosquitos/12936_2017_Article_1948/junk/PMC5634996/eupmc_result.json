@@ -1,0 +1,545 @@
+{
+  "id": [
+    "29018198"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29018198"
+  ],
+  "pmcid": [
+    "PMC5634996"
+  ],
+  "doi": [
+    "10.1038/s41467-017-00821-z"
+  ],
+  "title": [
+    "Plume-subduction interaction forms large auriferous provinces."
+  ],
+  "authorString": [
+    "Tassara S, González-Jiménez JM, Reich M, Schilling ME, Morata D, Begg G, Saunders E, Griffin WL, O'Reilly SY, Grégoire M, Barra F, Corgne A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Tassara S"
+          ],
+          "firstName": [
+            "Santiago"
+          ],
+          "lastName": [
+            "Tassara"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7697-5646",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile. tassara.carlos.sant@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Jiménez JM"
+          ],
+          "firstName": [
+            "José M"
+          ],
+          "lastName": [
+            "González-Jiménez"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Reich M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Reich"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7269-7586",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schilling ME"
+          ],
+          "firstName": [
+            "Manuel E"
+          ],
+          "lastName": [
+            "Schilling"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, 5090000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morata D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Morata"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9751-2429",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Begg G"
+          ],
+          "firstName": [
+            "Graham"
+          ],
+          "lastName": [
+            "Begg"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Minerals Targeting International PL, 17 Prowse Street, West Perth, WA, 6005, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Saunders E"
+          ],
+          "firstName": [
+            "Edward"
+          ],
+          "lastName": [
+            "Saunders"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6728-789X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Earth Sciences, School of Environmental and Rural Science, University of New England, Armidale, NSW, 2351, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Griffin WL"
+          ],
+          "firstName": [
+            "William L"
+          ],
+          "lastName": [
+            "Griffin"
+          ],
+          "initials": [
+            "WL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0980-2566",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "ARC Centre of Excellence for Core to Crust Fluid Systems/GEMOC, Macquarie University, Sydney, NSW, 2109, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Reilly SY"
+          ],
+          "firstName": [
+            "Suzanne Y"
+          ],
+          "lastName": [
+            "O'Reilly"
+          ],
+          "initials": [
+            "SY"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3883-5498",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "ARC Centre of Excellence for Core to Crust Fluid Systems/GEMOC, Macquarie University, Sydney, NSW, 2109, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Grégoire M"
+          ],
+          "firstName": [
+            "Michel"
+          ],
+          "lastName": [
+            "Grégoire"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9196-876X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "GET, CNRS-CNES-IRD-UPS, Toulouse University, 14 Avenue Edouard Belin, 31200, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Barra F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Barra"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7836-562X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corgne A"
+          ],
+          "firstName": [
+            "Alexandre"
+          ],
+          "lastName": [
+            "Corgne"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, 5090000, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7269-7586",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7836-562X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6728-789X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0980-2566",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3883-5498",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7697-5646",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9751-2429",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9196-876X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2603097"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "843"
+  ],
+  "abstractText": [
+    "Gold enrichment at the crustal or mantle source has been proposed as a key ingredient in the production of giant gold deposits and districts. However, the lithospheric-scale processes controlling gold endowment in a given metallogenic province remain unclear. Here we provide the first direct evidence of native gold in the mantle beneath the Deseado Massif in Patagonia that links an enriched mantle source to the occurrence of a large auriferous province in the overlying crust. A precursor stage of mantle refertilisation by plume-derived melts generated a gold-rich mantle source during the Early Jurassic. The interplay of this enriched mantle domain and subduction-related fluids released during the Middle-Late Jurassic resulted in optimal conditions to produce the ore-forming magmas that generated the gold deposits. Our study highlights that refertilisation of the subcontinental lithospheric mantle is a key factor in forming large metallogenic provinces in the Earth's crust, thus providing an alternative view to current crust-related enrichment models.The lithospheric controls on giant gold deposits remain unclear. Here, the authors show evidence for native gold in the mantle from the Deseado Massif in Patagonia demonstrating that refertilisation of the lithospheric mantle is key in forming metallogenic provinces."
+  ],
+  "affiliation": [
+    "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, 8370450, Chile. tassara.carlos.sant@ug.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5634996?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5634996"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-017-00821-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-31"
+  ],
+  "dateOfCreation": [
+    "2017-10-12"
+  ],
+  "dateOfRevision": [
+    "2018-01-31"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-10"
+  ],
+  "firstPublicationDate": [
+    "2017-10-10"
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "id": [
+    "28207832"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28207832"
+  ],
+  "pmcid": [
+    "PMC5313215"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0172255"
+  ],
+  "title": [
+    "Towards sustainable fishery management for skates in South America: The genetic population structure of Zearaja chilensis and Dipturus trachyderma (Chondrichthyes, Rajiformes) in the south-east Pacific Ocean."
+  ],
+  "authorString": [
+    "Vargas-Caro C, Bustamante C, Bennett MB, Ovenden JR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vargas-Caro C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Vargas-Caro"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9589-9992",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Molecular Fisheries Laboratory, School of Biomedical Sciences, The University of Queensland, Brisbane, St Lucia, Queensland, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustamante C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Bustamante"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0816-6406",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Molecular Fisheries Laboratory, School of Biomedical Sciences, The University of Queensland, Brisbane, St Lucia, Queensland, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Bennett MB"
+          ],
+          "firstName": [
+            "Michael B"
+          ],
+          "lastName": [
+            "Bennett"
+          ],
+          "initials": [
+            "MB"
+          ],
+          "affiliation": [
+            "Shark and Ray Research Group, School of Biomedical Sciences, The University of Queensland, Brisbane, St Lucia, Queensland, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Ovenden JR"
+          ],
+          "firstName": [
+            "Jennifer R"
+          ],
+          "lastName": [
+            "Ovenden"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Molecular Fisheries Laboratory, School of Biomedical Sciences, The University of Queensland, Brisbane, St Lucia, Queensland, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9589-9992",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0816-6406",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2520051"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0172255"
+  ],
+  "abstractText": [
+    "The longnose skates (Zearaja chilensis and Dipturus trachyderma) are the main component of the elasmobranch fisheries in the south-east Pacific Ocean. Both species are considered to be a single stock by the fishery management in Chile however, little is known about the level of demographic connectivity within the fishery. In this study, we used a genetic variation (560 bp of the control region of the mitochondrial genome and ten microsatellite loci) to explore population connectivity at five locations along the Chilean coast. Analysis of Z. chilensis populations revealed significant genetic structure among off-shore locations (San Antonio, Valdivia), two locations in the Chiloé Interior Sea (Puerto Montt and Aysén) and Punta Arenas in southern Chile. For example, mtDNA haplotype diversity was similar across off-shore locations and Punta Arenas (h = 0.46-0.50), it was significantly different to those in the Chiloé Interior Sea (h = 0.08). These results raise concerns about the long-term survival of the species within the interior sea, as population resilience will rely almost exclusively on self-recruitment. In contrast, little evidence of genetic structure was found for D. trachyderma. Our results provide evidence for three management units for Z. chilensis, and we recommend that separate management arrangements are required for each of these units. However, there is no evidence to discriminate the extant population of Dipturus trachyderma as separate management units. The lack of genetic population subdivision for D. trachyderma appears to correspond with their higher dispersal ability and more offshore habitat preference."
+  ],
+  "affiliation": [
+    "Molecular Fisheries Laboratory, School of Biomedical Sciences, The University of Queensland, Brisbane, St Lucia, Queensland, Australia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Skates (Fish)"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Mitochondrial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Microsatellite Repeats"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fisheries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Mitochondrial"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Mitochondrial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5313215?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5313215"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0172255"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-08-28"
+  ],
+  "dateOfCreation": [
+    "2017-02-16"
+  ],
+  "dateOfRevision": [
+    "2017-08-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-16"
+  ],
+  "firstPublicationDate": [
+    "2017-02-16"
+  ]
+}

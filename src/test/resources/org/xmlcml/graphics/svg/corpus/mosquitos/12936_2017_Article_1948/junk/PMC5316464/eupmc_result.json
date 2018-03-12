@@ -1,0 +1,358 @@
+{
+  "id": [
+    "28261267"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28261267"
+  ],
+  "pmcid": [
+    "PMC5316464"
+  ],
+  "doi": [
+    "10.1155/2017/7951395"
+  ],
+  "title": [
+    "A Novel Multilevel-SVD Method to Improve Multistep Ahead Forecasting in Traffic Accidents Domain."
+  ],
+  "authorString": [
+    "Barba L, Rodríguez N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Barba L"
+          ],
+          "firstName": [
+            "Lida"
+          ],
+          "lastName": [
+            "Barba"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4191-9497",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, 2362807 Valparaíso, Chile; Facultad de Ingeniería, Universidad Nacional de Chimborazo, 060102 Riobamba, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodríguez N"
+          ],
+          "firstName": [
+            "Nibaldo"
+          ],
+          "lastName": [
+            "Rodríguez"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, 2362807 Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4191-9497",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518619"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Computational intelligence and neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "NLMid": [
+            "101279357"
+          ],
+          "ISSN": [
+            "1687-5265"
+          ],
+          "ESSN": [
+            "1687-5273"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7951395"
+  ],
+  "abstractText": [
+    "Here is proposed a novel method for decomposing a nonstationary time series in components of low and high frequency. The method is based on Multilevel Singular Value Decomposition (MSVD) of a Hankel matrix. The decomposition is used to improve the forecasting accuracy of Multiple Input Multiple Output (MIMO) linear and nonlinear models. Three time series coming from traffic accidents domain are used. They represent the number of persons with injuries in traffic accidents of Santiago, Chile. The data were continuously collected by the Chilean Police and were weekly sampled from 2000:1 to 2014:12. The performance of MSVD is compared with the decomposition in components of low and high frequency of a commonly accepted method based on Stationary Wavelet Transform (SWT). SWT in conjunction with the Autoregressive model (SWT + MIMO-AR) and SWT in conjunction with an Autoregressive Neural Network (SWT + MIMO-ANN) were evaluated. The empirical results have shown that the best accuracy was achieved by the forecasting model based on the proposed decomposition method MSVD, in comparison with the forecasting models based on SWT."
+  ],
+  "affiliation": [
+    "Escuela de Ingeniería Informática, Pontificia Universidad Católica de Valparaíso, 2362807 Valparaíso, Chile; Facultad de Ingeniería, Universidad Nacional de Chimborazo, 060102 Riobamba, Ecuador."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Accidents, Traffic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Neural Networks (Computer)"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Theoretical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Forecasting"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Wavelet Analysis"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5316464?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5316464"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/7951395"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-03-17"
+  ],
+  "dateOfCreation": [
+    "2017-03-06"
+  ],
+  "dateOfRevision": [
+    "2017-03-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-05"
+  ],
+  "firstPublicationDate": [
+    "2017-02-05"
+  ]
+}

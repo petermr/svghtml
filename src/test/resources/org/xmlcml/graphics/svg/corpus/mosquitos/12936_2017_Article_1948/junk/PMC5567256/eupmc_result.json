@@ -1,0 +1,270 @@
+{
+  "id": [
+    "28831057"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28831057"
+  ],
+  "pmcid": [
+    "PMC5567256"
+  ],
+  "doi": [
+    "10.1038/s41598-017-08800-6"
+  ],
+  "title": [
+    "Seasonal singing of a songbird living near the equator correlates with minimal changes in day length."
+  ],
+  "authorString": [
+    "Quispe R, Protazio JMB, Gahr M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Quispe R"
+          ],
+          "firstName": [
+            "Rene"
+          ],
+          "lastName": [
+            "Quispe"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento Biología Marina, Facultad Ciencias del Mar, Universidad Católica del Norte, Larrondo 1281, Coquimbo, Chile. rene.quispe@ucn.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Protazio JMB"
+          ],
+          "firstName": [
+            "João Marcelo Brazão"
+          ],
+          "lastName": [
+            "Protazio"
+          ],
+          "initials": [
+            "JMB"
+          ],
+          "affiliation": [
+            "Faculdade de Estatística, Universidade Federal do Pará, Rua Augusto Corrêa 01 - Guamá, 66075-110, Belém, PA, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Gahr M"
+          ],
+          "firstName": [
+            "Manfred"
+          ],
+          "lastName": [
+            "Gahr"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Behavioural Neurobiology Max Planck Institute for Ornithology, Eberhard-Gwinner-Strasse, 82319, Seewiesen, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "9140"
+  ],
+  "abstractText": [
+    "Behaving in accordance with natural cycles is essential for survival. Birds in the temperate regions use the changes of day length to time their behavior. However, at equatorial latitudes the photoperiod remains almost constant throughout the year, and it is unclear which cues songbirds use to regulate behaviors, such as singing. Here, we investigated the timing of dawn-song of male silver-beaked tanagers in the equatorial lowland Amazonas over two years. In this region, birds experience around nine minutes of annual day length variation, with sunrise times varying by 32 minutes over the year. We show that the seasonal timing of dawn-song was highly regular between years, and was strongly correlated with slight increases in day length. During the singing season the daily dawn-song onset was precisely aligned to variations in twilight time. Thus, although photoperiodic changes near the equator are minimal, songbirds can use day length variation to time singing."
+  ],
+  "affiliation": [
+    "Departamento Biología Marina, Facultad Ciencias del Mar, Universidad Católica del Norte, Larrondo 1281, Coquimbo, Chile. rene.quispe@ucn.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5567256?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5567256"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-08800-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-23"
+  ],
+  "dateOfRevision": [
+    "2017-09-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-22"
+  ],
+  "firstPublicationDate": [
+    "2017-08-22"
+  ]
+}

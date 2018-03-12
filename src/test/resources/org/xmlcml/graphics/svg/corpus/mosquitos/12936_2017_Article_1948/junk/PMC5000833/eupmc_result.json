@@ -1,0 +1,287 @@
+{
+  "id": [
+    "27563049"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27563049"
+  ],
+  "pmcid": [
+    "PMC5000833"
+  ],
+  "doi": [
+    "10.1128/genomea.00881-16"
+  ],
+  "title": [
+    "Genome Sequence of a Lactococcus lactis Strain Isolated from Salmonid Intestinal Microbiota."
+  ],
+  "authorString": [
+    "Opazo R, Gajardo F, Ruiz M, Romero J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Opazo R"
+          ],
+          "firstName": [
+            "Rafael"
+          ],
+          "lastName": [
+            "Opazo"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Desarrollo, Helios Innovation, Matucana, Casablanca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Romero J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Romero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile jromero@inta.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2427904"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Lactococcus lactis is a common inhabitant of the intestinal microbiota of salmonids, especially those in aquaculture systems. Here, we present a genome sequence of a Lactococcus lactis strain isolated from the intestinal contents of rainbow trout reared in Chile."
+  ],
+  "affiliation": [
+    "Laboratorio de Biotecnología, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000833?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000833"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00881-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-26"
+  ],
+  "dateOfCreation": [
+    "2016-08-26"
+  ],
+  "dateOfRevision": [
+    "2016-08-31"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-25"
+  ],
+  "firstPublicationDate": [
+    "2016-08-25"
+  ]
+}

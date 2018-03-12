@@ -1,0 +1,437 @@
+{
+  "id": [
+    "29150475"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29150475"
+  ],
+  "pmcid": [
+    "PMC5701989"
+  ],
+  "doi": [
+    "10.1136/bmjopen-2017-018593"
+  ],
+  "title": [
+    "UpToDate adherence to GRADE criteria for strong recommendations: an analytical survey."
+  ],
+  "authorString": [
+    "Agoritsas T, Merglen A, Heen AF, Kristiansen A, Neumann I, Brito JP, Brignardello-Petersen R, Alexander PE, Rind DM, Vandvik PO, Guyatt GH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Agoritsas T"
+          ],
+          "firstName": [
+            "Thomas"
+          ],
+          "lastName": [
+            "Agoritsas"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6182-9969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Health Research Methods, Evidence, and Impact, Faculty of Health Sciences, McMaster University, Hamilton, Ontario, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Merglen A"
+          ],
+          "firstName": [
+            "Arnaud"
+          ],
+          "lastName": [
+            "Merglen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Division of General Pediatrics, Faculty of Medicine, University Hospitals of Geneva, University of Geneva, Geneva, Geneva, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Heen AF"
+          ],
+          "firstName": [
+            "Anja Fog"
+          ],
+          "lastName": [
+            "Heen"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Innlandet Hospital Trust-division Gjøvik, Gjøvik, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Kristiansen A"
+          ],
+          "firstName": [
+            "Annette"
+          ],
+          "lastName": [
+            "Kristiansen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Innlandet Hospital Trust-division Gjøvik, Gjøvik, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Neumann I"
+          ],
+          "firstName": [
+            "Ignacio"
+          ],
+          "lastName": [
+            "Neumann"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Pontificia Universidad Catolica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brito JP"
+          ],
+          "firstName": [
+            "Juan P"
+          ],
+          "lastName": [
+            "Brito"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Division of Endocrinology, Diabetes, Metabolism and Nutrition, Department of Medicine and Knowledge and Evaluation Research Unit, Mayo Clinic, Rochester, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Brignardello-Petersen R"
+          ],
+          "firstName": [
+            "Romina"
+          ],
+          "lastName": [
+            "Brignardello-Petersen"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Faculty of Dentistry, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alexander PE"
+          ],
+          "firstName": [
+            "Paul E"
+          ],
+          "lastName": [
+            "Alexander"
+          ],
+          "initials": [
+            "PE"
+          ],
+          "affiliation": [
+            "Department of Health Research Methods, Evidence, and Impact, Faculty of Health Sciences, McMaster University, Hamilton, Ontario, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Rind DM"
+          ],
+          "firstName": [
+            "David M"
+          ],
+          "lastName": [
+            "Rind"
+          ],
+          "initials": [
+            "DM"
+          ],
+          "affiliation": [
+            "Institute for Clinical and Economic Review, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Vandvik PO"
+          ],
+          "firstName": [
+            "Per O"
+          ],
+          "lastName": [
+            "Vandvik"
+          ],
+          "initials": [
+            "PO"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Institute of Health and Society, University of Oslo, Oslo, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Guyatt GH"
+          ],
+          "firstName": [
+            "Gordon H"
+          ],
+          "lastName": [
+            "Guyatt"
+          ],
+          "initials": [
+            "GH"
+          ],
+          "affiliation": [
+            "Department of Health Research Methods, Evidence, and Impact, Faculty of Health Sciences, McMaster University, Hamilton, Ontario, Canada."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6182-9969",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2614799"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMJ open"
+          ],
+          "ISOAbbreviation": [
+            "BMJ Open"
+          ],
+          "medlineAbbreviation": [
+            "BMJ Open"
+          ],
+          "NLMid": [
+            "101552874"
+          ],
+          "ISSN": [
+            "2044-6055"
+          ],
+          "ESSN": [
+            "2044-6055"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e018593"
+  ],
+  "abstractText": [
+    "UpToDate is widely used by clinicians worldwide and includes more than 9400 recommendations that apply the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework. GRADE guidance warns against strong recommendations when certainty of the evidence is low or very low (discordant recommendations) but has identified five paradigmatic situations in which discordant recommendations may be justified.Our objective was to document the strength of recommendations in UpToDate and assess the frequency and appropriateness of discordant recommendations.Analytical survey of all recommendations in UpToDate.We identified all GRADE recommendations in UpToDate and examined their strength (strong or weak) and certainty of the evidence (high, moderate or low certainty). We identified all discordant recommendations as of January 2015, and pairs of reviewers independently classified them either into one of the five appropriate paradigms or into one of three categories inconsistent with GRADE guidance, based on the evidence presented in UpToDate.UpToDate included 9451 GRADE recommendations, of which 6501 (68.8%) were formulated as weak recommendations and 2950 (31.2%) as strong. Among the strong, 844 (28.6%) were based on high certainty in effect estimates, 1740 (59.0%) on moderate certainty and 366 (12.4%) on low certainty. Of the 349 discordant recommendations 204 (58.5%) were judged appropriately (consistent with one of the five paradigms); we classified 47 (13.5%) as good practice statements; 38 (10.9%) misclassified the evidence as low certainty when it was at least moderate and 60 (17.2%) warranted a weak rather than a strong recommendation.The proportion of discordant recommendations in UpToDate is small (3.7% of all recommendations) and the proportion that is truly problematic (strong recommendations that would best have been weak) is very small (0.6%). Clinicians should nevertheless be cautious and look for clear explanations-in UpToDate and elsewhere-when guidelines offer strong recommendations based on low certainty evidence."
+  ],
+  "affiliation": [
+    "Department of Health Research Methods, Evidence, and Impact, Faculty of Health Sciences, McMaster University, Hamilton, Ontario, Canada."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Clinical Practice Guidelines",
+        "Clinical Decision Making",
+        "evidence-based medicine",
+        "Quality Of The Evidence",
+        "Strength Of Recommendations"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5701989?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5701989"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1136/bmjopen-2017-018593"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-19"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-16"
+  ],
+  "firstPublicationDate": [
+    "2017-11-16"
+  ]
+}

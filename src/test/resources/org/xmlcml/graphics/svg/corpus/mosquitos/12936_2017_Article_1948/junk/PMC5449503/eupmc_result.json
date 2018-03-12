@@ -1,0 +1,303 @@
+{
+  "id": [
+    "28580008"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28580008"
+  ],
+  "pmcid": [
+    "PMC5449503"
+  ],
+  "doi": [
+    "10.3389/fpls.2017.00964"
+  ],
+  "title": [
+    "Corrigendum: Salicylic acid and reactive oxygen species interplay in the transcriptional control of defense genes expression."
+  ],
+  "authorString": [
+    "Herrera-Vásquez A, Salinas P, Holuigue L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Herrera-Vásquez A"
+          ],
+          "firstName": [
+            "Ariel"
+          ],
+          "lastName": [
+            "Herrera-Vásquez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salinas P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Salinas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Holuigue L"
+          ],
+          "firstName": [
+            "Loreto"
+          ],
+          "lastName": [
+            "Holuigue"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550591"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in plant science"
+          ],
+          "ISOAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "medlineAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "NLMid": [
+            "101568200"
+          ],
+          "ISSN": [
+            "1664-462X"
+          ],
+          "ESSN": [
+            "1664-462X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "964"
+  ],
+  "abstractText": [
+    "[This corrects the article on p. 171 in vol. 6, PMID: 25852720.]."
+  ],
+  "affiliation": [
+    "Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Salicylic acid",
+        "Glutathione",
+        "Reactive oxygen species",
+        "npr1",
+        "Glutaredoxin Grxc9/grx480",
+        "Thioredoxin Trxh5",
+        "Tga Transcription Factors"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5449503?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5449503"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpls.2017.00964"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "25852720"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Front Plant Sci. 2015 Mar 19;6:171"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-05"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-31"
+  ],
+  "firstPublicationDate": [
+    "2017-05-31"
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": [
+    "28800119"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28800119"
+  ],
+  "pmcid": [
+    "PMC5578143"
+  ],
+  "doi": [
+    "10.3390/ijms18081753"
+  ],
+  "title": [
+    "New Insights Contributing to the Development of Effective Vaccines and Therapies to Reduce the Pathology Caused by hRSV."
+  ],
+  "authorString": [
+    "Gálvez NMS, Soto JA, Kalergis AM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gálvez NMS"
+          ],
+          "firstName": [
+            "Nicolás M S"
+          ],
+          "lastName": [
+            "Gálvez"
+          ],
+          "initials": [
+            "NMS"
+          ],
+          "affiliation": [
+            "Millennium Institute of Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Alameda 340, Santiago 8331150, Chile. nrgalvez@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto JA"
+          ],
+          "firstName": [
+            "Jorge A"
+          ],
+          "lastName": [
+            "Soto"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Millennium Institute of Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Alameda 340, Santiago 8331150, Chile. jasoto6@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Kalergis AM"
+          ],
+          "firstName": [
+            "Alexis M"
+          ],
+          "lastName": [
+            "Kalergis"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Departamento de Endocrinología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile. akalergis@bio.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2581987"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International Journal of Molecular Sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Human Respiratory Syncytial Virus (hRSV) is one of the major causes of acute lower respiratory tract infections (ALRTI) worldwide, leading to significant levels of immunocompromisation as well as morbidity and mortality in infants. Its main target of infection is the ciliated epithelium of the lungs and the host immune responses elicited is ineffective at achieving viral clearance. It is thought that the lack of effective immunity against hRSV is due in part to the activity of several viral proteins that modulate the host immune response, enhancing a Th2-like pro-inflammatory state, with the secretion of cytokines that promote the infiltration of immune cells to the lungs, with consequent damage. Furthermore, the adaptive immunity triggered by hRSV infection is characterized by weak cytotoxic T cell responses and secretion of low affinity antibodies by B cells. These features of hRSV infection have meant that, to date, no effective and safe vaccines have been licensed. In this article, we will review in detail the information regarding hRSV characteristics, pathology, and host immune response, along with several prophylactic treatments and vaccine prototypes. We will also expose significant data regarding the newly developed BCG-based vaccine that promotes protective cellular and humoral response against hRSV infection, which is currently undergoing clinical evaluation."
+  ],
+  "affiliation": [
+    "Millennium Institute of Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Alameda 340, Santiago 8331150, Chile. nrgalvez@uc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Vaccine",
+        "BCG",
+        "Prophylaxis",
+        "HRSV",
+        "Respiratory Viruses"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5578143?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5578143"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18081753"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-11"
+  ],
+  "dateOfRevision": [
+    "2017-09-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-11"
+  ],
+  "firstPublicationDate": [
+    "2017-08-11"
+  ]
+}

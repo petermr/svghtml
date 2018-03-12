@@ -1,0 +1,404 @@
+{
+  "id": [
+    "28726619"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28726619"
+  ],
+  "pmcid": [
+    "PMC5547797"
+  ],
+  "doi": [
+    "10.3201/eid2308.170050"
+  ],
+  "title": [
+    "Serologic Evidence of Scrub Typhus in the Peruvian Amazon."
+  ],
+  "authorString": [
+    "Kocher C, Jiang J, Morrison AC, Castillo R, Leguia M, Loyola S, Ampuero JS, Cespedes M, Halsey ES, Bausch DG, Richards AL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kocher C"
+          ],
+          "firstName": [
+            "Claudine"
+          ],
+          "lastName": [
+            "Kocher"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Jiang J"
+          ],
+          "firstName": [
+            "Ju"
+          ],
+          "lastName": [
+            "Jiang"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Morrison AC"
+          ],
+          "firstName": [
+            "Amy C"
+          ],
+          "lastName": [
+            "Morrison"
+          ],
+          "initials": [
+            "AC"
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo R"
+          ],
+          "firstName": [
+            "Roger"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5828-9252",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Leguia M"
+          ],
+          "firstName": [
+            "Mariana"
+          ],
+          "lastName": [
+            "Leguia"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Loyola S"
+          ],
+          "firstName": [
+            "Steev"
+          ],
+          "lastName": [
+            "Loyola"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Ampuero JS"
+          ],
+          "firstName": [
+            "Julia S"
+          ],
+          "lastName": [
+            "Ampuero"
+          ],
+          "initials": [
+            "JS"
+          ]
+        },
+        {
+          "fullName": [
+            "Cespedes M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Cespedes"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Halsey ES"
+          ],
+          "firstName": [
+            "Eric S"
+          ],
+          "lastName": [
+            "Halsey"
+          ],
+          "initials": [
+            "ES"
+          ]
+        },
+        {
+          "fullName": [
+            "Bausch DG"
+          ],
+          "firstName": [
+            "Daniel G"
+          ],
+          "lastName": [
+            "Bausch"
+          ],
+          "initials": [
+            "DG"
+          ]
+        },
+        {
+          "fullName": [
+            "Richards AL"
+          ],
+          "firstName": [
+            "Allen L"
+          ],
+          "lastName": [
+            "Richards"
+          ],
+          "initials": [
+            "AL"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5828-9252",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "23"
+      ],
+      "journalIssueId": [
+        "2549455"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging Infectious Diseases"
+          ],
+          "ISOAbbreviation": [
+            "Emerging Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "Emerg Infect Dis"
+          ],
+          "NLMid": [
+            "9508155"
+          ],
+          "ISSN": [
+            "1080-6040"
+          ],
+          "ESSN": [
+            "1080-6059"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1389-1391"
+  ],
+  "abstractText": [
+    "Using a large, passive, febrile surveillance program in Iquitos, Peru, we retrospectively tested human blood specimens for scrub typhus group orientiae by ELISA, immunofluorescence assay, and PCR. Of 1,124 participants, 60 (5.3%) were seropositive, and 1 showed evidence of recent active infection. Our serologic data indicate that scrub typhus is present in the Peruvian Amazon."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bacteria",
+        "ELISA",
+        "PCR",
+        "IFA",
+        "Rickettsia",
+        "Scrub typhus",
+        "orientia tsutsugamushi",
+        "immunofluorescence assay",
+        "Zoonoses",
+        "Peru",
+        "Vector-borne Infections",
+        "Peruvian Amazon",
+        "Serologic Analysis"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5547797?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5547797"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3201/eid2308.170050"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-20"
+  ],
+  "dateOfRevision": [
+    "2017-11-11"
+  ],
+  "firstPublicationDate": [
+    "2017-08-01"
+  ]
+}

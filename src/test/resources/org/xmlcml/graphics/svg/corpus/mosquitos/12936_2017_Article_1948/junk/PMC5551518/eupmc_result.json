@@ -1,0 +1,316 @@
+{
+  "id": [
+    "28819364"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28819364"
+  ],
+  "pmcid": [
+    "PMC5551518"
+  ],
+  "doi": [
+    "10.1155/2017/5263974"
+  ],
+  "title": [
+    "The Crosstalk between Ovarian Cancer Stem Cell Niche and the Tumor Microenvironment."
+  ],
+  "authorString": [
+    "Varas-Godoy M, Rice G, Illanes SE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Varas-Godoy M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Varas-Godoy"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5857-4793",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynaecology, Faculty of Medicine, Universidad de Los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rice G"
+          ],
+          "firstName": [
+            "Gregory"
+          ],
+          "lastName": [
+            "Rice"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7177-0246",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Clinical Diagnostics, Royal Brisbane and Women's Hospital, University of Queensland Centre for Clinical Research, Brisbane, QLD, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Illanes SE"
+          ],
+          "firstName": [
+            "Sebastián E"
+          ],
+          "lastName": [
+            "Illanes"
+          ],
+          "initials": [
+            "SE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5433-9315",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynaecology, Clínica Davila, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5433-9315",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5857-4793",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7177-0246",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517868"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Stem cells international"
+          ],
+          "ISOAbbreviation": [
+            "Stem Cells Int"
+          ],
+          "medlineAbbreviation": [
+            "Stem Cells Int"
+          ],
+          "NLMid": [
+            "101535822"
+          ],
+          "ISSN": [
+            "1687-966X"
+          ],
+          "ESSN": [
+            "1687-9678"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "5263974"
+  ],
+  "abstractText": [
+    "Ovarian cancer is one of the most important causes of cancer-related death among women in the world. Despite advances in ovarian cancer treatment, 70-80% of women who initially respond to therapy eventually relapse and die. There is evidence that a small population of cells within the tumors called cancer stem cells (CSCs) could be responsible for treatment failure due to their enhanced chemoresistance and tumorigenicity. These cells reside in a niche that maintains the principal properties of CSCs. These properties are associated with the capacity of CSCs to interact with different cells of the tumor microenvironment including mesenchymal stem cells, endothelial cells, immune cells, and fibroblasts, promoting cancer progression. This interaction can be mediated by cytokines, growth factors, lipids, and/or extracellular vesicles released in the CSC niche. In this review, we will discuss how the interaction between ovarian CSCs and the tumor microenvironment can contribute to the maintenance of the CSC niche and consequently to tumor progression in ovarian cancer."
+  ],
+  "affiliation": [
+    "Department of Obstetrics and Gynaecology, Faculty of Medicine, Universidad de Los Andes, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5551518?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5551518"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/5263974"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-18"
+  ],
+  "dateOfRevision": [
+    "2017-08-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-27"
+  ],
+  "firstPublicationDate": [
+    "2017-07-27"
+  ]
+}

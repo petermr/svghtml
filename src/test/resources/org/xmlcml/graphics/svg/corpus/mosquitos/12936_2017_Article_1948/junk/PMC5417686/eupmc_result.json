@@ -1,0 +1,724 @@
+{
+  "id": [
+    "28472127"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28472127"
+  ],
+  "pmcid": [
+    "PMC5417686"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0177244"
+  ],
+  "title": [
+    "Expression of teneurins is associated with tumor differentiation and patient survival in ovarian cancer."
+  ],
+  "authorString": [
+    "Graumann R, Di Capua GA, Oyarzún JE, Vásquez MA, Liao C, Brañes JA, Roa I, Casanello P, Corvalán AH, Owen GI, Delgado I, Zangemeister-Wittke U, Ziegler A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Graumann R"
+          ],
+          "firstName": [
+            "Rebecca"
+          ],
+          "lastName": [
+            "Graumann"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Di Capua GA"
+          ],
+          "firstName": [
+            "Gabriella A"
+          ],
+          "lastName": [
+            "Di Capua"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oyarzún JE"
+          ],
+          "firstName": [
+            "Juan E"
+          ],
+          "lastName": [
+            "Oyarzún"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez MA"
+          ],
+          "firstName": [
+            "Marcos A"
+          ],
+          "lastName": [
+            "Vásquez"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Liao C"
+          ],
+          "firstName": [
+            "Christine"
+          ],
+          "lastName": [
+            "Liao"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brañes JA"
+          ],
+          "firstName": [
+            "Jorge A"
+          ],
+          "lastName": [
+            "Brañes"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Division of Obstetrics and Gynecology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Division of Pathology, Clínica Alemana de Santiago, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Casanello P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Casanello"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Perinatology Research Laboratory, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), and UC-Center for Investigational Oncology (CITO), Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado I"
+          ],
+          "firstName": [
+            "Iris"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Center for Epidemiology and Health Policies, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zangemeister-Wittke U"
+          ],
+          "firstName": [
+            "Uwe"
+          ],
+          "lastName": [
+            "Zangemeister-Wittke"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology, University of Bern, Bern, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Ziegler A"
+          ],
+          "firstName": [
+            "Annemarie"
+          ],
+          "lastName": [
+            "Ziegler"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0018-7031",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0018-7031",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2551942"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0177244"
+  ],
+  "abstractText": [
+    "Teneurins are a family of highly conserved pair-rule proteins involved in morphogenesis and development of the central nervous system. Their function in adult tissues and in disease is largely unknown. Recent evidence suggests a role for dysregulated expression of Teneurins in human tumors, but systematic investigations are missing. Here, we investigated Teneurin-2 and Teneurin-4 expression in various cancer cell lines and in ovarian tumor tissues. Teneurin-2 and Teneurin-4 were expressed in most of the breast cancer cell lines tested. Teneurin-4 was also detected in ovarian cancer cell lines, and throughout ovarian tumors and normal ovary tissue. Ovarian tumors with low Teneurin-4 expression showed less differentiated phenotypes and these patients had shorter mean overall survival. Similarly, Teneurin-2 expression correlated with overall survival as well, especially in patients with serous tumors. In the various cell lines, 5-Aza-cytidine-induced changes in DNA methylation did not alter expression of Teneurin-2 and Teneurin-4, despite the existence of predicted CpG islands in both genes. Interestingly, however, we found evidence for the control of Teneurin-2 expression by the oncogenic growth factor FGF8. Furthermore, we identified multiple transcript splicing variants for Teneurin-2 and Teneurin-4, indicating complex gene expression patterns in malignant cells. Finally, downregulation of Teneurin-4 expression using siRNA caused a cell-type dependent increase in proliferation and resistance to cisplatin. Altogether, our data suggest that low Teneurin-4 expression provides a growth advantage to cancer cells and marks an undifferentiated state characterized by increased drug resistance and clinical aggressiveness. We conclude that Teneurin-2 and Teneurin-4 expression levels could be of prognostic value in ovarian cancer."
+  ],
+  "affiliation": [
+    "Center for Genetics and Genomics, Faculty of Medicine, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line, Tumor"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ovarian Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nerve Tissue Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Small Interfering"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Survival Rate"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Differentiation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA Methylation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Down-Regulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Neoplastic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Silencing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "CpG Islands"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Real-Time Polymerase Chain Reaction"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Nerve Tissue Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Small Interfering"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5417686?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5417686"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0177244"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-15"
+  ],
+  "dateOfCreation": [
+    "2017-05-04"
+  ],
+  "dateOfRevision": [
+    "2017-09-15"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-04"
+  ],
+  "firstPublicationDate": [
+    "2017-05-04"
+  ]
+}

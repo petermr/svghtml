@@ -1,0 +1,410 @@
+{
+  "id": [
+    "28666013"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28666013"
+  ],
+  "pmcid": [
+    "PMC5493345"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0180012"
+  ],
+  "title": [
+    "Exploitation rates of two benthic resources across management regimes in central Chile: Evidence of illegal fishing in artisanal fisheries operating in open access areas."
+  ],
+  "authorString": [
+    "Andreu-Cazenave M, Subida MD, Fernandez M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Andreu-Cazenave M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Andreu-Cazenave"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Núcleo Milenio - Centro de Conservación Marina CCM, Estación Costera de Investigaciones Marinas, Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Subida MD"
+          ],
+          "firstName": [
+            "Maria Dulce"
+          ],
+          "lastName": [
+            "Subida"
+          ],
+          "initials": [
+            "MD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0205-8276",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Núcleo Milenio - Centro de Conservación Marina CCM, Estación Costera de Investigaciones Marinas, Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez M"
+          ],
+          "firstName": [
+            "Miriam"
+          ],
+          "lastName": [
+            "Fernandez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Núcleo Milenio - Centro de Conservación Marina CCM, Estación Costera de Investigaciones Marinas, Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0205-8276",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2562707"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0180012"
+  ],
+  "abstractText": [
+    "There is an urgent need to quantify the impacts of artisanal fisheries and define management practices that allow for the recovery and conservation of exploited stocks. The extent of illegal catch is particularly critical as a driver of overexploitation in artisanal fisheries. However, the lack of data at proper spatial scales limits the evaluation of illegal fishing and effectiveness of management practices. We used a catch curve analysis to estimate total instantaneous mortality as a proxy of fishing pressure in the artisanal benthic fishery in central Chile. We compared the patterns of total mortality in fishing grounds under the well-studied territorial use rights for fisheries system (TURF) immersed in a landscape of open access areas (OAA; no access restriction), and from these patterns determined the extent of illegal fishing in open access areas focusing on the two most frequently extracted resources: locos (Concholepas concholepas) and keyhole limpets (Fissurella spp.). The beauty of this seascape is the presence of the no-take (NT) area of Las Cruces as control (no fishing), allowing us to estimate natural mortality. Loco exploitation is banned in OAAs. However, loco mortality in OAAs was 92% higher than in the NT, and 42% higher than in TURFs. Keyhole limpet mortality was similar between TURFs and the NT, but doubled in OAAs. We also found strong differences in mortality among fishing grounds with the same level of protection (i.e. TURFs), and over time. Our results highlight (a) the high level of illegal fishing that may occur in artisanal fisheries under traditional management regimes, and (b) that TURFs can be effective to reduce fishing mortality. However, large variability among TURFs suggests the need for a deeper understanding of the drivers of success of TURFs."
+  ],
+  "affiliation": [
+    "Núcleo Milenio - Centro de Conservación Marina CCM, Estación Costera de Investigaciones Marinas, Departamento de Ecología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Marine Biology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fisheries"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "LJ"
+                  ],
+                  "qualifierName": [
+                    "legislation & jurisprudence"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5493345?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5493345"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0180012"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "29315337"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "PLoS One. 2018 Jan 9;13(1):e0191166"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "12"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-02"
+  ],
+  "dateOfCreation": [
+    "2017-07-01"
+  ],
+  "dateOfRevision": [
+    "2018-01-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-30"
+  ],
+  "firstPublicationDate": [
+    "2017-06-30"
+  ]
+}

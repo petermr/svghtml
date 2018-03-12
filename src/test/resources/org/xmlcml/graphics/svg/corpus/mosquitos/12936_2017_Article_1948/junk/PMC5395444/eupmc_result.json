@@ -1,0 +1,421 @@
+{
+  "id": [
+    "28428840"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28428840"
+  ],
+  "pmcid": [
+    "PMC5395444"
+  ],
+  "doi": [
+    "10.1002/ece3.2854"
+  ],
+  "title": [
+    "An Internet-based platform for the estimation of outcrossing potential between cultivated and Chilean vascular plants."
+  ],
+  "authorString": [
+    "Cid P, Aguirre C, Sánchez MÁ, Zamorano D, Mihoc M, Salazar E, Chacón G, Navarrete H, Rosas M, Prieto H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cid P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Cid"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Biotechnology LaboratoryLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguirre C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Aguirre"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Biotechnology LaboratoryLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez MÁ"
+          ],
+          "firstName": [
+            "Miguel Ángel"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "MÁ"
+          ],
+          "affiliation": [
+            "Asociación Gremial ChileBio CropLifeProvidenciaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zamorano D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Zamorano"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Limnology LaboratoryFacultad de CienciasUniversidad de ChileMacul, Santiago de ChileChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mihoc M"
+          ],
+          "firstName": [
+            "Maritza"
+          ],
+          "lastName": [
+            "Mihoc"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Institute of Ecology and BiodiversityFacultad de CienciasUniversidad de ChileMacul, Santiago de ChileChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar E"
+          ],
+          "firstName": [
+            "Erika"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Genetic Resources Unit and Germplasm BankLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chacón G"
+          ],
+          "firstName": [
+            "Gustavo"
+          ],
+          "lastName": [
+            "Chacón"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Computer Sciences LaboratoryLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarrete H"
+          ],
+          "firstName": [
+            "Humberto"
+          ],
+          "lastName": [
+            "Navarrete"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Molecular Fruit Phytopathology LaboratoryFacultad Ciencias AgropecuariasUniversidad de ChileLa PintanaSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rosas M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Rosas"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Genetic Resources Unit and Germplasm BankIntihuasi Research StationInstituto de Investigaciones AgropecuariasVicuñaChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Prieto H"
+          ],
+          "firstName": [
+            "Humberto"
+          ],
+          "lastName": [
+            "Prieto"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9013-1906",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Biotechnology LaboratoryLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9013-1906",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2549617"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Ecology and Evolution"
+          ],
+          "ISOAbbreviation": [
+            "Ecol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Ecol Evol"
+          ],
+          "NLMid": [
+            "101566408"
+          ],
+          "ISSN": [
+            "2045-7758"
+          ],
+          "ESSN": [
+            "2045-7758"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2480-2488"
+  ],
+  "abstractText": [
+    "A national-scale study of outcrossing potential within Chilean vascular flora was conducted using an upgraded algorithm, which adds parameters such as pollinator agents, climate, and geographic conditions. Datasets were organized and linked in a Web platform (www.flujogenico.cl), in which the development of a total outcrossing potential (TOP) predictor was formulated. The TOP predictor is the engine in the Web platform, which models the effect of a type of agricultural practice on others (coexistence calculation mode) and on the environment (biodiversity calculation mode). The scale for TOP results uses quintiles in order to define outcrossing potential between species as \"very low,\" \"low,\" \"medium,\" \"high,\" or \"very high.\" In a coexistence analysis considering 256 species (207 genera), the 10 highest TOP values were for genera Citrus, Prunus, Trifolium, Brassica, Allium, Eucalyptus, Cucurbita, Solanum, Lollium, and Lotus. The highest TOP for species in this analysis fell at \"high\" potential, 4.9% of the determined values. In biodiversity mode, seven out of 256 cultivated species (2.7%) were native, and 249 (97.3%) corresponded to introduced species. The highest TOP was obtained in the genera Senecio, Calceolaria, Viola, Solanum, Poa, Alstroemeria, Valeriana, Vicia, Atriplex, and Campanula, showing \"high\" potential in 4.9% of the values. On the other hand, 137 genetically modified species, including the commercial and pre-commercial developments, were included and represented 100 genera. Among these, 22 genera had relatives (i.e., members of the same genus) in the native/introduced group. The genera with the highest number of native/introduced relatives ranged from one (Ipomea, Limonium, Carica, Potentilla, Lotus, Castanea, and Daucus) to 66 species (Solanum). The highest TOP was obtained when the same species were coincident in both groups, such as for Carica chilensis, Prosopis tamarugo, and Solanum tuberosum. Results are discussed from the perspective of assessing the possible impact of cultivated species on Chilean flora biodiversity. The TOP predictor (http://epc.agroinformatica.cl/) is useful in the context of environmental risk assessment."
+  ],
+  "affiliation": [
+    "Biotechnology LaboratoryLa Platina Research StationInstituto de Investigaciones AgropecuariasLa PintanaSantiagoChile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "Introduced species",
+        "Native species",
+        "Outcrossing Potential",
+        "Vascular Flora",
+        "Cultivated Species"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5395444?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5395444"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/ece3.2854"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-21"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-14"
+  ],
+  "firstPublicationDate": [
+    "2017-03-14"
+  ]
+}

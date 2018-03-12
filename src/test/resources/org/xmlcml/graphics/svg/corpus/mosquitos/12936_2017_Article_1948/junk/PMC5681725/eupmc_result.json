@@ -1,0 +1,437 @@
+{
+  "id": [
+    "29079550"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29079550"
+  ],
+  "pmcid": [
+    "PMC5681725"
+  ],
+  "doi": [
+    "10.2196/jmir.7279"
+  ],
+  "title": [
+    "Understanding Monitoring Technologies for Adults With Pain: Systematic Literature Review."
+  ],
+  "authorString": [
+    "Rodríguez I, Herskovic V, Gerea C, Fuentes C, Rossel PO, Marques M, Campos M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rodríguez I"
+          ],
+          "firstName": [
+            "Iyubanit"
+          ],
+          "lastName": [
+            "Rodríguez"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0878-4076",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herskovic V"
+          ],
+          "firstName": [
+            "Valeria"
+          ],
+          "lastName": [
+            "Herskovic"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2650-6507",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gerea C"
+          ],
+          "firstName": [
+            "Carmen"
+          ],
+          "lastName": [
+            "Gerea"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9866-263X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0871-939X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rossel PO"
+          ],
+          "firstName": [
+            "Pedro O"
+          ],
+          "lastName": [
+            "Rossel"
+          ],
+          "initials": [
+            "PO"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5027-936X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Universidad Católica de la Santísima Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marques M"
+          ],
+          "firstName": [
+            "Maíra"
+          ],
+          "lastName": [
+            "Marques"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5347-1664",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Campos M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Campos"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7880-4303",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0878-4076",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2650-6507",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0871-939X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5027-936X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7880-4303",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5347-1664",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9866-263X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2603048"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of medical Internet research"
+          ],
+          "ISOAbbreviation": [
+            "J. Med. Internet Res."
+          ],
+          "medlineAbbreviation": [
+            "J Med Internet Res"
+          ],
+          "NLMid": [
+            "100959882"
+          ],
+          "ISSN": [
+            "1439-4456"
+          ],
+          "ESSN": [
+            "1438-8871"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e364"
+  ],
+  "abstractText": [
+    "Monitoring of patients may decrease treatment costs and improve quality of care. Pain is the most common health problem that people seek help for in hospitals. Therefore, monitoring patients with pain may have significant impact in improving treatment. Several studies have studied factors affecting pain; however, no previous study has reviewed the contextual information that a monitoring system may capture to characterize a patient's situation.The objective of this study was to conduct a systematic review to (1) determine what types of technologies have been used to monitor adults with pain, and (2) construct a model of the context information that may be used to implement apps and devices aimed at monitoring adults with pain.A literature search (2005-2015) was conducted in electronic databases pertaining to medical and computer science literature (PubMed, Science Direct, ACM Digital Library, and IEEE Xplore) using a defined search string. Article selection was done through a process of removing duplicates, analyzing title and abstract, and then reviewing the full text of the article.In the final analysis, 87 articles were included and 53 of them (61%) used technologies to collect contextual information. A total of 49 types of context information were found and a five-dimension (activity, identity, wellness, environment, physiological) model of context information to monitor adults with pain was proposed, expanding on a previous model. Most technological interfaces for pain monitoring were wearable, possibly because they can be used in more realistic contexts. Few studies focused on older adults, creating a relevant avenue of research on how to create devices for users that may have impaired cognitive skills or low digital literacy.The design of monitoring devices and interfaces for adults with pain must deal with the challenge of selecting relevant contextual information to understand the user's situation, and not overburdening or inconveniencing users with information requests. A model of contextual information may be used by researchers to choose possible contextual information that may be monitored during studies on adults with pain."
+  ],
+  "affiliation": [
+    "Department of Computer Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Technology",
+        "Pain",
+        "Systematic review",
+        "Patient Monitoring",
+        "Ubiquitous And Mobile Computing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5681725"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2196/jmir.7279"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-29"
+  ],
+  "dateOfRevision": [
+    "2018-03-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-27"
+  ],
+  "firstPublicationDate": [
+    "2017-10-27"
+  ]
+}

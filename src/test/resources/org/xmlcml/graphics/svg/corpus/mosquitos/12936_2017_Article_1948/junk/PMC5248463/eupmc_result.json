@@ -1,0 +1,715 @@
+{
+  "id": [
+    "28103916"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28103916"
+  ],
+  "pmcid": [
+    "PMC5248463"
+  ],
+  "doi": [
+    "10.1186/s13075-016-1213-9"
+  ],
+  "title": [
+    "TIM-1 defines a human regulatory B cell population that is altered in frequency and function in systemic sclerosis patients."
+  ],
+  "authorString": [
+    "Aravena O, Ferrier A, Menon M, Mauri C, Aguillón JC, Soto L, Catalán D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Aravena O"
+          ],
+          "firstName": [
+            "Octavio"
+          ],
+          "lastName": [
+            "Aravena"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Instituto de Ciencias Biomédicas (ICBM), Facultad de Medicina, Universidad de Chile, and Millennium Institute in Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferrier A"
+          ],
+          "firstName": [
+            "Ashley"
+          ],
+          "lastName": [
+            "Ferrier"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Instituto de Ciencias Biomédicas (ICBM), Facultad de Medicina, Universidad de Chile, and Millennium Institute in Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Menon M"
+          ],
+          "firstName": [
+            "Madhvi"
+          ],
+          "lastName": [
+            "Menon"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centre for Rheumatology Research, Department of Medicine, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Mauri C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Mauri"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centre for Rheumatology Research, Department of Medicine, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguillón JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Aguillón"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Instituto de Ciencias Biomédicas (ICBM), Facultad de Medicina, Universidad de Chile, and Millennium Institute in Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto L"
+          ],
+          "firstName": [
+            "Lilian"
+          ],
+          "lastName": [
+            "Soto"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Medicina, Hospital Clínico, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Catalán D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Catalán"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4353-1229",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Instituto de Ciencias Biomédicas (ICBM), Facultad de Medicina, Universidad de Chile, and Millennium Institute in Immunology and Immunotherapy, Santiago, Chile. dfcatalan@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4353-1229",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2514192"
+      ],
+      "dateOfPublication": [
+        "2017 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Arthritis research & therapy"
+          ],
+          "ISOAbbreviation": [
+            "Arthritis Res. Ther."
+          ],
+          "medlineAbbreviation": [
+            "Arthritis Res Ther"
+          ],
+          "NLMid": [
+            "101154438"
+          ],
+          "ISSN": [
+            "1478-6354"
+          ],
+          "ESSN": [
+            "1478-6362"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "8"
+  ],
+  "abstractText": [
+    "Systemic sclerosis (SSc) is a systemic autoimmune disease characterized by excessive production of extracellular matrix by fibroblasts on skin and internal organs. Although Th2 cells have been involved in fibroblast stimulation, hyperactivated B cells may also play an important role. Regulatory B cells (Bregs) are cells capable of inhibiting inflammatory responses and controlling autoimmune diseases. Although many Breg populations have in common the ability to produce high amounts of IL-10, a unique surface marker defining most human Bregs is lacking. It has been described in mice that T cell Ig and mucin domain protein 1 (TIM-1) is an inclusive marker for Bregs, and that TIM-1+ B cells are able to prevent the development of autoimmunity. The aim of this work was to evaluate TIM-1 as a marker for human IL-10+ Bregs, and to determine whether TIM-1+ B cells are defective in SSc patients.SSc patients (n = 39) and 53 healthy subjects were recruited. TIM-1 and IL-10 expression was assessed in resting or activated peripheral blood CD19+ B cells by flow cytometry. The regulatory function of TIM-1+ or activated B cells from SSc patients and healthy subjects was assessed in autologous and allogenic co-cultures with CD4+ T cells, where T cell proliferation and IFN-γ, IL-17, TNF-α and IL-4 production by T cells was measured by flow cytometry.TIM-1 and IL-10 were preferentially expressed in transitional B cells, but were upregulated in naïve and memory B cells upon stimulation. The frequency of transitional TIM-1+ IL-10+ B cells was significantly decreased in SSc patients compared to healthy controls. In addition, activated B cells from SSc patients induced stronger allogenic Th1 and Th2 responses than activated B cells from healthy controls. Finally, TIM-1+ B cells, including transitional and non-transitional cells, exhibited a higher CD4+ T cell suppressive ability than TIM-1- B cells in healthy controls, but not in SSc patients.TIM-1 is a unique marker for the identification of a human IL-10+ Breg subpopulation which is partially superimposed with transitional B cells. Alterations in TIM-1+ B cells could contribute to the development of autoimmune diseases such as SSc."
+  ],
+  "affiliation": [
+    "Programa Disciplinario de Inmunología, Instituto de Ciencias Biomédicas (ICBM), Facultad de Medicina, Universidad de Chile, and Millennium Institute in Immunology and Immunotherapy, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "20959"
+          ],
+          "agency": [
+            "Arthritis Research UK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "B-Lymphocyte Subsets"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Scleroderma, Systemic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Interleukin-10"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Flow Cytometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Coculture Techniques"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Separation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lymphocyte Activation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "B-Lymphocytes, Regulatory"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomarkers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hepatitis A Virus Cellular Receptor 1"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "BI"
+                  ],
+                  "qualifierName": [
+                    "biosynthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "IL-10",
+        "Systemic Sclerosis",
+        "Tim-1",
+        "Regulatory B Cells"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "HAVCR1 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Interleukin-10"
+          ],
+          "registryNumber": [
+            "130068-27-8"
+          ]
+        },
+        {
+          "name": [
+            "IL10 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Biomarkers"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Hepatitis A Virus Cellular Receptor 1"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5248463?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5248463"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13075-016-1213-9"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-09"
+  ],
+  "dateOfCreation": [
+    "2017-01-20"
+  ],
+  "dateOfRevision": [
+    "2017-11-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-19"
+  ],
+  "firstPublicationDate": [
+    "2017-01-19"
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "id": [
+    "27583678"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27583678"
+  ],
+  "pmcid": [
+    "PMC5008787"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0161380"
+  ],
+  "title": [
+    "Weight Status and Behavioral Problems among Very Young Children in Chile."
+  ],
+  "authorString": [
+    "Kagawa RM, Fernald LC, Behrman JR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kagawa RM"
+          ],
+          "firstName": [
+            "Rose M C"
+          ],
+          "lastName": [
+            "Kagawa"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "School of Public Health, University of California, Berkeley, CA, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernald LC"
+          ],
+          "firstName": [
+            "Lia C H"
+          ],
+          "lastName": [
+            "Fernald"
+          ],
+          "initials": [
+            "LC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1555-4607",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Public Health, University of California, Berkeley, CA, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Behrman JR"
+          ],
+          "firstName": [
+            "Jere R"
+          ],
+          "lastName": [
+            "Behrman"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Department of Economics, University of Pennsylvania, Philadelphia, PA, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1555-4607",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2445807"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0161380"
+  ],
+  "abstractText": [
+    "Our objective was to explore the association between weight status and behavioral problems in children before school age. We examined whether the association between weight status and behavioral problems varied by age and sex.This study used cross-sectional data from a nationally-representative sample of children and their families in Chile (N = 11,207). These children were selected using a cluster-stratified random sampling strategy. Data collection for this study took place in 2012 when the children were 1.5-6 years of age. We used multivariable analyses to examine the association between weight status and behavioral problems (assessed using the Child Behavior Checklist), while controlling for child's sex, indigenous status, birth weight, and months breastfed; primary caregiver's BMI and education level; and household wealth.Approximately 24% of our sample was overweight or obese. Overweight or obese girls showed more behavioral problems than normal weight girls at age 6 (β = 0.270 SD, 95% CI = 0.047, 0.493, P = 0.018). Among boys age 1 to 5 years, overweight/obesity was associated with a small reduction in internalizing behaviors (β = -0.09 SD, 95% CI = -0.163, -0.006, P = 0.034).Our data suggest that the associations between weight status and behavioral problems vary across age and sex."
+  ],
+  "affiliation": [
+    "School of Public Health, University of California, Berkeley, CA, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R24 HD073964"
+          ],
+          "agency": [
+            "NICHD NIH HHS"
+          ],
+          "acronym": [
+            "HD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 HD065436"
+          ],
+          "agency": [
+            "NICHD NIH HHS"
+          ],
+          "acronym": [
+            "HD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Obesity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Body Weight"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Child Behavior Disorders"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Overweight"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5008787?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5008787"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0161380"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-02"
+  ],
+  "dateOfCreation": [
+    "2016-09-02"
+  ],
+  "dateOfRevision": [
+    "2017-08-02"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-01"
+  ],
+  "firstPublicationDate": [
+    "2016-09-01"
+  ]
+}

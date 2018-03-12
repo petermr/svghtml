@@ -1,0 +1,424 @@
+{
+  "id": [
+    "28651890"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28651890"
+  ],
+  "pmcid": [
+    "PMC5628321"
+  ],
+  "doi": [
+    "10.1016/j.bjm.2017.01.011"
+  ],
+  "title": [
+    "Isolation and molecular characterization of Thraustochytrium strain isolated from Antarctic Peninsula and its biotechnological potential in the production of fatty acids."
+  ],
+  "authorString": [
+    "Caamaño E, Loperena L, Hinzpeter I, Pradel P, Gordillo F, Corsini G, Tello M, Lavín P, González AR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Caamaño E"
+          ],
+          "firstName": [
+            "Esteban"
+          ],
+          "lastName": [
+            "Caamaño"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Ambiental y Extremófilos, Departamento de Ciencias Biológicas, Universidad de los Lagos, Osorno, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Loperena L"
+          ],
+          "firstName": [
+            "Lyliam"
+          ],
+          "lastName": [
+            "Loperena"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Instituto de Ingeniería Química, Departamento de Bioingeniería, Universidad de la República, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Hinzpeter I"
+          ],
+          "firstName": [
+            "Ivonne"
+          ],
+          "lastName": [
+            "Hinzpeter"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Departamento de Gobierno y Empresa, Universidad de los Lagos, Osorno, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pradel P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Pradel"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centro de Interacción Planta-Suelo y Biotecnología de Recursos Naturales, Laboratorio de Fisiología y Biología Molecular Vegetal, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gordillo F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Gordillo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología de los Recursos Naturales, Facultad de Ciencias Agrarias y Forestales, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corsini G"
+          ],
+          "firstName": [
+            "Gino"
+          ],
+          "lastName": [
+            "Corsini"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Ciencias de la Salud, Universidad Autónoma de Chile, Santiago, Chile; Universidad Científica del Sur, Lima, Perú."
+          ]
+        },
+        {
+          "fullName": [
+            "Tello M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Tello"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4573-6460",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lavín P"
+          ],
+          "firstName": [
+            "Paris"
+          ],
+          "lastName": [
+            "Lavín"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8893-526X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Complejidad Microbiana y Ecología Funcional, Instituto Antofagasta, Universidad de Antofagasta, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González AR"
+          ],
+          "firstName": [
+            "Alex R"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Ambiental y Extremófilos, Departamento de Ciencias Biológicas, Universidad de los Lagos, Osorno, Chile. Electronic address: Alex.gonzalez@ulagos.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4573-6460",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8893-526X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "48"
+      ],
+      "journalIssueId": [
+        "2602235"
+      ],
+      "dateOfPublication": [
+        "2017 Oct - Dec"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Brazilian journal of microbiology : [publication of the Brazilian Society for Microbiology]"
+          ],
+          "ISOAbbreviation": [
+            "Braz. J. Microbiol."
+          ],
+          "medlineAbbreviation": [
+            "Braz J Microbiol"
+          ],
+          "NLMid": [
+            "101095924"
+          ],
+          "ISSN": [
+            "1517-8382"
+          ],
+          "ESSN": [
+            "1678-4405"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "671-679"
+  ],
+  "abstractText": [
+    "Thraustochytrids are unicellular protists belonging to the Labyrinthulomycetes class, which are characterized by the presence of a high lipid content that could replace conventional fatty acids. They show a wide geographic distribution, however their diversity in the Antarctic Region is rather scarce. The analysis based on the complete sequence of 18S rRNA gene showed that strain 34-2 belongs to the species Thraustochytrium kinnei, with 99% identity. The total lipid profile shows a wide range of saturated fatty acids with abundance of palmitic acid (16:0), showing a range of 16.1-19.7%. On the other hand, long-chain polyunsaturated fatty acids, mainly docosahexaenoic acid and eicosapentaenoic acid are present in a range of 24-48% and 6.1-9.3%, respectively. All factors analyzed in cells (biomass, carbon consumption and lipid content) changed with variations of culture temperature (10°C and 25°C). The growth in glucose at a temperature of 10°C presented the most favorable conditions to produce omega-3fatty acid. This research provides the identification and characterization of a Thraustochytrids strain, with a total lipid content that presents potential applications in the production of nutritional supplements and as well biofuels."
+  ],
+  "affiliation": [
+    "Laboratorio de Microbiología Ambiental y Extremófilos, Departamento de Ciencias Biológicas, Universidad de los Lagos, Osorno, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Temperature",
+        "Eicosapentaenoic acid",
+        "Docosahexaenoic acid",
+        "Antarctic",
+        "Thraustochytrids"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5628321?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5628321"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.bjm.2017.01.011"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-06-27"
+  ],
+  "dateOfRevision": [
+    "2017-10-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-10"
+  ],
+  "firstPublicationDate": [
+    "2017-06-10"
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "id": [
+    "28521616"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28521616"
+  ],
+  "pmcid": [
+    "PMC5564024"
+  ],
+  "doi": [
+    "10.1089/thy.2017.0067"
+  ],
+  "title": [
+    "A 10-Gene Classifier for Indeterminate Thyroid Nodules: Development and Multicenter Accuracy Study."
+  ],
+  "authorString": [
+    "González HE, Martínez JR, Vargas-Salas S, Solar A, Veliz L, Cruz F, Arias T, Loyola S, Horvath E, Tala H, Traipe E, Meneses M, Marín L, Wohllk N, Diaz RE, Véliz J, Pineda P, Arroyo P, Mena N, Bracamonte M, Miranda G, Bruce E, Urra S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "González HE"
+          ],
+          "firstName": [
+            "Hernán E"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "HE"
+          ],
+          "affiliation": [
+            "1 Department of Surgical Oncology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez JR"
+          ],
+          "firstName": [
+            "José R"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "1 Department of Surgical Oncology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Vargas-Salas S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Vargas-Salas"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "1 Department of Surgical Oncology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Solar A"
+          ],
+          "firstName": [
+            "Antonieta"
+          ],
+          "lastName": [
+            "Solar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "2 Department of Anatomic Pathology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Veliz L"
+          ],
+          "firstName": [
+            "Loreto"
+          ],
+          "lastName": [
+            "Veliz"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "3 Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Cruz F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Cruz"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "4 Department of Radiology, Faculty of Medicine, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Arias T"
+          ],
+          "firstName": [
+            "Tatiana"
+          ],
+          "lastName": [
+            "Arias"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "4 Department of Radiology, Faculty of Medicine, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Loyola S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "Loyola"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "4 Department of Radiology, Faculty of Medicine, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Horvath E"
+          ],
+          "firstName": [
+            "Eleonora"
+          ],
+          "lastName": [
+            "Horvath"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "5 Department of Radiology, Clínica Alemana de Santiago, Universidad del Desarrollo , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Tala H"
+          ],
+          "firstName": [
+            "Hernán"
+          ],
+          "lastName": [
+            "Tala"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "5 Department of Radiology, Clínica Alemana de Santiago, Universidad del Desarrollo , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Traipe E"
+          ],
+          "firstName": [
+            "Eufrosina"
+          ],
+          "lastName": [
+            "Traipe"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "6 Instituto Oncológico Fundación Arturo López Pérez , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Meneses M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Meneses"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "6 Instituto Oncológico Fundación Arturo López Pérez , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Marín L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Marín"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "6 Instituto Oncológico Fundación Arturo López Pérez , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Wohllk N"
+          ],
+          "firstName": [
+            "Nelson"
+          ],
+          "lastName": [
+            "Wohllk"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7354-6894",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "7 Department of Endocrinology, Hospital del Salvador , Universidad de Chile, Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz RE"
+          ],
+          "firstName": [
+            "René E"
+          ],
+          "lastName": [
+            "Diaz"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "affiliation": [
+            "7 Department of Endocrinology, Hospital del Salvador , Universidad de Chile, Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Véliz J"
+          ],
+          "firstName": [
+            "Jesús"
+          ],
+          "lastName": [
+            "Véliz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "7 Department of Endocrinology, Hospital del Salvador , Universidad de Chile, Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Pineda P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Pineda"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "8 Sección Endocrinología y Diabetes, Departamento de Medicina, Hospital Clínico Universidad de Chile , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Arroyo P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Arroyo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "9 Hospital San Juan de Dios , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Mena N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Mena"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "10 GeneproDX Chile SpA , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Bracamonte M"
+          ],
+          "firstName": [
+            "Milagros"
+          ],
+          "lastName": [
+            "Bracamonte"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5235-7106",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "10 GeneproDX Chile SpA , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda G"
+          ],
+          "firstName": [
+            "Giovanna"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "10 GeneproDX Chile SpA , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Bruce E"
+          ],
+          "firstName": [
+            "Elsa"
+          ],
+          "lastName": [
+            "Bruce"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "10 GeneproDX Chile SpA , Santiago, Chile ."
+          ]
+        },
+        {
+          "fullName": [
+            "Urra S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "Urra"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "1 Department of Surgical Oncology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7354-6894",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5235-7106",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "27"
+      ],
+      "journalIssueId": [
+        "2583325"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Thyroid : official journal of the American Thyroid Association"
+          ],
+          "ISOAbbreviation": [
+            "Thyroid"
+          ],
+          "medlineAbbreviation": [
+            "Thyroid"
+          ],
+          "NLMid": [
+            "9104317"
+          ],
+          "ISSN": [
+            "1050-7256"
+          ],
+          "ESSN": [
+            "1557-9077"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1058-1067"
+  ],
+  "abstractText": [
+    "In most of the world, diagnostic surgery remains the most frequent approach for indeterminate thyroid cytology. Although several molecular tests are available for testing in centralized commercial laboratories in the United States, there are no available kits for local laboratory testing. The aim of this study was to develop a prototype in vitro diagnostic (IVD) gene classifier for the further characterization of nodules with an indeterminate thyroid cytology.In a first stage, the expression of 18 genes was determined by quantitative polymerase chain reaction (qPCR) in a broad histopathological spectrum of 114 fresh-tissue biopsies. Expression data were used to train several classifiers by supervised machine learning approaches. Classifiers were tested in an independent set of 139 samples. In a second stage, the best classifier was chosen as a model to develop a multiplexed-qPCR IVD prototype assay, which was tested in a prospective multicenter cohort of fine-needle aspiration biopsies.In tissue biopsies, the best classifier, using only 10 genes, reached an optimal and consistent performance in the ninefold cross-validated testing set (sensitivity 93% and specificity 81%). In the multicenter cohort of fine-needle aspiration biopsy samples, the 10-gene signature, built into a multiplexed-qPCR IVD prototype, showed an area under the curve of 0.97, a positive predictive value of 78%, and a negative predictive value of 98%. By Bayes' theorem, the IVD prototype is expected to achieve a positive predictive value of 64-82% and a negative predictive value of 97-99% in patients with a cancer prevalence range of 20-40%.A new multiplexed-qPCR IVD prototype is reported that accurately classifies thyroid nodules and may provide a future solution suitable for local reference laboratory testing."
+  ],
+  "affiliation": [
+    "1 Department of Surgical Oncology, Pontificia Universidad Católica de Chile , Santiago, Chile ."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Qpcr",
+        "Gene Classifier",
+        "Indeterminate Thyroid Nodules",
+        "In Vitro Diagnostic Test"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5564024?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5564024"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1089/thy.2017.0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-19"
+  ],
+  "dateOfRevision": [
+    "2017-08-24"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-11"
+  ],
+  "firstPublicationDate": [
+    "2017-05-18"
+  ]
+}

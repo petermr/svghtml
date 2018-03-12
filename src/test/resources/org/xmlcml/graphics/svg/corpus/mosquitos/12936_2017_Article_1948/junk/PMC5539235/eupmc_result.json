@@ -1,0 +1,413 @@
+{
+  "id": [
+    "28765569"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28765569"
+  ],
+  "pmcid": [
+    "PMC5539235"
+  ],
+  "doi": [
+    "10.1038/s41598-017-06999-y"
+  ],
+  "title": [
+    "Locus of Adhesion and Autoaggregation (LAA), a pathogenicity island present in emerging Shiga Toxin-producing Escherichia coli strains."
+  ],
+  "authorString": [
+    "Montero DA, Velasco J, Del Canto F, Puente JL, Padola NL, Rasko DA, Farfán M, Salazar JC, Vidal R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Montero DA"
+          ],
+          "firstName": [
+            "David A"
+          ],
+          "lastName": [
+            "Montero"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3421-4325",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Velasco J"
+          ],
+          "firstName": [
+            "Juliana"
+          ],
+          "lastName": [
+            "Velasco"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Servicio de Urgencia Infantil, Hospital Clínico de la Universidad de Chile \"Dr. José Joaquín Aguirre\", Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Canto F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Del Canto"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Puente JL"
+          ],
+          "firstName": [
+            "Jose L"
+          ],
+          "lastName": [
+            "Puente"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Departamento de Microbiología Molecular, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Cuernavaca, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Padola NL"
+          ],
+          "firstName": [
+            "Nora L"
+          ],
+          "lastName": [
+            "Padola"
+          ],
+          "initials": [
+            "NL"
+          ],
+          "affiliation": [
+            "Centro de Investigación Veterinaria Tandil, CONICET-CIC, Facultad de Ciencias Veterinarias, UNCPBA, Tandil, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Rasko DA"
+          ],
+          "firstName": [
+            "David A"
+          ],
+          "lastName": [
+            "Rasko"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Farfán M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Farfán"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Estudios Moleculares, Departamento de Pediatría, Hospital Dr. Luis Calvo Mackenna, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4223-1985",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto Milenio de Inmunología e Inmunoterapia, Facultad de Medicina, Universidad de Chile, Santiago, Chile. rvidal@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4223-1985",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3421-4325",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7011"
+  ],
+  "abstractText": [
+    "Shiga Toxin-producing Escherichia coli (STEC) are a group of foodborne pathogens associated with diarrhea, dysentery, hemorrhagic colitis (HC) and hemolytic uremic syndrome (HUS). Shiga toxins are the major virulence factor of these pathogens, however adhesion and colonization to the human intestine is required for STEC pathogenesis. A subset of STEC strains carry the Locus of Enterocyte Effacement (LEE) pathogenicity island (PAI), which encodes genes that mediate the colonization of the human intestine. While LEE-positive STEC strains have traditionally been associated with human disease, the burden of disease caused by STEC strains that lacks LEE (LEE-negative) has increased recently in several countries; however, in the absence of LEE, the molecular pathogenic mechanisms by STEC strains are unknown. Here we report a 86-kb mosaic PAI composed of four modules that encode 80 genes, including novel and known virulence factors associated with adherence and autoaggregation. Therefore, we named this PAI as Locus of Adhesion and Autoaggregation (LAA). Phylogenomic analysis using whole-genome sequences of STEC strains available in the NCBI database indicates that LAA PAI is exclusively present in a subset of emerging LEE-negative STEC strains, including strains isolated from HC and HUS cases. We suggest that the acquisition of this PAI is a recent evolutionary event, which may contribute to the emergence of these STEC."
+  ],
+  "affiliation": [
+    "Programa de Microbiología y Micología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539235?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539235"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-06999-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-02"
+  ],
+  "dateOfRevision": [
+    "2017-08-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-01"
+  ],
+  "firstPublicationDate": [
+    "2017-08-01"
+  ]
+}

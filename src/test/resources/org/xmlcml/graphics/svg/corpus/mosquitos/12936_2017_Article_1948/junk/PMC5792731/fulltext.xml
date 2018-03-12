@@ -1,0 +1,1188 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Oncol</journal-id><journal-id journal-id-type="iso-abbrev">Mol Oncol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1878-0261</journal-id><journal-id journal-id-type="publisher-id">MOL2</journal-id><journal-title-group><journal-title>Molecular Oncology</journal-title></journal-title-group><issn pub-type="ppub">1574-7891</issn><issn pub-type="epub">1878-0261</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5792731</article-id><article-id pub-id-type="doi">10.1002/1878-0261.12100</article-id><article-id pub-id-type="publisher-id">MOL212100</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>
+<styled-content style="fixed-case">TRPM</styled-content>4 regulates Akt/<styled-content style="fixed-case">GSK</styled-content>3&#x02010;&#x003b2; activity and enhances &#x003b2;&#x02010;catenin signaling and cell proliferation in prostate cancer cells</article-title><alt-title alt-title-type="left-running-head">A. I. Sagredo <italic>et&#x000a0;al</italic>.</alt-title></title-group><contrib-group><contrib id="mol212100-cr-0001" contrib-type="author"><name><surname>Sagredo</surname><given-names>Alfredo I.</given-names></name><xref ref-type="aff" rid="mol212100-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212100-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212100-cr-0002" contrib-type="author"><name><surname>Sagredo</surname><given-names>Eduardo A.</given-names></name><xref ref-type="aff" rid="mol212100-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212100-curr-0001">
+<sup>9</sup>
+</xref></contrib><contrib id="mol212100-cr-0003" contrib-type="author"><name><surname>Cappelli</surname><given-names>Claudio</given-names></name><xref ref-type="aff" rid="mol212100-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212100-cr-0004" contrib-type="author"><name><surname>B&#x000e1;ez</surname><given-names>Pablo</given-names></name><xref ref-type="aff" rid="mol212100-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mol212100-cr-0005" contrib-type="author"><name><surname>Andaur</surname><given-names>Rodrigo E.</given-names></name><xref ref-type="aff" rid="mol212100-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mol212100-cr-0006" contrib-type="author"><name><surname>Blanco</surname><given-names>Constanza</given-names></name><xref ref-type="aff" rid="mol212100-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212100-cr-0007" contrib-type="author"><name><surname>Tapia</surname><given-names>Julio C.</given-names></name><xref ref-type="aff" rid="mol212100-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="mol212100-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="mol212100-cr-0008" contrib-type="author"><name><surname>Echeverr&#x000ed;a</surname><given-names>C&#x000e9;sar</given-names></name><xref ref-type="aff" rid="mol212100-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212100-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="mol212100-cr-0009" contrib-type="author"><name><surname>Cerda</surname><given-names>Oscar</given-names></name><xref ref-type="aff" rid="mol212100-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212100-cr-0010" contrib-type="author"><name><surname>Stutzin</surname><given-names>Andr&#x000e9;s</given-names></name><xref ref-type="aff" rid="mol212100-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212100-cr-0011" contrib-type="author"><name><surname>Simon</surname><given-names>Felipe</given-names></name><xref ref-type="aff" rid="mol212100-aff-0007">
+<sup>7</sup>
+</xref><xref ref-type="aff" rid="mol212100-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="mol212100-cr-0012" contrib-type="author" corresp="yes"><name><surname>Marcelain</surname><given-names>Katherine</given-names></name><address><email>kmarcelain@med.uchile.cl</email></address><xref ref-type="aff" rid="mol212100-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212100-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mol212100-cr-0013" contrib-type="author" corresp="yes"><name><surname>Armis&#x000e9;n</surname><given-names>Ricardo</given-names></name><address><email>ricardo.armisen@pfizer.com</email></address><xref ref-type="aff" rid="mol212100-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212100-curr-0001">
+<sup>9</sup>
+</xref></contrib></contrib-group><aff id="mol212100-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Centro de Investigaci&#x000f3;n y Tratamiento del C&#x000e1;ncer</named-content>
+<named-content content-type="organisation-division">Facultad de Medicina</named-content>
+<institution>Universidad de Chile</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Instituto de Ciencias Biom&#x000e9;dicas</named-content>
+<named-content content-type="organisation-division">Facultad de Medicina</named-content>
+<institution>Universidad de Chile</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Departamento de Oncologia Basico&#x02010;Clinica</named-content>
+<named-content content-type="organisation-division">Facultad de Medicina</named-content>
+<institution>Universidad de Chile</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Programa de Biolog&#x000ed;a Celular y Molecular</named-content>
+<named-content content-type="organisation-division">ICBM</named-content>
+<named-content content-type="organisation-division">Facultad de Medicina</named-content>
+<institution>Universidad de Chile</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Cell Transformation Laboratory</named-content>
+<named-content content-type="organisation-division">Facultad de Medicina</named-content>
+<institution>Universidad de Chile</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Centro Integrativo de Biolog&#x000ed;a y Qu&#x000ed;mica Aplicada</named-content>
+<institution>Universidad Bernardo OHiggins</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Laboratorio de Fisiopatologia Integrativa</named-content>
+<named-content content-type="organisation-division">Departamento de Ciencias Biologicas</named-content>
+<named-content content-type="organisation-division">Facultad de Ciencias Biologicas and Facultad de Medicina</named-content>
+<institution>Universidad Andres Bello</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-aff-0008">
+<label><sup>8</sup></label>
+<institution>Millennium Institute on Immunology and Immunotherapy</institution>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="mol212100-curr-0001"><label><sup>9</sup></label>Present address:
+<institution>Center of Excellence in Precision Medicine Pfizer Chile</institution>
+<named-content content-type="street">Obispo Arturo Espinoza Campos 2526, Macul</named-content>
+<named-content content-type="street">7810305</named-content>
+<named-content content-type="city">Santiago</named-content>
+<country country="CL">Chile</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+K. Marcelain, Departamento de Oncologia Basico Clinica, Facultad de Medicina, Universidad de Chile, Independencia 1027, Santiago, Chile<break/>
+Tel: +56 2 29789562<break/>
+E&#x02010;mail: <email>kmarcelain@med.uchile.cl</email><break/>
+and<break/>
+R.&#x000a0;Armis&#x000e9;n, Center of Excellence in Precision Medicine Pfizer Chile, Obispo Arturo Espinoza Campos 2526, Macul 7810305, Santiago, Chile<break/>
+Tel: +56 2 27510000<break/>
+E&#x02010;mail: <email>ricardo.armisen@pfizer.com</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>12</month><year>2017</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2018</year></pub-date><volume>12</volume><issue>2</issue><issue-id pub-id-type="doi">10.1002/mol2.2018.12.issue-2</issue-id><fpage>151</fpage><lpage>165</lpage><history><date date-type="received"><day>24</day><month>6</month><year>2017</year></date><date date-type="rev-recd"><day>30</day><month>4</month><year>2017</year></date><date date-type="accepted"><day>24</day><month>5</month><year>2017</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2018 Federation of European Biochemical Societies <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2017 The Authors. Published by FEBS Press and John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:MOL2-12-151.pdf"/><abstract id="mol212100-abs-0001"><p>Increased expression of the <styled-content style="fixed-case">TRPM</styled-content>4 channel has been reported to be associated with the progression of prostate cancer. However, the molecular mechanism underlying its effect remains unknown. This work found that decreasing <styled-content style="fixed-case">TRPM</styled-content>4 levels leads to the reduced proliferation of <styled-content style="fixed-case">PC</styled-content>3 cells. This effect was associated with a decrease in total &#x003b2;&#x02010;catenin protein levels and its nuclear localization, and a significant reduction in Tcf/Lef transcriptional activity. Moreover, <styled-content style="fixed-case">TRPM</styled-content>4 silencing increases the Ser33/Ser37/Thr41 &#x003b2;&#x02010;catenin phosphorylated population and reduces the phosphorylation of <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; at Ser9, suggesting an increase in &#x003b2;&#x02010;catenin degradation as the underlying mechanism. Conversely, <styled-content style="fixed-case">TRPM</styled-content>4 overexpression in <styled-content style="fixed-case">LNC</styled-content>aP cells increases the Ser9 inhibitory phosphorylation of <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; and the total levels of &#x003b2;&#x02010;catenin and its nonphosphorylated form. Finally, <styled-content style="fixed-case">PC</styled-content>3 cells with reduced levels of <styled-content style="fixed-case">TRPM</styled-content>4 showed a decrease in basal and stimulated phosphoactivation of Akt1, which is likely responsible for the decrease in <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; activity in these cells. Our results also suggest that the effect of <styled-content style="fixed-case">TRPM</styled-content>4 on Akt1 is probably mediated by an alteration in the calcium/calmodulin&#x02010;<styled-content style="fixed-case">EGFR</styled-content> axis, linking <styled-content style="fixed-case">TRPM</styled-content>4 activity with the observed effects in &#x003b2;&#x02010;catenin&#x02010;related signaling pathways. These results suggest a role for <styled-content style="fixed-case">TRPM</styled-content>4 channels in &#x003b2;&#x02010;catenin oncogene signaling and underlying mechanisms, highlighting this ion channel as a new potential target for future therapies in prostate cancer.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mol212100-kwd-0001">ion channel</kwd><kwd id="mol212100-kwd-0002">prostate cancer</kwd><kwd id="mol212100-kwd-0003"><styled-content style="fixed-case">TRPM</styled-content>4</kwd><kwd id="mol212100-kwd-0004">Wnt</kwd><kwd id="mol212100-kwd-0005">&#x003b2;&#x02010;catenin</kwd></kwd-group><funding-group><award-group><funding-source>FONDECYT</funding-source><award-id>1120286</award-id><award-id>1151446</award-id><award-id>1151435</award-id><award-id>1160518</award-id><award-id>1120132</award-id><award-id>1160889</award-id></award-group><award-group><funding-source>UNAB</funding-source><award-id>DI&#x02010;741&#x02010;15/N</award-id></award-group><award-group><funding-source>Millennium Institute on Immunology and Immunotherapy</funding-source><award-id>P09&#x02010;016&#x02010;F</award-id></award-group><award-group><funding-source>CONICYT Doctoral fellowship</funding-source></award-group><award-group><funding-source>Fondecyt&#x02010;FONDAP</funding-source><award-id>15010006</award-id></award-group><award-group><funding-source>Anillo en Ciencia y Tecnolog&#x000ed;a</funding-source><award-id>ACT1115</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="15"/><word-count count="7899"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>mol212100</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.3.2 mode:remove_FC converted:01.02.2018</meta-value></custom-meta></custom-meta-group></article-meta></front><body><def-list list-content="abbreviations" id="mol212100-dl-0001"><title>Abbreviations</title><def-item><term>CaM</term><def><p>calmodulin</p></def></def-item><def-item><term>EGF</term><def><p>epidermal growth factor</p></def></def-item><def-item><term>EGFR</term><def><p>epidermal growth factor receptor</p></def></def-item><def-item><term>GSK&#x02010;3&#x003b2;</term><def><p>glycogen synthase kinase 3&#x003b2;</p></def></def-item><def-item><term>LNCaP</term><def><p>lymph node carcinoma of the prostate</p></def></def-item><def-item><term>PC3</term><def><p>prostatic carcinoma cell line 3</p></def></def-item><def-item><term>ShTRPM4</term><def><p>short hairpin RNA against TRPM4 mRNA</p></def></def-item><def-item><term>TCF/LEF</term><def><p>T&#x02010;cell factor&#x02010;1/lymphoid enhancing factor 1</p></def></def-item><def-item><term>TRPM4</term><def><p>transient receptor potential cation channel subfamily M member 4</p></def></def-item><def-item><term>Wnt</term><def><p>Wingless&#x02010;Int</p></def></def-item></def-list><sec id="mol212100-sec-0001"><label>1</label><title>Introduction</title><p>Prostate cancer is one of the most frequently diagnosed malignancies and the fifth cause of cancer&#x02010;related deaths in men (Torre <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0057" ref-type="ref">2015</xref>). Although the clinical and the histopathological features of these tumors are well defined, the genetic and molecular changes during the progression of prostate cancer are poorly understood (Schrecengost and Knudsen, <xref rid="mol212100-bib-0046" ref-type="ref">2013</xref>; Tindall, <xref rid="mol212100-bib-0055" ref-type="ref">2013</xref>). Prostate tumors are characterized by multiple foci of origin (Schrecengost and Knudsen, <xref rid="mol212100-bib-0046" ref-type="ref">2013</xref>), with a large number of genetic alterations. Some genetic abnormalities frequently found in prostate cancer are the loss of important tumor suppressor genes such as PTEN, NKX3.1, TP53 (Mazaris and Tsiotras, <xref rid="mol212100-bib-0032" ref-type="ref">2013</xref>; Shen and Abate&#x02010;Shen, <xref rid="mol212100-bib-0047" ref-type="ref">2010</xref>) and the formation of oncogenic fusions such as TMPRSS2&#x02010;ERG (King <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0024" ref-type="ref">2009</xref>; Tomlins <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0056" ref-type="ref">2005</xref>). Also, the activation of several signaling pathways including Wnt/&#x003b2;&#x02010;catenin (Kypta and Waxman, <xref rid="mol212100-bib-0026" ref-type="ref">2012</xref>; Wang <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0059" ref-type="ref">2008</xref>) has been shown to contribute to the development and progression of this cancer.</p><p>In normal nonstimulated cells, &#x003b2;&#x02010;catenin, the main effector of the canonical Wnt pathway (Valenta <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0058" ref-type="ref">2012</xref>), is localized at adhesion complexes in the cell membrane, while the cytoplasmic protein levels of &#x003b2;&#x02010;catenin are tightly regulated (MacDonald <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0029" ref-type="ref">2009</xref>) by a multiprotein structure known as the destruction complex. This allows the phosphorylation of &#x003b2;&#x02010;catenin by GSK&#x02010;3&#x003b2; at specific Ser/Thr residues (Ser33/Ser37/Thr41) (Stamos and Weis, <xref rid="mol212100-bib-0051" ref-type="ref">2013</xref>), which promotes its proteasome&#x02010;mediated degradation, circumventing its nuclear translocation and ulterior transcriptional function (MacDonald <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0029" ref-type="ref">2009</xref>). The stimulation of the Wnt/canonical pathway by specific ligands (Rao&#x000a0;and K&#x000fc;hl, <xref rid="mol212100-bib-0041" ref-type="ref">2010</xref>), activating mutations on the &#x003b2;&#x02010;catenin sequence or inactivation of GSK&#x02010;3&#x003b2; by specific phosphorylation at Ser9, stabilizes &#x003b2;&#x02010;catenin. This promotes its translocation into the nucleus and interaction with members of the Tcf/Lef family of transcription factors (Mosimann <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0036" ref-type="ref">2009</xref>), leading to the expression of genes involved in proliferation, apoptosis, and invasion, among other important processes for cancer progression (Clevers, <xref rid="mol212100-bib-0006" ref-type="ref">2006</xref>; Klaus and Birchmeier, <xref rid="mol212100-bib-0025" ref-type="ref">2008</xref>). Moreover, in prostate cancer, increased &#x003b2;&#x02010;catenin levels and nuclear localization correlate with the progression of the disease (de la Taille <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0053" ref-type="ref">2003</xref>; Whitaker <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0061" ref-type="ref">2008</xref>), suggesting a possible alteration in the regulation of this protein. However, as activating mutations on &#x003b2;&#x02010;catenin are not common in prostate cancer, the mechanisms of this misregulation are not yet clear (Kypta and Waxman, <xref rid="mol212100-bib-0026" ref-type="ref">2012</xref>).</p><p>TRPM4, a calcium&#x02010;activated monovalent&#x02010;selective cation channel (Guinamard <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0019" ref-type="ref">2010</xref>; Launay <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0028" ref-type="ref">2002</xref>), has been found to be overexpressed in a variety of human tumors, including prostate cancer (Berg <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0003" ref-type="ref">2016</xref>; Holzmann <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>; Prevarskaya <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0040" ref-type="ref">2007</xref>; Suguro <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0052" ref-type="ref">2006</xref>). TRPM4 expression is increased in the transition from prostatic intraepithelial neoplasia (PIN) to prostate cancer (Ashida <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0002" ref-type="ref">2004</xref>; Singh <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0050" ref-type="ref">2006</xref>). This channel controls the frequency and magnitude of Ca<sup>2+</sup> influx by modulating the membrane potential and subsequently the driving force for Ca<sup>2+</sup> influx through other Ca<sup>2+</sup>&#x02010;permeable pathways (Fliegert <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0013" ref-type="ref">2007</xref>; Launay <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0027" ref-type="ref">2004</xref>; Nilius and Vennekens, <xref rid="mol212100-bib-0038" ref-type="ref">2006</xref>; Weber <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0060" ref-type="ref">2010</xref>). Holzmann <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>) showed TRPM4&#x02010;like currents in prostate cancer cell lines and it has a role as a negative feedback for Ca<sup>2+</sup> entry. Considering intracellular calcium's extensive role as a second messenger involved in many of the signaling pathways responsible for cancer progression (Farfariello <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0012" ref-type="ref">2015</xref>; Monteith <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0035" ref-type="ref">2007</xref>), the identification of specific pathways that have been altered after an aberrant change in intracellular calcium signals has been very challenging. Also, the overexpression of TRPM4 has been shown to promote the stabilization and activity of &#x003b2;&#x02010;catenin enhancing cell proliferation in HeLa cells, but the underlying mechanisms have not yet been clarified (Armis&#x000e9;n <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>).</p><p>This study presents further evidence to show that TRPM4 regulates &#x003b2;&#x02010;catenin signaling and enhances the proliferation of prostate cancer cell lines, through a calcium&#x02010;dependent regulation of Akt1 and GSK&#x02010;3&#x003b2; activity. TRPM4 silencing resulted in a reduced proliferation of PC3 cells. In these cells, diminished levels of TRPM4 channels resulted in a decrease in total and nuclear &#x003b2;&#x02010;catenin protein levels and its transcriptional activity, while the Ser33/Ser37/Thr41 phosphorylated fraction was increased. Also, these results correlated with a reduction of phospho&#x02010;Ser9 on GSK&#x02010;3&#x003b2;, indicating an increase in this enzyme activity. Moreover, the overexpression of TRPM4 in LNCaP cells increased the total levels of &#x003b2;&#x02010;catenin and the inhibitory phosphorylation of GSK&#x02010;3&#x003b2;. Finally, the knockdown of TRPM4 correlated with a decrease in basal and stimulated phosphoactivation of Akt1, a well&#x02010;known GSK&#x02010;3&#x003b2; regulator, by altering the calcium/calmodulin&#x02010;EGFR axis, and linking the TRPM4 channel expression to the control of cellular proliferation.</p></sec><sec id="mol212100-sec-0002"><label>2</label><title>Materials and methods</title><sec id="mol212100-sec-0003"><label>2.1</label><title>Cell culture</title><p>The human prostate cancer cells PC3 and LNCaP were kept in RPMI 1640 (Corning Inc, Corning, NY, USA). T&#x02010;REx&#x02010;293&#x02010;TRPM4 and HEK293 cells were kept in DMEM&#x02010;low glucose (Corning Inc). All the growth media were supplemented with 10% v/v FBS (Corning) and penicillin/streptomycin (Hyclone Laboratories, Logan, UT, USA). RWPE&#x02010;1 cells were kept in keratinocyte&#x02010;SFM (Thermo Scientific, Waltham, MA, USA) supplemented with recombinant human epidermal growth factor (K&#x02010;SFM kit) and bovine pituitary extract (K&#x02010;SFM kit).</p></sec><sec id="mol212100-sec-0004"><label>2.2</label><title>Antibodies</title><p>The following antibodies were used in this study: mouse anti&#x02010;TRPM4b (Origene, Rockville, MO, USA, TA500381), mouse anti&#x02010;&#x003b2;&#x02010;catenin (610154; BD Biosciences, San Jose, CA, USA), mouse anti&#x02010;non&#x02010;phosphorylated S33/S37/T41&#x02010;&#x003b2;&#x02010;catenin (Millipore, Temecula, CA, USA, 05&#x02010;665), rabbit anti&#x02010;phospho&#x02010;Ser33/Ser37/Thr41 &#x003b2;&#x02010;catenin (Cell Signaling Technology, Danvers, MA, USA, 9561), mouse anti&#x02010;GSK&#x02010;3&#x003b2; (BD Biosciences, 610201), rabbit anti&#x02010;phospho&#x02010;Ser9 GSK&#x02010;3&#x003b2; (Origene, Rockville, MO, USA, TA303847), rabbit anti&#x02010;Akt1 (Cell Signaling, 9272), rabbit anti&#x02010;phospho&#x02010;Ser473 Akt (Cell Signaling, 9271), and as loading controls, mouse anti&#x02010;&#x003b1;&#x02010;tubulin (Sigma Aldrich, St. Louis, MO, USA, T5168) or mouse anti&#x02010;HSP70 (Origene, TA309356).</p></sec><sec id="mol212100-sec-0005"><label>2.3</label><title>Drugs and recombinant protein</title><p>For the activation of Akt, epidermal growth factor recombinant protein (R&#x00026;D Systems, Minneapolis, MN, USA, 236&#x02010;EG) was added to the growth media (EGF, 100&#x000a0;ng&#x000b7;mL<sup>&#x02212;1</sup>/15&#x000a0;min). 9&#x02010;Phenanthrol (Sigma&#x02010;Aldrich, 211281) at 10&#x000a0;&#x003bc;<sc>m</sc> final concentration in the growth media for 2&#x000a0;h was used for the inhibition of TRPM4. DMSO was used as a vehicle. Before the experiments, tetracycline (Sigma&#x02010;Aldrich, T7660) was added to the growth media for TRPM4 induction at a final concentration of 1&#x000a0;&#x003bc;g&#x000b7;mL<sup>&#x02212;1</sup> for 24&#x000a0;h. The calmodulin inhibitor W&#x02010;7 (Tocris Bioscience, Bristol, UK, 0369) was used at a final concentration of 100&#x000a0;&#x003bc;<sc>m</sc> for 1&#x000a0;h before the incubation with EGF.</p></sec><sec id="mol212100-sec-0006"><label>2.4</label><title>Transfection and transductions</title><p>PC3 cells were transduced with a commercial prepackaged lentiviral vector (SBI, Palo Alto, CA, USA) directing shRNA against TRPM4 mRNA (ShTRPM4) or a scramble ShRNA (ShControl) as a control. Cells were kept in growth media with 0.8&#x000a0;&#x003bc;g&#x000b7;mL<sup>&#x02212;1</sup> puromycin (Corning) for selection. LNCaP cells were transfected with pcDNA4TO/TRPM4b (human) plasmid or an empty vector (mock), using Lipofectamine LTX with Plus Reagent (Invitrogen, Carlsbad, CA, USA), and held in growth media with 50&#x000a0;&#x003bc;g&#x000b7;mL<sup>&#x02212;1</sup> zeocin (Corning) for selection.</p></sec><sec id="mol212100-sec-0007"><label>2.5</label><title>Immunoblotting</title><p>Protein lysates were prepared in a RIPA buffer (25&#x000a0;m<sc>m</sc> Tris/HCl pH 7.6, 150&#x000a0;m<sc>m</sc> NaCl, 5&#x000a0;m<sc>m</sc> EDTA, 1% v/v Triton X&#x02010;100, 1% w/v sodium deoxycholate, 0.1% w/v SDS) and a protease (Calbiochem, San Diego, CA, USA) and phosphatase (Roche Life Sciences, Mannheim, Germany) inhibitor cocktail. Protein lysates (30&#x000a0;&#x003bc;g per lane) were resolved on 8% sodium dodecyl sulfate/polyacrylamide gel electrophoresis (SDS/PAGE), and proteins were transferred onto a nitrocellulose membrane. Membranes were blocked in 5% w/v BSA (Winkler, Santiago, Chile) and then incubated with primary antibodies at 4&#x000a0;&#x000b0;C overnight. All primary antibodies were detected using appropriate HRP&#x02010;conjugated secondary antibodies and a chemiluminescence reagent (SuperSignal WestPico Chemiluminescent Substrate; Thermo Scientific), and images were obtained using the ChemiScope3500 Mini chemiluminescence imaging system (Clinx Science Instruments, Shanghai, China).</p></sec><sec id="mol212100-sec-0008"><label>2.6</label><title>Quantitative PCR</title><p>Total RNA was extracted using TRIzol (Invitrogen), followed by DNase treatment (TURBO DNase; Ambion, Austin, TX, USA). One microgram of RNA was reverse&#x02010;transcribed using the AffinityScript qRT&#x02010;PCR cDNA Synthesis Kit (Agilent Technologies, Inc., Santa Clara, CA, USA) and diluted five times. Quantitative expression analysis was performed using specific oligonucleotide primers and Brilliant II SYBR Green qRT&#x02010;PCR Master Mix (Agilent). The reactions were quantified with an Eco Real&#x02010;Time (Illumina, San Diego, CA, USA) using the following program: 95&#x000a0;&#x000b0;C for 15&#x000a0;s, 58&#x000a0;&#x000b0;C for 15&#x000a0;s, and 72&#x000a0;&#x000b0;C for 15&#x000a0;s at 40 cycles. Expression values were calculated using the &#x00394;&#x00394;<italic>C</italic>
+<sub>t</sub> method and expressed as the fold change relative to control samples. GAPDH was used as a housekeeping gene. The primers sequences (5&#x02032;&#x02192;3&#x02032;) are as follows:</p><p>
+<list list-type="simple"><list-item><p>GAPDH (Fw GTTGCTGTAGCCAAAT TCGTTGT, Rv GGTGGTCTCCTCTGACTTCAACA),</p></list-item><list-item><p>BIRC5 (Fw GCTTCGCTGGAAACCTCTGGA, Rv TCTGGGCAGATGGCTGTTGG),</p></list-item><list-item><p>MYC (Fw ACAGCCCACTGGTCCTCAAGA, Rv ACCTGGGGCTGG TGCATTTT),</p></list-item><list-item><p>CCND1 (Fw CACTTGCATGTTCGTGGCCTCTA, Rv ATTGCGGCCAGGTTCCACTT),</p></list-item><list-item><p>TRPM4 (Fw TCGGCAAAGTACAGGGCAAC, Rv AGGCGCAAGTGGGAGATGAC)</p></list-item><list-item><p>AXIN2 (Fw AGCCAAAGAAACTGGCAGGTGT, Rv GTCAAGCTCTGAGCCTTCAGC).</p></list-item></list>
+</p></sec><sec id="mol212100-sec-0009"><label>2.7</label><title>Indirect immunofluorescence</title><p>Cells were fixed (4% w/v formaldehyde; Sigma&#x02010;Aldrich), permeabilized, blocked, and incubated with anti&#x02010;&#x003b2;&#x02010;catenin (1&#x000a0;:&#x000a0;250) followed by anti&#x02010;mouse coupled with Alexa&#x02010;Fluor546 (Invitrogen, 1&#x000a0;:&#x000a0;1000). Cells were stained and mounted in Prolong&#x02010;DAPI (Invitrogen). Images were recorded in an inverted microscope (IX81 Spinning Disk Confocal; Olympus, Center Valley, PA, USA) and analyzed using <sc>imagej</sc> software (Rasband, <xref rid="mol212100-bib-0042" ref-type="ref">2015</xref>) to measure the relative levels of nuclear and cytoplasmic &#x003b2;&#x02010;catenin fluorescence.</p></sec><sec id="mol212100-sec-0010"><label>2.8</label><title>TOP/FOP luciferase reporter assay</title><p>Cells were transiently transfected with 0.5&#x000a0;&#x003bc;g of constitutively active vector encoding Renilla luciferase (Promega, Madison, WI, USA) and 2&#x000a0;&#x003bc;g of &#x003b2;&#x02010;catenin responsive firefly luciferase reporter plasmid TopFlash or the negative control FopFlash (Merck Millipore, Billerica, MA, USA). Cells were harvested 24&#x000a0;h after transfection and firefly and Renilla luciferase activities were measured in triplicate using the dual luciferase kit (Dual&#x02010;Glo Luciferase Assay System; Promega). The firefly luciferase activity was normalized against the Renilla luciferase activity, following Armis&#x000e9;n <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>).</p></sec><sec id="mol212100-sec-0011"><label>2.9</label><title>Calcium measurements</title><p>Cells were seeded on 25&#x02010;mm glass coverslips. At 70% confluence, growth media were replaced with an extracellular buffer with calcium (ECM&#x000a0;+&#x000a0;Ca<sup>2+</sup>: 145&#x000a0;m<sc>m</sc> NaCl, 5&#x000a0;m<sc>m</sc> KCl, 1&#x000a0;m<sc>m</sc> MgCl<sub>2</sub>, 1&#x000a0;m<sc>m</sc> CaCl<sub>2</sub>, 10&#x000a0;m<sc>m</sc> HEPES, pH 7.4), and the cells were loaded with Fura&#x02010;2 (2&#x000a0;&#x003bc;<sc>m;</sc> Molecular Probes, Eugene, OR, USA) for 1&#x000a0;h at 37&#x000a0;<bold>&#x000b0;</bold>C. Then, the ECM&#x000a0;+&#x000a0;Ca<sup>2+</sup> solution was removed and cells were washed twice with calcium&#x02010;free ECM (plus 5&#x000a0;m<sc>m</sc> EGTA). After baseline recording, the SERCA inhibitor thapsigargin (1&#x000a0;&#x003bc;<sc>m</sc>) was perfused. After a transient increase in cytosolic calcium concentration [denoted as endoplasmic reticulum (ER) calcium leak], the calcium&#x02010;free external solution was replaced with ECM&#x000a0;+&#x000a0;Ca<sup>2+</sup> buffer to record calcium influx (after stored depletion). The ratiometric fluorescence (R<sub>340/380</sub>) of the Fura&#x02010;2 calcium indicator was measured in an inverted microscope (IX81 Spinning Disk Confocal; Olympus) and recorded and analyzed by the <sc>cellr imaging</sc> software (Olympus) as described in Echeverr&#x000ed;a <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0011" ref-type="ref">2014</xref>).</p></sec><sec id="mol212100-sec-0012"><label>2.10</label><title>MTS assay</title><p>Cells were seeded in 24&#x02010;well plates (10&#x000a0;&#x000d7;&#x000a0;10<sup>3</sup> cells/well) and allowed to attach overnight. Cell proliferation was assessed using the Cell&#x02010;Titter 96 AQueous&#x02010;MTS Kit (Promega) at 24, 48, and 72&#x000a0;h. Absorbance was measured at 490&#x000a0;nm in the Cytation 3 Multi&#x02010;Mode Reader (Biotek Instrument, Winooski, VT, USA).</p></sec><sec id="mol212100-sec-0013"><label>2.11</label><title>DNA synthesis/BrdU Incorporation</title><p>DNA synthesis evaluated by bromodeoxyuridine (BrdU)/propidium iodide (PI) staining was as follows: exponentially growing cells were incubated with 25&#x000a0;&#x003bc;<sc>m</sc> of BrdU (Santa Cruz Biotechnology, Santa Cruz, CA, USA) for 45&#x000a0;min before harvesting. Cells were fixed in 80% methanol at &#x02212;20&#x000a0;&#x000b0;C and kept overnight at the same temperature. Double staining with 50&#x000a0;&#x003bc;g&#x000b7;mL<sup>&#x02212;1</sup> PI and FITC&#x02010;anti&#x02010;BrdU antibody (BD Biosciences Pharmingen, San Diego, CA, USA) was performed according to the manufacturer's protocol. Cell cycle profiles and BrdU uptake were determined by FACS (BD Bioscience), and the data were analyzed with the <sc>bd facsdiva</sc> software (BD Bioscience).</p></sec><sec id="mol212100-sec-0014"><label>2.12</label><title>Statistical analysis</title><p>qRT&#x02010;PCR, western blot, and functional assays were examined by Student's <italic>t</italic>&#x02010;test with Welch correction or the ANOVA test, whichever is applicable. <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05 was considered statistically significant. At least three independent experiments were performed for each analysis. Statistical analysis was performed using <sc>prism</sc> 5.0 (GraphPad Software, San Diego, CA, USA). Material and Methods for supplemental results can be found in Data S1.</p></sec></sec><sec id="mol212100-sec-0015"><label>3</label><title>Results</title><sec id="mol212100-sec-0016"><label>3.1</label><title>TRPM4 regulates &#x003b2;&#x02010;catenin activity and cell proliferation in prostate cancer cells</title><p>TRPM4 mRNA expression was analyzed in a nontransformed prostate epithelial RWPE&#x02010;1 cell line and two cancer&#x02010;derived cell lines, LNCaP and PC3. As shown in Fig.&#x000a0;<xref rid="mol212100-fig-0001" ref-type="fig">1</xref>A, PC3 cells express 10&#x02010;fold more TRPM4 mRNA than LNCaP and RWPE&#x02010;1 cells. At the protein level, LNCaP cells showed a significantly lower TRPM4 expression than PC3 cells (Fig.&#x000a0;<xref rid="mol212100-fig-0001" ref-type="fig">1</xref>B). To assess the role of TRPM4 in prostate cancer, knockdown and overexpression of TRPM4 were performed in PC3 and LNCaP cells, respectively. Immunoblot and qPCR analysis were used to determine the knockdown efficiency and possible off&#x02010;target effects (Figs&#x000a0;<xref rid="mol212100-sup-0001" ref-type="supplementary-material">S1</xref> and <xref rid="mol212100-sup-0002" ref-type="supplementary-material">S2</xref>).</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>
+<styled-content style="fixed-case">TRPM</styled-content>4 expression affects protein levels and phosphorylation status of &#x003b2;&#x02010;catenin. (A) <styled-content style="fixed-case">mRNA</styled-content> expression of <styled-content style="fixed-case">TRPM</styled-content>4 gene in <styled-content style="fixed-case">PC</styled-content>3 <styled-content style="fixed-case">WT</styled-content> and <styled-content style="fixed-case">LNC</styled-content>aP <styled-content style="fixed-case">WT</styled-content> cells relative to nontumoral <styled-content style="fixed-case">RWPE</styled-content>&#x02010;1 prostate cells. <styled-content style="fixed-case">RT</styled-content>&#x02010;<styled-content style="fixed-case">qPCR</styled-content> were performed at least three times. <italic>T&#x02010;</italic>test with Welch correction, <sup>ns</sup>
+<italic>P</italic>&#x000a0;&#x0003e;&#x000a0;0.05, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01, ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001. (B) Western blot was performed to detect <styled-content style="fixed-case">TRPM</styled-content>4 expression in prostate cancer cell lines. Representative western blots and their densitometries from three independent experiments. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content>. <italic>T&#x02010;</italic>test with Welch correction, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05. (C) Knockdown of <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">PC</styled-content>3 cells resulted in a significant decrease in total &#x003b2;&#x02010;catenin protein levels, along with the nonphosphorylated &#x003b2;&#x02010;catenin (&#x02018;active&#x02019;), and an increase in phosphorylated &#x003b2;&#x02010;catenin at Ser33/37/Thr41 residues. <italic>T&#x02010;</italic>test with Welch correction, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01. (D, E) <styled-content style="fixed-case">TRPM</styled-content>4&#x02010;transfected <styled-content style="fixed-case">LNC</styled-content>aP cells show an increase in total and nonphosphorylated &#x003b2;&#x02010;catenin protein levels compared to <styled-content style="fixed-case">MOCK</styled-content>&#x02010;transfected cells. <italic>T&#x02010;</italic>test with Welch correction, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01. Representative western blots and their densitometries from at least three experiments. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown.</p></caption><graphic id="nlm-graphic-3" xlink:href="MOL2-12-151-g001"/></fig><p>Previous work showed a positive relationship between the expression of TRPM4 channel and total &#x003b2;&#x02010;catenin protein levels in HeLa cells (Armis&#x000e9;n <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>); therefore, the effect of TRPM4 knockdown on &#x003b2;&#x02010;catenin was explored in PC3 prostate cells. As expected, a significant decrease in the total amount of &#x003b2;&#x02010;catenin was found in PC3 ShTRPM4 cells compared to PC3 ShControl cells. The nonphosphorylated fraction of &#x003b2;&#x02010;catenin (Ser37 and/or Thr41) also decreased, while the phosphorylated population (Ser33, Thr37 or 41) increased (Fig.&#x000a0;<xref rid="mol212100-fig-0001" ref-type="fig">1</xref>C), suggesting a rise in &#x003b2;&#x02010;catenin degradation in PC3 ShTRPM4 cells. Conversely, LNCaP cells overexpressing TRPM4 showed a significant increase in total &#x003b2;&#x02010;catenin (Fig.&#x000a0;<xref rid="mol212100-fig-0001" ref-type="fig">1</xref>D) and in the nonphosphorylated fraction, compared to mock&#x02010;transfected cells (Fig.&#x000a0;<xref rid="mol212100-fig-0001" ref-type="fig">1</xref>E). As depicted in Fig.&#x000a0;<xref rid="mol212100-fig-0002" ref-type="fig">2</xref>A,B, PC3 ShTRPM4 cells also showed a significant decrease in nuclear &#x003b2;&#x02010;catenin. Consequently, PC3 ShTRPM4 cells display a lower specific Tcf/Lef transcriptional reporter activity compared to control cells (Fig.&#x000a0;<xref rid="mol212100-fig-0002" ref-type="fig">2</xref>C), suggesting an alteration in the &#x003b2;&#x02010;catenin transcription co&#x02010;activator activity. To examine further the effect of TRPM4 knockdown and &#x003b2;&#x02010;catenin transcriptional activity, the expression of survivin, axin2, cyclin D1, and c&#x02010;Myc by RT&#x02010;qPCR was analyzed. PC3 ShTRPM4 cells showed a significant decrease in all these &#x003b2;&#x02010;catenin target genes (Niehrs and Acebron, <xref rid="mol212100-bib-0037" ref-type="ref">2012</xref>; Tapia <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0054" ref-type="ref">2006</xref>) (Fig.&#x000a0;<xref rid="mol212100-fig-0002" ref-type="fig">2</xref>D,E). As c&#x02010;Myc and cyclin D1 genes are positive regulators of cell proliferation, we evaluated the effect of TRPM4 knockdown in prostate cancer cell proliferation through MTS and BrdU incorporation assays. These analyses showed that PC3 ShTRPM4 cells have a significantly reduced proliferation (Fig.&#x000a0;<xref rid="mol212100-fig-0003" ref-type="fig">3</xref>A,B). In order to assess whether the reduced viability observed in PC3 ShTRPM4 cells was a result of an increased cell death, caspase&#x02010;3 activation, as well as caspase 3/7 activities, was assessed in PC3 ShTRPM4 and control cells. No significant differences were detected either in total and cleaved caspase&#x02010;3 form or in caspase 3/7 activities (Fig.&#x000a0;<xref rid="mol212100-sup-0003" ref-type="supplementary-material">S3</xref>). These data suggest that TRPM4 silencing causes a decrease in cellular proliferation.</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>
+<styled-content style="fixed-case">TRPM</styled-content>4 expression effects, nuclear distribution, and transcriptional activity of &#x003b2;&#x02010;catenin. (A, B) Knockdown of <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">PC</styled-content>3 cells decreases &#x003b2;&#x02010;catenin nuclear localization. Representative images of intracellular &#x003b2;&#x02010;catenin detected by immunofluorescence in <styled-content style="fixed-case">PC</styled-content>3 ShControl (upper) and <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 (bottom). Scale bar 20&#x000a0;&#x003bc;<sc>m</sc>. Graph shows arbitrary units of fluorescence of &#x003b2;&#x02010;catenin nuclear/cytoplasmic ratio quantified in at least three independent experiments. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown. <italic>T&#x02010;</italic>test with Welch correction, ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001. (C) Knockdown of <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">PC</styled-content>3 cells decreases &#x003b2;&#x02010;catenin cotranscriptional activity. <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 and <styled-content style="fixed-case">PC</styled-content>3 ShControl cells were transfected with plasmid <styled-content style="fixed-case">pTOP</styled-content> or <styled-content style="fixed-case">pFOP</styled-content> and <styled-content style="fixed-case">pTK</styled-content>&#x02010;Renilla as normalizer. Normalized <styled-content style="fixed-case">TOP</styled-content>/<styled-content style="fixed-case">FOP</styled-content> Luciferase activity is shown. <italic>T&#x02010;</italic>test with Welch correction, ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001. (D, E) Relative <styled-content style="fixed-case">mRNA</styled-content> expression of &#x003b2;&#x02010;catenin target genes. Axin2, survivin, c&#x02010;Myc, and cyclin D1 genes were analyzed in <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 compared to <styled-content style="fixed-case">PC</styled-content>3 ShControl cells with <styled-content style="fixed-case">RT</styled-content>&#x02010;<styled-content style="fixed-case">qPCR</styled-content> assay. All experiments were performed at least three times. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown<italic>. T&#x02010;</italic>test with Welch correction, ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001.</p></caption><graphic id="nlm-graphic-5" xlink:href="MOL2-12-151-g002"/></fig><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>
+<styled-content style="fixed-case">TRPM</styled-content>4 knockdown reduces proliferation of <styled-content style="fixed-case">PC</styled-content>3 cells. (A) Cell proliferation was evaluated in <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 and <styled-content style="fixed-case">PC</styled-content>3 ShControl cells, by <styled-content style="fixed-case">MTS</styled-content> assay. Three independent assays were performed, in triplicate, and proliferation was assessed 24&#x02013;72&#x000a0;h after culturing. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown. Two&#x02010;way <styled-content style="fixed-case">ANOVA</styled-content>, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.005, ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001. (B) <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 and ShControl cells were pulsed with BrdU for 45&#x000a0;min under normal culturing conditions. Positive cells that incorporated BrdU were detected using a <styled-content style="fixed-case">FITC</styled-content>&#x02010;conjugated anti&#x02010;BrdU antibody. Cells in S&#x02010;phase were selected according to <styled-content style="fixed-case">DNA</styled-content> content (propidium iodide signal). All experiments were performed in at least three independent experiments. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown. Mann&#x02013;Whitney <italic>test</italic>, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05.</p></caption><graphic id="nlm-graphic-7" xlink:href="MOL2-12-151-g003"/></fig></sec><sec id="mol212100-sec-0017"><label>3.2</label><title>TRPM4 inhibits GSK&#x02010;3&#x003b2; activity</title><p>Given that PC3 ShTRPM4 cells have increased levels of &#x003b2;&#x02010;catenin GSK&#x02010;3&#x003b2;&#x02010;dependent phosphorylated residues, we hypothesized that TRPM4 silencing increases the activity of this kinase. GSK&#x02010;3&#x003b2; activity was then assessed by evaluating its inhibitory phosphorylation in Ser9 residue (McManus <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0033" ref-type="ref">2005</xref>). PC3 ShTRPM4 cells exhibit a significantly lower Ser9 phosphorylation compared to control cells, which is consistent with this enzyme's higher activity (McManus <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0033" ref-type="ref">2005</xref>). Also, no differences in GSK&#x02010;3&#x003b2; total protein levels were observed (Fig.&#x000a0;<xref rid="mol212100-fig-0004" ref-type="fig">4</xref>A). Subsequently, the inhibitory Ser9 phosphorylation of GSK&#x02010;3&#x003b2; was determined in LNCaP cells overexpressing TRPM4. A significant increase in phospho&#x02010;Ser9 GSK&#x02010;3&#x003b2; in LNCaP&#x02010;TRPM4 cells was detected compared to control cells (Fig.&#x000a0;<xref rid="mol212100-fig-0004" ref-type="fig">4</xref>B), indicating a positive relationship between TRPM4 expression and the status and activity of GSK&#x02010;3&#x003b2;/Ser9 phosphorylation.</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>
+<styled-content style="fixed-case">TRPM</styled-content>4 levels are positively related to the inhibitory phosphorylation of <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2;. (A) <styled-content style="fixed-case">PC</styled-content>3Sh<styled-content style="fixed-case">TRPM</styled-content>4 cells show decreased phosphorylation of Ser9 in <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2;, relative to <styled-content style="fixed-case">PC</styled-content>3 ShControl cells. No changes in total <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; were detected. Representative western blots and densitometries of three independent experiments (mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content>) are shown. <italic>T&#x02010;</italic>test with Welch correction, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01. (B) Overexpression of <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">LNC</styled-content>aP cells correlated with an increase in phosphorylated Ser9 in <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; compared to control cells. No changes in the total amount of <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; were detected. <italic>T&#x02010;</italic>test with Welch correction, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05.</p></caption><graphic id="nlm-graphic-9" xlink:href="MOL2-12-151-g004"/></fig><p>To determine whether TRPM4 activity is required to regulate the status of &#x003b2;&#x02010;catenin and GSK&#x02010;3&#x003b2; phosphorylation, the T&#x02010;REx&#x02010;293&#x02010;TRPM4 cell model system was used to overexpress the channel in a tetracycline (Tet+)&#x02010;dependent manner (Armis&#x000e9;n <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>) and 9&#x02010;phenanthrol, a TRPM4 activity inhibitor (Grand <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0018" ref-type="ref">2008</xref>), was used (DMSO was used as a vehicle control). As expected, overexpression of TRPM4 was accompanied by an increase in the total amount of &#x003b2;&#x02010;catenin and a decrease in its phosphorylated fraction, compared to noninduced (Tet&#x02212;) cells (Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>A,B). Significantly, the incubation with 9&#x02010;phenanthrol inhibited the effect of TRPM4 overexpression on the total &#x003b2;&#x02010;catenin levels and the phosphorylated fraction of this protein (Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>A,B). Consistent with previous findings in LNCaP cells, TRPM4 overexpression also resulted in an increased inhibitory phosphorylation of GSK&#x02010;3&#x003b2;/Ser9 in Tet+ compared to Tet&#x02212; cells (Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>A, lane 1 <italic>vs</italic>. 3, Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>B). Accordingly, a significant decrease in the Ser9 phosphorylation was observed upon incubation with 9&#x02010;phenanthrol (Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>A, lanes 1 and 2, Fig.&#x000a0;<xref rid="mol212100-fig-0005" ref-type="fig">5</xref>B). These results suggest that TRPM4 channel activity is required for GSK&#x02010;3&#x003b2; regulation and &#x003b2;&#x02010;catenin stabilization.</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Activity of <styled-content style="fixed-case">TRPM</styled-content>4 channel is required for &#x003b2;&#x02010;catenin stability and <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; inhibitory phosphorylation. Overexpression of <styled-content style="fixed-case">TRPM</styled-content>4 in T&#x02010;<styled-content style="fixed-case">RE</styled-content>x 293 (<styled-content style="fixed-case">TREX</styled-content>) cells was induced by previous incubation with tetracycline 1&#x000a0;&#x003bc;g&#x000b7;mL<sup>&#x02212;1</sup> (Tet). Cells were incubated for 2&#x000a0;h with the specific <styled-content style="fixed-case">TRPM</styled-content>4 inhibitor 9&#x02010;phenanthrol at 10&#x000a0;&#x003bc;<sc>m</sc> or <styled-content style="fixed-case">DMSO</styled-content> (vehicle) before protein extraction. (A, B) <styled-content style="fixed-case">TRPM</styled-content>4 overexpression enhances &#x003b2;&#x02010;catenin protein levels, decreases its inhibitory phosphorylation, and increases the <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; S9 phosphorylation. The presence of 9&#x02010;phenanthrol reverts the effects of the <styled-content style="fixed-case">TRPM</styled-content>4 overexpression on these intracellular proteins. (A) Representative western blots and the densitometries of at least three independent experiments (mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content>) are shown. *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05; **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01; ***<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.001, multiple <italic>t</italic>&#x02010;test comparisons using <italic>t</italic>&#x02010;test with Welch correction.</p></caption><graphic id="nlm-graphic-11" xlink:href="MOL2-12-151-g005"/></fig><p>In several cell types, TRPM4 activity has been shown to modulate intracellular calcium concentration, through changes in membrane potential and in calcium electrochemical driving force (Fliegert <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0013" ref-type="ref">2007</xref>; Gonzales <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0016" ref-type="ref">2010</xref>; Launay <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0027" ref-type="ref">2004</xref>). Given that calcium function is an intracellular second messenger (Berridge <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0004" ref-type="ref">2003</xref>), we sought to determine whether TRPM4 expression modulates any component of calcium dynamics in PC3 cells. With the calcium&#x02010;specific probe Fura&#x02010;2, the calcium content in the ER was assessed by measuring ER calcium leak (in zero external calcium after SERCA inhibition with thapsigargin), and calcium entry was estimated by measuring cytosolic calcium upon external calcium replenishment after ER depletion. As shown in Fig.&#x000a0;<xref rid="mol212100-fig-0006" ref-type="fig">6</xref>A,B, decreased TRPM4 channel expression in PC3 cells did not affect ER calcium leak. However, a significant decrease in calcium influx was observed when compared to control cells. To determine whether external calcium influx plays a role in the regulation of GSK&#x02010;3&#x003b2; activity, PC3 cells were incubated for 30&#x000a0;min in an extracellular medium free of calcium. A significant reduction in Ser9 inhibitory phosphorylation of GSK&#x02010;3&#x003b2; was observed (Fig.&#x000a0;<xref rid="mol212100-fig-0006" ref-type="fig">6</xref>C), indicating that intracellular calcium concentration is important for this event.</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Modulation of calcium entry by <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">PC</styled-content>3 cells. (A, B) Intracellular calcium release and extracellular calcium entry were assessed through the incubation of thapsigargin (1&#x000a0;&#x003bc;<sc>m</sc>) and the restitution of extracellular calcium, respectively, using Fura&#x02010;2. A representative figure of one experiment is shown in (A). In (B), integrated data from six different experiments for <styled-content style="fixed-case">PC</styled-content>3 ShControl and seven experiments for <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 are shown. At least 10 cells were recorded in every experiment. <styled-content style="fixed-case">TRPM</styled-content>4&#x02010;knockdown cells displayed a decrease in extracellular calcium entry compared to control cells. One&#x02010;way <styled-content style="fixed-case">ANOVA</styled-content>, <sup>ns</sup>
+<italic>P</italic>&#x000a0;&#x0003e;&#x000a0;0.05, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05. (C) <styled-content style="fixed-case">PC</styled-content>3 <styled-content style="fixed-case">WT</styled-content> cell lines were incubated with or without calcium and Ser9 phosphorylation of <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; was assessed with western blot assay. A representative western blot and the densitometries from three independent experiments are shown. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown. <italic>T&#x02010;</italic>test with Welch correction, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01.</p></caption><graphic id="nlm-graphic-13" xlink:href="MOL2-12-151-g006"/></fig></sec><sec id="mol212100-sec-0018"><label>3.3</label><title>Akt1 activation is regulated by Ca<sup>2+</sup>/CaM and TRPM4 in prostate cancer cells</title><p>Akt1 kinase activation after EGFR stimulation is a process that involves Ca<sup>2+</sup>/CaM (Deb <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0007" ref-type="ref">2004</xref>; Rokhlin <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0043" ref-type="ref">2007</xref>) interaction in breast cancer cell models (Dong <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0009" ref-type="ref">2007</xref>). After activation, Akt1 phosphorylates GSK&#x02010;3&#x003b2; at Ser9 and inhibits its function (Manning and Cantley, <xref rid="mol212100-bib-0031" ref-type="ref">2007</xref>). On the other hand, deregulation of Akt signaling is a common alteration in prostate cancer (Li <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0501" ref-type="ref">2005</xref>). The status of Akt1 activity was measured by detecting its phosphorylation at specific residue Ser473 (Sarbassov <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0044" ref-type="ref">2005</xref>). Under basal conditions and after EGF stimulation, Akt1 phosphorylation was lower in PC3 ShTRPM4 cells compared to control cells (Fig.&#x000a0;<xref rid="mol212100-fig-0007" ref-type="fig">7</xref>A,B). Conversely, the overexpression of TRPM4 in LNCaP cells induced an increase in the Akt1 activating phosphorylation compared to WT and mock cells (Fig.&#x000a0;<xref rid="mol212100-sup-0004" ref-type="supplementary-material">S4</xref>), indicating a direct relationship between TRPM4 levels and Akt1 activation. Moreover, EGF&#x02010;induced GSK&#x02010;3&#x003b2; phosphorylation in Ser9 was also reduced in PC3 ShTRPM4 cells compared to control cells (Fig.&#x000a0;<xref rid="mol212100-fig-0007" ref-type="fig">7</xref>C), which is consistent with the reduced Akt1 kinase activity in these cells. Finally, in order to explore the importance of EGF&#x02010;Ca<sup>2+</sup>/CaM signaling in both Akt1 and GSK&#x02010;3&#x003b2; phosphorylation, the effect of EGF stimulation was assessed in the presence of W&#x02010;7, a Ca<sup>2+</sup>/CaM inhibitor. PC3 ShControl cells preincubated with W&#x02010;7 showed a decrease in Akt1 and GSK&#x02010;3&#x003b2; phosphorylation levels after EGF stimulation, displaying phosphorylation levels similar to those detected in PC3 ShTRPM4 cells (Fig.&#x000a0;<xref rid="mol212100-fig-0007" ref-type="fig">7</xref>D). Although a decrease in Akt1 phosphorylation was detected in PC3 ShTRPM4 cells incubated with W&#x02010;7, the inhibitor had no effect on GSK&#x02010;3&#x003b2; phosphorylation in these cells. These results highlight the importance of the TRPM4/Ca<sup>2+</sup>/Akt1 axis on the regulation of GSK&#x02010;3&#x003b2; activity and consequently the &#x003b2;&#x02010;catenin stability in prostate cancer cell lines.</p><fig fig-type="Figure" xml:lang="en" id="mol212100-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>
+<styled-content style="fixed-case">TRPM</styled-content>4 regulates the normal activation of Akt1 in <styled-content style="fixed-case">PC</styled-content>3 cells. (A) <styled-content style="fixed-case">PC</styled-content>3 ShControl shows an increased phosphorylation of Ser473 on <styled-content style="fixed-case">AKT</styled-content>1 compared to <styled-content style="fixed-case">PC</styled-content>3 Sh<styled-content style="fixed-case">TRPM</styled-content>4 under basal (nonstimulated) conditions. Representative western blots and their densitometries from three independent experiments (mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content>) are shown. <italic>T</italic>&#x02010;test with Welch correction, *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05. (B) <styled-content style="fixed-case">PC</styled-content>3 ShControl and Sh<styled-content style="fixed-case">TRPM</styled-content>4 were incubated with <styled-content style="fixed-case">EGF</styled-content> (100&#x000a0;ng&#x000b7;mL<sup>&#x02212;1</sup>) for 15&#x000a0;min and phosphoactivation of <styled-content style="fixed-case">AKT</styled-content>1 (Ser473) was evaluated. Incubation with <styled-content style="fixed-case">LY</styled-content>294002 (20&#x000a0;&#x003bc;<sc>m</sc>) 1&#x000a0;h before <styled-content style="fixed-case">EGF</styled-content> stimulus was used as a control. <italic>T&#x02010;</italic>test with Welch correction **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01. (C) Downregulation of <styled-content style="fixed-case">TRPM</styled-content>4 in <styled-content style="fixed-case">PC</styled-content>3 cells impairs the inhibitory phosphorylation on <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; induced by <styled-content style="fixed-case">EGF</styled-content> stimulation (100&#x000a0;ng&#x000b7;mL<sup>&#x02212;1</sup> per 15&#x000a0;min). <italic>T&#x02010;</italic>test with Welch correction, **<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.01. (D) Inhibition of calmodulin in <styled-content style="fixed-case">PC</styled-content>3 ShControl cells by W&#x02010;7 incubation (100&#x000a0;&#x003bc;<sc>m</sc>/30&#x000a0;min) before <styled-content style="fixed-case">EGF</styled-content> incubation (100&#x000a0;ng&#x000b7;mL<sup>&#x02212;1</sup> per 15&#x000a0;min) resembles the effect of <styled-content style="fixed-case">TRPM</styled-content>4 knockdown on Akt1 and <styled-content style="fixed-case">GSK</styled-content>&#x02010;3&#x003b2; phosphorylation. Representative western blots and densitometries from three independent experiments are shown. Mean&#x000a0;&#x000b1;&#x000a0;<styled-content style="fixed-case">SEM</styled-content> are shown. One&#x02010;way <styled-content style="fixed-case">ANOVA</styled-content>, <sup>ns</sup>
+<italic>P</italic>&#x000a0;&#x0003e;&#x000a0;0.05; *<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.05.</p></caption><graphic id="nlm-graphic-15" xlink:href="MOL2-12-151-g007"/></fig></sec></sec><sec id="mol212100-sec-0019"><label>4</label><title>Discussion</title><p>Several studies on prostate cancer have suggested that the expression of TRPM4 is a relevant event in the progression of this tumor (Holzmann <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>; Schinke <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0045" ref-type="ref">2014</xref>). Moreover, TRPM4 expression seems to have clinical relevance.</p><p>Berg <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0003" ref-type="ref">2016</xref>) described a positive correlation between the overexpression of TRPM4 in prostate cancer samples and an increased risk of recurrence after radical prostatectomy. Schinke <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0045" ref-type="ref">2014</xref>) showed that the TRPM4 gene is involved in the progression of the androgen&#x02010;independent growth stage, a late step in the progression of this tumor with no satisfactory treatment, indicating that this gene is an important candidate for study as a possible target for therapy in these patients.</p><p>TRPM4 could modulate a plethora of different signaling pathways given its intrinsic capacity to regulate the intracellular calcium concentration (Nilius and Vennekens, <xref rid="mol212100-bib-0038" ref-type="ref">2006</xref>), and could become an important player in different cellular processes, such as cell proliferation (Launay <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0027" ref-type="ref">2004</xref>), migration (Holzmann <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>; Shimizu <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0048" ref-type="ref">2009</xref>), and apoptosis (Simon <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0049" ref-type="ref">2010</xref>). Recently, Holzmann <italic>et&#x000a0;al</italic>. (<xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>) described the role of TRPM4 in the regulation of store&#x02010;operated currents in prostate cancer cell lines and its potential impact on cellular migration. Using a siRNA against TRPM4, the primary human prostate epithelial cells (hPEC) and DU145 cells display an increase in SOCE, but no effect was observed in PC3 cells. In our work, PC3 ShTRPM4 cells display a decrease in SOCE (Fig.&#x000a0;<xref rid="mol212100-fig-0006" ref-type="fig">6</xref>). This apparent discrepancy could be explained by several technical factors such as different cell culture conditions, extracellular bath solutions, and the use of a siRNA or shRNA against TRPM4 mRNA. The different approaches were used for knocking down TRPM4, which generates an acute or chronic reduction in TRPM4, and therefore, a distinct effect on gene expression could have an effect beyond the TRPM4 gene. Our group has previously shown that stable TRPM4 knockdown modifies the cellular phenotype, reversing the endothelial (Echeverr&#x000ed;a <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0010" ref-type="ref">2015</xref>) or epithelial/mesenchymal transition (A. I. Sagredo, K. Marcelain &#x00026; R. Armis&#x000e9;n, unpublished data), suggesting new biological roles for TRPM4 expression beyond its function as a local calcium regulator. Intriguingly, Holzmann's group reported that the decrease in TRPM4 expression in DU145 and PC3 cell lines did not affect cell proliferation (Holzmann <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0021" ref-type="ref">2015</xref>). Nevertheless, our data are consistent with previously published results in HeLa cells (Armis&#x000e9;n <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>) and with reduced levels of c&#x02010;Myc and cyclin D1 mRNA found after TRPM4 knockdown in our PC3 cell models.</p><p>We previously reported the effect of TRPM4 channel on cell proliferation through the regulation of the oncoprotein &#x003b2;&#x02010;catenin in HeLa cancer cells (Armis&#x000e9;n <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0001" ref-type="ref">2011</xref>), which promoted its stability and transcriptional function. This current work strongly supports a relationship between TRPM4 levels and &#x003b2;&#x02010;catenin stability and function in prostate cancer cell lines. Here, an increase in the activity of GSK&#x02010;3&#x003b2; in TRPM4&#x02010;knockdown cells is shown to correlate with a reduction in the total amount of &#x003b2;&#x02010;catenin, a change in its intracellular localization, and its function in the transcription of genes related to cell proliferation. Consistently, the role of TRPM4 in the regulation of &#x003b2;&#x02010;catenin signaling through GSK&#x02010;3&#x003b2; has been described in a colon cancer cell study (Major <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0030" ref-type="ref">2008</xref>). Importantly, the analysis of 10 gene expression datasets from patients with prostate cancer and their controls shows that the most enriched pathway coexpressed with the TRPM4 gene is the Wnt signaling pathway, supporting our <italic>in&#x000a0;vitro</italic> results and sustaining a relationship between the expression of this channel and the activity of this signaling pathway in prostate cancer (Fig.&#x000a0;<xref rid="mol212100-sup-0005" ref-type="supplementary-material">S5</xref>). Interestingly, we did not observe a significant increase in &#x003b2;&#x02010;catenin protein levels in PC3 ShControl and PC3 ShTRPM4 cells upon Wnt3a ligand stimulation, suggesting that the canonical pathway is already activated in these cells (Fig.&#x000a0;<xref rid="mol212100-sup-0006" ref-type="supplementary-material">S6</xref>). Moreover, these results suggest that the effect of TRPM4 over &#x003b2;&#x02010;catenin stability could be through a different molecular mechanism. Although TRPM4 and &#x003b2;&#x02010;catenin are in adhesion complexes (C&#x000e1;ceres <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0005" ref-type="ref">2015</xref>; Valenta <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0058" ref-type="ref">2012</xref>), we did not detect an interaction between these proteins (Fig.&#x000a0;<xref rid="mol212100-sup-0007" ref-type="supplementary-material">S7</xref>), suggesting a nonprotein&#x02013;protein interaction effect of TRPM4 over &#x003b2;&#x02010;catenin activity.</p><p>While Wnt and Akt/PKB are the canonical regulators of GSK&#x02010;3&#x003b2; function, a number of reports have shown that calcium&#x02010;regulated proteins also participate in the modulation of GSK&#x02010;3&#x003b2; activity. GSK&#x02010;3&#x003b2; is phosphorylated <italic>in&#x000a0;vitro</italic> by classical protein kinase C isoforms (Goode <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0017" ref-type="ref">1992</xref>), and this phosphorylation results in GSK&#x02010;3&#x003b2; inactivation (Goode <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0017" ref-type="ref">1992</xref>). It has also been shown that the inhibitory phosphorylation of GSK&#x02010;3&#x003b2; in serine 9 is reversed by protein phosphatases such as calcineurin (CaN) and PP2A (Kim <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0023" ref-type="ref">2009</xref>). In addition, it has been shown that calpain, a calcium&#x02010;dependent intracellular protease (Medina and Wandosell, <xref rid="mol212100-bib-0034" ref-type="ref">2011</xref>), cleaves GSK&#x02010;3&#x003b2;, removing the GSK&#x02010;3&#x003b2; N&#x02010;terminal inhibitory domain with the net result of an increase in GSK&#x02010;3&#x003b2; activity (Go&#x000f1;i&#x02010;Oliver <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0015" ref-type="ref">2007</xref>). Finally, the mechanism described in this work involves Ca<sup>2+</sup>/calmodulin (CaM), the principal Ca<sup>2+</sup> sensor in eukaryotes (Hoeflich and Ikura, <xref rid="mol212100-bib-0020" ref-type="ref">2002</xref>), and EGF receptor signaling. It has been shown that Akt1 activation after EGFR signaling requires Ca<sup>2+</sup>/CaM binding to Akt1 (Dong <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0009" ref-type="ref">2007</xref>). In this work, the activation of Akt1 under basal conditions is significantly reduced in TRPM4&#x02010;knockdown cells and correlates with a decrease in Ser9 GSK&#x02010;3&#x003b2; phosphorylation and &#x003b2;&#x02010;catenin signaling. Therefore, as the knockdown of TRPM4 channel is associated with a reduction in extracellular calcium influx, we propose that TRPM4 modulates the Ca<sup>2+</sup>/CaM signaling and indirectly regulates the activation of Akt1 affecting the downstream signaling events Ser9 GSK&#x02010;3&#x003b2; phosphorylation and &#x003b2;&#x02010;catenin stability. To support these results, we used the CaM inhibitor W&#x02010;7, before EGFR stimulation, and then detected the activation of Akt1 (pSer473) and pGSK&#x02010;3&#x003b2; (pSer9). Interestingly, the inhibition of calmodulin in PC3 ShControl cells resembles the results found for PC3 ShTRPM4 on Akt1 activity, suggesting a diminished activity of CaM in TRPM4&#x02010;knockdown cells. These results indicate a signaling axis composed of TRPM4&#x02010;Ca<sup>2+</sup>/CaM and EGFR&#x02010;Akt1. We tested the role of Akt1 as the main Ca<sup>2+</sup>&#x02010;regulated kinase on TRPM4 activity, evaluating GSK&#x02010;3&#x003b2; Ser9 phosphorylation postincubation with the drug TCN (Dieterle <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0008" ref-type="ref">2009</xref>), a specific inhibitor of Akt (Fig.&#x000a0;<xref rid="mol212100-sup-0008" ref-type="supplementary-material">S8</xref>). We observed that the effect of EGFR stimulation on GSK&#x02010;3&#x003b2; phosphorylation was reduced in PC3 ShControl cells incubated with TCN, to levels similar to those for nonstimulated condition and PC3 ShTRPM4 cells. These results indicate that the main kinase responsible for the phosphorylation of GSK&#x02010;3&#x003b2; is Akt1 in our model. Nevertheless, further work will be needed to determine whether other calcium&#x02010;dependent kinases are involved in this process.</p><p>Finally, this work shows the involvement of TRPM4&#x02010;dependent calcium signaling in the regulation of &#x003b2;&#x02010;catenin and provides a framework to understand the contribution of a series of ion channels whose expression and/or function is altered in the tumor progression process (Farfariello <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0012" ref-type="ref">2015</xref>; Flourakis and Prevarskaya, <xref rid="mol212100-bib-0014" ref-type="ref">2009</xref>; Prevarskaya <italic>et&#x000a0;al</italic>., <xref rid="mol212100-bib-0039" ref-type="ref">2011</xref>).</p></sec><sec id="mol212100-sec-0021"><title>Author contributions</title><p>KM, RA, JCT, and AIS conceived and designed the project. AIS, EAS, CC, PB, REA, CB, and CE performed the experiments. RA, KM, EAS, OC, AS, FS, and JCT analyzed and interpreted the data. KM, RA, and AIS wrote the manuscript.</p></sec><sec id="mol212100-sec-0022"><title>Conflict of interest</title><p>The authors declare that they have no competing interests. EAS and RA are employees of Pfizer Chile.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="mol212100-sup-0001"><caption><p>
+<bold>Fig.&#x000a0;S1.</bold> TRPM4 expression in prostate cancer cell lines.</p></caption><media xlink:href="MOL2-12-151-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0002"><caption><p>
+<bold>Fig.&#x000a0;S2.</bold> Specificity of ShRNA used against TRPM4.</p></caption><media xlink:href="MOL2-12-151-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0003"><caption><p>
+<bold>Fig.&#x000a0;S3.</bold> No difference is observed in basal apoptosis levels of PC3 ShControl and TRPM4&#x02010;Knockdown cells.</p></caption><media xlink:href="MOL2-12-151-s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0004"><caption><p>
+<bold>Fig.&#x000a0;S4.</bold> Overexpression of TRPM4 increases the activation of Akt1.</p></caption><media xlink:href="MOL2-12-151-s004.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0005"><caption><p>
+<bold>Fig.&#x000a0;S5.</bold> TRPM4 coexpression signature across 10 prostatic cancer datasets.</p></caption><media xlink:href="MOL2-12-151-s005.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0006"><caption><p>
+<bold>Fig.&#x000a0;S6.</bold> Wnt pathway activation in PC3 cells did not significantly increase the total &#x003b2;&#x02010;catenin protein levels.</p></caption><media xlink:href="MOL2-12-151-s006.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0007"><caption><p>
+<bold>Fig.&#x000a0;S7.</bold> TRPM4 does not interact with &#x003b2;&#x02010;catenin.</p></caption><media xlink:href="MOL2-12-151-s007.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-0008"><caption><p>
+<bold>Fig.&#x000a0;S8.</bold> Akt1 is the main kinase responsible for GSK&#x02010;3&#x003b2; phosphorylation.</p></caption><media xlink:href="MOL2-12-151-s008.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212100-sup-009"><caption><p>
+<bold>Data S1.</bold> Materials and methods.</p></caption><media xlink:href="MOL2-12-151-s009.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="mol212100-sec-0020"><title>Acknowledgements</title><p>This work was supported by FONDECYT grants 1120286, 1151446, 1151435, 1160518, 1120132 and 1160889, UNAB DI&#x02010;741&#x02010;15/N, Millennium Institute on Immunology and Immunotherapy P09&#x02010;016&#x02010;F and CONICYT Doctoral fellowship. This work received institutional support from Fondecyt&#x02010;FONDAP grant 15010006 and Anillo en Ciencia y Tecnolog&#x000ed;a ACT1115.</p></ack><ref-list content-type="cited-references" id="mol212100-bibl-0001"><title>References</title><ref id="mol212100-bib-0001"><mixed-citation publication-type="journal" id="mol212100-cit-0001">
+<string-name>
+<surname>Armis&#x000e9;n</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Marcelain</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Simon</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Tapia</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Toro</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Quest</surname>
+<given-names>AFG</given-names>
+</string-name> and <string-name>
+<surname>Stutzin</surname>
+<given-names>A</given-names>
+</string-name> (<year>2011</year>) <article-title>TRPM4 enhances cell proliferation through up&#x02010;regulation of the &#x003b2;&#x02010;catenin signaling pathway</article-title>. <source>J Cell Physiol</source>
+<volume>226</volume>, <fpage>103</fpage>&#x02013;<lpage>109</lpage>.<pub-id pub-id-type="pmid">20625999</pub-id></mixed-citation></ref><ref id="mol212100-bib-0002"><mixed-citation publication-type="journal" id="mol212100-cit-0002">
+<string-name>
+<surname>Ashida</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nakagawa</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Katagiri</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Furihata</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Iiizumi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Anazawa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Tsunoda</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Takata</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kasahara</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Miki</surname>
+<given-names>T</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2004</year>) <article-title>Molecular features of the transition from prostatic intraepithelial neoplasia (PIN) to prostate cancer: genome&#x02010;wide gene&#x02010;expression profiles of prostate cancers and PINs</article-title>. <source>Cancer Res</source>
+<volume>64</volume>, <fpage>5963</fpage>&#x02013;<lpage>5972</lpage>.<pub-id pub-id-type="pmid">15342375</pub-id></mixed-citation></ref><ref id="mol212100-bib-0003"><mixed-citation publication-type="journal" id="mol212100-cit-0003">
+<string-name>
+<surname>Berg</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name>
+<surname>Soldini</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Dietrich</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Stephan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Dietel</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Vainer</surname>
+<given-names>B</given-names>
+</string-name> and <string-name>
+<surname>Kristiansen</surname>
+<given-names>G</given-names>
+</string-name> (<year>2016</year>) <article-title>TRPM4 protein expression in prostate cancer: a novel tissue biomarker associated with risk of biochemical recurrence following radical prostatectomy</article-title>. <source>Virchows Arch</source>
+<volume>468</volume>, <fpage>345</fpage>&#x02013;<lpage>355</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00428-015-1880-y">https://doi.org/10.1007/s00428-015-1880-y</ext-link>.<pub-id pub-id-type="pmid">26590985</pub-id></mixed-citation></ref><ref id="mol212100-bib-0004"><mixed-citation publication-type="journal" id="mol212100-cit-0004">
+<string-name>
+<surname>Berridge</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Bootman</surname>
+<given-names>MD</given-names>
+</string-name> and <string-name>
+<surname>Roderick</surname>
+<given-names>HL</given-names>
+</string-name> (<year>2003</year>) <article-title>Calcium signalling: dynamics, homeostasis and remodelling</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>4</volume>, <fpage>517</fpage>&#x02013;<lpage>529</lpage>.<pub-id pub-id-type="pmid">12838335</pub-id></mixed-citation></ref><ref id="mol212100-bib-0005"><mixed-citation publication-type="journal" id="mol212100-cit-0005">
+<string-name>
+<surname>C&#x000e1;ceres</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ortiz</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Recabarren</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Romero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Colombo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Leiva&#x02010;Salcedo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Rivas</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Silva</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Morales</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>TRPM4 is a novel component of the adhesome required for focal adhesion disassembly, migration and contractility</article-title>. <source>PLoS One</source>
+<volume>10</volume>, <fpage>e0130540</fpage>.<pub-id pub-id-type="pmid">26110647</pub-id></mixed-citation></ref><ref id="mol212100-bib-0006"><mixed-citation publication-type="journal" id="mol212100-cit-0006">
+<string-name>
+<surname>Clevers</surname>
+<given-names>H</given-names>
+</string-name> (<year>2006</year>) <article-title>Wnt/beta&#x02010;catenin signaling in development and disease</article-title>. <source>Cell</source>
+<volume>127</volume>, <fpage>469</fpage>&#x02013;<lpage>480</lpage>.<pub-id pub-id-type="pmid">17081971</pub-id></mixed-citation></ref><ref id="mol212100-bib-0007"><mixed-citation publication-type="journal" id="mol212100-cit-0007">
+<string-name>
+<surname>Deb</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name>
+<surname>Coticchia</surname>
+<given-names>CM</given-names>
+</string-name> and <string-name>
+<surname>Dickson</surname>
+<given-names>RB</given-names>
+</string-name> (<year>2004</year>) <article-title>Calmodulin&#x02010;mediated activation of Akt regulates survival of c&#x02010;Myc&#x02010;overexpressing mouse mammary carcinoma cells</article-title>. <source>J Biol Chem</source>
+<volume>279</volume>, <fpage>38903</fpage>&#x02013;<lpage>38911</lpage>.<pub-id pub-id-type="pmid">15247222</pub-id></mixed-citation></ref><ref id="mol212100-bib-0008"><mixed-citation publication-type="journal" id="mol212100-cit-0008">
+<string-name>
+<surname>Dieterle</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Orth</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Daubrawa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Grotemeier</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Alers</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ullrich</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Lammers</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Wesselborg</surname>
+<given-names>S</given-names>
+</string-name> and <string-name>
+<surname>Stork</surname>
+<given-names>B</given-names>
+</string-name> (<year>2009</year>) <article-title>The Akt inhibitor triciribine sensitizes prostate carcinoma cells to TRAIL&#x02010;induced apoptosis</article-title>. <source>Int J Cancer</source>
+<volume>125</volume>, <fpage>932</fpage>&#x02013;<lpage>941</lpage>.<pub-id pub-id-type="pmid">19422047</pub-id></mixed-citation></ref><ref id="mol212100-bib-0009"><mixed-citation publication-type="journal" id="mol212100-cit-0009">
+<string-name>
+<surname>Dong</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Valencia</surname>
+<given-names>CA</given-names>
+</string-name> and <string-name>
+<surname>Liu</surname>
+<given-names>R</given-names>
+</string-name> (<year>2007</year>) <article-title>Ca(2+)/calmodulin directly interacts with the pleckstrin homology domain of AKT1</article-title>. <source>J Biol Chem</source>
+<volume>282</volume>, <fpage>25131</fpage>&#x02013;<lpage>25140</lpage>.<pub-id pub-id-type="pmid">17580302</pub-id></mixed-citation></ref><ref id="mol212100-bib-0010"><mixed-citation publication-type="journal" id="mol212100-cit-0010">
+<string-name>
+<surname>Echeverr&#x000ed;a</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Montorfano</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Cabello&#x02010;Verrugio</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Armis&#x000e9;n</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>
+<given-names>D</given-names>
+</string-name> and <string-name>
+<surname>Simon</surname>
+<given-names>F</given-names>
+</string-name> (<year>2015</year>) <article-title>Suppression of transient receptor potential melastatin 4 expression promotes conversion of endothelial cells into fibroblasts via transforming growth factor/activin receptor&#x02010;like kinase 5 pathway</article-title>. <source>J Hypertens</source>
+<volume>33</volume>, <fpage>981</fpage>&#x02013;<lpage>992</lpage>.<pub-id pub-id-type="pmid">25909699</pub-id></mixed-citation></ref><ref id="mol212100-bib-0011"><mixed-citation publication-type="journal" id="mol212100-cit-0011">
+<string-name>
+<surname>Echeverr&#x000ed;a</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Montorfano</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Hermosilla</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Armis&#x000e9;n</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Vel&#x000e1;squez</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>Cabello&#x02010;Verrugio</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>
+<given-names>D</given-names>
+</string-name> and <string-name>
+<surname>Simon</surname>
+<given-names>F</given-names>
+</string-name> (<year>2014</year>) <article-title>Endotoxin induces fibrosis in vascular endothelial cells through a mechanism dependent on transient receptor protein melastatin 7 activity</article-title>. <source>PLoS One</source>
+<volume>9</volume>, <fpage>e94146</fpage>.<pub-id pub-id-type="pmid">24710004</pub-id></mixed-citation></ref><ref id="mol212100-bib-0012"><mixed-citation publication-type="journal" id="mol212100-cit-0012">
+<string-name>
+<surname>Farfariello</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Iamshanova</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Germain</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Fliniaux</surname>
+<given-names>I</given-names>
+</string-name> and <string-name>
+<surname>Prevarskaya</surname>
+<given-names>N</given-names>
+</string-name> (<year>2015</year>) <article-title>Calcium homeostasis in cancer: a focus on senescence</article-title>. <source>Biochim Biophys Acta &#x02013; Mol Cell Res</source>
+<volume>1853</volume>, <fpage>1974</fpage>&#x02013;<lpage>1979</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbamcr.2015.03.005">https://doi.org/10.1016/j.bbamcr.2015.03.005</ext-link>.</mixed-citation></ref><ref id="mol212100-bib-0013"><mixed-citation publication-type="journal" id="mol212100-cit-0013">
+<string-name>
+<surname>Fliegert</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Glassmeier</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Cornils</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Genisyuerek</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Harneit</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Schwarz</surname>
+<given-names>JR</given-names>
+</string-name> and <string-name>
+<surname>Guse</surname>
+<given-names>AH</given-names>
+</string-name> (<year>2007</year>) <article-title>Modulation of Ca<sup>2+</sup> entry and plasma membrane potential by human TRPM4b</article-title>. <source>FEBS J</source>
+<volume>274</volume>, <fpage>704</fpage>&#x02013;<lpage>713</lpage>.<pub-id pub-id-type="pmid">17288552</pub-id></mixed-citation></ref><ref id="mol212100-bib-0014"><mixed-citation publication-type="journal" id="mol212100-cit-0014">
+<string-name>
+<surname>Flourakis</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Prevarskaya</surname>
+<given-names>N</given-names>
+</string-name> (<year>2009</year>) <article-title>Insights into Ca<sup>2+</sup> homeostasis of advanced prostate cancer cells</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1793</volume>, <fpage>1105</fpage>&#x02013;<lpage>1109</lpage>.<pub-id pub-id-type="pmid">19339216</pub-id></mixed-citation></ref><ref id="mol212100-bib-0015"><mixed-citation publication-type="journal" id="mol212100-cit-0015">
+<string-name>
+<surname>Go&#x000f1;i&#x02010;Oliver</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Lucas</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Avila</surname>
+<given-names>J</given-names>
+</string-name> and <string-name>
+<surname>Hern&#x000e1;ndez</surname>
+<given-names>F</given-names>
+</string-name> (<year>2007</year>) <article-title>N&#x02010;terminal cleavage of GSK&#x02010;3 by calpain: a new form of GSK&#x02010;3 regulation</article-title>. <source>J Biol Chem</source>
+<volume>282</volume>, <fpage>22406</fpage>&#x02013;<lpage>22413</lpage>.<pub-id pub-id-type="pmid">17569662</pub-id></mixed-citation></ref><ref id="mol212100-bib-0016"><mixed-citation publication-type="journal" id="mol212100-cit-0016">
+<string-name>
+<surname>Gonzales</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Garcia</surname>
+<given-names>ZI</given-names>
+</string-name>, <string-name>
+<surname>Amberg</surname>
+<given-names>GC</given-names>
+</string-name> and <string-name>
+<surname>Earley</surname>
+<given-names>S</given-names>
+</string-name> (<year>2010</year>) <article-title>Pharmacological inhibition of TRPM4 hyperpolarizes vascular smooth muscle</article-title>. <source>Am J Physiol Cell Physiol</source>
+<volume>299</volume>, <fpage>C1195</fpage>&#x02013;<lpage>C1202</lpage>.<pub-id pub-id-type="pmid">20826763</pub-id></mixed-citation></ref><ref id="mol212100-bib-0017"><mixed-citation publication-type="journal" id="mol212100-cit-0017">
+<string-name>
+<surname>Goode</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Woodgett</surname>
+<given-names>JR</given-names>
+</string-name> and <string-name>
+<surname>Parker</surname>
+<given-names>PJ</given-names>
+</string-name> (<year>1992</year>) <article-title>Differential regulation of glycogen synthase kinase&#x02010;3 beta by protein kinase C isotypes</article-title>. <source>J Biol Chem</source>
+<volume>267</volume>, <fpage>16878</fpage>&#x02013;<lpage>16882</lpage>.<pub-id pub-id-type="pmid">1324914</pub-id></mixed-citation></ref><ref id="mol212100-bib-0018"><mixed-citation publication-type="journal" id="mol212100-cit-0018">
+<string-name>
+<surname>Grand</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Demion</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Norez</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Mettey</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Launay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Becq</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Bois</surname>
+<given-names>P</given-names>
+</string-name> and <string-name>
+<surname>Guinamard</surname>
+<given-names>R</given-names>
+</string-name> (<year>2008</year>) <article-title>9&#x02010;phenanthrol inhibits human TRPM4 but not TRPM5 cationic channels</article-title>. <source>Br J Pharmacol</source>
+<volume>153</volume>, <fpage>1697</fpage>&#x02013;<lpage>1705</lpage>.<pub-id pub-id-type="pmid">18297105</pub-id></mixed-citation></ref><ref id="mol212100-bib-0019"><mixed-citation publication-type="journal" id="mol212100-cit-0019">
+<string-name>
+<surname>Guinamard</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Demion</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Launay</surname>
+<given-names>P</given-names>
+</string-name> (<year>2010</year>) <article-title>Physiological roles of the TRPM4 channel extracted from background currents</article-title>. <source>Physiology</source>
+<volume>25</volume>, <fpage>155</fpage>&#x02013;<lpage>164</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1152/physiol.00004.2010">https://doi.org/10.1152/physiol.00004.2010</ext-link>.<pub-id pub-id-type="pmid">20551229</pub-id></mixed-citation></ref><ref id="mol212100-bib-0020"><mixed-citation publication-type="journal" id="mol212100-cit-0020">
+<string-name>
+<surname>Hoeflich</surname>
+<given-names>KP</given-names>
+</string-name> and <string-name>
+<surname>Ikura</surname>
+<given-names>M</given-names>
+</string-name> (<year>2002</year>) <article-title>Calmodulin in action: diversity in target recognition and activation mechanisms</article-title>. <source>Cell</source>
+<volume>108</volume>, <fpage>739</fpage>&#x02013;<lpage>742</lpage>.<pub-id pub-id-type="pmid">11955428</pub-id></mixed-citation></ref><ref id="mol212100-bib-0021"><mixed-citation publication-type="journal" id="mol212100-cit-0021">
+<string-name>
+<surname>Holzmann</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kappel</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kilch</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Jochum</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Urban</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name>
+<surname>Jung</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>St&#x000f6;ckle</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rother</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Greiner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Peinelt</surname>
+<given-names>C</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>Transient receptor potential melastatin 4 channel contributes to migration of androgen&#x02010;insensitive prostate cancer cells</article-title>. <source>Oncotarget</source>
+<volume>6</volume>, <fpage>41783</fpage>&#x02013;<lpage>41793</lpage>.<pub-id pub-id-type="pmid">26496025</pub-id></mixed-citation></ref><ref id="mol212100-bib-0023"><mixed-citation publication-type="journal" id="mol212100-cit-0023">
+<string-name>
+<surname>Kim</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>YIl</given-names>
+</string-name>, <string-name>
+<surname>Seo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>SY</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Youn</surname>
+<given-names>HD</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>YS</given-names>
+</string-name> and <string-name>
+<surname>Juhnn</surname>
+<given-names>YS</given-names>
+</string-name> (<year>2009</year>) <article-title>Calcineurin dephosphorylates glycogen synthase kinase&#x02010;3 beta at serine&#x02010;9 in neuroblast&#x02010;derived cells</article-title>. <source>J Neurochem</source>
+<volume>111</volume>, <fpage>344</fpage>&#x02013;<lpage>354</lpage>.<pub-id pub-id-type="pmid">19659461</pub-id></mixed-citation></ref><ref id="mol212100-bib-0024"><mixed-citation publication-type="journal" id="mol212100-cit-0024">
+<string-name>
+<surname>King</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wongvipat</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hieronymus</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Carver</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Leung</surname>
+<given-names>DH</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Sander</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Cardiff</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Couto</surname>
+<given-names>SS</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2009</year>) <article-title>Cooperativity of TMPRSS2&#x02010;ERG with PI3&#x02010;kinase pathway activation in prostate oncogenesis</article-title>. <source>Nat Genet</source>
+<volume>41</volume>, <fpage>524</fpage>&#x02013;<lpage>526</lpage>.<pub-id pub-id-type="pmid">19396167</pub-id></mixed-citation></ref><ref id="mol212100-bib-0025"><mixed-citation publication-type="journal" id="mol212100-cit-0025">
+<string-name>
+<surname>Klaus</surname>
+<given-names>A</given-names>
+</string-name> and <string-name>
+<surname>Birchmeier</surname>
+<given-names>W</given-names>
+</string-name> (<year>2008</year>) <article-title>Wnt signalling and its impact on development and cancer</article-title>. <source>Nat Rev Cancer</source>
+<volume>8</volume>, <fpage>387</fpage>&#x02013;<lpage>398</lpage>.<pub-id pub-id-type="pmid">18432252</pub-id></mixed-citation></ref><ref id="mol212100-bib-0026"><mixed-citation publication-type="journal" id="mol212100-cit-0026">
+<string-name>
+<surname>Kypta</surname>
+<given-names>RM</given-names>
+</string-name> and <string-name>
+<surname>Waxman</surname>
+<given-names>J</given-names>
+</string-name> (<year>2012</year>) <article-title>Wnt/&#x003b2;&#x02010;catenin signalling in prostate cancer</article-title>. <source>Nat Rev Urol</source>
+<volume>9</volume>, <fpage>418</fpage>&#x02013;<lpage>428</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrurol.2012.116">https://doi.org/10.1038/nrurol.2012.116</ext-link>.<pub-id pub-id-type="pmid">22710668</pub-id></mixed-citation></ref><ref id="mol212100-bib-0027"><mixed-citation publication-type="journal" id="mol212100-cit-0027">
+<string-name>
+<surname>Launay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cheng</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Srivatsan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Penner</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Fleig</surname>
+<given-names>A</given-names>
+</string-name> and <string-name>
+<surname>Kinet</surname>
+<given-names>J&#x02010;P</given-names>
+</string-name> (<year>2004</year>) <article-title>TRPM4 regulates calcium oscillations after T cell activation</article-title>. <source>Science</source>
+<volume>306</volume>, <fpage>1374</fpage>&#x02013;<lpage>1377</lpage>.<pub-id pub-id-type="pmid">15550671</pub-id></mixed-citation></ref><ref id="mol212100-bib-0028"><mixed-citation publication-type="journal" id="mol212100-cit-0028">
+<string-name>
+<surname>Launay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Fleig</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Perraud</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Scharenberg</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Penner</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Kinet</surname>
+<given-names>JP</given-names>
+</string-name> (<year>2002</year>) <article-title>TRPM4 is a Ca<sup>2+</sup>&#x02010;activated nonselective cation channel mediating cell membrane depolarization</article-title>. <source>Cell</source>
+<volume>109</volume>, <fpage>397</fpage>&#x02013;<lpage>407</lpage>.<pub-id pub-id-type="pmid">12015988</pub-id></mixed-citation></ref><ref id="mol212100-bib-0501"><mixed-citation publication-type="journal" id="mol212100-cit-0501">
+<string-name>
+<surname>Li</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ittmann</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Ayala</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Tsai</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Amato</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Wheeler</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Miles</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Kadmon</surname>
+<given-names>D</given-names>
+</string-name> and <string-name>
+<surname>Thompson</surname>
+<given-names>TC</given-names>
+</string-name> (<year>2005</year>) <article-title>The emerging role of the PI3&#x02010;K&#x02010;Akt pathway in prostate cancer progression</article-title>. <source>Prostate Cancer Prostatic Dis</source>
+<volume>8</volume>, <fpage>108</fpage>&#x02013;<lpage>118</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/sj.pcan.4500776">https://doi.org/10.1038/sj.pcan.4500776</ext-link>.<pub-id pub-id-type="pmid">15724144</pub-id></mixed-citation></ref><ref id="mol212100-bib-0029"><mixed-citation publication-type="journal" id="mol212100-cit-0029">
+<string-name>
+<surname>MacDonald</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name>
+<surname>Tamai</surname>
+<given-names>K</given-names>
+</string-name> and <string-name>
+<surname>He</surname>
+<given-names>X</given-names>
+</string-name> (<year>2009</year>) <article-title>Wnt/beta&#x02010;catenin signaling: components, mechanisms, and diseases</article-title>. <source>Dev Cell</source>
+<volume>17</volume>, <fpage>9</fpage>&#x02013;<lpage>26</lpage>.<pub-id pub-id-type="pmid">19619488</pub-id></mixed-citation></ref><ref id="mol212100-bib-0030"><mixed-citation publication-type="journal" id="mol212100-cit-0030">
+<string-name>
+<surname>Major</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name>
+<surname>Roberts</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Berndt</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Marine</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Anastas</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Chung</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Ferrer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Yi</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Stoick&#x02010;Cooper</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>von Haller</surname>
+<given-names>PD</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2008</year>) <article-title>New regulators of Wnt/beta&#x02010;catenin signaling revealed by integrative molecular screening</article-title>. <source>Sci Signal</source>
+<volume>1</volume>, <fpage>ra12</fpage>.<pub-id pub-id-type="pmid">19001663</pub-id></mixed-citation></ref><ref id="mol212100-bib-0031"><mixed-citation publication-type="journal" id="mol212100-cit-0031">
+<string-name>
+<surname>Manning</surname>
+<given-names>BD</given-names>
+</string-name> and <string-name>
+<surname>Cantley</surname>
+<given-names>LC</given-names>
+</string-name> (<year>2007</year>) <article-title>AKT/PKB signaling: navigating downstream</article-title>. <source>Cell</source>
+<volume>129</volume>, <fpage>1261</fpage>&#x02013;<lpage>1274</lpage>.<pub-id pub-id-type="pmid">17604717</pub-id></mixed-citation></ref><ref id="mol212100-bib-0032"><mixed-citation publication-type="journal" id="mol212100-cit-0032">
+<string-name>
+<surname>Mazaris</surname>
+<given-names>E</given-names>
+</string-name> and <string-name>
+<surname>Tsiotras</surname>
+<given-names>A</given-names>
+</string-name> (<year>2013</year>) <article-title>Molecular pathways in prostate cancer</article-title>. <source>Nephrourol Mon</source>
+<volume>5</volume>, <fpage>792</fpage>&#x02013;<lpage>800</lpage>.<pub-id pub-id-type="pmid">24282788</pub-id></mixed-citation></ref><ref id="mol212100-bib-0033"><mixed-citation publication-type="journal" id="mol212100-cit-0033">
+<string-name>
+<surname>McManus</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Sakamoto</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Armit</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name>
+<surname>Ronaldson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Shpiro</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Marquez</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Alessi</surname>
+<given-names>DR</given-names>
+</string-name> (<year>2005</year>) <article-title>Role that phosphorylation of GSK3 plays in insulin and Wnt signalling defined by knockin analysis</article-title>. <source>EMBO J</source>
+<volume>24</volume>, <fpage>1571</fpage>&#x02013;<lpage>1583</lpage>.<pub-id pub-id-type="pmid">15791206</pub-id></mixed-citation></ref><ref id="mol212100-bib-0034"><mixed-citation publication-type="journal" id="mol212100-cit-0034">
+<string-name>
+<surname>Medina</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Wandosell</surname>
+<given-names>F</given-names>
+</string-name> (<year>2011</year>) <article-title>Deconstructing GSK&#x02010;3: the fine regulation of its activity</article-title>. <source>Int J Alzheimers Dis</source>
+<volume>2011</volume>, <fpage>1</fpage>&#x02013;<lpage>12</lpage>.</mixed-citation></ref><ref id="mol212100-bib-0035"><mixed-citation publication-type="journal" id="mol212100-cit-0035">
+<string-name>
+<surname>Monteith</surname>
+<given-names>GR</given-names>
+</string-name>, <string-name>
+<surname>McAndrew</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Faddy</surname>
+<given-names>HM</given-names>
+</string-name> and <string-name>
+<surname>Roberts&#x02010;Thomson</surname>
+<given-names>SJ</given-names>
+</string-name> (<year>2007</year>) <article-title>Calcium and cancer: targeting Ca<sup>2+</sup> transport</article-title>. <source>Nat Rev Cancer</source>
+<volume>7</volume>, <fpage>519</fpage>&#x02013;<lpage>530</lpage>.<pub-id pub-id-type="pmid">17585332</pub-id></mixed-citation></ref><ref id="mol212100-bib-0036"><mixed-citation publication-type="journal" id="mol212100-cit-0036">
+<string-name>
+<surname>Mosimann</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Hausmann</surname>
+<given-names>G</given-names>
+</string-name> and <string-name>
+<surname>Basler</surname>
+<given-names>K</given-names>
+</string-name> (<year>2009</year>) <article-title>Beta&#x02010;catenin hits chromatin: regulation of Wnt target gene activation</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>10</volume>, <fpage>276</fpage>&#x02013;<lpage>286</lpage>.<pub-id pub-id-type="pmid">19305417</pub-id></mixed-citation></ref><ref id="mol212100-bib-0037"><mixed-citation publication-type="journal" id="mol212100-cit-0037">
+<string-name>
+<surname>Niehrs</surname>
+<given-names>C</given-names>
+</string-name> and <string-name>
+<surname>Acebron</surname>
+<given-names>SP</given-names>
+</string-name> (<year>2012</year>) <article-title>Mitotic and mitogenic Wnt signalling</article-title>. <source>EMBO J</source>
+<volume>31</volume>, <fpage>2705</fpage>&#x02013;<lpage>2713</lpage>.<pub-id pub-id-type="pmid">22617425</pub-id></mixed-citation></ref><ref id="mol212100-bib-0038"><mixed-citation publication-type="journal" id="mol212100-cit-0038">
+<string-name>
+<surname>Nilius</surname>
+<given-names>B</given-names>
+</string-name> and <string-name>
+<surname>Vennekens</surname>
+<given-names>R</given-names>
+</string-name> (<year>2006</year>) <article-title>From cardiac cation channels to the molecular dissection of the transient receptor potential channel TRPM4</article-title>. <source>Pflugers Arch</source>
+<volume>453</volume>, <fpage>313</fpage>&#x02013;<lpage>321</lpage>.<pub-id pub-id-type="pmid">16680483</pub-id></mixed-citation></ref><ref id="mol212100-bib-0039"><mixed-citation publication-type="journal" id="mol212100-cit-0039">
+<string-name>
+<surname>Prevarskaya</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Skryma</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Shuba</surname>
+<given-names>Y</given-names>
+</string-name> (<year>2011</year>) <article-title>Calcium in tumour metastasis: new roles for known actors</article-title>. <source>Nat Rev Cancer</source>
+<volume>11</volume>, <fpage>609</fpage>&#x02013;<lpage>618</lpage>.<pub-id pub-id-type="pmid">21779011</pub-id></mixed-citation></ref><ref id="mol212100-bib-0040"><mixed-citation publication-type="journal" id="mol212100-cit-0040">
+<string-name>
+<surname>Prevarskaya</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name> and <string-name>
+<surname>Barritt</surname>
+<given-names>G</given-names>
+</string-name> (<year>2007</year>) <article-title>TRP channels in cancer</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1772</volume>, <fpage>937</fpage>&#x02013;<lpage>946</lpage>.<pub-id pub-id-type="pmid">17616360</pub-id></mixed-citation></ref><ref id="mol212100-bib-0041"><mixed-citation publication-type="journal" id="mol212100-cit-0041">
+<string-name>
+<surname>Rao</surname>
+<given-names>TP</given-names>
+</string-name> and <string-name>
+<surname>K&#x000fc;hl</surname>
+<given-names>M</given-names>
+</string-name> (<year>2010</year>) <article-title>An updated overview on Wnt signaling pathways: a prelude for more</article-title>. <source>Circ Res</source>
+<volume>106</volume>, <fpage>1798</fpage>&#x02013;<lpage>1806</lpage>.<pub-id pub-id-type="pmid">20576942</pub-id></mixed-citation></ref><ref id="mol212100-bib-0042"><mixed-citation publication-type="book" id="mol212100-cit-0042">
+<string-name>
+<surname>Rasband</surname>
+<given-names>W</given-names>
+</string-name>
+<year>2015</year>
+<source>ImageJ</source>. <publisher-name>U. S. National Institutes of Health</publisher-name>, <publisher-loc>Bethesda, MD, USA</publisher-loc>
+<ext-link ext-link-type="uri" xlink:href="http://imagej.nih.gov/ij/">http://imagej.nih.gov/ij/</ext-link>.</mixed-citation></ref><ref id="mol212100-bib-0043"><mixed-citation publication-type="journal" id="mol212100-cit-0043">
+<string-name>
+<surname>Rokhlin</surname>
+<given-names>OW</given-names>
+</string-name>, <string-name>
+<surname>Taghiyev</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Bayer</surname>
+<given-names>KU</given-names>
+</string-name>, <string-name>
+<surname>Bumcrot</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Koteliansk</surname>
+<given-names>VE</given-names>
+</string-name>, <string-name>
+<surname>Glover</surname>
+<given-names>RA</given-names>
+</string-name> and <string-name>
+<surname>Cohen</surname>
+<given-names>MB</given-names>
+</string-name> (<year>2007</year>) <article-title>Calcium/calmodulin&#x02010;dependent kinase II plays an important role in prostate cancer cell survival</article-title>. <source>Cancer Biol Ther</source>
+<volume>6</volume>, <fpage>732</fpage>&#x02013;<lpage>742</lpage>.<pub-id pub-id-type="pmid">17387273</pub-id></mixed-citation></ref><ref id="mol212100-bib-0044"><mixed-citation publication-type="journal" id="mol212100-cit-0044">
+<string-name>
+<surname>Sarbassov</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Guertin</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Ali</surname>
+<given-names>SM</given-names>
+</string-name> and <string-name>
+<surname>Sabatini</surname>
+<given-names>DM</given-names>
+</string-name> (<year>2005</year>) <article-title>Phosphorylation and regulation of Akt/PKB by the rictor&#x02010;mTOR complex</article-title>. <source>Science</source>
+<volume>307</volume>, <fpage>1098</fpage>&#x02013;<lpage>1101</lpage>.<pub-id pub-id-type="pmid">15718470</pub-id></mixed-citation></ref><ref id="mol212100-bib-0045"><mixed-citation publication-type="journal" id="mol212100-cit-0045">
+<string-name>
+<surname>Schinke</surname>
+<given-names>EN</given-names>
+</string-name>, <string-name>
+<surname>Bii</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Nalla</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rae</surname>
+<given-names>DT</given-names>
+</string-name>, <string-name>
+<surname>Tedrick</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Meadows</surname>
+<given-names>GG</given-names>
+</string-name> and <string-name>
+<surname>Trobridge</surname>
+<given-names>GD</given-names>
+</string-name> (<year>2014</year>) <article-title>A novel approach to identify driver genes involved in androgen&#x02010;independent prostate cancer</article-title>. <source>Mol Cancer</source>
+<volume>13</volume>, <fpage>120</fpage>.<pub-id pub-id-type="pmid">24885513</pub-id></mixed-citation></ref><ref id="mol212100-bib-0046"><mixed-citation publication-type="journal" id="mol212100-cit-0046">
+<string-name>
+<surname>Schrecengost</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Knudsen</surname>
+<given-names>KE</given-names>
+</string-name> (<year>2013</year>) <article-title>Molecular pathogenesis and progression of prostate cancer</article-title>. <source>Semin Oncol</source>
+<volume>40</volume>, <fpage>244</fpage>&#x02013;<lpage>258</lpage>.<pub-id pub-id-type="pmid">23806491</pub-id></mixed-citation></ref><ref id="mol212100-bib-0047"><mixed-citation publication-type="journal" id="mol212100-cit-0047">
+<string-name>
+<surname>Shen</surname>
+<given-names>MM</given-names>
+</string-name> and <string-name>
+<surname>Abate&#x02010;Shen</surname>
+<given-names>C</given-names>
+</string-name> (<year>2010</year>) <article-title>Molecular genetics of prostate cancer: new prospects for old challenges</article-title>. <source>Genes Dev</source>
+<volume>24</volume>, <fpage>1967</fpage>&#x02013;<lpage>2000</lpage>.<pub-id pub-id-type="pmid">20844012</pub-id></mixed-citation></ref><ref id="mol212100-bib-0048"><mixed-citation publication-type="journal" id="mol212100-cit-0048">
+<string-name>
+<surname>Shimizu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Owsianik</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Freichel</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Flockerzi</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Nilius</surname>
+<given-names>B</given-names>
+</string-name> and <string-name>
+<surname>Vennekens</surname>
+<given-names>R</given-names>
+</string-name> (<year>2009</year>) <article-title>TRPM4 regulates migration of mast cells in mice</article-title>. <source>Cell Calcium</source>
+<volume>45</volume>, <fpage>226</fpage>&#x02013;<lpage>232</lpage>.<pub-id pub-id-type="pmid">19046767</pub-id></mixed-citation></ref><ref id="mol212100-bib-0049"><mixed-citation publication-type="journal" id="mol212100-cit-0049">
+<string-name>
+<surname>Simon</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Leiva&#x02010;Salcedo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Armis&#x000e9;n</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Riveros</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Cerda</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Eguiguren</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Olivero</surname>
+<given-names>P</given-names>
+</string-name> and <string-name>
+<surname>Stutzin</surname>
+<given-names>A</given-names>
+</string-name> (<year>2010</year>) <article-title>Hydrogen peroxide removes TRPM4 current desensitization conferring increased vulnerability to necrotic cell death</article-title>. <source>J Biol Chem</source>
+<volume>285</volume>, <fpage>37150</fpage>&#x02013;<lpage>37158</lpage>.<pub-id pub-id-type="pmid">20884614</pub-id></mixed-citation></ref><ref id="mol212100-bib-0050"><mixed-citation publication-type="journal" id="mol212100-cit-0050">
+<string-name>
+<surname>Singh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Manickam</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Shmoish</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Natik</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Denyer</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Handelsman</surname>
+<given-names>D</given-names>
+</string-name> and <string-name>
+<surname>Dong</surname>
+<given-names>Q</given-names>
+</string-name> (<year>2006</year>) <article-title>Annotation of androgen dependence to human prostate cancer&#x02010;associated genes by microarray analysis of mouse prostate</article-title>. <source>Cancer Lett</source>
+<volume>237</volume>, <fpage>298</fpage>&#x02013;<lpage>304</lpage>.<pub-id pub-id-type="pmid">16024171</pub-id></mixed-citation></ref><ref id="mol212100-bib-0051"><mixed-citation publication-type="journal" id="mol212100-cit-0051">
+<string-name>
+<surname>Stamos</surname>
+<given-names>JL</given-names>
+</string-name> and <string-name>
+<surname>Weis</surname>
+<given-names>WI</given-names>
+</string-name> (<year>2013</year>) <article-title>The &#x003b2;&#x02010;catenin destruction complex</article-title>. <source>Cold Spring Harb Perspect Biol</source>
+<volume>5</volume>, <fpage>a007898</fpage>.<pub-id pub-id-type="pmid">23169527</pub-id></mixed-citation></ref><ref id="mol212100-bib-0052"><mixed-citation publication-type="journal" id="mol212100-cit-0052">
+<string-name>
+<surname>Suguro</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Tagawa</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Kagami</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Okamoto</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ohshima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Shiku</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Morishima</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Nakamura</surname>
+<given-names>S</given-names>
+</string-name> and <string-name>
+<surname>Seto</surname>
+<given-names>M</given-names>
+</string-name> (<year>2006</year>) <article-title>Expression profiling analysis of the CD5+ diffuse large B&#x02010;cell lymphoma subgroup: development of a CD5 signature</article-title>. <source>Cancer Sci</source>
+<volume>97</volume>, <fpage>868</fpage>&#x02013;<lpage>874</lpage>.<pub-id pub-id-type="pmid">16856881</pub-id></mixed-citation></ref><ref id="mol212100-bib-0053"><mixed-citation publication-type="journal" id="mol212100-cit-0053">
+<string-name>
+<surname>de la Taille</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rubin</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Vacherot</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>de Medina</surname>
+<given-names>SGD</given-names>
+</string-name>, <string-name>
+<surname>Burchardt</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Buttyan</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Chopin</surname>
+<given-names>D</given-names>
+</string-name> (<year>2003</year>) <article-title>beta&#x02010;catenin&#x02010;related anomalies in apoptosis&#x02010;resistant and hormone&#x02010;refractory prostate cancer cells</article-title>. <source>Clin Cancer Res</source>
+<volume>9</volume>, <fpage>1801</fpage>.<pub-id pub-id-type="pmid">12738737</pub-id></mixed-citation></ref><ref id="mol212100-bib-0054"><mixed-citation publication-type="journal" id="mol212100-cit-0054">
+<string-name>
+<surname>Tapia</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Torres</surname>
+<given-names>VA</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Leyton</surname>
+<given-names>L</given-names>
+</string-name> and <string-name>
+<surname>Quest</surname>
+<given-names>AFG</given-names>
+</string-name> (<year>2006</year>) <article-title>Casein kinase 2 (CK2) increases survivin expression via enhanced beta&#x02010;catenin&#x02010;T cell factor/lymphoid enhancer binding factor&#x02010;dependent transcription</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>103</volume>, <fpage>15079</fpage>&#x02013;<lpage>15084</lpage>.<pub-id pub-id-type="pmid">17005722</pub-id></mixed-citation></ref><ref id="mol212100-bib-0055"><mixed-citation publication-type="book" id="mol212100-cit-0055">
+<string-name>
+<surname>Tindall</surname>
+<given-names>DJ</given-names>
+</string-name> (<year>2013</year>) <source>Prostate cancer</source>. <publisher-name>Springer</publisher-name>, <publisher-loc>New York, NY</publisher-loc>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-4614-6828-8">https://doi.org/10.1007/978-1-4614-6828-8</ext-link>.</mixed-citation></ref><ref id="mol212100-bib-0056"><mixed-citation publication-type="journal" id="mol212100-cit-0056">
+<string-name>
+<surname>Tomlins</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Rhodes</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Perner</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Dhanasekaran</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Mehra</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>X&#x02010;W</given-names>
+</string-name>, <string-name>
+<surname>Varambally</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Tchinda</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kuefer</surname>
+<given-names>R</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2005</year>) <article-title>Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer</article-title>. <source>Science</source>
+<volume>310</volume>, <fpage>644</fpage>&#x02013;<lpage>648</lpage>.<pub-id pub-id-type="pmid">16254181</pub-id></mixed-citation></ref><ref id="mol212100-bib-0057"><mixed-citation publication-type="journal" id="mol212100-cit-0057">
+<string-name>
+<surname>Torre</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>Bray</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Ferlay</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lortet&#x02010;Tieulent</surname>
+<given-names>J</given-names>
+</string-name> and <string-name>
+<surname>Jemal</surname>
+<given-names>A</given-names>
+</string-name> (<year>2015</year>) <article-title>Global cancer statistics, 2012</article-title>. <source>CA Cancer J Clin</source>
+<volume>65</volume>, <fpage>87</fpage>&#x02013;<lpage>108</lpage>.<pub-id pub-id-type="pmid">25651787</pub-id></mixed-citation></ref><ref id="mol212100-bib-0058"><mixed-citation publication-type="journal" id="mol212100-cit-0058">
+<string-name>
+<surname>Valenta</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Hausmann</surname>
+<given-names>G</given-names>
+</string-name> and <string-name>
+<surname>Basler</surname>
+<given-names>K</given-names>
+</string-name> (<year>2012</year>) <article-title>The many faces and functions of &#x003b2;&#x02010;catenin</article-title>. <source>EMBO J</source>
+<volume>31</volume>, <fpage>2714</fpage>&#x02013;<lpage>2736</lpage>.<pub-id pub-id-type="pmid">22617422</pub-id></mixed-citation></ref><ref id="mol212100-bib-0059"><mixed-citation publication-type="journal" id="mol212100-cit-0059">
+<string-name>
+<surname>Wang</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name> and <string-name>
+<surname>Sadar</surname>
+<given-names>MD</given-names>
+</string-name> (<year>2008</year>) <article-title>Crosstalk between the androgen receptor and beta&#x02010;catenin in castrate&#x02010;resistant prostate cancer</article-title>. <source>Cancer Res</source>
+<volume>68</volume>, <fpage>9918</fpage>&#x02013;<lpage>9927</lpage>.<pub-id pub-id-type="pmid">19047173</pub-id></mixed-citation></ref><ref id="mol212100-bib-0060"><mixed-citation publication-type="journal" id="mol212100-cit-0060">
+<string-name>
+<surname>Weber</surname>
+<given-names>KS</given-names>
+</string-name>, <string-name>
+<surname>Hildner</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Murphy</surname>
+<given-names>KM</given-names>
+</string-name> and <string-name>
+<surname>Allen</surname>
+<given-names>PM</given-names>
+</string-name> (<year>2010</year>) <article-title>Trpm4 differentially regulates Th1 and Th2 function by altering calcium signaling and NFAT localization</article-title>. <source>J&#x000a0;Immunol</source>
+<volume>185</volume>, <fpage>2836</fpage>&#x02013;<lpage>2846</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4049/jimmunol.1000880">https://doi.org/10.4049/jimmunol.1000880</ext-link>.<pub-id pub-id-type="pmid">20656926</pub-id></mixed-citation></ref><ref id="mol212100-bib-0061"><mixed-citation publication-type="journal" id="mol212100-cit-0061">
+<string-name>
+<surname>Whitaker</surname>
+<given-names>HC</given-names>
+</string-name>, <string-name>
+<surname>Girling</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Warren</surname>
+<given-names>AY</given-names>
+</string-name>, <string-name>
+<surname>Leung</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Mills</surname>
+<given-names>IG</given-names>
+</string-name> and <string-name>
+<surname>Neal</surname>
+<given-names>DE</given-names>
+</string-name> (<year>2008</year>) <article-title>Alterations in beta&#x02010;catenin expression and localization in prostate cancer</article-title>. <source>Prostate</source>
+<volume>68</volume>, <fpage>1196</fpage>&#x02013;<lpage>1205</lpage>.<pub-id pub-id-type="pmid">18459111</pub-id></mixed-citation></ref></ref-list></back></article>

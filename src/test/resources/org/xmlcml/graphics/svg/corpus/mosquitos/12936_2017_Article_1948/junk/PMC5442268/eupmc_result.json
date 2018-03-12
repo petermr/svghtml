@@ -1,0 +1,490 @@
+{
+  "id": [
+    "28188493"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28188493"
+  ],
+  "pmcid": [
+    "PMC5442268"
+  ],
+  "doi": [
+    "10.1007/s10096-017-2925-8"
+  ],
+  "title": [
+    "Serious fungal infections in Chile."
+  ],
+  "authorString": [
+    "Alvarez Duarte E, Denning DW."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Alvarez Duarte E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Alvarez Duarte"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6117-7916",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Mycology Unit-Filamentous Fungal Section, Biomedical Sciences Department, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Denning DW"
+          ],
+          "firstName": [
+            "D W"
+          ],
+          "lastName": [
+            "Denning"
+          ],
+          "initials": [
+            "DW"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5626-2251",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "University of Manchester, Manchester Academic Health Science Centre and National Aspergillosis Centre, University Hospital of South Manchester, Manchester, UK. david.denning@manchester.ac.uk."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5626-2251",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6117-7916",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "36"
+      ],
+      "journalIssueId": [
+        "2559854"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "European journal of clinical microbiology & infectious diseases : official publication of the European Society of Clinical Microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Eur. J. Clin. Microbiol. Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "Eur J Clin Microbiol Infect Dis"
+          ],
+          "NLMid": [
+            "8804297"
+          ],
+          "ISSN": [
+            "0934-9723"
+          ],
+          "ESSN": [
+            "1435-4373"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "983-986"
+  ],
+  "abstractText": [
+    "The incidence and prevalence of fungal infections in Chile are unknown. Here, we have estimated the burden of serious fungal diseases from data obtained from clinical reports, WHO reports, Chilean census, OECD reports and comprehensive literature search available on PubMed and SciELO, among other scientific resources. Due the lack of official data about fungal diseases, frequencies were calculated based on the specific populations at risk. Recurrent vulvovaginal candidiasis (>4 episodes/year) is estimated to occur in 3108/100,000. Using a low international average rate of 5/100,000, we estimate 878 candidaemia cases and 132 patients with intra-abdominal candidiasis. Due to the low incidence of pulmonary tuberculosis (TB) in Chile, limited numbers of patients with chronic pulmonary aspergillosis are likely: a total of 1212, 25% following TB. Invasive aspergillosis is estimated to affect 296 patients following leukaemia therapy, transplantation and chronic obstructive pulmonary disease (COPD), 1.7/100,000. In addition, allergic bronchopulmonary aspergillosis (ABPA) and severe asthma with fungal sensitisation (SAFS) were estimated to be around 97.9/100,000 and 127/100,000 respectively, in 675,772 adult asthmatics and 1700 CF patients. Given a 38,000 human immunodeficiency virus (HIV) population, with around 2189 new cases of acquired immune deficiency syndrome (AIDS) annually, cryptococcal meningitis and Pneumocystis pneumonia are estimated at 0.12/100,000 and 4.3/100,000, respectively. In total, 325,000 (1.9%) people in Chile develop serious fungal infections annually. Respiratory fungal disease predominates in Chile; a national action plan for fungal disease is urgently needed, including epidemiological studies to validate the estimates."
+  ],
+  "affiliation": [
+    "Mycology Unit-Filamentous Fungal Section, Biomedical Sciences Department, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mycoses"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Incidence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prevalence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Assessment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Comorbidity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant, Newborn"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5442268?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5442268"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s10096-017-2925-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-14"
+  ],
+  "dateOfCreation": [
+    "2017-02-12"
+  ],
+  "dateOfRevision": [
+    "2018-02-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-10"
+  ],
+  "firstPublicationDate": [
+    "2017-02-10"
+  ]
+}

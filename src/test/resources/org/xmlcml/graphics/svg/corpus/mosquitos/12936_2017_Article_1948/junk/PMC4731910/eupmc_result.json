@@ -1,0 +1,341 @@
+{
+  "id": [
+    "26822479"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26822479"
+  ],
+  "pmcid": [
+    "PMC4731910"
+  ],
+  "doi": [
+    "10.1186/s12888-016-0723-y"
+  ],
+  "title": [
+    "Erratum to: Homicide in Chile: Trends 2000 - 2012."
+  ],
+  "authorString": [
+    "Otzen T, Sanhueza A, Manterola C, Hetz M, Melnik T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Otzen T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Otzen"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Programa de Pós-graduação em Saúde Baseada em Evidências, Universidade Federal de São Paulo, São Paulo, Brazil. tamara.otzen@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanhueza A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Sanhueza"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Pan American Health Organization/Regional Office of the World Health Organization, Washington, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Manterola C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Manterola"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Cirugía, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hetz M"
+          ],
+          "firstName": [
+            "Monica"
+          ],
+          "lastName": [
+            "Hetz"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Psychology, Catholic University of Temuco, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Melnik T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Melnik"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Programa de Pós-graduação em Saúde Baseada em Evidências, Universidade Federal de São Paulo, São Paulo, Brazil."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2477194"
+      ],
+      "dateOfPublication": [
+        "2016 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC psychiatry"
+          ],
+          "ISOAbbreviation": [
+            "BMC Psychiatry"
+          ],
+          "medlineAbbreviation": [
+            "BMC Psychiatry"
+          ],
+          "NLMid": [
+            "100968559"
+          ],
+          "ISSN": [
+            "1471-244X"
+          ],
+          "ESSN": [
+            "1471-244X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "18"
+  ],
+  "affiliation": [
+    "Programa de Pós-graduação em Saúde Baseada em Evidências, Universidade Federal de São Paulo, São Paulo, Brazil. tamara.otzen@ufrontera.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "001"
+          ],
+          "agency": [
+            "World Health Organization"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4731910?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4731910"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12888-016-0723-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "26666229"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "BMC Psychiatry. 2015;15:312"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-05-02"
+  ],
+  "dateOfCreation": [
+    "2016-01-29"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-28"
+  ],
+  "firstPublicationDate": [
+    "2016-01-28"
+  ]
+}

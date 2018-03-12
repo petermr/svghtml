@@ -1,0 +1,482 @@
+{
+  "id": [
+    "28593197"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28593197"
+  ],
+  "pmcid": [
+    "PMC5451488"
+  ],
+  "doi": [
+    "10.1128/msystems.00195-16"
+  ],
+  "title": [
+    "Significant Impacts of Increasing Aridity on the Arid Soil Microbiome."
+  ],
+  "authorString": [
+    "Neilson JW, Califf K, Cardona C, Copeland A, van Treuren W, Josephson KL, Knight R, Gilbert JA, Quade J, Caporaso JG, Maier RM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Neilson JW"
+          ],
+          "firstName": [
+            "Julia W"
+          ],
+          "lastName": [
+            "Neilson"
+          ],
+          "initials": [
+            "JW"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2623-2179",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Soil Water and Environmental Science, University of Arizona, Tucson, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Califf K"
+          ],
+          "firstName": [
+            "Katy"
+          ],
+          "lastName": [
+            "Califf"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Pathogen and Microbiome Institute, Northern Arizona University, Flagstaff, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Cardona C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Cardona"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Graduate Program in Biophysical Sciences, University of Chicago, Chicago, Illinois, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Copeland A"
+          ],
+          "firstName": [
+            "Audrey"
+          ],
+          "lastName": [
+            "Copeland"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Soil Water and Environmental Science, University of Arizona, Tucson, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "van Treuren W"
+          ],
+          "firstName": [
+            "Will"
+          ],
+          "lastName": [
+            "van Treuren"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Department of Microbiology and Immunology, Stanford University, Stanford, California, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Josephson KL"
+          ],
+          "firstName": [
+            "Karen L"
+          ],
+          "lastName": [
+            "Josephson"
+          ],
+          "initials": [
+            "KL"
+          ],
+          "affiliation": [
+            "Department of Soil Water and Environmental Science, University of Arizona, Tucson, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Knight R"
+          ],
+          "firstName": [
+            "Rob"
+          ],
+          "lastName": [
+            "Knight"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departments of Pediatrics and Computer Science and Engineering and Center for Microbiome Innovation, University of California San Diego, San Diego, California, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gilbert JA"
+          ],
+          "firstName": [
+            "Jack A"
+          ],
+          "lastName": [
+            "Gilbert"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Department of Surgery, University of Chicago, Chicago, Illinois, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Quade J"
+          ],
+          "firstName": [
+            "Jay"
+          ],
+          "lastName": [
+            "Quade"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Geosciences, University of Arizona, Tucson, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Caporaso JG"
+          ],
+          "firstName": [
+            "J Gregory"
+          ],
+          "lastName": [
+            "Caporaso"
+          ],
+          "initials": [
+            "JG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8865-1670",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pathogen and Microbiome Institute, Northern Arizona University, Flagstaff, Arizona, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Maier RM"
+          ],
+          "firstName": [
+            "Raina M"
+          ],
+          "lastName": [
+            "Maier"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Department of Soil Water and Environmental Science, University of Arizona, Tucson, Arizona, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8865-1670",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2623-2179",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "2"
+      ],
+      "journalIssueId": [
+        "2557011"
+      ],
+      "dateOfPublication": [
+        "2017 May-Jun"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "mSystems"
+          ],
+          "ISOAbbreviation": [
+            "mSystems"
+          ],
+          "medlineAbbreviation": [
+            "mSystems"
+          ],
+          "NLMid": [
+            "101680636"
+          ],
+          "ISSN": [
+            "2379-5077"
+          ],
+          "ESSN": [
+            "2379-5077"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Global deserts occupy one-third of the Earth's surface and contribute significantly to organic carbon storage, a process at risk in dryland ecosystems that are highly vulnerable to climate-driven ecosystem degradation. The forces controlling desert ecosystem degradation rates are poorly understood, particularly with respect to the relevance of the arid-soil microbiome. Here we document correlations between increasing aridity and soil bacterial and archaeal microbiome composition along arid to hyperarid transects traversing the Atacama Desert, Chile. A meta-analysis reveals that Atacama soil microbiomes exhibit a gradient in composition, are distinct from a broad cross-section of nondesert soils, and yet are similar to three deserts from different continents. Community richness and diversity were significantly positively correlated with soil relative humidity (SoilRH). Phylogenetic composition was strongly correlated with SoilRH, temperature, and electrical conductivity. The strongest and most significant correlations between SoilRH and phylum relative abundance were observed for Acidobacteria, Proteobacteria, Planctomycetes, Verrucomicrobia, and Euryarchaeota (Spearman's rank correlation [rs] = >0.81; false-discovery rate [q] = ≤0.005), characterized by 10- to 300-fold decreases in the relative abundance of each taxon. In addition, network analysis revealed a deterioration in the density of significant associations between taxa along the arid to hyperarid gradient, a pattern that may compromise the resilience of hyperarid communities because they lack properties associated with communities that are more integrated. In summary, results suggest that arid-soil microbiome stability is sensitive to aridity as demonstrated by decreased community connectivity associated with the transition from the arid class to the hyperarid class and the significant correlations observed between soilRH and both diversity and the relative abundances of key microbial phyla typically dominant in global soils. IMPORTANCE We identify key environmental and geochemical factors that shape the arid soil microbiome along aridity and vegetation gradients spanning over 300 km of the Atacama Desert, Chile. Decreasing average soil relative humidity and increasing temperature explain significant reductions in the diversity and connectivity of these desert soil microbial communities and lead to significant reductions in the abundance of key taxa typically associated with fertile soils. This finding is important because it suggests that predicted climate change-driven increases in aridity may compromise the capacity of the arid-soil microbiome to sustain necessary nutrient cycling and carbon sequestration functions as well as vegetative cover in desert ecosystems, which comprise one-third of the terrestrial biomes on Earth."
+  ],
+  "affiliation": [
+    "Department of Soil Water and Environmental Science, University of Arizona, Tucson, Arizona, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "T32 EB009412"
+          ],
+          "agency": [
+            "NIBIB NIH HHS"
+          ],
+          "acronym": [
+            "EB"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P42 ES004940"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Climate change",
+        "Desert",
+        "Desertification",
+        "Microbial diversity",
+        "Arid Soil Microbiome"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5451488?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5451488"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/mSystems.00195-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-08"
+  ],
+  "dateOfRevision": [
+    "2017-10-10"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-30"
+  ],
+  "firstPublicationDate": [
+    "2017-05-30"
+  ]
+}

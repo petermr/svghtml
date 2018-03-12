@@ -1,0 +1,466 @@
+{
+  "id": [
+    "28640231"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28640231"
+  ],
+  "pmcid": [
+    "PMC5537764"
+  ],
+  "doi": [
+    "10.3390/nu9070644"
+  ],
+  "title": [
+    "Pubertal Stage, Body Mass Index, and Cardiometabolic Risk in Children and Adolescents in Bogotá, Colombia: The Cross-Sectional Fuprecol Study."
+  ],
+  "authorString": [
+    "Ramírez-Vélez R, García-Hermoso A, Agostinis-Sobrinho C, Mota J, Santos R, Correa-Bautista JE, Peña-Guzmán CA, Domínguez-Sánchez MA, Schmidt-RioValle J, González-Jiménez E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramírez-Vélez R"
+          ],
+          "firstName": [
+            "Robinson"
+          ],
+          "lastName": [
+            "Ramírez-Vélez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robinson.ramirez@urosario.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Hermoso A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "García-Hermoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1397-7182",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Ciencias de la Actividad Física, el Deporte y la Salud, Facultad de Ciencias Médicas, Universidad de Santiago de Chile, USACH, Región Metropolitana, Santiago 7500618, Chile. antonio.garcia.h@usach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Agostinis-Sobrinho C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Agostinis-Sobrinho"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9104-9042",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Research Centre in Physical Activity, Health and Leisure, Faculty of Sport, University of Porto, Porto 4200450, Portugal. cesaragostinis@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Mota J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Mota"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7571-9181",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Research Centre in Physical Activity, Health and Leisure, Faculty of Sport, University of Porto, Porto 4200450, Portugal. jmota@fade.up.pt."
+          ]
+        },
+        {
+          "fullName": [
+            "Santos R"
+          ],
+          "firstName": [
+            "Rute"
+          ],
+          "lastName": [
+            "Santos"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Early Start Research Institute, Faculty of Social Sciences, School of Education, University of Wollongong, Wollongong, NSW 2522, Australia. rutes@uow.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Correa-Bautista JE"
+          ],
+          "firstName": [
+            "Jorge Enrique"
+          ],
+          "lastName": [
+            "Correa-Bautista"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0646-2316",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. jorge.correa@urosario.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Peña-Guzmán CA"
+          ],
+          "firstName": [
+            "Carlos Andrés"
+          ],
+          "lastName": [
+            "Peña-Guzmán"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería Ambiental, Grupo de Investigación INAM-USTA Universidad Santo Tomás, Bogotá 110231426, Colombia. carpeguz@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Domínguez-Sánchez MA"
+          ],
+          "firstName": [
+            "María Andrea"
+          ],
+          "lastName": [
+            "Domínguez-Sánchez"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Grupo de Investigación Movimiento Corporal Humano, Neuroscience Traslational Lab, Facultad de Enfermería y Rehabilitación, Universidad de La Sabana, Chia 140122, Colombia. madominguezs@unal.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Schmidt-RioValle J"
+          ],
+          "firstName": [
+            "Jacqueline"
+          ],
+          "lastName": [
+            "Schmidt-RioValle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Enfermería, Facultad de Ciencias de la Salud Avda, De la Ilustración, s/n, (18016), Universidad de Granada, Granada 18071, Spain. jschmidt@ugr.es."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Jiménez E"
+          ],
+          "firstName": [
+            "Emilio"
+          ],
+          "lastName": [
+            "González-Jiménez"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Grupo CTS-436, Adscrito al Centro de Investigación Mente, Cerebro y Comportamiento (CIMCYC), Universidad de Granada, Granada 18071, Spain. emigoji@ugr.es."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1397-7182",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9104-9042",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7571-9181",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0496-9612",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0646-2316",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2570330"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nutrients"
+          ],
+          "ISOAbbreviation": [
+            "Nutrients"
+          ],
+          "medlineAbbreviation": [
+            "Nutrients"
+          ],
+          "NLMid": [
+            "101521595"
+          ],
+          "ISSN": [
+            "2072-6643"
+          ],
+          "ESSN": [
+            "2072-6643"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "This study explored the association between pubertal stage and anthropometric and cardiometabolic risk factors in youth. A cross-sectional study was conducted in 2877 Colombian children and adolescents (9-17.9 years of age). Weight, height, and waist circumference were measured and body mass index (BMI) was calculated. A biochemical study was performed to determine the cardiometabolic risk index (CMRI). Blood pressure was evaluated and pubertal stage was assessed with the Tanner criteria. Hierarchical multiple regression analyses were performed. The most significant variable (p < 0.05) in the prognosis of cardiometabolic risk was found to be the BMI in both boys and girls. In the case of girls, the pubertal stage was also a CMRI predictive factor. In conclusion, BMI was an important indicator of cardiovascular risk in both sexes. Pubertal stage was associated with cardiovascular risk only in the girls."
+  ],
+  "affiliation": [
+    "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robinson.ramirez@urosario.edu.co."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Obesity",
+        "Youth",
+        "Childhood",
+        "body mass index",
+        "Pubertal Stage",
+        "Cardiometabolic Risk"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5537764?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5537764"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nu9070644"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-22"
+  ],
+  "dateOfRevision": [
+    "2017-08-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-22"
+  ],
+  "firstPublicationDate": [
+    "2017-06-22"
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "id": [
+    "27266265"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27266265"
+  ],
+  "pmcid": [
+    "PMC4895981"
+  ],
+  "doi": [
+    "10.1186/s13256-016-0938-z"
+  ],
+  "title": [
+    "Thrombotic microangiopathy as first manifestation of acute human immunodeficiency virus infection: a case report and review of the literature."
+  ],
+  "authorString": [
+    "Sarmiento M, Balcells ME, Ramirez P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sarmiento M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Sarmiento"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Hematología y Oncología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Región Metropolitana, Chile. mauriciosarmiento@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Balcells ME"
+          ],
+          "firstName": [
+            "M E"
+          ],
+          "lastName": [
+            "Balcells"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7223-9665",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Enfermedades Infecciosas, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Región Metropolitana, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramirez P"
+          ],
+          "firstName": [
+            "P"
+          ],
+          "lastName": [
+            "Ramirez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Hematología y Oncología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Región Metropolitana, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7223-9665",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2507030"
+      ],
+      "dateOfPublication": [
+        "2016 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of medical case reports"
+          ],
+          "ISOAbbreviation": [
+            "J Med Case Rep"
+          ],
+          "medlineAbbreviation": [
+            "J Med Case Rep"
+          ],
+          "NLMid": [
+            "101293382"
+          ],
+          "ISSN": [
+            "1752-1947"
+          ],
+          "ESSN": [
+            "1752-1947"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "152"
+  ],
+  "abstractText": [
+    "We present the case of a patient with acute human immunodeficiency virus infection and a thrombotic microangiopathy as the first clinical manifestation, a presentation that has not, to the best of our knowledge, been previously reported.A 35-year-old Bolivian man presented with epistaxis and thrombocytopenia. We found microangiopathic anemia, lymphopenia, elevated lactate dehydrogenase, progressive acute renal failure, negative direct antiglobulin test, and normal activity of ADAMTS13. An human immunodeficiency virus ELISA test was negative, with an human immunodeficiency virus viral load of 10,000,000 RNA copies/mL. Antiretroviral therapy and three sessions of therapeutic plasma exchange were able to control thrombotic microangiopathy.Hematologic manifestations of human immunodeficiency virus infection are frequent. However, the debut of acute human immunodeficiency virus infection with thrombotic microangiopathy is a rare event. A high index of suspicion and early treatment is required."
+  ],
+  "affiliation": [
+    "Departamento de Hematología y Oncología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Región Metropolitana, Chile. mauriciosarmiento@hotmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Review",
+        "Journal Article",
+        "Case Reports",
+        "case-report"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "HIV Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diagnosis, Differential"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bolivia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thrombotic Microangiopathies"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Human immunodeficiency virus",
+        "Thrombotic Microangiopathy",
+        "Acute Hiv Infection"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4895981?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4895981"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13256-016-0938-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-05-17"
+  ],
+  "dateOfCreation": [
+    "2016-06-09"
+  ],
+  "dateOfRevision": [
+    "2017-05-17"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-07"
+  ],
+  "firstPublicationDate": [
+    "2016-06-07"
+  ]
+}

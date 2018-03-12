@@ -1,0 +1,316 @@
+{
+  "id": [
+    "27027674"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27027674"
+  ],
+  "pmcid": [
+    "PMC4809181"
+  ],
+  "doi": [
+    "10.1590/1518-8345.0982.2675"
+  ],
+  "title": [
+    "Barriers to access to treatment for mothers with postpartum depression in primary health care centers: a predictive model."
+  ],
+  "authorString": [
+    "Martínez P, Vöhringer PA, Rojas G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martínez P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4482-7993",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Psicología, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vöhringer PA"
+          ],
+          "firstName": [
+            "Paul A"
+          ],
+          "lastName": [
+            "Vöhringer"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2460-4680",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas G"
+          ],
+          "firstName": [
+            "Graciela"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4482-7993",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2460-4680",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "24"
+      ],
+      "journalIssueId": [
+        "2384794"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Revista latino-americana de enfermagem"
+          ],
+          "ISOAbbreviation": [
+            "Rev Lat Am Enfermagem"
+          ],
+          "medlineAbbreviation": [
+            "Rev Lat Am Enfermagem"
+          ],
+          "NLMid": [
+            "9420934"
+          ],
+          "ISSN": [
+            "0104-1169"
+          ],
+          "ESSN": [
+            "1518-8345"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e2675"
+  ],
+  "abstractText": [
+    "to develop a predictive model to evaluate the factors that modify the access to treatment for Postpartum Depression (PPD).prospective study with mothers who participated in the monitoring of child health in primary care centers. For the initial assessment and during 3 months, it was considered: sociodemographic data, gyneco-obstetric data, data on the services provided, depressive symptoms according to the Edinburgh Postpartum Depression Scale (EPDS) and quality of life according to the Short Form-36 Health Status Questionnaire (SF-36). The diagnosis of depression was made based on MINI. Mothers diagnosed with PPD in the initial evaluation, were followed-up.a statistical model was constructed to determine the factors that prevented access to treatment, which consisted of: item 2 of EPDS (OR 0.43, 95%CI: 0.20-0.93) and item 5 (OR 0.48, 95%CI: 0.21-1.09), and previous history of depression treatment (OR 0.26, 95%CI: 0.61-1.06). Area under the ROC curve for the model=0.79; p-value for the Hosmer-Lemershow=0.73.it was elaborated a simple, well standardized and accurate profile, which advises that nurses should pay attention to those mothers diagnosed with PPD, presenting low/no anhedonia (item 2 of EPDS), scarce/no panic/fear (item 5 of EPDS), and no history of depression, as it is likely that these women do not initiate treatment."
+  ],
+  "affiliation": [
+    "Escuela de Psicología, Universidad de Santiago de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "N"
+          ],
+          "name": [
+            "Nursing journals"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4809181?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4809181"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1590/1518-8345.0982.2675"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-03-31"
+  ],
+  "dateOfRevision": [
+    "2016-04-09"
+  ],
+  "electronicPublicationDate": [
+    "2016-03-28"
+  ],
+  "firstPublicationDate": [
+    "2016-03-28"
+  ]
+}

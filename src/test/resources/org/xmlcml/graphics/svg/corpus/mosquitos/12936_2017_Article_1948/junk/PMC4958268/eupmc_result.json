@@ -1,0 +1,304 @@
+{
+  "id": [
+    "27334694"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27334694"
+  ],
+  "pmcid": [
+    "PMC4958268"
+  ],
+  "doi": [
+    "10.1242/bio.016543"
+  ],
+  "title": [
+    "Metabolic cost of osmoregulation in a hypertonic environment in the invasive African clawed frog Xenopus laevis."
+  ],
+  "authorString": [
+    "Peña-Villalobos I, Narváez C, Sabat P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Peña-Villalobos I"
+          ],
+          "firstName": [
+            "Isaac"
+          ],
+          "lastName": [
+            "Peña-Villalobos"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago 7800003, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Narváez C"
+          ],
+          "firstName": [
+            "Cristóbal"
+          ],
+          "lastName": [
+            "Narváez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago 7800003, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sabat P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Sabat"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6609-9969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago 7800003, Chile Center of Applied Ecology and Sustainability (CAPES), Pontificia Universidad Católica de Chile, Santiago 6513677, Chile psabat@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6609-9969",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2430703"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biology open"
+          ],
+          "ISOAbbreviation": [
+            "Biol Open"
+          ],
+          "medlineAbbreviation": [
+            "Biol Open"
+          ],
+          "NLMid": [
+            "101578018"
+          ],
+          "ISSN": [
+            "2046-6390"
+          ],
+          "ESSN": [
+            "2046-6390"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "955-961"
+  ],
+  "abstractText": [
+    "Studies of aquatic invertebrates reveal that salinity affects feeding and growth rates, reproduction, survival, and diversity. Little is known, however, about how salinity impacts the energy budget of vertebrates and amphibians in particular. The few studies focused on this topic in vertebrates suggest that the ingestion of salts and the resulting osmoregulatory activity is energetically expensive. We analyzed the effect of saline acclimation on standard metabolic rates (SMR) and the activities of metabolic enzymes of internal organs and osmoregulatory variables (plasma osmolality and urea plasma level) in females of Xenopus laevis by means of acclimating individuals to an isosmotic (235 mOsm NaCl; ISO group) and hyper-osmotic (340 mOsm NaCl; HYP group) environment for 40 days. After acclimation, we found that total and mass-specific SMR was approximately 80% higher in the HYP group than those found in the ISO group. These changes were accompanied by higher citrate synthase activities in liver and heart in the HYP group than in the ISO group. Furthermore, we found a significant and positive correlation between metabolic rates and plasma urea, and citrate synthase activity in liver and heart. These results support the notion that the cost of osmoregulation is probably common in most animal species and suggest the existence of a functional association between metabolic rates and the adjustments in osmoregulatory physiology, such as blood distribution and urea synthesis."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Santiago 7800003, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Xenopus laevis",
+        "Osmoregulation",
+        "Metabolic enzymes",
+        "Salinity",
+        "Standard Metabolic Rate (Smr)"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4958268?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4958268"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1242/bio.016543"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-07-16"
+  ],
+  "dateOfCreation": [
+    "2016-07-16"
+  ],
+  "dateOfRevision": [
+    "2016-08-05"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-15"
+  ],
+  "firstPublicationDate": [
+    "2016-06-22"
+  ]
+}

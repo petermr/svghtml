@@ -1,0 +1,322 @@
+{
+  "id": [
+    "29027927"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29027927"
+  ],
+  "pmcid": [
+    "PMC5666421"
+  ],
+  "doi": [
+    "10.3390/md15100313"
+  ],
+  "title": [
+    "Conotoxins as Tools to Understand the Physiological Function of Voltage-Gated Calcium (CaV) Channels."
+  ],
+  "authorString": [
+    "Ramírez D, Gonzalez W, Fissore RA, Carvacho I."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramírez D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, 3460000 Talca, Chile. davramirez@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez W"
+          ],
+          "firstName": [
+            "Wendy"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Millennium Nucleus of Ion Channels-Associated Diseases (MiNICAD), Universidad de Talca, 3460000 Talca, Chile. wgonzalez@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Fissore RA"
+          ],
+          "firstName": [
+            "Rafael A"
+          ],
+          "lastName": [
+            "Fissore"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Department of Veterinary and Animal Sciences, University of Massachusetts, Amherst, MA 01003, USA. rfissore@umass.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Carvacho I"
+          ],
+          "firstName": [
+            "Ingrid"
+          ],
+          "lastName": [
+            "Carvacho"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2311-7239",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology and Chemistry, Faculty of Basic Sciences, Universidad Católica del Maule, 3480112 Talca, Chile. icarvacho@ucm.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2311-7239",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2603667"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Marine drugs"
+          ],
+          "ISOAbbreviation": [
+            "Mar Drugs"
+          ],
+          "medlineAbbreviation": [
+            "Mar Drugs"
+          ],
+          "NLMid": [
+            "101213729"
+          ],
+          "ISSN": [
+            "1660-3397"
+          ],
+          "ESSN": [
+            "1660-3397"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Voltage-gated calcium (CaV) channels are widely expressed and are essential for the completion of multiple physiological processes. Close regulation of their activity by specific inhibitors and agonists become fundamental to understand their role in cellular homeostasis as well as in human tissues and organs. CaV channels are divided into two groups depending on the membrane potential required to activate them: High-voltage activated (HVA, CaV1.1-1.4; CaV2.1-2.3) and Low-voltage activated (LVA, CaV3.1-3.3). HVA channels are highly expressed in brain (neurons), heart, and adrenal medulla (chromaffin cells), among others, and are also classified into subtypes which can be distinguished using pharmacological approaches. Cone snails are marine gastropods that capture their prey by injecting venom, \"conopeptides\", which cause paralysis in a few seconds. A subset of conopeptides called conotoxins are relatively small polypeptides, rich in disulfide bonds, that target ion channels, transporters and receptors localized at the neuromuscular system of the animal target. In this review, we describe the structure and properties of conotoxins that selectively block HVA calcium channels. We compare their potency on several HVA channel subtypes, emphasizing neuronal calcium channels. Lastly, we analyze recent advances in the therapeutic use of conotoxins for medical treatments."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, 3460000 Talca, Chile. davramirez@utalca.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "conotoxins",
+        "Therapeutic Potential",
+        "Voltage-gated Calcium (Cav) Channels",
+        "Ω-conotoxin Structure"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5666421?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5666421"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/md15100313"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-10-14"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-13"
+  ],
+  "firstPublicationDate": [
+    "2017-10-13"
+  ]
+}

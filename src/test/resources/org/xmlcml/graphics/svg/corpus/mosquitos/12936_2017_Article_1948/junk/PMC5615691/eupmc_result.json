@@ -1,0 +1,379 @@
+{
+  "id": [
+    "28872628"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28872628"
+  ],
+  "pmcid": [
+    "PMC5615691"
+  ],
+  "doi": [
+    "10.3390/ma10091036"
+  ],
+  "title": [
+    "Copper Corrosion and Biocorrosion Events in Premise Plumbing."
+  ],
+  "authorString": [
+    "Vargas IT, Fischer DA, Alsina MA, Pavissich JP, Pastén PA, Pizarro GE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vargas IT"
+          ],
+          "firstName": [
+            "Ignacio T"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "IT"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5974-2795",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CEDEUS, Centro de Desarrollo Urbano Sustentable, Santiago 7820436, Chile. itvargas@ing.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Fischer DA"
+          ],
+          "firstName": [
+            "Diego A"
+          ],
+          "lastName": [
+            "Fischer"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Hidráulica y Ambiental, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. dafische.uc@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Alsina MA"
+          ],
+          "firstName": [
+            "Marco A"
+          ],
+          "lastName": [
+            "Alsina"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Hidráulica y Ambiental, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. alsina@northwestern.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Pavissich JP"
+          ],
+          "firstName": [
+            "Juan P"
+          ],
+          "lastName": [
+            "Pavissich"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7614-3572",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería y Ciencias, Universidad Adolfo Ibáñez, Santiago 7941169, Chile. juan.pavissich@uai.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Pastén PA"
+          ],
+          "firstName": [
+            "Pablo A"
+          ],
+          "lastName": [
+            "Pastén"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "CEDEUS, Centro de Desarrollo Urbano Sustentable, Santiago 7820436, Chile. ppasten@ing.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Pizarro GE"
+          ],
+          "firstName": [
+            "Gonzalo E"
+          ],
+          "lastName": [
+            "Pizarro"
+          ],
+          "initials": [
+            "GE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9554-8383",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CEDEUS, Centro de Desarrollo Urbano Sustentable, Santiago 7820436, Chile. gpizarro@ing.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7614-3572",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9554-8383",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5974-2795",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2591564"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Corrosion of copper pipes may release high amounts of copper into the water, exceeding the maximum concentration of copper for drinking water standards. Typically, the events with the highest release of copper into drinking water are related to the presence of biofilms. This article reviews this phenomenon, focusing on copper ingestion and its health impacts, the physicochemical mechanisms and the microbial involvement on copper release, the techniques used to describe and understand this phenomenon, and the hydrodynamic effects. A conceptual model is proposed and the mathematical models are reviewed."
+  ],
+  "affiliation": [
+    "CEDEUS, Centro de Desarrollo Urbano Sustentable, Santiago 7820436, Chile. itvargas@ing.puc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Copper",
+        "Corrosion",
+        "MIC",
+        "drinking water",
+        "Biocorrosion",
+        "Premise Plumbing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5615691?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5615691"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma10091036"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-05"
+  ],
+  "dateOfRevision": [
+    "2017-09-29"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-05"
+  ],
+  "firstPublicationDate": [
+    "2017-09-05"
+  ]
+}

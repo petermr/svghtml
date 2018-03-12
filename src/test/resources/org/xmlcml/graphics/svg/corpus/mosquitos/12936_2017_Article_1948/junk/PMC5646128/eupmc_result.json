@@ -1,0 +1,1793 @@
+{
+  "id": [
+    "29047411"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29047411"
+  ],
+  "pmcid": [
+    "PMC5646128"
+  ],
+  "doi": [
+    "10.1186/s13054-017-1842-7"
+  ],
+  "title": [
+    "Mildly elevated lactate levels are associated with microcirculatory flow abnormalities and increased mortality: a microSOAP post hoc analysis."
+  ],
+  "authorString": [
+    "Vellinga NAR, Boerma EC, Koopmans M, Donati A, Dubin A, Shapiro NI, Pearse RM, van der Voort PHJ, Dondorp AM, Bafi T, Fries M, Akarsu-Ayazoglu T, Pranskunas A, Hollenberg S, Balestra G, van Iterson M, Sadaka F, Minto G, Aypar U, Hurtado FJ, Martinelli G, Payen D, van Haren F, Holley A, Gomez H, Mehta RL, Rodriguez AH, Ruiz C, Canales HS, Duranteau J, Spronk PE, Jhanji S, Hubble S, Chierego M, Jung C, Martin D, Sorbara C, Bakker J, Ince C, microSOAP study group."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vellinga NAR"
+          ],
+          "firstName": [
+            "Namkje A R"
+          ],
+          "lastName": [
+            "Vellinga"
+          ],
+          "initials": [
+            "NAR"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Adults, Erasmus MC University Medical Center, Rotterdam, The Netherlands. namkjevellinga@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Boerma EC"
+          ],
+          "firstName": [
+            "E Christiaan"
+          ],
+          "lastName": [
+            "Boerma"
+          ],
+          "initials": [
+            "EC"
+          ],
+          "affiliation": [
+            "Department of Intensive Care, Medical Center Leeuwarden, P.O. Box 888, 8901 BR, Leeuwarden, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Koopmans M"
+          ],
+          "firstName": [
+            "Matty"
+          ],
+          "lastName": [
+            "Koopmans"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Intensive Care, Medical Center Leeuwarden, P.O. Box 888, 8901 BR, Leeuwarden, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Donati A"
+          ],
+          "firstName": [
+            "Abele"
+          ],
+          "lastName": [
+            "Donati"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Biomedical Science and Public Health, Università Politecnica delle Marche, Ancona, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Dubin A"
+          ],
+          "firstName": [
+            "Arnaldo"
+          ],
+          "lastName": [
+            "Dubin"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Sanatorio Otamendi y Miroli, Servicio de Terapia Intensiva, Azcuénaga 870, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Shapiro NI"
+          ],
+          "firstName": [
+            "Nathan I"
+          ],
+          "lastName": [
+            "Shapiro"
+          ],
+          "initials": [
+            "NI"
+          ],
+          "affiliation": [
+            "Department of Emergency Medicine and Center for Vascular Biology Research, Beth Israel Deaconess Medical Center, Boston, MA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Pearse RM"
+          ],
+          "firstName": [
+            "Rupert M"
+          ],
+          "lastName": [
+            "Pearse"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Barts and The London School of Medicine and Dentistry, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "van der Voort PHJ"
+          ],
+          "firstName": [
+            "Peter H J"
+          ],
+          "lastName": [
+            "van der Voort"
+          ],
+          "initials": [
+            "PHJ"
+          ],
+          "affiliation": [
+            "Department of Intensive Care, Onze Lieve Vrouwe Gasthuis, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Dondorp AM"
+          ],
+          "firstName": [
+            "Arjen M"
+          ],
+          "lastName": [
+            "Dondorp"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Faculty of Tropical Medicine, Mahidol University, Bangkok, Thailand."
+          ]
+        },
+        {
+          "fullName": [
+            "Bafi T"
+          ],
+          "firstName": [
+            "Tony"
+          ],
+          "lastName": [
+            "Bafi"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Dor e Terapia Intensiva, Universidade Federal de São Paolo, São Paolo, Brasil."
+          ]
+        },
+        {
+          "fullName": [
+            "Fries M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Fries"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Anesthesia and Surgical Intensive Care, St. Vincenz Krankenhaus, Limburg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Akarsu-Ayazoglu T"
+          ],
+          "firstName": [
+            "Tulin"
+          ],
+          "lastName": [
+            "Akarsu-Ayazoglu"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "S.B. Medeniyet University Göztepe Education and Research Hospital Kadıköy, Istanbul, Turkey."
+          ]
+        },
+        {
+          "fullName": [
+            "Pranskunas A"
+          ],
+          "firstName": [
+            "Andrius"
+          ],
+          "lastName": [
+            "Pranskunas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Intensive Care Department, Lithuanian University of Health Sciences, Kaunas, Lithuania."
+          ]
+        },
+        {
+          "fullName": [
+            "Hollenberg S"
+          ],
+          "firstName": [
+            "Steven"
+          ],
+          "lastName": [
+            "Hollenberg"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Section of Cardiology, Cooper University Hospital, Camden, NJ, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Balestra G"
+          ],
+          "firstName": [
+            "Gianmarco"
+          ],
+          "lastName": [
+            "Balestra"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Medical Intensive Care Unit, University Hospital Basel, Basel, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "van Iterson M"
+          ],
+          "firstName": [
+            "Mat"
+          ],
+          "lastName": [
+            "van Iterson"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Anesthesiology, Intensive Care and Pain Management, St. Antonius Hospital, Nieuwegein, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Sadaka F"
+          ],
+          "firstName": [
+            "Farid"
+          ],
+          "lastName": [
+            "Sadaka"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Critical Care Medicine/Neurocritical Care, Mercy Hospital St. Louis, St. Louis University Hospital, St. Louis, MO, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Minto G"
+          ],
+          "firstName": [
+            "Gary"
+          ],
+          "lastName": [
+            "Minto"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Derriford Hospital, Plymouth University Peninsula School of Medicine, Plymouth, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Aypar U"
+          ],
+          "firstName": [
+            "Ulku"
+          ],
+          "lastName": [
+            "Aypar"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Hacettepe University, Ankara, Turkey."
+          ]
+        },
+        {
+          "fullName": [
+            "Hurtado FJ"
+          ],
+          "firstName": [
+            "F Javier"
+          ],
+          "lastName": [
+            "Hurtado"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Hospital Español-State Health Administration Service, School of Medicine, University of the Republic, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinelli G"
+          ],
+          "firstName": [
+            "Giampaolo"
+          ],
+          "lastName": [
+            "Martinelli"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Perioperative Medicine, Barts Heart Centre, St. Bartholomew's Hospital, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Payen D"
+          ],
+          "firstName": [
+            "Didier"
+          ],
+          "lastName": [
+            "Payen"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Anesthesiology, Critical Care and Mobile Emergency and Resuscitation Service (SMUR), Hôpital Lariboisière Assistance Publique - Hôpitaux de Paris (AP-HP)/Université Paris 7 Diderot, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "van Haren F"
+          ],
+          "firstName": [
+            "Frank"
+          ],
+          "lastName": [
+            "van Haren"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Canberra Hospital, Canberra, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Holley A"
+          ],
+          "firstName": [
+            "Anthony"
+          ],
+          "lastName": [
+            "Holley"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Medicine, Royal Brisbane & Women's Hospital, Brisbane, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez H"
+          ],
+          "firstName": [
+            "Hernando"
+          ],
+          "lastName": [
+            "Gomez"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Critical Care Medicine, University of Pittsburgh, Pittsburgh, PA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Mehta RL"
+          ],
+          "firstName": [
+            "Ravindra L"
+          ],
+          "lastName": [
+            "Mehta"
+          ],
+          "initials": [
+            "RL"
+          ],
+          "affiliation": [
+            "School of Medicine, University of California, San Diego, San Diego, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Rodriguez"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Critical Care Department, Joan XXIII University Hospital, Tarragona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Escuela de Medicina, Facultad de Medicina, Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canales HS"
+          ],
+          "firstName": [
+            "Héctor S"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "HS"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Hospital San Martín, La Plata, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Duranteau J"
+          ],
+          "firstName": [
+            "Jacques"
+          ],
+          "lastName": [
+            "Duranteau"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departement d'Anesthesie-Reanimation, Hôpitaux Universitaires Paris-Sud, Université Paris-Sud, Hôpital de Bicêtre Assistance Publique - Hôpitaux de Paris (AP-HP), Le Kremlin-Bicêtre, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Spronk PE"
+          ],
+          "firstName": [
+            "Peter E"
+          ],
+          "lastName": [
+            "Spronk"
+          ],
+          "initials": [
+            "PE"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Gelre Ziekenhuizen, Apeldoorn, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Jhanji S"
+          ],
+          "firstName": [
+            "Shaman"
+          ],
+          "lastName": [
+            "Jhanji"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, The Royal Marsden Hospital, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Hubble S"
+          ],
+          "firstName": [
+            "Sheena"
+          ],
+          "lastName": [
+            "Hubble"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Royal Devon and Exeter Hospital, Exeter, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Chierego M"
+          ],
+          "firstName": [
+            "Marialuisa"
+          ],
+          "lastName": [
+            "Chierego"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Santa Maria degli Angeli Hospital, Pordenone, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Jung C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Jung"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Cardiology, Universitätsherzzentrum Thüringen, Clinic of Internal Medicine I, Friedrich Schiller University Jena, Jena, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Martin D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Intensive Care Unit, Royal Free Hospital, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Sorbara C"
+          ],
+          "firstName": [
+            "Carlo"
+          ],
+          "lastName": [
+            "Sorbara"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Dipartimento di Anestesia, Rianimazione e Terapia Intensiva, Azienda Unità Locale Socio Sanitaria 9 (ULSS 9) Veneto, Treviso, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Adults, Erasmus MC University Medical Center, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Ince C"
+          ],
+          "firstName": [
+            "Can"
+          ],
+          "lastName": [
+            "Ince"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Adults, Erasmus MC University Medical Center, Rotterdam, The Netherlands."
+          ]
+        },
+        {
+          "collectiveName": [
+            "microSOAP study group"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Boerma EC"
+          ],
+          "firstName": [
+            "E C"
+          ],
+          "lastName": [
+            "Boerma"
+          ],
+          "initials": [
+            "EC"
+          ]
+        },
+        {
+          "fullName": [
+            "Koopmans M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Koopmans"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Vellinga NAR"
+          ],
+          "firstName": [
+            "N A R"
+          ],
+          "lastName": [
+            "Vellinga"
+          ],
+          "initials": [
+            "NAR"
+          ]
+        },
+        {
+          "fullName": [
+            "van Iterson M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "van Iterson"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "van der Voort PHJ"
+          ],
+          "firstName": [
+            "P H J"
+          ],
+          "lastName": [
+            "van der Voort"
+          ],
+          "initials": [
+            "PHJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Spronk PE"
+          ],
+          "firstName": [
+            "P E"
+          ],
+          "lastName": [
+            "Spronk"
+          ],
+          "initials": [
+            "PE"
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Bafi AT"
+          ],
+          "firstName": [
+            "A T"
+          ],
+          "lastName": [
+            "Bafi"
+          ],
+          "initials": [
+            "AT"
+          ]
+        },
+        {
+          "fullName": [
+            "Dubin A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Dubin"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Kanoore Edul VS"
+          ],
+          "firstName": [
+            "V S"
+          ],
+          "lastName": [
+            "Kanoore Edul"
+          ],
+          "initials": [
+            "VS"
+          ]
+        },
+        {
+          "fullName": [
+            "Canales HS"
+          ],
+          "firstName": [
+            "H S"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "HS"
+          ]
+        },
+        {
+          "fullName": [
+            "Hurtado FJ"
+          ],
+          "firstName": [
+            "F J"
+          ],
+          "lastName": [
+            "Hurtado"
+          ],
+          "initials": [
+            "FJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Hollenberg SM"
+          ],
+          "firstName": [
+            "S M"
+          ],
+          "lastName": [
+            "Hollenberg"
+          ],
+          "initials": [
+            "SM"
+          ]
+        },
+        {
+          "fullName": [
+            "Shapiro NI"
+          ],
+          "firstName": [
+            "N I"
+          ],
+          "lastName": [
+            "Shapiro"
+          ],
+          "initials": [
+            "NI"
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez H"
+          ],
+          "firstName": [
+            "H"
+          ],
+          "lastName": [
+            "Gomez"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Sadaka FG"
+          ],
+          "firstName": [
+            "F G"
+          ],
+          "lastName": [
+            "Sadaka"
+          ],
+          "initials": [
+            "FG"
+          ]
+        },
+        {
+          "fullName": [
+            "Mehta R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Mehta"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Jung C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Jung"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Fries M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Fries"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Pearse RM"
+          ],
+          "firstName": [
+            "R M"
+          ],
+          "lastName": [
+            "Pearse"
+          ],
+          "initials": [
+            "RM"
+          ]
+        },
+        {
+          "fullName": [
+            "Martin DS"
+          ],
+          "firstName": [
+            "D S"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "DS"
+          ]
+        },
+        {
+          "fullName": [
+            "Meale P"
+          ],
+          "firstName": [
+            "P"
+          ],
+          "lastName": [
+            "Meale"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Jhanji S"
+          ],
+          "firstName": [
+            "S"
+          ],
+          "lastName": [
+            "Jhanji"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Minto G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Minto"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Martinelli G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Martinelli"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Lombrano M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Lombrano"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Hubble SMA"
+          ],
+          "firstName": [
+            "S M A"
+          ],
+          "lastName": [
+            "Hubble"
+          ],
+          "initials": [
+            "SMA"
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez AH"
+          ],
+          "firstName": [
+            "A H"
+          ],
+          "lastName": [
+            "Rodriguez"
+          ],
+          "initials": [
+            "AH"
+          ]
+        },
+        {
+          "fullName": [
+            "Martin-Loeches I"
+          ],
+          "firstName": [
+            "I"
+          ],
+          "lastName": [
+            "Martin-Loeches"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "van Haren FMP"
+          ],
+          "firstName": [
+            "F M P"
+          ],
+          "lastName": [
+            "van Haren"
+          ],
+          "initials": [
+            "FMP"
+          ]
+        },
+        {
+          "fullName": [
+            "Pranskunas A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Pranskunas"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Pilvinis V"
+          ],
+          "firstName": [
+            "V"
+          ],
+          "lastName": [
+            "Pilvinis"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Donati A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Donati"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Sorbara C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Sorbara"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Chierego ML"
+          ],
+          "firstName": [
+            "M L"
+          ],
+          "lastName": [
+            "Chierego"
+          ],
+          "initials": [
+            "ML"
+          ]
+        },
+        {
+          "fullName": [
+            "Holley A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Holley"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Duranteau J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Duranteau"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Harrois A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Harrois"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Payen D"
+          ],
+          "firstName": [
+            "D"
+          ],
+          "lastName": [
+            "Payen"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Balestra GM"
+          ],
+          "firstName": [
+            "G M"
+          ],
+          "lastName": [
+            "Balestra"
+          ],
+          "initials": [
+            "GM"
+          ]
+        },
+        {
+          "fullName": [
+            "Dondorp AM"
+          ],
+          "firstName": [
+            "A M"
+          ],
+          "lastName": [
+            "Dondorp"
+          ],
+          "initials": [
+            "AM"
+          ]
+        },
+        {
+          "fullName": [
+            "Aypar U"
+          ],
+          "firstName": [
+            "U"
+          ],
+          "lastName": [
+            "Aypar"
+          ],
+          "initials": [
+            "U"
+          ]
+        },
+        {
+          "fullName": [
+            "van Bommel J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "van Bommel"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Hernandez G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Hernandez"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Machado F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Machado"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Kanoore Edul V"
+          ],
+          "firstName": [
+            "V"
+          ],
+          "lastName": [
+            "Kanoore Edul"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Lacuesta G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Lacuesta"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Baz M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Baz"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Patel U"
+          ],
+          "firstName": [
+            "U"
+          ],
+          "lastName": [
+            "Patel"
+          ],
+          "initials": [
+            "U"
+          ]
+        },
+        {
+          "fullName": [
+            "Pinsky M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Pinsky"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Krause K"
+          ],
+          "firstName": [
+            "K"
+          ],
+          "lastName": [
+            "Krause"
+          ],
+          "initials": [
+            "K"
+          ]
+        },
+        {
+          "fullName": [
+            "Smith A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Thorn C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Thorn"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Forti A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Forti"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Comin A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Comin"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Pellis T"
+          ],
+          "firstName": [
+            "T"
+          ],
+          "lastName": [
+            "Pellis"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Paratz J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Paratz"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Damoisel C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Damoisel"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Bucher E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Bucher"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Pattnaik R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Pattnaik"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Herdman MT"
+          ],
+          "firstName": [
+            "M T"
+          ],
+          "lastName": [
+            "Herdman"
+          ],
+          "initials": [
+            "MT"
+          ]
+        },
+        {
+          "fullName": [
+            "Ayhan B"
+          ],
+          "firstName": [
+            "B"
+          ],
+          "lastName": [
+            "Ayhan"
+          ],
+          "initials": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "2604284"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Critical care (London, England)"
+          ],
+          "ISOAbbreviation": [
+            "Crit Care"
+          ],
+          "medlineAbbreviation": [
+            "Crit Care"
+          ],
+          "NLMid": [
+            "9801902"
+          ],
+          "ISSN": [
+            "1364-8535"
+          ],
+          "ESSN": [
+            "1466-609X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "255"
+  ],
+  "abstractText": [
+    "Mildly elevated lactate levels (i.e., 1-2 mmol/L) are increasingly recognized as a prognostic finding in critically ill patients. One of several possible underlying mechanisms, microcirculatory dysfunction, can be assessed at the bedside using sublingual direct in vivo microscopy. We aimed to evaluate the association between relative hyperlactatemia, microcirculatory flow, and outcome.This study was a predefined subanalysis of a multicenter international point prevalence study on microcirculatory flow abnormalities, the Microcirculatory Shock Occurrence in Acutely ill Patients (microSOAP). Microcirculatory flow abnormalities were assessed with sidestream dark-field imaging. Abnormal microcirculatory flow was defined as a microvascular flow index (MFI) < 2.6. MFI is a semiquantitative score ranging from 0 (no flow) to 3 (continuous flow). Associations between microcirculatory flow abnormalities, single-spot lactate measurements, and outcome were analyzed.In 338 of 501 patients, lactate levels were available. For this substudy, all 257 patients with lactate levels ≤ 2 mmol/L (median [IQR] 1.04 [0.80-1.40] mmol/L) were included. Crude ICU mortality increased with each lactate quartile. In a multivariable analysis, a lactate level > 1.5 mmol/L was independently associated with a MFI < 2.6 (OR 2.5, 95% CI 1.1-5.7, P = 0.027).In a heterogeneous ICU population, a single-spot mildly elevated lactate level (even within the reference range) was independently associated with increased mortality and microvascular flow abnormalities. In vivo microscopy of the microcirculation may be helpful in discriminating between flow- and non-flow-related causes of mildly elevated lactate levels.ClinicalTrials.gov, NCT01179243 . Registered on August 3, 2010."
+  ],
+  "affiliation": [
+    "Department of Intensive Care Adults, Erasmus MC University Medical Center, Rotterdam, The Netherlands. namkjevellinga@hotmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Microcirculation",
+        "Lactate",
+        "Prevalence",
+        "Intensive Care",
+        "Sdf Imaging"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5646128?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5646128"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13054-017-1842-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-10-20"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-18"
+  ],
+  "firstPublicationDate": [
+    "2017-10-18"
+  ]
+}

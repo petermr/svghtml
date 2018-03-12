@@ -1,0 +1,349 @@
+{
+  "id": [
+    "27403319"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27403319"
+  ],
+  "pmcid": [
+    "PMC4939606"
+  ],
+  "doi": [
+    "10.1186/s13102-016-0043-z"
+  ],
+  "title": [
+    "Ultrasound assessment of fascial connectivity in the lower limb during maximal cervical flexion: technical aspects and practical application of automatic tracking."
+  ],
+  "authorString": [
+    "Cruz-Montecinos C, Cerda M, Sanzana-Cuche R, Martín-Martín J, Cuesta-Vargas A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cruz-Montecinos C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Cruz-Montecinos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3835-3368",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physical Therapy, Faculty of Medicine, University of Chile, Santiago, Chile ; Laboratory of Biomechanics, San José Hospital, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerda M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Cerda"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "SCIAN-Lab, Programa de Anatomía y Biología del Desarrollo, ICBM, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanzana-Cuche R"
+          ],
+          "firstName": [
+            "Rodolfo"
+          ],
+          "lastName": [
+            "Sanzana-Cuche"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Morfológicas, Facultad de Ciencia, Universidad San Sebastián, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martín-Martín J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Martín-Martín"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Escuela de Terapia Ocupacional, Facultad de Salud, Deporte y Recreación, Universidad Bernardo O Higgins, Santiago, Chile ; Departamento de Fisioterapia, Facultad de Ciencias de la Salud, Instituto Investigacion Biomedica de Málaga (IBIMA), Universidad de Málaga, Andalucia Tech, Cátedra de Fisioterapia y DiscapacidadGrupo de Clinimetria (FE-14), Málaga, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuesta-Vargas A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Cuesta-Vargas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8880-4315",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Fisioterapia, Facultad de Ciencias de la Salud, Instituto Investigacion Biomedica de Málaga (IBIMA), Universidad de Málaga, Andalucia Tech, Cátedra de Fisioterapia y DiscapacidadGrupo de Clinimetria (FE-14), Málaga, Spain ; School of Clinical Science, Faculty of Health Sciences at Queensland University Technology, Brisbane, Australia ; Facultad de Ciencias de la Salud, Universidad de Málaga, Av. Arquitecto Peñalosa s/n (Teatinos Campus Expansion), 29009 Málaga, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3835-3368",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8880-4315",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2377065"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC sports science, medicine & rehabilitation"
+          ],
+          "ISOAbbreviation": [
+            "BMC Sports Sci Med Rehabil"
+          ],
+          "medlineAbbreviation": [
+            "BMC Sports Sci Med Rehabil"
+          ],
+          "NLMid": [
+            "101605016"
+          ],
+          "ISSN": [
+            "2052-1847"
+          ],
+          "ESSN": [
+            "2052-1847"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "18"
+  ],
+  "abstractText": [
+    "The fascia provides and transmits forces for connective tissues, thereby regulating human posture and movement. One way to assess the myofascial interaction is a fascia ultrasound recording. Ultrasound can follow fascial displacement either manually or automatically through two-dimensional (2D) method. One possible method is the iterated Lucas-Kanade Pyramid (LKP) algorithm, which is based on automatic pixel tracking during passive movements in 2D fascial displacement assessments. Until now, the accumulated error over time has not been considered, even though it could be crucial for detecting fascial displacement in low amplitude movements. The aim of this study was to assess displacement of the medial gastrocnemius fascia during cervical spine flexion in a kyphotic posture with the knees extended and ankles at 90°.The ultrasound transducer was placed on the extreme dominant belly of the medial gastrocnemius. Displacement was calculated from nine automatically selected tracking points. To determine cervical flexion, an established 2D marker protocol was implemented. Offline pressure sensors were used to synchronize the 2D kinematic data from cervical flexion and deep fascia displacement of the medial gastrocnemius.Fifteen participants performed the cervical flexion task. The basal tracking error was 0.0211 mm. In 66 % of the subjects, a proximal fascial tissue displacement of the fascia above the basal error (0.076 mm ± 0.006 mm) was measured. Fascia displacement onset during cervical spine flexion was detected over 70 % of the cycle; however, only when detected for more than 80 % of the cycle was displacement considered statistically significant as compared to the first 10 % of the cycle (ANOVA, p < 0.05).By using an automated tracking method, the present analyses suggest statistically significant displacement of deep fascia. Further studies are needed to corroborate and fully understand the mechanisms associated with these results."
+  ],
+  "affiliation": [
+    "Department of Physical Therapy, Faculty of Medicine, University of Chile, Santiago, Chile ; Laboratory of Biomechanics, San José Hospital, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Rehabilitation",
+        "Connective tissue",
+        "Fascia",
+        "Myofascial",
+        "Tracking Motion"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4939606?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4939606"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13102-016-0043-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-07-12"
+  ],
+  "dateOfCreation": [
+    "2016-07-12"
+  ],
+  "dateOfRevision": [
+    "2017-08-11"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-11"
+  ],
+  "firstPublicationDate": [
+    "2016-07-11"
+  ]
+}

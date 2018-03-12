@@ -1,0 +1,842 @@
+{
+  "id": [
+    "28286777"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28286777"
+  ],
+  "pmcid": [
+    "PMC5329672"
+  ],
+  "doi": [
+    "10.1155/2017/1328573"
+  ],
+  "title": [
+    "Effect of Human Myotubes-Derived Media on Glucose-Stimulated Insulin Secretion."
+  ],
+  "authorString": [
+    "Mizgier ML, Cataldo LR, Gutierrez J, Santos JL, Casas M, Llanos P, Contreras-Ferrat AE, Moro C, Bouzakri K, Galgani JE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mizgier ML"
+          ],
+          "firstName": [
+            "Maria L"
+          ],
+          "lastName": [
+            "Mizgier"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6396-8823",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cataldo LR"
+          ],
+          "firstName": [
+            "Luis R"
+          ],
+          "lastName": [
+            "Cataldo"
+          ],
+          "initials": [
+            "LR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1225-414X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutierrez J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Gutierrez"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santos JL"
+          ],
+          "firstName": [
+            "José L"
+          ],
+          "lastName": [
+            "Santos"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Casas M"
+          ],
+          "firstName": [
+            "Mariana"
+          ],
+          "lastName": [
+            "Casas"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Estudios Moleculares de la Célula, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Llanos P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Llanos"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1383-7961",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios Moleculares de la Célula, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Institute for Research in Dental Sciences, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Contreras-Ferrat AE"
+          ],
+          "firstName": [
+            "Ariel E"
+          ],
+          "lastName": [
+            "Contreras-Ferrat"
+          ],
+          "initials": [
+            "AE"
+          ],
+          "affiliation": [
+            "Exercise Science Laboratory, School of Kinesiology, Faculty of Medicine, Universidad Finis Terrae, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moro C"
+          ],
+          "firstName": [
+            "Cedric"
+          ],
+          "lastName": [
+            "Moro"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "INSERM UMR1048, Institut des Maladies Métaboliques et Cardiovasculaires, Université Paul Sabatier, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Bouzakri K"
+          ],
+          "firstName": [
+            "Karim"
+          ],
+          "lastName": [
+            "Bouzakri"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Departement de Génétique et Développement, CMU, Université de Genève, Genève, Switzerland; UMR DIATHEC, EA 7294, Centre Européen d'Etude du Diabète, Université de Strasbourg, Strasbourg, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Galgani JE"
+          ],
+          "firstName": [
+            "Jose E"
+          ],
+          "lastName": [
+            "Galgani"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9793-8561",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile; UDA-Ciencias de la Salud, Carrera de Nutrición y Dietética, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1383-7961",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9793-8561",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1225-414X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6396-8823",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518238"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of diabetes research"
+          ],
+          "ISOAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "medlineAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "NLMid": [
+            "101605237"
+          ],
+          "ISSN": [
+            "2314-6745"
+          ],
+          "ESSN": [
+            "2314-6753"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1328573"
+  ],
+  "abstractText": [
+    "Fasting to postprandial transition requires a tight adjustment of insulin secretion to its demand, so tissue (e.g., skeletal muscle) glucose supply is assured while hypo-/hyperglycemia are prevented. High muscle glucose disposal after meals is pivotal for adapting to increased glycemia and might drive insulin secretion through muscle-released factors (e.g., myokines). We hypothesized that insulin influences myokine secretion and then increases glucose-stimulated insulin secretion (GSIS). In conditioned media from human myotubes incubated with/without insulin (100 nmol/L) for 24 h, myokines were qualitatively and quantitatively characterized using an antibody-based array and ELISA-based technology, respectively. C57BL6/J mice islets and Wistar rat beta cells were incubated for 24 h with control and conditioned media from noninsulin- and insulin-treated myotubes prior to GSIS determination. Conditioned media from insulin-treated versus nontreated myotubes had higher RANTES but lower IL6, IL8, and MCP1 concentration. Qualitative analyses revealed that conditioned media from noninsulin- and insulin-treated myotubes expressed 32 and 23 out of 80 myokines, respectively. Islets incubated with conditioned media from noninsulin-treated myotubes had higher GSIS versus control islets (p < 0.05). Meanwhile, conditioned media from insulin-treated myotubes did not influence GSIS. In beta cells, GSIS was similar across conditions. In conclusion, factors being present in noninsulin-stimulated muscle cell-derived media appear to influence GSIS in mice islets."
+  ],
+  "affiliation": [
+    "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Islets of Langerhans"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Rats"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Rats, Wistar"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insulin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glucose"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Interleukin-8"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Interleukin-6"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Culture Media, Conditioned"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insulin-Secreting Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chemokine CCL5"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Muscle Fibers, Skeletal"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Culture Media, Conditioned"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Interleukin-6"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Interleukin-8"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Chemokine CCL5"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Insulin"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Glucose"
+          ],
+          "registryNumber": [
+            "IY9XDZ35W2"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5329672?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5329672"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/1328573"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "eudract",
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-06-15"
+  ],
+  "dateOfCreation": [
+    "2017-03-13"
+  ],
+  "dateOfRevision": [
+    "2017-06-15"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-14"
+  ],
+  "firstPublicationDate": [
+    "2017-02-14"
+  ]
+}

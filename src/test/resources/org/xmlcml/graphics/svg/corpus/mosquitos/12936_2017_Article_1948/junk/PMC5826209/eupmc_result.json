@@ -1,0 +1,305 @@
+{
+  "id": [
+    "PMC5826209"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC5826209"
+  ],
+  "title": [
+    "Reference values of hand-grip dynamometry and the relationship between low strength and mortality in older Chileans."
+  ],
+  "authorString": [
+    "Lera L, Albala C, Leyton B, Márquez C, Angel B, Saguez R, Sánchez H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lera L"
+          ],
+          "firstName": [
+            "Lydia"
+          ],
+          "lastName": [
+            "Lera"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Public Health Nutrition Unit, Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile"
+          ]
+        },
+        {
+          "fullName": [
+            "Albala C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Albala"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Leyton B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Leyton"
+          ],
+          "initials": [
+            "B"
+          ]
+        },
+        {
+          "fullName": [
+            "Márquez C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Márquez"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Angel B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Angel"
+          ],
+          "initials": [
+            "B"
+          ]
+        },
+        {
+          "fullName": [
+            "Saguez R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Saguez"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez H"
+          ],
+          "firstName": [
+            "Hugo"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "H"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2638671"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Clinical interventions in aging"
+          ],
+          "ISOAbbreviation": [
+            "Clin Interv Aging"
+          ],
+          "medlineAbbreviation": [
+            "Clin Interv Aging"
+          ],
+          "NLMid": [
+            "101273480"
+          ],
+          "ISSN": [
+            "1176-9092"
+          ],
+          "ESSN": [
+            "1178-1998"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "317-324"
+  ],
+  "abstractText": [
+    "AimThis study was aimed to set reference values of hand-grip strength by age and sex and validate cut points for risk of functional limitation and mortality in older Chileans.MethodsThis was a pooled analysis of four studies including 6,426 people ≥60 years of nondependent community-dwelling Chileans. After exclusion criteria, the final sample included 5,250 subjects, from whom 2,193 were followed to study all-cause mortality associated with low hand-grip strength. Face-to-face interviews registering sociodemographic characteristics, self-reported chronic diseases, and functional limitations were conducted. Anthropometric measurements and observed mobility were performed by trained professionals. Hand-grip strength was measured with a hand dynamometer T-18 (Country Technology, Inc.) before 2008 or with JAMAR brand from 2008 onwards. Percentiles were calculated through descriptive analysis and quantile regression models for specific groups of age and sex. Adjusted Cox regression hazard models for mortality risk according to low dynamometry condition and covariates were developed.ResultsWe deliver reference values of hand-grip strength for older Chileans proposing the 25th percentile as the cut-off point for low dynamometry risk: men ≤27 kg, women ≤15 kg. Low hand-grip strength was associated with Instrumental Activities of Daily Living limitations (p=0.001), and altered physical performance evaluated through the Timed Up and Go test (p=0.0001), grasping (p=0.001), bending (p<0.0001), and lifting (p<0.0001). After Cox proportional hazard regression models were assessed with a median follow-up of 9.2 years, the adjusted risk of all-cause mortality associated with a hand-grip strength lower than the 25th percentile in older Chileans showed a hazard ratio of 1.39 (95% confidence interval: 1.13–1.71).ConclusionThe cut-off points of dynamometry validated for the older Chileans allow the incorporation in the geriatric evaluation in primary health care of an easy-to-use, inexpensive indicator to identify older adults at risk of sarcopenia, frailty, and dismobility. In addition this also helps to optimize the evaluation of intervention strategies focused on the maintenance of functionality."
+  ],
+  "affiliation": [
+    "Public Health Nutrition Unit, Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Aging",
+        "Mortality",
+        "Functional Limitation",
+        "Dynamometry",
+        "Hand-grip Strength"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5826209"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5826209/?tool=EBI"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-03-04"
+  ],
+  "dateOfRevision": [
+    "2018-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-22"
+  ],
+  "firstPublicationDate": [
+    "2018-02-22"
+  ]
+}

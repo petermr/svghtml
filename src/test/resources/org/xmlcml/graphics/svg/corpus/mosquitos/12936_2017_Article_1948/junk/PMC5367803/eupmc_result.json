@@ -1,0 +1,383 @@
+{
+  "id": [
+    "28373998"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28373998"
+  ],
+  "pmcid": [
+    "PMC5367803"
+  ],
+  "doi": [
+    "10.1016/j.dib.2017.03.010"
+  ],
+  "title": [
+    "Datasets for transcriptomics, q-proteomics and phenotype microarrays of polyphosphate metabolism mutants from Escherichia coli."
+  ],
+  "authorString": [
+    "Varas M, Valdivieso C, Mauriaca C, Ortíz-Severín J, Paradela A, Poblete-Castro I, Cabrera R, Chávez FP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Varas M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Varas"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdivieso C"
+          ],
+          "firstName": [
+            "Camilo"
+          ],
+          "lastName": [
+            "Valdivieso"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile; Department of Ecology, Faculty of Science, University of Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mauriaca C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Mauriaca"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortíz-Severín J"
+          ],
+          "firstName": [
+            "Javiera"
+          ],
+          "lastName": [
+            "Ortíz-Severín"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paradela A"
+          ],
+          "firstName": [
+            "Alberto"
+          ],
+          "lastName": [
+            "Paradela"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6837-7056",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Proteomic Service, CNB CSIC, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Poblete-Castro I"
+          ],
+          "firstName": [
+            "Ignacio"
+          ],
+          "lastName": [
+            "Poblete-Castro"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Biológicas, Center for Bioinformatics and Integrative Biology, Biosystems Engineering Laboratory, Universidad Andrés Bello, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cabrera R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Cabrera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chávez FP"
+          ],
+          "firstName": [
+            "Francisco P"
+          ],
+          "lastName": [
+            "Chávez"
+          ],
+          "initials": [
+            "FP"
+          ],
+          "affiliation": [
+            "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6837-7056",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2542458"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Data in brief"
+          ],
+          "ISOAbbreviation": [
+            "Data Brief"
+          ],
+          "medlineAbbreviation": [
+            "Data Brief"
+          ],
+          "NLMid": [
+            "101654995"
+          ],
+          "ISSN": [
+            "2352-3409"
+          ],
+          "ESSN": [
+            "2352-3409"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "13-17"
+  ],
+  "abstractText": [
+    "Here, we provide the dataset associated with our research article on the polyphosphate metabolism entitled, \"Multi-level evaluation of Escherichia coli polyphosphate related mutants using global transcriptomic, proteomic and phenomic analyses\". By integrating different omics levels (transcriptome, proteome and phenome), we were able to study Escherichia coli polyphosphate mutant strains (Δppk1, Δppx, and Δppk1-ppx). We have compiled here all datasets from DNA microarrys, q-proteomic (Isotope-Coded Protein Labeling, ICPL) and phenomic (Phenotype microarray) raw data we have obtained in all polyP metabolism mutants."
+  ],
+  "affiliation": [
+    "Systems Microbiology Laboratory, Department of Biology, Faculty of Science, University of Chile, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Polyphosphate",
+        "systems biology",
+        "Transcriptomics",
+        "Phenomics",
+        "Q-proteomics"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5367803?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5367803"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.dib.2017.03.010"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-04"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-18"
+  ],
+  "firstPublicationDate": [
+    "2017-03-18"
+  ]
+}

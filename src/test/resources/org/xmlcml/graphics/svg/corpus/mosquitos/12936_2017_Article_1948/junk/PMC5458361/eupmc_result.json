@@ -1,0 +1,373 @@
+{
+  "id": [
+    "28611841"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28611841"
+  ],
+  "pmcid": [
+    "PMC5458361"
+  ],
+  "doi": [
+    "10.1155/2017/9361749"
+  ],
+  "title": [
+    "Applications of Computational Intelligence in Time Series."
+  ],
+  "authorString": [
+    "Martínez-Álvarez F, Troncoso A, Reyes J, Martínez-Ballesteros M, Riquelme JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martínez-Álvarez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Martínez-Álvarez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6309-1785",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Computer Science, Pablo de Olavide University, 41013 Seville, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Troncoso A"
+          ],
+          "firstName": [
+            "Alicia"
+          ],
+          "lastName": [
+            "Troncoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9801-7999",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Computer Science, Pablo de Olavide University, 41013 Seville, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Reyes J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Reyes"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2831-1148",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "NT2 Labs, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez-Ballesteros M"
+          ],
+          "firstName": [
+            "María"
+          ],
+          "lastName": [
+            "Martínez-Ballesteros"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3160-7414",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, University of Seville, Sevilla, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme JC"
+          ],
+          "firstName": [
+            "José C"
+          ],
+          "lastName": [
+            "Riquelme"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8243-2186",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Computer Science, University of Seville, Sevilla, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9801-7999",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3160-7414",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6309-1785",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2831-1148",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8243-2186",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518619"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Computational intelligence and neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "NLMid": [
+            "101279357"
+          ],
+          "ISSN": [
+            "1687-5265"
+          ],
+          "ESSN": [
+            "1687-5273"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "9361749"
+  ],
+  "affiliation": [
+    "Division of Computer Science, Pablo de Olavide University, 41013 Seville, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5458361?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5458361"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/9361749"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-14"
+  ],
+  "dateOfRevision": [
+    "2017-06-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-22"
+  ],
+  "firstPublicationDate": [
+    "2017-05-22"
+  ]
+}

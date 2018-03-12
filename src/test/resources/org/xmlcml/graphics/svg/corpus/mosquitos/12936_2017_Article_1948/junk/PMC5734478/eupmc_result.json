@@ -1,0 +1,351 @@
+{
+  "id": [
+    "28667213"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28667213"
+  ],
+  "pmcid": [
+    "PMC5734478"
+  ],
+  "doi": [
+    "10.1136/bmjopen-2016-015315"
+  ],
+  "title": [
+    "Extrapulmonary effects of continuous airway pressure on patients with obstructive sleep apnoea: protocol for an overview of systematic reviews."
+  ],
+  "authorString": [
+    "Labarca G, Ortega F, Arenas A, Reyes T, Rada G, Jorquera J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Labarca G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Labarca"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0069-3420",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Epistemonikos Foundation, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Ortega"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arenas A"
+          ],
+          "firstName": [
+            "Alex"
+          ],
+          "lastName": [
+            "Arenas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Reyes T"
+          ],
+          "firstName": [
+            "Tomas"
+          ],
+          "lastName": [
+            "Reyes"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rada G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Rada"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Epistemonikos Foundation, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jorquera J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Jorquera"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Sleep Center and Respiratory Diseases, Clinica Las Condes, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0069-3420",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2566457"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMJ open"
+          ],
+          "ISOAbbreviation": [
+            "BMJ Open"
+          ],
+          "medlineAbbreviation": [
+            "BMJ Open"
+          ],
+          "NLMid": [
+            "101552874"
+          ],
+          "ISSN": [
+            "2044-6055"
+          ],
+          "ESSN": [
+            "2044-6055"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e015315"
+  ],
+  "abstractText": [
+    "Obstructive sleep apnoea (OSA) is associated with both pulmonary and extrapulmonary consequences. Continuous positive airway pressure (CPAP) is an effective treatment for pulmonary symptoms. However, it is not clear if CPAP modifies extrapulmonary symptoms, especially in the long term. To date, several studies addressing this issue have been performed, but the evidence is scattered across different reviews that address each outcome separately. Therefore, we will conduct an overview to assess and summarise all systematic reviews on the extrapulmonary effects of this intervention in patients with OSA.This is a protocol for a systematic overview of reviews that will follow the guidelines from the Cochrane Handbook of Systematic Reviews of Interventions and PRISMA-P. We will conduct comprehensive literature searches using MEDLINE, EMBASE, Cochrane, CINAHL, DARE and Epistemonikos. We will consider systematic reviews and meta-analyses of randomised controlled trials evaluating the extrapulmonary effects of CPAP on OSA. Two reviewers will independently screen articles for inclusion using criteria that are determined a priori, assessing the quality of included reviews and extracting relevant information. We will create matrices of evidence in the Epistemonikos database, including all systematic reviews addressing a similar question and all studies addressing the question in those reviews. We will try to explain why studies are not included in individual reviews using the inclusion criteria, and we will estimate the overlap between different reviews in the same matrix of evidence.This review will be published in a peer-reviewed journal.CRD42014013036."
+  ],
+  "affiliation": [
+    "Epistemonikos Foundation, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "protocol",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hypoxia",
+        "Obstructive Sleep Apnoea",
+        "Continuous Positive Airway Pressure",
+        "Non-invasive Mechanical Ventilation."
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5734478?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5734478"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1136/bmjopen-2016-015315"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-02"
+  ],
+  "dateOfRevision": [
+    "2017-12-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-30"
+  ],
+  "firstPublicationDate": [
+    "2017-06-30"
+  ]
+}

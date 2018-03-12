@@ -1,0 +1,524 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Influenza Other Respir Viruses</journal-id><journal-id journal-id-type="iso-abbrev">Influenza Other Respir Viruses</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1750-2659</journal-id><journal-id journal-id-type="publisher-id">IRV</journal-id><journal-title-group><journal-title>Influenza and Other Respiratory Viruses</journal-title></journal-title-group><issn pub-type="ppub">1750-2640</issn><issn pub-type="epub">1750-2659</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5410718</article-id><article-id pub-id-type="pmid">27883281</article-id><article-id pub-id-type="doi">10.1111/irv.12439</article-id><article-id pub-id-type="publisher-id">IRV12439</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Severe mortality impact of the 1957 influenza pandemic in Chile</article-title></title-group><contrib-group><contrib id="irv12439-cr-0001" contrib-type="author" corresp="yes"><name><surname>Chowell</surname><given-names>Gerardo</given-names></name><address><email>gchowell@gsu.edu</email></address><xref ref-type="aff" rid="irv12439-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="irv12439-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="irv12439-cr-0002" contrib-type="author"><name><surname>Simonsen</surname><given-names>Lone</given-names></name><xref ref-type="aff" rid="irv12439-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="irv12439-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="irv12439-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="irv12439-cr-0003" contrib-type="author"><name><surname>Fuentes</surname><given-names>Rodrigo</given-names></name><xref ref-type="aff" rid="irv12439-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="irv12439-cr-0004" contrib-type="author"><name><surname>Flores</surname><given-names>Jose</given-names></name><xref ref-type="aff" rid="irv12439-aff-0006">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="irv12439-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="irv12439-cr-0005" contrib-type="author"><name><surname>Miller</surname><given-names>Mark A.</given-names></name><xref ref-type="aff" rid="irv12439-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="irv12439-cr-0006" contrib-type="author"><name><surname>Viboud</surname><given-names>C&#x000e9;cile</given-names></name><xref ref-type="aff" rid="irv12439-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="irv12439-aff-0001"><label><sup>1</sup></label><institution>Georgia State University</institution><named-content content-type="city">Atlanta</named-content><named-content content-type="country-part">Georgia</named-content><country country="US">USA</country></aff><aff id="irv12439-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Fogarty International Center</named-content><institution>National Institutes of Health</institution><named-content content-type="city">Bethesda</named-content><named-content content-type="country-part">MD</named-content><country country="US">USA</country></aff><aff id="irv12439-aff-0003"><label><sup>3</sup></label><institution>George Washington University</institution><named-content content-type="city">Washington DC</named-content><country country="US">USA</country></aff><aff id="irv12439-aff-0004"><label><sup>4</sup></label><institution>University of Copenhagen</institution><named-content content-type="city">Copenhagen</named-content><country country="DK">Denmark</country></aff><aff id="irv12439-aff-0005"><label><sup>5</sup></label><institution>Ministerio de Salud</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><aff id="irv12439-aff-0006"><label><sup>6</sup></label><institution>The University of South Dakota</institution><named-content content-type="city">Vermillion</named-content><named-content content-type="country-part">SD</named-content><country country="US">USA</country></aff><aff id="irv12439-aff-0007"><label><sup>7</sup></label><institution>Universidad de Chile</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Dr. Gerardo Chowell, Georgia State University, Atlanta, Georgia, USA.<break/>
+Email: <email>gchowell@gsu.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>3</month><year>2017</year></pub-date><pub-date pub-type="ppub"><month>5</month><year>2017</year></pub-date><volume>11</volume><issue>3</issue><issue-id pub-id-type="doi">10.1111/irv.2017.11.issue-3</issue-id><fpage>230</fpage><lpage>239</lpage><history><date date-type="accepted"><day>21</day><month>11</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2017 John Wiley & Sons Ltd <copyright-statement>--><copyright-statement content-type="article-copyright">Published 2016. This article is a U.S. Government work and is in the public domain in the USA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:IRV-11-230.pdf"/><abstract id="irv12439-abs-0001"><sec id="irv12439-sec-0001"><title>Introduction</title><p>Epidemiological studies of the 1957 influenza pandemic are scarce, particularly from lower&#x02010;income settings.</p></sec><sec id="irv12439-sec-0002"><title>Methods</title><p>We analyzed the spatial&#x02013;temporal mortality patterns of the 1957 influenza pandemic in Chile, including detailed age&#x02010;specific mortality data from a large city, and investigated risk factors for severe mortality impact across regions.</p></sec><sec id="irv12439-sec-0003"><title>Results</title><p>Chile exhibited two waves of excess mortality in winter 1957 and 1959 with a cumulative excess mortality rate of 12 per 10&#x000a0;000, and a ~10&#x02010;fold mortality difference across provinces. High excess mortality rates were associated with high baseline mortality (<italic>R</italic>
+<sup>2</sup>=41.8%; <italic>P</italic>=.02), but not with latitude (<italic>P</italic>&#x0003e;.7). Excess mortality rates increased sharply with age. Transmissibility declined from <italic>R</italic>=1.4&#x02010;2.1 to <italic>R</italic>=1.2&#x02010;1.4 between the two pandemic waves.</p></sec><sec id="irv12439-sec-0004"><title>Conclusions</title><p>The estimated A/H2N2 mortality burden in Chile is the highest on record for this pandemic&#x02014;about three to five times as severe as that experienced in wealthier nations. The global impact of this pandemic may be substantially underestimated from previous studies based on high&#x02010;income countries.</p></sec></abstract><kwd-group kwd-group-type="author-generated"><kwd id="irv12439-kwd-0001">1957 influenza pandemic</kwd><kwd id="irv12439-kwd-0002">baseline mortality rates</kwd><kwd id="irv12439-kwd-0003">Chile</kwd><kwd id="irv12439-kwd-0004">excess mortality rates</kwd><kwd id="irv12439-kwd-0005">latitude</kwd><kwd id="irv12439-kwd-0006">reproduction number</kwd><kwd id="irv12439-kwd-0007">transmissibility</kwd></kwd-group><funding-group><award-group><funding-source>Multinational Influenza Seasonal Mortality Study (MISMS)</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Fogarty International Center</funding-source></award-group></funding-group><funding-group><award-group><funding-source>National Institutes of Health</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Science &#x00026; Technology Directorate</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Department of Homeland Security</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Lundbeck Foundation in Denmark</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Office of Global Affairs' International Influenza Unit</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Office of the Secretary of the Department of Health and Human Services</funding-source></award-group></funding-group><counts><fig-count count="5"/><table-count count="3"/><page-count count="10"/><word-count count="6358"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>irv12439</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2017</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.0.9 mode:remove_FC converted:18.05.2017</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="irv12439-cit-1001">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Fuentes</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Flores</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, and <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Severe mortality impact of the 1957 influenza pandemic in Chile</article-title>. <source>Influenza Other Respi Viruses</source>. <year>2017</year>;<volume>11</volume>,<fpage>230</fpage>&#x02013;<lpage>239</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/irv.12439">https://doi.org/10.1111/irv.12439</ext-link>
+</mixed-citation>
+</p></notes></front><body><sec id="irv12439-sec-0005"><label>1</label><title>Introduction</title><p>Prediction of the mortality impact of future pandemics is essential to ongoing pandemic preparedness efforts, but is hampered by a limited number of historical events available for study.<xref rid="irv12439-bib-0001" ref-type="ref">1</xref> In particular, few quantitative studies have documented the transmissibility and impact of the 1957 A/H2N2 influenza pandemic, and detailed mortality datasets are limited to economically developed nations of the Northern Hemisphere.<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0003" ref-type="ref">3</xref>, <xref rid="irv12439-bib-0004" ref-type="ref">4</xref> Detailed age&#x02010;specific estimates are available for the United States and Canada only.<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0005" ref-type="ref">5</xref>, <xref rid="irv12439-bib-0006" ref-type="ref">6</xref> Recently, we conducted a multinational mortality study using annualized data, which placed the burden of the 1957&#x02010;59 pandemic at 4.0 excess respiratory deaths per 10&#x000a0;000 population globally,<xref rid="irv12439-bib-0007" ref-type="ref">7</xref> a moderate estimate relative to the devastating 1918 pandemic,<xref rid="irv12439-bib-0008" ref-type="ref">8</xref> but up to 10 times greater than the 2009 pandemic.<xref rid="irv12439-bib-0009" ref-type="ref">9</xref> We noted, however, a 70&#x02010;fold difference in mortality estimates between countries during the 1957&#x02010;59 pandemic period, with Chile faring the worst.<xref rid="irv12439-bib-0007" ref-type="ref">7</xref> Importantly, development indicators only explained a fraction (35%&#x02010;77%) of the observed variation in country&#x02010;level pandemic burden estimates.<xref rid="irv12439-bib-0007" ref-type="ref">7</xref>
+</p><p>Here, we follow up on our global analysis to explore pandemic patterns in Chile in more details using refined time series mortality data and models.</p><p>The first local outbreaks of pandemic influenza A/H2N2 virus activity were reported in continental China during February&#x02010;March 1957, and the emerging virus quickly reached Hong Kong and other parts of Asia in a matter of weeks.<xref rid="irv12439-bib-0010" ref-type="ref">10</xref> The pandemic reached Europe in June 1957 and South American countries of the Pacific coast, New Zealand, and South Africa in July of that year.<xref rid="irv12439-bib-0010" ref-type="ref">10</xref>, <xref rid="irv12439-bib-0011" ref-type="ref">11</xref> In the United States, sporadic outbreaks were reported during June&#x02010;August 1957, but widespread transmission was not observed until September as schools reopened. In this study, we collected and analyzed archival epidemiological data from Chile, a low&#x02010;income country at the time that was hit particularly hard.<xref rid="irv12439-bib-0007" ref-type="ref">7</xref> We characterize geographic variation in influenza&#x02010;related mortality patterns across Chilean provinces in the first 3&#x000a0;years of pandemic virus circulation and investigate age mortality patterns and transmissibility estimates.</p></sec><sec id="irv12439-sec-0006"><label>2</label><title>Material and Methods</title><sec id="irv12439-sec-0007"><label>2.1</label><title>Epidemiological data sources</title><sec id="irv12439-sec-0008"><label>2.1.1</label><title>National&#x02010; and Province&#x02010;level Vital statistics, 1953&#x02010;1959</title><p>Chile had a population size of 6.9M in 1957 and was an emerging economy with excellent vital statistics records, a life expectancy at birth of just under 60&#x000a0;years, and a high infant mortality rate of 110 deaths per 1000 live births.<xref rid="irv12439-bib-0012" ref-type="ref">12</xref>
+</p><p>We obtained monthly national all&#x02010;cause and respiratory mortality statistics for Chile from 1953 to 1959 from the Statistical Yearbooks of Chile. The choice of these study years allowed for estimation of a pre&#x02010;pandemic mortality baseline, and covers two waves of pandemic influenza A/H2N2 activity in 1957&#x02010;59.</p><p>To further explore geographic variation in pandemic&#x02010;related mortality in Chile, we also compiled monthly all&#x02010;cause mortality statistics from 1953 to 1959 for the 25 administrative provinces<xref rid="irv12439-bib-0012" ref-type="ref">12</xref> (Fig S1 in Appendix). Of note, because Chile has undergone changes in administrative divisions over the years, the geographic areas referred to in our study only approximately translate to contemporary administrative divisions in this country.</p><p>We also obtained province&#x02010;level population size estimates and infant mortality rates in 1956.<xref rid="irv12439-bib-0012" ref-type="ref">12</xref> We compiled latitude coordinates for province&#x02010;specific population centers to explore pandemic timing and impact along Chile's latitudinal gradient (17&#x000b0;S to 56&#x000b0;S<xref rid="irv12439-bib-0013" ref-type="ref">13</xref>).</p></sec><sec id="irv12439-sec-0009"><label>2.1.2</label><title>Individual death certificates from the city of Concepcion, 1953&#x02010;1959</title><p>Given the lack of age detail in the official province&#x02010;level vital statistics, separate data sources were used to study the age patterns of pandemic mortality. The City of Concepcion, located in the southern central part of Chile, is the third largest city in this country and has preserved unique records of individual death certificates.<xref rid="irv12439-bib-0013" ref-type="ref">13</xref> We manually retrieved from the city's civil registry all 15&#x000a0;736 individual death certificates for the period of January 1953&#x02010;December 1959. For each record, we tabulated the age, cause, and date of death. We then created weekly all&#x02010;cause and respiratory mortality time series stratified into six age groups (&#x0003c;5&#x000a0;years, 5&#x02010;14&#x000a0;years, 15&#x02010;24&#x000a0;years, 25&#x02010;49&#x000a0;years, 50&#x02010;64&#x000a0;years, and &#x0003e;=65&#x000a0;years). We used a broad definition for respiratory deaths which included deaths from influenza, pneumonia, bronchopneumonia, or bronchitis as underlying causes. Less than 1% of records lacked age or cause of death information.</p><p>We obtained age&#x02010;specific population data for Concepcion from the Instituto Nacional de Estad&#x000ed;sticas for year 1955 (total population of 170&#x000a0;457).</p></sec><sec id="irv12439-sec-0010"><label>2.1.3</label><title>Weekly mortality counts, Santiago and Concepcion, 1956&#x02010;1957</title><p>In order to characterize the reproduction number of the pandemic, we also obtained weekly all&#x02010;cause and respiratory mortality counts for 1956&#x02010;57 for the capital city, Santiago, from an official report.<xref rid="irv12439-bib-0014" ref-type="ref">14</xref>, <xref rid="irv12439-bib-0015" ref-type="ref">15</xref> Based on daily individual death certificates collected for Conception, we compiled weekly mortality time series for this city as well.</p></sec><sec id="irv12439-sec-0011"><label>2.1.4</label><title>Review of local newspapers</title><p>To support the identification of pandemic periods in mortality data, we gathered anecdotal information on the temporal course and severity of the pandemic by reviewing the most prominent daily newspapers published in Santiago (<italic>El Mercurio,</italic> Central Chile), Antofagasta (<italic>El Mercurio de Antofagasta,</italic> Northern Chile), and Concepcion (<italic>El Sur, Southern Chile</italic>) during 1957&#x02010;59. We identified 11 issues of <italic>El Mercurio</italic>, 25 issues of <italic>El Mercurio de Antofagasta</italic>, and 17 issues of <italic>El Sur</italic> that contained reports relating to the pandemic.</p></sec></sec><sec id="irv12439-sec-0012"><label>2.2</label><title>Statistical analysis</title><sec id="irv12439-sec-0013"><label>2.2.1</label><title>Excess mortality estimates</title><p>To quantify the mortality burden associated with the influenza pandemic, we estimated the cumulative number of deaths occurring in excess of a model baseline during the period 1957&#x02010;59. Because mortality fluctuates seasonally throughout the year during this time period in Chile, we fit cyclical regression models with temporal trends and harmonic terms<xref rid="irv12439-bib-0016" ref-type="ref">16</xref>, <xref rid="irv12439-bib-0017" ref-type="ref">17</xref>, <xref rid="irv12439-bib-0018" ref-type="ref">18</xref> to monthly mortality in the pre&#x02010;pandemic period 1953&#x02010;56 to estimate baseline mortality. Pandemic periods were defined separately for each study population as the months when all&#x02010;cause or respiratory mortality exceeded the upper 95% confidence limit of the baseline. The absolute mortality burden of the pandemic was estimated as the sum of excess deaths during each pandemic period of 1957&#x02010;1959.</p><p>We also calculated the relative mortality burden of the pandemic, defined as the ratio of excess mortality during the pandemic periods over the expected baseline mortality for these periods. This relative approach facilitates comparison between countries, regions, and age groups with different background mortality risks.<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0017" ref-type="ref">17</xref> Further, we performed sensitivity analyses to check the robustness of our excess mortality estimates to the choice of the mortality baseline and epidemic periods (Supplement).</p></sec><sec id="irv12439-sec-0014"><label>2.2.2</label><title>Geographic patterns</title><p>We analyzed geographic variation in timing and severity of the pandemic across the 25 provinces of Chile (Fig S1 in Appendix). For each geographic area, pandemic peak timing was defined as the month with maximal all&#x02010;cause mortality elevation in each winter during 1957&#x02010;1959. Severity was defined as absolute and relative rates of excess mortality for each pandemic wave during 1957&#x02010;1959, and cumulatively. We used univariate analyses and multivariate stepwise regression models to explore the association between province&#x02010;level estimates of peak timing and severity, and covariates such as latitude, population size, baseline and infant mortality rates.</p></sec><sec id="irv12439-sec-0015"><label>2.2.3</label><title>Estimation of transmission characteristics (reproduction number)</title><p>The reproduction number is an important parameter for pandemic preparedness as it quantifies the transmissibility potential of a pandemic virus and directly informs the strength of mitigation efforts required to interrupt transmission. Reproduction number estimates were derived from the weekly growth rate in respiratory deaths<xref rid="irv12439-bib-0019" ref-type="ref">19</xref>, <xref rid="irv12439-bib-0020" ref-type="ref">20</xref> in the two large cities included in our study, Santiago and Concepcion.</p><p>The pandemic growth rate was estimated by fitting an exponential function to the increase in weekly number of respiratory deaths at the start of each pandemic wave,<xref rid="irv12439-bib-0021" ref-type="ref">21</xref> assuming exponentially distributed latent and infectious periods or a fixed generation interval<xref rid="irv12439-bib-0019" ref-type="ref">19</xref> of three or four days.<xref rid="irv12439-bib-0022" ref-type="ref">22</xref>, <xref rid="irv12439-bib-0023" ref-type="ref">23</xref> We also tested the robustness of estimates to the choice of mortality outcomes, ranging from highly specific (excess respiratory deaths) to highly sensitive (all&#x02010;cause deaths).</p></sec></sec></sec><sec id="irv12439-sec-0016"><label>3</label><title>Results</title><sec id="irv12439-sec-0017"><label>3.1</label><title>Newspaper information</title><p>The earliest reports of localized pandemic activity were on July 24, 1957, in Valparaiso, a large seaport north of Santiago, and influenza outbreaks were reported in Santiago 2&#x000a0;days later. The introduction of the pandemic virus was traced back to a US Navy vessel originating from an American port that had stopped in Valparaiso; an influenza&#x02010;like&#x02010;illness outbreak had been reported among the crew. Reports of a recrudescent influenza wave in September and October of 1959 were published in all three newspapers. In contrast, there was no mention of pandemic activity in the winter of 1958.</p></sec><sec id="irv12439-sec-0018"><label>3.2</label><title>Geographic patterns, pandemic waves, and excess mortality</title><p>Consistent with newspaper reports, mortality models indicate the occurrence of winter waves of pandemic&#x02010;related excess mortality in August&#x02010;October 1957 and September&#x02010;November 1959 in Chile (Figures&#x000a0;<xref rid="irv12439-fig-0001" ref-type="fig">1</xref>, <xref rid="irv12439-fig-0002" ref-type="fig">2</xref>). Excess mortality estimates for the main pandemic wave in 1957 were 6.9 per 10&#x000a0;000 for all&#x02010;cause mortality and 6.7 per 10&#x000a0;000 for respiratory mortality. The second pandemic wave in 1959 was less severe with an estimated 5.1 and 3.2 excess deaths per 10&#x000a0;000 for all&#x02010;cause and respiratory diseases, respectively. No significant elevation in mortality was detected from national mortality time series during the winter of 1958. Across the entire pandemic period 1957&#x02010;1959, the cumulative mortality impact in Chile was 12.0 excess all&#x02010;cause deaths per 10&#x000a0;000, corresponding to ~8280 excess deaths or ~0.1% of the entire population.</p><fig fig-type="Figure" xml:lang="en" id="irv12439-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Temporal evolution of all&#x02010;cause mortality rates per 10&#x000a0;000 people during 1953&#x02010;1959 across 25 provinces of Chile, sorted in geographic order from north to south of Chile. For visualization purposes, the time series are log&#x02010;transformed</p></caption><graphic id="nlm-graphic-1" xlink:href="IRV-11-230-g001"/></fig><fig fig-type="Figure" xml:lang="en" id="irv12439-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Monthly time series of all&#x02010;cause and respiratory mortality per 10&#x000a0;000 people in Chile, 1953&#x02010;1959 (black curve). Shaded areas highlight three winter periods (Jun&#x02010;Dec) during 1957&#x02010;1959. The Serfling seasonal regression model baseline (blue curve) and corresponding upper limit of the 95% confidence interval of the baseline (red curve) are also shown</p></caption><graphic id="nlm-graphic-3" xlink:href="IRV-11-230-g002"/></fig><p>Province&#x02010;level all&#x02010;cause mortality time series showed remarkable spatial synchronicity, with excess mortality occurring in August 1957 in 22 provinces, in September 1957 in 2 provinces, and lack of excess mortality in one province (Figure&#x000a0;<xref rid="irv12439-fig-0001" ref-type="fig">1</xref> and Appendix). Excess all&#x02010;cause mortality rates ranged from 0 to 23.4 per 10&#x000a0;000 across provinces for the main pandemic wave in 1957, with the provinces of Colchagua and Concepcion faring the worse (Table&#x000a0;<xref rid="irv12439-tbl-0001" ref-type="table-wrap">1</xref>).</p><table-wrap id="irv12439-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Estimates of excess mortality rates attributable to pandemic influenza based on all&#x02010;cause mortality rates across 25 provinces of Chile. Excess mortality estimates for each wave were computed using a seasonal regression model applied to monthly mortality and presented as rates per 10&#x000a0;000 as described in the text. Provinces are sorted by latitude from north to south Chile</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Provinces</th><th align="left" valign="top" rowspan="1" colspan="1">Jul&#x02010;Dec 1957</th><th align="left" valign="top" rowspan="1" colspan="1">Jun&#x02010;Dec 1958</th><th align="left" valign="top" rowspan="1" colspan="1">Jun&#x02010;Dec 1959</th><th align="left" valign="top" rowspan="1" colspan="1">Cumulative excess mortality rates, 1957&#x02010;1959</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Tarapac&#x000e1;</td><td align="left" rowspan="1" colspan="1">4.2</td><td align="left" rowspan="1" colspan="1">4.9</td><td align="left" rowspan="1" colspan="1">6.3</td><td align="left" rowspan="1" colspan="1">15.4</td></tr><tr><td align="left" rowspan="1" colspan="1">Antofagasta</td><td align="left" rowspan="1" colspan="1">7.2</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">7.2</td></tr><tr><td align="left" rowspan="1" colspan="1">Atacama</td><td align="left" rowspan="1" colspan="1">8.1</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">8.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Coquimbo</td><td align="left" rowspan="1" colspan="1">3.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">3.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Aconcagua</td><td align="left" rowspan="1" colspan="1">7.3</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">10.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Valpara&#x000ed;so</td><td align="left" rowspan="1" colspan="1">4.8</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">4.2</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" rowspan="1" colspan="1">Santiago</td><td align="left" rowspan="1" colspan="1">8.4</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">2.6</td><td align="left" rowspan="1" colspan="1">12.8</td></tr><tr><td align="left" rowspan="1" colspan="1">O' Higgins</td><td align="left" rowspan="1" colspan="1">5.8</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">5.8</td></tr><tr><td align="left" rowspan="1" colspan="1">Colchagua</td><td align="left" rowspan="1" colspan="1">23.4</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">13.8</td><td align="left" rowspan="1" colspan="1">37.2</td></tr><tr><td align="left" rowspan="1" colspan="1">Curic&#x000f3;</td><td align="left" rowspan="1" colspan="1">7.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">7.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Talca</td><td align="left" rowspan="1" colspan="1">5.7</td><td align="left" rowspan="1" colspan="1">4.5</td><td align="left" rowspan="1" colspan="1">5.6</td><td align="left" rowspan="1" colspan="1">15.8</td></tr><tr><td align="left" rowspan="1" colspan="1">Maule</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">4.5</td><td align="left" rowspan="1" colspan="1">8.5</td></tr><tr><td align="left" rowspan="1" colspan="1">Linares</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">4.2</td><td align="left" rowspan="1" colspan="1">5.1</td><td align="left" rowspan="1" colspan="1">9.3</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000d1;uble</td><td align="left" rowspan="1" colspan="1">3.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">10.6</td><td align="left" rowspan="1" colspan="1">14.2</td></tr><tr><td align="left" rowspan="1" colspan="1">Concepci&#x000f3;n</td><td align="left" rowspan="1" colspan="1">10.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">10.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Arauco</td><td align="left" rowspan="1" colspan="1">7.4</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">7.4</td></tr><tr><td align="left" rowspan="1" colspan="1">B&#x000ed;o&#x02010;B&#x000ed;o</td><td align="left" rowspan="1" colspan="1">5.8</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">10.7</td><td align="left" rowspan="1" colspan="1">16.5</td></tr><tr><td align="left" rowspan="1" colspan="1">Malleco</td><td align="left" rowspan="1" colspan="1">6.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">6.1</td><td align="left" rowspan="1" colspan="1">12.7</td></tr><tr><td align="left" rowspan="1" colspan="1">Caut&#x000ed;n</td><td align="left" rowspan="1" colspan="1">7.4</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">4.7</td><td align="left" rowspan="1" colspan="1">12.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Valdivia</td><td align="left" rowspan="1" colspan="1">5.1</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">5.3</td><td align="left" rowspan="1" colspan="1">10.4</td></tr><tr><td align="left" rowspan="1" colspan="1">Osorno</td><td align="left" rowspan="1" colspan="1">4.6</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">4.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Llanquihue</td><td align="left" rowspan="1" colspan="1">3.2</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">3.9</td><td align="left" rowspan="1" colspan="1">7.1</td></tr><tr><td align="left" rowspan="1" colspan="1">Chilo&#x000e9;</td><td align="left" rowspan="1" colspan="1">5.4</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">22.6</td><td align="left" rowspan="1" colspan="1">28</td></tr><tr><td align="left" rowspan="1" colspan="1">Ays&#x000e9;n</td><td align="left" rowspan="1" colspan="1">5.2</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">7.0</td><td align="left" rowspan="1" colspan="1">12.2</td></tr><tr><td align="left" rowspan="1" colspan="1">Magallanes</td><td align="left" rowspan="1" colspan="1">5.4</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">0.0</td><td align="left" rowspan="1" colspan="1">5.4</td></tr><tr><td align="left" rowspan="1" colspan="1">National average</td><td align="left" rowspan="1" colspan="1">7.0</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">3.8</td><td align="left" rowspan="1" colspan="1">11.7</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>While no significant elevation in mortality rates was detected from national time series data in winter 1958, province&#x02010;level data revealed a minor pandemic wave in five Chilean provinces located in the north (n=3) and central regions (n=2) (Table&#x000a0;<xref rid="irv12439-tbl-0001" ref-type="table-wrap">1</xref>). A recrudescent pandemic wave in winter of 1959 generated excess mortality rates in 15 provinces, with rates ranging from 0 to 22.6 excess deaths per 10&#x000a0;000 population. In nine provinces, the brunt of pandemic mortality impact was delayed until the winter of 1959. In particular, in Chilo&#x000e9; Island, the winter 1959 wave accounted for 80% of excess deaths attributed to the entire 1957&#x02010;1959 pandemic period (Table&#x000a0;<xref rid="irv12439-tbl-0001" ref-type="table-wrap">1</xref>). There was no association between excess mortality rates in successive pandemic waves, so that the severity of the second wave was not predictive of the severity of the first wave (&#x003c1;=0.22; <italic>P</italic>&#x0003e;.3).</p><p>Cumulative all&#x02010;cause excess death rates for the 1957&#x02010;1959 pandemic period displayed a ~10&#x02010;fold difference across provinces, from 3.6 per 10&#x000a0;000 in Coquimbo to 37.2 per 10&#x000a0;000 in Colchagua (Table&#x000a0;<xref rid="irv12439-tbl-0001" ref-type="table-wrap">1</xref>, Appendix). Stepwise multivariate regression identified baseline all&#x02010;cause mortality rates as the sole predictor of cumulative excess death rates (<italic>R</italic>
+<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>=42%; <italic>P</italic>=.02). Absolute and relative cumulative mortality burden did not vary systematically with latitude (<italic>P</italic>&#x0003e;.7) or infant mortality rates (<italic>P</italic>&#x0003e;.6). Sensitivity analyses indicated that the ranking and range of province&#x02010;level excess mortality estimates were robust to more sensitive definitions of the epidemic periods and more conservative definitions of the baseline (correlation between methods in estimates of the 1957 and 1959 pandemic waves &#x0003e;0.92, <italic>P</italic>&#x0003c;.1, Table S1 and Fig S5).</p></sec><sec id="irv12439-sec-0019"><label>3.3</label><title>Pandemic age mortality patterns (Concepcion)</title><p>Age&#x02010;specific analyses were limited to Concepcion due to data availability. Based on weekly mortality time series in Concepcion, the brunt of pandemic mortality occurred in July&#x02010;December 1957, while relatively minor mortality elevations were observed in winter 1958 and 1959 (Figure&#x000a0;<xref rid="irv12439-fig-0003" ref-type="fig">3</xref>). All&#x02010;age excess respiratory death rates were estimated at 15.3, 1.5, and 4.3 per 10&#x000a0;000 for these three putative pandemic periods, for a total pandemic burden of 21.2 per 100&#x000a0;000. The all&#x02010;cause excess mortality estimate was similar (22.2 per 10&#x000a0;000 for the total pandemic period), indicating that Concepcion ranked relatively high among provinces with respect to pandemic severity.</p><fig fig-type="Figure" xml:lang="en" id="irv12439-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Age&#x02010;stratified weekly respiratory mortality rates per 10&#x000a0;000 in the city of Concepcion, Chile, 1953&#x02010;1959 (black curve). Shaded areas highlight three winter periods (Jun&#x02010;Dec) during 1957&#x02010;1959. The Serfling seasonal regression model baseline (blue curve) and corresponding upper limit of the 95% confidence interval of the baseline (red curve) are also shown. Excess deaths are above the upper limit of the baseline mortality curve calibrated using mortality levels prior to the 1957 influenza pandemic</p></caption><graphic id="nlm-graphic-5" xlink:href="IRV-11-230-g003"/></fig><p>Age&#x02010;specific excess mortality rates displayed a J&#x02010;shape in all three pandemic periods (Table&#x000a0;<xref rid="irv12439-tbl-0002" ref-type="table-wrap">2</xref>). School&#x02010;age children of 5&#x02010;14&#x000a0;year old (yo) experienced the lowest cumulative excess death rates (1.8 excess respiratory deaths per 10&#x000a0;000), while seniors over 65&#x000a0;yo had the highest rates (166.3 per 10&#x000a0;000, or nearly 2% of all seniors dying). Age patterns were similar in all&#x02010;cause excess mortality rates (Table&#x000a0;<xref rid="irv12439-tbl-0002" ref-type="table-wrap">2</xref>).</p><table-wrap id="irv12439-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Estimates of pandemic excess mortality rates, by pandemic wave, age groups, and cause of death, Concepcion, Chile, 1957&#x02010;59. Excess mortality estimates were based on a seasonal regression model applied to weekly respiratory and all&#x02010;cause mortality and presented as rates per 10&#x000a0;000 population</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Pandemic period</th><th align="left" valign="top" rowspan="1" colspan="1">&#x0003c;5&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">5&#x02010;14&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">15&#x02010;24&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">25&#x02010;49&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">50&#x02010;64&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">&#x0003e;=65&#x000a0;y</th><th align="left" valign="top" rowspan="1" colspan="1">All ages</th></tr></thead><tbody><tr><td align="left" colspan="8" rowspan="1">Respiratory excess death rates per 10&#x000a0;000</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1957&#x02010;Dec 1957</td><td align="left" rowspan="1" colspan="1">46.32</td><td align="left" rowspan="1" colspan="1">1.57</td><td align="left" rowspan="1" colspan="1">2.75</td><td align="left" rowspan="1" colspan="1">8.93</td><td align="left" rowspan="1" colspan="1">20.03</td><td align="left" rowspan="1" colspan="1">99.24</td><td align="left" rowspan="1" colspan="1">15.34</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1958&#x02010;Dec 1958</td><td align="left" rowspan="1" colspan="1">7.14</td><td align="left" rowspan="1" colspan="1">0.23</td><td align="left" rowspan="1" colspan="1">0.19</td><td align="left" rowspan="1" colspan="1">0.16</td><td align="left" rowspan="1" colspan="1">2.30</td><td align="left" rowspan="1" colspan="1">6.40</td><td align="left" rowspan="1" colspan="1">1.51</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1959&#x02010;Dec 1959</td><td align="left" rowspan="1" colspan="1">6.51</td><td align="left" rowspan="1" colspan="1">0.00</td><td align="left" rowspan="1" colspan="1">0.42</td><td align="left" rowspan="1" colspan="1">1.84</td><td align="left" rowspan="1" colspan="1">10.52</td><td align="left" rowspan="1" colspan="1">60.68</td><td align="left" rowspan="1" colspan="1">4.33</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Total pandemic period</td><td align="left" rowspan="1" colspan="1">59.97</td><td align="left" rowspan="1" colspan="1">1.80</td><td align="left" rowspan="1" colspan="1">3.36</td><td align="left" rowspan="1" colspan="1">10.93</td><td align="left" rowspan="1" colspan="1">32.85</td><td align="left" rowspan="1" colspan="1">166.32</td><td align="left" rowspan="1" colspan="1">21.18</td></tr><tr><td align="left" colspan="8" rowspan="1">All&#x02010;cause excess death rates per 10&#x000a0;000</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1957&#x02010;Dec 1957</td><td align="left" rowspan="1" colspan="1">63.72</td><td align="left" rowspan="1" colspan="1">2.02</td><td align="left" rowspan="1" colspan="1">9.20</td><td align="left" rowspan="1" colspan="1">5.89</td><td align="left" rowspan="1" colspan="1">21.77</td><td align="left" rowspan="1" colspan="1">151.40</td><td align="left" rowspan="1" colspan="1">18.18</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1958&#x02010;Dec 1958</td><td align="left" rowspan="1" colspan="1">7.25</td><td align="left" rowspan="1" colspan="1">1.03</td><td align="left" rowspan="1" colspan="1">0.55</td><td align="left" rowspan="1" colspan="1">0.17</td><td align="left" rowspan="1" colspan="1">1.12</td><td align="left" rowspan="1" colspan="1">25.15</td><td align="left" rowspan="1" colspan="1">0.91</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Jul 1959&#x02010;Dec 1959</td><td align="left" rowspan="1" colspan="1">6.32</td><td align="left" rowspan="1" colspan="1">0.44</td><td align="left" rowspan="1" colspan="1">0.02</td><td align="left" rowspan="1" colspan="1">6.27</td><td align="left" rowspan="1" colspan="1">2.82</td><td align="left" rowspan="1" colspan="1">36.10</td><td align="left" rowspan="1" colspan="1">3.08</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Total pandemic period</td><td align="left" rowspan="1" colspan="1">77.29</td><td align="left" rowspan="1" colspan="1">3.49</td><td align="left" rowspan="1" colspan="1">9.77</td><td align="left" rowspan="1" colspan="1">12.33</td><td align="left" rowspan="1" colspan="1">25.71</td><td align="left" rowspan="1" colspan="1">212.65</td><td align="left" rowspan="1" colspan="1">22.17</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Mortality elevation relative to baseline (relative risk of death) varied from 5.7% to 113.4% during the pandemic periods based on all&#x02010;cause or respiratory mortality. Although seniors experienced the highest absolute excess death rates (Table&#x000a0;<xref rid="irv12439-tbl-0002" ref-type="table-wrap">2</xref>), the relative risk of death was highest among young adults aged 15&#x02010;24 during the 1957 and 1958 pandemic waves. There was a shift toward older ages in the third pandemic wave in 1959, with 50&#x02010; to 64&#x02010;year&#x02010;olds experiencing the highest relative burden.</p></sec><sec id="irv12439-sec-0020"><label>3.4</label><title>Transmissibility estimates</title><p>Reproduction number estimates ranged from 1.7 to 2.0 for the 1957 pandemic wave in Santiago, assuming a three&#x02010;day serial interval (Table&#x000a0;<xref rid="irv12439-tbl-0003" ref-type="table-wrap">3</xref>; see Figures&#x000a0;<xref rid="irv12439-fig-0004" ref-type="fig">4</xref>, <xref rid="irv12439-fig-0005" ref-type="fig">5</xref> for the fit of the estimation procedure). Estimates were somewhat lower for the city of Concepcion, ranging from 1.4 to 1.7 (Table&#x000a0;<xref rid="irv12439-tbl-0003" ref-type="table-wrap">3</xref>). Estimates were robust to use of different death outcomes, such as all&#x02010;cause mortality or excess mortality. The reproduction number for the 1959 recrudescent wave at 1.2&#x02010;1.3 in Concepcion was lower than for the first pandemic wave in 1957 (Table&#x000a0;<xref rid="irv12439-tbl-0003" ref-type="table-wrap">3</xref>).</p><table-wrap id="irv12439-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Mean estimates and corresponding 95% confidence intervals for the transmissibility of the main wave of 1957 in Santiago, Chile, Mexico, assuming a serial interval of 3 or 4&#x000a0;d that is either exponentially distributed or fixed (delta distribution)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="top" colspan="1"/><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">3&#x02010;d serial interval</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">4&#x02010;d serial interval</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Exp dist.</th><th align="left" valign="top" rowspan="1" colspan="1">Delta dist.</th><th align="left" valign="top" rowspan="1" colspan="1">Exp. Dist.</th><th align="left" valign="top" rowspan="1" colspan="1">Delta dist.</th></tr></thead><tbody><tr><td align="left" colspan="5" rowspan="1">Santiago, Chile</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Respiratory deaths</td><td align="left" rowspan="1" colspan="1">1.8 (1.7, 1.9)</td><td align="left" rowspan="1" colspan="1">2.0 (1.9, 2.1)</td><td align="left" rowspan="1" colspan="1">2.1 (2.0, 2.3)</td><td align="left" rowspan="1" colspan="1">2.5 (2.3, 2.8)</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;All cause</td><td align="left" rowspan="1" colspan="1">1.7 (1.7, 1.8)</td><td align="left" rowspan="1" colspan="1">1.9 (1.8, 2.0)</td><td align="left" rowspan="1" colspan="1">2.0 (1.9, 2.1)</td><td align="left" rowspan="1" colspan="1">2.3 (2.2, 2.5)</td></tr><tr><td align="left" colspan="5" rowspan="1">Concepcion, Chile</td></tr><tr><td align="left" colspan="5" rowspan="1">&#x000a0;1957 pandemic wave</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Respiratory deaths</td><td align="left" rowspan="1" colspan="1">1.4 (1.3, 1.5)</td><td align="left" rowspan="1" colspan="1">1.4 (1.3, 1.6)</td><td align="left" rowspan="1" colspan="1">1.6 (1.4, 1.7)</td><td align="left" rowspan="1" colspan="1">1.6 (1.4, 1.9)</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;All cause</td><td align="left" rowspan="1" colspan="1">1.6 (1.5, 1.8)</td><td align="left" rowspan="1" colspan="1">1.7 (1.5, 2.0)</td><td align="left" rowspan="1" colspan="1">1.9 (1.6, 2.1)</td><td align="left" rowspan="1" colspan="1">2.1 (1.8, 2.5)</td></tr><tr><td align="left" colspan="5" rowspan="1">1959 pandemic wave</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;Respiratory deaths</td><td align="left" rowspan="1" colspan="1">1.2 (1.1, 1.3)</td><td align="left" rowspan="1" colspan="1">1.2 (1.1, 1.3)</td><td align="left" rowspan="1" colspan="1">1.3 (1.2, 1.4)</td><td align="left" rowspan="1" colspan="1">1.3 (1.2, 1.5)</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;All cause</td><td align="left" rowspan="1" colspan="1">1.2 (1.1, 1.3)</td><td align="left" rowspan="1" colspan="1">1.2 (1.1, 1.3)</td><td align="left" rowspan="1" colspan="1">1.3 (1.2, 1.3)</td><td align="left" rowspan="1" colspan="1">1.3 (1.2, 1.4)</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="irv12439-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Weekly all&#x02010;age all&#x02010;cause and respiratory death counts in Santiago during weeks 29&#x02010;35 in 1957 and corresponding mortality baseline in 1956 during the same period (top). The basic reproduction number was estimated from the exponential growth fit to the initial phase of the excess mortality curve, which was computed by subtracting the 1956 baseline mortality curve to the 1957 pandemic period (bottom)</p></caption><graphic id="nlm-graphic-7" xlink:href="IRV-11-230-g004"/></fig><fig fig-type="Figure" xml:lang="en" id="irv12439-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Weekly all&#x02010;cause and respiratory death counts in Concepcion during weeks 28&#x02010;38 in 1957 and the corresponding mortality baseline based on data from 1953 to 1957 during the same period (top). The basic reproduction number was estimated from the exponential growth fit to the initial phase of the excess mortality curve, which was computed by subtracting the baseline mortality curve to the 1957 pandemic period (bottom)</p></caption><graphic id="nlm-graphic-9" xlink:href="IRV-11-230-g005"/></fig></sec></sec><sec id="irv12439-sec-0021"><label>4</label><title>Discussion</title><p>Analysis of extensive archival mortality statistics, death certificates, and contemporaneous newspaper reports reveals an unusually high excess mortality rate for the 1957&#x02010;59 influenza pandemic in Chile, estimated at 12 excess all&#x02010;cause deaths per 10&#x000a0;000, yielding the highest mortality estimates published for this pandemic. Two distinct pandemic waves occurred in winter 1957 and 1959, with highest pandemic&#x02010;related excess mortality rates occurring in the first wave in most provinces of Chile. In nine provinces however, the brunt of pandemic mortality impact was delayed to winter 1959. Most strikingly, pandemic&#x02010;related excess mortality rates for the period 1957&#x02010;1959 varied ~10&#x02010;fold across the 25 provinces of Chile; 42% of this variability was explained by differences in baseline mortality rates. Seniors experienced the highest pandemic excess death rates, with a shift in pandemic&#x02010;related mortality toward older ages in the later wave. Overall, the J&#x02010;shaped age patterns of mortality described here is in line with US and global studies of the 1957 pandemic.<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0007" ref-type="ref">7</xref>
+</p><p>We relied on excess mortality models applied to monthly all&#x02010;cause deaths to estimate pandemic burden at the province level, in line with prior studies.<xref rid="irv12439-bib-0024" ref-type="ref">24</xref>, <xref rid="irv12439-bib-0025" ref-type="ref">25</xref> Due to the severity of the 1957 pandemic in Chile, use of nonspecific mortality indicators such as monthly all&#x02010;cause mortality provides reliable estimates of influenza burden.<xref rid="irv12439-bib-0024" ref-type="ref">24</xref>, <xref rid="irv12439-bib-0026" ref-type="ref">26</xref> The validity of this approach is reinforced by the close agreement between all&#x02010;cause estimates and more specific estimates derived from respiratory deaths for national&#x02010; or city&#x02010;level data, where both outcomes are available. Further, the near additivity of province&#x02010;specific mortality estimates (~8123 pandemic excess deaths), compared to the national estimates (~8280), supports the internal consistency of the excess mortality approach. Further, pandemic peak timing estimates derived from individual death certificates for Concepcion aligned with those derived from official all&#x02010;cause mortality statistics for the broader province, lending support to these summary statistics. We cannot rule out, however, that underreporting<xref rid="irv12439-bib-0008" ref-type="ref">8</xref> may have affected some of the province&#x02010;level differences evidenced here.</p><p>The onslaught of the pandemic A/H2N2 virus in Chile occurred during the coldest months of 1957, in line with pandemic patterns in other countries of the Southern Hemisphere, including New Zealand and South Africa, and ~5&#x000a0;months after the initial outbreak reports in China.<xref rid="irv12439-bib-0011" ref-type="ref">11</xref> This is in contrast to the 1918&#x02010;19 pandemic, where mortality was delayed until August 1919 in Chile, nearly 10&#x000a0;months after the lethal wave that characterized Northern temperate countries in September&#x02010;November 1918,<xref rid="irv12439-bib-0027" ref-type="ref">27</xref> and more than a year after the earliest available virologic evidence of influenza A/H1N1 virus circulation.<xref rid="irv12439-bib-0028" ref-type="ref">28</xref> Moreover, the timing of the main pandemic wave in winter 1957 was highly synchronous across Chilean provinces, in contrast to the lack of synchrony noted in the 1918&#x02010;20 pandemic in the same country.<xref rid="irv12439-bib-0013" ref-type="ref">13</xref> Increased domestic and international connectivity, and economic development, may have accelerated the spread of the 1957 A/H2N2 influenza pandemic in Chile, relative to the 1918 pandemic.</p><p>We found ~10&#x02010;fold differences in 1957&#x02010;59 pandemic excess death rates across provinces of Chile, which is commensurate with geographic variation reported for the 1918&#x02010;1920 influenza pandemic in the same country.<xref rid="irv12439-bib-0013" ref-type="ref">13</xref> To put these results in greater historical context, Chilean data indicate that the impact of the 1957&#x02010;59 pandemic was ~eightfold lower on average than that of the 1918&#x02010;20 pandemic (interquartile range 7.4&#x02010;13.2 vs 53.6&#x02010;97.2 deaths per 10&#x000a0;000 Wilcoxon test, <italic>P</italic>&#x0003c;.001),<xref rid="irv12439-bib-0013" ref-type="ref">13</xref> and 75&#x02010;fold higher than that of the 2009 pandemic.<xref rid="irv12439-bib-0009" ref-type="ref">9</xref> An association between baseline mortality and pandemic excess death rates was reported in 1918&#x02010;1920<xref rid="irv12439-bib-0013" ref-type="ref">13</xref> and 1957&#x02010;59 (this study), indicating that overall baseline death rates&#x02014;which may be a proxy for degree of development&#x02014;may account for ~40% of variability in pandemic severity at this scale. Underlying population risk factors and socioeconomic conditions<xref rid="irv12439-bib-0029" ref-type="ref">29</xref> were likely more important drivers of pandemic mortality rates than environmental factors. For instance, prior studies have suggested that indigenous groups could have been affected disproportionately from past influenza pandemics.<xref rid="irv12439-bib-0030" ref-type="ref">30</xref>, <xref rid="irv12439-bib-0031" ref-type="ref">31</xref>, <xref rid="irv12439-bib-0032" ref-type="ref">32</xref>
+</p><p>The detailed mortality estimates provided here for Chile reinforce the findings from an earlier global study, pointing to a particularly high impact of the 1957&#x02010;59 pandemic in Chile.<xref rid="irv12439-bib-0007" ref-type="ref">7</xref> Other studies have estimated P&#x00026;I excess mortality rates per 10&#x000a0;000 at 1.2&#x02010;1.8 in the United States for the first pandemic wave in 1957&#x02010;1958,<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0003" ref-type="ref">3</xref>, <xref rid="irv12439-bib-0005" ref-type="ref">5</xref> 1.2 in Canada,<xref rid="irv12439-bib-0003" ref-type="ref">3</xref> and 1.1 in Germany,<xref rid="irv12439-bib-0033" ref-type="ref">33</xref> compared to 6.7 per 10&#x000a0;000 for Chile (Table&#x000a0;<xref rid="irv12439-tbl-0001" ref-type="table-wrap">1</xref>). Reasons for the unusual severity of this pandemic in Chile remain unclear, and it is worth noting that Chile fared relatively well in contrast during the 1918 and 2009 pandemics.<xref rid="irv12439-bib-0009" ref-type="ref">9</xref>, <xref rid="irv12439-bib-0013" ref-type="ref">13</xref>, <xref rid="irv12439-bib-0029" ref-type="ref">29</xref>
+</p><p>Analysis of death certificates from Concepcion allowed for the estimation of age&#x02010;specific burden. Excess mortality rates were lowest in school&#x02010;age children and increased monotonously with older ages, following a J&#x02010;shape reminiscent of US patterns.<xref rid="irv12439-bib-0002" ref-type="ref">2</xref>, <xref rid="irv12439-bib-0034" ref-type="ref">34</xref> This is indicative of lack of mortality protection among people older than 65&#x000a0;years, suggesting no prior exposure to antigenically related A/H2N2 viruses. In contrast, a Dutch study reported the presence of pre&#x02010;pandemic protective antibodies to A/H2 in seniors over ~70&#x000a0;years.<xref rid="irv12439-bib-0035" ref-type="ref">35</xref> The two studies are not necessarily inconsistent, as the size of the relevant age group was small in Concepcion and our study would have been underpowered to detect such an effect. Overall, it is generally accepted that senior sparing did not play a major role in the 1957 pandemic, in contrast to the 1918 and the 2009 pandemics in the United States<xref rid="irv12439-bib-0018" ref-type="ref">18</xref>, <xref rid="irv12439-bib-0026" ref-type="ref">26</xref> and Europe.<xref rid="irv12439-bib-0009" ref-type="ref">9</xref>, <xref rid="irv12439-bib-0036" ref-type="ref">36</xref>, <xref rid="irv12439-bib-0037" ref-type="ref">37</xref>, <xref rid="irv12439-bib-0038" ref-type="ref">38</xref>
+</p><p>Based on weekly city&#x02010;level respiratory deaths, transmissibility of 1957 pandemic wave was significantly higher in Santiago (<italic>R</italic>~1.7&#x02010;2.5) than in Concepcion (<italic>R</italic> ~1.4&#x02010;1.6), perhaps due to higher population density in the capital city. However, transmissibility estimates based on all&#x02010;cause mortality overlapped. We also found a lower <italic>R</italic> estimate for the 1959 pandemic wave in Concepcion (<italic>R</italic> ~1.2&#x02010;1.3), as would be expected with buildup of population immunity. Prior studies have estimated the mean reproduction number of the 1957 influenza pandemic in the range 1.5&#x02010;1.8 in England and Wales,<xref rid="irv12439-bib-0039" ref-type="ref">39</xref>, <xref rid="irv12439-bib-0040" ref-type="ref">40</xref> which aligns well with our estimates. For comparison, the reproduction number for the 1918&#x02010;20 pandemic ranges from 1.5 to 5.4 for community&#x02010;based settings<xref rid="irv12439-bib-0041" ref-type="ref">41</xref>, <xref rid="irv12439-bib-0042" ref-type="ref">42</xref> and from 2.1 to 7.5 in confined settings.<xref rid="irv12439-bib-0041" ref-type="ref">41</xref> Thus, the atypical severity of the 1957 pandemic in Chile does not stem from unusually high transmissibility.</p><p>Our study has several limitations. First, while both respiratory and all&#x02010;cause monthly mortality data were available at the national level from Statistical Yearbooks, only all&#x02010;cause mortality data were available at the regional level. Second, regional data were not stratified by age or gender, preventing further analyses of demographic shifts across regions. Due to the lack of laboratory confirmation, our excess mortality approach would not have been unable to distinguish elevation in mortality rates associated with other causes and coinciding with the pandemic period. For instance, RSV circulation among infants during the pandemic period cannot be ruled out and could have inflated our pandemic mortality estimates in this age group; however, it is unlikely RSV had major impact on estimates for older age groups. Further, review of the gray literature points to influenza as a very plausible etiology for excess mortality occurring in winter 1957 and 1959 in Chile, and these findings are in line with recrudescent waves reported in all major influenza pandemics.<xref rid="irv12439-bib-0038" ref-type="ref">38</xref> A final caveat relates to our excess mortality calculation approach, which was relatively simple, due to the lack of contemporaneous virologic surveillance and relatively weak temporal resolution of the mortality data. However, methods for estimating excess mortality data are not free of limitations.<xref rid="irv12439-bib-0043" ref-type="ref">43</xref> For instance, the excess methodology employed in our study does not guarantee that excess mortality estimates are additive by age group.<xref rid="irv12439-bib-0044" ref-type="ref">44</xref> Sensitivity analyses, however, indicate that our estimates are robust to modeling assumptions (Supplement).</p><p>In conclusion, our historical&#x02010;epidemiological analysis reveals unusually high mortality during the 1957&#x02010;59 influenza pandemic in Chile, the southernmost country of Latin America, with the highest excess mortality estimate published for this pandemic. We found a ~10&#x02010;fold difference in pandemic excess mortality rates between Chilean provinces, with overall baseline mortality rates explaining a moderate amount of variation (40%). Excess mortality rates increased with age, indicating a lack of measurable mortality sparing among senior populations. Overall, our study reinforces the importance of geographic variation in pandemic mortality burden between and within countries, echoing recent work on past pandemics.<xref rid="irv12439-bib-0007" ref-type="ref">7</xref>, <xref rid="irv12439-bib-0009" ref-type="ref">9</xref>, <xref rid="irv12439-bib-0029" ref-type="ref">29</xref> Such variability needs to be recognized, especially in light of WHO's anticipated inclusion of a severity indicator as an element of future pandemic responses. We recommend that pandemic severity assessment should be based on multiple &#x0201c;sentinel&#x0201d; countries representing several world regions representing a variety of health and income conditions.</p></sec><sec id="irv12439-sec-0023"><title>Conflict of Interest</title><p>The authors declare no conflict of interest relevant to this study.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="irv12439-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="IRV-11-230-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="irv12439-sec-0022"><title>Acknowledgements</title><p>We thank Benjamin J. Castillo Fierro, Miriam San Martin, and Marucella Sepulveda Prado for assistance with data collection. This work was partially supported by the Multinational Influenza Seasonal Mortality Study (MISMS), an ongoing international collaborative effort to understand influenza epidemiological and evolutionary patterns, led by the Fogarty International Center, National Institutes of Health (<ext-link ext-link-type="uri" xlink:href="http://www.origem.info/misms/index.php">http://www.origem.info/misms/index.php</ext-link>). Funding for this project comes in part (LS) from the RAPIDD program of the Science &#x00026; Technology Directorate, Department of Homeland Security, the Lundbeck Foundation in Denmark, and from the Office of Global Affairs' International Influenza Unit in the Office of the Secretary of the Department of Health and Human Services.</p></ack><ref-list content-type="cited-references" id="irv12439-bibl-0001"><title>References</title><ref id="irv12439-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="irv12439-cit-0001">
+<string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, et&#x000a0;al. <article-title>The need for interdisciplinary studies of historic pandemics</article-title>. <source>Vaccine</source>. <year>2011</year>;<volume>29</volume>(<issue>Suppl 2</issue>):<fpage>B1</fpage>&#x02013;<lpage>B5</lpage>.<pub-id pub-id-type="pmid">21757096</pub-id></mixed-citation></ref><ref id="irv12439-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="irv12439-cit-0002">
+<string-name>
+<surname>Serfling</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name>
+<surname>Sherman</surname>
+<given-names>IL</given-names>
+</string-name>, <string-name>
+<surname>Houseworth</surname>
+<given-names>WJ</given-names>
+</string-name>. <article-title>Excess pneumonia&#x02010;influenza mortality by age and sex in three major influenza A2 epidemics, United States, 1957&#x02010;58, 1960 and 1963</article-title>. <source>Am J Epidemiol</source>. <year>1967</year>;<volume>86</volume>:<fpage>433</fpage>&#x02013;<lpage>441</lpage>.<pub-id pub-id-type="pmid">6058395</pub-id></mixed-citation></ref><ref id="irv12439-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="irv12439-cit-0003">
+<string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Tam</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Fleming</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>1951 influenza epidemic, England and Wales, Canada, and the United States</article-title>. <source>Emerg Infect Dis</source>. <year>2006</year>;<volume>12</volume>:<fpage>661</fpage>&#x02013;<lpage>668</lpage>.<pub-id pub-id-type="pmid">16704816</pub-id></mixed-citation></ref><ref id="irv12439-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="irv12439-cit-0004">
+<string-name>
+<surname>Lee</surname>
+<given-names>VJ</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>MI</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>
+<given-names>SP</given-names>
+</string-name>, et&#x000a0;al. <article-title>Influenza pandemics in Singapore, a tropical, globally connected city</article-title>. <source>Emerg Infect Dis</source>. <year>2007</year>;<volume>13</volume>:<fpage>1052</fpage>&#x02013;<lpage>1057</lpage>.<pub-id pub-id-type="pmid">18214178</pub-id></mixed-citation></ref><ref id="irv12439-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="irv12439-cit-0005">
+<string-name>
+<surname>Housworth</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Langmuir</surname>
+<given-names>AD</given-names>
+</string-name>. <article-title>Excess mortality from epidemic influenza, 1957&#x02010;1966</article-title>. <source>Am J Epidemiol</source>. <year>1974</year>;<volume>100</volume>:<fpage>40</fpage>&#x02013;<lpage>48</lpage>.<pub-id pub-id-type="pmid">4858301</pub-id></mixed-citation></ref><ref id="irv12439-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="irv12439-cit-0006">
+<string-name>
+<surname>Ma</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dushoff</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Earn</surname>
+<given-names>DJ</given-names>
+</string-name>. <article-title>Age&#x02010;specific mortality risk from pandemic influenza</article-title>. <source>J Theor Biol</source>. <year>2011</year>;<volume>288</volume>:<fpage>29</fpage>&#x02013;<lpage>34</lpage>.<pub-id pub-id-type="pmid">21856313</pub-id></mixed-citation></ref><ref id="irv12439-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="irv12439-cit-0007">
+<string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Fuentes</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Flores</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Global Mortality Impact of the 1957&#x02010;1959 Influenza Pandemic</article-title>. <source>J Infect Dis</source>. <year>2016</year>;<volume>213</volume>:<fpage>738</fpage>&#x02013;<lpage>745</lpage>.<pub-id pub-id-type="pmid">26908781</pub-id></mixed-citation></ref><ref id="irv12439-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="irv12439-cit-0008">
+<string-name>
+<surname>Johnson</surname>
+<given-names>NP</given-names>
+</string-name>, <string-name>
+<surname>Mueller</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Updating the accounts: global mortality of the 1918&#x02010;1920 &#x0201c;Spanish&#x0201d; influenza pandemic</article-title>. <source>Bull Hist Med</source>. <year>2002</year> Spring;<volume>76</volume>:<fpage>105</fpage>&#x02013;<lpage>115</lpage>.<pub-id pub-id-type="pmid">11875246</pub-id></mixed-citation></ref><ref id="irv12439-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="irv12439-cit-0009">
+<string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Spreeuwenberg</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Lustig</surname>
+<given-names>R</given-names>
+</string-name>, et&#x000a0;al. <article-title>Global mortality estimates for the 2009 Influenza Pandemic from the GLaMOR project: a modeling study</article-title>. <source>PLoS Med</source>. <year>2013</year>;<volume>10</volume>:<fpage>e1001558</fpage>.<pub-id pub-id-type="pmid">24302890</pub-id></mixed-citation></ref><ref id="irv12439-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="irv12439-cit-0010">
+<string-name>
+<surname>Dunn</surname>
+<given-names>FL</given-names>
+</string-name>. <article-title>Pandemic influenza in 1957; review of international spread of new Asian strain</article-title>. <source>J Am Med Assoc</source>. <year>1958</year>;<volume>166</volume>:<fpage>1140</fpage>&#x02013;<lpage>1148</lpage>.<pub-id pub-id-type="pmid">13513331</pub-id></mixed-citation></ref><ref id="irv12439-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="irv12439-cit-0011">
+<string-name>
+<surname>Payne</surname>
+<given-names>AM</given-names>
+</string-name>. <article-title>Some aspects of the epidemiology of the 1957 influenza pandemic</article-title>. <source>Proc R Soc Med</source>. <year>1958</year>;<volume>51</volume>:<fpage>1009</fpage>&#x02013;<lpage>1015</lpage>.<pub-id pub-id-type="pmid">13623821</pub-id></mixed-citation></ref><ref id="irv12439-bib-0012"><label>12</label><mixed-citation publication-type="book" id="irv12439-cit-0012">
+<collab collab-type="authors">Anuarios Estadisticos de la Republica de Chile (1915&#x02010;1920)</collab>
+. <source>Oficina Central de Estadistica</source>, Vols. <volume>1&#x02010;2</volume>
+<publisher-loc>Santiago de Chile</publisher-loc>: <publisher-name>Soc. Imp. Lit. Universo</publisher-name>; <year>1915</year>&#x02010;1921.</mixed-citation></ref><ref id="irv12439-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="irv12439-cit-0013">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Flores</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Death patterns during the 1918 influenza pandemic in Chile</article-title>. <source>Emerg Infect Dis</source>. <year>2014</year>;<volume>20</volume>:<fpage>1803</fpage>&#x02013;<lpage>1811</lpage>.<pub-id pub-id-type="pmid">25341056</pub-id></mixed-citation></ref><ref id="irv12439-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="irv12439-cit-0014">
+<string-name>
+<surname>Valenzuela</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Horwitz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ristori</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Boccardo</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Borgono</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Bertin</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>Symposium sobre la epidemia de influenza en la ciudad de Santiago: Aspectos epidemiologicos y medidas de control</article-title>. <source>Revista del Servicio Nacional</source>. <year>1957</year>;<volume>II</volume>:<fpage>323</fpage>&#x02013;<lpage>349</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="irv12439-cit-0015">
+<string-name>
+<surname>Valenzuela</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Horwitz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ristori</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Boccardo</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Borgo&#x000f1;o</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Bertin</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>Aspectos epidemiologicos y medidas de control de la epidemia de influenza en al ciudad de Santiago de Chile</article-title>. <source>Bolet&#x000ed;n de la Oficina Sanitaria Panamericana (OSP)</source>. <year>1958</year>;<volume>44</volume>:<fpage>316</fpage>&#x02013;<lpage>329</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="irv12439-cit-0016">
+<string-name>
+<surname>Serfling</surname>
+<given-names>RE</given-names>
+</string-name>. <article-title>Methods for current statistical analysis of excess pneumonia&#x02010;influenza deaths</article-title>. <source>Public Health Rep</source>. <year>1963</year>;<volume>78</volume>:<fpage>494</fpage>&#x02013;<lpage>506</lpage>.<pub-id pub-id-type="pmid">19316455</pub-id></mixed-citation></ref><ref id="irv12439-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="irv12439-cit-0017">
+<string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Grais</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name>
+<surname>Lafont</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Multinational impact of the 1968 Hong Kong influenza pandemic: evidence for a smoldering pandemic</article-title>. <source>J Infect Dis</source>. <year>2005</year>;<volume>192</volume>:<fpage>233</fpage>&#x02013;<lpage>248</lpage>.<pub-id pub-id-type="pmid">15962218</pub-id></mixed-citation></ref><ref id="irv12439-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="irv12439-cit-0018">
+<string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Eisenstein</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Reid</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name>
+<surname>Janczewski</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Morens</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Taubenberger</surname>
+<given-names>JK</given-names>
+</string-name>. <article-title>Age&#x02010; and sex&#x02010;specific mortality associated with the 1918&#x02010;1919 influenza pandemic in Kentucky</article-title>. <source>J Infect Dis</source>. <year>2013</year>;<volume>207</volume>:<fpage>721</fpage>&#x02013;<lpage>729</lpage>.<pub-id pub-id-type="pmid">23230061</pub-id></mixed-citation></ref><ref id="irv12439-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="irv12439-cit-0019">
+<string-name>
+<surname>Wallinga</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lipsitch</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>How generation intervals shape the relationship between growth rates and reproductive numbers</article-title>. <source>Proc Biol Sci R Soc</source>. <year>2007</year>;<volume>274</volume>:<fpage>599</fpage>&#x02013;<lpage>604</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="irv12439-cit-0020">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Bettencourt</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Alonso</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>The 1918&#x02010;1919 influenza pandemic in England and Wales: spatial patterns in transmissibility and mortality impact</article-title>. <source>Proc Biol Sci R Soc</source>. <year>2008</year>;<volume>275</volume>:<fpage>501</fpage>&#x02013;<lpage>509</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="irv12439-cit-0021">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Nishiura</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Bettencourt</surname>
+<given-names>LM</given-names>
+</string-name>. <article-title>Comparative estimation of the reproduction number for pandemic influenza from daily case notification data</article-title>. <source>J R Soc Interface</source>. <year>2007</year>;<volume>4</volume>:<fpage>155</fpage>&#x02013;<lpage>166</lpage>.<pub-id pub-id-type="pmid">17254982</pub-id></mixed-citation></ref><ref id="irv12439-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="irv12439-cit-0022">
+<string-name>
+<surname>Fraser</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Donnelly</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Cauchemez</surname>
+<given-names>S</given-names>
+</string-name>, et&#x000a0;al. <article-title>Pandemic potential of a strain of influenza A (H1N1): early findings</article-title>. <source>Science</source>. <year>2009</year>;<volume>324</volume>:<fpage>1557</fpage>&#x02013;<lpage>1561</lpage>.<pub-id pub-id-type="pmid">19433588</pub-id></mixed-citation></ref><ref id="irv12439-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="irv12439-cit-0023">
+<string-name>
+<surname>Cowling</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>
+<given-names>KH</given-names>
+</string-name>, <string-name>
+<surname>Fang</surname>
+<given-names>VJ</given-names>
+</string-name>, et&#x000a0;al. <article-title>Comparative epidemiology of pandemic and seasonal influenza A in households</article-title>. <source>N Engl J Med</source>. <year>2010</year>;<volume>362</volume>:<fpage>2175</fpage>&#x02013;<lpage>2184</lpage>.<pub-id pub-id-type="pmid">20558368</pub-id></mixed-citation></ref><ref id="irv12439-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="irv12439-cit-0024">
+<string-name>
+<surname>Ansart</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Pelat</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Boelle</surname>
+<given-names>PY</given-names>
+</string-name>, <string-name>
+<surname>Carrat</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Flahault</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Valleron</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>Mortality burden of the 1918&#x02010;1919 influenza pandemic in Europe</article-title>. <source>Influenza Other Respi Viruses</source>. <year>2009</year>;<volume>3</volume>:<fpage>99</fpage>&#x02013;<lpage>106</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="irv12439-cit-0025">
+<string-name>
+<surname>Andreasen</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>The perils of using annual all&#x02010;cause mortality data to estimate pandemic influenza burden</article-title>. <source>Vaccine</source>. <year>2011</year>;<volume>22</volume>(<issue>29 Suppl 2</issue>):<fpage>B49</fpage>&#x02013;<lpage>B55</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="irv12439-cit-0026">
+<string-name>
+<surname>Olson</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Edelson</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name>
+<surname>Morse</surname>
+<given-names>SS</given-names>
+</string-name>. <article-title>Epidemiological evidence of an early wave of the 1918 influenza pandemic in New York City</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2005</year>;<volume>102</volume>:<fpage>11059</fpage>&#x02013;<lpage>11063</lpage>.<pub-id pub-id-type="pmid">16046546</pub-id></mixed-citation></ref><ref id="irv12439-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="irv12439-cit-0027">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>, et&#x000a0;al. <article-title>The 1918&#x02010;19 influenza pandemic in Boyaca, Colombia</article-title>. <source>Emerging infectious diseases</source>. <year>2012</year>;<volume>18</volume>:<fpage>48</fpage>&#x02013;<lpage>56</lpage>.<pub-id pub-id-type="pmid">22257780</pub-id></mixed-citation></ref><ref id="irv12439-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="irv12439-cit-0028">
+<string-name>
+<surname>Sheng</surname>
+<given-names>Z&#x02010;M</given-names>
+</string-name>, <string-name>
+<surname>Chertow</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Ambroggio</surname>
+<given-names>X</given-names>
+</string-name>, et&#x000a0;al. <article-title>Autopsy series of 68 cases dying before and during the 1918 influenza pandemic peak</article-title>. <source>Proc Natl Acad Sci USA</source>. <year>2011</year>;<volume>108</volume>:<fpage>16416</fpage>&#x02013;<lpage>16421</lpage>.<pub-id pub-id-type="pmid">21930918</pub-id></mixed-citation></ref><ref id="irv12439-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="irv12439-cit-0029">
+<string-name>
+<surname>Murray</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Lopez</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>Chin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Feehan</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Hill</surname>
+<given-names>KH</given-names>
+</string-name>. <article-title>Estimation of potential global pandemic influenza mortality on the basis of vital registry data from the 1918&#x02010;20 pandemic: a quantitative analysis</article-title>. <source>Lancet</source>. <year>2006</year>;<volume>368</volume>:<fpage>2211</fpage>&#x02013;<lpage>2218</lpage>.<pub-id pub-id-type="pmid">17189032</pub-id></mixed-citation></ref><ref id="irv12439-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="irv12439-cit-0030">
+<string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Erkoreka</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Echeverri&#x02010;Davila</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Spatial&#x02010;temporal excess mortality patterns of the 1918&#x02010;1919 influenza pandemic in Spain</article-title>. <source>BMC Infect Dis.</source>
+<year>2014</year>;<volume>14</volume>:<fpage>371</fpage>. doi: <ext-link ext-link-type="doi" xlink:href="10.1186/1471-2334-14-371">10.1186/1471&#x02010;2334&#x02010;14&#x02010;371</ext-link>.<pub-id pub-id-type="pmid">24996457</pub-id></mixed-citation></ref><ref id="irv12439-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="irv12439-cit-0031">
+<string-name>
+<surname>Wilson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Barnard</surname>
+<given-names>LT</given-names>
+</string-name>, <string-name>
+<surname>Summers</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Shanks</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name>
+<surname>Baker</surname>
+<given-names>MG</given-names>
+</string-name>. <article-title>Differential mortality rates by ethnicity in 3 influenza pandemics over a century, New Zealand</article-title>. <source>Emerg Infect Diseases</source>. <year>2012</year>;<volume>18</volume>:<fpage>71</fpage>&#x02013;<lpage>77</lpage>.<pub-id pub-id-type="pmid">22257434</pub-id></mixed-citation></ref><ref id="irv12439-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="irv12439-cit-0032">
+<string-name>
+<surname>Mamelund</surname>
+<given-names>SE</given-names>
+</string-name>. <article-title>Spanish influenza mortality of ethnic minorities in Norway 1918&#x02010;1919</article-title>. <source>Eur J Popul</source>. <year>2003</year>;<volume>19</volume>:<fpage>83</fpage>&#x02013;<lpage>102</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="irv12439-cit-0033">
+<string-name>
+<surname>Uphoff</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Stilianakis</surname>
+<given-names>NI</given-names>
+</string-name>. <article-title>Influenza&#x02010;associated excess mortality from monthly total mortality data for Germany from 1947 to 2000</article-title>. <source>Methods Inf Med</source>. <year>2004</year>;<volume>43</volume>:<fpage>486</fpage>&#x02013;<lpage>492</lpage>.<pub-id pub-id-type="pmid">15702207</pub-id></mixed-citation></ref><ref id="irv12439-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="irv12439-cit-0034">
+<string-name>
+<surname>Housworth</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name>
+<surname>Spoon</surname>
+<given-names>MM</given-names>
+</string-name>. <article-title>The age distribution of excess mortality during A2 Hong Kong influenza epidemics compared with earlier A2 outbreaks</article-title>. <source>Am J Epidemiol</source>. <year>1971</year>;<volume>94</volume>:<fpage>348</fpage>&#x02013;<lpage>350</lpage>.<pub-id pub-id-type="pmid">5110551</pub-id></mixed-citation></ref><ref id="irv12439-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="irv12439-cit-0035">
+<string-name>
+<surname>Mulder</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Masurel</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Pre&#x02010;epidemic antibody against 1957 strain of Asiatic influenza in serum of older people living in the Netherlands</article-title>. <source>Lancet</source>. <year>1958</year>;<volume>1</volume>:<fpage>810</fpage>&#x02013;<lpage>814</lpage>.<pub-id pub-id-type="pmid">13526279</pub-id></mixed-citation></ref><ref id="irv12439-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="irv12439-cit-0036">
+<string-name>
+<surname>Erkoreka</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>The Spanish influenza pandemic in occidental Europe (1918&#x02010;1920) and victim age</article-title>. <source>Influenza Other Respi Viruses</source>. <year>2010</year>;<volume>4</volume>:<fpage>81</fpage>&#x02013;<lpage>89</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="irv12439-cit-0037">
+<string-name>
+<surname>Francis</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>On the doctrine of original antigenic sin</article-title>. <source>Proc Am Philos Soc</source>. <year>1960</year>;<volume>104</volume>:<fpage>572</fpage>&#x02013;<lpage>578</lpage>.</mixed-citation></ref><ref id="irv12439-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="irv12439-cit-0038">
+<string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Balinska</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>The signature features of influenza pandemics&#x02013;implications for policy</article-title>. <source>N Engl J Med</source>. <year>2009</year>;<volume>360</volume>:<fpage>2595</fpage>&#x02013;<lpage>2598</lpage>.<pub-id pub-id-type="pmid">19423872</pub-id></mixed-citation></ref><ref id="irv12439-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="irv12439-cit-0039">
+<string-name>
+<surname>Viboud</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Tam</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Fleming</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Handel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Simonsen</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Transmissibility and mortality impact of epidemic and pandemic influenza, with emphasis on the unusually deadly 1951 epidemic</article-title>. <source>Vaccine</source>. <year>2006</year>;<volume>24</volume>:<fpage>6701</fpage>&#x02013;<lpage>6707</lpage>.<pub-id pub-id-type="pmid">16806596</pub-id></mixed-citation></ref><ref id="irv12439-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="irv12439-cit-0040">
+<string-name>
+<surname>Vynnycky</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Edmunds</surname>
+<given-names>WJ</given-names>
+</string-name>. <article-title>Analyses of the 1957 (Asian) influenza pandemic in the United Kingdom and the impact of school closures</article-title>. <source>Epidemiol Infect</source>. <year>2008</year>;<volume>136</volume>:<fpage>166</fpage>&#x02013;<lpage>179</lpage>.<pub-id pub-id-type="pmid">17445311</pub-id></mixed-citation></ref><ref id="irv12439-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="irv12439-cit-0041">
+<string-name>
+<surname>Vynnycky</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Trindall</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mangtani</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Estimates of the reproduction numbers of Spanish influenza using morbidity data</article-title>. <source>Int J Epidemiol</source>. <year>2007</year>;<volume>36</volume>:<fpage>881</fpage>&#x02013;<lpage>889</lpage>.<pub-id pub-id-type="pmid">17517812</pub-id></mixed-citation></ref><ref id="irv12439-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="irv12439-cit-0042">
+<string-name>
+<surname>Mills</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Robins</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Lipsitch</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Transmissibility of 1918 pandemic influenza</article-title>. <source>Nature</source>. <year>2004</year>;<volume>432</volume>:<fpage>904</fpage>&#x02013;<lpage>906</lpage>.<pub-id pub-id-type="pmid">15602562</pub-id></mixed-citation></ref><ref id="irv12439-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="irv12439-cit-0043">
+<string-name>
+<surname>Reichert</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Chowell</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>McCullers</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>The age distribution of mortality due to influenza: pandemic and peri&#x02010;pandemic</article-title>. <source>BMC Med</source>. <year>2012</year>;<volume>10</volume>:<fpage>162</fpage>.<pub-id pub-id-type="pmid">23234604</pub-id></mixed-citation></ref><ref id="irv12439-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="irv12439-cit-0044">
+<string-name>
+<surname>Reichert</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Christensen</surname>
+<given-names>RA</given-names>
+</string-name>. <article-title>It's not about smoldering or neuraminidase: there were 2 variants of the A(H3N2) pandemic virus differing in internal genes</article-title>. <source>J Infect Dis</source>. <year>2005</year>;<volume>192</volume>:<fpage>1858</fpage>&#x02013;<lpage>1860</lpage>; author reply 60&#x02010;2.<pub-id pub-id-type="pmid">16235189</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,1449 @@
+{
+  "id": [
+    "28427430"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28427430"
+  ],
+  "pmcid": [
+    "PMC5397751"
+  ],
+  "doi": [
+    "10.1186/s13104-017-2479-y"
+  ],
+  "title": [
+    "Profile and professional expectations of medical students from 11 Latin American countries: the Red-LIRHUS project."
+  ],
+  "authorString": [
+    "Mayta-Tristán P, Pereyra-Elías R, Montenegro-Idrogo JJ, Mejia CR, Inga-Berrospi F, Mezones-Holguín E, Red-LIRHUS (Grupo Colaborativo Latinoamericano para la Investigación en Recursos Humanos en Salud)."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mayta-Tristán P"
+          ],
+          "firstName": [
+            "Percy"
+          ],
+          "lastName": [
+            "Mayta-Tristán"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0861-6606",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Peru. p.mayta@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Pereyra-Elías R"
+          ],
+          "firstName": [
+            "Reneé"
+          ],
+          "lastName": [
+            "Pereyra-Elías"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Montenegro-Idrogo JJ"
+          ],
+          "firstName": [
+            "Juan José"
+          ],
+          "lastName": [
+            "Montenegro-Idrogo"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Mejia CR"
+          ],
+          "firstName": [
+            "Christian R"
+          ],
+          "lastName": [
+            "Mejia"
+          ],
+          "initials": [
+            "CR"
+          ],
+          "affiliation": [
+            "Escuela de Medicina Humana, Universidad Continental, Huancayo, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Inga-Berrospi F"
+          ],
+          "firstName": [
+            "Fiorella"
+          ],
+          "lastName": [
+            "Inga-Berrospi"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Mezones-Holguín E"
+          ],
+          "firstName": [
+            "Edward"
+          ],
+          "lastName": [
+            "Mezones-Holguín"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Peru."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Red-LIRHUS (Grupo Colaborativo Latinoamericano para la Investigación en Recursos Humanos en Salud)"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Sanchez-Pozo A"
+          ],
+          "firstName": [
+            "Adriana"
+          ],
+          "lastName": [
+            "Sanchez-Pozo"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Cardozo-López JP"
+          ],
+          "firstName": [
+            "Juan Pablo"
+          ],
+          "lastName": [
+            "Cardozo-López"
+          ],
+          "initials": [
+            "JP"
+          ]
+        },
+        {
+          "fullName": [
+            "Luizaga-Panozo S"
+          ],
+          "firstName": [
+            "Silvia"
+          ],
+          "lastName": [
+            "Luizaga-Panozo"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Theodorus-Villar R"
+          ],
+          "firstName": [
+            "Rhanniel"
+          ],
+          "lastName": [
+            "Theodorus-Villar"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal M"
+          ],
+          "firstName": [
+            "Milisen"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda-Morales R"
+          ],
+          "firstName": [
+            "Roxana"
+          ],
+          "lastName": [
+            "Sepúlveda-Morales"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Abudinén A G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Abudinén A"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Alfaro-Toloza P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Alfaro-Toloza"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Olmos-de-Aguilera R"
+          ],
+          "firstName": [
+            "Romina"
+          ],
+          "lastName": [
+            "Olmos-de-Aguilera"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez-Gonzáles JP"
+          ],
+          "firstName": [
+            "Juan Pablo"
+          ],
+          "lastName": [
+            "Sánchez-Gonzáles"
+          ],
+          "initials": [
+            "JP"
+          ]
+        },
+        {
+          "fullName": [
+            "Navarro-Brito I"
+          ],
+          "firstName": [
+            "Ignacio"
+          ],
+          "lastName": [
+            "Navarro-Brito"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "Sierra-Avendaño JA"
+          ],
+          "firstName": [
+            "Jairo A"
+          ],
+          "lastName": [
+            "Sierra-Avendaño"
+          ],
+          "initials": [
+            "JA"
+          ]
+        },
+        {
+          "fullName": [
+            "Carreño F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Carreño"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez-Alhach J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Gomez-Alhach"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Bonilla-Escobar F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Bonilla-Escobar"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Calixto OJ"
+          ],
+          "firstName": [
+            "Omar-Javier"
+          ],
+          "lastName": [
+            "Calixto"
+          ],
+          "initials": [
+            "OJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Mondragón-Cardona Á"
+          ],
+          "firstName": [
+            "Álvaro"
+          ],
+          "lastName": [
+            "Mondragón-Cardona"
+          ],
+          "initials": [
+            "Á"
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega-Arias J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Ortega-Arias"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Agudelo-Cifuentes L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Agudelo-Cifuentes"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta K"
+          ],
+          "firstName": [
+            "Kevin"
+          ],
+          "lastName": [
+            "Acosta"
+          ],
+          "initials": [
+            "K"
+          ]
+        },
+        {
+          "fullName": [
+            "Ospina M"
+          ],
+          "firstName": [
+            "Martha"
+          ],
+          "lastName": [
+            "Ospina"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Londoño Ruíz GD"
+          ],
+          "firstName": [
+            "Germán D"
+          ],
+          "lastName": [
+            "Londoño Ruíz"
+          ],
+          "initials": [
+            "GD"
+          ]
+        },
+        {
+          "fullName": [
+            "Quimbayo-Cifuentes AF"
+          ],
+          "firstName": [
+            "Andrés Felipe"
+          ],
+          "lastName": [
+            "Quimbayo-Cifuentes"
+          ],
+          "initials": [
+            "AF"
+          ]
+        },
+        {
+          "fullName": [
+            "Benítez-Ortega I"
+          ],
+          "firstName": [
+            "Ingrid"
+          ],
+          "lastName": [
+            "Benítez-Ortega"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "Valverde-Lozano CD"
+          ],
+          "firstName": [
+            "Christian D"
+          ],
+          "lastName": [
+            "Valverde-Lozano"
+          ],
+          "initials": [
+            "CD"
+          ]
+        },
+        {
+          "fullName": [
+            "Barrezueta-Fernández J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Barrezueta-Fernández"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Cerna-Urrutia L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Cerna-Urrutia"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Moya G"
+          ],
+          "firstName": [
+            "Geovanna"
+          ],
+          "lastName": [
+            "Moya"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Yescas G"
+          ],
+          "firstName": [
+            "Gilberto"
+          ],
+          "lastName": [
+            "Yescas"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Vizárraga-León M"
+          ],
+          "firstName": [
+            "Maribel"
+          ],
+          "lastName": [
+            "Vizárraga-León"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Gutierrez-Quezada E"
+          ],
+          "firstName": [
+            "Erick"
+          ],
+          "lastName": [
+            "Gutierrez-Quezada"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Azucas-Peralta R"
+          ],
+          "firstName": [
+            "Rita"
+          ],
+          "lastName": [
+            "Azucas-Peralta"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Vasquez-Sullca RR"
+          ],
+          "firstName": [
+            "Roy R"
+          ],
+          "lastName": [
+            "Vasquez-Sullca"
+          ],
+          "initials": [
+            "RR"
+          ]
+        },
+        {
+          "fullName": [
+            "Grandez-Urbina JA"
+          ],
+          "firstName": [
+            "José Antonio"
+          ],
+          "lastName": [
+            "Grandez-Urbina"
+          ],
+          "initials": [
+            "JA"
+          ]
+        },
+        {
+          "fullName": [
+            "León-Jiménez F"
+          ],
+          "firstName": [
+            "Franco"
+          ],
+          "lastName": [
+            "León-Jiménez"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz-Velez C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Diaz-Velez"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Cabrera-Enriquez J"
+          ],
+          "firstName": [
+            "John"
+          ],
+          "lastName": [
+            "Cabrera-Enriquez"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Inga-Berrospi F"
+          ],
+          "firstName": [
+            "Fiorella"
+          ],
+          "lastName": [
+            "Inga-Berrospi"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Montalván-Muñoz K"
+          ],
+          "firstName": [
+            "Katia"
+          ],
+          "lastName": [
+            "Montalván-Muñoz"
+          ],
+          "initials": [
+            "K"
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno-Loaiza O"
+          ],
+          "firstName": [
+            "Oscar"
+          ],
+          "lastName": [
+            "Moreno-Loaiza"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6675-6562",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Molina-Torres M"
+          ],
+          "firstName": [
+            "María"
+          ],
+          "lastName": [
+            "Molina-Torres"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Ávila-Figueroa J"
+          ],
+          "firstName": [
+            "Johana"
+          ],
+          "lastName": [
+            "Ávila-Figueroa"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Torres-Dextre M"
+          ],
+          "firstName": [
+            "Martha"
+          ],
+          "lastName": [
+            "Torres-Dextre"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Purizaca-Rosillo N"
+          ],
+          "firstName": [
+            "Nelson"
+          ],
+          "lastName": [
+            "Purizaca-Rosillo"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Raraz-Vidal O"
+          ],
+          "firstName": [
+            "Omar"
+          ],
+          "lastName": [
+            "Raraz-Vidal"
+          ],
+          "initials": [
+            "O"
+          ]
+        },
+        {
+          "fullName": [
+            "Valencia-Chambi DE"
+          ],
+          "firstName": [
+            "Diego Ernesto"
+          ],
+          "lastName": [
+            "Valencia-Chambi"
+          ],
+          "initials": [
+            "DE"
+          ]
+        },
+        {
+          "fullName": [
+            "Alfonso M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Alfonso"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Lizarzaburu-Castagnino D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Lizarzaburu-Castagnino"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Mogollón C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Mogollón"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Maquera-Afaray J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Maquera-Afaray"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Johnson-Franco M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Johnson-Franco"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Florián-Gómez G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "Florián-Gómez"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Castro JJ"
+          ],
+          "firstName": [
+            "Jimmy Jeison"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "JJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Jhonston EJ"
+          ],
+          "firstName": [
+            "Erik J"
+          ],
+          "lastName": [
+            "Jhonston"
+          ],
+          "initials": [
+            "EJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Odar-Sampé M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Odar-Sampé"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez-García GR"
+          ],
+          "firstName": [
+            "Gelsing Richard"
+          ],
+          "lastName": [
+            "Vásquez-García"
+          ],
+          "initials": [
+            "GR"
+          ]
+        },
+        {
+          "fullName": [
+            "Herencia-Anaya K"
+          ],
+          "firstName": [
+            "Kelly"
+          ],
+          "lastName": [
+            "Herencia-Anaya"
+          ],
+          "initials": [
+            "K"
+          ]
+        },
+        {
+          "fullName": [
+            "Ancalli-Calizaya F"
+          ],
+          "firstName": [
+            "Felix"
+          ],
+          "lastName": [
+            "Ancalli-Calizaya"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Guzmán L"
+          ],
+          "firstName": [
+            "Lizeth"
+          ],
+          "lastName": [
+            "Guzmán"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz-Medina CE"
+          ],
+          "firstName": [
+            "Carlos E"
+          ],
+          "lastName": [
+            "Muñoz-Medina"
+          ],
+          "initials": [
+            "CE"
+          ]
+        },
+        {
+          "fullName": [
+            "Rodríguez MA"
+          ],
+          "firstName": [
+            "Manuel A"
+          ],
+          "lastName": [
+            "Rodríguez"
+          ],
+          "initials": [
+            "MA"
+          ]
+        },
+        {
+          "fullName": [
+            "DaSilva-DeAbreu A"
+          ],
+          "firstName": [
+            "Adrián"
+          ],
+          "lastName": [
+            "DaSilva-DeAbreu"
+          ],
+          "initials": [
+            "A"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0861-6606",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6675-6562",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2544074"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC research notes"
+          ],
+          "ISOAbbreviation": [
+            "BMC Res Notes"
+          ],
+          "medlineAbbreviation": [
+            "BMC Res Notes"
+          ],
+          "NLMid": [
+            "101462768"
+          ],
+          "ISSN": [
+            "1756-0500"
+          ],
+          "ESSN": [
+            "1756-0500"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "159"
+  ],
+  "abstractText": [
+    "Latin America is undergoing a human resource crisis in health care in terms of labor shortage, misdistribution and poor orientation to primary care. Workforce data are needed to inform the planning of long-term strategies to address this problem. This study aimed to evaluate the academic and motivational profile, as well as the professional expectations, of Latin American medical students.We conducted an observational, cross-sectional, multi-country study evaluating medical students from 11 Spanish-speaking countries in 2011-2012. Motivations to study medicine, migration intentions, intent to enter postgraduate programs, and perceptions regarding primary care were evaluated via a self-administered questionnaire. Outcomes were measured with pilot-tested questions and previously validated scales. A total of 11,072 valid surveys from 63 medical schools were gathered and analyzed.This study describes the profile and expectations of the future workforce being trained in Latin America. The obtained information will be useful for governments and universities in planning strategies to improve their current state of affairs regarding human resources for health care professions."
+  ],
+  "affiliation": [
+    "Escuela de Medicina, Universidad Peruana de Ciencias Aplicadas, Lima, Peru. p.mayta@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Multicenter Study",
+        "Journal Article",
+        "Observational Study"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Motivation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Intention"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Career Choice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Education, Medical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Schools, Medical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SD"
+                  ],
+                  "qualifierName": [
+                    "supply & distribution"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Universities"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Students, Medical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PX"
+                  ],
+                  "qualifierName": [
+                    "psychology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Primary Health Care"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Surveys and Questionnaires"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Medical education",
+        "Motivation",
+        "Primary Health Care",
+        "Human Resources",
+        "Latin America"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5397751?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5397751"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13104-017-2479-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-15"
+  ],
+  "dateOfCreation": [
+    "2017-04-22"
+  ],
+  "dateOfRevision": [
+    "2018-02-15"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-20"
+  ],
+  "firstPublicationDate": [
+    "2017-04-20"
+  ]
+}

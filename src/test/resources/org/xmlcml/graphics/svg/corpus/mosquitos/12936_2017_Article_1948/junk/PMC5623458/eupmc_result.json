@@ -1,0 +1,432 @@
+{
+  "id": [
+    "28619771"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28619771"
+  ],
+  "pmcid": [
+    "PMC5623458"
+  ],
+  "doi": [
+    "10.1136/bmjopen-2016-014835"
+  ],
+  "title": [
+    "Revealed versus concealed criteria for placental insufficiency in an unselected obstetric population in late pregnancy (RATIO37): randomised controlled trial study protocol."
+  ],
+  "authorString": [
+    "Figueras F, Gratacos E, Rial M, Gull I, Krofta L, Lubusky M, Cruz-Martinez R, Cruz-Lemini M, Martinez-Rodriguez M, Socias P, Aleuanlli C, Cordero MCP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Figueras F"
+          ],
+          "firstName": [
+            "Francesc"
+          ],
+          "lastName": [
+            "Figueras"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clínic and Hospital Sant Joan de Deu), IDIBAPS, University of Barcelona, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Gratacos E"
+          ],
+          "firstName": [
+            "Eduard"
+          ],
+          "lastName": [
+            "Gratacos"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clínic and Hospital Sant Joan de Deu), IDIBAPS, University of Barcelona, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Rial M"
+          ],
+          "firstName": [
+            "Marta"
+          ],
+          "lastName": [
+            "Rial"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clínic and Hospital Sant Joan de Deu), IDIBAPS, University of Barcelona, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Gull I"
+          ],
+          "firstName": [
+            "Ilan"
+          ],
+          "lastName": [
+            "Gull"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Lis Hospital for Women, Tel Aviv University, Tel Aviv, Israel."
+          ]
+        },
+        {
+          "fullName": [
+            "Krofta L"
+          ],
+          "firstName": [
+            "Ladislav"
+          ],
+          "lastName": [
+            "Krofta"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Institute for the care of mother and child, Third Faculty of Medicine, Charles University, Prague, Czech Republic."
+          ]
+        },
+        {
+          "fullName": [
+            "Lubusky M"
+          ],
+          "firstName": [
+            "Marek"
+          ],
+          "lastName": [
+            "Lubusky"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departmente of Obstetrics and Gynecology, Palacky University Olomouc, Faculty of Medicine and Dentistry, University Hospital Olomouc, Olomouc, Czech Republic."
+          ]
+        },
+        {
+          "fullName": [
+            "Cruz-Martinez R"
+          ],
+          "firstName": [
+            "Rogelio"
+          ],
+          "lastName": [
+            "Cruz-Martinez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Unidad de Investigación en Medicina y Cirugía Fetal, Hospital de Especialidades del Niño y la Mujer de Querétaro. Unidad de Investigación en Neurodesarrollo, Instituto de Neurobiología, Universidad Nacional Autónoma de México (UNAM) campus Juriquilla, Querétaro, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Cruz-Lemini M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Cruz-Lemini"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Unidad de Investigación en Medicina y Cirugía Fetal, Hospital de Especialidades del Niño y la Mujer de Querétaro. Unidad de Investigación en Neurodesarrollo, Instituto de Neurobiología, Universidad Nacional Autónoma de México (UNAM) campus Juriquilla, Querétaro, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez-Rodriguez M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Martinez-Rodriguez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Unidad de Investigación en Medicina y Cirugía Fetal, Hospital de Especialidades del Niño y la Mujer de Querétaro. Unidad de Investigación en Neurodesarrollo, Instituto de Neurobiología, Universidad Nacional Autónoma de México (UNAM) campus Juriquilla, Querétaro, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Socias P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Socias"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynecology, Fetal Medicine Unit, University of Chile Hospital, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aleuanlli C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "Aleuanlli"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynecology, Fetal Medicine Unit, University of Chile Hospital, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cordero MCP"
+          ],
+          "firstName": [
+            "Mauro C Parra"
+          ],
+          "lastName": [
+            "Cordero"
+          ],
+          "initials": [
+            "MCP"
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynecology, Fetal Medicine Unit, University of Chile Hospital, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2566457"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMJ open"
+          ],
+          "ISOAbbreviation": [
+            "BMJ Open"
+          ],
+          "medlineAbbreviation": [
+            "BMJ Open"
+          ],
+          "NLMid": [
+            "101552874"
+          ],
+          "ISSN": [
+            "2044-6055"
+          ],
+          "ESSN": [
+            "2044-6055"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e014835"
+  ],
+  "abstractText": [
+    "Fetal growth restriction (FGR) affects 5%-10% of all pregnancies, contributing to 30%-50% of stillbirths. Unfortunately, growth restriction often is not detected antenatally. The last weeks of pregnancy are critical for preventing stillbirth among babies with FGR because there is a pronounced increase in stillbirths among growth-restricted fetuses after 37 weeks of pregnancy. Here we present a protocol (V.1, 23 May 2016) for the RATIO37 trial, which evaluates an integrated strategy for accurately selecting at-risk fetuses for delivery at term. The protocol is based on the combination of fetal biometry and cerebroplacental ratio (CPR). The primary objective is to reduce stillbirth rates. The secondary aims are to detect low birth weights and adverse perinatal outcomes.The study is designed as multicentre (Spain, Chile, Mexico,Czech Republic and Israel), open-label, randomised trial with parallel groups. Singleton pregnancies will be invited to participate after routine second-trimester ultrasound scan (19+0-22+6 weeks of gestation), and participants will be randomly allocated to receive revealed or concealed CPR evaluation. Then, a routine ultrasound and Doppler scan will be performed at 36+0-37+6 weeks. Sociodemographic and clinical data will be collected at enrolment. Ultrasound and Doppler variables will be recorded at 36+0-37+6 weeks of pregnancy. Perinatal outcomes will be recorded after delivery. Univariate (with estimated effect size and its 95% CI) and multivariate (mixed-effects logistic regression) comparisons between groups will be performed.The study will be conducted in accordance with the principles of Good Clinical Practice. This study was accepted by the Clinical Research Ethics Committee of Hospital Clinic Barcelona on 23May 2016. Subsequent approval by individual ethical committees and competent authorities was granted. The study results will be published in peer-reviewed journals and disseminated at international conferences.NCT02907242; pre-results."
+  ],
+  "affiliation": [
+    "Fetal i+D Fetal Medicine Research Center, BCNatal - Barcelona Center for Maternal-Fetal and Neonatal Medicine (Hospital Clínic and Hospital Sant Joan de Deu), IDIBAPS, University of Barcelona, Barcelona, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "protocol",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Ultrasonography",
+        "Fetal Medicine",
+        "Placental Insufficiency"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5623458?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5623458"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1136/bmjopen-2016-014835"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-17"
+  ],
+  "dateOfRevision": [
+    "2018-01-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-15"
+  ],
+  "firstPublicationDate": [
+    "2017-06-15"
+  ]
+}

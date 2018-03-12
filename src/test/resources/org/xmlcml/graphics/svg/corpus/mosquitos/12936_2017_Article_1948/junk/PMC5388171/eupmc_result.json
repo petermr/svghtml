@@ -1,0 +1,279 @@
+{
+  "id": [
+    "28336904"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28336904"
+  ],
+  "pmcid": [
+    "PMC5388171"
+  ],
+  "doi": [
+    "10.3390/nano7030069"
+  ],
+  "title": [
+    "Optoelectronic Properties of Van Der Waals Hybrid Structures: Fullerenes on Graphene Nanoribbons."
+  ],
+  "authorString": [
+    "Correa JD, Orellana PA, Pacheco M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Correa JD"
+          ],
+          "firstName": [
+            "Julián David"
+          ],
+          "lastName": [
+            "Correa"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Básicas, Universidad de Medellín, 050026 Medellín, Colombia. jcorrea@udem.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Orellana PA"
+          ],
+          "firstName": [
+            "Pedro Alejandro"
+          ],
+          "lastName": [
+            "Orellana"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad Técnica Federico Santa María, 2340000 Valparaíso, Chile. pedro.orellana@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Pacheco M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Pacheco"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4293-5213",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad Técnica Federico Santa María, 2340000 Valparaíso, Chile. monica.pacheco@usm.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4293-5213",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2539567"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nanomaterials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "NLMid": [
+            "101610216"
+          ],
+          "ISSN": [
+            "2079-4991"
+          ],
+          "ESSN": [
+            "2079-4991"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "The search for new optical materials capable of absorbing light in the frequency range from visible to near infrared is of great importance for applications in optoelectronic devices. In this paper, we report a theoretical study of the electronic and optical properties of hybrid structures composed of fullerenes adsorbed on graphene and on graphene nanoribbons. The calculations are performed in the framework of the density functional theory including the van der Waals dispersive interactions. We found that the adsorption of the C 60 fullerenes on a graphene layer does not modify its low energy states, but it has strong consequences for its optical spectrum, introducing new absorption peaks in the visible energy region. The optical absorption of fullerenes and graphene nanoribbon composites shows a strong dependence on photon polarization and geometrical characteristics of the hybrid systems, covering a broad range of energies. We show that an external electric field across the nanoribbon edges can be used to tune different optical transitions coming from nanoribbon-fullerene hybridized states, which yields a very rich electro-absorption spectrum for longitudinally polarized photons. We have carried out a qualitative analysis on the potential of these hybrids as possible donor-acceptor systems in photovoltaic cells."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Básicas, Universidad de Medellín, 050026 Medellín, Colombia. jcorrea@udem.edu.co."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Fullerene",
+        "Graphene",
+        "Nanoribons"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5388171"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nano7030069"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-24"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-20"
+  ],
+  "firstPublicationDate": [
+    "2017-03-20"
+  ]
+}

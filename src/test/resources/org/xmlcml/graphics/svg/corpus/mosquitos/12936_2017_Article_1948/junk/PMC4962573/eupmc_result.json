@@ -1,0 +1,270 @@
+{
+  "id": [
+    "27482204"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27482204"
+  ],
+  "pmcid": [
+    "PMC4962573"
+  ],
+  "doi": [
+    "10.4103/1673-5374.184453"
+  ],
+  "title": [
+    "Bursting the unfolded protein response accelerates axonal regeneration."
+  ],
+  "authorString": [
+    "Oñate M, Court FA, Hetz C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Oñate M"
+          ],
+          "firstName": [
+            "Maritza"
+          ],
+          "lastName": [
+            "Oñate"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Geroscience Center for Brain Health and Metabolism, Santiago, Chile; Center for Integrative Biology, Universidad Mayor, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Program of Cellular and Molecular Biology, Institute of Biomedical Sciences, Center for Molecular Studies of the Cell, University of Chile, Santiago, Chile; Millenium Nucleus for Regenerative Biology, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Court FA"
+          ],
+          "firstName": [
+            "Felipe A"
+          ],
+          "lastName": [
+            "Court"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1384-2552",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Geroscience Center for Brain Health and Metabolism, Santiago, Chile; Center for Integrative Biology, Universidad Mayor, Santiago, Chile; Millenium Nucleus for Regenerative Biology, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hetz C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Hetz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Geroscience Center for Brain Health and Metabolism, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Program of Cellular and Molecular Biology, Institute of Biomedical Sciences, Center for Molecular Studies of the Cell, University of Chile, Santiago, Chile; Buck Institute for Research on Aging, Novato, CA, 94945, USA; Department of Immunology and Infectious Diseases, Harvard School of Public Health, Boston, MA, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1384-2552",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2435873"
+      ],
+      "dateOfPublication": [
+        "2016 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Neural regeneration research"
+          ],
+          "ISOAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "medlineAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "NLMid": [
+            "101316351"
+          ],
+          "ISSN": [
+            "1673-5374"
+          ],
+          "ESSN": [
+            "1876-7958"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "892-893"
+  ],
+  "affiliation": [
+    "Geroscience Center for Brain Health and Metabolism, Santiago, Chile; Center for Integrative Biology, Universidad Mayor, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Program of Cellular and Molecular Biology, Institute of Biomedical Sciences, Center for Molecular Studies of the Cell, University of Chile, Santiago, Chile; Millenium Nucleus for Regenerative Biology, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4962573"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4103/1673-5374.184453"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-02"
+  ],
+  "dateOfCreation": [
+    "2016-08-02"
+  ],
+  "dateOfRevision": [
+    "2016-08-04"
+  ],
+  "firstPublicationDate": [
+    "2016-06-01"
+  ]
+}

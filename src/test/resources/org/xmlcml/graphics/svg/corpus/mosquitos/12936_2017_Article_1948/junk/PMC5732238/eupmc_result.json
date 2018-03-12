@@ -1,0 +1,290 @@
+{
+  "id": [
+    "29247189"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29247189"
+  ],
+  "pmcid": [
+    "PMC5732238"
+  ],
+  "doi": [
+    "10.1038/s41598-017-17526-4"
+  ],
+  "title": [
+    "What is the temperature of a moving body?"
+  ],
+  "authorString": [
+    "Farías C, Pinto VA, Moya PS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farías C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Farías"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Matemáticas y Físicas, Universidad Católica de Temuco, Temuco, Chile. cristian.farias@uct.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinto VA"
+          ],
+          "firstName": [
+            "Victor A"
+          ],
+          "lastName": [
+            "Pinto"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1210-167X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Los Angeles, CA, USA. vpinto@ucla.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Moya PS"
+          ],
+          "firstName": [
+            "Pablo S"
+          ],
+          "lastName": [
+            "Moya"
+          ],
+          "initials": [
+            "PS"
+          ],
+          "affiliation": [
+            "Departamento de Física, Facultad de Ciencias, Universidad de Chile, Santiago, Chile. pablo.moya@ug.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1210-167X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2518599"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "17657"
+  ],
+  "abstractText": [
+    "The construction of a relativistic thermodynamics theory is still controversial after more than 110 years. To the date there is no agreement on which set of relativistic transformations of thermodynamic quantities is the correct one, or if the problem even has a solution. Starting from Planck and Einstein, several authors have proposed their own reasoning, concluding that a moving body could appear cooler, hotter or at the same temperature as measured by a local observer. In this article we present a review of the main theories of relativistic thermodynamics, with an special emphasis on the physical assumptions adopted by each one. We also present a set of relativistic transformations that we have derived by assuming the laws of Thermodynamics to be covariant. We found that under such assumptions a moving body appears to be hotter. Since relativistic thermodynamics is a topic that can be treated as part of an undergraduate course of classical thermodynamics or modern physics, the review and our own derivations presented here aim to encourage undergraduate physics students to open a discussion on the fundamental assumptions in thermodynamics and to engage in research activities early in their scientific career."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Matemáticas y Físicas, Universidad Católica de Temuco, Temuco, Chile. cristian.farias@uct.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5732238?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5732238"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-17526-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-17"
+  ],
+  "dateOfRevision": [
+    "2017-12-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-15"
+  ],
+  "firstPublicationDate": [
+    "2017-12-15"
+  ]
+}

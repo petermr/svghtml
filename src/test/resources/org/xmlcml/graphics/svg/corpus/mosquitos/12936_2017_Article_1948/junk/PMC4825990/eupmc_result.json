@@ -1,0 +1,775 @@
+{
+  "id": [
+    "27058873"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27058873"
+  ],
+  "pmcid": [
+    "PMC4825990"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0153141"
+  ],
+  "title": [
+    "Effectiveness of the 10-Valent Pneumococcal Conjugate Vaccine (PCV-10) in Children in Chile: A Nested Case-Control Study Using Nationwide Pneumonia Morbidity and Mortality Surveillance Data."
+  ],
+  "authorString": [
+    "Diaz J, Terrazas S, Bierrenbach AL, Toscano CM, Alencar GP, Alvarez A, Valenzuela MT, Andrus J, del Aguila R, Hormazábal JC, Araya P, Pidal P, Matus CR, de Oliveira LH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Diaz J"
+          ],
+          "firstName": [
+            "Janepsy"
+          ],
+          "lastName": [
+            "Diaz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "National Institute of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Terrazas S"
+          ],
+          "firstName": [
+            "Solana"
+          ],
+          "lastName": [
+            "Terrazas"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "National Institute of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bierrenbach AL"
+          ],
+          "firstName": [
+            "Ana L"
+          ],
+          "lastName": [
+            "Bierrenbach"
+          ],
+          "initials": [
+            "AL"
+          ],
+          "affiliation": [
+            "Sanas - epidemiologia e pesquisa, São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Toscano CM"
+          ],
+          "firstName": [
+            "Cristiana M"
+          ],
+          "lastName": [
+            "Toscano"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "Department of Community Health, Institute of Tropical Pathology and Public Health, Federal University of Goiás, Goiânia, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Alencar GP"
+          ],
+          "firstName": [
+            "Gizelton P"
+          ],
+          "lastName": [
+            "Alencar"
+          ],
+          "initials": [
+            "GP"
+          ],
+          "affiliation": [
+            "School of Public Health, University of São Paulo, São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvarez A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Alvarez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Statistics and Health Information, Ministry of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela MT"
+          ],
+          "firstName": [
+            "Maria T"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "MT"
+          ],
+          "affiliation": [
+            "Medical School, University de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Andrus J"
+          ],
+          "firstName": [
+            "Jon"
+          ],
+          "lastName": [
+            "Andrus"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Sabin Vaccine Institute, Washington, DC, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "del Aguila R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "del Aguila"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Pan American Health Organization, PWR-Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hormazábal JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Hormazábal"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "National Institute of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Araya"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "National Institute of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pidal P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Pidal"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "National Institute of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Matus CR"
+          ],
+          "firstName": [
+            "Cuauhtemoc R"
+          ],
+          "lastName": [
+            "Matus"
+          ],
+          "initials": [
+            "CR"
+          ],
+          "affiliation": [
+            "Comprehensive Family Immunization Project, Pan American Health Organization, Washington, DC, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "de Oliveira LH"
+          ],
+          "firstName": [
+            "Lucia H"
+          ],
+          "lastName": [
+            "de Oliveira"
+          ],
+          "initials": [
+            "LH"
+          ],
+          "affiliation": [
+            "Comprehensive Family Immunization Project, Pan American Health Organization, Washington, DC, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2392598"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0153141"
+  ],
+  "abstractText": [
+    "The ten-valent pneumococcal conjugate vaccine (PCV10) was introduced into the Chilean National Immunization Program (NIP) in January 2011 with a 3+1 schedule (2, 4, 6 and 12 months) without catch-up vaccination. We evaluated the effectiveness of PCV10 on pneumonia morbidity and mortality among infants during the first two years after vaccine introduction.This is a population-based nested case-control study using four merged nationwide case-based electronic health data registries: live birth, vaccination, hospitalization and mortality. Children born in 2010 and 2011 were followed from two moths of age for a period of two years. Using four different case definitions of pneumonia hospitalization and/or mortality (all-cause and pneumonia related deaths), all cases and four randomly selected matched controls per case were selected. Controls were matched to cases on analysis time. Vaccination status was then assessed. Vaccine effectiveness (VE) was estimated using conditional logistic regression.There were a total of 497,996 children in the 2010 and 2011 Chilean live-birth cohorts. PCV10 VE was 11.2% (95%CI 8.5-13.6) when all pneumonia hospitalizations and deaths were used to define cases. VE increased to 20.7 (95%CI 17.3-23.8) when ICD10 codes used to denote viral pneumonia were excluded from the case definition. VE estimates on pneumonia deaths and all-cause deaths were 71.5 (95%CI 9.0-91.8) and 34.8 (95% CI 23.7-44.4), respectively.PCV10 vaccination substantially reduced the number of hospitalizations due to pneumonia and deaths due to pneumonia and to all-causes over this study period. Our findings also reinforce the importance of having quality health information systems for measuring VE."
+  ],
+  "affiliation": [
+    "National Institute of Health, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pneumonia, Pneumococcal"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pneumococcal Vaccines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AD"
+                  ],
+                  "qualifierName": [
+                    "administration & dosage"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vaccines, Conjugate"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AD"
+                  ],
+                  "qualifierName": [
+                    "administration & dosage"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Treatment Outcome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Immunization Schedule"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Registries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Morbidity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Logistic Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Case-Control Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cohort Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant, Newborn"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Immunization Programs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "National Health Programs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Pneumococcal Vaccines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Vaccines, Conjugate"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "10-valent pneumococcal conjugate vaccine"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4825990?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4825990"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0153141"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "8"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-29"
+  ],
+  "dateOfCreation": [
+    "2016-04-09"
+  ],
+  "dateOfRevision": [
+    "2016-04-23"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-08"
+  ],
+  "firstPublicationDate": [
+    "2016-04-08"
+  ]
+}

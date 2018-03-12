@@ -1,0 +1,495 @@
+{
+  "id": [
+    "26925196"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26925196"
+  ],
+  "pmcid": [
+    "PMC4769503"
+  ],
+  "doi": [
+    "10.1186/s40793-016-0142-1"
+  ],
+  "title": [
+    "Draft genome sequence of chloride-tolerant Leptospirillum ferriphilum Sp-Cl from industrial bioleaching operations in northern Chile."
+  ],
+  "authorString": [
+    "Issotta F, Galleguillos PA, Moya-Beltrán A, Davis-Belmar CS, Rautenbach G, Covarrubias PC, Acosta M, Ossandon FJ, Contador Y, Holmes DS, Marín-Eliantonio S, Quatrini R, Demergasso C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Issotta F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Issotta"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galleguillos PA"
+          ],
+          "firstName": [
+            "Pedro A"
+          ],
+          "lastName": [
+            "Galleguillos"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología \"Profesor Alberto Ruiz\", Universidad Católica del Norte, Antofagasta, Chile ; Centro de Investigación Científica y Tecnológica para la Minería, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moya-Beltrán A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Moya-Beltrán"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Davis-Belmar CS"
+          ],
+          "firstName": [
+            "Carol S"
+          ],
+          "lastName": [
+            "Davis-Belmar"
+          ],
+          "initials": [
+            "CS"
+          ],
+          "affiliation": [
+            "BHP Billiton Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rautenbach G"
+          ],
+          "firstName": [
+            "George"
+          ],
+          "lastName": [
+            "Rautenbach"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "BHP Billiton Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Covarrubias PC"
+          ],
+          "firstName": [
+            "Paulo C"
+          ],
+          "lastName": [
+            "Covarrubias"
+          ],
+          "initials": [
+            "PC"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile ; Facultad de Ciencias Biologicas, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Acosta"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología \"Profesor Alberto Ruiz\", Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ossandon FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Ossandon"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Contador Y"
+          ],
+          "firstName": [
+            "Yasna"
+          ],
+          "lastName": [
+            "Contador"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología \"Profesor Alberto Ruiz\", Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Holmes DS"
+          ],
+          "firstName": [
+            "David S"
+          ],
+          "lastName": [
+            "Holmes"
+          ],
+          "initials": [
+            "DS"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile ; Facultad de Ciencias Biologicas, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marín-Eliantonio S"
+          ],
+          "firstName": [
+            "Sabrina"
+          ],
+          "lastName": [
+            "Marín-Eliantonio"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología \"Profesor Alberto Ruiz\", Universidad Católica del Norte, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quatrini R"
+          ],
+          "firstName": [
+            "Raquel"
+          ],
+          "lastName": [
+            "Quatrini"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2600-2605",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile ; Facultad de Ciencias Biologicas, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Demergasso C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Demergasso"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4563-3066",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología \"Profesor Alberto Ruiz\", Universidad Católica del Norte, Antofagasta, Chile ; Centro de Investigación Científica y Tecnológica para la Minería, Antofagasta, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4563-3066",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2600-2605",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2363310"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Standards in genomic sciences"
+          ],
+          "ISOAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "medlineAbbreviation": [
+            "Stand Genomic Sci"
+          ],
+          "NLMid": [
+            "101530505"
+          ],
+          "ISSN": [
+            "1944-3277"
+          ],
+          "ESSN": [
+            "1944-3277"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "19"
+  ],
+  "abstractText": [
+    "Leptospirillum ferriphilum Sp-Cl is a Gram negative, thermotolerant, curved, rod-shaped bacterium, isolated from an industrial bioleaching operation in northern Chile, where chalcocite is the major copper mineral and copper hydroxychloride atacamite is present in variable proportions in the ore. This strain has unique features as compared to the other members of the species, namely resistance to elevated concentrations of chloride, sulfate and metals. Basic microbiological features and genomic properties of this biotechnologically relevant strain are described in this work. The 2,475,669 bp draft genome is arranged into 74 scaffolds of 74 contigs. A total of 48 RNA genes and 2,834 protein coding genes were predicted from its annotation; 55 % of these were assigned a putative function. Release of the genome sequence of this strain will provide further understanding of the mechanisms used by acidophilic bacteria to endure high osmotic stress and high chloride levels and of the role of chloride-tolerant iron-oxidizers in industrial bioleaching operations."
+  ],
+  "affiliation": [
+    "Fundación Ciencia & Vida, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bioleaching",
+        "Thermotolerant",
+        "Acidophilic",
+        "Leptospirillum Ferriphilum",
+        "Atacamite",
+        "Iron Oxidizing",
+        "Chloride Tolerant",
+        "Secondary Copper Sulfides"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4769503?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4769503"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40793-016-0142-1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-02-29"
+  ],
+  "dateOfCreation": [
+    "2016-02-29"
+  ],
+  "dateOfRevision": [
+    "2016-03-03"
+  ],
+  "electronicPublicationDate": [
+    "2016-02-27"
+  ],
+  "firstPublicationDate": [
+    "2016-02-27"
+  ]
+}

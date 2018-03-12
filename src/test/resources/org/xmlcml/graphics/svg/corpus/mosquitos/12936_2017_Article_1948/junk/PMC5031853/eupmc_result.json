@@ -1,0 +1,519 @@
+{
+  "id": [
+    "27672420"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27672420"
+  ],
+  "pmcid": [
+    "PMC5031853"
+  ],
+  "doi": [
+    "10.1155/2016/3939540"
+  ],
+  "title": [
+    "Modulatory Effect of 2-(4-Hydroxyphenyl)amino-1,4-naphthoquinone on Endothelial Vasodilation in Rat Aorta."
+  ],
+  "authorString": [
+    "Palacios J, Cifuentes F, Valderrama JA, Benites J, Ríos D, González C, Chiong M, Cartes-Saavedra B, Lafourcade C, Wyneken U, González P, Owen GI, Pardo F, Sobrevia L, Buc Calderon P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Palacios J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Palacios"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cifuentes F"
+          ],
+          "firstName": [
+            "Fredi"
+          ],
+          "lastName": [
+            "Cifuentes"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Experimental Physiology Laboratory (EPhyL), Instituto Antofagasta, Universidad de Antofagasta, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valderrama JA"
+          ],
+          "firstName": [
+            "Jaime A"
+          ],
+          "lastName": [
+            "Valderrama"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Benites J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Benites"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ríos D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Ríos"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González C"
+          ],
+          "firstName": [
+            "Constanza"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chiong M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Chiong"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5174-6545",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases, Faculty of Chemical and Pharmaceutical Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cartes-Saavedra B"
+          ],
+          "firstName": [
+            "Benjamín"
+          ],
+          "lastName": [
+            "Cartes-Saavedra"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases, Faculty of Chemical and Pharmaceutical Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lafourcade C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Lafourcade"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6728-1009",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias, Centro de Investigaciones Biomédicas, Universidad de los Andes, Monseñor Alvaro del Portillo 12.455, 7550000 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wyneken U"
+          ],
+          "firstName": [
+            "Ursula"
+          ],
+          "lastName": [
+            "Wyneken"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias, Centro de Investigaciones Biomédicas, Universidad de los Andes, Monseñor Alvaro del Portillo 12.455, 7550000 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Biológicas y Centro UC Investigación en Oncología (CITO), Pontificia Universidad Católica de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Biológicas y Centro UC Investigación en Oncología (CITO), Pontificia Universidad Católica de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pardo F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Pardo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sobrevia L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Sobrevia"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile; Department of Physiology, Faculty of Pharmacy, Universidad de Sevilla, 41012 Seville, Spain; University of Queensland Centre for Clinical Research (UQCCR), Faculty of Medicine and Biomedical Sciences, University of Queensland, Herston, QLD 4029, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Buc Calderon P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Buc Calderon"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0483-2624",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile; Toxicology and Cancer Biology Research Group, Université catholique de Louvain, Brussels, Belgium."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5174-6545",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6728-1009",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0483-2624",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2365069"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oxidative Medicine and Cellular Longevity"
+          ],
+          "ISOAbbreviation": [
+            "Oxid Med Cell Longev"
+          ],
+          "medlineAbbreviation": [
+            "Oxid Med Cell Longev"
+          ],
+          "NLMid": [
+            "101479826"
+          ],
+          "ISSN": [
+            "1942-0900"
+          ],
+          "ESSN": [
+            "1942-0994"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "3939540"
+  ],
+  "abstractText": [
+    "The vascular endothelium plays an essential role in the control of the blood flow. Pharmacological agents like quinone (menadione) at various doses modulate this process in a variety of ways. In this study, Q7, a 2-phenylamino-1,4-naphthoquinone derivative, significantly increased oxidative stress and induced vascular dysfunction at concentrations that were not cytotoxic to endothelial or vascular smooth muscle cells. Q7 reduced nitric oxide (NO) levels and endothelial vasodilation to acetylcholine in rat aorta. It also blunted the calcium release from intracellular stores by increasing the phenylephrine-induced vasoconstriction when CaCl2 was added to a calcium-free medium but did not affect the influx of calcium from extracellular space. Q7 increased the vasoconstriction to BaCl2 (10(-3) M), an inward rectifying K(+) channels blocker, and blocked the vasodilation to KCl (10(-2) M) in aortic rings precontracted with BaCl2. This was recovered with sodium nitroprusside (10(-8) M), a NO donor. In conclusion, Q7 induced vasoconstriction was through a modulation of cellular mechanisms involving calcium fluxes through K(+) channels, and oxidative stress induced endothelium damage. These findings contribute to the characterization of new quinone derivatives with low cytotoxicity able to pharmacologically modulate vasodilation."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Químicas y Farmacéuticas, Facultad de Ciencias de la Salud, Universidad Arturo Prat, Iquique, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5031853?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5031853"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/3939540"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-09-27"
+  ],
+  "dateOfRevision": [
+    "2016-09-29"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-08"
+  ],
+  "firstPublicationDate": [
+    "2016-09-08"
+  ]
+}

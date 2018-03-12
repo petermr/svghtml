@@ -1,0 +1,304 @@
+{
+  "id": [
+    "27563040"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27563040"
+  ],
+  "pmcid": [
+    "PMC5000824"
+  ],
+  "doi": [
+    "10.1128/genomea.00823-16"
+  ],
+  "title": [
+    "Complete Genome Sequence of a Cylindrospermopsin-Producing Cyanobacterium, Cylindrospermopsis raciborskii CS505, Containing a Circular Chromosome and a Single Extrachromosomal Element."
+  ],
+  "authorString": [
+    "Fuentes-Valdés JJ, Plominsky AM, Allen EE, Tamames J, Vásquez M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fuentes-Valdés JJ"
+          ],
+          "firstName": [
+            "Juan J"
+          ],
+          "lastName": [
+            "Fuentes-Valdés"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile Department of Molecular Genetics and Microbiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Plominsky AM"
+          ],
+          "firstName": [
+            "Alvaro M"
+          ],
+          "lastName": [
+            "Plominsky"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Department of Oceanography, Universidad de Concepción, Concepción, Chile Instituto Milenio de Oceanografía, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Allen EE"
+          ],
+          "firstName": [
+            "Eric E"
+          ],
+          "lastName": [
+            "Allen"
+          ],
+          "initials": [
+            "EE"
+          ],
+          "affiliation": [
+            "Marine Biology Research Division, Scripps Institution of Oceanography, University of California San Diego, La Jolla, California, USA Division of Biological Sciences, University of California San Diego, La Jolla, California, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Tamames J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Tamames"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Centro Nacional de Biotecnología (CNB-CSIC), Madrid, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Vásquez M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Vásquez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Molecular Genetics and Microbiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile mvasquez@bio.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2427904"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Cylindrospermopsis raciborskii is a freshwater cyanobacterium producing bloom events and toxicity in drinking water source reservoirs. We present the first genome sequence for C. raciborskii CS505 (Australia), containing one 4.1-Mbp chromosome and one 110-Kbp plasmid having G+C contents of 40.3% (3933 genes) and 39.3% (111 genes), respectively."
+  ],
+  "affiliation": [
+    "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile Department of Molecular Genetics and Microbiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000824?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5000824"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00823-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-26"
+  ],
+  "dateOfCreation": [
+    "2016-08-26"
+  ],
+  "dateOfRevision": [
+    "2016-08-31"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-25"
+  ],
+  "firstPublicationDate": [
+    "2016-08-25"
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": [
+    "29439692"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29439692"
+  ],
+  "pmcid": [
+    "PMC5812028"
+  ],
+  "doi": [
+    "10.1186/s12890-018-0593-9"
+  ],
+  "title": [
+    "Automated chart review utilizing natural language processing algorithm for asthma predictive index."
+  ],
+  "authorString": [
+    "Kaur H, Sohn S, Wi CI, Ryu E, Park MA, Bachman K, Kita H, Croghan I, Castro-Rodriguez JA, Voge GA, Liu H, Juhn YJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kaur H"
+          ],
+          "firstName": [
+            "Harsheen"
+          ],
+          "lastName": [
+            "Kaur"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Sohn S"
+          ],
+          "firstName": [
+            "Sunghwan"
+          ],
+          "lastName": [
+            "Sohn"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Division of Biomedical Statistics and Informatics, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Wi CI"
+          ],
+          "firstName": [
+            "Chung-Il"
+          ],
+          "lastName": [
+            "Wi"
+          ],
+          "initials": [
+            "CI"
+          ],
+          "affiliation": [
+            "Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ryu E"
+          ],
+          "firstName": [
+            "Euijung"
+          ],
+          "lastName": [
+            "Ryu"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Asthma Epidemiology Research Unit, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Park MA"
+          ],
+          "firstName": [
+            "Miguel A"
+          ],
+          "lastName": [
+            "Park"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Division of Allergic Disease, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Bachman K"
+          ],
+          "firstName": [
+            "Kay"
+          ],
+          "lastName": [
+            "Bachman"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Division of Allergic Disease, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kita H"
+          ],
+          "firstName": [
+            "Hirohito"
+          ],
+          "lastName": [
+            "Kita"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Division of Allergic Disease, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Croghan I"
+          ],
+          "firstName": [
+            "Ivana"
+          ],
+          "lastName": [
+            "Croghan"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Medicine Research, Mayo Clinic, Rochester, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro-Rodriguez JA"
+          ],
+          "firstName": [
+            "Jose A"
+          ],
+          "lastName": [
+            "Castro-Rodriguez"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Division of Pediatrics, School of Medicine, Pontificia Universidad Catolica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Voge GA"
+          ],
+          "firstName": [
+            "Gretchen A"
+          ],
+          "lastName": [
+            "Voge"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Liu H"
+          ],
+          "firstName": [
+            "Hongfang"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Division of Biomedical Statistics and Informatics, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA. liu.hongfang@mayo.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Juhn YJ"
+          ],
+          "firstName": [
+            "Young J"
+          ],
+          "lastName": [
+            "Juhn"
+          ],
+          "initials": [
+            "YJ"
+          ],
+          "affiliation": [
+            "Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA. juhn.young@mayo.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2648620"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC pulmonary medicine"
+          ],
+          "ISOAbbreviation": [
+            "BMC Pulm Med"
+          ],
+          "medlineAbbreviation": [
+            "BMC Pulm Med"
+          ],
+          "NLMid": [
+            "100968563"
+          ],
+          "ISSN": [
+            "1471-2466"
+          ],
+          "ESSN": [
+            "1471-2466"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "34"
+  ],
+  "abstractText": [
+    "Thus far, no algorithms have been developed to automatically extract patients who meet Asthma Predictive Index (API) criteria from the Electronic health records (EHR) yet. Our objective is to develop and validate a natural language processing (NLP) algorithm to identify patients that meet API criteria.This is a cross-sectional study nested in a birth cohort study in Olmsted County, MN. Asthma status ascertained by manual chart review based on API criteria served as gold standard. NLP-API was developed on a training cohort (n = 87) and validated on a test cohort (n = 427). Criterion validity was measured by sensitivity, specificity, positive predictive value and negative predictive value of the NLP algorithm against manual chart review for asthma status. Construct validity was determined by associations of asthma status defined by NLP-API with known risk factors for asthma.Among the eligible 427 subjects of the test cohort, 48% were males and 74% were White. Median age was 5.3 years (interquartile range 3.6-6.8). 35 (8%) had a history of asthma by NLP-API vs. 36 (8%) by abstractor with 31 by both approaches. NLP-API predicted asthma status with sensitivity 86%, specificity 98%, positive predictive value 88%, negative predictive value 98%. Asthma status by both NLP and manual chart review were significantly associated with the known asthma risk factors, such as history of allergic rhinitis, eczema, family history of asthma, and maternal history of smoking during pregnancy (p value < 0.05). Maternal smoking [odds ratio: 4.4, 95% confidence interval 1.8-10.7] was associated with asthma status determined by NLP-API and abstractor, and the effect sizes were similar between the reviews with 4.4 vs 4.2 respectively.NLP-API was able to ascertain asthma status in children mining from EHR and has a potential to enhance asthma care and research through population management and large-scale studies when identifying children who meet API criteria."
+  ],
+  "affiliation": [
+    "Department of Pediatric and Adolescent Medicine, Mayo Clinic, 200 1st Street SW, Rochester, MN, 55905, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 AG034676"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 HL126667"
+          ],
+          "agency": [
+            "National Heart, Lung, and Blood Institute"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 AG034676"
+          ],
+          "agency": [
+            "National Institute on Aging"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Asthma",
+        "epidemiology",
+        "Informatics",
+        "Nlp",
+        "Api"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5812028?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5812028"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12890-018-0593-9"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-15"
+  ],
+  "dateOfRevision": [
+    "2018-02-20"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-13"
+  ],
+  "firstPublicationDate": [
+    "2018-02-13"
+  ]
+}

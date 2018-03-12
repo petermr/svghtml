@@ -1,0 +1,740 @@
+{
+  "id": [
+    "28379159"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28379159"
+  ],
+  "pmcid": [
+    "PMC5412335"
+  ],
+  "doi": [
+    "10.3390/ijms18040750"
+  ],
+  "title": [
+    "Delphinidin Reduces Glucose Uptake in Mice Jejunal Tissue and Human Intestinal Cells Lines through FFA1/GPR40."
+  ],
+  "authorString": [
+    "Hidalgo J, Teuber S, Morera FJ, Ojeda C, Flores CA, Hidalgo MA, Núñez L, Villalobos C, Burgos RA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hidalgo J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Hidalgo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. jihidalgo.godoy@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Teuber S"
+          ],
+          "firstName": [
+            "Stefanie"
+          ],
+          "lastName": [
+            "Teuber"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. steubervolke@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Morera FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Morera"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. fjmorera@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Ojeda C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Ojeda"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. camila.ojeda.barria@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Flores CA"
+          ],
+          "firstName": [
+            "Carlos A"
+          ],
+          "lastName": [
+            "Flores"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Centro de Estudios Científicos (CECs), Avenida Arturo Prat 514, 511046 Valdivia, Chile. cflores@cecs.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Hidalgo MA"
+          ],
+          "firstName": [
+            "María A"
+          ],
+          "lastName": [
+            "Hidalgo"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. mahidalgo@uach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Núñez L"
+          ],
+          "firstName": [
+            "Lucía"
+          ],
+          "lastName": [
+            "Núñez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Bioquímica y Biología Molecular y Fisiología, Universidad de Valladolid, 47003 Valladolid, Spain. nunezl@ibgm.uva.es."
+          ]
+        },
+        {
+          "fullName": [
+            "Villalobos C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Villalobos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0429-3846",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Bioquímica y Biología Molecular y Fisiología, Universidad de Valladolid, 47003 Valladolid, Spain. carlosv@ibgm.uva.es."
+          ]
+        },
+        {
+          "fullName": [
+            "Burgos RA"
+          ],
+          "firstName": [
+            "Rafael A"
+          ],
+          "lastName": [
+            "Burgos"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. rburgos1@uach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0429-3846",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2542602"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Anthocyanins are pigments with antihyperglycemic properties, and they are potential candidates for developing functional foods for the therapy or prevention of Diabetes mellitus type 2 (DM2). The mechanism of these beneficial effects of anthocyanins are, however, hard to explain, given their very low bioavailability due to poor intestinal absorption. We propose that free fatty acid receptor 1 (FFA1, also named GPR40), is involved in an inhibitory effect of the anthocyanidin delphinidin over intestinal glucose absorption. We show the direct effects of delphinidin on the intestine using jejunum samples from RF/J mice, and the human intestinal cell lines HT-29, Caco-2, and NCM460. By the use of specific pharmacological antagonists, we determined that delphinidin inhibits glucose absorption in both mouse jejunum and a human enterocytic cell line in a FFA1-dependent manner. Delphinidin also affects the function of sodium-glucose cotransporter 1 (SGLT1). Intracellular signaling after FFA1 activation involved cAMP increase and cytosolic Ca2+ oscillations originated from intracellular Ca2+ stores and were followed by store-operated Ca2+ entry. Taken together, our results suggest a new GPR-40 mediated local mechanism of action for delphinidin over intestinal cells that may in part explain its antidiabetic effect. These findings are promising for the search for new prevention and pharmacological treatment strategies for DM2 management."
+  ],
+  "affiliation": [
+    "Institute of Pharmacology and Morphophysiology, Universidad Austral de Chile, 5110566 Valdivia, Chile. jihidalgo.godoy@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Intestines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Jejunum"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Caco-2 Cells"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "HT29 Cells"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calcium"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anthocyanins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glucose"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Receptors, G-Protein-Coupled"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Glucose",
+        "Anthocyanins",
+        "Delphinidin",
+        "Gpr40",
+        "Ffa1",
+        "Sglt1"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Anthocyanins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Receptors, G-Protein-Coupled"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Calcium"
+          ],
+          "registryNumber": [
+            "SY7Q814VUP"
+          ]
+        },
+        {
+          "name": [
+            "Glucose"
+          ],
+          "registryNumber": [
+            "IY9XDZ35W2"
+          ]
+        },
+        {
+          "name": [
+            "delphinidin"
+          ],
+          "registryNumber": [
+            "EM6MD4AEHE"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5412335?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5412335"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18040750"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-25"
+  ],
+  "dateOfCreation": [
+    "2017-04-05"
+  ],
+  "dateOfRevision": [
+    "2017-05-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-05"
+  ],
+  "firstPublicationDate": [
+    "2017-04-05"
+  ]
+}

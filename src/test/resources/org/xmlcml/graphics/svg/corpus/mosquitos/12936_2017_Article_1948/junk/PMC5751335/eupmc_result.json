@@ -1,0 +1,328 @@
+{
+  "id": [
+    "29258205"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29258205"
+  ],
+  "pmcid": [
+    "PMC5751335"
+  ],
+  "doi": [
+    "10.3390/ijms18122734"
+  ],
+  "title": [
+    "Insights into the Structural Requirements of Potent Brassinosteroids as Vegetable Growth Promoters Using Second-Internode Elongation as Biological Activity: CoMFA and CoMSIA Studies."
+  ],
+  "authorString": [
+    "Ferrer-Pertuz K, Espinoza L, Mella J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ferrer-Pertuz K"
+          ],
+          "firstName": [
+            "Karoll"
+          ],
+          "lastName": [
+            "Ferrer-Pertuz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1708-0815",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Química y Bioquímica, Facultad de Ciencias, Universidad de Valparaíso, Casilla 5030, Avda. Gran Bretaña 1111, Playa Ancha, Valparaíso 2360102, Chile. karoll.ferrer.14@sansano.usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4054-7487",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Av. España No. 1680, Valparaíso 2340000, Chile. luis.espinozac@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Mella J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Mella"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2434-8461",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Farmacopea Chilena (CIFAR), Universidad de Valparaíso, Casilla 5030, Avda. Gran Bretaña 1111, Playa Ancha, Valparaíso 2360102, Chile. jaime.mella@uv.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1708-0815",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2434-8461",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4054-7487",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2624001"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "In the present study, we have employed the ligand-based drug design technique, 3D-QSAR, through a comparative molecular field analysis (CoMFA) and a comparative molecular similarity indices analysis (CoMSIA) to determine the key factors for the plant growth promoting activity of brassinosteroids reported in literature, using the bean second-internode bioassay measured on two groups of compounds with different molar concentrations. This is the first 3D-QSAR study using the second internode elongation as biological activity. These results provide useful ideas for the design of new molecules, which could be explored in the future to identify novel vegetable growth promoters with similar or greater biological activity than natural brassinosteroids. The reliability of this study was supported by the robust statistical parameters obtained from CoMFA (Model A, r²pred = 0.751; Model B, r²pred = 0.770) and CoMSIA (Model A, r²pred = 0.946; Model B, r²pred = 0.923) analysis."
+  ],
+  "affiliation": [
+    "Instituto de Química y Bioquímica, Facultad de Ciencias, Universidad de Valparaíso, Casilla 5030, Avda. Gran Bretaña 1111, Playa Ancha, Valparaíso 2360102, Chile. karoll.ferrer.14@sansano.usm.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "CoMFA",
+        "brassinosteroids",
+        "3D-QSAR",
+        "CoMSIA",
+        "Plant Steroids",
+        "Bean Second-internode",
+        "Vegetable Growth Promoters"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5751335?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5751335"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18122734"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-21"
+  ],
+  "dateOfRevision": [
+    "2018-01-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-17"
+  ],
+  "firstPublicationDate": [
+    "2017-12-17"
+  ]
+}

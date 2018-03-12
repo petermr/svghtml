@@ -1,0 +1,670 @@
+{
+  "id": [
+    "28582414"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28582414"
+  ],
+  "pmcid": [
+    "PMC5459581"
+  ],
+  "doi": [
+    "10.1371/journal.pmed.1002315"
+  ],
+  "title": [
+    "Data Sharing Statements for Clinical Trials: A Requirement of the International Committee of Medical Journal Editors."
+  ],
+  "authorString": [
+    "Taichman DB, Sahni P, Pinborg A, Peiperl L, Laine C, James A, Hong ST, Haileamlak A, Gollogly L, Godlee F, Frizelle FA, Florenzano F, Drazen JM, Bauchner H, Baethge C, Backus J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Taichman DB"
+          ],
+          "firstName": [
+            "Darren B"
+          ],
+          "lastName": [
+            "Taichman"
+          ],
+          "initials": [
+            "DB"
+          ],
+          "affiliation": [
+            "Secretary, ICMJE, Executive Deputy Editor, Annals of Internal Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "Sahni P"
+          ],
+          "firstName": [
+            "Peush"
+          ],
+          "lastName": [
+            "Sahni"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Representative and Past President, World Association of Medical Editors."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinborg A"
+          ],
+          "firstName": [
+            "Anja"
+          ],
+          "lastName": [
+            "Pinborg"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Scientific Editor-in-Chief, Ugeskrift for Laeger (Danish Medical Journal)."
+          ]
+        },
+        {
+          "fullName": [
+            "Peiperl L"
+          ],
+          "firstName": [
+            "Larry"
+          ],
+          "lastName": [
+            "Peiperl"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Chief Editor, PLOS Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "Laine C"
+          ],
+          "firstName": [
+            "Christine"
+          ],
+          "lastName": [
+            "Laine"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Annals of Internal Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "James A"
+          ],
+          "firstName": [
+            "Astrid"
+          ],
+          "lastName": [
+            "James"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Deputy Editor, The Lancet."
+          ]
+        },
+        {
+          "fullName": [
+            "Hong ST"
+          ],
+          "firstName": [
+            "Sung-Tae"
+          ],
+          "lastName": [
+            "Hong"
+          ],
+          "initials": [
+            "ST"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0300-1944",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Journal of Korean Medical Science."
+          ]
+        },
+        {
+          "fullName": [
+            "Haileamlak A"
+          ],
+          "firstName": [
+            "Abraham"
+          ],
+          "lastName": [
+            "Haileamlak"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, Ethiopian Journal of Health Sciences."
+          ]
+        },
+        {
+          "fullName": [
+            "Gollogly L"
+          ],
+          "firstName": [
+            "Laragh"
+          ],
+          "lastName": [
+            "Gollogly"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7198-7899",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Editor, Bulletin of the World Health Organization, Coordinator, WHO Press."
+          ]
+        },
+        {
+          "fullName": [
+            "Godlee F"
+          ],
+          "firstName": [
+            "Fiona"
+          ],
+          "lastName": [
+            "Godlee"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, The BMJ (British Medical Journal)."
+          ]
+        },
+        {
+          "fullName": [
+            "Frizelle FA"
+          ],
+          "firstName": [
+            "Frank A"
+          ],
+          "lastName": [
+            "Frizelle"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, New Zealand Medical Journal."
+          ]
+        },
+        {
+          "fullName": [
+            "Florenzano F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Florenzano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Editor, Revista Médica de Chile (Medical Journal of Chile)."
+          ]
+        },
+        {
+          "fullName": [
+            "Drazen JM"
+          ],
+          "firstName": [
+            "Jeffrey M"
+          ],
+          "lastName": [
+            "Drazen"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, New England Journal of Medicine."
+          ]
+        },
+        {
+          "fullName": [
+            "Bauchner H"
+          ],
+          "firstName": [
+            "Howard"
+          ],
+          "lastName": [
+            "Bauchner"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Editor-in-Chief, JAMA (Journal of the American Medical Association) and the JAMA Network."
+          ]
+        },
+        {
+          "fullName": [
+            "Baethge C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Baethge"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Chief Scientific Editor, Deutsches Ärzteblatt (German Medical Journal) & Deutsches Ärzteblatt International."
+          ]
+        },
+        {
+          "fullName": [
+            "Backus J"
+          ],
+          "firstName": [
+            "Joyce"
+          ],
+          "lastName": [
+            "Backus"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Representative and Associate Director for Library Operations, National Library of Medicine."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0300-1944",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7198-7899",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2564488"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS medicine"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Med."
+          ],
+          "medlineAbbreviation": [
+            "PLoS Med"
+          ],
+          "NLMid": [
+            "101231360"
+          ],
+          "ISSN": [
+            "1549-1277"
+          ],
+          "ESSN": [
+            "1549-1676"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e1002315"
+  ],
+  "abstractText": [
+    "The International Committee of Medical Journal Editors announces requirements that a data sharing plan be prospectively registered, and a data sharing statement be included in submitted manuscripts, for clinical trials to be published in ICMJE journals."
+  ],
+  "affiliation": [
+    "Secretary, ICMJE, Executive Deputy Editor, Annals of Internal Medicine."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Information Dissemination"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "International Cooperation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Editorial Policies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Societies, Medical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Clinical Trials as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "OG"
+                  ],
+                  "qualifierName": [
+                    "organization & administration"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Periodicals as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Datasets as Topic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5459581?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5459581"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pmed.1002315"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-19"
+  ],
+  "dateOfCreation": [
+    "2017-06-05"
+  ],
+  "dateOfRevision": [
+    "2017-08-15"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-05"
+  ],
+  "firstPublicationDate": [
+    "2017-06-05"
+  ]
+}

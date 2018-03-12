@@ -1,0 +1,357 @@
+{
+  "id": [
+    "29441327"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29441327"
+  ],
+  "pmcid": [
+    "PMC5797601"
+  ],
+  "doi": [
+    "10.3389/fcimb.2018.00008"
+  ],
+  "title": [
+    "Inorganic Polyphosphate Is Essential for Salmonella Typhimurium Virulence and Survival in Dictyostelium discoideum."
+  ],
+  "authorString": [
+    "Varas MA, Riquelme-Barrios S, Valenzuela C, Marcoleta AE, Berríos-Pastén C, Santiviago CA, Chávez FP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Varas MA"
+          ],
+          "firstName": [
+            "Macarena A"
+          ],
+          "lastName": [
+            "Varas"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme-Barrios S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Riquelme-Barrios"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marcoleta AE"
+          ],
+          "firstName": [
+            "Andrés E"
+          ],
+          "lastName": [
+            "Marcoleta"
+          ],
+          "initials": [
+            "AE"
+          ],
+          "affiliation": [
+            "Laboratorio de Biología Estructural y Molecular, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Berríos-Pastén C"
+          ],
+          "firstName": [
+            "Camilo"
+          ],
+          "lastName": [
+            "Berríos-Pastén"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Biología Estructural y Molecular, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santiviago CA"
+          ],
+          "firstName": [
+            "Carlos A"
+          ],
+          "lastName": [
+            "Santiviago"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chávez FP"
+          ],
+          "firstName": [
+            "Francisco P"
+          ],
+          "lastName": [
+            "Chávez"
+          ],
+          "initials": [
+            "FP"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2647848"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "8"
+  ],
+  "abstractText": [
+    "Inorganic polyphosphate (polyP) deficiency in enteric bacterial pathogens reduces their ability to invade and establish systemic infections in different hosts. For instance, inactivation of the polyP kinase gene (ppk) encoding the enzyme responsible for polyP biosynthesis reduces invasiveness and intracellular survival of Salmonella enterica serovar Typhimurium (S. Typhimurium) in epithelial cells and macrophages in vitro. In addition, the virulence in vivo of a S. Typhimurium Δppk mutant is significantly reduced in a murine infection model. In spite of these observations, the role played by polyP during the Salmonella-host interaction is not well understood. The social amoeba Dictyostelium discoideum has proven to be a useful model for studying relevant aspects of the host-pathogen interaction. In fact, many intracellular pathogens can survive within D. discoideum cells using molecular mechanisms also required to survive within macrophages. Recently, we established that S. Typhimurium is able to survive intracellularly in D. discoideum and identified relevant genes linked to virulence that are crucial for this process. The aim of this study was to determine the effect of a polyP deficiency in S. Typhimurium during its interaction with D. discoideum. To do this, we evaluated the intracellular survival of wild-type and Δppk strains of S. Typhimurium in D. discoideum and the ability of these strains to delay the social development of the amoeba. In contrast to the wild-type strain, the Δppk mutant was unable to survive intracellularly in D. discoideum and enabled the social development of the amoeba. Both phenotypes were complemented using a plasmid carrying a copy of the ppk gene. Next, we simultaneously evaluated the proteomic response of both S. Typhimurium and D. discoideum during host-pathogen interaction via global proteomic profiling. The analysis of our results allowed the identification of novel molecular signatures that give insight into Salmonella-Dictyostelium interaction. Altogether, our results indicate that inorganic polyP is essential for S. Typhimurium virulence and survival in D. discoideum. In addition, we have validated the use of global proteomic analyses to simultaneously evaluate the host-pathogen interaction of S. Typhimurium and D. discoideum. Furthermore, our infection assays using these organisms can be exploited to screen for novel anti-virulence molecules targeting inorganic polyP biosynthesis."
+  ],
+  "affiliation": [
+    "Laboratorio de Microbiología de Sistemas, Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Polyphosphate",
+        "Virulence",
+        "Proteomics",
+        "Salmonella",
+        "Dictyostelium",
+        "Intracellular Survival",
+        "Ppk"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5797601?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5797601"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2018.00008"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "sprot",
+        "go"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-02-15"
+  ],
+  "dateOfRevision": [
+    "2018-02-18"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-30"
+  ],
+  "firstPublicationDate": [
+    "2018-01-30"
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": [
+    "28676863"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28676863"
+  ],
+  "pmcid": [
+    "PMC5476901"
+  ],
+  "doi": [
+    "10.1155/2017/1789395"
+  ],
+  "title": [
+    "Muscle Lipid Metabolism: Role of Lipid Droplets and Perilipins."
+  ],
+  "authorString": [
+    "Morales PE, Bucarey JL, Espinosa A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Morales PE"
+          ],
+          "firstName": [
+            "Pablo Esteban"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "PE"
+          ],
+          "affiliation": [
+            "Departamento de Tecnología Médica, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bucarey JL"
+          ],
+          "firstName": [
+            "Jose Luis"
+          ],
+          "lastName": [
+            "Bucarey"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4990-3385",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CIDIS-AC, Escuela de Medicina, Universidad de Valparaiso, Valparaiso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinosa A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Espinosa"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4779-5341",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Molecular Studies of the Cell, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4990-3385",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4779-5341",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518238"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of diabetes research"
+          ],
+          "ISOAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "medlineAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "NLMid": [
+            "101605237"
+          ],
+          "ISSN": [
+            "2314-6745"
+          ],
+          "ESSN": [
+            "2314-6753"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1789395"
+  ],
+  "abstractText": [
+    "Skeletal muscle is one of the main regulators of carbohydrate and lipid metabolism in our organism, and therefore, it is highly susceptible to changes in glucose and fatty acid (FA) availability. Skeletal muscle is an extremely complex tissue: its metabolic capacity depends on the type of fibers it is made up of and the level of stimulation it undergoes, such as acute or chronic contraction. Obesity is often associated with increased FA levels, which leads to the accumulation of toxic lipid intermediates, oxidative stress, and autophagy in skeletal fibers. This lipotoxicity is one of the most common causes of insulin resistance (IR). In this scenario, the \"isolation\" of certain lipids in specific cell compartments, through the action of the specific lipid droplet, perilipin (PLIN) family of proteins, is conceived as a lifeguard compensatory strategy. In this review, we summarize the cellular mechanism underlying lipid mobilization and metabolism inside skeletal muscle, focusing on the function of lipid droplets, the PLIN family of proteins, and how these entities are modified in exercise, obesity, and IR conditions."
+  ],
+  "affiliation": [
+    "Departamento de Tecnología Médica, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5476901?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5476901"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/1789395"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-05"
+  ],
+  "dateOfRevision": [
+    "2017-07-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-06"
+  ],
+  "firstPublicationDate": [
+    "2017-06-06"
+  ]
+}

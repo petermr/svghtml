@@ -1,0 +1,398 @@
+{
+  "id": [
+    "29073224"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29073224"
+  ],
+  "pmcid": [
+    "PMC5658142"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0187140"
+  ],
+  "title": [
+    "Diversification dynamics, species sorting, and changes in the functional diversity of marine benthic gastropods during the Pliocene-Quaternary at temperate western South America."
+  ],
+  "authorString": [
+    "Rivadeneira MM, Nielsen SN."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rivadeneira MM"
+          ],
+          "firstName": [
+            "Marcelo M"
+          ],
+          "lastName": [
+            "Rivadeneira"
+          ],
+          "initials": [
+            "MM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1681-416X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Paleobiología, Centro de Estudios Avanzados en Zonas Áridas CEAZA), Av. Bernardo Ossandón, Coquimbo, Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nielsen SN"
+          ],
+          "firstName": [
+            "Sven N"
+          ],
+          "lastName": [
+            "Nielsen"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2064-8050",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra, Facultad de Ciencias, Universidad Austral de Chile, Isla Teja s/n, Casilla, Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2064-8050",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1681-416X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0187140"
+  ],
+  "abstractText": [
+    "Functional diversity based on species traits is a powerful tool to investigate how changes in species richness and composition affect ecosystem functioning. However, studies aimed at understanding changes in functional diversity over large temporal and spatial scales are still scant. Here we evaluate the combined effect of diversification and species sorting on functional diversity of fossil marine gastropods during the Pliocene-Quaternary transition in the Pacific coast of South America. We analyzed a total of 172 species in 29 Pliocene and 97 Quaternary sites. Each species was characterized according to six functional traits: body size, feeding type, mobility, attachment, life-habit, and larval mode. Functional diversity was estimated according to four indexes (functional richness, evenness, divergence and dispersion) based on functional traits measured. Extrapolated species richness showed a slight yet not significant decrease from the Pliocene to the Quaternary despite the fact that a large faunal turnover took place; furthermore, a large extinction of Pliocene species (61-76%) was followed by a high pulse of appearances (49-56%) during the Quaternary. Three out of four indices of functional diversity (evenness, divergence and dispersion) increased significantly towards the Quaternary which is more than expected under a random turnover of species. The increase in functional diversity is associated with a loss of large-sized carnivore forms, which tended to be replaced by small-sized grazers. Hence, this trait-selective species turnover, even in the absence of significant changes in species richness, likely had a large effect and has shaped the functional diversity of present-day assemblages."
+  ],
+  "affiliation": [
+    "Laboratorio de Paleobiología, Centro de Estudios Avanzados en Zonas Áridas CEAZA), Av. Bernardo Ossandón, Coquimbo, Chile, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Marine Biology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Species Specificity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fossils"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "South America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gastropoda"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5658142?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5658142"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0187140"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "29338052"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "PLoS One. 2018 Jan 16;13(1):e0191525"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "23"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-20"
+  ],
+  "dateOfCreation": [
+    "2017-10-27"
+  ],
+  "dateOfRevision": [
+    "2018-01-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-26"
+  ],
+  "firstPublicationDate": [
+    "2017-10-26"
+  ]
+}

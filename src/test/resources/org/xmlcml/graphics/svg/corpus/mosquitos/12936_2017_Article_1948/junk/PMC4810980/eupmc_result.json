@@ -1,0 +1,270 @@
+{
+  "id": [
+    "27073369"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27073369"
+  ],
+  "pmcid": [
+    "PMC4810980"
+  ],
+  "doi": [
+    "10.4103/1673-5374.177722"
+  ],
+  "title": [
+    "ERp57 in neurodegeneration and regeneration."
+  ],
+  "authorString": [
+    "Bargsted L, Hetz C, Matus S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bargsted L"
+          ],
+          "firstName": [
+            "Leslie"
+          ],
+          "lastName": [
+            "Bargsted"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Neurounion Biomedical Foundation, CENPAR, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Center for Geroscience, Brain Health and Metabolism, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hetz C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Hetz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Neurounion Biomedical Foundation, CENPAR, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Center for Geroscience, Brain Health and Metabolism, Santiago, Chile; Institute of Biomedical Sciences, Center for Molecular Studies of the Cell, Program of Cellular and Molecular Biology, University of Chile, Santiago, Chile; Department of Immunology and Infectious Diseases, Harvard School of Public Health, Boston, MA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Matus S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "Matus"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5284-151X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Neurounion Biomedical Foundation, CENPAR, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Center for Geroscience, Brain Health and Metabolism, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5284-151X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2397961"
+      ],
+      "dateOfPublication": [
+        "2016 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Neural regeneration research"
+          ],
+          "ISOAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "medlineAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "NLMid": [
+            "101316351"
+          ],
+          "ISSN": [
+            "1673-5374"
+          ],
+          "ESSN": [
+            "1876-7958"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "232-233"
+  ],
+  "affiliation": [
+    "Neurounion Biomedical Foundation, CENPAR, Santiago, Chile; Biomedical Neuroscience Institute, Faculty of Medicine, University of Chile, Santiago, Chile; Center for Geroscience, Brain Health and Metabolism, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4810980"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4103/1673-5374.177722"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-04-13"
+  ],
+  "dateOfCreation": [
+    "2016-04-13"
+  ],
+  "dateOfRevision": [
+    "2016-04-15"
+  ],
+  "firstPublicationDate": [
+    "2016-02-01"
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "id": [
+    "29109727"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29109727"
+  ],
+  "pmcid": [
+    "PMC5660598"
+  ],
+  "doi": [
+    "10.3389/fimmu.2017.01350"
+  ],
+  "title": [
+    "Dexamethasone and Monophosphoryl Lipid A Induce a Distinctive Profile on Monocyte-Derived Dendritic Cells through Transcriptional Modulation of Genes Associated With Essential Processes of the Immune Response."
+  ],
+  "authorString": [
+    "García-González PA, Schinnerling K, Sepúlveda-Gutiérrez A, Maggi J, Mehdi AM, Nel HJ, Pesce B, Larrondo ML, Aravena O, Molina MC, Catalán D, Thomas R, Verdugo RA, Aguillón JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García-González PA"
+          ],
+          "firstName": [
+            "Paulina A"
+          ],
+          "lastName": [
+            "García-González"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schinnerling K"
+          ],
+          "firstName": [
+            "Katina"
+          ],
+          "lastName": [
+            "Schinnerling"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda-Gutiérrez A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Sepúlveda-Gutiérrez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Programa de Genética Humana, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maggi J"
+          ],
+          "firstName": [
+            "Jaxaira"
+          ],
+          "lastName": [
+            "Maggi"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mehdi AM"
+          ],
+          "firstName": [
+            "Ahmed M"
+          ],
+          "lastName": [
+            "Mehdi"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute, Woolloongabba, QLD, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Nel HJ"
+          ],
+          "firstName": [
+            "Hendrik J"
+          ],
+          "lastName": [
+            "Nel"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute, Woolloongabba, QLD, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Pesce B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Pesce"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Larrondo ML"
+          ],
+          "firstName": [
+            "Milton L"
+          ],
+          "lastName": [
+            "Larrondo"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Banco de Sangre, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aravena O"
+          ],
+          "firstName": [
+            "Octavio"
+          ],
+          "lastName": [
+            "Aravena"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina MC"
+          ],
+          "firstName": [
+            "María C"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Programa Disciplinario de Inmunología, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Catalán D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Catalán"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Thomas R"
+          ],
+          "firstName": [
+            "Ranjeny"
+          ],
+          "lastName": [
+            "Thomas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Translational Research Institute, University of Queensland Diamantina Institute, Woolloongabba, QLD, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Verdugo RA"
+          ],
+          "firstName": [
+            "Ricardo A"
+          ],
+          "lastName": [
+            "Verdugo"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Programa de Genética Humana, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguillón JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Aguillón"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550594"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1350"
+  ],
+  "abstractText": [
+    "There is growing interest in the use of tolerogenic dendritic cells (tolDCs) as a potential target for immunotherapy. However, the molecular bases that drive the differentiation of monocyte-derived DCs (moDCs) toward a tolerogenic state are still poorly understood. Here, we studied the transcriptional profile of moDCs from healthy subjects, modulated with dexamethasone (Dex) and activated with monophosphoryl lipid A (MPLA), referred to as Dex-modulated and MPLA-activated DCs (DM-DCs), as an approach to identify molecular regulators and pathways associated with the induction of tolerogenic properties in tolDCs. We found that DM-DCs exhibit a distinctive transcriptional profile compared to untreated (DCs) and MPLA-matured DCs. Differentially expressed genes downregulated by DM included MMP12, CD1c, IL-1B, and FCER1A involved in DC maturation/inflammation and genes upregulated by DM included JAG1, MERTK, IL-10, and IDO1 involved in tolerance. Genes related to chemotactic responses, cell-to-cell signaling and interaction, fatty acid oxidation, metal homeostasis, and free radical scavenging were strongly enriched, predicting the activation of alternative metabolic processes than those driven by counterpart DCs. Furthermore, we identified a set of genes that were regulated exclusively by the combined action of Dex and MPLA, which are mainly involved in the control of zinc homeostasis and reactive oxygen species production. These data further support the important role of metabolic processes on the control of the DC-driven regulatory immune response. Thus, Dex and MPLA treatments modify gene expression in moDCs by inducing a particular transcriptional profile characterized by the activation of tolerance-associated genes and suppression of the expression of inflammatory genes, conferring the potential to exert regulatory functions and immune response modulation."
+  ],
+  "affiliation": [
+    "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Dexamethasone",
+        "Immune regulation",
+        "Transcriptome",
+        "Tolerance Induction",
+        "Tolerogenic Dendritic Cells"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5660598?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5660598"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2017.01350"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-08"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-23"
+  ],
+  "firstPublicationDate": [
+    "2017-10-23"
+  ]
+}

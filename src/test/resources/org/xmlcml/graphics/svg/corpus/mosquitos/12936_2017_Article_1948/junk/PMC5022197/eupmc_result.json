@@ -1,0 +1,874 @@
+{
+  "id": [
+    "27624561"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27624561"
+  ],
+  "pmcid": [
+    "PMC5022197"
+  ],
+  "doi": [
+    "10.1186/s13071-016-1792-y"
+  ],
+  "title": [
+    "First meeting \"Cystic echinococcosis in Chile, update in alternatives for control and diagnostics in animals and humans\"."
+  ],
+  "authorString": [
+    "Alvarez Rojas CA, Fredes F, Torres M, Acosta-Jamett G, Alvarez JF, Pavletic C, Paredes R, Cortés S, Ministry of Health, SAG and other organizations attending the meeting."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Alvarez Rojas CA"
+          ],
+          "firstName": [
+            "Cristian A"
+          ],
+          "lastName": [
+            "Alvarez Rojas"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Centre for Animal Biotechnology, The University of Melbourne, Parkville, 3052, Victoria, Australia. alvarezc@unimelb.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Fredes F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Fredes"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6677-5165",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Preventiva Animal Facultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres M"
+          ],
+          "firstName": [
+            "Marisa"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta-Jamett G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "Acosta-Jamett"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Medicina Preventiva Veterinaria y Programa de Investigación Aplicada en Fauna Silvestre, Facultad de Ciencias Veterinarias, Universidad Austral de Chile, Casilla 567, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvarez JF"
+          ],
+          "firstName": [
+            "Juan Francisco"
+          ],
+          "lastName": [
+            "Alvarez"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8069-7607",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Servicio Agrícola Ganadero, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pavletic C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Pavletic"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Ministerio de Salud, Gobierno de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paredes R"
+          ],
+          "firstName": [
+            "Rodolfo"
+          ],
+          "lastName": [
+            "Paredes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Escuela de Medicina Veterinaria, Facultad de Ecología y Recursos Naturales, Universidad Andres Bello, Santiago, Chile. rparedes@unab.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortés S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Cortés"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Ministry of Health, SAG and other organizations attending the meeting"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Castro N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Bertin I"
+          ],
+          "firstName": [
+            "Isabel"
+          ],
+          "lastName": [
+            "Bertin"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "Del Barrio L"
+          ],
+          "firstName": [
+            "Leopoldo"
+          ],
+          "lastName": [
+            "Del Barrio"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Troncoso F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Troncoso"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Faundez F"
+          ],
+          "firstName": [
+            "Fabiola"
+          ],
+          "lastName": [
+            "Faundez"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Flores N"
+          ],
+          "firstName": [
+            "Nelson"
+          ],
+          "lastName": [
+            "Flores"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Boisier L"
+          ],
+          "firstName": [
+            "LoretoUribe"
+          ],
+          "lastName": [
+            "Boisier"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Manriquez M"
+          ],
+          "firstName": [
+            "MaríaIsabel"
+          ],
+          "lastName": [
+            "Manriquez"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Lillo S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Lillo"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Escobar H"
+          ],
+          "firstName": [
+            "Héctor"
+          ],
+          "lastName": [
+            "Escobar"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Poblete A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Poblete"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes L"
+          ],
+          "firstName": [
+            "Lilia"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Wainnright I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Wainnright"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "Serrano S"
+          ],
+          "firstName": [
+            "Samuel"
+          ],
+          "lastName": [
+            "Serrano"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Villalón M"
+          ],
+          "firstName": [
+            "Mitzi"
+          ],
+          "lastName": [
+            "Villalón"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Arriaza M"
+          ],
+          "firstName": [
+            "Marjorie"
+          ],
+          "lastName": [
+            "Arriaza"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Caldera L"
+          ],
+          "firstName": [
+            "Loreto"
+          ],
+          "lastName": [
+            "Caldera"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Fritz A"
+          ],
+          "firstName": [
+            "Annelisse"
+          ],
+          "lastName": [
+            "Fritz"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Segura J"
+          ],
+          "firstName": [
+            "JoséAntonio"
+          ],
+          "lastName": [
+            "Segura"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Barrientos C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Barrientos"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Parra A"
+          ],
+          "firstName": [
+            "Alonso"
+          ],
+          "lastName": [
+            "Parra"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Porcel R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Porcel"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Segovia V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "Segovia"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Sabelle C"
+          ],
+          "firstName": [
+            "Cristián"
+          ],
+          "lastName": [
+            "Sabelle"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Merino G"
+          ],
+          "firstName": [
+            "Guido"
+          ],
+          "lastName": [
+            "Merino"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Gómez J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Gómez"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez M"
+          ],
+          "firstName": [
+            "MaríaIsabel"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Vicencio S"
+          ],
+          "firstName": [
+            "SusanMiranda"
+          ],
+          "lastName": [
+            "Vicencio"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilera G"
+          ],
+          "firstName": [
+            "GladysRios"
+          ],
+          "lastName": [
+            "Aguilera"
+          ],
+          "initials": [
+            "G"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8069-7607",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9645-3551",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6677-5165",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2490823"
+      ],
+      "dateOfPublication": [
+        "2016 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Parasites & vectors"
+          ],
+          "ISOAbbreviation": [
+            "Parasit Vectors"
+          ],
+          "medlineAbbreviation": [
+            "Parasit Vectors"
+          ],
+          "NLMid": [
+            "101462774"
+          ],
+          "ISSN": [
+            "1756-3305"
+          ],
+          "ESSN": [
+            "1756-3305"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "502"
+  ],
+  "abstractText": [
+    "This report summarizes the outcomes of a meeting on cystic echinococcosis (CE) in animals and humans in Chile held in Santiago, Chile, between the 21st and 22nd of January 2016. The meeting participants included representatives of the Departamento de Zoonosis, Ministerio de Salud (Zoonotic Diseases Department, Ministry of Health), representatives of the Secretarias Regionales del Ministerio de Salud (Regional Department of Health, Ministry of Health), Instituto Nacional de Desarrollo Agropecuario (National Institute for the Development of Agriculture and Livestock, INDAP), Instituto de Salud Pública (National Institute for Public Health, ISP) and the Servicio Agrícola y Ganadero (Animal Health Department, SAG), academics from various universities, veterinarians and physicians. Current and future CE control activities were discussed. It was noted that the EG95 vaccine was being implemented for the first time in pilot control programmes, with the vaccine scheduled during 2016 in two different regions in the South of Chile. In relation to use of the vaccine, the need was highlighted for acquiring good quality data, based on CE findings at slaughterhouse, previous to initiation of vaccination so as to enable correct assessment of the efficacy of the vaccine in the following years. The current world's-best-practice concerning the use of ultrasound as a diagnostic tool for the screening population in highly endemic remote and poor areas was also discussed."
+  ],
+  "affiliation": [
+    "Centre for Animal Biotechnology, The University of Melbourne, Parkville, 3052, Victoria, Australia. alvarezc@unimelb.edu.au."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Echinococcus granulosus",
+        "Chile",
+        "Zoonosis",
+        "Cystic Echinococcosis",
+        "Neglected Disease"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5022197?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5022197"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13071-016-1792-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "27846866"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Parasit Vectors. 2016 Nov 15;9(1):583"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "15"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-20"
+  ],
+  "dateOfCreation": [
+    "2016-09-15"
+  ],
+  "dateOfRevision": [
+    "2017-11-28"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-13"
+  ],
+  "firstPublicationDate": [
+    "2016-09-13"
+  ]
+}

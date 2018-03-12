@@ -1,0 +1,1022 @@
+{
+  "id": [
+    "27726295"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27726295"
+  ],
+  "pmcid": [
+    "PMC5119987"
+  ],
+  "doi": [
+    "10.1002/cam4.915"
+  ],
+  "title": [
+    "Salmonella enterica serovar Typhi and gallbladder cancer: a case-control study and meta-analysis."
+  ],
+  "authorString": [
+    "Koshiol J, Wozniak A, Cook P, Adaniel C, Acevedo J, Azócar L, Hsing AW, Roa JC, Pasetti MF, Miquel JF, Levine MM, Ferreccio C, Gallbladder Cancer Chile Working Group."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Koshiol J"
+          ],
+          "firstName": [
+            "Jill"
+          ],
+          "lastName": [
+            "Koshiol"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Infections and Immunoepidemiology Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, MD."
+          ]
+        },
+        {
+          "fullName": [
+            "Wozniak A"
+          ],
+          "firstName": [
+            "Aniela"
+          ],
+          "lastName": [
+            "Wozniak"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Microbiology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cook P"
+          ],
+          "firstName": [
+            "Paz"
+          ],
+          "lastName": [
+            "Cook"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Advanced Center for Chronic Diseases, ACCDiS, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Adaniel C"
+          ],
+          "firstName": [
+            "Christina"
+          ],
+          "lastName": [
+            "Adaniel"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratory of Microbiology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acevedo J"
+          ],
+          "firstName": [
+            "Johanna"
+          ],
+          "lastName": [
+            "Acevedo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Advanced Center for Chronic Diseases, ACCDiS, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Azócar L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Azócar"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hsing AW"
+          ],
+          "firstName": [
+            "Ann W"
+          ],
+          "lastName": [
+            "Hsing"
+          ],
+          "initials": [
+            "AW"
+          ],
+          "affiliation": [
+            "Department of Health Research and Policy, Stanford School of Medicine, Palo Alto, CA."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pathology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pasetti MF"
+          ],
+          "firstName": [
+            "Marcela F"
+          ],
+          "lastName": [
+            "Pasetti"
+          ],
+          "initials": [
+            "MF"
+          ],
+          "affiliation": [
+            "Center for Vaccine Development, University of Maryland School of Medicine, Baltimore, MD."
+          ]
+        },
+        {
+          "fullName": [
+            "Miquel JF"
+          ],
+          "firstName": [
+            "Juan F"
+          ],
+          "lastName": [
+            "Miquel"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Levine MM"
+          ],
+          "firstName": [
+            "Myron M"
+          ],
+          "lastName": [
+            "Levine"
+          ],
+          "initials": [
+            "MM"
+          ],
+          "affiliation": [
+            "Center for Vaccine Development, University of Maryland School of Medicine, Baltimore, MD."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreccio C"
+          ],
+          "firstName": [
+            "Catterina"
+          ],
+          "lastName": [
+            "Ferreccio"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Advanced Center for Chronic Diseases, ACCDiS, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Gallbladder Cancer Chile Working Group"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Aguayo CG"
+          ],
+          "firstName": [
+            "Carmen Gloria"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "CG"
+          ]
+        },
+        {
+          "fullName": [
+            "Baez S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Baez"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz A"
+          ],
+          "firstName": [
+            "Alfonso"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Molina H"
+          ],
+          "firstName": [
+            "Héctor"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Tello A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Tello"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Durán G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Durán"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado CP"
+          ],
+          "firstName": [
+            "Carolina Paz"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "CP"
+          ]
+        },
+        {
+          "fullName": [
+            "Quevedo R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Quevedo"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Pineda S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Pineda"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "la Barra T"
+          ],
+          "firstName": [
+            "Tiare"
+          ],
+          "lastName": [
+            "la Barra"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Reyes C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Reyes"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Alegría C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "Alegría"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Losada H"
+          ],
+          "firstName": [
+            "Héctor"
+          ],
+          "lastName": [
+            "Losada"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Arraya JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Arraya"
+          ],
+          "initials": [
+            "JC"
+          ]
+        },
+        {
+          "fullName": [
+            "Bellolio E"
+          ],
+          "firstName": [
+            "Enrique"
+          ],
+          "lastName": [
+            "Bellolio"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia O"
+          ],
+          "firstName": [
+            "Oscar"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "O"
+          ]
+        },
+        {
+          "fullName": [
+            "López J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Medina K"
+          ],
+          "firstName": [
+            "Karie"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "K"
+          ]
+        },
+        {
+          "fullName": [
+            "Barraza P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Barraza"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Catalán S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Catalán"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme P"
+          ],
+          "firstName": [
+            "Pía"
+          ],
+          "lastName": [
+            "Riquelme"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Órdenes L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Órdenes"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Garcés R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Garcés"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Duarte C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Duarte"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Hildesheim A"
+          ],
+          "firstName": [
+            "Allan"
+          ],
+          "lastName": [
+            "Hildesheim"
+          ],
+          "initials": [
+            "A"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2492972"
+      ],
+      "dateOfPublication": [
+        "2016 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancer medicine"
+          ],
+          "ISOAbbreviation": [
+            "Cancer Med"
+          ],
+          "medlineAbbreviation": [
+            "Cancer Med"
+          ],
+          "NLMid": [
+            "101595310"
+          ],
+          "ISSN": [
+            "2045-7634"
+          ],
+          "ESSN": [
+            "2045-7634"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "3310-3235"
+  ],
+  "abstractText": [
+    "In Chile, where gallbladder cancer (GBC) rates are high and typhoid fever was endemic until the 1990s, we evaluated the association between Salmonella enterica serovar Typhi (S. Typhi) antibodies and GBC. We tested 39 GBC cases, 40 gallstone controls, and 39 population-based controls for S. Typhi Vi antibodies and performed culture and quantitative polymerase chain reaction for the subset with bile, gallstone, tissue, and stool samples available. We calculated gender and education-adjusted odds ratios (ORs) and 95% confidence intervals (CIs) for the association with GBC. We also conducted a meta-analysis of >1000 GBC cases by combining our results with previous studies. GBC cases were more likely to have high Vi antibody titer levels than combined controls (OR: 4.0, 95% CI: 0.9-18.3), although S. Typhi was not recovered from bile, gallstone, tissue, or stool samples. In our meta-analysis, the summary relative risk was 4.6 (95% CI: 3.1-6.8, Pheterogeneity =0.6) for anti-Vi and 5.0 (95% CI: 2.7-9.3, Pheterogeneity  = 0.2) for bile or stool culture. Our results are consistent with the meta-analysis. Despite differences in study methods (e.g., S. Typhi detection assay), most studies found a positive association between S. Typhi and GBC. However, the mechanism underlying this association requires further investigation."
+  ],
+  "affiliation": [
+    "Infections and Immunoepidemiology Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, MD."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Salmonella typhi"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Typhoid Fever"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gallbladder Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ET"
+                  ],
+                  "qualifierName": [
+                    "etiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Assessment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Case-Control Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Meta-analysis",
+        "Chile",
+        "epidemiology",
+        "gallbladder cancer",
+        "Salmonella Enterica Serovar Typhi",
+        "Vi Antibodies"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5119987?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5119987"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/cam4.915"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-16"
+  ],
+  "dateOfCreation": [
+    "2016-10-12"
+  ],
+  "dateOfRevision": [
+    "2017-11-28"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-11"
+  ],
+  "firstPublicationDate": [
+    "2016-10-11"
+  ]
+}

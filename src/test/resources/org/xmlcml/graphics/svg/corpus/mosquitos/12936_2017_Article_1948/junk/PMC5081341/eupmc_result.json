@@ -1,0 +1,514 @@
+{
+  "id": [
+    "27790221"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27790221"
+  ],
+  "pmcid": [
+    "PMC5081341"
+  ],
+  "doi": [
+    "10.3389/fimmu.2016.00447"
+  ],
+  "title": [
+    "Corrigendum: Exome Sequencing Reveals Primary Immunodeficiencies in Children with Community-Acquired Pseudomonas aeruginosa Sepsis."
+  ],
+  "authorString": [
+    "Asgari S, McLaren PJ, Peake J, Wong M, Wong R, Bartha I, Francis JR, Abarca K, Gelderman KA, Agyeman P, Aebi C, Berger C, Fellay J, Schlapbach LJ, Swiss Pediatric Sepsis Study."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Asgari S"
+          ],
+          "firstName": [
+            "Samira"
+          ],
+          "lastName": [
+            "Asgari"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Global Health Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "McLaren PJ"
+          ],
+          "firstName": [
+            "Paul J"
+          ],
+          "lastName": [
+            "McLaren"
+          ],
+          "initials": [
+            "PJ"
+          ],
+          "affiliation": [
+            "National HIV and Retrovirology Laboratory, Public Health Agency of Canada, Winnipeg, MB, Canada; Department of Medical Microbiology and Infectious Diseases, University of Manitoba, Winnipeg, MB, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Peake J"
+          ],
+          "firstName": [
+            "Jane"
+          ],
+          "lastName": [
+            "Peake"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Lady Cilento Children's Hospital , Brisbane, QLD , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Wong M"
+          ],
+          "firstName": [
+            "Melanie"
+          ],
+          "lastName": [
+            "Wong"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Children's Hospital Westmead , Sydney, NSW , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Wong R"
+          ],
+          "firstName": [
+            "Richard"
+          ],
+          "lastName": [
+            "Wong"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Pathology Queensland Central Laboratory, Royal Brisbane and Women's Hospital , Brisbane, QLD , Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Bartha I"
+          ],
+          "firstName": [
+            "Istvan"
+          ],
+          "lastName": [
+            "Bartha"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Global Health Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Francis JR"
+          ],
+          "firstName": [
+            "Joshua R"
+          ],
+          "lastName": [
+            "Francis"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia; Royal Darwin Hospital, Darwin, NT, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Abarca K"
+          ],
+          "firstName": [
+            "Katia"
+          ],
+          "lastName": [
+            "Abarca"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, Escuela de Medicina, Pontificia Universidad Católica de Chile , Santiago , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gelderman KA"
+          ],
+          "firstName": [
+            "Kyra A"
+          ],
+          "lastName": [
+            "Gelderman"
+          ],
+          "initials": [
+            "KA"
+          ],
+          "affiliation": [
+            "Sanquin Diagnostic Services , Amsterdam , Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Agyeman P"
+          ],
+          "firstName": [
+            "Philipp"
+          ],
+          "lastName": [
+            "Agyeman"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, Inselspital, Bern University Hospital, University of Bern , Bern , Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Aebi C"
+          ],
+          "firstName": [
+            "Christoph"
+          ],
+          "lastName": [
+            "Aebi"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, Inselspital, Bern University Hospital, University of Bern , Bern , Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Berger C"
+          ],
+          "firstName": [
+            "Christoph"
+          ],
+          "lastName": [
+            "Berger"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "University Children's Hospital Zurich , Zurich , Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Fellay J"
+          ],
+          "firstName": [
+            "Jacques"
+          ],
+          "lastName": [
+            "Fellay"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Global Health Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Schlapbach LJ"
+          ],
+          "firstName": [
+            "Luregn J"
+          ],
+          "lastName": [
+            "Schlapbach"
+          ],
+          "initials": [
+            "LJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2281-2598",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Lady Cilento Children's Hospital, Brisbane, QLD, Australia; Department of Pediatrics, Inselspital, Bern University Hospital, University of Bern, Bern, Switzerland; Paediatric Critical Care Research Group (PCCRG), Mater Research, University of Queensland, Brisbane, QLD, Australia."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Swiss Pediatric Sepsis Study"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2281-2598",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2549136"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "447"
+  ],
+  "abstractText": [
+    "[This corrects the article on p. 357 in vol. 7, PMID: 27703454.]."
+  ],
+  "affiliation": [
+    "Global Health Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland; Swiss Institute of Bioinformatics, Lausanne, Switzerland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Pseudomonas",
+        "Child",
+        "Sepsis",
+        "bacteremia",
+        "Primary Immunodeficiency",
+        "Exome Sequencing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5081341?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5081341"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2016.00447"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "27703454"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Front Immunol. 2016 Sep 20;7:357"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-10-28"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-27"
+  ],
+  "firstPublicationDate": [
+    "2016-10-27"
+  ]
+}

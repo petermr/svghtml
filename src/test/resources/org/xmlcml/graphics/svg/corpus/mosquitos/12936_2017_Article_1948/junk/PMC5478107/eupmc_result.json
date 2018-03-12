@@ -1,0 +1,576 @@
+{
+  "id": [
+    "28632790"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28632790"
+  ],
+  "pmcid": [
+    "PMC5478107"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0179390"
+  ],
+  "title": [
+    "Diversity structure of culturable bacteria isolated from the Fildes Peninsula (King George Island, Antarctica): A phylogenetic analysis perspective."
+  ],
+  "authorString": [
+    "González-Rocha G, Muñoz-Cartes G, Canales-Aguirre CB, Lima CA, Domínguez-Yévenes M, Bello-Toledo H, Hernández CE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "González-Rocha G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "González-Rocha"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz-Cartes G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Muñoz-Cartes"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canales-Aguirre CB"
+          ],
+          "firstName": [
+            "Cristian B"
+          ],
+          "lastName": [
+            "Canales-Aguirre"
+          ],
+          "initials": [
+            "CB"
+          ],
+          "affiliation": [
+            "Centro i~mar, Universidad de Los Lagos, Camino a Chinquihue 6 km, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lima CA"
+          ],
+          "firstName": [
+            "Celia A"
+          ],
+          "lastName": [
+            "Lima"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Domínguez-Yévenes M"
+          ],
+          "firstName": [
+            "Mariana"
+          ],
+          "lastName": [
+            "Domínguez-Yévenes"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bello-Toledo H"
+          ],
+          "firstName": [
+            "Helia"
+          ],
+          "lastName": [
+            "Bello-Toledo"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández CE"
+          ],
+          "firstName": [
+            "Cristián E"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "CE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9811-2881",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Ecología Evolutiva y Filoinformática. Departamento de Zoología, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9811-2881",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2562707"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0179390"
+  ],
+  "abstractText": [
+    "It has been proposed that Antarctic environments select microorganisms with unique biochemical adaptations, based on the tenet 'Everything is everywhere, but, the environment selects' by Baas-Becking. However, this is a hypothesis that has not been extensively evaluated. This study evaluated the fundamental prediction contained in this hypothesis-in the sense that species are structured in the landscape according to their local habitats-, using as study model the phylogenetic diversity of the culturable bacteria of Fildes Peninsula (King George Island, Antarctica). Eighty bacterial strains isolated from 10 different locations in the area, were recovered. Based on phylogenetic analysis of 16S rRNA gene sequences, the isolates were grouped into twenty-six phylotypes distributed in three main clades, of which only six are exclusive to Antarctica. Results showed that phylotypes do not group significantly by habitat type; however, local habitat types had phylogenetic signal, which support the phylogenetic niche conservatism hypothesis and not a selective role of the environment like the Baas-Becking hypothesis suggests. We propose that, more than habitat selection resulting in new local adaptations and diversity, local historical colonization and species sorting (i.e. differences in speciation and extinction rates that arise by interaction of species level traits with the environment) play a fundamental role on the culturable bacterial diversity in Antarctica."
+  ],
+  "affiliation": [
+    "Laboratorio de Investigación en Agentes Antibacterianos. Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacteria"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Ribosomal, 16S"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Soil Microbiology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Water Microbiology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Biodiversity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Databases, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antarctic Regions"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Islands"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Ribosomal, 16S"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5478107?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5478107"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0179390"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-09-19"
+  ],
+  "dateOfCreation": [
+    "2017-06-20"
+  ],
+  "dateOfRevision": [
+    "2017-09-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-20"
+  ],
+  "firstPublicationDate": [
+    "2017-06-20"
+  ]
+}

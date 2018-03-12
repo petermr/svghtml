@@ -1,0 +1,630 @@
+{
+  "id": [
+    "28880905"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28880905"
+  ],
+  "pmcid": [
+    "PMC5589243"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0184481"
+  ],
+  "title": [
+    "Population genetics of Southern Hemisphere tope shark (Galeorhinus galeus): Intercontinental divergence and constrained gene flow at different geographical scales."
+  ],
+  "authorString": [
+    "Bester-van der Merwe AE, Bitalo D, Cuevas JM, Ovenden J, Hernández S, da Silva C, McCord M, Roodt-Wilding R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bester-van der Merwe AE"
+          ],
+          "firstName": [
+            "Aletta E"
+          ],
+          "lastName": [
+            "Bester-van der Merwe"
+          ],
+          "initials": [
+            "AE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0332-7864",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Genetics, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Bitalo D"
+          ],
+          "firstName": [
+            "Daphne"
+          ],
+          "lastName": [
+            "Bitalo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Genetics, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuevas JM"
+          ],
+          "firstName": [
+            "Juan M"
+          ],
+          "lastName": [
+            "Cuevas"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Universidad Nacional de La Plata (UNLP), División Zoología Vertebrados, Museo de La Plata, La Plata, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ovenden J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Ovenden"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Molecular Fisheries Laboratory, Queensland Government, St Lucia, Queensland, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Molecular Biology Laboratory, Center for International Programs, Veritas University, San José, Costa Rica."
+          ]
+        },
+        {
+          "fullName": [
+            "da Silva C"
+          ],
+          "firstName": [
+            "Charlene"
+          ],
+          "lastName": [
+            "da Silva"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Fisheries Research, Department of Agriculture, Forestry and Fisheries, Cape Town, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "McCord M"
+          ],
+          "firstName": [
+            "Meaghen"
+          ],
+          "lastName": [
+            "McCord"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "South African Shark Conservancy, Old Harbour Museum, Hermanus, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Roodt-Wilding R"
+          ],
+          "firstName": [
+            "Rouvay"
+          ],
+          "lastName": [
+            "Roodt-Wilding"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Genetics, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0332-7864",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2591647"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0184481"
+  ],
+  "abstractText": [
+    "The tope shark (Galeorhinus galeus Linnaeus, 1758) is a temperate, coastal hound shark found in the Atlantic and Indo-Pacific oceans. In this study, the population structure of Galeorhinus galeus was determined across the entire Southern Hemisphere, where the species is heavily targeted by commercial fisheries, as well as locally, along the South African coastline. Analysis was conducted on a total of 185 samples using 19 microsatellite markers and a 671 bp fragment of the NADH dehydrogenase subunit 2 (ND2) gene. Across the Southern Hemisphere, three geographically distinct clades were recovered, including one from South America (Argentina, Chile), one from Africa (all the South African collections) and an Australia-New Zealand clade. Nuclear data revealed significant population subdivisions (FST = 0.192 to 0.376, p<0.05) indicating limited gene flow for tope sharks across ocean basins. Marked population connectivity was however evident across the Indian Ocean based on Bayesian clustering analysis. More locally in South Africa, F-statistics and multivariate analysis supported moderate to high gene flow across the Atlantic/Indian Ocean boundary (FST = 0.035 to 0.044, p<0.05), with exception of samples from Struisbaai and Port Elizabeth which differed significantly from the rest. Discriminant and Bayesian clustering analysis indicated admixture in all sampling populations, decreasing from west to east, corroborating possible restriction to gene flow across regional oceanographic barriers. Mitochondrial sequence data recovered seven haplotypes (h = 0.216, π = 0.001) for South Africa, with one major haplotype shared by 87% of the individuals and at least one private haplotype for each sampling location except Port Elizabeth. As with many other coastal shark species with cosmopolitan distribution, this study confirms the lack of both historical dispersal and inter-oceanic gene flow while also implicating contemporary factors such as oceanic currents and thermal fronts to drive local genetic structure of G. galeus on a smaller spatial scale."
+  ],
+  "affiliation": [
+    "Department of Genetics, Stellenbosch University, Stellenbosch, South Africa."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sharks"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Mitochondrial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Microsatellite Repeats"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Haplotypes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Flow"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Mitochondrial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5589243?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5589243"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0184481"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-16"
+  ],
+  "dateOfCreation": [
+    "2017-09-07"
+  ],
+  "dateOfRevision": [
+    "2017-10-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-07"
+  ],
+  "firstPublicationDate": [
+    "2017-09-07"
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "id": [
+    "28412732"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28412732"
+  ],
+  "pmcid": [
+    "PMC5432248"
+  ],
+  "doi": [
+    "10.18632/oncotarget.15410"
+  ],
+  "title": [
+    "Small molecule inhibitor screening identifified HSP90 inhibitor 17-AAG as potential therapeutic agent for gallbladder cancer."
+  ],
+  "authorString": [
+    "Weber H, Valbuena JR, Barbhuiya MA, Stein S, Kunkel H, García P, Bizama C, Riquelme I, Espinoza JA, Kurtz SE, Tyner JW, Calderon JF, Corvalán AH, Grez M, Pandey A, Leal-Rojas P, Roa JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Weber H"
+          ],
+          "firstName": [
+            "Helga"
+          ],
+          "lastName": [
+            "Weber"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Center of Excellence in Traslational Medicine (CEMT) and Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valbuena JR"
+          ],
+          "firstName": [
+            "José R"
+          ],
+          "lastName": [
+            "Valbuena"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Department of Pathology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barbhuiya MA"
+          ],
+          "firstName": [
+            "Mustafa A"
+          ],
+          "lastName": [
+            "Barbhuiya"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "McKusick-Nathans Institute of Genetic Medicine, The Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Stein S"
+          ],
+          "firstName": [
+            "Stefan"
+          ],
+          "lastName": [
+            "Stein"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Gene Therapy Unit, Institute for Tumor Biology and Experimental Therapy, Georg-Speyer-Haus, Frankfurt, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Kunkel H"
+          ],
+          "firstName": [
+            "Hana"
+          ],
+          "lastName": [
+            "Kunkel"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Gene Therapy Unit, Institute for Tumor Biology and Experimental Therapy, Georg-Speyer-Haus, Frankfurt, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "García P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Pathology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bizama C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Bizama"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Pathology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme I"
+          ],
+          "firstName": [
+            "Ismael"
+          ],
+          "lastName": [
+            "Riquelme"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Center of Excellence in Traslational Medicine (CEMT) and Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza JA"
+          ],
+          "firstName": [
+            "Jaime A"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "SciLifeLab, Division of Genome Biology, Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Solna, Stockholm, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Kurtz SE"
+          ],
+          "firstName": [
+            "Stephen E"
+          ],
+          "lastName": [
+            "Kurtz"
+          ],
+          "initials": [
+            "SE"
+          ],
+          "affiliation": [
+            "Division of Hematology and Medical Oncology, Cell, Developmental and Cancer Biology, Oregon Health and Science University, Portland, OR, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Tyner JW"
+          ],
+          "firstName": [
+            "Jeffrey W"
+          ],
+          "lastName": [
+            "Tyner"
+          ],
+          "initials": [
+            "JW"
+          ],
+          "affiliation": [
+            "Division of Hematology and Medical Oncology, Cell, Developmental and Cancer Biology, Oregon Health and Science University, Portland, OR, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Calderon JF"
+          ],
+          "firstName": [
+            "Juan Francisco"
+          ],
+          "lastName": [
+            "Calderon"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2072-704X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genetics and Genomics, School of Medicine, Clínica Alemana de Santiago - Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Center for Investigation in Translational Oncology (CITO), Advanced Center for Chronic Diseases (ACCDiS), Millennium Institute on Immunology and Immunotherapy, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Grez M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Grez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Gene Therapy Unit, Institute for Tumor Biology and Experimental Therapy, Georg-Speyer-Haus, Frankfurt, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Pandey A"
+          ],
+          "firstName": [
+            "Akhilesh"
+          ],
+          "lastName": [
+            "Pandey"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "McKusick-Nathans Institute of Genetic Medicine, The Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Leal-Rojas P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Leal-Rojas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center of Excellence in Traslational Medicine (CEMT) and Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pathology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2072-704X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "16"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2551733"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncotarget"
+          ],
+          "ISOAbbreviation": [
+            "Oncotarget"
+          ],
+          "medlineAbbreviation": [
+            "Oncotarget"
+          ],
+          "NLMid": [
+            "101532965"
+          ],
+          "ISSN": [
+            "1949-2553"
+          ],
+          "ESSN": [
+            "1949-2553"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "26169-26184"
+  ],
+  "abstractText": [
+    "Gallbladder cancer (GBC) is a lethal cancer with poor prognosis associated with high invasiveness and poor response to chemotherapy and radiotherapy. New therapeutic approaches are urgently needed in order to improve survival and response rates of GBC patients. We screened 130 small molecule inhibitors on a panel of seven GBC cell lines and identified the HSP90 inhibitor 17-AAG as one of the most potent inhibitory drugs across the different lines. We tested the antitumor efficacy of 17-AAG and geldanamycin (GA) in vitro and in a subcutaneous preclinical tumor model NOD-SCID mice. We also evaluated the expression of HSP90 by immunohistochemistry in human GBC tumors.In vitro assays showed that 17-AAG and GA significantly reduced the expression of HSP90 target proteins, including EGFR, AKT, phospho-AKT, Cyclin B1, phospho-ERK and Cyclin D1. These molecular changes were consistent with reduced cell viability and cell migration and promotion of G2/M cell cycle arrest and apoptosis observed in our in vitro studies.In vivo, 17-AAG showed efficacy in reducing subcutaneous tumors size, exhibiting a 69.6% reduction in tumor size in the treatment group compared to control mice (p < 0.05).The HSP90 immunohistochemical staining was seen in 182/209 cases of GBC (87%) and it was strongly expressed in 70 cases (33%), moderately in 58 cases (28%), and weakly in 54 cases (26%).Our pre-clinical observations strongly suggest that the inhibition of HSP90 function by HSP90 inhibitors is a promising therapeutic strategy for gallbladder cancer that may benefit from new HSP90 inhibitors currently in development."
+  ],
+  "affiliation": [
+    "Center of Excellence in Traslational Medicine (CEMT) and Scientific and Technological Bioresource Nucleus (BIOREN), Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line, Tumor"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gallbladder Neoplasms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Models, Animal"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lactams, Macrocyclic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Benzoquinones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antineoplastic Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Drug Screening Assays, Antitumor"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Xenograft Model Antitumor Assays"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Apoptosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Proliferation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Movement"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Survival"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "HSP90 Heat-Shock Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AI"
+                  ],
+                  "qualifierName": [
+                    "antagonists & inhibitors"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Small Molecule Libraries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Drug Discovery"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Screening Assays"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Cycle Checkpoints"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Geldanamycin",
+        "gallbladder cancer",
+        "Hsp90 Inhibitors",
+        "17-Aag",
+        "Gallbladder Cancer Xenografts"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Antineoplastic Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Benzoquinones"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Lactams, Macrocyclic"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "HSP90 Heat-Shock Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Small Molecule Libraries"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "tanespimycin"
+          ],
+          "registryNumber": [
+            "4GY0AVT3L4"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5432248?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5432248"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.18632/oncotarget.15410"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-03-05"
+  ],
+  "dateOfCreation": [
+    "2017-04-17"
+  ],
+  "dateOfRevision": [
+    "2018-03-05"
+  ],
+  "firstPublicationDate": [
+    "2017-02-16"
+  ]
+}

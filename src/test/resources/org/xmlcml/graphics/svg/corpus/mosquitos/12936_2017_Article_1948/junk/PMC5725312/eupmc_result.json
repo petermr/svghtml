@@ -1,0 +1,336 @@
+{
+  "id": [
+    "28687516"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28687516"
+  ],
+  "pmcid": [
+    "PMC5725312"
+  ],
+  "doi": [
+    "10.1016/j.neuroimage.2017.06.049"
+  ],
+  "title": [
+    "Reconstructing anatomy from electro-physiological data."
+  ],
+  "authorString": [
+    "López JD, Valencia F, Flandin G, Penny W, Barnes GR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "López JD"
+          ],
+          "firstName": [
+            "J D"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "affiliation": [
+            "SISTEMIC, Engineering Faculty, Universidad de Antioquia UDEA, Calle 70 No. 52-21, Medellín, Colombia. Electronic address: josedavid@udea.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Valencia F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Valencia"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Solar Energy Research Center SERC-Chile, Department of Electrical Engineering, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Flandin G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Flandin"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Wellcome Trust Centre for Human Neuroimaging, Institute of Neurology, UCL, 12 Queen Square, WC1N 3BG, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Penny W"
+          ],
+          "firstName": [
+            "W"
+          ],
+          "lastName": [
+            "Penny"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Wellcome Trust Centre for Human Neuroimaging, Institute of Neurology, UCL, 12 Queen Square, WC1N 3BG, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Barnes GR"
+          ],
+          "firstName": [
+            "G R"
+          ],
+          "lastName": [
+            "Barnes"
+          ],
+          "initials": [
+            "GR"
+          ],
+          "affiliation": [
+            "Wellcome Trust Centre for Human Neuroimaging, Institute of Neurology, UCL, 12 Queen Square, WC1N 3BG, London, UK."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "163"
+      ],
+      "journalIssueId": [
+        "2624964"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "NeuroImage"
+          ],
+          "ISOAbbreviation": [
+            "Neuroimage"
+          ],
+          "medlineAbbreviation": [
+            "Neuroimage"
+          ],
+          "NLMid": [
+            "9215515"
+          ],
+          "ISSN": [
+            "1053-8119"
+          ],
+          "ESSN": [
+            "1095-9572"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "480-486"
+  ],
+  "abstractText": [
+    "Here we show how it is possible to make estimates of brain structure based on MEG data. We do this by reconstructing functional estimates onto distorted cortical manifolds parameterised in terms of their spherical harmonics. We demonstrate that both empirical and simulated MEG data give rise to consistent and plausible anatomical estimates. Importantly, the estimation of structure from MEG data can be quantified in terms of millimetres from the true brain structure. We show, for simulated data, that the functional assumptions which are closer to the functional ground-truth give rise to anatomical estimates that are closer to the true anatomy."
+  ],
+  "affiliation": [
+    "SISTEMIC, Engineering Faculty, Universidad de Antioquia UDEA, Calle 70 No. 52-21, Medellín, Colombia. Electronic address: josedavid@udea.edu.co."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "BB/M009645/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Brain Anatomy",
+        "Fourier Spherical Harmonics",
+        "Meg/eeg Brain Imaging",
+        "Negative Variational Free Energy"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5725312?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5725312"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.neuroimage.2017.06.049"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-09"
+  ],
+  "dateOfRevision": [
+    "2017-12-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-04"
+  ],
+  "firstPublicationDate": [
+    "2017-07-04"
+  ]
+}

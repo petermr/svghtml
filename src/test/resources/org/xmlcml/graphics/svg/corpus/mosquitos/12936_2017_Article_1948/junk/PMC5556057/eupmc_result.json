@@ -1,0 +1,389 @@
+{
+  "id": [
+    "28808320"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28808320"
+  ],
+  "pmcid": [
+    "PMC5556057"
+  ],
+  "doi": [
+    "10.1038/s41598-017-08142-3"
+  ],
+  "title": [
+    "Carotid Body-Mediated Chemoreflex Drive in The Setting of low and High Output Heart Failure."
+  ],
+  "authorString": [
+    "Del Rio R, Andrade DC, Toledo C, Diaz HS, Lucero C, Arce-Alvarez A, Marcus NJ, Schultz HD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Del Rio R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Del Rio"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2562-806X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Cardiorespiratory Control, Department of Physiology, Pontificia Universidad Católica de Chile, Santiago, Chile. rdelrio@bio.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Andrade DC"
+          ],
+          "firstName": [
+            "David C"
+          ],
+          "lastName": [
+            "Andrade"
+          ],
+          "initials": [
+            "DC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2006-1444",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Cardiorespiratory Control, Department of Physiology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Toledo C"
+          ],
+          "firstName": [
+            "Camilo"
+          ],
+          "lastName": [
+            "Toledo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz HS"
+          ],
+          "firstName": [
+            "Hugo S"
+          ],
+          "lastName": [
+            "Diaz"
+          ],
+          "initials": [
+            "HS"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lucero C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Lucero"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arce-Alvarez A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Arce-Alvarez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marcus NJ"
+          ],
+          "firstName": [
+            "Noah J"
+          ],
+          "lastName": [
+            "Marcus"
+          ],
+          "initials": [
+            "NJ"
+          ],
+          "affiliation": [
+            "Department of Physiology and Pharmacology, Des Moines University, Des Moines, IA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Schultz HD"
+          ],
+          "firstName": [
+            "Harold D"
+          ],
+          "lastName": [
+            "Schultz"
+          ],
+          "initials": [
+            "HD"
+          ],
+          "affiliation": [
+            "Department of Cellular and Integrative Physiology, University of Nebraska Medical Center, Omaha, NE, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2006-1444",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2562-806X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "8035"
+  ],
+  "abstractText": [
+    "Enhanced carotid body (CB) chemoreflex function is strongly related to cardiorespiratory disorders and disease progression in heart failure (HF). The mechanisms underlying CB sensitization during HF are not fully understood, however previous work indicates blood flow per se can affect CB function. Then, we hypothesized that the CB-mediated chemoreflex drive will be enhanced only in low output HF but not in high output HF. Myocardial infarcted rats and aorto-caval fistulated rats were used as a low output HF model (MI-CHF) and as a high output HF model (AV-CHF), respectively. Blood flow supply to the CB region was decreased only in MI-CHF rats compared to Sham and AV-CHF rats. MI-CHF rats exhibited a significantly enhanced hypoxic ventilatory response compared to AV-CHF rats. However, apnea/hypopnea incidence was similarly increased in both MI-CHF and AV-CHF rats compared to control. Kruppel-like factor 2 expression, a flow sensitive transcription factor, was reduced in the CBs of MI-CHF rats but not in AV-CHF rats. Our results indicate that in the setting of HF, potentiation of the CB chemoreflex is strongly associated with a reduction in cardiac output and may not be related to other pathophysiological consequences of HF."
+  ],
+  "affiliation": [
+    "Laboratory of Cardiorespiratory Control, Department of Physiology, Pontificia Universidad Católica de Chile, Santiago, Chile. rdelrio@bio.puc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5556057?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5556057"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-08142-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-15"
+  ],
+  "dateOfRevision": [
+    "2017-08-18"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-14"
+  ],
+  "firstPublicationDate": [
+    "2017-08-14"
+  ]
+}

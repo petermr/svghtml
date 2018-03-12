@@ -1,0 +1,264 @@
+{
+  "id": [
+    "28928954"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28928954"
+  ],
+  "pmcid": [
+    "PMC5580433"
+  ],
+  "doi": [
+    "10.12688/f1000research.11912.1"
+  ],
+  "title": [
+    "Rotavirus Vaccines: a story of success with challenges ahead."
+  ],
+  "authorString": [
+    "O'Ryan M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "O'Ryan M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "O'Ryan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7926-2163",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences and Millenium Institute of Immunology and Immunotherapy, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7926-2163",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2520313"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "F1000Research"
+          ],
+          "ISOAbbreviation": [
+            "F1000Res"
+          ],
+          "medlineAbbreviation": [
+            "F1000Res"
+          ],
+          "NLMid": [
+            "101594320"
+          ],
+          "ISSN": [
+            "2046-1402"
+          ],
+          "ESSN": [
+            "2046-1402"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1517"
+  ],
+  "abstractText": [
+    "Approximately 40 years have passed since the discovery of the rotavirus and 10 years since the introduction and progressive dissemination of rotavirus vaccines worldwide. Currently, 92 countries have introduced rotavirus vaccines into national or subnational programs with evident impact in disease reduction. Two vaccines have been widely used, and four additional vaccines have been licensed and are being used in defined regions. In this context, one main issue that remains unsolved is the lower vaccine efficacy/effectiveness in low-income countries. An additional partially answered issue relates to rotavirus strain circulation in vaccinated populations. These issues are discussed in this review. The most imperative challenge ahead is to fulfill the WHO's recommendation to introduce rotavirus vaccines in all countries."
+  ],
+  "affiliation": [
+    "Institute of Biomedical Sciences and Millenium Institute of Immunology and Immunotherapy, Faculty of Medicine, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Vaccination",
+        "Immunity",
+        "Rotavirus",
+        "Gastroenteritis"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5580433?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5580433"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.12688/f1000research.11912.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-20"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-18"
+  ],
+  "firstPublicationDate": [
+    "2017-08-18"
+  ]
+}

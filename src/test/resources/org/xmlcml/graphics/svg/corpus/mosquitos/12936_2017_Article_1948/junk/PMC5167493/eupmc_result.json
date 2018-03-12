@@ -1,0 +1,701 @@
+{
+  "id": [
+    "28008239"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28008239"
+  ],
+  "pmcid": [
+    "PMC5167493"
+  ],
+  "doi": [
+    "10.2147/cia.s121313"
+  ],
+  "title": [
+    "Effects of different doses of high-speed resistance training on physical performance and quality of life in older women: a randomized controlled trial."
+  ],
+  "authorString": [
+    "Ramirez-Campillo R, Diaz D, Martinez-Salazar C, Valdés-Badilla P, Delgado-Floody P, Méndez-Rebolledo G, Cañas-Jamet R, Cristi-Montero C, García-Hermoso A, Celis-Morales C, Moran J, Buford TW, Rodriguez-Mañas L, Alonso-Martinez AM, Izquierdo M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramirez-Campillo R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Ramirez-Campillo"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Physical Activity Sciences; Laboratory of Measurement and Assessment in Sports, Research Nucleus in Health, Physical Activity and Sports, Universidad de Los Lagos, Osorno; Unit of Integrative Physiology, Laboratory of Exercise Sciences, MEDS Clinic, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Diaz"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "School of Occupational Therapy, Faculty of Health, Universidad Santo Tomás, Osorno."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez-Salazar C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Martinez-Salazar"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Physical Education, Sport and Recreation, Universidad de La Frontera."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdés-Badilla P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Valdés-Badilla"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3948-8280",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Physical Activity and Health, Universidad Autónoma de Chile, Temuco."
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado-Floody P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Delgado-Floody"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Physical Education, Sport and Recreation, Universidad de La Frontera."
+          ]
+        },
+        {
+          "fullName": [
+            "Méndez-Rebolledo G"
+          ],
+          "firstName": [
+            "Guillermo"
+          ],
+          "lastName": [
+            "Méndez-Rebolledo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "School of Kinesiology, Faculty of Health, University Santo Tomás, Talca."
+          ]
+        },
+        {
+          "fullName": [
+            "Cañas-Jamet R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Cañas-Jamet"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratory of Physiology, Department of Biological Sciences, Faculty of Biological Sciences, Universidad Andres Bello, Viña del Mar; School of Kinesiology, Faculty of Medicine, Universidad Diego Portales, Santiago."
+          ]
+        },
+        {
+          "fullName": [
+            "Cristi-Montero C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Cristi-Montero"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "IRyS Group, Physical Education School, Pontificia Universidad Católica de Valparaíso, Valparaíso."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Hermoso A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "García-Hermoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Physical Activity Sciences, Sport and Health, Faculty of Medical Sciences, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Celis-Morales C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Celis-Morales"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "BHF Glasgow Cardiovascular Research Centre, Institute of Cardiovascular and Medical Sciences, University of Glasgow, Glasgow."
+          ]
+        },
+        {
+          "fullName": [
+            "Moran J"
+          ],
+          "firstName": [
+            "Jason"
+          ],
+          "lastName": [
+            "Moran"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Centre for Sports and Exercise Science, School of Biological Sciences, University of Essex, Colchester, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Buford TW"
+          ],
+          "firstName": [
+            "Thomas W"
+          ],
+          "lastName": [
+            "Buford"
+          ],
+          "initials": [
+            "TW"
+          ],
+          "affiliation": [
+            "Department of Aging and Geriatric Research, Institute of Aging, University of Florida, College of Medicine, Gainesville, Florida, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez-Mañas L"
+          ],
+          "firstName": [
+            "Leocadio"
+          ],
+          "lastName": [
+            "Rodriguez-Mañas"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6551-1333",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Geriatric Medicine, University Hospital of Getafe, Madrid."
+          ]
+        },
+        {
+          "fullName": [
+            "Alonso-Martinez AM"
+          ],
+          "firstName": [
+            "Alicia M"
+          ],
+          "lastName": [
+            "Alonso-Martinez"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7204-696X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Health Sciences, Public University of Navarre, Navarre, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Izquierdo M"
+          ],
+          "firstName": [
+            "Mikel"
+          ],
+          "lastName": [
+            "Izquierdo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1506-4272",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Health Sciences, Public University of Navarre, Navarre, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7204-696X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6551-1333",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1506-4272",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3948-8280",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2358764"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Clinical interventions in aging"
+          ],
+          "ISOAbbreviation": [
+            "Clin Interv Aging"
+          ],
+          "medlineAbbreviation": [
+            "Clin Interv Aging"
+          ],
+          "NLMid": [
+            "101273480"
+          ],
+          "ISSN": [
+            "1176-9092"
+          ],
+          "ESSN": [
+            "1178-1998"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1797-1804"
+  ],
+  "abstractText": [
+    "This study aimed to compare the effects of two frequencies of high-speed resistance training (HSRT) on physical performance and quality of life of older women.A total of 24 older women participated in a 12-week HSRT program composed of either two or three sessions/week (equated for volume and intensity). Women were randomized into three arms: a control group (CG, n=8), a resistance training group performing two sessions/week (RT2, n=8), and a resistance training group performing three sessions/week (RT3, n=8). The training program for both experimental groups included exercises that required high-speed concentric muscle actions.No baseline differences were observed among groups. Compared with the CG, both training groups showed similar small to moderate improvements (P<0.05) in muscle strength, power, functional performance, balance, and quality of life.These results suggest that equated for volume and intensity, two and three training sessions/week of HSRT are equally effective for improving physical performance and quality of life of older women."
+  ],
+  "affiliation": [
+    "Department of Physical Activity Sciences; Laboratory of Measurement and Assessment in Sports, Research Nucleus in Health, Physical Activity and Sports, Universidad de Los Lagos, Osorno; Unit of Integrative Physiology, Laboratory of Exercise Sciences, MEDS Clinic, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P30 AG028740"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geriatric Assessment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Quality of Life"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Muscle Strength"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Postural Balance"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Resistance Training"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Aging",
+        "Adaptation",
+        "Frailty",
+        "Muscle Strength"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5167493?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5167493"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2147/CIA.S121313"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-16"
+  ],
+  "dateOfCreation": [
+    "2016-12-24"
+  ],
+  "dateOfRevision": [
+    "2018-01-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-13"
+  ],
+  "firstPublicationDate": [
+    "2016-12-13"
+  ]
+}

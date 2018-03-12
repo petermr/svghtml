@@ -1,0 +1,283 @@
+{
+  "id": [
+    "29497480"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29497480"
+  ],
+  "pmcid": [
+    "PMC5815068"
+  ],
+  "doi": [
+    "10.1093/aobpla/ply009"
+  ],
+  "title": [
+    "Differentiation in native as well as introduced ranges: germination reflects mean and variance in cover of surrounding vegetation."
+  ],
+  "authorString": [
+    "Heger T, Nikles G, Jacobs BS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Heger T"
+          ],
+          "firstName": [
+            "Tina"
+          ],
+          "lastName": [
+            "Heger"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Technical University of Munich, Restoration Ecology, Emil-Ramann-Str. 6, 85354 Freising, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Nikles G"
+          ],
+          "firstName": [
+            "Gabriele"
+          ],
+          "lastName": [
+            "Nikles"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Technical University of Munich, Restoration Ecology, Emil-Ramann-Str. 6, 85354 Freising, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Jacobs BS"
+          ],
+          "firstName": [
+            "Brooke S"
+          ],
+          "lastName": [
+            "Jacobs"
+          ],
+          "initials": [
+            "BS"
+          ],
+          "affiliation": [
+            "Department of Plant Sciences, University of California, Davis, One Shields Avenue, Davis, CA 95616, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2635993"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "AoB Plants"
+          ],
+          "ISOAbbreviation": [
+            "AoB Plants"
+          ],
+          "medlineAbbreviation": [
+            "AoB Plants"
+          ],
+          "NLMid": [
+            "101539425"
+          ],
+          "ISSN": [
+            "2041-2851"
+          ],
+          "ESSN": [
+            "2041-2851"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "ply009"
+  ],
+  "abstractText": [
+    "Germination, a crucial phase in the life cycle of a plant, can be significantly influenced by competition and facilitation. The aim of this study was to test whether differences in cover of surrounding vegetation can lead to population differentiation in germination behaviour of an annual grassland species, and if so, whether such a differentiation can be found in the native as well as in the introduced range. We used maternal progeny of Erodium cicutarium previously propagated under uniform conditions that had been collected in multiple populations in the native and two introduced ranges, in populations representing extremes in terms of mean and variability of the cover of surrounding vegetation. In the first experiment, we tested the effect of germination temperature and mean cover at the source site on germination, and found interlinked effects of these factors. In seeds from one of the introduced ranges (California), we found indication for a 2-fold dormancy, hindering germination at high temperatures even if physical dormancy was broken and water was available. This behaviour was less strong in high cover populations, indicating cross-generational facilitating effects of dense vegetation. In the second experiment, we tested whether spatial variation in cover of surrounding vegetation has an effect on the proportion of dormant seeds. Contrary to our expectations, we found that across source regions, high variance in cover was associated with higher proportions of seeds germinating directly after storage. In all three regions, germination seemed to match the local environment in terms of climate and vegetation cover. We suggest that this is due to a combined effect of introduction of preadapted genotypes and local evolutionary processes."
+  ],
+  "affiliation": [
+    "Technical University of Munich, Restoration Ecology, Emil-Ramann-Str. 6, 85354 Freising, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Facilitation",
+        "Competition",
+        "Bet-hedging",
+        "Genetic Adaptation",
+        "Preadaptation",
+        "Eco-evolutionary Experience",
+        "Physical And Physiological Dormancy"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5815068?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5815068"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/aobpla/ply009"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-03-03"
+  ],
+  "dateOfRevision": [
+    "2018-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-03"
+  ],
+  "firstPublicationDate": [
+    "2018-02-03"
+  ]
+}

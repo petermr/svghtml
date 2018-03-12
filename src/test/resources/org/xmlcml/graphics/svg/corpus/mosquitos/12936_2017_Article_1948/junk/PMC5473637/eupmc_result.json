@@ -1,0 +1,250 @@
+{
+  "id": [
+    "27853166"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27853166"
+  ],
+  "pmcid": [
+    "PMC5473637"
+  ],
+  "doi": [
+    "10.1038/ncomms13554"
+  ],
+  "title": [
+    "Silica deposits on Mars with features resembling hot spring biosignatures at El Tatio in Chile."
+  ],
+  "authorString": [
+    "Ruff SW, Farmer JD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ruff SW"
+          ],
+          "firstName": [
+            "Steven W"
+          ],
+          "lastName": [
+            "Ruff"
+          ],
+          "initials": [
+            "SW"
+          ],
+          "affiliation": [
+            "School of Earth and Space Exploration, Arizona State University, Tempe, Arizona 85287-6305, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Farmer JD"
+          ],
+          "firstName": [
+            "Jack D"
+          ],
+          "lastName": [
+            "Farmer"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "affiliation": [
+            "School of Earth and Space Exploration, Arizona State University, Tempe, Arizona 85287-6305, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2483847"
+      ],
+      "dateOfPublication": [
+        "2016 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "13554"
+  ],
+  "abstractText": [
+    "The Mars rover Spirit encountered outcrops and regolith composed of opaline silica (amorphous SiO2·nH2O) in an ancient volcanic hydrothermal setting in Gusev crater. An origin via either fumarole-related acid-sulfate leaching or precipitation from hot spring fluids was suggested previously. However, the potential significance of the characteristic nodular and mm-scale digitate opaline silica structures was not recognized. Here we report remarkably similar features within active hot spring/geyser discharge channels at El Tatio in northern Chile, where halite-encrusted silica yields infrared spectra that are the best match yet to spectra from Spirit. Furthermore, we show that the nodular and digitate silica structures at El Tatio that most closely resemble those on Mars include complex sedimentary structures produced by a combination of biotic and abiotic processes. Although fully abiotic processes are not ruled out for the Martian silica structures, they satisfy an a priori definition of potential biosignatures."
+  ],
+  "affiliation": [
+    "School of Earth and Space Exploration, Arizona State University, Tempe, Arizona 85287-6305, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473637?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473637"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/ncomms13554"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-17"
+  ],
+  "dateOfRevision": [
+    "2017-06-29"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-17"
+  ],
+  "firstPublicationDate": [
+    "2016-11-17"
+  ]
+}

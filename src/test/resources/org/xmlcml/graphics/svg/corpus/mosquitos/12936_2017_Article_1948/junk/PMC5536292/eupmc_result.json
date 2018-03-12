@@ -1,0 +1,524 @@
+{
+  "id": [
+    "28759569"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28759569"
+  ],
+  "pmcid": [
+    "PMC5536292"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0181918"
+  ],
+  "title": [
+    "Proposed equations and reference values for calculating bone health in children and adolescent based on age and sex."
+  ],
+  "authorString": [
+    "Gómez-Campos R, Andruske CL, Arruda M, Urra Albornoz C, Cossio-Bolaños M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gómez-Campos R"
+          ],
+          "firstName": [
+            "Rossana"
+          ],
+          "lastName": [
+            "Gómez-Campos"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad Autonoma de Chile, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Andruske CL"
+          ],
+          "firstName": [
+            "Cynthia Lee"
+          ],
+          "lastName": [
+            "Andruske"
+          ],
+          "initials": [
+            "CL"
+          ],
+          "affiliation": [
+            "Research Network on Human Biological Development, Arequipa, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Arruda M"
+          ],
+          "firstName": [
+            "Miguel de"
+          ],
+          "lastName": [
+            "Arruda"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Faculty of Physical Education, State University of Campinas, Campinas, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Urra Albornoz C"
+          ],
+          "firstName": [
+            "Camilo"
+          ],
+          "lastName": [
+            "Urra Albornoz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Escuela de Kinesiología, Facultad de Salud, Universidad Santo Tomás, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cossio-Bolaños M"
+          ],
+          "firstName": [
+            "Marco"
+          ],
+          "lastName": [
+            "Cossio-Bolaños"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7230-9996",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Nacional de San Agustín, Arequipa, Perú."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7230-9996",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2572928"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0181918"
+  ],
+  "abstractText": [
+    "The Dual Energy X-Ray Absorptiometry (DXA) is the gold standard for measuring BMD and bone mineral content (BMC). In general, DXA is ideal for pediatric use. However, the development of specific standards for particular geographic regions limits its use and application for certain socio-cultural contexts. Additionally, the anthropometry may be a low cost and easy to use alternative method in epidemiological contexts. The goal of our study was to develop regression equations for predicting bone health of children and adolescents based on anthropometric indicators to propose reference values based on age and sex.3020 students (1567 males and 1453 females) ranging in ages 4.0 to 18.9 were studied from the Maule Region (Chile). Anthropometric variables evaluated included: weight, standing height, sitting height, forearm length, and femur diameter. A total body scan (without the head) was conducted by means of the Dual Energy X-Ray Absorptiometry. Bone mineral density (BMD) and the bone mineral content (BMC) were also determined. Calcium consumption was controlled for by recording the intake of the three last days prior to the evaluation. Body Mass Index (BMI) was calculated, and somatic maturation was determined by using the years of peak growth rate (APHV).Four regression models were generated to calculate bone health: for males BMD = (R2 = 0.79) and BMC = (R2 = 0.84) and for the females BMD = (R2 = 0.76) and BMC = (R2 = 0.83). Percentiles were developed by using the LMS method (p3, p5, p15, p25, p50, p75, p85, p95 and p97).Regression equations and reference curves were developed to assess the bone health of Chilean children and adolescents. These instruments help identify children with potential underlying problems in bone mineralization during the growth stage and biological maturation."
+  ],
+  "affiliation": [
+    "Universidad Autonoma de Chile, Talca, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bone and Bones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Absorptiometry, Photon"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anthropometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Body Height"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Densitometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Regression Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Age Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Sex Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bone Density"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Geography"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Reference Values"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cultural Characteristics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5536292?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5536292"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0181918"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-10"
+  ],
+  "dateOfCreation": [
+    "2017-07-31"
+  ],
+  "dateOfRevision": [
+    "2017-10-10"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-31"
+  ],
+  "firstPublicationDate": [
+    "2017-07-31"
+  ]
+}

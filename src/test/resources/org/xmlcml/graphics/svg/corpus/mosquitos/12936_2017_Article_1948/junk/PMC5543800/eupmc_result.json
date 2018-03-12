@@ -1,0 +1,280 @@
+{
+  "id": [
+    "29257857"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29257857"
+  ],
+  "pmcid": [
+    "PMC5543800"
+  ],
+  "doi": [
+    "10.1590/0102-6720201700020019"
+  ],
+  "title": [
+    "GASTRIC PERFORATION ASSOCIATED WITH ACUTE PANCREATITIS: CASE REPORT."
+  ],
+  "authorString": [
+    "Losada H, López M, Avaria P, Troncoso A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Losada H"
+          ],
+          "firstName": [
+            "Hector"
+          ],
+          "lastName": [
+            "Losada"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Clinica Alemana, Hepato-Pancreatic and Biliary Surgery, Temuco, IX Región, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López M"
+          ],
+          "firstName": [
+            "Maité"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Universidad de La Frontera, Hepato-Pancreatic and Biliary Surgery, Temuco, IX Region, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Avaria P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Avaria"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Clinica Alemana, Radiology Department, Temuco, IX Region, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Troncoso A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Troncoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Universidad de La Frontera, Hepato-Pancreatic and Biliary Surgery, Temuco, IX Region, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "30"
+      ],
+      "journalIssueId": [
+        "2631229"
+      ],
+      "dateOfPublication": [
+        "2017 Apr-Jun"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Arquivos brasileiros de cirurgia digestiva : ABCD = Brazilian archives of digestive surgery"
+          ],
+          "ISOAbbreviation": [
+            "Arq Bras Cir Dig"
+          ],
+          "medlineAbbreviation": [
+            "Arq Bras Cir Dig"
+          ],
+          "NLMid": [
+            "9100283"
+          ],
+          "ISSN": [
+            "0102-6720"
+          ],
+          "ESSN": [
+            "2317-6326"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "162-163"
+  ],
+  "affiliation": [
+    "Clinica Alemana, Hepato-Pancreatic and Biliary Surgery, Temuco, IX Región, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Letter"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543800?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543800"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1590/0102-6720201700020019"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-20"
+  ],
+  "dateOfRevision": [
+    "2017-12-22"
+  ],
+  "firstPublicationDate": [
+    "2017-04-01"
+  ]
+}

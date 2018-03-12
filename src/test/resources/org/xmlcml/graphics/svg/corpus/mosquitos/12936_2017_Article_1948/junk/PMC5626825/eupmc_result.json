@@ -1,0 +1,297 @@
+{
+  "id": [
+    "29034231"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29034231"
+  ],
+  "pmcid": [
+    "PMC5626825"
+  ],
+  "doi": [
+    "10.3389/fcell.2017.00088"
+  ],
+  "title": [
+    "Editorial: The Vascular Niche in Tissue Repair: A Therapeutic Target for Regeneration."
+  ],
+  "authorString": [
+    "Rivera FJ, Silva ME, Aigner L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rivera FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Rivera"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7895-6318",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University, Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva ME"
+          ],
+          "firstName": [
+            "Maria Elena"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "Institute of Pharmacy, Faculty of Sciences, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aigner L"
+          ],
+          "firstName": [
+            "Ludwig"
+          ],
+          "lastName": [
+            "Aigner"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Austrian Cluster for Tissue Regeneration, Vienna, Austria."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7895-6318",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2523969"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cell and developmental biology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Dev Biol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Dev Biol"
+          ],
+          "NLMid": [
+            "101630250"
+          ],
+          "ISSN": [
+            "2296-634X"
+          ],
+          "ESSN": [
+            "2296-634X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "88"
+  ],
+  "affiliation": [
+    "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University, Salzburg, Austria."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Regeneration",
+        "Angiogenesis",
+        "Platelets",
+        "Stem Cells",
+        "Endothelial Cells",
+        "Pericytes",
+        "Tissue Repair",
+        "Vascular Niche"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5626825?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5626825"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcell.2017.00088"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-17"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-29"
+  ],
+  "firstPublicationDate": [
+    "2017-09-29"
+  ]
+}

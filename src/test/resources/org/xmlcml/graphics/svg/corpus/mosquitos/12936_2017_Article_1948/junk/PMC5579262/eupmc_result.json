@@ -1,0 +1,519 @@
+{
+  "id": [
+    "28860510"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28860510"
+  ],
+  "pmcid": [
+    "PMC5579262"
+  ],
+  "doi": [
+    "10.1038/s41598-017-10465-0"
+  ],
+  "title": [
+    "A functional IL1RL1 variant regulates corticosteroid-induced sST2 expression in ulcerative colitis."
+  ],
+  "authorString": [
+    "Díaz-Jiménez D, Núñez L, De la Fuente M, Dubois-Camacho K, Sepúlveda H, Montecino M, Torres-Riquelme A, García-González P, Chnaiderman J, Vossenkamper A, MacDonald TT, Simian D, González MJ, Cidlowski JA, Quera R, Hermoso MA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Díaz-Jiménez D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Díaz-Jiménez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratory of Signal Transduction, National Institute of Environmental Health Sciences, National Institutes of Health, Department of Health and Human Services, Research Triangle Park, North Carolina, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Núñez L"
+          ],
+          "firstName": [
+            "Lucía"
+          ],
+          "lastName": [
+            "Núñez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Disciplinary Program of Immunology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "De la Fuente M"
+          ],
+          "firstName": [
+            "Marjorie"
+          ],
+          "lastName": [
+            "De la Fuente"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Subdirección de Investigación, Dirección Académica, Clínica Las Condes, Santiago, CL, 7591018, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dubois-Camacho K"
+          ],
+          "firstName": [
+            "Karen"
+          ],
+          "lastName": [
+            "Dubois-Camacho"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Disciplinary Program of Immunology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda H"
+          ],
+          "firstName": [
+            "Hugo"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research, Faculty of Biological Sciences and Faculty of Medicine, and FONDAP Centre for Genome Regulation, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecino M"
+          ],
+          "firstName": [
+            "Martín"
+          ],
+          "lastName": [
+            "Montecino"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research, Faculty of Biological Sciences and Faculty of Medicine, and FONDAP Centre for Genome Regulation, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres-Riquelme A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Torres-Riquelme"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Disciplinary Program of Immunology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García-González P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "García-González"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Disciplinary Program of Immunology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chnaiderman J"
+          ],
+          "firstName": [
+            "Jonás"
+          ],
+          "lastName": [
+            "Chnaiderman"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2541-523X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Disciplinary Program of Virology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vossenkamper A"
+          ],
+          "firstName": [
+            "Anna"
+          ],
+          "lastName": [
+            "Vossenkamper"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre for Immunobiology, Blizard Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "MacDonald TT"
+          ],
+          "firstName": [
+            "Thomas T"
+          ],
+          "lastName": [
+            "MacDonald"
+          ],
+          "initials": [
+            "TT"
+          ],
+          "affiliation": [
+            "Centre for Immunobiology, Blizard Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Simian D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Simian"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Subdirección de Investigación, Dirección Académica, Clínica Las Condes, Santiago, CL, 7591018, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González MJ"
+          ],
+          "firstName": [
+            "María-Julieta"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Cell and Molecular Biology Program, Biomedical Sciences Institute, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cidlowski JA"
+          ],
+          "firstName": [
+            "John A"
+          ],
+          "lastName": [
+            "Cidlowski"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Laboratory of Signal Transduction, National Institute of Environmental Health Sciences, National Institutes of Health, Department of Health and Human Services, Research Triangle Park, North Carolina, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Quera R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Quera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Gastroenterology Unit, Clínica Las Condes, Santiago, CL, 7591018, Chile. rquera@clinicalascondes.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Hermoso MA"
+          ],
+          "firstName": [
+            "Marcela A"
+          ],
+          "lastName": [
+            "Hermoso"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Disciplinary Program of Immunology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, CL, 8380453, Chile. mhermoso@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2541-523X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "10180"
+  ],
+  "abstractText": [
+    "The ST2/IL33 signalling pathway has been associated with ulcerative colitis (UC). ST2, encoded by the IL1RL1 gene, is expressed as both a membrane-anchored receptor (ST2L) activated by IL33 and as a soluble receptor (sST2) with anti-inflammatory properties. In UC patients, sST2 is further increased by corticosteroid treatment; however, the glucocorticoid-mediated molecular regulation remains unknown. We therefore tested whether genetic variants in the IL1RL1 distal promoter are involved in UC and affect glucocorticoid-mediated ST2 expression. Serum ST2 levels and genetic variants in the IL1RL1 distal promoter were examined by ELISA and PCR sequencing in UC patients receiving corticosteroids. Glucocorticoid-mediated ST2 production was evaluated in intestinal mucosa cultures. Molecular regulation of glucocorticoid-mediated ST2 was assessed by RT-qPCR, ChIP assay and luciferase reporter assay. Dexamethasone effect on ST2 transcript expression was analyzed in leukocytes and related to IL1RL1 variants. Sequencing of a distal IL1RL1 promoter region demonstrated that SNPs rs6543115(C) and rs6543116(A) are associated with increased sST2 in UC patients on corticosteroids. Dexamethasone up-regulated sST2 transcription through interaction with the glucocorticoid-response element (GRE) carrying rs6543115(C) variant. Our data indicate that IL1RL1 SNPs rs6543115(C) confer susceptibility to UC and is contained in the GRE, which may modulate glucocorticoid-induced sST2 expression."
+  ],
+  "affiliation": [
+    "Laboratory of Signal Transduction, National Institute of Environmental Health Sciences, National Institutes of Health, Department of Health and Human Services, Research Triangle Park, North Carolina, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5579262?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5579262"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-10465-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-01"
+  ],
+  "dateOfRevision": [
+    "2017-09-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-31"
+  ],
+  "firstPublicationDate": [
+    "2017-08-31"
+  ]
+}

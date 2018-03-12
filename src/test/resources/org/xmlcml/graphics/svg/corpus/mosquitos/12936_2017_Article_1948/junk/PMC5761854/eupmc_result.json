@@ -1,0 +1,706 @@
+{
+  "id": [
+    "29320527"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29320527"
+  ],
+  "pmcid": [
+    "PMC5761854"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0190087"
+  ],
+  "title": [
+    "Transcriptome analysis during ripening of table grape berry cv. Thompson Seedless."
+  ],
+  "authorString": [
+    "Balic I, Vizoso P, Nilo-Poyanco R, Sanhueza D, Olmedo P, Sepúlveda P, Arriagada C, Defilippi BG, Meneses C, Campos-Vargas R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Balic I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Balic"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vizoso P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Vizoso"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center of Plant Propagation and Conservation (CEPROVEG), Faculty of Sciences, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nilo-Poyanco R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Nilo-Poyanco"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "FONDAP Center for Genome Regulation, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanhueza D"
+          ],
+          "firstName": [
+            "Dayan"
+          ],
+          "lastName": [
+            "Sanhueza"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olmedo P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Olmedo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arriagada C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Arriagada"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio Biorremediación, Departamento de Ciencias Forestales, Facultad de Ciencias Agropecuarias y Forestales, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Defilippi BG"
+          ],
+          "firstName": [
+            "Bruno G"
+          ],
+          "lastName": [
+            "Defilippi"
+          ],
+          "initials": [
+            "BG"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias, INIA La Platina, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Meneses C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Meneses"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Campos-Vargas R"
+          ],
+          "firstName": [
+            "Reinaldo"
+          ],
+          "lastName": [
+            "Campos-Vargas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1987-4130",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1987-4130",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2633893"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e0190087"
+  ],
+  "abstractText": [
+    "Ripening is one of the key processes associated with the development of major organoleptic characteristics of the fruit. This process has been extensively characterized in climacteric fruit, in contrast with non-climacteric fruit such as grape, where the process is less understood. With the aim of studying changes in gene expression during ripening of non-climacteric fruit, an Illumina based RNA-Seq transcriptome analysis was performed on four developmental stages, between veraison and harvest, on table grapes berries cv Thompson Seedless. Functional analysis showed a transcriptional increase in genes related with degradation processes of chlorophyll, lipids, macromolecules recycling and nucleosomes organization; accompanied by a decrease in genes related with chloroplasts integrity and amino acid synthesis pathways. It was possible to identify several processes described during leaf senescence, particularly close to harvest. Before this point, the results suggest a high transcriptional activity associated with the regulation of gene expression, cytoskeletal organization and cell wall metabolism, which can be related to growth of berries and firmness loss characteristic to this stage of development. This high metabolic activity could be associated with an increase in the transcription of genes related with glycolysis and respiration, unexpected for a non-climacteric fruit ripening."
+  ],
+  "affiliation": [
+    "Universidad Andrés Bello, Facultad Ciencias Biológicas, Centro de Biotecnología Vegetal, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vitis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fruit"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Plant"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BI"
+                  ],
+                  "qualifierName": [
+                    "biosynthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Developmental"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Plant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genes, Plant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Metabolic Networks and Pathways"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Real-Time Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Ontology"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Plant Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Plant"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5761854?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5761854"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0190087"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-02-14"
+  ],
+  "dateOfCreation": [
+    "2018-01-11"
+  ],
+  "dateOfRevision": [
+    "2018-02-14"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-10"
+  ],
+  "firstPublicationDate": [
+    "2018-01-10"
+  ]
+}

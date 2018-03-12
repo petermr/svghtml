@@ -1,0 +1,314 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id><journal-id journal-id-type="iso-abbrev">Rev Lat Am Enfermagem</journal-id><journal-id journal-id-type="publisher-id">rlae</journal-id><journal-title-group><journal-title>Revista Latino-Americana de Enfermagem</journal-title></journal-title-group><issn pub-type="ppub">0104-1169</issn><issn pub-type="epub">1518-8345</issn><publisher><publisher-name>Escola de Enfermagem de Ribeir&#x000e3;o Preto / Universidade de S&#x000e3;oPaulo</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4809181</article-id><article-id pub-id-type="doi">10.1590/1518-8345.0982.2675</article-id><article-id pub-id-type="other">00312</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Barriers to access to treatment for mothers with postpartum depression in
+primary health care centers: a predictive model<xref ref-type="fn" rid="fn1">1</xref>
+</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Mart&#x000ed;nez</surname><given-names>Pablo</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>V&#x000f6;hringer</surname><given-names>Paul A.</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Rojas</surname><given-names>Graciela</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="aff2"><label>2</label>Doctoral student, Escuela de Psicolog&#x000ed;a, Universidad de Santiago de
+Chile, Santiago, Chile. Assistant Researcher, Departamento de Psiquiatr&#x000ed;a y Salud
+Mental, Hospital Cl&#x000ed;nico, Facultad de Medicina, Universidad de Chile, Santiago,
+Chile</aff><aff id="aff3"><label>3</label>PhD, Associate Professor, Departamento de Psiquiatr&#x000ed;a y Salud Mental,
+Hospital Cl&#x000ed;nico, Facultad de Medicina, Universidad de Chile, Santiago, Chile</aff><aff id="aff4"><label>4</label>PhD, Full Professor, Departamento de Psiquiatr&#x000ed;a y Salud Mental,
+Hospital Cl&#x000ed;nico, Facultad de Medicina, Universidad de Chile, Santiago, Chile</aff><author-notes><corresp id="c1">Corresponding Author: Pablo Mart&#x000ed;nez Universidad de Chile. Facultad de
+Medicina Departamento de Psiquiatr&#x000ed;a y Salud Mental Av La Paz, 1003 Recoleta, Regi&#x000f3;n
+Metropolitana, Chile E-mail:<email>pablo88.martinezdiaz@gmail.com</email></corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>3</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>24</volume><elocation-id>e2675</elocation-id><history><date date-type="received"><day>12</day><month>5</month><year>2015</year></date><date date-type="accepted"><day>21</day><month>7</month><year>2015</year></date></history><permissions><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0"><license-p>This is an open-access article distributed under the terms of the Creative
+Commons Attribution License</license-p></license></permissions><abstract><sec><title>Objective</title><p>to develop a predictive model to evaluate the factors that modify the access to
+treatment for Postpartum Depression (PPD). </p></sec><sec><title>Methods</title><p>prospective study with mothers who participated in the monitoring of child health
+in primary care centers. For the initial assessment and during 3 months, it was
+considered: sociodemographic data, gyneco-obstetric data, data on the services
+provided, depressive symptoms according to the Edinburgh Postpartum Depression
+Scale (EPDS) and quality of life according to the Short Form-36 Health Status
+Questionnaire (SF-36). The diagnosis of depression was made based on MINI. Mothers
+diagnosed with PPD in the initial evaluation, were followed-up. </p></sec><sec><title>Results</title><p>a statistical model was constructed to determine the factors that prevented access
+to treatment, which consisted of: item 2 of EPDS (OR 0.43, 95%CI: 0.20-0.93) and
+item 5 (OR 0.48, 95%CI: 0.21-1.09), and previous history of depression treatment
+(OR 0.26, 95%CI: 0.61-1.06). Area under the ROC curve for the model=0.79; p-value
+for the Hosmer-Lemershow=0.73. </p></sec><sec><title>Conclusion</title><p>it was elaborated a simple, well standardized and accurate profile, which advises
+that nurses should pay attention to those mothers diagnosed with PPD, presenting
+low/no anhedonia (item 2 of EPDS), scarce/no panic/fear (item 5 of EPDS), and no
+history of depression, as it is likely that these women do not initiate
+treatment.</p></sec></abstract><kwd-group><kwd>Depression, Postpartum</kwd><kwd>Health Services Accessibility</kwd><kwd>Primary Health Care</kwd></kwd-group><counts><fig-count count="3"/><table-count count="6"/><equation-count count="0"/><ref-count count="24"/><page-count count="1"/></counts></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Postpartum depression (PPD) is a public health problem worldwide<sup>(</sup>
+<xref rid="B01" ref-type="bibr">1</xref>
+<sup>)</sup>. It is the most common psychiatric condition postpartum<sup>(</sup>
+<xref rid="B02" ref-type="bibr">2</xref>
+<sup>)</sup> and there is extensive material on the degree of disability that it is
+likely to cause to the mother<sup>(</sup>
+<xref rid="B03" ref-type="bibr">3</xref>
+<sup>)</sup>, its association with the delay in child development and behavior disorders
+in adult life of the descendants<sup>(</sup>
+<xref rid="B04" ref-type="bibr">4</xref>
+<sup>)</sup>.</p><p>In Chile, studies using standardized diagnostic criteria reported a prevalence of PPD of
+about 20% in the primary health care (PHC) of public health system<sup>(</sup>
+<xref rid="B05" ref-type="bibr">5</xref>
+<sup>)</sup>. In contrast, a study using the Edinburgh Postpartum Depression Scale
+(EPDS), validated in Chile<sup>(</sup>
+<xref rid="B06" ref-type="bibr">6</xref>
+<sup>)</sup>, indicated that 41.3% of mothers who are assisted in clinics are affected
+by severe depressive symptoms between 2 and 3 months postpartum<sup>(</sup>
+<xref rid="B07" ref-type="bibr">7</xref>
+<sup>)</sup>, that is, at risk of PPD.</p><p>Although a significant proportion of mothers who use the APS are at high risk and the
+importance of maternal and child health leads to a greater number of visits to health
+centers in this period, depressive disorders are not usually detected and
+treated<sup>(</sup>
+<xref rid="B08" ref-type="bibr">8</xref>
+<sup>)</sup>, despite the availability of effective treatments<sup>(</sup>
+<xref rid="B09" ref-type="bibr">9</xref>
+<sup>)</sup>.</p><p>Based on that, the Ministry of Health<sup>(</sup>
+<xref rid="B10" ref-type="bibr">10</xref>
+<sup>)</sup> promoted a early detection of PPD, recommending the adoption of the
+universal screening in the PHC, so that the EPDS is applied by nursing professionals in
+the follow-up of children and women at postpartum period. However, treatment rates
+remain low.</p><p>In this regard, the national literature has evidenced the presence of barriers to access
+to health services for depressed mothers and the need for trainnig of human resources in
+the PHC in order to ensure a greater commitment to the ministerial guidelines and
+tighter monitoring of women at risk<sup>(</sup>
+<xref rid="B11" ref-type="bibr">11</xref>
+<sup>)</sup>.</p><p>It is considered that the construction of a predictive model to identify the factors
+that modify the access to treatment may be useful in reducing the failures in the
+treatment of PPD, by focusing on the use of human resources available in the public
+health system, and specifically, strengthening the role of nurses in detecting PPD
+during routine examinations.</p><p>There are no studies in the local context that have investigated that aspect at
+present.</p><p>The aim of this study was to develop a predictive model to evaluate the factors that
+modify the access to treatment for PPD in PHC.</p></sec><sec sec-type="methods"><title>Method</title><p>This is a prospective cohort study. The sampling consisted of all health units of PHC
+located in the Metropolitan Region (MR), Chile (n=120). It was selected the health unit
+of PHC that registered the highest number of health attendances of children in the past
+2 months, in each of the six Health Services of the MR, according to administrative data
+of the Ministry of Health, in the period from January to September, 2012. In this way,
+the sample consisted of six municipal health units of PHC of the MR, Chile. This due to
+the fact that the administrative data from the Ministry of Health are not broken down by
+month.</p><p>During the months of January and February 2013, it was consecutively recruited those
+mothers participating in the child health monitoring, from two to six months postpartum,
+at the selected health units. After routine examination, the study researchers included
+those mothers that have signed an informed consent, over 18 years old, without
+intellectual disability and could be contacted by telephone. All the women agreed to
+participate voluntarily.</p><p>A week later, a structured interview was carried out by phone (initial diagnosis), which
+assessed: sociodemographic antecedents, gynecological-obstetric and perinatal data,
+depressive symptoms, according to the Edinburgh Postpartum Depression Scale
+(EPDS)<sup>(</sup>
+<xref rid="B07" ref-type="bibr">7</xref>
+<sup>)</sup>, confirmation of current diagnosis of Major Depressive Postpartum Episode
+(PPD), according to the structured psychiatric interview MINI<sup>(</sup>
+<xref rid="B12" ref-type="bibr">12</xref>
+<sup>)</sup> and quality of life, according to the SF-36 Health Status
+Questionnaire<sup>(</sup>
+<xref rid="B13" ref-type="bibr">13</xref>
+<sup>)</sup>.</p><p>The final sample used for collection and analysis of data in this study included only
+women in which PPD has been confirmed, according to MINI, in the initial diagnosis.</p></sec><sec><title>Definition of dependent variable</title><p>After three months, the medical records of users with PPD (follow-up evaluation) were
+reviewed, considering as no access to treatment: if no provision of mental health
+consultation was recorded in the health unit after the initial diagnosis (dichotomized
+variable).</p></sec><sec><title>Definition of independent variables</title><p>To determine the predictors of no access to treatment in women with PPD in PHC, a review
+of the available literature was performed<sup>(</sup>
+<xref rid="B14" ref-type="bibr">14</xref>
+<sup>-</sup>
+<xref rid="B21" ref-type="bibr">21</xref>
+<sup>)</sup>. Accordingly, the following variables were selected as potential
+predictors: age, marital status, education, current occupational status, who lives in
+the household, number of children, planning of the last pregnancy, help in caring for
+the baby, history of previous treatments of depression, depressive symptoms (total score
+of EPDS and score in each item of the instrument) and quality of life (according to the
+dimensions of the SF-36).</p><p>All variables that were significant with p&#x0003c;0.1 in the univariate analysis, were
+included in the multivariate model using a backward selection technique
+(<italic>backward</italic>), to obtain the most parsimonious multivariate predictive
+model. The Hosmer-Lemeshow test was used to measure the effectiveness of the predictive
+model, that is, the matching between the predicted and observed probabilities. To
+evaluate the discrimination ability of the model, that is, the probability to identify a
+case of PPD from a couple of observations taken at random, it was used the area under
+the ROC curve (<italic>Receiver Operating Characteristics</italic>). Statistical
+analyzes were performed with Stata 12.0<sup>(</sup>
+<xref rid="B22" ref-type="bibr">22</xref>
+<sup>)</sup>. All estimates were presented collectively with confidence intervals at 95%
+(95%CI).</p></sec><sec sec-type="results"><title>Results</title><p>The initial sample consisted of 305 women. In the initial diagnosis, PPD was confirmed
+in 63 of them (20.7%), which formed the final sample for the analysis. In the follow-up
+evaluation, it was possible to access the medical records of all women in the final
+sample, therefore, there was no loss of data.</p><p>As shown in <xref ref-type="table" rid="t1">Table 1</xref>, participants with PPD had a
+mean age of 27.6 years (Standard Deviation [SD] of 6.5 years), most were single (58.7%,
+95%CI: 46.2-71.2) and had completed high school (50.8%, 95%CI: 38.1-63.5). At the time
+of evaluation, 47.6% (95%CI: 34.9-60.3) lived at home with a partner, and more than half
+were devoted to domestic tasks (60.3%, 95%CI: 47.9-72.7). Almost half (46%; 95%CI:
+33-59) of women admitted to having been treated for previous depressive episodes. Of the
+63 women with PPD, 79.4% (95%CI: 69.1-89.6) had not started the treatment after three
+months.</p><p>
+<table-wrap id="t1" orientation="portrait" position="float"><label>Table 1</label><caption><title>- Sociodemographic and clinical characteristics of the sample, grouped
+according to the type of access to treatment. Santiago, Metropolitan Region,
+Chile, 2012-2013*<sup>&#x02020;</sup>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="2"/></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">
+<bold>Variable</bold>
+</th><th align="left" rowspan="1" colspan="1">
+<bold>Total sample analyzed(n = 63)</bold>
+</th><th align="left" rowspan="1" colspan="1">
+<bold>Access to treatment20.6% (n = 13)</bold>
+</th><th align="left" rowspan="1" colspan="1">
+<bold>No access to treatment79.4% (n = 50)</bold>
+</th><th align="left" colspan="2" rowspan="1">
+<bold>Difference between means or RR (95%CI) <sup>&#x02021;</sup></bold>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age (years)</td><td align="left" rowspan="1" colspan="1">27.6 (6.5)</td><td align="left" rowspan="1" colspan="1">29.6 (6.9)</td><td align="left" rowspan="1" colspan="1">27.1 (6.4)</td><td align="left" colspan="2" rowspan="1">2.56 (-1.47, 6.58)</td></tr><tr><td align="left" rowspan="1" colspan="1">Number of children</td><td align="left" rowspan="1" colspan="1">2.2 (1.1)</td><td align="left" rowspan="1" colspan="1">2.4 (1.1)</td><td align="left" rowspan="1" colspan="1">2.1 (1.1)</td><td align="left" colspan="2" rowspan="1">0.28 (-0.41, 0.98)</td></tr><tr><td align="left" rowspan="4" colspan="1">Marital status</td><td align="left" rowspan="1" colspan="1">Single</td><td align="left" rowspan="1" colspan="1">37 (58.7)</td><td align="left" rowspan="1" colspan="1">9 (24.3)</td><td align="left" rowspan="1" colspan="1">28 (75.7)</td><td align="left" rowspan="1" colspan="1">0.89 (0.70, 1.14)</td></tr><tr><td align="left" rowspan="1" colspan="1">Cohabitant </td><td align="left" rowspan="1" colspan="1">8 (12.7)</td><td align="left" rowspan="1" colspan="1">0 (0)</td><td align="left" rowspan="1" colspan="1">8 (100)</td><td align="left" rowspan="1" colspan="1">1.31 (1.13, 1.52)</td></tr><tr><td align="left" rowspan="1" colspan="1">Married</td><td align="left" rowspan="1" colspan="1">11 (17.5)</td><td align="left" rowspan="1" colspan="1">3 (27.3)</td><td align="left" rowspan="1" colspan="1">8 (72.7)</td><td align="left" rowspan="1" colspan="1">0.90 (0.61, 1.32)</td></tr><tr><td align="left" rowspan="1" colspan="1">Separated</td><td align="left" rowspan="1" colspan="1">7 (11.1)</td><td align="left" rowspan="1" colspan="1">1 (14.3)</td><td align="left" rowspan="1" colspan="1">6 (85.7)</td><td align="left" rowspan="1" colspan="1">1.09 (0.78, 1.52)</td></tr><tr><td align="left" rowspan="5" colspan="1">Education</td><td align="left" rowspan="1" colspan="1">Incomplete elementary school</td><td align="left" rowspan="1" colspan="1">4 (6.3)</td><td align="left" rowspan="1" colspan="1">1 (25)</td><td align="left" rowspan="1" colspan="1">3 (75)</td><td align="left" rowspan="1" colspan="1">0.94 (0.53, 1.68)</td></tr><tr><td align="left" rowspan="1" colspan="1">Complete elementary school</td><td align="left" rowspan="1" colspan="1">5 (7.9)</td><td align="left" rowspan="1" colspan="1">2 (40)</td><td align="left" rowspan="1" colspan="1">3 (60)</td><td align="left" rowspan="1" colspan="1">0.74 (0.36, 1.53)</td></tr><tr><td align="left" rowspan="1" colspan="1">Incomplete high school</td><td align="left" rowspan="1" colspan="1">10 (15.9)</td><td align="left" rowspan="1" colspan="1">2 (20)</td><td align="left" rowspan="1" colspan="1">8 (80)</td><td align="left" rowspan="1" colspan="1">1.01 (0.72, 1.42)</td></tr><tr><td align="left" rowspan="1" colspan="1">Complete high school</td><td align="left" rowspan="1" colspan="1">32 (50.8)</td><td align="left" rowspan="1" colspan="1">4 (12.5)</td><td align="left" rowspan="1" colspan="1">28 (87.5)</td><td align="left" rowspan="1" colspan="1">1.23 (0.95, 1.60)</td></tr><tr><td align="left" rowspan="1" colspan="1">Higher</td><td align="left" rowspan="1" colspan="1">12 (19)</td><td align="left" rowspan="1" colspan="1">4 (33.3)</td><td align="left" rowspan="1" colspan="1">8 (66.7)</td><td align="left" rowspan="1" colspan="1">0.81 (0.53, 1.23)</td></tr><tr><td align="left" rowspan="4" colspan="1">Current occupation</td><td align="left" rowspan="1" colspan="1">Housewife</td><td align="left" rowspan="1" colspan="1">38 (60.3)</td><td align="left" rowspan="1" colspan="1">9 (23.7)</td><td align="left" rowspan="1" colspan="1">29 (76.3)</td><td align="left" rowspan="1" colspan="1">0.91 (0.71, 1.16)</td></tr><tr><td align="left" rowspan="1" colspan="1">Student</td><td align="left" rowspan="1" colspan="1">1 (1.6)</td><td align="left" rowspan="1" colspan="1">0 (0)</td><td align="left" rowspan="1" colspan="1">1 (100)</td><td align="left" rowspan="1" colspan="1">1.27 (1.11, 1.44)</td></tr><tr><td align="left" rowspan="1" colspan="1">Employee</td><td align="left" rowspan="1" colspan="1">23 (36.5)</td><td align="left" rowspan="1" colspan="1">3 (13)</td><td align="left" rowspan="1" colspan="1">20 (87)</td><td align="left" rowspan="1" colspan="1">1.16 (0.91, 1.47)</td></tr><tr><td align="left" rowspan="1" colspan="1">Unemployed</td><td align="left" rowspan="1" colspan="1">1 (1.6)</td><td align="left" rowspan="1" colspan="1">1 (100)</td><td align="left" rowspan="1" colspan="1">0 (0)</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="4" colspan="1">Lives with</td><td align="left" rowspan="1" colspan="1">Partner</td><td align="left" rowspan="1" colspan="1">30 (47.6)</td><td align="left" rowspan="1" colspan="1">3 (10)</td><td align="left" rowspan="1" colspan="1">27 (90)</td><td align="left" rowspan="1" colspan="1">1.29 (1.00, 1.67)</td></tr><tr><td align="left" rowspan="1" colspan="1">Parents</td><td align="left" rowspan="1" colspan="1">19 (30.2)</td><td align="left" rowspan="1" colspan="1">6 (31.6)</td><td align="left" rowspan="1" colspan="1">13 (68.4)</td><td align="left" rowspan="1" colspan="1">0.81 (0.58, 1.13)</td></tr><tr><td align="left" rowspan="1" colspan="1">Alone with children</td><td align="left" rowspan="1" colspan="1">8 (12.7)</td><td align="left" rowspan="1" colspan="1">2 (25)</td><td align="left" rowspan="1" colspan="1">6 (75)</td><td align="left" rowspan="1" colspan="1">0.94 (0.62, 1.43)</td></tr><tr><td align="left" rowspan="1" colspan="1">Others</td><td align="left" rowspan="1" colspan="1">6 (9.5)</td><td align="left" rowspan="1" colspan="1">2 (33.3)</td><td align="left" rowspan="1" colspan="1">4 (66.7)</td><td align="left" rowspan="7" colspan="1">0.83 (0.46, 1.48)</td></tr><tr><td align="left" rowspan="1" colspan="1">Planned pregnancy</td><td align="left" rowspan="1" colspan="1">19 (30.2)</td><td align="left" rowspan="1" colspan="1">1 (5.3)</td><td align="left" rowspan="1" colspan="1">18 (94.7)</td><td align="left" colspan="2" rowspan="1">1.30 (1.06, 1.61)</td></tr><tr><td align="left" rowspan="1" colspan="1">Receives help to care for the
+baby</td><td align="left" rowspan="1" colspan="1">39 (61.9)</td><td align="left" rowspan="1" colspan="1">32 (82.1)</td><td align="left" rowspan="1" colspan="1">7 (17.9)</td><td align="left" colspan="2" rowspan="1">0.91 (0.70, 1.20)</td></tr><tr><td align="left" rowspan="1" colspan="1">Previous treatments of
+depression</td><td align="left" rowspan="1" colspan="1">29 (46)</td><td align="left" rowspan="1" colspan="1">9 (31)</td><td align="left" rowspan="1" colspan="1">20 (69)</td><td align="left" colspan="2" rowspan="1">0.78 (0.59, 1.03)</td></tr><tr><td align="left" rowspan="1" colspan="1">EPDS (total score)<sup>&#x000a7;</sup>
+</td><td align="left" rowspan="1" colspan="1">16.4 (4.4)</td><td align="left" rowspan="1" colspan="1">18.3 (4.7)</td><td align="left" rowspan="1" colspan="1">15.9 (4.2)</td><td align="left" colspan="2" rowspan="1">2.39 (-0.27, 5.05)</td></tr><tr><td align="left" rowspan="1" colspan="1">Physical component
+summary<sup>||</sup>
+</td><td align="left" rowspan="1" colspan="1">47.1 (10)</td><td align="left" rowspan="1" colspan="1">43.2 (8.7)</td><td align="left" rowspan="1" colspan="1">48.1 (10.2)</td><td align="left" colspan="2" rowspan="1">-4.83 (-10.99, 1.33)</td></tr><tr><td align="left" rowspan="1" colspan="1">Mental Component
+Summary<sup>||</sup>
+</td><td align="left" rowspan="1" colspan="1">24.4 (10.6)</td><td align="left" rowspan="1" colspan="1">22.9 (5.5)</td><td align="left" rowspan="1" colspan="1">24.8 (11.6)</td><td align="left" colspan="2" rowspan="1">-1.88 (-8.5, 4.75)</td></tr></tbody></table></table-wrap>
+</p><p>The following variables were included in the predictive multivariate logistic regression
+model, which achieved statistical significance (p&#x0003c;0.1) in univariate evaluation:
+planning of pregnancy, history of previous treatment of depression, total score of EPDS,
+item 2 of EPDS ("anhedonia during the last week"), item 5 of EPDS ("panic or fear during
+the last week"), physical functioning dimension of the SF-36 and general health
+dimension of the SF-36.</p><p>After applying the backward technique for selection of the variables, the final model
+included the following factors that hindered the access to treatment:</p><p>
+<list list-type="order"><list-item><p>Previous history of treatments of depression.</p></list-item><list-item><p>Item 2 of EPDS, presence of anhedonia in the last week.</p></list-item><list-item><p>Item 5 of EPDS, presence of panic or fear in the last week.</p></list-item></list>
+</p><p>It is observed that together, the variables correctly classified 82.5% of the total
+cases, characterized by having a high sensitivity (96%), specificity of 30.8%, high
+positive predictive value (PPV) of 84.2% and a good negative predictive value (NPV) of
+66.7%.</p><p>In assessing the behavior of the predictive model in the sample, with a prevalence of no
+access to treatment 79.4%, it was achieved a PPV of 91.9%, demonstrating a high
+probability of women experiencing depression, this is, without access to treatment, as
+predicted by the set of variables. On the other hand, the VPL obtained was low (38.5%),
+suggesting that the negative result in the predictive model is limited to determine if
+mothers with PPD have access to treatment.</p><p>The power of the model is good, since the degree of discrepancy between the predicted
+and observed probabilities did not reach significant levels in the Hosmer-Lemeshow test
+(p=0.73), and the area under the ROC curve (auROC=0.79) suggests a good power of
+discrimination (<xref ref-type="fig" rid="f1">Figure 1</xref>).</p><p>
+<fig id="f1" orientation="portrait" position="float"><label>Figure 1</label><caption><title>- Discriminatory ability of the adjusted multivariate logistic regression
+model</title></caption><graphic xlink:href="0104-1169-rlae-0982-2675-gf01"/></fig>
+</p><p>In the final model (<xref ref-type="table" rid="t2">Table 2</xref>), one-point increase
+in the second item of EPDS ("anhedonia") decreased by 57% (odds ratio [OR], 0.43; 95%CI:
+0.20-0.93) the probability of <italic>no access</italic> to treatment. Similarly,
+one-point increase in item 5 of EPDS ("panic/fear") decreased in over half (OR 0.48,
+95%CI: 0.21-1.09) the probability of <italic>no access</italic> to treatment. Finally,
+having as positive the antecedents of previous treatments of depression, decreased by
+74% (OR 0.26, 95%CI: 0.61-1.06) the probability of <italic>no access</italic> to
+treatment, when compared with women who did not have previous treatments of
+depression.</p><p>
+<table-wrap id="t2" orientation="portrait" position="float"><label>Table 2</label><caption><title>- Predictive multivariate logistic regression model. Santiago, Metropolitan
+Region, Chile, 2012-2013</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="2"/></colgroup><thead><tr><th align="left" rowspan="2" colspan="1">
+<bold>No access to treatment</bold>
+</th><th align="left" rowspan="2" colspan="1">
+<bold>OR*</bold>
+</th><th align="left" rowspan="1" colspan="1">
+<bold>95%CI<sup>&#x02020;</sup> for OR</bold>
+</th><th align="left" colspan="2" rowspan="1">
+<bold>P value</bold>
+</th></tr><tr><th align="left" rowspan="1" colspan="1">
+<bold>Lower</bold>
+</th><th align="left" colspan="2" rowspan="1">
+<bold>Higher</bold>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Item 2 EPDS<sup>&#x02021;</sup>:
+anhedonia</td><td align="left" rowspan="1" colspan="1">0.43</td><td align="left" rowspan="1" colspan="1">0.20</td><td align="left" rowspan="1" colspan="1">0.93</td><td align="left" rowspan="1" colspan="1">0.033</td></tr><tr><td align="left" rowspan="1" colspan="1">Item 5 EPDS: panic/fear</td><td align="left" rowspan="1" colspan="1">0.48</td><td align="left" rowspan="1" colspan="1">0.21</td><td align="left" rowspan="1" colspan="1">1.09</td><td align="left" rowspan="1" colspan="1">0.079</td></tr><tr><td align="left" rowspan="1" colspan="1">History of previous treatment of
+depression</td><td align="left" rowspan="1" colspan="1">0.26</td><td align="left" rowspan="1" colspan="1">0.61</td><td align="left" rowspan="1" colspan="1">1.06</td><td align="left" rowspan="1" colspan="1">0.061</td></tr><tr><td align="left" rowspan="1" colspan="1">Constant</td><td align="left" rowspan="1" colspan="1">135.19</td><td align="left" rowspan="1" colspan="1">8.66</td><td align="left" rowspan="1" colspan="1">2111.62</td><td align="left" rowspan="1" colspan="1">0.000</td></tr></tbody></table><table-wrap-foot><fn id="TFN2"><p>*Odds Ratio &#x02020;Confidence Interval 95% &#x02021;Edinburgh Postpartum Depression Scale
+</p></fn></table-wrap-foot></table-wrap>
+</p><p>Although the latter two predictors were not statistically significant, they were
+"forced" into the model due to their contribution to a more parsimonious development of
+the predictive model and also based on the literature, which supported their
+inclusion<sup>(</sup>
+<xref rid="B15" ref-type="bibr">15</xref>
+<sup>-</sup>
+<xref rid="B17" ref-type="bibr">17</xref>
+<sup>,</sup>
+<xref rid="B21" ref-type="bibr">21</xref>
+<sup>)</sup>.</p></sec><sec sec-type="discussion"><title>Discussion</title><p>This is the first study in the national literature to develop a predictive model to
+evaluate the factors influencing the access to treatment for PPD in mothers who use PHC.
+Access to treatment of women with PPD is still very low, despite the existence of
+universal access and the availability of effective treatments.</p><p>According to this study, women who develop PPD and with no access to treatment are those
+presenting low levels of anhedonia and symptoms of anxiety (panic and fear), and who did
+not have prior history of treatment due to episodes of depression.</p><p>The model developed is simple (consisting of only three factors), shows good
+standardization and ability to discriminate. It is worth mentioning its high sensitivity
+(96%), indicating that the variables included are capable, as a whole, to predict
+properly, women who have no access to treatment.</p><p>It must be considered that its predictive value is quite sensitive to the prevalence of
+the event. Here, the high prevalence of the condition studied (no access to treatment)
+is reflected in the high PPV shown by the model, suggesting that if the set of variables
+predicts that the event will occur, it is likely that mothers do not have access to
+treatment. Hence, this kind of knowledge among nurses can be useful, by foreseeing the
+event and informing the health team.</p><p>The features mentioned above suggest that the model has potential applicability to solve
+failures in the treatment of PPD in PHC, as evidenced by recent studies<sup>(</sup>
+<xref rid="B08" ref-type="bibr">8</xref>
+<sup>)</sup>, therefore, it is relevant to public health and to the role played by
+nursing professionals at postpartum.</p><p>However, the practical significance of these findings must be viewed with caution. This
+study is a secondary analysis of databases on a research that was developed for other
+purposes, which imposes important limitations: it is likely that eventually significant
+predictors have not been included, since access to treatment of postpartum depression
+has been described as a complex phenomenon that involves not easily quantifiable
+variables such as domestic workload, the ideals of motherhood and the stigma associated
+with mental health problems<sup>(</sup>
+<xref rid="B12" ref-type="bibr">12</xref>
+<sup>,</sup>
+<xref rid="B17" ref-type="bibr">17</xref>
+<sup>)</sup>; In addition, the analyzes were performed based on a small sample (n=63),
+which could affect the power of the study.</p><p>However, the non-inclusion of variables consideres as difficult to measure ("complex")
+is related with the development of a pragmatic risk profile, relatively easy to use and
+which does not require an additional effort from the nursing profesional in PHC. This is
+not a matter of dismissing important topics for addressing the PPD (and maternal health,
+in general) such as domestic workload, ideals of motherhood and stigmas associated to
+mental health, however, the design of strategies aimed at that purpose requires
+aditional and intersectoral investigation.</p><p>In addition, it is worth mentioning that the variables included in the risk profile
+(score in the items 2 of EPDS -anhedonia- and 5 -panic and fear- and history of previous
+treatment of depression) found support in the literature, which reports that access to
+treatment for depression is associated with depressive symptom levels (or degree of
+disability) and history of treatment of the disease<sup>(</sup>
+<xref rid="B14" ref-type="bibr">14</xref>
+<sup>-</sup>
+<xref rid="B16" ref-type="bibr">16</xref>
+<sup>,</sup>
+<xref rid="B20" ref-type="bibr">20</xref>
+<sup>)</sup>.</p><p>It is legitimate to think that the predictive model developed could represent a valuable
+contribution to guide the decision-making of nursing profesionals in identifying
+profiles of mothers with PPD at high risk of not having access to treatment, based on
+the antecedents already available and/or easily accesible.</p><p>For example, self reporting is generally considered reliable as antecedent of previous
+treatment of depression, in cases in which this information is not registered in the
+medical records<sup>(</sup>
+<xref rid="B23" ref-type="bibr">23</xref>
+<sup>)</sup>. In the case of the scoring obtained by mothers in the items 2 and 5 of
+EPDS, it is worth mentioning that nursing professionals perform an universal screening
+using this instrument at postpartum monitoring of child health, at which time it is
+investigated the suspected of PPD, representing an opportunity to access treatment for
+the disease<sup>(</sup>
+<xref rid="B10" ref-type="bibr">10</xref>
+<sup>)</sup>.</p><p>Therefore, the use of this risk profile does not imply an additional or different
+workload of the one that has already been implemented in PHC, allowing the use of
+resources of the public health system and implementation of strategies to facilitate
+access to treatment in this population of mothers, at this critical moment.</p><p>In this regard, the literature emphasizes the need for training of PHC teams in managing
+the PPD, considering as important the establishment of referral protocols in cases in
+which the screening results are indicative of suspicion of the disease. This involves to
+properly inform the mothers about their possible depression, motivate them to adhere to
+treatment and prioritize the availability of hours for care<sup>(</sup>
+<xref rid="B11" ref-type="bibr">11</xref>
+<sup>,</sup>
+<xref rid="B24" ref-type="bibr">24</xref>
+<sup>)</sup>.</p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>In conclusion, it is considered that this study opens up a wide field for further
+research aiming at the establishment of a risk profile for the lack of access to
+treatment for women with PPD in PHC. This is a pragmatic predictive model that could
+guide the human resources available at PHC, to support the implementation of activities
+aimed at filling the gaps in the treatment of a disease, which has been recognized as a
+public health problem. In the same vein, it is suggested that nurses be attentive to
+those mothers with PPD that have low anhedonia, or lack thereof, without panic or fear
+and no history of depression, since these are the patients who are more likely to not
+start the treatment for the disease, according to the model. Further studies are needed
+to validate and evaluate the impact of using this risk profile in real clinical
+settings.</p></sec></body><back><ack><title>Acknowledgements</title><p>We thank all primary care centers and women participating in the study.</p></ack><fn-group><fn fn-type="financial-disclosure" id="fn1"><label>1</label><p> Supported by Iniciativa Cient&#x000ed;fica Milenio, Chile, process # IS130005 and by Fondo
+Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico, Chile, process # 1130230.</p></fn></fn-group><ref-list><title>References</title><ref id="B01"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Almond</surname><given-names>P</given-names></name></person-group><article-title>Postnatal depression: a global public health
+perspective</article-title><source>Perspect Public Health</source><year>2009</year><volume>129</volume><issue>5</issue><fpage>221</fpage><lpage>227</lpage><pub-id pub-id-type="pmid">19788165</pub-id></element-citation></ref><ref id="B02"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>O'Hara</surname><given-names>MW</given-names></name><name><surname>McCabe</surname><given-names>JE</given-names></name></person-group><article-title>Postpartum Depression: Current Status and Future
+Directions</article-title><source>Annu Rev Clin Psychol</source><year>2013</year><volume>9</volume><fpage>379</fpage><lpage>407</lpage><pub-id pub-id-type="pmid">23394227</pub-id></element-citation></ref><ref id="B03"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rojas</surname><given-names>G</given-names></name><name><surname>Fritsch</surname><given-names>R</given-names></name><name><surname>Sol&#x000ed;s</surname><given-names>J</given-names></name><name><surname>Gonz&#x000e1;lez</surname><given-names>M</given-names></name><name><surname>Guajardo</surname><given-names>V</given-names></name><name><surname>Araya</surname><given-names>R</given-names></name></person-group><article-title>Calidad de vida de mujeres deprimidas en el posparto</article-title><source>Rev Med Chile</source><year>2006</year><volume>134</volume><fpage>713</fpage><lpage>720</lpage><pub-id pub-id-type="pmid">17130945</pub-id></element-citation></ref><ref id="B04"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Parsons</surname><given-names>CE</given-names></name><name><surname>Young</surname><given-names>KS</given-names></name><name><surname>Rochat</surname><given-names>TJ</given-names></name><name><surname>Kringelbach</surname><given-names>ML</given-names></name><name><surname>Stein</surname><given-names>A</given-names></name></person-group><article-title>Postnatal depression and its effects on child development: a review of
+evidence from low- and middle-income countries</article-title><source>Br Med Bull</source><year>2012</year><volume>101</volume><issue>1</issue><fpage>57</fpage><lpage>79</lpage><pub-id pub-id-type="pmid">22130907</pub-id></element-citation></ref><ref id="B05"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alvarado</surname><given-names>R</given-names></name><name><surname>Rojas</surname><given-names>M</given-names></name><name><surname>Monardes</surname><given-names>J</given-names></name><name><surname>Perucca</surname><given-names>E</given-names></name><name><surname>Neves</surname><given-names>E</given-names></name><name><surname>Olea</surname><given-names>E</given-names></name></person-group><article-title>Cuadros depresivos en el posparto en una cohorte de embarazadas:
+construcci&#x000f3;n de un modelo causal</article-title><source>Rev Chil Neuro-Psiquiatr</source><year>2000</year><volume>38</volume><issue>2</issue><fpage>84</fpage><lpage>93</lpage></element-citation></ref><ref id="B06"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jadresic</surname><given-names>E</given-names></name><name><surname>Araya</surname><given-names>R</given-names></name><name><surname>Jara</surname><given-names>C</given-names></name></person-group><article-title>Validation of the Edinburgh Postnatal Depression Scale (EPDS) in
+Chilean postpartum women</article-title><source>J Psychosom Obstet Gynaecol</source><year>1995</year><volume>16</volume><fpage>187</fpage><lpage>191</lpage><pub-id pub-id-type="pmid">8748993</pub-id></element-citation></ref><ref id="B07"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jadresic</surname><given-names>E</given-names></name><name><surname>Araya</surname><given-names>R</given-names></name></person-group><article-title>Prevalencia de depresi&#x000f3;n posparto y factores asociados en Santiago,
+Chile</article-title><source>Rev Med Chile</source><year>1995</year><volume>123</volume><issue>6</issue><fpage>694</fpage><lpage>699</lpage><pub-id pub-id-type="pmid">8525221</pub-id></element-citation></ref><ref id="B08"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Casta&#x000f1;&#x000f3;n</surname><given-names>C</given-names></name><name><surname>Pinto</surname><given-names>J</given-names></name></person-group><article-title>Mejorando la pesquisa de depresi&#x000f3;n posparto a trav&#x000e9;s de un instrumento
+de tamizaje, la escala de depresi&#x000f3;n posparto de Edimburgo</article-title><source>Rev Med Chile</source><year>2008</year><volume>136</volume><fpage>851</fpage><lpage>858</lpage><pub-id pub-id-type="pmid">18949160</pub-id></element-citation></ref><ref id="B09"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rojas</surname><given-names>G</given-names></name><name><surname>Sol&#x000ed;s</surname><given-names>J</given-names></name><name><surname>Jadresic</surname><given-names>E</given-names></name><name><surname>Castillo</surname><given-names>C</given-names></name><name><surname>Gonz&#x000e1;lez</surname><given-names>M</given-names></name><name><surname>Guajardo</surname><given-names>V</given-names></name></person-group><article-title>Treatment of postnatal depression in low-income mothers in
+primary-care clinics in Santiago, Chile: a randomised controlled
+trial</article-title><source>Lancet</source><year>2007</year><volume>370</volume><issue>9599</issue><fpage>1629</fpage><lpage>1637</lpage><pub-id pub-id-type="pmid">17993363</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="book"><person-group person-group-type="author"><collab>Ministerio de Salud (Chile)</collab></person-group><source>Manual para el apoyo y seguimiento del desarrollo psicosocial de los ni&#x000f1;os y
+ni&#x000f1;as de 0 a 6 a&#x000f1;os</source><year>2008</year><ext-link ext-link-type="uri" xlink:href="http://web.minsal.cl/sites/default/files/files/2008_Manual-para-el-Apoyo-y-Seguimiento-del-Desarrollo-Psicosocial-de-los-Ninos-y-Ninas-de-0-a-6-Anos.pdf">http://web.minsal.cl/sites/default/files/files/2008_Manual-para-el-Apoyo-y-Seguimiento-del-Desarrollo-Psicosocial-de-los-Ninos-y-Ninas-de-0-a-6-Anos.pdf</ext-link></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rojas</surname><given-names>G</given-names></name><name><surname>Santelices</surname><given-names>MP</given-names></name><name><surname>Mart&#x000ed;nez</surname><given-names>P</given-names></name><name><surname>Tomicic</surname><given-names>A</given-names></name><name><surname>Reinel</surname><given-names>M</given-names></name><name><surname>Olhaberry</surname><given-names>M</given-names></name></person-group><article-title>Barreras de acceso a tratamiento de la depresi&#x000f3;n posparto en centros
+de atenci&#x000f3;n primaria de la Regi&#x000f3;n Metropolitana: un estudio
+cualitativo</article-title><source>Rev Med Chile</source><year>2015</year><volume>143</volume><fpage>424</fpage><lpage>432</lpage><pub-id pub-id-type="pmid">26204532</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sheehan</surname><given-names>DV</given-names></name><name><surname>Lecrubier</surname><given-names>Y</given-names></name><name><surname>Harnett</surname><given-names>F</given-names></name><name><surname>Sheehan</surname><given-names>K</given-names></name><name><surname>Amorim</surname><given-names>P</given-names></name><name><surname>Janavs</surname><given-names>J</given-names></name></person-group><article-title>The Mini International Neuropsychiatric Interview (M.I.N.I.): The
+development and validation of a structured diagnostic psychiatric
+interview</article-title><source>J Clin Psychiatry</source><year>1998</year><volume>59</volume><issue>Suppl20</issue><fpage>22</fpage><lpage>33</lpage><pub-id pub-id-type="pmid">9881538</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alonso</surname><given-names>J</given-names></name><name><surname>Prieto</surname><given-names>L</given-names></name><name><surname>Anto</surname><given-names>JM</given-names></name></person-group><article-title>La versi&#x000f3;n espa&#x000f1;ola del SF-36 HealthSurvey (Cuestionario de Salud
+SF-36): un instrumento para la medida de los resultados cl&#x000ed;nicos</article-title><source>Med Clin Barcelona</source><year>1995</year><volume>104</volume><issue>20</issue><fpage>771</fpage><lpage>776</lpage></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Blumenthal</surname><given-names>R</given-names></name><name><surname>Endicott</surname><given-names>J</given-names></name></person-group><article-title>Barriers to seeking treatment for major depression</article-title><source>Depress Anxiety</source><season>199-</season><year>1996-1997</year><volume>4</volume><issue>6</issue><fpage>273</fpage><lpage>278</lpage><pub-id pub-id-type="pmid">9166655</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Andrews</surname><given-names>G</given-names></name><name><surname>Issakidis</surname><given-names>C</given-names></name><name><surname>Carter</surname><given-names>G</given-names></name></person-group><article-title>Shortfall in mental health service utilisation</article-title><source>Br J Psychiatry</source><year>2001</year><volume>179</volume><fpage>417</fpage><lpage>425</lpage><pub-id pub-id-type="pmid">11689399</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bristow</surname><given-names>K</given-names></name><name><surname>Patten</surname><given-names>S</given-names></name></person-group><article-title>Treatment-seeking rates and associated mediating factors among
+individuals with depression</article-title><source>Can J Psychiat</source><year>2002</year><volume>47</volume><issue>7</issue><fpage>660</fpage><lpage>665</lpage></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dennis</surname><given-names>CL</given-names></name><name><surname>Chung-Lee</surname><given-names>L</given-names></name></person-group><article-title>Postpartum Depression Help-Seeking Barriers and Maternal Treatment
+Preferences: A Qualitative Systematic Review</article-title><source>Birth</source><year>2006</year><volume>33</volume><issue>4</issue><fpage>323</fpage><lpage>331</lpage><pub-id pub-id-type="pmid">17150072</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Steele</surname><given-names>L</given-names></name><name><surname>Dewa</surname><given-names>C</given-names></name><name><surname>Lee</surname><given-names>K</given-names></name></person-group><article-title>Socioeconomic status and self-reported barriers to mental health
+service use</article-title><source>Can J Psychiatry</source><year>2007</year><volume>52</volume><issue>3</issue><fpage>201</fpage><lpage>206</lpage><pub-id pub-id-type="pmid">17479529</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gadalla</surname><given-names>TM</given-names></name></person-group><article-title>Comparison of users and non-users of mental health services among
+depressed women: a national study</article-title><source>Women &#x00026; Health</source><year>2008</year><volume>47</volume><issue>1</issue><fpage>1</fpage><lpage>19</lpage><pub-id pub-id-type="pmid">18581690</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Farr</surname><given-names>SL</given-names></name><name><surname>Bitsko</surname><given-names>RH</given-names></name><name><surname>Hayes</surname><given-names>DK</given-names></name><name><surname>Dietz</surname><given-names>PM</given-names></name></person-group><article-title>Mental health and access to services among US women of reproductive
+age</article-title><source>Am J Obstet Gynecol</source><year>2010</year><volume>203</volume><issue>6</issue><fpage>542.e1</fpage><lpage>542.e9</lpage><pub-id pub-id-type="pmid">20817143</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mohr</surname><given-names>DC</given-names></name><name><surname>Ho</surname><given-names>J</given-names></name><name><surname>Duffecy</surname><given-names>J</given-names></name><name><surname>Baron</surname><given-names>KG</given-names></name><name><surname>Lehman</surname><given-names>KA</given-names></name><name><surname>Jin</surname><given-names>L</given-names></name></person-group><article-title>Perceived barriers to psychological treatments and their relationship
+to depression</article-title><source>J Clin Psychol</source><year>2010</year><volume>66</volume><issue>4</issue><fpage>394</fpage><lpage>409</lpage><pub-id pub-id-type="pmid">20127795</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="book"><person-group person-group-type="author"><collab>StataCorp</collab></person-group><year>2011</year><source>Stata Statistical Software: Release 12</source><publisher-loc>College Station, TX</publisher-loc><publisher-name>StataCorp LP</publisher-name><year>2011</year></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Goldberg</surname><given-names>RW</given-names></name><name><surname>Seybolt</surname><given-names>DC</given-names></name><name><surname>Lehman</surname><given-names>A</given-names></name></person-group><article-title>Reliable self-report of health service use by individuals with serious
+mental illness</article-title><source>Psych Serv</source><year>2002</year><volume>53</volume><fpage>879</fpage><lpage>881</lpage></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="book"><person-group person-group-type="author"><name><surname>Yawn</surname><given-names>B</given-names></name><name><surname>Olson</surname><given-names>A</given-names></name><name><surname>Bertram</surname><given-names>S</given-names></name><name><surname>Pace</surname><given-names>W</given-names></name><name><surname>Wollan</surname><given-names>P</given-names></name><name><surname>Dietrich</surname><given-names>A</given-names></name></person-group><source>Postpartum Depression: Screening, Diagnosis, and Management Programs 2000
+through 2010</source><publisher-name>Depress Res Treat</publisher-name><year>2012</year><ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1155/2012/363964">http://dx.doi.org/10.1155/2012/363964</ext-link></element-citation></ref></ref-list></back></article>

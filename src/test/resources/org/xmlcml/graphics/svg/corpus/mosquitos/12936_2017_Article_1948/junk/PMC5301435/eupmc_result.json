@@ -1,0 +1,423 @@
+{
+  "id": [
+    "28183287"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28183287"
+  ],
+  "pmcid": [
+    "PMC5301435"
+  ],
+  "doi": [
+    "10.1186/s12889-017-4098-x"
+  ],
+  "title": [
+    "Price elasticity of the demand for soft drinks, other sugar-sweetened beverages and energy dense food in Chile."
+  ],
+  "authorString": [
+    "Guerrero-López CM, Unar-Munguía M, Colchero MA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guerrero-López CM"
+          ],
+          "firstName": [
+            "Carlos M"
+          ],
+          "lastName": [
+            "Guerrero-López"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "Center for Health Systems Research, Instituto Nacional de Salud Pública, Universidad No. 655 Colonia Santa María Ahuacatitlán, Cerrada Los Pinos y Caminera, Cuernavaca, Morelos, C.P. 62100, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Unar-Munguía M"
+          ],
+          "firstName": [
+            "Mishel"
+          ],
+          "lastName": [
+            "Unar-Munguía"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1156-9337",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Nutrition and Health Research Center, Instituto Nacional de Salud Pública, Universidad No. 655 Colonia Santa María Ahuacatitlán, Cerrada Los Pinos y Caminera, Cuernavaca, Morelos, C.P. 62100, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Colchero MA"
+          ],
+          "firstName": [
+            "M Arantxa"
+          ],
+          "lastName": [
+            "Colchero"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Center for Health Systems Research, Instituto Nacional de Salud Pública, Universidad No. 655 Colonia Santa María Ahuacatitlán, Cerrada Los Pinos y Caminera, Cuernavaca, Morelos, C.P. 62100, Mexico. acolchero@insp.mx."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1156-9337",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2519625"
+      ],
+      "dateOfPublication": [
+        "2017 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC public health"
+          ],
+          "ISOAbbreviation": [
+            "BMC Public Health"
+          ],
+          "medlineAbbreviation": [
+            "BMC Public Health"
+          ],
+          "NLMid": [
+            "100968562"
+          ],
+          "ISSN": [
+            "1471-2458"
+          ],
+          "ESSN": [
+            "1471-2458"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "180"
+  ],
+  "abstractText": [
+    "Chile is the second world's largest per capita consumer of caloric beverages. Caloric beverages are associated with overweight, obesity and other chronic diseases. The objective of this study is to estimate the price elasticity of demand for soft drinks, other sugar-sweetened beverages and high-energy dense foods in urban areas in Chile in order to evaluate the potential response of households' consumption to changes in prices.We used microdata from the VII Family Budget Survey 2012-2013, which collects information on expenditures made by Chilean urban households on items such as beverages and foods. We estimated a Linear Approximation of an Almost Ideal Demand System Model to derive own and cross price elasticities of milk, coffee, tea and other infusions, plain water, soft drinks, other flavored beverages, sweet snacks, sugar and honey, and desserts. We considered the censored nature of the data and included the Inverse Mills Ratio in each equation of the demand system. We estimated a Quadratic Almost Ideal Demand System and a two-part model as sensitivity analysis.We found an own price-elasticity of -1.37 for soft drinks. This implies that a price increase of 10% is associated with a reduction in consumption of 13.7%. We found that the rest of food and beverages included in the demand system behave as substitutes for soft drinks. For instance, plain water showed a cross-price elasticity of 0.63: a 10% increase in price of soft drinks could lead to an increase of 6.3% of plain water. Own and cross price elasticities were similar between models.The demand of soft drinks is price sensitive among Chilean households. An incentive system such as subsidies to non-sweetened beverages and tax to soft drinks could lead to increases in the substitutions for other healthier beverages."
+  ],
+  "affiliation": [
+    "Center for Health Systems Research, Instituto Nacional de Salud Pública, Universidad No. 655 Colonia Santa María Ahuacatitlán, Cerrada Los Pinos y Caminera, Cuernavaca, Morelos, C.P. 62100, Mexico."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Obesity"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Models, Economic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Family Characteristics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carbonated Beverages"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Costs and Cost Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Snacks"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "Soft Drinks",
+        "Price Elasticity",
+        "Sugar Sweetened Beverages",
+        "High Energy Density Foods"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5301435?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5301435"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12889-017-4098-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-06"
+  ],
+  "dateOfCreation": [
+    "2017-02-11"
+  ],
+  "dateOfRevision": [
+    "2017-12-29"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-10"
+  ],
+  "firstPublicationDate": [
+    "2017-02-10"
+  ]
+}

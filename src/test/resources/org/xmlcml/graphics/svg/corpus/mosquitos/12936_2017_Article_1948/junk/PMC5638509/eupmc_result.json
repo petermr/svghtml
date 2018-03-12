@@ -1,0 +1,455 @@
+{
+  "id": [
+    "29023580"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29023580"
+  ],
+  "pmcid": [
+    "PMC5638509"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0186309"
+  ],
+  "title": [
+    "Effects of fish movement assumptions on the design of a marine protected area to protect an overfished stock."
+  ],
+  "authorString": [
+    "Cornejo-Donoso J, Einarsson B, Birnir B, Gaines SD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cornejo-Donoso J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Cornejo-Donoso"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4244-2865",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Center for Ecological Analysis and Synthesis, University of California Santa Barbara, Santa Barbara, CA, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Einarsson B"
+          ],
+          "firstName": [
+            "Baldvin"
+          ],
+          "lastName": [
+            "Einarsson"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Mathematics, South Hall, University of California Santa Barbara, Santa Barbara, CA, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Birnir B"
+          ],
+          "firstName": [
+            "Bjorn"
+          ],
+          "lastName": [
+            "Birnir"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "School of Engineering and Natural Sciences, University of Iceland, Reykjavik, Iceland."
+          ]
+        },
+        {
+          "fullName": [
+            "Gaines SD"
+          ],
+          "firstName": [
+            "Steven D"
+          ],
+          "lastName": [
+            "Gaines"
+          ],
+          "initials": [
+            "SD"
+          ],
+          "affiliation": [
+            "Bren School of Environmental Science & Management, Bren Hall, University of California Santa Barbara, Santa Barbara, CA, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4244-2865",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0186309"
+  ],
+  "abstractText": [
+    "Marine Protected Areas (MPA) are important management tools shown to protect marine organisms, restore biomass, and increase fisheries yields. While MPAs have been successful in meeting these goals for many relatively sedentary species, highly mobile organisms may get few benefits from this type of spatial protection due to their frequent movement outside the protected area. The use of a large MPA can compensate for extensive movement, but testing this empirically is challenging, as it requires both large areas and sufficient time series to draw conclusions. To overcome this limitation, MPA models have been used to identify designs and predict potential outcomes, but these simulations are highly sensitive to the assumptions describing the organism's movements. Due to recent improvements in computational simulations, it is now possible to include very complex movement assumptions in MPA models (e.g. Individual Based Model). These have renewed interest in MPA simulations, which implicitly assume that increasing the detail in fish movement overcomes the sensitivity to the movement assumptions. Nevertheless, a systematic comparison of the designs and outcomes obtained under different movement assumptions has not been done. In this paper, we use an individual based model, interconnected to population and fishing fleet models, to explore the value of increasing the detail of the movement assumptions using four scenarios of increasing behavioral complexity: a) random, diffusive movement, b) aggregations, c) aggregations that respond to environmental forcing (e.g. sea surface temperature), and d) aggregations that respond to environmental forcing and are transported by currents. We then compare these models to determine how the assumptions affect MPA design, and therefore the effective protection of the stocks. Our results show that the optimal MPA size to maximize fisheries benefits increases as movement complexity increases from ~10% for the diffusive assumption to ~30% when full environment forcing was used. We also found that in cases of limited understanding of the movement dynamics of a species, simplified assumptions can be used to provide a guide for the minimum MPA size needed to effectively protect the stock. However, using oversimplified assumptions can produce suboptimal designs and lead to a density underestimation of ca. 30%; therefore, the main value of detailed movement dynamics is to provide more reliable MPA design and predicted outcomes. Large MPAs can be effective in recovering overfished stocks, protect pelagic fish and provide significant increases in fisheries yields. Our models provide a means to empirically test this spatial management tool, which theoretical evidence consistently suggests as an effective alternative to managing highly mobile pelagic stocks."
+  ],
+  "affiliation": [
+    "National Center for Ecological Analysis and Synthesis, University of California Santa Barbara, Santa Barbara, CA, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fishes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomass"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Temperature"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Dynamics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Movement"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Theoretical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fisheries"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5638509?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5638509"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0186309"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-24"
+  ],
+  "dateOfCreation": [
+    "2017-10-13"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-12"
+  ],
+  "firstPublicationDate": [
+    "2017-10-12"
+  ]
+}

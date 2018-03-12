@@ -1,0 +1,715 @@
+{
+  "id": [
+    "28834740"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28834740"
+  ],
+  "pmcid": [
+    "PMC5574064"
+  ],
+  "doi": [
+    "10.1016/j.celrep.2017.08.007"
+  ],
+  "title": [
+    "Pericytes Stimulate Oligodendrocyte Progenitor Cell Differentiation during CNS Remyelination."
+  ],
+  "authorString": [
+    "De La Fuente AG, Lange S, Silva ME, Gonzalez GA, Tempfer H, van Wijngaarden P, Zhao C, Di Canio L, Trost A, Bieler L, Zaunmair P, Rotheneichner P, O'Sullivan A, Couillard-Despres S, Errea O, Mäe MA, Andrae J, He L, Keller A, Bátiz LF, Betsholtz C, Aigner L, Franklin RJM, Rivera FJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "De La Fuente AG"
+          ],
+          "firstName": [
+            "Alerie Guzman"
+          ],
+          "lastName": [
+            "De La Fuente"
+          ],
+          "initials": [
+            "AG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8366-4969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Lange S"
+          ],
+          "firstName": [
+            "Simona"
+          ],
+          "lastName": [
+            "Lange"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Institute of Molecular Regenerative Medicine, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva ME"
+          ],
+          "firstName": [
+            "Maria Elena"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK; Institute of Molecular Regenerative Medicine, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Laboratory of Stem Cells and Neuroregeneration, Institute of Anatomy, Histology and Pathology, Faculty of Medicine, Universidad Austral de Chile, Valdivia, Chile; Center for Interdisciplinary Studies on the Nervous System (CISNe), Universidad Austral de Chile, Valdivia, Chile; Institute of Pharmacy, Faculty of Sciences, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez GA"
+          ],
+          "firstName": [
+            "Ginez A"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Tempfer H"
+          ],
+          "firstName": [
+            "Herbert"
+          ],
+          "lastName": [
+            "Tempfer"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute for Tendon and Bone Regeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Austrian Cluster for Tissue Regeneration, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "van Wijngaarden P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "van Wijngaarden"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK; Centre for Eye Research Australia, Royal Victorian Eye and Ear Hospital, Ophthalmology, Department of Surgery, University of Melbourne, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao C"
+          ],
+          "firstName": [
+            "Chao"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Di Canio L"
+          ],
+          "firstName": [
+            "Ludovica"
+          ],
+          "lastName": [
+            "Di Canio"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Trost A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Trost"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Institute of Molecular Regenerative Medicine, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Ophthalmology/Optometry and Research Program for Experimental Ophthalmology, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Bieler L"
+          ],
+          "firstName": [
+            "Lara"
+          ],
+          "lastName": [
+            "Bieler"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute of Experimental Neuroregeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Zaunmair P"
+          ],
+          "firstName": [
+            "Pia"
+          ],
+          "lastName": [
+            "Zaunmair"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute of Experimental Neuroregeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Rotheneichner P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Rotheneichner"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute of Experimental Neuroregeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Sullivan A"
+          ],
+          "firstName": [
+            "Anna"
+          ],
+          "lastName": [
+            "O'Sullivan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute of Experimental Neuroregeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Couillard-Despres S"
+          ],
+          "firstName": [
+            "Sebastien"
+          ],
+          "lastName": [
+            "Couillard-Despres"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Institute of Experimental Neuroregeneration, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Errea O"
+          ],
+          "firstName": [
+            "Oihana"
+          ],
+          "lastName": [
+            "Errea"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Mäe MA"
+          ],
+          "firstName": [
+            "Maarja A"
+          ],
+          "lastName": [
+            "Mäe"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Department of Immunology, Genetics and Pathology, Rudbeck Laboratory, Uppsala University, 751 85 Uppsala, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Andrae J"
+          ],
+          "firstName": [
+            "Johanna"
+          ],
+          "lastName": [
+            "Andrae"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Immunology, Genetics and Pathology, Rudbeck Laboratory, Uppsala University, 751 85 Uppsala, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "He L"
+          ],
+          "firstName": [
+            "Liqun"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Neurosurgery, Tianjin Medical University General Hospital, Tianjin Neurological Institute, Key Laboratory of Post-Neuroinjury Neuro-Repair and Regeneration in Central Nervous System, Ministry of Education and Tianjin City, Tianjin 300052, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Keller A"
+          ],
+          "firstName": [
+            "Annika"
+          ],
+          "lastName": [
+            "Keller"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1466-3633",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Neurosurgery, Zürich University Hospital, Zürich University, 8091 Zürich, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Bátiz LF"
+          ],
+          "firstName": [
+            "Luis F"
+          ],
+          "lastName": [
+            "Bátiz"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "affiliation": [
+            "Laboratory of Stem Cells and Neuroregeneration, Institute of Anatomy, Histology and Pathology, Faculty of Medicine, Universidad Austral de Chile, Valdivia, Chile; Centro de Investigación Biomédica (CIB), Facultad de Medicina, Universidad de los Andes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Betsholtz C"
+          ],
+          "firstName": [
+            "Christer"
+          ],
+          "lastName": [
+            "Betsholtz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Immunology, Genetics and Pathology, Rudbeck Laboratory, Uppsala University, 751 85 Uppsala, Sweden; Integrated Cardio Metabolic Center (ICMC), Karolinska Institutet Novum, 141 57 Huddinge, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Aigner L"
+          ],
+          "firstName": [
+            "Ludwig"
+          ],
+          "lastName": [
+            "Aigner"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Institute of Molecular Regenerative Medicine, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Austrian Cluster for Tissue Regeneration, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Franklin RJM"
+          ],
+          "firstName": [
+            "Robin J M"
+          ],
+          "lastName": [
+            "Franklin"
+          ],
+          "initials": [
+            "RJM"
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Rivera FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Rivera"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7895-6318",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK; Institute of Molecular Regenerative Medicine, Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Spinal Cord Injury and Tissue Regeneration Center Salzburg (SCI-TReCS), Paracelsus Medical University Salzburg, 5020 Salzburg, Austria; Laboratory of Stem Cells and Neuroregeneration, Institute of Anatomy, Histology and Pathology, Faculty of Medicine, Universidad Austral de Chile, Valdivia, Chile; Center for Interdisciplinary Studies on the Nervous System (CISNe), Universidad Austral de Chile, Valdivia, Chile. Electronic address: francisco.rivera@uach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8366-4969",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7895-6318",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1466-3633",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "2589225"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cell reports"
+          ],
+          "ISOAbbreviation": [
+            "Cell Rep"
+          ],
+          "medlineAbbreviation": [
+            "Cell Rep"
+          ],
+          "NLMid": [
+            "101573691"
+          ],
+          "ISSN": [
+            "2211-1247"
+          ],
+          "ESSN": [
+            "2211-1247"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1755-1764"
+  ],
+  "abstractText": [
+    "The role of the neurovascular niche in CNS myelin regeneration is incompletely understood. Here, we show that, upon demyelination, CNS-resident pericytes (PCs) proliferate, and parenchymal non-vessel-associated PC-like cells (PLCs) rapidly develop. During remyelination, mature oligodendrocytes were found in close proximity to PCs. In Pdgfbret/ret mice, which have reduced PC numbers, oligodendrocyte progenitor cell (OPC) differentiation was delayed, although remyelination proceeded to completion. PC-conditioned medium accelerated and enhanced OPC differentiation in vitro and increased the rate of remyelination in an ex vivo cerebellar slice model of demyelination. We identified Lama2 as a PC-derived factor that promotes OPC differentiation. Thus, the functional role of PCs is not restricted to vascular homeostasis but includes the modulation of adult CNS progenitor cells involved in regeneration."
+  ],
+  "affiliation": [
+    "Wellcome Trust and MRC Cambridge Stem Cell Institute, University of Cambridge, Cambridge CB20AH, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "294556"
+          ],
+          "agency": [
+            "European Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Pericytes",
+        "Remyelination",
+        "Oligodendrocyte Progenitor Cell",
+        "Lama2",
+        "Neurovascular Niche"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5574064?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5574064"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.celrep.2017.08.007"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "omim"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-23"
+  ],
+  "dateOfRevision": [
+    "2017-09-08"
+  ],
+  "firstPublicationDate": [
+    "2017-08-01"
+  ]
+}

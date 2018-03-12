@@ -1,0 +1,853 @@
+{
+  "id": [
+    "28379166"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28379166"
+  ],
+  "pmcid": [
+    "PMC5408199"
+  ],
+  "doi": [
+    "10.3390/toxins9040125"
+  ],
+  "title": [
+    "Phospholipase D from Loxosceles laeta Spider Venom Induces IL-6, IL-8, CXCL1/GRO-α, and CCL2/MCP-1 Production in Human Skin Fibroblasts and Stimulates Monocytes Migration."
+  ],
+  "authorString": [
+    "Rojas JM, Arán-Sekul T, Cortés E, Jaldín R, Ordenes K, Orrego PR, González J, Araya JE, Catalán A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rojas JM"
+          ],
+          "firstName": [
+            "José M"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. jose.rojas@uantof.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Arán-Sekul T"
+          ],
+          "firstName": [
+            "Tomás"
+          ],
+          "lastName": [
+            "Arán-Sekul"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. tomas.aran@uantof.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortés E"
+          ],
+          "firstName": [
+            "Emmanuel"
+          ],
+          "lastName": [
+            "Cortés"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. emmanuel_cr@hotmail.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Jaldín R"
+          ],
+          "firstName": [
+            "Romina"
+          ],
+          "lastName": [
+            "Jaldín"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. romyjaldin@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Ordenes K"
+          ],
+          "firstName": [
+            "Kely"
+          ],
+          "lastName": [
+            "Ordenes"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. kely.ordenes@uantof.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Orrego PR"
+          ],
+          "firstName": [
+            "Patricio R"
+          ],
+          "lastName": [
+            "Orrego"
+          ],
+          "initials": [
+            "PR"
+          ],
+          "affiliation": [
+            "Departamento Biomédico, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. patricio.orrego@uantof.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "González J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. jorge.gonzalez@uantof.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya JE"
+          ],
+          "firstName": [
+            "Jorge E"
+          ],
+          "lastName": [
+            "Araya"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. jearoj@yahoo.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Catalán A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Catalán"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. alejandro.catalan@uantof.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2544457"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Toxins"
+          ],
+          "ISOAbbreviation": [
+            "Toxins (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Toxins (Basel)"
+          ],
+          "NLMid": [
+            "101530765"
+          ],
+          "ISSN": [
+            "2072-6651"
+          ],
+          "ESSN": [
+            "2072-6651"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Cutaneous loxoscelism envenomation by Loxosceles spiders is characterized by the development of a dermonecrotic lesion, strong inflammatory response, the production of pro-inflammatory mediators, and leukocyte migration to the bite site. The role of phospholipase D (PLD) from Loxosceles in the recruitment and migration of monocytes to the envenomation site has not yet been described. This study reports on the expression and production profiles of cytokines and chemokines in human skin fibroblasts treated with catalytically active and inactive recombinant PLDs from Loxosceles laeta (rLlPLD) and lipid inflammatory mediators ceramide 1-phosphate (C1P) and lysophosphatidic acid (LPA), and the evaluation of their roles in monocyte migration. Recombinant rLlPLD1 (active) and rLlPLD2 (inactive) isoforms induce interleukin (IL)-6, IL-8, CXCL1/GRO-α, and CCL2/monocyte chemoattractant protein-1 (MCP-1) expression and secretion in fibroblasts. Meanwhile, C1P and LPA only exhibited a minor effect on the expression and secretion of these cytokines and chemokines. Moreover, neutralization of both enzymes with anti-rLlPLD1 antibodies completely inhibited the secretion of these cytokines and chemokines. Importantly, conditioned media from fibroblasts, treated with rLlPLDs, stimulated the transmigration of THP-1 monocytes. Our data demonstrate the direct role of PLDs in chemotactic mediator synthesis for monocytes in human skin fibroblasts and indicate that inflammatory processes play an important role during loxoscelism."
+  ],
+  "affiliation": [
+    "Laboratorio de Parasitología Molecular, Departamento de Tecnología Médica, Facultad de Ciencias de la Salud, Universidad de Antofagasta, Antofagasta, CP 1270300, Chile. jose.rojas@uantof.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Monocytes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fibroblasts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Skin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spiders"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phospholipase D"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ceramides"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lysophospholipids"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Recombinant Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Messenger"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spider Venoms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cytokines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Movement"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Arthropod Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Phospholipase D",
+        "Chemokines",
+        "Loxosceles Laeta",
+        "Monocytes Migration"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "ceramide 1-phosphate"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Messenger"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Spider Venoms"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Ceramides"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Recombinant Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Phospholipase D"
+          ],
+          "registryNumber": [
+            "EC 3.1.4.4"
+          ]
+        },
+        {
+          "name": [
+            "Lysophospholipids"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cytokines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Arthropod Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "lysophosphatidic acid"
+          ],
+          "registryNumber": [
+            "PG6M3969SG"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5408199?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5408199"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/toxins9040125"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-20"
+  ],
+  "dateOfCreation": [
+    "2017-04-06"
+  ],
+  "dateOfRevision": [
+    "2018-02-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-05"
+  ],
+  "firstPublicationDate": [
+    "2017-04-05"
+  ]
+}

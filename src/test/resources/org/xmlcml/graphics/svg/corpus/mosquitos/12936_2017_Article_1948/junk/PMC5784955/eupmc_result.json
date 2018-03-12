@@ -1,0 +1,307 @@
+{
+  "id": [
+    "29370256"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29370256"
+  ],
+  "pmcid": [
+    "PMC5784955"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0191661"
+  ],
+  "title": [
+    "Effects of a brief mindfulness-meditation intervention on neural measures of response inhibition in cigarette smokers."
+  ],
+  "authorString": [
+    "Andreu CI, Cosmelli D, Slagter HA, Franken IHA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Andreu CI"
+          ],
+          "firstName": [
+            "Catherine I"
+          ],
+          "lastName": [
+            "Andreu"
+          ],
+          "initials": [
+            "CI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2402-0252",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Escuela de Psicología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cosmelli D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Cosmelli"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Escuela de Psicología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Slagter HA"
+          ],
+          "firstName": [
+            "Heleen A"
+          ],
+          "lastName": [
+            "Slagter"
+          ],
+          "initials": [
+            "HA"
+          ],
+          "affiliation": [
+            "Department of Psychology, University of Amsterdam, Amsterdam, the Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Franken IHA"
+          ],
+          "firstName": [
+            "Ingmar H A"
+          ],
+          "lastName": [
+            "Franken"
+          ],
+          "initials": [
+            "IHA"
+          ],
+          "affiliation": [
+            "Department of Psychology, Education & Child Studies, Erasmus University Rotterdam, Rotterdam, the Netherlands."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2402-0252",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2633893"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e0191661"
+  ],
+  "abstractText": [
+    "Research suggests that mindfulness-practices may aid smoking cessation. Yet, the neural mechanisms underlying the effects of mindfulness-practices on smoking are unclear. Response inhibition is a main deficit in addiction, is associated with relapse, and could therefore be a candidate target for mindfulness-based practices. The current study hence investigated the effects of a brief mindfulness-practice on response inhibition in smokers using behavioral and electroencephalography (EEG) measures. Fifty participants (33 females, mean age 20 years old) underwent a protocol of cigarette exposure to induce craving (cue-exposure) and were then randomly assigned to a group receiving mindfulness-instructions or control-instructions (for 15 minutes approximately). Immediately after this, they performed a smoking Go/NoGo task, while their brain activity was recorded. At the behavioral level, no group differences were observed. However, EEG analyses revealed a decrease in P3 amplitude during NoGo vs. Go trials in the mindfulness versus control group. The lower P3 amplitude might indicate less-effortful response inhibition after the mindfulness-practice, and suggest that enhanced response inhibition underlies observed positive effects of mindfulness on smoking behavior."
+  ],
+  "affiliation": [
+    "Escuela de Psicología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784955?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784955"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0191661"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-26"
+  ],
+  "dateOfRevision": [
+    "2018-02-13"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-25"
+  ],
+  "firstPublicationDate": [
+    "2018-01-25"
+  ]
+}

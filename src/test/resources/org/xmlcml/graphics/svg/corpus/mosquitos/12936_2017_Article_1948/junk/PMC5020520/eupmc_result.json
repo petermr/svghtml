@@ -1,0 +1,745 @@
+{
+  "id": [
+    "27619675"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27619675"
+  ],
+  "pmcid": [
+    "PMC5020520"
+  ],
+  "doi": [
+    "10.1186/s12885-016-2764-5"
+  ],
+  "title": [
+    "Does native Trypanosoma cruzi calreticulin mediate growth inhibition of a mammary tumor during infection?"
+  ],
+  "authorString": [
+    "Abello-Cáceres P, Pizarro-Bauerle J, Rosas C, Maldonado I, Aguilar-Guzmán L, González C, Ramírez G, Ferreira J, Ferreira A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Abello-Cáceres P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Abello-Cáceres"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pizarro-Bauerle J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Pizarro-Bauerle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rosas C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Rosas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado I"
+          ],
+          "firstName": [
+            "Ismael"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilar-Guzmán L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Aguilar-Guzmán"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Faculty of Veterinary Medicine and Livestock Sciences, University of Chile, Avenida Santa Rosa 11735, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Veterinary Medicine, Andrés Bello University, Avenida República 440, Santiago Centro, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez G"
+          ],
+          "firstName": [
+            "Galia"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Faculty of Veterinary Medicine and Livestock Sciences, University of Chile, Avenida Santa Rosa 11735, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreira J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Ferreira"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreira A"
+          ],
+          "firstName": [
+            "Arturo"
+          ],
+          "lastName": [
+            "Ferreira"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "University of Chile, Avenida Independencia 1027, Santiago, Chile. aferreira_uchile@yahoo.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2460161"
+      ],
+      "dateOfPublication": [
+        "2016 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC cancer"
+          ],
+          "ISOAbbreviation": [
+            "BMC Cancer"
+          ],
+          "medlineAbbreviation": [
+            "BMC Cancer"
+          ],
+          "NLMid": [
+            "100967800"
+          ],
+          "ISSN": [
+            "1471-2407"
+          ],
+          "ESSN": [
+            "1471-2407"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "731"
+  ],
+  "abstractText": [
+    "For several decades now an antagonism between Trypanosoma cruzi infection and tumor development has been detected. The molecular basis of this phenomenon remained basically unknown until our proposal that T. cruzi Calreticulin (TcCRT), an endoplasmic reticulum-resident chaperone, translocated-externalized by the parasite, may mediate at least an important part of this effect. Thus, recombinant TcCRT (rTcCRT) has important in vivo antiangiogenic and antitumor activities. However, the relevant question whether the in vivo antitumor effect of T. cruzi infection is indeed mediated by the native chaperone (nTcCRT), remains open. Herein, by using specific modified anti-rTcCRT antibodies (Abs), we have neutralized the antitumor activity of T. cruzi infection and extracts thereof, thus identifying nTcCRT as a valid mediator of this effect.Polyclonal anti-rTcCRT F(ab')2 Ab fragments were used to reverse the capacity of rTcCRT to inhibit EAhy926 endothelial cell (EC) proliferation, as detected by BrdU uptake. Using these F(ab')2 fragments, we also challenged the capacity of nTcCRT, during T. cruzi infection, to inhibit the growth of an aggressive mammary adenocarcinoma cell line (TA3-MTXR) in mice. Moreover, we determined the capacity of anti-rTcCRT Abs to reverse the antitumor effect of an epimastigote extract (EE). Finally, the effects of these treatments on tumor histology were evaluated.The rTcCRT capacity to inhibit ECs proliferation was reversed by anti-rTcCRT F(ab')2 Ab fragments, thus defining them as valid probes to interfere in vivo with this important TcCRT function. Consequently, during infection, these Ab fragments also reversed the in vivo experimental mammary tumor growth. Moreover, anti-rTcCRT Abs also neutralized the antitumor effect of an EE, again identifying the chaperone protein as an important mediator of this anti mammary tumor effect. Finally, as determined by conventional histological parameters, in infected animals and in those treated with EE, less invasive tumors were observed while, as expected, treatment with F(ab')2 Ab fragments increased malignancy.We have identified translocated/externalized nTcCRT as responsible for at least an important part of the anti mammary tumor effect of the chaperone observed during experimental infections with T. cruzi."
+  ],
+  "affiliation": [
+    "Institute of Biomedical Sciences (ICBM), Faculty of Medicine, University of Chile, Avenida Independencia 1027, Independencia, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Endothelial Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Trypanosoma cruzi"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Trypanosomiasis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PS"
+                  ],
+                  "qualifierName": [
+                    "parasitology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mammary Neoplasms, Experimental"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calreticulin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AI"
+                  ],
+                  "qualifierName": [
+                    "antagonists & inhibitors"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protozoan Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AI"
+                  ],
+                  "qualifierName": [
+                    "antagonists & inhibitors"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Proliferation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antibodies, Neutralizing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AD"
+                  ],
+                  "qualifierName": [
+                    "administration & dosage"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Angiogenesis",
+        "calreticulin",
+        "Trypanosoma Cruzi",
+        "Mammary Tumor"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Protozoan Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Calreticulin"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Antibodies, Neutralizing"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5020520?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5020520"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12885-016-2764-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-06"
+  ],
+  "dateOfCreation": [
+    "2016-09-13"
+  ],
+  "dateOfRevision": [
+    "2017-11-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-13"
+  ],
+  "firstPublicationDate": [
+    "2016-09-13"
+  ]
+}

@@ -728,6 +728,12 @@ public class TextCache extends AbstractCache {
 		
 	}
 
+	public HtmlElement createHtmlElementNew() {
+		HtmlElement htmlElement = horizontalTexts == null ? null : TextCache.createHtmlFromTexts(horizontalTexts);
+		return htmlElement;
+		
+	}
+
 	public LineFormatter getCurrentLineFormatter() {
 		LineFormatter currentLineFormatter = this.lineFormatterStack.peek();
 		if (currentLineFormatter.getTextCache() == null) {
@@ -739,11 +745,15 @@ public class TextCache extends AbstractCache {
 	public HtmlElement createHtmlFromBox(RealRange xr, RealRange yr) {
 		Real2Range cropBox = new Real2Range(xr, yr); 
 		List<SVGText> textLines = extractCurrentTextElementsContainedInBox(cropBox);
-		TextCache boxTextCache = new TextCache(null);
-		boxTextCache.ingestOrginalTextList(textLines);
-		LineFormatter currentLineFormatter = boxTextCache.getCurrentLineFormatter();
+		return createHtmlFromTexts(textLines);
+	}
+
+	public static HtmlElement createHtmlFromTexts(List<SVGText> textLines) {
+		TextCache textCache1 = new TextCache(null);
+		textCache1.ingestOrginalTextList(textLines);
+		LineFormatter currentLineFormatter = textCache1.getCurrentLineFormatter();
 		SVGTextLineList textLineList = currentLineFormatter.addSuscriptsAndJoinWrappedLines();
-		HtmlElement htmlElement = boxTextCache.createHtmlElement();
+		HtmlElement htmlElement = textCache1.createHtmlElement();
 		return htmlElement;
 	}
 

@@ -1,0 +1,712 @@
+{
+  "id": [
+    "28375163"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28375163"
+  ],
+  "pmcid": [
+    "PMC5412296"
+  ],
+  "doi": [
+    "10.3390/ijms18040710"
+  ],
+  "title": [
+    "Triazole Fungicides Inhibit Zebrafish Hatching by Blocking the Secretory Function of Hatching Gland Cells."
+  ],
+  "authorString": [
+    "De la Paz JF, Beiza N, Paredes-Zúñiga S, Hoare MS, Allende ML."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "De la Paz JF"
+          ],
+          "firstName": [
+            "Javiera F"
+          ],
+          "lastName": [
+            "De la Paz"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "Corporación para el Desarrollo de las Ciencias Ambientales, CODECIAM, Santiago 8270966, Chile. javiera.delapaz@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Beiza N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Beiza"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Center for Genome Regulation, Facultad de Ciencias, Universidad de Chile, Santiago 8370415, Chile. nbbeiza@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Paredes-Zúñiga S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Paredes-Zúñiga"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Center for Genome Regulation, Facultad de Ciencias, Universidad de Chile, Santiago 8370415, Chile. sparedesz@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Hoare MS"
+          ],
+          "firstName": [
+            "Misque S"
+          ],
+          "lastName": [
+            "Hoare"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "affiliation": [
+            "Corporación para el Desarrollo de las Ciencias Ambientales, CODECIAM, Santiago 8270966, Chile. sol.misque@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Allende ML"
+          ],
+          "firstName": [
+            "Miguel L"
+          ],
+          "lastName": [
+            "Allende"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2783-2152",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Genome Regulation, Facultad de Ciencias, Universidad de Chile, Santiago 8370415, Chile. mallende@u.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2783-2152",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2542602"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "In animals, hatching represents the transition point from a developing embryo to a free-living individual, the larva. This process is finely regulated by many endogenous and environmental factors and has been shown to be sensitive to a variety of chemical agents. It is commonly evaluated in bioassays in order to establish the effects of different agents on early development and reproductive capabilities in fish and other aquatic animals. In fish, the breakdown of the chorion is achieved by the secretion of choriolysin by hatching gland cells (HGCs) into the perivitelline space (PVS), coupled with spontaneous movements of the developing larva. In this work, we used zebrafish to assay the effects of a family of widely used agrochemicals-triazoles Triadimefon (FON), Triadimenol (NOL) and free triazole (1,2,4-T)-on hatching success. We found a strong inhibition of hatching by triazole exposure which was correlated with morphological changes and a reduction in the secretory function of the HGCs. As a consequence, the release of choriolytic enzymes by HGCs was reduced. We also found that HGC secretion reduction after exposure to FON can be rescued by co-incubation with a dopamine D2 receptor antagonist but not by antagonists of the D1-like receptors. This suggests a specific pathway through which this family of fungicides may be impairing a critical event in the fish life cycle."
+  ],
+  "affiliation": [
+    "Corporación para el Desarrollo de las Ciencias Ambientales, CODECIAM, Santiago 8270966, Chile. javiera.delapaz@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Embryo, Nonmammalian"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Zebrafish"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Triazoles"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TO"
+                  ],
+                  "qualifierName": [
+                    "toxicity"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Peptide Hydrolases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Zebrafish Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fungicides, Industrial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TO"
+                  ],
+                  "qualifierName": [
+                    "toxicity"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biological Assay"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Inhibitory Concentration 50"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Motor Activity"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Larva"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ecotoxicology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteolysis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hatching",
+        "Dopamine",
+        "Zebrafish",
+        "Bioassay",
+        "Triadimefon",
+        "Fungicides",
+        "Triazoles",
+        "Hatching Enzyme 1",
+        "Choriolysin"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Peptide Hydrolases"
+          ],
+          "registryNumber": [
+            "EC 3.4.-"
+          ]
+        },
+        {
+          "name": [
+            "Triazoles"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Fungicides, Industrial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Zebrafish Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "triadimefon"
+          ],
+          "registryNumber": [
+            "1HW039CJF0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5412296?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5412296"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18040710"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-01"
+  ],
+  "dateOfCreation": [
+    "2017-04-04"
+  ],
+  "dateOfRevision": [
+    "2017-06-01"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-04"
+  ],
+  "firstPublicationDate": [
+    "2017-04-04"
+  ]
+}

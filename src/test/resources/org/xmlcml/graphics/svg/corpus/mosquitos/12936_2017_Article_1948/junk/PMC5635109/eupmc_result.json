@@ -1,0 +1,726 @@
+{
+  "id": [
+    "29018191"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29018191"
+  ],
+  "pmcid": [
+    "PMC5635109"
+  ],
+  "doi": [
+    "10.1038/s41467-017-00960-3"
+  ],
+  "title": [
+    "D-serine released by astrocytes in brainstem regulates breathing response to CO2 levels."
+  ],
+  "authorString": [
+    "Beltrán-Castillo S, Olivares MJ, Contreras RA, Zúñiga G, Llona I, von Bernhardi R, Eugenín JL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Beltrán-Castillo S"
+          ],
+          "firstName": [
+            "S"
+          ],
+          "lastName": [
+            "Beltrán-Castillo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4550-6323",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olivares MJ"
+          ],
+          "firstName": [
+            "M J"
+          ],
+          "lastName": [
+            "Olivares"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0109-0672",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Contreras RA"
+          ],
+          "firstName": [
+            "R A"
+          ],
+          "lastName": [
+            "Contreras"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zúñiga G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Zúñiga"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Llona I"
+          ],
+          "firstName": [
+            "I"
+          ],
+          "lastName": [
+            "Llona"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "von Bernhardi R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "von Bernhardi"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9022-7676",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Neurología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, 8330024, Chile. rvonb@med.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Eugenín JL"
+          ],
+          "firstName": [
+            "J L"
+          ],
+          "lastName": [
+            "Eugenín"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8888-3092",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile. jaime.eugenin@usach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8888-3092",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4550-6323",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0109-0672",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9022-7676",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2603097"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "838"
+  ],
+  "abstractText": [
+    "Central chemoreception is essential for adjusting breathing to physiological demands, and for maintaining CO2 and pH homeostasis in the brain. CO2-induced ATP release from brainstem astrocytes stimulates breathing. NMDA receptor (NMDAR) antagonism reduces the CO2-induced hyperventilation by unknown mechanisms. Here we show that astrocytes in the mouse caudal medullary brainstem can synthesize, store, and release D-serine, an agonist for the glycine-binding site of the NMDAR, in response to elevated CO2 levels. We show that systemic and raphe nucleus D-serine administration to awake, unrestrained mice increases the respiratory frequency. Application of D-serine to brainstem slices also increases respiratory frequency, which was prevented by NMDAR blockade. Inhibition of D-serine synthesis, enzymatic degradation of D-serine, or the sodium fluoroacetate-induced impairment of astrocyte functions decrease the basal respiratory frequency and the CO2-induced respiratory response in vivo and in vitro. Our findings suggest that astrocytic release of D-serine may account for the glutamatergic contribution to central chemoreception.Astrocytes are involved in chemoreception in brainstem areas that regulate breathing rhythm, and astrocytes are known to release D-serine. Here the authors show that astrocyte release of D-serine contributes to CO2 sensing and breathing in brainstem slices, and in vivo in awake unrestrained mice."
+  ],
+  "affiliation": [
+    "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, 9170022, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain Stem"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Astrocytes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cells, Cultured"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice, Inbred Strains"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hypercapnia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carbon Dioxide"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fluoroacetates"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Serine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Receptors, N-Methyl-D-Aspartate"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiration"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Fluoroacetates"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Receptors, N-Methyl-D-Aspartate"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "fluoroacetic acid"
+          ],
+          "registryNumber": [
+            "AP1JV9U41M"
+          ]
+        },
+        {
+          "name": [
+            "Serine"
+          ],
+          "registryNumber": [
+            "452VLY9402"
+          ]
+        },
+        {
+          "name": [
+            "Carbon Dioxide"
+          ],
+          "registryNumber": [
+            "142M471B3J"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5635109?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5635109"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-017-00960-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-09"
+  ],
+  "dateOfCreation": [
+    "2017-10-12"
+  ],
+  "dateOfRevision": [
+    "2018-02-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-10"
+  ],
+  "firstPublicationDate": [
+    "2017-10-10"
+  ]
+}

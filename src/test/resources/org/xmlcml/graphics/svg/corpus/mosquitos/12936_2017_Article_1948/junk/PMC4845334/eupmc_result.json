@@ -1,0 +1,600 @@
+{
+  "id": [
+    "27113933"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27113933"
+  ],
+  "pmcid": [
+    "PMC4845334"
+  ],
+  "doi": [
+    "10.1186/s12868-016-0252-0"
+  ],
+  "title": [
+    "Single Ca(2+)-activated Cl(-) channel currents recorded from toad olfactory cilia."
+  ],
+  "authorString": [
+    "Delgado R, Mura CV, Bacigalupo J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Delgado R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, 7800024, Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mura CV"
+          ],
+          "firstName": [
+            "Casilda V"
+          ],
+          "lastName": [
+            "Mura"
+          ],
+          "initials": [
+            "CV"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, 7800024, Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bacigalupo J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Bacigalupo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Biology, Faculty of Sciences, University of Chile, 7800024, Ñuñoa, Santiago, Chile. bacigalu@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2589310"
+      ],
+      "dateOfPublication": [
+        "2016 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "BMC Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "BMC Neurosci"
+          ],
+          "NLMid": [
+            "100966986"
+          ],
+          "ESSN": [
+            "1471-2202"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "17"
+  ],
+  "abstractText": [
+    "Odor transduction, occurring in the chemosensory cilia of vertebrate olfactory sensory neurons, is triggered by guanosine triphosphate-coupled odor receptors and mediated by a cyclic adenosine monophosphate (cAMP) signaling cascade, where cAMP opens cationic non-selective cyclic nucleotide-gated (CNG) channels. Calcium enters through CNG gates Ca(2+)-activated Cl(-) channels, allowing a Cl(-) inward current that enhances the depolarization initiated by the CNG-dependent inward current. The anoctamin channel 2, ANO2, is considered the main Ca(2+)-activated Cl(-) channel of olfactory transduction. Although Ca(2+)-activated Cl(-) channel-dependent currents in olfactory sensory neurons were reported to be suppressed in ANO2-knockout mice, field potentials from their olfactory epithelium were only modestly diminished and their smell-dependent behavior was unaffected, suggesting the participation of additional Ca(2+)-activated Cl(-) channel types. The Bestrophin channel 2, Best2, was also detected in mouse olfactory cilia and ClCa4l, belonging to the ClCa family of Ca(2+)-activated Cl(-) channels, were found in rat cilia. Best2 knock-out mice present no electrophysiological or behavioral impairment, while the ClCa channels have not been functionally studied; therefore, the overall participation of all these channels in olfactory transduction remains unresolved.We explored the presence of detectable Ca(2+)-activated Cl(-) channels in toad olfactory cilia by recording from inside-out membrane patches excised from individual cilia and detected unitary Cl(-) current events with a pronounced Ca(2+) dependence, corresponding to 12 and 24 pS conductances, over tenfold higher than the aforementioned channels, and a approx. fivefold higher Ca(2+) affinity (K0.5 = 0.38 µM). Remarkably, we observed immunoreactivity to anti-ClCa and anti-ANO2 antibodies in the olfactory cilia, suggesting a possible cooperative function of both channel type in chemotransduction.These results are consistent with a novel olfactory cilia channel, which might play a role in odor transduction."
+  ],
+  "affiliation": [
+    "Department of Biology, Faculty of Sciences, University of Chile, 7800024, Ñuñoa, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Olfactory Mucosa"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Olfactory Receptor Neurons"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cilia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anura"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cations, Divalent"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calcium"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Amphibian Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chloride Channels"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Patch-Clamp Techniques"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Membrane Potentials"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cyclic Nucleotide-Gated Cation Channels"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Calcium",
+        "Ion channel",
+        "Olfactory Sensory Neuron",
+        "Olfactory Cilia",
+        "Odor Transduction",
+        "Anoctamin-2",
+        "Bestrophin-2",
+        "Clca4l"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Cations, Divalent"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Chloride Channels"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Amphibian Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cyclic Nucleotide-Gated Cation Channels"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Calcium"
+          ],
+          "registryNumber": [
+            "SY7Q814VUP"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4845334?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4845334"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12868-016-0252-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-23"
+  ],
+  "dateOfCreation": [
+    "2016-04-27"
+  ],
+  "dateOfRevision": [
+    "2017-12-30"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-25"
+  ],
+  "firstPublicationDate": [
+    "2016-04-25"
+  ]
+}

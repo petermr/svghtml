@@ -1,0 +1,284 @@
+{
+  "id": [
+    "28408668"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28408668"
+  ],
+  "pmcid": [
+    "PMC5391406"
+  ],
+  "doi": [
+    "10.1128/genomea.00132-17"
+  ],
+  "title": [
+    "Genome Sequence of Cobetia sp. Strain MM1IDA2H-1, a Hydrocarbon-Degrading and Biosurfactant-Producing Marine Bacterium."
+  ],
+  "authorString": [
+    "Ibacache-Quiroga C, Canales C, Charifeh M, Dinamarca MA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ibacache-Quiroga C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Ibacache-Quiroga"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Micro-Bioinnovación (CMBi), Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canales C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología (CEBUSS), Facultad de Ingeniería y Tecnología, Universidad San Sebastián, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Charifeh M"
+          ],
+          "firstName": [
+            "Mariam"
+          ],
+          "lastName": [
+            "Charifeh"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Micro-Bioinnovación (CMBi), Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dinamarca MA"
+          ],
+          "firstName": [
+            "M Alejandro"
+          ],
+          "lastName": [
+            "Dinamarca"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Escuela de Nutrición y Dietética, Facultad de Farmacia, Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "15"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2547698"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Cobetia sp. strain MM1IDA2H-1 is a marine bacterium isolated from seawater samples that uses the heterocyclic aromatic hydrocarbon dibenzothiophene as the sole carbon source and produces a biosurfactant that inhibits bacterial quorum sensing. The Cobetia sp. MM1IDA2H-1 genome was sequenced, processed, assembled, and annotated for basic and applied studies."
+  ],
+  "affiliation": [
+    "Centro de Micro-Bioinnovación (CMBi), Universidad de Valparaíso, Valparaíso, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5391406?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5391406"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00132-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-14"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-13"
+  ],
+  "firstPublicationDate": [
+    "2017-04-13"
+  ]
+}

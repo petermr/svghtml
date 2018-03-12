@@ -1,0 +1,664 @@
+{
+  "id": [
+    "27520817"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27520817"
+  ],
+  "pmcid": [
+    "PMC5068155"
+  ],
+  "doi": [
+    "10.1128/aem.01760-16"
+  ],
+  "title": [
+    "Whole-Genome Sequencing Analysis of Salmonella enterica Serovar Enteritidis Isolates in Chile Provides Insights into Possible Transmission between Gulls, Poultry, and Humans."
+  ],
+  "authorString": [
+    "Toro M, Retamal P, Ayers S, Barreto M, Allard M, Brown EW, Gonzalez-Escalona N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Toro M"
+          ],
+          "firstName": [
+            "Magaly"
+          ],
+          "lastName": [
+            "Toro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6280-2215",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8597-9550",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ayers S"
+          ],
+          "firstName": [
+            "Sherry"
+          ],
+          "lastName": [
+            "Ayers"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "U.S. Food and Drug Administration, Center for Veterinary Medicine, Laurel, Maryland, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Barreto M"
+          ],
+          "firstName": [
+            "Marlen"
+          ],
+          "lastName": [
+            "Barreto"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center of Biomedical Research, Faculty of Health Sciences, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Allard M"
+          ],
+          "firstName": [
+            "Marc"
+          ],
+          "lastName": [
+            "Allard"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition, College Park, Maryland, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Brown EW"
+          ],
+          "firstName": [
+            "Eric W"
+          ],
+          "lastName": [
+            "Brown"
+          ],
+          "initials": [
+            "EW"
+          ],
+          "affiliation": [
+            "U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition, College Park, Maryland, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez-Escalona N"
+          ],
+          "firstName": [
+            "Narjol"
+          ],
+          "lastName": [
+            "Gonzalez-Escalona"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "U.S. Food and Drug Administration, Center for Food Safety and Applied Nutrition, College Park, Maryland, USA narjol.gonzalez-escalona@fda.hhs.gov."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8597-9550",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6280-2215",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "20"
+      ],
+      "volume": [
+        "82"
+      ],
+      "journalIssueId": [
+        "2457020"
+      ],
+      "dateOfPublication": [
+        "2016 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Applied and environmental microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Appl. Environ. Microbiol."
+          ],
+          "medlineAbbreviation": [
+            "Appl Environ Microbiol"
+          ],
+          "NLMid": [
+            "7605801"
+          ],
+          "ISSN": [
+            "0099-2240"
+          ],
+          "ESSN": [
+            "1098-5336"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "6223-6232"
+  ],
+  "abstractText": [
+    "Salmonella enterica subsp. enterica serotype Enteritidis is a major cause of human salmonellosis worldwide; however, little is known about the genetic relationships between S Enteritidis clinical strains and S Enteritidis strains from other sources in Chile. We compared the whole genomes of 30 S Enteritidis strains isolated from gulls, domestic chicken eggs, and humans in Chile, to investigate their phylogenetic relationships and to establish their relatedness to international strains. Core genome multilocus sequence typing (cgMLST) analysis showed that only 246/4,065 shared loci differed among these Chilean strains, separating them into two clusters (I and II), with cluster II being further divided into five subclusters. One subcluster (subcluster 2) contained strains from all surveyed sources that differed at 1 to 18 loci (of 4,065 loci) with 1 to 18 single-nucleotide polymorphisms (SNPs), suggesting interspecies transmission of S Enteritidis in Chile. Moreover, clusters were formed by strains that were distant geographically, which could imply that gulls might be spreading the pathogen throughout the country. Our cgMLST analysis, using other S Enteritidis genomes available in the National Center for Biotechnology Information (NCBI) database, showed that S Enteritidis strains from Chile and the United States belonged to different lineages, which suggests that S Enteritidis regional markers might exist and could be used for trace-back investigations.This study highlights the importance of gulls in the spread of Salmonella Enteritidis in Chile. We revealed a close genetic relationship between some human and gull S Enteritidis strains (with as few as 2 of 4,065 genes being different), and we also found that gull strains were present in clusters formed by strains isolated from other sources or distant locations. Together with previously published evidence, this suggests that gulls might be spreading this pathogen between different regions in Chile and that some of those strains have been transmitted to humans. Moreover, we discovered that Chilean S Enteritidis strains clustered separately from most of S Enteritidis strains isolated throughout the world (in the GenBank database) and thus it might be possible to distinguish the geographical origins of strains based on specific genomic features. This could be useful for trace-back investigations of foodborne illnesses throughout the world."
+  ],
+  "affiliation": [
+    "Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Macul, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Poultry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Salmonella enteritidis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Salmonella Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Salmonella Infections, Animal"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bird Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Poultry Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome, Bacterial"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Charadriiformes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Serogroup"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5068155?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5068155"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/AEM.01760-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "refseq"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-09-22"
+  ],
+  "dateOfCreation": [
+    "2016-08-13"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-30"
+  ],
+  "firstPublicationDate": [
+    "2016-08-12"
+  ]
+}

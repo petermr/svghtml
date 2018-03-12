@@ -1,0 +1,888 @@
+{
+  "id": [
+    "28542165"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28542165"
+  ],
+  "pmcid": [
+    "PMC5444600"
+  ],
+  "doi": [
+    "10.1371/journal.pgen.1006756"
+  ],
+  "title": [
+    "Subtypes of Native American ancestry and leading causes of death: Mapuche ancestry-specific associations with gallbladder cancer risk in Chile."
+  ],
+  "authorString": [
+    "Lorenzo Bermejo J, Boekstegers F, González Silos R, Marcelain K, Baez Benavides P, Barahona Ponce C, Müller B, Ferreccio C, Koshiol J, Fischer C, Peil B, Sinsheimer J, Fuentes Guajardo M, Barajas O, Gonzalez-Jose R, Bedoya G, Cátira Bortolini M, Canizales-Quinteros S, Gallo C, Ruiz Linares A, Rothhammer F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lorenzo Bermejo J"
+          ],
+          "firstName": [
+            "Justo"
+          ],
+          "lastName": [
+            "Lorenzo Bermejo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6568-5333",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Statistical Genetics Group, Institute of Medical Biometry and Informatics, University of Heidelberg, Heidelberg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Boekstegers F"
+          ],
+          "firstName": [
+            "Felix"
+          ],
+          "lastName": [
+            "Boekstegers"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0587-7624",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Statistical Genetics Group, Institute of Medical Biometry and Informatics, University of Heidelberg, Heidelberg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "González Silos R"
+          ],
+          "firstName": [
+            "Rosa"
+          ],
+          "lastName": [
+            "González Silos"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Statistical Genetics Group, Institute of Medical Biometry and Informatics, University of Heidelberg, Heidelberg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Marcelain K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "Marcelain"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Program of Human Genetics, Institute of Biomedical Sciences, Medical Faculty, University of Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Baez Benavides P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Baez Benavides"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Program of Human Genetics, Institute of Biomedical Sciences, Medical Faculty, University of Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barahona Ponce C"
+          ],
+          "firstName": [
+            "Carol"
+          ],
+          "lastName": [
+            "Barahona Ponce"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Program of Human Genetics, Institute of Biomedical Sciences, Medical Faculty, University of Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Müller B"
+          ],
+          "firstName": [
+            "Bettina"
+          ],
+          "lastName": [
+            "Müller"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8589-5725",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto Nacional del Cáncer de Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreccio C"
+          ],
+          "firstName": [
+            "Catterina"
+          ],
+          "lastName": [
+            "Ferreccio"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6331-5534",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Koshiol J"
+          ],
+          "firstName": [
+            "Jill"
+          ],
+          "lastName": [
+            "Koshiol"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3832-6204",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Infections and Immunoepidemiology Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Bethesda, Maryland, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Fischer C"
+          ],
+          "firstName": [
+            "Christine"
+          ],
+          "lastName": [
+            "Fischer"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Human Genetics, University of Heidelberg, Heidelberg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Peil B"
+          ],
+          "firstName": [
+            "Barbara"
+          ],
+          "lastName": [
+            "Peil"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Statistical Genetics Group, Institute of Medical Biometry and Informatics, University of Heidelberg, Heidelberg, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Sinsheimer J"
+          ],
+          "firstName": [
+            "Janet"
+          ],
+          "lastName": [
+            "Sinsheimer"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Biomathematics and Human Genetics Departments, David Geffen School of Medicine at UCLA, Los Angeles, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes Guajardo M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Fuentes Guajardo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2486-1628",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Barajas O"
+          ],
+          "firstName": [
+            "Olga"
+          ],
+          "lastName": [
+            "Barajas"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, University Hospital of University of Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez-Jose R"
+          ],
+          "firstName": [
+            "Rolando"
+          ],
+          "lastName": [
+            "Gonzalez-Jose"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8128-9381",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro Nacional Patagónico, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Bedoya G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Bedoya"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7281-3981",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Genética Molecular, Facultad de Ciencias Exactas y Naturales, Universidad de Antioquia, Medellín, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Cátira Bortolini M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Cátira Bortolini"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Genética, Instituto de Biociências Universidade Federal do Rio Grande do Sul, Puerto Alegre, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Canizales-Quinteros S"
+          ],
+          "firstName": [
+            "Samuel"
+          ],
+          "lastName": [
+            "Canizales-Quinteros"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Unidad de Genómica de Poblaciones Aplicada a la Salud, Facultad de Química, Universidad Nacional Autónoma de México, Ciudad de México, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallo C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Gallo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorios de Investigación y Desarrollo, Facultad de Ciencias y Filosofía, Universidad Peruana Cayetano Heredia, Lima, Perú."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz Linares A"
+          ],
+          "firstName": [
+            "Andres"
+          ],
+          "lastName": [
+            "Ruiz Linares"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Rothhammer F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Rothhammer"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Instituto de Alta Investigación, Tarapacá University, Arica, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8589-5725",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6568-5333",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0587-7624",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3832-6204",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6331-5534",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7281-3981",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2486-1628",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8128-9381",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2551944"
+      ],
+      "dateOfPublication": [
+        "2017 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS genetics"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Genet."
+          ],
+          "medlineAbbreviation": [
+            "PLoS Genet"
+          ],
+          "NLMid": [
+            "101239074"
+          ],
+          "ISSN": [
+            "1553-7390"
+          ],
+          "ESSN": [
+            "1553-7404"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e1006756"
+  ],
+  "abstractText": [
+    "Latin Americans are highly heterogeneous regarding the type of Native American ancestry. Consideration of specific associations with common diseases may lead to substantial advances in unraveling of disease etiology and disease prevention. Here we investigate possible associations between the type of Native American ancestry and leading causes of death. After an aggregate-data study based on genome-wide genotype data from 1805 admixed Chileans and 639,789 deaths, we validate an identified association with gallbladder cancer relying on individual data from 64 gallbladder cancer patients, with and without a family history, and 170 healthy controls. Native American proportions were markedly underestimated when the two main types of Native American ancestry in Chile, originated from the Mapuche and Aymara indigenous peoples, were combined together. Consideration of the type of Native American ancestry was crucial to identify disease associations. Native American ancestry showed no association with gallbladder cancer mortality (P = 0.26). By contrast, each 1% increase in the Mapuche proportion represented a 3.7% increased mortality risk by gallbladder cancer (95%CI 3.1-4.3%, P = 6×10-27). Individual-data results and extensive sensitivity analyses confirmed the association between Mapuche ancestry and gallbladder cancer. Increasing Mapuche proportions were also associated with an increased mortality due to asthma and, interestingly, with a decreased mortality by diabetes. The mortality due to skin, bladder, larynx, bronchus and lung cancers increased with increasing Aymara proportions. Described methods should be considered in future studies on human population genetics and human health. Complementary individual-based studies are needed to apportion the genetic and non-genetic components of associations identified relying on aggregate-data."
+  ],
+  "affiliation": [
+    "Statistical Genetics Group, Institute of Medical Biometry and Informatics, University of Heidelberg, Heidelberg, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gallbladder Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Human"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Indians, North American"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome-Wide Association Study"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5444600?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5444600"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pgen.1006756"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-05-30"
+  ],
+  "dateOfCreation": [
+    "2017-05-25"
+  ],
+  "dateOfRevision": [
+    "2017-06-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-25"
+  ],
+  "firstPublicationDate": [
+    "2017-05-25"
+  ]
+}

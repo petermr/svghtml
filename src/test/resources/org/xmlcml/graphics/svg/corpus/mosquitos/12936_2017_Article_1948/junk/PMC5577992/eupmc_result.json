@@ -1,0 +1,366 @@
+{
+  "id": [
+    "28809778"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28809778"
+  ],
+  "pmcid": [
+    "PMC5577992"
+  ],
+  "doi": [
+    "10.3390/ijms18081525"
+  ],
+  "title": [
+    "Reprimo, a Potential p53-Dependent Tumor Suppressor Gene, Is Frequently Hypermethylated in Estrogen Receptor α-Positive Breast Cancer."
+  ],
+  "authorString": [
+    "Buchegger K, Riquelme I, Viscarra T, Ili C, Brebi P, Huang TH, Roa JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Buchegger K"
+          ],
+          "firstName": [
+            "Kurt"
+          ],
+          "lastName": [
+            "Buchegger"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. kurt.buchegger@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme I"
+          ],
+          "firstName": [
+            "Ismael"
+          ],
+          "lastName": [
+            "Riquelme"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. ismael.riquelme@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Viscarra T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Viscarra"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. t.viscarra01@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Ili C"
+          ],
+          "firstName": [
+            "Carmen"
+          ],
+          "lastName": [
+            "Ili"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. carmen.ili@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Brebi P"
+          ],
+          "firstName": [
+            "Priscilla"
+          ],
+          "lastName": [
+            "Brebi"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. priscilla.brebi@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Huang TH"
+          ],
+          "firstName": [
+            "Tim Hui-Ming"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "TH"
+          ],
+          "affiliation": [
+            "Department of Molecular Medicine/Institute of Biotechnology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229, USA. huangt3@uthscsa.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pathology, UC Centre for Investigational Oncology (CITO), Advanced Centre for Chronic Diseases (ACCDis), The Millennium Institute on Immunology and Immunotherapy, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile. jcroa@med.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2581987"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Aberrant DNA methylation is a hallmark of many cancers. Currently, there are four intrinsic molecular subtypes in breast cancer (BC): Luminal A, B, Her2-positive, and triple negative (TNBC). Recently, The Cancer Genome Atlas (TCGA) project has revealed that Luminal subtypes have higher levels of genome-wide methylation that may be a result of Estrogen/Estrogen receptor α (E2/ERα) signaling pathway activation. In this study, we analyze promoter CpG-island (CGIs) of the Reprimo (RPRM) gene in breast cancers (n = 77), cell lines (n = 38), and normal breast tissue (n = 10) using a MBDCap-seq database. Then, a validation cohort (n = 26) was used to confirm the results found in the MBDCap-seq platform. A differential methylation pattern was found between BC and cell lines compared to normal breast tissue. In BC, a higher DNA methylation was observed in tissues that were ERα-positive than in ERα-negative ones; more precisely, subtypes Luminal A compared to TNBC. Also, significant reverse correlation was observed between DNA methylation and RPRM mRNA expression in BC. Our data suggest that ERα expression in BC may affect the DNA methylation of CGIs in the RPRM gene. This approach suggests that DNA methylation status in CGIs of some tumor suppressor genes could be driven by E2 availability, subsequently inducing the activation of the ERα pathway."
+  ],
+  "affiliation": [
+    "Department of Pathology, Molecular Pathology Laboratory, School of Medicine, Universidad de La Frontera, Avenida Alemania 0458, 4810296 Temuco, Chile. kurt.buchegger@ufrontera.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "U54 CA217297"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "DNA methylation",
+        "Estrogen",
+        "Breast cancer",
+        "Estrogen Receptor Α",
+        "Reprimo"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5577992?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5577992"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18081525"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-16"
+  ],
+  "dateOfRevision": [
+    "2018-01-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-15"
+  ],
+  "firstPublicationDate": [
+    "2017-08-15"
+  ]
+}

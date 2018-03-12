@@ -1,0 +1,468 @@
+{
+  "id": [
+    "28218665"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28218665"
+  ],
+  "pmcid": [
+    "PMC5343974"
+  ],
+  "doi": [
+    "10.3390/ijms18020440"
+  ],
+  "title": [
+    "Matrix Metalloproteinases as Regulators of Periodontal Inflammation."
+  ],
+  "authorString": [
+    "Franco C, Patricia HR, Timo S, Claudia B, Marcela H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Franco C"
+          ],
+          "firstName": [
+            "Cavalla"
+          ],
+          "lastName": [
+            "Franco"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for Craniofacial Research, University of Texas School of Dentistry at Houston, Houston, TX 77054, USA. francocavalla@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Patricia HR"
+          ],
+          "firstName": [
+            "Hernández-Ríos"
+          ],
+          "lastName": [
+            "Patricia"
+          ],
+          "initials": [
+            "HR"
+          ],
+          "affiliation": [
+            "Department of Conservative Dentistry, School of Dentistry, Universidad de Chile, Santiago 8380492, Chile. phernandezrios@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Timo S"
+          ],
+          "firstName": [
+            "Sorsa"
+          ],
+          "lastName": [
+            "Timo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Division of Periodontology, Department of Dental Medicine, Karolinska Institutet, Huddinge 14183, Sweden. timo.sorsa@helsinki.fi."
+          ]
+        },
+        {
+          "fullName": [
+            "Claudia B"
+          ],
+          "firstName": [
+            "Biguetti"
+          ],
+          "lastName": [
+            "Claudia"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Center for Craniofacial Research, University of Texas School of Dentistry at Houston, Houston, TX 77054, USA. biguetti@usp.br."
+          ]
+        },
+        {
+          "fullName": [
+            "Marcela H"
+          ],
+          "firstName": [
+            "Hernández"
+          ],
+          "lastName": [
+            "Marcela"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Dentistry Unit, Faculty of Health Sciences, Universidad Autónoma de Chile, Santiago 8910060, Chile. mhernandezrios@gmail.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8289-7314",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2521274"
+      ],
+      "dateOfPublication": [
+        "2017 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Periodontitis are infectious diseases characterized by immune-mediated destruction of periodontal supporting tissues and tooth loss. Matrix metalloproteinases (MMPs) are key proteases involved in destructive periodontal diseases. The study and interest in MMP has been fuelled by emerging evidence demonstrating the broad spectrum of molecules that can be cleaved by them and the myriad of biological processes that they can potentially regulate. The huge complexity of MMP functions within the 'protease web' is crucial for many physiologic and pathologic processes, including immunity, inflammation, bone resorption, and wound healing. Evidence points out that MMPs assemble in activation cascades and besides their classical extracellular matrix substrates, they cleave several signalling molecules-such as cytokines, chemokines, and growth factors, among others-regulating their biological functions and/or bioavailability during periodontal diseases. In this review, we provide an overview of emerging evidence of MMPs as regulators of periodontal inflammation."
+  ],
+  "affiliation": [
+    "Center for Craniofacial Research, University of Texas School of Dentistry at Houston, Houston, TX 77054, USA. francocavalla@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Periodontal Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Inflammation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Matrix Metalloproteinases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Enzyme Activation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Models, Biological"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Modulation",
+        "MMPs",
+        "Chronic periodontitis",
+        "Periodontal Inflammation Regulation"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Matrix Metalloproteinases"
+          ],
+          "registryNumber": [
+            "EC 3.4.24.-"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5343974?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5343974"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18020440"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-24"
+  ],
+  "dateOfCreation": [
+    "2017-02-20"
+  ],
+  "dateOfRevision": [
+    "2017-04-24"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-17"
+  ],
+  "firstPublicationDate": [
+    "2017-02-17"
+  ]
+}

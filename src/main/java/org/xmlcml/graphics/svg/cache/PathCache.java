@@ -12,6 +12,7 @@ import org.xmlcml.euclid.Real2;
 import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
@@ -265,6 +266,7 @@ public class PathCache extends AbstractCache{
 	public void addAll(List<SVGPath> newPaths) {
 		getCurrentPathList().addAll(newPaths);
 	}
+
 
 
 }

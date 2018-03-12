@@ -1,0 +1,448 @@
+{
+  "id": [
+    "28158986"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28158986"
+  ],
+  "pmcid": [
+    "PMC5291998"
+  ],
+  "doi": [
+    "10.1186/s12911-017-0411-y"
+  ],
+  "title": [
+    "Social media in public health: an analysis of national health authorities and leading causes of death in Spanish-speaking Latin American and Caribbean countries."
+  ],
+  "authorString": [
+    "Novillo-Ortiz D, Hernández-Pérez T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Novillo-Ortiz D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Novillo-Ortiz"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9756-0984",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Office of Knowledge Management, Bioethics and Research, Pan American Health Organization (PAHO), 525 23rd ST NW, Washington, DC, 20037, USA. novillod@who.int."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández-Pérez T"
+          ],
+          "firstName": [
+            "Tony"
+          ],
+          "lastName": [
+            "Hernández-Pérez"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Library Science and Documentation, University Carlos III de Madrid, Getafe, Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9756-0984",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2521584"
+      ],
+      "dateOfPublication": [
+        "2017 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC medical informatics and decision making"
+          ],
+          "ISOAbbreviation": [
+            "BMC Med Inform Decis Mak"
+          ],
+          "medlineAbbreviation": [
+            "BMC Med Inform Decis Mak"
+          ],
+          "NLMid": [
+            "101088682"
+          ],
+          "ISSN": [
+            "1472-6947"
+          ],
+          "ESSN": [
+            "1472-6947"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "16"
+  ],
+  "abstractText": [
+    "Information and communications technologies, like social media, have the potential to reduce some barriers in disease prevention and control in the Americas. National health authorities can use these technologies to provide access to reliable and quality health information. A study was conducted to analyze availability of information about the leading causes of death on social media channels of national health authorities in 18 Spanish-speaking Latin American and Caribbean countries.We gathered data of national health authorities's institutional presence in social media. Exploratory-descriptive research was useful for analysis and interpretation of the data collected. An analysis was carried out for 6 months, from April 1 to September 30, 2015.Sixteen of the 18 countries studied have institutional presences on social media. National health authorities have a presence in an average of almost three platforms (2.8%). An average of 1% of the populations with Internet access across the 18 countries in this study follows national health authorities on social media (approximately, an average of 0.3% of the total population of the countries under study). On average, information on 3.2 of the 10 leading causes of death was posted on the national health authorities' Facebook pages, and information on 2.9 of the 10 leading causes of death was posted on their Twitter profiles. Additionally, regarding public health expenditures and the possibility of retrieving information on the leading causes of death, an apparent negative correlation exists in the case of Facebook, r(13) = -.54, P = .03 and a weak negative correlation in the case of Twitter, r(14) = -.26, P = .31, for the countries with presences in those networks.National health authorities can improve their role in participating in conversations on social media regarding the leading causes of death affecting their countries. Taking into account Internet accessibility levels in the countries under study and the high rates of people using social networks in even the poorest countries, further research is needed to provide evidence that more dedication to health promotion interventions through social media could significantly improve the impact and reach of public health messages and initiatives."
+  ],
+  "affiliation": [
+    "Office of Knowledge Management, Bioethics and Research, Pan American Health Organization (PAHO), 525 23rd ST NW, Washington, DC, 20037, USA. novillod@who.int."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Cause of Death"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Public Health"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "National Health Programs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Caribbean Region"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Social Media"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Public Health",
+        "Latin America",
+        "Information Retrieval",
+        "Social Media",
+        "Ehealth"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5291998?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5291998"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12911-017-0411-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-13"
+  ],
+  "dateOfCreation": [
+    "2017-02-04"
+  ],
+  "dateOfRevision": [
+    "2017-10-13"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-03"
+  ],
+  "firstPublicationDate": [
+    "2017-02-03"
+  ]
+}

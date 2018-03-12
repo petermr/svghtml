@@ -1,0 +1,603 @@
+{
+  "id": [
+    "27399676"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27399676"
+  ],
+  "pmcid": [
+    "PMC4964447"
+  ],
+  "doi": [
+    "10.3390/ijms17071071"
+  ],
+  "title": [
+    "Protonation Sites, Tandem Mass Spectrometry and Computational Calculations of o-Carbonyl Carbazolequinone Derivatives."
+  ],
+  "authorString": [
+    "Martínez-Cifuentes M, Clavijo-Allancan G, Zuñiga-Hormazabal P, Aranda B, Barriga A, Weiss-López B, Araya-Maturana R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martínez-Cifuentes M"
+          ],
+          "firstName": [
+            "Maximiliano"
+          ],
+          "lastName": [
+            "Martínez-Cifuentes"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2959-3164",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Programa Institucional de Fomento a la Investigaci&#243;n, Desarrollo e Innovaci&#243;n, Universidad Tecnol&#243;gica Metropolitana, Las Palmeras 3360, Casilla 9845, Santiago 7800003, Chile. mmartinez@utem.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Clavijo-Allancan G"
+          ],
+          "firstName": [
+            "Graciela"
+          ],
+          "lastName": [
+            "Clavijo-Allancan"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Qu&#237;mica, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile. gracielaclavijo@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Zuñiga-Hormazabal P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Zuñiga-Hormazabal"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Qu&#237;mica, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile. pamela.zuniga@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Aranda B"
+          ],
+          "firstName": [
+            "Braulio"
+          ],
+          "lastName": [
+            "Aranda"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Departamento de Qu&#237;mica, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile. braulio.aranda.z@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Barriga A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Barriga"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Unidad de Espectrometr&#237;a de Masas, Facultad de Ciencias Qu&#237;micas y Farmac&#233;uticas, Universidad de Chile, Santos Dumont 964, Casilla 233, Santiago 8380494, Chile. anbarr@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Weiss-López B"
+          ],
+          "firstName": [
+            "Boris"
+          ],
+          "lastName": [
+            "Weiss-López"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Departamento de Qu&#237;mica, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Casilla 653, Santiago 7800003, Chile. bweiss@uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya-Maturana R"
+          ],
+          "firstName": [
+            "Ramiro"
+          ],
+          "lastName": [
+            "Araya-Maturana"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5082-9146",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Qu&#237;mica de Recursos Naturales, Universidad de Talca, Av. Lircay s/n, Casilla 747, Talca 3460000, Chile. raraya@utalca.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5082-9146",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2959-3164",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2477878"
+      ],
+      "dateOfPublication": [
+        "2016 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "A series of a new type of tetracyclic carbazolequinones incorporating a carbonyl group at the ortho position relative to the quinone moiety was synthesized and analyzed by tandem electrospray ionization mass spectrometry (ESI/MS-MS), using Collision-Induced Dissociation (CID) to dissociate the protonated species. Theoretical parameters such as molecular electrostatic potential (MEP), local Fukui functions and local Parr function for electrophilic attack as well as proton affinity (PA) and gas phase basicity (GB), were used to explain the preferred protonation sites. Transition states of some main fragmentation routes were obtained and the energies calculated at density functional theory (DFT) B3LYP level were compared with the obtained by ab initio quadratic configuration interaction with single and double excitation (QCISD). The results are in accordance with the observed distribution of ions. The nature of the substituents in the aromatic ring has a notable impact on the fragmentation routes of the molecules."
+  ],
+  "affiliation": [
+    "Programa Institucional de Fomento a la Investigaci&#243;n, Desarrollo e Innovaci&#243;n, Universidad Tecnol&#243;gica Metropolitana, Las Palmeras 3360, Casilla 9845, Santiago 7800003, Chile. mmartinez@utem.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ions"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ketones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Benzoquinones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CS"
+                  ],
+                  "qualifierName": [
+                    "chemical synthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Spectrometry, Mass, Electrospray Ionization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thermodynamics"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mass spectrometry",
+        "DFT",
+        "Quinones",
+        "Carbazole",
+        "Qcisd"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Protons"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Ions"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Ketones"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Gases"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Benzoquinones"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "quinone"
+          ],
+          "registryNumber": [
+            "3T006GV98U"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4964447?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4964447"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms17071071"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-04"
+  ],
+  "dateOfCreation": [
+    "2016-07-12"
+  ],
+  "dateOfRevision": [
+    "2017-04-04"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-05"
+  ],
+  "firstPublicationDate": [
+    "2016-07-05"
+  ]
+}

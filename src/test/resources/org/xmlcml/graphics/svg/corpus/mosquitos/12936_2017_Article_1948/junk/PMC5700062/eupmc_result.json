@@ -1,0 +1,369 @@
+{
+  "id": [
+    "29167505"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29167505"
+  ],
+  "pmcid": [
+    "PMC5700062"
+  ],
+  "doi": [
+    "10.1038/s41598-017-16380-8"
+  ],
+  "title": [
+    "Dissecting the Re-Os molybdenite geochronometer."
+  ],
+  "authorString": [
+    "Barra F, Deditius A, Reich M, Kilburn MR, Guagliardo P, Roberts MP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Barra F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Barra"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7836-562X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, Chile. fbarrapantoja@ing.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Deditius A"
+          ],
+          "firstName": [
+            "Artur"
+          ],
+          "lastName": [
+            "Deditius"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "School of Engineering and Information Technology, Murdoch University, 90 South Street, Murdoch, Western Australia, 6150, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Reich M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Reich"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7269-7586",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kilburn MR"
+          ],
+          "firstName": [
+            "Matt R"
+          ],
+          "lastName": [
+            "Kilburn"
+          ],
+          "initials": [
+            "MR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1858-8485",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Microscopy, Characterisation and Analysis, The University of Western Australia, 35 Stirling Highway, Perth, Western Australia, 6009, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Guagliardo P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Guagliardo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centre for Microscopy, Characterisation and Analysis, The University of Western Australia, 35 Stirling Highway, Perth, Western Australia, 6009, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Roberts MP"
+          ],
+          "firstName": [
+            "Malcolm P"
+          ],
+          "lastName": [
+            "Roberts"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Centre for Microscopy, Characterisation and Analysis, The University of Western Australia, 35 Stirling Highway, Perth, Western Australia, 6009, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7269-7586",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1858-8485",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7836-562X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2613327"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "16054"
+  ],
+  "abstractText": [
+    "Rhenium and osmium isotopes have been used for decades to date the formation of molybdenite (MoS2), a common mineral in ore deposits and the world's main source of molybdenum and rhenium. Understanding the distribution of parent 187Re and radiogenic daughter 187Os isotopes in molybdenite is critical in interpreting isotopic measurements because it can compromise the accurate determination and interpretation of mineralization ages. In order to resolve the controls on the distribution of these elements, chemical and isotope mapping of MoS2 grains from representative porphyry copper-molybdenum deposits were performed using electron microprobe and nano-scale secondary ion mass spectrometry. Our results show a heterogeneous distribution of 185,187Re and 192Os isotopes in MoS2, and that both 187Re and 187Os isotopes are not decoupled as previously thought. We conclude that Re and Os are structurally bound or present as nanoparticles in or next to molybdenite grains, recording a complex formation history and hindering the use of microbeam techniques for Re-Os molybdenite dating. Our study opens new avenues to explore the effects of isotope nuggeting in geochronometers."
+  ],
+  "affiliation": [
+    "Department of Geology and Andean Geothermal Center of Excellence (CEGA), FCFM, Universidad de Chile, Plaza Ercilla 803, Santiago, Chile. fbarrapantoja@ing.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5700062?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5700062"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-16380-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-24"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-22"
+  ],
+  "firstPublicationDate": [
+    "2017-11-22"
+  ]
+}

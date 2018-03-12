@@ -1,0 +1,426 @@
+{
+  "id": [
+    "28608845"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28608845"
+  ],
+  "pmcid": [
+    "PMC5486316"
+  ],
+  "doi": [
+    "10.3390/ijerph14060630"
+  ],
+  "title": [
+    "The Effects of the Refugee Crisis on Age Estimation Analysis over the Past 10 Years: A 16-Country Survey."
+  ],
+  "authorString": [
+    "Sykes L, Bhayat A, Bernitz H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sykes L"
+          ],
+          "firstName": [
+            "Leanne"
+          ],
+          "lastName": [
+            "Sykes"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departments of Prosthodontics, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa. leanne.sykes@up.ac.za."
+          ]
+        },
+        {
+          "fullName": [
+            "Bhayat A"
+          ],
+          "firstName": [
+            "Ahmed"
+          ],
+          "lastName": [
+            "Bhayat"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8103-1233",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Community Dentistry, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0002, South Africa. ahmed.bhayat@up.ac.za."
+          ]
+        },
+        {
+          "fullName": [
+            "Bernitz H"
+          ],
+          "firstName": [
+            "Herman"
+          ],
+          "lastName": [
+            "Bernitz"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Department of Oral Pathology and Oral Biology, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0002, South Africa. bernitz@iafrica.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8103-1233",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2563152"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of environmental research and public health"
+          ],
+          "ISOAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "medlineAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "NLMid": [
+            "101238455"
+          ],
+          "ISSN": [
+            "1661-7827"
+          ],
+          "ESSN": [
+            "1660-4601"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Dental age estimation (AE) tests are routinely done on living and deceased persons. There is anecdotal evidence suggesting an increase in age estimations due to the refugee crisis. Our aim is to determine the reasons and methods for performing dental AE tests in both living and deceased individuals. Global trends in AE over the past 10 years were also investigated. A database of all forensic laboratories was obtained and an electronic questionnaire was sent to all of them. The questionnaire was self-developed and included questions on the reasons for performing AE tests, the preferred methods used in living and deceased individuals, and the people/organizations who requested these AE tests. The number of tests performed annually varied between 0 and 500 and the majority were on asylum seekers, refugees, and for adoption cases. Most units used multiple techniques to determine the age among the living, but seldom used more than three techniques for the deceased. The majority of tests were requested by coroners and the legal fraternity. There has been an increase in the number of dental AEs carried out and this has been mostly due to asylum seekers and refugees. The most common techniques for the living were variations of Demirjian's technique while country specific techniques were used for the deceased."
+  ],
+  "affiliation": [
+    "Departments of Prosthodontics, School of Dentistry, Faculty of Health Sciences, University of Pretoria, Pretoria 0001, South Africa. leanne.sykes@up.ac.za."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Age Determination by Teeth"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Refugees"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Global Health"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Age estimation",
+        "Refugees",
+        "Asylum Seekers"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5486316?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5486316"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijerph14060630"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-17"
+  ],
+  "dateOfCreation": [
+    "2017-06-14"
+  ],
+  "dateOfRevision": [
+    "2018-02-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-13"
+  ],
+  "firstPublicationDate": [
+    "2017-06-13"
+  ]
+}

@@ -1,0 +1,971 @@
+{
+  "id": [
+    "28898261"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28898261"
+  ],
+  "pmcid": [
+    "PMC5595322"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0184189"
+  ],
+  "title": [
+    "Aged blood factors decrease cellular responses associated with delayed gingival wound repair."
+  ],
+  "authorString": [
+    "Saldías MP, Fernández C, Morgan A, Díaz C, Morales D, Jaña F, Gómez A, Silva A, Briceño F, Oyarzún A, Maldonado F, Cerda O, Smith PC, Cáceres M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Saldías MP"
+          ],
+          "firstName": [
+            "María Paz"
+          ],
+          "lastName": [
+            "Saldías"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Fernández"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morgan A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Morgan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz C"
+          ],
+          "firstName": [
+            "Catalina"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morales D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jaña F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Jaña"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Universidad de Aysén, Coyhaique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gómez A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Gómez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva A"
+          ],
+          "firstName": [
+            "Alonso"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Briceño F"
+          ],
+          "firstName": [
+            "Fernanda"
+          ],
+          "lastName": [
+            "Briceño"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oyarzún A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Oyarzún"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Faculty of Dentistry, Universidad Finis Terrae, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2633-4717",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Anesthesia, Faculty of Medicine, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerda O"
+          ],
+          "firstName": [
+            "Oscar"
+          ],
+          "lastName": [
+            "Cerda"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Smith PC"
+          ],
+          "firstName": [
+            "Patricio C"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "PC"
+          ],
+          "affiliation": [
+            "School of Dentistry, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cáceres M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Cáceres"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0456-0721",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2633-4717",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0456-0721",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2591647"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0184189"
+  ],
+  "abstractText": [
+    "Aging is a gradual biological process characterized by a decrease in cell and organism functions. Gingival wound healing is one of the impaired processes found in old rats. Here, we studied the in vivo wound healing process using a gingival repair rat model and an in vitro model using human gingival fibroblast for cellular responses associated to wound healing. To do that, we evaluated cell proliferation of both epithelial and connective tissue cells in gingival wounds and found decreased of Ki67 nuclear staining in old rats when compared to their young counterparts. We next evaluated cellular responses of primary gingival fibroblast obtained from young subjects in the presence human blood serum of individuals of different ages. Eighteen to sixty five years old masculine donors were classified into 3 groups: \"young\" from 18 to 22 years old, \"middle-aged\" from 30 to 48 years old and \"aged\" over 50 years old. Cell proliferation, measured through immunofluorescence for Ki67 and flow cytometry for DNA content, was decreased when middle-aged and aged serum was added to gingival fibroblast compared to young serum. Myofibroblastic differentiation, measured through alpha-smooth muscle actin (α-SMA), was stimulated with young but not middle-aged or aged serum both the protein levels and incorporation of α-SMA into actin stress fibers. High levels of PDGF, VEGF, IL-6R were detected in blood serum from young subjects when compared to middle-aged and aged donors. In addition, the pro-inflammatory cytokines MCP-1 and TNF were increased in the serum of aged donors. In old rat wound there is an increased of staining for TNF compared to young wound. Moreover, healthy gingiva (non injury) shows less staining compared to a wound site, suggesting a role in wound healing. Moreover, serum from middle-aged and aged donors was able to stimulate cellular senescence in young cells as determined by the expression of senescence associated beta-galactosidase and histone H2A.X phosphorylated at Ser139. Moreover, we detected an increased frequency of γ-H2A.X-positive cells in aged rat gingival tissues. The present study suggests that serum factors present in middle-aged and aged individuals may be responsible, at least in part, for the altered responses observed during wound healing in aging."
+  ],
+  "affiliation": [
+    "Program of Molecular and Cell Biology, Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fibroblasts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Serum"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gingiva"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Rats"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Models, Animal"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "beta-Galactosidase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Inflammation Mediators"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cytokines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Age Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Wound Healing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Cycle"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Differentiation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Proliferation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aging"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Myofibroblasts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "beta-Galactosidase"
+          ],
+          "registryNumber": [
+            "EC 3.2.1.23"
+          ]
+        },
+        {
+          "name": [
+            "Cytokines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Inflammation Mediators"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5595322?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5595322"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0184189"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "29360864"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "PLoS One. 2018 Jan 23;13(1):e0189566"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "34"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-18"
+  ],
+  "dateOfCreation": [
+    "2017-09-13"
+  ],
+  "dateOfRevision": [
+    "2018-01-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-12"
+  ],
+  "firstPublicationDate": [
+    "2017-09-12"
+  ]
+}

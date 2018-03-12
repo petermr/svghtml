@@ -1,0 +1,329 @@
+{
+  "id": [
+    "29399018"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29399018"
+  ],
+  "pmcid": [
+    "PMC5784402"
+  ],
+  "doi": [
+    "10.1111/ggr.12176"
+  ],
+  "title": [
+    "Separation of Platinum from Palladium and Iridium in Iron Meteorites and Accurate High-Precision Determination of Platinum Isotopes by Multi-Collector ICP-MS."
+  ],
+  "authorString": [
+    "Hunt AC, Ek M, Schönbächler M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hunt AC"
+          ],
+          "firstName": [
+            "Alison C"
+          ],
+          "lastName": [
+            "Hunt"
+          ],
+          "initials": [
+            "AC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9713-2004",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Geochemistry and PetrologyETH ZürichClausiusstrasse 25Zürich8092Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Ek M"
+          ],
+          "firstName": [
+            "Mattias"
+          ],
+          "lastName": [
+            "Ek"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Institute of Geochemistry and PetrologyETH ZürichClausiusstrasse 25Zürich8092Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Schönbächler M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Schönbächler"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4304-214X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Geochemistry and PetrologyETH ZürichClausiusstrasse 25Zürich8092Switzerland."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9713-2004",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4304-214X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "41"
+      ],
+      "journalIssueId": [
+        "2647090"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Geostandards and geoanalytical research"
+          ],
+          "ISOAbbreviation": [
+            "Geostand Geoanal Res"
+          ],
+          "medlineAbbreviation": [
+            "Geostand Geoanal Res"
+          ],
+          "NLMid": [
+            "101684292"
+          ],
+          "ISSN": [
+            "1639-4488"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "633-647"
+  ],
+  "abstractText": [
+    "This study presents a new measurement procedure for the isolation of Pt from iron meteorite samples. The method also allows for the separation of Pd from the same sample aliquot. The separation entails a two-stage anion-exchange procedure. In the first stage, Pt and Pd are separated from each other and from major matrix constituents including Fe and Ni. In the second stage, Ir is reduced with ascorbic acid and eluted from the column before Pt collection. Platinum yields for the total procedure were typically 50-70%. After purification, high-precision Pt isotope determinations were performed by multi-collector ICP-MS. The precision of the new method was assessed using the IIAB iron meteorite North Chile. Replicate analyses of multiple digestions of this material yielded an intermediate precision for the measurement results of 0.73 for ε192Pt, 0.15 for ε194Pt and 0.09 for ε196Pt (2 standard deviations). The NIST SRM 3140 Pt solution reference material was passed through the measurement procedure and yielded an isotopic composition that is identical to the unprocessed Pt reference material. This indicates that the new technique is unbiased within the limit of the estimated uncertainties. Data for three iron meteorites support that Pt isotope variations in these samples are due to exposure to galactic cosmic rays in space."
+  ],
+  "affiliation": [
+    "Institute of Geochemistry and PetrologyETH ZürichClausiusstrasse 25Zürich8092Switzerland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "279779"
+          ],
+          "agency": [
+            "European Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Iron Meteorites",
+        "Pd Isotopes",
+        "Pt Isotopes",
+        "Ion‐exchange Chemistry",
+        "Multi‐collector Icp‐ms"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784402?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784402"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1111/ggr.12176"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-06"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-29"
+  ],
+  "firstPublicationDate": [
+    "2017-07-29"
+  ]
+}

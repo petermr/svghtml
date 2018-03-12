@@ -1,0 +1,718 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5343974</article-id><article-id pub-id-type="doi">10.3390/ijms18020440</article-id><article-id pub-id-type="publisher-id">ijms-18-00440</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Matrix Metalloproteinases as Regulators of Periodontal Inflammation</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Franco</surname><given-names>Cavalla</given-names></name><xref ref-type="aff" rid="af1-ijms-18-00440">1</xref><xref ref-type="aff" rid="af2-ijms-18-00440">2</xref><xref ref-type="aff" rid="af3-ijms-18-00440">3</xref></contrib><contrib contrib-type="author"><name><surname>Patricia</surname><given-names>Hern&#x000e1;ndez-R&#x000ed;os</given-names></name><xref ref-type="aff" rid="af1-ijms-18-00440">1</xref></contrib><contrib contrib-type="author"><name><surname>Timo</surname><given-names>Sorsa</given-names></name><xref ref-type="aff" rid="af4-ijms-18-00440">4</xref><xref ref-type="aff" rid="af5-ijms-18-00440">5</xref></contrib><contrib contrib-type="author"><name><surname>Claudia</surname><given-names>Biguetti</given-names></name><xref ref-type="aff" rid="af2-ijms-18-00440">2</xref><xref ref-type="aff" rid="af3-ijms-18-00440">3</xref></contrib><contrib contrib-type="author"><name><surname>Marcela</surname><given-names>Hern&#x000e1;ndez</given-names></name><xref ref-type="aff" rid="af6-ijms-18-00440">6</xref><xref ref-type="aff" rid="af7-ijms-18-00440">7</xref><xref rid="c1-ijms-18-00440" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Maki</surname><given-names>Masatoshi</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijms-18-00440"><label>1</label>Department of Conservative Dentistry, School of Dentistry, Universidad de Chile, Santiago 8380492, Chile; <email>francocavalla@gmail.com</email> (C.F.); <email>phernandezrios@gmail.com</email> (H.-R.P.)</aff><aff id="af2-ijms-18-00440"><label>2</label>Department of Biological Sciences, School of Dentistry of Bauru, University of S&#x000e3;o Paulo (FOB/USP), Bauru, S&#x000e3;o Paulo 17012-901, Brazil; <email>biguetti@usp.br</email></aff><aff id="af3-ijms-18-00440"><label>3</label>Center for Craniofacial Research, University of Texas School of Dentistry at Houston, Houston, TX 77054, USA</aff><aff id="af4-ijms-18-00440"><label>4</label>Department of Oral and Maxillofacial Diseases, Helsinki University and Helsinki University Central Hospital, Helsinki 00290, Finland; <email>timo.sorsa@helsinki.fi</email></aff><aff id="af5-ijms-18-00440"><label>5</label>Division of Periodontology, Department of Dental Medicine, Karolinska Institutet, Huddinge 14183, Sweden</aff><aff id="af6-ijms-18-00440"><label>6</label>Laboratory of Periodontal Biology, Faculty of Dentistry, Universidad de Chile, Santiago 8380492, Chile</aff><aff id="af7-ijms-18-00440"><label>7</label>Dentistry Unit, Faculty of Health Sciences, Universidad Aut&#x000f3;noma de Chile, Santiago 8910060, Chile</aff><author-notes><corresp id="c1-ijms-18-00440"><label>*</label>Correspondence: <email>mhernandezrios@gmail.com</email>; Tel.: +56-22-978-1833</corresp></author-notes><pub-date pub-type="epub"><day>17</day><month>2</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2017</year></pub-date><volume>18</volume><issue>2</issue><elocation-id>440</elocation-id><history><date date-type="received"><day>12</day><month>1</month><year>2017</year></date><date date-type="accepted"><day>08</day><month>2</month><year>2017</year></date></history><permissions><copyright-statement>&#x000a9; 2017 by the authors.</copyright-statement><copyright-year>2017</copyright-year><license license-type="open-access"><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Periodontitis are infectious diseases characterized by immune-mediated destruction of periodontal supporting tissues and tooth loss. Matrix metalloproteinases (MMPs) are key proteases involved in destructive periodontal diseases. The study and interest in MMP has been fuelled by emerging evidence demonstrating the broad spectrum of molecules that can be cleaved by them and the myriad of biological processes that they can potentially regulate. The huge complexity of MMP functions within the &#x02018;protease web&#x02019; is crucial for many physiologic and pathologic processes, including immunity, inflammation, bone resorption, and wound healing. Evidence points out that MMPs assemble in activation cascades and besides their classical extracellular matrix substrates, they cleave several signalling molecules&#x02014;such as cytokines, chemokines, and growth factors, among others&#x02014;regulating their biological functions and/or bioavailability during periodontal diseases. In this review, we provide an overview of emerging evidence of MMPs as regulators of periodontal inflammation.</p></abstract><kwd-group><kwd>MMPs</kwd><kwd>chronic periodontitis</kwd><kwd>periodontal inflammation regulation</kwd><kwd>modulation</kwd></kwd-group></article-meta></front><body><sec id="sec1-ijms-18-00440"><title>1. Introduction</title><p>Periodontal diseases are common chronic pathologies worldwide that affect periodontal tissues, which include the gingiva, periodontal ligament, radicular cementum, and alveolar bone. Bacterial&#x02013;host interactions at the biofilm&#x02013;periodontium interface will initially trigger gingival inflammation, resulting in gingivitis. Over time, it can progress to the immune-mediated loss of the periodontal supporting tissues, including alveolar bone, determining the destructive character of the disease [<xref rid="B1-ijms-18-00440" ref-type="bibr">1</xref>,<xref rid="B2-ijms-18-00440" ref-type="bibr">2</xref>,<xref rid="B3-ijms-18-00440" ref-type="bibr">3</xref>]. Besides representing the first cause of tooth loss in adults, periodontitis contributes to enhanced susceptibility to other systemic diseases, including cardiovascular diseases, diabetes [<xref rid="B4-ijms-18-00440" ref-type="bibr">4</xref>], and lung inflammation, among others [<xref rid="B5-ijms-18-00440" ref-type="bibr">5</xref>,<xref rid="B6-ijms-18-00440" ref-type="bibr">6</xref>]. </p><p>Matrix metalloproteinases (MMPs) are key proteases involved in destructive periodontal diseases [<xref rid="B7-ijms-18-00440" ref-type="bibr">7</xref>,<xref rid="B8-ijms-18-00440" ref-type="bibr">8</xref>]. The 23 existing MMPs are zinc-dependent endopeptidases that belong to the metalloproteinase superfamily [<xref rid="B9-ijms-18-00440" ref-type="bibr">9</xref>]. The basic structure of MMPs is composed of an auto-inhibitory prodomain for enzymatic latency, the catalytic domain, and the C-terminal hemopexin-like domain, often involved in the recognition and positioning of MMP substrates. MMP activity is tightly regulated through gene expression, proenzyme activation, and enzyme inhibition by endogenous inhibitors, such as tissue inhibitors of MMPs (TIMPs). The four human TIMPs [<xref rid="B1-ijms-18-00440" ref-type="bibr">1</xref>,<xref rid="B2-ijms-18-00440" ref-type="bibr">2</xref>,<xref rid="B3-ijms-18-00440" ref-type="bibr">3</xref>,<xref rid="B4-ijms-18-00440" ref-type="bibr">4</xref>] are broad-spectrum MMP inhibitors, but differ among their specificity for MMPs. Consequently, MMPs can be found in periodontal tissues as pro-forms, active forms, complexed species, fragmented species, and cell-bound MMPs [<xref rid="B10-ijms-18-00440" ref-type="bibr">10</xref>,<xref rid="B11-ijms-18-00440" ref-type="bibr">11</xref>].</p><p>MMPs were traditionally regarded to degrade extracellular matrix components and grouped according to their substrate specificity in collagenases, gelatinases, stromelysins, matrilysins, and membrane type (MT) MMPs [<xref rid="B12-ijms-18-00440" ref-type="bibr">12</xref>]. Because type I collagen represents the bulk component of periodontal extracellular matrix, special attention has been paid to collagenases&#x02014;particularly MMP-8 and MMP-13- and gelatinases&#x02014;MMP-2, and MMP-9- in periodontitis. In fact, MMP-8 (or collagenase 2) currently represents one of the most promising biomarkers for periodontitis in oral fluids [<xref rid="B6-ijms-18-00440" ref-type="bibr">6</xref>,<xref rid="B11-ijms-18-00440" ref-type="bibr">11</xref>]. Nevertheless, the concept of extracellular matrix-degrading enzymes represents an incomplete vision of MMP biology; on the one hand, limited proteolysis does not necessarily mean substrate degradation, but transformation with either gaining or loss of function; on the other hand, MMP substrates are not limited to the extracellular matrix components. In fact, a more updated concept of MMPs releasing cryptic functions of matrix proteins and processing of bioactive non-matrix substrates has emerged [<xref rid="B13-ijms-18-00440" ref-type="bibr">13</xref>,<xref rid="B14-ijms-18-00440" ref-type="bibr">14</xref>]. </p><p>Overall, the huge complexity of MMP functions positions them into the current concept of the &#x0201c;protease web&#x0201d;. This implies that far from acting alone, these proteases assemble in cascades of zymogens, activators, inhibitors, and other bioactive substrates; in which proteolytic cleavage modulates the potential of the entire system with far-reaching effects, affecting other MMPs, as well as their substrates and functions. Given their multifaceted properties, MMPs regulate cell proliferation, adhesion, migration [<xref rid="B15-ijms-18-00440" ref-type="bibr">15</xref>], growth factor bioavailability, chemotaxis, and signaling; and they are crucial for angiogenesis, vasodilation, tumorigenesis [<xref rid="B16-ijms-18-00440" ref-type="bibr">16</xref>], metastasis [<xref rid="B17-ijms-18-00440" ref-type="bibr">17</xref>], immunity, inflammation, and wound healing [<xref rid="B13-ijms-18-00440" ref-type="bibr">13</xref>].</p><p>Despite its infectious etiology, the loss of periodontal supporting tissues during periodontitis is considered as an ultimate consequence of the host&#x02019;s immune response. MMPs have been proposed as master regulators of inflammation, through proteolysis of chemokines, growth factors, receptors and their binding proteins, proteases, protease inhibitors, as well as intracellular multifunctional proteins, resulting in pro- or anti-inflammatory functions leading to either tissue homeostasis or pathology. In fact, MMPs have been associated with a wide range of inflammatory disorders [<xref rid="B18-ijms-18-00440" ref-type="bibr">18</xref>]. MMP upregulation and downregulation in response to inflammatory mediators, such as cytokines and chemokines has been long demonstrated [<xref rid="B19-ijms-18-00440" ref-type="bibr">19</xref>,<xref rid="B20-ijms-18-00440" ref-type="bibr">20</xref>], but the existence of feedback mechanisms has been highlighted in recent years [<xref rid="B9-ijms-18-00440" ref-type="bibr">9</xref>]. Migration of immune cells by processing extracellular matrix; stimulation and cessation of immune-cell recruitment by processing chemokines and other chemotactic molecules; exacerbation and resolution of inflammatory responses by processing complement, cytokines, and other non-matrix bioactive molecules have been reported [<xref rid="B9-ijms-18-00440" ref-type="bibr">9</xref>,<xref rid="B12-ijms-18-00440" ref-type="bibr">12</xref>,<xref rid="B21-ijms-18-00440" ref-type="bibr">21</xref>,<xref rid="B22-ijms-18-00440" ref-type="bibr">22</xref>,<xref rid="B23-ijms-18-00440" ref-type="bibr">23</xref>,<xref rid="B24-ijms-18-00440" ref-type="bibr">24</xref>,<xref rid="B25-ijms-18-00440" ref-type="bibr">25</xref>]. In contrast to the vast array of literature assessing the potential of collagenolytic MMPs as periodontal disease biomarkers and effectors of collagen matrix degradation, few investigations have targeted their regulatory roles within the frame of the protease web of periodontitis. In this review, we provide an overview of MMP roles as regulators of periodontal inflammation.</p></sec><sec id="sec2-ijms-18-00440"><title>2. Matrix Metalloproteinase Activation Cascades</title><p>Matrix metalloproteinases are synthesized as pro-enzymes, inactive forms resulting from the interaction between the cysteine residue of the prodomain and the zinc ion of the catalytic site. The disruption of this interaction by chemical modification or proteolytic removal of the enzyme&#x02019;s prodomain results in enzyme activation, a mechanism known as the &#x02018;cysteine switch&#x02019; [<xref rid="B26-ijms-18-00440" ref-type="bibr">26</xref>]. Several MMPs have been detected in their different enzymatic forms in gingival tissue, gingival crevicular fluid (GFC), saliva, and mouth rinse, with MMP-8, MMP-13, and MMP-9 as the main proteases involved periodontal disease destruction [<xref rid="B6-ijms-18-00440" ref-type="bibr">6</xref>,<xref rid="B11-ijms-18-00440" ref-type="bibr">11</xref>,<xref rid="B25-ijms-18-00440" ref-type="bibr">25</xref>,<xref rid="B27-ijms-18-00440" ref-type="bibr">27</xref>].</p><p>MMP-8 and MMP-9 are the most abundant MMPs in periodontal tissues reflecting periodontal disease severity, progression, and treatment response [<xref rid="B28-ijms-18-00440" ref-type="bibr">28</xref>]. They are secreted by infiltrating polymorphonuclear leukocytes, but also macrophages, plasma cells, and resident cells&#x02014;such as fibroblasts, endothelial cells, keratinocytes and bone cells [<xref rid="B29-ijms-18-00440" ref-type="bibr">29</xref>]. MMP-13 is a collagenase that has been detected in fibroblasts, macrophages, osteoblasts, plasma cells, and gingival epithelial cells. Though less abundant, MMP-13 has been implicated in periodontal soft tissue destruction and, along with MMP-9, it has been involved in alveolar bone resorption and periodontal tissue breakdown [<xref rid="B25-ijms-18-00440" ref-type="bibr">25</xref>,<xref rid="B30-ijms-18-00440" ref-type="bibr">30</xref>]. The mechanisms regulating MMP activation may vary depending on the specific tissue and disease microenvironment. During periodontitis progression, these MMPs can be activated by independent or co-operative cascades involving pathogen and host proteases [<xref rid="B7-ijms-18-00440" ref-type="bibr">7</xref>,<xref rid="B31-ijms-18-00440" ref-type="bibr">31</xref>,<xref rid="B32-ijms-18-00440" ref-type="bibr">32</xref>,<xref rid="B33-ijms-18-00440" ref-type="bibr">33</xref>].</p><p>MMP proteolytic cascades can lead to widespread periodontal tissue destruction due to cooperative MMP activation and might represent an interesting target for diagnostics and therapy [<xref rid="B32-ijms-18-00440" ref-type="bibr">32</xref>] (<xref ref-type="fig" rid="ijms-18-00440-f001">Figure 1</xref>). MMP-13 is able to induce proMMP-9 activation and MMP-13 auto-activation by self-proteolysis in vitro [<xref rid="B12-ijms-18-00440" ref-type="bibr">12</xref>]. A previous study from our group reported that MMP-13 induces proMMP-9 activation in gingival tissues from periodontitis patients [<xref rid="B32-ijms-18-00440" ref-type="bibr">32</xref>]. MMP-9, in turn, can activate proMMP-2 and proMMP-13 in vitro [<xref rid="B12-ijms-18-00440" ref-type="bibr">12</xref>,<xref rid="B34-ijms-18-00440" ref-type="bibr">34</xref>]. Collagenase levels of MMP-14, MMP-8, and MMP-13, have been correlated in chronic periodontitis patients, which suggests either a co-operative role and/or the potential settlement of collagenase activation cascades [<xref rid="B35-ijms-18-00440" ref-type="bibr">35</xref>]. MMP-14 can activate MMP-8 and -13 in vitro, as well as MMP-2, and has been correlated in vivo with active MMP-13 in periodontitis sites [<xref rid="B21-ijms-18-00440" ref-type="bibr">21</xref>,<xref rid="B31-ijms-18-00440" ref-type="bibr">31</xref>,<xref rid="B36-ijms-18-00440" ref-type="bibr">36</xref>]. Altogether, these mechanisms could enhance periodontal tissue breakdown and consequent chronic periodontitis progression [<xref rid="B32-ijms-18-00440" ref-type="bibr">32</xref>].</p><p>Additionally, oxidative non-proteolytic MMP activation seems to be pivotal in periodontal inflammation. Reactive oxygen species (ROS) are able to induce the activation of the key MMPs in periodontal tissues, through direct enzyme oxidation [<xref rid="B37-ijms-18-00440" ref-type="bibr">37</xref>], although indirect mechanisms cannot be precluded. Neutrophil degranulation is stimulated by periodontopathogenic bacteria, their virulence factors, cytokines, and prostaglandins and results in the release of myeloperoxidase (MPO) from their primary granules [<xref rid="B35-ijms-18-00440" ref-type="bibr">35</xref>,<xref rid="B38-ijms-18-00440" ref-type="bibr">38</xref>,<xref rid="B39-ijms-18-00440" ref-type="bibr">39</xref>,<xref rid="B40-ijms-18-00440" ref-type="bibr">40</xref>]. MPO catalyzes the conversion of the potent oxidant hypochlorous acid (HOCl), and besides its antimicrobial activity, it plays an important role in the regulation of connective tissue catabolism and degradation, through modifying the proteases/anti-proteases balance [<xref rid="B40-ijms-18-00440" ref-type="bibr">40</xref>]. In fact, HOCl can rapidly activate proMMP-8 and proMMP-9 depending on the oxidant/enzyme molar ratio [<xref rid="B37-ijms-18-00440" ref-type="bibr">37</xref>,<xref rid="B41-ijms-18-00440" ref-type="bibr">41</xref>,<xref rid="B42-ijms-18-00440" ref-type="bibr">42</xref>]. Ex vivo evidence from progressive chronic periodontitis in humans supports a role for MPO in direct activation of latent MMP-8 and MMP-9, and the inactivation of TIMP-1 [<xref rid="B31-ijms-18-00440" ref-type="bibr">31</xref>,<xref rid="B43-ijms-18-00440" ref-type="bibr">43</xref>,<xref rid="B44-ijms-18-00440" ref-type="bibr">44</xref>]. MPO levels repeatedly correlate not only with total MMP-8 levels, but also with its active isoenzyme forms [<xref rid="B31-ijms-18-00440" ref-type="bibr">31</xref>,<xref rid="B45-ijms-18-00440" ref-type="bibr">45</xref>]; and both MPO and MMP-8 show high accuracy for specific site-diagnosis of chronic periodontitis versus gingivitis and healthy sites [<xref rid="B35-ijms-18-00440" ref-type="bibr">35</xref>]. These findings suggest that MPO might play a critical role enhancing MMP-8 activation during periodontal disease progression. </p><p>ROS-mediated MMP activation is also supported in different cell culture systems. Oxidative stress increases extracellular matrix turnover mediated by MMP-2, -9, and -13 in fibroblastic and tumor cells [<xref rid="B46-ijms-18-00440" ref-type="bibr">46</xref>,<xref rid="B47-ijms-18-00440" ref-type="bibr">47</xref>,<xref rid="B48-ijms-18-00440" ref-type="bibr">48</xref>]. Low concentrations of ROS also play a role in cell signal transduction through the presence of redox-sensitive cysteines activating transcription factors, such as nuclear factor kappa B (NF&#x003ba;B), and Ca<sup>2+</sup> membrane channels [<xref rid="B47-ijms-18-00440" ref-type="bibr">47</xref>,<xref rid="B49-ijms-18-00440" ref-type="bibr">49</xref>]. Peroxide stimulus can increase the activity of MMP-2 and -9 in fibroblastic cell lines (TIG-7), whereas bacterial-induced activation of MMP-2 can be blocked by an NF&#x00138;B inhibitor, supporting the involvement of NF&#x00138;B signaling pathway [<xref rid="B50-ijms-18-00440" ref-type="bibr">50</xref>]. Recently, our group reported that non-toxic low doses of H<sub>2</sub>O<sub>2</sub> induce MMP-2 and MMP-9 activation involving a cross talk between NF&#x003ba;B and intracellular calcium signals in periodontal fibroblast primary cultures [<xref rid="B51-ijms-18-00440" ref-type="bibr">51</xref>], evidencing intracellular oxidative-induced signaling for MMP activation.</p></sec><sec id="sec3-ijms-18-00440"><title>3. MMP-Mediated Regulation of Inflammatory Response</title><p>Several signaling molecules such as cytokines, chemokines, and growth factors can be processed by active MMPs, thus regulating their biological functions and/or bio availability [<xref rid="B18-ijms-18-00440" ref-type="bibr">18</xref>,<xref rid="B36-ijms-18-00440" ref-type="bibr">36</xref>,<xref rid="B52-ijms-18-00440" ref-type="bibr">52</xref>,<xref rid="B53-ijms-18-00440" ref-type="bibr">53</xref>,<xref rid="B54-ijms-18-00440" ref-type="bibr">54</xref>,<xref rid="B55-ijms-18-00440" ref-type="bibr">55</xref>,<xref rid="B56-ijms-18-00440" ref-type="bibr">56</xref>]. Cytokines are key modulators of cellular responses during periodontal inflammation and, upon coupling with their cognate receptors in their cellular targets, they induce intracellular signaling and modify gene expression. Likewise, chemokines are small signaling molecules responsible for the regulated trafficking of specific cell types into the inflamed tissues [<xref rid="B57-ijms-18-00440" ref-type="bibr">57</xref>]. The balance and relative abundance of chemokines and cytokines is the ultimate responsible for the tissue changes during the progression of periodontitis and the tilting of their balance could determine the duration, intensity, and character of the response [<xref rid="B58-ijms-18-00440" ref-type="bibr">58</xref>,<xref rid="B59-ijms-18-00440" ref-type="bibr">59</xref>]. Depending on the relative abundance and kinetics of the expression of these molecular signals the response to periodontal infection can range from subclinical inflammation to destructive periodontitis [<xref rid="B60-ijms-18-00440" ref-type="bibr">60</xref>]. The MMP regulatory mechanisms in periodontal inflammation are represented in <xref ref-type="fig" rid="ijms-18-00440-f002">Figure 2</xref>.</p><p>The persistent secretion of pro inflammatory Th1 cytokines in the periodontal tissues, such as tumor necrosis factor alpha (TNF&#x003b1;), interleukin (IL)-1&#x003b2;, IL-6, IL-12, and interferon gamma (IFN-&#x003b3;); Th17 cytokines, such as interleukin IL-17, together with low levels of regulatory cytokines (Treg), such as IL-10, and transforming growth factor beta 1 (TGF-&#x003b2;1), has been associated with continued inflammation and the destruction of the supporting structures of teeth [<xref rid="B61-ijms-18-00440" ref-type="bibr">61</xref>]. Similarly, the relative abundance of chemokines favoring the infiltration of neutrophils (e.g., CXC motif chemokine ligand 8, a.k.a. CXCL8), macrophages (e.g., CC motif chemokine ligand 2, a.k.a. CCL2), and Th1/Th17 lymphocytes (e.g., CC motif chemokine ligand 20, a.k.a. CCL20) has been associated with the inflammatory destruction of periodontal tissues. Notably, most of the former signaling molecules are targets for MMP cleavage and hence their biological activity could be regulated by MMPs [<xref rid="B62-ijms-18-00440" ref-type="bibr">62</xref>].</p><p>In a recent article, we demonstrated that MMP activity decreased the secreted levels of IL-6, while at the same time it was responsible for increasing the secreted levels of CXC motif chemokine ligand 12 (CXCL12) and vascular endothelial growth factor A (VEGF A), and reduced cell migration in an in vitro system of human periodontal ligament fibroblasts [<xref rid="B63-ijms-18-00440" ref-type="bibr">63</xref>]. The target-specific effect of MMP activity highlights the complexity of the networks that are at play during the inflammatory process. Arguably, the increased levels of CXCL12 and VEGF could be the result of the proteolytic modification either of the matrix or the cell surface and the liberation of trapped molecules to the culture media.</p><p>Even though CXCL12 has been described as a substrate for MMP-2 and MMP-9 [<xref rid="B55-ijms-18-00440" ref-type="bibr">55</xref>,<xref rid="B64-ijms-18-00440" ref-type="bibr">64</xref>], the activity of these MMPs increased its soluble levels in our model. Nevertheless, it is worth noting that the difference between the MMP-cleaved and native forms of CXCL12 could be indiscernible depending on the coupling site of the antibody used for the quantification. In this later case, it is possible that the increased levels do not necessarily mean increased biological activity, since the MMP-cleaved form of CXCL12 is significantly less active than the native form [<xref rid="B64-ijms-18-00440" ref-type="bibr">64</xref>]. Remarkably, the gelatinases MMP-2 and MMP-9 appear to be particularly prone to cleave CXC motif chemokines, conferring them a formerly unrecognized key role in the regulation of cell trafficking in various pathologies characterized by uncontrolled inflammatory response, such as periodontitis, rheumatoid arthritis, and cancer [<xref rid="B65-ijms-18-00440" ref-type="bibr">65</xref>].</p><p>Evidence from experimental periodontitis models shows a more severe disease phenotype in MMP-8 null mice infected with <italic>Porphyromonas gingivalis</italic> than their wild type counterparts, along with significantly lower levels of lipopolysaccharide (LPS)-induced CXC chemokine (LIX/CXCL5) and reduced neutrophil infiltration. These features suggest an impaired LIX/CXCL5-mediated neutrophil chemotaxis to the periodontal-biofilm interface, where neutrophils represent the first line of defense against periodontal pathogens [<xref rid="B36-ijms-18-00440" ref-type="bibr">36</xref>,<xref rid="B66-ijms-18-00440" ref-type="bibr">66</xref>]. In line with this, several studies support a role for MMP-8 in neutrophil trafficking and apoptosis in different inflammation models, such as wound healing and TNF&#x003b1;-induced lethal hepatitis [<xref rid="B18-ijms-18-00440" ref-type="bibr">18</xref>,<xref rid="B56-ijms-18-00440" ref-type="bibr">56</xref>].</p><p>Additionally, several MMPs can cleave CC motif chemokines, producing truncated products that act as potent antagonist of their cognate CC chemokine receptors. For example, CC chemokine ligand 7 (a.k.a. MCP-3) can be cleaved by MMP-2, MT1-MMP, MMP-1, MMP-13, and MMP-3 [<xref rid="B67-ijms-18-00440" ref-type="bibr">67</xref>]. Interestingly, CC motif chemokines have a fundamental role in the recruitment of monocytes from the circulation to the periodontal tissues during the progression of periodontitis, and CCL7/MCP-3 has particularly been shown to be selectively upregulated in progressive sites from chronic periodontitis patients [<xref rid="B68-ijms-18-00440" ref-type="bibr">68</xref>]. Since MMPs are upregulated during periodontal inflammation, the proteolytic inactivation of CC motif chemokines could represent a regulatory feedback mechanism to prevent uncontrolled monocyte infiltration, contributing to the resolution of inflammation [<xref rid="B67-ijms-18-00440" ref-type="bibr">67</xref>].</p><p>New in vivo experimental evidence also demonstrates that even during the normal immune response to infection, MMPs can exert regulatory roles modulating the levels and bio-availability of cytokines. In a murine model of <italic>Staphylococcus aureus</italic>-induced septic arthritis it was demonstrated that the inhibition of MMP-2 activity resulted in significantly decreased serum levels of the pro inflammatory cytokines TNF&#x003b1;, IL-1&#x003b2;, IL-6, IL-12, IFN-&#x003b3; and increased levels of the anti-inflammatory cytokine IL-10 [<xref rid="B69-ijms-18-00440" ref-type="bibr">69</xref>]. This evidence emphasizes that the regulatory roles of MMPs can lead to profound effects that tilt the balance towards resolution or perpetuation of the inflammatory response, and that these changes are strong enough to be reflected in serum levels of inflammatory biomarkers. </p><p>MMPs are also involved in wound healing. Recently, our group reported faster wound closure in lingual mucosa along with higher TGF-&#x003b2;1 levels in MMP-8 null mice compared to their wild type controls. MMP-8 showed to degrade TGF-&#x003b2;1 and alter its signaling in vitro, explaining its lower levels in wild-type animals [<xref rid="B70-ijms-18-00440" ref-type="bibr">70</xref>]. Similarly, MMP-9 activity was shown to downregulate TGF-&#x003b2;1 protein levels in breast cancer cells exposed to tamoxifen [<xref rid="B71-ijms-18-00440" ref-type="bibr">71</xref>,<xref rid="B72-ijms-18-00440" ref-type="bibr">72</xref>]. Conversely, dermal wound closure was slower in MMP-8 null mouse model and inflammatory response was altered with a delay in neutrophil infiltration and persistent inflammation at a later phase. Reduced levels of active TGF-&#x003b2;1 and increased Smad-2 and Smad-3 signaling were demonstrated in MMP-8<sup>&#x02212;/&#x02212;</sup> when compared to wild type animals, whereas expression of the CXC motif chemokine ligand 1 (CXCL1) and CXC motif chemokine ligand 2 (CXCL2) was delayed, which might account for the persistent inflammation observed in the model [<xref rid="B56-ijms-18-00440" ref-type="bibr">56</xref>]. These results highlight the complexity of the regulatory roles of MMPs, which might also depend on the tissue specific microenvironment.</p><p>MMPs can modulate bone resorption through osteoclast activation and differentiation, besides direct bone collagen matrix degradation. In vivo and in vitro studies in breast cancer bone metastasis support that MMP-13 is required for the differentiation of pre-osteoclasts, osteoclast activation, and osteolysis. Several mechanisms have been reported, which include the activation of osteoclast-secreted proMMP-9, which further digests denatured collagen derived from MMP-13 activity [<xref rid="B73-ijms-18-00440" ref-type="bibr">73</xref>]; cleaving of galectin-3, a known inhibitor of osteoclastogenesis expressed in the osteoclast surface, that results in the abrogation of its inhibitory effect; and by regulating the receptor activator of nuclear factor-&#x003ba;B ligand (RANKL)/osteoprotegerin (OPG) axis, favoring RANKL and TGF-&#x003b2;1 signaling via phospho-Smad-2 [<xref rid="B74-ijms-18-00440" ref-type="bibr">74</xref>,<xref rid="B75-ijms-18-00440" ref-type="bibr">75</xref>].</p><p>MMP activity is also involved in the regulation of cytokine-independent pathways, such as nerve/glial antigen 2 (NG2)-mediated apoptosis. NG2 is a recently characterized receptor that induces apoptosis in cells that have lost their matrix contacts (anoikis) [<xref rid="B76-ijms-18-00440" ref-type="bibr">76</xref>]. In an in vitro model of periodontal ligament fibroblasts, it has been demonstrated that the cleavage of NG2 by MMP-13 is essential to terminate the signaling that leads to apoptosis and its inhibition results in increased apoptosis, coinciding with diminished soluble levels of NG2. This evidence suggests that NG2 needs to be cleaved and released from the cell membrane by MMP-13 in order to terminate the pro apoptotic signaling [<xref rid="B77-ijms-18-00440" ref-type="bibr">77</xref>].</p><p>Interestingly, most of the activating signals for MMPs and pro inflammatory cytokines/chemokines are common, as well as the signaling pathways that lead to increased transcriptional activity of their genes. Still, in some cases, there are regulatory networks in place in which the signaling of a specific cytokine leads to the negative regulation of the transcription of <italic>MMP</italic> genes. One such example is the negative regulation of MMP-3 by IL-4. MMP-3 has also been involved in periodontal matrix degradation and it has been long known that its transcription is controlled by IL-1&#x003b2;-mediated activation of the transcription factor activating protein 1 (AP-1). A recent report demonstrated that IL-4 signaling exerts an inhibitory effect on <italic>MMP3</italic> gene transcription, and that this is at least partially mediated by the induction of an alternative assembly of the component dimers of the multiprotein complex AP-1, decreasing its inherent affinity for the promoter site of the <italic>MMP3</italic> gene [<xref rid="B78-ijms-18-00440" ref-type="bibr">78</xref>]. In yet another example of the interplay of MMPs and cytokines, it has been recently reported that MMP-12 regulates the levels of the antiviral cytokine IFN-&#x003b1; by cleaving off the IFN-&#x003b1; receptor 2 binding site of systemic IFN-&#x003b1;, but also acting as a transcription factor, translocating into the nucleus and directly binding to the NFKBIA promoter, driving transcription and increasing intracellular levels of I&#x003ba;B&#x003b1;, which is the main protein responsible for IFN-&#x003b1; extracellular export [<xref rid="B79-ijms-18-00440" ref-type="bibr">79</xref>].</p><p>This novel role of MMPs as regulators of transcription has also been demonstrated in non-immune pathways, such as of cell growth and cell metabolism. For example, MMP-3 has been localized in the nuclei of chondrocytes and it has been demonstrated that it can interact with the transcription enhancer dominant in chondrocytes (TRENDIC) in the promoter region of the connective tissue growth factor (<italic>CCN2/CTGF</italic>) gene and that the overexpression or addition of recombinant MMP-3 increases the transcriptional activity of <italic>CCN2/CTGF</italic> [<xref rid="B80-ijms-18-00440" ref-type="bibr">80</xref>].</p><p>An extensive body of evidence has been published regarding the putative association of polymorphism affecting the function of diverse MMPs and the risk of periodontitis. Despite some conflicting reports, recently published systematic reviews including meta-analysis seem to establish that an association indeed exists. A meta-analysis involving in excess of 6000 individuals established that <italic>MMP-9</italic>-753 C/T polymorphism reduced the risk of chronic periodontitis, while <italic>MMP-3</italic>-1171 5A/6A and <italic>MMP-8</italic>-799 C/T polymorphisms increased the risk of chronic periodontitis [<xref rid="B81-ijms-18-00440" ref-type="bibr">81</xref>]. Similarly, another meta-analysis including almost 3000 subjects demonstrated that <italic>MMP-1</italic>-1607 1G/2G (rs1799750) polymorphism was associated with chronic periodontitis, especially with the severity of the disease condition [<xref rid="B82-ijms-18-00440" ref-type="bibr">82</xref>]. Even though the specific underling mechanism to the association between <italic>MMP</italic> genepolymorphisms and periodontitis is still unclear, it probably includes all the regulatory features discussed in the previous paragraphs.</p></sec><sec id="sec4-ijms-18-00440"><title>4. Concluding Remarks</title><p>Increasing evidence suggests that MMPs play a much more significant role in inflammation and immune response regulation than previously recognized. In periodontally inflamed sites, they are capable of participating in cross-activation and auto-activation cascades, as well as regulating the availability of many inflammatory signaling molecules. The bidirectional regulation of MMPs and cytokine/chemokine levels appears to be tightly controlled, but our current understanding of the process is far from complete. As previously discussed, there are profound interactions between cytokines and MMP, with mutual regulatory features at all levels, from transcription to proteolytic modulation of biological functions. Depending on the stimulus and the local environment, MMPs could increase or decrease the bioavailability of signaling molecules by several different and often complementary mechanisms that can result in widespread periodontal supporting tissue loss and sustained inflammation.</p></sec></body><back><ack><title>Acknowledgments</title><p>Funding was provided by the Fondo Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico (FONDECYT) 1160741, 1120138 and 1090461.</p></ack><notes><title>Author Contributions</title><p>All authors contributed substantially to writing and editing this review article. Biguetti Claudia and Cavalla Franco, also constructed <xref ref-type="fig" rid="ijms-18-00440-f001">Figure 1</xref> and <xref ref-type="fig" rid="ijms-18-00440-f002">Figure 2</xref>. Hern&#x000e1;ndez Marcela also edited the article and figures.</p></notes><notes notes-type="COI-statement"><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-ijms-18-00440"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhavsar</surname><given-names>A.P.</given-names></name><name><surname>Guttman</surname><given-names>J.A.</given-names></name><name><surname>Finlay</surname><given-names>B.B.</given-names></name></person-group>
+<article-title>Manipulation of host-cell pathways by bacterial pathogens</article-title>
+<source>Nature</source>
+<year>2007</year>
+<volume>449</volume>
+<fpage>827</fpage>
+<lpage>834</lpage>
+<pub-id pub-id-type="doi">10.1038/nature06247</pub-id>
+<?supplied-pmid 17943119?><pub-id pub-id-type="pmid">17943119</pub-id></element-citation></ref><ref id="B2-ijms-18-00440"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graves</surname><given-names>D.</given-names></name></person-group>
+<article-title>Cytokines that promote periodontal tissue destruction</article-title>
+<source>J. Periodontol.</source>
+<year>2008</year>
+<volume>79</volume>
+<fpage>1585</fpage>
+<lpage>1591</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2008.080183</pub-id>
+<?supplied-pmid 18673014?><pub-id pub-id-type="pmid">18673014</pub-id></element-citation></ref><ref id="B3-ijms-18-00440"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Houri-Haddad</surname><given-names>Y.</given-names></name><name><surname>Wilensky</surname><given-names>A.</given-names></name><name><surname>Shapira</surname><given-names>L.</given-names></name></person-group>
+<article-title>T-cell phenotype as a risk factor for periodontal disease</article-title>
+<source>Periodontol. 2000</source>
+<year>2007</year>
+<volume>45</volume>
+<fpage>67</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0757.2007.00227.x</pub-id>
+<?supplied-pmid 17850449?><pub-id pub-id-type="pmid">17850449</pub-id></element-citation></ref><ref id="B4-ijms-18-00440"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nitta</surname><given-names>H.</given-names></name><name><surname>Katagiri</surname><given-names>S.</given-names></name><name><surname>Nagasawa</surname><given-names>T.</given-names></name><name><surname>Izumi</surname><given-names>Y.</given-names></name><name><surname>Ishikawa</surname><given-names>I.</given-names></name><name><surname>Izumiyama</surname><given-names>H.</given-names></name><name><surname>Uchimura</surname><given-names>I.</given-names></name><name><surname>Kanazawa</surname><given-names>M.</given-names></name><name><surname>Chiba</surname><given-names>H.</given-names></name><name><surname>Matsuo</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>The number of microvascular complications is associated with an increased risk for severity of periodontitis in type 2 diabetic patients: Results of a multicenter hospital-based cross-sectional study</article-title>
+<source>J. Diabetes Investig.</source>
+<year>2017</year>
+<pub-id pub-id-type="doi">10.1111/jdi.12633</pub-id>
+<?supplied-pmid 28129466?><pub-id pub-id-type="pmid">28129466</pub-id></element-citation></ref><ref id="B5-ijms-18-00440"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pussinen</surname><given-names>P.J.</given-names></name><name><surname>Paju</surname><given-names>S.</given-names></name><name><surname>Mantyla</surname><given-names>P.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Serum microbial- and host-derived markers of periodontal diseases: A review</article-title>
+<source>Curr. Med. Chem.</source>
+<year>2007</year>
+<volume>14</volume>
+<fpage>2402</fpage>
+<lpage>2412</lpage>
+<pub-id pub-id-type="doi">10.2174/092986707781745604</pub-id>
+<?supplied-pmid 17896988?><pub-id pub-id-type="pmid">17896988</pub-id></element-citation></ref><ref id="B6-ijms-18-00440"><label>6.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hern&#x000e1;ndez</surname><given-names>M.V.R.</given-names></name><name><surname>M&#x000e4;ntyla</surname><given-names>P.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name></person-group>
+<article-title>Chronic Periodontitis: The Role of Immuno-Inflammatory Response in the Pathogenesis of Chronic Periodontitis and Development of Chair-Side Point of Care Diagnostics in Periodontitis and Related Systemic Inflammation</article-title>
+<source>Pathogenesis and Treatment of Periodontitis</source>
+<person-group person-group-type="editor"><name><surname>Buduneli</surname><given-names>N.</given-names></name></person-group>
+<publisher-name>InTech</publisher-name>
+<publisher-loc>Rijeka, Croatia</publisher-loc>
+<year>2012</year>
+<fpage>33</fpage>
+<lpage>54</lpage>
+</element-citation></ref><ref id="B7-ijms-18-00440"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buduneli</surname><given-names>N.</given-names></name><name><surname>Kinane</surname><given-names>D.F.</given-names></name></person-group>
+<article-title>Host-derived diagnostic markers related to soft tissue destruction and bone degradation in periodontitis</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2011</year>
+<volume>38</volume>
+<fpage>85</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-051X.2010.01670.x</pub-id>
+<?supplied-pmid 21323706?><pub-id pub-id-type="pmid">21323706</pub-id></element-citation></ref><ref id="B8-ijms-18-00440"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Mantyla</surname><given-names>P.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Pussinen</surname><given-names>P.J.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name><name><surname>Hernandez</surname><given-names>M.</given-names></name></person-group>
+<article-title>MMP activation in diagnostics of periodontitis and systemic inflammation</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2011</year>
+<volume>38</volume>
+<fpage>817</fpage>
+<lpage>819</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-051X.2011.01753.x</pub-id>
+<?supplied-pmid 21707693?><pub-id pub-id-type="pmid">21707693</pub-id></element-citation></ref><ref id="B9-ijms-18-00440"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Butler</surname><given-names>G.S.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase processing of signaling molecules to regulate inflammation</article-title>
+<source>Periodontol. 2000</source>
+<year>2013</year>
+<volume>63</volume>
+<fpage>123</fpage>
+<lpage>148</lpage>
+<pub-id pub-id-type="doi">10.1111/prd.12035</pub-id>
+<?supplied-pmid 23931058?><pub-id pub-id-type="pmid">23931058</pub-id></element-citation></ref><ref id="B10-ijms-18-00440"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sbardella</surname><given-names>D.</given-names></name><name><surname>Fasciglione</surname><given-names>G.F.</given-names></name><name><surname>Gioia</surname><given-names>M.</given-names></name><name><surname>Ciaccio</surname><given-names>C.</given-names></name><name><surname>Tundo</surname><given-names>G.R.</given-names></name><name><surname>Marini</surname><given-names>S.</given-names></name><name><surname>Coletta</surname><given-names>M.</given-names></name></person-group>
+<article-title>Human matrix metalloproteinases: An ubiquitarian class of enzymes involved in several pathological processes</article-title>
+<source>Mol. Asp. Med.</source>
+<year>2012</year>
+<volume>33</volume>
+<fpage>119</fpage>
+<lpage>208</lpage>
+<pub-id pub-id-type="doi">10.1016/j.mam.2011.10.015</pub-id>
+<?supplied-pmid 22100792?><pub-id pub-id-type="pmid">22100792</pub-id></element-citation></ref><ref id="B11-ijms-18-00440"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Gursoy</surname><given-names>U.K.</given-names></name><name><surname>Nwhator</surname><given-names>S.</given-names></name><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Leppilahti</surname><given-names>J.</given-names></name><name><surname>Gursoy</surname><given-names>M.</given-names></name><name><surname>K&#x000f6;n&#x000f6;nen</surname><given-names>E.</given-names></name><name><surname>Emingil</surname><given-names>G.</given-names></name><name><surname>Pussinen</surname><given-names>P.J.</given-names></name><etal/></person-group>
+<article-title>Analysis of matrix metalloproteinases, especially MMP-8, in gingival creviclular fluid, mouthrinse and saliva for monitoring periodontal diseases</article-title>
+<source>Periodontol. 2000</source>
+<year>2016</year>
+<volume>70</volume>
+<fpage>142</fpage>
+<lpage>163</lpage>
+<pub-id pub-id-type="doi">10.1111/prd.12101</pub-id>
+<?supplied-pmid 26662488?><pub-id pub-id-type="pmid">26662488</pub-id></element-citation></ref><ref id="B12-ijms-18-00440"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Folgueras</surname><given-names>A.R.</given-names></name><name><surname>Pendas</surname><given-names>A.M.</given-names></name><name><surname>Sanchez</surname><given-names>L.M.</given-names></name><name><surname>Lopez-Otin</surname><given-names>C.</given-names></name></person-group>
+<article-title>Matrix metalloproteinases in cancer: From new functions to improved inhibition strategies</article-title>
+<source>Int. J. Dev. Biol.</source>
+<year>2004</year>
+<volume>48</volume>
+<fpage>411</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="doi">10.1387/ijdb.041811af</pub-id>
+<?supplied-pmid 15349816?><pub-id pub-id-type="pmid">15349816</pub-id></element-citation></ref><ref id="B13-ijms-18-00440"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Butler</surname><given-names>G.S.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Updated biological roles for matrix metalloproteinases and new &#x0201c;intracellular&#x0201d; substrates revealed by degradomics</article-title>
+<source>Biochemistry</source>
+<year>2009</year>
+<volume>48</volume>
+<fpage>10830</fpage>
+<lpage>10845</lpage>
+<pub-id pub-id-type="doi">10.1021/bi901656f</pub-id>
+<?supplied-pmid 19817485?><pub-id pub-id-type="pmid">19817485</pub-id></element-citation></ref><ref id="B14-ijms-18-00440"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cauwe</surname><given-names>B.</given-names></name><name><surname>Martens</surname><given-names>E.</given-names></name><name><surname>Proost</surname><given-names>P.</given-names></name><name><surname>Opdenakker</surname><given-names>G.</given-names></name></person-group>
+<article-title>Multidimensional degradomics identifies systemic autoantigens and intracellular matrix proteins as novel gelatinase B/MMP-9 substrates</article-title>
+<source>Integr. Biol.</source>
+<year>2009</year>
+<volume>1</volume>
+<fpage>404</fpage>
+<lpage>426</lpage>
+<pub-id pub-id-type="doi">10.1039/b904701h</pub-id>
+<?supplied-pmid 20023747?><pub-id pub-id-type="pmid">20023747</pub-id></element-citation></ref><ref id="B15-ijms-18-00440"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luo</surname><given-names>K.W.</given-names></name><name><surname>Wei</surname><given-names>C.</given-names></name><name><surname>Lung</surname><given-names>W.Y.</given-names></name><name><surname>Wei</surname><given-names>X.Y.</given-names></name><name><surname>Cheng</surname><given-names>B.H.</given-names></name><name><surname>Cai</surname><given-names>Z.M.</given-names></name><name><surname>Huang</surname><given-names>W.R.</given-names></name></person-group>
+<article-title>EGCG inhibited bladder cancer SW780 cell proliferation and migration both in vitro and in vivo via down-regulation of NF-&#x003ba;B and MMP-9</article-title>
+<source>J. Nutr. Biochem.</source>
+<year>2016</year>
+<volume>41</volume>
+<fpage>56</fpage>
+<lpage>64</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jnutbio.2016.12.004</pub-id>
+<?supplied-pmid 28040581?><pub-id pub-id-type="pmid">28040581</pub-id></element-citation></ref><ref id="B16-ijms-18-00440"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stawowczyk</surname><given-names>M.</given-names></name><name><surname>Wellenstein</surname><given-names>M.D.</given-names></name><name><surname>Lee</surname><given-names>S.B.</given-names></name><name><surname>Yomtoubian</surname><given-names>S.</given-names></name><name><surname>Durrans</surname><given-names>A.</given-names></name><name><surname>Choi</surname><given-names>H.</given-names></name><name><surname>Huang</surname><given-names>W.R.</given-names></name></person-group>
+<article-title>Matrix Metalloproteinase 14 promotes lung cancer by cleavage of Heparin-Binding EGF-like Growth Factor</article-title>
+<source>Neoplasia</source>
+<year>2016</year>
+<volume>19</volume>
+<fpage>55</fpage>
+<lpage>64</lpage>
+<pub-id pub-id-type="doi">10.1016/j.neo.2016.11.005</pub-id>
+<?supplied-pmid 28013056?><pub-id pub-id-type="pmid">28013056</pub-id></element-citation></ref><ref id="B17-ijms-18-00440"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shintani</surname><given-names>T.</given-names></name><name><surname>Kusuhara</surname><given-names>Y.</given-names></name><name><surname>Daizumoto</surname><given-names>K.</given-names></name><name><surname>Dondoo</surname><given-names>T.O.</given-names></name><name><surname>Yamamoto</surname><given-names>H.</given-names></name><name><surname>Mori</surname><given-names>H.</given-names></name><name><surname>Fukawa</surname><given-names>T.</given-names></name><name><surname>Nakatsuji</surname><given-names>H.</given-names></name><name><surname>Fukumori</surname><given-names>T.</given-names></name><name><surname>Takahashi</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>The Involvement of Hepatocyte Growth Factor-MET-Matrix Metalloproteinase 1 Signaling in Bladder Cancer Invasiveness and Proliferation. Effect of the MET Inhibitor, Cabozantinib (XL184), on Bladder Cancer Cells</article-title>
+<source>Urology</source>
+<year>2016</year>
+<pub-id pub-id-type="doi">10.1016/j.urology.2016.12.006</pub-id>
+<?supplied-pmid 28013036?><pub-id pub-id-type="pmid">28013036</pub-id></element-citation></ref><ref id="B18-ijms-18-00440"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Lint</surname><given-names>P.</given-names></name><name><surname>Wielockx</surname><given-names>B.</given-names></name><name><surname>Puimege</surname><given-names>L.</given-names></name><name><surname>Noel</surname><given-names>A.</given-names></name><name><surname>Lopez-Otin</surname><given-names>C.</given-names></name><name><surname>Libert</surname><given-names>C.</given-names></name></person-group>
+<article-title>Resistance of collagenase-2 (matrix metalloproteinase-8)-deficient mice to TNF-induced lethal hepatitis</article-title>
+<source>J. Immunol.</source>
+<year>2005</year>
+<volume>175</volume>
+<fpage>7642</fpage>
+<lpage>7649</lpage>
+<pub-id pub-id-type="doi">10.4049/jimmunol.175.11.7642</pub-id>
+<?supplied-pmid 16301674?><pub-id pub-id-type="pmid">16301674</pub-id></element-citation></ref><ref id="B19-ijms-18-00440"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roomi</surname><given-names>M.W.</given-names></name><name><surname>Kalinovsky</surname><given-names>T.</given-names></name><name><surname>Rath</surname><given-names>M.</given-names></name><name><surname>Niedzwiecki</surname><given-names>A.</given-names></name></person-group>
+<article-title>Modulation of MMP-2 and MMP-9 secretion by cytokines, inducers and inhibitors in human glioblastoma T-98G cells</article-title>
+<source>Oncol. Rep.</source>
+<year>2017</year>
+<pub-id pub-id-type="doi">10.3892/or.2017.5391</pub-id>
+<?supplied-pmid 28112361?><pub-id pub-id-type="pmid">28112361</pub-id></element-citation></ref><ref id="B20-ijms-18-00440"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohta</surname><given-names>K.</given-names></name><name><surname>Naruse</surname><given-names>T.</given-names></name><name><surname>Ishida</surname><given-names>Y.</given-names></name><name><surname>Shigeishi</surname><given-names>H.</given-names></name><name><surname>Nakagawa</surname><given-names>T.</given-names></name><name><surname>Fukui</surname><given-names>A.</given-names></name><name><surname>Nishi</surname><given-names>H.</given-names></name><name><surname>Sasaki</surname><given-names>K.</given-names></name><name><surname>Ogawa</surname><given-names>I.</given-names></name><name><surname>Takechi</surname><given-names>M.</given-names></name></person-group>
+<article-title>TNF-&#x003b1;-induced IL-6 and MMP-9 expression in immortalized ameloblastoma cell line established by hTERT</article-title>
+<source>Oral Dis.</source>
+<year>2016</year>
+<pub-id pub-id-type="doi">10.1111/odi.12594</pub-id>
+<?supplied-pmid 27868311?><pub-id pub-id-type="pmid">27868311</pub-id></element-citation></ref><ref id="B21-ijms-18-00440"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holopainen</surname><given-names>J.M.</given-names></name><name><surname>Moilanen</surname><given-names>J.A.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Kivela-Rajamaki</surname><given-names>M.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Vesaluoma</surname><given-names>M.H.</given-names></name><name><surname>Tervo</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Activation of matrix metalloproteinase-8 by membrane type 1-MMP and their expression in human tears after photorefractive keratectomy</article-title>
+<source>Investig. Ophthalmol. Vis. Sci.</source>
+<year>2003</year>
+<volume>44</volume>
+<fpage>2550</fpage>
+<lpage>2556</lpage>
+<pub-id pub-id-type="doi">10.1167/iovs.02-1190</pub-id>
+<pub-id pub-id-type="pmid">12766056</pub-id></element-citation></ref><ref id="B22-ijms-18-00440"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>Y.P.</given-names></name><name><surname>Yan</surname><given-names>C.</given-names></name><name><surname>Zhou</surname><given-names>L.</given-names></name><name><surname>Qin</surname><given-names>L.</given-names></name><name><surname>Tsukamoto</surname><given-names>H.</given-names></name></person-group>
+<article-title>A matrix metalloproteinase-9 activation cascade by hepatic stellate cells in trans-differentiation in the three-dimensional extracellular matrix</article-title>
+<source>J. Biol. Chem.</source>
+<year>2007</year>
+<volume>282</volume>
+<fpage>12928</fpage>
+<lpage>12939</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M700554200</pub-id>
+<?supplied-pmid 17322299?><pub-id pub-id-type="pmid">17322299</pub-id></element-citation></ref><ref id="B23-ijms-18-00440"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dreier</surname><given-names>R.</given-names></name><name><surname>Grassel</surname><given-names>S.</given-names></name><name><surname>Fuchs</surname><given-names>S.</given-names></name><name><surname>Schaumburger</surname><given-names>J.</given-names></name><name><surname>Bruckner</surname><given-names>P.</given-names></name></person-group>
+<article-title>Pro-MMP-9 is a specific macrophage product and is activated by osteoarthritic chondrocytes via MMP-3 or a MT1-MMP/MMP-13 cascade</article-title>
+<source>Exp. Cell Res.</source>
+<year>2004</year>
+<volume>297</volume>
+<fpage>303</fpage>
+<lpage>312</lpage>
+<pub-id pub-id-type="doi">10.1016/j.yexcr.2004.02.027</pub-id>
+<?supplied-pmid 15212936?><pub-id pub-id-type="pmid">15212936</pub-id></element-citation></ref><ref id="B24-ijms-18-00440"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Knauper</surname><given-names>V.</given-names></name><name><surname>Will</surname><given-names>H.</given-names></name><name><surname>Lopez-Otin</surname><given-names>C.</given-names></name><name><surname>Smith</surname><given-names>B.</given-names></name><name><surname>Atkinson</surname><given-names>S.J.</given-names></name><name><surname>Stanton</surname><given-names>H.</given-names></name><name><surname>Hembry</surname><given-names>R.M.</given-names></name><name><surname>Murphy</surname><given-names>G.</given-names></name></person-group>
+<article-title>Cellular mechanisms for human procollagenase-3 (MMP-13) activation. Evidence that MT1-MMP (MMP-14) and gelatinase a (MMP-2) are able to generate active enzyme</article-title>
+<source>J. Biol. Chem.</source>
+<year>1996</year>
+<volume>271</volume>
+<fpage>17124</fpage>
+<lpage>17131</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.271.29.17124</pub-id>
+<?supplied-pmid 8663255?><pub-id pub-id-type="pmid">8663255</pub-id></element-citation></ref><ref id="B25-ijms-18-00440"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Dutzan</surname><given-names>N.</given-names></name><name><surname>Garcia-Sesnich</surname><given-names>J.</given-names></name><name><surname>Abusleme</surname><given-names>L.</given-names></name><name><surname>Dezerega</surname><given-names>A.</given-names></name><name><surname>Silva</surname><given-names>N.</given-names></name><name><surname>Gonz&#x000e1;lez</surname><given-names>F.E.</given-names></name><name><surname>Vernal</surname><given-names>R.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name></person-group>
+<article-title>Host-pathogen interactions in progressive chronic periodontitis</article-title>
+<source>J. Dent. Res.</source>
+<year>2011</year>
+<volume>90</volume>
+<fpage>1164</fpage>
+<lpage>1170</lpage>
+<pub-id pub-id-type="doi">10.1177/0022034511401405</pub-id>
+<?supplied-pmid 21471325?><pub-id pub-id-type="pmid">21471325</pub-id></element-citation></ref><ref id="B26-ijms-18-00440"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Wart</surname><given-names>H.E.</given-names></name><name><surname>Birkedal-Hansen</surname><given-names>H.</given-names></name></person-group>
+<article-title>The cysteine switch: A principle of regulation of metalloproteinase activity with potential applicability to the entire matrix metalloproteinase gene family</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1990</year>
+<volume>87</volume>
+<fpage>5578</fpage>
+<lpage>5582</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.87.14.5578</pub-id>
+<?supplied-pmid 2164689?><pub-id pub-id-type="pmid">2164689</pub-id></element-citation></ref><ref id="B27-ijms-18-00440"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Tjaderhane</surname><given-names>L.</given-names></name><name><surname>Konttinen</surname><given-names>Y.T.</given-names></name><name><surname>Lauhio</surname><given-names>A.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name><name><surname>Lee</surname><given-names>H.M.</given-names></name><name><surname>Golub</surname><given-names>L.M.</given-names></name><name><surname>Brown</surname><given-names>D.L.</given-names></name><name><surname>M&#x000e4;ntyl&#x000e4;</surname><given-names>P.</given-names></name></person-group>
+<article-title>Matrix metalloproteinases: Contribution to pathogenesis, diagnosis and treatment of periodontal inflammation</article-title>
+<source>Ann. Med.</source>
+<year>2006</year>
+<volume>38</volume>
+<fpage>306</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="doi">10.1080/07853890600800103</pub-id>
+<?supplied-pmid 16938801?><pub-id pub-id-type="pmid">16938801</pub-id></element-citation></ref><ref id="B28-ijms-18-00440"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mantyla</surname><given-names>P.</given-names></name><name><surname>Stenman</surname><given-names>M.</given-names></name><name><surname>Kinane</surname><given-names>D.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name><name><surname>Suomalainen</surname><given-names>K.</given-names></name><name><surname>Tikanoja</surname><given-names>S.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Monitoring periodontal disease status in smokers and nonsmokers using a gingival crevicular fluid matrix metalloproteinase-8-specific chair-side test</article-title>
+<source>J. Periodontal Res.</source>
+<year>2006</year>
+<volume>41</volume>
+<fpage>503</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0765.2006.00897.x</pub-id>
+<?supplied-pmid 17076774?><pub-id pub-id-type="pmid">17076774</pub-id></element-citation></ref><ref id="B29-ijms-18-00440"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heikkinen</surname><given-names>A.M.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Pitkaniemi</surname><given-names>J.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Kari</surname><given-names>K.</given-names></name><name><surname>Broms</surname><given-names>U.</given-names></name><name><surname>Koskenvuo</surname><given-names>M.</given-names></name><name><surname>Meurman</surname><given-names>J.H.</given-names></name></person-group>
+<article-title>Smoking affects diagnostic salivary periodontal disease biomarker levels in adolescents</article-title>
+<source>J. Periodontol.</source>
+<year>2010</year>
+<volume>81</volume>
+<fpage>1299</fpage>
+<lpage>1307</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2010.090608</pub-id>
+<?supplied-pmid 20450405?><pub-id pub-id-type="pmid">20450405</pub-id></element-citation></ref><ref id="B30-ijms-18-00440"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Valenzuela</surname><given-names>M.A.</given-names></name><name><surname>Lopez-Otin</surname><given-names>C.</given-names></name><name><surname>Alvarez</surname><given-names>J.</given-names></name><name><surname>Lopez</surname><given-names>J.M.</given-names></name><name><surname>Vernal</surname><given-names>R.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase-13 is highly expressed in destructive periodontal disease activity</article-title>
+<source>J. Periodontol.</source>
+<year>2006</year>
+<volume>77</volume>
+<fpage>1863</fpage>
+<lpage>1870</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2006.050461</pub-id>
+<?supplied-pmid 17076612?><pub-id pub-id-type="pmid">17076612</pub-id></element-citation></ref><ref id="B31-ijms-18-00440"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Mantyla</surname><given-names>P.</given-names></name><name><surname>Rivera</surname><given-names>O.</given-names></name><name><surname>Dezerega</surname><given-names>A.</given-names></name><name><surname>Dutzan</surname><given-names>N.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Associations between matrix metalloproteinase-8 and -14 and myeloperoxidase in gingival crevicular fluid from subjects with progressive chronic periodontitis: A longitudinal study</article-title>
+<source>J. Periodontol.</source>
+<year>2010</year>
+<volume>81</volume>
+<fpage>1644</fpage>
+<lpage>1652</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2010.100196</pub-id>
+<?supplied-pmid 20653434?><pub-id pub-id-type="pmid">20653434</pub-id></element-citation></ref><ref id="B32-ijms-18-00440"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez Rios</surname><given-names>M.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Obregon</surname><given-names>F.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Valenzuela</surname><given-names>M.A.</given-names></name><name><surname>Pozo</surname><given-names>P.</given-names></name><name><surname>Dutzan</surname><given-names>N.</given-names></name><name><surname>Lesaffre</surname><given-names>E.</given-names></name><name><surname>Molas</surname><given-names>M.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name></person-group>
+<article-title>Proteolytic roles of matrix metalloproteinase (MMP)-13 during progression of chronic periodontitis: Initial evidence for MMP-13/MMP-9 activation cascade</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2009</year>
+<volume>36</volume>
+<fpage>1011</fpage>
+<lpage>1017</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-051X.2009.01488.x</pub-id>
+<?supplied-pmid 19929954?><pub-id pub-id-type="pmid">19929954</pub-id></element-citation></ref><ref id="B33-ijms-18-00440"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Ingman</surname><given-names>T.</given-names></name><name><surname>Suomalainen</surname><given-names>K.</given-names></name><name><surname>Haapasalo</surname><given-names>M.</given-names></name><name><surname>Konttinen</surname><given-names>Y.T.</given-names></name><name><surname>Lindy</surname><given-names>O.</given-names></name><name><surname>Saari</surname><given-names>H.</given-names></name><name><surname>Uitto</surname><given-names>V.J.</given-names></name></person-group>
+<article-title>Identification of proteases from periodontopathogenic bacteria as activators of latent human neutrophil and fibroblast-type interstitial collagenases</article-title>
+<source>Infect Immun.</source>
+<year>1992</year>
+<volume>60</volume>
+<fpage>4491</fpage>
+<lpage>4495</lpage>
+<?supplied-pmid 1398963?><pub-id pub-id-type="pmid">1398963</pub-id></element-citation></ref><ref id="B34-ijms-18-00440"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Molecular determinants of metalloproteinase substrate specificity: Matrix metalloproteinase substrate binding domains, modules, and exosites</article-title>
+<source>Mol. Biotechnol.</source>
+<year>2002</year>
+<volume>22</volume>
+<fpage>51</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="doi">10.1385/MB:22:1:051</pub-id>
+<pub-id pub-id-type="pmid">12353914</pub-id></element-citation></ref><ref id="B35-ijms-18-00440"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leppilahti</surname><given-names>J.M.</given-names></name><name><surname>Hernandez-Rios</surname><given-names>P.A.</given-names></name><name><surname>Gamonal</surname><given-names>J.A.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Brignardello-Petersen</surname><given-names>R.</given-names></name><name><surname>Mantyla</surname><given-names>P.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Hern&#x000e1;ndez</surname><given-names>M.</given-names></name></person-group>
+<article-title>Matrix metalloproteinases and myeloperoxidase in gingival crevicular fluid provide site-specific diagnostic value for chronic periodontitis</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2014</year>
+<volume>41</volume>
+<fpage>348</fpage>
+<lpage>356</lpage>
+<pub-id pub-id-type="doi">10.1111/jcpe.12223</pub-id>
+<?supplied-pmid 24382144?><pub-id pub-id-type="pmid">24382144</pub-id></element-citation></ref><ref id="B36-ijms-18-00440"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Hukkanen</surname><given-names>M.</given-names></name><name><surname>Tjaderhane</surname><given-names>L.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Reduced expression of lipopolysaccharide-induced CXC chemokine in Porphyromonas gingivalis-induced experimental periodontitis in matrix metalloproteinase-8 null mice</article-title>
+<source>J. Periodontal Res.</source>
+<year>2011</year>
+<volume>46</volume>
+<fpage>58</fpage>
+<lpage>66</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0765.2010.01310.x</pub-id>
+<?supplied-pmid 20731768?><pub-id pub-id-type="pmid">20731768</pub-id></element-citation></ref><ref id="B37-ijms-18-00440"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saari</surname><given-names>H.</given-names></name><name><surname>Suomalainen</surname><given-names>K.</given-names></name><name><surname>Lindy</surname><given-names>O.</given-names></name><name><surname>Konttinen</surname><given-names>Y.T.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Activation of latent human neutrophil collagenase by reactive oxygen species and serine proteases</article-title>
+<source>Biochem. Biophys. Res. Commun.</source>
+<year>1990</year>
+<volume>171</volume>
+<fpage>979</fpage>
+<lpage>987</lpage>
+<pub-id pub-id-type="doi">10.1016/0006-291X(90)90780-Q</pub-id>
+<pub-id pub-id-type="pmid">2171513</pub-id></element-citation></ref><ref id="B38-ijms-18-00440"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miyasaki</surname><given-names>K.T.</given-names></name><name><surname>Iofel</surname><given-names>R.</given-names></name><name><surname>Lehrer</surname><given-names>R.I.</given-names></name></person-group>
+<article-title>Sensitivity of periodontal pathogens to the bactericidal activity of synthetic protegrins, antibiotic peptides derived from porcine leukocytes</article-title>
+<source>J. Dent. Res.</source>
+<year>1997</year>
+<volume>76</volume>
+<fpage>1453</fpage>
+<lpage>1459</lpage>
+<pub-id pub-id-type="doi">10.1177/00220345970760080701</pub-id>
+<?supplied-pmid 9240381?><pub-id pub-id-type="pmid">9240381</pub-id></element-citation></ref><ref id="B39-ijms-18-00440"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scott</surname><given-names>D.A.</given-names></name><name><surname>Krauss</surname><given-names>J.</given-names></name></person-group>
+<article-title>Neutrophils in periodontal inflammation</article-title>
+<source>Front. Oral Biol.</source>
+<year>2012</year>
+<volume>15</volume>
+<fpage>56</fpage>
+<lpage>83</lpage>
+<?supplied-pmid 22142957?><pub-id pub-id-type="pmid">22142957</pub-id></element-citation></ref><ref id="B40-ijms-18-00440"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alfakry</surname><given-names>H.</given-names></name><name><surname>Malle</surname><given-names>E.</given-names></name><name><surname>Koyani</surname><given-names>C.N.</given-names></name><name><surname>Pussinen</surname><given-names>P.J.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Neutrophil proteolytic activation cascades: A possible mechanistic link between chronic periodontitis and coronary heart disease</article-title>
+<source>Innate Immun.</source>
+<year>2016</year>
+<volume>22</volume>
+<fpage>85</fpage>
+<lpage>99</lpage>
+<pub-id pub-id-type="doi">10.1177/1753425915617521</pub-id>
+<?supplied-pmid 26608308?><pub-id pub-id-type="pmid">26608308</pub-id></element-citation></ref><ref id="B41-ijms-18-00440"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peppin</surname><given-names>G.J.</given-names></name><name><surname>Weiss</surname><given-names>S.J.</given-names></name></person-group>
+<article-title>Activation of the endogenous metalloproteinase, gelatinase, by triggered human neutrophils</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1986</year>
+<volume>83</volume>
+<fpage>4322</fpage>
+<lpage>4326</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.83.12.4322</pub-id>
+<?supplied-pmid 3012563?><pub-id pub-id-type="pmid">3012563</pub-id></element-citation></ref><ref id="B42-ijms-18-00440"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weiss</surname><given-names>S.J.</given-names></name><name><surname>Peppin</surname><given-names>G.</given-names></name><name><surname>Ortiz</surname><given-names>X.</given-names></name><name><surname>Ragsdale</surname><given-names>C.</given-names></name><name><surname>Test</surname><given-names>S.T.</given-names></name></person-group>
+<article-title>Oxidative autoactivation of latent collagenase by human neutrophils</article-title>
+<source>Science</source>
+<year>1985</year>
+<volume>227</volume>
+<fpage>747</fpage>
+<lpage>749</lpage>
+<pub-id pub-id-type="doi">10.1126/science.2982211</pub-id>
+<?supplied-pmid 2982211?><pub-id pub-id-type="pmid">2982211</pub-id></element-citation></ref><ref id="B43-ijms-18-00440"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>P.F.</given-names></name><name><surname>Ho</surname><given-names>K.Y.</given-names></name><name><surname>Ho</surname><given-names>Y.P.</given-names></name><name><surname>Wu</surname><given-names>Y.M.</given-names></name><name><surname>Yang</surname><given-names>Y.H.</given-names></name><name><surname>Tsai</surname><given-names>C.C.</given-names></name></person-group>
+<article-title>The investigation of glutathione peroxidase, lactoferrin, myeloperoxidase and interleukin-1&#x003b2; in gingival crevicular fluid: Implications for oxidative stress in human periodontal diseases</article-title>
+<source>J. Periodontal Res.</source>
+<year>2004</year>
+<volume>39</volume>
+<fpage>287</fpage>
+<lpage>293</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0765.2004.00744.x</pub-id>
+<?supplied-pmid 15324348?><pub-id pub-id-type="pmid">15324348</pub-id></element-citation></ref><ref id="B44-ijms-18-00440"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marcaccini</surname><given-names>A.M.</given-names></name><name><surname>Meschiari</surname><given-names>C.A.</given-names></name><name><surname>Zuardi</surname><given-names>L.R.</given-names></name><name><surname>de Sousa</surname><given-names>T.S.</given-names></name><name><surname>Taba</surname><given-names>M.</given-names><suffix>Jr.</suffix></name><name><surname>Teofilo</surname><given-names>J.M.</given-names></name><name><surname>Jacob-Ferreira</surname><given-names>A.L.</given-names></name><name><surname>Tanus-Santos</surname><given-names>J.E.</given-names></name><name><surname>Novaes</surname><given-names>A.B.</given-names><suffix>Jr.</suffix></name><name><surname>Gerlach</surname><given-names>R.F.</given-names></name></person-group>
+<article-title>Gingival crevicular fluid levels of MMP-8, MMP-9, TIMP-2, and MPO decrease after periodontal therapy</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2010</year>
+<volume>37</volume>
+<fpage>180</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-051X.2009.01512.x</pub-id>
+<?supplied-pmid 19995403?><pub-id pub-id-type="pmid">19995403</pub-id></element-citation></ref><ref id="B45-ijms-18-00440"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baeza</surname><given-names>M.</given-names></name><name><surname>Garrido</surname><given-names>M.</given-names></name><name><surname>Hernandez-Rios</surname><given-names>P.</given-names></name><name><surname>Dezerega</surname><given-names>A.</given-names></name><name><surname>Garcia-Sesnich</surname><given-names>J.</given-names></name><name><surname>Strauss</surname><given-names>F.</given-names></name><name><surname>Aitken</surname><given-names>J.P.</given-names></name><name><surname>Lesaffre</surname><given-names>E.</given-names></name><name><surname>Vanbelle</surname><given-names>S.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>Diagnostic accuracy for apical and chronic periodontitis biomarkers in gingival crevicular fluid: An exploratory study</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2016</year>
+<volume>43</volume>
+<fpage>34</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="doi">10.1111/jcpe.12479</pub-id>
+<?supplied-pmid 26556177?><pub-id pub-id-type="pmid">26556177</pub-id></element-citation></ref><ref id="B46-ijms-18-00440"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mori</surname><given-names>K.</given-names></name><name><surname>Shibanuma</surname><given-names>M.</given-names></name><name><surname>Nose</surname><given-names>K.</given-names></name></person-group>
+<article-title>Invasive potential induced under long-term oxidative stress in mammary epithelial cells</article-title>
+<source>Cancer Res.</source>
+<year>2004</year>
+<volume>64</volume>
+<fpage>7464</fpage>
+<lpage>7472</lpage>
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-04-1725</pub-id>
+<?supplied-pmid 15492271?><pub-id pub-id-type="pmid">15492271</pub-id></element-citation></ref><ref id="B47-ijms-18-00440"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoon</surname><given-names>S.O.</given-names></name><name><surname>Park</surname><given-names>S.J.</given-names></name><name><surname>Yoon</surname><given-names>S.Y.</given-names></name><name><surname>Yun</surname><given-names>C.H.</given-names></name><name><surname>Chung</surname><given-names>A.S.</given-names></name></person-group>
+<article-title>Sustained production of H<sub>2</sub>O<sub>2</sub> activates pro-matrix metalloproteinase-2 through receptor tyrosine kinases/phosphatidylinositol 3-kinase/NF-&#x003ba;B pathway</article-title>
+<source>J. Biol. Chem.</source>
+<year>2002</year>
+<volume>277</volume>
+<fpage>30271</fpage>
+<lpage>30282</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M202647200</pub-id>
+<?supplied-pmid 12058032?><pub-id pub-id-type="pmid">12058032</pub-id></element-citation></ref><ref id="B48-ijms-18-00440"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siwik</surname><given-names>D.A.</given-names></name><name><surname>Pagano</surname><given-names>P.J.</given-names></name><name><surname>Colucci</surname><given-names>W.S.</given-names></name></person-group>
+<article-title>Oxidative stress regulates collagen synthesis and matrix metalloproteinase activity in cardiac fibroblasts</article-title>
+<source>Am. J. Physiol. Cell Physiol.</source>
+<year>2001</year>
+<volume>280</volume>
+<fpage>C53</fpage>
+<lpage>C60</lpage>
+<?supplied-pmid 11121376?><pub-id pub-id-type="pmid">11121376</pub-id></element-citation></ref><ref id="B49-ijms-18-00440"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>M.</given-names></name><name><surname>Sato</surname><given-names>H.</given-names></name><name><surname>Seiki</surname><given-names>M.</given-names></name><name><surname>Spiegel</surname><given-names>S.</given-names></name><name><surname>Thompson</surname><given-names>E.W.</given-names></name></person-group>
+<article-title>Calcium influx inhibits MT1-MMP processing and blocks MMP-2 activation</article-title>
+<source>FEBS Lett.</source>
+<year>1997</year>
+<volume>412</volume>
+<fpage>568</fpage>
+<lpage>572</lpage>
+<pub-id pub-id-type="doi">10.1016/S0014-5793(97)00849-1</pub-id>
+<pub-id pub-id-type="pmid">9276468</pub-id></element-citation></ref><ref id="B50-ijms-18-00440"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tiranathanagul</surname><given-names>S.</given-names></name><name><surname>Yongchaitrakul</surname><given-names>T.</given-names></name><name><surname>Pattamapun</surname><given-names>K.</given-names></name><name><surname>Pavasant</surname><given-names>P.</given-names></name></person-group>
+<article-title>Actinobacillus actinomycetemcomitans lipopolysaccharide activates matrix metalloproteinase-2 and increases receptor activator of nuclear factor-&#x003ba;B ligand expression in human periodontal ligament cells</article-title>
+<source>J. Periodontol.</source>
+<year>2004</year>
+<volume>75</volume>
+<fpage>1647</fpage>
+<lpage>1654</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2004.75.12.1647</pub-id>
+<?supplied-pmid 15732867?><pub-id pub-id-type="pmid">15732867</pub-id></element-citation></ref><ref id="B51-ijms-18-00440"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osorio</surname><given-names>C.</given-names></name><name><surname>Cavalla</surname><given-names>F.</given-names></name><name><surname>Paula-Lima</surname><given-names>A.</given-names></name><name><surname>Diaz-Araya</surname><given-names>G.</given-names></name><name><surname>Vernal</surname><given-names>R.</given-names></name><name><surname>Ahumada</surname><given-names>P.</given-names></name><name><surname>Gamonal</surname><given-names>J.</given-names></name><name><surname>Hern&#x000e1;ndez</surname><given-names>M.</given-names></name></person-group>
+<article-title>H<sub>2</sub>O<sub>2</sub> activates matrix metalloproteinases through the nuclear factor &#x003ba;B pathway and Ca<sup>2+</sup> signals in human periodontal fibroblasts</article-title>
+<source>J. Periodontal Res.</source>
+<year>2015</year>
+<volume>50</volume>
+<fpage>798</fpage>
+<lpage>806</lpage>
+<pub-id pub-id-type="doi">10.1111/jre.12267</pub-id>
+<?supplied-pmid 25824649?><pub-id pub-id-type="pmid">25824649</pub-id></element-citation></ref><ref id="B52-ijms-18-00440"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Korpi</surname><given-names>J.T.</given-names></name><name><surname>Astrom</surname><given-names>P.</given-names></name><name><surname>Lehtonen</surname><given-names>N.</given-names></name><name><surname>Tjaderhane</surname><given-names>L.</given-names></name><name><surname>Kallio-Pulkkinen</surname><given-names>S.</given-names></name><name><surname>Siponen</surname><given-names>M.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Piril&#x000e4;</surname><given-names>E.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name></person-group>
+<article-title>Healing of extraction sockets in collagenase-2 (matrix metalloproteinase-8)-deficient mice</article-title>
+<source>Eur. J. Oral Sci.</source>
+<year>2009</year>
+<volume>117</volume>
+<fpage>248</fpage>
+<lpage>254</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0722.2009.00620.x</pub-id>
+<?supplied-pmid 19583751?><pub-id pub-id-type="pmid">19583751</pub-id></element-citation></ref><ref id="B53-ijms-18-00440"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>M.</given-names></name><name><surname>Jackson</surname><given-names>P.</given-names></name><name><surname>Tester</surname><given-names>A.M.</given-names></name><name><surname>Diaconu</surname><given-names>E.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name><name><surname>Blalock</surname><given-names>J.E.</given-names></name><name><surname>Pearlman</surname><given-names>E.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase-8 facilitates neutrophil migration through the corneal stromal matrix by collagen degradation and production of the chemotactic peptide Pro&#x02013;Gly&#x02013;Pro</article-title>
+<source>Am. J. Pathol.</source>
+<year>2008</year>
+<volume>173</volume>
+<fpage>144</fpage>
+<lpage>153</lpage>
+<pub-id pub-id-type="doi">10.2353/ajpath.2008.080081</pub-id>
+<?supplied-pmid 18556780?><pub-id pub-id-type="pmid">18556780</pub-id></element-citation></ref><ref id="B54-ijms-18-00440"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tester</surname><given-names>A.M.</given-names></name><name><surname>Cox</surname><given-names>J.H.</given-names></name><name><surname>Connor</surname><given-names>A.R.</given-names></name><name><surname>Starr</surname><given-names>A.E.</given-names></name><name><surname>Dean</surname><given-names>R.A.</given-names></name><name><surname>Puente</surname><given-names>X.S.</given-names></name><name><surname>L&#x000f3;pez-Ot&#x000ed;n</surname><given-names>C.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>LPS responsiveness and neutrophil chemotaxis in vivo require PMN MMP-8 activity</article-title>
+<source>PLoS ONE</source>
+<year>2007</year>
+<volume>2</volume>
+<elocation-id>e312</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0000312</pub-id>
+<?supplied-pmid 17375198?><pub-id pub-id-type="pmid">17375198</pub-id></element-citation></ref><ref id="B55-ijms-18-00440"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Van Den Steen</surname><given-names>P.E.</given-names></name><name><surname>Wuyts</surname><given-names>A.</given-names></name><name><surname>Husson</surname><given-names>S.J.</given-names></name><name><surname>Proost</surname><given-names>P.</given-names></name><name><surname>van Damme</surname><given-names>J.</given-names></name><name><surname>Opdenakker</surname><given-names>G.</given-names></name></person-group>
+<article-title>Gelatinase B/MMP-9 and neutrophil collagenase/MMP-8 process the chemokines human GCP-2/CXCL6, ENA-78/CXCL5 and mouse GCP-2/LIX and modulate their physiological activities</article-title>
+<source>Eur. J. Biochem.</source>
+<year>2003</year>
+<volume>270</volume>
+<fpage>3739</fpage>
+<lpage>3749</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1432-1033.2003.03760.x</pub-id>
+<?supplied-pmid 12950257?><pub-id pub-id-type="pmid">12950257</pub-id></element-citation></ref><ref id="B56-ijms-18-00440"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gutierrez-Fernandez</surname><given-names>A.</given-names></name><name><surname>Inada</surname><given-names>M.</given-names></name><name><surname>Balbin</surname><given-names>M.</given-names></name><name><surname>Fueyo</surname><given-names>A.</given-names></name><name><surname>Pitiot</surname><given-names>A.S.</given-names></name><name><surname>Astudillo</surname><given-names>A.</given-names></name><name><surname>Hirose</surname><given-names>K.</given-names></name><name><surname>Hirata</surname><given-names>M.</given-names></name><name><surname>Shapiro</surname><given-names>S.D.</given-names></name><name><surname>No&#x000eb;l</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Increased inflammation delays wound healing in mice deficient in collagenase-2 (MMP-8)</article-title>
+<source>FASEB J.</source>
+<year>2007</year>
+<volume>21</volume>
+<fpage>2580</fpage>
+<lpage>2591</lpage>
+<pub-id pub-id-type="doi">10.1096/fj.06-7860com</pub-id>
+<?supplied-pmid 17392479?><pub-id pub-id-type="pmid">17392479</pub-id></element-citation></ref><ref id="B57-ijms-18-00440"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Da Costa</surname><given-names>T.A.</given-names></name><name><surname>Silva</surname><given-names>M.J.B.</given-names></name><name><surname>Alves</surname><given-names>P.M.</given-names></name><name><surname>Chica</surname><given-names>J.E.L.</given-names></name><name><surname>Barcelos</surname><given-names>E.Z.</given-names></name><name><surname>Giani</surname><given-names>M.A.A.</given-names></name><name><surname>Garlet</surname><given-names>G.P.</given-names></name><name><surname>da Silva</surname><given-names>J.S.</given-names></name><name><surname>J&#x000fa;nior</surname><given-names>V.R.</given-names></name><name><surname>Rodrigues</surname><given-names>D.B.R.</given-names></name><etal/></person-group>
+<article-title>Inflammation Biomarkers of Advanced Disease in Nongingival Tissues of Chronic Periodontitis Patients</article-title>
+<source>Mediat. Inflamm.</source>
+<year>2015</year>
+<pub-id pub-id-type="doi">10.1155/2015/983782</pub-id>
+<?supplied-pmid 26063981?><pub-id pub-id-type="pmid">26063981</pub-id></element-citation></ref><ref id="B58-ijms-18-00440"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cavalla</surname><given-names>F.</given-names></name><name><surname>Araujo-Pires</surname><given-names>A.C.</given-names></name><name><surname>Biguetti</surname><given-names>C.C.</given-names></name><name><surname>Garlet</surname><given-names>G.P.</given-names></name></person-group>
+<article-title>Cytokine Networks Regulating Inflammation and Immune Defense in the Oral Cavity</article-title>
+<source>Curr. Oral Health Rep.</source>
+<year>2014</year>
+<volume>1</volume>
+<fpage>104</fpage>
+<lpage>113</lpage>
+<pub-id pub-id-type="doi">10.1007/s40496-014-0016-9</pub-id>
+</element-citation></ref><ref id="B59-ijms-18-00440"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stadler</surname><given-names>A.F.</given-names></name><name><surname>Angst</surname><given-names>P.D.</given-names></name><name><surname>Arce</surname><given-names>R.M.</given-names></name><name><surname>Gomes</surname><given-names>S.C.</given-names></name><name><surname>Oppermann</surname><given-names>R.V.</given-names></name><name><surname>Susin</surname><given-names>C.</given-names></name></person-group>
+<article-title>Gingival crevicular fluid levels of cytokines/chemokines in chronic periodontitis: A meta-analysis</article-title>
+<source>J. Clin. Periodontol.</source>
+<year>2016</year>
+<volume>43</volume>
+<fpage>727</fpage>
+<lpage>745</lpage>
+<pub-id pub-id-type="doi">10.1111/jcpe.12557</pub-id>
+<?supplied-pmid 27027257?><pub-id pub-id-type="pmid">27027257</pub-id></element-citation></ref><ref id="B60-ijms-18-00440"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kornman</surname><given-names>K.S.</given-names></name><name><surname>Page</surname><given-names>R.C.</given-names></name><name><surname>Tonetti</surname><given-names>M.S.</given-names></name></person-group>
+<article-title>The host response to the microbial challenge in periodontitis: Assembling the players</article-title>
+<source>Periodontol. 2000</source>
+<year>1997</year>
+<volume>14</volume>
+<fpage>33</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-0757.1997.tb00191.x</pub-id>
+<?supplied-pmid 9567965?><pub-id pub-id-type="pmid">9567965</pub-id></element-citation></ref><ref id="B61-ijms-18-00440"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Glowacki</surname><given-names>A.J.</given-names></name><name><surname>Gottardi</surname><given-names>R.</given-names></name><name><surname>Yoshizawa</surname><given-names>S.</given-names></name><name><surname>Cavalla</surname><given-names>F.</given-names></name><name><surname>Garlet</surname><given-names>G.P.</given-names></name><name><surname>Sfeir</surname><given-names>C.</given-names></name><name><surname>Little</surname><given-names>S.R.</given-names></name></person-group>
+<article-title>Strategies to Direct the Enrichment, Expansion, and Recruitment of Regulatory Cells for the Treatment of Disease</article-title>
+<source>Ann. Biomed. Eng.</source>
+<year>2015</year>
+<volume>43</volume>
+<fpage>593</fpage>
+<lpage>602</lpage>
+<pub-id pub-id-type="doi">10.1007/s10439-014-1125-2</pub-id>
+<?supplied-pmid 25245220?><pub-id pub-id-type="pmid">25245220</pub-id></element-citation></ref><ref id="B62-ijms-18-00440"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rawlings</surname><given-names>N.D.</given-names></name><name><surname>Barrett</surname><given-names>A.J.</given-names></name><name><surname>Finn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Twenty years of the MEROPS database of proteolytic enzymes, their substrates and inhibitors</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2016</year>
+<volume>44</volume>
+<fpage>D343</fpage>
+<lpage>D350</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkv1118</pub-id>
+<?supplied-pmid 26527717?><pub-id pub-id-type="pmid">26527717</pub-id></element-citation></ref><ref id="B63-ijms-18-00440"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cavalla</surname><given-names>F.</given-names></name><name><surname>Osorio</surname><given-names>C.</given-names></name><name><surname>Paredes</surname><given-names>R.</given-names></name><name><surname>Valenzuela</surname><given-names>M.A.</given-names></name><name><surname>Garcia-Sesnich</surname><given-names>J.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Tervahartiala</surname><given-names>T.</given-names></name><name><surname>Hern&#x000e1;ndez</surname><given-names>M.</given-names></name></person-group>
+<article-title>Matrix metalloproteinases regulate extracellular levels of SDF-1/CXCL12, IL-6 and VEGF in hydrogen peroxide-stimulated human periodontal ligament fibroblasts</article-title>
+<source>Cytokine</source>
+<year>2015</year>
+<volume>73</volume>
+<fpage>114</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cyto.2015.02.001</pub-id>
+<?supplied-pmid 25748833?><pub-id pub-id-type="pmid">25748833</pub-id></element-citation></ref><ref id="B64-ijms-18-00440"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McQuibban</surname><given-names>G.A.</given-names></name><name><surname>Butler</surname><given-names>G.S.</given-names></name><name><surname>Gong</surname><given-names>J.H.</given-names></name><name><surname>Bendall</surname><given-names>L.</given-names></name><name><surname>Power</surname><given-names>C.</given-names></name><name><surname>Clark-Lewis</surname><given-names>I.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase activity inactivates the CXC chemokine stromal cell-derived factor-1</article-title>
+<source>J. Biol. Chem.</source>
+<year>2001</year>
+<volume>276</volume>
+<fpage>43503</fpage>
+<lpage>43508</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M107736200</pub-id>
+<?supplied-pmid 11571304?><pub-id pub-id-type="pmid">11571304</pub-id></element-citation></ref><ref id="B65-ijms-18-00440"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bauvois</surname><given-names>B.</given-names></name></person-group>
+<article-title>New facets of matrix metalloproteinases MMP-2 and MMP-9 as cell surface transducers: Outside-in signaling and relationship to tumor progression</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2012</year>
+<volume>1825</volume>
+<fpage>29</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bbcan.2011.10.001</pub-id>
+<?supplied-pmid 22020293?><pub-id pub-id-type="pmid">22020293</pub-id></element-citation></ref><ref id="B66-ijms-18-00440"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuula</surname><given-names>H.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name><name><surname>Pirila</surname><given-names>E.</given-names></name><name><surname>Tuomainen</surname><given-names>A.M.</given-names></name><name><surname>Jauhiainen</surname><given-names>M.</given-names></name><name><surname>Uitto</surname><given-names>V.J.</given-names></name><name><surname>Tj&#x000e4;derhane</surname><given-names>L.</given-names></name><name><surname>Pussinen</surname><given-names>P.J.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Local and systemic responses in matrix metalloproteinase 8-deficient mice during Porphyromonas gingivalis-induced periodontitis</article-title>
+<source>Infect. Immun.</source>
+<year>2009</year>
+<volume>77</volume>
+<fpage>850</fpage>
+<lpage>859</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.00873-08</pub-id>
+<?supplied-pmid 19029300?><pub-id pub-id-type="pmid">19029300</pub-id></element-citation></ref><ref id="B67-ijms-18-00440"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McQuibban</surname><given-names>G.A.</given-names></name><name><surname>Gong</surname><given-names>J.H.</given-names></name><name><surname>Wong</surname><given-names>J.P.</given-names></name><name><surname>Wallace</surname><given-names>J.L.</given-names></name><name><surname>Clark-Lewis</surname><given-names>I.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase processing of monocyte chemoattractant proteins generates CC chemokine receptor antagonists with anti-inflammatory properties in vivo</article-title>
+<source>Blood</source>
+<year>2002</year>
+<volume>100</volume>
+<fpage>1160</fpage>
+<lpage>1167</lpage>
+<?supplied-pmid 12149192?><pub-id pub-id-type="pmid">12149192</pub-id></element-citation></ref><ref id="B68-ijms-18-00440"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dezerega</surname><given-names>A.</given-names></name><name><surname>Pozo</surname><given-names>P.</given-names></name><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Oyarzun</surname><given-names>A.</given-names></name><name><surname>Rivera</surname><given-names>O.</given-names></name><name><surname>Dutzan</surname><given-names>N.</given-names></name><name><surname>Guti&#x000e9;rrez-Fern&#x000e1;ndez</surname><given-names>A.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name><name><surname>Garrido</surname><given-names>M.</given-names></name><name><surname>Alcota</surname><given-names>M.</given-names></name><name><surname>Ortiz</surname><given-names>E.</given-names></name><etal/></person-group>
+<article-title>Chemokine monocyte chemoattractant protein-3 in progressive periodontal lesions in patients with chronic periodontitis</article-title>
+<source>J. Periodontol.</source>
+<year>2010</year>
+<volume>81</volume>
+<fpage>267</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="doi">10.1902/jop.2009.090406</pub-id>
+<?supplied-pmid 20151806?><pub-id pub-id-type="pmid">20151806</pub-id></element-citation></ref><ref id="B69-ijms-18-00440"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sultana</surname><given-names>S.</given-names></name><name><surname>Adhikary</surname><given-names>R.</given-names></name><name><surname>Nandi</surname><given-names>A.</given-names></name><name><surname>Bishayi</surname><given-names>B.</given-names></name></person-group>
+<article-title>Neutralization of MMP-2 protects Staphylococcus aureus infection induced septic arthritis in mice and regulates the levels of cytokines</article-title>
+<source>Microb. Pathog.</source>
+<year>2016</year>
+<volume>99</volume>
+<fpage>148</fpage>
+<lpage>161</lpage>
+<pub-id pub-id-type="doi">10.1016/j.micpath.2016.08.021</pub-id>
+<?supplied-pmid 27554276?><pub-id pub-id-type="pmid">27554276</pub-id></element-citation></ref><ref id="B70-ijms-18-00440"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Astrom</surname><given-names>P.</given-names></name><name><surname>Pirila</surname><given-names>E.</given-names></name><name><surname>Lithovius</surname><given-names>R.</given-names></name><name><surname>Heikkola</surname><given-names>H.</given-names></name><name><surname>Korpi</surname><given-names>J.T.</given-names></name><name><surname>Hernandez</surname><given-names>M.</given-names></name><name><surname>Sorsa</surname><given-names>T.</given-names></name><name><surname>Salo</surname><given-names>T.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase-8 regulates transforming growth factor-&#x003b2;1 levels in mouse tongue wounds and fibroblasts in vitro</article-title>
+<source>Exp. Cell Res.</source>
+<year>2014</year>
+<volume>328</volume>
+<fpage>217</fpage>
+<lpage>227</lpage>
+<pub-id pub-id-type="doi">10.1016/j.yexcr.2014.07.010</pub-id>
+<?supplied-pmid 25036555?><pub-id pub-id-type="pmid">25036555</pub-id></element-citation></ref><ref id="B71-ijms-18-00440"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nilsson</surname><given-names>U.W.</given-names></name><name><surname>Jonsson</surname><given-names>J.A.</given-names></name><name><surname>Dabrosin</surname><given-names>C.</given-names></name></person-group>
+<article-title>Tamoxifen decreases extracellular TGF-&#x003b2;1 secreted from breast cancer cells&#x02014;A post-translational regulation involving matrix metalloproteinase activity</article-title>
+<source>Exp. Cell Res.</source>
+<year>2009</year>
+<volume>315</volume>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="doi">10.1016/j.yexcr.2008.10.015</pub-id>
+<?supplied-pmid 18996114?><pub-id pub-id-type="pmid">18996114</pub-id></element-citation></ref><ref id="B72-ijms-18-00440"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balbin</surname><given-names>M.</given-names></name><name><surname>Fueyo</surname><given-names>A.</given-names></name><name><surname>Tester</surname><given-names>A.M.</given-names></name><name><surname>Pendas</surname><given-names>A.M.</given-names></name><name><surname>Pitiot</surname><given-names>A.S.</given-names></name><name><surname>Astudillo</surname><given-names>A.</given-names></name><name><surname>Overall</surname><given-names>C.M.</given-names></name><name><surname>Shapiro</surname><given-names>S.D.</given-names></name><name><surname>L&#x000f3;pez-Ot&#x000ed;n</surname><given-names>C.</given-names></name></person-group>
+<article-title>Loss of collagenase-2 confers increased skin tumor susceptibility to male mice</article-title>
+<source>Nat. Genet.</source>
+<year>2003</year>
+<volume>35</volume>
+<fpage>252</fpage>
+<lpage>257</lpage>
+<pub-id pub-id-type="doi">10.1038/ng1249</pub-id>
+<?supplied-pmid 14517555?><pub-id pub-id-type="pmid">14517555</pub-id></element-citation></ref><ref id="B73-ijms-18-00440"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hill</surname><given-names>P.A.</given-names></name><name><surname>Docherty</surname><given-names>A.J.</given-names></name><name><surname>Bottomley</surname><given-names>K.M.</given-names></name><name><surname>O&#x02019;Connell</surname><given-names>J.P.</given-names></name><name><surname>Morphy</surname><given-names>J.R.</given-names></name><name><surname>Reynolds</surname><given-names>J.J.</given-names></name><name><surname>Meikle</surname><given-names>M.C.</given-names></name></person-group>
+<article-title>Inhibition of bone resorption in vitro by selective inhibitors of gelatinase and collagenase</article-title>
+<source>Biochem. J.</source>
+<year>1995</year>
+<volume>308</volume>
+<fpage>167</fpage>
+<lpage>175</lpage>
+<pub-id pub-id-type="doi">10.1042/bj3080167</pub-id>
+<?supplied-pmid 7755562?><pub-id pub-id-type="pmid">7755562</pub-id></element-citation></ref><ref id="B74-ijms-18-00440"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pivetta</surname><given-names>E.</given-names></name><name><surname>Scapolan</surname><given-names>M.</given-names></name><name><surname>Pecolo</surname><given-names>M.</given-names></name><name><surname>Wassermann</surname><given-names>B.</given-names></name><name><surname>Abu-Rumeileh</surname><given-names>I.</given-names></name><name><surname>Balestreri</surname><given-names>L.</given-names></name><name><surname>Borsatti</surname><given-names>E.</given-names></name><name><surname>Tripodo</surname><given-names>C.</given-names></name><name><surname>Colombatti</surname><given-names>A.</given-names></name><name><surname>Spessotto</surname><given-names>P.</given-names></name></person-group>
+<article-title>MMP-13 stimulates osteoclast differentiation and activation in tumour breast bone metastases</article-title>
+<source>Breast Cancer Res.</source>
+<year>2011</year>
+<volume>13</volume>
+<fpage>R105</fpage>
+<pub-id pub-id-type="doi">10.1186/bcr3047</pub-id>
+<?supplied-pmid 22032644?><pub-id pub-id-type="pmid">22032644</pub-id></element-citation></ref><ref id="B75-ijms-18-00440"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nannuru</surname><given-names>K.C.</given-names></name><name><surname>Futakuchi</surname><given-names>M.</given-names></name><name><surname>Varney</surname><given-names>M.L.</given-names></name><name><surname>Vincent</surname><given-names>T.M.</given-names></name><name><surname>Marcusson</surname><given-names>E.G.</given-names></name><name><surname>Singh</surname><given-names>R.K.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase (MMP)-13 regulates mammary tumor-induced osteolysis by activating MMP9 and transforming growth factor-&#x003b2; signaling at the tumor-bone interface</article-title>
+<source>Cancer Res.</source>
+<year>2010</year>
+<volume>70</volume>
+<fpage>3494</fpage>
+<lpage>3504</lpage>
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-09-3251</pub-id>
+<?supplied-pmid 20406980?><pub-id pub-id-type="pmid">20406980</pub-id></element-citation></ref><ref id="B76-ijms-18-00440"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joo</surname><given-names>N.E.</given-names></name><name><surname>Watanabe</surname><given-names>T.</given-names></name><name><surname>Chen</surname><given-names>C.</given-names></name><name><surname>Chekenya</surname><given-names>M.</given-names></name><name><surname>Stallcup</surname><given-names>W.B.</given-names></name><name><surname>Kapila</surname><given-names>Y.L.</given-names></name></person-group>
+<article-title>NG2, a novel proapoptotic receptor, opposes integrin &#x003b1;4 to mediate anoikis through PKC&#x003b1;-dependent suppression of FAK phosphorylation</article-title>
+<source>Cell Death Differ.</source>
+<year>2008</year>
+<volume>15</volume>
+<fpage>899</fpage>
+<lpage>907</lpage>
+<pub-id pub-id-type="doi">10.1038/cdd.2008.22</pub-id>
+<?supplied-pmid 18292781?><pub-id pub-id-type="pmid">18292781</pub-id></element-citation></ref><ref id="B77-ijms-18-00440"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joo</surname><given-names>N.E.</given-names></name><name><surname>Miao</surname><given-names>D.</given-names></name><name><surname>Bermudez</surname><given-names>M.</given-names></name><name><surname>Stallcup</surname><given-names>W.B.</given-names></name><name><surname>Kapila</surname><given-names>Y.L.</given-names></name></person-group>
+<article-title>Shedding of NG2 by MMP-13 attenuates anoikis</article-title>
+<source>DNA Cell Biol.</source>
+<year>2014</year>
+<volume>33</volume>
+<fpage>854</fpage>
+<lpage>862</lpage>
+<pub-id pub-id-type="doi">10.1089/dna.2014.2399</pub-id>
+<?supplied-pmid 25166220?><pub-id pub-id-type="pmid">25166220</pub-id></element-citation></ref><ref id="B78-ijms-18-00440"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chambers</surname><given-names>M.</given-names></name><name><surname>Kirkpatrick</surname><given-names>G.</given-names></name><name><surname>Evans</surname><given-names>M.</given-names></name><name><surname>Gorski</surname><given-names>G.</given-names></name><name><surname>Foster</surname><given-names>S.</given-names></name><name><surname>Borghaei</surname><given-names>R.C.</given-names></name></person-group>
+<article-title>IL-4 inhibition of IL-1 induced Matrix metalloproteinase-3 (MMP-3) expression in human fibroblasts involves decreased AP-1 activation via negative crosstalk involving of Jun N-terminal kinase (JNK)</article-title>
+<source>Exp. Cell Res.</source>
+<year>2013</year>
+<volume>319</volume>
+<fpage>1398</fpage>
+<lpage>1408</lpage>
+<pub-id pub-id-type="doi">10.1016/j.yexcr.2013.04.010</pub-id>
+<?supplied-pmid 23608488?><pub-id pub-id-type="pmid">23608488</pub-id></element-citation></ref><ref id="B79-ijms-18-00440"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marchant</surname><given-names>D.J.</given-names></name><name><surname>Bellac</surname><given-names>C.L.</given-names></name><name><surname>Moraes</surname><given-names>T.J.</given-names></name><name><surname>Wadsworth</surname><given-names>S.J.</given-names></name><name><surname>Dufour</surname><given-names>A.</given-names></name><name><surname>Butler</surname><given-names>G.S.</given-names></name><name><surname>Bilawchuk</surname><given-names>L.M.</given-names></name><name><surname>Hendry</surname><given-names>R.G.</given-names></name><name><surname>Robertson</surname><given-names>A.G.</given-names></name><name><surname>Cheung</surname><given-names>C.T.</given-names></name><etal/></person-group>
+<article-title>A new transcriptional role for matrix metalloproteinase-12 in antiviral immunity</article-title>
+<source>Nat. Med.</source>
+<year>2014</year>
+<volume>20</volume>
+<fpage>493</fpage>
+<lpage>502</lpage>
+<pub-id pub-id-type="doi">10.1038/nm.3508</pub-id>
+<?supplied-pmid 24784232?><pub-id pub-id-type="pmid">24784232</pub-id></element-citation></ref><ref id="B80-ijms-18-00440"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eguchi</surname><given-names>T.</given-names></name><name><surname>Kubota</surname><given-names>S.</given-names></name><name><surname>Kawata</surname><given-names>K.</given-names></name><name><surname>Mukudai</surname><given-names>Y.</given-names></name><name><surname>Uehara</surname><given-names>J.</given-names></name><name><surname>Ohgawara</surname><given-names>T.</given-names></name><name><surname>Ibaragi</surname><given-names>S.</given-names></name><name><surname>Sasaki</surname><given-names>A.</given-names></name><name><surname>Kuboki</surname><given-names>T.</given-names></name><name><surname>Takigawa</surname><given-names>M.</given-names></name></person-group>
+<article-title>Novel transcription-factor-like function of human matrix metalloproteinase 3 regulating the <italic>CTGF/CCN2</italic> gene</article-title>
+<source>Mol. Cell. Biol.</source>
+<year>2008</year>
+<volume>28</volume>
+<fpage>2391</fpage>
+<lpage>2413</lpage>
+<pub-id pub-id-type="doi">10.1128/MCB.01288-07</pub-id>
+<?supplied-pmid 18172013?><pub-id pub-id-type="pmid">18172013</pub-id></element-citation></ref><ref id="B81-ijms-18-00440"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weng</surname><given-names>H.</given-names></name><name><surname>Yan</surname><given-names>Y.</given-names></name><name><surname>Jin</surname><given-names>Y.H.</given-names></name><name><surname>Meng</surname><given-names>X.Y.</given-names></name><name><surname>Mo</surname><given-names>Y.Y.</given-names></name><name><surname>Zeng</surname><given-names>X.T.</given-names></name></person-group>
+<article-title>Matrix metalloproteinase gene polymorphisms and periodontitis susceptibility: A meta-analysis involving 6162 individuals</article-title>
+<source>Sci. Rep.</source>
+<year>2016</year>
+<volume>6</volume>
+<fpage>24812</fpage>
+<pub-id pub-id-type="doi">10.1038/srep24812</pub-id>
+<?supplied-pmid 27095260?><pub-id pub-id-type="pmid">27095260</pub-id></element-citation></ref><ref id="B82-ijms-18-00440"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>D.</given-names></name><name><surname>Cai</surname><given-names>Q.</given-names></name><name><surname>Ma</surname><given-names>L.</given-names></name><name><surname>Wang</surname><given-names>M.</given-names></name><name><surname>Ma</surname><given-names>J.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Pan</surname><given-names>Y.</given-names></name><name><surname>Wang</surname><given-names>L.</given-names></name></person-group>
+<article-title>Association between MMP-1 g.-1607dupG polymorphism and periodontitis susceptibility: A meta-analysis</article-title>
+<source>PLoS ONE</source>
+<year>2013</year>
+<volume>8</volume>
+<elocation-id>e59513</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0059513</pub-id>
+<?supplied-pmid 23527212?><pub-id pub-id-type="pmid">23527212</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="ijms-18-00440-f001" position="float"><label>Figure 1</label><caption><p>Matrix metalloproteinase (MMP) activation cascades in connective tissue catabolism during periodontitis. Full and partial circles with their respective number represent latent and activated specific MMPs. Brown T bars represent collagen fibers. (<bold>A</bold>) Tooth and its supporting structures: radicular cement, periodontal ligament (PL) and alveolar bone; (<bold>B</bold>) Membrane bounded MMP-14 activates proMMP-13 to degrade type I collagen, which constitutes the bulk component of radicular cement, periodontal ligament (PL) and alveolar bone extracellular matrix; MMP-13 activates proMMP-9, which in turn might activate proMMP-2 and proMMP-13. MMP-2 and MMP-9 further process gelatin resulting from collagenase activity. MMP-13 can undergo auto-activation by self-proteolysis. Reactive oxygen species, such as HOCl and H<sub>2</sub>O<sub>2</sub>, from phagocytes can also modify the proteases/anti-proteases balance, activating latent MMPs and inactivating the tissue inhibitor of MMPs (TIMP)-1. MPO, myeloperoxidase.</p></caption><graphic xlink:href="ijms-18-00440-g001"/></fig><fig id="ijms-18-00440-f002" position="float"><label>Figure 2</label><caption><p>MMPs as regulators of periodontal inflammation. MMPs release cytokines/chemokines from the ECM, increasing their bioavailability and modifying their bioactivity. Conversely, MMPs can also cleave cytokines/chemokines generating truncated products that can act as competitive antagonists. The relative abundance of chemokines and cytokines favoring the infiltration of neutrophils (e.g., CXC motif chemokine ligand 8, a.k.a. CXCL8; LIX/CXCL5), macrophages (e.g., CC motif chemokine ligand 2, a.k.a. CCL2), and Th1/Th17 lymphocytes (e.g., CC motif chemokine ligand 20, a.k.a. CCL20) is determinant in the inflammatory destruction of periodontal tissues. MMPs can regulate wound healing, releasing angiogenic factors&#x02014;such as VEGF A&#x02014;from the extracellular matrix or through modifying transforming growth factor (TGF)-&#x003b2;1 signaling. MMPs also regulate bone resorption. MMP-13 activates osteoclast-secreted proMMP-9, inactivates galectin-3, an inhibitor of osteoclastogenesis, and favors receptor activator of nuclear factor-&#x003ba;B ligand (RANKL) and TGF-&#x003b2;1 signaling. CK/CC = cytokines/chemokines; OB = osteoblast; OC = osteoclast; M&#x000d8; = macrophage; Th = T helper CD4+ lymphocytes.</p></caption><graphic xlink:href="ijms-18-00440-g002"/></fig></floats-group></article>

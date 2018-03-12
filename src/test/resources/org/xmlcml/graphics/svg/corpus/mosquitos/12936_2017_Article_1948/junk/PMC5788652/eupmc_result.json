@@ -1,0 +1,539 @@
+{
+  "id": [
+    "29416784"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29416784"
+  ],
+  "pmcid": [
+    "PMC5788652"
+  ],
+  "doi": [
+    "10.18632/oncotarget.23502"
+  ],
+  "title": [
+    "Differential expression profile of CXCR3 splicing variants is associated with thyroid neoplasia. Potential role in papillary thyroid carcinoma oncogenesis?"
+  ],
+  "authorString": [
+    "Urra S, Fischer MC, Martínez JR, Véliz L, Orellana P, Solar A, Bohmwald K, Kalergis A, Riedel C, Corvalán AH, Roa JC, Fuentealba R, Cáceres CJ, López-Lastra M, León A, Droppelmann N, González HE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Urra S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "Urra"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fischer MC"
+          ],
+          "firstName": [
+            "Martin C"
+          ],
+          "lastName": [
+            "Fischer"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez JR"
+          ],
+          "firstName": [
+            "José R"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Véliz L"
+          ],
+          "firstName": [
+            "Loreto"
+          ],
+          "lastName": [
+            "Véliz"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Orellana P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Orellana"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Solar A"
+          ],
+          "firstName": [
+            "Antonieta"
+          ],
+          "lastName": [
+            "Solar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Pathology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bohmwald K"
+          ],
+          "firstName": [
+            "Karen"
+          ],
+          "lastName": [
+            "Bohmwald"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Department of Molecular Genetics and Microbiology, Faculty of Biological Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kalergis A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Kalergis"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Department of Molecular Genetics and Microbiology, Faculty of Biological Science, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Riedel C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Riedel"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Millennium Institute of Immunology and Immunotherapy, Department of Cell Biology, Faculty of Biological Science and Faculty of Medicine, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Department of Hematology and Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pathology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentealba R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Fuentealba"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences, Faculty of Health Sciences, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cáceres CJ"
+          ],
+          "firstName": [
+            "C Joaquin"
+          ],
+          "lastName": [
+            "Cáceres"
+          ],
+          "initials": [
+            "CJ"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Virology, Millennium Institute of Immunology and Immunotherapy, Department of Infectious Diseases and Pediatric Immunology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López-Lastra M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "López-Lastra"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7936-8478",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Virology, Millennium Institute of Immunology and Immunotherapy, Department of Infectious Diseases and Pediatric Immunology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "León A"
+          ],
+          "firstName": [
+            "Augusto"
+          ],
+          "lastName": [
+            "León"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Droppelmann N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Droppelmann"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González HE"
+          ],
+          "firstName": [
+            "Hernán E"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "HE"
+          ],
+          "affiliation": [
+            "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7936-8478",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2649698"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncotarget"
+          ],
+          "ISOAbbreviation": [
+            "Oncotarget"
+          ],
+          "medlineAbbreviation": [
+            "Oncotarget"
+          ],
+          "NLMid": [
+            "101532965"
+          ],
+          "ISSN": [
+            "1949-2553"
+          ],
+          "ESSN": [
+            "1949-2553"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "2445-2467"
+  ],
+  "abstractText": [
+    "Papillary thyroid cancer (PTC) is the most prevalent endocrine neoplasia. The increased incidence of PTC in patients with thyroiditis and the frequent immune infiltrate found in PTC suggest that inflammation might be a risk factor for PTC development. The CXCR3-ligand system is involved in thyroid inflammation and CXCR3 has been found upregulated in many tumors, suggesting its pro-tumorigenic role under the inflammatory microenvironment. CXCR3 ligands (CXCL4, CXCL9, CXCL10 and CXCL11) trigger antagonistic responses partly due to the presence of two splice variants, CXCR3A and CXCR3B. Whereas CXCR3A promotes cell proliferation, CXCR3B induces apoptosis. However, the relation between CXCR3 variant expression with chronic inflammation and PTC development remains unknown. Here, we characterized the expression pattern of CXCR3 variants and their ligands in benign tumors and PTC. We found that CXCR3A and CXCL10 mRNA levels were increased in non-metastatic PTC when compared to non-neoplastic tissue. This increment was also observed in a PTC epithelial cell line (TPC-1). Although elevated protein levels of both isoforms were detected in benign and malignant tumors, the CXCR3A expression remained greater than CXCR3B and promoted proliferation in Nthy-ori-3-1 cells. In non-metastatic PTC, inflammation was conditioning for the CXCR3 ligands increased availability. Consistently, CXCL10 was strongly induced by interferon gamma in normal and tumor thyrocytes. Our results suggest that persistent inflammation upregulates CXCL10 expression favoring tumor development via enhanced CXCR3A-CXCL10 signaling. These findings may help to further understand the contribution of inflammation as a risk factor in PTC development and set the basis for potential therapeutic studies."
+  ],
+  "affiliation": [
+    "Department of Surgical Oncology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chemokine receptors",
+        "Inflammation",
+        "CXCR3",
+        "CXCL10",
+        "Papillary Thyroid Cancer"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5788652?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5788652"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.18632/oncotarget.23502"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-09"
+  ],
+  "dateOfRevision": [
+    "2018-02-13"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-20"
+  ],
+  "firstPublicationDate": [
+    "2017-12-20"
+  ]
+}

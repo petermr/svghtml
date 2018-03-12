@@ -1,0 +1,330 @@
+{
+  "id": [
+    "27815917"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27815917"
+  ],
+  "pmcid": [
+    "PMC5097060"
+  ],
+  "doi": [
+    "10.1186/s13568-016-0275-z"
+  ],
+  "title": [
+    "Immobilization of the white-rot fungus Anthracophyllum discolor to degrade the herbicide atrazine."
+  ],
+  "authorString": [
+    "Elgueta S, Santos C, Lima N, Diez MC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Elgueta S"
+          ],
+          "firstName": [
+            "S"
+          ],
+          "lastName": [
+            "Elgueta"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Chemical Sciences and Natural Resources, University of La Frontera, Av. Francisco Salazar, 01145, Temuco, Chile. sebastian.elgueta@inia.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Santos C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Santos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4681-0941",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Chemical Sciences and Natural Resources, University of La Frontera, Av. Francisco Salazar, 01145, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lima N"
+          ],
+          "firstName": [
+            "N"
+          ],
+          "lastName": [
+            "Lima"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2185-0613",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CEB-Centre of Biological Engineering, Micoteca da Universidade do Minho, University of Minho, Campus Gualtar, 4710-057, Braga, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Diez MC"
+          ],
+          "firstName": [
+            "M C"
+          ],
+          "lastName": [
+            "Diez"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering, University of La Frontera, Av. Francisco Salazar, 01145, Temuco, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4681-0941",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2185-0613",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2358673"
+      ],
+      "dateOfPublication": [
+        "2016 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "AMB Express"
+          ],
+          "ISOAbbreviation": [
+            "AMB Express"
+          ],
+          "medlineAbbreviation": [
+            "AMB Express"
+          ],
+          "NLMid": [
+            "101561785"
+          ],
+          "ISSN": [
+            "2191-0855"
+          ],
+          "ESSN": [
+            "2191-0855"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "104"
+  ],
+  "abstractText": [
+    "Herbicides cause environmental concerns because they are toxic and accumulate in the environment, food products and water supplies. There is a need to develop safe, efficient and economical methods to remove them from the environment, often by biodegradation. Atrazine is such herbicide. White-rot fungi have the ability to degrade herbicides of potential utility. This study formulated a novel pelletized support to immobilize the white-rot fungus Anthracophyllum discolor to improve its capability to degrade the atrazine using a biopurification system (BS). Different proportions of sawdust, starch, corn meal and flaxseed were used to generate three pelletized supports (F1, F2 and F3). In addition, immobilization with coated and uncoated pelletized supports (CPS and UPS, respectively) was assessed. UPS-F1 was determined as the most effective system as it provided high level of manganese peroxidase activity and fungal viability. The half-life (t1/2) of atrazine decreased from 14 to 6 days for the control and inoculated samples respectively. Inoculation with immobilized A. discolor produced an increase in the fungal taxa assessed by DGGE and on phenoloxidase activity determined. The treatment improves atrazine degradation and reduces migration to surface and groundwater."
+  ],
+  "affiliation": [
+    "Department of Chemical Sciences and Natural Resources, University of La Frontera, Av. Francisco Salazar, 01145, Temuco, Chile. sebastian.elgueta@inia.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "White-rot fungus",
+        "Biopurification System",
+        "Herbicide Degradation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5097060?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5097060"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13568-016-0275-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-05"
+  ],
+  "dateOfRevision": [
+    "2017-06-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-04"
+  ],
+  "firstPublicationDate": [
+    "2016-11-04"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": [
+    "29381724"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29381724"
+  ],
+  "pmcid": [
+    "PMC5790248"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0191825"
+  ],
+  "title": [
+    "Non-linear models for the detection of impaired cerebral blood flow autoregulation."
+  ],
+  "authorString": [
+    "Chacón M, Jara JL, Miranda R, Katsogridakis E, Panerai RB."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chacón M"
+          ],
+          "firstName": [
+            "Max"
+          ],
+          "lastName": [
+            "Chacón"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5082-0395",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Informática, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jara JL"
+          ],
+          "firstName": [
+            "José Luis"
+          ],
+          "lastName": [
+            "Jara"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Informática, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Informática, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Katsogridakis E"
+          ],
+          "firstName": [
+            "Emmanuel"
+          ],
+          "lastName": [
+            "Katsogridakis"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Cardiovascular Science, University of Leicester, Leicester, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Panerai RB"
+          ],
+          "firstName": [
+            "Ronney B"
+          ],
+          "lastName": [
+            "Panerai"
+          ],
+          "initials": [
+            "RB"
+          ],
+          "affiliation": [
+            "Department of Cardiovascular Science, University of Leicester, Leicester, United Kingdom."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5082-0395",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2633893"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e0191825"
+  ],
+  "abstractText": [
+    "The ability to discriminate between normal and impaired dynamic cerebral autoregulation (CA), based on measurements of spontaneous fluctuations in arterial blood pressure (BP) and cerebral blood flow (CBF), has considerable clinical relevance. We studied 45 normal subjects at rest and under hypercapnia induced by breathing a mixture of carbon dioxide and air. Non-linear models with BP as input and CBF velocity (CBFV) as output, were implemented with support vector machines (SVM) using separate recordings for learning and validation. Dynamic SVM implementations used either moving average or autoregressive structures. The efficiency of dynamic CA was estimated from the model's derived CBFV response to a step change in BP as an autoregulation index for both linear and non-linear models. Non-linear models with recurrences (autoregressive) showed the best results, with CA indexes of 5.9 ± 1.5 in normocapnia, and 2.5 ± 1.2 for hypercapnia with an area under the receiver-operator curve of 0.955. The high performance achieved by non-linear SVM models to detect deterioration of dynamic CA should encourage further assessment of its applicability to clinical conditions where CA might be impaired."
+  ],
+  "affiliation": [
+    "Departamento de Ingeniería Informática, Universidad de Santiago de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5790248?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5790248"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0191825"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-31"
+  ],
+  "dateOfRevision": [
+    "2018-02-25"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-30"
+  ],
+  "firstPublicationDate": [
+    "2018-01-30"
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "id": [
+    "26450716"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26450716"
+  ],
+  "pmcid": [
+    "PMC4599075"
+  ],
+  "doi": [
+    "10.1128/genomea.00600-15"
+  ],
+  "title": [
+    "Complete Genome Sequence of Salmonella enterica Serovar Enteritidis Bacteriophage f18SE, Isolated in Chile."
+  ],
+  "authorString": [
+    "Segovia C, Vasquez I, Maracaja-Coutinho V, Robeson J, Santander J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Segovia C"
+          ],
+          "firstName": [
+            "Cristopher"
+          ],
+          "lastName": [
+            "Segovia"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Microbial Pathogenesis and Vaccinology Laboratory, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile Integrative Genomics PhD program, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vasquez I"
+          ],
+          "firstName": [
+            "Ignacio"
+          ],
+          "lastName": [
+            "Vasquez"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Microbial Pathogenesis and Vaccinology Laboratory, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile School of Biotechnology, Universidad Mayor, Huechuraba, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maracaja-Coutinho V"
+          ],
+          "firstName": [
+            "Vinicius"
+          ],
+          "lastName": [
+            "Maracaja-Coutinho"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8873-9381",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Integrative Bioinformatics, Center for Genomics and Bioinformatics, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile Instituto Vandique, João Pessoa, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Robeson J"
+          ],
+          "firstName": [
+            "James"
+          ],
+          "lastName": [
+            "Robeson"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Microbiology Laboratory, Institute of Biology, Pontificia Universidad Catolica de Valparaiso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santander J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Santander"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Microbial Pathogenesis and Vaccinology Laboratory, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile School of Life Sciences, Arizona State University, Tempe, Arizona, USA jasantanderm@asu.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8873-9381",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2320893"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "abstractText": [
+    "Bacteriophage f18SE was isolated from poultry sewage in Olmue, Chile, and lytic activity was demonstrated against Salmonella enterica serovar Enteritidis and serovar Pullorum strains. This bacteriophage has a 41,868-bp double-stranded DNA (ds-DNA) genome encoding 53 coding sequences (CDSs) and belongs to the family Siphoviridae, subfamily Jerseyvirinae."
+  ],
+  "affiliation": [
+    "Microbial Pathogenesis and Vaccinology Laboratory, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile Integrative Genomics PhD program, Faculty of Sciences, Universidad Mayor, Huechuraba, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4599075?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4599075"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00600-15"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL",
+        "UNIPROT"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2015-10-09"
+  ],
+  "dateOfCreation": [
+    "2015-10-09"
+  ],
+  "dateOfRevision": [
+    "2015-10-13"
+  ],
+  "electronicPublicationDate": [
+    "2015-10-08"
+  ],
+  "firstPublicationDate": [
+    "2015-10-08"
+  ]
+}

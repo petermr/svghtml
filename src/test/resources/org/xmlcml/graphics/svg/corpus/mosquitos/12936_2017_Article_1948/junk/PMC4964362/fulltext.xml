@@ -1,0 +1,1181 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Mol Sci</journal-id><journal-id journal-id-type="iso-abbrev">Int J Mol Sci</journal-id><journal-id journal-id-type="publisher-id">ijms</journal-id><journal-title-group><journal-title>International Journal of Molecular Sciences</journal-title></journal-title-group><issn pub-type="epub">1422-0067</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4964362</article-id><article-id pub-id-type="doi">10.3390/ijms17070797</article-id><article-id pub-id-type="publisher-id">ijms-17-00797</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Role of the Renin-Angiotensin-Aldosterone System beyond Blood Pressure Regulation: Molecular and Cellular Mechanisms Involved in End-Organ Damage during Arterial Hypertension</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Mu&#x000f1;oz-Durango</surname><given-names>Natalia</given-names></name><xref ref-type="aff" rid="af1-ijms-17-00797">1</xref><xref ref-type="author-notes" rid="fn1-ijms-17-00797">&#x02020;</xref></contrib><contrib contrib-type="author"><name><surname>Fuentes</surname><given-names>Crist&#x000f3;bal A.</given-names></name><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref><xref ref-type="author-notes" rid="fn1-ijms-17-00797">&#x02020;</xref></contrib><contrib contrib-type="author"><name><surname>Castillo</surname><given-names>Andr&#x000e9;s E.</given-names></name><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref></contrib><contrib contrib-type="author"><name><surname>Gonz&#x000e1;lez-G&#x000f3;mez</surname><given-names>Luis Mart&#x000ed;n</given-names></name><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref></contrib><contrib contrib-type="author"><name><surname>Vecchiola</surname><given-names>Andrea</given-names></name><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref></contrib><contrib contrib-type="author"><name><surname>Fardella</surname><given-names>Carlos E.</given-names></name><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref><xref rid="c1-ijms-17-00797" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Kalergis</surname><given-names>Alexis M.</given-names></name><xref ref-type="aff" rid="af1-ijms-17-00797">1</xref><xref ref-type="aff" rid="af2-ijms-17-00797">2</xref><xref rid="c1-ijms-17-00797" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Mihailidou</surname><given-names>Anastasia Susie</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijms-17-00797"><label>1</label>Millenium Institute on Immunology and Immunotherapy, Departamento de Gen&#x000e9;tica Molecular y Microbiolog&#x000ed;a, Facultad de Ciencias Biol&#x000f3;gicas, Pontificia Universidad Cat&#x000f3;lica de Chile, 8330025 Santiago, Chile; <email>nmunoz4@uc.cl</email></aff><aff id="af2-ijms-17-00797"><label>2</label>Millenium Institute on Immunology and Immunotherapy, Departamento de Endocrinolog&#x000ed;a, Escuela de Medicina, Pontificia Universidad Cat&#x000f3;lica de Chile, 8330074 Santiago, Chile; <email>cristobal.fuentes.z@gmail.com</email> (C.A.F.); <email>acastilloram@gmail.com</email> (A.E.C.); <email>luismartin.gonzalezgomez@gmail.com</email> (L.M.G.-G.); <email>andreavecchiola@gmail.com</email> (A.V.)</aff><author-notes><corresp id="c1-ijms-17-00797"><label>*</label>Correspondence: <email>cfardella@med.puc.cl</email> (C.E.F.); <email>akalergis@bio.puc.cl</email> (A.M.K.); Tel.: +56-223-543-813 (C.E.F.); +56-223-542-842 (A.M.K.)</corresp><fn id="fn1-ijms-17-00797"><label>&#x02020;</label><p>These authors contributed equally in this manuscript.</p></fn></author-notes><pub-date pub-type="epub"><day>23</day><month>6</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2016</year></pub-date><volume>17</volume><issue>7</issue><elocation-id>797</elocation-id><history><date date-type="received"><day>24</day><month>3</month><year>2016</year></date><date date-type="accepted"><day>10</day><month>5</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Arterial hypertension is a common condition worldwide and an important predictor of several complicated diseases. Arterial hypertension can be triggered by many factors, including physiological, genetic, and lifestyle causes. Specifically, molecules of the renin-angiotensin-aldosterone system not only play important roles in the control of blood pressure, but they are also associated with the genesis of arterial hypertension, thus constituting a need for pharmacological interventions. Chronic high pressure generates mechanical damage along the vascular system, heart, and kidneys, which are the principal organs affected in this condition. In addition to mechanical stress, hypertension-induced oxidative stress, chronic inflammation, and the activation of reparative mechanisms lead to end-organ damage, mainly due to fibrosis. Clinical trials have demonstrated that renin-angiotensin-aldosterone system intervention in hypertensive patients lowers morbidity/mortality and inflammatory marker levels as compared to placebo patients, evidencing that this system controls more than blood pressure. This review emphasizes the detrimental effects that a renin-angiotensin-aldosterone system (RAAS) imbalance has on health considerations above and beyond high blood pressure, such as fibrotic end-organ damage.</p></abstract><kwd-group><kwd>renin-angiotensin-aldosterone system (RAAS)</kwd><kwd>angiotensin II</kwd><kwd>aldosterone</kwd><kwd>end-organ damage</kwd><kwd>fibrosis</kwd><kwd>hypertension</kwd><kwd>primary aldosteronism</kwd></kwd-group></article-meta></front><body><sec id="sec1-ijms-17-00797"><title>1. Introduction</title><p>Arterial hypertension (AH) is a frequent condition, affecting approximately 26% of the general population worldwide. This incidence rate is expected to rise to 30% by 2025 due to changing epidemiological profiles [<xref rid="B1-ijms-17-00797" ref-type="bibr">1</xref>]. Current AH treatment involves lifestyle changes and drug therapy for lowering blood pressure. However, the underlying causes of AH are not addressed, resulting in a number of adverse effects and high treatment costs for patients. Furthermore, AH is one of the most prevalent risk factors for predominant coronary and brain-vascular diseases, such as heart diseases and strokes [<xref rid="B2-ijms-17-00797" ref-type="bibr">2</xref>,<xref rid="B3-ijms-17-00797" ref-type="bibr">3</xref>].</p><p>In more than 90% of cases, AH has an unknown etiology and is consequently diagnosed as essential, or primary AH. The remaining 10% of cases are diagnosed as secondary AH characterized by autonomous aldosterone production, caused by renal, cardiovascular, neurological, and endocrine diseases [<xref rid="B4-ijms-17-00797" ref-type="bibr">4</xref>,<xref rid="B5-ijms-17-00797" ref-type="bibr">5</xref>,<xref rid="B6-ijms-17-00797" ref-type="bibr">6</xref>,<xref rid="B7-ijms-17-00797" ref-type="bibr">7</xref>].</p><p>The renin-angiotensin-aldosterone system (RAAS) is one of the most important hormonal mechanisms in controlling hemodynamic stability by regulating blood pressure, fluid volume, and sodium-potassium balance. For that reason, an alteration in any molecules that compose RAAS contributes to developing AH [<xref rid="B8-ijms-17-00797" ref-type="bibr">8</xref>]. Renin is synthesized in the kidneys as an inactive form and released into circulation in response to low levels of intratubular sodium, hypotension in the afferent arterioles of renal glomerulus, and sympathetic activation. In the blood stream pro-renin is activated by proteolytic and nonproteolitic mechanisms to produce the active form [<xref rid="B9-ijms-17-00797" ref-type="bibr">9</xref>]. Here the active renin catalyzes the cleavage of the glycoprotein angiotensinogen, generating angiotensin I (Ang I). Ang I is cleaved by the angiotensin-converting enzyme (ACE) to produce angiotensin II (Ang II), the main effector in the RAAS, while neutral endopeptidases (EP) cleave angiotensin I to produce angiotensin-(1-7), another active peptide of this system that typically opposes the effects of Ang II. Most of the known proliferative and profibrotic effects of Ang II are through the angiotensin type 1 receptor (AT1-R), but it can also bind to the Ang II type 2 receptor (AT2-R) thereby triggering opposite effects to those at the AT1-R [<xref rid="B10-ijms-17-00797" ref-type="bibr">10</xref>]. Angiotensin-(1-7) can also be produced by the cleavage of Ang II by angiotensin-converting enzyme 2 (ACE2), thus reducing the concentration in favor of AngII, which promotes vasodilatation on cardiac and vascular tissues [<xref rid="B11-ijms-17-00797" ref-type="bibr">11</xref>,<xref rid="B12-ijms-17-00797" ref-type="bibr">12</xref>].</p><p>Aldosterone is another effector molecule of the RAAS, whose synthesis and secretion are stimulated by Ang II through the AT1-R in the adrenal cortex. Through specific actions on the distal nephron of the kidney, aldosterone promotes sodium reabsorption, water retention, and potassium and magnesium loss, thereby modulating extracellular space volume and blood pressure [<xref rid="B13-ijms-17-00797" ref-type="bibr">13</xref>]. The genomic effects of aldosterone occur through binding to the mineralocorticoid receptor (MR), translocating to the nucleus, interacting with the DNA, and thus promoting the transcription of genes that regulate electrolyte and fluid balance [<xref rid="B14-ijms-17-00797" ref-type="bibr">14</xref>]. The MR has high affinity for both aldosterone and 11&#x003b2;-glucocorticoids, therefore binding of aldosterone to MR in kidneys is favored by the inactivation of cortisol to cortisone by the action of the enzyme 11&#x003b2;-hydroxysteroid dehydrogenase type 2. On the other hand, the aldosterone non-genomic pathways are through the AT1-R, G-protein-coupled receptor [<xref rid="B15-ijms-17-00797" ref-type="bibr">15</xref>], and epidermal growth factor receptors [<xref rid="B16-ijms-17-00797" ref-type="bibr">16</xref>]. Some of the effectors of these receptors are the MAPK/ERK1-2/p38 signaling pathways, mediating vascular remodeling, inflammation, and fibrosis [<xref rid="B17-ijms-17-00797" ref-type="bibr">17</xref>], also involved in cardiorenal and metabolic diseases [<xref rid="B18-ijms-17-00797" ref-type="bibr">18</xref>,<xref rid="B19-ijms-17-00797" ref-type="bibr">19</xref>]. Once aldosterone is produced and secreted in the epithelial cells from the renal tubule [<xref rid="B20-ijms-17-00797" ref-type="bibr">20</xref>] or vascular smooth muscle cells (VSMCs) [<xref rid="B21-ijms-17-00797" ref-type="bibr">21</xref>], it induces the expression of genes related to water absorption, such as epithelial 3 sodium channel (ENaC), sodium-potassium ATPase, and serum/glucocorticoid regulated kinase 1 (SGK1) [<xref rid="B22-ijms-17-00797" ref-type="bibr">22</xref>,<xref rid="B23-ijms-17-00797" ref-type="bibr">23</xref>]. The main goal of these processes is to maintain a normal arterial blood pressure range by controlling water and electrolyte homeostasis.</p><p>Since blood pressure is finely tuned by the RAAS any unbalance in this system will produce arterial blood pressure alterations (<xref ref-type="fig" rid="ijms-17-00797-f001">Figure 1</xref>). Nowadays, the use of MR antagonism, ACE inhibitors, and AT-R antagonism as drugs used to control the blood pressure has also demonstrated additional benefits besides lowering blood pressure. In this review we present the available data regarding the role of RAAS molecules in generating end-organ damage during arterial hypertension.</p></sec><sec id="sec2-ijms-17-00797"><title>2. The Role of Angiotensin II and Aldosterone-Dependent End-Organ Damage during Arterial Hypertension</title><p>The randomized Aldactone evaluation study (RALES) and Eplerenone post-acute myocardial infarction heart and survival study (EPHESUS) are clinical trials that evaluated the role of MR antagonism in patients with severe heart failure and patients with acute myocardial infarction complicated by left ventricular dysfunction, respectively. These trials demonstrated substantially reduced risks of morbidity and mortality when patients were treated by standard therapy together with MR antagonist spironolactone or eplerenone [<xref rid="B24-ijms-17-00797" ref-type="bibr">24</xref>,<xref rid="B25-ijms-17-00797" ref-type="bibr">25</xref>]. Further analysis of the EPHESUS cohort demonstrated that these positive results, which went beyond diuretic effects and potassium sparing, could be related to an unknown mechanism [<xref rid="B26-ijms-17-00797" ref-type="bibr">26</xref>].</p><p>Also, in the prospective intervention trial captopril prevention project (CAPPP) [<xref rid="B27-ijms-17-00797" ref-type="bibr">27</xref>] and Swedish Trial in Old Patients with Hypertension-2 study (STOP-Hypertension 2) [<xref rid="B28-ijms-17-00797" ref-type="bibr">28</xref>] the potential benefits of ACE inhibitor (captopril) in addition to a conventional antihypertensive regimen of diuretics or &#x003b2;-blockers was evaluated in essential hypertension patients. Unfortunately, none of these studies showed significant differences in the outcome measured as cardiovascular morbidity and mortality, concluding that available drugs are just equally efficient at controlling AH. However, a meta-analysis study that encompasses clinical studies directed to evaluate the role of ACE inhibitors in cardiac hypertrophy, demonstrated that ACE drugs were more potent than &#x003b2;-blockers and diuretics reducing left ventricular mass index [<xref rid="B29-ijms-17-00797" ref-type="bibr">29</xref>]. Additionally, clinical evidence suggests the renoprotective effects of ACE and AT-R inhibitors in hypertensive and diabetic patients with kidney failure [<xref rid="B30-ijms-17-00797" ref-type="bibr">30</xref>], thereby designating these drugs as the first-line candidates to reduce the risk associated with left ventricular hypertrophy and kidney protection. Recently a study made in an animal model revealed that AT1-R expressed exclusively in the kidney is sufficient to generate hypertension mediated for angiotensin II and 2% NaCl infusion [<xref rid="B31-ijms-17-00797" ref-type="bibr">31</xref>]. In addition, the authors demonstrated that cardiac hypertrophy and tissue damage in the heart is addressed by AT1-R expression in kidneys, rather than the expression of this receptor systemically. All of these findings suggest that deregulation of Ang II not only contributes to blood pressure regulation, but also to cardiovascular complications.</p><p>In primary aldosteronism (PA), aldosterone biosynthesis is independent of the RAAS regulation [<xref rid="B32-ijms-17-00797" ref-type="bibr">32</xref>]. The prevalence of PA among hypertensive patients is between 6% and 10%, and this prevalence is greater in severely hypertensive patients [<xref rid="B33-ijms-17-00797" ref-type="bibr">33</xref>,<xref rid="B34-ijms-17-00797" ref-type="bibr">34</xref>]. Similarly, approximately 15% of essential hypertensive patients have inappropriate aldosterone levels [<xref rid="B35-ijms-17-00797" ref-type="bibr">35</xref>,<xref rid="B36-ijms-17-00797" ref-type="bibr">36</xref>,<xref rid="B37-ijms-17-00797" ref-type="bibr">37</xref>]. The main subtypes of PA are bilateral adrenal hyperplasia (BAH), aldosterone-producing adenomas (APA), and idiopathic aldosteronism. APA patients present small, benign, and well delimited aldosterone-producing adenomas in the adrenal epithelium [<xref rid="B38-ijms-17-00797" ref-type="bibr">38</xref>]. BAH patients present a hyperplasic zona glomerulosa of the adrenal cortex. Further, unilateral primary adrenal hyperplasia patients have unilateral aldosterone secretion without a detectable adenoma [<xref rid="B39-ijms-17-00797" ref-type="bibr">39</xref>]. Other causes of PA are suprarenal carcinoma and several types of familial hyperaldosteronism (FH). Briefly, FH Type I (FH-I), also known as glucocorticoid-remediable aldosteronism, is produced by the expression of an adrenocorticotropic hormone-regulated aldosterone synthase, generated by an unequal crossover of the <italic>CYP11B1</italic> and <italic>CYP11B2</italic> genes [<xref rid="B36-ijms-17-00797" ref-type="bibr">36</xref>,<xref rid="B40-ijms-17-00797" ref-type="bibr">40</xref>,<xref rid="B41-ijms-17-00797" ref-type="bibr">41</xref>,<xref rid="B42-ijms-17-00797" ref-type="bibr">42</xref>]. FH-II is a glucocorticoid-resistant form of PA, present in patients with a familial history of PA caused by adrenal adenoma or hyperplasia. There is no etiopathogenic mechanism described for this type of FH [<xref rid="B41-ijms-17-00797" ref-type="bibr">41</xref>,<xref rid="B43-ijms-17-00797" ref-type="bibr">43</xref>,<xref rid="B44-ijms-17-00797" ref-type="bibr">44</xref>]. FH-III is associated with several mutations in the G-protein activated Inward Rectifier Potassium Channel 4 coding gene <italic>KCNJ5</italic>, altering ionic homeostasis and causing increased aldosterone production from severely hyperplasic adrenal glands [<xref rid="B45-ijms-17-00797" ref-type="bibr">45</xref>,<xref rid="B46-ijms-17-00797" ref-type="bibr">46</xref>]. The recently described FH-IV is associated with mutations in calcium channels CACNA1D and CACNHA1H in patients who presented PA along with severe developmental abnormalities or juvenile hypertension and PA [<xref rid="B47-ijms-17-00797" ref-type="bibr">47</xref>,<xref rid="B48-ijms-17-00797" ref-type="bibr">48</xref>].</p><p>Patients with PA are more susceptible to cardiovascular complications, including left ventricular hypertrophy [<xref rid="B49-ijms-17-00797" ref-type="bibr">49</xref>], stroke, non-fatal myocardial infarction, and atrial fibrillation [<xref rid="B2-ijms-17-00797" ref-type="bibr">2</xref>]. Furthermore, an increased aldosterone-renin ratio in patients with resistant hypertension is considered a predictor of exacerbated cardiovascular injury, in addition to increasing the risk of developing uncontrolled resistant hypertension [<xref rid="B5-ijms-17-00797" ref-type="bibr">5</xref>]. High plasma levels of aldosterone can also induce structural and functional alterations in the heart, kidneys, and blood vessels, such as vascular inflammation, myocardial fibrosis, nephrosclerosis, and tissue remodeling [<xref rid="B33-ijms-17-00797" ref-type="bibr">33</xref>,<xref rid="B49-ijms-17-00797" ref-type="bibr">49</xref>,<xref rid="B50-ijms-17-00797" ref-type="bibr">50</xref>]. Moreover, PA patients have elevated levels of oxidative stress markers as compared to essential hypertensive patients. These markers include malondialdehyde, a lipid peroxidation marker of endothelial inflammation, and procollagen type 1 amino-terminal propeptide, a marker of myocardial collagen synthesis. The levels of these markers decrease after the specific treatment of PA [<xref rid="B51-ijms-17-00797" ref-type="bibr">51</xref>].</p><p>The important role of RAAS molecules in hypertension has not only been demonstrated in the adult population, healthy children with hypertensive parents also have the tendency to present a higher aldosterone-renin ratio than healthy children with normotensive parents [<xref rid="B52-ijms-17-00797" ref-type="bibr">52</xref>]. Additional evidence obtained from a group of hypertensive children demonstrated an association between the aldosterone-renin ratio and carotid intima&#x02013;media thickness, a potential marker of hypertensive vascular damage [<xref rid="B53-ijms-17-00797" ref-type="bibr">53</xref>]. These observations highlight the detrimental impact that RAAS molecules can have, even at an early age. This situation becomes even more relevant when considering the growing frequency of hypertension in children [<xref rid="B52-ijms-17-00797" ref-type="bibr">52</xref>].</p></sec><sec id="sec3-ijms-17-00797"><title>3. Fibrosis, Inflammation, and Their Relation to Arterial Hypertension</title><p>Fibrosis is defined as an overgrowth, hardening, and/or scarring of various tissues and is attributed to an excessive deposition of extracellular matrix components, including collagen [<xref rid="B54-ijms-17-00797" ref-type="bibr">54</xref>]. Fibrosis is the result of chronic exposure to a wide range of stimuli, such as persistent infections, autoimmune reactions, allergic responses, chemical insults, radiation, and tissue injury. These stimuli induce the secretion of molecules involved in the activation of target cells related to the fibrotic process, including cytokines: IL-13, IL-21, transforming growth factor beta 1 (TGF-&#x003b2;1); chemokines: MCP-1, MIP-1&#x003b2;; angiogenic factors: VEGF; growth factors: PDGF; peroxisome proliferator-activated receptors; acute phase proteins; caspases; and components of the RAAS [<xref rid="B54-ijms-17-00797" ref-type="bibr">54</xref>]. This process also plays an important role in the reparation/degradation ratio of the tissue repairing process. For example, if prolonged fibrosis occurs, molecules such as tissue inhibitors of metalloproteinases and metalloproteinases themselves are crucial.</p><p>The key cellular mediator of fibrosis is the myofibroblast [<xref rid="B55-ijms-17-00797" ref-type="bibr">55</xref>]. Once activated, myofibroblasts serve as the primary collagen-producing cells. These cells are derived from a variety of sources, including resident mesenchymal cells, epithelial and endothelial cells in processes of epithelial/endothelial-mesenchymal transition, and circulating fibroblast-like cells originated from bone marrow stem cells. Also, the TGF-&#x003b2;1 signaling pathway is closely related with fibrosis development due to its capacity to induce the synthesis of extracellular matrix, to inhibit the effects of proteases that degrade extracellular matrix, and to increase the expression of cell surface integrins that interact with matrix components [<xref rid="B56-ijms-17-00797" ref-type="bibr">56</xref>]. In adult bovine vascular endothelial cells, TGF-&#x003b2;1 induces its differentiation into smooth muscle cells. Previous authors have shown the disruption of cell&#x02014;cell contacts and the acquisition of smooth muscle or myofibroblastic phenotype in these cells [<xref rid="B57-ijms-17-00797" ref-type="bibr">57</xref>]. In addition, in vivo studies made in models of cardiac fibrosis corroborate that fibrosis is originated from endothelial cells through TGF-&#x003b2;1 stimulation, whereas the antagonist bone morphogenic protein 7 preserved the endothelial phenotype and reversed the endothelial to mesenchimal transition induced by TGF-&#x003b2;1 [<xref rid="B58-ijms-17-00797" ref-type="bibr">58</xref>]. Finally, rat animal models of kidney fibrosis, established a close cross-talk between Ang II, aldosterone and TGF-&#x003b2;1 to generate abundant myofibroblasts recruitment at the sites of fibrosis [<xref rid="B59-ijms-17-00797" ref-type="bibr">59</xref>]. The specific mechanisms involved in the fibrotic phenotype induced by Ang II and aldosterone will be discussed below.</p><p>The endothelial-mesenchymal transition induced by growth factors and cytokines is not a unique mechanism related with fibrosis. It was recently described that vascular adventitial fibroblasts have the ability to produce endotelin-1 in response to Ang II stimulation, which contributes to synthesis of extracellular matrix components, collagen and procollagen, suggesting a role during fibrosis development [<xref rid="B60-ijms-17-00797" ref-type="bibr">60</xref>]. Additionally, vascular adventitial fibroblasts in response to Ang II induced the secretion of IL-6 and changing the expression of adhesion and migration of molecules P-selectin and ICAM-1 [<xref rid="B61-ijms-17-00797" ref-type="bibr">61</xref>]. These changes impact in macrophage migration and accumulation in vascular tissue thereby linking the inflammation with a fibrotic phenotype.</p><p>In addition, cells of the immune system play pivotal roles in the genesis of fibrosis due to their role in recognizing and responding against danger associated molecular pattern molecules (DAMPs) via Toll-Like Receptors (TLRs). Specifically, during chronic hypertension, continuous cell damage and oxidative stress generate the release of many potential DAMPs from dead cells. Three of these molecules described as ligands of TLRs in arterial hypertensive models are: the high mobility group box 1 protein (HMGB1), mitochondrial DNA, and heparan sulfate [<xref rid="B62-ijms-17-00797" ref-type="bibr">62</xref>,<xref rid="B63-ijms-17-00797" ref-type="bibr">63</xref>,<xref rid="B64-ijms-17-00797" ref-type="bibr">64</xref>].</p><p>In order to link inflammation, vascular remodeling and renal injury under hypertensive conditions are controlled by TLRs sensing, many experiments have been made in animal models. The first demonstration came from a TLR4 knockout mice model, which develops less-severe left ventricular hypertrophy following aortic banding compared to its respective sham controls [<xref rid="B65-ijms-17-00797" ref-type="bibr">65</xref>]. Then, experiments made in mice infused with Ang II for two weeks, showed an up-regulation of mRNA-TLR4 in aortic segments, high expression of IL-6 and TNF-&#x003b1;, endothelial dysfunction, collagen deposition and vascular structural alterations, higher media thickness, and augmented media:lumen ratio compared to controls [<xref rid="B66-ijms-17-00797" ref-type="bibr">66</xref>]. All of these markers were normalized after anti-TLR4 antibody treatment, but neither blood pressure nor left ventricular hypertrophy was modulated, indicating that inflammation through TLR4 signaling contributed only to pro-fibrotic phenotype. These results were also described in spontaneous hypertensive rats (SHR) treated with anti-TLR4 antibody [<xref rid="B67-ijms-17-00797" ref-type="bibr">67</xref>]. Additionally, Wistar rats infused with aldosterone and 1% NaCl for four weeks augmented the cardiac and renal expression of TLR4 [<xref rid="B68-ijms-17-00797" ref-type="bibr">68</xref>]. They links this augment with higher expression of cytokines (TNF-&#x003b1;, IL-1&#x003b2; and MCP-1), cardiac and renal collagen deposition, and fibrosis because a TLR4 signaling inhibitor, TAK-242, reversed these alterations. Importantly, Eissler et al. described that TLR4 expression in cardiac tissue during AH development is gradual during life in spontaneous hypertensive rats (SHR) compared with controls. The authors also demonstrated that antihypertensive drug therapy (Ramipril) avoided the overexpression of TLR4 and also the inflammatory response in cardiac tissue [<xref rid="B64-ijms-17-00797" ref-type="bibr">64</xref>], directly indicating that chronic AH <italic>per se</italic> generates inflammatory changes in these tissues.</p><p>The uses of TLRs antagonism not only demonstrated their pivotal role in the fibrotic process in arterial hypertensive animal models, but also its participation in the perpetuation of organ damage. Meanwhile, the demonstration of endogenous ligand molecules as inflammatory mediators of AH and end-organ damage are still under research.</p></sec><sec id="sec4-ijms-17-00797"><title>4. RAAS Molecules Implicated in Kidney Damage in Arterial Hypertension</title><p>Kidneys play a pivotal role in blood pressure control through several mechanisms, natriuresis and diuresis, neuro-hormonal factors such as RAAS, and the regulation of sympathetic nervous system activity. Kidneys are one of the organs affected during hypertension, resulting in functional and structural damage with consequent renal dysfunction, in turn inducing an exacerbated hypertension phenotype. Therefore, managing only blood pressure is insufficient to treat hypertension-associated end-organ damage [<xref rid="B69-ijms-17-00797" ref-type="bibr">69</xref>].</p><p>Aldosterone can cause sustained renal damage in rat models of hyperaldosteronism, such as in deoxycorticosterone-high salt models (DOCA-salt) or through the chronic infusion of aldosterone in stroke-prone, spontaneously hypertensive rats drinking a 1% NaCl solution. Aldosterone-induced damage is characterized by proteinuria, collagen accumulation, and glomerular structural lesions [<xref rid="B70-ijms-17-00797" ref-type="bibr">70</xref>,<xref rid="B71-ijms-17-00797" ref-type="bibr">71</xref>]. These deleterious effects of aldosterone on kidney function appear to be due in part to the production of ROS [<xref rid="B21-ijms-17-00797" ref-type="bibr">21</xref>]. Increased ROS production activates the mitogen-activated protein kinase (MAPK) pathway in renal cortical tissues, which in turn triggers renal injury [<xref rid="B21-ijms-17-00797" ref-type="bibr">21</xref>]. In humans it has been reported in a study performed on eight patients with chronic kidney disease and persistent proteinuria treated with spironolactone, an antagonist of the AT1-R, in addition to ACE inhibitors therapy, a drastic reduction in proteinuria levels (54%) after four weeks of treatment [<xref rid="B72-ijms-17-00797" ref-type="bibr">72</xref>]. Additionally, when type I and II diabetic patients with renal complications were treated with spironolactone, there was an important reduction in urinary albumin excretion and microalbuminuria. This observation suggests that spironolactone confers renal protection in diabetic individuals, but that other markers of endothelial dysfunction or of pro-inflammatory serum cytokines did not change [<xref rid="B73-ijms-17-00797" ref-type="bibr">73</xref>,<xref rid="B74-ijms-17-00797" ref-type="bibr">74</xref>]. Blocking the multitude of pro-fibrotic and pro-inflammatory effects of aldosterone could affect glomerular hemodynamics and could be beneficial in the long term by reducing progressive renal injury.</p><p>During hypertensive renal damage, the progressive impairment of renal function, or chronic kidney disease, is caused by the replacement of functional nephrons by fibrotic scar tissue, as triggered by hemodynamic and cellular factors [<xref rid="B75-ijms-17-00797" ref-type="bibr">75</xref>]. Immediate consequences of this include the hypoperfusion of damaged nephrons, increased sodium retention, stimulation of RAAS, uremia, metabolic waste retention, and extensive proteinuria, among other effects [<xref rid="B76-ijms-17-00797" ref-type="bibr">76</xref>]. Chronic kidney disease is characterized by interstitial macrophage infiltration, and these macrophages can synthetize and secrete several molecules related to fibrogenesis, such as fibroblast growth factors or cytokines (TGF-&#x003b2;, TNF&#x003b1;, IFN-&#x003b3;), enzymes (e.g., ACE, plasminogen activators, collagenases) and their inhibitors (like tissue inhibitors of metalloproteinase (TIMPs)), matrix proteins (e.g., collagen, fibronectin, thrombospondin), and many other complement proteins, bioactive lipids, ROS, etc. [<xref rid="B77-ijms-17-00797" ref-type="bibr">77</xref>]. Chronic kidney disease has a rapid progression and, generally, the patient dies before receiving a kidney transplant. Patients also suffer accelerated cardiovascular diseases, a condition known as cardiorenal syndrome. Cardiorenal syndrome can be induced by hypertension, inflammation, oxidative stress, and vascular calcification, among other conditions [<xref rid="B78-ijms-17-00797" ref-type="bibr">78</xref>].</p><p>Several of the molecules related to fibrogenesis are being studied as potential targets for therapies. Of these, TGF-&#x003b2; mediates the processes of proliferation, apoptosis, and collagen synthesis and is one of the most ubiquitous profibrotic factors. This factor has been widely studied in the amelioration of chronic kidney disease due to the action of its upstream regulator, the macrophage migration inhibitory factor [<xref rid="B79-ijms-17-00797" ref-type="bibr">79</xref>,<xref rid="B80-ijms-17-00797" ref-type="bibr">80</xref>]. A recently reported novel interaction of TGF-&#x003b2; through the NOTCH signaling pathway indicates that this factor can positively regulate the hepatocyte growth factor, which could have a reparative effect in chronic kidney disease [<xref rid="B81-ijms-17-00797" ref-type="bibr">81</xref>].</p><p>Components of the RAAS also directly affect the progression of renal fibrosis. Ang II acts on vascular smooth muscle cells, causing the vasoconstriction of both afferent and efferent arterioles. Consequently, this can lead to the development of both glomerular capillary hypertension and reduced renal blood flow. Intrarenal Ang II levels increase the sensitivity of tubuloglomerular feedback, which leads to renal blood flow and glomerular filtration reduction [<xref rid="B75-ijms-17-00797" ref-type="bibr">75</xref>]. As a proinflammatory agent, Ang II also has non-hemodynamic effects that can modulate the chemotaxis, proliferation, and differentiation of monocytes into macrophages in endothelial, renal tubular and vascular smooth muscle cells [<xref rid="B82-ijms-17-00797" ref-type="bibr">82</xref>].</p><p>Aldosterone also may promote fibrosis and target-organ dysfunction in hypertensive or diabetic patients by different ways, such as, plasminogen activator inhibitor stimulation, TGF-&#x003b2;1 and ROS [<xref rid="B83-ijms-17-00797" ref-type="bibr">83</xref>,<xref rid="B84-ijms-17-00797" ref-type="bibr">84</xref>,<xref rid="B85-ijms-17-00797" ref-type="bibr">85</xref>]. Furthermore, it has been reported that aldosterone promotes the loss of glomerular podocytes, decreasing the slit-pore membrane integrity which leads to proteinuria [<xref rid="B86-ijms-17-00797" ref-type="bibr">86</xref>,<xref rid="B87-ijms-17-00797" ref-type="bibr">87</xref>]. Also, aldosterone induces oxidative stress in tubular and intersticial renal tissue and inflammation, promoting the salt-induced tubuloglomerular injury as part of the rapid non-genomics effects of this hormone [<xref rid="B83-ijms-17-00797" ref-type="bibr">83</xref>].</p><p>New drug designs are focused on cardiovascular protection and reducing alterations in renal homeostasis to prevent the negative effects of MR activity under high aldosterone levels. For example, the MR antagonist spironolactone, used to treat hyperaldosteronism, causes hyperkalemia and decreases renal function. Finerenone, a dihydropyridine MR antagonist used to treat cardiac disease, recently evidenced organ-protective effects, no negative impacts on renal condition, and reduced electrolyte disturbance as compared with traditional steroid-based MR antagonists.</p></sec><sec id="sec5-ijms-17-00797"><title>5. Vascular System and Mycoardium Damage by RAAS</title><p>High aldosterone levels have also been associated with myocardial hypertrophy, ventricular remodeling, proarrhythmogenic effects, myocardial ischemia, reduced coronary blood flow, and cardiac fibrosis leading to a maladaptive remodeling in the heart [<xref rid="B88-ijms-17-00797" ref-type="bibr">88</xref>,<xref rid="B89-ijms-17-00797" ref-type="bibr">89</xref>,<xref rid="B90-ijms-17-00797" ref-type="bibr">90</xref>]. Those generated conditions not only promote fibrosis but also induce cell death, inflammation, and increase oxidant signaling [<xref rid="B91-ijms-17-00797" ref-type="bibr">91</xref>,<xref rid="B92-ijms-17-00797" ref-type="bibr">92</xref>,<xref rid="B93-ijms-17-00797" ref-type="bibr">93</xref>]. Lemari&#x000e9; et al. showed an aldosterone-stimulated activation of ERK1/2, JNK, and nuclear factor &#x003ba;B (NF-&#x003ba;B) in VSMCs, which was dependent on the AT2-R [<xref rid="B94-ijms-17-00797" ref-type="bibr">94</xref>] pathways related to vascular remodeling and oxidative stress. Additionally, aldosterone can stimulate NADPH oxidase complex activity, thereby increasing oxidative stress in the aorta [<xref rid="B95-ijms-17-00797" ref-type="bibr">95</xref>], macrophages [<xref rid="B96-ijms-17-00797" ref-type="bibr">96</xref>,<xref rid="B97-ijms-17-00797" ref-type="bibr">97</xref>], and endothelial cells [<xref rid="B70-ijms-17-00797" ref-type="bibr">70</xref>].</p><p>In the aorta, aldosterone stimulates NOX2 (gp91phox) and p22phox expression through a MR-dependent mechanism, and aldosterone might also increase the expression of p47phox through the AT2-R and MR-related mechanisms [<xref rid="B98-ijms-17-00797" ref-type="bibr">98</xref>]. Conversely, in NOX2-deficient mice the aldosterone-mediated activation of NF-&#x003ba;B is prevented [<xref rid="B99-ijms-17-00797" ref-type="bibr">99</xref>]. Likewise, p47phox-deficient mice reduced aldosterone-induced ROS production in the heart. Aldosterone can promote the activation of ERK1/2 and increase the expression of TGF-&#x003b2;1 in mesangial cells in the kidney and in cardiomyocyte cells through a non-genomic pathway [<xref rid="B91-ijms-17-00797" ref-type="bibr">91</xref>,<xref rid="B100-ijms-17-00797" ref-type="bibr">100</xref>]. This cytokine also induced the expression of connective tissue growth factor in cardiac fibroblasts and cardiac myocytes with a concomitant increase of fibronectin, collagen, and plasminogen activator inhibitor-1 [<xref rid="B101-ijms-17-00797" ref-type="bibr">101</xref>]. In agreement with this, aldosterone/salt treatment in rats increases myocardial collagen synthesis and content, fibrosis, and profibrotic factors, including connective tissue growth factor, TGF-&#x003b2;, plasminogen activator inhibitor-1, matrix metalloproteinase-2, and TNF-&#x003b1; [<xref rid="B102-ijms-17-00797" ref-type="bibr">102</xref>,<xref rid="B103-ijms-17-00797" ref-type="bibr">103</xref>,<xref rid="B104-ijms-17-00797" ref-type="bibr">104</xref>,<xref rid="B105-ijms-17-00797" ref-type="bibr">105</xref>].</p><p>Activation of the MR by aldosterone regulates the expression of several genes involved in vascular fibrosis, calcification, and inflammatory damage in human VSMCs [<xref rid="B21-ijms-17-00797" ref-type="bibr">21</xref>,<xref rid="B106-ijms-17-00797" ref-type="bibr">106</xref>]. Moreover, it was recently shown that VSMCs express the intercellular adhesion molecule-1 in response to aldosterone-induced MR signaling. This expression promotes leukocyte adhesion by specifically associating with the lymphocyte function-associated antigen-1 expressed on the leukocyte surface [<xref rid="B107-ijms-17-00797" ref-type="bibr">107</xref>]. Another interesting adhesion molecule that also functions in aldosterone regulation is endothelin-1 [<xref rid="B108-ijms-17-00797" ref-type="bibr">108</xref>]. Aldosterone induces gene transcription to increase endothelin-1 protein levels, which inhibits sodium reabsorption. This inhibition paradoxically opposes the aldosterone-induced increase of sodium reabsorption in the renal collecting duct and systemic blood pressure [<xref rid="B109-ijms-17-00797" ref-type="bibr">109</xref>]. Therefore, aldosterone appears to not only regulate the expression of genes involved in its function, but also genes that participate in its regulation.</p><p>In respect to Ang II, a recent study using a model of cardiac remodeling in hypertension salt-insensitive, guanylyl cyclase-A knockout mice [<xref rid="B110-ijms-17-00797" ref-type="bibr">110</xref>] showed that chronic treatment with the MR antagonist eplerenone reduced the amount of brain and atrial natriuretic peptide, hypertrophy markers, and cardiac fibrosis markers, including TGF-&#x003b2;, collagen I, and collagen III. This data suggests that this model would present an upregulation of the AT2-R pathway. This effect has not been observed in models of guanylyl cyclase-A and AT2-R double knockout, thus underscoring the pro-hypertrophic and profibrotic actions of angiotensin II. However, the involvement of MR in this mechanism is still unclear, although it is possible that a relationship exists between MR and the cardiac AT2-R, acting on a remodeling pathway independent of blood pressure regulation, because ANP can directly downregulates <italic>CYP11B2</italic> gene expression in cultured adrenal cortical cells and neonate cardiomyocytes [<xref rid="B111-ijms-17-00797" ref-type="bibr">111</xref>,<xref rid="B112-ijms-17-00797" ref-type="bibr">112</xref>].</p><p>Ang II is also able to enhance ROS production and induce heart hypertrophy. The molecular pathways involved in these deleterious effects include the Rho small G proteins (e.g., RhoA, Rac1) [<xref rid="B113-ijms-17-00797" ref-type="bibr">113</xref>]. These proteins act as a molecular switch, interacting with downstream targets. Both Rho-&#x003b1; and Rho-&#x003b2; can be up-regulated by angiotensin II through the action of AT2-R, and these Rho-kinases have been linked to ROS promotion and vascular inflammation mediated by the direct activation of endothelial nitric oxide synthase in the vasculature [<xref rid="B114-ijms-17-00797" ref-type="bibr">114</xref>]. In turn, Rac1 is associated with aldosterone time- and dose-dependent increases in superoxide generation, an effect abolished by eplerenone [<xref rid="B97-ijms-17-00797" ref-type="bibr">97</xref>]. In cardiac myocytes [<xref rid="B115-ijms-17-00797" ref-type="bibr">115</xref>], Rho-kinases phosphorylate cardiac troponin to prevent tension. On the other hand, the inhibition of Rho-kinases with Fasudil prevents the development of cardiac hypertrophy and diastolic heart failure [<xref rid="B113-ijms-17-00797" ref-type="bibr">113</xref>].</p><p>Another mechanism related to Ang II in cardiomyocytes is NADPH oxidase activation, promoting the formation of ROS such as superoxide [<xref rid="B116-ijms-17-00797" ref-type="bibr">116</xref>], which can reduce the bioavailability of nitric oxide. Endothelial nitric oxide synthase-derived nitric oxide can react with superoxide to form peroxynitrite (ONOO<sup>&#x02212;</sup>). An increase in peroxynitrite leads to excessive oxidation and the depletion of reducing agents such as 6<italic>R</italic>-5,6,7,8-tetrahydrobiopterin, thereby generating oxygen reduction and affecting nitric oxide synthesis through endothelial nitric oxide synthase uncoupling. This would result in the conversion of nitric oxide synthase.</p></sec><sec id="sec6-ijms-17-00797"><title>6. Conclusions and Perspectives</title><p>This review puts forward the idea that RAAS is not only an important target in the control of blood pressure, but also is a key system in preserving organ structure and function (<xref ref-type="fig" rid="ijms-17-00797-f002">Figure 2</xref>). Due to these roles, there are continued efforts to develop new drugs against the components of RAAS, and, specifically, new MR antagonists are being developed to reduce the adverse effects of AH, such as electrolyte disturbances in complicated patients. For example, the use of finerenone a novel selective non-steroidal MR antagonist, in patients with diabetic nephropathy, demonstrated renoprotective effects after 90 days of treatment. Also, this study showed a dose-dependent reduction in the urinary albumin-creatinine ratio and the hyperkalemia, the worst side-effect of MR antagonists, was not observed in the treated group as compared with the placebo group [<xref rid="B117-ijms-17-00797" ref-type="bibr">117</xref>,<xref rid="B118-ijms-17-00797" ref-type="bibr">118</xref>]. Currently, a phase 2b clinical trial, named Mineralocorticoid Receptor antagonist Tolerability Study-Heart Failure (ARTS-HF), is being carried out to study the effects of finerenone in chronic heart failure patients with diabetes and/or chronic kidney disease [<xref rid="B119-ijms-17-00797" ref-type="bibr">119</xref>]. Similar to the RALES and EPHESUS clinical trials, ARTS-HF includes patients concomitantly treated with ACE and angiotensin receptors blockers, reinforcing the need to effectively control RAAS in these patients.</p><p>As highlighted throughout this review, TGF-&#x003b2; is a key molecule in fibrosis. Here we focused in the induction of TGF-&#x003b2; expression and secretion stimulated by AngII and aldosterone stimulus. However, experiments made with pirfenidone, an antifibrotic drug, showed no effect in the inflammatory phenotype in the kidneys [<xref rid="B120-ijms-17-00797" ref-type="bibr">120</xref>], thereby indicating a greater complexity of the fibrotic mechanisms in the control of end-organ damage in the context of alternated levels in RAAS.</p><p>In accordance with the notion of complex modulation of RAAS molecules, it has been described that extra-adrenal tissue, such as adipocytes, can express autonomously angiotensinogen, renin, AT1-R, and aldosterone synthase (CYP11&#x003b2;2) [<xref rid="B121-ijms-17-00797" ref-type="bibr">121</xref>,<xref rid="B122-ijms-17-00797" ref-type="bibr">122</xref>,<xref rid="B123-ijms-17-00797" ref-type="bibr">123</xref>,<xref rid="B124-ijms-17-00797" ref-type="bibr">124</xref>]. The local formation of Ang II appears to be increased in cases of obesity and leads to NF&#x003ba;B activation. This phnomena results in inflammatory cytokines secretions making the adipose tissue dysfunctional [<xref rid="B125-ijms-17-00797" ref-type="bibr">125</xref>,<xref rid="B126-ijms-17-00797" ref-type="bibr">126</xref>]. These effects can be blocked by AT1-R inhibition [<xref rid="B127-ijms-17-00797" ref-type="bibr">127</xref>]. In addition to Ang II, adipocytes secrete mineralocorticoid-releasing factors that stimulate steroidogenesis in human adrenocortical cells, thereby explaining the higher aldosterone levels often observed in obese subjects. Cell culture studies demonstrate that fatty acid oxidation products, or endogenous ones from human adipocytes, could stimulate aldosterone synthesis [<xref rid="B128-ijms-17-00797" ref-type="bibr">128</xref>], suggesting that free fatty acids could stimulate synthesis and release of aldosterone in adipocytes independently of angiotensin II. Interestingly, in humans, 12,13-epoxy-9-keto-10(trans)-octadecenoic acid (EKODE) plasma levels correlated with aldosterone plasma levels [<xref rid="B128-ijms-17-00797" ref-type="bibr">128</xref>,<xref rid="B129-ijms-17-00797" ref-type="bibr">129</xref>]. Instead, weight loss in humans results in decreased circulating angiotensinogen, plasma renin activity, and aldosterone concentrations [<xref rid="B130-ijms-17-00797" ref-type="bibr">130</xref>,<xref rid="B131-ijms-17-00797" ref-type="bibr">131</xref>,<xref rid="B132-ijms-17-00797" ref-type="bibr">132</xref>]. In a similar way, in animal models of obesity, aldosterone increased inappropriately during high fat feeding despite a net positive sodium balance [<xref rid="B133-ijms-17-00797" ref-type="bibr">133</xref>].</p><p>Based on the current growing problem of obesity and its link between adipose tissues in the control of RAAS; there exists an increased necessity to better understand this puzzle to face the new challenges in the AH population.</p></sec></body><back><ack><title>Acknowledgments</title><p>The authors are supported by grants IMII P09/016-F ICM, CONICYT-FONDECYT N 1160695, N 1150862, and CORFO 13 CTi-21526-P1. Natalia Mu&#x000f1;oz-Durango is a CONICYT Fellow. Crist&#x000f3;bal A. Fuentes and Luis Mart&#x000ed;n Gonz&#x000e1;lez-G&#x000f3;mez are VRI Fellows.</p></ack><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><glossary><title>Abbreviations</title><array><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">Ang II</td><td align="left" valign="top" rowspan="1" colspan="1">Angiotensin II</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ARTS-HF</td><td align="left" valign="top" rowspan="1" colspan="1">Mineralocorticoid Receptor antagonist Tolerability Study-Heart Failure</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AT1-R</td><td align="left" valign="top" rowspan="1" colspan="1">Angiotensin II type 1 receptor</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AT2-R</td><td align="left" valign="top" rowspan="1" colspan="1">Angiotensin II type 2 receptor</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EPHESUS</td><td align="left" valign="top" rowspan="1" colspan="1">Eplerenone post-acute myocardial infarction heart and survival study</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">MR</td><td align="left" valign="top" rowspan="1" colspan="1">Mineralocorticoid receptor</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">RAAS</td><td align="left" valign="top" rowspan="1" colspan="1">Renin-Angiotensin-Aldosterone system</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">RALES</td><td align="left" valign="top" rowspan="1" colspan="1">Randomized Aldactone evaluation study </td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ROS</td><td align="left" valign="top" rowspan="1" colspan="1">Reactive oxygen species</td></tr></tbody></array></glossary><ref-list><title>References</title><ref id="B1-ijms-17-00797"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kearney</surname><given-names>P.M.</given-names></name><name><surname>Whelton</surname><given-names>M.</given-names></name><name><surname>Reynolds</surname><given-names>K.</given-names></name><name><surname>Muntner</surname><given-names>P.</given-names></name><name><surname>Whelton</surname><given-names>P.K.</given-names></name><name><surname>He</surname><given-names>J.</given-names></name></person-group>
+<article-title>Global burden of hypertension: Analysis of worldwide data</article-title>
+<source>Lancet</source>
+<year>2005</year>
+<volume>365</volume>
+<fpage>217</fpage>
+<lpage>223</lpage>
+<pub-id pub-id-type="doi">10.1016/S0140-6736(05)70151-3</pub-id>
+<pub-id pub-id-type="pmid">15652604</pub-id></element-citation></ref><ref id="B2-ijms-17-00797"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Milliez</surname><given-names>P.</given-names></name><name><surname>Girerd</surname><given-names>X.</given-names></name><name><surname>Plouin</surname><given-names>P.F.</given-names></name><name><surname>Blacher</surname><given-names>J.</given-names></name><name><surname>Safar</surname><given-names>M.E.</given-names></name><name><surname>Mourad</surname><given-names>J.J.</given-names></name></person-group>
+<article-title>Evidence for an increased rate of cardiovascular events in patients with primary aldosteronism</article-title>
+<source>J. Am. Coll. Cardiol.</source>
+<year>2005</year>
+<volume>45</volume>
+<fpage>1243</fpage>
+<lpage>1248</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jacc.2005.01.015</pub-id>
+<?supplied-pmid 15837256?><pub-id pub-id-type="pmid">15837256</pub-id></element-citation></ref><ref id="B3-ijms-17-00797"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Born-Frontsberg</surname><given-names>E.</given-names></name><name><surname>Reincke</surname><given-names>M.</given-names></name><name><surname>Rump</surname><given-names>L.C.</given-names></name><name><surname>Hahner</surname><given-names>S.</given-names></name><name><surname>Diederich</surname><given-names>S.</given-names></name><name><surname>Lorenz</surname><given-names>R.</given-names></name><name><surname>Allolio</surname><given-names>B.</given-names></name><name><surname>Seufert</surname><given-names>J.</given-names></name><name><surname>Schirpenbach</surname><given-names>C.</given-names></name><name><surname>Beuschlein</surname><given-names>F.</given-names></name><etal/></person-group>
+<article-title>Cardiovascular and cerebrovascular comorbidities of hypokalemic and normokalemic primary aldosteronism: Results of the German Conn&#x02019;s registry</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2009</year>
+<volume>94</volume>
+<fpage>1125</fpage>
+<lpage>1130</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.2008-2116</pub-id>
+<?supplied-pmid 19190103?><pub-id pub-id-type="pmid">19190103</pub-id></element-citation></ref><ref id="B4-ijms-17-00797"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lifton</surname><given-names>R.P.</given-names></name><name><surname>Gharavi</surname><given-names>A.G.</given-names></name><name><surname>Geller</surname><given-names>D.S.</given-names></name></person-group>
+<article-title>Molecular mechanisms of human hypertension</article-title>
+<source>Cell</source>
+<year>2001</year>
+<volume>104</volume>
+<fpage>545</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="doi">10.1016/S0092-8674(01)00241-0</pub-id>
+<pub-id pub-id-type="pmid">11239411</pub-id></element-citation></ref><ref id="B5-ijms-17-00797"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martins</surname><given-names>L.C.</given-names></name><name><surname>Figueiredo</surname><given-names>V.N.</given-names></name><name><surname>Quinaglia</surname><given-names>T.</given-names></name><name><surname>Boer-Martins</surname><given-names>L.</given-names></name><name><surname>Yugar-Toledo</surname><given-names>J.C.</given-names></name><name><surname>Martin</surname><given-names>J.F.</given-names></name><name><surname>Demacq</surname><given-names>C.</given-names></name><name><surname>Pimenta</surname><given-names>E.</given-names></name><name><surname>Calhoun</surname><given-names>D.A.</given-names></name><name><surname>Moreno</surname><given-names>H.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Characteristics of resistant hypertension: Ageing, body mass index, hyperaldosteronism, cardiac hypertrophy and vascular stiffness</article-title>
+<source>J. Hum. Hypertens.</source>
+<year>2011</year>
+<volume>25</volume>
+<fpage>532</fpage>
+<lpage>538</lpage>
+<pub-id pub-id-type="doi">10.1038/jhh.2010.95</pub-id>
+<?supplied-pmid 20927128?><pub-id pub-id-type="pmid">20927128</pub-id></element-citation></ref><ref id="B6-ijms-17-00797"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Calhoun</surname><given-names>D.A.</given-names></name><name><surname>Sharma</surname><given-names>K.</given-names></name></person-group>
+<article-title>The role of aldosteronism in causing obesity-related cardiovascular risk</article-title>
+<source>Cardiol. Clin.</source>
+<year>2010</year>
+<volume>28</volume>
+<fpage>517</fpage>
+<lpage>527</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ccl.2010.04.001</pub-id>
+<?supplied-pmid 20621254?><pub-id pub-id-type="pmid">20621254</pub-id></element-citation></ref><ref id="B7-ijms-17-00797"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Conn</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Aldosterone in clinical medicine: Past, present, and future</article-title>
+<source>AMA Arch. Intern. Med.</source>
+<year>1956</year>
+<volume>97</volume>
+<fpage>135</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="doi">10.1001/archinte.1956.00250200011001</pub-id>
+<?supplied-pmid 13282520?><pub-id pub-id-type="pmid">13282520</pub-id></element-citation></ref><ref id="B8-ijms-17-00797"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Te Riet</surname><given-names>L.</given-names></name><name><surname>van Esch</surname><given-names>J.H.</given-names></name><name><surname>Roks</surname><given-names>A.J.</given-names></name><name><surname>van den Meiracker</surname><given-names>A.H.</given-names></name><name><surname>Danser</surname><given-names>A.H.</given-names></name></person-group>
+<article-title>Hypertension: Renin-angiotensin-aldosterone system alterations</article-title>
+<source>Circ. Res.</source>
+<year>2015</year>
+<volume>116</volume>
+<fpage>960</fpage>
+<lpage>975</lpage>
+<pub-id pub-id-type="doi">10.1161/CIRCRESAHA.116.303587</pub-id>
+<?supplied-pmid 25767283?><pub-id pub-id-type="pmid">25767283</pub-id></element-citation></ref><ref id="B9-ijms-17-00797"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jan Danser</surname><given-names>A.H.</given-names></name><name><surname>Batenburg</surname><given-names>W.W.</given-names></name><name><surname>van Esch</surname><given-names>J.H.</given-names></name></person-group>
+<article-title>Prorenin and the (pro)renin receptor&#x02014;An update</article-title>
+<source>Nephrol. Dial. Transplant.</source>
+<year>2007</year>
+<volume>22</volume>
+<fpage>1288</fpage>
+<lpage>1292</lpage>
+<pub-id pub-id-type="doi">10.1093/ndt/gfl846</pub-id>
+<?supplied-pmid 17259648?><pub-id pub-id-type="pmid">17259648</pub-id></element-citation></ref><ref id="B10-ijms-17-00797"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Putnam</surname><given-names>K.</given-names></name><name><surname>Shoemaker</surname><given-names>R.</given-names></name><name><surname>Yiannikouris</surname><given-names>F.</given-names></name><name><surname>Cassis</surname><given-names>L.A.</given-names></name></person-group>
+<article-title>The renin-angiotensin system: A target of and contributor to dyslipidemias, altered glucose homeostasis, and hypertension of the metabolic syndrome</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2012</year>
+<volume>302</volume>
+<fpage>H1219</fpage>
+<lpage>H1230</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.00796.2011</pub-id>
+<?supplied-pmid 22227126?><pub-id pub-id-type="pmid">22227126</pub-id></element-citation></ref><ref id="B11-ijms-17-00797"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferrario</surname><given-names>C.M.</given-names></name><name><surname>Trask</surname><given-names>A.J.</given-names></name><name><surname>Jessup</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Advances in biochemical and functional roles of angiotensin-converting enzyme 2 and angiotensin-(1-7) in regulation of cardiovascular function</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2005</year>
+<volume>289</volume>
+<fpage>H2281</fpage>
+<lpage>H2290</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.00618.2005</pub-id>
+<?supplied-pmid 16055515?><pub-id pub-id-type="pmid">16055515</pub-id></element-citation></ref><ref id="B12-ijms-17-00797"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferrario</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Angiotension-(1-7) and antihypertensive mechanisms</article-title>
+<source>J. Nephrol.</source>
+<year>1998</year>
+<volume>11</volume>
+<fpage>278</fpage>
+<lpage>283</lpage>
+<?supplied-pmid 10048492?><pub-id pub-id-type="pmid">10048492</pub-id></element-citation></ref><ref id="B13-ijms-17-00797"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spat</surname><given-names>A.</given-names></name><name><surname>Hunyady</surname><given-names>L.</given-names></name></person-group>
+<article-title>Control of aldosterone secretion: A model for convergence in cellular signaling pathways</article-title>
+<source>Physiol. Rev.</source>
+<year>2004</year>
+<volume>84</volume>
+<fpage>489</fpage>
+<lpage>539</lpage>
+<pub-id pub-id-type="doi">10.1152/physrev.00030.2003</pub-id>
+<?supplied-pmid 15044681?><pub-id pub-id-type="pmid">15044681</pub-id></element-citation></ref><ref id="B14-ijms-17-00797"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>J.O.</given-names></name></person-group>
+<article-title>Mechanisms of salt and water retention in congestive heart failure. The importance of aldosterone</article-title>
+<source>Am. J. Med.</source>
+<year>1960</year>
+<volume>29</volume>
+<fpage>486</fpage>
+<lpage>507</lpage>
+<pub-id pub-id-type="doi">10.1016/0002-9343(60)90045-0</pub-id>
+<pub-id pub-id-type="pmid">13720203</pub-id></element-citation></ref><ref id="B15-ijms-17-00797"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gros</surname><given-names>R.</given-names></name><name><surname>Ding</surname><given-names>Q.</given-names></name><name><surname>Sklar</surname><given-names>L.A.</given-names></name><name><surname>Prossnitz</surname><given-names>E.E.</given-names></name><name><surname>Arterburn</surname><given-names>J.B.</given-names></name><name><surname>Chorazyczewski</surname><given-names>J.</given-names></name><name><surname>Feldman</surname><given-names>R.D.</given-names></name></person-group>
+<article-title>GPR30 expression is required for the mineralocorticoid receptor-independent rapid vascular effects of aldosterone</article-title>
+<source>Hypertension</source>
+<year>2011</year>
+<volume>57</volume>
+<fpage>442</fpage>
+<lpage>451</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.110.161653</pub-id>
+<?supplied-pmid 21242460?><pub-id pub-id-type="pmid">21242460</pub-id></element-citation></ref><ref id="B16-ijms-17-00797"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grossmann</surname><given-names>C.</given-names></name><name><surname>Benesic</surname><given-names>A.</given-names></name><name><surname>Krug</surname><given-names>A.W.</given-names></name><name><surname>Freudinger</surname><given-names>R.</given-names></name><name><surname>Mildenberger</surname><given-names>S.</given-names></name><name><surname>Gassner</surname><given-names>B.</given-names></name><name><surname>Gekle</surname><given-names>M.</given-names></name></person-group>
+<article-title>Human mineralocorticoid receptor expression renders cells responsive for nongenotropic aldosterone actions</article-title>
+<source>Mol. Endocrinol.</source>
+<year>2005</year>
+<volume>19</volume>
+<fpage>1697</fpage>
+<lpage>1710</lpage>
+<pub-id pub-id-type="doi">10.1210/me.2004-0469</pub-id>
+<?supplied-pmid 15761031?><pub-id pub-id-type="pmid">15761031</pub-id></element-citation></ref><ref id="B17-ijms-17-00797"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pacurari</surname><given-names>M.</given-names></name><name><surname>Kafoury</surname><given-names>R.</given-names></name><name><surname>Tchounwou</surname><given-names>P.B.</given-names></name><name><surname>Ndebele</surname><given-names>K.</given-names></name></person-group>
+<article-title>The renin-angiotensin-aldosterone system in vascular inflammation and remodeling</article-title>
+<source>Int. J. Inflamm.</source>
+<year>2014</year>
+<volume>2014</volume>
+<pub-id pub-id-type="doi">10.1155/2014/689360</pub-id>
+<?supplied-pmid 24804145?><pub-id pub-id-type="pmid">24804145</pub-id></element-citation></ref><ref id="B18-ijms-17-00797"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buglioni</surname><given-names>A.</given-names></name><name><surname>Cannone</surname><given-names>V.</given-names></name><name><surname>Cataliotti</surname><given-names>A.</given-names></name><name><surname>Sangaralingham</surname><given-names>S.J.</given-names></name><name><surname>Heublein</surname><given-names>D.M.</given-names></name><name><surname>Scott</surname><given-names>C.G.</given-names></name><name><surname>Bailey</surname><given-names>K.R.</given-names></name><name><surname>Rodeheffer</surname><given-names>R.J.</given-names></name><name><surname>Dessi-Fulgheri</surname><given-names>P.</given-names></name><name><surname>Sarzani</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>Circulating aldosterone and natriuretic peptides in the general community: Relationship to cardiorenal and metabolic disease</article-title>
+<source>Hypertension</source>
+<year>2015</year>
+<volume>65</volume>
+<fpage>45</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.114.03936</pub-id>
+<?supplied-pmid 25368032?><pub-id pub-id-type="pmid">25368032</pub-id></element-citation></ref><ref id="B19-ijms-17-00797"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bauersachs</surname><given-names>J.</given-names></name><name><surname>Jaisser</surname><given-names>F.</given-names></name><name><surname>Toto</surname><given-names>R.</given-names></name></person-group>
+<article-title>Mineralocorticoid receptor activation and mineralocorticoid receptor antagonist treatment in cardiac and renal diseases</article-title>
+<source>Hypertension</source>
+<year>2015</year>
+<volume>65</volume>
+<fpage>257</fpage>
+<lpage>263</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.114.04488</pub-id>
+<?supplied-pmid 25368026?><pub-id pub-id-type="pmid">25368026</pub-id></element-citation></ref><ref id="B20-ijms-17-00797"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tomaschitz</surname><given-names>A.</given-names></name><name><surname>Pilz</surname><given-names>S.</given-names></name><name><surname>Ritz</surname><given-names>E.</given-names></name><name><surname>Obermayer-Pietsch</surname><given-names>B.</given-names></name><name><surname>Pieber</surname><given-names>T.R.</given-names></name></person-group>
+<article-title>Aldosterone and arterial hypertension</article-title>
+<source>Nat. Rev. Endocrinol.</source>
+<year>2010</year>
+<volume>6</volume>
+<fpage>83</fpage>
+<lpage>93</lpage>
+<pub-id pub-id-type="doi">10.1038/nrendo.2009.263</pub-id>
+<?supplied-pmid 20027193?><pub-id pub-id-type="pmid">20027193</pub-id></element-citation></ref><ref id="B21-ijms-17-00797"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jaffe</surname><given-names>I.Z.</given-names></name><name><surname>Mendelsohn</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Angiotensin II and aldosterone regulate gene transcription via functional mineralocortocoid receptors in human coronary artery smooth muscle cells</article-title>
+<source>Circ. Res.</source>
+<year>2005</year>
+<volume>96</volume>
+<fpage>643</fpage>
+<lpage>650</lpage>
+<pub-id pub-id-type="doi">10.1161/01.RES.0000159937.05502.d1</pub-id>
+<?supplied-pmid 15718497?><pub-id pub-id-type="pmid">15718497</pub-id></element-citation></ref><ref id="B22-ijms-17-00797"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Derfoul</surname><given-names>A.</given-names></name><name><surname>Robertson</surname><given-names>N.M.</given-names></name><name><surname>Lingrel</surname><given-names>J.B.</given-names></name><name><surname>Hall</surname><given-names>D.J.</given-names></name><name><surname>Litwack</surname><given-names>G.</given-names></name></person-group>
+<article-title>Regulation of the human Na/K-ATPase &#x003b2;1 gene promoter by mineralocorticoid and glucocorticoid receptors</article-title>
+<source>J. Biol. Chem.</source>
+<year>1998</year>
+<volume>273</volume>
+<fpage>20702</fpage>
+<lpage>20711</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.273.33.20702</pub-id>
+<?supplied-pmid 9694812?><pub-id pub-id-type="pmid">9694812</pub-id></element-citation></ref><ref id="B23-ijms-17-00797"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Naray-Fejes-Toth</surname><given-names>A.</given-names></name><name><surname>Fejes-Toth</surname><given-names>G.</given-names></name></person-group>
+<article-title>The <italic>SGK</italic>, an aldosterone-induced gene in mineralocorticoid target cells, regulates the epithelial sodium channel</article-title>
+<source>Kidney Int.</source>
+<year>2000</year>
+<volume>57</volume>
+<fpage>1290</fpage>
+<lpage>1294</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1523-1755.2000.00964.x</pub-id>
+<?supplied-pmid 10760056?><pub-id pub-id-type="pmid">10760056</pub-id></element-citation></ref><ref id="B24-ijms-17-00797"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pitt</surname><given-names>B.</given-names></name><name><surname>Zannad</surname><given-names>F.</given-names></name><name><surname>Remme</surname><given-names>W.J.</given-names></name><name><surname>Cody</surname><given-names>R.</given-names></name><name><surname>Castaigne</surname><given-names>A.</given-names></name><name><surname>Perez</surname><given-names>A.</given-names></name><name><surname>Palensky</surname><given-names>J.</given-names></name><name><surname>Wittes</surname><given-names>J.</given-names></name></person-group>
+<article-title>The effect of spironolactone on morbidity and mortality in patients with severe heart failure. Randomized aldactone evaluation study investigators</article-title>
+<source>N. Engl. J. Med.</source>
+<year>1999</year>
+<volume>341</volume>
+<fpage>709</fpage>
+<lpage>717</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJM199909023411001</pub-id>
+<?supplied-pmid 10471456?><pub-id pub-id-type="pmid">10471456</pub-id></element-citation></ref><ref id="B25-ijms-17-00797"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pitt</surname><given-names>B.</given-names></name><name><surname>Remme</surname><given-names>W.</given-names></name><name><surname>Zannad</surname><given-names>F.</given-names></name><name><surname>Neaton</surname><given-names>J.</given-names></name><name><surname>Martinez</surname><given-names>F.</given-names></name><name><surname>Roniker</surname><given-names>B.</given-names></name><name><surname>Bittman</surname><given-names>R.</given-names></name><name><surname>Hurley</surname><given-names>S.</given-names></name><name><surname>Kleiman</surname><given-names>J.</given-names></name><name><surname>Gatlin</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Eplerenone, a selective aldosterone blocker, in patients with left ventricular dysfunction after myocardial infarction</article-title>
+<source>N. Engl. J. Med.</source>
+<year>2003</year>
+<volume>348</volume>
+<fpage>1309</fpage>
+<lpage>1321</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJMoa030207</pub-id>
+<?supplied-pmid 12668699?><pub-id pub-id-type="pmid">12668699</pub-id></element-citation></ref><ref id="B26-ijms-17-00797"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rossignol</surname><given-names>P.</given-names></name><name><surname>Menard</surname><given-names>J.</given-names></name><name><surname>Fay</surname><given-names>R.</given-names></name><name><surname>Gustafsson</surname><given-names>F.</given-names></name><name><surname>Pitt</surname><given-names>B.</given-names></name><name><surname>Zannad</surname><given-names>F.</given-names></name></person-group>
+<article-title>Eplerenone survival benefits in heart failure patients post-myocardial infarction are independent from its diuretic and potassium-sparing effects. Insights from an ephesus (eplerenone post-acute myocardial infarction heart failure efficacy and survival study) substudy</article-title>
+<source>J. Am. Coll. Cardiol.</source>
+<year>2011</year>
+<volume>58</volume>
+<fpage>1958</fpage>
+<lpage>1966</lpage>
+<?supplied-pmid 22032706?><pub-id pub-id-type="pmid">22032706</pub-id></element-citation></ref><ref id="B27-ijms-17-00797"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hansson</surname><given-names>L.</given-names></name><name><surname>Lindholm</surname><given-names>L.H.</given-names></name><name><surname>Niskanen</surname><given-names>L.</given-names></name><name><surname>Lanke</surname><given-names>J.</given-names></name><name><surname>Hedner</surname><given-names>T.</given-names></name><name><surname>Niklason</surname><given-names>A.</given-names></name><name><surname>Luomanmaki</surname><given-names>K.</given-names></name><name><surname>Dahlof</surname><given-names>B.</given-names></name><name><surname>de Faire</surname><given-names>U.</given-names></name><name><surname>Morlin</surname><given-names>C.</given-names></name><etal/></person-group>
+<article-title>Effect of angiotensin-converting-enzyme inhibition compared with conventional therapy on cardiovascular morbidity and mortality in hypertension: The Captopril Prevention Project (CAPPP) randomised trial</article-title>
+<source>Lancet</source>
+<year>1999</year>
+<volume>353</volume>
+<fpage>611</fpage>
+<lpage>616</lpage>
+<pub-id pub-id-type="doi">10.1016/S0140-6736(98)05012-0</pub-id>
+<pub-id pub-id-type="pmid">10030325</pub-id></element-citation></ref><ref id="B28-ijms-17-00797"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hansson</surname><given-names>L.</given-names></name><name><surname>Lindholm</surname><given-names>L.H.</given-names></name><name><surname>Ekbom</surname><given-names>T.</given-names></name><name><surname>Dahlof</surname><given-names>B.</given-names></name><name><surname>Lanke</surname><given-names>J.</given-names></name><name><surname>Schersten</surname><given-names>B.</given-names></name><name><surname>Wester</surname><given-names>P.O.</given-names></name><name><surname>Hedner</surname><given-names>T.</given-names></name><name><surname>de Faire</surname><given-names>U.</given-names></name></person-group>
+<article-title>Randomised trial of old and new antihypertensive drugs in elderly patients: Cardiovascular mortality and morbidity the swedish trial in old patients with hypertension-2 study</article-title>
+<source>Lancet</source>
+<year>1999</year>
+<volume>354</volume>
+<fpage>1751</fpage>
+<lpage>1756</lpage>
+<pub-id pub-id-type="doi">10.1016/S0140-6736(99)10327-1</pub-id>
+<pub-id pub-id-type="pmid">10577635</pub-id></element-citation></ref><ref id="B29-ijms-17-00797"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmieder</surname><given-names>R.E.</given-names></name><name><surname>Martus</surname><given-names>P.</given-names></name><name><surname>Klingbeil</surname><given-names>A.</given-names></name></person-group>
+<article-title>Reversal of left ventricular hypertrophy in essential hypertension. A meta-analysis of randomized double-blind studies</article-title>
+<source>JAMA</source>
+<year>1996</year>
+<volume>275</volume>
+<fpage>1507</fpage>
+<lpage>1513</lpage>
+<pub-id pub-id-type="doi">10.1001/jama.1996.03530430051039</pub-id>
+<?supplied-pmid 8622227?><pub-id pub-id-type="pmid">8622227</pub-id></element-citation></ref><ref id="B30-ijms-17-00797"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Viberti</surname><given-names>G.</given-names></name><name><surname>Wheeldon</surname><given-names>N.M.</given-names></name><collab>MicroAlbuminuria Reduction With VSI</collab></person-group>
+<article-title>Microalbuminuria reduction with valsartan in patients with type 2 diabetes mellitus: A blood pressure-independent effect</article-title>
+<source>Circulation</source>
+<year>2002</year>
+<volume>106</volume>
+<fpage>672</fpage>
+<lpage>678</lpage>
+<pub-id pub-id-type="doi">10.1161/01.CIR.0000024416.33113.0A</pub-id>
+<?supplied-pmid 12163426?><pub-id pub-id-type="pmid">12163426</pub-id></element-citation></ref><ref id="B31-ijms-17-00797"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crowley</surname><given-names>S.D.</given-names></name><name><surname>Gurley</surname><given-names>S.B.</given-names></name><name><surname>Herrera</surname><given-names>M.J.</given-names></name><name><surname>Ruiz</surname><given-names>P.</given-names></name><name><surname>Griffiths</surname><given-names>R.</given-names></name><name><surname>Kumar</surname><given-names>A.P.</given-names></name><name><surname>Kim</surname><given-names>H.S.</given-names></name><name><surname>Smithies</surname><given-names>O.</given-names></name><name><surname>Le</surname><given-names>T.H.</given-names></name><name><surname>Coffman</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Angiotensin II causes hypertension and cardiac hypertrophy through its receptors in the kidney</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2006</year>
+<volume>103</volume>
+<fpage>17985</fpage>
+<lpage>17990</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0605545103</pub-id>
+<?supplied-pmid 17090678?><pub-id pub-id-type="pmid">17090678</pub-id></element-citation></ref><ref id="B32-ijms-17-00797"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Funder</surname><given-names>J.W.</given-names></name><name><surname>Carey</surname><given-names>R.M.</given-names></name><name><surname>Fardella</surname><given-names>C.</given-names></name><name><surname>Gomez-Sanchez</surname><given-names>C.E.</given-names></name><name><surname>Mantero</surname><given-names>F.</given-names></name><name><surname>Stowasser</surname><given-names>M.</given-names></name><name><surname>Young</surname><given-names>W.F.</given-names><suffix>Jr.</suffix></name><name><surname>Montori</surname><given-names>V.M.</given-names></name><name><surname>Endocrine</surname><given-names>S.</given-names></name></person-group>
+<article-title>Case detection, diagnosis, and treatment of patients with primary aldosteronism: An endocrine society clinical practice guideline</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2008</year>
+<volume>93</volume>
+<fpage>3266</fpage>
+<lpage>3281</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.2008-0104</pub-id>
+<?supplied-pmid 18552288?><pub-id pub-id-type="pmid">18552288</pub-id></element-citation></ref><ref id="B33-ijms-17-00797"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fardella</surname><given-names>C.E.</given-names></name><name><surname>Mosso</surname><given-names>L.</given-names></name><name><surname>Gomez-Sanchez</surname><given-names>C.</given-names></name><name><surname>Cortes</surname><given-names>P.</given-names></name><name><surname>Soto</surname><given-names>J.</given-names></name><name><surname>Gomez</surname><given-names>L.</given-names></name><name><surname>Pinto</surname><given-names>M.</given-names></name><name><surname>Huete</surname><given-names>A.</given-names></name><name><surname>Oestreicher</surname><given-names>E.</given-names></name><name><surname>Foradori</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Primary hyperaldosteronism in essential hypertensives: Prevalence, biochemical profile, and molecular biology</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2000</year>
+<volume>85</volume>
+<fpage>1863</fpage>
+<lpage>1867</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.85.5.1863</pub-id>
+<?supplied-pmid 10843166?><pub-id pub-id-type="pmid">10843166</pub-id></element-citation></ref><ref id="B34-ijms-17-00797"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fardella</surname><given-names>C.E.</given-names></name><name><surname>Mosso</surname><given-names>L.</given-names></name></person-group>
+<article-title>Primary aldosteronism</article-title>
+<source>Clin. Lab.</source>
+<year>2002</year>
+<volume>48</volume>
+<fpage>181</fpage>
+<lpage>190</lpage>
+<?supplied-pmid 11934220?><pub-id pub-id-type="pmid">11934220</pub-id></element-citation></ref><ref id="B35-ijms-17-00797"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fardella</surname><given-names>C.E.</given-names></name><name><surname>Pinto</surname><given-names>M.</given-names></name><name><surname>Mosso</surname><given-names>L.</given-names></name><name><surname>Gomez-Sanchez</surname><given-names>C.</given-names></name><name><surname>Jalil</surname><given-names>J.</given-names></name><name><surname>Montero</surname><given-names>J.</given-names></name></person-group>
+<article-title>Genetic study of patients with dexamethasone-suppressible aldosteronism without the chimeric <italic>CYP11B1</italic>/<italic>CYP11B2</italic> gene</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2001</year>
+<volume>86</volume>
+<fpage>4805</fpage>
+<lpage>4807</lpage>
+<pub-id pub-id-type="doi">10.1210/jcem.86.10.7920</pub-id>
+<?supplied-pmid 11600544?><pub-id pub-id-type="pmid">11600544</pub-id></element-citation></ref><ref id="B36-ijms-17-00797"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carvajal</surname><given-names>C.A.</given-names></name><name><surname>Campino</surname><given-names>C.</given-names></name><name><surname>Martinez-Aguayo</surname><given-names>A.</given-names></name><name><surname>Tichauer</surname><given-names>J.E.</given-names></name><name><surname>Bancalari</surname><given-names>R.</given-names></name><name><surname>Valdivia</surname><given-names>C.</given-names></name><name><surname>Trejo</surname><given-names>P.</given-names></name><name><surname>Aglony</surname><given-names>M.</given-names></name><name><surname>Baudrand</surname><given-names>R.</given-names></name><name><surname>Lagos</surname><given-names>C.F.</given-names></name><etal/></person-group>
+<article-title>A new presentation of the chimeric <italic>CYP11B1</italic>/<italic>CYP11B2</italic> gene with low prevalence of primary aldosteronism and atypical gene segregation pattern</article-title>
+<source>Hypertension</source>
+<year>2012</year>
+<volume>59</volume>
+<fpage>85</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.111.180513</pub-id>
+<?supplied-pmid 22083159?><pub-id pub-id-type="pmid">22083159</pub-id></element-citation></ref><ref id="B37-ijms-17-00797"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Montero</surname><given-names>J.</given-names></name><name><surname>Fardella</surname><given-names>C.</given-names></name><name><surname>Mosso</surname><given-names>L.</given-names></name></person-group>
+<article-title>Hipertensi&#x000f3;n arterial tratable con glucocorticoides: Comunicaci&#x000f3;n de un caso</article-title>
+<source>Rev. M&#x000e9;d. Chile</source>
+<year>1977</year>
+<volume>125</volume>
+<fpage>1361</fpage>
+<lpage>1365</lpage>
+<pub-id pub-id-type="pmid">9609059</pub-id></element-citation></ref><ref id="B38-ijms-17-00797"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fardella</surname><given-names>C.E.</given-names></name><name><surname>Mosso</surname><given-names>L.M.</given-names></name><name><surname>Carvajal</surname><given-names>C.A.</given-names></name></person-group>
+<article-title>Primary aldosteronism</article-title>
+<source>Rev. Med. Chile</source>
+<year>2008</year>
+<volume>136</volume>
+<fpage>905</fpage>
+<lpage>914</lpage>
+<pub-id pub-id-type="doi">10.4067/S0034-98872008000700014</pub-id>
+<?supplied-pmid 18949169?><pub-id pub-id-type="pmid">18949169</pub-id></element-citation></ref><ref id="B39-ijms-17-00797"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lalli</surname><given-names>E.</given-names></name><name><surname>Barhanin</surname><given-names>J.</given-names></name><name><surname>Zennaro</surname><given-names>M.C.</given-names></name><name><surname>Warth</surname><given-names>R.</given-names></name></person-group>
+<article-title>Local control of aldosterone production and primary aldosteronism</article-title>
+<source>Trends Endocrinol. Metab.</source>
+<year>2016</year>
+<volume>27</volume>
+<fpage>123</fpage>
+<lpage>131</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tem.2016.01.003</pub-id>
+<?supplied-pmid 26803728?><pub-id pub-id-type="pmid">26803728</pub-id></element-citation></ref><ref id="B40-ijms-17-00797"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sutherland</surname><given-names>D.J.</given-names></name><name><surname>Ruse</surname><given-names>J.L.</given-names></name><name><surname>Laidlaw</surname><given-names>J.C.</given-names></name></person-group>
+<article-title>Hypertension, increased aldosterone secretion and low plasma renin activity relieved by dexamethasone</article-title>
+<source>Can. Med. Assoc. J.</source>
+<year>1966</year>
+<volume>95</volume>
+<fpage>1109</fpage>
+<lpage>1119</lpage>
+<?supplied-pmid 4288576?><pub-id pub-id-type="pmid">4288576</pub-id></element-citation></ref><ref id="B41-ijms-17-00797"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mulatero</surname><given-names>P.</given-names></name><name><surname>Tizzani</surname><given-names>D.</given-names></name><name><surname>Viola</surname><given-names>A.</given-names></name><name><surname>Bertello</surname><given-names>C.</given-names></name><name><surname>Monticone</surname><given-names>S.</given-names></name><name><surname>Mengozzi</surname><given-names>G.</given-names></name><name><surname>Schiavone</surname><given-names>D.</given-names></name><name><surname>Williams</surname><given-names>T.A.</given-names></name><name><surname>Einaudi</surname><given-names>S.</given-names></name><name><surname>La Grotta</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Prevalence and characteristics of familial hyperaldosteronism: The patogen study (primary aldosteronism in torino-genetic forms)</article-title>
+<source>Hypertension</source>
+<year>2011</year>
+<volume>58</volume>
+<fpage>797</fpage>
+<lpage>803</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.111.175083</pub-id>
+<?supplied-pmid 21876069?><pub-id pub-id-type="pmid">21876069</pub-id></element-citation></ref><ref id="B42-ijms-17-00797"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ogishima</surname><given-names>T.</given-names></name><name><surname>Shibata</surname><given-names>H.</given-names></name><name><surname>Shimada</surname><given-names>H.</given-names></name><name><surname>Mitani</surname><given-names>F.</given-names></name><name><surname>Suzuki</surname><given-names>H.</given-names></name><name><surname>Saruta</surname><given-names>T.</given-names></name><name><surname>Ishimura</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Aldosterone synthase cytochrome p-450 expressed in the adrenals of patients with primary aldosteronism</article-title>
+<source>J. Biol. Chem.</source>
+<year>1991</year>
+<volume>266</volume>
+<fpage>10731</fpage>
+<lpage>10734</lpage>
+<?supplied-pmid 2040591?><pub-id pub-id-type="pmid">2040591</pub-id></element-citation></ref><ref id="B43-ijms-17-00797"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gordon</surname><given-names>R.D.</given-names></name><name><surname>Stowasser</surname><given-names>M.</given-names></name><name><surname>Tunny</surname><given-names>T.J.</given-names></name><name><surname>Klemm</surname><given-names>S.A.</given-names></name><name><surname>Finn</surname><given-names>W.L.</given-names></name><name><surname>Krek</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Clinical and pathological diversity of primary aldosteronism, including a new familial variety</article-title>
+<source>Clin. Exp. Pharmacol. Physiol.</source>
+<year>1991</year>
+<volume>18</volume>
+<fpage>283</fpage>
+<lpage>286</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1440-1681.1991.tb01446.x</pub-id>
+<?supplied-pmid 2065471?><pub-id pub-id-type="pmid">2065471</pub-id></element-citation></ref><ref id="B44-ijms-17-00797"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nishimoto</surname><given-names>K.</given-names></name><name><surname>Tomlins</surname><given-names>S.A.</given-names></name><name><surname>Kuick</surname><given-names>R.</given-names></name><name><surname>Cani</surname><given-names>A.K.</given-names></name><name><surname>Giordano</surname><given-names>T.J.</given-names></name><name><surname>Hovelson</surname><given-names>D.H.</given-names></name><name><surname>Liu</surname><given-names>C.J.</given-names></name><name><surname>Sanjanwala</surname><given-names>A.R.</given-names></name><name><surname>Edwards</surname><given-names>M.A.</given-names></name><name><surname>Gomez-Sanchez</surname><given-names>C.E.</given-names></name><etal/></person-group>
+<article-title>Aldosterone-stimulating somatic gene mutations are common in normal adrenal glands</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2015</year>
+<volume>112</volume>
+<fpage>E4591</fpage>
+<lpage>E4599</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1505529112</pub-id>
+<?supplied-pmid 26240369?><pub-id pub-id-type="pmid">26240369</pub-id></element-citation></ref><ref id="B45-ijms-17-00797"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Geller</surname><given-names>D.S.</given-names></name><name><surname>Zhang</surname><given-names>J.</given-names></name><name><surname>Wisgerhof</surname><given-names>M.V.</given-names></name><name><surname>Shackleton</surname><given-names>C.</given-names></name><name><surname>Kashgarian</surname><given-names>M.</given-names></name><name><surname>Lifton</surname><given-names>R.P.</given-names></name></person-group>
+<article-title>A novel form of human mendelian hypertension featuring nonglucocorticoid-remediable aldosteronism</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2008</year>
+<volume>93</volume>
+<fpage>3117</fpage>
+<lpage>3123</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.2008-0594</pub-id>
+<?supplied-pmid 18505761?><pub-id pub-id-type="pmid">18505761</pub-id></element-citation></ref><ref id="B46-ijms-17-00797"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Charmandari</surname><given-names>E.</given-names></name><name><surname>Sertedaki</surname><given-names>A.</given-names></name><name><surname>Kino</surname><given-names>T.</given-names></name><name><surname>Merakou</surname><given-names>C.</given-names></name><name><surname>Hoffman</surname><given-names>D.A.</given-names></name><name><surname>Hatch</surname><given-names>M.M.</given-names></name><name><surname>Hurt</surname><given-names>D.E.</given-names></name><name><surname>Lin</surname><given-names>L.</given-names></name><name><surname>Xekouki</surname><given-names>P.</given-names></name><name><surname>Stratakis</surname><given-names>C.A.</given-names></name><etal/></person-group>
+<article-title>A novel point mutation in the <italic>KCNJ5</italic> gene causing primary hyperaldosteronism and early-onset autosomal dominant hypertension</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2012</year>
+<volume>97</volume>
+<fpage>E1532</fpage>
+<lpage>E1539</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.2012-1334</pub-id>
+<?supplied-pmid 22628607?><pub-id pub-id-type="pmid">22628607</pub-id></element-citation></ref><ref id="B47-ijms-17-00797"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scholl</surname><given-names>U.I.</given-names></name><name><surname>Nelson-Williams</surname><given-names>C.</given-names></name><name><surname>Yue</surname><given-names>P.</given-names></name><name><surname>Grekin</surname><given-names>R.</given-names></name><name><surname>Wyatt</surname><given-names>R.J.</given-names></name><name><surname>Dillon</surname><given-names>M.J.</given-names></name><name><surname>Couch</surname><given-names>R.</given-names></name><name><surname>Hammer</surname><given-names>L.K.</given-names></name><name><surname>Harley</surname><given-names>F.L.</given-names></name><name><surname>Farhi</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Hypertension with or without adrenal hyperplasia due to different inherited mutations in the potassium channel <italic>KCNJ5</italic></article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2012</year>
+<volume>109</volume>
+<fpage>2533</fpage>
+<lpage>2538</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1121407109</pub-id>
+<?supplied-pmid 22308486?><pub-id pub-id-type="pmid">22308486</pub-id></element-citation></ref><ref id="B48-ijms-17-00797"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scholl</surname><given-names>U.I.</given-names></name><name><surname>Goh</surname><given-names>G.</given-names></name><name><surname>Stolting</surname><given-names>G.</given-names></name><name><surname>de Oliveira</surname><given-names>R.C.</given-names></name><name><surname>Choi</surname><given-names>M.</given-names></name><name><surname>Overton</surname><given-names>J.D.</given-names></name><name><surname>Fonseca</surname><given-names>A.L.</given-names></name><name><surname>Korah</surname><given-names>R.</given-names></name><name><surname>Starker</surname><given-names>L.F.</given-names></name><name><surname>Kunstman</surname><given-names>J.W.</given-names></name><etal/></person-group>
+<article-title>Somatic and germline cacna1d calcium channel mutations in aldosterone-producing adenomas and primary aldosteronism</article-title>
+<source>Nat. Genet.</source>
+<year>2013</year>
+<volume>45</volume>
+<fpage>1050</fpage>
+<lpage>1054</lpage>
+<pub-id pub-id-type="doi">10.1038/ng.2695</pub-id>
+<?supplied-pmid 23913001?><pub-id pub-id-type="pmid">23913001</pub-id></element-citation></ref><ref id="B49-ijms-17-00797"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rossi</surname><given-names>G.P.</given-names></name><name><surname>Di Bello</surname><given-names>V.</given-names></name><name><surname>Ganzaroli</surname><given-names>C.</given-names></name><name><surname>Sacchetto</surname><given-names>A.</given-names></name><name><surname>Cesari</surname><given-names>M.</given-names></name><name><surname>Bertini</surname><given-names>A.</given-names></name><name><surname>Giorgi</surname><given-names>D.</given-names></name><name><surname>Scognamiglio</surname><given-names>R.</given-names></name><name><surname>Mariani</surname><given-names>M.</given-names></name><name><surname>Pessina</surname><given-names>A.C.</given-names></name></person-group>
+<article-title>Excess aldosterone is associated with alterations of myocardial texture in primary aldosteronism</article-title>
+<source>Hypertension</source>
+<year>2002</year>
+<volume>40</volume>
+<fpage>23</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.0000023182.68420.EB</pub-id>
+<?supplied-pmid 12105133?><pub-id pub-id-type="pmid">12105133</pub-id></element-citation></ref><ref id="B50-ijms-17-00797"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mosso</surname><given-names>L.</given-names></name><name><surname>Carvajal</surname><given-names>C.</given-names></name><name><surname>Gonzalez</surname><given-names>A.</given-names></name><name><surname>Barraza</surname><given-names>A.</given-names></name><name><surname>Avila</surname><given-names>F.</given-names></name><name><surname>Montero</surname><given-names>J.</given-names></name><name><surname>Huete</surname><given-names>A.</given-names></name><name><surname>Gederlini</surname><given-names>A.</given-names></name><name><surname>Fardella</surname><given-names>C.E.</given-names></name></person-group>
+<article-title>Primary aldosteronism and hypertensive disease</article-title>
+<source>Hypertension</source>
+<year>2003</year>
+<volume>42</volume>
+<fpage>161</fpage>
+<lpage>165</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.0000079505.25750.11</pub-id>
+<?supplied-pmid 12796282?><pub-id pub-id-type="pmid">12796282</pub-id></element-citation></ref><ref id="B51-ijms-17-00797"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stehr</surname><given-names>C.B.</given-names></name><name><surname>Mellado</surname><given-names>R.</given-names></name><name><surname>Ocaranza</surname><given-names>M.P.</given-names></name><name><surname>Carvajal</surname><given-names>C.A.</given-names></name><name><surname>Mosso</surname><given-names>L.</given-names></name><name><surname>Becerra</surname><given-names>E.</given-names></name><name><surname>Solis</surname><given-names>M.</given-names></name><name><surname>Garcia</surname><given-names>L.</given-names></name><name><surname>Lavandero</surname><given-names>S.</given-names></name><name><surname>Jalil</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>Increased levels of oxidative stress, subclinical inflammation, and myocardial fibrosis markers in primary aldosteronism patients</article-title>
+<source>J. Hypertens.</source>
+<year>2010</year>
+<volume>28</volume>
+<fpage>2120</fpage>
+<lpage>2126</lpage>
+<pub-id pub-id-type="doi">10.1097/HJH.0b013e32833d0177</pub-id>
+<?supplied-pmid 20683341?><pub-id pub-id-type="pmid">20683341</pub-id></element-citation></ref><ref id="B52-ijms-17-00797"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martinez-Aguayo</surname><given-names>A.</given-names></name><name><surname>Aglony</surname><given-names>M.</given-names></name><name><surname>Campino</surname><given-names>C.</given-names></name><name><surname>Garcia</surname><given-names>H.</given-names></name><name><surname>Bancalari</surname><given-names>R.</given-names></name><name><surname>Bolte</surname><given-names>L.</given-names></name><name><surname>Avalos</surname><given-names>C.</given-names></name><name><surname>Loureiro</surname><given-names>C.</given-names></name><name><surname>Carvajal</surname><given-names>C.A.</given-names></name><name><surname>Avila</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Aldosterone, plasma renin activity, and aldosterone/renin ratio in a normotensive healthy pediatric population</article-title>
+<source>Hypertension</source>
+<year>2010</year>
+<volume>56</volume>
+<fpage>391</fpage>
+<lpage>396</lpage>
+<pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.110.155135</pub-id>
+<?supplied-pmid 20696993?><pub-id pub-id-type="pmid">20696993</pub-id></element-citation></ref><ref id="B53-ijms-17-00797"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loureiro</surname><given-names>C.</given-names></name><name><surname>Campino</surname><given-names>C.</given-names></name><name><surname>Martinez-Aguayo</surname><given-names>A.</given-names></name><name><surname>Godoy</surname><given-names>I.</given-names></name><name><surname>Aglony</surname><given-names>M.</given-names></name><name><surname>Bancalari</surname><given-names>R.</given-names></name><name><surname>Garcia</surname><given-names>H.</given-names></name><name><surname>Carvajal</surname><given-names>C.A.</given-names></name><name><surname>Fardella</surname><given-names>C.</given-names></name></person-group>
+<article-title>Positive association between aldosterone-renin ratio and carotid intima-media thickness in hypertensive children</article-title>
+<source>Clin. Endocrinol. (Oxf.)</source>
+<year>2013</year>
+<volume>78</volume>
+<fpage>352</fpage>
+<lpage>357</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2265.2012.04503.x</pub-id>
+<?supplied-pmid 22803613?><pub-id pub-id-type="pmid">22803613</pub-id></element-citation></ref><ref id="B54-ijms-17-00797"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wynn</surname><given-names>T.A.</given-names></name></person-group>
+<article-title>Cellular and molecular mechanisms of fibrosis</article-title>
+<source>J. Pathol.</source>
+<year>2008</year>
+<volume>214</volume>
+<fpage>199</fpage>
+<lpage>210</lpage>
+<pub-id pub-id-type="doi">10.1002/path.2277</pub-id>
+<?supplied-pmid 18161745?><pub-id pub-id-type="pmid">18161745</pub-id></element-citation></ref><ref id="B55-ijms-17-00797"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rockey</surname><given-names>D.C.</given-names></name><name><surname>Bell</surname><given-names>P.D.</given-names></name><name><surname>Hill</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Fibrosis&#x02014;A common pathway to organ injury and failure</article-title>
+<source>N. Engl. J. Med.</source>
+<year>2015</year>
+<volume>373</volume>
+<pub-id pub-id-type="doi">10.1056/NEJMra1300575</pub-id>
+<?supplied-pmid 25785971?><pub-id pub-id-type="pmid">25785971</pub-id></element-citation></ref><ref id="B56-ijms-17-00797"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kagami</surname><given-names>S.</given-names></name><name><surname>Border</surname><given-names>W.A.</given-names></name><name><surname>Miller</surname><given-names>D.E.</given-names></name><name><surname>Noble</surname><given-names>N.A.</given-names></name></person-group>
+<article-title>Angiotensin II stimulates extracellular matrix protein synthesis through induction of transforming growth factor-&#x003b2; expression in rat glomerular mesangial cells</article-title>
+<source>J. Clin. Investig.</source>
+<year>1994</year>
+<volume>93</volume>
+<fpage>2431</fpage>
+<lpage>2437</lpage>
+<pub-id pub-id-type="doi">10.1172/JCI117251</pub-id>
+<?supplied-pmid 8200978?><pub-id pub-id-type="pmid">8200978</pub-id></element-citation></ref><ref id="B57-ijms-17-00797"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arciniegas</surname><given-names>E.</given-names></name><name><surname>Sutton</surname><given-names>A.B.</given-names></name><name><surname>Allen</surname><given-names>T.D.</given-names></name><name><surname>Schor</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Transforming growth factor &#x003b2;1 promotes the differentiation of endothelial cells into smooth muscle-like cells in vitro</article-title>
+<source>J. Cell Sci.</source>
+<year>1992</year>
+<volume>103 Pt 2</volume>
+<fpage>521</fpage>
+<lpage>529</lpage>
+<?supplied-pmid 1478952?><pub-id pub-id-type="pmid">1478952</pub-id></element-citation></ref><ref id="B58-ijms-17-00797"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zeisberg</surname><given-names>E.M.</given-names></name><name><surname>Tarnavski</surname><given-names>O.</given-names></name><name><surname>Zeisberg</surname><given-names>M.</given-names></name><name><surname>Dorfman</surname><given-names>A.L.</given-names></name><name><surname>McMullen</surname><given-names>J.R.</given-names></name><name><surname>Gustafsson</surname><given-names>E.</given-names></name><name><surname>Chandraker</surname><given-names>A.</given-names></name><name><surname>Yuan</surname><given-names>X.</given-names></name><name><surname>Pu</surname><given-names>W.T.</given-names></name><name><surname>Roberts</surname><given-names>A.B.</given-names></name><etal/></person-group>
+<article-title>Endothelial-to-mesenchymal transition contributes to cardiac fibrosis</article-title>
+<source>Nat. Med.</source>
+<year>2007</year>
+<volume>13</volume>
+<fpage>952</fpage>
+<lpage>961</lpage>
+<pub-id pub-id-type="doi">10.1038/nm1613</pub-id>
+<?supplied-pmid 17660828?><pub-id pub-id-type="pmid">17660828</pub-id></element-citation></ref><ref id="B59-ijms-17-00797"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sun</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>J.</given-names></name><name><surname>Zhang</surname><given-names>J.Q.</given-names></name><name><surname>Ramires</surname><given-names>F.J.</given-names></name></person-group>
+<article-title>Local angiotensin II and transforming growth factor-&#x003b2;1 in renal fibrosis of rats</article-title>
+<source>Hypertension</source>
+<year>2000</year>
+<volume>35</volume>
+<fpage>1078</fpage>
+<lpage>1084</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.35.5.1078</pub-id>
+<?supplied-pmid 10818068?><pub-id pub-id-type="pmid">10818068</pub-id></element-citation></ref><ref id="B60-ijms-17-00797"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>An</surname><given-names>S.J.</given-names></name><name><surname>Boyd</surname><given-names>R.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Qiu</surname><given-names>X.</given-names></name><name><surname>Wang</surname><given-names>H.D.</given-names></name></person-group>
+<article-title>Endothelin-1 expression in vascular adventitial fibroblasts</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2006</year>
+<volume>290</volume>
+<fpage>H700</fpage>
+<lpage>H708</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.00326.2005</pub-id>
+<?supplied-pmid 16113066?><pub-id pub-id-type="pmid">16113066</pub-id></element-citation></ref><ref id="B61-ijms-17-00797"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>W.D.</given-names></name><name><surname>Chu</surname><given-names>Y.F.</given-names></name><name><surname>Li</surname><given-names>X.D.</given-names></name><name><surname>Gao</surname><given-names>P.J.</given-names></name></person-group>
+<article-title>Angiotensin II induces expression of inflammatory mediators in vascular adventitial fibroblasts</article-title>
+<source>Sheng Li Xue Bao</source>
+<year>2015</year>
+<volume>67</volume>
+<fpage>603</fpage>
+<lpage>610</lpage>
+<?supplied-pmid 26701636?><pub-id pub-id-type="pmid">26701636</pub-id></element-citation></ref><ref id="B62-ijms-17-00797"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCarthy</surname><given-names>C.G.</given-names></name><name><surname>Wenceslau</surname><given-names>C.F.</given-names></name><name><surname>Goulopoulou</surname><given-names>S.</given-names></name><name><surname>Ogbi</surname><given-names>S.</given-names></name><name><surname>Baban</surname><given-names>B.</given-names></name><name><surname>Sullivan</surname><given-names>J.C.</given-names></name><name><surname>Matsumoto</surname><given-names>T.</given-names></name><name><surname>Webb</surname><given-names>R.C.</given-names></name></person-group>
+<article-title>Circulating mitochondrial DNA and toll-like receptor 9 are associated with vascular dysfunction in spontaneously hypertensive rats</article-title>
+<source>Cardiovasc. Res.</source>
+<year>2015</year>
+<volume>107</volume>
+<fpage>119</fpage>
+<lpage>130</lpage>
+<pub-id pub-id-type="doi">10.1093/cvr/cvv137</pub-id>
+<?supplied-pmid 25910936?><pub-id pub-id-type="pmid">25910936</pub-id></element-citation></ref><ref id="B63-ijms-17-00797"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goulopoulou</surname><given-names>S.</given-names></name><name><surname>McCarthy</surname><given-names>C.G.</given-names></name><name><surname>Webb</surname><given-names>R.C.</given-names></name></person-group>
+<article-title>Toll-like receptors in the vascular system: Sensing the dangers within</article-title>
+<source>Pharmacol. Rev.</source>
+<year>2016</year>
+<volume>68</volume>
+<fpage>142</fpage>
+<lpage>167</lpage>
+<pub-id pub-id-type="doi">10.1124/pr.114.010090</pub-id>
+<?supplied-pmid 26721702?><pub-id pub-id-type="pmid">26721702</pub-id></element-citation></ref><ref id="B64-ijms-17-00797"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eissler</surname><given-names>R.</given-names></name><name><surname>Schmaderer</surname><given-names>C.</given-names></name><name><surname>Rusai</surname><given-names>K.</given-names></name><name><surname>Kuhne</surname><given-names>L.</given-names></name><name><surname>Sollinger</surname><given-names>D.</given-names></name><name><surname>Lahmer</surname><given-names>T.</given-names></name><name><surname>Witzke</surname><given-names>O.</given-names></name><name><surname>Lutz</surname><given-names>J.</given-names></name><name><surname>Heemann</surname><given-names>U.</given-names></name><name><surname>Baumann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Hypertension augments cardiac toll-like receptor 4 expression and activity</article-title>
+<source>Hypertens. Res.</source>
+<year>2011</year>
+<volume>34</volume>
+<fpage>551</fpage>
+<lpage>558</lpage>
+<pub-id pub-id-type="doi">10.1038/hr.2010.270</pub-id>
+<?supplied-pmid 21248757?><pub-id pub-id-type="pmid">21248757</pub-id></element-citation></ref><ref id="B65-ijms-17-00797"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ha</surname><given-names>T.</given-names></name><name><surname>Li</surname><given-names>Y.</given-names></name><name><surname>Hua</surname><given-names>F.</given-names></name><name><surname>Ma</surname><given-names>J.</given-names></name><name><surname>Gao</surname><given-names>X.</given-names></name><name><surname>Kelley</surname><given-names>J.</given-names></name><name><surname>Zhao</surname><given-names>A.</given-names></name><name><surname>Haddad</surname><given-names>G.E.</given-names></name><name><surname>Williams</surname><given-names>D.L.</given-names></name><name><surname>William Browder</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>Reduced cardiac hypertrophy in toll-like receptor 4-deficient mice following pressure overload</article-title>
+<source>Cardiovasc. Res.</source>
+<year>2005</year>
+<volume>68</volume>
+<fpage>224</fpage>
+<lpage>234</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cardiores.2005.05.025</pub-id>
+<?supplied-pmid 15967420?><pub-id pub-id-type="pmid">15967420</pub-id></element-citation></ref><ref id="B66-ijms-17-00797"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernanz</surname><given-names>R.</given-names></name><name><surname>Martinez-Revelles</surname><given-names>S.</given-names></name><name><surname>Palacios</surname><given-names>R.</given-names></name><name><surname>Martin</surname><given-names>A.</given-names></name><name><surname>Cachofeiro</surname><given-names>V.</given-names></name><name><surname>Aguado</surname><given-names>A.</given-names></name><name><surname>Garcia-Redondo</surname><given-names>L.</given-names></name><name><surname>Barrus</surname><given-names>M.T.</given-names></name><name><surname>de Batista</surname><given-names>P.R.</given-names></name><name><surname>Briones</surname><given-names>A.M.</given-names></name><etal/></person-group>
+<article-title>Toll-like receptor 4 contributes to vascular remodelling and endothelial dysfunction in angiotensin II-induced hypertension</article-title>
+<source>Br. J. Pharmacol.</source>
+<year>2015</year>
+<volume>172</volume>
+<fpage>3159</fpage>
+<lpage>3176</lpage>
+<pub-id pub-id-type="doi">10.1111/bph.13117</pub-id>
+<?supplied-pmid 25712370?><pub-id pub-id-type="pmid">25712370</pub-id></element-citation></ref><ref id="B67-ijms-17-00797"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Echem</surname><given-names>C.</given-names></name><name><surname>Bomfim</surname><given-names>G.F.</given-names></name><name><surname>Ceravolo</surname><given-names>G.S.</given-names></name><name><surname>Oliveira</surname><given-names>M.A.</given-names></name><name><surname>Santos-Eichler</surname><given-names>R.A.</given-names></name><name><surname>Bechara</surname><given-names>L.R.</given-names></name><name><surname>Veras</surname><given-names>M.M.</given-names></name><name><surname>Saldiva</surname><given-names>P.H.</given-names></name><name><surname>Ferreira</surname><given-names>J.C.</given-names></name><name><surname>Akamine</surname><given-names>E.H.</given-names></name><etal/></person-group>
+<article-title>Anti-toll like receptor 4 (TLR4) therapy diminishes cardiac remodeling regardless of changes in blood pressure in spontaneously hypertensive rats (SHR)</article-title>
+<source>Int. J. Cardiol.</source>
+<year>2015</year>
+<volume>187</volume>
+<fpage>243</fpage>
+<lpage>245</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ijcard.2015.03.190</pub-id>
+<?supplied-pmid 25838224?><pub-id pub-id-type="pmid">25838224</pub-id></element-citation></ref><ref id="B68-ijms-17-00797"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y.</given-names></name><name><surname>Peng</surname><given-names>W.</given-names></name><name><surname>Ao</surname><given-names>X.</given-names></name><name><surname>Dai</surname><given-names>H.</given-names></name><name><surname>Yuan</surname><given-names>L.</given-names></name><name><surname>Huang</surname><given-names>X.</given-names></name><name><surname>Zhou</surname><given-names>Q.</given-names></name></person-group>
+<article-title>TAK-242, a toll-like receptor 4 antagonist, protects against aldosterone-induced cardiac and renal injury</article-title>
+<source>PLoS ONE</source>
+<year>2015</year>
+<volume>10</volume>
+<elocation-id>797</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0142456</pub-id>
+<?supplied-pmid 26556241?><pub-id pub-id-type="pmid">26556241</pub-id></element-citation></ref><ref id="B69-ijms-17-00797"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lubanski</surname><given-names>M.S.</given-names></name><name><surname>McCullough</surname><given-names>P.A.</given-names></name></person-group>
+<article-title>Kidney&#x02019;s role in hypertension</article-title>
+<source>Minerva Cardioangiol.</source>
+<year>2009</year>
+<volume>57</volume>
+<fpage>743</fpage>
+<lpage>759</lpage>
+<?supplied-pmid 19942846?><pub-id pub-id-type="pmid">19942846</pub-id></element-citation></ref><ref id="B70-ijms-17-00797"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Calo</surname><given-names>L.A.</given-names></name><name><surname>Zaghetto</surname><given-names>F.</given-names></name><name><surname>Pagnin</surname><given-names>E.</given-names></name><name><surname>Davis</surname><given-names>P.A.</given-names></name><name><surname>de Mozzi</surname><given-names>P.</given-names></name><name><surname>Sartorato</surname><given-names>P.</given-names></name><name><surname>Martire</surname><given-names>G.</given-names></name><name><surname>Fiore</surname><given-names>C.</given-names></name><name><surname>Armanini</surname><given-names>D.</given-names></name></person-group>
+<article-title>Effect of aldosterone and glycyrrhetinic acid on the protein expression of PAI-1 and p22(phox) in human mononuclear leukocytes</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>2004</year>
+<volume>89</volume>
+<fpage>1973</fpage>
+<lpage>1976</lpage>
+<pub-id pub-id-type="doi">10.1210/jc.2003-031545</pub-id>
+<?supplied-pmid 15070972?><pub-id pub-id-type="pmid">15070972</pub-id></element-citation></ref><ref id="B71-ijms-17-00797"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walczak</surname><given-names>C.</given-names></name><name><surname>Gaignier</surname><given-names>F.</given-names></name><name><surname>Gilet</surname><given-names>A.</given-names></name><name><surname>Zou</surname><given-names>F.</given-names></name><name><surname>Thornton</surname><given-names>S.N.</given-names></name><name><surname>Ropars</surname><given-names>A.</given-names></name></person-group>
+<article-title>Aldosterone increases VEGF-&#x003b1; production in human neutrophils through PI3K, ERK1/2 and p38 pathways</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2011</year>
+<volume>1813</volume>
+<fpage>2125</fpage>
+<lpage>2132</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bbamcr.2011.07.010</pub-id>
+<?supplied-pmid 21803079?><pub-id pub-id-type="pmid">21803079</pub-id></element-citation></ref><ref id="B72-ijms-17-00797"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sekizawa</surname><given-names>N.</given-names></name><name><surname>Yoshimoto</surname><given-names>T.</given-names></name><name><surname>Hayakawa</surname><given-names>E.</given-names></name><name><surname>Suzuki</surname><given-names>N.</given-names></name><name><surname>Sugiyama</surname><given-names>T.</given-names></name><name><surname>Hirata</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Transcriptome analysis of aldosterone-regulated genes in human vascular endothelial cell lines stably expressing mineralocorticoid receptor</article-title>
+<source>Mol. Cell. Endocrinol.</source>
+<year>2011</year>
+<volume>341</volume>
+<fpage>78</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="doi">10.1016/j.mce.2011.05.029</pub-id>
+<?supplied-pmid 21664252?><pub-id pub-id-type="pmid">21664252</pub-id></element-citation></ref><ref id="B73-ijms-17-00797"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>S.E.</given-names></name><name><surname>Persson</surname><given-names>F.</given-names></name><name><surname>Frandsen</surname><given-names>E.</given-names></name><name><surname>Sugaya</surname><given-names>T.</given-names></name><name><surname>Hess</surname><given-names>G.</given-names></name><name><surname>Zdunek</surname><given-names>D.</given-names></name><name><surname>Shjoedt</surname><given-names>K.J.</given-names></name><name><surname>Parving</surname><given-names>H.H.</given-names></name><name><surname>Rossing</surname><given-names>P.</given-names></name></person-group>
+<article-title>Spironolactone diminishes urinary albumin excretion in patients with type 1 diabetes and microalbuminuria: A randomized placebo-controlled crossover study</article-title>
+<source>Diabet. Med.</source>
+<year>2012</year>
+<volume>29</volume>
+<fpage>e184</fpage>
+<lpage>e190</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1464-5491.2012.03585.x</pub-id>
+<?supplied-pmid 22268920?><pub-id pub-id-type="pmid">22268920</pub-id></element-citation></ref><ref id="B74-ijms-17-00797"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>S.E.</given-names></name><name><surname>Schjoedt</surname><given-names>K.J.</given-names></name><name><surname>Rossing</surname><given-names>K.</given-names></name><name><surname>Persson</surname><given-names>F.</given-names></name><name><surname>Schalkwijk</surname><given-names>C.G.</given-names></name><name><surname>Stehouwer</surname><given-names>C.D.</given-names></name><name><surname>Parving</surname><given-names>H.H.</given-names></name><name><surname>Rossing</surname><given-names>P.</given-names></name></person-group>
+<article-title>Levels of NT-proBNP, markers of low-grade inflammation, and endothelial dysfunction during spironolactone treatment in patients with diabetic kidney disease</article-title>
+<source>J. Renin Angiotensin Aldosterone Syst.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>161</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="doi">10.1177/1470320312460290</pub-id>
+<?supplied-pmid 23108194?><pub-id pub-id-type="pmid">23108194</pub-id></element-citation></ref><ref id="B75-ijms-17-00797"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mennuni</surname><given-names>S.</given-names></name><name><surname>Rubattu</surname><given-names>S.</given-names></name><name><surname>Pierelli</surname><given-names>G.</given-names></name><name><surname>Tocci</surname><given-names>G.</given-names></name><name><surname>Fofi</surname><given-names>C.</given-names></name><name><surname>Volpe</surname><given-names>M.</given-names></name></person-group>
+<article-title>Hypertension and kidneys: Unraveling complex molecular mechanisms underlying hypertensive renal damage</article-title>
+<source>J. Hum. Hypertens.</source>
+<year>2014</year>
+<volume>28</volume>
+<fpage>74</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="doi">10.1038/jhh.2013.55</pub-id>
+<?supplied-pmid 23803592?><pub-id pub-id-type="pmid">23803592</pub-id></element-citation></ref><ref id="B76-ijms-17-00797"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurts</surname><given-names>C.</given-names></name><name><surname>Panzer</surname><given-names>U.</given-names></name><name><surname>Anders</surname><given-names>H.J.</given-names></name><name><surname>Rees</surname><given-names>A.J.</given-names></name></person-group>
+<article-title>The immune system and kidney disease: Basic concepts and clinical implications</article-title>
+<source>Nat. Rev. Immunol.</source>
+<year>2013</year>
+<volume>13</volume>
+<fpage>738</fpage>
+<lpage>753</lpage>
+<pub-id pub-id-type="doi">10.1038/nri3523</pub-id>
+<?supplied-pmid 24037418?><pub-id pub-id-type="pmid">24037418</pub-id></element-citation></ref><ref id="B77-ijms-17-00797"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eddy</surname><given-names>A.A.</given-names></name><name><surname>Neilson</surname><given-names>E.G.</given-names></name></person-group>
+<article-title>Chronic kidney disease progression</article-title>
+<source>J. Am. Soc. Nephrol.</source>
+<year>2006</year>
+<volume>17</volume>
+<fpage>2964</fpage>
+<lpage>2966</lpage>
+<pub-id pub-id-type="doi">10.1681/ASN.2006070704</pub-id>
+<?supplied-pmid 17035605?><pub-id pub-id-type="pmid">17035605</pub-id></element-citation></ref><ref id="B78-ijms-17-00797"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eddy</surname><given-names>A.A.</given-names></name></person-group>
+<article-title>Overview of the cellular and molecular basis of kidney fibrosis</article-title>
+<source>Kidney Int. Suppl. (2011)</source>
+<year>2014</year>
+<volume>4</volume>
+<fpage>2</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="doi">10.1038/kisup.2014.2</pub-id>
+<?supplied-pmid 25401038?><pub-id pub-id-type="pmid">25401038</pub-id></element-citation></ref><ref id="B79-ijms-17-00797"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leung</surname><given-names>J.C.</given-names></name><name><surname>Chan</surname><given-names>L.Y.</given-names></name><name><surname>Tsang</surname><given-names>A.W.</given-names></name><name><surname>Liu</surname><given-names>E.W.</given-names></name><name><surname>Lam</surname><given-names>M.F.</given-names></name><name><surname>Tang</surname><given-names>S.C.</given-names></name><name><surname>Lai</surname><given-names>K.N.</given-names></name></person-group>
+<article-title>Anti-macrophage migration inhibitory factor reduces transforming growth factor-&#x003b2;1 expression in experimental IgA nephropathy</article-title>
+<source>Nephrol. Dial. Transplant.</source>
+<year>2004</year>
+<volume>19</volume>
+<fpage>1976</fpage>
+<lpage>1985</lpage>
+<pub-id pub-id-type="doi">10.1093/ndt/gfh323</pub-id>
+<?supplied-pmid 15187193?><pub-id pub-id-type="pmid">15187193</pub-id></element-citation></ref><ref id="B80-ijms-17-00797"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bruchfeld</surname><given-names>A.</given-names></name><name><surname>Wendt</surname><given-names>M.</given-names></name><name><surname>Miller</surname><given-names>E.J.</given-names></name></person-group>
+<article-title>Macrophage migration inhibitory factor in clinical kidney disease</article-title>
+<source>Front. Immunol.</source>
+<year>2016</year>
+<volume>7</volume>
+<fpage>8</fpage>
+<pub-id pub-id-type="doi">10.3389/fimmu.2016.00008</pub-id>
+<?supplied-pmid 26858715?><pub-id pub-id-type="pmid">26858715</pub-id></element-citation></ref><ref id="B81-ijms-17-00797"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sussman</surname><given-names>C.R.</given-names></name></person-group>
+<article-title>TGF-&#x003b2;, Notch, and HGF weave a tangled web of kidney repair</article-title>
+<source>Am. J. Physiol. Ren. Physiol.</source>
+<year>2016</year>
+<volume>310</volume>
+<fpage>F744</fpage>
+<lpage>F745</lpage>
+<pub-id pub-id-type="doi">10.1152/ajprenal.00050.2016</pub-id>
+<?supplied-pmid 26864936?><pub-id pub-id-type="pmid">26864936</pub-id></element-citation></ref><ref id="B82-ijms-17-00797"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pueyo</surname><given-names>M.E.</given-names></name><name><surname>Gonzalez</surname><given-names>W.</given-names></name><name><surname>Nicoletti</surname><given-names>A.</given-names></name><name><surname>Savoie</surname><given-names>F.</given-names></name><name><surname>Arnal</surname><given-names>J.F.</given-names></name><name><surname>Michel</surname><given-names>J.B.</given-names></name></person-group>
+<article-title>Angiotensin II stimulates endothelial vascular cell adhesion molecule-1 via nuclear factor-&#x003ba;b activation induced by intracellular oxidative stress</article-title>
+<source>Arterioscler. Thromb. Vasc. Biol.</source>
+<year>2000</year>
+<volume>20</volume>
+<fpage>645</fpage>
+<lpage>651</lpage>
+<pub-id pub-id-type="doi">10.1161/01.ATV.20.3.645</pub-id>
+<?supplied-pmid 10712386?><pub-id pub-id-type="pmid">10712386</pub-id></element-citation></ref><ref id="B83-ijms-17-00797"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sowers</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Metabolic risk factors and renal disease</article-title>
+<source>Kidney Int.</source>
+<year>2007</year>
+<volume>71</volume>
+<fpage>719</fpage>
+<lpage>720</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.ki.5002006</pub-id>
+<?supplied-pmid 17429418?><pub-id pub-id-type="pmid">17429418</pub-id></element-citation></ref><ref id="B84-ijms-17-00797"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooper</surname><given-names>S.A.</given-names></name><name><surname>Whaley-Connell</surname><given-names>A.</given-names></name><name><surname>Habibi</surname><given-names>J.</given-names></name><name><surname>Wei</surname><given-names>Y.</given-names></name><name><surname>Lastra</surname><given-names>G.</given-names></name><name><surname>Manrique</surname><given-names>C.</given-names></name><name><surname>Stas</surname><given-names>S.</given-names></name><name><surname>Sowers</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Renin-angiotensin-aldosterone system and oxidative stress in cardiovascular insulin resistance</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2007</year>
+<volume>293</volume>
+<fpage>H2009</fpage>
+<lpage>H2023</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.00522.2007</pub-id>
+<?supplied-pmid 17586614?><pub-id pub-id-type="pmid">17586614</pub-id></element-citation></ref><ref id="B85-ijms-17-00797"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Epstein</surname><given-names>M.</given-names></name></person-group>
+<article-title>Aldosterone blockade: An emerging strategy for abrogating progressive renal disease</article-title>
+<source>Am. J. Med.</source>
+<year>2006</year>
+<volume>119</volume>
+<fpage>912</fpage>
+<lpage>919</lpage>
+<pub-id pub-id-type="doi">10.1016/j.amjmed.2006.03.038</pub-id>
+<?supplied-pmid 17071154?><pub-id pub-id-type="pmid">17071154</pub-id></element-citation></ref><ref id="B86-ijms-17-00797"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nagase</surname><given-names>M.</given-names></name><name><surname>Yoshida</surname><given-names>S.</given-names></name><name><surname>Shibata</surname><given-names>S.</given-names></name><name><surname>Nagase</surname><given-names>T.</given-names></name><name><surname>Gotoda</surname><given-names>T.</given-names></name><name><surname>Ando</surname><given-names>K.</given-names></name><name><surname>Fujita</surname><given-names>T.</given-names></name></person-group>
+<article-title>Enhanced aldosterone signaling in the early nephropathy of rats with metabolic syndrome: Possible contribution of fat-derived factors</article-title>
+<source>J. Am. Soc. Nephrol.</source>
+<year>2006</year>
+<volume>17</volume>
+<fpage>3438</fpage>
+<lpage>3446</lpage>
+<pub-id pub-id-type="doi">10.1681/ASN.2006080944</pub-id>
+<?supplied-pmid 17082236?><pub-id pub-id-type="pmid">17082236</pub-id></element-citation></ref><ref id="B87-ijms-17-00797"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bomback</surname><given-names>A.S.</given-names></name><name><surname>Klemmer</surname><given-names>P.J.</given-names></name></person-group>
+<article-title>Renal injury in extreme obesity: The important role of aldosterone</article-title>
+<source>Kidney Int.</source>
+<year>2008</year>
+<volume>74</volume>
+<fpage>1216</fpage>
+<comment>author reply 1216&#x02013;1217</comment>
+<pub-id pub-id-type="doi">10.1038/ki.2008.429</pub-id>
+<?supplied-pmid 18854852?><pub-id pub-id-type="pmid">18854852</pub-id></element-citation></ref><ref id="B88-ijms-17-00797"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rocha</surname><given-names>R.</given-names></name><name><surname>Rudolph</surname><given-names>A.E.</given-names></name><name><surname>Frierdich</surname><given-names>G.E.</given-names></name><name><surname>Nachowiak</surname><given-names>D.A.</given-names></name><name><surname>Kekec</surname><given-names>B.K.</given-names></name><name><surname>Blomme</surname><given-names>E.A.</given-names></name><name><surname>McMahon</surname><given-names>E.G.</given-names></name><name><surname>Delyani</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Aldosterone induces a vascular inflammatory phenotype in the rat heart</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2002</year>
+<volume>283</volume>
+<fpage>H1802</fpage>
+<lpage>H1810</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.01096.2001</pub-id>
+<?supplied-pmid 12384457?><pub-id pub-id-type="pmid">12384457</pub-id></element-citation></ref><ref id="B89-ijms-17-00797"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lopez-Andres</surname><given-names>N.</given-names></name><name><surname>Martin-Fernandez</surname><given-names>B.</given-names></name><name><surname>Rossignol</surname><given-names>P.</given-names></name><name><surname>Zannad</surname><given-names>F.</given-names></name><name><surname>Lahera</surname><given-names>V.</given-names></name><name><surname>Fortuno</surname><given-names>M.A.</given-names></name><name><surname>Cachofeiro</surname><given-names>V.</given-names></name><name><surname>Diez</surname><given-names>J.</given-names></name></person-group>
+<article-title>A role for cardiotrophin-1 in myocardial remodeling induced by aldosterone</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2011</year>
+<volume>301</volume>
+<fpage>H2372</fpage>
+<lpage>H2382</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.00283.2011</pub-id>
+<?supplied-pmid 21926338?><pub-id pub-id-type="pmid">21926338</pub-id></element-citation></ref><ref id="B90-ijms-17-00797"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dartsch</surname><given-names>T.</given-names></name><name><surname>Fischer</surname><given-names>R.</given-names></name><name><surname>Gapelyuk</surname><given-names>A.</given-names></name><name><surname>Weiergraeber</surname><given-names>M.</given-names></name><name><surname>Ladage</surname><given-names>D.</given-names></name><name><surname>Schneider</surname><given-names>T.</given-names></name><name><surname>Schirdewan</surname><given-names>A.</given-names></name><name><surname>Reuter</surname><given-names>H.</given-names></name><name><surname>Mueller-Ehmsen</surname><given-names>J.</given-names></name><name><surname>Zobel</surname><given-names>C.</given-names></name></person-group>
+<article-title>Aldosterone induces electrical remodeling independent of hypertension</article-title>
+<source>Int. J. Cardiol.</source>
+<year>2013</year>
+<volume>164</volume>
+<fpage>170</fpage>
+<lpage>178</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ijcard.2011.06.100</pub-id>
+<?supplied-pmid 21764470?><pub-id pub-id-type="pmid">21764470</pub-id></element-citation></ref><ref id="B91-ijms-17-00797"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>J.S.</given-names></name><name><surname>Choi</surname><given-names>B.S.</given-names></name><name><surname>Yang</surname><given-names>C.W.</given-names></name><name><surname>Kim</surname><given-names>Y.S.</given-names></name></person-group>
+<article-title>Aldosterone-induced TGF-&#x003b2;1 expression is regulated by mitogen-activated protein kinases and activator protein-1 in mesangial cells</article-title>
+<source>J. Korean Med. Sci.</source>
+<year>2009</year>
+<volume>24</volume>
+<issue>Suppl. 1</issue>
+<fpage>S195</fpage>
+<lpage>S203</lpage>
+<pub-id pub-id-type="doi">10.3346/jkms.2009.24.S1.S195</pub-id>
+<?supplied-pmid 19194552?><pub-id pub-id-type="pmid">19194552</pub-id></element-citation></ref><ref id="B92-ijms-17-00797"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qin</surname><given-names>W.</given-names></name><name><surname>Rudolph</surname><given-names>A.E.</given-names></name><name><surname>Bond</surname><given-names>B.R.</given-names></name><name><surname>Rocha</surname><given-names>R.</given-names></name><name><surname>Blomme</surname><given-names>E.A.</given-names></name><name><surname>Goellner</surname><given-names>J.J.</given-names></name><name><surname>Funder</surname><given-names>J.W.</given-names></name><name><surname>McMahon</surname><given-names>E.G.</given-names></name></person-group>
+<article-title>Transgenic model of aldosterone-driven cardiac hypertrophy and heart failure</article-title>
+<source>Circ. Res.</source>
+<year>2003</year>
+<volume>93</volume>
+<fpage>69</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="doi">10.1161/01.RES.0000080521.15238.E5</pub-id>
+<?supplied-pmid 12791709?><pub-id pub-id-type="pmid">12791709</pub-id></element-citation></ref><ref id="B93-ijms-17-00797"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsybouleva</surname><given-names>N.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Chen</surname><given-names>S.</given-names></name><name><surname>Patel</surname><given-names>R.</given-names></name><name><surname>Lutucuta</surname><given-names>S.</given-names></name><name><surname>Nemoto</surname><given-names>S.</given-names></name><name><surname>DeFreitas</surname><given-names>G.</given-names></name><name><surname>Entman</surname><given-names>M.</given-names></name><name><surname>Carabello</surname><given-names>B.A.</given-names></name><name><surname>Roberts</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>Aldosterone, through novel signaling proteins, is a fundamental molecular bridge between the genetic defect and the cardiac phenotype of hypertrophic cardiomyopathy</article-title>
+<source>Circulation</source>
+<year>2004</year>
+<volume>109</volume>
+<fpage>1284</fpage>
+<lpage>1291</lpage>
+<pub-id pub-id-type="doi">10.1161/01.CIR.0000121426.43044.2B</pub-id>
+<?supplied-pmid 14993121?><pub-id pub-id-type="pmid">14993121</pub-id></element-citation></ref><ref id="B94-ijms-17-00797"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lemarie</surname><given-names>C.A.</given-names></name><name><surname>Simeone</surname><given-names>S.M.</given-names></name><name><surname>Nikonova</surname><given-names>A.</given-names></name><name><surname>Ebrahimian</surname><given-names>T.</given-names></name><name><surname>Deschenes</surname><given-names>M.E.</given-names></name><name><surname>Coffman</surname><given-names>T.M.</given-names></name><name><surname>Paradis</surname><given-names>P.</given-names></name><name><surname>Schiffrin</surname><given-names>E.L.</given-names></name></person-group>
+<article-title>Aldosterone-induced activation of signaling pathways requires activity of angiotensin type 1a receptors</article-title>
+<source>Circ. Res.</source>
+<year>2009</year>
+<volume>105</volume>
+<fpage>852</fpage>
+<lpage>859</lpage>
+<pub-id pub-id-type="doi">10.1161/CIRCRESAHA.109.196576</pub-id>
+<?supplied-pmid 19762686?><pub-id pub-id-type="pmid">19762686</pub-id></element-citation></ref><ref id="B95-ijms-17-00797"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hayashi</surname><given-names>H.</given-names></name><name><surname>Kobara</surname><given-names>M.</given-names></name><name><surname>Abe</surname><given-names>M.</given-names></name><name><surname>Tanaka</surname><given-names>N.</given-names></name><name><surname>Gouda</surname><given-names>E.</given-names></name><name><surname>Toba</surname><given-names>H.</given-names></name><name><surname>Yamada</surname><given-names>H.</given-names></name><name><surname>Tatsumi</surname><given-names>T.</given-names></name><name><surname>Nakata</surname><given-names>T.</given-names></name><name><surname>Matsubara</surname><given-names>H.</given-names></name></person-group>
+<article-title>Aldosterone nongenomically produces NADPH oxidase-dependent reactive oxygen species and induces myocyte apoptosis</article-title>
+<source>Hypertens. Res.</source>
+<year>2008</year>
+<volume>31</volume>
+<fpage>363</fpage>
+<lpage>375</lpage>
+<pub-id pub-id-type="doi">10.1291/hypres.31.363</pub-id>
+<?supplied-pmid 18360057?><pub-id pub-id-type="pmid">18360057</pub-id></element-citation></ref><ref id="B96-ijms-17-00797"><label>96.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keidar</surname><given-names>S.</given-names></name><name><surname>Kaplan</surname><given-names>M.</given-names></name><name><surname>Pavlotzky</surname><given-names>E.</given-names></name><name><surname>Coleman</surname><given-names>R.</given-names></name><name><surname>Hayek</surname><given-names>T.</given-names></name><name><surname>Hamoud</surname><given-names>S.</given-names></name><name><surname>Aviram</surname><given-names>M.</given-names></name></person-group>
+<article-title>Aldosterone administration to mice stimulates macrophage NADPH oxidase and increases atherosclerosis development: A possible role for angiotensin-converting enzyme and the receptors for angiotensin II and aldosterone</article-title>
+<source>Circulation</source>
+<year>2004</year>
+<volume>109</volume>
+<fpage>2213</fpage>
+<lpage>2220</lpage>
+<pub-id pub-id-type="doi">10.1161/01.CIR.0000127949.05756.9D</pub-id>
+<?supplied-pmid 15123520?><pub-id pub-id-type="pmid">15123520</pub-id></element-citation></ref><ref id="B97-ijms-17-00797"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iwashima</surname><given-names>F.</given-names></name><name><surname>Yoshimoto</surname><given-names>T.</given-names></name><name><surname>Minami</surname><given-names>I.</given-names></name><name><surname>Sakurada</surname><given-names>M.</given-names></name><name><surname>Hirono</surname><given-names>Y.</given-names></name><name><surname>Hirata</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Aldosterone induces superoxide generation via Rac1 activation in endothelial cells</article-title>
+<source>Endocrinology</source>
+<year>2008</year>
+<volume>149</volume>
+<fpage>1009</fpage>
+<lpage>1014</lpage>
+<pub-id pub-id-type="doi">10.1210/en.2007-0864</pub-id>
+<?supplied-pmid 18079208?><pub-id pub-id-type="pmid">18079208</pub-id></element-citation></ref><ref id="B98-ijms-17-00797"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirono</surname><given-names>Y.</given-names></name><name><surname>Yoshimoto</surname><given-names>T.</given-names></name><name><surname>Suzuki</surname><given-names>N.</given-names></name><name><surname>Sugiyama</surname><given-names>T.</given-names></name><name><surname>Sakurada</surname><given-names>M.</given-names></name><name><surname>Takai</surname><given-names>S.</given-names></name><name><surname>Kobayashi</surname><given-names>N.</given-names></name><name><surname>Shichiri</surname><given-names>M.</given-names></name><name><surname>Hirata</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Angiotensin II receptor type 1-mediated vascular oxidative stress and proinflammatory gene expression in aldosterone-induced hypertension: The possible role of local renin-angiotensin system</article-title>
+<source>Endocrinology</source>
+<year>2007</year>
+<volume>148</volume>
+<fpage>1688</fpage>
+<lpage>1696</lpage>
+<pub-id pub-id-type="doi">10.1210/en.2006-1157</pub-id>
+<?supplied-pmid 17218415?><pub-id pub-id-type="pmid">17218415</pub-id></element-citation></ref><ref id="B99-ijms-17-00797"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johar</surname><given-names>S.</given-names></name><name><surname>Cave</surname><given-names>A.C.</given-names></name><name><surname>Narayanapanicker</surname><given-names>A.</given-names></name><name><surname>Grieve</surname><given-names>D.J.</given-names></name><name><surname>Shah</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Aldosterone mediates angiotensin II-induced interstitial cardiac fibrosis via a Nox2-containing NADPH oxidase</article-title>
+<source>FASEB J.</source>
+<year>2006</year>
+<volume>20</volume>
+<fpage>1546</fpage>
+<lpage>1548</lpage>
+<pub-id pub-id-type="doi">10.1096/fj.05-4642fje</pub-id>
+<?supplied-pmid 16720735?><pub-id pub-id-type="pmid">16720735</pub-id></element-citation></ref><ref id="B100-ijms-17-00797"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chun</surname><given-names>T.Y.</given-names></name><name><surname>Bloem</surname><given-names>L.J.</given-names></name><name><surname>Pratt</surname><given-names>J.H.</given-names></name></person-group>
+<article-title>Aldosterone inhibits inducible nitric oxide synthase in neonatal rat cardiomyocytes</article-title>
+<source>Endocrinology</source>
+<year>2003</year>
+<volume>144</volume>
+<fpage>1712</fpage>
+<lpage>1717</lpage>
+<pub-id pub-id-type="doi">10.1210/en.2002-220956</pub-id>
+<?supplied-pmid 12697675?><pub-id pub-id-type="pmid">12697675</pub-id></element-citation></ref><ref id="B101-ijms-17-00797"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>M.M.</given-names></name><name><surname>Lam</surname><given-names>A.</given-names></name><name><surname>Abraham</surname><given-names>J.A.</given-names></name><name><surname>Schreiner</surname><given-names>G.F.</given-names></name><name><surname>Joly</surname><given-names>A.H.</given-names></name></person-group>
+<article-title>CTGF expression is induced by TGF-&#x003b2; in cardiac fibroblasts and cardiac myocytes: A potential role in heart fibrosis</article-title>
+<source>J. Mol. Cell. Cardiol.</source>
+<year>2000</year>
+<volume>32</volume>
+<fpage>1805</fpage>
+<lpage>1819</lpage>
+<pub-id pub-id-type="doi">10.1006/jmcc.2000.1215</pub-id>
+<?supplied-pmid 11013125?><pub-id pub-id-type="pmid">11013125</pub-id></element-citation></ref><ref id="B102-ijms-17-00797"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin-Fernandez</surname><given-names>B.</given-names></name><name><surname>de las Heras</surname><given-names>N.</given-names></name><name><surname>Miana</surname><given-names>M.</given-names></name><name><surname>Ballesteros</surname><given-names>S.</given-names></name><name><surname>Delgado</surname><given-names>C.</given-names></name><name><surname>Song</surname><given-names>S.</given-names></name><name><surname>Hintze</surname><given-names>T.</given-names></name><name><surname>Cachofeiro</surname><given-names>V.</given-names></name><name><surname>Lahera</surname><given-names>V.</given-names></name></person-group>
+<article-title>Structural, functional, and molecular alterations produced by aldosterone plus salt in rat heart: Association with enhanced serum and glucocorticoid-regulated kinase-1 expression</article-title>
+<source>J. Cardiovasc. Pharmacol.</source>
+<year>2011</year>
+<volume>57</volume>
+<fpage>114</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="doi">10.1097/FJC.0b013e31820088ca</pub-id>
+<?supplied-pmid 20980916?><pub-id pub-id-type="pmid">20980916</pub-id></element-citation></ref><ref id="B103-ijms-17-00797"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Habibi</surname><given-names>J.</given-names></name><name><surname>DeMarco</surname><given-names>V.G.</given-names></name><name><surname>Ma</surname><given-names>L.</given-names></name><name><surname>Pulakat</surname><given-names>L.</given-names></name><name><surname>Rainey</surname><given-names>W.E.</given-names></name><name><surname>Whaley-Connell</surname><given-names>A.T.</given-names></name><name><surname>Sowers</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Mineralocorticoid receptor blockade improves diastolic function independent of blood pressure reduction in a transgenic model of raas overexpression</article-title>
+<source>Am. J. Physiol. Heart Circ. Physiol.</source>
+<year>2011</year>
+<volume>300</volume>
+<fpage>H1484</fpage>
+<lpage>H1491</lpage>
+<pub-id pub-id-type="doi">10.1152/ajpheart.01000.2010</pub-id>
+<?supplied-pmid 21239636?><pub-id pub-id-type="pmid">21239636</pub-id></element-citation></ref><ref id="B104-ijms-17-00797"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kagiyama</surname><given-names>S.</given-names></name><name><surname>Matsumura</surname><given-names>K.</given-names></name><name><surname>Goto</surname><given-names>K.</given-names></name><name><surname>Otsubo</surname><given-names>T.</given-names></name><name><surname>Iida</surname><given-names>M.</given-names></name></person-group>
+<article-title>Role of rho kinase and oxidative stress in cardiac fibrosis induced by aldosterone and salt in angiotensin type 1a receptor knockout mice</article-title>
+<source>Regul. Pept.</source>
+<year>2010</year>
+<volume>160</volume>
+<fpage>133</fpage>
+<lpage>139</lpage>
+<pub-id pub-id-type="doi">10.1016/j.regpep.2009.12.002</pub-id>
+<?supplied-pmid 19969025?><pub-id pub-id-type="pmid">19969025</pub-id></element-citation></ref><ref id="B105-ijms-17-00797"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taira</surname><given-names>M.</given-names></name><name><surname>Toba</surname><given-names>H.</given-names></name><name><surname>Murakami</surname><given-names>M.</given-names></name><name><surname>Iga</surname><given-names>I.</given-names></name><name><surname>Serizawa</surname><given-names>R.</given-names></name><name><surname>Murata</surname><given-names>S.</given-names></name><name><surname>Kobara</surname><given-names>M.</given-names></name><name><surname>Nakata</surname><given-names>T.</given-names></name></person-group>
+<article-title>Spironolactone exhibits direct renoprotective effects and inhibits renal renin-angiotensin-aldosterone system in diabetic rats</article-title>
+<source>Eur. J. Pharmacol.</source>
+<year>2008</year>
+<volume>589</volume>
+<fpage>264</fpage>
+<lpage>271</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ejphar.2008.06.019</pub-id>
+<?supplied-pmid 18582458?><pub-id pub-id-type="pmid">18582458</pub-id></element-citation></ref><ref id="B106-ijms-17-00797"><label>106.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lacolley</surname><given-names>P.</given-names></name><name><surname>Regnault</surname><given-names>V.</given-names></name><name><surname>Nicoletti</surname><given-names>A.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name><name><surname>Michel</surname><given-names>J.B.</given-names></name></person-group>
+<article-title>The vascular smooth muscle cell in arterial pathology: A cell that can take on multiple roles</article-title>
+<source>Cardiovasc. Res.</source>
+<year>2012</year>
+<volume>95</volume>
+<fpage>194</fpage>
+<lpage>204</lpage>
+<pub-id pub-id-type="doi">10.1093/cvr/cvs135</pub-id>
+<?supplied-pmid 22467316?><pub-id pub-id-type="pmid">22467316</pub-id></element-citation></ref><ref id="B107-ijms-17-00797"><label>107.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lombes</surname><given-names>M.</given-names></name><name><surname>Farman</surname><given-names>N.</given-names></name><name><surname>Bonvalet</surname><given-names>J.P.</given-names></name><name><surname>Zennaro</surname><given-names>M.C.</given-names></name></person-group>
+<article-title>Identification and role of aldosterone receptors in the cardiovascular system</article-title>
+<source>Ann. Endocrinol. (Paris)</source>
+<year>2000</year>
+<volume>61</volume>
+<fpage>41</fpage>
+<lpage>46</lpage>
+<?supplied-pmid 10790591?><pub-id pub-id-type="pmid">10790591</pub-id></element-citation></ref><ref id="B108-ijms-17-00797"><label>108.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kohan</surname><given-names>D.E.</given-names></name><name><surname>Rossi</surname><given-names>N.F.</given-names></name><name><surname>Inscho</surname><given-names>E.W.</given-names></name><name><surname>Pollock</surname><given-names>D.M.</given-names></name></person-group>
+<article-title>Regulation of blood pressure and salt homeostasis by endothelin</article-title>
+<source>Physiol. Rev.</source>
+<year>2011</year>
+<volume>91</volume>
+<fpage>1</fpage>
+<lpage>77</lpage>
+<pub-id pub-id-type="doi">10.1152/physrev.00060.2009</pub-id>
+<?supplied-pmid 21248162?><pub-id pub-id-type="pmid">21248162</pub-id></element-citation></ref><ref id="B109-ijms-17-00797"><label>109.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lynch</surname><given-names>I.J.</given-names></name><name><surname>Welch</surname><given-names>A.K.</given-names></name><name><surname>Kohan</surname><given-names>D.E.</given-names></name><name><surname>Cain</surname><given-names>B.D.</given-names></name><name><surname>Wingo</surname><given-names>C.S.</given-names></name></person-group>
+<article-title>Endothelin-1 inhibits sodium reabsorption by ET<sub>A</sub> and ET<sub>B</sub> receptors in the mouse cortical collecting duct</article-title>
+<source>Am. J. Physiol. Ren. Physiol.</source>
+<year>2013</year>
+<volume>305</volume>
+<fpage>F568</fpage>
+<lpage>F573</lpage>
+<pub-id pub-id-type="doi">10.1152/ajprenal.00613.2012</pub-id>
+<?supplied-pmid 23698114?><pub-id pub-id-type="pmid">23698114</pub-id></element-citation></ref><ref id="B110-ijms-17-00797"><label>110.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Q.</given-names></name><name><surname>Saito</surname><given-names>Y.</given-names></name><name><surname>Naya</surname><given-names>N.</given-names></name><name><surname>Imagawa</surname><given-names>K.</given-names></name><name><surname>Somekawa</surname><given-names>S.</given-names></name><name><surname>Kawata</surname><given-names>H.</given-names></name><name><surname>Takeda</surname><given-names>Y.</given-names></name><name><surname>Uemura</surname><given-names>S.</given-names></name><name><surname>Kishimoto</surname><given-names>I.</given-names></name><name><surname>Nakao</surname><given-names>K.</given-names></name></person-group>
+<article-title>The specific mineralocorticoid receptor blocker eplerenone attenuates left ventricular remodeling in mice lacking the gene encoding guanylyl cyclase-A</article-title>
+<source>Hypertens. Res.</source>
+<year>2008</year>
+<volume>31</volume>
+<fpage>1251</fpage>
+<lpage>1256</lpage>
+<pub-id pub-id-type="doi">10.1291/hypres.31.1251</pub-id>
+<?supplied-pmid 18716375?><pub-id pub-id-type="pmid">18716375</pub-id></element-citation></ref><ref id="B111-ijms-17-00797"><label>111.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hirata</surname><given-names>Y.</given-names></name><name><surname>Tomita</surname><given-names>M.</given-names></name><name><surname>Yoshimi</surname><given-names>H.</given-names></name><name><surname>Kuramochi</surname><given-names>M.</given-names></name><name><surname>Ito</surname><given-names>K.</given-names></name><name><surname>Ikeda</surname><given-names>M.</given-names></name></person-group>
+<article-title>Effect of synthetic human atrial natriuretic peptide on aldosterone secretion by dispersed aldosterone-producing adenoma cells in vitro</article-title>
+<source>J. Clin. Endocrinol. Metab.</source>
+<year>1985</year>
+<volume>61</volume>
+<fpage>677</fpage>
+<lpage>680</lpage>
+<pub-id pub-id-type="doi">10.1210/jcem-61-4-677</pub-id>
+<?supplied-pmid 2993343?><pub-id pub-id-type="pmid">2993343</pub-id></element-citation></ref><ref id="B112-ijms-17-00797"><label>112.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ito</surname><given-names>T.</given-names></name><name><surname>Yoshimura</surname><given-names>M.</given-names></name><name><surname>Nakamura</surname><given-names>S.</given-names></name><name><surname>Nakayama</surname><given-names>M.</given-names></name><name><surname>Shimasaki</surname><given-names>Y.</given-names></name><name><surname>Harada</surname><given-names>E.</given-names></name><name><surname>Mizuno</surname><given-names>Y.</given-names></name><name><surname>Yamamuro</surname><given-names>M.</given-names></name><name><surname>Harada</surname><given-names>M.</given-names></name><name><surname>Saito</surname><given-names>Y.</given-names></name><etal/></person-group>
+<article-title>Inhibitory effect of natriuretic peptides on aldosterone synthase gene expression in cultured neonatal rat cardiocytes</article-title>
+<source>Circulation</source>
+<year>2003</year>
+<volume>107</volume>
+<fpage>807</fpage>
+<lpage>810</lpage>
+<pub-id pub-id-type="doi">10.1161/01.CIR.0000057794.29667.08</pub-id>
+<?supplied-pmid 12591748?><pub-id pub-id-type="pmid">12591748</pub-id></element-citation></ref><ref id="B113-ijms-17-00797"><label>113.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiroki</surname><given-names>J.</given-names></name><name><surname>Shimokawa</surname><given-names>H.</given-names></name><name><surname>Higashi</surname><given-names>M.</given-names></name><name><surname>Morikawa</surname><given-names>K.</given-names></name><name><surname>Kandabashi</surname><given-names>T.</given-names></name><name><surname>Kawamura</surname><given-names>N.</given-names></name><name><surname>Kubota</surname><given-names>T.</given-names></name><name><surname>Ichiki</surname><given-names>T.</given-names></name><name><surname>Amano</surname><given-names>M.</given-names></name><name><surname>Kaibuchi</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title>Inflammatory stimuli upregulate Rho-kinase in human coronary vascular smooth muscle cells</article-title>
+<source>J. Mol. Cell. Cardiol.</source>
+<year>2004</year>
+<volume>37</volume>
+<fpage>537</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="doi">10.1016/j.yjmcc.2004.05.008</pub-id>
+<?supplied-pmid 15276023?><pub-id pub-id-type="pmid">15276023</pub-id></element-citation></ref><ref id="B114-ijms-17-00797"><label>114.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shimokawa</surname><given-names>H.</given-names></name><name><surname>Satoh</surname><given-names>K.</given-names></name></person-group>
+<article-title>2015 ATVB plenary lecture: Translational research on Rho-kinase in cardiovascular medicine</article-title>
+<source>Arterioscler. Thromb. Vasc. Biol.</source>
+<year>2015</year>
+<volume>35</volume>
+<fpage>1756</fpage>
+<lpage>1769</lpage>
+<pub-id pub-id-type="doi">10.1161/ATVBAHA.115.305353</pub-id>
+<?supplied-pmid 26069233?><pub-id pub-id-type="pmid">26069233</pub-id></element-citation></ref><ref id="B115-ijms-17-00797"><label>115.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vahebi</surname><given-names>S.</given-names></name><name><surname>Kobayashi</surname><given-names>T.</given-names></name><name><surname>Warren</surname><given-names>C.M.</given-names></name><name><surname>de Tombe</surname><given-names>P.P.</given-names></name><name><surname>Solaro</surname><given-names>R.J.</given-names></name></person-group>
+<article-title>Functional effects of Rho-kinase-dependent phosphorylation of specific sites on cardiac troponin</article-title>
+<source>Circ. Res.</source>
+<year>2005</year>
+<volume>96</volume>
+<fpage>740</fpage>
+<lpage>747</lpage>
+<pub-id pub-id-type="doi">10.1161/01.RES.0000162457.56568.7d</pub-id>
+<?supplied-pmid 15774859?><pub-id pub-id-type="pmid">15774859</pub-id></element-citation></ref><ref id="B116-ijms-17-00797"><label>116.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forstermann</surname><given-names>U.</given-names></name><name><surname>Li</surname><given-names>H.</given-names></name></person-group>
+<article-title>Therapeutic effect of enhancing endothelial nitric oxide synthase (ENOS) expression and preventing enos uncoupling</article-title>
+<source>Br. J. Pharmacol.</source>
+<year>2011</year>
+<volume>164</volume>
+<fpage>213</fpage>
+<lpage>223</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1476-5381.2010.01196.x</pub-id>
+<?supplied-pmid 21198553?><pub-id pub-id-type="pmid">21198553</pub-id></element-citation></ref><ref id="B117-ijms-17-00797"><label>117.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bakris</surname><given-names>G.L.</given-names></name><name><surname>Agarwal</surname><given-names>R.</given-names></name><name><surname>Chan</surname><given-names>J.C.</given-names></name><name><surname>Cooper</surname><given-names>M.E.</given-names></name><name><surname>Gansevoort</surname><given-names>R.T.</given-names></name><name><surname>Haller</surname><given-names>H.</given-names></name><name><surname>Remuzzi</surname><given-names>G.</given-names></name><name><surname>Rossing</surname><given-names>P.</given-names></name><name><surname>Schmieder</surname><given-names>R.E.</given-names></name><name><surname>Nowack</surname><given-names>C.</given-names></name><etal/></person-group>
+<article-title>Effect of finerenone on albuminuria in patients with diabetic nephropathy: A randomized clinical trial</article-title>
+<source>JAMA</source>
+<year>2015</year>
+<volume>314</volume>
+<fpage>884</fpage>
+<lpage>894</lpage>
+<pub-id pub-id-type="doi">10.1001/jama.2015.10081</pub-id>
+<?supplied-pmid 26325557?><pub-id pub-id-type="pmid">26325557</pub-id></element-citation></ref><ref id="B118-ijms-17-00797"><label>118.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kolkhof</surname><given-names>P.</given-names></name><name><surname>Delbeck</surname><given-names>M.</given-names></name><name><surname>Kretschmer</surname><given-names>A.</given-names></name><name><surname>Steinke</surname><given-names>W.</given-names></name><name><surname>Hartmann</surname><given-names>E.</given-names></name><name><surname>Barfacker</surname><given-names>L.</given-names></name><name><surname>Eitner</surname><given-names>F.</given-names></name><name><surname>Albrecht-Kupper</surname><given-names>B.</given-names></name><name><surname>Schafer</surname><given-names>S.</given-names></name></person-group>
+<article-title>Finerenone, a novel selective nonsteroidal mineralocorticoid receptor antagonist protects from rat cardiorenal injury</article-title>
+<source>J. Cardiovasc. Pharmacol.</source>
+<year>2014</year>
+<volume>64</volume>
+<fpage>69</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="doi">10.1097/FJC.0000000000000091</pub-id>
+<?supplied-pmid 24621652?><pub-id pub-id-type="pmid">24621652</pub-id></element-citation></ref><ref id="B119-ijms-17-00797"><label>119.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pitt</surname><given-names>B.</given-names></name><name><surname>Anker</surname><given-names>S.D.</given-names></name><name><surname>Bohm</surname><given-names>M.</given-names></name><name><surname>Gheorghiade</surname><given-names>M.</given-names></name><name><surname>Kober</surname><given-names>L.</given-names></name><name><surname>Krum</surname><given-names>H.</given-names></name><name><surname>Maggioni</surname><given-names>A.P.</given-names></name><name><surname>Ponikowski</surname><given-names>P.</given-names></name><name><surname>Voors</surname><given-names>A.A.</given-names></name><name><surname>Zannad</surname><given-names>F.</given-names></name><etal/></person-group>
+<article-title>Rationale and design of mineralocorticoid receptor antagonist tolerability study-heart failure (ARTS-HF): A randomized study of finerenone vs. Eplerenone in patients who have worsening chronic heart failure with diabetes and/or chronic kidney disease</article-title>
+<source>Eur. J. Heart Fail.</source>
+<year>2015</year>
+<volume>17</volume>
+<fpage>224</fpage>
+<lpage>232</lpage>
+<pub-id pub-id-type="doi">10.1002/ejhf.218</pub-id>
+<?supplied-pmid 25678098?><pub-id pub-id-type="pmid">25678098</pub-id></element-citation></ref><ref id="B120-ijms-17-00797"><label>120.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ji</surname><given-names>X.</given-names></name><name><surname>Naito</surname><given-names>Y.</given-names></name><name><surname>Weng</surname><given-names>H.</given-names></name><name><surname>Ma</surname><given-names>X.</given-names></name><name><surname>Endo</surname><given-names>K.</given-names></name><name><surname>Kito</surname><given-names>N.</given-names></name><name><surname>Yanagawa</surname><given-names>N.</given-names></name><name><surname>Yu</surname><given-names>Y.</given-names></name><name><surname>Li</surname><given-names>J.</given-names></name><name><surname>Iwai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Renoprotective mechanisms of pirfenidone in hypertension-induced renal injury: Through anti-fibrotic and anti-oxidative stress pathways</article-title>
+<source>Biomed. Res.</source>
+<year>2013</year>
+<volume>34</volume>
+<fpage>309</fpage>
+<lpage>319</lpage>
+<pub-id pub-id-type="doi">10.2220/biomedres.34.309</pub-id>
+<?supplied-pmid 24389407?><pub-id pub-id-type="pmid">24389407</pub-id></element-citation></ref><ref id="B121-ijms-17-00797"><label>121.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albrektsen</surname><given-names>T.</given-names></name><name><surname>Frederiksen</surname><given-names>K.S.</given-names></name><name><surname>Holmes</surname><given-names>W.E.</given-names></name><name><surname>Boel</surname><given-names>E.</given-names></name><name><surname>Taylor</surname><given-names>K.</given-names></name><name><surname>Fleckner</surname><given-names>J.</given-names></name></person-group>
+<article-title>Novel genes regulated by the insulin sensitizer rosiglitazone during adipocyte differentiation</article-title>
+<source>Diabetes</source>
+<year>2002</year>
+<volume>51</volume>
+<fpage>1042</fpage>
+<lpage>1051</lpage>
+<pub-id pub-id-type="doi">10.2337/diabetes.51.4.1042</pub-id>
+<?supplied-pmid 11916924?><pub-id pub-id-type="pmid">11916924</pub-id></element-citation></ref><ref id="B122-ijms-17-00797"><label>122.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burson</surname><given-names>J.M.</given-names></name><name><surname>Aguilera</surname><given-names>G.</given-names></name><name><surname>Gross</surname><given-names>K.W.</given-names></name><name><surname>Sigmund</surname><given-names>C.D.</given-names></name></person-group>
+<article-title>Differential expression of angiotensin receptor 1a and 1b in mouse</article-title>
+<source>Am. J. Physiol.</source>
+<year>1994</year>
+<volume>267</volume>
+<fpage>E260</fpage>
+<lpage>E267</lpage>
+<?supplied-pmid 8074205?><pub-id pub-id-type="pmid">8074205</pub-id></element-citation></ref><ref id="B123-ijms-17-00797"><label>123.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crandall</surname><given-names>D.L.</given-names></name><name><surname>Herzlinger</surname><given-names>H.E.</given-names></name><name><surname>Saunders</surname><given-names>B.D.</given-names></name><name><surname>Armellino</surname><given-names>D.C.</given-names></name><name><surname>Kral</surname><given-names>J.G.</given-names></name></person-group>
+<article-title>Distribution of angiotensin II receptors in rat and human adipocytes</article-title>
+<source>J. Lipid Res.</source>
+<year>1994</year>
+<volume>35</volume>
+<fpage>1378</fpage>
+<lpage>1385</lpage>
+<?supplied-pmid 7989862?><pub-id pub-id-type="pmid">7989862</pub-id></element-citation></ref><ref id="B124-ijms-17-00797"><label>124.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engeli</surname><given-names>S.</given-names></name><name><surname>Gorzelniak</surname><given-names>K.</given-names></name><name><surname>Kreutz</surname><given-names>R.</given-names></name><name><surname>Runkel</surname><given-names>N.</given-names></name><name><surname>Distler</surname><given-names>A.</given-names></name><name><surname>Sharma</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Co-expression of renin-angiotensin system genes in human adipose tissue</article-title>
+<source>J. Hypertens.</source>
+<year>1999</year>
+<volume>17</volume>
+<fpage>555</fpage>
+<lpage>560</lpage>
+<pub-id pub-id-type="doi">10.1097/00004872-199917040-00014</pub-id>
+<?supplied-pmid 10404958?><pub-id pub-id-type="pmid">10404958</pub-id></element-citation></ref><ref id="B125-ijms-17-00797"><label>125.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>S.</given-names></name><name><surname>Whelan</surname><given-names>J.</given-names></name><name><surname>Claycombe</surname><given-names>K.</given-names></name><name><surname>Reath</surname><given-names>D.B.</given-names></name><name><surname>Moustaid-Moussa</surname><given-names>N.</given-names></name></person-group>
+<article-title>Angiotensin II increases leptin secretion by 3T3-L1 and human adipocytes via a prostaglandin-independent mechanism</article-title>
+<source>J. Nutr.</source>
+<year>2002</year>
+<volume>132</volume>
+<fpage>1135</fpage>
+<lpage>1140</lpage>
+<?supplied-pmid 12042422?><pub-id pub-id-type="pmid">12042422</pub-id></element-citation></ref><ref id="B126-ijms-17-00797"><label>126.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Skurk</surname><given-names>T.</given-names></name><name><surname>Lee</surname><given-names>Y.M.</given-names></name><name><surname>Hauner</surname><given-names>H.</given-names></name></person-group>
+<article-title>Angiotensin II and its metabolites stimulate PAI-1 protein release from human adipocytes in primary culture</article-title>
+<source>Hypertension</source>
+<year>2001</year>
+<volume>37</volume>
+<fpage>1336</fpage>
+<lpage>1340</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.37.5.1336</pub-id>
+<?supplied-pmid 11358950?><pub-id pub-id-type="pmid">11358950</pub-id></element-citation></ref><ref id="B127-ijms-17-00797"><label>127.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>A.M.</given-names></name><name><surname>Janke</surname><given-names>J.</given-names></name><name><surname>Gorzelniak</surname><given-names>K.</given-names></name><name><surname>Engeli</surname><given-names>S.</given-names></name><name><surname>Luft</surname><given-names>F.C.</given-names></name></person-group>
+<article-title>Angiotensin blockade prevents type 2 diabetes by formation of fat cells</article-title>
+<source>Hypertension</source>
+<year>2002</year>
+<volume>40</volume>
+<fpage>609</fpage>
+<lpage>611</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.0000036448.44066.53</pub-id>
+<?supplied-pmid 12411451?><pub-id pub-id-type="pmid">12411451</pub-id></element-citation></ref><ref id="B128-ijms-17-00797"><label>128.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goodfriend</surname><given-names>T.L.</given-names></name><name><surname>Ball</surname><given-names>D.L.</given-names></name><name><surname>Egan</surname><given-names>B.M.</given-names></name><name><surname>Campbell</surname><given-names>W.B.</given-names></name><name><surname>Nithipatikom</surname><given-names>K.</given-names></name></person-group>
+<article-title>Epoxy-keto derivative of linoleic acid stimulates aldosterone secretion</article-title>
+<source>Hypertension</source>
+<year>2004</year>
+<volume>43</volume>
+<fpage>358</fpage>
+<lpage>363</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.0000113294.06704.64</pub-id>
+<?supplied-pmid 14718355?><pub-id pub-id-type="pmid">14718355</pub-id></element-citation></ref><ref id="B129-ijms-17-00797"><label>129.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehrhart-Bornstein</surname><given-names>M.</given-names></name><name><surname>Lamounier-Zepter</surname><given-names>V.</given-names></name><name><surname>Schraven</surname><given-names>A.</given-names></name><name><surname>Langenbach</surname><given-names>J.</given-names></name><name><surname>Willenberg</surname><given-names>H.S.</given-names></name><name><surname>Barthel</surname><given-names>A.</given-names></name><name><surname>Hauner</surname><given-names>H.</given-names></name><name><surname>McCann</surname><given-names>S.M.</given-names></name><name><surname>Scherbaum</surname><given-names>W.A.</given-names></name><name><surname>Bornstein</surname><given-names>S.R.</given-names></name></person-group>
+<article-title>Human adipocytes secrete mineralocorticoid-releasing factors</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2003</year>
+<volume>100</volume>
+<fpage>14211</fpage>
+<lpage>14216</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.2336140100</pub-id>
+<?supplied-pmid 14614137?><pub-id pub-id-type="pmid">14614137</pub-id></element-citation></ref><ref id="B130-ijms-17-00797"><label>130.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engeli</surname><given-names>S.</given-names></name><name><surname>Bohnke</surname><given-names>J.</given-names></name><name><surname>Gorzelniak</surname><given-names>K.</given-names></name><name><surname>Janke</surname><given-names>J.</given-names></name><name><surname>Schling</surname><given-names>P.</given-names></name><name><surname>Bader</surname><given-names>M.</given-names></name><name><surname>Luft</surname><given-names>F.C.</given-names></name><name><surname>Sharma</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Weight loss and the renin-angiotensin-aldosterone system</article-title>
+<source>Hypertension</source>
+<year>2005</year>
+<volume>45</volume>
+<fpage>356</fpage>
+<lpage>362</lpage>
+<pub-id pub-id-type="doi">10.1161/01.HYP.0000154361.47683.d3</pub-id>
+<?supplied-pmid 15630041?><pub-id pub-id-type="pmid">15630041</pub-id></element-citation></ref><ref id="B131-ijms-17-00797"><label>131.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dall&#x02019;Asta</surname><given-names>C.</given-names></name><name><surname>Vedani</surname><given-names>P.</given-names></name><name><surname>Manunta</surname><given-names>P.</given-names></name><name><surname>Pizzocri</surname><given-names>P.</given-names></name><name><surname>Marchi</surname><given-names>M.</given-names></name><name><surname>Paganelli</surname><given-names>M.</given-names></name><name><surname>Folli</surname><given-names>F.</given-names></name><name><surname>Pontiroli</surname><given-names>A.E.</given-names></name></person-group>
+<article-title>Effect of weight loss through laparoscopic gastric banding on blood pressure, plasma renin activity and aldosterone levels in morbid obesity</article-title>
+<source>Nutr. Metab. Cardiovasc. Dis.</source>
+<year>2009</year>
+<volume>19</volume>
+<fpage>110</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="doi">10.1016/j.numecd.2008.06.001</pub-id>
+<?supplied-pmid 18718746?><pub-id pub-id-type="pmid">18718746</pub-id></element-citation></ref><ref id="B132-ijms-17-00797"><label>132.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tuck</surname><given-names>M.L.</given-names></name><name><surname>Sowers</surname><given-names>J.</given-names></name><name><surname>Dornfeld</surname><given-names>L.</given-names></name><name><surname>Kledzik</surname><given-names>G.</given-names></name><name><surname>Maxwell</surname><given-names>M.</given-names></name></person-group>
+<article-title>The effect of weight reduction on blood pressure, plasma renin activity, and plasma aldosterone levels in obese patients</article-title>
+<source>N. Engl. J. Med.</source>
+<year>1981</year>
+<volume>304</volume>
+<fpage>930</fpage>
+<lpage>933</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJM198104163041602</pub-id>
+<?supplied-pmid 7010165?><pub-id pub-id-type="pmid">7010165</pub-id></element-citation></ref><ref id="B133-ijms-17-00797"><label>133.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Northcott</surname><given-names>C.A.</given-names></name><name><surname>Fink</surname><given-names>G.D.</given-names></name><name><surname>Garver</surname><given-names>H.</given-names></name><name><surname>Haywood</surname><given-names>J.R.</given-names></name><name><surname>Laimon-Thomson</surname><given-names>E.L.</given-names></name><name><surname>McClain</surname><given-names>J.L.</given-names></name><name><surname>Pires</surname><given-names>P.W.</given-names></name><name><surname>Rainey</surname><given-names>W.E.</given-names></name><name><surname>Rigsby</surname><given-names>C.S.</given-names></name><name><surname>Dorrance</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>The development of hypertension and hyperaldosteronism in a rodent model of life-long obesity</article-title>
+<source>Endocrinology</source>
+<year>2012</year>
+<volume>153</volume>
+<fpage>1764</fpage>
+<lpage>1773</lpage>
+<pub-id pub-id-type="doi">10.1210/en.2011-1176</pub-id>
+<?supplied-pmid 22355066?><pub-id pub-id-type="pmid">22355066</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="ijms-17-00797-f001" position="float"><label>Figure 1</label><caption><p>Detrimental effects of high levels of the RAAS molecules: angiotensin II and aldosterone during pathologic conditions such as, arterial hypertension and metabolic syndrome. <bold>K</bold>: Kidney; <bold>V</bold>: Vascular tissue; <bold>C</bold>: Cardiac tissue; <bold>EP</bold>: Endopedtidases; <bold>ACE</bold>: Angiotensin-converting enzyme; <bold>ACE-2</bold>: Angiotensin-converting enzyme 2.</p></caption><graphic xlink:href="ijms-17-00797-g001"/></fig><fig id="ijms-17-00797-f002" position="float"><label>Figure 2</label><caption><p>Physiological and detrimental roles of RAAS molecules in cardiac, vascular tissues and kidneys. Aldosterone and Ang II are the principal RAAS molecules involved in cardiovascular and renal system changes during hypertension. Both molecules are also involved in the physiological control of blood pressure (blue text), directly impacting cardiomyocytes, kidney epithelial cells, and vascular smooth muscle cells. During hypertension, excesses of these molecules have also been linked with cardiovascular and kidney tissue hypertrophy and fibrosis (red text).</p></caption><graphic xlink:href="ijms-17-00797-g002"/></fig></floats-group></article>

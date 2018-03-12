@@ -1,0 +1,383 @@
+{
+  "id": [
+    "28862654"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28862654"
+  ],
+  "pmcid": [
+    "PMC5622726"
+  ],
+  "doi": [
+    "10.3390/nu9090966"
+  ],
+  "title": [
+    "Antioxidant Therapeutic Strategies for Cardiovascular Conditions Associated with Oxidative Stress."
+  ],
+  "authorString": [
+    "Farías JG, Molina VM, Carrasco RA, Zepeda AB, Figueroa E, Letelier P, Castillo RL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farías JG"
+          ],
+          "firstName": [
+            "Jorge G"
+          ],
+          "lastName": [
+            "Farías"
+          ],
+          "initials": [
+            "JG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7660-9603",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias, Universidad de La Frontera, Temuco 4780000, Chile. jorge.farias@ufrontera.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina VM"
+          ],
+          "firstName": [
+            "Víctor M"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "VM"
+          ],
+          "affiliation": [
+            "Unidad de Cuidados Intensivos Pediátricos, Hospital Clínico Pontificia Universidad Católica de Chile, Santiago 7500922, Chile. victor.molina.cancino@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco RA"
+          ],
+          "firstName": [
+            "Rodrigo A"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Departamento de Cardiología, Clínica Alemana, Santiago 7500922, Chile. r_carrasco_l@yahoo.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Zepeda AB"
+          ],
+          "firstName": [
+            "Andrea B"
+          ],
+          "lastName": [
+            "Zepeda"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2489-8789",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias, Universidad de La Frontera, Temuco 4780000, Chile. andrea.zepeda.p@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Figueroa E"
+          ],
+          "firstName": [
+            "Elías"
+          ],
+          "lastName": [
+            "Figueroa"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Núcleo de Investigación en Producción Alimentaria, BIOACUI, Escuela de Acuicultura, Universidad Católica de Temuco, Temuco 4780000, Chile. efigueroavillalobos@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Letelier P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Letelier"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "School of Health Sciences, Universidad Católica de Temuco, Temuco 4780000, Chile. pablolete@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo RL"
+          ],
+          "firstName": [
+            "Rodrigo L"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "RL"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología Oriente, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago 7500922, Chile. rcastillo@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7660-9603",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2489-8789",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2591555"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nutrients"
+          ],
+          "ISOAbbreviation": [
+            "Nutrients"
+          ],
+          "medlineAbbreviation": [
+            "Nutrients"
+          ],
+          "NLMid": [
+            "101521595"
+          ],
+          "ISSN": [
+            "2072-6643"
+          ],
+          "ESSN": [
+            "2072-6643"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Oxidative stress (OS) refers to the imbalance between the generation of reactive oxygen species (ROS) and the ability to scavenge these ROS by endogenous antioxidant systems, where ROS overwhelms the antioxidant capacity. Excessive presence of ROS results in irreversible damage to cell membranes, DNA, and other cellular structures by oxidizing lipids, proteins, and nucleic acids. Oxidative stress plays a crucial role in the pathogenesis of cardiovascular diseases related to hypoxia, cardiotoxicity and ischemia-reperfusion. Here, we describe the participation of OS in the pathophysiology of cardiovascular conditions such as myocardial infarction, anthracycline cardiotoxicity and congenital heart disease. This review focuses on the different clinical events where redox factors and OS are related to cardiovascular pathophysiology, giving to support for novel pharmacological therapies such as omega 3 fatty acids, non-selective betablockers and microRNAs."
+  ],
+  "affiliation": [
+    "Departamento de Ingeniería Química, Facultad de Ingeniería y Ciencias, Universidad de La Frontera, Temuco 4780000, Chile. jorge.farias@ufrontera.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hypoxia",
+        "Oxidative stress",
+        "Congenital heart disease",
+        "Carvedilol",
+        "MicroRNA",
+        "Omega 3 Fatty Acids",
+        "Cardiac Tissue"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622726?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622726"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nu9090966"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-01"
+  ],
+  "dateOfRevision": [
+    "2017-10-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-01"
+  ],
+  "firstPublicationDate": [
+    "2017-09-01"
+  ]
+}

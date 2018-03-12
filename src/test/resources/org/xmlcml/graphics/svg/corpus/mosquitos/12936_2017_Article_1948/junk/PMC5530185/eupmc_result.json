@@ -1,0 +1,317 @@
+{
+  "id": [
+    "28781660"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28781660"
+  ],
+  "pmcid": [
+    "PMC5530185"
+  ],
+  "doi": [
+    "10.3892/ol.2017.6400"
+  ],
+  "title": [
+    "Meloxicam decreases the migration and invasion of CF41.Mg canine mammary carcinoma cells."
+  ],
+  "authorString": [
+    "Iturriaga MP, Paredes R, Arias JI, Torres CG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Iturriaga MP"
+          ],
+          "firstName": [
+            "María P"
+          ],
+          "lastName": [
+            "Iturriaga"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Laboratory of Ecosystem Health, Faculty of Ecology and Natural Resources, Universidad Andres Bello, Santiago 8370251, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paredes R"
+          ],
+          "firstName": [
+            "Rodolfo"
+          ],
+          "lastName": [
+            "Paredes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "School of Veterinary Medicine, Faculty of Ecology and Natural Resources, Universidad Andres Bello, Santiago 8370251, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arias JI"
+          ],
+          "firstName": [
+            "Jose I"
+          ],
+          "lastName": [
+            "Arias"
+          ],
+          "initials": [
+            "JI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6518-2229",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Biomedicine and Regenerative Medicine, Department of Clinical Sciences, Faculty of Veterinary and Animal Sciences, University of Chile, Santiago 8820808, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres CG"
+          ],
+          "firstName": [
+            "Cristian G"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "CG"
+          ],
+          "affiliation": [
+            "Laboratory of Biomedicine and Regenerative Medicine, Department of Clinical Sciences, Faculty of Veterinary and Animal Sciences, University of Chile, Santiago 8820808, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6518-2229",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2584917"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncology letters"
+          ],
+          "ISOAbbreviation": [
+            "Oncol Lett"
+          ],
+          "medlineAbbreviation": [
+            "Oncol Lett"
+          ],
+          "NLMid": [
+            "101531236"
+          ],
+          "ISSN": [
+            "1792-1074"
+          ],
+          "ESSN": [
+            "1792-1082"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2198-2206"
+  ],
+  "abstractText": [
+    "Cyclooxygenase (COX)-2 expression is positively correlated with malignant features in canine mammary carcinomas. Non-steroidal anti-inflammatory drugs (NSAIDs) inhibit COX activity and may therefore possess anticancer effects. Meloxicam is an NSAID that is widely used in human and veterinary medicine. High concentrations of meloxicam have been reported to be antitumorigenic in vitro; however, the effect of meloxicam at concentrations that are equivalent to those that can be obtained in vivo remains unknown. In the current study, the in vitro effects of low-dose meloxicam (0.25 µg/ml) on CF41.Mg canine mammary carcinoma cells were evaluated. The effects on cell proliferation, apoptosis, cell migration and invasion, in addition to the expression of different molecules associated with tumor invasiveness were analyzed. No effect on cell viability and apoptosis were observed. However, cell migration and invasion were significantly reduced following treatment with meloxicam. MMP-2 expression and activity were similarly reduced, explaining the impaired cell invasion. In addition, β-catenin expression was downregulated, while its phosphorylation increased. These results indicate that 0.25 µg/ml meloxicam reduces cell migration and invasion, in part through modulating MMP-2 and β-catenin expression. Additional studies are required to elucidate the mechanism associated with the anti-invasive effect of meloxicam on CF41.Mg cells. The results of the present study suggest that meloxicam has a potential adjunctive therapeutic application, which could be useful in controlling the invasion and metastasis of canine mammary carcinomas."
+  ],
+  "affiliation": [
+    "Laboratory of Ecosystem Health, Faculty of Ecology and Natural Resources, Universidad Andres Bello, Santiago 8370251, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cyclooxygenase-2",
+        "cell invasion",
+        "meloxicam",
+        "Canine Mammary Carcinoma"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5530185?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5530185"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3892/ol.2017.6400"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-07"
+  ],
+  "dateOfRevision": [
+    "2017-08-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-16"
+  ],
+  "firstPublicationDate": [
+    "2017-06-16"
+  ]
+}

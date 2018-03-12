@@ -1,0 +1,317 @@
+{
+  "id": [
+    "27733971"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27733971"
+  ],
+  "pmcid": [
+    "PMC5040658"
+  ],
+  "doi": [
+    "10.1186/s40064-016-3157-6"
+  ],
+  "title": [
+    "Enhanced mesoscale climate projections in TAR and AR5 IPCC scenarios: a case study in a Mediterranean climate (Araucanía Region, south central Chile)."
+  ],
+  "authorString": [
+    "Orrego R, Abarca-Del-Río R, Ávila A, Morales L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Orrego R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Orrego"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0474-2365",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Suelos y Recursos Naturales, Facultad de Agronomía, Universidad de Concepción, Concepción, Chile ; Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Abarca-Del-Río R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Abarca-Del-Río"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ávila A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Ávila"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Excelencia de Modelación y Computación Científica, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morales L"
+          ],
+          "firstName": [
+            "L"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ambientales y Recursos Naturales, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0474-2365",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2423283"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "SpringerPlus"
+          ],
+          "ISOAbbreviation": [
+            "Springerplus"
+          ],
+          "medlineAbbreviation": [
+            "Springerplus"
+          ],
+          "NLMid": [
+            "101597967"
+          ],
+          "ISSN": [
+            "2193-1801"
+          ],
+          "ESSN": [
+            "2193-1801"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1669"
+  ],
+  "abstractText": [
+    "Climate change scenarios are computed on a large scale, not accounting for local variations presented in historical data and related to human scale. Based on historical records, we validate a baseline (1962-1990) and correct the bias of A2 and B2 regional projections for the end of twenty-first century (2070-2100) issued from a high resolution dynamical downscaled (using PRECIS mesoscale model, hereinafter DGF-PRECIS) of Hadley GCM from the IPCC 3rd Assessment Report (TAR). This is performed for the Araucanía Region (Chile; 37°-40°S and 71°-74°W) using two different bias correction methodologies. Next, we study high-resolution precipitations to find monthly patterns such as seasonal variations, rainfall months, and the geographical effect on these two scenarios. Finally, we compare the TAR projections with those from the recent Assessment Report 5 (AR5) to find regional precipitation patterns and update the Chilean `projection. To show the effects of climate change projections, we compute the rainfall climatology for the Araucanía Region, including the impact of ENSO cycles (El Niño and La Niña events). The corrected climate projection from the high-resolution dynamical downscaled model of the TAR database (DGF-PRECIS) show annual precipitation decreases: B2 (-19.19 %, -287 ± 42 mm) and A2 (-43.38 %, -655 ± 27.4 mm per year. Furthermore, both projections increase the probability of lower rainfall months (lower than 100 mm per month) to 64.2 and 72.5 % for B2 and A2, respectively."
+  ],
+  "affiliation": [
+    "Departamento de Suelos y Recursos Naturales, Facultad de Agronomía, Universidad de Concepción, Concepción, Chile ; Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Rainfall Climatology Bias Correction",
+        "Climate Change Projections",
+        "Enso Influence",
+        "Ipcc Tar And Ar5"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5040658?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5040658"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40064-016-3157-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-10-13"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-28"
+  ],
+  "firstPublicationDate": [
+    "2016-09-28"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "id": [
+    "28153906"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28153906"
+  ],
+  "pmcid": [
+    "PMC5289692"
+  ],
+  "doi": [
+    "10.1128/genomea.01571-16"
+  ],
+  "title": [
+    "The Genome Sequence of an Oxytetracycline-Resistant Isolate of the Fish Pathogen Piscirickettsia salmonis Harbors a Multidrug Resistance Plasmid."
+  ],
+  "authorString": [
+    "Bohle H, Henríquez P, Grothusen H, Navas E, Bustamante F, Bustos P, Mancilla M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bohle H"
+          ],
+          "firstName": [
+            "Harry"
+          ],
+          "lastName": [
+            "Bohle"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Henríquez P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Henríquez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Grothusen H"
+          ],
+          "firstName": [
+            "Horst"
+          ],
+          "lastName": [
+            "Grothusen"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navas E"
+          ],
+          "firstName": [
+            "Esteban"
+          ],
+          "lastName": [
+            "Navas"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustamante F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Bustamante"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustos P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Bustos"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mancilla M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Mancilla"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0100-2190",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile mmancilla@adldiagnostic.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0100-2190",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2520910"
+      ],
+      "dateOfPublication": [
+        "2017 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "The amount of antibiotics needed to counteract frequent piscirickettsiosis outbreaks is a major concern for the Chilean salmon industry. Resistance to antibiotics may contribute to this issue. To understand the genetics underlying Piscirickettsia salmonis-resistant phenotypes, the genome of AY3800B, an oxytetracycline-resistant isolate bearing a multidrug resistance plasmid, is presented here."
+  ],
+  "affiliation": [
+    "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA, Puerto Montt, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5289692?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5289692"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.01571-16"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-02-03"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-02"
+  ],
+  "firstPublicationDate": [
+    "2017-02-02"
+  ]
+}

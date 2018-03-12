@@ -1,0 +1,547 @@
+{
+  "id": [
+    "27406128"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27406128"
+  ],
+  "pmcid": [
+    "PMC4941995"
+  ],
+  "doi": [
+    "10.1093/chromsci/bmw095"
+  ],
+  "title": [
+    "Analysis of 25 C NBOMe in Seized Blotters by HPTLC and GC-MS."
+  ],
+  "authorString": [
+    "Duffau B, Camargo C, Kogan M, Fuentes E, Cassels BK."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Duffau B"
+          ],
+          "firstName": [
+            "Boris"
+          ],
+          "lastName": [
+            "Duffau"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Drug Analysis Section, Public Health Institute of Chile, Santiago, Chile bduffau@gmail.com bduffau@ispch.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Camargo C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Camargo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Chemical and Pharmaceutical Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kogan M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Kogan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Faculty of Chemical and Pharmaceutical Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes E"
+          ],
+          "firstName": [
+            "Edwar"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Faculty of Chemical and Pharmaceutical Sciences, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cassels BK"
+          ],
+          "firstName": [
+            "Bruce Kennedy"
+          ],
+          "lastName": [
+            "Cassels"
+          ],
+          "initials": [
+            "BK"
+          ],
+          "affiliation": [
+            "Department of Chemistry, Faculty of Sciences, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "54"
+      ],
+      "journalIssueId": [
+        "2429545"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of chromatographic science"
+          ],
+          "ISOAbbreviation": [
+            "J Chromatogr Sci"
+          ],
+          "medlineAbbreviation": [
+            "J Chromatogr Sci"
+          ],
+          "NLMid": [
+            "0173225"
+          ],
+          "ISSN": [
+            "0021-9665"
+          ],
+          "ESSN": [
+            "1945-239X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1153-1158"
+  ],
+  "abstractText": [
+    "Use of unauthorized synthetic drugs is a serious, forensic, regulatory and public health issue. In this scenario, consumption of drug-impregnated blotters is very frequent. For decades, blotters have been generally impregnated with the potent hallucinogen known as lysergic acid diethylamide (LSD); however, since 2013 blotter stamps with N-2 methoxybenzyl-substituted phenylethylamine hallucinogen designated as \"NBOMes\" have been seized in Chile. To address this issue with readily accessible laboratory equipment, we have developed and validated a new HPTLC method for the identification and quantitation of 25-C-NBOMe in seized blotters and its confirmation by GC-MS. The proposed method was validated according to SWGTOX recommendations and is suitable for routine analysis of seized blotters containing 25-C-NBOMe. With the validated method, we analyzed 15 real samples, in all cases finding 25-C-NBOMe in a wide dosage range (701.0-1943.5 µg per blotter). In this situation, we can assume that NBOMes are replacing LSD as the main hallucinogenic drug consumed in blotters in Chile."
+  ],
+  "affiliation": [
+    "Drug Analysis Section, Public Health Institute of Chile, Santiago, Chile bduffau@gmail.com bduffau@ispch.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Validation Studies",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenethylamines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hallucinogens"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Street Drugs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, Thin Layer"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Administration, Sublingual"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sensitivity and Specificity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reproducibility of Results"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adsorption"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Paper"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gas Chromatography-Mass Spectrometry"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Street Drugs"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Phenethylamines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Hallucinogens"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4941995?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4941995"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/chromsci/bmw095"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-05"
+  ],
+  "dateOfCreation": [
+    "2016-07-14"
+  ],
+  "dateOfRevision": [
+    "2018-02-05"
+  ],
+  "firstPublicationDate": [
+    "2016-08-01"
+  ]
+}

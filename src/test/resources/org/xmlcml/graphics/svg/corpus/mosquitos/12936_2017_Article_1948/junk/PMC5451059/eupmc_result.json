@@ -1,0 +1,606 @@
+{
+  "id": [
+    "28562620"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28562620"
+  ],
+  "pmcid": [
+    "PMC5451059"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0178274"
+  ],
+  "title": [
+    "Reprimo tissue-specific expression pattern is conserved between zebrafish and human."
+  ],
+  "authorString": [
+    "Figueroa RJ, Carrasco-Avino G, Wichmann IA, Lange M, Owen GI, Siekmann AF, Corvalán AH, Opazo JC, Amigo JD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Figueroa RJ"
+          ],
+          "firstName": [
+            "Ricardo J"
+          ],
+          "lastName": [
+            "Figueroa"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco-Avino G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Carrasco-Avino"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Pathology Department, Hospital Clínico Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wichmann IA"
+          ],
+          "firstName": [
+            "Ignacio A"
+          ],
+          "lastName": [
+            "Wichmann"
+          ],
+          "initials": [
+            "IA"
+          ],
+          "affiliation": [
+            "Departamento de Oncología y Hematología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lange M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Lange"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Max Planck Institute for Molecular Biomedicine, Muenster, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Center UC for Investigation in Oncology (CITO), Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Siekmann AF"
+          ],
+          "firstName": [
+            "Arndt F"
+          ],
+          "lastName": [
+            "Siekmann"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Max Planck Institute for Molecular Biomedicine, Muenster, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Center UC for Investigation in Oncology (CITO), Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Opazo JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Opazo"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7938-4083",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Amigo JD"
+          ],
+          "firstName": [
+            "Julio D"
+          ],
+          "lastName": [
+            "Amigo"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8718-2676",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7938-4083",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8718-2676",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2551942"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0178274"
+  ],
+  "abstractText": [
+    "Reprimo (RPRM), a member of the RPRM gene family, is a tumor-suppressor gene involved in the regulation of the p53-mediated cell cycle arrest at G2/M. RPRM has been associated with malignant tumor progression and proposed as a potential biomarker for early cancer detection. However, the expression and role of RPRM, as well as its family, are poorly understood and their physiology is as yet unstudied. In this scenario, a model system like the zebrafish could serve to dissect the role of the RPRM family members in vivo. Phylogenetic analysis reveals that RPRM and RPRML have been differentially retained by most species throughout vertebrate evolution, yet RPRM3 has been retained only in a small group of distantly related species, including zebrafish. Herein, we characterized the spatiotemporal expression of RPRM (present in zebrafish as an infraclass duplication rprma/rprmb), RPRML and RPRM3 in the zebrafish. By whole-mount in situ hybridization (WISH) and fluorescent in situ hybridization (FISH), we demonstrate that rprm (rprma/rprmb) and rprml show a similar spatiotemporal expression profile during zebrafish development. At early developmental stages rprmb is expressed in somites. After one day post-fertilization, rprm (rprma/rprmb) and rprml are expressed in the notochord, brain, blood vessels and digestive tube. On the other hand, rprm3 shows the most unique expression profile, being expressed only in the central nervous system (CNS). We assessed the expression patterns of RPRM gene transcripts in adult zebrafish and human RPRM protein product in tissue samples by RT-qPCR and immunohistochemistry (IHC) staining, respectively. Strikingly, tissue-specific expression patterns of the RPRM transcripts and protein are conserved between zebrafish and humans. We propose the zebrafish as a powerful tool to elucidate the both physiological and pathological roles of the RPRM gene family."
+  ],
+  "affiliation": [
+    "Departamento de Fisiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Zebrafish"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EM"
+                  ],
+                  "qualifierName": [
+                    "embryology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glycoproteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Cycle Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "In Situ Hybridization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "In Situ Hybridization, Fluorescence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Developmental"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Amino Acid Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Conserved Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Homology, Amino Acid"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Glycoproteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cell Cycle Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RPRM protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5451059?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5451059"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0178274"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-21"
+  ],
+  "dateOfCreation": [
+    "2017-05-31"
+  ],
+  "dateOfRevision": [
+    "2017-09-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-31"
+  ],
+  "firstPublicationDate": [
+    "2017-05-31"
+  ]
+}

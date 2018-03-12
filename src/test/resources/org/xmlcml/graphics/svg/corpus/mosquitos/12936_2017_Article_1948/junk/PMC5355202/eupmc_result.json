@@ -1,0 +1,369 @@
+{
+  "id": [
+    "28331595"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28331595"
+  ],
+  "pmcid": [
+    "PMC5355202"
+  ],
+  "doi": [
+    "10.1002/ece3.2762"
+  ],
+  "title": [
+    "Context-dependent functional dispersion across similar ranges of trait space covered by intertidal rocky shore communities."
+  ],
+  "authorString": [
+    "Valdivia N, Segovia-Rivera V, Fica E, Bonta CC, Aguilera MA, Broitman BR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Valdivia N"
+          ],
+          "firstName": [
+            "Nelson"
+          ],
+          "lastName": [
+            "Valdivia"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5394-2072",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Marinas y LimnológicasFacultad de CienciasUniversidad Austral de Chile, Campus Isla TejaValdiviaChile; Centro FONDAP de Investigación de Dinámicas de Ecosistemas Marinos de Altas Latitudes (IDEAL)ValdiviaChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Segovia-Rivera V"
+          ],
+          "firstName": [
+            "Viviana"
+          ],
+          "lastName": [
+            "Segovia-Rivera"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Marinas y Limnológicas Facultad de Ciencias Universidad Austral de Chile, Campus Isla Teja Valdivia Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fica E"
+          ],
+          "firstName": [
+            "Eliseo"
+          ],
+          "lastName": [
+            "Fica"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Marinas y Limnológicas Facultad de Ciencias Universidad Austral de Chile, Campus Isla Teja Valdivia Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bonta CC"
+          ],
+          "firstName": [
+            "César C"
+          ],
+          "lastName": [
+            "Bonta"
+          ],
+          "initials": [
+            "CC"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Marinas y Limnológicas Facultad de Ciencias Universidad Austral de Chile, Campus Isla Teja Valdivia Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilera MA"
+          ],
+          "firstName": [
+            "Moisés A"
+          ],
+          "lastName": [
+            "Aguilera"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Departamento de Biología Marina Facultad de Ciencias del Mar Universidad Católica del Norte Coquimbo Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Broitman BR"
+          ],
+          "firstName": [
+            "Bernardo R"
+          ],
+          "lastName": [
+            "Broitman"
+          ],
+          "initials": [
+            "BR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6582-3188",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios Avanzados en Zonas Áridas (CEAZA) Universidad Católica del Norte Coquimbo Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5394-2072",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6582-3188",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2539213"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Ecology and evolution"
+          ],
+          "ISOAbbreviation": [
+            "Ecol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Ecol Evol"
+          ],
+          "NLMid": [
+            "101566408"
+          ],
+          "ISSN": [
+            "2045-7758"
+          ],
+          "ESSN": [
+            "2045-7758"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1882-1891"
+  ],
+  "abstractText": [
+    "Functional diversity is intimately linked with community assembly processes, but its large-scale patterns of variation are often not well understood. Here, we investigated the spatiotemporal changes in multiple trait dimensions (\"trait space\") along vertical intertidal environmental stress gradients and across a landscape scale. We predicted that the range of the trait space covered by local assemblages (i.e., functional richness) and the dispersion in trait abundances (i.e., functional dispersion) should increase from high- to low-intertidal elevations, due to the decreasing influence of environmental filtering. The abundance of macrobenthic algae and invertebrates was estimated at four rocky shores spanning ca. 200 km of the coast over a 36-month period. Functional richness and dispersion were contrasted against matrix-swap models to remove any confounding effect of species richness on functional diversity. Random-slope models showed that functional richness and dispersion significantly increased from high- to low-intertidal heights, demonstrating that under harsh environmental conditions, the assemblages comprised similar abundances of functionally similar species (i.e., trait convergence), while that under milder conditions, the assemblages encompassed differing abundances of functionally dissimilar species (i.e., trait divergence). According to the Akaike information criteria, the relationship between local environmental stress and functional richness was persistent across sites and sampling times, while functional dispersion varied significantly. Environmental filtering therefore has persistent effects on the range of trait space covered by these assemblages, but context-dependent effects on the abundances of trait combinations within such range. Our results further suggest that natural and/or anthropogenic factors might have significant effects on the relative abundance of functional traits, despite that no trait addition or extinction is detected."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Marinas y LimnológicasFacultad de CienciasUniversidad Austral de Chile, Campus Isla TejaValdiviaChile; Centro FONDAP de Investigación de Dinámicas de Ecosistemas Marinos de Altas Latitudes (IDEAL)ValdiviaChile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Desiccation",
+        "Marine",
+        "Seasonal",
+        "Community Assembly",
+        "Functional Traits",
+        "Mesoscale",
+        "Environmental Filtering",
+        "Functional Beta‐diversity"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5355202?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5355202"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/ece3.2762"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-17"
+  ],
+  "firstPublicationDate": [
+    "2017-02-17"
+  ]
+}

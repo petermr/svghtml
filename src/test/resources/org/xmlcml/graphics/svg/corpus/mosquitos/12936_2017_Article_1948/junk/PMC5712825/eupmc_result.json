@@ -1,0 +1,316 @@
+{
+  "id": [
+    "29156561"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29156561"
+  ],
+  "pmcid": [
+    "PMC5712825"
+  ],
+  "doi": [
+    "10.3390/s17112665"
+  ],
+  "title": [
+    "Adsorptive Stripping Voltammetric Determination of Amaranth and Tartrazine in Drinks and Gelatins Using a Screen-Printed Carbon Electrode."
+  ],
+  "authorString": [
+    "Perdomo Y, Arancibia V, García-Beltrán O, Nagles E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Perdomo Y"
+          ],
+          "firstName": [
+            "Yeny"
+          ],
+          "lastName": [
+            "Perdomo"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Naturales y Matemáticas, Universidad de Ibagué, Carrera 22 Calle 67, Ibagué 730001, Colombia. yeny.perdomo@unibague.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Arancibia V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "Arancibia"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Facultad de Química, Pontificia Universidad Católica de Chile, Vicuña Mackenna 4860, Santiago 7820436, Chile. darancim@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Beltrán O"
+          ],
+          "firstName": [
+            "Olimpo"
+          ],
+          "lastName": [
+            "García-Beltrán"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3312-1776",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Naturales y Matemáticas, Universidad de Ibagué, Carrera 22 Calle 67, Ibagué 730001, Colombia. jose.garcia@unibague.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Nagles E"
+          ],
+          "firstName": [
+            "Edgar"
+          ],
+          "lastName": [
+            "Nagles"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Naturales y Matemáticas, Universidad de Ibagué, Carrera 22 Calle 67, Ibagué 730001, Colombia. edgar.nagles@unibague.edu.co."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3312-1776",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2614439"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "A fast, sensitive, and selective method for the simultaneous determination of one pair of synthetic colorants commonly found mixed in food products, Amaranth (AM) and Tartrazine (TZ), based on their adsorption and oxidation on a screen-printed electrode (SPE) is presented. The variation of peak current with pH, supporting electrolyte, adsorption time, and adsorption potential were optimized using square wave adsorptive voltammetry. The optimal conditions were found to be: pH 3.2 (PBS), Eads 0.00 V, and tads 30 s. Under these conditions, the AM and TZ signals were observed at 0.56 and 0.74 V, respectively. A linear response were found over the 0.15 to 1.20 µmol L-1 and 0.15 to 0.80 µmol L-1 concentrations, with detection limits (3σ/slope) of 26 and 70 nmol L-1 for AM and TZ, respectively. Reproducibility for 17.7 µmol L-1 AM and TZ solutions were 2.5 and 3.0% (n = 7), respectively, using three different electrodes. The method was validated by determining AM and TZ in spiked tap water and unflavored gelatin spiked with AM and TZ. Because a beverage containing both AM and TZ was not found, the method was applied to the determination of AM in a kola soft drink and TZ in an orange jelly and a soft drink powder."
+  ],
+  "affiliation": [
+    "Facultad de Ciencias Naturales y Matemáticas, Universidad de Ibagué, Carrera 22 Calle 67, Ibagué 730001, Colombia. yeny.perdomo@unibague.edu.co."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Amaranth",
+        "Gelatins",
+        "Screen-printed Carbon Electrode",
+        "Adsorptive Stripping Voltammetry",
+        "Tartrazine",
+        "Drinks"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5712825?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5712825"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s17112665"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-22"
+  ],
+  "dateOfRevision": [
+    "2018-01-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-18"
+  ],
+  "firstPublicationDate": [
+    "2017-11-18"
+  ]
+}

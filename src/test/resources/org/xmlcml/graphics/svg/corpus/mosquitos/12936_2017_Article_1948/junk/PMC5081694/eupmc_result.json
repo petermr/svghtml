@@ -1,0 +1,607 @@
+{
+  "id": [
+    "27818796"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27818796"
+  ],
+  "pmcid": [
+    "PMC5081694"
+  ],
+  "doi": [
+    "10.1155/2016/1024709"
+  ],
+  "title": [
+    "Minimally Invasive Methods for Staging in Lung Cancer: Systematic Review and Meta-Analysis."
+  ],
+  "authorString": [
+    "Labarca G, Aravena C, Ortega F, Arenas A, Majid A, Folch E, Mehta HJ, Jantz MA, Fernandez-Bussy S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Labarca G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Labarca"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0069-3420",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad San Sebastián, Lientur 1457, Concepción 4080871, Chile; Division of Internal Medicine, Complejo Asistencial Victor Rios Ruiz, Los Angeles, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aravena C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Aravena"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Division of Pulmonary Medicine, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Ortega"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Division of Oncology, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arenas A"
+          ],
+          "firstName": [
+            "Alex"
+          ],
+          "lastName": [
+            "Arenas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Division of Internal Medicine, School of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Majid A"
+          ],
+          "firstName": [
+            "Adnan"
+          ],
+          "lastName": [
+            "Majid"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Divisions of Thoracic Surgery and Interventional Pulmonary, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Folch E"
+          ],
+          "firstName": [
+            "Erik"
+          ],
+          "lastName": [
+            "Folch"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Division of Pulmonary and Critical Care Medicine, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Mehta HJ"
+          ],
+          "firstName": [
+            "Hiren J"
+          ],
+          "lastName": [
+            "Mehta"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7331-747X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Pulmonary, Critical Care, and Sleep Medicine, University of Florida, Gainesville, FL, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Jantz MA"
+          ],
+          "firstName": [
+            "Michael A"
+          ],
+          "lastName": [
+            "Jantz"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Division of Pulmonary, Critical Care, and Sleep Medicine, University of Florida, Gainesville, FL, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez-Bussy S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Fernandez-Bussy"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Unidad de Neumologia Intervencional, Clinica Alemana, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7331-747X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0069-3420",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2389508"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Pulmonary medicine"
+          ],
+          "ISOAbbreviation": [
+            "Pulm Med"
+          ],
+          "medlineAbbreviation": [
+            "Pulm Med"
+          ],
+          "NLMid": [
+            "101558762"
+          ],
+          "ISSN": [
+            "2090-1836"
+          ],
+          "ESSN": [
+            "2090-1844"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1024709"
+  ],
+  "abstractText": [
+    "Introduction. Endobronchial ultrasound (EBUS) is a procedure that provides access to the mediastinal staging; however, EBUS cannot be used to stage all of the nodes in the mediastinum. In these cases, endoscopic ultrasound (EUS) is used for complete staging. Objective. To provide a synthesis of the evidence on the diagnostic performance of EBUS + EUS in patients undergoing mediastinal staging. Methods. Systematic review and meta-analysis to evaluate the diagnostic yield of EBUS + EUS compared with surgical staging. Two researchers performed the literature search, quality assessments, data extractions, and analyses. We produced a meta-analysis including sensitivity, specificity, and likelihood ratio analysis. Results. Twelve primary studies (1515 patients) were included; two were randomized controlled trials (RCTs) and ten were prospective trials. The pooled sensitivity for combined EBUS + EUS was 87% (CI 84-89%) and the specificity was 99% (CI 98-100%). For EBUS + EUS performed with a single bronchoscope group, the sensitivity improved to 88% (CI 83.1-91.4%) and specificity improved to 100% (CI 99-100%). Conclusion. EBUS + EUS is a highly accurate and safe procedure. The combined procedure should be considered in selected patients with lymphadenopathy noted at stations that are not traditionally accessible with conventional EBUS."
+  ],
+  "affiliation": [
+    "Facultad de Medicina, Universidad San Sebastián, Lientur 1457, Concepción 4080871, Chile; Division of Internal Medicine, Complejo Asistencial Victor Rios Ruiz, Los Angeles, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mediastinum"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DG"
+                  ],
+                  "qualifierName": [
+                    "diagnostic imaging"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Lung Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lymphatic Metastasis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Endosonography"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bronchoscopy"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasm Staging"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sensitivity and Specificity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reproducibility of Results"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5081694?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5081694"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/1024709"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-03-09"
+  ],
+  "dateOfCreation": [
+    "2016-11-07"
+  ],
+  "dateOfRevision": [
+    "2017-03-09"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-13"
+  ],
+  "firstPublicationDate": [
+    "2016-10-13"
+  ]
+}

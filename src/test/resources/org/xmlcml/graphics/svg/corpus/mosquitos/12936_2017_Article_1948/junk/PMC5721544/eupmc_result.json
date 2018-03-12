@@ -1,0 +1,444 @@
+{
+  "id": [
+    "29234503"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29234503"
+  ],
+  "pmcid": [
+    "PMC5721544"
+  ],
+  "doi": [
+    "10.1186/s40814-017-0214-z"
+  ],
+  "title": [
+    "Study protocol for a phase II dose evaluation randomized controlled trial of cholecalciferol in critically ill children with vitamin D deficiency (VITdAL-PICU study)."
+  ],
+  "authorString": [
+    "McNally D, Amrein K, O'Hearn K, Fergusson D, Geier P, Henderson M, Khamessan A, Lawson ML, McIntyre L, Redpath S, Weiler HA, Menon K, Canadian Critical Care Trials Group."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "McNally D"
+          ],
+          "firstName": [
+            "Dayre"
+          ],
+          "lastName": [
+            "McNally"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Research Institute, Children's Hospital of Eastern Ontario, 401 Smyth Road, Ottawa, ON K1H 8L1 Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Amrein K"
+          ],
+          "firstName": [
+            "Karin"
+          ],
+          "lastName": [
+            "Amrein"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Division of Endocrinology and Metabolism, Department of Internal Medicine, Medical University of Graz, Graz, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Hearn K"
+          ],
+          "firstName": [
+            "Katharine"
+          ],
+          "lastName": [
+            "O'Hearn"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Research Institute, Children's Hospital of Eastern Ontario, 401 Smyth Road, Ottawa, ON K1H 8L1 Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Fergusson D"
+          ],
+          "firstName": [
+            "Dean"
+          ],
+          "lastName": [
+            "Fergusson"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Epidemiology, University of Ottawa and Ottawa Hospital Research Institute (OHRI), University of Ottawa, Ottawa, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Geier P"
+          ],
+          "firstName": [
+            "Pavel"
+          ],
+          "lastName": [
+            "Geier"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, Faculty of Medicine, University of Ottawa, Children's Hospital of Eastern Ontario, Ottawa, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Henderson M"
+          ],
+          "firstName": [
+            "Matt"
+          ],
+          "lastName": [
+            "Henderson"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Newborn Screening Ontario, Ottawa, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Khamessan A"
+          ],
+          "firstName": [
+            "Ali"
+          ],
+          "lastName": [
+            "Khamessan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Euro-Pharm International Canada Inc., Montreal, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Lawson ML"
+          ],
+          "firstName": [
+            "Margaret L"
+          ],
+          "lastName": [
+            "Lawson"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Research Institute, Children's Hospital of Eastern Ontario, 401 Smyth Road, Ottawa, ON K1H 8L1 Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "McIntyre L"
+          ],
+          "firstName": [
+            "Lauralyn"
+          ],
+          "lastName": [
+            "McIntyre"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Medicine (Division of Critical Care), Ottawa Hospital Research Institute (OHRI), University of Ottawa, Ottawa, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Redpath S"
+          ],
+          "firstName": [
+            "Stephanie"
+          ],
+          "lastName": [
+            "Redpath"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, Faculty of Medicine, University of Ottawa, Children's Hospital of Eastern Ontario, Ottawa, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Weiler HA"
+          ],
+          "firstName": [
+            "Hope A"
+          ],
+          "lastName": [
+            "Weiler"
+          ],
+          "initials": [
+            "HA"
+          ],
+          "affiliation": [
+            "School of Dietetics and Human Nutrition, Faculty of Agricultural and Environmental Sciences, McGill University, Montreal, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Menon K"
+          ],
+          "firstName": [
+            "Kusum"
+          ],
+          "lastName": [
+            "Menon"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Research Institute, Children's Hospital of Eastern Ontario, 401 Smyth Road, Ottawa, ON K1H 8L1 Canada."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Canadian Critical Care Trials Group"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2518296"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Pilot and Feasibility Studies"
+          ],
+          "ISOAbbreviation": [
+            "Pilot Feasibility Stud"
+          ],
+          "medlineAbbreviation": [
+            "Pilot Feasibility Stud"
+          ],
+          "NLMid": [
+            "101676536"
+          ],
+          "ISSN": [
+            "2055-5784"
+          ],
+          "ESSN": [
+            "2055-5784"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "70"
+  ],
+  "abstractText": [
+    "Clinical research has recently demonstrated that vitamin D deficiency (VDD) is highly prevalent in the pediatric intensive care unit (PICU) and associated with worse clinical course. Multiple adult ICU trials have suggested that optimization of vitamin D status through high-dose supplementation may reduce mortality and improve other clinically relevant outcomes; however, there have been no trials of rapid normalization in the PICU setting. The objective of this study is to evaluate the safety and efficacy of an enteral weight-based cholecalciferol loading dose regimen in critically ill children with VDD.The VITdAL-PICU pilot study is designed as a multicenter placebo-controlled phase II dose evaluation pilot randomized controlled trial. We aim to randomize 67 VDD critically ill children using a 2:1 randomization schema to receive loading dose enteral cholecalciferol (10,000 IU/kg, maximum of 400,000 IU) or a placebo solution. Participants, caregivers and outcome assessors will be blinded to allocation. Eligibility criteria include ICU patient, aged 37 weeks to 18 years, expected ICU length of stay more than 48 h, anticipated access to bloodwork at 7 days, and VDD (blood total 25 hydroxyvitamin D < 50 nmol/L). The primary objective is to determine whether the dosing protocol normalizes vitamin D status, defined as a blood total 25(OH)D concentration above 75 nmol/L. Secondary objectives include an examination of the safety of the dosing regimen (e.g. hypercalcemia, hypercalciuria, nephrocalcinosis), measures of vitamin D axis function (e.g. calcitriol levels, immune function), and protocol feasibility (eligibility criteria, protocol deviations, blinding).Despite significant observational literature suggesting VDD to be a modifiable risk factor in the PICU setting, there is no robust clinical trial evidence evaluating the benefits of rapid normalization. This phase II clinical trial will evaluate an innovative weight-based dosing regimen intended to rapidly and safely normalize vitamin D levels in critically ill children. Study findings will be used to inform the design of a multicenter phase III trial evaluating the clinical and economic benefits to rapid normalization. Recruitment for this trial was initiated in January 2016 and is expected to continue until November 30, 2017.Clinicaltrials.gov NCT02452762."
+  ],
+  "affiliation": [
+    "Research Institute, Children's Hospital of Eastern Ontario, 401 Smyth Road, Ottawa, ON K1H 8L1 Canada."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Vitamin D",
+        "Randomized controlled trial",
+        "Vitamin D deficiency",
+        "Pediatrics",
+        "Critical Care"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5721544?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5721544"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40814-017-0214-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "eudract",
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-12-14"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-08"
+  ],
+  "firstPublicationDate": [
+    "2017-12-08"
+  ]
+}

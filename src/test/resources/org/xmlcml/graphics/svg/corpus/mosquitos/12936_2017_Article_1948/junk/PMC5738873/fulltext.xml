@@ -1,0 +1,528 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id><journal-id journal-id-type="iso-abbrev">Rev Lat Am Enfermagem</journal-id><journal-id journal-id-type="publisher-id">rlae</journal-id><journal-title-group><journal-title>Revista Latino-Americana de Enfermagem</journal-title></journal-title-group><issn pub-type="ppub">0104-1169</issn><issn pub-type="epub">1518-8345</issn><publisher><publisher-name>Escola de Enfermagem de Ribeir&#x000e3;o Preto / Universidade de S&#x000e3;o
+Paulo</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5738873</article-id><article-id pub-id-type="pmid">29211195</article-id><article-id pub-id-type="doi">10.1590/1518-8345.2190.2951</article-id><article-id pub-id-type="other">00394</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>Impact of two bundles on central catheter-related bloodstream infection
+in critically ill patients<xref ref-type="fn" rid="fn1">
+<sup>1</sup>
+</xref></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Padilla Fortunatti</surname><given-names>Cristobal Felipe</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><aff id="aff2">
+<label>2</label>Student in Master&#x02019;s degree, Escuela de Enfermer&#x000ed;a, Pontificia Universidad Cat&#x000f3;lica de Chile, Santiago, Chile. RN, Hospital Clinico Red de Salud
+UC - CHRISTUS, Santiago, Chile.</aff></contrib-group><author-notes><corresp id="c1">Cristobal Padilla Fortunatti Hospital Clinico Red de Salud UC -
+CHRISTUS Marcoleta 367 Santiago CEP: 8330024, Chile E-mail:
+<email>cfpadill@uc.cl</email></corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>12</month><year>2017</year></pub-date><pub-date pub-type="collection"><year>2017</year></pub-date><volume>25</volume><elocation-id>e2951</elocation-id><history><date date-type="received"><day>19</day><month>4</month><year>2017</year></date><date date-type="accepted"><day>27</day><month>8</month><year>2017</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2017 Revista Latino-Americana de Enfermagem</copyright-statement><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative
+Commons Attribution License</license-p></license></permissions><abstract><title>ABSTRACT</title><sec><title>Objective:</title><p>To evaluate the impact of the implementation of insertion and maintenance bundles
+on the rates of catheter-related bloodstream infection in an intensive care unit.
+</p></sec><sec><title>Method:</title><p>This is a quasi-experimental, before-and-after study with a non-equivalent control
+group. During a six-month period, insertion and maintenance bundles for the
+central venous catheters were implemented. Supervision guidelines were developed
+to assess compliance with the bundle and catheter characteristics. </p></sec><sec><title>Results:</title><p>A total of 444 central catheters corresponding to 390 patients were observed, of
+which 68.7% were inserted in the unit. The maintenance and insertion bundles
+reached 62.9% and 94.7% compliance, respectively, and 50.7% of the insertions were
+supervised. It was possible to observe a 54.5% decrease in the rate of central
+catheter infection (3.48 vs 1.52 x 1000 days/catheter, p&#x0003c;0.05) when compared
+with the control group. </p></sec><sec><title>Conclusion:</title><p>The simultaneous implementation of insertion and maintenance bundles has a
+positive impact on the reduction of catheter-related bloodstream infection;
+therefore it is an efficient alternative to improve the quality and safety of care
+in high complexity units.</p></sec></abstract><kwd-group><title>Descriptors:</title><kwd>Cross Infection</kwd><kwd>Intensive Care Units</kwd><kwd>Prevention and Control</kwd><kwd>Adult</kwd><kwd>Central Venous Catheterization</kwd><kwd>Quality Improvement</kwd></kwd-group><counts><fig-count count="6"/><table-count count="6"/><equation-count count="0"/><ref-count count="26"/><page-count count="1"/></counts></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Intensive care units (ICUs) are highly qualified to care and treat patients at risk
+through invasive therapy, procedures and devices such as the central venous catheter
+(CVC). The CVC is one of the most common devices in the ICU, since it is used to monitor
+hemodynamics and deliver vasoactive drugs, antibiotics and total parenteral nutrition
+<xref rid="B1" ref-type="bibr">
+<sup>1</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B2" ref-type="bibr">
+<sup>2</sup>
+</xref>. Despite its benefits, the CVC can lead to mechanical or infectious
+complications. The latter are more frequent and have greater impact on the patient <xref rid="B3" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B4" ref-type="bibr">
+<sup>4</sup>
+</xref>. Catheter-related bloodstream infection (CRBSI) is a complication that can be
+related to increases in costs, length of stay and morbidity and mortality rates,
+especially among ICU patients<xref rid="B5" ref-type="bibr">
+<sup>5</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B7" ref-type="bibr">
+<sup>7</sup>
+</xref>. A recent analysis showed a 2.75-fold increase in hospital mortality and a
+2.15-fold increase in CRBSI on ICU patients <xref rid="B8" ref-type="bibr">
+<sup>8</sup>
+</xref>. Likewise, a study from Argentina found that CRBSI was associated with an
+additional cost of almost $5,000 and an increase in hospital stay of 12 days for each
+episode<xref rid="B9" ref-type="bibr">
+<sup>9</sup>
+</xref>. </p><p>There are several risk factors associated with CRBSI, such as: duration of
+catheterization, number of lumens, femoral access site, excessive manipulation of the
+CVC, total parenteral nutrition, bacterial colonization at the insertion site, prolonged
+hospitalization, and others <xref rid="B10" ref-type="bibr">
+<sup>10</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B12" ref-type="bibr">
+<sup>12</sup>
+</xref>. There are several strategies to prevent CRBSI, and bundles are recognized as
+one of the most used and most effective for the reduction of CRBSI <xref rid="B10" ref-type="bibr">
+<sup>10</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>. Bundles can be defined as the systematic implementation of a set of
+evidence-based practices, usually three to five, that, when performed properly and
+collectively, can improve patient outcomes<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>. Research on CRBSI prevention demonstrated the effectiveness of bundles, which
+reduce the incidence of CRBSI by up to 80% <xref rid="B5" ref-type="bibr">
+<sup>5</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B6" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B14" ref-type="bibr">
+<sup>14</sup>
+</xref>, reaching a rate of 0 in some cases<xref rid="B4" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B15" ref-type="bibr">
+<sup>15</sup>
+</xref>. </p><p>The bundles for the prevention of CRBSI include good hand hygiene, preparation of the
+skin with chlorhexidine gluconate, preference for the subclavian vein, maximal sterile
+barriers, and daily assessment of the need for the CVC <xref rid="B16" ref-type="bibr">
+<sup>16</sup>
+</xref>. Thus, basic infection control practices can significantly reduce the incidence
+of CRBSI, reducing the rate of 6.5 to 46 cases per 1000 CVC days <xref rid="B17" ref-type="bibr">
+<sup>17</sup>
+</xref>.</p><p>In order to promote quality and safety in the care process, health institutions had to
+explore and adopt practices to minimize risks to patients. An unusual increase in the
+number of CRBSI cases was observed in the unit under study on the first semester of
+2015. This motivated the creation of a quality assurance plan to reduce and prevent
+these events, including the implementation of a CRBSI bundle. The objective of this
+study was to evaluate the impact of the implementation of CVC insertion and maintenance
+bundles on CRBSI rates in a medical-surgical ICU (MSICU).</p></sec><sec sec-type="methods"><title>Method</title><p>Quasi-experimental study before-and-after intervention, conducted with nonequivalent
+control group in the context of the quality assurance plan of a MSICU for adults. The
+MSICU has 32 beds, divided into high and medium complexity care, belonging to a teaching
+hospital in Santiago, Chile. This MSICU has 24-hour on-site intensivists, and fellows of
+the same specialty or others, who take turns throughout the year. As for the nursing
+team, the usual ratio is 1:2 to 1:3, for both nurses and nursing technicians. Most of
+the MSICU CVCs (temporary, hemodialysis or peripheral insertion) are inserted by
+intensivists; however, the unit also receives patients whose CVC was inserted in other
+hospital services or that were transferred from other health care facilities. </p><p>Regarding the device-associated care, the CVC dressing is valid for seven days if it is
+possible to visualize the insertion site, which must remain clean and intact. If the
+insertion site is not visible, the dressing should be changed within 48 hours. In
+addition, 2% chlorhexidine-impregnated dressings are available to be used at the
+discretion of the nurse. The needleless connectors are changed every 72 hours or when
+the infusion pump is changed. Total parenteral nutrition is administered through an
+exclusive lumen catheter.</p><p>Between January and June 2016, insertion and maintenance bundles, each composed of 3
+measures, were simultaneously implemented to prevent CRBSI. The insertion bundle
+consisted of operator and assistant hand hygiene, preparation of the skin with 2%
+chlorhexidine soap and use of maximal sterile barriers for the operator and the patient.
+The maintenance bundle included: daily evaluation of the need for the CVC, verification
+of the CVC insertion site and dressing and daily bathing with 2% chlorhexidine
+gluconate. </p><p>For the insertion bundle, insertion of the CVC in the unit under study was considered as
+inclusion criterion. CVCs that, due to urgent need for vascular access, did not comply
+with the insertion measures were excluded. For the maintenance bundle, all the temporary
+CVCs with permanence of at least 24 hours in the MSICU were included. The CVCs used for
+renal replacement therapy were excluded from this bundle, since they are not handled by
+the nurses of the MSICU.</p><p>For data collection, supervision guidelines for each bundle were developed in
+cooperation with the local Committee for the Prevention and Control of
+Healthcare-Associated Infections. For the insertion bundle, the guidelines included
+information about the type of ICU where the CVC was inserted (medical/surgical), number
+of lumens, insertion site and compliance with each measure. For the maintenance bundle,
+in addition to the previous variables, the place where the CVC was inserted, whether in
+the MSICU or in another unit, was also included. The data related to the insertion
+bundle were collected at the time of insertion of the CVC by the nurse in charge of the
+patient, while for the maintenance bundle a nurse was assigned to retrospectively
+evaluate compliance with the measures at each period, based in the patient&#x02019;s clinical
+records. </p><p>Before the intervention, the MSICU health team received training on the measures
+included in each bundle and how to perform them. The physicians were instructed on the
+maximal sterile barriers, since they involved substantial changes in the usual clinical
+practice and assessment of the need to maintain the CVC in partnership with the nurse in
+charge of the patient. For the nurses, the maintenance bundle records were reinforced in
+the nursing notes, and for the nursing technicians the training was focused on the
+technique for skin preparation for the insertion of the CVC. During this period, the
+supervision guidelines were tested to familiarize health professionals and to make the
+necessary adjustments without significant changes.</p><p>In addition, a series of tests was performed in the period prior to the beginning of the
+intervention and it was possible to identify and correct operational aspects regarding
+its implementation. Compliance statistics were reported every month to the entire MSICU
+team to identify opportunities for improvement and provide positive feedback, if
+appropriate.</p><p>A nonequivalent control group composed of patients who had a CVC during the same period
+(January - June) of 2015 was used to evaluate the impact of the intervention, following
+the same inclusion and exclusion criteria of the intervention group. Likewise, data
+related to the CRBSI rate, the mean duration of the CVC and the number of CRBSI cases
+during that period were used. The CRBSI case definition was done independently by the
+local Committee for the Prevention and Control of Healthcare-Associated Infections. </p><p>The compliance with the bundles was expressed in percentages. In order to analyze the
+variables of interest (mean duration of CVC, number of CRBSI cases and CRBSI rate), the
+Student &#x02018;s T test, the Chi-square test and the Fisher&#x02019; s exact test were used as
+required. The statistical software GraphPad (GraphPad Software, La Jolla California USA,
+www.graphpad.com) was used for the statistical analysis. The p value &#x0003c;0.05 was
+considered statistically significant.</p><p>Both the data collection and the analysis were performed retrospectively, without the
+identification of clinical data, which is why the exemption of informed consent was
+requested and accepted by the Research Ethics Committee of the Medical School of the
+Pontifical Catholic University of Chile. </p></sec><sec sec-type="results"><title>Results</title><p>During the intervention period, a total of 444 CVCs were observed, corresponding to 390
+critical patients, which totaled 2629 CVC days. <xref ref-type="table" rid="t1">Table
+1</xref> shows the general characteristics of the CVCs. Triple-lumen CVC (72.5%) and
+insertion in the jugular vein (46.8%) were more frequent. Most of the CVCs assessed were
+inserted in the MSICU (68.7%) and 38.3% were removed while the patient remained in the
+MSICU. </p><p>
+<table-wrap id="t1" orientation="portrait" position="float"><label>Table 1</label><caption><title>Distribution of frequencies of CVC characteristics during the intervention
+period. Santiago, Chile, 2016</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1">
+</td><td align="center" rowspan="1" colspan="1">
+<bold>n</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>%</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Type of ICU*</bold>
+</td><td align="left" rowspan="1" colspan="1">
+</td><td align="left" rowspan="1" colspan="1">
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Medical</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>215</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>48.4</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Surgical</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>229</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>51.6</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Number of catheter lumens</bold>
+</td><td align="left" rowspan="1" colspan="1">
+</td><td align="left" rowspan="1" colspan="1">
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>5 lumens</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>35</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>7.9</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>3 lumens</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>322</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>72.5</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>2 lumens</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>51</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>11.5</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Other</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>36</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>8.1</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Insertion site</bold>
+</td><td align="left" rowspan="1" colspan="1">
+</td><td align="left" rowspan="1" colspan="1">
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Subclavian</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>171</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>38.5</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Jugular</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>208</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>46.8</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Femoral</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>14</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>3.2</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Antecubital</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>51</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>11.5</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Origin of the CVC</bold>
+<sup><bold>&#x02020;</bold></sup>
+</td><td align="left" rowspan="1" colspan="1">
+</td><td align="left" rowspan="1" colspan="1">
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Inserted in the ICU*</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>305</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>68.7</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Inserted outside the ICU*</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>139</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>31.3</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Outcome of the CVC</bold>
+<sup><bold>&#x02020;</bold></sup>
+</td><td align="left" rowspan="1" colspan="1">
+</td><td align="left" rowspan="1" colspan="1">
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Transferred from ICU*</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>237</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>53.4</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Removed in the ICU*</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>170</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>38.3</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Patient died with CVC</bold>
+<sup><bold>&#x02020;</bold></sup>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>37</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>8.3</bold>
+</td></tr></tbody></table><table-wrap-foot><fn id="TFN1"><p>*ICU: Intensive care unit; &#x02020;CVC: Central venous catheter</p></fn></table-wrap-foot></table-wrap>
+</p><p>Regarding the insertion bundle, there were records in 51.5% of the CVCs inserted in the
+MSICU (n = 157). Overall compliance was 93.8%, with greater compliance to hand hygiene
+and skin preparation (100%), while the use of maximal sterile barriers reached 93.8%
+compliance.</p><p>In <xref ref-type="fig" rid="f1">Figure 1</xref> it is possible to observe that the
+maintenance bundle reached an overall compliance of 62.9%, obtaining its minimum value
+at the beginning of the intervention (52.5%) and the maximum at the end (71.2%).
+Regarding the final compliance of each measure of the bundle, the evaluation of the need
+for the CVC reached approximately 82.4%, inspection of the insertion site and dressing
+reached 85.5%, and 2% chlorhexidine bathing reached 82.0%.</p><p>
+<fig id="f1" orientation="portrait" position="float"><label>Figure 1</label><caption><title>Description of monthly compliance with the CVC* maintenance bundle.
+Santiago, Chile, 2016</title></caption><graphic xlink:href="0104-1169-rlae-25-e2951-gf1"/><attrib>*Central venous catheter</attrib></fig>
+</p><p>
+<xref ref-type="fig" rid="f2">Figure 2</xref> shows the evolution of the CRBSI rate
+during the control and intervention periods. At the beginning of the control period,
+CRBSI rates were lower than during the intervention period (2.10 vs. 2.36 x 1000 CVC
+days); however, it is possible to observe that in the latter period the rates began to
+decrease, becoming smaller (1.52 x 1000 CVC days) than in the control period (3.48 x
+1000 CVC days).</p><p>
+<fig id="f2" orientation="portrait" position="float"><label>Figure 2</label><caption><title>Comparison of the accumulated rate of CRBSI* on the intervention and
+control periods (x 1000 CVC days<sup>&#x02020;</sup>). Santiago, Chile, 2016</title></caption><graphic xlink:href="0104-1169-rlae-25-e2951-gf2"/><attrib>*Catheter-related bloodstream infection; <sup>&#x02020;</sup>Central Venous
+Catheter</attrib></fig>
+</p><p>Regarding the impact of the bundles, <xref ref-type="table" rid="t2">Table 2</xref>
+shows a significant decrease of 28.9% in the mean duration of the CVC, a 60.0% decrease
+in the number of CRBSI cases and a 54.5% decrease in the CRBSI rate compared to the
+control period.</p><p>
+<table-wrap id="t2" orientation="portrait" position="float"><label>Table 2</label><caption><title>Comparison of the variables of interest during the periods of control and
+intervention. Santiago, Chile, 2016</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><tbody><tr><td align="left" rowspan="1" colspan="1">
+</td><td align="center" rowspan="1" colspan="1">
+<bold>Control Period</bold>
+<bold>(1&#x02019; 2015)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>Intervention Period</bold>
+<bold>(1&#x02019; 2016)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>Variation</bold>
+<bold>(%)</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>CVC days</bold>* <bold>(n)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>2877</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>2629</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>- 8.6</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Mean duration of CVC</bold>* <bold>(days)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>8.3</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>5.9</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>- 28.9</bold>
+<sup><bold>&#x02020;</bold></sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>No. of CRBSI</bold>
+<sup><bold>&#x02021;</bold></sup>
+<bold>(n)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>10</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>- 60.0</bold>
+<sup>&#x000a7;</sup>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>Accumulated CRBSI</bold>* <bold>rate (x 1000 CVC
+days</bold>*<bold>)</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>3.48</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>1.52</bold>
+</td><td align="center" rowspan="1" colspan="1">
+<bold>- 54.5</bold>
+<sup><bold>&#x000a7;</bold></sup>
+</td></tr></tbody></table><table-wrap-foot><fn id="TFN2"><p>*Central venous catheter; <sup>&#x02020;</sup>p &#x0003c; 0.01;
+<sup>&#x02021;</sup>Catheter-related bloodstream infection; <sup>&#x000a7;</sup>p &#x0003c;
+0,05</p></fn></table-wrap-foot></table-wrap>
+</p><p>During the intervention period, there were four cases of CRBSI, all corresponding to
+CVCs inserted in the ICU. In addition, no case of CRBSI was reported in patients
+transferred with their CVC in situ, which could have been later attributed to the ICU.
+</p></sec><sec sec-type="discussion"><title>Discussion</title><p>The objective of this study was to evaluate the impact of the simultaneous
+implementation of insertion and maintenance bundles on CRBSI rates in the ICU of a
+university hospital.</p><p>The number of records of the insertion bundle and the percentage of efficacy of the
+maintenance bundle deserve consideration, since they suggest the existence of other
+factors that can have influenced the reduction of CRBSI. There are several studies that
+demonstrate the effectiveness of bundles for the prevention of CRBSI; however, there is
+a high heterogeneity in the measures included in each bundle. In the literature, most of
+the times there is only one bundle, with measures focused mainly on insertion, including
+a daily evaluation of the need for CVC as a single maintenance measure <xref rid="B4" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B16" ref-type="bibr">
+<sup>16</sup>
+</xref>.</p><p>In this study, the simultaneous implementation of two bundles may have compensated for
+the lack of reports on the insertion bundle and the low compliance with the maintenance
+bundle. The level of compliance with the maintenance bundle was low compared to other
+studies <xref rid="B18" ref-type="bibr">
+<sup>18</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B19" ref-type="bibr">
+<sup>19</sup>
+</xref>. A 95% adherence is suggested in order to achieve a substantial reduction in
+CRBSI rates, which is usually not achieved <xref rid="B20" ref-type="bibr">
+<sup>20</sup>
+</xref>. The maintenance bundle, on the other hand, reached high compliance levels for
+each individual measure and included the daily evaluation of the CVC insertion site, a
+measure that is not frequent, despite its presence in the bundles that led to a decrease
+in the CRBSI rate <xref rid="B18" ref-type="bibr">
+<sup>18</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B19" ref-type="bibr">
+<sup>19</sup>
+</xref>.</p><p>Another factor that may have influenced the reduction of CRBSI is the inclusion of daily
+bathing with 2% chlorhexidine gluconate, which is normally not included in the bundle
+measures <xref rid="B6" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B10" ref-type="bibr">
+<sup>10</sup>
+</xref>. The use of chlorhexidine instead of normal soap is based on reducing the
+bacterial colonization on the patient&#x02019;s skin, which can enter the bloodstream via the
+extraluminal CVC route <xref rid="B21" ref-type="bibr">
+<sup>21</sup>
+</xref>. The chlorhexidine cleaning is recommended when the basic measures for the
+prevention of CRBSI did not achieve the results expected; however, its use is justified
+when the CRBSI rates are above institutional limits <xref rid="B11" ref-type="bibr">
+<sup>11</sup>
+</xref>. </p><p>The low level of compliance with the maintenance bundle, especially during the first
+half of the intervention period, can be attributed to the inclusion and progressive
+knowledge of new measures in an ICU where the bundle methodology was first implemented.
+The incorporation of new practices can be complex for health teams, who face little
+familiarity with the clinical guidelines, lack of resources and low level of
+self-efficacy as obstacles to the implementation and execution of these practices <xref rid="B1" ref-type="bibr">
+<sup>1</sup>
+</xref>. However, almost 80% of the ICU team was trained on the bundles and received
+monthly suggestions and comments regarding their effectiveness.</p><p>In addition, the first three months of the control period and of the intervention period
+coincided with the arrival of substitute staff in the unit and especially in nursing,
+which was not familiar with the local practices of CRBSI prevention protocol. Some
+studies have associated the presence of temporary nurses with an increased risk of CRBSI
+in ICUs <xref rid="B22" ref-type="bibr">
+<sup>22</sup>
+</xref>, reaching an increase of up to 3.8 fold under certain conditions when compared
+to the work of regular employees <xref rid="B23" ref-type="bibr">
+<sup>23</sup>
+</xref>. Similarly, despite the high level of compliance, there were a low number of
+reports of the insertion bundle, which could be attributed to the workload of the nurses
+responsible for supervising and recording this procedure. </p><p>Regarding the 2% chlorhexidine bathing, a differential analysis was not performed on
+cases where the bathing did not occur due to the patient&#x02019;s condition (hemodynamic
+instability, recent extubation or intubation, emergency procedures, etc.) or if the
+person question rejected the cleaning. The low compliance in the first month can be
+attributed to an initial lack of knowledge about this measure and the correct method of
+recording it.</p><p>Among the strengths of this intervention is the simultaneous application of the bundles
+in two procedures that are critical for the prevention of CRBSI, insertion and
+maintenance. In addition, the fact that a nurse supervises compliance with the insertion
+bundle ensures the accuracy of the report.</p><p>Even with its positive impact, this study has several limitations. First, the
+quasi-experimental design makes it impossible to relate efficacy and causality only to
+the intervention. Likewise, conducting the study in a single hospital center in Chile
+limits the external validity of the results in ICUs with similar characteristics. Also,
+because it was an initiative within the context of a local quality assurance plan, data
+on the risk factors for CRBSI in the patients involved were not collected, which makes
+it impossible to determine if both groups were comparable.</p><p>Unlike the insertion bundle, the effectiveness of the maintenance bundle was based on
+the assessment of clinical records, with no verification of the accuracy of such data.
+In addition, the monitoring and supervision periods of the bundles did not allow
+evaluating the compliance and the impact on the CRBSI on medium-term. Although the
+literature reports similar periods of surveillance <xref rid="B16" ref-type="bibr">
+<sup>16</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B18" ref-type="bibr">
+<sup>18</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B24" ref-type="bibr">
+<sup>24</sup>
+</xref>, other studies have described periods longer than 6 months <xref rid="B7" ref-type="bibr">
+<sup>7</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B25" ref-type="bibr">
+<sup>25</sup>
+</xref>
+<sup>-</sup>
+<xref rid="B26" ref-type="bibr">
+<sup>26</sup>
+</xref>. </p></sec><sec sec-type="conclusions"><title>Conclusion</title><p>The implementation of a strategy based on the simultaneous application of insertion and
+maintenance bundles has a positive impact on the reduction of CRBSI in critically ill
+patients. The low percentage of insertion bundle records and the moderate compliance to
+the maintenance bundle suggest the presence of other factors or a synergistic effect of
+both bundles on the decrease of CRBSI. The intensive care nurses play a fundamental role
+in the critical processes that determine the occurrence of CRBSI, therefore they are
+workers that assure the quality and safety of care for the critically ill patient.</p></sec></body><back><ack><title>Acknowledgements</title><p>To all the medical and nursing staff at Unidad de Paciente Critico of Hospital Cl&#x000ed;nico
+UC - CHRISTUS, especially to the BUNDLES UPC staff consisted by: Daniela Carri&#x000f3;n,
+Cynthia Riquelme, Chistian Postigo, Valeska Neira, Cynthia Riquelme, Melinka Torrej&#x000f3;n,
+Carolina Cris&#x000f3;stomo, Pamela Quilodr&#x000e1;n, Daniela Gajardo, Carolina Bastidas, Miguel
+Cantillana, Mar&#x000ed;a Eugenia Rucan, Magdalena Mayorga, Samantha Sacre, Gabriel Castro e
+Isabel Parra. Particularly the unity nursing leaders and Control y Prevenci&#x000f3;n de
+Infecciones Asociadas a la Atenci&#x000f3;n de Salud Committee.</p></ack><fn-group><fn fn-type="supported-by" id="fn1"><label>1</label><p>Supported by Departamento de Medicina Intensiva, Escola de Medicina, Pontif&#x000ed;cia
+Universidad Cat&#x000f3;lica de Chile, Santiago, Chile.</p></fn></fn-group><ref-list><title>References</title><ref id="B1"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Blot</surname><given-names>K</given-names></name><name><surname>Bergs</surname><given-names>J</given-names></name><name><surname>Vogelaers</surname><given-names>D</given-names></name><name><surname>Blot</surname><given-names>S</given-names></name><name><surname>Vandijck</surname><given-names>D</given-names></name></person-group><article-title>Prevention of central line-associated bloodstream infections through
+quality improvement interventions A systematic review and
+meta-analysis</article-title><source>Clin Infect Dis</source><year>2014</year><volume>59</volume><issue>1</issue><fpage>96</fpage><lpage>105</lpage><pub-id pub-id-type="doi">10.1093/cid/ciu239</pub-id><pub-id pub-id-type="pmid">24723276</pub-id></element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Burden</surname><given-names>AR</given-names></name><name><surname>Torjman</surname><given-names>MC</given-names></name><name><surname>Dy</surname><given-names>GE</given-names></name><name><surname>Jaffe</surname><given-names>JD</given-names></name><name><surname>Littman</surname><given-names>JJ</given-names></name><name><surname>Nawar</surname><given-names>F</given-names></name></person-group><article-title>Prevention of central venous catheter-related bloodstream infections
+Is it time to add simulation training to the prevention bundle?</article-title><source>J Clin Anesth</source><year>2012</year><volume>24</volume><issue>7</issue><fpage>555</fpage><lpage>560</lpage><pub-id pub-id-type="doi">10.1016/j.jclinane.2012.04.006</pub-id><pub-id pub-id-type="pmid">23101770</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Parienti</surname><given-names>J-J</given-names></name><name><surname>Mongardon</surname><given-names>N</given-names></name><name><surname>M&#x000e9;garbane</surname><given-names>B</given-names></name><name><surname>Mira</surname><given-names>J-P</given-names></name><name><surname>Kalfon</surname><given-names>P</given-names></name><name><surname>Gros</surname><given-names>A</given-names></name></person-group><article-title>Intravascular Complications of Central Venous Catheterization by
+Insertion Site</article-title><source>N Engl J Med</source><year>2015</year><volume>373</volume><issue>13</issue><fpage>1220</fpage><lpage>1229</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa1500964</pub-id><pub-id pub-id-type="pmid">26398070</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Walz</surname><given-names>JM</given-names></name><name><surname>Ellison</surname><given-names>RT</given-names></name><name><surname>Mack</surname><given-names>DA</given-names></name><name><surname>Flaherty</surname><given-names>HM</given-names></name><name><surname>McIlwaine</surname><given-names>JK</given-names></name><name><surname>Whyte</surname><given-names>KG</given-names></name></person-group><article-title>The bundle "plus" the effect of a multidisciplinary team approach to
+eradicate central line-associated bloodstream infections</article-title><source>Anesth Analg</source><year>2015</year><volume>120</volume><issue>4</issue><fpage>868</fpage><lpage>876</lpage><pub-id pub-id-type="doi">10.1213/ANE.0b013e3182a8b01b</pub-id><pub-id pub-id-type="pmid">24149581</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Entesari-Tatafi</surname><given-names>D</given-names></name><name><surname>Orford</surname><given-names>N</given-names></name><name><surname>Bailey</surname><given-names>MJ</given-names></name><name><surname>Chonghaile</surname><given-names>MNI</given-names></name><name><surname>Lamb-Jenkins</surname><given-names>J</given-names></name><name><surname>Athan</surname><given-names>E</given-names></name></person-group><article-title>Effectiveness of a care bundle to reduce central line-associated
+bloodstream infections</article-title><source>Med J Aust</source><year>2015</year><volume>202</volume><issue>5</issue><fpage>247</fpage><lpage>249</lpage><pub-id pub-id-type="doi">10.5694/mja14.01644</pub-id><pub-id pub-id-type="pmid">25758694</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Exline</surname><given-names>MC</given-names></name><name><surname>Ali</surname><given-names>NA</given-names></name><name><surname>Zikri</surname><given-names>N</given-names></name><name><surname>Mangino</surname><given-names>JE</given-names></name><name><surname>Torrence</surname><given-names>K</given-names></name><name><surname>Vermillion</surname><given-names>B</given-names></name></person-group><article-title>Beyond the bundle - journey of a tertiary care medical intensive care
+unit to zero central line-associated bloodstream infections</article-title><source>Crit Care</source><year>2013</year><volume>17</volume><issue>2</issue><fpage>R41</fpage><lpage>R41</lpage><pub-id pub-id-type="doi">10.1186/cc12551</pub-id><pub-id pub-id-type="pmid">23497591</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tang</surname><given-names>H-J</given-names></name><name><surname>Lin</surname><given-names>H-L</given-names></name><name><surname>Lin</surname><given-names>Y-H</given-names></name><name><surname>Leung</surname><given-names>P-O</given-names></name><name><surname>Chuang</surname><given-names>Y-C</given-names></name><name><surname>Lai</surname><given-names>C-C</given-names></name></person-group><article-title>The impact of central line insertion bundle on central line-associated
+bloodstream infection</article-title><source>BMC Infect Dis</source><year>2014</year><volume>14</volume><issue>1</issue><fpage>356</fpage><lpage>356</lpage><pub-id pub-id-type="doi">10.1186/1471-2334-14-356</pub-id><pub-id pub-id-type="pmid">24985729</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ziegler</surname><given-names>MJ</given-names></name><name><surname>Pellegrini</surname><given-names>DC</given-names></name><name><surname>Safdar</surname><given-names>N</given-names></name></person-group><article-title>Attributable mortality of central line associated bloodstream
+infection systematic review and meta-analysis</article-title><source>Infection</source><year>2014</year><volume>43</volume><issue>1</issue><fpage>29</fpage><lpage>36</lpage><pub-id pub-id-type="doi">10.1007/s15010-014-0689-y</pub-id><pub-id pub-id-type="pmid">25331552</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rosenthal</surname><given-names>VD</given-names></name><name><surname>Guzman</surname><given-names>S</given-names></name><name><surname>Migone</surname><given-names>O</given-names></name><name><surname>Crnich</surname><given-names>CJ</given-names></name></person-group><article-title>The attributable cost, length of hospital stay, and mortality of
+central line-associated bloodstream infection in intensive care departments in
+Argentina A prospective, matched analysis</article-title><source>Am J Infect Control</source><year>2003</year><volume>31</volume><issue>8</issue><fpage>475</fpage><lpage>480</lpage><pub-id pub-id-type="doi">10.1016/j.ajic.2003.03.002</pub-id><pub-id pub-id-type="pmid">14647110</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Callister</surname><given-names>D</given-names></name><name><surname>Limchaiyawat</surname><given-names>P</given-names></name><name><surname>Eells</surname><given-names>SJ</given-names></name><name><surname>Miller</surname><given-names>LG</given-names></name></person-group><article-title>Risk Factors for Central Line-Associated Bloodstream Infections in the
+Era of Prevention Bundles</article-title><source>Infect Control Hosp Epidemiol</source><year>2015</year><volume>36</volume><issue>2</issue><fpage>214</fpage><lpage>216</lpage><pub-id pub-id-type="doi">10.1017/ice.2014.32</pub-id><pub-id pub-id-type="pmid">25633005</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marschall</surname><given-names>J</given-names></name><name><surname>Mermel</surname><given-names>LA</given-names></name><name><surname>Fakih</surname><given-names>M</given-names></name><name><surname>Hadaway</surname><given-names>L</given-names></name><name><surname>Kallen</surname><given-names>A</given-names></name><name><surname>O'Grady</surname><given-names>NP</given-names></name></person-group><article-title>Strategies to Prevent Central Line-Associated Bloodstream Infections
+in Acute Care Hospitals 2014 Update</article-title><source>Infect Control Hosp Epidemiol</source><year>2014</year><volume>35</volume><issue>7</issue><fpage>753</fpage><lpage>771</lpage><pub-id pub-id-type="doi">10.1086/676533</pub-id><pub-id pub-id-type="pmid">24915204</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wallace</surname><given-names>MC</given-names></name><name><surname>Macy</surname><given-names>DL</given-names></name></person-group><article-title>Reduction of Central Line-Associated Bloodstream Infection Rates in
+Patients in the Adult Intensive Care Unit</article-title><source>J Infus Nurs</source><year>2016</year><volume>39</volume><issue>1</issue><fpage>47</fpage><lpage>55</lpage><pub-id pub-id-type="doi">10.1097/NAN.0000000000000151</pub-id><pub-id pub-id-type="pmid">26714119</pub-id></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Salama</surname><given-names>MF</given-names></name><name><surname>Jamal</surname><given-names>W</given-names></name><name><surname>Al Mousa</surname><given-names>H</given-names></name><name><surname>Rotimi</surname><given-names>V</given-names></name></person-group><article-title>Implementation of central venous catheter bundle in an intensive care
+unit in Kuwait Effect on central line-associated bloodstream
+infections</article-title><source>J Infect Public Health</source><year>2016</year><volume>9</volume><issue>1</issue><fpage>34</fpage><lpage>41</lpage><pub-id pub-id-type="doi">10.1016/j.jiph.2015.05.001</pub-id><pub-id pub-id-type="pmid">26138518</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pronovost</surname><given-names>P</given-names></name><name><surname>Needham</surname><given-names>D</given-names></name><name><surname>Berenholtz</surname><given-names>S</given-names></name><name><surname>Sinopoli</surname><given-names>D</given-names></name><name><surname>Chu</surname><given-names>H</given-names></name><name><surname>Cosgrove</surname><given-names>S</given-names></name></person-group><article-title>An intervention to decrease catheter-related bloodstream infections in
+the ICU</article-title><source>N Engl J Med</source><year>2006</year><volume>355</volume><issue>26</issue><fpage>2725</fpage><lpage>2732</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa061115</pub-id><pub-id pub-id-type="pmid">17192537</pub-id></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hakko</surname><given-names>E</given-names></name><name><surname>Guvenc</surname><given-names>S</given-names></name><name><surname>Karaman</surname><given-names>I</given-names></name><name><surname>Cakmak</surname><given-names>A</given-names></name><name><surname>Erdem</surname><given-names>T</given-names></name><name><surname>Cakmakci</surname><given-names>M</given-names></name></person-group><article-title>Long-term sustainability of zero central-line associated bloodstream
+infections is possible with high compliance with care bundle
+elements</article-title><source>East Mediterr Health J</source><year>2015</year><volume>21</volume><issue>4</issue><fpage>293</fpage><lpage>298</lpage><ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/26077525">http://www.ncbi.nlm.nih.gov/pubmed/26077525</ext-link><pub-id pub-id-type="pmid">26077525</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sacks</surname><given-names>GD</given-names></name><name><surname>Diggs</surname><given-names>BS</given-names></name><name><surname>Hadjizacharia</surname><given-names>P</given-names></name><name><surname>Green</surname><given-names>D</given-names></name><name><surname>Salim</surname><given-names>A</given-names></name><name><surname>Malinoski</surname><given-names>DJ</given-names></name></person-group><article-title>Reducing the rate of catheter-associated bloodstream infections in a
+surgical intensive care unit using the Institute for Healthcare Improvement
+central line bundle</article-title><source>Am J Surg</source><year>2014</year><volume>207</volume><issue>6</issue><fpage>817</fpage><lpage>823</lpage><pub-id pub-id-type="doi">10.1016/j.amjsurg.2013.08.041</pub-id><pub-id pub-id-type="pmid">24576582</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Valencia</surname><given-names>C</given-names></name><name><surname>Hammami</surname><given-names>N</given-names></name><name><surname>Agodi</surname><given-names>A</given-names></name><name><surname>Lepape</surname><given-names>A</given-names></name><name><surname>Herrejon</surname><given-names>EP</given-names></name><name><surname>Blot</surname><given-names>S</given-names></name></person-group><article-title>Poor adherence to guidelines for preventing central line-associated
+bloodstream infections (CLABSI) results of a worldwide survey</article-title><source>Antimicrob Resist Infect Control</source><year>2016</year><volume>5</volume><issue>1</issue><fpage>49</fpage><lpage>49</lpage><pub-id pub-id-type="doi">10.1186/s13756-016-0139-y</pub-id><pub-id pub-id-type="pmid">27895904</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hermon</surname><given-names>A</given-names></name><name><surname>Pain</surname><given-names>T</given-names></name><name><surname>Beckett</surname><given-names>P</given-names></name><name><surname>Jerrett</surname><given-names>H</given-names></name><name><surname>Llewellyn</surname><given-names>N</given-names></name><name><surname>Lawrence</surname><given-names>P</given-names></name></person-group><article-title>Improving compliance with central venous catheter care bundles using
+electronic records</article-title><source>Nurs Crit Care</source><year>2015</year><volume>20</volume><issue>4</issue><fpage>196</fpage><lpage>203</lpage><pub-id pub-id-type="doi">10.1111/nicc.12186</pub-id><pub-id pub-id-type="pmid">25968111</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Guerin</surname><given-names>K</given-names></name><name><surname>Wagner</surname><given-names>J</given-names></name><name><surname>Rains</surname><given-names>K</given-names></name><name><surname>Bessesen</surname><given-names>M</given-names></name></person-group><article-title>Reduction in central line-associated bloodstream infections by
+implementation of a postinsertion care bundle</article-title><source>Am J Infect Control</source><year>2010</year><volume>38</volume><issue>6</issue><fpage>430</fpage><lpage>433</lpage><pub-id pub-id-type="doi">10.1016/j.ajic.2010.03.007</pub-id><pub-id pub-id-type="pmid">20570395</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Furuya</surname><given-names>EY</given-names></name><name><surname>Dick</surname><given-names>A</given-names></name><name><surname>Perencevich</surname><given-names>EN</given-names></name><name><surname>Pogorzelska</surname><given-names>M</given-names></name><name><surname>Goldmann</surname><given-names>D</given-names></name><name><surname>Stone</surname><given-names>PW</given-names></name></person-group><article-title>Central Line Bundle Implementation in US Intensive Care Units and
+Impact on Bloodstream Infections</article-title><source>PLoS One</source><year>2011</year><volume>6</volume><issue>1</issue><elocation-id>e15452</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0015452</pub-id><pub-id pub-id-type="pmid">21267440</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ling</surname><given-names>ML</given-names></name><name><surname>Apisarnthanarak</surname><given-names>A</given-names></name><name><surname>Jaggi</surname><given-names>N</given-names></name><name><surname>Harrington</surname><given-names>G</given-names></name><name><surname>Morikane</surname><given-names>K</given-names></name><name><surname>Thu</surname><given-names>LTA</given-names></name></person-group><article-title>APSIC guide for prevention of Central Line Associated Bloodstream
+Infections (CLABSI)</article-title><source>Antimicrob Resist Infect Control</source><year>2016</year><volume>5</volume><issue>16</issue><fpage>1</fpage><lpage>9</lpage><pub-id pub-id-type="doi">10.1186/s13756-016-0116-5</pub-id><pub-id pub-id-type="pmid">26734130</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alonso-Echanove</surname><given-names>J</given-names></name><name><surname>Edwards</surname><given-names>JR</given-names></name><name><surname>Richards</surname><given-names>MJ</given-names></name><name><surname>Brennan</surname><given-names>P</given-names></name><name><surname>Venezia</surname><given-names>RA</given-names></name><name><surname>Keen</surname><given-names>J</given-names></name></person-group><article-title>Effect of nurse staffing and antimicrobial-impregnated central venous
+catheters on the risk for bloodstream infections in intensive care
+units</article-title><source>Infect Control Hosp Epidemiol</source><year>2003</year><volume>24</volume><issue>12</issue><fpage>916</fpage><lpage>925</lpage><pub-id pub-id-type="doi">10.1086/502160</pub-id><pub-id pub-id-type="pmid">14700407</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robert</surname><given-names>J</given-names></name><name><surname>Fridkin</surname><given-names>SK</given-names></name><name><surname>Blumberg</surname><given-names>HM</given-names></name><name><surname>Anderson</surname><given-names>B</given-names></name><name><surname>White</surname><given-names>N</given-names></name><name><surname>Ray</surname><given-names>SM</given-names></name></person-group><article-title>The influence of the composition of the nursing staff on primary
+bloodstream infection rates in a surgical intensive care unit</article-title><source>Infect Control Hosp Epidemiol</source><year>2000</year><volume>21</volume><issue>1</issue><fpage>12</fpage><lpage>17</lpage><pub-id pub-id-type="doi">10.1086/501690</pub-id><pub-id pub-id-type="pmid">10656348</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Osorio</surname><given-names>J</given-names></name><name><surname>&#x000c1;lvarez</surname><given-names>D</given-names></name><name><surname>Pacheco</surname><given-names>R</given-names></name><name><surname>G&#x000f3;mez</surname><given-names>CA</given-names></name><name><surname>Lozano</surname><given-names>A</given-names></name></person-group><article-title>Implementation of an insertion bundle for preventing central
+line-associated bloodstream infections in an Intensive Care Unit in
+Colombia</article-title><source>Rev Chilena Infectol</source><year>2013</year><volume>30</volume><issue>5</issue><fpage>465</fpage><lpage>473</lpage><pub-id pub-id-type="doi">10.4067/S0716-10182013000500001</pub-id><pub-id pub-id-type="pmid">24248159</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jeong</surname><given-names>IS</given-names></name><name><surname>Park</surname><given-names>SM</given-names></name><name><surname>Lee</surname><given-names>JM</given-names></name><name><surname>Song</surname><given-names>JY</given-names></name><name><surname>Lee</surname><given-names>SJ</given-names></name></person-group><article-title>Effect of central line bundle on central line-associated bloodstream
+infections in intensive care units</article-title><source>Am J Infect Control</source><year>2013</year><volume>41</volume><issue>8</issue><fpage>710</fpage><lpage>716</lpage><pub-id pub-id-type="doi">10.1016/j.ajic.2012.10.010</pub-id><pub-id pub-id-type="pmid">23394886</pub-id></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lin</surname><given-names>K-Y</given-names></name><name><surname>Cheng</surname><given-names>A</given-names></name><name><surname>Chang</surname><given-names>Y-C</given-names></name><name><surname>Hung</surname><given-names>M-C</given-names></name><name><surname>Wang</surname><given-names>J-T</given-names></name><name><surname>Sheng</surname><given-names>W-H</given-names></name></person-group><article-title>Central line-associated bloodstream infections among critically-ill
+patients in the era of bundle care</article-title><source>J Microbiol Immunol Infect</source><year>2015</year><issue>2015</issue><fpage>1</fpage><lpage>10</lpage><pub-id pub-id-type="doi">10.1016/j.jmii.2015.07.001</pub-id><pub-id pub-id-type="pmid">24560700</pub-id></element-citation></ref></ref-list></back></article>

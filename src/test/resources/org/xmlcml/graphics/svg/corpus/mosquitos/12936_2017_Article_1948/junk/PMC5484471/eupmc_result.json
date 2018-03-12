@@ -1,0 +1,711 @@
+{
+  "id": [
+    "28651014"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28651014"
+  ],
+  "pmcid": [
+    "PMC5484471"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0179769"
+  ],
+  "title": [
+    "A decade of HAART in Latin America: Long term outcomes among the first wave of HIV patients to receive combination therapy."
+  ],
+  "authorString": [
+    "Wolff MJ, Giganti MJ, Cortes CP, Cahn P, Grinsztejn B, Pape JW, Padgett D, Sierra-Madero J, Gotuzzo E, Duda SN, McGowan CC, Shepherd BE, Caribbean, Central and South America Network for HIV Epidemiology."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wolff MJ"
+          ],
+          "firstName": [
+            "Marcelo J"
+          ],
+          "lastName": [
+            "Wolff"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9956-8872",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fundación Arriarán, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Giganti MJ"
+          ],
+          "firstName": [
+            "Mark J"
+          ],
+          "lastName": [
+            "Giganti"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Department of Biostatistics, Vanderbilt University School of Medicine, Nashville, TN, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortes CP"
+          ],
+          "firstName": [
+            "Claudia P"
+          ],
+          "lastName": [
+            "Cortes"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9101-9783",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fundación Arriarán, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cahn P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Cahn"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Fundación Huésped, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Grinsztejn B"
+          ],
+          "firstName": [
+            "Beatriz"
+          ],
+          "lastName": [
+            "Grinsztejn"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Infectologia Evandro Chagas Fiocruz, Rio de Janeiro, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Pape JW"
+          ],
+          "firstName": [
+            "Jean W"
+          ],
+          "lastName": [
+            "Pape"
+          ],
+          "initials": [
+            "JW"
+          ],
+          "affiliation": [
+            "Le Groupe Haïtien d'Etude du Sarcome de Kaposi et des Infections Opportunistes, Port-au-Prince, Haiti."
+          ]
+        },
+        {
+          "fullName": [
+            "Padgett D"
+          ],
+          "firstName": [
+            "Denis"
+          ],
+          "lastName": [
+            "Padgett"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto Hondureño de Seguridad Social Hospital de Especialidades, Tegucigalpa, Honduras."
+          ]
+        },
+        {
+          "fullName": [
+            "Sierra-Madero J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Sierra-Madero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Infectious Diseases, Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, Talplan, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Gotuzzo E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Gotuzzo"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Universidad Peruana Cayetano Heredia, Hospital Nacional Cayetano Heredia, Lima, Perú."
+          ]
+        },
+        {
+          "fullName": [
+            "Duda SN"
+          ],
+          "firstName": [
+            "Stephany N"
+          ],
+          "lastName": [
+            "Duda"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "affiliation": [
+            "Department of Biomedical Informatics, Vanderbilt University School of Medicine, Nashville, TN, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "McGowan CC"
+          ],
+          "firstName": [
+            "Catherine C"
+          ],
+          "lastName": [
+            "McGowan"
+          ],
+          "initials": [
+            "CC"
+          ],
+          "affiliation": [
+            "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Shepherd BE"
+          ],
+          "firstName": [
+            "Bryan E"
+          ],
+          "lastName": [
+            "Shepherd"
+          ],
+          "initials": [
+            "BE"
+          ],
+          "affiliation": [
+            "Department of Biostatistics, Vanderbilt University School of Medicine, Nashville, TN, United States of America."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Caribbean, Central and South America Network for HIV Epidemiology"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9101-9783",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9956-8872",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2562707"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0179769"
+  ],
+  "abstractText": [
+    "In Latin America, the first wave of HIV-infected patients initiated highly active antiretroviral therapy (HAART) 10 or more years ago. Characterizing their treatment experience and corresponding outcomes across a decade of HAART may yield insights relevant to the ongoing care of such patients and those initiating HAART more recently in similar clinical settings.This retrospective study included adults initiating HAART before 2004 at 8 sites in Argentina, Brazil, Chile, Haiti, Honduras, and Mexico. Patient status (in care, dead, or lost to follow-up [LTFU]) was assessed at 6-month intervals for 10 years, along with CD4 count and HIV-1 viral load (VL) for patients in care.4,975 patients (66% male) started HAART prior to 2004; 45% were not antiretroviral-naïve. At 1, 5, and 10 years, rates of mortality were 4.2%, 9.0%, and 13.6% respectively. LTFU rates for the same periods were 2.4%, 10.9%, and 24.2%. Among patients remaining in care at 10 years, 84.4% were estimated to have VL≤400 copies/mL (Haiti excluded) and median baseline CD4 increased from 158 to 525 cells/mm3. Only 11.4% of all patients remained on their first regimen, 12.6% were on their second, 11.5% were on their third, and 23.0% were on their fourth or subsequent regimen. Outcomes were generally better for patients who were not antiretroviral-naïve, except for viral suppression. Heterogeneity among sites was substantial.Despite advanced disease and predominant use of older antiretrovirals, a large percentage of early HAART initiators in this Latin American cohort were alive and in care with sustained virologic suppression and progressive immune recovery after 10 years."
+  ],
+  "affiliation": [
+    "Fundación Arriarán, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Multicenter Study",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "U01 AI069923"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UM1 AI069476"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UM1 AI069421"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "HIV Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "CD4 Lymphocyte Count"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Treatment Outcome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Antiretroviral Therapy, Highly Active"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TD"
+                  ],
+                  "qualifierName": [
+                    "trends"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Viral Load"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Retrospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cohort Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Time Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5484471?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5484471"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0179769"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-18"
+  ],
+  "dateOfCreation": [
+    "2017-06-27"
+  ],
+  "dateOfRevision": [
+    "2018-01-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-26"
+  ],
+  "firstPublicationDate": [
+    "2017-06-26"
+  ]
+}

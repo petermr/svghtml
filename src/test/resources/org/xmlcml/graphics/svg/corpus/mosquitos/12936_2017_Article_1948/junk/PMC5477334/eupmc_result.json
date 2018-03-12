@@ -1,0 +1,338 @@
+{
+  "id": [
+    "28522725"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28522725"
+  ],
+  "pmcid": [
+    "PMC5477334"
+  ],
+  "doi": [
+    "10.1128/genomea.00379-17"
+  ],
+  "title": [
+    "Draft Genome Sequences of Five Enterococcus Species Isolated from the Gut of Patients with Suspected Clostridium difficile Infection."
+  ],
+  "authorString": [
+    "Castro-Nallar E, Valenzuela SL, Baquedano S, Sánchez C, Fernández F, Trombert AN."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castro-Nallar E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Castro-Nallar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4384-8661",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela SL"
+          ],
+          "firstName": [
+            "Sandro L"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "SL"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Baquedano S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Baquedano"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Escuela de Tecnología Médica, Facultad de Ciencias, Universidad Mayor, Huechuraba, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández F"
+          ],
+          "firstName": [
+            "Fabiola"
+          ],
+          "lastName": [
+            "Fernández"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Trombert AN"
+          ],
+          "firstName": [
+            "Annette N"
+          ],
+          "lastName": [
+            "Trombert"
+          ],
+          "initials": [
+            "AN"
+          ],
+          "affiliation": [
+            "Centro de Genómica y Bioinformática, Facultad de Ciencias, Universidad Mayor, Santiago, Chile annette.trombert@umayor.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4384-8661",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "20"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2558937"
+      ],
+      "dateOfPublication": [
+        "2017 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "We present draft genome sequences of five Enterococcus species from patients suspected of Clostridium difficile infection. Genome completeness was confirmed by presence of bacterial orthologs (97%). Gene searches using Hidden-Markov models revealed that the isolates harbor between seven and 11 genes involved in antibiotic resistance to tetracyclines, beta-lactams, and vancomycin."
+  ],
+  "affiliation": [
+    "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5477334?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5477334"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00379-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-19"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-18"
+  ],
+  "firstPublicationDate": [
+    "2017-05-18"
+  ]
+}

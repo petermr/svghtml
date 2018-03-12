@@ -1,0 +1,396 @@
+{
+  "id": [
+    "28860469"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28860469"
+  ],
+  "pmcid": [
+    "PMC5578992"
+  ],
+  "doi": [
+    "10.1038/s41598-017-10474-z"
+  ],
+  "title": [
+    "Prolonged AT1R activation induces CaV1.2 channel internalization in rat cardiomyocytes."
+  ],
+  "authorString": [
+    "Hermosilla T, Encina M, Morales D, Moreno C, Conejeros C, Alfaro-Valdés HM, Lagos-Meza F, Simon F, Altier C, Varela D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hermosilla T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Hermosilla"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Encina M"
+          ],
+          "firstName": [
+            "Matías"
+          ],
+          "lastName": [
+            "Encina"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morales D"
+          ],
+          "firstName": [
+            "Danna"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Conejeros C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Conejeros"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alfaro-Valdés HM"
+          ],
+          "firstName": [
+            "Hilda M"
+          ],
+          "lastName": [
+            "Alfaro-Valdés"
+          ],
+          "initials": [
+            "HM"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagos-Meza F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Lagos-Meza"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Simon F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Simon"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Altier C"
+          ],
+          "firstName": [
+            "Christophe"
+          ],
+          "lastName": [
+            "Altier"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Physiology and Pharmacology and Snyder Institute for Chronic Diseases, University of Calgary, Calgary, T2N 4N1, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Varela D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Varela"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Millennium Nucleus of Ion Channels-Associated Diseases (MiNICAD), Santiago, Chile. dvarela@bitmed.med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "10131"
+  ],
+  "abstractText": [
+    "The cardiac L-type calcium channel is a multi-subunit complex that requires co-assembling of the pore-forming subunit CaV1.2 with auxiliary subunits CaVα2δ and CaVβ. Its traffic has been shown to be controlled by these subunits and by the activation of various G-protein coupled receptors (GPCR). Here, we explore the consequences of the prolonged activation of angiotensin receptor type 1 (AT1R) over CaV1.2 channel trafficking. Bioluminescence Resonance Energy Transfer (BRET) assay between β-arrestin and L-type channels in angiotensin II-stimulated cells was used to assess the functional consequence of AT1R activation, while immunofluorescence of adult rat cardiomyocytes revealed the effects of GPCR activation on CaV1.2 trafficking. Angiotensin II exposure results in β-arrestin1 recruitment to the channel complex and an apparent loss of CaV1.2 immunostaining at the T-tubules. Accordingly, angiotensin II stimulation causes a decrease in L-type current, Ca2+ transients and myocyte contractility, together with a faster repolarization phase of action potentials. Our results demonstrate that prolonged AT1R activation induces β-arrestin1 recruitment and the subsequent internalization of CaV1.2 channels with a half-dose of AngII on the order of 100 nM, suggesting that this effect depends on local renin-angiotensin system. This novel AT1R-dependent CaV1.2-trafficking modulation likely contributes to angiotensin II-mediated cardiac remodeling."
+  ],
+  "affiliation": [
+    "Programa de Fisiopatología, Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, 8380453, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5578992?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5578992"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-10474-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-01"
+  ],
+  "dateOfRevision": [
+    "2017-09-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-31"
+  ],
+  "firstPublicationDate": [
+    "2017-08-31"
+  ]
+}

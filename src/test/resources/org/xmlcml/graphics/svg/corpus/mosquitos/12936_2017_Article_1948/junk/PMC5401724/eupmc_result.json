@@ -1,0 +1,318 @@
+{
+  "id": [
+    "28487801"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28487801"
+  ],
+  "pmcid": [
+    "PMC5401724"
+  ],
+  "doi": [
+    "10.1155/2017/2153521"
+  ],
+  "title": [
+    "Nontraumatic Laryngeal Fractures: Report of Two Cases and Review of the Literature."
+  ],
+  "authorString": [
+    "Santamaría A, Alarcón R, Sepúlveda I, Fredes F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Santamaría A"
+          ],
+          "firstName": [
+            "Alfredo"
+          ],
+          "lastName": [
+            "Santamaría"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7967-0805",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "ENT-Head and Neck Surgery Service, General Hospital of Concepcion, University of Concepcion School of Medicine, Concepcion, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alarcón R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Alarcón"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "ENT-Head and Neck Surgery Service, General Hospital of Concepcion, University of Concepcion School of Medicine, Concepcion, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda I"
+          ],
+          "firstName": [
+            "Ilson"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0600-8084",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Radiology Department, ENT-Head and Neck Surgery Service, General Hospital of Concepcion, Concepcion, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fredes F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Fredes"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "ENT-Head and Neck Surgery Service, General Hospital of Concepcion, University of Concepcion School of Medicine, Concepcion, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7967-0805",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0600-8084",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2519212"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Case reports in otolaryngology"
+          ],
+          "ISOAbbreviation": [
+            "Case Rep Otolaryngol"
+          ],
+          "medlineAbbreviation": [
+            "Case Rep Otolaryngol"
+          ],
+          "NLMid": [
+            "101576603"
+          ],
+          "ISSN": [
+            "2090-6765"
+          ],
+          "ESSN": [
+            "2090-6773"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2153521"
+  ],
+  "abstractText": [
+    "Laryngeal fractures occur mainly in the context of cervical trauma, hanging, or strangulation. Nontraumatic laryngeal fractures are rare and there are few reports in the literature. We present two cases of nontraumatic laryngeal fractures evaluated in our service."
+  ],
+  "affiliation": [
+    "ENT-Head and Neck Surgery Service, General Hospital of Concepcion, University of Concepcion School of Medicine, Concepcion, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5401724?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5401724"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/2153521"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-10"
+  ],
+  "dateOfRevision": [
+    "2017-05-12"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-09"
+  ],
+  "firstPublicationDate": [
+    "2017-04-09"
+  ]
+}

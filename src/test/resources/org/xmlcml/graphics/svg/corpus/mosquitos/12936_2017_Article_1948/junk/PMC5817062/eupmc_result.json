@@ -1,0 +1,262 @@
+{
+  "id": [
+    "29491854"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29491854"
+  ],
+  "pmcid": [
+    "PMC5817062"
+  ],
+  "doi": [
+    "10.3389/fmicb.2018.00194"
+  ],
+  "title": [
+    "Protein Engineering for Nicotinamide Coenzyme Specificity in Oxidoreductases: Attempts and Challenges."
+  ],
+  "authorString": [
+    "Chánique AM, Parra LP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chánique AM"
+          ],
+          "firstName": [
+            "Andrea M"
+          ],
+          "lastName": [
+            "Chánique"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocesses Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Parra LP"
+          ],
+          "firstName": [
+            "Loreto P"
+          ],
+          "lastName": [
+            "Parra"
+          ],
+          "initials": [
+            "LP"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocesses Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2645049"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "194"
+  ],
+  "abstractText": [
+    "Oxidoreductases are ubiquitous enzymes that catalyze an extensive range of chemical reactions with great specificity, efficiency, and selectivity. Most oxidoreductases are nicotinamide cofactor-dependent enzymes with a strong preference for NADP or NAD. Because these coenzymes differ in stability, bioavailability and costs, the enzyme preference for a specific coenzyme is an important issue for practical applications. Different approaches for the manipulation of coenzyme specificity have been reported, with different degrees of success. Here we present various attempts for the switching of nicotinamide coenzyme preference in oxidoreductases by protein engineering. This review covers 103 enzyme engineering studies from 82 articles and evaluates the accomplishments in terms of coenzyme specificity and catalytic efficiency compared to wild type enzymes of different classes. We analyzed different protein engineering strategies and related them with the degree of success in inverting the cofactor specificity. In general, catalytic activity is compromised when coenzyme specificity is reversed, however when switching from NAD to NADP, better results are obtained. In most of the cases, rational strategies were used, predominantly with loop exchange generating the best results. In general, the tendency of removing acidic residues and incorporating basic residues is the strategy of choice when trying to change specificity from NAD to NADP, and vice versa. Computational strategies and algorithms are also covered as helpful tools to guide protein engineering strategies. This mini review aims to give a general introduction to the topic, giving an overview of tools and information to work in protein engineering for the reversal of coenzyme specificity."
+  ],
+  "affiliation": [
+    "Department of Chemical and Bioprocesses Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Oxidoreductases",
+        "Coenzyme",
+        "Cofactor",
+        "Enzyme Engineering",
+        "Nad(p)h"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5817062?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5817062"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2018.00194"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-03-02"
+  ],
+  "dateOfRevision": [
+    "2018-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-14"
+  ],
+  "firstPublicationDate": [
+    "2018-02-14"
+  ]
+}

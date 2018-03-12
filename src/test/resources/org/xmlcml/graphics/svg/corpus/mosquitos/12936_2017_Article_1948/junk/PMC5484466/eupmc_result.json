@@ -1,0 +1,983 @@
+{
+  "id": [
+    "28650992"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28650992"
+  ],
+  "pmcid": [
+    "PMC5484466"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0177472"
+  ],
+  "title": [
+    "Galectin-8 as an immunosuppressor in experimental autoimmune encephalomyelitis and a target of human early prognostic antibodies in multiple sclerosis."
+  ],
+  "authorString": [
+    "Pardo E, Cárcamo C, Uribe-San Martín R, Ciampi E, Segovia-Miranda F, Curkovic-Peña C, Montecino F, Holmes C, Tichauer JE, Acuña E, Osorio-Barrios F, Castro M, Cortes P, Oyanadel C, Valenzuela DM, Pacheco R, Naves R, Soza A, González A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pardo E"
+          ],
+          "firstName": [
+            "Evelyn"
+          ],
+          "lastName": [
+            "Pardo"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Anatomy and Developmental Biology Program, Institute of Biomedical Sciences, Geroscience Center for Brain Health and Metabolism, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cárcamo C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Cárcamo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Neurología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe-San Martín R"
+          ],
+          "firstName": [
+            "Reinaldo"
+          ],
+          "lastName": [
+            "Uribe-San Martín"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Neurología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ciampi E"
+          ],
+          "firstName": [
+            "Ethel"
+          ],
+          "lastName": [
+            "Ciampi"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Neurología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Segovia-Miranda F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Segovia-Miranda"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Center for Aging and Regeneration (CARE), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Curkovic-Peña C"
+          ],
+          "firstName": [
+            "Cristobal"
+          ],
+          "lastName": [
+            "Curkovic-Peña"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for Aging and Regeneration (CARE), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecino F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Montecino"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Center for Aging and Regeneration (CARE), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Holmes C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Holmes"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for Aging and Regeneration (CARE), Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tichauer JE"
+          ],
+          "firstName": [
+            "Juan Enrique"
+          ],
+          "lastName": [
+            "Tichauer"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña E"
+          ],
+          "firstName": [
+            "Eric"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Osorio-Barrios F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Osorio-Barrios"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro M"
+          ],
+          "firstName": [
+            "Marjorie"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad San Sebastián, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortes P"
+          ],
+          "firstName": [
+            "Priscilla"
+          ],
+          "lastName": [
+            "Cortes"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Facultad de Ciencia, Universidad San Sebastián, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oyanadel C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Oyanadel"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Facultad de Ciencia, Universidad San Sebastián, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela DM"
+          ],
+          "firstName": [
+            "David M"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "DM"
+          ],
+          "affiliation": [
+            "Regeneron Pharmaceuticals, New York, New York, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Pacheco R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Pacheco"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Biológicas, Departamento de Ciencias Biológicas, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Naves R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Naves"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soza A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Soza"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Ciencia, Universidad San Sebastián, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González A"
+          ],
+          "firstName": [
+            "Alfonso"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad San Sebastián, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2562707"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0177472"
+  ],
+  "abstractText": [
+    "Galectin-8 (Gal-8) is a member of a glycan-binding protein family that regulates the immune system, among other functions, and is a target of antibodies in autoimmune disorders. However, its role in multiple sclerosis (MS), an autoimmune inflammatory disease of the central nervous system (CNS), remains unknown. We study the consequences of Gal-8 silencing on lymphocyte subpopulations and the development of experimental autoimmune encephalitis (EAE), to then assess the presence and clinical meaning of anti-Gal-8 antibodies in MS patients. Lgals8/Lac-Z knock-in mice lacking Gal-8 expression have higher polarization toward Th17 cells accompanied with decreased CCR6+ and higher CXCR3+ regulatory T cells (Tregs) frequency. These conditions result in exacerbated MOG35-55 peptide-induced EAE. Gal-8 eliminates activated Th17 but not Th1 cells by apoptosis and ameliorates EAE in C57BL/6 wild-type mice. β-gal histochemistry reflecting the activity of the Gal-8 promoter revealed Gal-8 expression in a wide range of CNS regions, including high expression in the choroid-plexus. Accordingly, we detected Gal-8 in human cerebrospinal fluid, suggesting a role in the CNS immune-surveillance circuit. In addition, we show that MS patients generate function-blocking anti-Gal-8 antibodies with pathogenic potential. Such antibodies block cell adhesion and Gal-8-induced Th17 apoptosis. Furthermore, circulating anti-Gal-8 antibodies associate with relapsing-remitting MS (RRMS), and not with progressive MS phenotypes, predicting clinical disability at diagnosis within the first year of follow-up. Our results reveal that Gal-8 has an immunosuppressive protective role against autoimmune CNS inflammation, modulating the balance of Th17 and Th1 polarization and their respective Tregs. Such a role can be counteracted during RRMS by anti-Gal-8 antibodies, worsening disease prognosis. Even though anti-Gal-8 antibodies are not specific for MS, our results suggest that they could be a potential early severity biomarker in RRMS."
+  ],
+  "affiliation": [
+    "Anatomy and Developmental Biology Program, Institute of Biomedical Sciences, Geroscience Center for Brain Health and Metabolism, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice, Inbred C57BL"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice, Transgenic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Multiple Sclerosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Encephalomyelitis, Autoimmune, Experimental"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Galectins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Autoantibodies"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prognosis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Adhesion"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Apoptosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Silencing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "T-Lymphocytes, Regulatory"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Th17 Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Autoantibodies"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Galectins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "galectin-8, mouse"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5484466?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5484466"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0177472"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-20"
+  ],
+  "dateOfCreation": [
+    "2017-06-26"
+  ],
+  "dateOfRevision": [
+    "2017-09-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-26"
+  ],
+  "firstPublicationDate": [
+    "2017-06-26"
+  ]
+}

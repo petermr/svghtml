@@ -1,0 +1,403 @@
+{
+  "id": [
+    "29085047"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29085047"
+  ],
+  "pmcid": [
+    "PMC5662653"
+  ],
+  "doi": [
+    "10.1038/s41598-017-14744-8"
+  ],
+  "title": [
+    "Theta and Alpha Oscillation Impairments in Autistic Spectrum Disorder Reflect Working Memory Deficit."
+  ],
+  "authorString": [
+    "Larrain-Valenzuela J, Zamorano F, Soto-Icaza P, Carrasco X, Herrera C, Daiber F, Aboitiz F, Billeke P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Larrain-Valenzuela J"
+          ],
+          "firstName": [
+            "Josefina"
+          ],
+          "lastName": [
+            "Larrain-Valenzuela"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Universidad del Desarrollo, Av. Las Condes 12461, Las Condes, Santiago, 7590943, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zamorano F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Zamorano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3516-3630",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Unidad de Imágenes Cuantitativas Avanzadas, Departamento de Imágenes, Clínica Alemana de Santiago, Av. Vitacura 5951, Vitacura, 7650568, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto-Icaza P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Soto-Icaza"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3092-7195",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias Cognitivas, Departamento de Psiquiatría, Centro Interdisciplinario de Neurociencia, Pontificia Universidad Católica de Chile, Marcoleta 391, Santiago, 8330024, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias Cognitivas, Departamento de Psiquiatría, Centro Interdisciplinario de Neurociencia, Pontificia Universidad Católica de Chile, Marcoleta 391, Santiago, 8330024, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herrera C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Herrera"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Sociedad de Psiquiatría y Neurología de la Infancia y Adolescencia de Chile, Esmeralda 678, Santiago, 8320053, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Daiber F"
+          ],
+          "firstName": [
+            "Francisca"
+          ],
+          "lastName": [
+            "Daiber"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias Cognitivas, Departamento de Psiquiatría, Centro Interdisciplinario de Neurociencia, Pontificia Universidad Católica de Chile, Marcoleta 391, Santiago, 8330024, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aboitiz F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Aboitiz"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Neurociencias Cognitivas, Departamento de Psiquiatría, Centro Interdisciplinario de Neurociencia, Pontificia Universidad Católica de Chile, Marcoleta 391, Santiago, 8330024, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Billeke P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Billeke"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4261-0678",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Universidad del Desarrollo, Av. Las Condes 12461, Las Condes, Santiago, 7590943, Chile. pbilleke@udd.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3516-3630",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3092-7195",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4261-0678",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2603102"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "14328"
+  ],
+  "abstractText": [
+    "A dysfunction in the excitatory-inhibitory (E/I) coordination in neuronal assembly has been proposed as a possible neurobiological mechanism of Autistic Spectrum Disorder (ASD). However, the potential impact of this mechanism in cognitive performance is not fully explored. Since the main consequence of E/I dysfunction is an impairment in oscillatory activity and its underlying cognitive computations, we assessed the electroencephalographic activity of ASD and typically developing (TD) subjects during a working-memory task. We found that ASD subjects committed more errors than TD subjects. Moreover, TD subjects demonstrated a parametric modulation in the power of alpha and theta band while ASD subjects did not demonstrate significant modulations. The preceding leads to significant differences between the groups in both the alpha power placed on the occipital cortex and the theta power placed on the left premotor and the right prefrontal cortex. The impaired theta modulation correlated with autistic symptoms. The results indicated that ASD may present an alteration in the recruitment of the oscillatory activity during working-memory, and this alteration could be related to the physiopathology of the disorder."
+  ],
+  "affiliation": [
+    "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Universidad del Desarrollo, Av. Las Condes 12461, Las Condes, Santiago, 7590943, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5662653?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5662653"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-14744-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-01"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-30"
+  ],
+  "firstPublicationDate": [
+    "2017-10-30"
+  ]
+}

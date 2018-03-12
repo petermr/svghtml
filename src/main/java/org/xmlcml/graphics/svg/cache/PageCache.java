@@ -14,6 +14,7 @@ import org.xmlcml.euclid.Real2Range;
 import org.xmlcml.euclid.RealRange;
 import org.xmlcml.euclid.util.MultisetUtil;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGRect;
@@ -310,5 +311,11 @@ public class PageCache extends ComponentCache {
 	public File getInputSVGFile() {
 		return inputSvgFile;
 	}
+
+	public HtmlElement createHtmlElement() {
+		HtmlElement html = getOrCreateTextCache().createHtmlElementNew();
+		return html;
+	}
+	
 
 }

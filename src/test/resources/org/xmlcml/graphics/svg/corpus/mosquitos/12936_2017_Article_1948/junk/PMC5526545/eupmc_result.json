@@ -1,0 +1,688 @@
+{
+  "id": [
+    "28742879"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28742879"
+  ],
+  "pmcid": [
+    "PMC5526545"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0181569"
+  ],
+  "title": [
+    "Epidemiological investigations of the introduction of porcine reproductive and respiratory syndrome virus in Chile, 2013-2015."
+  ],
+  "authorString": [
+    "Neira V, Brito B, Mena J, Culhane M, Apel MI, Max V, Perez P, Moreno V, Mathieu C, Johow M, Badia C, Torremorell M, Medina R, Ortega R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Neira V"
+          ],
+          "firstName": [
+            "Víctor"
+          ],
+          "lastName": [
+            "Neira"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9062-9969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Preventiva, Facultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brito B"
+          ],
+          "firstName": [
+            "Barbara"
+          ],
+          "lastName": [
+            "Brito"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6122-2596",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Preventiva, Facultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mena J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Mena"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Universidad de Concepción, Facultad de Ciencias Veterinarias, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Culhane M"
+          ],
+          "firstName": [
+            "Marie"
+          ],
+          "lastName": [
+            "Culhane"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "College of Veterinary Medicine, University of Minnesota, St. Paul, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Apel MI"
+          ],
+          "firstName": [
+            "Maria Ignacia"
+          ],
+          "lastName": [
+            "Apel"
+          ],
+          "initials": [
+            "MI"
+          ],
+          "affiliation": [
+            "Asociación Gremial de Productores de Cerdo de Chile, ASPROCER, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Max V"
+          ],
+          "firstName": [
+            "Vanessa"
+          ],
+          "lastName": [
+            "Max"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), División de Protección Pecuaria, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Perez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), División de Protección Pecuaria, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno V"
+          ],
+          "firstName": [
+            "Valentina"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), Laboratorio y Estación Cuarentenaria de Lo Aguirre, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mathieu C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Mathieu"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), Laboratorio y Estación Cuarentenaria de Lo Aguirre, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Johow M"
+          ],
+          "firstName": [
+            "Magdalena"
+          ],
+          "lastName": [
+            "Johow"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), Laboratorio y Estación Cuarentenaria de Lo Aguirre, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Badia C"
+          ],
+          "firstName": [
+            "Catalina"
+          ],
+          "lastName": [
+            "Badia"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Servicio Agrícola y Ganadero (SAG), Laboratorio y Estación Cuarentenaria de Lo Aguirre, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torremorell M"
+          ],
+          "firstName": [
+            "Montserrat"
+          ],
+          "lastName": [
+            "Torremorell"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "College of Veterinary Medicine, University of Minnesota, St. Paul, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Medina R"
+          ],
+          "firstName": [
+            "Rafael"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Microbiology, Icahn School of Medicine at Mount Sinai, New York, NY, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega R"
+          ],
+          "firstName": [
+            "Rene"
+          ],
+          "lastName": [
+            "Ortega"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad de Concepción, Facultad de Ciencias Veterinarias, Chillán, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6122-2596",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9062-9969",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2572928"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0181569"
+  ],
+  "abstractText": [
+    "Porcine reproductive and respiratory syndrome (PRRS) is endemic in most pork producing countries. In Chile, eradication of PRRS virus (PRRSV) was successfully achieved in 2009 as a result of the combined efforts of producers and the animal health authorities. In October 2013, after several years without detecting PRRSV under surveillance activities, suspected cases were confirmed on a commercial swine farm. Here, we describe the PRRS epidemic in Chile between October 2013 and April 2015, and we studied the origins and spread of PRRSV throughout the country using official surveillance data and Bayesian phylogenetic analysis. Our results indicate that the outbreaks were caused by a PRRSV closely related to viruses present in swine farms in North America, and different from the strain that circulated in the country before 2009. Using divergence time estimation analysis, we found that the 2013-2015 PRRSV may have been circulating in Chile for at least one month before the first detection. A single strain of PRRSV spread into a limited number of commercial and backyard swine farms. New infections in commercial systems have not been reported since October 2014, and eradication is underway by clearing the disease from the few commercial and backyard farms that remain positive. This is one of the few documented experiences of PRRSV introduction into a disease-free country."
+  ],
+  "affiliation": [
+    "Departamento de Medicina Preventiva, Facultad de Ciencias Veterinarias y Pecuarias, Universidad de Chile, La Pintana, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Swine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Porcine respiratory and reproductive syndrome virus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Porcine Reproductive and Respiratory Syndrome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Outbreaks"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animal Husbandry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5526545?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5526545"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0181569"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL",
+        "UNIPROT"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-10-02"
+  ],
+  "dateOfCreation": [
+    "2017-07-25"
+  ],
+  "dateOfRevision": [
+    "2017-10-02"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-25"
+  ],
+  "firstPublicationDate": [
+    "2017-07-25"
+  ]
+}

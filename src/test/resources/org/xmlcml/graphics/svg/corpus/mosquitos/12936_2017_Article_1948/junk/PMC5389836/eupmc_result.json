@@ -1,0 +1,492 @@
+{
+  "id": [
+    "28403179"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28403179"
+  ],
+  "pmcid": [
+    "PMC5389836"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0175680"
+  ],
+  "title": [
+    "New route for self-assembly of α-lactalbumin nanotubes and their use as templates to grow silver nanotubes."
+  ],
+  "authorString": [
+    "Fu WC, Opazo MA, Acuña SM, Toledo PG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fu WC"
+          ],
+          "firstName": [
+            "Wei-Chun"
+          ],
+          "lastName": [
+            "Fu"
+          ],
+          "initials": [
+            "WC"
+          ],
+          "affiliation": [
+            "Department of Food Engineering, University of Bío-Bío, Av. Andres Bello S/N, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Opazo MA"
+          ],
+          "firstName": [
+            "Mauricio A"
+          ],
+          "lastName": [
+            "Opazo"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Department of Food Engineering, University of Bío-Bío, Av. Andres Bello S/N, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña SM"
+          ],
+          "firstName": [
+            "Sergio M"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1365-9851",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Food Engineering, University of Bío-Bío, Av. Andres Bello S/N, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Toledo PG"
+          ],
+          "firstName": [
+            "Pedro G"
+          ],
+          "lastName": [
+            "Toledo"
+          ],
+          "initials": [
+            "PG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2863-7997",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering and Laboratory of Surface Analysis, University of Concepción, Correo 3, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2863-7997",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1365-9851",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2543035"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0175680"
+  ],
+  "abstractText": [
+    "Nanotubes are formed by self-assembly of α-lactalbumin milk protein following a different route than established for the hydrolysis which involves V8 enzyme, phosphate buffer and appropriate amounts of calcium at neutral pH. The resulting nanotubes are used as templates for the growth of conductive silver nanotubes. TEM, SEM-EDS, AFM and FTIR are used for characterization."
+  ],
+  "affiliation": [
+    "Department of Food Engineering, University of Bío-Bío, Av. Andres Bello S/N, Chillán, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Silver"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lactalbumin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Microscopy, Atomic Force"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spectroscopy, Fourier Transform Infrared"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Surface Properties"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nanotubes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "UL"
+                  ],
+                  "qualifierName": [
+                    "ultrastructure"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Multimerization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymerization"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Lactalbumin"
+          ],
+          "registryNumber": [
+            "9013-90-5"
+          ]
+        },
+        {
+          "name": [
+            "Silver"
+          ],
+          "registryNumber": [
+            "3M4G523W1G"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5389836?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5389836"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0175680"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-21"
+  ],
+  "dateOfCreation": [
+    "2017-04-13"
+  ],
+  "dateOfRevision": [
+    "2017-05-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-12"
+  ],
+  "firstPublicationDate": [
+    "2017-04-12"
+  ]
+}

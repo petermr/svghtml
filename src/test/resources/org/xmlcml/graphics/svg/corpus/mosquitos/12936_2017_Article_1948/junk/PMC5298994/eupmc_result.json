@@ -1,0 +1,474 @@
+{
+  "id": [
+    "28232803"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28232803"
+  ],
+  "pmcid": [
+    "PMC5298994"
+  ],
+  "doi": [
+    "10.3389/fphys.2017.00038"
+  ],
+  "title": [
+    "On Biophysical Properties and Sensitivity to Gap Junction Blockers of Connexin 39 Hemichannels Expressed in HeLa Cells."
+  ],
+  "authorString": [
+    "Vargas AA, Cisterna BA, Saavedra-Leiva F, Urrutia C, Cea LA, Vielma AH, Gutierrez-Maldonado SE, Martin AJ, Pareja-Barrueto C, Escalona Y, Schmachtenberg O, Lagos CF, Perez-Acle T, Sáez JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vargas AA"
+          ],
+          "firstName": [
+            "Anibal A"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Pontificia Universidad Católica de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cisterna BA"
+          ],
+          "firstName": [
+            "Bruno A"
+          ],
+          "lastName": [
+            "Cisterna"
+          ],
+          "initials": [
+            "BA"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Pontificia Universidad Católica de ChileSantiago, Chile; Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra-Leiva F"
+          ],
+          "firstName": [
+            "Fujiko"
+          ],
+          "lastName": [
+            "Saavedra-Leiva"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Pontificia Universidad Católica de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Urrutia C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Urrutia"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Pontificia Universidad Católica de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cea LA"
+          ],
+          "firstName": [
+            "Luis A"
+          ],
+          "lastName": [
+            "Cea"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "affiliation": [
+            "Institute of Biomedical Sciences, Faculty of Medicine, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vielma AH"
+          ],
+          "firstName": [
+            "Alex H"
+          ],
+          "lastName": [
+            "Vielma"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de Valparaíso Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutierrez-Maldonado SE"
+          ],
+          "firstName": [
+            "Sebastian E"
+          ],
+          "lastName": [
+            "Gutierrez-Maldonado"
+          ],
+          "initials": [
+            "SE"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile; Computational Biology Lab (DLab), Fundación Ciencia & VidaSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martin AJ"
+          ],
+          "firstName": [
+            "Alberto J M"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile; Computational Biology Lab (DLab), Fundación Ciencia & VidaSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pareja-Barrueto C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Pareja-Barrueto"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Computational Biology Lab (DLab), Fundación Ciencia & Vida Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escalona Y"
+          ],
+          "firstName": [
+            "Yerko"
+          ],
+          "lastName": [
+            "Escalona"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile; Computational Biology Lab (DLab), Fundación Ciencia & VidaSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schmachtenberg O"
+          ],
+          "firstName": [
+            "Oliver"
+          ],
+          "lastName": [
+            "Schmachtenberg"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de Valparaíso Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagos CF"
+          ],
+          "firstName": [
+            "Carlos F"
+          ],
+          "lastName": [
+            "Lagos"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "affiliation": [
+            "Department of Endocrinology, School of Medicine, Pontificia Universidad Católica de ChileSantiago, Chile; Facultad de Ciencia, Universidad San SebastiánSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez-Acle T"
+          ],
+          "firstName": [
+            "Tomas"
+          ],
+          "lastName": [
+            "Perez-Acle"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile; Computational Biology Lab (DLab), Fundación Ciencia & VidaSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sáez JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Sáez"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Pontificia Universidad Católica de ChileSantiago, Chile; Centro Interdisciplinario de Neurociencia de Valparaíso, Universidad de ValparaísoValparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550597"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in physiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Physiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Physiol"
+          ],
+          "NLMid": [
+            "101549006"
+          ],
+          "ISSN": [
+            "1664-042X"
+          ],
+          "ESSN": [
+            "1664-042X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "38"
+  ],
+  "abstractText": [
+    "Although connexins (Cxs) are broadly expressed by cells of mammalian organisms, Cx39 has a very restricted pattern of expression and the biophysical properties of Cx39-based channels [hemichannels (HCs) and gap junction channels (GJCs)] remain largely unknown. Here, we used HeLa cells transfected with Cx39 (HeLa-Cx39 cells) in which intercellular electrical coupling was not detected, indicating the absence of GJCs. However, functional HCs were found on the surface of cells exposed to conditions known to increase the open probability of other Cx HCs (e.g., extracellular divalent cationic-free solution (DCFS), extracellular alkaline pH, mechanical stimulus and depolarization to positive membrane potentials). Cx39 HCs were blocked by some traditional Cx HC blockers, but not by others or a pannexin1 channel blocker. HeLa-Cx39 cells showed similar resting membrane potentials (RMPs) to those of parental cells, and exposure to DCFS reduced RMPs in Cx39 transfectants, but not in parental cells. Under these conditions, unitary events of ~75 pS were frequent in HeLa-Cx39 cells and absent in parental cells. Real-time cellular uptake experiments of dyes with different physicochemical features, as well as the application of a machine-learning approach revealed that Cx39 HCs are preferentially permeable to molecules characterized by six categories of descriptors, namely: (1) electronegativity, (2) ionization potential, (3) polarizability, (4) size and geometry, (5) topological flexibility and (6) valence. However, Cx39 HCs opened by mechanical stimulation or alkaline pH were impermeable to Ca2+. Molecular modeling of Cx39-based channels suggest that a constriction present at the intracellular portion of the para helix region co-localizes with an electronegative patch, imposing an energetic and steric barrier, which in the case of GJCs may hinder channel function. Results reported here demonstrate that Cx39 form HCs and add to our understanding of the functional roles of Cx39 HCs under physiological and pathological conditions in cells that express them."
+  ],
+  "affiliation": [
+    "Departamento de Fisiología, Pontificia Universidad Católica de Chile Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Membrane potential",
+        "Permeability",
+        "Gap junction",
+        "Electrical Coupling",
+        "Unitary Conductance",
+        "Cx39",
+        "Dye-uptake"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5298994?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5298994"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fphys.2017.00038"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-02-24"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-09"
+  ],
+  "firstPublicationDate": [
+    "2017-02-09"
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": [
+    "29144431"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29144431"
+  ],
+  "pmcid": [
+    "PMC5708038"
+  ],
+  "doi": [
+    "10.3390/ijerph14111399"
+  ],
+  "title": [
+    "Bioabsorption and Bioaccumulation of Cadmium in the Straw and Grain of Maize (Zea mays L.) in Growing Soils Contaminated with Cadmium in Different Environment."
+  ],
+  "authorString": [
+    "Retamal-Salgado J, Hirzel J, Walter I, Matus I."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Retamal-Salgado J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Retamal-Salgado"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2867-7801",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Faculty of Engineering and Business, Universidad Adventista de Chile, km 12 Camino a Tanilvoro, Chillán 3780000, Chile. jorgeretamal@unach.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Hirzel J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Hirzel"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias INIA, Avenida Vicente Méndez 515, Chillán 3800062, Chile. jhirzel@inia.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Walter I"
+          ],
+          "firstName": [
+            "Ingrid"
+          ],
+          "lastName": [
+            "Walter"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA), Apdo. Correos 8111, Madrid 28080, Spain. inwal@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Matus I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Matus"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias INIA, Avenida Vicente Méndez 515, Chillán 3800062, Chile. imatus@inia.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2867-7801",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2614436"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of environmental research and public health"
+          ],
+          "ISOAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "medlineAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "NLMid": [
+            "101238455"
+          ],
+          "ISSN": [
+            "1661-7827"
+          ],
+          "ESSN": [
+            "1660-4601"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "There is a worldwide increase of heavy metal or potentially toxic element (PTE), contamination in agricultural soils caused mainly by human and industrial action, which leads to food contamination in crops such as in maize. Cadmium (Cd) is a PTE often found in soils and it is ingested through food. It is necessary to determine the bioabsorption, distribution, and accumulation levels in maize to reduce or prevent food chain contamination. Cadmium absorption and accumulation in three maize cultivars were evaluated in three agricultural environments in Chile by increasing CdCl₂ rates (0, 1, and 2 mg·kg-1). Evaluation included Cd accumulation and distribution in different plant tissues, bioaccumulation factor (BAF), bioconcentration factor (BCF), translocation factor (TF), and tolerance index (TI). Cadmium whole-plant uptake was only affected by the CdCl₂ rate; the highest uptake was obtained with 2 mg·kg-1 CdCl₂ (34.4 g·ha-1) (p < 0.05). Cadmium distribution in the maize plant usually exhibited the highest accumulation in the straw (p < 0.05), independently of the environment, Cd rate, and evaluated cultivar. Given the results for TF (TF > 2) and BAF (BAF > 1), the Los Tilos and Chillán environments were classified as having a high capacity to contaminate the food chain for all evaluated cultivars."
+  ],
+  "affiliation": [
+    "Faculty of Engineering and Business, Universidad Adventista de Chile, km 12 Camino a Tanilvoro, Chillán 3780000, Chile. jorgeretamal@unach.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Heavy metals",
+        "Tolerance index",
+        "Bioabsorption",
+        "Translocation Factor",
+        "Food Chain Contamination"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5708038?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5708038"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijerph14111399"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-17"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-16"
+  ],
+  "firstPublicationDate": [
+    "2017-11-16"
+  ]
+}

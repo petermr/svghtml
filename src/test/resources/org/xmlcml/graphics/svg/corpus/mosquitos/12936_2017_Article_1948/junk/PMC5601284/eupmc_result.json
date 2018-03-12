@@ -1,0 +1,559 @@
+{
+  "id": [
+    "28741907"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28741907"
+  ],
+  "pmcid": [
+    "PMC5601284"
+  ],
+  "doi": [
+    "10.1111/obr.12571"
+  ],
+  "title": [
+    "Nutrition status of children in Latin America."
+  ],
+  "authorString": [
+    "Corvalán C, Garmendia ML, Jones-Smith J, Lutter CK, Miranda JJ, Pedraza LS, Popkin BM, Ramirez-Zea M, Salvo D, Stein AD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Corvalán C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3766-7709",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Garmendia ML"
+          ],
+          "firstName": [
+            "M L"
+          ],
+          "lastName": [
+            "Garmendia"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0589-6091",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jones-Smith J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Jones-Smith"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8962-1695",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Health Services, School of Public Health, University of Washington, Seattle, WA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lutter CK"
+          ],
+          "firstName": [
+            "C K"
+          ],
+          "lastName": [
+            "Lutter"
+          ],
+          "initials": [
+            "CK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1601-4645",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pan American Health Organization, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda JJ"
+          ],
+          "firstName": [
+            "J J"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4738-5468",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CRONICAS Center of Excellence in Chronic Diseases, Universidad Peruana Cayetano Heredia, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Pedraza LS"
+          ],
+          "firstName": [
+            "L S"
+          ],
+          "lastName": [
+            "Pedraza"
+          ],
+          "initials": [
+            "LS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9975-7035",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Nutrition and Health Research, National Institute of Public Health, Cuernavaca, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Popkin BM"
+          ],
+          "firstName": [
+            "B M"
+          ],
+          "lastName": [
+            "Popkin"
+          ],
+          "initials": [
+            "BM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9495-9324",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Carolina Population Center, The University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramirez-Zea M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Ramirez-Zea"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5107-9175",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "INCAP Research Center for the Prevention of Chronic Diseases (CIIPEC), Institute of Nutrition of Central America and Panama, Guatemala."
+          ]
+        },
+        {
+          "fullName": [
+            "Salvo D"
+          ],
+          "firstName": [
+            "D"
+          ],
+          "lastName": [
+            "Salvo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9726-0882",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Nutrition and Health Research, National Institute of Public Health, Cuernavaca, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Stein AD"
+          ],
+          "firstName": [
+            "A D"
+          ],
+          "lastName": [
+            "Stein"
+          ],
+          "initials": [
+            "AD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1138-6458",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Hubert Department of Global Health of the Rollins School of Public Health, Emory University, Atlanta, GA, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0589-6091",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8962-1695",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1601-4645",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9495-9324",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4738-5468",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3766-7709",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9726-0882",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9975-7035",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5107-9175",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1138-6458",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "18 Suppl 2"
+      ],
+      "journalIssueId": [
+        "2580339"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Obesity reviews : an official journal of the International Association for the Study of Obesity"
+          ],
+          "ISOAbbreviation": [
+            "Obes Rev"
+          ],
+          "medlineAbbreviation": [
+            "Obes Rev"
+          ],
+          "NLMid": [
+            "100897395"
+          ],
+          "ISSN": [
+            "1467-7881"
+          ],
+          "ESSN": [
+            "1467-789X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7-18"
+  ],
+  "abstractText": [
+    "The prevalence of overweight and obesity is rapidly increasing among Latin American children, posing challenges for current healthcare systems and increasing the risk for a wide range of diseases. To understand the factors contributing to childhood obesity in Latin America, this paper reviews the current nutrition status and physical activity situation, the disparities between and within countries and the potential challenges for ensuring adequate nutrition and physical activity. Across the region, children face a dual burden of undernutrition and excess weight. While efforts to address undernutrition have made marked improvements, childhood obesity is on the rise as a result of diets that favour energy-dense, nutrient-poor foods and the adoption of a sedentary lifestyle. Over the last decade, changes in socioeconomic conditions, urbanization, retail foods and public transportation have all contributed to childhood obesity in the region. Additional research and research capacity are needed to address this growing epidemic, particularly with respect to designing, implementing and evaluating the impact of evidence-based obesity prevention interventions."
+  ],
+  "affiliation": [
+    "Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P2C HD050924"
+          ],
+          "agency": [
+            "NICHD NIH HHS"
+          ],
+          "acronym": [
+            "HD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Children",
+        "Latin America",
+        "Childhood Obesity",
+        "Nutrition And Physical Activity Situation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5601284?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5601284"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1111/obr.12571"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-26"
+  ],
+  "dateOfRevision": [
+    "2018-03-03"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ]
+}

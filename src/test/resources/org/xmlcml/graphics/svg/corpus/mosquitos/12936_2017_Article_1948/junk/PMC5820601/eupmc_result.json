@@ -1,0 +1,375 @@
+{
+  "id": [
+    "29473046"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29473046"
+  ],
+  "pmcid": [
+    "PMC5820601"
+  ],
+  "doi": [
+    "10.1212/nxg.0000000000000210"
+  ],
+  "title": [
+    "Duplications at 19q13.33 in patients with neurodevelopmental disorders."
+  ],
+  "authorString": [
+    "Pérez-Palma E, Saarentaus E, Ravoet M, De Ferrari GV, Nürnberg P, Isidor B, Neubauer BA, Lal D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pérez-Palma E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Pérez-Palma"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Saarentaus E"
+          ],
+          "firstName": [
+            "Elmo"
+          ],
+          "lastName": [
+            "Saarentaus"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Ravoet M"
+          ],
+          "firstName": [
+            "Marie"
+          ],
+          "lastName": [
+            "Ravoet"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "De Ferrari GV"
+          ],
+          "firstName": [
+            "Giancarlo V"
+          ],
+          "lastName": [
+            "De Ferrari"
+          ],
+          "initials": [
+            "GV"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0932-125X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Nürnberg P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Nürnberg"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Isidor B"
+          ],
+          "firstName": [
+            "Bertrand"
+          ],
+          "lastName": [
+            "Isidor"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Neubauer BA"
+          ],
+          "firstName": [
+            "Bernd A"
+          ],
+          "lastName": [
+            "Neubauer"
+          ],
+          "initials": [
+            "BA"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Lal D"
+          ],
+          "firstName": [
+            "Dennis"
+          ],
+          "lastName": [
+            "Lal"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0932-125X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2644334"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Neurology. Genetics"
+          ],
+          "ISOAbbreviation": [
+            "Neurol Genet"
+          ],
+          "medlineAbbreviation": [
+            "Neurol Genet"
+          ],
+          "NLMid": [
+            "101671068"
+          ],
+          "ISSN": [
+            "2376-7839"
+          ],
+          "ESSN": [
+            "2376-7839"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "e210"
+  ],
+  "abstractText": [
+    "After the recent publication of the first patients with disease-associated missense variants in the GRIN2D gene, we evaluate the effect of copy number variants (CNVs) overlapping this gene toward the presentation of neurodevelopmental disorders (NDDs).We explored ClinVar (number of CNVs = 50,794) and DECIPHER (number of CNVs = 28,085) clinical databases of genomic variations for patients with copy number changes overlapping the GRIN2D gene at the 19q13.33 locus and evaluated their respective phenotype alongside their frequency, gene content, and expression, with publicly available reference databases.We identified 11 patients with microduplications at the 19q13.33 locus. The majority of CNVs arose de novo, and comparable CNVs are not present in control databases. All patients were reported to have NDDs and dysmorphic features as the most common clinical phenotype (N = 8/11), followed by seizures (N = 6/11) and intellectual disability (N = 5/11). All duplications shared a consensus region of 405 kb overlapping 13 genes. After screening for duplication tolerance in control populations, positive gene brain expression, and gene dosage sensitivity analysis, we highlight 4 genes for future evaluation: CARD8, C19orf68, KDELR1, and GRIN2D, which are promising candidates for disease causality. Furthermore, investigation of the literature especially supports GRIN2D as the best candidate gene.Our study presents dup19q13.33 as a novel duplication syndrome locus associated with NDDs. CARD8, C19orf68, KDELR1, and GRIN2D are promising candidates for functional follow-up."
+  ],
+  "affiliation": [
+    "Center for Biomedical Research (E.P.P., G.V.D.F.), Faculty of Biological Sciences and Faculty of Medicine, Universidad Andres Bello, Santiago, Chile; Stanley Center for Psychiatric Genetics (E.S., D.L.), Broad Institute of MIT and Harvard, Cambridge, MA; the Analytic and Translational Genetics Unit (E.S., D.L.), Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA; Molecular Immunology Unit (M.R.), Institut Jules Bordet, Université Libre de Bruxelles, Brussels, Belgium; Cologne Center for Genomics (P.N., D.L.), University of Cologne, Germany; Service de Génétique Médicale (B.I.), CHU Hôtel Dieu, France; and Department of Neuropediatrics (B.A.N.), University Medical Clinic Giessen, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5820601?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5820601"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1212/NXG.0000000000000210"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-27"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-26"
+  ],
+  "firstPublicationDate": [
+    "2018-01-26"
+  ]
+}

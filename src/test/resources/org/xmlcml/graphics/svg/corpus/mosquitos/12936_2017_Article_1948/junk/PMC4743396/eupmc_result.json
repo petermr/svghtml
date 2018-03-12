@@ -1,0 +1,956 @@
+{
+  "id": [
+    "26847446"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26847446"
+  ],
+  "pmcid": [
+    "PMC4743396"
+  ],
+  "doi": [
+    "10.1186/s12889-015-2454-2"
+  ],
+  "title": [
+    "Study protocol for the Maule Cohort (MAUCO) of chronic diseases, Chile 2014-2024."
+  ],
+  "authorString": [
+    "Ferreccio C, Roa JC, Bambs C, Vives A, Corvalán AH, Cortés S, Foerster C, Acevedo J, Huidobro A, Passi A, Toro P, Covacevich Y, de la Cruz R, Koshiol J, Olivares M, Miquel JF, Cruz F, Silva R, Quest AF, Kogan MJ, Castro PF, Lavandero S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ferreccio C"
+          ],
+          "firstName": [
+            "Catterina"
+          ],
+          "lastName": [
+            "Ferreccio"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile. cferrec@med.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Roa JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Roa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bambs C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Bambs"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vives A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Vives"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortés S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Cortés"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Foerster C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Foerster"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acevedo J"
+          ],
+          "firstName": [
+            "Johanna"
+          ],
+          "lastName": [
+            "Acevedo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Huidobro A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Huidobro"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad Medicina, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Passi A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Passi"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Toro P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Toro"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Covacevich Y"
+          ],
+          "firstName": [
+            "Yerko"
+          ],
+          "lastName": [
+            "Covacevich"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "de la Cruz R"
+          ],
+          "firstName": [
+            "Rolando"
+          ],
+          "lastName": [
+            "de la Cruz"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Koshiol J"
+          ],
+          "firstName": [
+            "Jill"
+          ],
+          "lastName": [
+            "Koshiol"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Division of Cancer Epidemiology and Genetics, Infections and Immunoepidemiology Branch, National Cancer Institute, Bethesda, MD, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Olivares M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Olivares"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Hospital Santa Rosa de Molina, Curicó, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Miquel JF"
+          ],
+          "firstName": [
+            "Juan Francisco"
+          ],
+          "lastName": [
+            "Miquel"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cruz F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Cruz"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad Medicina, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AF"
+          ],
+          "firstName": [
+            "Andrew F"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kogan MJ"
+          ],
+          "firstName": [
+            "Marcelo J"
+          ],
+          "lastName": [
+            "Kogan"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro PF"
+          ],
+          "firstName": [
+            "Pablo F"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "PF"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lavandero S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Lavandero"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Cardiology Division, Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2401380"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC public health"
+          ],
+          "ISOAbbreviation": [
+            "BMC Public Health"
+          ],
+          "medlineAbbreviation": [
+            "BMC Public Health"
+          ],
+          "NLMid": [
+            "100968562"
+          ],
+          "ISSN": [
+            "1471-2458"
+          ],
+          "ESSN": [
+            "1471-2458"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "122"
+  ],
+  "abstractText": [
+    "Maule Cohort (MAUCO), a Chilean cohort study, seeks to analyze the natural history of chronic diseases in the agricultural county of Molina (40,000 inhabitants) in the Maule Region, Chile. Molina´s population is of particular interest because in the last few decades it changed from being undernourished to suffering excess caloric intake, and it currently has the highest national rates of cardiovascular diseases, stomach cancer and gallbladder cancer. Between 2009 and 2011 Molina´s poverty rate dropped from 24.1 % to 13.5 % (national average 20.4 %); in this period the county went from insufficient to almost complete basic sanitation. Despite these advances, chemical pollutants in the food and air are increasing. Thus, in Molina risk factors typical of both under-developed and developed countries coexist, generating a unique profile associated with inflammation, oxidative stress and chronic diseases.MAUCO is the core project of the recently established Advanced Center for Chronic Diseases (ACCDiS), Universidad de Chile & Pontificia Universidad Católica de Chile. In this study, we are enrolling and following 10,000 adults aged 38 to 74 years over 10 years. All eligible Molina residents will be enrolled. Participants were identified through a household census. Consenting individuals answer an epidemiological survey exploring risk factors (psycho-social, pesticides, diet, alcohol, and physical activity), medical history and physical and cognitive conditions; provide fasting blood, urine, and saliva samples; receive an electrocardiogram, abdominal ultrasound and bio-impedance test; and take a hand-grip strength test. These subjects will be re-interviewed after 2, 5 and 7 years. Active surveillance of health events is in place throughout the regional healthcare system. The MAUCO Bio-Bank will store 30 to 50 aliquots per subject using an NIH/NCI biorepository system for secure and anonymous linkage of samples with data.MAUCO´s results will help design public health interventions tailored to agricultural populations in Latin America."
+  ],
+  "affiliation": [
+    "Advanced Center for Chronic Diseases (ACCDiS), Facultad Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile. cferrec@med.puc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gallbladder Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Stomach Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cardiovascular Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chronic Disease"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pesticides"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exercise"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diet"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcohol Drinking"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Public Health"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Energy Intake"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Research Design"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Poverty"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Socioeconomic Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Rural Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Pesticides"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4743396?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4743396"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12889-015-2454-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-12"
+  ],
+  "dateOfCreation": [
+    "2016-02-05"
+  ],
+  "dateOfRevision": [
+    "2016-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2016-02-04"
+  ],
+  "firstPublicationDate": [
+    "2016-02-04"
+  ]
+}

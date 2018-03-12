@@ -1,0 +1,268 @@
+{
+  "id": [
+    "28194316"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28194316"
+  ],
+  "pmcid": [
+    "PMC5299995"
+  ],
+  "doi": [
+    "10.7717/peerj.2971"
+  ],
+  "title": [
+    "Large-scale gene flow in the barnacle Jehlius cirratus and contrasts with other broadly-distributed taxa along the Chilean coast."
+  ],
+  "authorString": [
+    "Guo B, Wares JP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guo B"
+          ],
+          "firstName": [
+            "Baoying"
+          ],
+          "lastName": [
+            "Guo"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "College of Marine Science and Technology, Zhejiang Ocean University , Zhoushan , Zhejiang , China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wares JP"
+          ],
+          "firstName": [
+            "John P"
+          ],
+          "lastName": [
+            "Wares"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Department of Genetics and Odum School of Ecology, University of Georgia , Athens , GA , USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e2971"
+  ],
+  "abstractText": [
+    "We evaluate the population genetic structure of the intertidal barnacle Jehlius cirratus across a broad portion of its geographic distribution using data from the mitochondrial cytochrome oxidase I (COI) gene region. Despite sampling diversity from over 3,000 km of the linear range of this species, there is only slight regional structure indicated, with overall Φ CT of 0.036 (p < 0.001) yet no support for isolation by distance. While these results suggest greater structure than previous studies of J. cirratus had indicated, the pattern of diversity is still far more subtle than in other similarly-distributed species with similar larval and life history traits. We compare these data and results with recent findings in four other intertidal species that have planktotrophic larvae. There are no clear patterns among these taxa that can be associated with intertidal depth or other known life history traits."
+  ],
+  "affiliation": [
+    "College of Marine Science and Technology, Zhejiang Ocean University , Zhoushan , Zhejiang , China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Population genetics",
+        "Biogeography",
+        "Phylogeography",
+        "Chile",
+        "Barnacle"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5299995?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5299995"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.2971"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-02-14"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-07"
+  ],
+  "firstPublicationDate": [
+    "2017-02-07"
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "id": [
+    "28729865"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28729865"
+  ],
+  "pmcid": [
+    "PMC5498515"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.01255"
+  ],
+  "title": [
+    "A Novel and Validated Protocol for Performing MIC Tests to Determine the Susceptibility of Piscirickettsia salmonis Isolates to Florfenicol and Oxytetracycline."
+  ],
+  "authorString": [
+    "Contreras-Lynch S, Smith P, Olmos P, Loy ME, Finnegan W, Miranda CD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Contreras-Lynch S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Contreras-Lynch"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Salud Hidrobiológica, Instituto de Fomento PesqueroPuerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Smith P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Microbiology, School of Natural Sciences, National University of IrelandGalway, Ireland."
+          ]
+        },
+        {
+          "fullName": [
+            "Olmos P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Olmos"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Salud Hidrobiológica, Instituto de Fomento PesqueroPuerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Loy ME"
+          ],
+          "firstName": [
+            "María E"
+          ],
+          "lastName": [
+            "Loy"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "Departamento de Salud Hidrobiológica, Instituto de Fomento PesqueroPuerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Finnegan W"
+          ],
+          "firstName": [
+            "William"
+          ],
+          "lastName": [
+            "Finnegan"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9121-2567",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "College of Engineering and Informatics, National University of IrelandGalway, Ireland."
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda CD"
+          ],
+          "firstName": [
+            "Claudio D"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "CD"
+          ],
+          "affiliation": [
+            "Laboratorio de Patobiología Acuática, Departamento de Acuicultura, Universidad Católica del NorteCoquimbo, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9121-2567",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1255"
+  ],
+  "abstractText": [
+    "This paper presents a validated protocol, using a novel, specifically formulated medium, to perform broth microdilution antimicrobial susceptibility assays of the salmonid bacterial pathogen Piscirickettsia salmonis. The minimum inhibitory concentrations (MIC) for florfenicol and oxytetracycline against 58 P. salmonis isolates recovered from various outbreaks occurred in Chilean salmonid farms were determined using this protocol. Normalized resistance interpretation (NRI) analysis was applied to these data to calculate appropriate protocol-specific epidemiological cut-off values. These cut-off values allow the isolates to be categorized as either fully susceptible wild type (WT) members of this species, or as manifesting reduced susceptibility non-wild type (NWT). The distribution of MIC values of florfenicol was bimodal and the distribution of the normalized values for the putative WT observation had a standard deviation of 0.896 log2 μg mL-1. This analysis calculated a cut-off value of ≤0.25 μg mL-1 and categorized 33 (56%) of the isolates as manifesting reduced susceptibility to florfenicol. For the oxytetracycline MIC data the NRI analysis also treated the distribution as bimodal. The distribution of the normalized values for the putative WT observation had a standard deviation of 0.951 log2 μg mL-1. This analysis gave a cut-off value of ≤0.5 μg mL-1 and categorized five isolates (9%) as manifesting reduced susceptibility to oxytetracycline. The susceptibility testing protocol developed in this study was capable of generating MIC data from all the isolates tested. On the basis of the precision of the data it generated, and the degree of separation of values for WT and NWT it achieved, it is argued that this protocol has the performance characteristics necessary for it to be considered as a standard protocol."
+  ],
+  "affiliation": [
+    "Departamento de Salud Hidrobiológica, Instituto de Fomento PesqueroPuerto Montt, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Antimicrobial Susceptibility",
+        "Piscirickettsia Salmonis",
+        "Fish Pathogen",
+        "Epidemiological Cut-off Value",
+        "Mic Protocol",
+        "Salmon Farming"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498515?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498515"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.01255"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-21"
+  ],
+  "dateOfRevision": [
+    "2017-07-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-06"
+  ],
+  "firstPublicationDate": [
+    "2017-07-06"
+  ]
+}

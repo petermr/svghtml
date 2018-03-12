@@ -1,0 +1,756 @@
+{
+  "id": [
+    "28749337"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28749337"
+  ],
+  "pmcid": [
+    "PMC5545764"
+  ],
+  "doi": [
+    "10.2807/1560-7917.es.2017.22.28.30572"
+  ],
+  "title": [
+    "International risk of yellow fever spread from the ongoing outbreak in Brazil, December 2016 to May 2017."
+  ],
+  "authorString": [
+    "Dorigatti I, Hamlet A, Aguas R, Cattarino L, Cori A, Donnelly CA, Garske T, Imai N, Ferguson NM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dorigatti I"
+          ],
+          "firstName": [
+            "Ilaria"
+          ],
+          "lastName": [
+            "Dorigatti"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9959-0706",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Hamlet A"
+          ],
+          "firstName": [
+            "Arran"
+          ],
+          "lastName": [
+            "Hamlet"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguas R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Aguas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centre for Tropical Medicine and Global Health, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Cattarino L"
+          ],
+          "firstName": [
+            "Lorenzo"
+          ],
+          "lastName": [
+            "Cattarino"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3975-550X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Cori A"
+          ],
+          "firstName": [
+            "Anne"
+          ],
+          "lastName": [
+            "Cori"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Donnelly CA"
+          ],
+          "firstName": [
+            "Christl A"
+          ],
+          "lastName": [
+            "Donnelly"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Garske T"
+          ],
+          "firstName": [
+            "Tini"
+          ],
+          "lastName": [
+            "Garske"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Imai N"
+          ],
+          "firstName": [
+            "Natsuko"
+          ],
+          "lastName": [
+            "Imai"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4218-9716",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferguson NM"
+          ],
+          "firstName": [
+            "Neil M"
+          ],
+          "lastName": [
+            "Ferguson"
+          ],
+          "initials": [
+            "NM"
+          ],
+          "affiliation": [
+            "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4218-9716",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3975-550X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9959-0706",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "28"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "2580748"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin"
+          ],
+          "ISOAbbreviation": [
+            "Euro Surveill."
+          ],
+          "medlineAbbreviation": [
+            "Euro Surveill"
+          ],
+          "NLMid": [
+            "100887452"
+          ],
+          "ISSN": [
+            "1025-496X"
+          ],
+          "ESSN": [
+            "1560-7917"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "States in south-eastern Brazil were recently affected by the largest Yellow Fever (YF) outbreak seen in a decade in Latin America. Here we provide a quantitative assessment of the risk of travel-related international spread of YF indicating that the United States, Argentina, Uruguay, Spain, Italy and Germany may have received at least one travel-related YF case capable of seeding local transmission. Mitigating the risk of imported YF cases seeding local transmission requires heightened surveillance globally."
+  ],
+  "affiliation": [
+    "MRC Centre for Outbreak analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "MR/K010174/1B"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Yellow fever virus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PY"
+                  ],
+                  "qualifierName": [
+                    "pathogenicity"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Yellow Fever"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Yellow Fever Vaccine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "TU"
+                  ],
+                  "qualifierName": [
+                    "therapeutic use"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Risk"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Outbreaks"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insect Vectors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Theoretical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Travel"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "United States"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Argentina"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brazil"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Uruguay"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Germany"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Italy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spain"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Global Health"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Brazil",
+        "outbreak",
+        "Yellow Fever",
+        "Travel-related International Spread"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Yellow Fever Vaccine"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5545764?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5545764"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2807/1560-7917.ES.2017.22.28.30572"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-03-06"
+  ],
+  "dateOfCreation": [
+    "2017-07-28"
+  ],
+  "dateOfRevision": [
+    "2018-03-06"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ]
+}

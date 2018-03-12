@@ -1,0 +1,273 @@
+{
+  "id": [
+    "29084997"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29084997"
+  ],
+  "pmcid": [
+    "PMC5662728"
+  ],
+  "doi": [
+    "10.1038/s41598-017-14465-y"
+  ],
+  "title": [
+    "Polyphyletic ancestry of expanding Patagonian Chinook salmon populations."
+  ],
+  "authorString": [
+    "Correa C, Moran P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Correa C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Correa"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8608-6858",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias, Instituto de Ciencias Marinas y Limnológicas, Universidad Austral de Chile, Casilla 567, Valdivia, Chile. cristiancorrea@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Moran P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Moran"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Conservation Biology Division, Northwest Fisheries Science Center, Seattle, Washington, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8608-6858",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2603102"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "14338"
+  ],
+  "abstractText": [
+    "Chinook salmon native to North America are spreading through South America's Patagonia and have become the most widespread anadromous salmon invasion ever documented. To better understand the colonization history and role that genetic diversity might have played in the founding and radiation of these new populations, we characterized ancestry and genetic diversity across latitude (39-48°S). Samples from four distant basins in Chile were genotyped for 13 microsatellite loci, and allocated, through probabilistic mixture models, to 148 potential donor populations in North America representing 46 distinct genetic lineages. Patagonian Chinook salmon clearly had a diverse and heterogeneous ancestry. Lineages from the Lower Columbia River were introduced for salmon open-ocean ranching in the late 1970s and 1980s, and were prevalent south of 43°S. In the north, however, a diverse assembly of lineages was found, associated with net-pen aquaculture during the 1990s. Finally, we showed that possible lineage admixture in the introduced range can confound allocations inferred from mixture models, a caveat previously overlooked in studies of this kind. While we documented high genetic and lineage diversity in expanding Patagonian populations, the degree to which diversity drives adaptive potential remains unclear. Our new understanding of diversity across latitude will guide future research."
+  ],
+  "affiliation": [
+    "Facultad de Ciencias, Instituto de Ciencias Marinas y Limnológicas, Universidad Austral de Chile, Casilla 567, Valdivia, Chile. cristiancorrea@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5662728?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5662728"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-14465-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-01"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-30"
+  ],
+  "firstPublicationDate": [
+    "2017-10-30"
+  ]
+}

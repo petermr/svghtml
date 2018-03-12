@@ -1,0 +1,394 @@
+{
+  "id": [
+    "29300312"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29300312"
+  ],
+  "pmcid": [
+    "PMC5791110"
+  ],
+  "doi": [
+    "10.3390/nano8010023"
+  ],
+  "title": [
+    "In-Silico Design, Synthesis and Evaluation of a Nanostructured Hydrogel as a Dimethoate Removal Agent."
+  ],
+  "authorString": [
+    "Avila-Salas F, Marican A, Villaseñor J, Arenas-Salinas M, Argandoña Y, Caballero J, Durán-Lara EF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Avila-Salas F"
+          ],
+          "firstName": [
+            "Fabian"
+          ],
+          "lastName": [
+            "Avila-Salas"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centro de Nanotecnología Aplicada, Facultad de Ciencias, Universidad Mayor, Huechuraba 8580000, Chile. fabian.avila@umayor.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Marican A"
+          ],
+          "firstName": [
+            "Adolfo"
+          ],
+          "lastName": [
+            "Marican"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Química de Recursos Naturales, Universidad de Talca, Talca 3460000, Chile. amarican@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Villaseñor J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Villaseñor"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Instituto de Química de Recursos Naturales, Universidad de Talca, Talca 3460000, Chile. jvillase@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Arenas-Salinas M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Arenas-Salinas"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5143-1845",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular, Facultad de Ingeniería, Universidad de Talca, Talca 3460000, Chile. marenas@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Argandoña Y"
+          ],
+          "firstName": [
+            "Yerko"
+          ],
+          "lastName": [
+            "Argandoña"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular, Facultad de Ingeniería, Universidad de Talca, Talca 3460000, Chile. yargandona@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Caballero J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Caballero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0182-1444",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular, Facultad de Ingeniería, Universidad de Talca, Talca 3460000, Chile. jcaballero@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Durán-Lara EF"
+          ],
+          "firstName": [
+            "Esteban F"
+          ],
+          "lastName": [
+            "Durán-Lara"
+          ],
+          "initials": [
+            "EF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8796-6830",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Química de Recursos Naturales, Universidad de Talca, Talca 3460000, Chile. eduran@utalca.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5143-1845",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8796-6830",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0182-1444",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2634985"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nanomaterials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Nanomaterials (Basel)"
+          ],
+          "NLMid": [
+            "101610216"
+          ],
+          "ISSN": [
+            "2079-4991"
+          ],
+          "ESSN": [
+            "2079-4991"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "abstractText": [
+    "This study describes the in-silico design, synthesis, and evaluation of a cross-linked PVA hydrogel (CLPH) for the absorption of organophosphorus pesticide dimethoate from aqueous solutions. The crosslinking effectiveness of 14 dicarboxilic acids was evaluated through in-silico studies using semiempirical quantum mechanical calculations. According to the theoretical studies, the nanopore of PVA cross-linked with malic acid (CLPH-MA) showed the best interaction energy with dimethoate. Later, using all-atom molecular dynamics simulations, three hydrogels with different proportions of PVA:MA (10:2, 10:4, and 10:6) were used to evaluate their interactions with dimethoate. These results showed that the suitable crosslinking degree for improving the affinity for the pesticide was with 20% (W%) of the cross-linker. In the experimental absorption study, the synthesized CLPH-MA20 recovered 100% of dimethoate from aqueous solutions. Therefore, the theoretical data were correlated with the experimental studies. Surface morphology of CLPH-MA20 by Scanning Electron Microscopy (SEM) was analyzed. In conclusion, the ability of CLPH-MA20 to remove dimethoate could be used as a technological alternative for the treatment of contaminated water."
+  ],
+  "affiliation": [
+    "Centro de Nanotecnología Aplicada, Facultad de Ciencias, Universidad Mayor, Huechuraba 8580000, Chile. fabian.avila@umayor.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Absorption",
+        "Dimethoate",
+        "pesticide",
+        "Biodegradable",
+        "Cross-linked Pva Hydrogel"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791110?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791110"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/nano8010023"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-05"
+  ],
+  "dateOfRevision": [
+    "2018-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-04"
+  ],
+  "firstPublicationDate": [
+    "2018-01-04"
+  ]
+}

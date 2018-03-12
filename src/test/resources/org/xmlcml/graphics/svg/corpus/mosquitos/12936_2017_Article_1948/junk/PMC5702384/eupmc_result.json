@@ -1,0 +1,282 @@
+{
+  "id": [
+    "29209251"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29209251"
+  ],
+  "pmcid": [
+    "PMC5702384"
+  ],
+  "doi": [
+    "10.3389/fpsyg.2017.02016"
+  ],
+  "title": [
+    "Social Cognition and Executive Functions As Key Factors for Effective Pedagogy in Higher Education."
+  ],
+  "authorString": [
+    "Correia R, Navarrete G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Correia R"
+          ],
+          "firstName": [
+            "Rut"
+          ],
+          "lastName": [
+            "Correia"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad de Educación, Universidad Diego Portales, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarrete G"
+          ],
+          "firstName": [
+            "Gorka"
+          ],
+          "lastName": [
+            "Navarrete"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7678-8656",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Social and Cognitive Neuroscience, School of Psychology, Universidad Adolfo Ibáñez, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7678-8656",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550596"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in psychology"
+          ],
+          "ISOAbbreviation": [
+            "Front Psychol"
+          ],
+          "medlineAbbreviation": [
+            "Front Psychol"
+          ],
+          "NLMid": [
+            "101550902"
+          ],
+          "ISSN": [
+            "1664-1078"
+          ],
+          "ESSN": [
+            "1664-1078"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2016"
+  ],
+  "abstractText": [
+    "Higher education (HE) faces the challenge of responding to an increasing diversity. In this context, more attention is being paid to teachers and teaching skills positively related to students learning. Beyond the knowledges identified as key components of an effective teacher, teachers also need to be capable of unraveling what their students think and believe, and how they accommodate the new information. More importantly, teachers need to be able to adapt their own teaching to their audience's needs. In learners, social cognition (SC) has been related to a better receptivity to the different teacher-student interactions. Since these interactions are bidirectional, SC could also help to explain teachers' receptiveness to the information available in feedback situations. However, little is known about how SC is related to teacher development, and therefore teaching effectiveness, in HE. In addition, executive functions (EFs), closely related to SC, could play a key role in the ability to self-regulate their own teaching to better answering their students emerging needs. Although there is wide evidence regarding the association of EFs to performance in high demanding settings, as far as we know, there are no studies exploring the relationship between teachers' EFs and teaching effectiveness in HE. Establishing a positive association between teaching effectiveness and these socio-cognitive functions could be a promising first step in designing professional development programs that promote HE academics' ability to understand and care about students thoughts and emotions, to eventually adapt their teaching to their students needs for a better learning."
+  ],
+  "affiliation": [
+    "Facultad de Educación, Universidad Diego Portales, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Higher Education",
+        "Social Cognition",
+        "Theory Of Mind",
+        "Empathy",
+        "Executive Function",
+        "Teaching Effectiveness"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5702384?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5702384"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpsyg.2017.02016"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-07"
+  ],
+  "dateOfRevision": [
+    "2017-12-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-21"
+  ],
+  "firstPublicationDate": [
+    "2017-11-21"
+  ]
+}

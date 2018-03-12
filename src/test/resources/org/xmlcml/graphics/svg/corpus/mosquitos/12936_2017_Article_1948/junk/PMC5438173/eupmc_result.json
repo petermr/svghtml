@@ -1,0 +1,847 @@
+{
+  "id": [
+    "28542352"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28542352"
+  ],
+  "pmcid": [
+    "PMC5438173"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0178011"
+  ],
+  "title": [
+    "Preconditioning of adipose tissue-derived mesenchymal stem cells with deferoxamine increases the production of pro-angiogenic, neuroprotective and anti-inflammatory factors: Potential application in the treatment of diabetic neuropathy."
+  ],
+  "authorString": [
+    "Oses C, Olivares B, Ezquer M, Acosta C, Bosch P, Donoso M, Léniz P, Ezquer F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Oses C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Oses"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Medicina Regenerativa, Facultad de Medicina Clínica Alemana-Universidad del Desarrollo. Av. Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olivares B"
+          ],
+          "firstName": [
+            "Belén"
+          ],
+          "lastName": [
+            "Olivares"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Centro de Química Médica, Facultad de Medicina Clínica Alemana-Universidad del Desarrollo. Av. Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ezquer M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Ezquer"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Medicina Regenerativa, Facultad de Medicina Clínica Alemana-Universidad del Desarrollo. Av. Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Acosta"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto de Histología y Embriología de Mendoza (IHEM-CONICET), Facultad de Medicina, Universidad Nacional de Cuyo, Mendoza, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Bosch P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Bosch"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería, Universidad del Desarrollo. Av. Plaza, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Donoso M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Donoso"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería, Universidad del Desarrollo. Av. Plaza, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Léniz P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Léniz"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Unidad de Cirugía Plástica, Reparadora y Estética, Clínica Alemana. Av. Vitacura, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ezquer F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Ezquer"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7696-4215",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Medicina Regenerativa, Facultad de Medicina Clínica Alemana-Universidad del Desarrollo. Av. Las Condes, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7696-4215",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2551942"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0178011"
+  ],
+  "abstractText": [
+    "Diabetic neuropathy (DN) is one of the most frequent and troublesome complications of diabetes mellitus. Evidence from diabetic animal models and diabetic patients suggests that reduced availability of neuroprotective and pro-angiogenic factors in the nerves in combination with a chronic pro-inflammatory microenvironment and high level of oxidative stress, contribute to the pathogenesis of DN. Mesenchymal stem cells (MSCs) are of great interest as therapeutic agents for regenerative purposes, since they can secrete a broad range of cytoprotective and anti-inflammatory factors. Therefore, the use of the MSC secretome may represent a promising approach for DN treatment. Recent data indicate that the paracrine potential of MSCs could be boosted by preconditioning these cells with an environmental or pharmacological stimulus, enhancing their therapeutic efficacy. In the present study, we observed that the preconditioning of human adipose tissue-derived MSCs (AD-MSCs) with 150μM or 400μM of the iron chelator deferoxamine (DFX) for 48 hours, increased the abundance of the hypoxia inducible factor 1 alpha (HIF-1α) in a concentration dependent manner, without affecting MSC morphology and survival. Activation of HIF-1α led to the up-regulation of the mRNA levels of pro-angiogenic factors like vascular endothelial growth factor alpha and angiopoietin 1. Furthermore this preconditioning increased the expression of potent neuroprotective factors, including nerve growth factor, glial cell-derived neurotrophic factor and neurotrophin-3, and cytokines with anti-inflammatory activity like IL4 and IL5. Additionally, we observed that these molecules, which could also be used as therapeutics, were also increased in the secretome of MSCs preconditioned with DFX compared to the secretome obtained from non-preconditioned cells. Moreover, DFX preconditioning significantly increased the total antioxidant capacity of the MSC secretome and they showed neuroprotective effects when evaluated in an in vitro model of DN. Altogether, our findings suggest that DFX preconditioning of AD-MSCs improves their therapeutic potential and should be considered as a potential strategy for the generation of new alternatives for DN treatment."
+  ],
+  "affiliation": [
+    "Centro de Medicina Regenerativa, Facultad de Medicina Clínica Alemana-Universidad del Desarrollo. Av. Las Condes, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adipose Tissue"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cells, Cultured"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetic Neuropathies"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Inflammation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Deferoxamine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neuroprotective Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anti-Inflammatory Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Siderophores"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Apoptosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Proliferation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neovascularization, Physiologic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mesenchymal Stromal Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CY"
+                  ],
+                  "qualifierName": [
+                    "cytology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Anti-Inflammatory Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Siderophores"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Neuroprotective Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Deferoxamine"
+          ],
+          "registryNumber": [
+            "J06Y7MXW4D"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5438173?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5438173"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0178011"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-04"
+  ],
+  "dateOfCreation": [
+    "2017-05-25"
+  ],
+  "dateOfRevision": [
+    "2017-10-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-19"
+  ],
+  "firstPublicationDate": [
+    "2017-05-19"
+  ]
+}

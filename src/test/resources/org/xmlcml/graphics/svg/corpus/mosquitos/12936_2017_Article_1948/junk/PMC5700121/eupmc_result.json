@@ -1,0 +1,478 @@
+{
+  "id": [
+    "29167582"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29167582"
+  ],
+  "pmcid": [
+    "PMC5700121"
+  ],
+  "doi": [
+    "10.1038/s41598-017-16405-2"
+  ],
+  "title": [
+    "Pyridoxine dipharmacophore derivatives as potent glucokinase activators for the treatment of type 2 diabetes mellitus."
+  ],
+  "authorString": [
+    "Dzyurkevich MS, Babkov DA, Shtyrlin NV, Mayka OY, Iksanova AG, Vassiliev PM, Balakin KV, Spasov AA, Tarasov VV, Barreto G, Shtyrlin YG, Aliev G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dzyurkevich MS"
+          ],
+          "firstName": [
+            "Mikhail S"
+          ],
+          "lastName": [
+            "Dzyurkevich"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "affiliation": [
+            "Kazan (Volga region) Federal University, Kremlyovskaya 18, Kazan, 420008, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Babkov DA"
+          ],
+          "firstName": [
+            "Denis A"
+          ],
+          "lastName": [
+            "Babkov"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9645-3324",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Volgograd State Medical University, Pavshikh Bortsov Sq. 1, Volgograd, 400131, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Shtyrlin NV"
+          ],
+          "firstName": [
+            "Nikita V"
+          ],
+          "lastName": [
+            "Shtyrlin"
+          ],
+          "initials": [
+            "NV"
+          ],
+          "affiliation": [
+            "Kazan (Volga region) Federal University, Kremlyovskaya 18, Kazan, 420008, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Mayka OY"
+          ],
+          "firstName": [
+            "Olga Yu"
+          ],
+          "lastName": [
+            "Mayka"
+          ],
+          "initials": [
+            "OY"
+          ],
+          "affiliation": [
+            "Volgograd State Medical University, Pavshikh Bortsov Sq. 1, Volgograd, 400131, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Iksanova AG"
+          ],
+          "firstName": [
+            "Alfiya G"
+          ],
+          "lastName": [
+            "Iksanova"
+          ],
+          "initials": [
+            "AG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0474-6638",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Kazan (Volga region) Federal University, Kremlyovskaya 18, Kazan, 420008, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Vassiliev PM"
+          ],
+          "firstName": [
+            "Pavel M"
+          ],
+          "lastName": [
+            "Vassiliev"
+          ],
+          "initials": [
+            "PM"
+          ],
+          "affiliation": [
+            "Volgograd State Medical University, Pavshikh Bortsov Sq. 1, Volgograd, 400131, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Balakin KV"
+          ],
+          "firstName": [
+            "Konstantin V"
+          ],
+          "lastName": [
+            "Balakin"
+          ],
+          "initials": [
+            "KV"
+          ],
+          "affiliation": [
+            "I.M. Sechenov First Moscow State Medical University, Trubetskaya St. 8, bld 2, Moscow, 119991, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Spasov AA"
+          ],
+          "firstName": [
+            "Alexander A"
+          ],
+          "lastName": [
+            "Spasov"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "affiliation": [
+            "Volgograd State Medical University, Pavshikh Bortsov Sq. 1, Volgograd, 400131, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Tarasov VV"
+          ],
+          "firstName": [
+            "Vadim V"
+          ],
+          "lastName": [
+            "Tarasov"
+          ],
+          "initials": [
+            "VV"
+          ],
+          "affiliation": [
+            "Institute of Pharmacy and Translational Medicine, Sechenov First Moscow State Medical University, 119991, Moscow, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Barreto G"
+          ],
+          "firstName": [
+            "George"
+          ],
+          "lastName": [
+            "Barreto"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6644-1971",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Shtyrlin YG"
+          ],
+          "firstName": [
+            "Yurii G"
+          ],
+          "lastName": [
+            "Shtyrlin"
+          ],
+          "initials": [
+            "YG"
+          ],
+          "affiliation": [
+            "Kazan (Volga region) Federal University, Kremlyovskaya 18, Kazan, 420008, Russia."
+          ]
+        },
+        {
+          "fullName": [
+            "Aliev G"
+          ],
+          "firstName": [
+            "Gjumrakch"
+          ],
+          "lastName": [
+            "Aliev"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Institute of Physiologically Active Compounds Russian Academy of Sciences, Chernogolovka, 142432, Russia. aliev03@gmail.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9645-3324",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0474-6638",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6644-1971",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2613327"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "16072"
+  ],
+  "abstractText": [
+    "Glucokinase is one of the promising targets for glucose-lowering agents, and the development of GK activators are now considered as one of the most promising strategies for the treatment of type 2 diabetes mellitus. In this work, a series of novel symmetric molecular constructs, in which two pyridoxine moieties are connected via sulfur-containing linkers, have been synthesized and tested in vitro for glucokinase activation potential. The enzyme activation rates by two most active compounds at 100 μM (~150% and 130%) were comparable to that of the reference agent PF-04937319 (~154%). Both leading compounds demonstrated low cytotoxicity and excellent safety profile in acute toxicity experiment in rats after oral administration with LD50 exceeding 2000 mg/kg of body weight. Binding mode of the active compounds in comparison with the reference agent was studied using molecular docking. The leading compounds represent viable preclinical candidates for the treatment of type 2 diabetes mellitus, as well as a promising starting point for the design of structural analogs with improved activity."
+  ],
+  "affiliation": [
+    "Kazan (Volga region) Federal University, Kremlyovskaya 18, Kazan, 420008, Russia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5700121?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5700121"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-16405-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-24"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-22"
+  ],
+  "firstPublicationDate": [
+    "2017-11-22"
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "id": [
+    "28915247"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28915247"
+  ],
+  "pmcid": [
+    "PMC5624646"
+  ],
+  "doi": [
+    "10.1371/journal.pntd.0005911"
+  ],
+  "title": [
+    "Trends and correlates of cystic echinococcosis in Chile: 2001-2012."
+  ],
+  "authorString": [
+    "Colombe S, Togami E, Gelaw F, Antillon M, Fuentes R, Weinberger DM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Colombe S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "Colombe"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0300-902X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Togami E"
+          ],
+          "firstName": [
+            "Eri"
+          ],
+          "lastName": [
+            "Togami"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1599-5608",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Gelaw F"
+          ],
+          "firstName": [
+            "Fkadu"
+          ],
+          "lastName": [
+            "Gelaw"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Antillon M"
+          ],
+          "firstName": [
+            "Marina"
+          ],
+          "lastName": [
+            "Antillon"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0235-6030",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5154-3185",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Clínica Alemana Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Weinberger DM"
+          ],
+          "firstName": [
+            "Daniel Martin"
+          ],
+          "lastName": [
+            "Weinberger"
+          ],
+          "initials": [
+            "DM"
+          ],
+          "affiliation": [
+            "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0235-6030",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5154-3185",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0300-902X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1599-5608",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2591648"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS neglected tropical diseases"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "medlineAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "NLMid": [
+            "101291488"
+          ],
+          "ISSN": [
+            "1935-2727"
+          ],
+          "ESSN": [
+            "1935-2735"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0005911"
+  ],
+  "abstractText": [
+    "Echinococcosis is a neglected zoonotic disease affecting over 1 million people worldwide at any given time. It is the leading cause of hospital admissions for parasitic diseases in Chile. We conducted a retrospective investigation of hospitalized cases to describe the epidemiological trends of echinococcosis in Chile. We also examined the potential environmental risk factors for echinococcosis hospitalization rates. Through nation-wide hospital discharge data, a total of 11,516 hospitalized patients with cystic echinococcosis were identified between January 2001 and December 2012. The mean age of hospitalization was 40 years, with notable gender difference in pediatric patients. The hospitalization rate was found to be overall steadily decreasing from 2001 (7.02 per 100,000) to 2012 (4.53 per 100,000) with a 5% decrease per year (rate ratio = 0.95 [95% CI: 0.94, 0.96]). The hospitalization rate was higher in the south of Chile compared to the north. Goat density and intermediate precipitation were found to be significantly positively associated with the hospitalization rate while annual average temperature was found to be significantly negatively associated with the hospitalization rate. Findings of this study indicate that echinococcosis is still an important public health burden in Chile related to interaction with livestock and climate. Efforts should be placed on targeted prevention measures for farmers and raising awareness of echinococcosis among health care workers."
+  ],
+  "affiliation": [
+    "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Echinococcosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TH"
+                  ],
+                  "qualifierName": [
+                    "therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Retrospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Climate Change"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Livestock"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624646?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624646"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pntd.0005911"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-06"
+  ],
+  "dateOfCreation": [
+    "2017-09-15"
+  ],
+  "dateOfRevision": [
+    "2017-10-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-15"
+  ],
+  "firstPublicationDate": [
+    "2017-09-15"
+  ]
+}

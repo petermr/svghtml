@@ -15,7 +15,7 @@ import org.xmlcml.graphics.html.HtmlHtml;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
 import org.xmlcml.graphics.svg.SVGText;
-import org.xmlcml.graphics.util.CMineGlobberNew;
+import org.xmlcml.graphics.util.FilePathGlobber;
 
 /** manages a complete corpus of several documents.
  * not suitable for large numbers
@@ -79,7 +79,7 @@ public class CorpusCache extends ComponentCache {
 	}
 
 	private List<File> getChildCTrees(File cProjectDir) throws IOException {
-		CMineGlobberNew globber = new CMineGlobberNew();
+		FilePathGlobber globber = new FilePathGlobber();
 		globber.setRegex(CorpusCache.DIR_REGEX)
 		    .setUseDirectories(true)
 		    .setLocation(cProjectDir.toString());
@@ -87,10 +87,11 @@ public class CorpusCache extends ComponentCache {
 		return cTreeFiles;
 	}
 
-	private void getOrCreateDocumentCacheList() {
+	public List<DocumentCache> getOrCreateDocumentCacheList() {
 		if (documentCacheList == null) {
 			documentCacheList = new ArrayList<DocumentCache>();
 		}
+		return documentCacheList;
 	}
 
 	private void setCProject(File cProjectDir) {

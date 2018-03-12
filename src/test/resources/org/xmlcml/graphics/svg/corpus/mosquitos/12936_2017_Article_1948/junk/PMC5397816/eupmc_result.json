@@ -1,0 +1,345 @@
+{
+  "id": [
+    "28424083"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28424083"
+  ],
+  "pmcid": [
+    "PMC5397816"
+  ],
+  "doi": [
+    "10.1186/s13567-017-0432-7"
+  ],
+  "title": [
+    "Erratum to: The impact of co-infections on fish: a review."
+  ],
+  "authorString": [
+    "Kotob MH, Menanteau-Ledouble S, Kumar G, Abdelzaher M, El-Matbouli M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kotob MH"
+          ],
+          "firstName": [
+            "Mohamed H"
+          ],
+          "lastName": [
+            "Kotob"
+          ],
+          "initials": [
+            "MH"
+          ],
+          "affiliation": [
+            "Clinical Division of Fish Medicine, Department for Farm Animals and Veterinary Public Health, University of Veterinary Medicine, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Menanteau-Ledouble S"
+          ],
+          "firstName": [
+            "Simon"
+          ],
+          "lastName": [
+            "Menanteau-Ledouble"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Clinical Division of Fish Medicine, Department for Farm Animals and Veterinary Public Health, University of Veterinary Medicine, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar G"
+          ],
+          "firstName": [
+            "Gokhlesh"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Clinical Division of Fish Medicine, Department for Farm Animals and Veterinary Public Health, University of Veterinary Medicine, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Abdelzaher M"
+          ],
+          "firstName": [
+            "Mahmoud"
+          ],
+          "lastName": [
+            "Abdelzaher"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Pathology, Faculty of Veterinary Medicine, Assiut University, Asyut, Egypt."
+          ]
+        },
+        {
+          "fullName": [
+            "El-Matbouli M"
+          ],
+          "firstName": [
+            "Mansour"
+          ],
+          "lastName": [
+            "El-Matbouli"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8148-0218",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Clinical Division of Fish Medicine, Department for Farm Animals and Veterinary Public Health, University of Veterinary Medicine, Vienna, Austria. Mansour.El-Matbouli@vetmeduni.ac.at."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8148-0218",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "48"
+      ],
+      "journalIssueId": [
+        "2544089"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Veterinary research"
+          ],
+          "ISOAbbreviation": [
+            "Vet. Res."
+          ],
+          "medlineAbbreviation": [
+            "Vet Res"
+          ],
+          "NLMid": [
+            "9309551"
+          ],
+          "ISSN": [
+            "0928-4249"
+          ],
+          "ESSN": [
+            "1297-9716"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "26"
+  ],
+  "affiliation": [
+    "Clinical Division of Fish Medicine, Department for Farm Animals and Veterinary Public Health, University of Veterinary Medicine, Vienna, Austria."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5397816?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5397816"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13567-017-0432-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "27716438"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Vet Res. 2016 Oct 4;47(1):98"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-21"
+  ],
+  "dateOfRevision": [
+    "2018-03-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-19"
+  ],
+  "firstPublicationDate": [
+    "2017-04-19"
+  ]
+}

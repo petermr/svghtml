@@ -34,6 +34,9 @@ import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.fonts.StyleRecord;
 import org.xmlcml.graphics.svg.fonts.StyleRecordFactory;
 import org.xmlcml.graphics.svg.fonts.StyleRecordSet;
+import org.xmlcml.graphics.svg.layout.SVGPubstyle;
+import org.xmlcml.graphics.svg.layout.SVGPubstyle.PageType;
+import org.xmlcml.graphics.svg.layout.PubstyleManager;
 import org.xmlcml.graphics.svg.util.SuperPixelArray;
 
 import com.google.common.collect.ArrayListMultimap;
@@ -518,6 +521,9 @@ public class PageCacheTest {
 		}
 	}
 	
+	/** not sure the title is correct!
+	 * 
+	 */
 	@Test
 	public void testAdjustTextBoxSizesAutomatically() {
 		File svgFile = new File(SVGHTMLFixtures.LAYOUT_DIR, "asgt/middle7.text.svg");
@@ -599,6 +605,18 @@ public class PageCacheTest {
 		}
 	}
 		
+	@Test
+	public void testBMCTextWithPubstyle() {
+		PubstyleManager pubstyleManager = new PubstyleManager();
+		SVGPubstyle bmcStyle = pubstyleManager.getSVGPubstyleFromPubstyleString("bmc");
+//		Pubstyle pubstyle = pubstyleManager.guessPubstyleFromFirstPage(new File(SVGHTMLFixtures.CORPUS_DIR, 
+//				"mosquitos/12936_2017_Article_1948/svg/fulltext-page2.svg.compact.svg"));
+		Assert.assertEquals("bmc", bmcStyle.getPubstyle());
+		SVGElement page1 = bmcStyle.getPage(PageType.P1);
+		Assert.assertNotNull(page1);
+		LOG.debug(page1.toXML());
+
+	}
 	
 	
 	// ============================

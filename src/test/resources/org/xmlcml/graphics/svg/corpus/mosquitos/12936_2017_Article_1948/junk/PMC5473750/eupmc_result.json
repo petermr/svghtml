@@ -1,0 +1,464 @@
+{
+  "id": [
+    "28592651"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28592651"
+  ],
+  "pmcid": [
+    "PMC5473750"
+  ],
+  "doi": [
+    "10.1534/g3.117.042127"
+  ],
+  "title": [
+    "Identification of Nitrogen Consumption Genetic Variants in Yeast Through QTL Mapping and Bulk Segregant RNA-Seq Analyses."
+  ],
+  "authorString": [
+    "Cubillos FA, Brice C, Molinet J, Tisné S, Abarca V, Tapia SM, Oporto C, García V, Liti G, Martínez C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cubillos FA"
+          ],
+          "firstName": [
+            "Francisco A"
+          ],
+          "lastName": [
+            "Cubillos"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3022-469X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), 9170201 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brice C"
+          ],
+          "firstName": [
+            "Claire"
+          ],
+          "lastName": [
+            "Brice"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), 9170201 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molinet J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Molinet"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), 9170201 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tisné S"
+          ],
+          "firstName": [
+            "Sebastién"
+          ],
+          "lastName": [
+            "Tisné"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9838-3975",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre de coopération internationale en recherche agronomique pour le développement (CIRAD), UMR AGAP (Genetic Improvement and Adaptation of Mediterranean and Tropical Plant Research Unit), Campus International de Baillarguet, 34398 Montpellier, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Abarca V"
+          ],
+          "firstName": [
+            "Valentina"
+          ],
+          "lastName": [
+            "Abarca"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Centro de Estudios en Ciencia y Tecnología de Alimentos (CECTA), Universidad de Santiago de Chile (USACH), Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia SM"
+          ],
+          "firstName": [
+            "Sebastián M"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), 9170201 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oporto C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Oporto"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), 9170201 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), 9170201 Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Liti G"
+          ],
+          "firstName": [
+            "Gianni"
+          ],
+          "lastName": [
+            "Liti"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2318-0775",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Research on Cancer and Ageing of Nice (IRCAN), Centre national de la recherche scientifique (CNRS) unités mixtes de recherche (UMR) 7284, Institut national de la santé et de la recherche médicale (INSERM) U1081, University of Nice Sophia Antipolis, 06107, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8564-9287",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), 9170201 Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3022-469X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8564-9287",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2318-0775",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9838-3975",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2565736"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "G3 (Bethesda, Md.)"
+          ],
+          "ISOAbbreviation": [
+            "G3 (Bethesda)"
+          ],
+          "medlineAbbreviation": [
+            "G3 (Bethesda)"
+          ],
+          "NLMid": [
+            "101566598"
+          ],
+          "ISSN": [
+            "2160-1836"
+          ],
+          "ESSN": [
+            "2160-1836"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1693-1705"
+  ],
+  "abstractText": [
+    "Saccharomyces cerevisiae is responsible for wine must fermentation. In this process, nitrogen represents a limiting nutrient and its scarcity results in important economic losses for the wine industry. Yeast isolates use different strategies to grow in poor nitrogen environments and their genomic plasticity enables adaptation to multiple habitats through improvements in nitrogen consumption. Here, we used a highly recombinant S. cerevisiae multi-parent population (SGRP-4X) derived from the intercross of four parental strains of different origins to identify new genetic variants responsible for nitrogen consumption differences during wine fermentation. Analysis of 165 fully sequenced F12 segregants allowed us to map 26 QTL in narrow intervals for 14 amino acid sources and ammonium, the majority of which represent genomic regions previously unmapped for these traits. To complement this strategy, we performed Bulk segregant RNA-seq (BSR-seq) analysis in segregants exhibiting extremely high and low ammonium consumption levels. This identified several QTL overlapping differentially expressed genes and refined the gene candidate search. Based on these approaches, we were able to validate ARO1, PDC1, CPS1, ASI2, LYP1, and ALP1 allelic variants underlying nitrogen consumption differences between strains, providing evidence of many genes with small phenotypic effects. Altogether, these variants significantly shape yeast nitrogen consumption with important implications for evolution, ecological, and quantitative genomics."
+  ],
+  "affiliation": [
+    "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), 9170201 Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Nitrogen",
+        "Yeast",
+        "QTL",
+        "Rna-seq",
+        "Mpp",
+        "Multiparental Populations",
+        "Bsr-seq"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473750?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473750"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1534/g3.117.042127"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-08"
+  ],
+  "dateOfRevision": [
+    "2017-06-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-07"
+  ],
+  "firstPublicationDate": [
+    "2017-06-07"
+  ]
+}

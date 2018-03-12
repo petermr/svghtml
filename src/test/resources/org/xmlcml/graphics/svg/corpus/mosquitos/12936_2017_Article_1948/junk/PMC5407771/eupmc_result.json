@@ -1,0 +1,684 @@
+{
+  "id": [
+    "28448552"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28448552"
+  ],
+  "pmcid": [
+    "PMC5407771"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0176447"
+  ],
+  "title": [
+    "Transcriptomic analysis of the hepatic response to stress in the red cusk-eel (Genypterus chilensis): Insights into lipid metabolism, oxidative stress and liver steatosis."
+  ],
+  "authorString": [
+    "Naour S, Espinoza BM, Aedo JE, Zuloaga R, Maldonado J, Bastias-Molina M, Silva H, Meneses C, Gallardo-Escarate C, Molina A, Valdés JA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Naour S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Naour"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza BM"
+          ],
+          "firstName": [
+            "Brisa M"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "BM"
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aedo JE"
+          ],
+          "firstName": [
+            "Jorge E"
+          ],
+          "lastName": [
+            "Aedo"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zuloaga R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Zuloaga"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7820-7509",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9967-0885",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad de Chile, Facultad de Ciencias Agronómicas, Departamento de Producción Agrícola, Laboratorio de Genómica Funcional & Bioinformática, Av. Santa Rosa, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bastias-Molina M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Bastias-Molina"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Centro de Biotecnología Vegetal, FONDAP Center for Genome Regulation, Facultad de Ciencias Biológicas, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva H"
+          ],
+          "firstName": [
+            "Herman"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1007-7442",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad de Chile, Facultad de Ciencias Agronómicas, Departamento de Producción Agrícola, Laboratorio de Genómica Funcional & Bioinformática, Av. Santa Rosa, La Pintana, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Meneses C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Meneses"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6452-8950",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Centro de Biotecnología Vegetal, FONDAP Center for Genome Regulation, Facultad de Ciencias Biológicas, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallardo-Escarate C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Gallardo-Escarate"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Universidad de Concepción, Laboratory of Biotechnology and Aquatic Genomics, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina A"
+          ],
+          "firstName": [
+            "Alfredo"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Centro de Investigación Marina Quintay (CIMARQ), Facultad de Ecología y Recursos Naturales, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdés JA"
+          ],
+          "firstName": [
+            "Juan Antonio"
+          ],
+          "lastName": [
+            "Valdés"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0615-820X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Centro de Investigación Marina Quintay (CIMARQ), Facultad de Ecología y Recursos Naturales, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9967-0885",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0615-820X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1007-7442",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6452-8950",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7820-7509",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2543035"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0176447"
+  ],
+  "abstractText": [
+    "Teleosts exhibit a broad divergence in their adaptive response to stress, depending on the magnitude, duration, and frequency of stressors and the species receiving the stimulus. We have previously reported that the red cusk-eel (Genypterus chilensis), an important marine farmed fish, shows a physiological response to stress that results in increased skeletal muscle atrophy mediated by over-expression of components of the ubiquitin proteasome and autophagy-lysosomal systems. To better understand the systemic effects of stress on the red cusk-eel metabolism, the present study assessed the transcriptomic hepatic response to repetitive handling-stress. Using high-throughput RNA-seq, 259 up-regulated transcripts were found, mostly associated with angiogenesis, gluconeogenesis, and triacylglyceride catabolism. Conversely, 293 transcripts were down-regulated, associated to cholesterol biosynthesis, PPARα signaling, fatty acid biosynthesis, and glycolysis. This gene signature was concordant with hepatic metabolite levels and hepatic oxidative damage. Moreover, the increased plasmatic levels of AST (aspartate aminotransferase), ALT (alanine aminotransferase) and AP (alkaline phosphatase), as well as liver histology suggest stress-induced liver steatosis. This study offers an integrative molecular and biochemical analysis of the hepatic response to handling-stress, and reveals unknown aspects of lipid metabolism in a non-model teleost."
+  ],
+  "affiliation": [
+    "Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Liver"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fishes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oxidative Stress"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lipid Metabolism"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Ontology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Non-alcoholic Fatty Liver Disease"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5407771?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5407771"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0176447"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-07"
+  ],
+  "dateOfCreation": [
+    "2017-04-27"
+  ],
+  "dateOfRevision": [
+    "2017-09-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-27"
+  ],
+  "firstPublicationDate": [
+    "2017-04-27"
+  ]
+}

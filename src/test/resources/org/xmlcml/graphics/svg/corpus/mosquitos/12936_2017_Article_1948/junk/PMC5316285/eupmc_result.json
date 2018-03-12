@@ -1,0 +1,284 @@
+{
+  "id": [
+    "28224053"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28224053"
+  ],
+  "pmcid": [
+    "PMC5316285"
+  ],
+  "doi": [
+    "10.7717/peerj.2991"
+  ],
+  "title": [
+    "Understanding morphological variability in a taxonomic context in Chilean diplomystids (Teleostei: Siluriformes), including the description of a new species."
+  ],
+  "authorString": [
+    "Arratia G, Quezada-Romegialli C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Arratia G"
+          ],
+          "firstName": [
+            "Gloria"
+          ],
+          "lastName": [
+            "Arratia"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Biodiversity Institute, University of Kansas, Lawrence, KS, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Quezada-Romegialli C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Quezada-Romegialli"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3380-389X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Naturales Alexander von Humboldt, Facultad de Ciencias del Mar y Recursos Biológicos, Universidad de Antofagasta, Antofagasta, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3380-389X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e2991"
+  ],
+  "abstractText": [
+    "Following study of the external morphology and its unmatched variability throughout ontogeny and a re-examination of selected morphological characters based on many specimens of diplomystids from Central and South Chile, we revised and emended previous specific diagnoses and consider Diplomystes chilensis, D. nahuelbutaensis, D. camposensis, and Olivaichthys viedmensis (Baker River) to be valid species. Another group, previously identified as Diplomystes sp., D. spec., D. aff. chilensis, and D. cf. chilensis inhabiting rivers between Rapel and Itata Basins is given a new specific name (Diplomystes incognitus) and is diagnosed. An identification key to the Chilean species, including the new species, is presented. All specific diagnoses are based on external morphological characters, such as aspects of the skin, neuromast lines, and main lateral line, and position of the anus and urogenital pore, as well as certain osteological characters to facilitate the identification of these species that previously was based on many internal characters. Diplomystids below 150 mm standard length (SL) share a similar external morphology and body proportions that make identification difficult; however, specimens over 150 mm SL can be diagnosed by the position of the urogenital pore and anus, and a combination of external and internal morphological characters. According to current knowledge, diplomystid species have an allopatric distribution with each species apparently endemic to particular basins in continental Chile and one species (O. viedmensis) known only from one river in the Chilean Patagonia, but distributed extensively in southern Argentina."
+  ],
+  "affiliation": [
+    "Biodiversity Institute, University of Kansas, Lawrence, KS, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Morphology",
+        "Variability",
+        "Catfishes",
+        "South America",
+        "Freshwaters",
+        "Diplomystidae",
+        "Taxonomic Diagnoses",
+        "Endangered Status"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5316285?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5316285"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.2991"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-02-22"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-16"
+  ],
+  "firstPublicationDate": [
+    "2017-02-16"
+  ]
+}

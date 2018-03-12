@@ -1,0 +1,1056 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5756871</article-id><article-id pub-id-type="doi">10.1002/ece3.3574</article-id><article-id pub-id-type="publisher-id">ECE33574</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Contrasting genetic metrics and patterns among naturalized rainbow trout (<italic>Oncorhynchus mykiss</italic>) in two Patagonian lakes differentially impacted by trout aquaculture</article-title><alt-title alt-title-type="left-running-head">CANALES&#x02010;AGUIRRE et&#x000a0;al.</alt-title></title-group><contrib-group><contrib id="ece33574-cr-0001" contrib-type="author"><name><surname>Canales&#x02010;Aguirre</surname><given-names>Cristian B.</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8468-6139</contrib-id><xref ref-type="aff" rid="ece33574-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0007">
+<sup>7</sup>
+</xref><xref ref-type="author-notes" rid="ece33574-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="ece33574-cr-0002" contrib-type="author"><name><surname>Seeb</surname><given-names>Lisa W.</given-names></name><xref ref-type="aff" rid="ece33574-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece33574-cr-0003" contrib-type="author"><name><surname>Seeb</surname><given-names>James E.</given-names></name><xref ref-type="aff" rid="ece33574-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ece33574-cr-0004" contrib-type="author"><name><surname>C&#x000e1;diz</surname><given-names>Mar&#x000ed;a I.</given-names></name><xref ref-type="aff" rid="ece33574-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece33574-cr-0005" contrib-type="author"><name><surname>Musleh</surname><given-names>Selim S.</given-names></name><xref ref-type="aff" rid="ece33574-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece33574-cr-0006" contrib-type="author"><name><surname>Arismendi</surname><given-names>Ivan</given-names></name><xref ref-type="aff" rid="ece33574-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ece33574-cr-0007" contrib-type="author"><name><surname>Gajardo</surname><given-names>Gonzalo</given-names></name><xref ref-type="aff" rid="ece33574-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ece33574-cr-0008" contrib-type="author"><name><surname>Galleguillos</surname><given-names>Ricardo</given-names></name><xref ref-type="aff" rid="ece33574-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece33574-cr-0009" contrib-type="author" corresp="yes"><name><surname>Gomez&#x02010;Uchida</surname><given-names>Daniel</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5150-2030</contrib-id><address><email>dgomezu@udec.cl</email></address><xref ref-type="aff" rid="ece33574-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="ece33574-aff-0007">
+<sup>7</sup>
+</xref><xref ref-type="author-notes" rid="ece33574-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib></contrib-group><aff id="ece33574-aff-0001">
+<label><sup>1</sup></label>
+<institution>Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)</institution>
+<named-content content-type="organisation-division">Departamento de Zoolog&#x000ed;a</named-content>
+<institution>Universidad de Concepci&#x000f3;n</institution>
+<named-content content-type="city">Concepci&#x000f3;n</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="ece33574-aff-0002">
+<label><sup>2</sup></label>
+<institution>Laboratorio de Gen&#x000e9;tica y Acuicultura</institution>
+<named-content content-type="organisation-division">Departamento de Oceanograf&#x000ed;a</named-content>
+<named-content content-type="organisation-division">Facultad de Ciencias Naturales y Oceanogr&#x000e1;ficas</named-content>
+<institution>Universidad de Concepci&#x000f3;n</institution>
+<named-content content-type="city">Concepci&#x000f3;n</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="ece33574-aff-0003">
+<label><sup>3</sup></label>
+<institution>Nucleo Milenio INVASAL</institution>
+<named-content content-type="city">Concepci&#x000f3;n</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="ece33574-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">School of Aquatic and Fishery Sciences</named-content>
+<institution>University of Washington</institution>
+<named-content content-type="city">Seattle</named-content>
+<named-content content-type="country-part">WA</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece33574-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Fisheries and Wildlife</named-content>
+<institution>Oregon State University</institution>
+<named-content content-type="city">Corvallis</named-content>
+<named-content content-type="country-part">OR</named-content>
+<country country="US">USA</country>
+</aff><aff id="ece33574-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Laboratorio de Gen&#x000e9;tica, Acuicultura &#x00026; Biodiversidad</named-content>
+<institution>Universidad de Los Lagos</institution>
+<named-content content-type="city">Osorno</named-content>
+<country country="CL">Chile</country>
+</aff><aff id="ece33574-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Centro i&#x02010;mar</named-content>
+<institution>Universidad de Los Lagos</institution>
+<named-content content-type="street">Camino Chinquihue 6 km</named-content>
+<named-content content-type="city">Puerto Montt</named-content>
+<country country="CL">Chile</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Daniel Gomez&#x02010;Uchida, Departamento de Zoolog&#x000ed;a, Universidad de Concepci&#x000f3;n, Concepci&#x000f3;n, Chile.<break/>
+Email: <email>dgomezu@udec.cl</email><break/></corresp><fn fn-type="equal" id="ece33574-note-1001"><label>&#x02020;</label><p>*These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>28</day><month>11</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2018</year></pub-date><volume>8</volume><issue>1</issue><issue-id pub-id-type="doi">10.1002/ece3.2018.8.issue-1</issue-id><fpage>273</fpage><lpage>285</lpage><history><date date-type="received"><day>22</day><month>5</month><year>2017</year></date><date date-type="rev-recd"><day>01</day><month>10</month><year>2017</year></date><date date-type="accepted"><day>04</day><month>10</month><year>2017</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2018 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2017 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-8-273.pdf"/><abstract id="ece33574-abs-0001"><title>Abstract</title><p>Different pathways of propagation and dispersal of non&#x02010;native species into new environments may have contrasting demographic and genetic impacts on established populations. Repeated introductions of rainbow trout (<italic>Oncorhynchus mykiss</italic>) to Chile in South America, initially through stocking and later through aquaculture escapes, provide a unique setting to contrast these two pathways. Using a panel of single nucleotide polymorphisms, we found contrasting genetic metrics and patterns among naturalized trout in Lake Llanquihue, Chile's largest producer of salmonid smolts for nearly 50&#x000a0;years, and Lake Todos Los Santos (<styled-content style="fixed-case">TLS</styled-content>), a reference lake where aquaculture has been prohibited by law. Trout from Lake Llanquihue showed higher genetic diversity, weaker genetic structure, and larger estimates for the effective number of breeders (<italic>N</italic>
+<sub>b</sub>) than trout from Lake <styled-content style="fixed-case">TLS</styled-content>. Trout from Lake <styled-content style="fixed-case">TLS</styled-content> were divergent from Lake Llanquihue and showed marked genetic structure and a significant isolation&#x02010;by&#x02010;distance pattern consistent with secondary contact between documented and undocumented stocking events in opposite shores of the lake. Multiple factors, including differences in propagule pressure, origin of donor populations, lake geomorphology, habitat quality or quantity, and life history, may help explain contrasting genetic metrics and patterns for trout between lakes. We contend that high propagule pressure from aquaculture may not only increase genetic diversity and <italic>N</italic>
+<sub>b</sub> via demographic effects and admixture, but also may impact the evolution of genetic structure and increase gene flow, consistent with findings from artificially propagated salmonid populations in their native and naturalized ranges.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece33574-kwd-0001">aquaculture escapes</kwd><kwd id="ece33574-kwd-0002">Chile</kwd><kwd id="ece33574-kwd-0003">invasion genetics</kwd><kwd id="ece33574-kwd-0004">northern Patagonia</kwd><kwd id="ece33574-kwd-0005">propagule pressure</kwd><kwd id="ece33574-kwd-0006">South America</kwd></kwd-group><funding-group><award-group><funding-source>Universidad de Concepcion VRID</funding-source><award-id>212.113.082&#x02013;1.0</award-id><award-id>216.113.090&#x02010;1.0</award-id></award-group><award-group><funding-source>Fondo de Financiamiento de Centros de Investigacion en Areas Prioritarias</funding-source><award-id>15110027</award-id></award-group><award-group><funding-source>Fondo Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico</funding-source><award-id>1130807</award-id><award-id>3150456</award-id></award-group><award-group><funding-source>Iniciativa Cient&#x000ed;fica Milenio</funding-source><award-id>N&#x000fa;cleo Milenio INVASAL</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="5"/><page-count count="13"/><word-count count="10885"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece33574</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.2.8 mode:remove_FC converted:08.01.2018</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece33574-cit-1001">
+<string-name>
+<surname>Canales&#x02010;Aguirre</surname>
+<given-names>CB</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>
+<given-names>LW</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>
+<given-names>JE</given-names>
+</string-name>, et&#x000a0;al. <article-title>Contrasting genetic metrics and patterns among naturalized rainbow trout (<italic>Oncorhynchus mykiss</italic>) in two Patagonian lakes differentially impacted by trout aquaculture</article-title>. <source>Ecol Evol</source>. <year>2018</year>;<volume>8</volume>:<fpage>273</fpage>&#x02013;<lpage>285</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.3574">https://doi.org/10.1002/ece3.3574</ext-link>
+</mixed-citation>
+</p></notes></front><body><sec id="ece33574-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Different pathways of propagation and dispersal of non&#x02010;native species into new environments may have contrasting demographic and genetic impacts on established populations (Wilson, Dormontt, Prentis, Lowe, &#x00026; Richardson, <xref rid="ece33574-bib-0095" ref-type="ref">2009</xref>). On the one hand, cultivation of non&#x02010;native species may unintentionally release large numbers of individuals in single or multiple events which can be a key factor counteracting detrimental effects of genetic drift among founding populations (Dlugosch &#x00026; Parker, <xref rid="ece33574-bib-0025" ref-type="ref">2008</xref>; Frankham, <xref rid="ece33574-bib-0034" ref-type="ref">2005</xref>; Roman &#x00026; Darling, <xref rid="ece33574-bib-0078" ref-type="ref">2007</xref>). These populations will show similar or higher levels of genetic diversity than their native counterparts because propagules may originate from multiple, genetically distinct source populations (Kolbe et&#x000a0;al., <xref rid="ece33574-bib-0053" ref-type="ref">2004</xref>) or because propagule size is large enough to have high genetic diversity (Simberloff, <xref rid="ece33574-bib-0082" ref-type="ref">2009</xref>). On the other hand, human&#x02010;driven dispersal (e.g., stocking) involving fewer propagules or propagules of smaller size than in cultivation settings will result in established populations showing lower genetic diversity (Kawamura et&#x000a0;al., <xref rid="ece33574-bib-0050" ref-type="ref">2010</xref>; Kinziger, Nakamoto, Anderson, &#x00026; Harvey, <xref rid="ece33574-bib-0051" ref-type="ref">2011</xref>; Lindholm et&#x000a0;al., <xref rid="ece33574-bib-0057" ref-type="ref">2005</xref>). A comparison between these two pathways may reveal contrasting genetic metrics and patterns, including genetic diversity, the evolution of genetic structure and dispersal, and other parameters such as the effective number of breeders (<italic>N</italic>
+<sub>b</sub>), which likely stem from differences in propagule pressure (Colautti, Grigorovich, &#x00026; MacIsaac, <xref rid="ece33574-bib-0020" ref-type="ref">2006</xref>; Lockwood, Cassey, &#x00026; Blackburn, <xref rid="ece33574-bib-0058" ref-type="ref">2005</xref>; Simberloff, <xref rid="ece33574-bib-0082" ref-type="ref">2009</xref>).</p><p>Historical introductions of salmonids to South America have been widely documented (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>) and are a useful model to address how invasive populations colonize new environments (Garcia de Leaniz, Gajardo, &#x00026; Consuegra, <xref rid="ece33574-bib-0023" ref-type="ref">2010</xref>; Pascual et&#x000a0;al., <xref rid="ece33574-bib-0068" ref-type="ref">2009</xref>). Rainbow trout <italic>Oncorhynchus mykiss</italic> Walbaum, 1972 is one of the most broadly and successfully introduced species in freshwater due to its economic value, ease of domestication, and importance in supporting recreational fisheries (Casal, <xref rid="ece33574-bib-0017" ref-type="ref">2006</xref>; Crawford &#x00026; Muir, <xref rid="ece33574-bib-0022" ref-type="ref">2008</xref>; Halverson, <xref rid="ece33574-bib-0040" ref-type="ref">2010</xref>). Rainbow trout is considered among the world's 100 worst invasive, non&#x02010;native species (Lowe, Browne, Boudjelas, &#x00026; De Poorter, <xref rid="ece33574-bib-0060" ref-type="ref">2000</xref>). The species exhibits several life history forms, including fluvial, ad&#x02010;fluvial, and anadromous (&#x0201c;steelhead salmon&#x0201d;). These forms may exhibit variable age at maturity, and, unlike many Pacific salmon species, rainbow trout may reproduce multiple times throughout their lifetime (Quinn, <xref rid="ece33574-bib-0074" ref-type="ref">2005</xref>). High phenotypic plasticity among rainbow trout has likely resulted in worldwide successful colonization, including most rivers and lakes from the extensive area of Patagonia in South America and particularly Chile (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0002" ref-type="ref">2014</xref>; Crawford &#x00026; Muir, <xref rid="ece33574-bib-0022" ref-type="ref">2008</xref>; Soto et&#x000a0;al., <xref rid="ece33574-bib-0084" ref-type="ref">2006</xref>).</p><p>The first introductions of rainbow trout to the Lake District in Chile's northern Patagonia supported recreational fisheries in the late 1890s and early 1900s (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>). Further introductions occurred at the onset of the trout aquaculture industry during the late 1970s and development throughout the 1980s following unintentional escapes (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>; Garcia de Leaniz et&#x000a0;al., <xref rid="ece33574-bib-0023" ref-type="ref">2010</xref>). Lake Llanquihue and Lake Todos Los Santos (TLS) are two Araucanian lakes situated in the northern Patagonia (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>) where these invasion pathways can be studied; each lake provides contrasting histories of trout introductions, especially with respect to the influence of trout aquaculture. The lakes further differ in origin, size, and geomorphology (Table&#x000a0;<xref rid="ece33574-tbl-0001" ref-type="table-wrap">1</xref>). On the one hand, Basulto (<xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>) reported that Lake Llanquihue was stocked early during the twentieth century and later influenced by aquaculture escapes (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>). Lake Llanquihue has been Chile's largest producer of salmonid smolts for the aquaculture industry since 1975; between 1998 and 2005 Lake Llanquihue produced 5.1 million rainbow trout smolts (Le&#x000f3;n&#x02010;Mu&#x000f1;oz, Tecklin, Farias, &#x00026; Diaz, <xref rid="ece33574-bib-0056" ref-type="ref">2007</xref>). Estimates suggest that 3&#x02013;5% of fish production from net pens are accidentally released into the environment every year through an undocumented number of escapes (Sep&#x000fa;lveda, Arismendi, Soto, Jara, &#x00026; Farias, <xref rid="ece33574-bib-0081" ref-type="ref">2013</xref>). Rainbow trout escapes are likely to become rapidly established in the wild (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0002" ref-type="ref">2014</xref>; Benavente et&#x000a0;al., <xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>). On the other hand, Lake TLS is located within &#x0201c;Vicente Perez Rosales&#x0201d; National Park and Reserve, wherein aquaculture has been prohibited by law. However, Basulto (<xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>) reported one trout stocking event in the eastern shore of Lake TLS during the early 1900s. A second introduction of unknown location occurred around 1980 (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>), suggesting Lake TLS has received fewer propagules than Lake Llanquihue. The latter introduction appears to be the source of currently abundant naturalized, self&#x02010;sustaining trout populations (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece33574-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Sampling sites for inlet streams from Lake Llanquihue and Lake Todos Los Santos. Streams sampled in Lake Llanquihue were (from south to north, counterclockwise) Pescado (<styled-content style="fixed-case">PES</styled-content>), Blanco (<styled-content style="fixed-case">BLA</styled-content>), Tepu (<styled-content style="fixed-case">TEP</styled-content>), and Blanco Arenales (<styled-content style="fixed-case">BAR</styled-content>). Streams sampled in Lake Todos Los Santos were (from east to west) Leon (<styled-content style="fixed-case">LEO</styled-content>), Escape (<styled-content style="fixed-case">ESC</styled-content>), Cachimba (<styled-content style="fixed-case">CCH</styled-content>), Cayetue (<styled-content style="fixed-case">CAY</styled-content>), and Peulla (<styled-content style="fixed-case">PEU</styled-content>). (a) Stacked vertical bars represent a vector of membership coefficients (<italic>Q</italic>&#x02010;values) of individual genotypes to the most likely number of gene pools (<italic>K</italic>&#x000a0;=&#x000a0;2) using data from 86 SNPs, (b) within Lake Llanquihue only (<italic>K</italic>&#x000a0;=&#x000a0;2), (c) within Lake Todos Los Santos only (<italic>K</italic>&#x000a0;=&#x000a0;2). White vertical lines separate year or season collections within inlet streams. Name of each inlet stream is located above the bar graph</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-8-273-g001"/></fig><table-wrap id="ece33574-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Lake Llanquihue and Lake Todos Los Santos physical attributes and summary of invasion pathways for rainbow trout</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">Lake Llanquihue</th><th align="left" valign="top" rowspan="1" colspan="1">Lake Todos Los Santos</th><th align="left" valign="top" rowspan="1" colspan="1">References</th></tr></thead><tbody><tr><td align="left" colspan="4" rowspan="1">Physical attributes</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Water surface area (km<sup>2</sup>)</td><td align="left" rowspan="1" colspan="1">870.5</td><td align="left" rowspan="1" colspan="1">178.5</td><td align="left" rowspan="1" colspan="1">Campos et&#x000a0;al. (<xref rid="ece33574-bib-0500" ref-type="ref">1988</xref>, <xref rid="ece33574-bib-0600" ref-type="ref">1990</xref>)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Elevation (m)</td><td align="left" rowspan="1" colspan="1">51</td><td align="left" rowspan="1" colspan="1">189</td><td align="left" rowspan="1" colspan="1">Campos et&#x000a0;al. (<xref rid="ece33574-bib-0500" ref-type="ref">1988</xref>, <xref rid="ece33574-bib-0600" ref-type="ref">1990</xref>)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Origin</td><td align="left" rowspan="1" colspan="1">Glacial</td><td align="left" rowspan="1" colspan="1">Volcanic</td><td align="left" rowspan="1" colspan="1">Campos et&#x000a0;al. (<xref rid="ece33574-bib-0500" ref-type="ref">1988</xref>, <xref rid="ece33574-bib-0600" ref-type="ref">1990</xref>)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Water volume (km<sup>3</sup>)</td><td align="left" rowspan="1" colspan="1">158.6</td><td align="left" rowspan="1" colspan="1">34.4</td><td align="left" rowspan="1" colspan="1">Campos et&#x000a0;al. (<xref rid="ece33574-bib-0500" ref-type="ref">1988</xref>, <xref rid="ece33574-bib-0600" ref-type="ref">1990</xref>)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Catchment area (km<sup>2</sup>)</td><td align="left" rowspan="1" colspan="1">1605</td><td align="left" rowspan="1" colspan="1">3036</td><td align="left" rowspan="1" colspan="1">Campos et&#x000a0;al. (<xref rid="ece33574-bib-0500" ref-type="ref">1988</xref>, <xref rid="ece33574-bib-0600" ref-type="ref">1990</xref>)</td></tr><tr><td align="left" colspan="4" rowspan="1">Invasion pathways</td></tr><tr><td align="left" style="padding-left:10%" rowspan="4" colspan="1">Stocking versus aquaculture</td><td align="left" rowspan="1" colspan="1">Stocking: 1910&#x02013;1916, temporary hatchery placed at the outlet (River Maull&#x000ed;n) that maintained 50,000&#x02013;100,000 eggs imported from Germany</td><td align="left" rowspan="1" colspan="1">Stocking: 1932, anglers transplanted an unknown number of individuals at Negro River near Peulla, the easternmost location of the lake</td><td align="left" rowspan="4" colspan="1">Arismendi et&#x000a0;al. (<xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>); Basulto (<xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>); Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>); Le&#x000f3;n&#x02010;Mu&#x000f1;oz et&#x000a0;al. (<xref rid="ece33574-bib-0056" ref-type="ref">2007</xref>); Sep&#x000fa;lveda et&#x000a0;al. (<xref rid="ece33574-bib-0081" ref-type="ref">2013</xref>)</td></tr><tr><td align="left" rowspan="1" colspan="1">Aquaculture: 1969&#x02013;1972, first aquaculture farm that bred 37,500 adults and reported &#x0201c;massive&#x0201d; escapes</td><td align="left" rowspan="1" colspan="1">Stocking: ~1980, anglers transplanted an unknown number of individuals at western locations of the lake</td></tr><tr><td align="left" rowspan="1" colspan="1">Aquaculture: 1975&#x02013;1979, second aquaculture farm near River Pescado yielding 40,000&#x000a0;kg annually for exportation to France</td><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Aquaculture: 1980&#x02013;2017, consolidated industry with 15 companies yielding 5.1 million smolts annually (1998&#x02013;2005). Escapes of nearly 500,000 trout in lakes, including Lake Llanquihue (2004&#x02013;2012)</td><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Genetic assessments have been instrumental in evaluating the geographic origin as well as drivers that explain the establishment and spread of naturalized rainbow trout in Patagonia (Gajardo, D&#x000ed;az, &#x00026; Crespo, <xref rid="ece33574-bib-0037" ref-type="ref">1998</xref>; Monz&#x000f3;n&#x02010;Arg&#x000fc;ello, Garcia de Leaniz, Gajardo, &#x00026; Consuegra, <xref rid="ece33574-bib-0063" ref-type="ref">2013</xref>, <xref rid="ece33574-bib-0064" ref-type="ref">2014</xref>; Monz&#x000f3;n&#x02010;Arg&#x000fc;ello, Consuegra, et&#x000a0;al., <xref rid="ece33574-bib-0062" ref-type="ref">2014</xref>; Riva Rossi, Lessa, &#x00026; Pascual, <xref rid="ece33574-bib-0077" ref-type="ref">2004</xref>). Recently, Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) successfully used single nucleotide polymorphisms (SNPs) developed from a panel of North American populations to estimate intra&#x02010; and interpopulation divergence among rainbow trout in Lake Llanquihue. Naturalized rainbow trout populations harbored high genetic diversity, providing an important molecular resource for invasion genetics studies; putative escaped trout were also identified (Benavente et&#x000a0;al., <xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>). Highly variable SNPs may allow fine&#x02010;scale resolution of population differences where other markers have failed to resolve them (Ackerman, Habicht, &#x00026; Seeb, <xref rid="ece33574-bib-0001" ref-type="ref">2011</xref>; Aykanat et&#x000a0;al., <xref rid="ece33574-bib-0005" ref-type="ref">2015</xref>; Hecht, Campbell, Holecek, &#x00026; Narum, <xref rid="ece33574-bib-0041" ref-type="ref">2013</xref>; Zarraonaindia et&#x000a0;al., <xref rid="ece33574-bib-0096" ref-type="ref">2012</xref>).</p><p>A comparison among rainbow trout populating Lake Llanquihue and Lake TLS provides a unique opportunity to study the genetic underpinnings of two different invasion pathways. Adult rainbow trout of ad&#x02010;fluvial life history breed at inlet streams of Araucanian lakes; hatched juveniles may then spend 1&#x02013;2&#x000a0;years before migrating to feed in the lake (Arismendi, Sanzana, &#x00026; Soto, <xref rid="ece33574-bib-0003" ref-type="ref">2011</xref>). Here, we tested several expectations about trout genetic metrics and patterns in both lakes (Table&#x000a0;<xref rid="ece33574-tbl-0002" ref-type="table-wrap">2</xref>). We hypothesized that trout from inlet streams in Lake Llanquihue will show higher genetic diversity, weaker genetic structure, and larger estimates of <italic>N</italic>
+<sub>b</sub> compared to rainbow trout collected from inlet streams in Lake TLS. Increased gene flow resulting from admixture has been observed among experimental colonizing (Sz&#x00171;cs, Melbourne, Tuff, &#x00026; Hufbauer, <xref rid="ece33574-bib-0086" ref-type="ref">2014</xref>) and salmonid populations in their native (Boyer, Muhlfeld, &#x00026; Allendorf, <xref rid="ece33574-bib-0013" ref-type="ref">2008</xref>; Candy &#x00026; Beacham, <xref rid="ece33574-bib-0014" ref-type="ref">2000</xref>) and naturalized ranges (Bartron &#x00026; Scribner, <xref rid="ece33574-bib-0007" ref-type="ref">2004</xref>). In addition, multiple introductions via artificial propagation may positively impact effective population size and related measures such as <italic>N</italic>
+<sub>b</sub> (Pr&#x000e6;bel, Gjelland, Salonen, &#x00026; Amundsen, <xref rid="ece33574-bib-0071" ref-type="ref">2013</xref>).</p><table-wrap id="ece33574-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Expected relative values of genetic metrics and patterns among naturalized rainbow trout</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="top" colspan="1">Population genetics metrics</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Relative expected value</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Lake Llanquihue</th><th align="left" valign="top" rowspan="1" colspan="1">Lake Todos Los Santos</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Genetic diversity</td><td align="left" rowspan="1" colspan="1">High</td><td align="left" rowspan="1" colspan="1">Low</td></tr><tr><td align="left" rowspan="1" colspan="1">Genetic structure</td><td align="left" rowspan="1" colspan="1">Weak</td><td align="left" rowspan="1" colspan="1">Moderate</td></tr><tr><td align="left" rowspan="1" colspan="1">Effective number of breeders</td><td align="left" rowspan="1" colspan="1">Large</td><td align="left" rowspan="1" colspan="1">Small</td></tr></tbody></table><table-wrap-foot><fn id="ece33574-note-0002"><p>Values were based on differences on invasion pathways and propagule pressure between Lake Llanquihue and Lake Todos Los Santos.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece33574-sec-0002"><label>2</label><title>MATERIAL AND METHODS</title><sec id="ece33574-sec-0003"><label>2.1</label><title>Sampling design</title><p>A total of 1,193 naturalized rainbow trout were sampled between 2013 and 2014 from inlet streams of Lake Llanquihue and Lake TLS (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>, Table&#x000a0;<xref rid="ece33574-tbl-0003" ref-type="table-wrap">3</xref>). Inlet streams of Lake Llanquihue are found only on the west and south shores. Samples taken during 2013 at Lake Llanquihue were from the Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) study after excluding one inlet stream likely populated by escaped trout (i.e. Pescado (PES), Blanco (BLA), Tepu (TEP), and Blanco Arenales (BAR)). Additionally, we sampled five inlet streams from Lake TLS: Le&#x000f3;n (LEO), Escape (ESC), Cachimba (CCH), Cayetue (CAY), and Peulla (PEU) (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>). All individuals were collected during two austral seasons: winter, spring, or both, corresponding to the spawning period of rainbow trout in this region (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0003" ref-type="ref">2011</xref>). Collections were made with a two&#x02010;pass backpack electrofishing using various settings depending on water conductivity (400&#x02013;700&#x000a0;V; 40&#x02013;80&#x000a0;Hz). Within each inlet stream, we sampled a 400&#x000a0;m reach with a uniform time effort of 1&#x000a0;h/stream. To account for fish of different sizes, we sampled in all available habitat units (pool&#x02010;run&#x02010;riffle). Nonlethal sampling of fin clips of each individual was taken and preserved in ethanol 95% for further genetic analyses.</p><table-wrap id="ece33574-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Parameters of genetic diversity among naturalized rainbow trout collected at inlet streams from Lake Llanquihue and Lake Todos Los Santos</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Lake</th><th align="left" valign="top" rowspan="1" colspan="1">Stream</th><th align="left" valign="top" rowspan="1" colspan="1">Sample date</th><th align="left" valign="top" rowspan="1" colspan="1">Code</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>N</italic>
+<sub>A</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>H</italic>
+<sub>O</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>H</italic>
+<sub>E</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>f</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>A</italic>
+<sub>R</sub>
+</th></tr></thead><tbody><tr><td align="left" rowspan="8" colspan="1">Llanquihue</td><td align="left" rowspan="2" colspan="1">PES</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">PES13W</td><td align="left" rowspan="1" colspan="1">46</td><td align="left" rowspan="1" colspan="1">1.965</td><td align="left" rowspan="1" colspan="1">0.320</td><td align="left" rowspan="1" colspan="1">0.317</td><td align="left" rowspan="1" colspan="1">&#x02212;0.014</td><td align="left" rowspan="1" colspan="1">1.690</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">PES14S</td><td align="left" rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1">1.988</td><td align="left" rowspan="1" colspan="1">0.325</td><td align="left" rowspan="1" colspan="1">0.33</td><td align="left" rowspan="1" colspan="1">0.016</td><td align="left" rowspan="1" colspan="1">1.717</td></tr><tr><td align="left" rowspan="2" colspan="1">BLA</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">BLA13W</td><td align="left" rowspan="1" colspan="1">88</td><td align="left" rowspan="1" colspan="1">1.988</td><td align="left" rowspan="1" colspan="1">0.320</td><td align="left" rowspan="1" colspan="1">0.324</td><td align="left" rowspan="1" colspan="1">0.007</td><td align="left" rowspan="1" colspan="1">1.700</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">BLA14S</td><td align="left" rowspan="1" colspan="1">82</td><td align="left" rowspan="1" colspan="1">2.000</td><td align="left" rowspan="1" colspan="1">0.310</td><td align="left" rowspan="1" colspan="1">0.329</td><td align="left" rowspan="1" colspan="1">0.058</td><td align="left" rowspan="1" colspan="1">1.708</td></tr><tr><td align="left" rowspan="2" colspan="1">TEP</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">TEP13W</td><td align="left" rowspan="1" colspan="1">95</td><td align="left" rowspan="1" colspan="1">1.988</td><td align="left" rowspan="1" colspan="1">0.344</td><td align="left" rowspan="1" colspan="1">0.33</td><td align="left" rowspan="1" colspan="1">&#x02212;0.037</td><td align="left" rowspan="1" colspan="1">1.71</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">TEP14S</td><td align="left" rowspan="1" colspan="1">94</td><td align="left" rowspan="1" colspan="1">1.977</td><td align="left" rowspan="1" colspan="1">0.351</td><td align="left" rowspan="1" colspan="1">0.329</td><td align="left" rowspan="1" colspan="1">&#x02212;0.052</td><td align="left" rowspan="1" colspan="1">1.707</td></tr><tr><td align="left" rowspan="2" colspan="1">BAR</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">BAR13W</td><td align="left" rowspan="1" colspan="1">44</td><td align="left" rowspan="1" colspan="1">2.000</td><td align="left" rowspan="1" colspan="1">0.340</td><td align="left" rowspan="1" colspan="1">0.341</td><td align="left" rowspan="1" colspan="1">&#x02212;0.003</td><td align="left" rowspan="1" colspan="1">1.733</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">BAR14S</td><td align="left" rowspan="1" colspan="1">85</td><td align="left" rowspan="1" colspan="1">1.988</td><td align="left" rowspan="1" colspan="1">0.299</td><td align="left" rowspan="1" colspan="1">0.319</td><td align="left" rowspan="1" colspan="1">0.05</td><td align="left" rowspan="1" colspan="1">1.688&#x000a0;</td></tr><tr><td align="left" rowspan="12" colspan="1">Todos Los Santos</td><td align="left" rowspan="3" colspan="1">LEO</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">LEO13W</td><td align="left" rowspan="1" colspan="1">93</td><td align="left" rowspan="1" colspan="1">1.791</td><td align="left" rowspan="1" colspan="1">0.260</td><td align="left" rowspan="1" colspan="1">0.252</td><td align="left" rowspan="1" colspan="1">&#x02212;0.027</td><td align="left" rowspan="1" colspan="1">1.542</td></tr><tr><td align="left" rowspan="1" colspan="1">July 2014</td><td align="left" rowspan="1" colspan="1">LEO14W</td><td align="left" rowspan="1" colspan="1">38</td><td align="left" rowspan="1" colspan="1">1.767</td><td align="left" rowspan="1" colspan="1">0.259</td><td align="left" rowspan="1" colspan="1">0.253</td><td align="left" rowspan="1" colspan="1">&#x02212;0.027</td><td align="left" rowspan="1" colspan="1">1.551</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">LEO14S</td><td align="left" rowspan="1" colspan="1">55</td><td align="left" rowspan="1" colspan="1">1.779</td><td align="left" rowspan="1" colspan="1">0.275</td><td align="left" rowspan="1" colspan="1">0.26</td><td align="left" rowspan="1" colspan="1">&#x02212;0.043</td><td align="left" rowspan="1" colspan="1">1.560</td></tr><tr><td align="left" rowspan="4" colspan="1">ESC</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">ESC13W</td><td align="left" rowspan="1" colspan="1">59</td><td align="left" rowspan="1" colspan="1">1.791</td><td align="left" rowspan="1" colspan="1">0.242</td><td align="left" rowspan="1" colspan="1">0.248</td><td align="left" rowspan="1" colspan="1">0.020</td><td align="left" rowspan="1" colspan="1">1.542</td></tr><tr><td align="left" rowspan="1" colspan="1">Oct 2013</td><td align="left" rowspan="1" colspan="1">ESC13S</td><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">1.709</td><td align="left" rowspan="1" colspan="1">0.247</td><td align="left" rowspan="1" colspan="1">0.241</td><td align="left" rowspan="1" colspan="1">&#x02212;0.029</td><td align="left" rowspan="1" colspan="1">1.538</td></tr><tr><td align="left" rowspan="1" colspan="1">July 2014</td><td align="left" rowspan="1" colspan="1">ESC14W</td><td align="left" rowspan="1" colspan="1">31</td><td align="left" rowspan="1" colspan="1">1.849</td><td align="left" rowspan="1" colspan="1">0.277</td><td align="left" rowspan="1" colspan="1">0.268</td><td align="left" rowspan="1" colspan="1">&#x02212;0.008</td><td align="left" rowspan="1" colspan="1">1.591</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">ESC14S</td><td align="left" rowspan="1" colspan="1">53</td><td align="left" rowspan="1" colspan="1">1.826</td><td align="left" rowspan="1" colspan="1">0.262</td><td align="left" rowspan="1" colspan="1">0.258</td><td align="left" rowspan="1" colspan="1">&#x02212;0.017</td><td align="left" rowspan="1" colspan="1">1.564</td></tr><tr><td align="left" rowspan="2" colspan="1">CCH</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">CCH13W</td><td align="left" rowspan="1" colspan="1">95</td><td align="left" rowspan="1" colspan="1">1.802</td><td align="left" rowspan="1" colspan="1">0.244</td><td align="left" rowspan="1" colspan="1">0.247</td><td align="left" rowspan="1" colspan="1">0.009</td><td align="left" rowspan="1" colspan="1">1.534</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">CCH14S</td><td align="left" rowspan="1" colspan="1">94</td><td align="left" rowspan="1" colspan="1">1.814</td><td align="left" rowspan="1" colspan="1">0.252</td><td align="left" rowspan="1" colspan="1">0.248</td><td align="left" rowspan="1" colspan="1">&#x02212;0.011</td><td align="left" rowspan="1" colspan="1">1.541</td></tr><tr><td align="left" rowspan="1" colspan="1">CAY</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">CAY13W</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">1.756</td><td align="left" rowspan="1" colspan="1">0.253</td><td align="left" rowspan="1" colspan="1">0.244</td><td align="left" rowspan="1" colspan="1">&#x02212;0.031</td><td align="left" rowspan="1" colspan="1">1.548</td></tr><tr><td align="left" rowspan="2" colspan="1">PEU</td><td align="left" rowspan="1" colspan="1">July 2013</td><td align="left" rowspan="1" colspan="1">PEU13W</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">1.756</td><td align="left" rowspan="1" colspan="1">0.255</td><td align="left" rowspan="1" colspan="1">0.246</td><td align="left" rowspan="1" colspan="1">&#x02212;0.034</td><td align="left" rowspan="1" colspan="1">1.549</td></tr><tr><td align="left" rowspan="1" colspan="1">October 2014</td><td align="left" rowspan="1" colspan="1">PEU14S</td><td align="left" rowspan="1" colspan="1">41</td><td align="left" rowspan="1" colspan="1">1.791</td><td align="left" rowspan="1" colspan="1">0.246</td><td align="left" rowspan="1" colspan="1">0.243</td><td align="left" rowspan="1" colspan="1">0.000</td><td align="left" rowspan="1" colspan="1">1.534</td></tr></tbody></table><table-wrap-foot><fn id="ece33574-note-0003"><p>
+<italic>N&#x000a0;=&#x000a0;</italic>sample size<italic>, N</italic>
+<sub>A</sub>&#x000a0;=&#x000a0;number of alleles<italic>, H</italic>
+<sub>O</sub>&#x000a0;=&#x000a0;observed heterozygosity<italic>, H</italic>
+<sub>E</sub>&#x000a0;=&#x000a0;expected heterozygosity<italic>, f&#x000a0;=&#x000a0;</italic>inbreeding coefficient<italic>, A</italic>
+<sub>R</sub>&#x000a0;=&#x000a0;allelic richness. Location name (three capital letters) is followed by year (i.e., 2013&#x000a0;=&#x000a0;13 or 2014&#x000a0;=&#x000a0;14) and season (i.e., winter&#x000a0;=&#x000a0;W or spring&#x000a0;=&#x000a0;S).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece33574-sec-0004"><label>2.2</label><title>Molecular procedures, exploratory analyses, and SNP selection</title><p>Genomic DNA was isolated using a NucleoSpin<sup>&#x000ae;</sup> (Macherey&#x02010;Nagel) kit following the manufacturer's instructions. We amplified 96&#x000a0;SNPs (Table&#x000a0;<xref rid="ece33574-sup-0001" ref-type="supplementary-material">S1</xref>) that yielded polymorphic multilocus genotypes in both native (Jones et&#x000a0;al., <xref rid="ece33574-bib-0047" ref-type="ref">2015</xref>) and naturalized rainbow trout populations (Benavente et&#x000a0;al., <xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) (Table&#x000a0;<xref rid="ece33574-sup-0002" ref-type="supplementary-material">S2</xref>). Multiplex PCR was carried out using Fluidigm<sup>&#x000ae;</sup> 96.96 dynamic array chips following Seeb, Pascal, Ramakrishnan, and Seeb (<xref rid="ece33574-bib-0080" ref-type="ref">2009</xref>) and procedures of Smith et&#x000a0;al. (<xref rid="ece33574-bib-0083" ref-type="ref">2011</xref>) for a pre&#x02010;amplification step to increase PCR copies under low template DNA concentration.</p><p>We conducted exact tests using default Markov chain parameters in GENEPOP 3.1 (Raymond &#x00026; Rousset, <xref rid="ece33574-bib-0076" ref-type="ref">1995</xref>; Rousset, <xref rid="ece33574-bib-0079" ref-type="ref">2008</xref>) for testing deviations from Hardy&#x02013;Weinberg equilibrium (HWE) proportions and linkage disequilibrium (LD) among loci. We filtered out all loci that showed significant deviations from HWE (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05). SNPs with the lowest information content within each group of loci in LD were also excluded. Information content was gauged by Shannon&#x02013;Weaver index calculated in GENALEX 6.5 software (Peakall &#x00026; Smouse, <xref rid="ece33574-bib-0069" ref-type="ref">2012</xref>).</p><p>We additionally explored the presence of siblings that may have occurred within our collections and indicative of family&#x02010;biased sampling, a concern that has motivated scientists to purge related individuals (Waples &#x00026; Anderson, <xref rid="ece33574-bib-0090" ref-type="ref">2017</xref>). Maximum likelihood estimates of relatedness among individuals were obtained using ML&#x02010;Relate (Kalinowski, Wagner, &#x00026; Taper, <xref rid="ece33574-bib-0049" ref-type="ref">2006</xref>) in order to classify individuals as unrelated, half&#x02010;sibs or full&#x02010;sibs within inlet stream collections for each lake.</p></sec><sec id="ece33574-sec-0005"><label>2.3</label><title>Hierarchical analysis of molecular variance (AMOVA)</title><p>We conducted a hierarchical analysis of molecular variance (AMOVA; Excoffier, Smouse, &#x00026; Quattro, <xref rid="ece33574-bib-0032" ref-type="ref">1992</xref>) in ARLEQUIN v3.5 (Excoffier &#x00026; Lischer, <xref rid="ece33574-bib-0031" ref-type="ref">2010</xref>) to evaluate the magnitude of spatial versus temporal variation and whether year collections from the same stream (i.e., year or season) should be pooled or kept separate. Hierarchical groups were variance components between year or season collections within streams (intrapopulation; <italic>F</italic>
+<sub>SC</sub>) and between streams (interpopulation; <italic>F</italic>
+<sub>CT</sub>) following Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>).</p></sec><sec id="ece33574-sec-0006"><label>2.4</label><title>Genetic diversity</title><p>We tested for significant differences between lakes on observed (<italic>H</italic>
+<sub>O</sub>) and expected heterozygosities (<italic>H</italic>
+<sub>E</sub>) and allelic richness (<italic>A</italic>
+<sub>R</sub>). Calculation of <italic>H</italic>
+<sub>O</sub> and <italic>H</italic>
+<sub>E</sub> was conducted in GENALEX; <italic>A</italic>
+<sub>R</sub> was estimated in HierFstat v0.04&#x02010;10 package (de Mee&#x000fb;s &#x00026; Goudet, <xref rid="ece33574-bib-0024" ref-type="ref">2007</xref>) implemented in R (R Core Team, <xref rid="ece33574-bib-0075" ref-type="ref">2015</xref>). Inbreeding coefficients (<italic>f</italic>) to evaluate deficit or excess of heterozygotes on deviations from HWE proportions were calculated in GENALEX. We built boxplots for each genetic diversity index and inlet stream within lakes and tested for statistical differences (<italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.05) between lakes using the nonparametric Mann&#x02013;Whitney <italic>U</italic> test in R.</p></sec><sec id="ece33574-sec-0007"><label>2.5</label><title>Genetic population structure and divergence within and between lakes</title><p>We employed three approaches to infer genetic divergence: (i) theta (<italic>&#x003b8;</italic>
+<sub>ST</sub>, Weir &#x00026; Cockerham, <xref rid="ece33574-bib-0093" ref-type="ref">1984</xref>) using GENEPOP, (ii) a Bayesian approach based on genetic clustering methods using STRUCTURE v.2.3.3 software (Falush, Stephens, &#x00026; Pritchard, <xref rid="ece33574-bib-0033" ref-type="ref">2003</xref>; Pritchard, Stephens, &#x00026; Donnelly, <xref rid="ece33574-bib-0072" ref-type="ref">2000</xref>), and (iii) discriminant analysis of principal components (DAPC) as part of ADEGENET v1.3&#x02010;1 for R (Jombart, <xref rid="ece33574-bib-0044" ref-type="ref">2008</xref>; Jombart &#x00026; Ahmed, <xref rid="ece33574-bib-0045" ref-type="ref">2011</xref>; Jombart, Devillard, &#x00026; Balloux, <xref rid="ece33574-bib-0046" ref-type="ref">2010</xref>). To estimate pairwise <italic>&#x003b8;</italic>
+<sub>ST</sub> values, we compared inlet streams between the two lakes and within each lake separately. To estimate significant differentiation between samples, we conducted Fisher's exact probability test (Markov chain parameters: dememorization number&#x000a0;=&#x000a0;1,000, number of batches&#x000a0;=&#x000a0;100 and number of iterations per batch&#x000a0;=&#x000a0;10,000) in GENEPOP. Using STRUCTURE, we tested <italic>K</italic> values ranging from one to five, with 50,000 iterations of burn&#x02010;in and a run length MCMC of 250,000; all these runs were replicated ten times. These runs were conducted using an ancestry mixture model and locality information priors to improve the detection of structure when genetic structure is weak (Hubisz, Falush, Stephens, &#x00026; Pritchard, <xref rid="ece33574-bib-0042" ref-type="ref">2009</xref>). We conducted this analysis for the entire dataset (both lakes) and by lake. We plotted &#x0201c;consensus&#x0201d; coefficients of individual membership using an R code following cluster matching and permutation in CLUMPP software (Jakobsson &#x00026; Rosenberg, <xref rid="ece33574-bib-0043" ref-type="ref">2007</xref>) to account for label switching artifacts and multimodality in each <italic>K</italic> tested. To choose the most likely <italic>K</italic> value from these analyses, we conducted the &#x00394;<italic>K</italic> Evanno's index (Evanno, Regnaut, &#x00026; Goudet, <xref rid="ece33574-bib-0030" ref-type="ref">2005</xref>) implemented in STRUCTURE HARVESTER website (Earl &#x00026; vonHoldt, <xref rid="ece33574-bib-0029" ref-type="ref">2012</xref>). Finally, we used DAPC to estimating and plotting individual pairwise genetic distances. DAPC reduces multivariate SNP multilocus data into two orthogonal axes and ignores assumptions (e.g., HWE, LD) often required in other individual&#x02010;based models.</p><p>We used a Mantel test to correlate standardized genetic (<italic>&#x003b8;</italic>
+<sub>ST</sub>/[1&#x000a0;&#x02212;&#x000a0;<italic>&#x003b8;</italic>
+<sub>ST</sub>]) and geographic distances to test for isolation by distance between inlet streams within each lake. The Mantel test was conducted in <italic>ade4</italic> software package based on 100,000 permutations (Chessel, Dufour, &#x00026; Thioulouse, <xref rid="ece33574-bib-0019" ref-type="ref">2004</xref>; Dray &#x00026; Dufour, <xref rid="ece33574-bib-0027" ref-type="ref">2007</xref>; Dray, Dufour, &#x00026; Chessel, <xref rid="ece33574-bib-0028" ref-type="ref">2007</xref>; Thioulouse, Chessel, Dol&#x000e9;dec, &#x00026; Olivier, <xref rid="ece33574-bib-0087" ref-type="ref">1997</xref>). Pairwise genetic distances were plotted against coastwise distances along lake shores (in km) that separated inlet streams estimated in QGIS (QGIS Development Team <xref rid="ece33574-bib-0073" ref-type="ref">2016</xref>), an open&#x02010;access geographic information system.</p></sec><sec id="ece33574-sec-0008"><label>2.6</label><title>Linkage disequilibrium estimates for the effective number of breeders (<italic>Nb</italic>)</title><p>We used Waples (<xref rid="ece33574-bib-0089" ref-type="ref">2006</xref>) method to estimate effective population size, which measures LD between unlinked loci to approximate genetic drift under the following assumptions: selective neutrality, discrete generations, and closed populations. Because rainbow trout have overlapping generations, LD reflects a quantity closer to <italic>N</italic>
+<sub>b</sub> per brood year rather than the effective population size (Waples &#x00026; Do, <xref rid="ece33574-bib-0091" ref-type="ref">2010</xref>). LD method is also robust to violations of the assumption of closed populations, granted migration rates are lower than 5% (Waples &#x00026; England, <xref rid="ece33574-bib-0092" ref-type="ref">2011</xref>). We estimated LD <italic>N</italic>
+<sub>b</sub> using a threshold frequency of 0.01 for screening out rare alleles in NeEstimator v2.0 software (Do et&#x000a0;al., <xref rid="ece33574-bib-0026" ref-type="ref">2014</xref>); we also assumed random mating, and 95% CIs for <italic>N</italic>
+<sub>b</sub> were calculated using jackknifing among pairs of loci. A Mann&#x02013;Whitney <italic>U</italic> test in R was implemented to test for significant differences in LD <italic>N</italic>
+<sub>b</sub> between lakes.</p></sec></sec><sec id="ece33574-sec-0009"><label>3</label><title>RESULTS</title><sec id="ece33574-sec-0010"><label>3.1</label><title>Exploratory analyses and SNP selection</title><p>We excluded one locus that deviated from HWE (<italic>Omy_mcsf_268&#x02010;A1</italic>), six loci that were found in LD with more informative markers (<italic>OMS00012, Omy_arp&#x02010;630, Omy_nkef&#x02010;308, Omy_dacd1&#x02010;131, Omy_U11_2a&#x02010;114, OMS00177</italic>), and three monomorphic markers (<italic>Ocl_Okerca, Ocl_oku202, Ocl_Oku216</italic>). This filtering procedure yielded a set of 86 reliable SNPs for subsequent analyses (Table&#x000a0;<xref rid="ece33574-sup-0001" ref-type="supplementary-material">S1</xref>).</p><p>We found no evidence for large numbers of siblings that may bias estimates of population differentiation or inference of genetic structure as all collections contained &#x0003e;85% of unrelated individuals. Also, the proportion of related individuals (half&#x02010; and full&#x02010;sibs) varied little across collections (10&#x02013;15%). We thus opted for retaining related individuals as the incidence of family structure was low (Waples &#x00026; Anderson, <xref rid="ece33574-bib-0090" ref-type="ref">2017</xref>).</p></sec><sec id="ece33574-sec-0011"><label>3.2</label><title>Hierarchical AMOVA</title><p>We found small but significant temporal variance among collections within streams for both lakes (Table&#x000a0;<xref rid="ece33574-tbl-0004" ref-type="table-wrap">4</xref>): Lake Llanquihue (<italic>F</italic>
+<sub>SC</sub>&#x000a0;=&#x000a0;0.004, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001) and Lake TLS (<italic>F</italic>
+<sub>SC</sub>&#x000a0;=&#x000a0;0.006, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). Spatial (interpopulation) variance was greater for rainbow trout from Lake TLS (<italic>F</italic>
+<sub>CT</sub>&#x000a0;=&#x000a0;0.012, <italic>p</italic>&#x000a0;=&#x000a0;.0009) than from Lake Llanquihue (<italic>F</italic>
+<sub>CT</sub>&#x000a0;=&#x000a0;0.001, <italic>p</italic>&#x000a0;=&#x000a0;.075). Based on these results, we followed Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) approach and kept all collections separate and considered them independent for subsequent tests involving contrasts between lakes.</p><table-wrap id="ece33574-tbl-0004" xml:lang="en" orientation="portrait" position="float"><label>Table 4</label><caption><p>Hierarchical analysis of molecular variance (AMOVA) to test for spatial versus temporal variation among naturalized rainbow trout in two Patagonian lakes</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Hierarchical groups</th><th align="left" valign="top" rowspan="1" colspan="1">% of variation</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>F</italic>&#x02010;statistics</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>p</italic>&#x02010;value</th></tr></thead><tbody><tr><td align="left" colspan="4" rowspan="1">Lake Llanquihue</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Between streams</td><td align="left" rowspan="1" colspan="1">0.13</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>CT</sub>&#x000a0;=&#x000a0;0.001</td><td align="left" rowspan="1" colspan="1">.075</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Between collections within streams</td><td align="left" rowspan="1" colspan="1">0.41</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>SC</sub>&#x000a0;=&#x000a0;0.004</td><td align="left" rowspan="1" colspan="1">&#x0003c;.001</td></tr><tr><td align="left" colspan="4" rowspan="1">Lake Todos Los Santos</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Between streams</td><td align="left" rowspan="1" colspan="1">1.23</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>CT</sub>&#x000a0;=&#x000a0;0.012</td><td align="left" rowspan="1" colspan="1">.0009</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Between collections within streams</td><td align="left" rowspan="1" colspan="1">0.62</td><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>SC</sub>&#x000a0;=&#x000a0;0.006</td><td align="left" rowspan="1" colspan="1">&#x0003c;.001</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece33574-sec-0012"><label>3.3</label><title>Genetic diversity</title><p>Range of values for all three parameters&#x02014;<italic>H</italic>
+<sub>O</sub>, <italic>H</italic>
+<sub>E</sub> and <italic>A</italic>
+<sub>R</sub>&#x02014;differed between Lake Llanquihue and Lake TLS (Figure&#x000a0;<xref rid="ece33574-fig-0002" ref-type="fig">2</xref>). <italic>H</italic>
+<sub>O</sub> ranged between 0.299 and 0.351 for Lake Llanquihue and between 0.242 and 0.277 for Lake TLS; <italic>H</italic>
+<sub>E</sub> between 0.317 and 0.341 for Lake Llanquihue and between 0.241 and 0.268 for Lake TLS; and <italic>A</italic>
+<sub>R</sub> ranged between 1.688 and 1.717 for Lake Llanquihue and between 1.534 and 1.591 for Lake TLS (Table&#x000a0;<xref rid="ece33574-tbl-0003" ref-type="table-wrap">3</xref>). Mean values for all parameters were greater for rainbow trout from Lake Llanquihue than from Lake TLS (all Mann&#x02013;Whitney <italic>U</italic> tests, <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;.001). Inbreeding coefficients <italic>f</italic> showed no evidence for heterozygote deficit or excess and were consistent with fit to HWE proportions within collections.</p><fig fig-type="Figure" xml:lang="en" id="ece33574-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Boxplots of genetic diversity for rainbow trout captured at inlet streams in two northern Patagonian lakes (Lake Llanquihue&#x000a0;=&#x000a0;red boxes; Lake Todos Los Santos&#x000a0;=&#x000a0;blue boxes). The upper panel shows observed heterozygosities (<italic>H</italic>
+<sub>O</sub>), the middle panel shows expected heterozygosities (<italic>H</italic>
+<sub>E</sub>), and the lower panel shows allelic richness (<italic>A</italic>
+<sub>R</sub>)</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-8-273-g002"/></fig></sec><sec id="ece33574-sec-0013"><label>3.4</label><title>Genetic population structure and divergence between and within lakes</title><p>Pairwise <italic>&#x003b8;</italic>
+<sub>ST</sub> ranged between &#x02212;0.022 and 0.156; the strongest divergence was found among rainbow trout from inlets located in different lakes (<italic>&#x003b8;</italic>
+<sub>ST</sub>&#x000a0;&#x0003e;&#x000a0;0.1: Table&#x000a0;<xref rid="ece33574-sup-0003" ref-type="supplementary-material">S3</xref>). Results from STRUCTURE assignment, based on &#x00394;<italic>K</italic> Evanno's index, strongly supported <italic>K</italic>&#x000a0;=&#x000a0;2 for the entire dataset (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>a). Separate analyses for each lake indicated that rainbow trout genotypes from Lake Llanquihue comprise one cluster (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>b); conversely, we found evidence for two genetic clusters within Lake TLS (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>c). Genetic clusters were consistent with an eastern&#x02013;western dichotomy: inlet streams CCH&#x02010;CAY&#x02010;PEU versus LEO, with ESC showing intermediate <italic>Q</italic>&#x02010;values to each cluster. DAPC confirmed strong differentiation by lake (Figure&#x000a0;<xref rid="ece33574-fig-0003" ref-type="fig">3</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece33574-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Scatterplot of individual rainbow trout genotypes from discriminant analyses of principal components sampled from Lake Llanquihue (red circles) and Lake Todos Los Santos (blue circles). Genotypes were probabilistically assigned to two clusters</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-8-273-g003"/></fig><p>Patterns of isolation by distance differed significantly between lakes. Rainbow trout from Lake Llanquihue showed no significant relationship between genetic and geographic distances, whereas rainbow trout from Lake TLS exhibited a significant relationship (Figure&#x000a0;<xref rid="ece33574-fig-0004" ref-type="fig">4</xref>; <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.267; <italic>p</italic>&#x000a0;=&#x000a0;.001).</p><fig fig-type="Figure" xml:lang="en" id="ece33574-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Relationship between linearized genetic (<italic>&#x003f4;</italic>
+<sub>ST</sub>/[1&#x000a0;&#x02212;&#x000a0;<italic>&#x003f4;</italic>
+<sub>ST</sub>]) and geographic distances among rainbow trout collections from Lake Llanquihue (red circles) and Lake Todos Los Santos (blue circles). Determination coefficients (<italic>R</italic>
+<sup>2</sup>) and <italic>p</italic>&#x02010;values for regression models are shown above the graph</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-8-273-g004"/></fig></sec><sec id="ece33574-sec-0014"><label>3.5</label><title>Effective number of breeders from linkage disequilibrium (<italic>N</italic>
+<sub>b</sub>)</title><p>Estimates of LD <italic>N</italic>
+<sub>b</sub> were larger for rainbow trout from Lake Llanquihue than from Lake TLS (Table&#x000a0;<xref rid="ece33574-tbl-0005" ref-type="table-wrap">5</xref>; Mann&#x02013;Whitney <italic>U</italic> test&#x000a0;=&#x000a0;85; <italic>p</italic>&#x02010;value &#x0003c;.01). All point estimates were finite and bound by finite 95% CIs. Values for LD <italic>N</italic>
+<sub>b</sub> ranged between 86 and 223 individuals (average&#x000a0;=&#x000a0;139; median&#x000a0;=&#x000a0;126) for Lake Llanquihue and between 13 and 164 individuals (average&#x000a0;=&#x000a0;55; median&#x000a0;=&#x000a0;40) for Lake TLS.</p><table-wrap id="ece33574-tbl-0005" xml:lang="en" orientation="portrait" position="float"><label>Table 5</label><caption><p>Linkage disequilibrium (LD) estimates (plus 95% CI) for the effective number of breeders for rainbow trout populating inlet streams of Lake Llanquihue and Lake Todos Los Santos</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Lake</th><th align="left" valign="top" rowspan="1" colspan="1">Inlet stream</th><th align="left" valign="top" rowspan="1" colspan="1">LD <italic>N</italic>
+<sub>b</sub>
+</th><th align="left" valign="top" rowspan="1" colspan="1">95% CI</th></tr></thead><tbody><tr><td align="left" rowspan="8" colspan="1">Llanquihue</td><td align="left" rowspan="1" colspan="1">PES13W</td><td align="left" rowspan="1" colspan="1">121</td><td align="left" rowspan="1" colspan="1">79.6&#x02013;228.2</td></tr><tr><td align="left" rowspan="1" colspan="1">PES14S</td><td align="left" rowspan="1" colspan="1">187</td><td align="left" rowspan="1" colspan="1">100.7&#x02013;864.5</td></tr><tr><td align="left" rowspan="1" colspan="1">BLA13W</td><td align="left" rowspan="1" colspan="1">98</td><td align="left" rowspan="1" colspan="1">78.9&#x02013;126.8</td></tr><tr><td align="left" rowspan="1" colspan="1">BLA14S</td><td align="left" rowspan="1" colspan="1">147</td><td align="left" rowspan="1" colspan="1">107&#x02013;222.5</td></tr><tr><td align="left" rowspan="1" colspan="1">TEP13W</td><td align="left" rowspan="1" colspan="1">119</td><td align="left" rowspan="1" colspan="1">94.4&#x02013;157.7</td></tr><tr><td align="left" rowspan="1" colspan="1">TEP14S</td><td align="left" rowspan="1" colspan="1">132</td><td align="left" rowspan="1" colspan="1">100.6&#x02013;183.1</td></tr><tr><td align="left" rowspan="1" colspan="1">BAR13W</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">61.6&#x02013;132.9</td></tr><tr><td align="left" rowspan="1" colspan="1">BAR14S</td><td align="left" rowspan="1" colspan="1">223</td><td align="left" rowspan="1" colspan="1">146.9&#x02013;423.9</td></tr><tr><td align="left" rowspan="12" colspan="1">Todos Los Santos</td><td align="left" rowspan="1" colspan="1">LEO13W</td><td align="left" rowspan="1" colspan="1">48</td><td align="left" rowspan="1" colspan="1">40.3&#x02013;57.3</td></tr><tr><td align="left" rowspan="1" colspan="1">LEO14W</td><td align="left" rowspan="1" colspan="1">47</td><td align="left" rowspan="1" colspan="1">34.6&#x02013;69.1</td></tr><tr><td align="left" rowspan="1" colspan="1">LEO14S</td><td align="left" rowspan="1" colspan="1">34</td><td align="left" rowspan="1" colspan="1">27.7&#x02013;42.7</td></tr><tr><td align="left" rowspan="1" colspan="1">ESC13W</td><td align="left" rowspan="1" colspan="1">67</td><td align="left" rowspan="1" colspan="1">50.5&#x02013;93.7</td></tr><tr><td align="left" rowspan="1" colspan="1">ESC14W</td><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">15.5&#x02013;24.1</td></tr><tr><td align="left" rowspan="1" colspan="1">ESC13S</td><td align="left" rowspan="1" colspan="1">30</td><td align="left" rowspan="1" colspan="1">18.2&#x02013;63.2</td></tr><tr><td align="left" rowspan="1" colspan="1">ESC14S</td><td align="left" rowspan="1" colspan="1">29</td><td align="left" rowspan="1" colspan="1">24.2&#x02013;35.6</td></tr><tr><td align="left" rowspan="1" colspan="1">CCH13W</td><td align="left" rowspan="1" colspan="1">139</td><td align="left" rowspan="1" colspan="1">101.3&#x02013;208.2</td></tr><tr><td align="left" rowspan="1" colspan="1">CCH14S</td><td align="left" rowspan="1" colspan="1">164</td><td align="left" rowspan="1" colspan="1">115.7&#x02013;261.2</td></tr><tr><td align="left" rowspan="1" colspan="1">CAY13W</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">9.2&#x02013;18.8</td></tr><tr><td align="left" rowspan="1" colspan="1">PEU14W</td><td align="left" rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">16.4&#x02013;34.8</td></tr><tr><td align="left" rowspan="1" colspan="1">PEU14S</td><td align="left" rowspan="1" colspan="1">46</td><td align="left" rowspan="1" colspan="1">34.6&#x02013;65.8</td></tr></tbody></table><table-wrap-foot><fn id="ece33574-note-0004"><p>Location names (three capital letters) correspond to inlet stream abbreviations followed by two&#x02010;digit years (2013, 2014) and season (winter&#x000a0;=&#x000a0;W, spring&#x000a0;=&#x000a0;S).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec></sec><sec id="ece33574-sec-0015"><label>4</label><title>DISCUSSION</title><p>We evaluated how different pathways of rainbow trout invasion, exemplified by two Patagonian lakes with and without the influence of trout aquaculture, have resulted in differences in population genetics metrics and patterns such as diversity, structure, divergence, and effective number of breeders (LD <italic>N</italic>
+<sub>b</sub>). Using a suite of 86 SNPs, we found higher genetic diversity and larger estimates of number of breeders in Lake Llanquihue, a lake heavily influenced by aquaculture escapes and subject therefore to higher propagule pressure than Lake TLS. Genetic structure and a significant isolation&#x02010;by&#x02010;distance pattern were evident in Lake TLS, but not in Lake Llanquihue, in line with secondary contact between two introductions in opposite shores of the lake. Divergence between lakes was also large, suggesting trout inhabiting these two lakes originated from different donor populations.</p><sec id="ece33574-sec-0016"><label>4.1</label><title>Genetic diversity</title><p>Genetic diversity parameters (i.e., <italic>H</italic>
+<sub>O</sub>, <italic>H</italic>
+<sub>E</sub>, <italic>A</italic>
+<sub>R</sub>) were higher for trout from Lake Llanquihue than from Lake TLS. We hypothesize that high propagule pressure from late aquaculture escapes, which followed an early and brief stocking phase, explain these differences. From 1910 to 1916, between 50,000 and 100,000 rainbow trout eggs were imported from Germany and maintained in a temporary hatchery located at the outlet of Lake Llanquihue, Maullin River, for stocking purposes (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>). The German stocks originated from hatcheries from Northville, Michigan, and Wytheville, Virginia; the Michigan and Virginia stocks were derived from Baird Station at McCloud River, California (Stankovi&#x00107;, Crivelli, &#x00026; Snoj, <xref rid="ece33574-bib-0085" ref-type="ref">2015</xref>), suggesting rainbow trout from Lake Llanquihue can also be traced back to their native origin (MacCrimmon, <xref rid="ece33574-bib-0061" ref-type="ref">1971</xref>). Pilot aquaculture projects (1969&#x02013;1979) followed, which reported &#x0201c;massive&#x0201d; escapes (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>), and subsequent rapid growth of the aquaculture industry in freshwater lakes after 1980 (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0002" ref-type="ref">2014</xref>). Currently, Lake Llanquihue concentrates the highest number of aquaculture facilities among lakes in the northern Patagonia region (Le&#x000f3;n&#x02010;Mu&#x000f1;oz et&#x000a0;al., <xref rid="ece33574-bib-0056" ref-type="ref">2007</xref>). Escapes of salmonids could be in the order of million individuals annually, with rainbow trout possibly reaching hundreds of thousands of escaped individuals, especially in freshwater lakes, though disaggregated data by location are lacking (Sep&#x000fa;lveda et&#x000a0;al., <xref rid="ece33574-bib-0081" ref-type="ref">2013</xref>).</p><p>High genetic diversity linked to propagule pressure may be a consequence of demographic effects such as high abundance, genetic effects such as admixture between divergent sources (Roman &#x00026; Darling, <xref rid="ece33574-bib-0078" ref-type="ref">2007</xref>; Simberloff, <xref rid="ece33574-bib-0082" ref-type="ref">2009</xref>), or both. First, Arismendi et&#x000a0;al. (<xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>) estimated one the highest abundances of rainbow trout in Lake Llanquihue among several other lakes impacted by trout aquaculture. Second, Consuegra, Phillips, Gajardo, and Garcia de Leaniz (<xref rid="ece33574-bib-0021" ref-type="ref">2011</xref>) reported that admixture between naturalized and aquaculture&#x02010;escaped rainbow trout increased genetic diversity, and Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) demonstrated that aquaculture&#x02010;escaped rainbow trout often have higher genetic diversity than naturalized, and even native, rainbow trout populations. These studies support the notion that an invasion pathway originating from unintentional escapes from aquaculture, and similar practices among cultivable species, could enhance genetic diversity and reduce genetic drift via increased propagule pressure (Simberloff, <xref rid="ece33574-bib-0082" ref-type="ref">2009</xref>; Wilson et&#x000a0;al., <xref rid="ece33574-bib-0095" ref-type="ref">2009</xref>).</p><p>The invasion pathway for rainbow trout within Lake TLS likely resulted from two discrete stocking events, one documented and one undocumented, unlike continuous propagation as hypothesize for Lake Llanquihue. In 1932, anglers stocked Negro River near PEU (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>), the easternmost location of the lake (Basulto, <xref rid="ece33574-bib-0008" ref-type="ref">2003</xref>). Additional stocking in western inlet rivers (e.g., LEO) may have occurred mid&#x02010;century (R. Yefi, pers. comm. 2016) or around 1980s (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>), though no official records exist. Nonetheless, our results make plausible the hypothesis of more than one introduction in opposite shores of the lake (see next section, <xref rid="ece33574-sec-0017" ref-type="sec">Genetic population structure and divergence</xref>). Establishment of trout was likely mediated by lower propagule pressure than in the case of Lake Llanquihue, suggesting populations at Lake TLS (i) were founded by a small number of individuals (i.e., founder effect), (ii) underwent genetic bottlenecks postestablishment, or both. Even established non&#x02010;native populations of low genetic diversity may drive successful invasions (Chapple, Miller, Kraus, &#x00026; Thompson, <xref rid="ece33574-bib-0018" ref-type="ref">2013</xref>; Dlugosch &#x00026; Parker, <xref rid="ece33574-bib-0025" ref-type="ref">2008</xref>; Kawamura et&#x000a0;al., <xref rid="ece33574-bib-0050" ref-type="ref">2010</xref>). Rainbow trout that colonized Lake TLS is no exception as they encompass abundant populations (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>; Soto et&#x000a0;al., <xref rid="ece33574-bib-0084" ref-type="ref">2006</xref>), implying there are yet unanswered questions on the relationship between genetic diversity and invasion success (Barrett, <xref rid="ece33574-bib-0006" ref-type="ref">2015</xref>; Bock et&#x000a0;al., <xref rid="ece33574-bib-0011" ref-type="ref">2015</xref>).</p></sec><sec id="ece33574-sec-0017"><label>4.2</label><title>Genetic population structure and divergence</title><p>Both population&#x02010; and individual&#x02010;based inference from various approaches showed consistent results: genetic divergence was large between rainbow trout populating Lake Llanquihue and Lake TLS. Donor trout populations were likely different between lakes, though this hypothesis is difficult to test given no background information on trout origin for Lake TLS is available. Many genetically distinct broodstocks of rainbow trout were imported to Chile for aquaculture (C&#x000e1;rcamo, D&#x000ed;az, &#x00026; Winkler, <xref rid="ece33574-bib-0015" ref-type="ref">2015</xref>), and hybridization between varieties and lineages was a common hatchery practice. Additionally, hybridization between aquaculture and naturalized trout may have occurred in the wild as explored by previous studies (Benavente et&#x000a0;al., <xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>; Consuegra et&#x000a0;al., <xref rid="ece33574-bib-0021" ref-type="ref">2011</xref>). These factors may explain the observed genetic differences between lakes, which were possibly further enhanced by a strong founder effect and genetic drift among rainbow trout from Lake TLS.</p><p>Within lakes, we found contrasting patterns of genetic structure; for instance, we observed weak genetic structure for rainbow trout within Lake Llanquihue. Native ad&#x02010;fluvial trout have evolved significant genetic structure and divergence (Knudsen, Muhlfeld, Sage, &#x00026; Leary, <xref rid="ece33574-bib-0052" ref-type="ref">2002</xref>; Leitwein, Garza, &#x00026; Pearse, <xref rid="ece33574-bib-0055" ref-type="ref">2017</xref>), and other naturalized ad&#x02010;fluvial trout have also shown significant genetic differentiation (Krueger &#x00026; May, <xref rid="ece33574-bib-0054" ref-type="ref">1987</xref>). Weak genetic structure in Lake Llanquihue rainbow trout may result from increased genetic diversity via admixture, which may in turn increase dispersal rates (and thus expansion) among salmonid populations. Bartron and Scribner (<xref rid="ece33574-bib-0007" ref-type="ref">2004</xref>) reported weak genetic structure as well as temporal changes in genetic diversity and spatial genetic structure as a result of hatchery supplementation on Lake Michigan naturalized steelhead salmon populations. Candy and Beacham (<xref rid="ece33574-bib-0014" ref-type="ref">2000</xref>) used coded&#x02010;wire tagged Chinook salmon from British Columbia populations to conclude that a stock of hybrid origin was three times more likely to disperse than a natal stock released at the same location. Boyer et&#x000a0;al. (<xref rid="ece33574-bib-0013" ref-type="ref">2008</xref>) demonstrated that hybrids between invasive rainbow and native cutthroat show increased straying rates, which may facilitate rainbow trout invasion and introgression between these two taxa. Both phenotypic and behavioral changes induced by admixture and introgression resulting from aquaculture practices may influence gene flow and thus alter genetic structure (Bolstad et&#x000a0;al., <xref rid="ece33574-bib-0012" ref-type="ref">2017</xref>; Perrier, Guyomard, Bagliniere, Nikolic, &#x00026; Evanno, <xref rid="ece33574-bib-0070" ref-type="ref">2013</xref>; Waples, <xref rid="ece33574-bib-0088" ref-type="ref">1991</xref>).</p><p>In contrast, rainbow trout in Lake TLS showed larger genetic divergence than in Lake Llanquihue, evidence for two genetic clusters, and a pattern of isolation by distance. Increased genetic drift from propagules of small size may provide more opportunity for divergence to occur following successful establishment (Kawamura et&#x000a0;al., <xref rid="ece33574-bib-0050" ref-type="ref">2010</xref>; Roman &#x00026; Darling, <xref rid="ece33574-bib-0078" ref-type="ref">2007</xref>). The presence of two clusters suggests that more than one introduction from at least two different lineages occurred in Lake TLS, though the actual numbers of stocking events and distinct donor populations are uncertain. Our finding is consistent with two stocking events (i.e., documented and undocumented, Table&#x000a0;<xref rid="ece33574-tbl-0001" ref-type="table-wrap">1</xref>) in the eastern and western shores of Lake TLS and the most divergent inlet streams: LEO and PEU (Figure&#x000a0;<xref rid="ece33574-fig-0001" ref-type="fig">1</xref>). Secondary contact between feral and farmed populations was behind an isolation&#x02010;by&#x02010;distance pattern found in non&#x02010;native American mink invading Europe (Bifolchi, Picard, Lemaire, Cormier, &#x00026; Pagano, <xref rid="ece33574-bib-0010" ref-type="ref">2010</xref>). We hypothesize that eastern (LEO) and western (PEU) rainbow trout, which were propagated from different introduction events, came into contact and resulted in admixed individuals at some streams located in the middle of Lake TLS, namely ESC.</p><p>Lake Llanquihue and Lake TLS differ significantly in geomorphology: the former has convex coast lines that may promote gene flow, while the latter has concave coast lines that may restrict gene flow. Evidence from native salmonids demonstrates that drainage geomorphology may promote or restrict gene flow among populations (Carlsson &#x00026; Nilsson, <xref rid="ece33574-bib-0016" ref-type="ref">2001</xref>; Whiteley, Spruell, &#x00026; Allendorf, <xref rid="ece33574-bib-0094" ref-type="ref">2004</xref>), although much less is known in relation to naturalized salmonids. Love, Maggs, Murray, and Provan (<xref rid="ece33574-bib-0059" ref-type="ref">2013</xref>) report that gene flow among invasive riparian plants is dependent on river flow and geomorphology, suggesting that habitat physical attributes may rapidly influence genetic structure in colonizing species.</p><p>Overall, different invasion pathways of rainbow trout that varied in propagule pressure for Lake Llanquihue and Lake TLS may explain differences in genetic structure and gene flow between these two Patagonian lakes. However, additional sources of variation between lakes are worth discussing, namely origin of donor populations and effects of lake geomorphology on dispersal among ad&#x02010;fluvial trout populations. It is also important to notice that we still have a limited understanding of how adaptive divergence unfolds among naturalized rainbow trout populations in different environments, for example with and without influence of aquaculture. Monz&#x000f3;n&#x02010;Arg&#x000fc;ello, Consuegra, et&#x000a0;al. (<xref rid="ece33574-bib-0062" ref-type="ref">2014</xref>) found that &#x0201c;secondary releases&#x0201d; (when referring to aquaculture escapes) have driven phenotypic divergence among naturalized rainbow trout from the Lake District in Chile. Recently, Bolstad et&#x000a0;al. (<xref rid="ece33574-bib-0012" ref-type="ref">2017</xref>) evidenced that gene flow from domesticated to wild Atlantic salmon influences sea age at maturity. We therefore encourage further studies relying on size&#x02010;related phenotypic and quantitative traits to test whether adaptive divergence among rainbow trout varies between environments with and without the influence of aquaculture.</p></sec><sec id="ece33574-sec-0018"><label>4.3</label><title>Effective number of breeders (LD <italic>N</italic>
+<sub>b</sub>)</title><p>Estimates for the effective number of breeders using LD (<italic>N</italic>
+<sub>b</sub>) were larger for rainbow trout from Lake Llanquihue than from Lake TLS. Estimates of LD <italic>N</italic>
+<sub>b</sub> from this study were consistent with Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) for individuals sampled during 2012 and 2013 at Lake Llanquihue, although with some nuances based on the fact that Benavente et&#x000a0;al. (<xref rid="ece33574-bib-0009" ref-type="ref">2015</xref>) used 81 SNPs. Results from both studies are consistent with increased genetic drift and significant temporal genetic variance estimated over three&#x000a0;years of sampling for trout populations from Lake Llanquihue. Significant temporal variation was also found for trout from Lake TLS.</p><p>Our LD <italic>N</italic>
+<sub>b</sub> results are in line with findings showing higher genetic diversity for Lake Llanquihue and lower genetic diversity for Lake TLS. Artificially propagated populations resulting from multiple introduction events may show effective population sizes greater than naturally propagated ones as seen in introduced vendace <italic>Coregonus albula</italic> in Europe (Pr&#x000e6;bel et&#x000a0;al., <xref rid="ece33574-bib-0071" ref-type="ref">2013</xref>) and brook trout in North America (Neville &#x00026; Bernatchez, <xref rid="ece33574-bib-0066" ref-type="ref">2013</xref>). However, Narum et&#x000a0;al. (<xref rid="ece33574-bib-0065" ref-type="ref">2017</xref>) recently found that estimates of LD <italic>N</italic>
+<sub>b</sub> among Chinook salmon <italic>Oncorhynchus tshawytscha</italic> populations introduced in Patagonia were smaller than among native populations, suggesting that there may be exceptions to these findings.</p><p>Other factors may also interact with the magnitude of propagule pressure to explaining differences in LD <italic>N</italic>
+<sub>b</sub> between rainbow trout inhabiting Lake Llanquihue and Lake TLS. First, differences in habitat quality and quantity between lakes may influence population abundance, and indirectly, LD <italic>N</italic>
+<sub>b</sub>, as reported in other salmonids (Fraser, Lipp&#x000e9;, &#x00026; Bernatchez, <xref rid="ece33574-bib-0036" ref-type="ref">2004</xref>; Gomez&#x02010;Uchida, Dunphy, O'Connell, &#x00026; Ruzzante, <xref rid="ece33574-bib-0038" ref-type="ref">2008</xref>). Rainbow trout is the dominant species within Lake Llanquihue, whereas rainbow trout have to coexist with abundant populations of brown trout and native fishes within Lake TLS (Arismendi et&#x000a0;al., <xref rid="ece33574-bib-0004" ref-type="ref">2009</xref>). Second, life history parameters for rainbow trout may vary between lakes, namely sex ratio, variation in offspring number and family size, and generation length. Third, violation of the assumption of closed populations may also explain differences in trout LD <italic>N</italic>
+<sub>b</sub> between lakes. Waples and England (<xref rid="ece33574-bib-0092" ref-type="ref">2011</xref>) concluded that when migration rates are higher than 5&#x02013;10%, local estimates of effective population size via LD will converge toward the effective metapopulation size. This could potentially be the case of Lake Llanquihue rainbow trout as we observed weak genetic structure using clustering methods and genetic differentiation was small (<italic>&#x003b8;</italic>
+<sub>ST</sub>&#x000a0;&#x0003c;&#x000a0;0.01), suggesting estimates of LD <italic>N</italic>
+<sub>b</sub> are potentially converging toward the effective number of breeders in the entire metapopulation, meta&#x02010;<italic>N</italic>
+<sub>b</sub>. Yet, differences in meta&#x02010;<italic>N</italic>
+<sub>b</sub> for rainbow trout between lakes could persist if meta&#x02010;<italic>N</italic>
+<sub>b</sub> is much smaller than the sum of local LD <italic>N</italic>
+<sub>b</sub>, which may occur under gene flow asymmetry between populations (e.g., Gomez&#x02010;Uchida, Palstra, Knight, &#x00026; Ruzzante, <xref rid="ece33574-bib-0039" ref-type="ref">2013</xref>).</p><p>Small effective population size (and <italic>N</italic>
+<sub>b</sub>) among native populations has been related to a high risk of extinction from genetic stochasticity (Palstra &#x00026; Ruzzante, <xref rid="ece33574-bib-0067" ref-type="ref">2008</xref>). Although many introduced species undertake identical processes during the establishment phase, they have shown to increase their geographical ranges and successfully invade (Kolbe et&#x000a0;al., <xref rid="ece33574-bib-0053" ref-type="ref">2004</xref>). An extreme example has been recorded in lake trout <italic>Salvelinus namaycush</italic> with a founding size of only two individuals that established a self&#x02010;sustaining population (Kalinowski, Muhlfeld, Guy, &#x00026; Cox, <xref rid="ece33574-bib-0048" ref-type="ref">2010</xref>). Recent findings reinforce the notion that even populations of small effective population size may be influenced by selective regimes in their native (Fraser, Debes, Bernatchez, &#x00026; Hutchings, <xref rid="ece33574-bib-0035" ref-type="ref">2014</xref>) and introduced environments (Kawamura et&#x000a0;al., <xref rid="ece33574-bib-0050" ref-type="ref">2010</xref>), and that deterministic processes and adaptive divergence may mediate successful invasions even when LD <italic>N</italic>
+<sub>b</sub> is small.</p></sec></sec><sec id="ece33574-sec-0020"><title>CONFLICT OF INTEREST</title><p>None declared.</p></sec><sec id="ece33574-sec-0021"><title>DATA ARCHIVING STATEMENT</title><p>Data available from the Dryad Digital Repository at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.gd844">https://doi.org/10.5061/dryad.gd844</ext-link>.</p></sec><sec id="ece33574-sec-0022"><title>AUTHORS' CONTRIBUTIONS</title><p>Conception or design of the work: DG&#x02010;U IA LWS JES GG. Acquisition, analysis, or interpretation of data for the work: CBC&#x02010;A MIA SSM RG DG&#x02010;U. Drafting the work or revising it critically for important intellectual content: CBC&#x02010;A LWS JES IA GG SSM DG&#x02010;U. Final approval of the version to be published: all authors. Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved: all authors.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece33574-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-8-273-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece33574-sup-0002"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-8-273-s002.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece33574-sup-0003"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-8-273-s003.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece33574-sec-0019"><title>ACKNOWLEDGMENTS</title><p>Francisca Valenzuela, Diego Ca&#x000f1;as, Mauricio Ca&#x000f1;as, Patricia Beristain, Jos&#x000e9; Sanzana, Ignacio Yefi, Marco Yefi and Ren&#x000e9; Vargas helped during sample collections making fieldwork very gratifying. Rene Yefi, Luis Opazo Sr, Luis Opazo Jr, and Paolo Silva and their recreational fishing organizations supported this study. Carita Pascal performed SNP genotyping, allele scoring, and management of genotypes. We thank Paul Debes and Roc&#x000ed;o Perez&#x02010;Portela for online discussions on some analyses. Fred Utter, Jacques Labonne and two anonymous referees reviewed critically earlier manuscript versions. This research was funded by Chile's government grants FONDECYT 1130807, FONDECYT POSTDOCTORADO 3150456, and grants VRID 212.113.082&#x02013;1.0 and 216.113.090&#x02010;1.0 from Universidad de Concepcion. N&#x000fa;cleo Milenio INVASAL funded by Iniciativa Cient&#x000ed;fica Milenio from Chile's Ministerio de Econom&#x000ed;a, Fomento &#x00026; Turismo provided additional resources to complete the study.</p></ack><ref-list content-type="cited-references" id="ece33574-bibl-0001"><title>REFERENCES</title><ref id="ece33574-bib-0001"><mixed-citation publication-type="journal" id="ece33574-cit-0001">
+<string-name>
+<surname>Ackerman</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Habicht</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Seeb</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>2011</year>). <article-title>Single&#x02010;nucleotide polymorphisms (SNPs) under diversifying selection provide increased accuracy and precision in mixed&#x02010;stock analyses of sockeye salmon from the Copper River, Alaska</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>140</volume>, <fpage>865</fpage>&#x02013;<lpage>881</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00028487.2011.588137">https://doi.org/10.1080/00028487.2011.588137</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0002"><mixed-citation publication-type="journal" id="ece33574-cit-0002">
+<string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Penaluna</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Dunham</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Fleming</surname>, <given-names>I. A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Le&#x000f3;n&#x02010;Mu&#x000f1;oz</surname>, <given-names>J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Differential invasion success of salmonids in southern Chile: Patterns and hypotheses</article-title>. <source>Reviews in Fish Biology and Fisheries</source>, <volume>24</volume>, <fpage>919</fpage>&#x02013;<lpage>941</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11160-014-9351-0">https://doi.org/10.1007/s11160-014-9351-0</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0003"><mixed-citation publication-type="journal" id="ece33574-cit-0003">
+<string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Sanzana</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name> (<year>2011</year>). <article-title>Seasonal age distributions and maturity stage in a naturalized rainbow trout (<italic>Oncorhynchus mykiss</italic> Walbaum) population in southern Chile reveal an ad&#x02010;fluvial life history</article-title>. <source>Annales de Limnologie &#x02013; International Journal of Limnology</source>, <volume>47</volume>, <fpage>133</fpage>&#x02013;<lpage>140</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1051/limn/2011012">https://doi.org/10.1051/limn/2011012</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0004"><mixed-citation publication-type="journal" id="ece33574-cit-0004">
+<string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Penaluna</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Jara</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Leal</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Le&#x000f3;n&#x02010;Mu&#x000f1;oz</surname>, <given-names>J. O. R. G. E.</given-names>
+</string-name> (<year>2009</year>). <article-title>Aquaculture, non&#x02010;native salmonid invasions and associated declines of native fishes in Northern Patagonian lakes</article-title>. <source>Freshwater Biology</source>, <volume>54</volume>, <fpage>1135</fpage>&#x02013;<lpage>1147</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/fwb.2009.54.issue-5">https://doi.org/10.1111/fwb.2009.54.issue-5</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0005"><mixed-citation publication-type="journal" id="ece33574-cit-0005">
+<string-name>
+<surname>Aykanat</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Johnston</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Orell</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Niemel&#x000e4;</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Erkinaro</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Primmer</surname>, <given-names>C. R.</given-names>
+</string-name> (<year>2015</year>). <article-title>Low but significant genetic differentiation underlies biologically meaningful phenotypic divergence in a large Atlantic salmon population</article-title>. <source>Molecular Ecology</source>, <volume>24</volume>, <fpage>5158</fpage>&#x02013;<lpage>5174</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.13383">https://doi.org/10.1111/mec.13383</ext-link>
+<pub-id pub-id-type="pmid">26363183</pub-id></mixed-citation></ref><ref id="ece33574-bib-0006"><mixed-citation publication-type="journal" id="ece33574-cit-0006">
+<string-name>
+<surname>Barrett</surname>, <given-names>S. C.</given-names>
+</string-name> (<year>2015</year>). <article-title>Foundations of invasion genetics: The Baker and Stebbins legacy</article-title>. <source>Molecular Ecology</source>, <volume>24</volume>, <fpage>1927</fpage>&#x02013;<lpage>1941</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2015.24.issue-9">https://doi.org/10.1111/mec.2015.24.issue-9</ext-link>
+<pub-id pub-id-type="pmid">25442107</pub-id></mixed-citation></ref><ref id="ece33574-bib-0007"><mixed-citation publication-type="book" id="ece33574-cit-0007">
+<string-name>
+<surname>Bartron</surname>, <given-names>M. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Scribner</surname>, <given-names>K. T.</given-names>
+</string-name> (<year>2004</year>). <chapter-title>Temporal comparisons of genetic diversity in lake Michigan steelhead, <italic>Oncorhynchus mykiss</italic>, populations: Effects of hatchery supplementation</chapter-title> In: <person-group person-group-type="editor"><name><surname>Gharrett</surname><given-names>A. J.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Gustafson</surname><given-names>R. G.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Nielsen</surname><given-names>J. L.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Seeb</surname><given-names>J. E.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Seeb</surname><given-names>L. W.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Smoker</surname><given-names>W. W.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Thorgaard</surname><given-names>G. H.</given-names></name></person-group> &#x00026; <person-group person-group-type="editor"><name><surname>Wilmot</surname><given-names>R. L.</given-names></name></person-group> (Eds.), <source>Genetics of subpolar fish and invertebrates. Developments in environmental biology of fishes</source> (Vol 23, pp. <fpage>395</fpage>&#x02013;<lpage>407</lpage>). <publisher-loc>Dordrecht, the Netherlands</publisher-loc>: <publisher-name>Springer</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-94-007-0983-6">https://doi.org/10.1007/978-94-007-0983-6</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0008"><mixed-citation publication-type="book" id="ece33574-cit-0008">
+<string-name>
+<surname>Basulto</surname>, <given-names>S.</given-names>
+</string-name> (<year>2003</year>). <source>El largo viaje de los salmones: Una cr&#x000f3;nica olvidada: Propagaci&#x000f3;n y cultivo de especies acu&#x000e1;ticas en Chile</source>. <publisher-loc>Santiago, Chile</publisher-loc>: <publisher-name>Editorial Marval, Ltda</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0009"><mixed-citation publication-type="journal" id="ece33574-cit-0009">
+<string-name>
+<surname>Benavente</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>, <given-names>L. W.</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Hern&#x000e1;ndez</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Gomez&#x02010;Uchida</surname>, <given-names>D.</given-names>
+</string-name> (<year>2015</year>). <article-title>Temporal genetic variance and propagule&#x02010;driven genetic structure characterize naturalized rainbow trout (<italic>Oncorhynchus mykiss</italic>) from a Patagonian lake impacted by trout farming</article-title>. <source>PLoS One</source>, <volume>10</volume>, <fpage>e0142040</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0142040">https://doi.org/10.1371/journal.pone.0142040</ext-link>
+<pub-id pub-id-type="pmid">26544983</pub-id></mixed-citation></ref><ref id="ece33574-bib-0010"><mixed-citation publication-type="journal" id="ece33574-cit-0010">
+<string-name>
+<surname>Bifolchi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Picard</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Lemaire</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Cormier</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pagano</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <article-title>Evidence of admixture between differentiated genetic pools at a regional scale in an invasive carnivore</article-title>. <source>Conservation Genetics</source>, <volume>11</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10592-008-9780-1">https://doi.org/10.1007/s10592-008-9780-1</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0011"><mixed-citation publication-type="journal" id="ece33574-cit-0011">
+<string-name>
+<surname>Bock</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Caseys</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Cousens</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Hahn</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Heredia</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000fc;bner</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rieseberg</surname>, <given-names>L. H.</given-names>
+</string-name> (<year>2015</year>). <article-title>What we still don't know about invasion genetics</article-title>. <source>Molecular Ecology</source>, <volume>24</volume>, <fpage>2277</fpage>&#x02013;<lpage>2297</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2015.24.issue-9">https://doi.org/10.1111/mec.2015.24.issue-9</ext-link>
+<pub-id pub-id-type="pmid">25474505</pub-id></mixed-citation></ref><ref id="ece33574-bib-0012"><mixed-citation publication-type="journal" id="ece33574-cit-0012">
+<string-name>
+<surname>Bolstad</surname>, <given-names>G. H.</given-names>
+</string-name>, <string-name>
+<surname>Hindar</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Robertsen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Jonsson</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e6;grov</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Diserud</surname>, <given-names>O. H.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Barlaup</surname>, <given-names>B. T.</given-names>
+</string-name> (<year>2017</year>). <article-title>Gene flow from domesticated escapes alters the life history of wild Atlantic salmon</article-title>. <source>Nature Ecology &#x00026; Evolution</source>, <volume>1</volume>, <fpage>0124</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41559-017-0124">https://doi.org/10.1038/s41559-017-0124</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0013"><mixed-citation publication-type="journal" id="ece33574-cit-0013">
+<string-name>
+<surname>Boyer</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Muhlfeld</surname>, <given-names>C. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Allendorf</surname>, <given-names>F. W.</given-names>
+</string-name> (<year>2008</year>). <article-title>Rainbow trout (<italic>Oncorhynchus mykiss</italic>) invasion and the spread of hybridization with native westslope cutthroat trout (<italic>Oncorhynchus clarkii lewisi</italic>)</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>65</volume>, <fpage>658</fpage>&#x02013;<lpage>669</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/f08-001">https://doi.org/10.1139/f08-001</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0500"><mixed-citation publication-type="journal" id="ece33574-cit-0500">
+<string-name>
+<surname>Campos</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Steffen</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Ag&#x000fc;ero</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Parra</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Z&#x000fa;&#x000f1;iga</surname>, <given-names>L.</given-names>
+</string-name> (<year>1988</year>). <article-title>Limnological studies of lake Llanquihue (Chile)</article-title>. <source>Archiv f&#x000fc;r Hydrobiologie/Supplement</source>, <volume>81</volume>, <fpage>37</fpage>&#x02013;<lpage>67</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0600"><mixed-citation publication-type="journal" id="ece33574-cit-0600">
+<string-name>
+<surname>Campos</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Steffen</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Ag&#x000fc;ero</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Parra</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Z&#x000fa;&#x000f1;iga</surname>, <given-names>L.</given-names>
+</string-name> (<year>1990</year>). <article-title>Limnological study of Lake Todos Los Santos (Chile). Morphometry, physics, chemistry, plankton, and primary productivity</article-title>. <source>Archiv f&#x000fc;r Hydrobiologie</source>, <volume>117</volume>, <fpage>453</fpage>&#x02013;<lpage>484</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0014"><mixed-citation publication-type="journal" id="ece33574-cit-0014">
+<string-name>
+<surname>Candy</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beacham</surname>, <given-names>T. D.</given-names>
+</string-name> (<year>2000</year>). <article-title>Patterns of homing and straying in southern British Columbia coded&#x02010;wire tagged chinook salmon (<italic>Oncorhynchus tshawytscha</italic>) populations</article-title>. <source>Fisheries Research</source>, <volume>47</volume>, <fpage>41</fpage>&#x02013;<lpage>56</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0165-7836(99)00124-1">https://doi.org/10.1016/S0165-7836(99)00124-1</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0015"><mixed-citation publication-type="journal" id="ece33574-cit-0015">
+<string-name>
+<surname>C&#x000e1;rcamo</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name>
+<surname>D&#x000ed;az</surname>, <given-names>N. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Winkler</surname>, <given-names>F. M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Genetic diversity in Chilean populations of rainbow trout, <italic>Oncorhynchus mykiss</italic>
+</article-title>. <source>Latin American Journal of Aquatic Research</source>, <volume>43</volume>, <fpage>59</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3856/vol43-issue1-fulltext-6">https://doi.org/10.3856/vol43-issue1-fulltext-6</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0016"><mixed-citation publication-type="journal" id="ece33574-cit-0016">
+<string-name>
+<surname>Carlsson</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nilsson</surname>, <given-names>J.</given-names>
+</string-name> (<year>2001</year>). <article-title>Effects of geomorphological structures on genetic differentiation among brown trout populations in a northern boreal river drainage</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>130</volume>, <fpage>36</fpage>&#x02013;<lpage>45</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1577/1548-8659(2001)130&#x0003c;0036:EOGSOG&#x0003e;2.0.CO;2">https://doi.org/10.1577/1548-8659(2001)130&#x0003c;0036:EOGSOG&#x0003e;2.0.CO;2</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0017"><mixed-citation publication-type="journal" id="ece33574-cit-0017">
+<string-name>
+<surname>Casal</surname>, <given-names>C. M. V.</given-names>
+</string-name> (<year>2006</year>). <article-title>Global documentation of fish introductions: The growing crisis and recommendations for action</article-title>. <source>Biological Invasions</source>, <volume>8</volume>, <fpage>3</fpage>&#x02013;<lpage>11</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10530-005-0231-3">https://doi.org/10.1007/s10530-005-0231-3</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0018"><mixed-citation publication-type="journal" id="ece33574-cit-0018">
+<string-name>
+<surname>Chapple</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>, <given-names>K. A.</given-names>
+</string-name>, <string-name>
+<surname>Kraus</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thompson</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2013</year>). <article-title>Divergent introduction histories among invasive populations of the delicate skink (<italic>Lampropholis delicata</italic>): Has the importance of genetic admixture in the success of biological invasions been overemphasized?</article-title>
+<source>Diversity and Distributions</source>, <volume>19</volume>, <fpage>134</fpage>&#x02013;<lpage>146</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ddi.2012.19.issue-2">https://doi.org/10.1111/ddi.2012.19.issue-2</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0019"><mixed-citation publication-type="journal" id="ece33574-cit-0019">
+<string-name>
+<surname>Chessel</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Dufour</surname>, <given-names>A.&#x02010;B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thioulouse</surname>, <given-names>J.</given-names>
+</string-name> (<year>2004</year>). <article-title>The ade4 package &#x02013; I: One&#x02010;table methods</article-title>. <source>R News</source>, <volume>4</volume>, <fpage>5</fpage>&#x02013;<lpage>10</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0020"><mixed-citation publication-type="journal" id="ece33574-cit-0020">
+<string-name>
+<surname>Colautti</surname>, <given-names>R. I.</given-names>
+</string-name>, <string-name>
+<surname>Grigorovich</surname>, <given-names>I. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>MacIsaac</surname>, <given-names>H. J.</given-names>
+</string-name> (<year>2006</year>). <article-title>Propagule pressure: A null model for biological invasions</article-title>. <source>Biological Invasions</source>, <volume>8</volume>, <fpage>1023</fpage>&#x02013;<lpage>1037</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10530-005-3735-y">https://doi.org/10.1007/s10530-005-3735-y</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0021"><mixed-citation publication-type="journal" id="ece33574-cit-0021">
+<string-name>
+<surname>Consuegra</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Phillips</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C. G.</given-names>
+</string-name> (<year>2011</year>). <article-title>Winning the invasion roulette: Escapes from fish farms increase admixture and facilitate establishment of non&#x02010;native rainbow trout</article-title>. <source>Evolutionary Applications</source>, <volume>4</volume>, <fpage>660</fpage>&#x02013;<lpage>671</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eva.2011.4.issue-5">https://doi.org/10.1111/eva.2011.4.issue-5</ext-link>
+<pub-id pub-id-type="pmid">25568013</pub-id></mixed-citation></ref><ref id="ece33574-bib-0022"><mixed-citation publication-type="journal" id="ece33574-cit-0022">
+<string-name>
+<surname>Crawford</surname>, <given-names>S. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Muir</surname>, <given-names>A. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Global introductions of salmon and trout in the genus <italic>Oncorhynchus</italic>: 1870&#x02013;2007</article-title>. <source>Reviews in Fish Biology and Fisheries</source>, <volume>18</volume>, <fpage>313</fpage>&#x02013;<lpage>344</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11160-007-9079-1">https://doi.org/10.1007/s11160-007-9079-1</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0023"><mixed-citation publication-type="journal" id="ece33574-cit-0023">
+<string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Consuegra</surname>, <given-names>S.</given-names>
+</string-name> (<year>2010</year>). <article-title>From best to pest: Changing perspectives on the impact of exotic salmonids in the southern hemisphere</article-title>. <source>Systematics and Biodiversity</source>, <volume>8</volume>, <fpage>447</fpage>&#x02013;<lpage>459</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/14772000.2010.537706">https://doi.org/10.1080/14772000.2010.537706</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0024"><mixed-citation publication-type="journal" id="ece33574-cit-0024">
+<string-name>
+<surname>de Mee&#x000fb;s</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2007</year>). <article-title>A step&#x02010;by&#x02010;step tutorial to use HierFstat to analyse populations hierarchically structured at multiple levels</article-title>. <source>Infection, Genetics and Evolution</source>, <volume>7</volume>, <fpage>731</fpage>&#x02013;<lpage>735</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.meegid.2007.07.005">https://doi.org/10.1016/j.meegid.2007.07.005</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0025"><mixed-citation publication-type="journal" id="ece33574-cit-0025">
+<string-name>
+<surname>Dlugosch</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parker</surname>, <given-names>I. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Founding events in species invasions: Genetic variation, adaptive evolution, and the role of multiple introductions</article-title>. <source>Molecular Ecology</source>, <volume>17</volume>, <fpage>431</fpage>&#x02013;<lpage>449</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2008.17.issue-1">https://doi.org/10.1111/mec.2008.17.issue-1</ext-link>
+<pub-id pub-id-type="pmid">17908213</pub-id></mixed-citation></ref><ref id="ece33574-bib-0026"><mixed-citation publication-type="journal" id="ece33574-cit-0026">
+<string-name>
+<surname>Do</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Peel</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Macbeth</surname>, <given-names>G. M.</given-names>
+</string-name>, <string-name>
+<surname>Tillett</surname>, <given-names>B. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ovenden</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2014</year>). <article-title>NeEstimator v2: Re&#x02010;implementation of software for the estimation of contemporary effective population size (Ne) from genetic data</article-title>. <source>Molecular Ecology Resources</source>, <volume>14</volume>, <fpage>209</fpage>&#x02013;<lpage>214</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/men.2013.14.issue-1">https://doi.org/10.1111/men.2013.14.issue-1</ext-link>
+<pub-id pub-id-type="pmid">23992227</pub-id></mixed-citation></ref><ref id="ece33574-bib-0027"><mixed-citation publication-type="journal" id="ece33574-cit-0027">
+<string-name>
+<surname>Dray</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dufour</surname>, <given-names>A.&#x02010;B.</given-names>
+</string-name> (<year>2007</year>). <article-title>The ade4 package: Implementing the duality diagram for ecologists</article-title>. <source>Journal of Statistical Software</source>, <volume>22</volume>, <fpage>1</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0028"><mixed-citation publication-type="journal" id="ece33574-cit-0028">
+<string-name>
+<surname>Dray</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Dufour</surname>, <given-names>A.&#x02010;B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chessel</surname>, <given-names>D.</given-names>
+</string-name> (<year>2007</year>). <article-title>The ade4 package&#x02010;II: Two&#x02010;table and K&#x02010;table methods</article-title>. <source>R News</source>, <volume>7</volume>, <fpage>47</fpage>&#x02013;<lpage>52</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0029"><mixed-citation publication-type="journal" id="ece33574-cit-0029">
+<string-name>
+<surname>Earl</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>vonHoldt</surname>, <given-names>B. M.</given-names>
+</string-name> (<year>2012</year>). <article-title>STRUCTURE HARVESTER: A website and program for visualizing STRUCTURE output and implementing the Evanno method</article-title>. <source>Conservation Genetics Resources</source>, <volume>4</volume>, <fpage>359</fpage>&#x02013;<lpage>361</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12686-011-9548-7">https://doi.org/10.1007/s12686-011-9548-7</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0030"><mixed-citation publication-type="journal" id="ece33574-cit-0030">
+<string-name>
+<surname>Evanno</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Regnaut</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2005</year>). <article-title>Detecting the number of clusters of individuals using the software STRUCTURE: A simulation study</article-title>. <source>Molecular Ecology</source>, <volume>14</volume>, <fpage>2611</fpage>&#x02013;<lpage>2620</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2005.14.issue-8">https://doi.org/10.1111/mec.2005.14.issue-8</ext-link>
+<pub-id pub-id-type="pmid">15969739</pub-id></mixed-citation></ref><ref id="ece33574-bib-0031"><mixed-citation publication-type="journal" id="ece33574-cit-0031">
+<string-name>
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lischer</surname>, <given-names>H. E.</given-names>
+</string-name> (<year>2010</year>). <article-title>Arlequin suite ver 3.5: A new series of programs to perform population genetics analyses under Linux and Windows</article-title>. <source>Molecular Ecology Resources</source>, <volume>10</volume>, <fpage>564</fpage>&#x02013;<lpage>567</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/men.2010.10.issue-3">https://doi.org/10.1111/men.2010.10.issue-3</ext-link>
+<pub-id pub-id-type="pmid">21565059</pub-id></mixed-citation></ref><ref id="ece33574-bib-0032"><mixed-citation publication-type="journal" id="ece33574-cit-0032">
+<string-name>
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Smouse</surname>, <given-names>P. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Quattro</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>1992</year>). <article-title>Analysis of molecular variance inferred from metric distances among DNA haplotypes: Application to human mitochondrial DNA restriction data</article-title>. <source>Genetics</source>, <volume>131</volume>, <fpage>479</fpage>&#x02013;<lpage>491</lpage>.<pub-id pub-id-type="pmid">1644282</pub-id></mixed-citation></ref><ref id="ece33574-bib-0033"><mixed-citation publication-type="journal" id="ece33574-cit-0033">
+<string-name>
+<surname>Falush</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pritchard</surname>, <given-names>J. K.</given-names>
+</string-name> (<year>2003</year>). <article-title>Inference of population structure using multilocus genotype data: Linked loci and correlated allele frequencies</article-title>. <source>Genetics</source>, <volume>164</volume>, <fpage>1567</fpage>&#x02013;<lpage>1587</lpage>.<pub-id pub-id-type="pmid">12930761</pub-id></mixed-citation></ref><ref id="ece33574-bib-0034"><mixed-citation publication-type="journal" id="ece33574-cit-0034">
+<string-name>
+<surname>Frankham</surname>, <given-names>R.</given-names>
+</string-name> (<year>2005</year>). <article-title>Genetics and extinction</article-title>. <source>Biological Conservation</source>, <volume>126</volume>, <fpage>131</fpage>&#x02013;<lpage>140</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.biocon.2005.05.002">https://doi.org/10.1016/j.biocon.2005.05.002</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0035"><mixed-citation publication-type="journal" id="ece33574-cit-0035">
+<string-name>
+<surname>Fraser</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Debes</surname>, <given-names>P. V.</given-names>
+</string-name>, <string-name>
+<surname>Bernatchez</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hutchings</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Population size, habitat fragmentation, and the nature of adaptive variation in a stream fish</article-title>. <source>Proceedings of the Royal Society of London B: Biological Sciences</source>, <volume>281</volume>, <fpage>20140370</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rspb.2014.0370">https://doi.org/10.1098/rspb.2014.0370</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0036"><mixed-citation publication-type="journal" id="ece33574-cit-0036">
+<string-name>
+<surname>Fraser</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Lipp&#x000e9;</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bernatchez</surname>, <given-names>L.</given-names>
+</string-name> (<year>2004</year>). <article-title>Consequences of unequal population size, asymmetric gene flow and sex&#x02010;biased dispersal on population structure in brook charr (<italic>Salvelinus fontinalis</italic>)</article-title>. <source>Molecular Ecology</source>, <volume>13</volume>, <fpage>67</fpage>&#x02013;<lpage>80</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-294X.2003.02038.x">https://doi.org/10.1046/j.1365-294X.2003.02038.x</ext-link>
+<pub-id pub-id-type="pmid">14653789</pub-id></mixed-citation></ref><ref id="ece33574-bib-0037"><mixed-citation publication-type="journal" id="ece33574-cit-0037">
+<string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>D&#x000ed;az</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Crespo</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>1998</year>). <article-title>Allozymic variation and differentiation in naturalized populations of rainbow trout, <italic>Oncorhynchus mykiss</italic> (Walbaum), from southern Chile</article-title>. <source>Aquaculture Research</source>, <volume>29</volume>, <fpage>785</fpage>&#x02013;<lpage>790</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/are.1998.29.issue-11">https://doi.org/10.1111/are.1998.29.issue-11</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0038"><mixed-citation publication-type="journal" id="ece33574-cit-0038">
+<string-name>
+<surname>Gomez&#x02010;Uchida</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Dunphy</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>O'Connell</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ruzzante</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2008</year>). <article-title>Genetic divergence between sympatric Arctic charr <italic>Salvelinus alpinus</italic> morphs in Gander Lake, Newfoundland: Roles of migration, mutation and unequal effective population sizes</article-title>. <source>Journal of Fish Biology</source>, <volume>73</volume>, <fpage>2040</fpage>&#x02013;<lpage>2057</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jfb.2008.73.issue-8">https://doi.org/10.1111/jfb.2008.73.issue-8</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0039"><mixed-citation publication-type="journal" id="ece33574-cit-0039">
+<string-name>
+<surname>Gomez&#x02010;Uchida</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Palstra</surname>, <given-names>F. P.</given-names>
+</string-name>, <string-name>
+<surname>Knight</surname>, <given-names>T. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ruzzante</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2013</year>). <article-title>Contemporary effective population and metapopulation size (Ne and meta&#x02010;Ne): Comparison among three salmonids inhabiting a fragmented system and differing in gene flow and its asymmetries</article-title>. <source>Ecology and Evolution</source>, <volume>3</volume>, <fpage>569</fpage>&#x02013;<lpage>580</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.485">https://doi.org/10.1002/ece3.485</ext-link>
+<pub-id pub-id-type="pmid">23532448</pub-id></mixed-citation></ref><ref id="ece33574-bib-0040"><mixed-citation publication-type="book" id="ece33574-cit-0040">
+<string-name>
+<surname>Halverson</surname>, <given-names>A.</given-names>
+</string-name> (<year>2010</year>). <source>An entirely synthetic fish: How rainbow trout beguiled America and overran the world</source>. <publisher-loc>London and New Heaven, CT</publisher-loc>: <publisher-name>Yale University Press</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0041"><mixed-citation publication-type="journal" id="ece33574-cit-0041">
+<string-name>
+<surname>Hecht</surname>, <given-names>B. C.</given-names>
+</string-name>, <string-name>
+<surname>Campbell</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name>
+<surname>Holecek</surname>, <given-names>D. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Narum</surname>, <given-names>S. R.</given-names>
+</string-name> (<year>2013</year>). <article-title>Genome&#x02010;wide association reveals genetic basis for the propensity to migrate in wild populations of rainbow and steelhead trout</article-title>. <source>Molecular Ecology</source>, <volume>22</volume>, <fpage>3061</fpage>&#x02013;<lpage>3076</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.12082">https://doi.org/10.1111/mec.12082</ext-link>
+<pub-id pub-id-type="pmid">23106605</pub-id></mixed-citation></ref><ref id="ece33574-bib-0042"><mixed-citation publication-type="journal" id="ece33574-cit-0042">
+<string-name>
+<surname>Hubisz</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Falush</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pritchard</surname>, <given-names>J. K.</given-names>
+</string-name> (<year>2009</year>). <article-title>Inferring weak population structure with the assistance of sample group information</article-title>. <source>Molecular Ecology Resources</source>, <volume>9</volume>, <fpage>1322</fpage>&#x02013;<lpage>1332</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/men.2009.9.issue-5">https://doi.org/10.1111/men.2009.9.issue-5</ext-link>
+<pub-id pub-id-type="pmid">21564903</pub-id></mixed-citation></ref><ref id="ece33574-bib-0043"><mixed-citation publication-type="journal" id="ece33574-cit-0043">
+<string-name>
+<surname>Jakobsson</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rosenberg</surname>, <given-names>N. A.</given-names>
+</string-name> (<year>2007</year>). <article-title>CLUMPP: A cluster matching and permutation program for dealing with label switching and multimodality in analysis of population structure</article-title>. <source>Bioinformatics</source>, <volume>23</volume>, <fpage>1801</fpage>&#x02013;<lpage>1806</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btm233">https://doi.org/10.1093/bioinformatics/btm233</ext-link>
+<pub-id pub-id-type="pmid">17485429</pub-id></mixed-citation></ref><ref id="ece33574-bib-0044"><mixed-citation publication-type="journal" id="ece33574-cit-0044">
+<string-name>
+<surname>Jombart</surname>, <given-names>T.</given-names>
+</string-name> (<year>2008</year>). <article-title>adegenet: A R package for the multivariate analysis of genetic markers</article-title>. <source>Bioinformatics</source>, <volume>24</volume>, <fpage>1403</fpage>&#x02013;<lpage>1405</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btn129">https://doi.org/10.1093/bioinformatics/btn129</ext-link>
+<pub-id pub-id-type="pmid">18397895</pub-id></mixed-citation></ref><ref id="ece33574-bib-0045"><mixed-citation publication-type="journal" id="ece33574-cit-0045">
+<string-name>
+<surname>Jombart</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ahmed</surname>, <given-names>I.</given-names>
+</string-name> (<year>2011</year>). <article-title>adegenet 1.3&#x02010;1: New tools for the analysis of genome&#x02010;wide SNP data</article-title>. <source>Bioinformatics</source>, <volume>27</volume>, <fpage>3070</fpage>&#x02013;<lpage>3071</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/btr521">https://doi.org/10.1093/bioinformatics/btr521</ext-link>
+<pub-id pub-id-type="pmid">21926124</pub-id></mixed-citation></ref><ref id="ece33574-bib-0046"><mixed-citation publication-type="journal" id="ece33574-cit-0046">
+<string-name>
+<surname>Jombart</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Devillard</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Balloux</surname>, <given-names>F.</given-names>
+</string-name> (<year>2010</year>). <article-title>Discriminant analysis of principal components: A new method for the analysis of genetically structured populations</article-title>. <source>BMC Genetics</source>, <volume>11</volume>, <fpage>94</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2156-11-94">https://doi.org/10.1186/1471-2156-11-94</ext-link>
+<pub-id pub-id-type="pmid">20950446</pub-id></mixed-citation></ref><ref id="ece33574-bib-0047"><mixed-citation publication-type="journal" id="ece33574-cit-0047">
+<string-name>
+<surname>Jones</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Warheit</surname>, <given-names>K. I.</given-names>
+</string-name>, <string-name>
+<surname>Seamons</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name>
+<surname>Quinn</surname>, <given-names>T. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Seeb</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>2015</year>). <article-title>Consequences of emergence timing for the growth and relative survival of steelhead fry from naturally spawning wild and hatchery parents</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>144</volume>, <fpage>977</fpage>&#x02013;<lpage>989</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00028487.2015.1057346">https://doi.org/10.1080/00028487.2015.1057346</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0048"><mixed-citation publication-type="journal" id="ece33574-cit-0048">
+<string-name>
+<surname>Kalinowski</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name>
+<surname>Muhlfeld</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Guy</surname>, <given-names>C. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cox</surname>, <given-names>B.</given-names>
+</string-name> (<year>2010</year>). <article-title>Founding population size of an aquatic invasive species</article-title>. <source>Conservation Genetics</source>, <volume>11</volume>, <fpage>2049</fpage>&#x02013;<lpage>2053</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10592-009-0041-8">https://doi.org/10.1007/s10592-009-0041-8</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0049"><mixed-citation publication-type="journal" id="ece33574-cit-0049">
+<string-name>
+<surname>Kalinowski</surname>, <given-names>S. T.</given-names>
+</string-name>, <string-name>
+<surname>Wagner</surname>, <given-names>A. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taper</surname>, <given-names>M. L.</given-names>
+</string-name> (<year>2006</year>). <article-title>ml&#x02010;relate: A computer program for maximum likelihood estimation of relatedness and relationship</article-title>. <source>Molecular Ecology Notes</source>, <volume>6</volume>, <fpage>576</fpage>&#x02013;<lpage>579</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/men.2006.6.issue-2">https://doi.org/10.1111/men.2006.6.issue-2</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0050"><mixed-citation publication-type="journal" id="ece33574-cit-0050">
+<string-name>
+<surname>Kawamura</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Yonekura</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Ozaki</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Katano</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Taniguchi</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Saitoh</surname>, <given-names>K.</given-names>
+</string-name> (<year>2010</year>). <article-title>The role of propagule pressure in the invasion success of bluegill sunfish, <italic>Lepomis macrochirus</italic>, in Japan</article-title>. <source>Molecular Ecology</source>, <volume>19</volume>, <fpage>5371</fpage>&#x02013;<lpage>5388</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2010.19.issue-24">https://doi.org/10.1111/mec.2010.19.issue-24</ext-link>
+<pub-id pub-id-type="pmid">21044195</pub-id></mixed-citation></ref><ref id="ece33574-bib-0051"><mixed-citation publication-type="journal" id="ece33574-cit-0051">
+<string-name>
+<surname>Kinziger</surname>, <given-names>A. P.</given-names>
+</string-name>, <string-name>
+<surname>Nakamoto</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>, <given-names>E. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Harvey</surname>, <given-names>B. C.</given-names>
+</string-name> (<year>2011</year>). <article-title>Small founding number and low genetic diversity in an introduced species exhibiting limited invasion success (speckled dace, <italic>Rhinichthys osculus</italic>)</article-title>. <source>Ecology and Evolution</source>, <volume>1</volume>, <fpage>73</fpage>&#x02013;<lpage>84</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.8">https://doi.org/10.1002/ece3.8</ext-link>
+<pub-id pub-id-type="pmid">22393484</pub-id></mixed-citation></ref><ref id="ece33574-bib-0052"><mixed-citation publication-type="journal" id="ece33574-cit-0052">
+<string-name>
+<surname>Knudsen</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name>
+<surname>Muhlfeld</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Sage</surname>, <given-names>G. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Leary</surname>, <given-names>R. F.</given-names>
+</string-name> (<year>2002</year>). <article-title>Genetic structure of Columbia River redband trout populations in the Kootenai River drainage, Montana, revealed by microsatellite and allozyme loci</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>131</volume>, <fpage>1093</fpage>&#x02013;<lpage>1105</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1577/1548-8659(2002)131&#x0003c;1093:GSOCRR&#x0003e;2.0.CO;2">https://doi.org/10.1577/1548-8659(2002)131&#x0003c;1093:GSOCRR&#x0003e;2.0.CO;2</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0053"><mixed-citation publication-type="journal" id="ece33574-cit-0053">
+<string-name>
+<surname>Kolbe</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Glor</surname>, <given-names>R. E.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez Schettino</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lara</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name>
+<surname>Larson</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Losos</surname>, <given-names>J. B.</given-names>
+</string-name> (<year>2004</year>). <article-title>Genetic variation increases during biological invasion by a Cuban lizard</article-title>. <source>Nature</source>, <volume>431</volume>, <fpage>177</fpage>&#x02013;<lpage>181</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature02807">https://doi.org/10.1038/nature02807</ext-link>
+<pub-id pub-id-type="pmid">15356629</pub-id></mixed-citation></ref><ref id="ece33574-bib-0054"><mixed-citation publication-type="journal" id="ece33574-cit-0054">
+<string-name>
+<surname>Krueger</surname>, <given-names>C. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>May</surname>, <given-names>B.</given-names>
+</string-name> (<year>1987</year>). <article-title>Genetic comparison of naturalized rainbow trout populations among Lake Superior tributaries: Differentiation based on allozyme data</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>116</volume>, <fpage>795</fpage>&#x02013;<lpage>806</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1577/1548-8659(1987)116&#x0003c;795:GCONRT&#x0003e;2.0.CO;2">https://doi.org/10.1577/1548-8659(1987)116&#x0003c;795:GCONRT&#x0003e;2.0.CO;2</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0055"><mixed-citation publication-type="journal" id="ece33574-cit-0055">
+<string-name>
+<surname>Leitwein</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Garza</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pearse</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2017</year>). <article-title>Ancestry and adaptive evolution of anadromous, resident, and adfluvial rainbow trout (<italic>Oncorhynchus mykiss</italic>) in the San Francisco bay area: Application of adaptive genomic variation to conservation in a highly impacted landscape</article-title>. <source>Evolutionary Applications</source>, <volume>10</volume>, <fpage>56</fpage>&#x02013;<lpage>67</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eva.2017.10.issue-1">https://doi.org/10.1111/eva.2017.10.issue-1</ext-link>
+<pub-id pub-id-type="pmid">28035235</pub-id></mixed-citation></ref><ref id="ece33574-bib-0056"><mixed-citation publication-type="book" id="ece33574-cit-0056">
+<string-name>
+<surname>Le&#x000f3;n&#x02010;Mu&#x000f1;oz</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Tecklin</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Farias</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Diaz</surname>, <given-names>S.</given-names>
+</string-name> (<year>2007</year>). <source>Salmon farming in the Lakes of Southern Chile &#x02013; Valdivian Ecoregion</source>. <publisher-loc>Valdivia, Chile</publisher-loc>: <publisher-name>WWF &#x00026; N&#x000fa;cleo Cient&#x000ed;fico Milenio Forecos, Universidad Austral de Chile</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0057"><mixed-citation publication-type="journal" id="ece33574-cit-0057">
+<string-name>
+<surname>Lindholm</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Breden</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Alexander</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>, <given-names>W. K.</given-names>
+</string-name>, <string-name>
+<surname>Thakurta</surname>, <given-names>S. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Brooks</surname>, <given-names>R.</given-names>
+</string-name> (<year>2005</year>). <article-title>Invasion success and genetic diversity of introduced populations of guppies <italic>Poecilia reticulata</italic> in Australia</article-title>. <source>Molecular Ecology</source>, <volume>14</volume>, <fpage>3671</fpage>&#x02013;<lpage>3682</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2005.14.issue-12">https://doi.org/10.1111/mec.2005.14.issue-12</ext-link>
+<pub-id pub-id-type="pmid">16202088</pub-id></mixed-citation></ref><ref id="ece33574-bib-0058"><mixed-citation publication-type="journal" id="ece33574-cit-0058">
+<string-name>
+<surname>Lockwood</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Cassey</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Blackburn</surname>, <given-names>T.</given-names>
+</string-name> (<year>2005</year>). <article-title>The role of propagule pressure in explaining species invasions</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>20</volume>, <fpage>223</fpage>&#x02013;<lpage>228</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tree.2005.02.004">https://doi.org/10.1016/j.tree.2005.02.004</ext-link>
+<pub-id pub-id-type="pmid">16701373</pub-id></mixed-citation></ref><ref id="ece33574-bib-0059"><mixed-citation publication-type="journal" id="ece33574-cit-0059">
+<string-name>
+<surname>Love</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name>
+<surname>Maggs</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Murray</surname>, <given-names>T. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Provan</surname>, <given-names>J.</given-names>
+</string-name> (<year>2013</year>). <article-title>Genetic evidence for predominantly hydrochoric gene flow in the invasive riparian plant Impatiens glandulifera (<italic>Himalayan balsam</italic>)</article-title>. <source>Annals of Botany</source>, <volume>112</volume>, <fpage>1743</fpage>&#x02013;<lpage>1750</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aob/mct227">https://doi.org/10.1093/aob/mct227</ext-link>
+<pub-id pub-id-type="pmid">24169594</pub-id></mixed-citation></ref><ref id="ece33574-bib-0060"><mixed-citation publication-type="book" id="ece33574-cit-0060">
+<string-name>
+<surname>Lowe</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Browne</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Boudjelas</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>De Poorter</surname>, <given-names>M.</given-names>
+</string-name> (<year>2000</year>). <source>100 of the world's worst invasive alien species: A selection from the global invasive species database</source>. <publisher-loc>Auckland, New Zealand</publisher-loc>: <publisher-name>The Invasive Species Specialist Group (ISSG) is a specialist group of the Species Survival Commission (SSC) of World Conservation Union (IUCN)</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0061"><mixed-citation publication-type="journal" id="ece33574-cit-0061">
+<string-name>
+<surname>MacCrimmon</surname>, <given-names>H. R.</given-names>
+</string-name> (<year>1971</year>). <article-title>World distribution of rainbow trout (<italic>Salmo gairdneri</italic>)</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>28</volume>, <fpage>663</fpage>&#x02013;<lpage>704</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0062"><mixed-citation publication-type="journal" id="ece33574-cit-0062">
+<string-name>
+<surname>Monz&#x000f3;n&#x02010;Arg&#x000fc;ello</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Consuegra</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Marco&#x02010;Rius</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Fowler</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>DeFaveri</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>Contrasting patterns of genetic and phenotypic differentiation in two invasive salmonids in the southern hemisphere</article-title>. <source>Evolutionary Applications</source>, <volume>7</volume>, <fpage>921</fpage>&#x02013;<lpage>936</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eva.2014.7.issue-8">https://doi.org/10.1111/eva.2014.7.issue-8</ext-link>
+<pub-id pub-id-type="pmid">25469171</pub-id></mixed-citation></ref><ref id="ece33574-bib-0063"><mixed-citation publication-type="journal" id="ece33574-cit-0063">
+<string-name>
+<surname>Monz&#x000f3;n&#x02010;Arg&#x000fc;ello</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Consuegra</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>Less can be more: Loss of MHC functional diversity can reflect adaptation to novel conditions during fish invasions</article-title>. <source>Ecology and Evolution</source>, <volume>3</volume>, <fpage>3359</fpage>&#x02013;<lpage>3368</lpage>.<pub-id pub-id-type="pmid">24223274</pub-id></mixed-citation></ref><ref id="ece33574-bib-0064"><mixed-citation publication-type="journal" id="ece33574-cit-0064">
+<string-name>
+<surname>Monz&#x000f3;n&#x02010;Arg&#x000fc;ello</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Garcia de Leaniz</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Gajardo</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Consuegra</surname>, <given-names>S.</given-names>
+</string-name> (<year>2014</year>). <article-title>Eco&#x02010;immunology of fish invasions: The role of MHC variation</article-title>. <source>Immunogenetics</source>, <volume>66</volume>, <fpage>393</fpage>&#x02013;<lpage>394</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00251-014-0771-8">https://doi.org/10.1007/s00251-014-0771-8</ext-link>
+<pub-id pub-id-type="pmid">24752816</pub-id></mixed-citation></ref><ref id="ece33574-bib-0065"><mixed-citation publication-type="journal" id="ece33574-cit-0065">
+<string-name>
+<surname>Narum</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name>
+<surname>Gallardo</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Correa</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Matala</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Hasselman</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Sutherland</surname>, <given-names>B. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bernatchez</surname>, <given-names>L.</given-names>
+</string-name> (<year>2017</year>). <article-title>Genomic patterns of diversity and divergence of two introduced salmonid species in Patagonia, South America</article-title>. <source>Evolutionary Applications</source>, <volume>10</volume>, <fpage>402</fpage>&#x02013;<lpage>416</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eva.2017.10.issue-4">https://doi.org/10.1111/eva.2017.10.issue-4</ext-link>
+<pub-id pub-id-type="pmid">28352299</pub-id></mixed-citation></ref><ref id="ece33574-bib-0066"><mixed-citation publication-type="journal" id="ece33574-cit-0066">
+<string-name>
+<surname>Neville</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bernatchez</surname>, <given-names>L.</given-names>
+</string-name> (<year>2013</year>). <article-title>Coding gene single nucleotide polymorphism population genetics of nonnative Brook Trout: The ghost of introductions past</article-title>. <source>Transactions of the American Fisheries Society</source>, <volume>142</volume>, <fpage>1215</fpage>&#x02013;<lpage>1231</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/00028487.2013.793613">https://doi.org/10.1080/00028487.2013.793613</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0067"><mixed-citation publication-type="journal" id="ece33574-cit-0067">
+<string-name>
+<surname>Palstra</surname>, <given-names>F. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ruzzante</surname>, <given-names>D. E.</given-names>
+</string-name> (<year>2008</year>). <article-title>Genetic estimates of contemporary effective population size: What can they tell us about the importance of genetic stochasticity for wild population persistence?</article-title>
+<source>Molecular Ecology</source>, <volume>17</volume>, <fpage>3428</fpage>&#x02013;<lpage>3447</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.2008.17.issue-15">https://doi.org/10.1111/mec.2008.17.issue-15</ext-link>
+<pub-id pub-id-type="pmid">19160474</pub-id></mixed-citation></ref><ref id="ece33574-bib-0068"><mixed-citation publication-type="journal" id="ece33574-cit-0068">
+<string-name>
+<surname>Pascual</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Lancelotti</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Ernst</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Ciancio</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Aedo</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garc&#x000ed;a&#x02010;Asorey</surname>, <given-names>M.</given-names>
+</string-name> (<year>2009</year>). <article-title>Scale, connectivity, and incentives in the introduction and management of non&#x02010;native species: The case of exotic salmonids in Patagonia</article-title>. <source>Frontiers in Ecology and the Environment</source>, <volume>7</volume>, <fpage>533</fpage>&#x02013;<lpage>540</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1890/070127">https://doi.org/10.1890/070127</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0069"><mixed-citation publication-type="journal" id="ece33574-cit-0069">
+<string-name>
+<surname>Peakall</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smouse</surname>, <given-names>P. E.</given-names>
+</string-name> (<year>2012</year>). <article-title>GenAlEx 6.5: Genetic analysis in Excel. Population genetic software for teaching and research&#x02014;an update</article-title>. <source>Bioinformatics</source>, <volume>28</volume>, <fpage>2537</fpage>&#x02013;<lpage>2539</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/bioinformatics/bts460">https://doi.org/10.1093/bioinformatics/bts460</ext-link>
+<pub-id pub-id-type="pmid">22820204</pub-id></mixed-citation></ref><ref id="ece33574-bib-0070"><mixed-citation publication-type="journal" id="ece33574-cit-0070">
+<string-name>
+<surname>Perrier</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Guyomard</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bagliniere</surname>, <given-names>J.&#x02010;L.</given-names>
+</string-name>, <string-name>
+<surname>Nikolic</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Evanno</surname>, <given-names>G.</given-names>
+</string-name> (<year>2013</year>). <article-title>Changes in the genetic structure of Atlantic salmon populations over four decades reveal substantial impacts of stocking and potential resiliency</article-title>. <source>Ecology and Evolution</source>, <volume>3</volume>, <fpage>2334</fpage>&#x02013;<lpage>2349</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.629">https://doi.org/10.1002/ece3.629</ext-link>
+<pub-id pub-id-type="pmid">23919174</pub-id></mixed-citation></ref><ref id="ece33574-bib-0071"><mixed-citation publication-type="journal" id="ece33574-cit-0071">
+<string-name>
+<surname>Pr&#x000e6;bel</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Gjelland</surname>, <given-names>K. &#x000d8;.</given-names>
+</string-name>, <string-name>
+<surname>Salonen</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Amundsen</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Invasion genetics of vendace (<italic>Coregonus albula</italic> (L.)) in the Inari&#x02010;Pasvik watercourse: Revealing the origin and expansion pattern of a rapid colonization event</article-title>. <source>Ecology and Evolution</source>, <volume>3</volume>, <fpage>1400</fpage>&#x02013;<lpage>1412</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.2013.3.issue-5">https://doi.org/10.1002/ece3.2013.3.issue-5</ext-link>
+<pub-id pub-id-type="pmid">23762524</pub-id></mixed-citation></ref><ref id="ece33574-bib-0072"><mixed-citation publication-type="journal" id="ece33574-cit-0072">
+<string-name>
+<surname>Pritchard</surname>, <given-names>J. K.</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Donnelly</surname>, <given-names>P.</given-names>
+</string-name> (<year>2000</year>). <article-title>Inference of population structure using multilocus genotype data</article-title>. <source>Genetics</source>, <volume>155</volume>, <fpage>945</fpage>&#x02013;<lpage>959</lpage>.<pub-id pub-id-type="pmid">10835412</pub-id></mixed-citation></ref><ref id="ece33574-bib-0073"><mixed-citation publication-type="book" id="ece33574-cit-0073">
+<collab collab-type="authors">QGIS Development Team</collab>
+(<year>2016</year>). <source>QGIS geographic information system</source>. <publisher-loc>Chicago, IL</publisher-loc>: <publisher-name>Open Source Geospatial Foundation Project</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0074"><mixed-citation publication-type="book" id="ece33574-cit-0074">
+<string-name>
+<surname>Quinn</surname>, <given-names>T. P.</given-names>
+</string-name> (<year>2005</year>). <source>The behavior and ecology of Pacific salmon and trout</source>. <publisher-loc>Vancouver, BC</publisher-loc>: <publisher-name>UBC Press</publisher-name>.</mixed-citation></ref><ref id="ece33574-bib-0075"><mixed-citation publication-type="book" id="ece33574-cit-0075">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2015</year>). <source>R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>.</mixed-citation></ref><ref id="ece33574-bib-0076"><mixed-citation publication-type="journal" id="ece33574-cit-0076">
+<string-name>
+<surname>Raymond</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rousset</surname>, <given-names>F.</given-names>
+</string-name> (<year>1995</year>). <article-title>GENEPOP (Version 1.2): Population genetics software for exact tests and ecumenicism</article-title>. <source>Journal of Heredity</source>, <volume>86</volume>, <fpage>248</fpage>&#x02013;<lpage>249</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.jhered.a111573">https://doi.org/10.1093/oxfordjournals.jhered.a111573</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0077"><mixed-citation publication-type="journal" id="ece33574-cit-0077">
+<string-name>
+<surname>Riva Rossi</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Lessa</surname>, <given-names>E. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pascual</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2004</year>). <article-title>The origin of introduced rainbow trout (<italic>Oncorhynchus mykiss</italic>) in the Santa Cruz River, Patagonia, Argentina, as inferred from mitochondrial DNA</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>61</volume>, <fpage>1095</fpage>&#x02013;<lpage>1101</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/f04-056">https://doi.org/10.1139/f04-056</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0078"><mixed-citation publication-type="journal" id="ece33574-cit-0078">
+<string-name>
+<surname>Roman</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Darling</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2007</year>). <article-title>Paradox lost: Genetic diversity and the success of aquatic invasions</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>22</volume>, <fpage>454</fpage>&#x02013;<lpage>464</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tree.2007.07.002">https://doi.org/10.1016/j.tree.2007.07.002</ext-link>
+<pub-id pub-id-type="pmid">17673331</pub-id></mixed-citation></ref><ref id="ece33574-bib-0079"><mixed-citation publication-type="journal" id="ece33574-cit-0079">
+<string-name>
+<surname>Rousset</surname>, <given-names>F.</given-names>
+</string-name> (<year>2008</year>). <article-title>Genepop'007: A complete re&#x02010;implementation of the genepop software for Windows and Linux</article-title>. <source>Molecular Ecology Resources</source>, <volume>8</volume>, <fpage>103</fpage>&#x02013;<lpage>106</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2007.01931.x">https://doi.org/10.1111/j.1471-8286.2007.01931.x</ext-link>
+<pub-id pub-id-type="pmid">21585727</pub-id></mixed-citation></ref><ref id="ece33574-bib-0080"><mixed-citation publication-type="book" id="ece33574-cit-0080">
+<string-name>
+<surname>Seeb</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Pascal</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name>
+<surname>Ramakrishnan</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Seeb</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>2009</year>). <chapter-title>SNP genotyping by the 5&#x02032;&#x02010;nuclease reaction: Advances in high&#x02010;throughput genotyping with nonmodel organisms</chapter-title> In: <person-group person-group-type="editor"><name><surname>Komar</surname><given-names>A. A.</given-names></name></person-group> (Ed.), <source>Single nucleotide polymorphisms</source> (pp. <fpage>277</fpage>&#x02013;<lpage>292</lpage>). <publisher-loc>United States</publisher-loc>: <publisher-name>Springer</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-60327-411-1">https://doi.org/10.1007/978-1-60327-411-1</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0081"><mixed-citation publication-type="journal" id="ece33574-cit-0081">
+<string-name>
+<surname>Sep&#x000fa;lveda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Jara</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Farias</surname>, <given-names>F.</given-names>
+</string-name> (<year>2013</year>). <article-title>Escaped farmed salmon and trout in Chile: Incidence, impacts, and the need for an ecosystem view</article-title>. <source>Aquaculture Environment Interactions</source>, <volume>4</volume>, <fpage>273</fpage>&#x02013;<lpage>283</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3354/aei00089">https://doi.org/10.3354/aei00089</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0082"><mixed-citation publication-type="journal" id="ece33574-cit-0082">
+<string-name>
+<surname>Simberloff</surname>, <given-names>D.</given-names>
+</string-name> (<year>2009</year>). <article-title>The role of propagule pressure in biological invasions</article-title>. <source>Annual Review of Ecology, Evolution, and Systematics</source>, <volume>40</volume>, <fpage>81</fpage>&#x02013;<lpage>102</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.ecolsys.110308.120304">https://doi.org/10.1146/annurev.ecolsys.110308.120304</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0083"><mixed-citation publication-type="journal" id="ece33574-cit-0083">
+<string-name>
+<surname>Smith</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Pascal</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name>
+<surname>Grauvogel</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Habicht</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Seeb</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Seeb</surname>, <given-names>L. W.</given-names>
+</string-name> (<year>2011</year>). <article-title>Multiplex preamplification PCR and microsatellite validation enables accurate single nucleotide polymorphism genotyping of historical fish scales</article-title>. <source>Molecular Ecology Resources</source>, <volume>11</volume>, <fpage>268</fpage>&#x02013;<lpage>277</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1755-0998.2010.02965.x">https://doi.org/10.1111/j.1755-0998.2010.02965.x</ext-link>
+<pub-id pub-id-type="pmid">21429180</pub-id></mixed-citation></ref><ref id="ece33574-bib-0084"><mixed-citation publication-type="journal" id="ece33574-cit-0084">
+<string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Arismendi</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Gonzalez</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Sanzana</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jara</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Jara</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Lara</surname>, <given-names>A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Southern Chile, trout and salmon country: Invasion patterns and threats for native species</article-title>. <source>Revista Chilena De Historia Natural</source>, <volume>79</volume>, <fpage>97</fpage>&#x02013;<lpage>117</lpage>.</mixed-citation></ref><ref id="ece33574-bib-0085"><mixed-citation publication-type="journal" id="ece33574-cit-0085">
+<string-name>
+<surname>Stankovi&#x00107;</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Crivelli</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Snoj</surname>, <given-names>A.</given-names>
+</string-name> (<year>2015</year>). <article-title>Rainbow trout in Europe: Introduction, naturalization, and impacts</article-title>. <source>Reviews in Fisheries Science &#x00026; Aquaculture</source>, <volume>23</volume>, <fpage>39</fpage>&#x02013;<lpage>71</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/23308249.2015.1024825">https://doi.org/10.1080/23308249.2015.1024825</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0086"><mixed-citation publication-type="journal" id="ece33574-cit-0086">
+<string-name>
+<surname>Sz&#x00171;cs</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Melbourne</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>Tuff</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hufbauer</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>The roles of demography and genetics in the early stages of colonization</article-title>. <source>Proceedings of the Royal Society of London B: Biological Sciences</source>, <volume>281</volume>, <fpage>20141073</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rspb.2014.1073">https://doi.org/10.1098/rspb.2014.1073</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0087"><mixed-citation publication-type="journal" id="ece33574-cit-0087">
+<string-name>
+<surname>Thioulouse</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chessel</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Dol&#x000e9;dec</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Olivier</surname>, <given-names>J.&#x02010;M.</given-names>
+</string-name> (<year>1997</year>). <article-title>ADE&#x02010;4: A multivariate analysis and graphical display software</article-title>. <source>Statistics and Computing</source>, <volume>7</volume>, <fpage>75</fpage>&#x02013;<lpage>83</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1023/A:1018513530268">https://doi.org/10.1023/A:1018513530268</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0088"><mixed-citation publication-type="journal" id="ece33574-cit-0088">
+<string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name> (<year>1991</year>). <article-title>Genetic interactions between hatchery and wild salmonids &#x02013; lessons from the Pacific&#x02010;Northwest</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>48</volume>, <fpage>124</fpage>&#x02013;<lpage>133</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/f91-311">https://doi.org/10.1139/f91-311</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0089"><mixed-citation publication-type="journal" id="ece33574-cit-0089">
+<string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name> (<year>2006</year>). <article-title>A bias correction for estimates of effective population size based on linkage disequilibrium at unlinked gene loci</article-title>. <source>Conservation Genetics</source>, <volume>7</volume>, <fpage>167</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10592-005-9100-y">https://doi.org/10.1007/s10592-005-9100-y</ext-link>
+</mixed-citation></ref><ref id="ece33574-bib-0090"><mixed-citation publication-type="journal" id="ece33574-cit-0090">
+<string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>E. C.</given-names>
+</string-name> (<year>2017</year>). <article-title>Purging putative siblings from population genetic data sets: A cautionary view</article-title>. <source>Molecular Ecology</source>, <volume>26</volume>, <fpage>1211</fpage>&#x02013;<lpage>1224</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/mec.14022">https://doi.org/10.1111/mec.14022</ext-link>
+<pub-id pub-id-type="pmid">28099771</pub-id></mixed-citation></ref><ref id="ece33574-bib-0091"><mixed-citation publication-type="journal" id="ece33574-cit-0091">
+<string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Do</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Linkage disequilibrium estimates of contemporary Ne using highly variable genetic markers: A largely untapped resource for applied conservation and evolution</article-title>. <source>Evolutionary Applications</source>, <volume>3</volume>, <fpage>244</fpage>&#x02013;<lpage>262</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eva.2010.3.issue-3">https://doi.org/10.1111/eva.2010.3.issue-3</ext-link>
+<pub-id pub-id-type="pmid">25567922</pub-id></mixed-citation></ref><ref id="ece33574-bib-0092"><mixed-citation publication-type="journal" id="ece33574-cit-0092">
+<string-name>
+<surname>Waples</surname>, <given-names>R. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>England</surname>, <given-names>P. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>Estimating contemporary effective population size on the basis of linkage disequilibrium in the face of migration</article-title>. <source>Genetics</source>, <volume>189</volume>, <fpage>633</fpage>&#x02013;<lpage>644</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.111.132233">https://doi.org/10.1534/genetics.111.132233</ext-link>
+<pub-id pub-id-type="pmid">21840864</pub-id></mixed-citation></ref><ref id="ece33574-bib-0093"><mixed-citation publication-type="journal" id="ece33574-cit-0093">
+<string-name>
+<surname>Weir</surname>, <given-names>B. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cockerham</surname>, <given-names>C. C.</given-names>
+</string-name> (<year>1984</year>). <article-title>Estimating F&#x02010;statistics for the analysis of population structure</article-title>. <source>Evolution</source>, <volume>38</volume>, <fpage>1358</fpage>&#x02013;<lpage>1370</lpage>.<pub-id pub-id-type="pmid">28563791</pub-id></mixed-citation></ref><ref id="ece33574-bib-0094"><mixed-citation publication-type="journal" id="ece33574-cit-0094">
+<string-name>
+<surname>Whiteley</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Spruell</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Allendorf</surname>, <given-names>F. W.</given-names>
+</string-name> (<year>2004</year>). <article-title>Ecological and life history characteristics predict population genetic divergence of two salmonids in the same landscape</article-title>. <source>Molecular Ecology</source>, <volume>13</volume>, <fpage>3675</fpage>&#x02013;<lpage>3688</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-294X.2004.02365.x">https://doi.org/10.1111/j.1365-294X.2004.02365.x</ext-link>
+<pub-id pub-id-type="pmid">15548282</pub-id></mixed-citation></ref><ref id="ece33574-bib-0095"><mixed-citation publication-type="journal" id="ece33574-cit-0095">
+<string-name>
+<surname>Wilson</surname>, <given-names>J. R. U.</given-names>
+</string-name>, <string-name>
+<surname>Dormontt</surname>, <given-names>E. E.</given-names>
+</string-name>, <string-name>
+<surname>Prentis</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Lowe</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name> (<year>2009</year>). <article-title>Something in the way you move: Dispersal pathways affect invasion success</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>24</volume>, <fpage>136</fpage>&#x02013;<lpage>144</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tree.2008.10.007">https://doi.org/10.1016/j.tree.2008.10.007</ext-link>
+<pub-id pub-id-type="pmid">19178981</pub-id></mixed-citation></ref><ref id="ece33574-bib-0096"><mixed-citation publication-type="journal" id="ece33574-cit-0096">
+<string-name>
+<surname>Zarraonaindia</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Iriondo</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Albaina</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Pardo</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Manzano</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Grant</surname>, <given-names>W. S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Estonba</surname>, <given-names>A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Multiple SNP markers reveal fine&#x02010;scale population and deep phylogeographic structure in European Anchovy (<italic>Engraulis encrasicolus</italic> L.)</article-title>. <source>PLoS One</source>, <volume>7</volume>, <fpage>e42201</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0042201">https://doi.org/10.1371/journal.pone.0042201</ext-link>
+<pub-id pub-id-type="pmid">22860082</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,542 @@
+{
+  "id": [
+    "29463310"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29463310"
+  ],
+  "pmcid": [
+    "PMC5820791"
+  ],
+  "doi": [
+    "10.1186/s13054-018-1956-6"
+  ],
+  "title": [
+    "The practice of intensive care in Latin America: a survey of academic intensivists."
+  ],
+  "authorString": [
+    "Castro R, Nin N, Ríos F, Alegría L, Estenssoro E, Murias G, Friedman G, Jibaja M, Ospina-Tascon G, Hurtado J, Marín MDC, Machado FR, Cavalcanti AB, Dubin A, Azevedo L, Cecconi M, Bakker J, Hernandez G, Latin-American Intensive Care Network - LIVEN (www.redliven.org)."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castro R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Catolica de Chile, Diagonal Paraguay #362, Santiago Centro, RM, 8330077, Chile. rcastro@med.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Nin N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Nin"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Hospital Español, Avenida General Garibaldi, 1729 esq., Rocha, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Ríos F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Ríos"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Servicio de Terapia Intensiva. Hospital Alejandro Posadas, Avenida Presidente Arturo U. Illia, El Palomar, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Alegría L"
+          ],
+          "firstName": [
+            "Leyla"
+          ],
+          "lastName": [
+            "Alegría"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Catolica de Chile, Diagonal Paraguay #362, Santiago Centro, RM, 8330077, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Estenssoro E"
+          ],
+          "firstName": [
+            "Elisa"
+          ],
+          "lastName": [
+            "Estenssoro"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Servicio de Terapia Intensiva, Hospital Interzonal de Agudos General San Martin de La Plata, Avenida 1 1794, Casco Urbano, La Plata, Buenos Aires, B1904CFU, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Murias G"
+          ],
+          "firstName": [
+            "Gastón"
+          ],
+          "lastName": [
+            "Murias"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Clinica Bazterrica and Clinica Santa Isabel, Billinghurst 2072 (esquina Juncal), Ciudad Autónoma de Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Friedman G"
+          ],
+          "firstName": [
+            "Gilberto"
+          ],
+          "lastName": [
+            "Friedman"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Interna - Faculdade de Medicina, Universidade Federal do Rio Grande do Sul, Hospital de Clínicas de Porto Alegre, Rua Ramiro Barcelos, 2350 - Santa Cecilia, Porto Alegre, RS, 90035-903, Brasil."
+          ]
+        },
+        {
+          "fullName": [
+            "Jibaja M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Jibaja"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Escuela de Medicina, Universidad Internacional del Ecuador, Unidad de Cuidados Intensivos, Hospital Eugenio Espejo, Avenida Gran Colombia, Quito, 170136, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Ospina-Tascon G"
+          ],
+          "firstName": [
+            "Gustavo"
+          ],
+          "lastName": [
+            "Ospina-Tascon"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Medicine, Fundación Valle del Lili - Universidad ICESI, Cali, Carrera 98 No. 18-49, Cali, Valle del Cauca, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Hurtado J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Hurtado"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Hospital Español, Avenida General Garibaldi, 1729 esq., Rocha, Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Marín MDC"
+          ],
+          "firstName": [
+            "María Del Carmen"
+          ],
+          "lastName": [
+            "Marín"
+          ],
+          "initials": [
+            "MDC"
+          ],
+          "affiliation": [
+            "Unidad de Cuidados Intensivos, Hospital Regional 1 Octubre, ISSSTE, Avenida Instituto Politécnico Nacional 1669. Colonia Lindavista, c.p., Delegación Gustavo A. Madero, Ciudad de México, 07300, México."
+          ]
+        },
+        {
+          "fullName": [
+            "Machado FR"
+          ],
+          "firstName": [
+            "Flavia R"
+          ],
+          "lastName": [
+            "Machado"
+          ],
+          "initials": [
+            "FR"
+          ],
+          "affiliation": [
+            "Anesthesiology, Pain and Intensive Care Department, Federal University of Sao Paulo, Rua Sena Madureira, 1500 - Clementino, São Paulo, SP, 04021-001, Brasil."
+          ]
+        },
+        {
+          "fullName": [
+            "Cavalcanti AB"
+          ],
+          "firstName": [
+            "Alexandre Biasi"
+          ],
+          "lastName": [
+            "Cavalcanti"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "affiliation": [
+            "Research Institute HCor, Hospital do Coração, Rua. Desembargador Eliseu Guilherme, 147 - Paraíso, São Paulo, SP, 04004-030, Brasil."
+          ]
+        },
+        {
+          "fullName": [
+            "Dubin A"
+          ],
+          "firstName": [
+            "Arnaldo"
+          ],
+          "lastName": [
+            "Dubin"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Catedra de Farmacología, Facultad de Ciencias Médicas, Universidad Nacional de La Plata, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Azevedo L"
+          ],
+          "firstName": [
+            "Luciano"
+          ],
+          "lastName": [
+            "Azevedo"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Anesthesiology, Pain and Intensive Care Department, Federal University of Sao Paulo, Sao Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Cecconi M"
+          ],
+          "firstName": [
+            "Maurizio"
+          ],
+          "lastName": [
+            "Cecconi"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "St. George's University Hospitals NHS Foundation Trust, London, SW17 0QT, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Division of Pulmonary, Allergy, and Critical Care Medicine, Columbia University Medical Center, 630 West 168th Street, New York, NY, 10032, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernandez G"
+          ],
+          "firstName": [
+            "Glenn"
+          ],
+          "lastName": [
+            "Hernandez"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Catolica de Chile, Diagonal Paraguay #362, Santiago Centro, RM, 8330077, Chile."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Latin-American Intensive Care Network - LIVEN (www.redliven.org)"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "2648623"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Critical care (London, England)"
+          ],
+          "ISOAbbreviation": [
+            "Crit Care"
+          ],
+          "medlineAbbreviation": [
+            "Crit Care"
+          ],
+          "NLMid": [
+            "9801902"
+          ],
+          "ISSN": [
+            "1364-8535"
+          ],
+          "ESSN": [
+            "1466-609X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "39"
+  ],
+  "abstractText": [
+    "Intensive care medicine is a relatively young discipline that has rapidly grown into a full-fledged medical subspecialty. Intensivists are responsible for managing an ever-increasing number of patients with complex, life-threatening diseases. Several factors may influence their performance, including age, training, experience, workload, and socioeconomic context. The aim of this study was to examine individual- and work-related aspects of the Latin American intensivist workforce, mainly with academic appointments, which might influence the quality of care provided. In consequence, we conducted a cross-sectional study of intensivists at public and private academic and nonacademic Latin American intensive care units (ICUs) through a web-based electronic survey submitted by email. Questions about personal aspects, work-related topics, and general clinical workflow were incorporated.Our study comprised 735 survey respondents (53% return rate) with the following country-specific breakdown: Brazil (29%); Argentina (19%); Chile (17%); Uruguay (12%); Ecuador (9%); Mexico (7%); Colombia (5%); and Bolivia, Peru, Guatemala, and Paraguay combined (2%). Latin American intensivists were predominantly male (68%) young adults (median age, 40 [IQR, 35-48] years) with a median clinical ICU experience of 10 (IQR, 5-20) years. The median weekly workload was 60 (IQR, 47-70) h. ICU formal training was between 2 and 4 years. Only 63% of academic ICUs performed multidisciplinary rounds. Most intensivists (85%) reported adequate conditions to manage patients with septic shock in their units. Unsatisfactory conditions were attributed to insufficient technology (11%), laboratory support (5%), imaging resources (5%), and drug shortages (5%). Seventy percent of intensivists participated in research, and 54% read scientific studies regularly, whereas 32% read no more than one scientific study per month. Research grants and pharmaceutical sponsorship are unusual funding sources in Latin America. Although Latin American intensivists are mostly unsatisfied with their income (81%), only a minority (27%) considered changing to another specialty before retirement.Latin American intensivists constitute a predominantly young adult workforce, mostly formally trained, have a high workload, and most are interested in research. They are under important limitations owing to resource constraints and overt dissatisfaction. Latin America may be representative of other world areas with similar challenges for intensivists. Specific initiatives aimed at addressing these situations need to be devised to improve the quality of critical care delivery in Latin America."
+  ],
+  "affiliation": [
+    "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Catolica de Chile, Diagonal Paraguay #362, Santiago Centro, RM, 8330077, Chile. rcastro@med.puc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Health",
+        "Intensive care units",
+        "Manpower",
+        "Critical Care",
+        "Latin American",
+        "Lmic"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5820791?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5820791"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13054-018-1956-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-22"
+  ],
+  "dateOfRevision": [
+    "2018-02-27"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-21"
+  ],
+  "firstPublicationDate": [
+    "2018-02-21"
+  ]
+}

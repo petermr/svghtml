@@ -1,0 +1,260 @@
+{
+  "id": [
+    "29018423"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29018423"
+  ],
+  "pmcid": [
+    "PMC5622978"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.01844"
+  ],
+  "title": [
+    "The Microbiome of Seriola lalandi of Wild and Aquaculture Origin Reveals Differences in Composition and Potential Function."
+  ],
+  "authorString": [
+    "Ramírez C, Romero J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramírez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Doctorado en Acuicultura, Programa Cooperativo Universidad de Chile, Universidad Católica del Norte, Pontificia Universidad Católica de Valparaíso, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Romero J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Romero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Biotecnología de los Alimentos, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1844"
+  ],
+  "abstractText": [
+    "Seriola lalandi is an economically important species that is globally distributed in temperate and subtropical marine waters. Aquaculture production of this species has had problems associated with intensive fish farming, such as disease outbreaks or nutritional deficiencies causing high mortalities. Intestinal microbiota has been involved in many processes that benefit the host, such as disease control, stimulation of the immune response, and the promotion of nutrient metabolism, among others. However, little is known about the potential functionality of the microbiota and the differences in the composition between wild and aquacultured fish. Here, we assayed the V4-region of the 16S rRNA gene using high-throughput sequencing. Our results showed that there are significant differences between S. lalandi of wild and aquaculture origin (ANOSIM and PERMANOVA, P < 0.05). At the genus level, a total of 13 genera were differentially represented between the two groups, all of which have been described as beneficial microorganisms that have an antagonistic effect against pathogenic bacteria, improve immunological parameters and growth performance, and contribute to nutrition. Additionally, the changes in the presumptive functions of the intestinal microbiota of yellowtail were examined by predicting the metagenomes using PICRUSt. The most abundant functional categories were those corresponding to the metabolism of cofactors and vitamins, amino acid metabolism and carbohydrate metabolism, revealing differences in the contribution of the microbiota depending on the origin of the animals. To our knowledge, this is the first study to characterize and compare the intestinal microbiota of S. lalandi of wild and aquaculture origin using high-throughput sequencing."
+  ],
+  "affiliation": [
+    "Doctorado en Acuicultura, Programa Cooperativo Universidad de Chile, Universidad Católica del Norte, Pontificia Universidad Católica de Valparaíso, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Microbiota",
+        "High-throughput Sequencing",
+        "Seriola",
+        "Yellowtail"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622978?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622978"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.01844"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-12"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-26"
+  ],
+  "firstPublicationDate": [
+    "2017-09-26"
+  ]
+}

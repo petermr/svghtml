@@ -1,0 +1,576 @@
+{
+  "id": [
+    "28832546"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28832546"
+  ],
+  "pmcid": [
+    "PMC5615489"
+  ],
+  "doi": [
+    "10.3390/ijerph14090952"
+  ],
+  "title": [
+    "Self-Rated Health Status and Cardiorespiratory Fitness in a Sample of Schoolchildren from Bogotá, Colombia. The FUPRECOL Study."
+  ],
+  "authorString": [
+    "Ramírez-Vélez R, Silva-Moreno C, Correa-Bautista JE, González-Ruíz K, Prieto-Benavides DH, Villa-González E, García-Hermoso A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ramírez-Vélez R"
+          ],
+          "firstName": [
+            "Robinson"
+          ],
+          "lastName": [
+            "Ramírez-Vélez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3075-6960",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robin640@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva-Moreno C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Silva-Moreno"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. carolinasilva1111@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Correa-Bautista JE"
+          ],
+          "firstName": [
+            "Jorge Enrique"
+          ],
+          "lastName": [
+            "Correa-Bautista"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0646-2316",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. jorge.correa@urosario.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Ruíz K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "González-Ruíz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Grupo de Ejercicio Físico y Deportes, Vicerrectoría de Investigaciones, Universidad Manuela Beltrán, Bogotá DC 110231, Colombia. katherine.gonzalez@docentes.umb.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Prieto-Benavides DH"
+          ],
+          "firstName": [
+            "Daniel Humberto"
+          ],
+          "lastName": [
+            "Prieto-Benavides"
+          ],
+          "initials": [
+            "DH"
+          ],
+          "affiliation": [
+            "Grupo de Ejercicio Físico y Deportes, Vicerrectoría de Investigaciones, Universidad Manuela Beltrán, Bogotá DC 110231, Colombia. danielprietob@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Villa-González E"
+          ],
+          "firstName": [
+            "Emilio"
+          ],
+          "lastName": [
+            "Villa-González"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2815-2060",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Education Sciences, University of Almería, 04120 Almería, Spain. evilla@unach.edu.ec."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Hermoso A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "García-Hermoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1397-7182",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Ciencias de la Actividad Física, el Deporte y la Salud, Universidad de Santiago de Chile, Facultad de Ciencias Médicas, USACH, Santiago 9160030, Chile. antonio.garcia.h@usach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2815-2060",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0646-2316",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3075-6960",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1397-7182",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2589130"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of environmental research and public health"
+          ],
+          "ISOAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "medlineAbbreviation": [
+            "Int J Environ Res Public Health"
+          ],
+          "NLMid": [
+            "101238455"
+          ],
+          "ISSN": [
+            "1661-7827"
+          ],
+          "ESSN": [
+            "1660-4601"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "To evaluate the relationship between Self-Rated Health (SRH) and cardiorespiratory fitness (CRF) in a sample of children and adolescents enrolled in official schools in Bogotá, Colombia. A cross-sectional study was performed with 7402 children and adolescents between 9 and 17 years of age. Participants were asked to rate their health based on eight validated questions, addressing the participants propensity for headache, stomach-ache, backache, feeling-low, irritability/bad mood, nervousness, sleeping-difficulties, and dizziness. The choices were \"rarely or never\", \"almost every month\", \"almost every week\", and \"more than once a week/about every day\". Participants performed the international course-navette shuttle run test to estimate CRF, and cut-off points for age and gender were used to categorize the healthy/unhealthy fitness zone according to the FITNESSGRAM® criteria. Overall, 16.4% of those surveyed reported a perception of irritability/bad mood \"more than once a week/about every day\", followed by feeling-low and nervousness (both with 9.9%). Dizziness had the lowest prevalence with a percentage of 6.9%. Unhealthy CRF in boys increased the likelihood of headaches by 1.20 times, stomach aches by 1.31 times, feeling-low by 1.29 times, nervousness by 1.24 times, and dizziness by 1.29 times. In girls, unhealthy CRF increased the likelihood of headaches by 1.19 times, backache by 1.26 times, feeling-low by 1.28 times, irritability/bad mood by 1.17 times, sleeping-difficulties by 1.20 times, and dizziness by 1.27 times. SRH was associated with CRF in both genders. Early identification of children and adolescents with low CRF levels will permit interventions to promote healthy behaviors and prevent future diseases during adulthood."
+  ],
+  "affiliation": [
+    "Centro de Estudios para la Medición de la Actividad Física (CEMA), Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá DC 111221, Colombia. robin640@hotmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exercise"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prevalence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Depression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anxiety"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Status"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Schools"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Physical Fitness"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Colombia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Surveys and Questionnaires"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cardiorespiratory Fitness"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Fitness",
+        "Pain",
+        "Physical Activity",
+        "Sedentary Life Style",
+        "Subjective Perception Of Health"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5615489?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5615489"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijerph14090952"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-20"
+  ],
+  "dateOfCreation": [
+    "2017-08-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-23"
+  ],
+  "firstPublicationDate": [
+    "2017-08-23"
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "id": [
+    "27366756"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27366756"
+  ],
+  "pmcid": [
+    "PMC4913013"
+  ],
+  "doi": [
+    "10.1155/2016/3793781"
+  ],
+  "title": [
+    "Serotonin- and Dopamine-Related Gene Expression in db/db Mice Islets and in MIN6 β-Cells Treated with Palmitate and Oleate."
+  ],
+  "authorString": [
+    "Cataldo LR, Mizgier ML, Busso D, Olmos P, Galgani JE, Valenzuela R, Mezzano D, Aranda E, Cortés VA, Santos JL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cataldo LR"
+          ],
+          "firstName": [
+            "L R"
+          ],
+          "lastName": [
+            "Cataldo"
+          ],
+          "initials": [
+            "LR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1225-414X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile; Facultad de Medicina, Universidad de los Andes, 7620001 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mizgier ML"
+          ],
+          "firstName": [
+            "M L"
+          ],
+          "lastName": [
+            "Mizgier"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6396-8823",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Busso D"
+          ],
+          "firstName": [
+            "D"
+          ],
+          "lastName": [
+            "Busso"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2113-1926",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olmos P"
+          ],
+          "firstName": [
+            "P"
+          ],
+          "lastName": [
+            "Olmos"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galgani JE"
+          ],
+          "firstName": [
+            "J E"
+          ],
+          "lastName": [
+            "Galgani"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile; UDA-Ciencias de la Salud, Carrera de Nutrición y Dietética, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Facultad de Medicina, Universidad de Chile, 7550367 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mezzano D"
+          ],
+          "firstName": [
+            "D"
+          ],
+          "lastName": [
+            "Mezzano"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2448-9288",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Hemostasia, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aranda E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Aranda"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Laboratorio de Hemostasia, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortés VA"
+          ],
+          "firstName": [
+            "V A"
+          ],
+          "lastName": [
+            "Cortés"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1658-0965",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santos JL"
+          ],
+          "firstName": [
+            "J L"
+          ],
+          "lastName": [
+            "Santos"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2895-0369",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2895-0369",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1225-414X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2448-9288",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1658-0965",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2113-1926",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6396-8823",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2348772"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of diabetes research"
+          ],
+          "ISOAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "medlineAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "NLMid": [
+            "101605237"
+          ],
+          "ISSN": [
+            "2314-6745"
+          ],
+          "ESSN": [
+            "2314-6753"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "3793781"
+  ],
+  "abstractText": [
+    "High circulating nonesterified fatty acids (NEFAs) concentration, often reported in diabetes, leads to impaired glucose-stimulated insulin secretion (GSIS) through not yet well-defined mechanisms. Serotonin and dopamine might contribute to NEFA-dependent β-cell dysfunction, since extracellular signal of these monoamines decreases GSIS. Moreover, palmitate-treated β-cells may enhance the expression of the serotonin receptor Htr2c, affecting insulin secretion. Additionally, the expression of monoamine-oxidase type B (Maob) seems to be lower in islets from humans and mice with diabetes compared to nondiabetic islets, which may lead to increased monoamine concentrations. We assessed the expression of serotonin- and dopamine-related genes in islets from db/db and wild-type (WT) mice. In addition, the effect of palmitate and oleate on the expression of such genes, 5HT content, and GSIS in MIN6 β-cell was determined. Lower Maob expression was found in islets from db/db versus WT mice and in MIN6 β-cells in response to palmitate and oleate treatment compared to vehicle. Reduced 5HT content and impaired GSIS in response to palmitate (-25%; p < 0.0001) and oleate (-43%; p < 0.0001) were detected in MIN6 β-cells. In conclusion, known defects of GSIS in islets from db/db mice and MIN6 β-cells treated with NEFAs are accompanied by reduced Maob expression and reduced 5HT content."
+  ],
+  "affiliation": [
+    "Departamento de Nutrición, Diabetes y Metabolismo, Escuela de Medicina, Pontificia Universidad Católica de Chile, 8331150 Santiago, Chile; Facultad de Medicina, Universidad de los Andes, 7620001 Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Islets of Langerhans"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Serotonin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insulin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SE"
+                  ],
+                  "qualifierName": [
+                    "secretion"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dopa Decarboxylase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Monoamine Oxidase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dopamine beta-Hydroxylase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tryptophan Hydroxylase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tyrosine 3-Monooxygenase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Arylalkylamine N-Acetyltransferase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Catechol O-Methyltransferase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oleic Acid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Palmitic Acid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reverse Transcriptase Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Insulin-Secreting Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dopamine Plasma Membrane Transport Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Serotonin Plasma Membrane Transport Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Acetylserotonin O-Methyltransferase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Tph1 protein, mouse"
+          ],
+          "registryNumber": [
+            "EC 1.14.16.4"
+          ]
+        },
+        {
+          "name": [
+            "Tph2 protein, mouse"
+          ],
+          "registryNumber": [
+            "EC 1.14.16.4"
+          ]
+        },
+        {
+          "name": [
+            "Tyrosine 3-Monooxygenase"
+          ],
+          "registryNumber": [
+            "EC 1.14.16.2"
+          ]
+        },
+        {
+          "name": [
+            "Monoamine Oxidase"
+          ],
+          "registryNumber": [
+            "EC 1.4.3.4"
+          ]
+        },
+        {
+          "name": [
+            "Dopamine beta-Hydroxylase"
+          ],
+          "registryNumber": [
+            "EC 1.14.17.1"
+          ]
+        },
+        {
+          "name": [
+            "Catechol O-Methyltransferase"
+          ],
+          "registryNumber": [
+            "EC 2.1.1.6"
+          ]
+        },
+        {
+          "name": [
+            "Tryptophan Hydroxylase"
+          ],
+          "registryNumber": [
+            "EC 1.14.16.4"
+          ]
+        },
+        {
+          "name": [
+            "Dopa Decarboxylase"
+          ],
+          "registryNumber": [
+            "EC 4.1.1.-"
+          ]
+        },
+        {
+          "name": [
+            "Arylalkylamine N-Acetyltransferase"
+          ],
+          "registryNumber": [
+            "EC 2.3.1.87"
+          ]
+        },
+        {
+          "name": [
+            "Serotonin Plasma Membrane Transport Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Slc6a4 protein, mouse"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Dopamine Plasma Membrane Transport Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Slc6a3 protein, mouse"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Acetylserotonin O-Methyltransferase"
+          ],
+          "registryNumber": [
+            "EC 2.1.1.4"
+          ]
+        },
+        {
+          "name": [
+            "Insulin"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Serotonin"
+          ],
+          "registryNumber": [
+            "333DO1RDJY"
+          ]
+        },
+        {
+          "name": [
+            "Oleic Acid"
+          ],
+          "registryNumber": [
+            "2UMI9U37CP"
+          ]
+        },
+        {
+          "name": [
+            "Palmitic Acid"
+          ],
+          "registryNumber": [
+            "2V16EO95H1"
+          ]
+        },
+        {
+          "name": [
+            "COMT protein, mouse"
+          ],
+          "registryNumber": [
+            "EC 2.1.1.6"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4913013?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4913013"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/3793781"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-09"
+  ],
+  "dateOfCreation": [
+    "2016-07-01"
+  ],
+  "dateOfRevision": [
+    "2017-06-09"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-05"
+  ],
+  "firstPublicationDate": [
+    "2016-06-05"
+  ]
+}

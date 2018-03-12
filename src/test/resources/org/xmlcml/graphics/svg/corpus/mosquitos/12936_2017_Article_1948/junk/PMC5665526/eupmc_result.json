@@ -1,0 +1,340 @@
+{
+  "id": [
+    "29091938"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29091938"
+  ],
+  "pmcid": [
+    "PMC5665526"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0186932"
+  ],
+  "title": [
+    "Spatially coincident vibrotactile noise improves subthreshold stimulus detection."
+  ],
+  "authorString": [
+    "Arredondo LT, Perez CA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Arredondo LT"
+          ],
+          "firstName": [
+            "Luis T"
+          ],
+          "lastName": [
+            "Arredondo"
+          ],
+          "initials": [
+            "LT"
+          ],
+          "affiliation": [
+            "Department of Electrical Engineering, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez CA"
+          ],
+          "firstName": [
+            "Claudio A"
+          ],
+          "lastName": [
+            "Perez"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Department of Electrical Engineering and Advanced Mining Technology Center, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0186932"
+  ],
+  "abstractText": [
+    "Stochastic Resonance (SR) is a phenomenon, mainly present in nonlinear detection systems, in which the addition of certain amount of noise, called optimal noise, has proven to enhance detection performance of subthreshold stimuli. When added noise is present only during the stimulus, an additional enhancement can be reached. This phenomenon was called time Coincidence Enhanced Stochastic Resonance (CESR). The aim of this study was to study the effect of spatially distributed vibrotactile noise in subthreshold stimuli detection. The correct response rates from two different stimuli conditions were compared, using four tactile stimulator systems to excite four different spatial locations on the fingertip. Under two different conditions, the stimuli were present in only one randomly chosen stimulator. For the first condition, all stimulators contain optimal noise level. In the second condition, the optimal noise was present only at the stimulator with the stimulus. SR threshold principle should not produce different correct response rates between the two conditions, since in both cases the noise enables the subthreshold stimulus to go above threshold. The stimulus signal used was a rectangular displacement controlled pulse that lasted 300ms within a 1.5s attention interval, applied to the exploratory zone of the index finger of 13 human subjects. For all subjects it was found that detection rates were better (p<0.0003) when noise was spatially coincident with the stimulus, compared to the condition in which noise was present simultaneously in all the stimulators. According to our literature review this is the first report of SR being influenced by the spatial location of the noise. These results were not found previously reported, so represent the discovery of a new phenomenon. We call this phenomenon Spatial-Coincidence-Enhanced Stochastic Resonance (SCESR). As results show, the optimal noise level is dependent on the relative position between stimulus and noise."
+  ],
+  "affiliation": [
+    "Department of Electrical Engineering, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Sensory Thresholds"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Touch"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Vibration"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5665526?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5665526"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0186932"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-28"
+  ],
+  "dateOfCreation": [
+    "2017-11-02"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-01"
+  ],
+  "firstPublicationDate": [
+    "2017-11-01"
+  ]
+}

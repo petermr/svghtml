@@ -1,0 +1,1002 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Cancer Med</journal-id><journal-id journal-id-type="iso-abbrev">Cancer Med</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7634</journal-id><journal-id journal-id-type="publisher-id">CAM4</journal-id><journal-title-group><journal-title>Cancer Medicine</journal-title></journal-title-group><issn pub-type="epub">2045-7634</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5119987</article-id><article-id pub-id-type="doi">10.1002/cam4.915</article-id><article-id pub-id-type="publisher-id">CAM4915</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Cancer Prevention</subject><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title>
+<italic>Salmonella enterica</italic> serovar Typhi and gallbladder cancer: a case&#x02013;control study and meta&#x02010;analysis</article-title></title-group><contrib-group><contrib id="cam4915-cr-0001" contrib-type="author"><name><surname>Koshiol</surname><given-names>Jill</given-names></name><xref ref-type="aff" rid="cam4915-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam4915-cr-0002" contrib-type="author"><name><surname>Wozniak</surname><given-names>Aniela</given-names></name><xref ref-type="aff" rid="cam4915-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam4915-cr-0003" contrib-type="author"><name><surname>Cook</surname><given-names>Paz</given-names></name><xref ref-type="aff" rid="cam4915-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam4915-cr-0004" contrib-type="author"><name><surname>Adaniel</surname><given-names>Christina</given-names></name><xref ref-type="aff" rid="cam4915-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam4915-cr-0005" contrib-type="author"><name><surname>Acevedo</surname><given-names>Johanna</given-names></name><xref ref-type="aff" rid="cam4915-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam4915-cr-0006" contrib-type="author"><name><surname>Az&#x000f3;car</surname><given-names>Lorena</given-names></name><xref ref-type="aff" rid="cam4915-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="cam4915-cr-0007" contrib-type="author"><name><surname>Hsing</surname><given-names>Ann W.</given-names></name><xref ref-type="aff" rid="cam4915-aff-0005">
+<sup>5</sup>
+</xref><xref ref-type="aff" rid="cam4915-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="cam4915-cr-0008" contrib-type="author"><name><surname>Roa</surname><given-names>Juan C.</given-names></name><xref ref-type="aff" rid="cam4915-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="cam4915-cr-0009" contrib-type="author"><name><surname>Pasetti</surname><given-names>Marcela F.</given-names></name><xref ref-type="aff" rid="cam4915-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="cam4915-cr-0010" contrib-type="author"><name><surname>Miquel</surname><given-names>Juan F.</given-names></name><xref ref-type="aff" rid="cam4915-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="cam4915-cr-0011" contrib-type="author"><name><surname>Levine</surname><given-names>Myron M.</given-names></name><xref ref-type="aff" rid="cam4915-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="cam4915-cr-0012" contrib-type="author" corresp="yes"><name><surname>Ferreccio</surname><given-names>Catterina</given-names></name><address><email>catferre@gmail.com</email></address><xref ref-type="aff" rid="cam4915-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam4915-cr-0013" contrib-type="author"><collab collab-type="authors">the Gallbladder Cancer Chile Working Group</collab><xref ref-type="author-notes" rid="cam4915-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib></contrib-group><contrib-group><contrib id="cam4915-cr-0014" contrib-type="author"><name><surname>Aguayo</surname><given-names>Carmen Gloria</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0015" contrib-type="author"><name><surname>Baez</surname><given-names>Sergio</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0016" contrib-type="author"><name><surname>D&#x000ed;az</surname><given-names>Alfonso</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0017" contrib-type="author"><name><surname>Molina</surname><given-names>H&#x000e9;ctor</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0018" contrib-type="author"><name><surname>Miranda</surname><given-names>Carolina</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0019" contrib-type="author"><name><surname>Castillo</surname><given-names>Claudia</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0020" contrib-type="author"><name><surname>Tello</surname><given-names>Andrea</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0021" contrib-type="author"><name><surname>Dur&#x000e1;n</surname><given-names>Gonzalo</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0022" contrib-type="author"><name><surname>Delgado</surname><given-names>Carolina Paz</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0023" contrib-type="author"><name><surname>Quevedo</surname><given-names>Rodrigo</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0024" contrib-type="author"><name><surname>Pineda</surname><given-names>Susana</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0025" contrib-type="author"><name><surname>la Barra</surname><given-names>Tiare</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0026" contrib-type="author"><name><surname>Reyes</surname><given-names>Cristian</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0027" contrib-type="author"><name><surname>Alegr&#x000ed;a</surname><given-names>Cristina</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0028" contrib-type="author"><name><surname>Aguayo</surname><given-names>Claudia</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0029" contrib-type="author"><name><surname>Losada</surname><given-names>H&#x000e9;ctor</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0030" contrib-type="author"><name><surname>Arraya</surname><given-names>Juan Carlos</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0031" contrib-type="author"><name><surname>Bellolio</surname><given-names>Enrique</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0032" contrib-type="author"><name><surname>Tapia</surname><given-names>Oscar</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0033" contrib-type="author"><name><surname>L&#x000f3;pez</surname><given-names>Jaime</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0034" contrib-type="author"><name><surname>Medina</surname><given-names>Karie</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0035" contrib-type="author"><name><surname>Barraza</surname><given-names>Paulina</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0036" contrib-type="author"><name><surname>Catal&#x000e1;n</surname><given-names>Sandra</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0037" contrib-type="author"><name><surname>Riquelme</surname><given-names>P&#x000ed;a</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0038" contrib-type="author"><name><surname>&#x000d3;rdenes</surname><given-names>Lorena</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0039" contrib-type="author"><name><surname>Garc&#x000e9;s</surname><given-names>Ra&#x000fa;l</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0040" contrib-type="author"><name><surname>Duarte</surname><given-names>Claudia</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib><contrib id="cam4915-cr-0041" contrib-type="author"><name><surname>Hildesheim</surname><given-names>Allan</given-names></name><xref ref-type="contrib" rid="cam4915-cr-0013"/></contrib></contrib-group><aff id="cam4915-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Infections and Immunoepidemiology Branch</named-content><named-content content-type="organisation-division">Division of Cancer Epidemiology and Genetics</named-content><institution>National Cancer Institute</institution><named-content content-type="country-part">MD</named-content></aff><aff id="cam4915-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Laboratory of Microbiology</named-content><institution>Pontificia Universidad Cat&#x000f3;lica de Chile</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><aff id="cam4915-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Escuela de Medicina</named-content><named-content content-type="organisation-division">Advanced Center for Chronic Diseases</named-content><institution>ACCDiS</institution><institution>Pontificia Universidad Cat&#x000f3;lica de Chile</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><aff id="cam4915-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Department of Gastroenterology</named-content><named-content content-type="organisation-division">School of Medicine</named-content><institution>Pontificia Universidad Cat&#x000f3;lica de Chile</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><aff id="cam4915-aff-0005"><label><sup>5</sup></label><institution>Stanford Cancer Institute</institution><named-content content-type="city">Palo Alto</named-content><named-content content-type="country-part">CA</named-content></aff><aff id="cam4915-aff-0006"><label><sup>6</sup></label><named-content content-type="organisation-division">Department of Health Research and Policy</named-content><institution>Stanford School of Medicine</institution><named-content content-type="city">Palo Alto</named-content><named-content content-type="country-part">CA</named-content></aff><aff id="cam4915-aff-0007"><label><sup>7</sup></label><named-content content-type="organisation-division">Department of Pathology</named-content><institution>School of Medicine</institution><institution>Pontificia Universidad Cat&#x000f3;lica de Chile</institution><named-content content-type="city">Santiago</named-content><country country="CL">Chile</country></aff><aff id="cam4915-aff-0008"><label><sup>8</sup></label><named-content content-type="organisation-division">Center for Vaccine Development</named-content><institution>University of Maryland School of Medicine</institution><named-content content-type="city">Baltimore</named-content><named-content content-type="country-part">MD</named-content></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Catterina Ferreccio, Advanced Center for Chronic Diseases (ACCDiS), FONDAP, Marcoletta 434; Santiago, Chile. Tel: 562 2354 3038; Fax: 562 26331840; E&#x02010;mail: <email>catferre@gmail.com</email><break/></corresp><fn id="cam4915-note-1001"><label>&#x02020;</label><p>The members of Gallbladder Cancer Chile Working Group (GBCChWG) are listed in <xref rid="cam4915-app-0001" ref-type="app">Appendix</xref>.</p></fn></author-notes><pub-date pub-type="epub"><day>11</day><month>10</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2016</year></pub-date><volume>5</volume><issue>11</issue><issue-id pub-id-type="doi">10.1002/cam4.2016.5.issue-11</issue-id><fpage>3310</fpage><lpage>3235</lpage><history><date date-type="received"><day>19</day><month>7</month><year>2016</year></date><date date-type="rev-recd"><day>21</day><month>7</month><year>2016</year></date><date date-type="accepted"><day>22</day><month>8</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. <italic>Cancer Medicine</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:CAM4-5-3310.pdf"/><abstract id="cam4915-abs-0001"><title>Abstract</title><p>In Chile, where gallbladder cancer (<styled-content style="fixed-case">GBC</styled-content>) rates are high and typhoid fever was endemic until the 1990s, we evaluated the association between <italic>Salmonella enterica</italic> serovar Typhi (<italic>S.&#x000a0;</italic>Typhi) antibodies and <styled-content style="fixed-case">GBC</styled-content>. We tested 39 <styled-content style="fixed-case">GBC</styled-content> cases, 40 gallstone controls, and 39 population&#x02010;based controls for <italic>S</italic>.&#x000a0;Typhi Vi antibodies and performed culture and quantitative polymerase chain reaction for the subset with bile, gallstone, tissue, and stool samples available. We calculated gender and education&#x02010;adjusted odds ratios (<styled-content style="fixed-case">OR</styled-content>s) and 95% confidence intervals (<styled-content style="fixed-case">CI</styled-content>s) for the association with <styled-content style="fixed-case">GBC</styled-content>. We also conducted a meta&#x02010;analysis of &#x0003e;1000 <styled-content style="fixed-case">GBC</styled-content> cases by combining our results with previous studies. <styled-content style="fixed-case">GBC</styled-content> cases were more likely to have high Vi antibody titer levels than combined controls (<styled-content style="fixed-case">OR</styled-content>: 4.0, 95% <styled-content style="fixed-case">CI</styled-content>: 0.9&#x02013;18.3), although <italic>S.&#x000a0;</italic>Typhi was not recovered from bile, gallstone, tissue, or stool samples. In our meta&#x02010;analysis, the summary relative risk was 4.6 (95% <styled-content style="fixed-case">CI</styled-content>: 3.1&#x02013;6.8, <italic>P</italic>
+<sub>heterogeneity</sub>=0.6) for anti&#x02010;Vi and 5.0 (95% <styled-content style="fixed-case">CI</styled-content>: 2.7&#x02013;9.3, <italic>P</italic>
+<sub>heterogeneity</sub>&#x000a0;=&#x000a0;0.2) for bile or stool culture. Our results are consistent with the meta&#x02010;analysis. Despite differences in study methods (e.g., <italic>S.&#x000a0;</italic>Typhi detection assay), most studies found a positive association between <italic>S</italic>.&#x000a0;Typhi and <styled-content style="fixed-case">GBC</styled-content>. However, the mechanism underlying this association requires further investigation</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="cam4915-kwd-0001">Chile</kwd><kwd id="cam4915-kwd-0002">epidemiology</kwd><kwd id="cam4915-kwd-0003">gallbladder cancer</kwd><kwd id="cam4915-kwd-0004">meta&#x02010;analysis</kwd><kwd id="cam4915-kwd-0005"><italic>Salmonella enterica</italic> serovar Typhi</kwd><kwd id="cam4915-kwd-0006">Vi antibodies</kwd></kwd-group><funding-group><award-group><funding-source>Fondo Nacional de Investigaci&#x000f3;n y Desarrollo en Salud (FONIS)</funding-source><award-id>SA11I2205</award-id></award-group></funding-group><funding-group><award-group><funding-source>Fondo Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico (FONDECYT)</funding-source><award-id>1130303</award-id><award-id>1130204</award-id></award-group></funding-group><funding-group><award-group><funding-source>Intramural Research Program of the National Institutes of Health (NIH)</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Office of Research on Women's Health (ORWH), NIH</funding-source></award-group></funding-group><counts><fig-count count="2"/><table-count count="3"/><page-count count="16"/><word-count count="10856"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>cam4915</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.8 mode:remove_FC converted:22.11.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="cam4915-cit-1001">
+<source>Cancer Medicine</source>
+<year>2016</year>; 5(11):<fpage>3310</fpage>&#x02013;<lpage>3325</lpage>
+</mixed-citation>
+</p></notes></front><body><sec id="cam4915-sec-0001"><title>Introduction</title><p>Gallbladder cancer (GBC) is rare, although the incidence varies greatly in different parts of the world. It is also highly lethal, with a 5&#x02010;year survival of approximately 12% <xref rid="cam4915-bib-0001" ref-type="ref">1</xref>, <xref rid="cam4915-bib-0002" ref-type="ref">2</xref>, <xref rid="cam4915-bib-0003" ref-type="ref">3</xref>, <xref rid="cam4915-bib-0004" ref-type="ref">4</xref>. Although gallstones are a major risk factor for GBC in high&#x02010;risk areas like Chile, presenting in &#x0003e;95% of GBC cases <xref rid="cam4915-bib-0005" ref-type="ref">5</xref>, it has been estimated that only 1% of gallstone patients will develop GBC <xref rid="cam4915-bib-0006" ref-type="ref">6</xref>.</p><p>Chronic biliary infection with <italic>Salmonella enterica</italic> serovar Typhi (<italic>S.&#x000a0;</italic>Typhi), the causative agent of typhoid fever, has been proposed as one possible additional risk factor for GBC <xref rid="cam4915-bib-0002" ref-type="ref">2</xref>. This hypothesis developed from a case report of a woman who had documented typhoid fever for 30&#x000a0;years before hospitalization due to GBC, with <italic>S.&#x000a0;</italic>Typhi subsequently isolated from bile and from the wall of the gallbladder <xref rid="cam4915-bib-0007" ref-type="ref">7</xref>. Several retrospective studies in the United States <xref rid="cam4915-bib-0008" ref-type="ref">8</xref>, Denmark <xref rid="cam4915-bib-0009" ref-type="ref">9</xref>, and Scotland <xref rid="cam4915-bib-0010" ref-type="ref">10</xref> have provided strong evidence that chronic <italic>S.&#x000a0;</italic>Typhi carriers have a significantly higher risk of death from GBC in comparison with the general population. More recently, several case&#x02013;control studies have reported significant associations between <italic>S.&#x000a0;</italic>Typhi and GBC, many of them coming from Northern India, where both typhoid fever and GBC are endemic. These associations are not always supported by evidence of <italic>S.&#x000a0;</italic>Typhi from biologic specimens, but methods for detecting <italic>S.&#x000a0;</italic>Typhi in the gallbladder may not be sufficiently sensitive, while Vi antibody serostatus may not reflect <italic>S.&#x000a0;</italic>Typhi infection in the gallbladder itself. Thus, the nature of the association between <italic>S.&#x000a0;</italic>Typhi and GBC remains unclear and is hindered by the limitations of the assays.</p><p>The hypothesis that <italic>S.&#x000a0;</italic>Typhi may be linked to GBC is especially relevant in Chile, which has among the highest GBC incidence rates in the world (12.8 per 100,000 in women and 6.3 per 100,000 in men) <xref rid="cam4915-bib-0011" ref-type="ref">11</xref>, <xref rid="cam4915-bib-0012" ref-type="ref">12</xref>, <xref rid="cam4915-bib-0013" ref-type="ref">13</xref>. The annual country&#x02010;wide incidence of typhoid fever ranged from ~40 to 60 cases per 100,000 population between 1970 and 1976 and then rose abruptly from 1977 to 1984, with incidence rates ranging from &#x0003e;90 to 121 cases per 100,000 <xref rid="cam4915-bib-0002" ref-type="ref">2</xref>, <xref rid="cam4915-bib-0014" ref-type="ref">14</xref>. Vaccination of large cohorts of schoolchildren between 1980 and 1985 with live oral typhoid vaccine lowered the annual rates in Santiago by 1990. Several sanitation interventions introduced following the 1991 outbreak of cholera lowered the annual rates dramatically beginning in 1992 to &#x0003c;20 cases per 100,000 and to &#x0003c;10 cases per 100,000 by 2000. Although <italic>S.&#x000a0;</italic>Typhi exposure is now at low levels, exposure to <italic>S</italic>.&#x000a0;Typhi when it was endemic decades ago could affect current trends in GBC rates if chronic carriage increases the risk of GBC. Given that GBC is the second leading cause of cancer death in Chilean women <xref rid="cam4915-bib-0011" ref-type="ref">11</xref>, <xref rid="cam4915-bib-0015" ref-type="ref">15</xref>, understanding the role of <italic>S.&#x000a0;</italic>Typhi in gallbladder carcinogenesis is particularly relevant for early detection and prevention strategies.</p><p>We hypothesized that GBC cancer cases would have higher titers of IgG antibody to the Vi capsular polysaccharide of <italic>S.&#x000a0;</italic>Typhi than controls with or without gallstones. We tested this hypothesis in 39 GBC cases, 40 gallstone controls, and 39 population&#x02010;based controls without gallstones, recruited from three public hospitals and the areas that they service in Chile. We also used culture and quantitative polymerase chain reaction (qPCR) in an attempt to detect <italic>S</italic>.&#x000a0;Typhi in a subset of participants with bile, gallstone, gallbladder tissue, or stool samples available. In addition, we conducted a meta&#x02010;analysis to evaluate the effects of study design issues, such as differences in referent groups, assays, and geographical region.</p></sec><sec id="cam4915-sec-0002"><title>Materials and Methods</title><sec id="cam4915-sec-0003"><title>Study population</title><p>As recently described <xref rid="cam4915-bib-0016" ref-type="ref">16</xref>, we enrolled incident GBC cases without prior cancer between April 2012 and August 2013 through rapid ascertainment in three public hospitals in Chile. We recruited age&#x02010; and sex&#x02010;matched gallstone controls who had cholecystectomy in the same week as the case and age&#x02010; and sex&#x02010;matched population&#x02010;based controls identified from the registry of beneficiaries at the local health center or through neighborhood sampling. Eighty&#x02010;four percent of GBC cases (49/58), 88% of gallstone controls (37/42), and 60% of population&#x02010;based controls consented to participate (49/82). We included all participants with serum available. Eight population&#x02010;based controls had ultrasound&#x02010;detected gallstones. These individuals were recoded as gallstone controls. We also excluded excluded two population&#x02010;based controls with unknown gallstone status. Therefore, the current analysis included 39 GBC cases, 40 gallstone controls. Based on a previous meta&#x02010;analysis that provided a summary OR of 3.5 for antibody&#x02010;based <italic>S.&#x000a0;</italic>Typhi detection and GBC <xref rid="cam4915-bib-0017" ref-type="ref">17</xref>, we estimated that with 39 GBC cases and two controls per case (gallstone and population&#x02010;based controls combined), we would have more than 80% power to confirm this association&#x000a0;in our study population. The study was approved by institutional review boards of the US National Cancer Institute, Pontificia Universidad Cat&#x000f3;lica, the Chilean Ministry of Health, and each hospital that contributed to the study as required. All participants provided written consent. Biospecimens were stored at &#x02212;80&#x000b0;C.</p></sec><sec id="cam4915-sec-0004"><title>Laboratory testing</title><sec id="cam4915-sec-0005"><title>Elevated titers of serum antibody against Vi capsular polysaccharide</title><p>Serum samples were blindly tested for IgG antibodies to <italic>S.&#x000a0;</italic>Typhi Vi capsular polysaccharide in the Applied Immunology Section of the Center for Vaccine Development, University of Maryland School of Medicine. Anti&#x02010;Vi antibody titers were measured by ELISA with modifications of the methods of Losonsky et&#x000a0;al. <xref rid="cam4915-bib-0018" ref-type="ref">18</xref> and Wahid et&#x000a0;al. <xref rid="cam4915-bib-0019" ref-type="ref">19</xref>. We used biotinylated Vi (kindly provided by Dr. Andrew Lees). In addition, we ran a human Vi antibody standard <xref rid="cam4915-bib-0020" ref-type="ref">20</xref> that allowed us to convert ELISA unit titers to <italic>&#x003bc;</italic>g/mL of IgG Vi antibody. The lower limit of detection was 0.04&#x000a0;<italic>&#x003bc;</italic>g/mL. Based on the distribution of Vi antibody titers among cases and controls (Fig.&#x000a0;<xref rid="cam4915-fig-0001" ref-type="fig">1</xref>), we used &#x02265;0.3&#x000a0;<italic>&#x003bc;</italic>g/mL as the cut off for high Vi antibody titer levels. We also conducted sensitivity analyses using cut offs of 0.2 (the upper limit for seropositivity considering an assay variation of up to 25%), 0.5, 1, and 1.5&#x000a0;<italic>&#x003bc;</italic>g/mL. We included duplicate aliquots for four individuals. The within subject coefficient of variation for these subjects was 5%.</p><fig fig-type="Figure" xml:lang="en" id="cam4915-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Distribution of detectable Vi antibody levels among gallbladder cancer cases, gallstone controls, and population&#x02010;based controls.</p></caption><graphic id="nlm-graphic-3" xlink:href="CAM4-5-3310-g001"/></fig></sec><sec id="cam4915-sec-0006"><title>Microbial assays</title><p>We tested for evidence of bacteria in tissue (<italic>N</italic>&#x000a0;=&#x000a0;35), gallstones (<italic>N</italic>&#x000a0;=&#x000a0;35), bile (<italic>N</italic>&#x000a0;=&#x000a0;10), and stools (<italic>N</italic>&#x000a0;=&#x000a0;35) from the subset of participants who had sufficient material available. Microbial assays were performed in the Laboratory of Microbiology at Pontificia Universidad Cat&#x000f3;lica de Chile as described below.</p></sec></sec><sec id="cam4915-sec-0007"><title>Culture and DNA extraction</title><sec id="cam4915-sec-0008"><title>Stool</title><p>Thirty&#x02010;five samples from 13 GBC cases, nine gallstone controls, and 13 population&#x02010;based controls were enriched in selenite and ox bile broth (Oxoid) and plated in Hektoen agar. The bacterial species among the suspicious colonies were identified by matrix&#x02010;assisted laser desorption/ionization time&#x02010;of&#x02010;flight mass spectrometry (MALDI&#x02010;TOF). Selenite broth cultures were centrifuged and DNA was extracted with the QIAamp DNA Stool Mini kit.</p></sec><sec id="cam4915-sec-0009"><title>Gallbladder tissue, bile, and gallstones</title><p>A subset of participants had gallbladder tissue (10 GBC cases, 25 gallstone controls), bile (three GBC cases, seven gallstone controls), and gallstones (eight GBC cases, 28 gallstone controls) collected aseptically. Gallbladder tissue, bile, or gallstones were enriched in selenite and Tryptic soy broth. If the tissue sample was large, it was cut into smaller pieces prior to culture. One gallstone was cultured per participant. One mL of bile was cultured per participant. After overnight incubation, one aliquot of broth was used for culture, and one was used for DNA extraction. Cultures exhibiting visible growth were plated on blood and chocolate agar, and colonies that grew were identified by MALDI&#x02010;TOF. DNA was extracted using the QIAamp DNA Mini Kit according to the manufacturer's instructions. For DNA extraction from tissue, cultured tissue samples were homogenized, and 25&#x000a0;mg of tissue was combined with 1&#x000a0;mL of the culture broth and centrifuged at 1200&#x000a0;g for 2&#x000a0;min. DNA was extracted from the pellet. Supernatant was discarded and 180&#x000a0;<italic>&#x003bc;</italic>L of lysis buffer and 20&#x000a0;<italic>&#x003bc;</italic>L of proteinase K were added to the pellet. After two washing steps, DNA was eluted in 50&#x000a0;<italic>&#x003bc;</italic>L of elution buffer. For DNA extraction from gallstones, cultured gallstones were sonicated in the culture medium for 1&#x000a0;min at 50&#x000a0;kHz, and 1&#x000a0;mL of culture broth was centrifuged for 2&#x000a0;min at 1200&#x000a0;g. DNA extraction continued as described above. For DNA extraction from bile, 1&#x000a0;mL of cultured bile was centrifuged for 2&#x000a0;min at 1200&#x000a0;g. DNA extraction continued as described above.</p></sec><sec id="cam4915-sec-0010"><title>Detection of specific pathogens by PCR</title><p>All samples (bile, tissue, stones, stool) were analyzed by real&#x02010;time PCR (qPCR) to detect <italic>S</italic>.&#x000a0;Typhi, employing primers to amplify <italic>fliC,</italic> which encodes the <italic>S</italic>.&#x000a0;Typhi Phase 1 flagellin subunit (Hd) <xref rid="cam4915-bib-0021" ref-type="ref">21</xref>. The analytical sensitivity of the PCR was 14.5 <italic>S</italic>.&#x000a0;Typhi genomes per qPCR reaction (data not shown). Conversely, DNA extracted from clinical isolates of <italic>S</italic>.&#x000a0;Typhimurium, <italic>S</italic>. Choleraesuis, <italic>S</italic>. Paratyphi A, or <italic>S</italic>. Enteritidis did not amplify. Gel&#x02010;based PCR was used to detect <italic>Salmonella</italic> species, utilizing primers that amplify <italic>invA</italic> encoding a <italic>Salmonella</italic> Pathogenicity Island 1 protein required for invasion of epithelial cells <xref rid="cam4915-bib-0022" ref-type="ref">22</xref>). PCR products for <italic>Salmonella</italic> species were visualized on agarose gels, 1.5%. DNA extracted from a clinical isolate of <italic>S</italic>.&#x000a0;Typhi was used as the positive control in qPCR and gel&#x02010;based PCR tests. PCR&#x02010;grade water was used as the negative control in all tests. Human RNAse P gene was used as the internal quality control to ensure proper DNA extraction and the absence of PCR inhibitors <xref rid="cam4915-bib-0023" ref-type="ref">23</xref>, <xref rid="cam4915-bib-0024" ref-type="ref">24</xref>.</p></sec></sec><sec id="cam4915-sec-0011"><title>Statistical analysis</title><p>We compared participants using the Kruskal&#x02013;Wallis test for difference in median or nonzero correlation chi&#x02010;square test for categorical comparisons (Table&#x000a0;<xref rid="cam4915-tbl-0001" ref-type="table-wrap">1</xref>). Conditional and unconditional logistic regression models produced similar results for the association of <italic>S.&#x000a0;</italic>Typhi with GBC compared to gallstone controls and population&#x02010;based controls; thus, we used unconditional logistic regression to calculate odds ratios (ORs) and 95% confidence intervals (95% CIs). We evaluated the association between high titers of anti&#x02010;Vi antibody seropositivity (&#x02265;0.3&#x000a0;<italic>&#x003bc;</italic>g/mL for the primary analysis) and GBC compared gallstone controls and population&#x02010;based controls combined using standard logistic regression. In addition, we compared GBC to gallstone controls and population&#x02010;based controls separately using polytomous logistic regression. We also explored if high Vi antibody titer levels were associated with gallstones by comparing gallstone controls to population&#x02010;based controls without gallstones. Using forward modeling, we assessed potential confounders including continuous age, gender, study site (Concepcion and Temuco, which have high risk of GBC, vs. Santiago), self&#x02010;reported Mapuche ancestry, BMI (based on self&#x02010;report of weight more than 3&#x000a0;years ago or average adult weight and categorized according to the WHO guidelines: BMI &#x0003c;18.50&#x000a0;=&#x000a0;underweight, 18.50&#x02013;24.99&#x000a0;=&#x000a0;normal weight, 25.00&#x02013;29.99&#x000a0;=&#x000a0;overweight, &#x02265;30&#x000a0;=&#x000a0;obese), education (ordinal categories of less than 6&#x000a0;years of education, 7&#x02013;9&#x000a0;years, 10&#x02013;12&#x000a0;years, and 13&#x000a0;years of more), diabetes, smoking (ever vs. never), family history of GBC. Gender and education changed the ORs by more than 10% and were therefore retained in the adjusted models. All analyses were conducted using SAS 9.3 (SAS Institute Inc., Cary, NC).</p><table-wrap id="cam4915-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Characteristics of gallbladder cancer cases (GBC), gallstone patients, and population&#x02010;based controls tested for <italic>Salmonella</italic> Typhi Vi antibody seropositivity</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="center" valign="top" rowspan="1" colspan="1">GBC(<italic>N</italic>&#x000a0;=&#x000a0;39)</th><th align="center" valign="top" rowspan="1" colspan="1">Gallstone controls(<italic>N</italic>&#x000a0;=&#x000a0;40)</th><th align="center" valign="top" rowspan="1" colspan="1">Population&#x02010;based controls(<italic>N</italic>&#x000a0;=&#x000a0;39)</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>P</italic>&#x02010;value<xref ref-type="fn" rid="cam4915-note-0004">b</xref>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age, median (range)</td><td align="char" char=" " rowspan="1" colspan="1">62 (41&#x02013;77)</td><td align="char" char=" " rowspan="1" colspan="1">60 (40&#x02013;79)</td><td align="char" char=" " rowspan="1" colspan="1">66 (37&#x02013;75)</td><td align="char" char="." rowspan="1" colspan="1">0.9</td></tr><tr><td align="left" rowspan="1" colspan="1">Male gender, <italic>N</italic>(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">7 (17.9)</td><td align="char" char=" " rowspan="1" colspan="1">7 (18.4)</td><td align="char" char=" " rowspan="1" colspan="1">8 (20.5)</td><td align="char" char="." rowspan="1" colspan="1">0.8</td></tr><tr><td align="left" rowspan="1" colspan="1">High&#x02010;risk site (Concepcion or Temuco), N(%)</td><td align="char" char=" " rowspan="1" colspan="1">20 (51.3)</td><td align="char" char=" " rowspan="1" colspan="1">18 (45.0)</td><td align="char" char=" " rowspan="1" colspan="1">15 (38.5)</td><td align="char" char="." rowspan="1" colspan="1">0.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Self&#x02010;reported Mapuche ancestry, <italic>N</italic>(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">4 (10.3)</td><td align="char" char=" " rowspan="1" colspan="1">2 (5.4)</td><td align="char" char=" " rowspan="1" colspan="1">2 (5.1)</td><td align="char" char="." rowspan="1" colspan="1">0.4</td></tr><tr><td align="left" colspan="5" rowspan="1">Education level, <italic>N</italic>(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x02264;6&#x000a0;years</td><td align="char" char=" " rowspan="1" colspan="1">21 (53.8)</td><td align="char" char=" " rowspan="1" colspan="1">17 (44.7)</td><td align="char" char=" " rowspan="1" colspan="1">12 (30.8)</td><td align="char" char="." rowspan="1" colspan="1">0.004</td></tr><tr><td align="left" rowspan="1" colspan="1">7&#x02013;9&#x000a0;years</td><td align="char" char=" " rowspan="1" colspan="1">9 (23.1)</td><td align="char" char=" " rowspan="1" colspan="1">8 (21.1)</td><td align="char" char=" " rowspan="1" colspan="1">5 (12.8)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">10&#x02013;12&#x000a0;years</td><td align="char" char=" " rowspan="1" colspan="1">6 (15.4)</td><td align="char" char=" " rowspan="1" colspan="1">9 (23.7)</td><td align="char" char=" " rowspan="1" colspan="1">13 (33.3)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">&#x02265;13&#x000a0;years</td><td align="char" char=" " rowspan="1" colspan="1">3 (7.7)</td><td align="char" char=" " rowspan="1" colspan="1">4 (10.5)</td><td align="char" char=" " rowspan="1" colspan="1">9 (23.1)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Body mass index weight category, N(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+<sup>,</sup>
+<xref ref-type="fn" rid="cam4915-note-0005">c</xref>
+</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1">0.7</td></tr><tr><td align="left" rowspan="1" colspan="1">Normal weight</td><td align="char" char=" " rowspan="1" colspan="1">14 (41.2)</td><td align="char" char=" " rowspan="1" colspan="1">8 (25.0)</td><td align="char" char=" " rowspan="1" colspan="1">12 (33.3)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Overweight</td><td align="char" char=" " rowspan="1" colspan="1">12 (35.3)</td><td align="char" char=" " rowspan="1" colspan="1">15 (46.9)</td><td align="char" char=" " rowspan="1" colspan="1">16 (44.4)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Obese</td><td align="char" char=" " rowspan="1" colspan="1">8 (23.5)</td><td align="char" char=" " rowspan="1" colspan="1">9 (28.1)</td><td align="char" char=" " rowspan="1" colspan="1">8 (22.2)</td><td align="center" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">Diabetes, N(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">10 (25.6)</td><td align="char" char=" " rowspan="1" colspan="1">6 (16.2)</td><td align="char" char=" " rowspan="1" colspan="1">6 (15.4)</td><td align="char" char="." rowspan="1" colspan="1">0.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Smokers, N(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">12 (30.8)</td><td align="char" char=" " rowspan="1" colspan="1">14 (37.8)</td><td align="char" char=" " rowspan="1" colspan="1">21 (53.8)</td><td align="char" char="." rowspan="1" colspan="1">0.04</td></tr><tr><td align="left" rowspan="1" colspan="1">Family history of GBC, N(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">2 (7.1)</td><td align="char" char=" " rowspan="1" colspan="1">0 (0.0)</td><td align="char" char=" " rowspan="1" colspan="1">1 (3.6)</td><td align="char" char="." rowspan="1" colspan="1">0.5</td></tr><tr><td align="left" rowspan="1" colspan="1">Self&#x02010;reported typhoid fever, N(%)<xref ref-type="fn" rid="cam4915-note-0003">a</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">3 (8.1)</td><td align="char" char=" " rowspan="1" colspan="1">2 (5.7)</td><td align="char" char=" " rowspan="1" colspan="1">3 (7.7)</td><td align="char" char="." rowspan="1" colspan="1">0.9</td></tr><tr><td align="left" rowspan="1" colspan="1">Elevated Vi antibody seropositivity, N(%)<xref ref-type="fn" rid="cam4915-note-0006">d</xref>
+</td><td align="char" char=" " rowspan="1" colspan="1">6 (15.4)</td><td align="char" char=" " rowspan="1" colspan="1">2 (5)</td><td align="char" char=" " rowspan="1" colspan="1">1 (2.6)</td><td align="char" char="." rowspan="1" colspan="1">0.03</td></tr></tbody></table><table-wrap-foot><fn id="cam4915-note-0003"><label>a</label><p>Percentages exclude individuals with missing data.</p></fn><fn id="cam4915-note-0004"><label>b</label><p>Kruskal&#x02013;Wallis test for difference in median or nonzero correlation chi&#x02010;squared test for categorical comparisons.</p></fn><fn id="cam4915-note-0005"><label>c</label><p>Based on self&#x02010;report of weight more than 3&#x000a0;years ago or average adult weight.</p></fn><fn id="cam4915-note-0006"><label>d</label><p>A titer &#x02265;0.3ug/mL was considered as having elevated Vi antibody titers.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="cam4915-sec-0012"><title>Literature review and meta&#x02010;analysis</title><p>We searched for published studies on <italic>Salmonella</italic> and GBC in MEDLINE (via PubMed) through 10 February 2016 using the terms (&#x0201c;hepatobiliary cancer&#x0201d; OR &#x0201c;hepatopancreatobiliary cancer&#x0201d; OR &#x0201c;biliary tract cancer&#x0201d; OR &#x0201c;biliary tract carcinoma&#x0201d; OR &#x0201c;bile duct cancer&#x0201d; OR &#x0201c;bile duct carcinoma&#x0201d; OR &#x0201c;gallbladder cancer&#x0201d; OR &#x0201c;gall bladder cancer&#x0201d; OR &#x0201c;gallbladder carcinoma&#x0201d; OR &#x0201c;gall bladder carcinoma&#x0201d;) AND (&#x0201c;Salmonella Typhi&#x0201d; OR Salmonella OR &#x0201c;typhoid fever&#x0201d; OR &#x0201c;S.&#x000a0;typhi&#x0201d; OR &#x0201c;S&#x000a0;typhi&#x0201d; OR &#x0201c;S.&#x000a0;Typhi&#x0201d; OR &#x0201c;S Typhi&#x0201d; OR &#x0201c;S.&#x000a0;paratyphi&#x0201d; OR &#x0201c;S paratyphi&#x0201d; OR &#x0201c;S.&#x000a0;Paratyphi&#x0201d; OR &#x0201c;S Paratyphi&#x0201d;). No restrictions were placed on language or publication starting date. Peer&#x02010;reviewed publications that evaluated <italic>Salmonella</italic> and GBC were eligible if they either reported or had calculable relative risks (risk ratios, rate ratios, ORs, or standardized incidence or mortality rates, hereafter termed &#x02018;&#x02018;relative risks&#x02019;&#x02019; and referred to RRs) and corresponding 95% confidence intervals (CIs) for the association between <italic>Salmonella</italic> and GBC.</p><p>We abstracted RRs and 95% CIs if they were reported, or calculated them ourselves for the association between <italic>Salmonella</italic> and GBC. For author&#x02010;calculated RRs, 0.5 was added to each of the four interior cells if one of the cells contained zero. Abstracted data included <italic>Salmonella</italic> detection method (culture, antibodies against somatic antigens (TO) or flagellar antigens (TH), antibodies against VI antigen, nested PCR for the <italic>S</italic>.&#x000a0;Typhi flagellin subunit gene, self&#x02010;report, physician&#x02010;diagnosed, <italic>S</italic>.&#x000a0;Typhi lypopolysaccharide), biospecimen if applicable (stool, bile, serum, gallstones, tissue), outcome (prevalent GBC, incident GBC, GBC mortality, hepatobiliary cancer mortality, hepatobiliary cancer incidence), and other study characteristics (e.g., sample size, study design, geographic location). For publications based on the same study population <xref rid="cam4915-bib-0010" ref-type="ref">10</xref>, <xref rid="cam4915-bib-0025" ref-type="ref">25</xref>, <xref rid="cam4915-bib-0026" ref-type="ref">26</xref>, <xref rid="cam4915-bib-0027" ref-type="ref">27</xref>, <xref rid="cam4915-bib-0028" ref-type="ref">28</xref>, <xref rid="cam4915-bib-0029" ref-type="ref">29</xref>, <xref rid="cam4915-bib-0030" ref-type="ref">30</xref>, <xref rid="cam4915-bib-0031" ref-type="ref">31</xref>, <xref rid="cam4915-bib-0032" ref-type="ref">32</xref>, <xref rid="cam4915-bib-0033" ref-type="ref">33</xref>, <xref rid="cam4915-bib-0034" ref-type="ref">34</xref>, <xref rid="cam4915-bib-0035" ref-type="ref">35</xref>, we used the article with the largest number of participants unless multiple articles could contribute to separate analyses. We initially extracted data on two studies that we later excluded from analyses because they had ecological <xref rid="cam4915-bib-0036" ref-type="ref">36</xref> or case series <xref rid="cam4915-bib-0034" ref-type="ref">34</xref> study designs.</p><p>We evaluated the association between <italic>Salmonella</italic> and GBC using stratified random&#x02010;effects meta&#x02010;analysis and examined key study characteristics and variation across studies using restricted maximum likelihood metaregression. Some studies provided multiple RRs with differing <italic>Salmonella</italic> detection methods or outcome referent groups. In these cases, we applied the following decision rules to select one RR per study for any given analysis: (1) if crude and adjusted estimates available, chose adjusted estimate; (2) choose results with the largest number of cases, then the largest number of controls; if the number of cases is similar and the number of controls very different, base choice on the largest number of controls; (3) if there are multiple results with the same number of cases and controls but different <italic>S.&#x000a0;</italic>Typhi assays, choose the more specific assay (culture, DNA, Vi antibody seropositivity, then Widal). We used Cochran's Q two&#x02010;sided homogeneity <italic>P</italic>&#x02010;value <xref rid="cam4915-bib-0037" ref-type="ref">37</xref> to evaluate heterogeneity in RRs and funnel plots to assess asymmetry, which can reflect publication bias, random error, or study characteristics associated with sample size <xref rid="cam4915-bib-0038" ref-type="ref">38</xref>, using Begg rank correlation <xref rid="cam4915-bib-0039" ref-type="ref">39</xref> and Egger regression <xref rid="cam4915-bib-0040" ref-type="ref">40</xref>.</p></sec></sec><sec id="cam4915-sec-0013"><title>Results</title><p>The current analysis included 39 GBC cases, 40 gallstone controls, and 39 population&#x02010;based controls with serum available. The sociodemographic characteristics were generally similar across cases and controls, although GBC cases&#x000a0;were less likely to have higher education (<italic>&#x003c7;</italic>
+<sup>2</sup>
+<italic>P</italic>&#x000a0;=&#x000a0;0.004) or to be smokers (<italic>&#x003c7;</italic>
+<sup>2</sup>
+<italic>P</italic>&#x000a0;=&#x000a0;0.04) (Table&#x000a0;<xref rid="cam4915-tbl-0001" ref-type="table-wrap">1</xref>). In addition, 15.4% of GBC cases had high Vi antibody levels (&#x02265;0.3&#x000a0;<italic>&#x003bc;</italic>g/mL) compared to 5.0% of gallstone controls and 2.6% of population&#x02010;based controls.</p><p>High Vi antibody titer levels were associated with an increased risk of GBC compared to all controls combined using standard logistic regression [OR (95% CI): 4.6 (1.1&#x02013;19.5)], and the association remained elevated after adjustment for gender and education [4.0 (0.9&#x02013;18.3)]. GBC cases were more likely to have high Vi antibody titer levels than combined controls even when higher or lower cut offs were used to define high Vi antibody titer level (Table S1). Comparing to gallstone and population&#x02010;based controls separately using polytomous logistic regression, the gender&#x02010; and education&#x02010;adjusted ORs for elevated Vi antibody seropositivity and GBC were 3.1 (0.6&#x02013;17.7) versus gallstone controls, and 5.6 (0.6&#x02013;52.8) versus population&#x02010;based controls. Gallstone controls were about two times as likely to be Vi antibody seropositive compared to population&#x02010;based controls [1.8 (0.1&#x02013;21.9)], although the estimates were imprecise.</p><p>None of the stool specimens analyzed had Salmonella Typhi or non&#x02010;Typhi <italic>Salmonella</italic>. One GBC case and one gallstone control were positive for non&#x02010;Typhi <italic>Salmonella</italic> in tissue and bile specimens, respectively, but none had evidence of <italic>S</italic>. Typhi (Table S2).</p><p>The meta&#x02010;analysis included data from 22 published studies on <italic>Salmonella</italic> and GBC, along with this study (Table&#x000a0;<xref rid="cam4915-tbl-0002" ref-type="table-wrap">2</xref>). Of these 22 studies, 18 (82%) were case&#x02013;control studies <xref rid="cam4915-bib-0008" ref-type="ref">8</xref>, <xref rid="cam4915-bib-0026" ref-type="ref">26</xref>, <xref rid="cam4915-bib-0027" ref-type="ref">27</xref>, <xref rid="cam4915-bib-0028" ref-type="ref">28</xref>, <xref rid="cam4915-bib-0029" ref-type="ref">29</xref>, <xref rid="cam4915-bib-0030" ref-type="ref">30</xref>, <xref rid="cam4915-bib-0031" ref-type="ref">31</xref>, <xref rid="cam4915-bib-0032" ref-type="ref">32</xref>, <xref rid="cam4915-bib-0033" ref-type="ref">33</xref>, <xref rid="cam4915-bib-0035" ref-type="ref">35</xref>, <xref rid="cam4915-bib-0041" ref-type="ref">41</xref>, <xref rid="cam4915-bib-0042" ref-type="ref">42</xref>, <xref rid="cam4915-bib-0043" ref-type="ref">43</xref>, <xref rid="cam4915-bib-0044" ref-type="ref">44</xref>, <xref rid="cam4915-bib-0045" ref-type="ref">45</xref>, <xref rid="cam4915-bib-0046" ref-type="ref">46</xref>, <xref rid="cam4915-bib-0047" ref-type="ref">47</xref>, <xref rid="cam4915-bib-0048" ref-type="ref">48</xref> and four (18%) were cohort studies <xref rid="cam4915-bib-0009" ref-type="ref">9</xref>, <xref rid="cam4915-bib-0010" ref-type="ref">10</xref>, <xref rid="cam4915-bib-0025" ref-type="ref">25</xref>, <xref rid="cam4915-bib-0049" ref-type="ref">49</xref>. Most studies were conducted in Asia (<italic>N</italic>&#x000a0;=&#x000a0;13, 59%), followed by Central/Southern America (<italic>N</italic>&#x000a0;=&#x000a0;5, 23%), Europe (<italic>N</italic>&#x000a0;=&#x000a0;3, 14%), and the United States (<italic>N</italic>&#x000a0;=&#x000a0;1, 5%). Eleven of these studies overlapped with other studies from the same study population. After conducting an initial overall meta&#x02010;analysis based on results from 16 studies with independent study populations including 1109 cases (Fig.&#x000a0;<xref rid="cam4915-fig-0002" ref-type="fig">2</xref>), we found that the estimates were highly heterogenous (P<sub>heterogeneity</sub>&#x0003c;0.001). The funnel plot appeared generally symmetrical, and there was no evidence of bias using either the Begg or Egger methods (<italic>P</italic>&#x000a0;=&#x000a0;0.9 and 0.7, respectively). However, two studies lay outside the funnel: Caygill 1995 [(standardized mortality ratio: 167 (54&#x02013;391)] and Serra 2002 [OR: 0.5 (0.2&#x02013;1.2)]. After removing these two studies, the remaining 14 studies did not appear heterogeneous (<italic>P</italic>
+<sub>heterogeneity</sub>&#x000a0;=&#x000a0;0.5) and produced a summary RR of 4.3 (3.2&#x02013;5.8). We excluded the two outlying studies from further analyses.</p><table-wrap id="cam4915-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Studies of <italic>Salmonella</italic> and gallbladder cancer (GBC)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Reference</th><th align="center" valign="top" rowspan="1" colspan="1">Country</th><th align="center" valign="top" rowspan="1" colspan="1">Study design</th><th align="center" valign="top" rowspan="1" colspan="1">Population</th><th align="center" valign="top" rowspan="1" colspan="1">Specimen</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>S</italic>. Typhi detection</th><th align="center" valign="top" rowspan="1" colspan="1">Outcome</th><th align="center" valign="top" rowspan="1" colspan="1">Referent</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> cases</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>N</italic> noncases</th><th align="center" valign="top" rowspan="1" colspan="1">% GBC <italic>S</italic>. Typhi+</th><th align="center" valign="top" rowspan="1" colspan="1">% noncase <italic>S</italic>. Typhi+</th><th align="center" valign="top" rowspan="1" colspan="1">RR (95% CI)</th><th align="center" valign="top" rowspan="1" colspan="1">Adjusted</th><th align="center" valign="top" rowspan="1" colspan="1">Hand&#x02010;calculated</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Welton 1979 <xref rid="cam4915-bib-0008" ref-type="ref">8</xref>
+</td><td align="center" rowspan="1" colspan="1">USA</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Hepatobiliary cancer mortality</td><td align="center" rowspan="1" colspan="1">Individuals from general population who died</td><td align="char" char="." rowspan="1" colspan="1">37</td><td align="char" char="." rowspan="1" colspan="1">1376</td><td align="char" char="." rowspan="1" colspan="1">74.3%</td><td align="char" char="." rowspan="1" colspan="1">32.2%</td><td align="center" rowspan="1" colspan="1">6.6 (3.1&#x02013;14.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Mellemgaard 1988 <xref rid="cam4915-bib-0009" ref-type="ref">9</xref>
+</td><td align="center" rowspan="1" colspan="1">Denmark</td><td align="center" rowspan="1" colspan="1">Cohort</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Hepatobiliary cancer incidence</td><td align="center" rowspan="1" colspan="1">Denmark age, time, and sex&#x02010;specific incidence rates</td><td align="char" char="." rowspan="1" colspan="1">NS</td><td align="char" char="." rowspan="1" colspan="1">NS</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char=" " rowspan="1" colspan="1">3.9 (1.1&#x02013;9.9)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Caygill 1994 <xref rid="cam4915-bib-0010" ref-type="ref">10</xref>
+</td><td align="center" rowspan="1" colspan="1">UK</td><td align="center" rowspan="1" colspan="1">Cohort</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">GBC mortality</td><td align="center" rowspan="1" colspan="1">Morality rates</td><td align="char" char="." rowspan="1" colspan="1">83</td><td align="char" char="." rowspan="1" colspan="1">NS</td><td align="char" char="." rowspan="1" colspan="1">6.0%</td><td align="center" rowspan="1" colspan="1"/><td align="char" char=" " rowspan="1" colspan="1">167 (54.1&#x02013;389)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Acute typhoid</td><td align="char" char="." rowspan="1" colspan="1">83</td><td align="char" char="." rowspan="1" colspan="1">386</td><td align="char" char="." rowspan="1" colspan="1">6.0%</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char=" " rowspan="1" colspan="1">52.3 (3.0&#x02013;989.5)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Csendes 1994 <xref rid="cam4915-bib-0041" ref-type="ref">41</xref>
+</td><td align="center" rowspan="1" colspan="1">Chile</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">47</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">8.5%</td><td align="char" char="." rowspan="1" colspan="1">7.7%</td><td align="char" char=" " rowspan="1" colspan="1">1.1 (0.3&#x02013;4.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Acute cholecystitis</td><td align="char" char="." rowspan="1" colspan="1">47</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="center" rowspan="1" colspan="1"/><td align="char" char="." rowspan="1" colspan="1">26.3%</td><td align="char" char=" " rowspan="1" colspan="1">0.3 (0.1&#x02013;1.1)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Common bile duct stones</td><td align="char" char="." rowspan="1" colspan="1">47</td><td align="char" char="." rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char="." rowspan="1" colspan="1">10.3%</td><td align="char" char=" " rowspan="1" colspan="1">0.8 (0.2&#x02013;3.5)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Caygill 1995 <xref rid="cam4915-bib-0025" ref-type="ref">25</xref>
+</td><td align="center" rowspan="1" colspan="1">UK</td><td align="center" rowspan="1" colspan="1">Cohort</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Hepatobiliary cancer mortality</td><td align="center" rowspan="1" colspan="1">Morality rates</td><td align="char" char="." rowspan="1" colspan="1">167</td><td align="char" char="." rowspan="1" colspan="1">NS</td><td align="char" char="." rowspan="1" colspan="1">3.0%</td><td align="center" rowspan="1" colspan="1"/><td align="char" char=" " rowspan="1" colspan="1">167 (54&#x02013;391)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Stool</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">GBC mortality</td><td align="center" rowspan="1" colspan="1">Acute typhoid</td><td align="char" char="." rowspan="1" colspan="1">167</td><td align="char" char="." rowspan="1" colspan="1">507</td><td align="char" char="." rowspan="1" colspan="1">3.0%</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="char" char=" " rowspan="1" colspan="1">57.3 (3.1&#x02013;1043.9)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Capoor 2008 <xref rid="cam4915-bib-0045" ref-type="ref">45</xref>
+</td><td align="center" rowspan="1" colspan="1">Bolivia, Mexico</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">NA</td><td align="center" rowspan="1" colspan="1">MD&#x02010;diagnosed typhoid</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Abdominal surgery patients without biliary cancer or stones</td><td align="char" char="." rowspan="1" colspan="1">84</td><td align="char" char="." rowspan="1" colspan="1">126</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="char" char=" " rowspan="1" colspan="1">12.7 (1.5&#x02013;598)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">
+<italic>S</italic>. Typhi LPS</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Abdominal surgery patients without biliary cancer or stones</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">46.7%</td><td align="char" char="." rowspan="1" colspan="1">50.0%</td><td align="char" char=" " rowspan="1" colspan="1">0.9 (0.2&#x02013;4.9)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">
+<italic>S. Typhi LPS</italic>
+</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Gallstone/bile duct stone patients</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">46.7%</td><td align="char" char="." rowspan="1" colspan="1">50.0%</td><td align="char" char=" " rowspan="1" colspan="1">0.9 (0.2&#x02013;4.3)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Singh 1996 <xref rid="cam4915-bib-0030" ref-type="ref">30</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">38</td><td align="char" char="." rowspan="1" colspan="1">67</td><td align="char" char="." rowspan="1" colspan="1">13.2%</td><td align="char" char="." rowspan="1" colspan="1">3.0%</td><td align="char" char=" " rowspan="1" colspan="1">4.9 (0.9&#x02013;26.8)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Nath 1997 <xref rid="cam4915-bib-0027" ref-type="ref">27</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Patients with stones or no biliary pathology</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="char" char="." rowspan="1" colspan="1">73</td><td align="char" char="." rowspan="1" colspan="1">14.3%</td><td align="char" char="." rowspan="1" colspan="1">1.4%</td><td align="char" char=" " rowspan="1" colspan="1">12 (1.3&#x02013;112.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Stones only</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="char" char="." rowspan="1" colspan="1">56</td><td align="char" char="." rowspan="1" colspan="1">14.3%</td><td align="char" char="." rowspan="1" colspan="1">1.8%</td><td align="char" char=" " rowspan="1" colspan="1">9.2 (0.97&#x02013;86.4)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">No biliary path only</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="char" char="." rowspan="1" colspan="1">17</td><td align="char" char="." rowspan="1" colspan="1">16.1%</td><td align="char" char="." rowspan="1" colspan="1">2.9%</td><td align="char" char=" " rowspan="1" colspan="1">6.7 (0.3&#x02013;132.8)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Roa 1999 <xref rid="cam4915-bib-0062" ref-type="ref">62</xref>
+</td><td align="center" rowspan="1" colspan="1">Chile</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Prevalent GBC or dysplasia</td><td align="center" rowspan="1" colspan="1">Chronic and acute cholecystitis</td><td align="char" char="." rowspan="1" colspan="1">29</td><td align="char" char="." rowspan="1" colspan="1">579</td><td align="char" char="." rowspan="1" colspan="1">1.7%</td><td align="char" char="." rowspan="1" colspan="1">0.8%</td><td align="char" char=" " rowspan="1" colspan="1">2.1 (0.1&#x02013;39.4)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Dutta 2000 <xref rid="cam4915-bib-0043" ref-type="ref">43</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">37</td><td align="char" char="." rowspan="1" colspan="1">80</td><td align="char" char="." rowspan="1" colspan="1">16.2%</td><td align="char" char="." rowspan="1" colspan="1">2.5%</td><td align="char" char=" " rowspan="1" colspan="1">14 (1.8&#x02013;92)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Shukla 2000 <xref rid="cam4915-bib-0029" ref-type="ref">29</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">51</td><td align="char" char="." rowspan="1" colspan="1">56</td><td align="char" char="." rowspan="1" colspan="1">29.4%</td><td align="char" char="." rowspan="1" colspan="1">10.7%</td><td align="char" char=" " rowspan="1" colspan="1">3.9 (1.3&#x02013;11.7)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">No hepatobiliary disease</td><td align="char" char="." rowspan="1" colspan="1">51</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">29.4%</td><td align="char" char="." rowspan="1" colspan="1">5.0%</td><td align="char" char=" " rowspan="1" colspan="1">7.2 (2.2&#x02013;23.4)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">Widal test</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">51</td><td align="char" char="." rowspan="1" colspan="1">56</td><td align="char" char="." rowspan="1" colspan="1">39.2%</td><td align="char" char="." rowspan="1" colspan="1">42.9%</td><td align="char" char=" " rowspan="1" colspan="1">0.9 (0.4&#x02013;1.9)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">Widal test</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">No hepatobiliary disease</td><td align="char" char="." rowspan="1" colspan="1">51</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">39.2%</td><td align="char" char="." rowspan="1" colspan="1">40.0%</td><td align="char" char=" " rowspan="1" colspan="1">0.97 (0.4&#x02013;2.3)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Serra 2002 <xref rid="cam4915-bib-0042" ref-type="ref">42</xref>
+</td><td align="center" rowspan="1" colspan="1">Chile</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">NA</td><td align="center" rowspan="1" colspan="1">Self&#x02010;report</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">114</td><td align="char" char="." rowspan="1" colspan="1">114</td><td align="char" char="." rowspan="1" colspan="1">9.6%</td><td align="char" char="." rowspan="1" colspan="1">7.9%</td><td align="char" char=" " rowspan="1" colspan="1">0.5 (0.2&#x02013;1.2)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Pandey 2003 <xref rid="cam4915-bib-0028" ref-type="ref">28</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">NA</td><td align="center" rowspan="1" colspan="1">Self&#x02010;report</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">64</td><td align="char" char="." rowspan="1" colspan="1">101</td><td align="char" char="." rowspan="1" colspan="1">21.9%</td><td align="char" char="." rowspan="1" colspan="1">12.9%</td><td align="char" char=" " rowspan="1" colspan="1">1.3 (0.9&#x02013;2.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Hazrah 2004 <xref rid="cam4915-bib-0026" ref-type="ref">26</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Gallstones</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">83 chronic cholecystitis, 2 empyema, 1 periampullary cancer</td><td align="char" char="." rowspan="1" colspan="1">14</td><td align="char" char="." rowspan="1" colspan="1">86</td><td align="char" char="." rowspan="1" colspan="1">3.6%</td><td align="char" char="." rowspan="1" colspan="1">2.9%</td><td align="char" char=" " rowspan="1" colspan="1">1.2 (0.1&#x02013;25.5)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Yagyu 2004 <xref rid="cam4915-bib-0049" ref-type="ref">49</xref>
+</td><td align="center" rowspan="1" colspan="1">Japan</td><td align="center" rowspan="1" colspan="1">Cohort</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">NA</td><td align="center" rowspan="1" colspan="1">Self&#x02010;report</td><td align="center" rowspan="1" colspan="1">GBC mortality</td><td align="center" rowspan="1" colspan="1">Noncases</td><td align="char" char="." rowspan="1" colspan="1">89</td><td align="char" char="." rowspan="1" colspan="1">91895</td><td align="char" char="." rowspan="1" colspan="1">2.2%</td><td align="char" char="." rowspan="1" colspan="1">1.4%</td><td align="char" char=" " rowspan="1" colspan="1">1.6 (0.4&#x02013;6.5)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Males only</td><td align="center" rowspan="1" colspan="1">NA</td><td align="center" rowspan="1" colspan="1">Self&#x02010;report</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Male noncases</td><td align="char" char="." rowspan="1" colspan="1">34</td><td align="char" char="." rowspan="1" colspan="1">38603</td><td align="char" char="." rowspan="1" colspan="1">5.9%</td><td align="char" char="." rowspan="1" colspan="1">1.6%</td><td align="char" char=" " rowspan="1" colspan="1">2.1 (0.5&#x02013;8.7)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">Vaishnavi 2005 <xref rid="cam4915-bib-0033" ref-type="ref">33</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02010;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallbladder/bile duct stones</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">196</td><td align="char" char="." rowspan="1" colspan="1">7.4%</td><td align="char" char="." rowspan="1" colspan="1">10.2%</td><td align="char" char=" " rowspan="1" colspan="1">0.7 (0.2&#x02013;2.8)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Cholangiocarcinoma, obstructive jaundice, or carcinoma of pancreas/ampulla</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">33</td><td align="char" char="." rowspan="1" colspan="1">7.4%</td><td align="char" char="." rowspan="1" colspan="1">12.1%</td><td align="char" char=" " rowspan="1" colspan="1">0.6 (0.2&#x02013;1.6)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Miscellaneous gastrointestinal ailments</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">112</td><td align="char" char="." rowspan="1" colspan="1">7.4%</td><td align="char" char="." rowspan="1" colspan="1">9.8%</td><td align="char" char=" " rowspan="1" colspan="1">0.7 (0.2&#x02013;2.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Miscellaneous diseases</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">78</td><td align="char" char="." rowspan="1" colspan="1">7.4%</td><td align="char" char="." rowspan="1" colspan="1">9.0%</td><td align="char" char=" " rowspan="1" colspan="1">0.8 (0.2&#x02013;2.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Consecutive healthy blood donors</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="char" char="." rowspan="1" colspan="1">705</td><td align="char" char="." rowspan="1" colspan="1">7.4%</td><td align="char" char="." rowspan="1" colspan="1">1.8%</td><td align="char" char=" " rowspan="1" colspan="1">4.3 (1.1&#x02013;16.1)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Sharma 2007 <xref rid="cam4915-bib-0032" ref-type="ref">32</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TO</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">125</td><td align="char" char="." rowspan="1" colspan="1">40.0%</td><td align="char" char="." rowspan="1" colspan="1">62.4%</td><td align="char" char=" " rowspan="1" colspan="1">0.4 (0.2&#x02013;0.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TH</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">125</td><td align="char" char="." rowspan="1" colspan="1">30.8%</td><td align="char" char="." rowspan="1" colspan="1">9.6%</td><td align="char" char=" " rowspan="1" colspan="1">4.2 (1.9&#x02013;9.3)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TO</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Laparotomy for diseases other than hepatobiliary tract</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">200</td><td align="char" char="." rowspan="1" colspan="1">40.0%</td><td align="char" char="." rowspan="1" colspan="1">9.0%</td><td align="char" char=" " rowspan="1" colspan="1">6.7 (3.4&#x02013;13.5)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TH</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Laparotomy for diseases other than hepatobiliary tract</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">200</td><td align="char" char="." rowspan="1" colspan="1">30.8%</td><td align="char" char="." rowspan="1" colspan="1">11.0%</td><td align="char" char=" " rowspan="1" colspan="1">3.6 (1.8&#x02013;7.2)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">125</td><td align="char" char="." rowspan="1" colspan="1">30.8%</td><td align="char" char="." rowspan="1" colspan="1">9.6%</td><td align="char" char=" " rowspan="1" colspan="1">4.2 (1.9&#x02013;9.3)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Laparotomy for diseases other than hepatobiliary tract</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">200</td><td align="char" char="." rowspan="1" colspan="1">30.8%</td><td align="char" char="." rowspan="1" colspan="1">11.0%</td><td align="char" char=" " rowspan="1" colspan="1">3.6 (1.8&#x02013;7.2)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">65</td><td align="char" char="." rowspan="1" colspan="1">125</td><td align="char" char="." rowspan="1" colspan="1">24.6%</td><td align="char" char="." rowspan="1" colspan="1">3.2%</td><td align="char" char=" " rowspan="1" colspan="1">9.9 (3.1&#x02013;31.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Capoor 2008 <xref rid="cam4915-bib-0046" ref-type="ref">46</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Tissue, gallstones, bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Cholelithiasis + acute cholecystitis</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">53</td><td align="char" char="." rowspan="1" colspan="1">16.7%</td><td align="char" char="." rowspan="1" colspan="1">3.8%</td><td align="char" char=" " rowspan="1" colspan="1">5.1 (0.4&#x02013;66.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Nath 2008 <xref rid="cam4915-bib-0031" ref-type="ref">31</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Other gallbladder diseases</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">223</td><td align="char" char="." rowspan="1" colspan="1">38.5%</td><td align="char" char="." rowspan="1" colspan="1">13.9%</td><td align="char" char=" " rowspan="1" colspan="1">3.9 (2.0&#x02013;7.6)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Healthy adults</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">508</td><td align="char" char="." rowspan="1" colspan="1">38.5%</td><td align="char" char="." rowspan="1" colspan="1">9.3%</td><td align="char" char=" " rowspan="1" colspan="1">6.1 (3.3&#x02013;11.6)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TO (Widal test)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Other gallbladder diseases</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">223</td><td align="char" char="." rowspan="1" colspan="1">23.1%</td><td align="char" char="." rowspan="1" colspan="1">11.7%</td><td align="char" char=" " rowspan="1" colspan="1">2.3 (1.1&#x02013;4.9)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TO (Widal test)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Healthy adults</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">508</td><td align="char" char="." rowspan="1" colspan="1">23.1%</td><td align="char" char="." rowspan="1" colspan="1">13.4%</td><td align="char" char=" " rowspan="1" colspan="1">1.9 (0.97&#x02013;3.9)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TH (Widal test)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Other gallbladder diseases</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">223</td><td align="char" char="." rowspan="1" colspan="1">21.2%</td><td align="char" char="." rowspan="1" colspan="1">3.6%</td><td align="char" char=" " rowspan="1" colspan="1">7.2 (2.7&#x02013;19.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TH (Widal test)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Healthy adults</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">508</td><td align="char" char="." rowspan="1" colspan="1">21.2%</td><td align="char" char="." rowspan="1" colspan="1">11.8%</td><td align="char" char=" " rowspan="1" colspan="1">2.0 (0.98&#x02013;4.1)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Other gallbladder diseases</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">223</td><td align="char" char="." rowspan="1" colspan="1">3.8%</td><td align="char" char="." rowspan="1" colspan="1">0.9%</td><td align="char" char=" " rowspan="1" colspan="1">4.5 (0.6&#x02013;32.4)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Cadavers without gallbladder pathology</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">424</td><td align="char" char="." rowspan="1" colspan="1">3.8%</td><td align="char" char="." rowspan="1" colspan="1">0.1%</td><td align="char" char=" " rowspan="1" colspan="1">42.0 (2.0&#x02013;887.8)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile, stone, tissue, blood</td><td align="center" rowspan="1" colspan="1">PCR + flagellin sequencing</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Other gallbladder diseases</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">223</td><td align="char" char="." rowspan="1" colspan="1">67.3%</td><td align="char" char="." rowspan="1" colspan="1">42.6%</td><td align="char" char=" " rowspan="1" colspan="1">2.8 (1.5&#x02013;5.2)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Bile, stone, tissue, blood</td><td align="center" rowspan="1" colspan="1">PCR + flagellin sequencing</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Cadavers without gallbladder pathology</td><td align="char" char="." rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">424</td><td align="char" char="." rowspan="1" colspan="1">67.3%</td><td align="char" char="." rowspan="1" colspan="1">8.3%</td><td align="char" char=" " rowspan="1" colspan="1">11.1 (6.5&#x02013;22.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">Tewari 2010 <xref rid="cam4915-bib-0035" ref-type="ref">35</xref>
+</td><td align="center" rowspan="1" colspan="1">India</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control</td><td align="center" rowspan="1" colspan="1">Hospital</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">TO and TH (Widal)</td><td align="center" rowspan="1" colspan="1">Prevalent GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">44.4%</td><td align="char" char="." rowspan="1" colspan="1">24.1%</td><td align="char" char=" " rowspan="1" colspan="1">2.5 (1.1&#x02013;5.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (IHA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">22.2%</td><td align="char" char="." rowspan="1" colspan="1">9.3%</td><td align="char" char=" " rowspan="1" colspan="1">2.8 (0.9&#x02013;8.6)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Tissue</td><td align="center" rowspan="1" colspan="1">Culture</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">6.5%</td><td align="char" char="." rowspan="1" colspan="1">0.9%</td><td align="char" char=" " rowspan="1" colspan="1">7.7 (0.4&#x02013;153.0)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Bile</td><td align="center" rowspan="1" colspan="1">PCR (<italic>flagellin</italic>)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">4.6%</td><td align="char" char="." rowspan="1" colspan="1">0.9%</td><td align="char" char=" " rowspan="1" colspan="1">5.2 (0.2&#x02013;110.7)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Tissue</td><td align="center" rowspan="1" colspan="1">PCR (<italic>flagellin</italic>)</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">54</td><td align="char" char="." rowspan="1" colspan="1">34.3%</td><td align="char" char="." rowspan="1" colspan="1">0.9%</td><td align="char" char=" " rowspan="1" colspan="1">55.2 (3.2&#x02013;945.8)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Safaeian 2011 <xref rid="cam4915-bib-0047" ref-type="ref">47</xref>
+</td><td align="center" rowspan="1" colspan="1">China</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control (population&#x02010;based)</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">262</td><td align="char" char="." rowspan="1" colspan="1">728</td><td align="char" char="." rowspan="1" colspan="1">0.2%</td><td align="char" char="." rowspan="1" colspan="1">0.3%</td><td align="char" char=" " rowspan="1" colspan="1">0.6 (0.03&#x02013;11.6)</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Yes<xref ref-type="fn" rid="cam4915-note-0008">a</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Koshiol 2016</td><td align="center" rowspan="1" colspan="1">Chile</td><td align="center" rowspan="1" colspan="1">Case&#x02013;control (population&#x02010;based)</td><td align="center" rowspan="1" colspan="1">General</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">Incident GBC</td><td align="center" rowspan="1" colspan="1">Gallstone patients</td><td align="char" char="." rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">15.4%</td><td align="char" char="." rowspan="1" colspan="1">5.0%</td><td align="char" char=" " rowspan="1" colspan="1">3.1 (0.6&#x02013;17.7)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1"/><td align="center" rowspan="1" colspan="1">Population&#x02010;based controls</td><td align="char" char="." rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">15.4%</td><td align="char" char="." rowspan="1" colspan="1">2.6%</td><td align="char" char=" " rowspan="1" colspan="1">5.6 (0.6&#x02013;52.8)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Serum</td><td align="center" rowspan="1" colspan="1">VI (ELISA)</td><td align="center" rowspan="1" colspan="1">&#x000a0;</td><td align="center" rowspan="1" colspan="1">Gallstone patients + population&#x02010;based controls</td><td align="char" char="." rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">79</td><td align="char" char="." rowspan="1" colspan="1">15.4%</td><td align="char" char="." rowspan="1" colspan="1">3.8%</td><td align="char" char=" " rowspan="1" colspan="1">4.0 (0.9&#x02013;18.3)</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td></tr></tbody></table><table-wrap-foot><fn id="cam4915-note-0007"><p>LCL, lower confidence limit; NA, not applicable; NS, not&#x02010;specified; TH, antibodies to flagellar Salmonella antigen; TO, antibodies to somatic Salmonella antigen; UCL, upper confidence limit; VI, antibodies to Vi <italic>Salmonella</italic> antibody.</p></fn><fn id="cam4915-note-0008"><label>a</label><p>Added 0.5 to 0 cells.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="cam4915-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Relative risks (<styled-content style="fixed-case">RR</styled-content>s) and 95% confidence intervals (<styled-content style="fixed-case">CI</styled-content>s) for associations between <italic>Salmonella</italic> and gallbladder cancer (<styled-content style="fixed-case">GBC</styled-content>) in the published literature.</p></caption><graphic id="nlm-graphic-5" xlink:href="CAM4-5-3310-g002"/></fig><p>Studies of Vi antibody seropositivity and bile culture produced similar results [summary RR (95% CI): 4.6 (3.1&#x02013;6.8) and 4.7 (1.5&#x02013;14.6)] (Table&#x000a0;<xref rid="cam4915-tbl-0003" ref-type="table-wrap">3</xref>). Stool culture produced slightly higher [summary RR 5.5 (3.0&#x02013;10.4)] but not substantially different [ratio of RRs: 1.2 (0.6&#x02013;2.5)] estimates than Vi antibody&#x02010;based estimates. Combining bile culture and stool culture&#x02010;based estimates, the summary RR was 5.0 (2.7&#x02013;9.3, <italic>P</italic>
+<sub>heterogeneity</sub>&#x000a0;=&#x000a0;0.2). Estimates based on self&#x02010;report were much lower than Vi antibody&#x02010;based estimates [(ratio of RRs: 0.3 (0.2&#x02013;0.5)]. Results did not vary greatly by additional study characteristics or exhibit notable heterogeneity with the possible exception of outcome referent group (Table&#x000a0;<xref rid="cam4915-tbl-0003" ref-type="table-wrap">3</xref>). Estimates comparing GBC to controls from the general population [summary RR (95% CI): 5.1 (3.4&#x02013;7.6)] or nonhepatobiliary patients and cadavers [5.5 (2.2&#x02013;13.9)] tended to be stronger than those comparing to gallstones [2.5 (1.4&#x02013;4.2)], although estimates using nonhepatobiliary patients or cadavers as referent were also more heterogeneous (<italic>P</italic>
+<sub>heterogeneity</sub>=0.003 vs. 0.2).</p><table-wrap id="cam4915-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Effect of study characteristics on the association between <italic>Salmonella</italic> and gallbladder cancer (GBC) in a meta&#x02010;analysis of the published literature</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr><th align="left" valign="top" rowspan="1" colspan="1">&#x000a0;</th><th align="center" valign="top" rowspan="1" colspan="1">&#x000a0;</th><th align="center" valign="top" rowspan="1" colspan="1">&#x000a0;</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Summary effect estimate<xref ref-type="fn" rid="cam4915-note-0009">a</xref>
+</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Ratio of effect estimates</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Study characteristic</th><th align="center" valign="top" rowspan="1" colspan="1">N studies</th><th align="center" valign="top" rowspan="1" colspan="1">Cochrane's Q <italic>P</italic>&#x02010;value</th><th align="center" valign="top" rowspan="1" colspan="1">RR</th><th align="center" valign="top" rowspan="1" colspan="1">95% CI</th><th align="center" valign="top" rowspan="1" colspan="1">Ratio of RRs</th><th align="center" valign="top" rowspan="1" colspan="1">95% CI</th></tr></thead><tbody><tr><td align="left" colspan="7" rowspan="1">
+<italic>Salmonella</italic> detection method</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">VI antibody seropositivity</td><td align="char" char="." rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">4.6</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.1&#x02013;6.8</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Bile culture</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.1</td><td align="char" char="." rowspan="1" colspan="1">4.7</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.5&#x02013;14.6</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.5&#x02013;2.4</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Stool culture</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">5.5</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.0&#x02013;10.4</td><td align="char" char="." rowspan="1" colspan="1">1.2</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.6&#x02013;2.5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Self&#x02010;report</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0.8</td><td align="char" char="." rowspan="1" colspan="1">1.3</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.9&#x02013;2.0</td><td align="char" char="." rowspan="1" colspan="1">0.3</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.2&#x02013;0.5</td></tr><tr><td align="left" colspan="7" rowspan="1">Referent group</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Stones (gallstones and/or bile duct)</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">0.2</td><td align="char" char="." rowspan="1" colspan="1">2.5</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.4&#x02013;4.2</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">General population<xref ref-type="fn" rid="cam4915-note-0010">b</xref>
+</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">5.1</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.4&#x02013;7.6</td><td align="char" char="." rowspan="1" colspan="1">1.9</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.7&#x02013;4.8</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Hepatobiliary patients</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">0.005</td><td align="char" char="." rowspan="1" colspan="1">2.1</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.4&#x02013;11.0</td><td align="char" char="." rowspan="1" colspan="1">0.9</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.3&#x02013;2.9</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Nonhepatobiliary patients and cadavers</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">0.003</td><td align="char" char="." rowspan="1" colspan="1">5.5</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">2.2&#x02013;13.9</td><td align="char" char="." rowspan="1" colspan="1">2.2</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.8&#x02013;5.9</td></tr><tr><td align="left" colspan="7" rowspan="1">Study design</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Case&#x02013;control</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">4.6</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.3&#x02013;6.4</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Cohort</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0.3</td><td align="char" char="." rowspan="1" colspan="1">2.7</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.1&#x02013;6.6</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.2&#x02013;1.5</td></tr><tr><td align="left" colspan="7" rowspan="1">Region</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Asia</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">0.5</td><td align="char" char="." rowspan="1" colspan="1">4.3</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.0&#x02013;6.3</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Central/South America</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">0.4</td><td align="char" char="." rowspan="1" colspan="1">2.5</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">1.0&#x02013;6.3</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.2&#x02013;1.6</td></tr><tr><td align="left" colspan="7" rowspan="1">Population</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Hospital</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">0.5</td><td align="char" char="." rowspan="1" colspan="1">4.4</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">3.0&#x02013;6.4</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">General</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.3</td><td align="char" char="." rowspan="1" colspan="1">3.9</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">2.1&#x02013;7.2</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.5&#x02013;1.8</td></tr><tr><td align="left" colspan="7" rowspan="1">Statistical analysis</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Crude/hand&#x02010;calculated</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">0.3</td><td align="char" char="." rowspan="1" colspan="1">4.3</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">2.9&#x02013;6.5</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Adjusted</td><td align="char" char="." rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">0.6</td><td align="char" char="." rowspan="1" colspan="1">3.9</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">2.2&#x02013;7.0</td><td align="char" char="." rowspan="1" colspan="1">0.9</td><td align="char" char="&#x02013;" rowspan="1" colspan="1">0.4&#x02013;1.7</td></tr></tbody></table><table-wrap-foot><fn id="cam4915-note-0009"><label>a</label><p>Random effects relative risks (RRs), 95% confidence limits (95% CIs).</p></fn><fn id="cam4915-note-0010"><label>b</label><p>Normal patients, population&#x02010;based controls, mortality rates, incidence rates.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="cam4915-sec-0014"><title>Discussion</title><p>In Chile, which has among the highest GBC incidence and mortality rates worldwide, we observed a trend toward a higher prevalence of elevated Vi antibody titers among GBC cases compared to gallstone and population&#x02010;based controls. Although the ORs were borderline significant, the magnitudes were high, with a fourfold increase for GBC cases compared to combined gallstone and population&#x02010;based controls and a 3.1&#x02010;fold and 5.6&#x02010;fold increase, respectively, for GBC cases compared separately to gallstone controls and population&#x02010;based controls.</p><p>These magnitudes are comparable to those from other studies. Our adjusted OR of 4.0 (0.9&#x02013;18.3) for high&#x02010;titer Vi antibody seropositivity and GBC was similar to the meta&#x02010;analysis summary RR for Vi antibody seropositivity [(summary RR: 4.6 (3.1&#x02013;6.8)]. In the meta&#x02010;analysis, associations between <italic>S.&#x000a0;</italic>Typhi and GBC remained even when stratified by factors like <italic>S.&#x000a0;</italic>Typhi detection method, outcome referent group, study design, geographical region, source of study population, and statistical adjustment. This consistency is striking.</p><p>However, the magnitude of the estimates appeared to be affected by the <italic>S.&#x000a0;</italic>Typhi exposure assessment and outcome referent group used. Estimates based on self&#x02010;report produced a summary RR of 1.3 (0.9&#x02013;2.0), likely reflecting poor measurement of exposure to <italic>S.&#x000a0;</italic>Typhi since most people do not know that they have been exposed. With regard to outcome referent group, in our study, we combined gallstone and population&#x02010;based controls to gain precision since both referent groups produced strong ORs separately. The magnitude of the OR was stronger for GBC compared to population&#x02010;based controls than compared to gallstone controls, however. Similarly, in the meta&#x02010;analysis, general population controls and nonhepatobiliary patients/cadavers tended to produce stronger RRs than estimates compared to gallstone controls. <italic>S.&#x000a0;</italic>Typhi is associated with gallstones. It is believed that this association is due to <italic>S.&#x000a0;</italic>Typhi's propensity to form biofilms on gallstones <xref rid="cam4915-bib-0050" ref-type="ref">50</xref> and to colonize abnormal gallbladder mucosa. However, potential reverse causality cannot be ruled out. Additional research is needed to tease apart the exact role of <italic>S.&#x000a0;</italic>Typhi across the natural history of GBC carcinogenesis.</p><p>This need is highlighted by the fact that on an individual study level, the association with GBC is not always consistent for <italic>S.&#x000a0;</italic>Typhi detected in samples from the gallbladder or gastrointestinal tract. For example, a previous study conducted in Santiago, Chile, when typhoid fever incidence was still high, found a similar prevalence of <italic>S.&#x000a0;</italic>Typhi in bile cultures from GBC cases (8.5%) and gallstones controls (7.7%) and thus no association between <italic>S.&#x000a0;</italic>Typhi and GBC [OR: 1.12 (0.26&#x02013;4.74)] <xref rid="cam4915-bib-0051" ref-type="ref">51</xref>. A systematic study of bile specimens from cholecystectomies performed in Chile in the early 1980&#x02032;s found <italic>S.&#x000a0;</italic>Typhi or <italic>S.&#x000a0;</italic>Paratyphi in 7.3% (73/1000) of bile cultures <xref rid="cam4915-bib-0052" ref-type="ref">52</xref>, but this prevalence may have included some transient <italic>S.&#x000a0;</italic>Typhi or <italic>S.&#x000a0;</italic>Paratyphi infections (i.e., infections that are detected in the first 12&#x000a0;months after recovery from acute typhoid fever or after subclinical infection), as well as chronic infections. A similar situation may be occurring in India today, where typhoid fever incidence rates in some areas are currently higher than those of Chile in the 1980&#x02032;s and <italic>S.&#x000a0;</italic>Typhi isolation in bile samples from GBC patients ranges from 14.3% <xref rid="cam4915-bib-0027" ref-type="ref">27</xref> to 25% <xref rid="cam4915-bib-0032" ref-type="ref">32</xref>. Chile, in contrast, no longer has a high <italic>S.&#x000a0;</italic>Typhi incidence rate. In our study, we did not succeed in culturing <italic>S.&#x000a0;</italic>Typhi or in identifying <italic>S.&#x000a0;</italic>Typhi DNA in bile, gallstones, gallbladder tissue, or stool samples, which could reflect reduced exposure more than 20&#x000a0;years after the control of typhoid hyperendemicity, or it may be due to lack of power given the small number of bile, gallstone, and tissue samples. Alternatively, the typhoid bacilli may reside in bile ducts rather than in the gall bladder <italic>per se</italic> in some chronic carriers. In any case, these findings highlight the value of the Vi antibody assay in population studies.</p><p>We did not have the ability to evaluate serotypes other than S. Typhi in the current study. <italic>Salmonella</italic> Paratyphi A and B do not produce Vi polysaccharide. <italic>S</italic>.&#x000a0;Paratyphi C, expresses Vi, but it is a very rare cause of enteric fever <xref rid="cam4915-bib-0053" ref-type="ref">53</xref> thus, the Vi antibody assay essentially only detects <italic>S</italic>. Typhi. Nevertheless, it is important to note that chronic <italic>S</italic>.&#x000a0;Paratyphi A and <italic>S</italic>.&#x000a0;Paratyphi B carriage also appear to contribute to gallbladder carcinogenesis. A previous study in Chile isolated <italic>S.&#x000a0;</italic>Paratyphi A in 1.5% of 1000 bile samples and <italic>S.&#x000a0;</italic>Paratyphi B in 8.8%, accounting for 6.8% and 41.1% of all <italic>Salmonella</italic> species isolated <xref rid="cam4915-bib-0052" ref-type="ref">52</xref>. In addition, Caygill et&#x000a0;al. reported that their cohort of chronic <italic>Salmonella</italic> carriers included 61 <italic>S.&#x000a0;</italic>Paratyphi A, B, or C carriers, 21 <italic>S.&#x000a0;</italic>Typhi carriers, and one carrier with both <italic>S</italic>.&#x000a0;Paratyphi and <italic>S.&#x000a0;</italic>Typhi, although they did not describe the serotypes of the five GBC cases that developed among these carriers <xref rid="cam4915-bib-0010" ref-type="ref">10</xref>. Singh et&#x000a0;al. reported one <italic>S</italic>.&#x000a0;Paratyphi carrier and four <italic>S</italic>.&#x000a0;Typhi carriers out of 38 GBC cases (2.6% and 10.5%, respectively) <xref rid="cam4915-bib-0030" ref-type="ref">30</xref>. Finally Nath et&#x000a0;al. reported that 3.5% of 28 GBC cases had <italic>S</italic>. Paratyphi A and 10.7% had <italic>S</italic>.&#x000a0;Typhi, while the corresponding figures were 0% and 1.8% among the 56 gallstone controls <xref rid="cam4915-bib-0027" ref-type="ref">27</xref>. These findings are intriguing, although information about serotypes other than <italic>S</italic>.&#x000a0;Typhi are quite limited and require larger studies targeted toward these serotypes to draw conclusions.</p><p>In addition to the epidemiological evidence, several lines of biological evidence suggest that <italic>S.&#x000a0;</italic>Typhi may contribute to gallbladder carcinogenesis. The capsular polysaccharide expressed by <italic>S</italic>.&#x000a0;Typhi has been shown to suppress the inflammatory response of intestinal mucosa <xref rid="cam4915-bib-0054" ref-type="ref">54</xref>, <xref rid="cam4915-bib-0055" ref-type="ref">55</xref>, <xref rid="cam4915-bib-0056" ref-type="ref">56</xref>, while non&#x02010;typhoidal <italic>Salmonella</italic> serovariants such as <italic>S</italic>.&#x000a0;Typhimurium and <italic>S</italic>. Enteritidis cause strong inflammatory responses in intestinal mucosa, including an influx of polymorphonuclear neutrophils. ViaB genetic mutants of <italic>S</italic>.&#x000a0;Typhi that do not express Vi polysaccharide cause significantly more mucosal inflammation in a bovine intestinal loop model than wild&#x02010;type <italic>S.&#x000a0;</italic>Typhi <xref rid="cam4915-bib-0055" ref-type="ref">55</xref>. If <italic>S.&#x000a0;</italic>Typhi suppresses immune response in the gallbladder mucosa as well, it may create a chronic, low&#x02010;level inflammatory or regulatory immune environment that enhances the propensity to develop carcinogenic changes of the mucosa. <italic>Salmonella</italic>, especially <italic>S.&#x000a0;</italic>Typhi <xref rid="cam4915-bib-0057" ref-type="ref">57</xref>, is well known to form biofilms upon contact with cholesterol gallstones and similar substrates, and the genes it expresses vary depending on whether it is in a biofilm state <xref rid="cam4915-bib-0050" ref-type="ref">50</xref>, <xref rid="cam4915-bib-0058" ref-type="ref">58</xref>. <italic>S.&#x000a0;</italic>Typhi produces a number of carcinogens, including bacterial glucoronidase, secondary bile acids, nitroso compounds, and cytolethal distending toxin (CDT), a genotoxin with immunomodulatory capability that causes DNA damage in the nucleus of the infected cell <xref rid="cam4915-bib-0059" ref-type="ref">59</xref>. DNA damage may also result from increased free radical concentration due to chronic <italic>S.&#x000a0;</italic>Typhi infection <xref rid="cam4915-bib-0060" ref-type="ref">60</xref>. Furthermore, a recent study found that <italic>S.&#x000a0;</italic>Typhi could induce transformation in murine gallbladder organoids and fibroblasts, although only in the presence of predisposing mutations (i.e., inactivated <italic>TP53</italic> mutations and <italic>c&#x02010;MYC</italic> amplification), and that by causing such mutations in gallbladder tissue, <italic>S.&#x000a0;</italic>Typhi may have stable transformative effects that remain even after the infection is eradicated <xref rid="cam4915-bib-0061" ref-type="ref">61</xref>. However, such mechanistic studies might best be done with <italic>Salmonella</italic> grown in biofilms that mimic the way they exist in the colonized gallbladder.</p><p>This study has weaknesses, of which sample size and lack of bile, tissue, and stool specimens in a proportion of participants are the most obvious. A future, larger study in Chile would address this issue. In addition, as a case&#x02013;control study, we cannot rule out the potential for reverse causality (i.e., that <italic>S.&#x000a0;</italic>Typhi detection may be due to the presence of cancer rather than the cause of the cancer), although the consistency of the positive associations between <italic>S.&#x000a0;</italic>Typhi and GBC in the meta&#x02010;analysis, particularly among the cohort studies, argues against reverse causality. The meta&#x02010;analysis was limited by the heterogeneity of the study methods, such as the <italic>S.&#x000a0;</italic>Typhi diagnostic methods used.</p><p>This study also has a number of strengths. It was conducted in a country with high rates of GBC and a past high incidence of <italic>S.&#x000a0;</italic>Typhi in multiple regions. The controls were representative of the population from which the cases arose, reducing the potential for bias between comparison groups, and the extensive epidemiologic data collected allowed for evaluation and control of confounders. In addition, we conducted a large meta&#x02010;analysis of over 1000 GBC cases, which allowed us to examine variability by study characteristics. Despite the heterogeneity in study methods, the associations between <italic>S</italic>.&#x000a0;Typhi and GBC were consistently positive.</p><p>In this study, we found evidence supporting an association between high Vi antibody titer levels and GBC that was consistent with summary estimates from our meta&#x02010;analysis of the published literature. While the specific mechanisms involved in <italic>S.&#x000a0;</italic>Typhi&#x02010;related carcinogenesis may not be clear, the positive association between <italic>S.&#x000a0;</italic>Typhi and GBC in the published literature is surprisingly consistent, despite differences in study design. Studies are underway to identify the Vi antibody level cut point to screen for chronic biliary carriers using biotinylated Vi and antigen. In addition, transdisciplinary research between epidemiologists and basic scientists is needed to establish the nature of the association between <italic>S.&#x000a0;</italic>Typhi and GBC. Future studies would ideally include both circulating markers of <italic>S.&#x000a0;</italic>Typhi exposure and local measures in bile and stool to provide a more complete picture of infection status. Such studies may help inform public health policies regarding <italic>S.&#x000a0;</italic>Typhi carriers.</p></sec><sec id="cam4915-sec-0016"><title>Conflict of interest</title><p>None declared.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>
+<bold>Table S1</bold>. Association between high titers of IgG antibody to the Vi capsular polysaccharide of <italic>Salmonella enterica</italic> serovar Typhi in gallbladder cancer cases compared to gallstone controls and population&#x02010;based controls without gallstones (combined) using various cut&#x02010;offs for the definition of high titers.</p><p>
+<bold>Table S2</bold>. Summary of bacteria detected in bile, gallstones, gallbladder tissue, and stool from gallbladder cancer (GBC), gallstone, and population&#x02010;based participants in the Shanghai Biliary Tract Cancer Study.</p></caption><media xlink:href="CAM4-5-3310-s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="cam4915-sec-0015"><title>Acknowledgments</title><p>We thank, for their invaluable participation in the implementation of the study and data collection&#x02014;Pontificia Universidad Cat&#x000f3;lica de Chile: Lorena Az&#x000f3;car, H&#x000e9;ctor Molina, Carolina Riveros, Patricia Garcia; Hospital Dr. S&#x000f3;tero del R&#x000ed;o (Santiago): Andrea Tello, Fernando Toledo</p><p>Hospital Hern&#x000e1;n Henr&#x000ed;quez Aravena (Temuco): Sandra Catal&#x000e1;n, Karla Barril, Claudia Duarte, P&#x000ed;a Riquelme.</p></ack><ref-list content-type="cited-references" id="cam4915-bibl-0001"><title>References</title><ref id="cam4915-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cam4915-cit-0001">
+<string-name>
+<surname>Bertran</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Heise</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Andia</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Ferreccio</surname>
+</string-name>. <year>2010</year>
+<article-title>Gallbladder cancer: incidence and survival in a high&#x02010;risk area of Chile</article-title>. <source>Int. J. Cancer</source>
+<volume>127</volume>:<fpage>2446</fpage>&#x02013;<lpage>2454</lpage>.<pub-id pub-id-type="pmid">20473911</pub-id></mixed-citation></ref><ref id="cam4915-bib-0002"><label>2</label><mixed-citation publication-type="book" id="cam4915-cit-0002">
+<string-name>
+<surname>Ferreccio</surname>, <given-names>C</given-names>
+</string-name>. <year>2011</year>
+<chapter-title>Salmonella typhi and Gallbladder Cancer</chapter-title> in: <source>Bacteria and Cancer</source>. Ed. <person-group person-group-type="editor"><name><surname>Khan</surname><given-names>A. A.</given-names></name></person-group>
+<publisher-name>Springer</publisher-name>, <publisher-loc>Dordrecht Heidelberg, London, New York</publisher-loc>.</mixed-citation></ref><ref id="cam4915-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cam4915-cit-0003">
+<string-name>
+<surname>Gabrielli</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Hugo</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Dom&#x000ed;nguez</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Baez</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Venturelli</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Puga</surname>
+</string-name>, et&#x000a0;al. <year>2010</year>
+<article-title>Mortality due to gallbladder cancer: retrospective analysis in three Chilean hospitals</article-title>. <source>Rev. Med. Chil.</source>
+<volume>138</volume>:<fpage>1357</fpage>&#x02013;<lpage>1364</lpage>.<pub-id pub-id-type="pmid">21279247</pub-id></mixed-citation></ref><ref id="cam4915-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cam4915-cit-0004">
+<string-name>
+<surname>Wernberg</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Lucarelli</surname>
+</string-name>. <year>2014</year>
+<article-title>Gallbladder Cancer</article-title>. <source>Surg. Clin. North Amer.</source>
+<volume>94</volume>:<fpage>343</fpage>&#x02013;<lpage>360</lpage>.<pub-id pub-id-type="pmid">24679425</pub-id></mixed-citation></ref><ref id="cam4915-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cam4915-cit-0005">
+<string-name>
+<surname>Lai</surname>, <given-names>C. H.</given-names>
+</string-name>, and <string-name>
+<given-names>W. Y.</given-names>
+<surname>Lau</surname>
+</string-name>. <year>2008</year>
+<article-title>Gallbladder cancer&#x02013;a comprehensive review</article-title>. <source>Surgeon</source>
+<volume>6</volume>:<fpage>101</fpage>&#x02013;<lpage>110</lpage>.<pub-id pub-id-type="pmid">18488776</pub-id></mixed-citation></ref><ref id="cam4915-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cam4915-cit-0006">
+<string-name>
+<surname>Maringhini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Moreau</surname>
+</string-name>, <string-name>
+<given-names>L. J.</given-names>
+<suffix>3rd</suffix>
+<surname>Melton</surname>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>Hench</surname>
+</string-name>, <string-name>
+<given-names>A. R.</given-names>
+<surname>Zinsmeister</surname>
+</string-name>, and <string-name>
+<given-names>E. P.</given-names>
+<surname>DiMagno</surname>
+</string-name>. <year>1987</year>
+<article-title>Gallstones, gallbladder cancer, and other gastrointestinal malignancies. An epidemiologic study in Rochester, Minnesota</article-title>. <source>Ann. Intern. Med.</source>
+<volume>107</volume>:<fpage>30</fpage>&#x02013;<lpage>35</lpage>.<pub-id pub-id-type="pmid">3592446</pub-id></mixed-citation></ref><ref id="cam4915-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cam4915-cit-0007">
+<string-name>
+<surname>Axelrod</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Munster</surname>
+</string-name>, and <string-name>
+<given-names>T. F.</given-names>
+<surname>O'Brien</surname>
+</string-name>. <year>1971</year>
+<article-title>Typhoid cholecystitis and gallbladder carcinoma after interval of 67&#x000a0;years</article-title>. <source>JAMA</source>
+<volume>217</volume>:<fpage>83</fpage>.</mixed-citation></ref><ref id="cam4915-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cam4915-cit-0008">
+<string-name>
+<surname>Welton</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Marr</surname>
+</string-name>, and <string-name>
+<given-names>S. M.</given-names>
+<surname>Friedman</surname>
+</string-name>. <year>1979</year>
+<article-title>Association between hepatobiliary cancer and typhoid carrier state</article-title>. <source>Lancet</source>
+<volume>1</volume>:<fpage>791</fpage>&#x02013;<lpage>794</lpage>.<pub-id pub-id-type="pmid">86039</pub-id></mixed-citation></ref><ref id="cam4915-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cam4915-cit-0009">
+<string-name>
+<surname>Mellemgaard</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Gaarslev</surname>
+</string-name>. <year>1988</year>
+<article-title>Risk of hepatobiliary cancer in carriers of Salmonella typhi</article-title>. <source>J. Natl Cancer Inst.</source>
+<volume>80</volume>:<fpage>288</fpage>.</mixed-citation></ref><ref id="cam4915-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cam4915-cit-0010">
+<string-name>
+<surname>Caygill</surname>, <given-names>C. P. G.</given-names>
+</string-name>, <string-name>
+<given-names>M. J.</given-names>
+<surname>Hill</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Braddick</surname>
+</string-name>, and <string-name>
+<given-names>J. C. M.</given-names>
+<surname>Sharp</surname>
+</string-name>. <year>1994</year>
+<article-title>Cancer mortality in chronic typhoid and paratyphoid carriers</article-title>. <source>Lancet</source>
+<volume>343</volume>:<fpage>83</fpage>&#x02013;<lpage>84</lpage>.<pub-id pub-id-type="pmid">7903779</pub-id></mixed-citation></ref><ref id="cam4915-bib-0011"><label>11</label><mixed-citation publication-type="book" id="cam4915-cit-0011">
+<string-name>
+<surname>Ferlay</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Soerjomataram</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ervik</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Dikshit</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Eser</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Mathers</surname>
+</string-name>, et&#x000a0;al. <year>2013</year>
+<article-title>Cancer Incidence and Mortality Worldwide: IARC CancerBase No. 11 [Internet]</article-title>. GLOBOCAN 2012 v1.0, Available at <ext-link ext-link-type="uri" xlink:href="http://globocan.iarc.fr">http://globocan.iarc.fr</ext-link>, (accessed 12 June 2015). <publisher-name>International Agency for Research on Cancer</publisher-name>, <publisher-loc>Lyon, France</publisher-loc>.</mixed-citation></ref><ref id="cam4915-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cam4915-cit-0012">
+<string-name>
+<surname>Andia</surname>, <given-names>K. M.</given-names>
+</string-name>, and <string-name>
+<given-names>G. A.</given-names>
+<surname>Gederlini</surname>
+</string-name>. <year>2006</year>
+<article-title>Ferreccio RC [Gallbladder cancer: trend and risk distribution in Chile]</article-title>. <source>Rev. Med. Chil.</source>
+<volume>134</volume>:<fpage>565</fpage>&#x02013;<lpage>574</lpage>.<pub-id pub-id-type="pmid">16802048</pub-id></mixed-citation></ref><ref id="cam4915-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cam4915-cit-0013">
+<string-name>
+<surname>Tsuchiya</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Terao</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Okano</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Nakamura</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Oyama</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Ikegami</surname>
+</string-name>, et&#x000a0;al. <year>2011</year>
+<article-title>Mutagenicity and mutagens of the red chili pepper as gallbladder cancer risk factor in Chilean women</article-title>. <source>Asian Pac. J. Cancer Prev.</source>
+<volume>12</volume>:<fpage>471</fpage>&#x02013;<lpage>476</lpage>.<pub-id pub-id-type="pmid">21545215</pub-id></mixed-citation></ref><ref id="cam4915-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cam4915-cit-0014">
+<string-name>
+<surname>Laval</surname>, <given-names>E.</given-names>
+</string-name>
+<year>2007</year>
+<article-title>Ferreccio C [Typhoid fever: rise, peak and fall of an infectious disease in Chile]</article-title>. <source>Rev. Chilena Infectol.</source>
+<volume>24</volume>:<fpage>435</fpage>&#x02013;<lpage>440</lpage>.<pub-id pub-id-type="pmid">18180816</pub-id></mixed-citation></ref><ref id="cam4915-bib-0015"><label>15</label><mixed-citation publication-type="miscellaneous" id="cam4915-cit-0015">
+<collab collab-type="authors">IARC</collab>
+. <article-title>CANCERMondial</article-title>. Accessible at <ext-link ext-link-type="uri" xlink:href="http://www-dep.iarc.fr/2009">http://www-dep.iarc.fr/2009</ext-link> (accessed 12 June 2015).</mixed-citation></ref><ref id="cam4915-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cam4915-cit-0016">
+<string-name>
+<surname>Nogueira</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Foerster</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Groopman</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Egner</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Koshiol</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Ferreccio</surname>
+</string-name>. <year>2015</year>
+<article-title>Gallbladder Cancer Chile Working G. Association of aflatoxin with gallbladder cancer in Chile</article-title>. <source>JAMA</source>
+<volume>313</volume>:<fpage>2075</fpage>&#x02013;<lpage>2077</lpage>.<pub-id pub-id-type="pmid">26010638</pub-id></mixed-citation></ref><ref id="cam4915-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cam4915-cit-0017">
+<string-name>
+<surname>Nagaraja</surname>, <given-names>V.</given-names>
+</string-name>, and <string-name>
+<given-names>D.</given-names>
+<surname>Eslick</surname>
+</string-name>. <year>2014</year>
+<article-title>Systematic review with meta&#x02010;analysis: the relationship between chronic Salmonella typhi carrier status and gall&#x02010;bladder cancer</article-title>. <source>Aliment. Pharmacol. Ther.</source>
+<volume>39</volume>:<fpage>745</fpage>&#x02013;<lpage>750</lpage>.<pub-id pub-id-type="pmid">24612190</pub-id></mixed-citation></ref><ref id="cam4915-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cam4915-cit-0018">
+<string-name>
+<surname>Losonsky</surname>, <given-names>G. A.</given-names>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Ferreccio</surname>
+</string-name>, and <string-name>
+<given-names>K. L.</given-names>
+<surname>Kotloff</surname>
+</string-name>. <year>1987</year>
+<article-title>Development and evaluation of an enzyme&#x02010;linked immunosorbent assay for serum Vi antibodies for detection of chronic Salmonella typhi carriers</article-title>. <source>J. Clin. Microbiol.</source>
+<volume>25</volume>:<fpage>2266</fpage>&#x02013;<lpage>2269</lpage>.<pub-id pub-id-type="pmid">3429619</pub-id></mixed-citation></ref><ref id="cam4915-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cam4915-cit-0019">
+<string-name>
+<surname>Wahid</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<given-names>M. F.</given-names>
+<surname>Pasetti</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<suffix>Jr</suffix>
+<surname>Maciel</surname>
+</string-name>, <string-name>
+<given-names>J. K.</given-names>
+<surname>Simon</surname>
+</string-name>, <string-name>
+<given-names>C. O.</given-names>
+<surname>Tacket</surname>
+</string-name>, <string-name>
+<given-names>M. M.</given-names>
+<surname>Levine</surname>
+</string-name>, et&#x000a0;al. <year>2011</year>
+<article-title>Oral priming with Salmonella Typhi vaccine strain CVD 909 followed by parenteral boost with the S. Typhi Vi capsular polysaccharide vaccine induces CD27&#x000a0;+&#x000a0;IgD&#x02010;S. Typhi&#x02010;specific IgA and IgG B memory cells in humans</article-title>. <source>Clin. Immunol.</source>
+<volume>138</volume>:<fpage>187</fpage>&#x02013;<lpage>200</lpage>.<pub-id pub-id-type="pmid">21146460</pub-id></mixed-citation></ref><ref id="cam4915-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cam4915-cit-0020">
+<string-name>
+<surname>Szu</surname>, <given-names>S. C.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Hunt</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>J. B.</given-names>
+<surname>Robbins</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Schneerson</surname>
+</string-name>, <string-name>
+<given-names>R. K.</given-names>
+<surname>Gupta</surname>
+</string-name>, et&#x000a0;al. <year>2013</year>
+<article-title>A human IgG anti&#x02010;Vi reference for Salmonella typhi with weight&#x02010;based antibody units assigned</article-title>. <source>Vaccine</source>
+<volume>31</volume>:<fpage>1970</fpage>&#x02013;<lpage>1974</lpage>.<pub-id pub-id-type="pmid">23422143</pub-id></mixed-citation></ref><ref id="cam4915-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cam4915-cit-0021">
+<string-name>
+<surname>Massi</surname>, <given-names>M. N.</given-names>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Shirakawa</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Gotoh</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Bishnu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hatta</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Kawabata</surname>
+</string-name>. <year>2005</year>
+<article-title>Quantitative detection of Salmonella enterica serovar Typhi from blood of suspected typhoid fever patients by real&#x02010;time PCR</article-title>. <source>Int. J. Med. Microbiol.</source>
+<volume>295</volume>:<fpage>117</fpage>&#x02013;<lpage>120</lpage>.<pub-id pub-id-type="pmid">15969472</pub-id></mixed-citation></ref><ref id="cam4915-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cam4915-cit-0022">
+<string-name>
+<surname>Fukushima</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Tsunomori</surname>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Seki</surname>
+</string-name>. <year>2003</year>
+<article-title>Duplex real&#x02010;time SYBR green PCR assays for detection of 17 species of food&#x02010; or waterborne pathogens in stools</article-title>. <source>J. Clin. Microbiol.</source>
+<volume>41</volume>:<fpage>5134</fpage>&#x02013;<lpage>5146</lpage>.<pub-id pub-id-type="pmid">14605150</pub-id></mixed-citation></ref><ref id="cam4915-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cam4915-cit-0023">
+<string-name>
+<surname>Fernandes&#x02010;Monteiro</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name>
+<given-names>G. F.</given-names>
+<surname>Trindade</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Yamamura</surname>
+</string-name>, <string-name>
+<given-names>O. C.</given-names>
+<surname>Moreira</surname>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>de Paula</surname>
+</string-name>, <string-name>
+<given-names>A. C.</given-names>
+<surname>Duarte</surname>
+</string-name>, et&#x000a0;al. <year>2015</year>
+<article-title>New approaches for the standardization and validation of a real&#x02010;time qPCR assay using TaqMan probes for quantification of yellow fever virus on clinical samples with high quality parameters</article-title>. <source>Hum. Vaccin. Immunother.</source>
+<volume>11</volume>:<fpage>1865</fpage>&#x02013;<lpage>1871</lpage>.<pub-id pub-id-type="pmid">26011746</pub-id></mixed-citation></ref><ref id="cam4915-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cam4915-cit-0024">
+<string-name>
+<surname>Kuramitsu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Okuma</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Yamagishi</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Yamochi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Firouzi</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Momose</surname>
+</string-name>, et&#x000a0;al. <year>2015</year>
+<article-title>Identification of TL&#x02010;Om1, an adult T&#x02010;cell leukemia (ATL) cell line, as reference material for quantitative PCR for human T&#x02010;lymphotropic virus 1</article-title>. <source>J. Clin. Microbiol.</source>
+<volume>53</volume>:<fpage>587</fpage>&#x02013;<lpage>596</lpage>.<pub-id pub-id-type="pmid">25502533</pub-id></mixed-citation></ref><ref id="cam4915-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cam4915-cit-0025">
+<string-name>
+<surname>Caygill</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Braddick</surname>
+</string-name>, <string-name>
+<given-names>M. J.</given-names>
+<surname>Hill</surname>
+</string-name>, <string-name>
+<given-names>R. L.</given-names>
+<surname>Knowles</surname>
+</string-name>, and <string-name>
+<given-names>J. C.</given-names>
+<surname>Sharp</surname>
+</string-name>. <year>1995</year>
+<article-title>The association between typhoid carriage, typhoid infection and subsequent cancer at a number of sites</article-title>. <source>Eur. J. Cancer Prev.</source>
+<volume>4</volume>:<fpage>187</fpage>&#x02013;<lpage>193</lpage>.<pub-id pub-id-type="pmid">7767246</pub-id></mixed-citation></ref><ref id="cam4915-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cam4915-cit-0026">
+<string-name>
+<surname>Hazrah</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<given-names>K. T.</given-names>
+<surname>Oahn</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Tewari</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Pandey</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name>
+<given-names>T. M.</given-names>
+<surname>Mohapatra</surname>
+</string-name>, et&#x000a0;al. <year>2004</year>
+<article-title>The frequency of live bacteria in gallstones</article-title>. <source>HPB (Oxford)</source>
+<volume>6</volume>:<fpage>28</fpage>&#x02013;<lpage>32</lpage>.<pub-id pub-id-type="pmid">18333042</pub-id></mixed-citation></ref><ref id="cam4915-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cam4915-cit-0027">
+<string-name>
+<surname>Nath</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Singh</surname>
+</string-name>, and <string-name>
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>1997</year>
+<article-title>Chronic typhoid carriage and carcinoma of the gallbladder</article-title>. <source>Eur. J. Cancer Prev.</source>
+<volume>6</volume>:<fpage>557</fpage>&#x02013;<lpage>559</lpage>.<pub-id pub-id-type="pmid">9496458</pub-id></mixed-citation></ref><ref id="cam4915-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cam4915-cit-0028">
+<string-name>
+<surname>Pandey</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name>
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>2003</year>
+<article-title>Lifestyle, parity, menstrual and reproductive factors and risk of gallbladder cancer</article-title>. <source>Eur. J. Cancer Prev.</source>
+<volume>12</volume>:<fpage>269</fpage>&#x02013;<lpage>272</lpage>.<pub-id pub-id-type="pmid">12883378</pub-id></mixed-citation></ref><ref id="cam4915-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cam4915-cit-0029">
+<string-name>
+<surname>Shukla</surname>, <given-names>V. K.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pandey</surname>
+</string-name>, <string-name>
+<given-names>S. K.</given-names>
+<surname>Upadhyay</surname>
+</string-name>, and <string-name>
+<given-names>G.</given-names>
+<surname>Nath</surname>
+</string-name>. <year>2000</year>
+<article-title>Carcinoma of the gallbladder&#x02013;is it a sequel of typhoid?</article-title>
+<source>Dig. Dis. Sci.</source>
+<volume>45</volume>:<fpage>900</fpage>&#x02013;<lpage>903</lpage>.<pub-id pub-id-type="pmid">10795752</pub-id></mixed-citation></ref><ref id="cam4915-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cam4915-cit-0030">
+<string-name>
+<surname>Singh</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pandey</surname>
+</string-name>, and <string-name>
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>1996</year>
+<article-title>Salmonella carrier state, chronic bacterial infection and gallbladder carcinogenesis</article-title>. <source>Eur. J. Cancer Prev.</source>
+<volume>5</volume>:<fpage>144</fpage>.<pub-id pub-id-type="pmid">8736080</pub-id></mixed-citation></ref><ref id="cam4915-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cam4915-cit-0031">
+<string-name>
+<surname>Nath</surname>, <given-names>G.</given-names>
+</string-name>, and <string-name>
+<given-names>Y. K.</given-names>
+<surname>Singh</surname>
+</string-name>. <year>2008</year>
+<article-title>Association of carcinoma of the gallbladder with typhoid carriage in a typhoid endemic area using nested PCR</article-title>. <source>J. Infec. Dev. Ctries.</source>
+<volume>2</volume>:<fpage>302</fpage>&#x02013;<lpage>307</lpage>.<pub-id pub-id-type="pmid">19741293</pub-id></mixed-citation></ref><ref id="cam4915-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cam4915-cit-0032">
+<string-name>
+<surname>Sharma</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<given-names>V. S.</given-names>
+<surname>Chauhan</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Nath</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kumar</surname>
+</string-name>, and <string-name>
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>2007</year>
+<article-title>Role of bile bacteria in gallbladder carcinoma</article-title>. <source>Hepatogastroenterology</source>
+<volume>54</volume>:<fpage>1622</fpage>&#x02013;<lpage>1625</lpage>.<pub-id pub-id-type="pmid">18019679</pub-id></mixed-citation></ref><ref id="cam4915-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cam4915-cit-0033">
+<string-name>
+<surname>Vaishnavi</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Kochhar</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Singh</surname>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Singh</surname>
+</string-name>. <year>2005</year>
+<article-title>Epidemiology of typhoid carriers among blood donors and patients with biliary, gastrointestinal and other related diseases</article-title>. <source>Microbiol. Immunol.</source>
+<volume>49</volume>:<fpage>107</fpage>&#x02013;<lpage>112</lpage>.<pub-id pub-id-type="pmid">15722595</pub-id></mixed-citation></ref><ref id="cam4915-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cam4915-cit-0034">
+<string-name>
+<surname>Vaishnavi</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Kochhar</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Bhasin</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Singh</surname>
+</string-name>, and <string-name>
+<given-names>K.</given-names>
+<surname>Singh</surname>
+</string-name>. <year>2005</year>
+<article-title>Prevalence of Salmonella enterica serovar typhi in bile and stool of patients with biliary diseases and those requiring biliary drainage for other purposes</article-title>. <source>Jpn. J. Infect. Dis.</source>
+<volume>58</volume>:<fpage>363</fpage>&#x02013;<lpage>365</lpage>.<pub-id pub-id-type="pmid">16377868</pub-id></mixed-citation></ref><ref id="cam4915-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cam4915-cit-0035">
+<string-name>
+<surname>Tewari</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>R. R.</given-names>
+<surname>Mishra</surname>
+</string-name>, and <string-name>
+<given-names>H. S.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>2010</year>
+<article-title>Salmonella typhi and gallbladder cancer: report from an endemic region</article-title>. <source>Hepatobiliary Pancreat. Dis. Int.</source>
+<volume>9</volume>:<fpage>524</fpage>&#x02013;<lpage>530</lpage>.<pub-id pub-id-type="pmid">20943463</pub-id></mixed-citation></ref><ref id="cam4915-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cam4915-cit-0036">
+<string-name>
+<surname>Andia</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<given-names>A. W.</given-names>
+<surname>Hsing</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Andreotti</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Ferreccio</surname>
+</string-name>. <year>2008</year>
+<article-title>Geographic variation of gallbladder cancer mortality and risk factors in Chile: a population&#x02010;based ecologic study</article-title>. <source>Int. J. Cancer</source>
+<volume>123</volume>:<fpage>1411</fpage>&#x02013;<lpage>1416</lpage>.<pub-id pub-id-type="pmid">18566990</pub-id></mixed-citation></ref><ref id="cam4915-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cam4915-cit-0037">
+<string-name>
+<surname>Hardy</surname>, <given-names>R. J.</given-names>
+</string-name>, and <string-name>
+<given-names>S. G.</given-names>
+<surname>Thompson</surname>
+</string-name>. <year>1998</year>
+<article-title>Detecting and describing heterogeneity in meta&#x02010;analysis</article-title>. <source>Stat. Med.</source>
+<volume>17</volume>:<fpage>841</fpage>&#x02013;<lpage>856</lpage>.<pub-id pub-id-type="pmid">9595615</pub-id></mixed-citation></ref><ref id="cam4915-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cam4915-cit-0038">
+<string-name>
+<surname>Sterne</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Gavaghan</surname>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Egger</surname>
+</string-name>. <year>2000</year>
+<article-title>Publication and related bias in meta&#x02010;analysis: power of statistical tests and prevalence in the literature</article-title>. <source>J. Clin. Epidemiol.</source>
+<volume>53</volume>:<fpage>1119</fpage>&#x02013;<lpage>1129</lpage>.<pub-id pub-id-type="pmid">11106885</pub-id></mixed-citation></ref><ref id="cam4915-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cam4915-cit-0039">
+<string-name>
+<surname>Begg</surname>, <given-names>C. B.</given-names>
+</string-name>, and <string-name>
+<given-names>M.</given-names>
+<surname>Mazumdar</surname>
+</string-name>. <year>1994</year>
+<article-title>Operating characteristics of a rank correlation test for publication bias</article-title>. <source>Biometrics</source>
+<volume>50</volume>:<fpage>1088</fpage>&#x02013;<lpage>1101</lpage>.<pub-id pub-id-type="pmid">7786990</pub-id></mixed-citation></ref><ref id="cam4915-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cam4915-cit-0040">
+<string-name>
+<surname>Egger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Davey Smith</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Schneider</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Minder</surname>
+</string-name>. <year>1997</year>
+<article-title>Bias in meta&#x02010;analysis detected by a simple, graphical test</article-title>. <source>BMJ</source>
+<volume>315</volume>:<fpage>629</fpage>&#x02013;<lpage>634</lpage>.<pub-id pub-id-type="pmid">9310563</pub-id></mixed-citation></ref><ref id="cam4915-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cam4915-cit-0041">
+<string-name>
+<surname>Csendes</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Becerra</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Burdiles</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Demian</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Bancalari</surname>
+</string-name>, and <string-name>
+<given-names>P.</given-names>
+<surname>Csendes</surname>
+</string-name>. <year>1994</year>
+<article-title>Bacteriological studies of bile from the gallbladder in patients with carcinoma of the gallbladder, cholelithiasis, common bile duct stones and no gallstones disease</article-title>. <source>Eur. J. Surg.</source>
+<volume>160</volume>:<fpage>363</fpage>&#x02013;<lpage>367</lpage>.<pub-id pub-id-type="pmid">7948355</pub-id></mixed-citation></ref><ref id="cam4915-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cam4915-cit-0042">
+<string-name>
+<surname>Serra</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Yamamoto</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Calvo</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Cavada</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Baez</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Endoh</surname>
+</string-name>, et&#x000a0;al. <year>2002</year>
+<article-title>Association of chili pepper consumption, low socioeconomic status and longstanding gallstones with gallbladder cancer in a Chilean population</article-title>. <source>Int. J. Cancer</source>
+<volume>102</volume>:<fpage>407</fpage>&#x02013;<lpage>411</lpage>.<pub-id pub-id-type="pmid">12402311</pub-id></mixed-citation></ref><ref id="cam4915-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cam4915-cit-0043">
+<string-name>
+<surname>Dutta</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<given-names>P. K.</given-names>
+<surname>Garg</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Kumar</surname>
+</string-name>, and <string-name>
+<given-names>R. K.</given-names>
+<surname>Tandon</surname>
+</string-name>. <year>2000</year>
+<article-title>Typhoid carriers among patients with gallstones are at increased risk for carcinoma of the gallbladder</article-title>. <source>Am J. Gastroenterol.</source>
+<volume>95</volume>:<fpage>784</fpage>&#x02013;<lpage>787</lpage>.<pub-id pub-id-type="pmid">10710075</pub-id></mixed-citation></ref><ref id="cam4915-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cam4915-cit-0044">
+<string-name>
+<surname>Roa</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Araya</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Villaseca</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Roa</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>de Aretxabala</surname>
+</string-name>, and <string-name>
+<given-names>G.</given-names>
+<surname>Ibacache</surname>
+</string-name>. <year>1999</year>
+<article-title>Gallbladder cancer in a high risk area: morphological features and spread patterns</article-title>. <source>Hepatogastroenterology</source>
+<volume>46</volume>:<fpage>1540</fpage>&#x02013;<lpage>1546</lpage>.<pub-id pub-id-type="pmid">10430291</pub-id></mixed-citation></ref><ref id="cam4915-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cam4915-cit-0045">
+<string-name>
+<surname>Strom</surname>, <given-names>B. L.</given-names>
+</string-name>, <string-name>
+<given-names>R. D.</given-names>
+<surname>Soloway</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Rios&#x02010;Dalenz</surname>
+</string-name>, <string-name>
+<given-names>H. A.</given-names>
+<surname>Rodriguez&#x02010;Martinez</surname>
+</string-name>, <string-name>
+<given-names>S. L.</given-names>
+<surname>West</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Kinman</surname>
+</string-name>, et&#x000a0;al. <year>1995</year>
+<article-title>Risk factors for gallbladder cancer. An international collaborative case&#x02010;control study</article-title>. <source>Cancer</source>
+<volume>76</volume>:<fpage>1747</fpage>&#x02013;<lpage>1756</lpage>.<pub-id pub-id-type="pmid">8625043</pub-id></mixed-citation></ref><ref id="cam4915-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cam4915-cit-0046">
+<string-name>
+<surname>Capoor</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Nair</surname>
+</string-name>, <string-name>
+<surname>Rajni</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Khanna</surname>
+</string-name>, <string-name>
+<given-names>S. V.</given-names>
+<surname>Krishna</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Chintamani</surname>
+</string-name>, et&#x000a0;al. <year>2008</year>
+<article-title>Microflora of bile aspirates in patients with acute cholecystitis with or without cholelithiasis: a tropical experience</article-title>. <source>Braz J. Infect. Dis.</source>
+<volume>12</volume>:<fpage>222</fpage>&#x02013;<lpage>225</lpage>.<pub-id pub-id-type="pmid">18839486</pub-id></mixed-citation></ref><ref id="cam4915-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cam4915-cit-0047">
+<string-name>
+<surname>Safaeian</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>Y. T.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>L. C.</given-names>
+<surname>Sakoda</surname>
+</string-name>, <string-name>
+<given-names>S. M.</given-names>
+<surname>Quraishi</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Rashid</surname>
+</string-name>, <string-name>
+<given-names>B. S.</given-names>
+<surname>Wang</surname>
+</string-name>, et&#x000a0;al. <year>2011</year>
+<article-title>Chronic typhoid infection and the risk of biliary tract cancer and stones in Shanghai, China</article-title>. <source>Infect. Agent Cancer</source>
+<volume>6</volume>:<fpage>6</fpage>.<pub-id pub-id-type="pmid">21535882</pub-id></mixed-citation></ref><ref id="cam4915-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="cam4915-cit-0048">
+<string-name>
+<surname>Koshiol J</surname>, <given-names>Wozniak A</given-names>
+</string-name>, <string-name>
+<given-names>Cook</given-names>
+<surname>P</surname>
+</string-name>, <string-name>
+<given-names>Adaniel</given-names>
+<surname>C</surname>
+</string-name>, <string-name>
+<given-names>Miquel</given-names>
+<surname>JF</surname>
+</string-name>, <string-name>
+<given-names>Acevedo</given-names>
+<surname>J</surname>
+</string-name>, <string-name>
+<given-names>Hsing</given-names>
+<surname>A</surname>
+</string-name>, et&#x000a0;al., <collab collab-type="authors">Group. GCCW</collab>
+. <article-title>Chronic Salmonella Typhi carriage and gallbladder cancer: a case control and meta&#x02010;analysis In Preparation</article-title>. <source>Cancer Med.</source>
+</mixed-citation></ref><ref id="cam4915-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cam4915-cit-0049">
+<string-name>
+<surname>Yagyu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Obata</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kikuchi</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Ishibashi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kurosawa</surname>
+</string-name>, et&#x000a0;al. , <collab collab-type="authors">Group JS</collab>
+. <year>2004</year>
+<article-title>Bowel movement frequency, medical history and the risk of gallbladder cancer death: a cohort study in Japan</article-title>. <source>Cancer Sci.</source>
+<volume>95</volume>:<fpage>674</fpage>&#x02013;<lpage>678</lpage>.<pub-id pub-id-type="pmid">15298731</pub-id></mixed-citation></ref><ref id="cam4915-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cam4915-cit-0050">
+<string-name>
+<surname>Crawford</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<given-names>D. L.</given-names>
+<surname>Gibson</surname>
+</string-name>, <string-name>
+<given-names>W. W.</given-names>
+<surname>Kay</surname>
+</string-name>, and <string-name>
+<given-names>J. S.</given-names>
+<surname>Gunn</surname>
+</string-name>. <year>2008</year>
+<article-title>Identification of a bile&#x02010;induced exopolysaccharide required for Salmonella biofilm formation on gallstone surfaces</article-title>. <source>Infect. Immun.</source>
+<volume>76</volume>:<fpage>5341</fpage>&#x02013;<lpage>5349</lpage>.<pub-id pub-id-type="pmid">18794278</pub-id></mixed-citation></ref><ref id="cam4915-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cam4915-cit-0051">
+<string-name>
+<surname>Csendes</surname>, <given-names>A.</given-names>
+</string-name>
+<year>1994</year>
+<article-title>Cholecystectomy in young women</article-title>. <source>Rev. Med. Chil.</source>
+<volume>122</volume>:<fpage>1086</fpage>.<pub-id pub-id-type="pmid">7597342</pub-id></mixed-citation></ref><ref id="cam4915-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cam4915-cit-0052">
+<string-name>
+<surname>Ristori</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Rodriguez</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Vicent</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Ferreccio</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Garcia</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Lobos</surname>
+</string-name>, et&#x000a0;al. <year>1982</year>
+<article-title>Persistence of the Salmonella typhi&#x02010;paratyphi carrier state after gallbladder removal</article-title>. <source>Bull. Pan Am. Health Organ.</source>
+<volume>16</volume>:<fpage>361</fpage>&#x02013;<lpage>366</lpage>.<pub-id pub-id-type="pmid">7165819</pub-id></mixed-citation></ref><ref id="cam4915-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="cam4915-cit-0053">
+<string-name>
+<surname>Daniels</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Schneerson</surname>
+</string-name>, <string-name>
+<given-names>W. M.</given-names>
+<surname>Egan</surname>
+</string-name>, <string-name>
+<given-names>S. C.</given-names>
+<surname>Szu</surname>
+</string-name>, and <string-name>
+<given-names>J. B.</given-names>
+<surname>Robbins</surname>
+</string-name>. <year>1989</year>
+<article-title>Characterization of the Salmonella paratyphi C Vi polysaccharide</article-title>. <source>Infect. Immun.</source>
+<volume>57</volume>:<fpage>3159</fpage>&#x02013;<lpage>3164</lpage>.<pub-id pub-id-type="pmid">2506132</pub-id></mixed-citation></ref><ref id="cam4915-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="cam4915-cit-0054">
+<string-name>
+<surname>Raffatellu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Chessa</surname>
+</string-name>, <string-name>
+<given-names>R. P.</given-names>
+<surname>Wilson</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Tukel</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Akcelik</surname>
+</string-name>, and <string-name>
+<given-names>A. J.</given-names>
+<surname>Baumler</surname>
+</string-name>. <year>2006</year>
+<article-title>Capsule&#x02010;mediated immune evasion: a new hypothesis explaining aspects of typhoid fever pathogenesis</article-title>. <source>Infect. Immun.</source>
+<volume>74</volume>:<fpage>19</fpage>&#x02013;<lpage>27</lpage>.<pub-id pub-id-type="pmid">16368953</pub-id></mixed-citation></ref><ref id="cam4915-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="cam4915-cit-0055">
+<string-name>
+<surname>Raffatellu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>R. L.</given-names>
+<surname>Santos</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Chessa</surname>
+</string-name>, <string-name>
+<given-names>R. P.</given-names>
+<surname>Wilson</surname>
+</string-name>, <string-name>
+<given-names>S. E.</given-names>
+<surname>Winter</surname>
+</string-name>, <string-name>
+<given-names>C. A.</given-names>
+<surname>Rossetti</surname>
+</string-name>, et&#x000a0;al. <year>2007</year>
+<article-title>The capsule encoding the viaB locus reduces interleukin&#x02010;17 expression and mucosal innate responses in the bovine intestinal mucosa during infection with Salmonella enterica serotype Typhi</article-title>. <source>Infect. Immun.</source>
+<volume>75</volume>:<fpage>4342</fpage>&#x02013;<lpage>4350</lpage>.<pub-id pub-id-type="pmid">17591794</pub-id></mixed-citation></ref><ref id="cam4915-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="cam4915-cit-0056">
+<string-name>
+<surname>Keestra&#x02010;Gounder</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Tsolis</surname>
+</string-name>, and <string-name>
+<given-names>A. J.</given-names>
+<surname>Baumler</surname>
+</string-name>. <year>2015</year>
+<article-title>Now you see me, now you don't: the interaction of Salmonella with innate immune receptors</article-title>. <source>Nat. Rev. Microbiol.</source>
+<volume>13</volume>:<fpage>206</fpage>&#x02013;<lpage>216</lpage>.<pub-id pub-id-type="pmid">25749454</pub-id></mixed-citation></ref><ref id="cam4915-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="cam4915-cit-0057">
+<string-name>
+<surname>Diez&#x02010;Garcia</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Capita</surname>
+</string-name>, and <string-name>
+<given-names>C.</given-names>
+<surname>Alonso&#x02010;Calleja</surname>
+</string-name>. <year>2012</year>
+<article-title>Influence of serotype on the growth kinetics and the ability to form biofilms of Salmonella isolates from poultry</article-title>. <source>Food Microbiol.</source>
+<volume>31</volume>:<fpage>173</fpage>&#x02013;<lpage>180</lpage>.<pub-id pub-id-type="pmid">22608221</pub-id></mixed-citation></ref><ref id="cam4915-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="cam4915-cit-0058">
+<string-name>
+<surname>Crawford</surname>, <given-names>R. W.</given-names>
+</string-name>, and <string-name>
+<given-names>R.</given-names>
+<surname>Rosales&#x02010;Reyes</surname>
+</string-name>. <year>2010</year>
+<article-title>Ramirez&#x02010;Aguilar Mde L, Chapa&#x02010;Azuela O, Alpuche&#x02010;Aranda C, Gunn JS. Gallstones play a significant role in Salmonella spp. gallbladder colonization and carriage</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>107</volume>:<fpage>4353</fpage>&#x02013;<lpage>4358</lpage>.<pub-id pub-id-type="pmid">20176950</pub-id></mixed-citation></ref><ref id="cam4915-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="cam4915-cit-0059">
+<string-name>
+<surname>Nath</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Gulati</surname>
+</string-name>, and <string-name>
+<given-names>V. K.</given-names>
+<surname>Shukla</surname>
+</string-name>. <year>2010</year>
+<article-title>Role of bacteria in carcinogenesis, with special reference to carcinoma of the gallbladder</article-title>. <source>World J. Gastroenterol.</source>
+<volume>16</volume>:<fpage>5395</fpage>&#x02013;<lpage>5404</lpage>.<pub-id pub-id-type="pmid">21086555</pub-id></mixed-citation></ref><ref id="cam4915-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="cam4915-cit-0060">
+<string-name>
+<surname>Akhmedov</surname>, <given-names>D. R</given-names>
+</string-name>. <year>1994</year>
+<article-title>The status of the blood antioxidant system in a chronic typhoid bacterial carrier state</article-title>. <source>Zh. Mikrobiol. Epidemiol. Immunobiol.</source>
+<volume>1</volume>:<fpage>91</fpage>&#x02013;<lpage>95</lpage>.<pub-id pub-id-type="pmid">7531929</pub-id></mixed-citation></ref><ref id="cam4915-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="cam4915-cit-0061">
+<string-name>
+<surname>Scanu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Spaapen</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Bakker</surname>
+</string-name>, <string-name>
+<given-names>C. B.</given-names>
+<surname>Pratap</surname>
+</string-name>, <string-name>
+<given-names>L. E.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Hofland</surname>
+</string-name>, et&#x000a0;al. <year>2015</year>
+<article-title>Salmonella Manipulation of Host Signaling Pathways Provokes Cellular Transformation Associated with Gallbladder Carcinoma</article-title>. <source>Cell Host Microbe</source>
+<volume>17</volume>:<fpage>763</fpage>&#x02013;<lpage>774</lpage>.<pub-id pub-id-type="pmid">26028364</pub-id></mixed-citation></ref><ref id="cam4915-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="cam4915-cit-0062">
+<string-name>
+<surname>Roa</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ibacache</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Carvallo</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Melo</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Araya</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>De Aretxabala</surname>
+</string-name>, et&#x000a0;al. <year>1999</year>
+<article-title>Figueroa C [Microbiological study of gallbladder bile in a high risk zone for gallbladder cancer]</article-title>. <source>Rev. Med. Chil.</source>
+<volume>127</volume>:<fpage>1049</fpage>&#x02013;<lpage>1055</lpage>.<pub-id pub-id-type="pmid">10752267</pub-id></mixed-citation></ref></ref-list><app-group><app id="cam4915-app-0001" content-type="Appendix"><sec id="cam4915-sec-0017"><p>Gallbladder Cancer Chile Working Group (GBCChWG) <bold>Santiago, Chile:</bold> Carmen Gloria Aguayo<sup>8</sup>, Sergio Baez<sup>8</sup>, Alfonso D&#x000ed;az<sup>4</sup>, H&#x000e9;ctor Molina<sup>4</sup>, Carolina Miranda<sup>4</sup>, Claudia Castillo<sup>4</sup>, Andrea Tello<sup>8</sup>. <bold>Concepci&#x000f3;n, Chile:</bold> Gonzalo Dur&#x000e1;n<sup>9</sup>, Carolina Paz Delgado<sup>10</sup>, Rodrigo Torres&#x02010;Quevedo<sup>9</sup>, Susana Pineda<sup>9</sup>, Tiare de la Barra<sup>9</sup>, Cristian Reyes<sup>9</sup>, Cristina Alegr&#x000ed;a<sup>9</sup>, Claudia Aguayo<sup>9</sup>. <bold>Temuco, Chile:</bold> H&#x000e9;ctor Losada<sup>11,12,13</sup>, Juan Carlos Arraya<sup>11,12,13</sup>, Enrique Bellolio<sup>11,12,13</sup>, Oscar Tapia<sup>11</sup>, Jaime L&#x000f3;pez<sup>5</sup>, Karie Medina<sup>11</sup>, Paulina Barraza<sup>11</sup>, Sandra Catal&#x000e1;n<sup>11</sup>, P&#x000ed;a Riquelme<sup>11</sup>, Lorena &#x000d3;rdenes<sup>11</sup>, Ra&#x000fa;l Garc&#x000e9;s<sup>11</sup>, Claudia Duarte<sup>11</sup>. <bold>USA</bold>: Allan Hildesheim, PhD<sup>1</sup>
+</p><p>
+<sup>4</sup>Department of Gastroenterology, School of Medicine, Pontificia Universidad Cat&#x000f3;lica de Chile, Santiago, Chile; <sup>5</sup>Stanford Cancer Institute, Palo Alto, California, USA; <sup>8</sup>Center for Vaccine Development, University of Maryland School of Medicine, Baltimore, MD USA; <sup>9</sup>Hospital Dr. Sotero del R&#x000ed;o, Santiago, Chile; <sup>10</sup>Hospital Dr. Guillermo Grant Benavente, Concepci&#x000f3;n, Chile; <sup>11</sup>School of Medicine, Universidad de Concepci&#x000f3;n, Concepci&#x000f3;n, Chile; <sup>12</sup>Hospital Dr. Hernan Henr&#x000ed;quez Aravena, Temuco, Chile; <sup>13</sup>Faculty of Medicine, Universidad de La Fontera, Temuco, Chile</p></sec></app></app-group></back></article>

@@ -1,0 +1,511 @@
+{
+  "id": [
+    "27092179"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27092179"
+  ],
+  "pmcid": [
+    "PMC4820599"
+  ],
+  "doi": [
+    "10.1155/2016/3979547"
+  ],
+  "title": [
+    "MEG Connectivity and Power Detections with Minimum Norm Estimates Require Different Regularization Parameters."
+  ],
+  "authorString": [
+    "Hincapié AS, Kujala J, Mattout J, Daligault S, Delpuech C, Mery D, Cosmelli D, Jerbi K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hincapié AS"
+          ],
+          "firstName": [
+            "Ana-Sofía"
+          ],
+          "lastName": [
+            "Hincapié"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "affiliation": [
+            "Psychology Department, University of Montreal, Montreal, QC, Canada H2V 2S9; Department of Computer Science, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile; School of Psychology and Interdisciplinary Center for Neurosciences, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile; Lyon Neuroscience Research Center, DyCog Team, Inserm U1028, CNRS UMR5292, 69675 Bron Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Kujala J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Kujala"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3056-753X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Lyon Neuroscience Research Center, DyCog Team, Inserm U1028, CNRS UMR5292, 69675 Bron Cedex, France; Department of Neuroscience and Biomedical Engineering, Aalto University, 02150 Espoo, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Mattout J"
+          ],
+          "firstName": [
+            "Jérémie"
+          ],
+          "lastName": [
+            "Mattout"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Lyon Neuroscience Research Center, DyCog Team, Inserm U1028, CNRS UMR5292, 69675 Bron Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Daligault S"
+          ],
+          "firstName": [
+            "Sebastien"
+          ],
+          "lastName": [
+            "Daligault"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "MEG Center, CERMEP, 69675 Bron Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Delpuech C"
+          ],
+          "firstName": [
+            "Claude"
+          ],
+          "lastName": [
+            "Delpuech"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "MEG Center, CERMEP, 69675 Bron Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Mery D"
+          ],
+          "firstName": [
+            "Domingo"
+          ],
+          "lastName": [
+            "Mery"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Computer Science, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cosmelli D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Cosmelli"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "School of Psychology and Interdisciplinary Center for Neurosciences, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jerbi K"
+          ],
+          "firstName": [
+            "Karim"
+          ],
+          "lastName": [
+            "Jerbi"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Psychology Department, University of Montreal, Montreal, QC, Canada H2V 2S9; Lyon Neuroscience Research Center, DyCog Team, Inserm U1028, CNRS UMR5292, 69675 Bron Cedex, France."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3056-753X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2370403"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Computational intelligence and neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Comput Intell Neurosci"
+          ],
+          "NLMid": [
+            "101279357"
+          ],
+          "ISSN": [
+            "1687-5265"
+          ],
+          "ESSN": [
+            "1687-5273"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "3979547"
+  ],
+  "abstractText": [
+    "Minimum Norm Estimation (MNE) is an inverse solution method widely used to reconstruct the source time series that underlie magnetoencephalography (MEG) data. MNE addresses the ill-posed nature of MEG source estimation through regularization (e.g., Tikhonov regularization). Selecting the best regularization parameter is a critical step. Generally, once set, it is common practice to keep the same coefficient throughout a study. However, it is yet to be known whether the optimal lambda for spectral power analysis of MEG source data coincides with the optimal regularization for source-level oscillatory coupling analysis. We addressed this question via extensive Monte-Carlo simulations of MEG data, where we generated 21,600 configurations of pairs of coupled sources with varying sizes, signal-to-noise ratio (SNR), and coupling strengths. Then, we searched for the Tikhonov regularization coefficients (lambda) that maximize detection performance for (a) power and (b) coherence. For coherence, the optimal lambda was two orders of magnitude smaller than the best lambda for power. Moreover, we found that the spatial extent of the interacting sources and SNR, but not the extent of coupling, were the main parameters affecting the best choice for lambda. Our findings suggest using less regularization when measuring oscillatory coupling compared to power estimation."
+  ],
+  "affiliation": [
+    "Psychology Department, University of Montreal, Montreal, QC, Canada H2V 2S9; Department of Computer Science, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile; School of Psychology and Interdisciplinary Center for Neurosciences, Pontificia Universidad Católica de Chile, 7820436 Santiago de Chile, Chile; Lyon Neuroscience Research Center, DyCog Team, Inserm U1028, CNRS UMR5292, 69675 Bron Cedex, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Magnetoencephalography"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain Mapping"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Monte Carlo Method"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computer Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Signal Processing, Computer-Assisted"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4820599?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4820599"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/3979547"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-12-13"
+  ],
+  "dateOfCreation": [
+    "2016-04-19"
+  ],
+  "dateOfRevision": [
+    "2016-12-30"
+  ],
+  "electronicPublicationDate": [
+    "2016-03-22"
+  ],
+  "firstPublicationDate": [
+    "2016-03-22"
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": [
+    "28081160"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28081160"
+  ],
+  "pmcid": [
+    "PMC5231374"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0168646"
+  ],
+  "title": [
+    "Estimates of Abundance and Trend of Chilean Blue Whales off Isla de Chiloé, Chile."
+  ],
+  "authorString": [
+    "Galletti Vernazzani B, Jackson JA, Cabrera E, Carlson CA, Brownell RL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Galletti Vernazzani B"
+          ],
+          "firstName": [
+            "Barbara"
+          ],
+          "lastName": [
+            "Galletti Vernazzani"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Centro de Conservación Cetacea-Casilla 19178 Correo 19, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jackson JA"
+          ],
+          "firstName": [
+            "Jennifer A"
+          ],
+          "lastName": [
+            "Jackson"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4158-1924",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "British Antarctic Survey, High Cross, Madingley Road, Cambridge, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Cabrera E"
+          ],
+          "firstName": [
+            "Elsa"
+          ],
+          "lastName": [
+            "Cabrera"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Centro de Conservación Cetacea-Casilla 19178 Correo 19, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carlson CA"
+          ],
+          "firstName": [
+            "Carole A"
+          ],
+          "lastName": [
+            "Carlson"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "College of the Atlantic, Bar Harbor, ME, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Brownell RL Jr"
+          ],
+          "firstName": [
+            "Robert L"
+          ],
+          "lastName": [
+            "Brownell"
+          ],
+          "initials": [
+            "RL"
+          ],
+          "affiliation": [
+            "Southwest Fisheries Science Center, NOAA, Monterey, California, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4158-1924",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2510576"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0168646"
+  ],
+  "abstractText": [
+    "Since 1970, blue whales (Balaenoptera musculus) have been seen feeding in the waters off southern Chile during the summer and autumn (December to May). Investigation of the genetic, acoustic and morphological characteristics of these blue whales shows that they are a distinct but unnamed subspecies, called the Chilean blue whales. Photo-identification surveys have been conducted in the waters off northwestern Isla Grande de Chiloé, southern Chile from 2004-2012 and Isla Chañaral, central Chile in 2012. Over this time, 1,070 blue whales were encountered yielding, after photo-quality control, 318 and 267 unique photographs of the left and right side of the flank respectively. Using mark-recapture analysis of left and right side photographs collected from Isla Grande de Chiloé (2004-2012), open population models estimate that ~570-760 whales are feeding seasonally in this region. POPAN superpopulation abundance estimates for the same feeding ground in 2012 are 762 (95% confidence intervals, CI = 638-933) and 570 (95% CI 475-705) for left and right side datasets respectively, very similar to results from closed population models. Estimates of trend revealed strong variation in abundance, peaking in 2009 and [suggesting] fluctuating use in the survey area over time, likely related to the density of their prey. High inter-annual return rates suggest a degree of site-fidelity of individuals to Isla Grande de Chiloé and that the number of whales using this feeding ground is relatively small."
+  ],
+  "affiliation": [
+    "Centro de Conservación Cetacea-Casilla 19178 Correo 19, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "bas0100035"
+          ],
+          "agency": [
+            "Natural Environment Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seasons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Dynamics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Databases, Factual"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Balaenoptera"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5231374?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5231374"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0168646"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-02"
+  ],
+  "dateOfCreation": [
+    "2017-01-12"
+  ],
+  "dateOfRevision": [
+    "2017-08-02"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-12"
+  ],
+  "firstPublicationDate": [
+    "2017-01-12"
+  ]
+}

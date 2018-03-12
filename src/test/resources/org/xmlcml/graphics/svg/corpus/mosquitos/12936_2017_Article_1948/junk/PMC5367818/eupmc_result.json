@@ -1,0 +1,682 @@
+{
+  "id": [
+    "28346498"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28346498"
+  ],
+  "pmcid": [
+    "PMC5367818"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0174592"
+  ],
+  "title": [
+    "Characteristics of seasonal influenza A and B in Latin America: Influenza surveillance data from ten countries."
+  ],
+  "authorString": [
+    "Caini S, Alonso WJ, Balmaseda A, Bruno A, Bustos P, Castillo L, de Lozano C, de Mora D, Fasce RA, Ferreira de Almeida WA, Kusznierz GF, Lara J, Matute ML, Moreno B, Pessanha Henriques CM, Rudi JM, El-Guerche Séblain C, Schellevis F, Paget J, Global Influenza B Study group–Latin America."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Caini S"
+          ],
+          "firstName": [
+            "Saverio"
+          ],
+          "lastName": [
+            "Caini"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Netherlands Institute for Health Services Research (NIVEL), Utrecht, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Alonso WJ"
+          ],
+          "firstName": [
+            "Wladimir J"
+          ],
+          "lastName": [
+            "Alonso"
+          ],
+          "initials": [
+            "WJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7038-0801",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fogarty International Center, National Institutes of Health, Bethesda, Maryland, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Balmaseda A"
+          ],
+          "firstName": [
+            "Angel"
+          ],
+          "lastName": [
+            "Balmaseda"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "National Influenza Center, Ministry of Health, Managua, Nicaragua."
+          ]
+        },
+        {
+          "fullName": [
+            "Bruno A"
+          ],
+          "firstName": [
+            "Alfredo"
+          ],
+          "lastName": [
+            "Bruno"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Investigacion en Salud Publica (INSPI), Centro de Referencia Nacional de Influenza y Otros Virus Respiratorios, Guayaquil, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustos P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Bustos"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Seccion Virus Respiratorios, Instituto de Salud Publica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo L"
+          ],
+          "firstName": [
+            "Leticia"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "National Influenza Center, Ministry of Health, Guatemala City, Guatemala."
+          ]
+        },
+        {
+          "fullName": [
+            "de Lozano C"
+          ],
+          "firstName": [
+            "Celina"
+          ],
+          "lastName": [
+            "de Lozano"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "National Influenza Center, Ministry of Health, San Salvador, El Salvador."
+          ]
+        },
+        {
+          "fullName": [
+            "de Mora D"
+          ],
+          "firstName": [
+            "Doménica"
+          ],
+          "lastName": [
+            "de Mora"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Investigacion en Salud Publica (INSPI), Centro de Referencia Nacional de Influenza y Otros Virus Respiratorios, Guayaquil, Ecuador."
+          ]
+        },
+        {
+          "fullName": [
+            "Fasce RA"
+          ],
+          "firstName": [
+            "Rodrigo A"
+          ],
+          "lastName": [
+            "Fasce"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Seccion Virus Respiratorios, Instituto de Salud Publica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreira de Almeida WA"
+          ],
+          "firstName": [
+            "Walquiria Aparecida"
+          ],
+          "lastName": [
+            "Ferreira de Almeida"
+          ],
+          "initials": [
+            "WA"
+          ],
+          "affiliation": [
+            "Ministry of Health, Federal District, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Kusznierz GF"
+          ],
+          "firstName": [
+            "Gabriela F"
+          ],
+          "lastName": [
+            "Kusznierz"
+          ],
+          "initials": [
+            "GF"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Enfermedades Respiratorias \"Dr. Emilio Coni\", ANLIS \"C.Malbràn\", Santa Fe, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Lara J"
+          ],
+          "firstName": [
+            "Jenny"
+          ],
+          "lastName": [
+            "Lara"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "National Influenza Center, Ministry of Health, San José, Costa Rica."
+          ]
+        },
+        {
+          "fullName": [
+            "Matute ML"
+          ],
+          "firstName": [
+            "Maria Luisa"
+          ],
+          "lastName": [
+            "Matute"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "National Influenza Center, Ministry of Health, Tegucigalpa, Honduras."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno B"
+          ],
+          "firstName": [
+            "Brechla"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "National Influenza Center, IC Gorgas, Panama City, Panama."
+          ]
+        },
+        {
+          "fullName": [
+            "Pessanha Henriques CM"
+          ],
+          "firstName": [
+            "Claudio Maierovitch"
+          ],
+          "lastName": [
+            "Pessanha Henriques"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "Ministry of Health, Federal District, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Rudi JM"
+          ],
+          "firstName": [
+            "Juan Manuel"
+          ],
+          "lastName": [
+            "Rudi"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Enfermedades Respiratorias \"Dr. Emilio Coni\", ANLIS \"C.Malbràn\", Santa Fe, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "El-Guerche Séblain C"
+          ],
+          "firstName": [
+            "Clotilde"
+          ],
+          "lastName": [
+            "El-Guerche Séblain"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Sanofi Pasteur, Lyon, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Schellevis F"
+          ],
+          "firstName": [
+            "François"
+          ],
+          "lastName": [
+            "Schellevis"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of General Practice and Elderly Care Medicine, EMGO Institute for Health Care Research VU University Medical Center, Amsterdam, The Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Paget J"
+          ],
+          "firstName": [
+            "John"
+          ],
+          "lastName": [
+            "Paget"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Netherlands Institute for Health Services Research (NIVEL), Utrecht, The Netherlands."
+          ]
+        },
+        {
+          "collectiveName": [
+            "Global Influenza B Study group–Latin America"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7038-0801",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2528339"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0174592"
+  ],
+  "abstractText": [
+    "The increased availability of influenza surveillance data in recent years justifies an actual and more complete overview of influenza epidemiology in Latin America. We compared the influenza surveillance systems and assessed the epidemiology of influenza A and B, including the spatio-temporal patterns of influenza epidemics, in ten countries and sub-national regions in Latin America.We aggregated the data by year and country and characteristics of eighty-two years were analysed. We calculated the median proportion of laboratory-confirmed influenza cases caused by each virus strain, and compared the timing and amplitude of the primary and secondary peaks between countries.37,087 influenza cases were reported during 2004-2012. Influenza A and B accounted for a median of 79% and, respectively, 21% of cases in a year. The percentage of influenza A cases that were subtyped was 82.5%; for influenza B, 15.6% of cases were characterized. Influenza A and B were dominant in seventy-five (91%) and seven (9%) years, respectively. In half (51%) of the influenza A years, influenza A(H3N2) was dominant, followed by influenza A(H1N1)pdm2009 (41%) and pre-pandemic A(H1N1) (8%). The primary peak of influenza activity was in June-September in temperate climate countries, with little or no secondary peak. Tropical climate countries had smaller primary peaks taking place in different months and frequently detectable secondary peaks.We found that good influenza surveillance data exists in Latin America, although improvements can still be made (e.g. a better characterization of influenza B specimens); that influenza B plays a considerable role in the seasonal influenza burden; and that there is substantial heterogeneity of spatio-temporal patterns of influenza epidemics. To improve the effectiveness of influenza control measures in Latin America, tropical climate countries may need to develop innovative prevention strategies specifically tailored to the spatio-temporal patterns of influenza in this region."
+  ],
+  "affiliation": [
+    "Netherlands Institute for Health Services Research (NIVEL), Utrecht, The Netherlands."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Influenza A virus"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Influenza B virus"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Surveillance"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tropical Climate"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seasons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latin America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Influenza, Human"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5367818?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5367818"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0174592"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-28"
+  ],
+  "dateOfCreation": [
+    "2017-03-27"
+  ],
+  "dateOfRevision": [
+    "2017-08-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-27"
+  ],
+  "firstPublicationDate": [
+    "2017-03-27"
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": [
+    "27459734"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27459734"
+  ],
+  "pmcid": [
+    "PMC4961369"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0159825"
+  ],
+  "title": [
+    "Identification and Characterization of Microsatellite Loci in Maqui (Aristotelia chilensis [Molina] Stunz) Using Next-Generation Sequencing (NGS)."
+  ],
+  "authorString": [
+    "Bastías A, Correa F, Rojas P, Almada R, Muñoz C, Sagredo B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bastías A"
+          ],
+          "firstName": [
+            "Adriana"
+          ],
+          "lastName": [
+            "Bastías"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias (INIA) CRI Rayentué, Av. Salamanca s/n, Sector Los Choapinos, Rengo, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Correa F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Correa"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería, Universidad de Talca, Avenida Lircay s/n, Talca."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias (INIA) CRI Rayentué, Av. Salamanca s/n, Sector Los Choapinos, Rengo, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Almada R"
+          ],
+          "firstName": [
+            "Rubén"
+          ],
+          "lastName": [
+            "Almada"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centro de Estudios Avanzados en Fruticultura (CEAF), Av. Salamanca s/n, Sector Los Choapinos, Rengo, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Muñoz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Agronómicas, Universidad de Chile, Avenida Santa Rosa N° 11315, La Pintana, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sagredo B"
+          ],
+          "firstName": [
+            "Boris"
+          ],
+          "lastName": [
+            "Sagredo"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias (INIA) CRI Rayentué, Av. Salamanca s/n, Sector Los Choapinos, Rengo, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2424094"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0159825"
+  ],
+  "abstractText": [
+    "Maqui (Aristotelia chilensis [Molina] Stunz) is a small dioecious tree native to South America with edible fruit characterized by very high antioxidant capacity and anthocyanin content. To preserve maqui as a genetic resource it is essential to study its genetic diversity. However, the complete genome is unknown and only a few gene sequences are available in databases. Simple sequence repeats (SSR) markers, which are neutral, co-dominant, reproducible and highly variable, are desirable to support genetic studies in maqui populations. By means of identification and characterization of microsatellite loci from a maqui genotype, using 454 sequencing technology, we develop a set of SSR for this species. Obtaining a total of 165,043 shotgun genome sequences, with an average read length of 387 bases, we covered 64 Mb of the maqui genome. Reads were assembled into 4,832 contigs, while 98,546 reads remained as singletons, generating a total of 103,378 consensus genomic sequences. A total of 24,494 SSR maqui markers were identified. Of them, 15,950 SSR maqui markers were classified as perfects. The most common SSR motifs were dinucleotide (31%), followed by tetranucleotide (26%) and trinucleotide motifs (24%). The motif AG/CT (28.4%) was the most abundant, while the motif AC (89 bp) was the largest. Eleven polymorphic SSRs were selected and used to analyze a population of 40 maqui genotypes. Polymorphism information content (PIC) ranged from 0.117 to 0.82, with an average of 0.58. Non-significant groups were observed in the maqui population, showing a panmictic genetic structure. In addition, we also predicted 11150 putative genes and 3 microRNAs (miRNAs) in maqui sequences. This results, including partial sequences of genes, some miRNAs and SSR markers from high throughput next generation sequencing (NGS) of maqui genomic DNA, constitute the first platform to undertake genetic and molecular studies of this important species."
+  ],
+  "affiliation": [
+    "Instituto de Investigaciones Agropecuarias (INIA) CRI Rayentué, Av. Salamanca s/n, Sector Los Choapinos, Rengo, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Elaeocarpaceae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Dinucleotide Repeats"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Trinucleotide Repeats"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4961369?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4961369"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0159825"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-07-28"
+  ],
+  "dateOfCreation": [
+    "2016-07-27"
+  ],
+  "dateOfRevision": [
+    "2017-07-28"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-26"
+  ],
+  "firstPublicationDate": [
+    "2016-07-26"
+  ]
+}

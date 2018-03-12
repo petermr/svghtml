@@ -1,0 +1,345 @@
+{
+  "id": [
+    "29084169"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29084169"
+  ],
+  "pmcid": [
+    "PMC5713508"
+  ],
+  "doi": [
+    "10.3390/s17112488"
+  ],
+  "title": [
+    "Artificial Neural Network to Predict Vine Water Status Spatial Variability Using Multispectral Information Obtained from an Unmanned Aerial Vehicle (UAV)."
+  ],
+  "authorString": [
+    "Poblete T, Ortega-Farías S, Moreno MA, Bardeen M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Poblete T"
+          ],
+          "firstName": [
+            "Tomas"
+          ],
+          "lastName": [
+            "Poblete"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1944-6494",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación y Transferencia en Riego y Agroclimatología (CITRA), Universidad de Talca, Casilla 747, Talca 3460000, Chile. totopoblete@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega-Farías S"
+          ],
+          "firstName": [
+            "Samuel"
+          ],
+          "lastName": [
+            "Ortega-Farías"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7850-5410",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación y Transferencia en Riego y Agroclimatología (CITRA), Universidad de Talca, Casilla 747, Talca 3460000, Chile. sortega@utalca.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno MA"
+          ],
+          "firstName": [
+            "Miguel Angel"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5940-6123",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Regional Centre of Water Research, University of Castilla-La Mancha, Campus Universitario s/n, 02071 Albacete, Spain. miguelangel.moreno@uclm.es."
+          ]
+        },
+        {
+          "fullName": [
+            "Bardeen M"
+          ],
+          "firstName": [
+            "Matthew"
+          ],
+          "lastName": [
+            "Bardeen"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Research program on Adaptation of Agriculture to Climate Change (A2C2), Universidad de Talca, Casilla 747, Talca 3460000, Chile. mbardeen@utalca.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5940-6123",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1944-6494",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7850-5410",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2610892"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Water stress, which affects yield and wine quality, is often evaluated using the midday stem water potential (Ψstem). However, this measurement is acquired on a per plant basis and does not account for the assessment of vine water status spatial variability. The use of multispectral cameras mounted on unmanned aerial vehicle (UAV) is capable to capture the variability of vine water stress in a whole field scenario. It has been reported that conventional multispectral indices (CMI) that use information between 500-800 nm, do not accurately predict plant water status since they are not sensitive to water content. The objective of this study was to develop artificial neural network (ANN) models derived from multispectral images to predict the Ψstem spatial variability of a drip-irrigated Carménère vineyard in Talca, Maule Region, Chile. The coefficient of determination (R²) obtained between ANN outputs and ground-truth measurements of Ψstem were between 0.56-0.87, with the best performance observed for the model that included the bands 550, 570, 670, 700 and 800 nm. Validation analysis indicated that the ANN model could estimate Ψstem with a mean absolute error (MAE) of 0.1 MPa, root mean square error (RMSE) of 0.12 MPa, and relative error (RE) of -9.1%. For the validation of the CMI, the MAE, RMSE and RE values were between 0.26-0.27 MPa, 0.32-0.34 MPa and -24.2-25.6%, respectively."
+  ],
+  "affiliation": [
+    "Centro de Investigación y Transferencia en Riego y Agroclimatología (CITRA), Universidad de Talca, Casilla 747, Talca 3460000, Chile. totopoblete@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Artificial neural Network",
+        "Uav",
+        "Midday Stem Water Potential",
+        "Multispectral Image Processing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5713508?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5713508"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s17112488"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-26"
+  ],
+  "dateOfCreation": [
+    "2017-10-31"
+  ],
+  "dateOfRevision": [
+    "2018-02-26"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-30"
+  ],
+  "firstPublicationDate": [
+    "2017-10-30"
+  ]
+}

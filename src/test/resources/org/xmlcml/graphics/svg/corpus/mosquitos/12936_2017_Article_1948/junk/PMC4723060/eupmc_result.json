@@ -1,0 +1,684 @@
+{
+  "id": [
+    "26799564"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26799564"
+  ],
+  "pmcid": [
+    "PMC4723060"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0147271"
+  ],
+  "title": [
+    "Infection in Health Personnel with High and Low Levels of Exposure in a Hospital Setting during the H1N1 2009 Influenza A Pandemic."
+  ],
+  "authorString": [
+    "Sandoval C, Barrera A, Ferrés M, Cerda J, Retamal J, García-Sastre A, Medina RA, Hirsch T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sandoval C"
+          ],
+          "firstName": [
+            "Carmen"
+          ],
+          "lastName": [
+            "Sandoval"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departmento de Enfermedades Infecciosas e Inmulogia Pediátrica, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrera A"
+          ],
+          "firstName": [
+            "Aldo"
+          ],
+          "lastName": [
+            "Barrera"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Infectious Diseases and Molecular Virology, Centro de Investigaciones Médicas, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferrés M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Ferrés"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratory of Infectious Diseases and Molecular Virology, Centro de Investigaciones Médicas, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerda J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Cerda"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Public Health Department, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal J"
+          ],
+          "firstName": [
+            "Javiera"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departmento de Enfermedades Infecciosas e Inmulogia Pediátrica, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Sastre A"
+          ],
+          "firstName": [
+            "Adolfo"
+          ],
+          "lastName": [
+            "García-Sastre"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6551-1827",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Medina RA"
+          ],
+          "firstName": [
+            "Rafael A"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Instituto Milenio en Inmunología e Inmunoterapia, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hirsch T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Hirsch"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Departamento de Pediatría, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6551-1827",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2358464"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0147271"
+  ],
+  "abstractText": [
+    "A novel H1N1 influenza A virus caused the first pandemic of the 21st century in 2009. Hospitals had an increased demand of health consultations, that made it difficult to estimate the incidence of infection in hospital personnel due to asymptomatic presentations and the under notification of cases. To estimate and compare the rate of exposure of high versus low risk health personnel to 2009 pandemic H1N1 (H1N1pdm2009) influenza A virus in a University Hospital in Chile, we performed a comparative and prospective study. Serum samples were obtained from 117 individuals that worked in the emergency room (ER) and the operating room (OR) during the peak of the pandemic. Antibody titers were determined by the hemagglutination inhibition (HI) assay. Of the samples analyzed, 65% were workers at the ER and 35% at the OR. Of the total number of the subjects tested, 29.1% were seropositive. One out of 3 (36.8%) workers at the ER had positive HI titers, meanwhile only 1 out of 7 (14.6%) workers from the OR was seropositive to the virus. The possibility of being infected in the ER as compared to the OR was 3.4 times greater (OR 3.4; CI 95%, 1.27-9.1), and the individuals of the ER had almost twice as much antibody titers against H1N1pdm2009 than the personnel in the OR, suggesting the potential of more than one exposure to the virus. Of the 34 seropositive subjects, 12 (35.3%) did not develop influenza like illness, including 2 non-clinical personnel involved in direct contact with patients at the ER. Considering the estimated population attack rate in Chile of 13%, both groups presented a higher exposure and seropositive rate than the general population, with ER personnel showing greater risk of infection and a significantly higher level of antibodies. This data provide a strong rationale to design improved control measures aimed at all the hospital personnel, including those coming into contact with the patients prior to triage, to prevent the propagation and transmission of respiratory viruses, particularly during a pandemic outbreak."
+  ],
+  "affiliation": [
+    "Departmento de Enfermedades Infecciosas e Inmulogia Pediátrica, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "HHSN266200700010C"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U19AI089987"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U19 AI089987"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "HHSN266200700010C"
+          ],
+          "agency": [
+            "PHS HHS"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antibodies, Viral"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hemagglutination Inhibition Tests"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seroepidemiologic Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Outbreaks"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Occupational Exposure"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infection Control"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Medical Staff, Hospital"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Emergency Service, Hospital"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Operating Rooms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hospitals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Influenza, Human"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Influenza A Virus, H1N1 Subtype"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Antibodies, Viral"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4723060?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4723060"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0147271"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-01"
+  ],
+  "dateOfCreation": [
+    "2016-01-23"
+  ],
+  "dateOfRevision": [
+    "2016-12-03"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-22"
+  ],
+  "firstPublicationDate": [
+    "2016-01-22"
+  ]
+}

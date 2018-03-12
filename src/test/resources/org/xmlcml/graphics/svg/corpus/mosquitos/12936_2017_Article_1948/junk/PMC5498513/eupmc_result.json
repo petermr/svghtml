@@ -1,0 +1,330 @@
+{
+  "id": [
+    "28729869"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28729869"
+  ],
+  "pmcid": [
+    "PMC5498513"
+  ],
+  "doi": [
+    "10.3389/fpls.2017.01097"
+  ],
+  "title": [
+    "Genetic Patterns of Myrceugenia correifolia, a Rare Species of Fog-Dependent Forests of Mediterranean Chile: Is It a Climatic Relict?"
+  ],
+  "authorString": [
+    "Pérez F, Hinojosa LF, Peralta G, Montenegro P, Irarrázabal C, Cossio M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pérez F"
+          ],
+          "firstName": [
+            "Fernanda"
+          ],
+          "lastName": [
+            "Pérez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Institute of Ecology and BiodiversitySantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hinojosa LF"
+          ],
+          "firstName": [
+            "Luis F"
+          ],
+          "lastName": [
+            "Hinojosa"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peralta G"
+          ],
+          "firstName": [
+            "Gioconda"
+          ],
+          "lastName": [
+            "Peralta"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montenegro P"
+          ],
+          "firstName": [
+            "Paz"
+          ],
+          "lastName": [
+            "Montenegro"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Irarrázabal C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Irarrázabal"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cossio M"
+          ],
+          "firstName": [
+            "Michel"
+          ],
+          "lastName": [
+            "Cossio"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550591"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in plant science"
+          ],
+          "ISOAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "medlineAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "NLMid": [
+            "101568200"
+          ],
+          "ISSN": [
+            "1664-462X"
+          ],
+          "ESSN": [
+            "1664-462X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1097"
+  ],
+  "abstractText": [
+    "Rare species frequently occur in areas with microclimatic conditions that are atypical for their regions, but that were more common in the past, and that probably have operated as climatic refugia for a long time. Myrceugenia correifolia is a rare arboreal species that grows in deep canyons and hilltops of the Coast Range of north-central Chile between 30° and 35°S. In the northern edge of its distribution M. correifolia grows in small patches of fog-dependent forest surrounding by xeric vegetation. These forest formations are thought to be remnants of an ancient and continuous rainforest that according to some authors became fragmented during aridization of the Neogene (Neogene relict) and to others during warm-dry cycles of the Pleistocene (glacial relicts). Here we asked whether the northernmost populations of M. correifolia are Neogene relicts, glacial relicts, or the result of a recent northward colonization. To answer this question we examined genetic diversity and population divergence of M. correifolia using microsatellite markers, tested various competing population history scenarios with an approximate Bayesian computation (ABC) method, and complemented these data with ecological niche modeling (ENM). We detected three genetic clusters with a distinctive latitudinal pattern (north, center, and south) and high levels of differentiation (FST = 0.36). Demographic inference supported an admixture event 31 kya between two populations that diverged from an ancient population 139 kya. The admixture time coincides with the beginning of a period of wet conditions in north-central Chile that extended from 33 to 19 kya and was preceded by dry and cold conditions. These results suggest that increased precipitation during glacial periods triggered northward expansion of the range of M. correifolia, with subsequent admixture between populations that remained separated during interglacial periods. Accordingly, ENM models showed that suitable habitats for M. correifolia in north-central Chile were larger and less fragmented during the Last Glacial Maximum than at present, suggesting that northernmost populations of this species are glacial relicts."
+  ],
+  "affiliation": [
+    "Institute of Ecology and BiodiversitySantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Microsatellites",
+        "rare species",
+        "Climatic Relict",
+        "Mediterranean Climate",
+        "Fog-dependent Forest",
+        "Pleistocene Climatic Fluctuations"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498513?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498513"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpls.2017.01097"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-21"
+  ],
+  "dateOfRevision": [
+    "2017-07-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-06"
+  ],
+  "firstPublicationDate": [
+    "2017-07-06"
+  ]
+}

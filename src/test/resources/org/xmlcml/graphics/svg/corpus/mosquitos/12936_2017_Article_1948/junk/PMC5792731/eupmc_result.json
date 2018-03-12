@@ -1,0 +1,471 @@
+{
+  "id": [
+    "28614631"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28614631"
+  ],
+  "pmcid": [
+    "PMC5792731"
+  ],
+  "doi": [
+    "10.1002/1878-0261.12100"
+  ],
+  "title": [
+    "TRPM4 regulates Akt/GSK3-β activity and enhances β-catenin signaling and cell proliferation in prostate cancer cells."
+  ],
+  "authorString": [
+    "Sagredo AI, Sagredo EA, Cappelli C, Báez P, Andaur RE, Blanco C, Tapia JC, Echeverría C, Cerda O, Stutzin A, Simon F, Marcelain K, Armisén R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sagredo AI"
+          ],
+          "firstName": [
+            "Alfredo I"
+          ],
+          "lastName": [
+            "Sagredo"
+          ],
+          "initials": [
+            "AI"
+          ],
+          "affiliation": [
+            "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sagredo EA"
+          ],
+          "firstName": [
+            "Eduardo A"
+          ],
+          "lastName": [
+            "Sagredo"
+          ],
+          "initials": [
+            "EA"
+          ],
+          "affiliation": [
+            "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cappelli C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Cappelli"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Báez P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Báez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Oncologia Basico-Clinica, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Andaur RE"
+          ],
+          "firstName": [
+            "Rodrigo E"
+          ],
+          "lastName": [
+            "Andaur"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "affiliation": [
+            "Departamento de Oncologia Basico-Clinica, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Blanco C"
+          ],
+          "firstName": [
+            "Constanza"
+          ],
+          "lastName": [
+            "Blanco"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Programa de Biología Celular y Molecular, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia JC"
+          ],
+          "firstName": [
+            "Julio C"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Departamento de Oncologia Basico-Clinica, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Echeverría C"
+          ],
+          "firstName": [
+            "César"
+          ],
+          "lastName": [
+            "Echeverría"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerda O"
+          ],
+          "firstName": [
+            "Oscar"
+          ],
+          "lastName": [
+            "Cerda"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Programa de Biología Celular y Molecular, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Stutzin A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Stutzin"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Simon F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Simon"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Fisiopatologia Integrativa, Departamento de Ciencias Biologicas, Facultad de Ciencias Biologicas and Facultad de Medicina, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marcelain K"
+          ],
+          "firstName": [
+            "Katherine"
+          ],
+          "lastName": [
+            "Marcelain"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Armisén R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Armisén"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2567-0521",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2567-0521",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2644827"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecular Oncology"
+          ],
+          "ISOAbbreviation": [
+            "Mol Oncol"
+          ],
+          "medlineAbbreviation": [
+            "Mol Oncol"
+          ],
+          "NLMid": [
+            "101308230"
+          ],
+          "ISSN": [
+            "1574-7891"
+          ],
+          "ESSN": [
+            "1878-0261"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "151-165"
+  ],
+  "abstractText": [
+    "Increased expression of the TRPM4 channel has been reported to be associated with the progression of prostate cancer. However, the molecular mechanism underlying its effect remains unknown. This work found that decreasing TRPM4 levels leads to the reduced proliferation of PC3 cells. This effect was associated with a decrease in total β-catenin protein levels and its nuclear localization, and a significant reduction in Tcf/Lef transcriptional activity. Moreover, TRPM4 silencing increases the Ser33/Ser37/Thr41 β-catenin phosphorylated population and reduces the phosphorylation of GSK-3β at Ser9, suggesting an increase in β-catenin degradation as the underlying mechanism. Conversely, TRPM4 overexpression in LNCaP cells increases the Ser9 inhibitory phosphorylation of GSK-3β and the total levels of β-catenin and its nonphosphorylated form. Finally, PC3 cells with reduced levels of TRPM4 showed a decrease in basal and stimulated phosphoactivation of Akt1, which is likely responsible for the decrease in GSK-3β activity in these cells. Our results also suggest that the effect of TRPM4 on Akt1 is probably mediated by an alteration in the calcium/calmodulin-EGFR axis, linking TRPM4 activity with the observed effects in β-catenin-related signaling pathways. These results suggest a role for TRPM4 channels in β-catenin oncogene signaling and underlying mechanisms, highlighting this ion channel as a new potential target for future therapies in prostate cancer."
+  ],
+  "affiliation": [
+    "Centro de Investigación y Tratamiento del Cáncer, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Ion channel",
+        "Wnt",
+        "prostate cancer",
+        "Β-catenin",
+        "Trpm4"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5792731?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5792731"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/1878-0261.12100"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-15"
+  ],
+  "dateOfRevision": [
+    "2018-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-30"
+  ],
+  "firstPublicationDate": [
+    "2017-06-14"
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "id": [
+    "29087343"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29087343"
+  ],
+  "pmcid": [
+    "PMC5699086"
+  ],
+  "doi": [
+    "10.1073/pnas.1714380114"
+  ],
+  "title": [
+    "Genome diversity of tuber-bearing Solanum uncovers complex evolutionary history and targets of domestication in the cultivated potato."
+  ],
+  "authorString": [
+    "Hardigan MA, Laimbeer FPE, Newton L, Crisovan E, Hamilton JP, Vaillancourt B, Wiegert-Rininger K, Wood JC, Douches DS, Farré EM, Veilleux RE, Buell CR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hardigan MA"
+          ],
+          "firstName": [
+            "Michael A"
+          ],
+          "lastName": [
+            "Hardigan"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Laimbeer FPE"
+          ],
+          "firstName": [
+            "F Parker E"
+          ],
+          "lastName": [
+            "Laimbeer"
+          ],
+          "initials": [
+            "FPE"
+          ],
+          "affiliation": [
+            "Department of Horticulture, Virginia Polytechnic University and State University, Blacksburg, VA 24061."
+          ]
+        },
+        {
+          "fullName": [
+            "Newton L"
+          ],
+          "firstName": [
+            "Linsey"
+          ],
+          "lastName": [
+            "Newton"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Crisovan E"
+          ],
+          "firstName": [
+            "Emily"
+          ],
+          "lastName": [
+            "Crisovan"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Hamilton JP"
+          ],
+          "firstName": [
+            "John P"
+          ],
+          "lastName": [
+            "Hamilton"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8682-5526",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Vaillancourt B"
+          ],
+          "firstName": [
+            "Brieanne"
+          ],
+          "lastName": [
+            "Vaillancourt"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Wiegert-Rininger K"
+          ],
+          "firstName": [
+            "Krystle"
+          ],
+          "lastName": [
+            "Wiegert-Rininger"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Wood JC"
+          ],
+          "firstName": [
+            "Joshua C"
+          ],
+          "lastName": [
+            "Wood"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Douches DS"
+          ],
+          "firstName": [
+            "David S"
+          ],
+          "lastName": [
+            "Douches"
+          ],
+          "initials": [
+            "DS"
+          ],
+          "affiliation": [
+            "Department of Plant, Soil, and Microbial Sciences, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Farré EM"
+          ],
+          "firstName": [
+            "Eva M"
+          ],
+          "lastName": [
+            "Farré"
+          ],
+          "initials": [
+            "EM"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+          ]
+        },
+        {
+          "fullName": [
+            "Veilleux RE"
+          ],
+          "firstName": [
+            "Richard E"
+          ],
+          "lastName": [
+            "Veilleux"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "affiliation": [
+            "Department of Horticulture, Virginia Polytechnic University and State University, Blacksburg, VA 24061."
+          ]
+        },
+        {
+          "fullName": [
+            "Buell CR"
+          ],
+          "firstName": [
+            "C Robin"
+          ],
+          "lastName": [
+            "Buell"
+          ],
+          "initials": [
+            "CR"
+          ],
+          "affiliation": [
+            "Department of Plant Biology, Michigan State University, East Lansing, MI 48824; buell@msu.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8682-5526",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "46"
+      ],
+      "volume": [
+        "114"
+      ],
+      "journalIssueId": [
+        "2619134"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Proceedings of the National Academy of Sciences of the United States of America"
+          ],
+          "ISOAbbreviation": [
+            "Proc. Natl. Acad. Sci. U.S.A."
+          ],
+          "medlineAbbreviation": [
+            "Proc Natl Acad Sci U S A"
+          ],
+          "NLMid": [
+            "7505876"
+          ],
+          "ISSN": [
+            "0027-8424"
+          ],
+          "ESSN": [
+            "1091-6490"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "E9999-E10008"
+  ],
+  "abstractText": [
+    "Cultivated potatoes (Solanum tuberosum L.), domesticated from wild Solanum species native to the Andes of southern Peru, possess a diverse gene pool representing more than 100 tuber-bearing relatives (Solanum section Petota). A diversity panel of wild species, landraces, and cultivars was sequenced to assess genetic variation within tuber-bearing Solanum and the impact of domestication on genome diversity and identify key loci selected for cultivation in North and South America. Sequence diversity of diploid and tetraploid Stuberosum exceeded any crop resequencing study to date, in part due to expanded wild introgressions following polyploidy that captured alleles outside of their geographic origin. We identified 2,622 genes as under selection, with only 14-16% shared by North American and Andean cultivars, showing that a limited gene set drove early improvement of cultivated potato, while adaptation of upland (Stuberosum group Andigena) and lowland (S. tuberosum groups Chilotanum and Tuberosum) populations targeted distinct loci. Signatures of selection were uncovered in genes controlling carbohydrate metabolism, glycoalkaloid biosynthesis, the shikimate pathway, the cell cycle, and circadian rhythm. Reduced sexual fertility that accompanied the shift to asexual reproduction in cultivars was reflected by signatures of selection in genes regulating pollen development/gametogenesis. Exploration of haplotype diversity at potato's maturity locus (StCDF1) revealed introgression of truncated alleles from wild species, particularly Smicrodontum in long-day-adapted cultivars. This study uncovers a historic role of wild Solanum species in the diversification of long-day-adapted tetraploid potatoes, showing that extant natural populations represent an essential source of untapped adaptive potential."
+  ],
+  "affiliation": [
+    "Department of Plant Biology, Michigan State University, East Lansing, MI 48824."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Diversity",
+        "Potato",
+        "Adaptation",
+        "Domestication",
+        "Introgression"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5699086?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5699086"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1073/pnas.1714380114"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-01"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-30"
+  ],
+  "firstPublicationDate": [
+    "2017-10-30"
+  ]
+}

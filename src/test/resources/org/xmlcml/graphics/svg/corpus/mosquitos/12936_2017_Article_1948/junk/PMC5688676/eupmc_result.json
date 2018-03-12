@@ -1,0 +1,287 @@
+{
+  "id": [
+    "29141634"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29141634"
+  ],
+  "pmcid": [
+    "PMC5688676"
+  ],
+  "doi": [
+    "10.1186/s12939-017-0699-3"
+  ],
+  "title": [
+    "The effects of neoliberal policies on access to healthcare for people with disabilities."
+  ],
+  "authorString": [
+    "Sakellariou D, Rotarou ES."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sakellariou D"
+          ],
+          "firstName": [
+            "Dikaios"
+          ],
+          "lastName": [
+            "Sakellariou"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2668-2834",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Healthcare Sciences, Cardiff University, Eastgate House, Newport Road 35-43, Cardiff, CF24 0AB, UK. sakellarioud@cardiff.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Rotarou ES"
+          ],
+          "firstName": [
+            "Elena S"
+          ],
+          "lastName": [
+            "Rotarou"
+          ],
+          "initials": [
+            "ES"
+          ],
+          "affiliation": [
+            "Department of Economics, University of Chile, Diagonal Paraguay 257, Office 1506, 8330015, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2668-2834",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2614766"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal for equity in health"
+          ],
+          "ISOAbbreviation": [
+            "Int J Equity Health"
+          ],
+          "medlineAbbreviation": [
+            "Int J Equity Health"
+          ],
+          "NLMid": [
+            "101147692"
+          ],
+          "ISSN": [
+            "1475-9276"
+          ],
+          "ESSN": [
+            "1475-9276"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "199"
+  ],
+  "abstractText": [
+    "Neoliberal reforms lead to deep changes in healthcare systems around the world, on account of their emphasis on free market rather than the right to health. People with disabilities can be particularly disadvantaged by such reforms, due to their increased healthcare needs and lower socioeconomic status. In this article, we analyse the impacts of neoliberal reforms on access to healthcare for disabled people. This article is based on a critical analytical review of the literature and on two case studies, Chile and Greece. Chile was among the first countries to introduce neoliberal reforms in the health sector, which led to health inequalities and stratification of healthcare services. Greece is one of the most recent examples of countries that have carried out extensive changes in healthcare, which have resulted in a deterioration of the quality of healthcare services. Through a review of the policies performed in these two countries, we propose that the pathways that affect access to healthcare for disabled people include: a) Policies directly or indirectly targeting healthcare, affecting the entire population, including disabled people; and b) Policies affecting socioeconomic determinants, directly or indirectly targeting disabled people, and indirectly impacting access to healthcare. The power differentials produced through neoliberal policies that focus on economic rather than human rights indicators, can lead to a category of disempowered people, whose health needs are subordinated to the markets. The effects of this range from catastrophic out-of-pocket payments to compromised access to healthcare. Neoliberal reforms can be seen as a form of structural violence, disproportionately affecting the most vulnerable parts of the population - such as people with disabilities - and curtailing access to basic rights, such as healthcare."
+  ],
+  "affiliation": [
+    "School of Healthcare Sciences, Cardiff University, Eastgate House, Newport Road 35-43, Cardiff, CF24 0AB, UK. sakellarioud@cardiff.ac.uk."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "Greece",
+        "Healthcare",
+        "Health Systems",
+        "Neoliberalism",
+        "Austerity",
+        "Access To Healthcare",
+        "Structural Adjustment Programmes"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5688676?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5688676"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12939-017-0699-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-17"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-15"
+  ],
+  "firstPublicationDate": [
+    "2017-11-15"
+  ]
+}

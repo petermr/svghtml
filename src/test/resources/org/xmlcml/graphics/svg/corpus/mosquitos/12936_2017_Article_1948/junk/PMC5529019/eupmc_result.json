@@ -1,0 +1,811 @@
+{
+  "id": [
+    "28708900"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28708900"
+  ],
+  "pmcid": [
+    "PMC5529019"
+  ],
+  "doi": [
+    "10.1371/journal.pntd.0005757"
+  ],
+  "title": [
+    "Serum levels of interleukin-6 are linked to the severity of the disease caused by Andes Virus."
+  ],
+  "authorString": [
+    "Angulo J, Martínez-Valdebenito C, Marco C, Galeno H, Villagra E, Vera L, Lagos N, Becerra N, Mora J, Bermúdez A, Díaz J, Ferrés M, López-Lastra M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Angulo J"
+          ],
+          "firstName": [
+            "Jenniffer"
+          ],
+          "lastName": [
+            "Angulo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Virología Molecular, Instituto Milenio de Inmunología e Inmunoterapia (IMII), Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez-Valdebenito C"
+          ],
+          "firstName": [
+            "Constanza"
+          ],
+          "lastName": [
+            "Martínez-Valdebenito"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Infectología, Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marco C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Marco"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Infectología, Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galeno H"
+          ],
+          "firstName": [
+            "Héctor"
+          ],
+          "lastName": [
+            "Galeno"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Villagra E"
+          ],
+          "firstName": [
+            "Eliecer"
+          ],
+          "lastName": [
+            "Villagra"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vera L"
+          ],
+          "firstName": [
+            "Lilian"
+          ],
+          "lastName": [
+            "Vera"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagos N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Lagos"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Becerra N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Becerra"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mora J"
+          ],
+          "firstName": [
+            "Judith"
+          ],
+          "lastName": [
+            "Mora"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Subdepartamento de Virología Clínica, Departamento Laboratorio Biomédico Nacional y de Referencia, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bermúdez A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Bermúdez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Asuntos Científicos, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz J"
+          ],
+          "firstName": [
+            "Janepsy"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Asuntos Científicos, Instituto de Salud Pública de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferrés M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Ferrés"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Infectología, Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López-Lastra M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "López-Lastra"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7936-8478",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Virología Molecular, Instituto Milenio de Inmunología e Inmunoterapia (IMII), Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7936-8478",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2572927"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS neglected tropical diseases"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "medlineAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "NLMid": [
+            "101291488"
+          ],
+          "ISSN": [
+            "1935-2727"
+          ],
+          "ESSN": [
+            "1935-2735"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0005757"
+  ],
+  "abstractText": [
+    "Andes virus (ANDV) is the etiological agent of hantavirus cardiopulmonary syndrome in Chile. In this study, we evaluated the profile of the pro-inflammatory cytokines IL-1β, IL-12p70, IL-21, TNF-α, IFN-γ, IL-10 and IL-6 in serum samples of ANDV-infected patients at the time of hospitalization. The mean levels of circulating cytokines were determined by a Bead-Based Multiplex assay coupled with Luminex detection technology, in order to compare 43 serum samples of healthy controls and 43 samples of ANDV-infected patients that had been categorized according to the severity of disease. When compared to the controls, no significant differences in IL-1β concentration were observed in ANDV-infected patients (p = 0.9672), whereas levels of IL-12p70 and IL-21 were significantly lower in infected cases (p = <0.0001). Significantly elevated levels of TNF-α, IFN-γ, IL-10, and IL-6 were detected in ANDV-infected individuals (p = <0.0001, 0.0036, <0.0001, <0.0001, respectively). Notably, IL-6 levels were significantly higher (40-fold) in the 22 patients with severe symptoms compared to the 21 individuals with mild symptoms (p = <0.0001). Using multivariate regression models, we show that IL-6 levels has a crude OR of 14.4 (CI: 3.3-63.1). In conclusion, the serum level of IL-6 is a significant predictor of the severity of the clinical outcome of ANDV-induced disease."
+  ],
+  "affiliation": [
+    "Laboratorio de Virología Molecular, Instituto Milenio de Inmunología e Inmunoterapia (IMII), Departamento de Enfermedades Infecciosas e Inmunología Pediátrica, División de Pediatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hantavirus"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hantavirus Pulmonary Syndrome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Disease Progression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Interleukin-6"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cytokines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Severity of Illness Index"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Multivariate Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Logistic Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Case-Control Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Age Distribution"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sex Distribution"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant, Newborn"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Cytokines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Interleukin-6"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "IL6 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5529019?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5529019"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pntd.0005757"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-01"
+  ],
+  "dateOfCreation": [
+    "2017-07-14"
+  ],
+  "dateOfRevision": [
+    "2017-08-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-14"
+  ],
+  "firstPublicationDate": [
+    "2017-07-14"
+  ]
+}

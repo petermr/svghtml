@@ -1,0 +1,478 @@
+{
+  "id": [
+    "28672032"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28672032"
+  ],
+  "pmcid": [
+    "PMC5495339"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0180231"
+  ],
+  "title": [
+    "Mountaintops phylogeography: A case study using small mammals from the Andes and the coast of central Chile."
+  ],
+  "authorString": [
+    "Palma RE, Gutiérrez-Tapia P, González JF, Boric-Bargetto D, Torres-Pérez F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Palma RE"
+          ],
+          "firstName": [
+            "R Eduardo"
+          ],
+          "lastName": [
+            "Palma"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0806-1268",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutiérrez-Tapia P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Gutiérrez-Tapia"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Ecología y Biodiversidad, Facultad de Química y Biología, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González JF"
+          ],
+          "firstName": [
+            "Juan F"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Boric-Bargetto D"
+          ],
+          "firstName": [
+            "Dusan"
+          ],
+          "lastName": [
+            "Boric-Bargetto"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto de Biología, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres-Pérez F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Torres-Pérez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Instituto de Biología, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0806-1268",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2572928"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0180231"
+  ],
+  "abstractText": [
+    "We evaluated if two sigmodontine rodent taxa (Abrothrix olivacea and Phyllotis darwini) from the Andes and Coastal mountaintops of central Chile, experienced distributional shifts due to altitudinal movements of habitat and climate change during and after the Last Glacial Maximum (LGM). We tested the hypothesis that during LGM populations of both species experienced altitudinal shifts from the Andes to the lowlands and the coastal Cordillera, and then range retractions during interglacial towards higher elevations in the Andes. These distributional shifts may have left remnants populations on the mountaintops. We evaluated the occurrence of intraspecific lineages for each species, to construct distribution models at LGM and at present, as extreme climatic conditions for each lineage. Differences in distribution between extreme climatic conditions were interpreted as post-glacial distributional shifts. Abrothrix olivacea displayed a lineage with shared sequences between both mountain systems, whereas a second lineage was restricted to the Andes. A similar scenario of panmictic unit in the past was recovered for A. olivacea in the Andes, along with an additional unit that included localities from the rest of its distribution. For P. darwini, both lineages recovered were distributed in coastal and Andean mountain ranges at present as well, and structuring analyses for this species recovered coastal and Andean localities as panmictic units in the past. Niche modeling depicted differential postglacial expansions in the recovered lineages. Results suggest that historical events such as LGM triggered the descending of populations to Andean refuge areas (one of the A. olivacea's lineages), to the lowlands, and to the coastal Cordillera. Backward movements of populations after glacial retreats may have left isolates on mountaintops of the coastal Cordillera, suggesting that current species distribution would be the outcome of climate change and habitat reconfiguration after LGM."
+  ],
+  "affiliation": [
+    "Departamento de Ecología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Rodentia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Likelihood Functions"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Haplotypes"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Phylogeography"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5495339?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5495339"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0180231"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "28968446"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "PLoS One. 2017 Oct 2;12 (10 ):e0186031"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "30"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-02"
+  ],
+  "dateOfCreation": [
+    "2017-07-03"
+  ],
+  "dateOfRevision": [
+    "2017-10-02"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-03"
+  ],
+  "firstPublicationDate": [
+    "2017-07-03"
+  ]
+}

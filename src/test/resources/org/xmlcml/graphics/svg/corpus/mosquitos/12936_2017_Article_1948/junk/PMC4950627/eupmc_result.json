@@ -1,0 +1,450 @@
+{
+  "id": [
+    "27431994"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27431994"
+  ],
+  "pmcid": [
+    "PMC4950627"
+  ],
+  "doi": [
+    "10.1186/s12903-016-0251-7"
+  ],
+  "title": [
+    "The future of pediatric dentistry education and curricula: a Chilean perspective."
+  ],
+  "authorString": [
+    "Mariño R, Ramos-Gómez F, Manton DJ, Onetto JE, Hugo F, Feldens CA, Bedi R, Uribe S, Zillmann G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mariño R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Mariño"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Oral Health Cooperative Research Centre, University of Melbourne, Melbourne, Australia. r.marino@unimelb.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramos-Gómez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Ramos-Gómez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "School of Dentistry, University of California-Los Angeles, Los Angeles, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Manton DJ"
+          ],
+          "firstName": [
+            "David John"
+          ],
+          "lastName": [
+            "Manton"
+          ],
+          "initials": [
+            "DJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4570-0620",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Melbourne Dental School, University of Melbourne, Melbourne, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Onetto JE"
+          ],
+          "firstName": [
+            "Juan Eduardo"
+          ],
+          "lastName": [
+            "Onetto"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Facultad de Odontología, Universidad de Valparaiso, Valparaiso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hugo F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Hugo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2222-7719",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Dentistry, Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Feldens CA"
+          ],
+          "firstName": [
+            "Carlos Alberto"
+          ],
+          "lastName": [
+            "Feldens"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "School of Dentistry, Universidade Luterana do Brasil, Canoas, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Bedi R"
+          ],
+          "firstName": [
+            "Raman"
+          ],
+          "lastName": [
+            "Bedi"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Dental Institute, Kings College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Uribe"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0684-2025",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Dental School, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zillmann G"
+          ],
+          "firstName": [
+            "Gisela"
+          ],
+          "lastName": [
+            "Zillmann"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0684-2025",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2222-7719",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4570-0620",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2429967"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC oral health"
+          ],
+          "ISOAbbreviation": [
+            "BMC Oral Health"
+          ],
+          "medlineAbbreviation": [
+            "BMC Oral Health"
+          ],
+          "NLMid": [
+            "101088684"
+          ],
+          "ISSN": [
+            "1472-6831"
+          ],
+          "ESSN": [
+            "1472-6831"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "20"
+  ],
+  "abstractText": [
+    "A meeting was organised to consolidate a network of researchers and academics from Australia, Brazil, Chile, the UK and the USA, relating to Early Childhood Caries (ECC) and Dental Trauma (DT). As part of this meeting, a dedicated session was held on the future of paediatric dental education and curricula. Twenty-four paediatric dentistry (PD) academics, representing eight Chilean dental schools, and three international specialists (from Brazil and Latvia) participated in group discussions facilitated by five members of the ECC/DT International Collaborative Network. Data were collected from group discussions which followed themes developed as guides to identify key issues associated with paediatric dentistry education, training and research.Participants discussed current PD dental curricula in Chile, experiences in educating new cohorts of oral health care providers, and the outcomes of existing efforts in education and research in PD. They also, identified challenges, opportunities and areas in need of further development. This paper provides an introspective analysis of the education and training of PD in Chile; describes the input provided by participants into pediatric dentistry education and curricula; and sets out some key priorities for action with suggested directions to best prepare the future dental workforce to maximise oral health outcomes for children. Immediate priorities for action in paediatric dentistry in Chile were proposed."
+  ],
+  "affiliation": [
+    "Oral Health Cooperative Research Centre, University of Melbourne, Melbourne, Australia. r.marino@unimelb.edu.au."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Letter"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "Curriculum",
+        "Paediatric Dental Education"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "D"
+          ],
+          "name": [
+            "Dentistry journals"
+          ]
+        },
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4950627?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4950627"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12903-016-0251-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-07-19"
+  ],
+  "dateOfRevision": [
+    "2016-07-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-18"
+  ],
+  "firstPublicationDate": [
+    "2016-07-18"
+  ]
+}

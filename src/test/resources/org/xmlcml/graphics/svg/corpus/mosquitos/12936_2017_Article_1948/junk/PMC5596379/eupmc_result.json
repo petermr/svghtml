@@ -1,0 +1,352 @@
+{
+  "id": [
+    "28898354"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28898354"
+  ],
+  "pmcid": [
+    "PMC5596379"
+  ],
+  "doi": [
+    "10.1590/1678-4685-gmb-2016-0224"
+  ],
+  "title": [
+    "Comparative genome-wide polymorphic microsatellite markers in Antarctic penguins through next generation sequencing."
+  ],
+  "authorString": [
+    "Vianna JA, Noll D, Mura-Jornet I, Valenzuela-Guerra P, González-Acuña D, Navarro C, Loyola DE, Dantas GPM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vianna JA"
+          ],
+          "firstName": [
+            "Juliana A"
+          ],
+          "lastName": [
+            "Vianna"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Centro de Cambio Global UC, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Noll D"
+          ],
+          "firstName": [
+            "Daly"
+          ],
+          "lastName": [
+            "Noll"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Ecosistemas y Medio Ambiente, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mura-Jornet I"
+          ],
+          "firstName": [
+            "Isidora"
+          ],
+          "lastName": [
+            "Mura-Jornet"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Departamento de Ecosistemas y Medio Ambiente, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela-Guerra P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Valenzuela-Guerra"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Ecosistemas y Medio Ambiente, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Acuña D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "González-Acuña"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Pecuarias, Facultad de Ciencias Veterinarias, Universidad de Concepción, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarro C"
+          ],
+          "firstName": [
+            "Cristell"
+          ],
+          "lastName": [
+            "Navarro"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro Nacional de Genómica y Bioinformática, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Loyola DE"
+          ],
+          "firstName": [
+            "David E"
+          ],
+          "lastName": [
+            "Loyola"
+          ],
+          "initials": [
+            "DE"
+          ],
+          "affiliation": [
+            "Centro Nacional de Genómica y Bioinformática, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dantas GPM"
+          ],
+          "firstName": [
+            "Gisele P M"
+          ],
+          "lastName": [
+            "Dantas"
+          ],
+          "initials": [
+            "GPM"
+          ],
+          "affiliation": [
+            "Pontifícia Universidade Católica de Minas Gerais, Belo Horizonte, MG, Brazil."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "40"
+      ],
+      "journalIssueId": [
+        "2596297"
+      ],
+      "dateOfPublication": [
+        "2017 Jul-Sep 01"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genetics and molecular biology"
+          ],
+          "ISOAbbreviation": [
+            "Genet. Mol. Biol."
+          ],
+          "medlineAbbreviation": [
+            "Genet Mol Biol"
+          ],
+          "NLMid": [
+            "100883590"
+          ],
+          "ISSN": [
+            "1415-4757"
+          ],
+          "ESSN": [
+            "1678-4685"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "676-687"
+  ],
+  "abstractText": [
+    "Microsatellites are valuable molecular markers for evolutionary and ecological studies. Next generation sequencing is responsible for the increasing number of microsatellites for non-model species. Penguins of the Pygoscelis genus are comprised of three species: Adélie (P. adeliae), Chinstrap (P. antarcticus) and Gentoo penguin (P. papua), all distributed around Antarctica and the sub-Antarctic. The species have been affected differently by climate change, and the use of microsatellite markers will be crucial to monitor population dynamics. We characterized a large set of genome-wide microsatellites and evaluated polymorphisms in all three species. SOLiD reads were generated from the libraries of each species, identifying a large amount of microsatellite loci: 33,677, 35,265 and 42,057 for P. adeliae, P. antarcticus and P. papua, respectively. A large number of dinucleotide (66,139), trinucleotide (29,490) and tetranucleotide (11,849) microsatellites are described. Microsatellite abundance, diversity and orthology were characterized in penguin genomes. We evaluated polymorphisms in 170 tetranucleotide loci, obtaining 34 polymorphic loci in at least one species and 15 polymorphic loci in all three species, which allow to perform comparative studies. Polymorphic markers presented here enable a number of ecological, population, individual identification, parentage and evolutionary studies of Pygoscelis, with potential use in other penguin species."
+  ],
+  "affiliation": [
+    "Centro de Cambio Global UC, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5596379?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5596379"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1590/1678-4685-GMB-2016-0224"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-12"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ]
+}

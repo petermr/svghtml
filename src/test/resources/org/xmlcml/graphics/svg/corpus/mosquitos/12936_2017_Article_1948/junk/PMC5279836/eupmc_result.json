@@ -1,0 +1,941 @@
+{
+  "id": [
+    "28182132"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28182132"
+  ],
+  "pmcid": [
+    "PMC5279836"
+  ],
+  "doi": [
+    "10.2147/copd.s121943"
+  ],
+  "title": [
+    "Predicting high risk of exacerbations in bronchiectasis: the E-FACED score."
+  ],
+  "authorString": [
+    "Martinez-Garcia MA, Athanazio RA, Girón R, Máiz-Carro L, de la Rosa D, Olveira C, de Gracia J, Vendrell M, Prados-Sánchez C, Gramblicka G, Corso Pereira M, Lundgren FL, Fernandes De Figueiredo M, Arancibia F, Rached SZ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Martinez-Garcia MA"
+          ],
+          "firstName": [
+            "M A"
+          ],
+          "lastName": [
+            "Martinez-Garcia"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Pulmonary Service, Polytechnic and University La Fe Hospital, Valencia, Spain; CIBERes, CIBER de Enfermedades Respiratorias. Madrid. Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Athanazio RA"
+          ],
+          "firstName": [
+            "R A"
+          ],
+          "lastName": [
+            "Athanazio"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9399-5275",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pulmonary Division, Heart Institute (Incor), Hospital das Clínicas da Faculdadede Medicina da Universidade de São Paulo."
+          ]
+        },
+        {
+          "fullName": [
+            "Girón R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Girón"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Pneumology Service, Hospital La Princesa."
+          ]
+        },
+        {
+          "fullName": [
+            "Máiz-Carro L"
+          ],
+          "firstName": [
+            "L"
+          ],
+          "lastName": [
+            "Máiz-Carro"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Pneumology Service, Hospital Ramón y Cajal, Madrid."
+          ]
+        },
+        {
+          "fullName": [
+            "de la Rosa D"
+          ],
+          "firstName": [
+            "D"
+          ],
+          "lastName": [
+            "de la Rosa"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0753-1771",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pneumology Unit, Hospital Plató, Barcelona."
+          ]
+        },
+        {
+          "fullName": [
+            "Olveira C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Olveira"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Pneumology, Málaga Regional University Hospital, Instituto de Biomedicina de Málaga (IBIMA), Málaga University, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "de Gracia J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "de Gracia"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "CIBERes, CIBER de Enfermedades Respiratorias. Madrid. Spain; Pneumology Service, Hospital Vall d'Hebron, Barcelona."
+          ]
+        },
+        {
+          "fullName": [
+            "Vendrell M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Vendrell"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Bronchiectasis Group IDIBGI, Dr. Trueta University Hospital. UdG. Ciberes CB06/06/0030."
+          ]
+        },
+        {
+          "fullName": [
+            "Prados-Sánchez C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Prados-Sánchez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Unidad de Fibrosis Quística y Bronquiectasias. Hospital Universitario La Paz. Madrid. Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Gramblicka G"
+          ],
+          "firstName": [
+            "G"
+          ],
+          "lastName": [
+            "Gramblicka"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Pneumology Service, Hospital del Tórax Dr A Cetrángolo, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Corso Pereira M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Corso Pereira"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Pneumology Service, Universidade Estadual de Campinas UNICAMP, Sao Paulo."
+          ]
+        },
+        {
+          "fullName": [
+            "Lundgren FL"
+          ],
+          "firstName": [
+            "F L"
+          ],
+          "lastName": [
+            "Lundgren"
+          ],
+          "initials": [
+            "FL"
+          ],
+          "affiliation": [
+            "Pneumology Service, Hospital Octávio de Freitas, Recife."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandes De Figueiredo M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Fernandes De Figueiredo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Pneumology Service, Hospital de Messejana, Fortaleza, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Arancibia F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Arancibia"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Pneumology Service, Instituto Nacional del Tórax, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rached SZ"
+          ],
+          "firstName": [
+            "S Z"
+          ],
+          "lastName": [
+            "Rached"
+          ],
+          "initials": [
+            "SZ"
+          ],
+          "affiliation": [
+            "Pulmonary Division, Heart Institute (Incor), Hospital das Clínicas da Faculdadede Medicina da Universidade de São Paulo."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0753-1771",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9399-5275",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2509108"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of chronic obstructive pulmonary disease"
+          ],
+          "ISOAbbreviation": [
+            "Int J Chron Obstruct Pulmon Dis"
+          ],
+          "medlineAbbreviation": [
+            "Int J Chron Obstruct Pulmon Dis"
+          ],
+          "NLMid": [
+            "101273481"
+          ],
+          "ISSN": [
+            "1176-9106"
+          ],
+          "ESSN": [
+            "1178-2005"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "275-284"
+  ],
+  "abstractText": [
+    "Although the FACED score has demonstrated a great prognostic capacity in bronchiectasis, it does not include the number or severity of exacerbations as a separate variable, which is important in the natural history of these patients.Construction and external validation of a new index, the E-FACED, to evaluate the predictive capacity of exacerbations and mortality.The new score was constructed on the basis of the complete cohort for the construction of the original FACED score, while the external validation was undertaken with six cohorts from three countries (Brazil, Argentina, and Chile). The main outcome was the number of annual exacerbations/hospitalizations, with all-cause and respiratory-related deaths as the secondary outcomes. A statistical evaluation comprised the relative weight and ideal cut-off point for the number or severity of the exacerbations and was incorporated into the FACED score (E-FACED). The results obtained after the application of FACED and E-FACED were compared in both the cohorts.A total of 1,470 patients with bronchiectasis (819 from the construction cohorts and 651 from the external validation cohorts) were followed up for 5 years after diagnosis. The best cut-off point was at least two exacerbations in the previous year (two additional points), meaning that the E-FACED has nine points of growing severity. E-FACED presented an excellent prognostic capacity for exacerbations (areas under the receiver operating characteristic curve: 0.82 for at least two exacerbations in 1 year and 0.87 for at least one hospitalization in 1 year) that was statistically better than that of the FACED score (0.72 and 0.78, P<0.05, respectively). The predictive capacities for all-cause and respiratory mortality were 0.87 and 0.86, respectively, with both being similar to those of the FACED.E-FACED score significantly increases the FACED capacity to predict future yearly exacerbations while maintaining the score's simplicity and prognostic capacity for death."
+  ],
+  "affiliation": [
+    "Pulmonary Service, Polytechnic and University La Fe Hospital, Valencia, Spain; CIBERes, CIBER de Enfermedades Respiratorias. Madrid. Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Multicenter Study",
+        "Journal Article",
+        "Observational Study"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lung"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pseudomonas aeruginosa"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pseudomonas Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiratory Tract Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bronchiectasis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TH"
+                  ],
+                  "qualifierName": [
+                    "therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dyspnea"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Progression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Forced Expiratory Volume"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hospitalization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Status Indicators"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Severity of Illness Index"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cause of Death"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Area Under Curve"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reproducibility of Results"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Predictive Value of Tests"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "ROC Curve"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Age Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Status"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Time Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Argentina"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brazil"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mortality",
+        "Bronchiectasis",
+        "Exacerbations",
+        "E-faced Score",
+        "Faced Score"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5279836?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5279836"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2147/COPD.S121943"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-23"
+  ],
+  "dateOfCreation": [
+    "2017-02-09"
+  ],
+  "dateOfRevision": [
+    "2017-08-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-18"
+  ],
+  "firstPublicationDate": [
+    "2017-01-18"
+  ]
+}

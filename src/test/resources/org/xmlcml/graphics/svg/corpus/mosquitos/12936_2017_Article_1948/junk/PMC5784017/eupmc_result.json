@@ -1,0 +1,287 @@
+{
+  "id": [
+    "29367593"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29367593"
+  ],
+  "pmcid": [
+    "PMC5784017"
+  ],
+  "doi": [
+    "10.1038/s41598-018-19903-z"
+  ],
+  "title": [
+    "Active microbial biofilms in deep poor porous continental subsurface rocks."
+  ],
+  "authorString": [
+    "Escudero C, Vera M, Oggerin M, Amils R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Escudero C"
+          ],
+          "firstName": [
+            "Cristina"
+          ],
+          "lastName": [
+            "Escudero"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biología Molecular Severo Ochoa (UAM-CSIC), Facultad de Ciencias, Universidad Autónoma de Madrid, 28049, Madrid, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Vera M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Vera"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Ingeniería Biológica y Médica, Escuelas de Ingeniería, Medicina y Ciencias Biológicas, Departamento de Ingeniería Hidráulica y Ambiental, Escuela de Ingeniería, Pontificia Universidad Católica de Chile, Av Vicuña Mackenna, 4860, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oggerin M"
+          ],
+          "firstName": [
+            "Monike"
+          ],
+          "lastName": [
+            "Oggerin"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Biología Molecular Severo Ochoa (UAM-CSIC), Facultad de Ciencias, Universidad Autónoma de Madrid, 28049, Madrid, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Amils R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Amils"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centro de Biología Molecular Severo Ochoa (UAM-CSIC), Facultad de Ciencias, Universidad Autónoma de Madrid, 28049, Madrid, Spain. ramils@cbm.csic.es."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2635309"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "1538"
+  ],
+  "abstractText": [
+    "Deep continental subsurface is defined as oligotrophic environments where microorganisms present a very low metabolic rate. To date, due to the energetic cost of production and maintenance of biofilms, their existence has not been considered in poor porous subsurface rocks. We applied fluorescence in situ hybridization techniques and confocal laser scanning microscopy in samples from a continental deep drilling project to analyze the prokaryotic diversity and distribution and the possible existence of biofilms. Our results show the existence of natural microbial biofilms at all checked depths of the Iberian Pyrite Belt (IPB) subsurface and the co-occurrence of bacteria and archaea in this environment. This observation suggests that multi-species biofilms may be a common and widespread lifestyle in subsurface environments."
+  ],
+  "affiliation": [
+    "Centro de Biología Molecular Severo Ochoa (UAM-CSIC), Facultad de Ciencias, Universidad Autónoma de Madrid, 28049, Madrid, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784017?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5784017"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-19903-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-26"
+  ],
+  "dateOfRevision": [
+    "2018-02-08"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-24"
+  ],
+  "firstPublicationDate": [
+    "2018-01-24"
+  ]
+}

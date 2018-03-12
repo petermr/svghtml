@@ -1,0 +1,304 @@
+{
+  "id": [
+    "28487799"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28487799"
+  ],
+  "pmcid": [
+    "PMC5402246"
+  ],
+  "doi": [
+    "10.1155/2017/4696014"
+  ],
+  "title": [
+    "Primary Meningococcal Type C Arthritis: A Case Report and Literature Review."
+  ],
+  "authorString": [
+    "Barahona M, Catalan J, Sato Y, Hinzpeter J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Barahona M"
+          ],
+          "firstName": [
+            "Maximiliano"
+          ],
+          "lastName": [
+            "Barahona"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7878-8625",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Orthopaedic Department at Hospital Clínico Universidad de Chile, Santos Dumont 999, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Catalan J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Catalan"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Orthopaedic Department at Hospital Clínico Universidad de Chile, Santos Dumont 999, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sato Y"
+          ],
+          "firstName": [
+            "Yoshiro"
+          ],
+          "lastName": [
+            "Sato"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Orthopaedic Department at Hospital Clínico Universidad de Chile, Santos Dumont 999, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hinzpeter J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Hinzpeter"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Orthopaedic Department at Hospital Clínico Universidad de Chile, Santos Dumont 999, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7878-8625",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518242"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Case reports in orthopedics"
+          ],
+          "ISOAbbreviation": [
+            "Case Rep Orthop"
+          ],
+          "medlineAbbreviation": [
+            "Case Rep Orthop"
+          ],
+          "NLMid": [
+            "101591806"
+          ],
+          "ISSN": [
+            "2090-6749"
+          ],
+          "ESSN": [
+            "2090-6757"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4696014"
+  ],
+  "abstractText": [
+    "Acute septic arthritis is a common clinical problem in emergency departments. Primary meningococcal arthritis (PMA) is very rare and few cases are reported in literature. D. B. M. consulted the emergency department for knee pain and fever; analysis showed that the cause was a Neisseria meningitidis type C infection. He received a treatment consisting of 2 arthroscopies and 5 weeks of antibiotics. At five weeks he returned to work and at 2 months he resumed sports (jogging and soccer) without complaints. Primary arthritis of the knee caused by Neisseria meningitidis is very rare. It has a very good response to antibiotics and arthroscopy procedure. Short-term follow-up and functional results are often good or excellent."
+  ],
+  "affiliation": [
+    "Orthopaedic Department at Hospital Clínico Universidad de Chile, Santos Dumont 999, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5402246?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5402246"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/4696014"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-10"
+  ],
+  "dateOfRevision": [
+    "2017-05-12"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-10"
+  ],
+  "firstPublicationDate": [
+    "2017-04-10"
+  ]
+}

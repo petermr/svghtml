@@ -1,0 +1,627 @@
+{
+  "id": [
+    "28171715"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28171715"
+  ],
+  "pmcid": [
+    "PMC5434228"
+  ],
+  "doi": [
+    "10.4178/epih.e2017006"
+  ],
+  "title": [
+    "Cancer mortality-to-incidence ratio as an indicator of cancer management outcomes in Organization for Economic Cooperation and Development countries."
+  ],
+  "authorString": [
+    "Choi E, Lee S, Nhung BC, Suh M, Park B, Jun JK, Choi KS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Choi E"
+          ],
+          "firstName": [
+            "Eunji"
+          ],
+          "lastName": [
+            "Choi"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1315-1433",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Lee S"
+          ],
+          "firstName": [
+            "Sangeun"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2415-9361",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Nhung BC"
+          ],
+          "firstName": [
+            "Bui Cam"
+          ],
+          "lastName": [
+            "Nhung"
+          ],
+          "initials": [
+            "BC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1664-9149",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Suh M"
+          ],
+          "firstName": [
+            "Mina"
+          ],
+          "lastName": [
+            "Suh"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8101-7493",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Cancer Control Institute, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Park B"
+          ],
+          "firstName": [
+            "Boyoung"
+          ],
+          "lastName": [
+            "Park"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1902-3184",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Cancer Control Institute, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Jun JK"
+          ],
+          "firstName": [
+            "Jae Kwan"
+          ],
+          "lastName": [
+            "Jun"
+          ],
+          "initials": [
+            "JK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1647-0675",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Cancer Control Institute, National Cancer Center, Goyang, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Choi KS"
+          ],
+          "firstName": [
+            "Kui Son"
+          ],
+          "lastName": [
+            "Choi"
+          ],
+          "initials": [
+            "KS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5336-3874",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Cancer Control Institute, National Cancer Center, Goyang, Korea."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1902-3184",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5336-3874",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2415-9361",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1315-1433",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1647-0675",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1664-9149",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8101-7493",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "39"
+      ],
+      "journalIssueId": [
+        "2532036"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Epidemiology and health"
+          ],
+          "ISOAbbreviation": [
+            "Epidemiol Health"
+          ],
+          "medlineAbbreviation": [
+            "Epidemiol Health"
+          ],
+          "NLMid": [
+            "101519472"
+          ],
+          "ISSN": [
+            "2092-7193"
+          ],
+          "ESSN": [
+            "2092-7193"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e2017006"
+  ],
+  "abstractText": [
+    "Assessing long-term success and efficiency is an essential part of evaluating cancer control programs. The mortality-to-incidence ratio (MIR) can serve as an insightful indicator of cancer management outcomes for individual nations. By calculating MIRs for the top five cancers in Organization for Economic Cooperation and Development (OECD) countries, the current study attempted to characterize the outcomes of national cancer management policies according to the health system ranking of each country.The MIRs for the five most burdensome cancers globally (lung, colorectal, prostate, stomach, and breast) were calculated for all 34 OECD countries using 2012 GLOBOCAN incidence and mortality statistics. Health system rankings reported by the World Health Organization in 2000 were updated with relevant information when possible. A linear regression model was created, using MIRs as the dependent variable and health system rankings as the independent variable.The linear relationships between MIRs and health system rankings for the five cancers were significant, with coefficients of determination ranging from 49 to 75% when outliers were excluded. A clear outlier, Korea reported lower-than-predicted MIRs for stomach and colorectal cancer, reflecting its strong national cancer control policies, especially cancer screening.The MIR was found to be a practical measure for evaluating the long-term success of cancer surveillance and the efficacy of cancer control programs, especially cancer screening. Extending the use of MIRs to evaluate other cancers may also prove useful."
+  ],
+  "affiliation": [
+    "Graduate School of Cancer Science and Policy, National Cancer Center, Goyang, Korea."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TH"
+                  ],
+                  "qualifierName": [
+                    "therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prognosis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Treatment Outcome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Surveillance"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Incidence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Regression Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Delivery of Health Care"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Quality of Health Care"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Early Detection of Cancer"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Organisation for Economic Co-Operation and Development"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Neoplasms",
+        "Mortality",
+        "Delivery Of Health Care",
+        "incidence",
+        "Early Detection Of Cancer"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5434228?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5434228"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4178/epih.e2017006"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-06"
+  ],
+  "dateOfCreation": [
+    "2017-02-07"
+  ],
+  "dateOfRevision": [
+    "2017-06-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-05"
+  ],
+  "firstPublicationDate": [
+    "2017-02-05"
+  ]
+}

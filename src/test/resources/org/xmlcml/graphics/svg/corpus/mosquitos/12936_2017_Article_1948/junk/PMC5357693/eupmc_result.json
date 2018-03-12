@@ -1,0 +1,294 @@
+{
+  "id": [
+    "28349104"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28349104"
+  ],
+  "pmcid": [
+    "PMC5357693"
+  ],
+  "doi": [
+    "10.1016/j.dib.2017.03.013"
+  ],
+  "title": [
+    "Calculation of statistic estimates of kinetic parameters from substrate uncompetitive inhibition equation using the median method."
+  ],
+  "authorString": [
+    "Valencia PL, Astudillo-Castro C, Gajardo D, Flores S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Valencia PL"
+          ],
+          "firstName": [
+            "Pedro L"
+          ],
+          "lastName": [
+            "Valencia"
+          ],
+          "initials": [
+            "PL"
+          ],
+          "affiliation": [
+            "Department of Chemical and Environmental Engineering, Universidad Técnica Federico Santa María, PO Box 110-V, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Astudillo-Castro C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Astudillo-Castro"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Escuela de Alimentos, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Mathematics, Universidad Técnica Federico Santa María, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Flores S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Flores"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Mathematics, Universidad Técnica Federico Santa María, Valparaíso, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2518263"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Data in brief"
+          ],
+          "ISOAbbreviation": [
+            "Data Brief"
+          ],
+          "medlineAbbreviation": [
+            "Data Brief"
+          ],
+          "NLMid": [
+            "101654995"
+          ],
+          "ISSN": [
+            "2352-3409"
+          ],
+          "ESSN": [
+            "2352-3409"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "567-571"
+  ],
+  "abstractText": [
+    "We provide initial rate data from enzymatic reaction experiments and tis processing to estimate the kinetic parameters from the substrate uncompetitive inhibition equation using the median method published by Eisenthal and Cornish-Bowden (Cornish-Bowden and Eisenthal, 1974; Eisenthal and Cornish-Bowden, 1974). The method was denominated the direct linear plot and consists in the calculation of the median from a dataset of kinetic parameters Vmax and Km from the Michaelis-Menten equation. In this opportunity we present the procedure to applicate the direct linear plot to the substrate uncompetitive inhibition equation; a three-parameter equation. The median method is characterized for its robustness and its insensibility to outlier. The calculations are presented in an Excel datasheet and a computational algorithm was developed in the free software Python. The kinetic parameters of the substrate uncompetitive inhibition equation Vmax , Km and Ks were calculated using three experimental points from the dataset formed by 13 experimental points. All the 286 combinations were calculated. The dataset of kinetic parameters resulting from this combinatorial was used to calculate the median which corresponds to the statistic estimator of the real kinetic parameters. A comparative statistical analyses between the median method and the least squares was published in Valencia et al. [3]."
+  ],
+  "affiliation": [
+    "Department of Chemical and Environmental Engineering, Universidad Técnica Federico Santa María, PO Box 110-V, Valparaíso, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "other",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Substrate Inhibition",
+        "Median Method",
+        "Direct Linear Plot",
+        "Kinetic Constants Estimation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5357693?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5357693"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.dib.2017.03.013"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-28"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-11"
+  ],
+  "firstPublicationDate": [
+    "2017-03-11"
+  ]
+}

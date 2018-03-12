@@ -1,0 +1,487 @@
+{
+  "id": [
+    "28670009"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28670009"
+  ],
+  "pmcid": [
+    "PMC5487980"
+  ],
+  "doi": [
+    "10.2471/blt.17.196733"
+  ],
+  "title": [
+    "Data sharing statements for clinical trials: a requirement of the International Committee of Medical Journal Editors."
+  ],
+  "authorString": [
+    "Taichman DB, Sahni P, Pinborg A, Peiperl L, Laine C, James A, Hong ST, Haileamlak A, Gollogly L, Godlee F, Frizelle FA, Florenzano F, Drazen JM, Bauchner H, Baethge C, Backus J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Taichman DB"
+          ],
+          "firstName": [
+            "Darren B"
+          ],
+          "lastName": [
+            "Taichman"
+          ],
+          "initials": [
+            "DB"
+          ],
+          "affiliation": [
+            "Annals of Internal Medicine, American College of Physicians, 190 N. Independence Mall West, Philadelphia, PA 19106, United States of America (USA)."
+          ]
+        },
+        {
+          "fullName": [
+            "Sahni P"
+          ],
+          "firstName": [
+            "Peush"
+          ],
+          "lastName": [
+            "Sahni"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "World Association of Medical Editors, All India Institute of Medical Sciences, New Delhi, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinborg A"
+          ],
+          "firstName": [
+            "Anja"
+          ],
+          "lastName": [
+            "Pinborg"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Ugeskrift for Laeger (Danish Medical Journal), Hvidovre, Denmark."
+          ]
+        },
+        {
+          "fullName": [
+            "Peiperl L"
+          ],
+          "firstName": [
+            "Larry"
+          ],
+          "lastName": [
+            "Peiperl"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "PLOS Medicine, San Francisco, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Laine C"
+          ],
+          "firstName": [
+            "Christine"
+          ],
+          "lastName": [
+            "Laine"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Annals of Internal Medicine, American College of Physicians, 190 N. Independence Mall West, Philadelphia, PA 19106, United States of America (USA)."
+          ]
+        },
+        {
+          "fullName": [
+            "James A"
+          ],
+          "firstName": [
+            "Astrid"
+          ],
+          "lastName": [
+            "James"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "The Lancet, London, England."
+          ]
+        },
+        {
+          "fullName": [
+            "Hong ST"
+          ],
+          "firstName": [
+            "Sung-Tae"
+          ],
+          "lastName": [
+            "Hong"
+          ],
+          "initials": [
+            "ST"
+          ],
+          "affiliation": [
+            "Journal of Korean Medical Science, Seoul, Republic of Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Haileamlak A"
+          ],
+          "firstName": [
+            "Abraham"
+          ],
+          "lastName": [
+            "Haileamlak"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Ethiopian Journal of Health Sciences, Jimma, Ethiopia."
+          ]
+        },
+        {
+          "fullName": [
+            "Gollogly L"
+          ],
+          "firstName": [
+            "Laragh"
+          ],
+          "lastName": [
+            "Gollogly"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Bulletin of the World Health Organization, Geneva, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Godlee F"
+          ],
+          "firstName": [
+            "Fiona"
+          ],
+          "lastName": [
+            "Godlee"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "The British Medical Journal, London, England."
+          ]
+        },
+        {
+          "fullName": [
+            "Frizelle FA"
+          ],
+          "firstName": [
+            "Frank A"
+          ],
+          "lastName": [
+            "Frizelle"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "New Zealand Medical Journal, Wellington, New Zealand."
+          ]
+        },
+        {
+          "fullName": [
+            "Florenzano F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Florenzano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Revista Médica de Chile (Medical Journal of Chile), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Drazen JM"
+          ],
+          "firstName": [
+            "Jeffrey M"
+          ],
+          "lastName": [
+            "Drazen"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "New England Journal of Medicine, Boston, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Bauchner H"
+          ],
+          "firstName": [
+            "Howard"
+          ],
+          "lastName": [
+            "Bauchner"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Journal of the American Medical Association, Chicago, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Baethge C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Baethge"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Deutsches Ärzteblatt (German Medical Journal), Cologne, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Backus J"
+          ],
+          "firstName": [
+            "Joyce"
+          ],
+          "lastName": [
+            "Backus"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Library Operations, National Library of Medicine, Bethesda, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "95"
+      ],
+      "journalIssueId": [
+        "2572611"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Bulletin of the World Health Organization"
+          ],
+          "ISOAbbreviation": [
+            "Bull. World Health Organ."
+          ],
+          "medlineAbbreviation": [
+            "Bull World Health Organ"
+          ],
+          "NLMid": [
+            "7507052"
+          ],
+          "ISSN": [
+            "0042-9686"
+          ],
+          "ESSN": [
+            "1564-0604"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "482-483"
+  ],
+  "affiliation": [
+    "Annals of Internal Medicine, American College of Physicians, 190 N. Independence Mall West, Philadelphia, PA 19106, United States of America (USA)."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5487980?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5487980"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2471/BLT.17.196733"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-03"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ],
+  "embargoDate": [
+    "2017-07-01"
+  ]
+}

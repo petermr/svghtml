@@ -1,0 +1,282 @@
+{
+  "id": [
+    "29450102"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29450102"
+  ],
+  "pmcid": [
+    "PMC5809854"
+  ],
+  "doi": [
+    "10.1186/s40985-017-0078-z"
+  ],
+  "title": [
+    "What is known about sexual and reproductive health in Latin American and Caribbean mining contexts? A systematic scoping review."
+  ],
+  "authorString": [
+    "Wilches-Gutierrez J, Documet P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wilches-Gutierrez J"
+          ],
+          "firstName": [
+            "Jose"
+          ],
+          "lastName": [
+            "Wilches-Gutierrez"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8541-6133",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Behavioral and Community Health Sciences, Graduate School of Public Health, University of Pittsburgh, 130 De Soto Street, Pittsburgh, PA 15261 USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Documet P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Documet"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Behavioral and Community Health Sciences, Graduate School of Public Health, University of Pittsburgh, 130 De Soto Street, Pittsburgh, PA 15261 USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8541-6133",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "39"
+      ],
+      "journalIssueId": [
+        "2652501"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Public health reviews"
+          ],
+          "ISOAbbreviation": [
+            "Public Health Rev"
+          ],
+          "medlineAbbreviation": [
+            "Public Health Rev"
+          ],
+          "NLMid": [
+            "0370123"
+          ],
+          "ISSN": [
+            "0301-0422"
+          ],
+          "ESSN": [
+            "2107-6952"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "1"
+  ],
+  "abstractText": [
+    "Latin America and the Caribbean (LAC) has experienced an unprecedented mining boom since the mid-2000s with unknown effects on sexual and reproductive health (SRH). This study takes the essential first steps of summarizing the available literature regarding SRH in mining contexts in LAC, identifying critical gaps in knowledge, and discussing main implications for future research.We conducted a scoping review with a systematic search of health literature in four databases, reference lists of selected papers, and citations in Google Scholar.The systematic search yielded 592 primary references and 16 articles from LAC. The 11 papers finally selected were conducted in gold-mining contexts in Brazil, Venezuela, Guyana, Peru, and Colombia, between 1995 and 2016. Ten studies centered on measuring HIV/STD prevalence among mineworkers and other populations; few examined associated risk factors. Eight studies reported high HIV/STD prevalence in the study population. None of the studies explored broader SRH issues.Available research is scarce and provides limited evidence on SRH in LAC mining contexts. Critical gaps include little knowledge on (1) broader SRH impacts besides HIV/STDs, (2) SRH in settings different from gold-mining contexts in Amazon countries, (3) mechanisms shaping SRH in LAC mining contexts, and (4) effective interventions in these scenarios. Future research must consider the distinctive demographic, environmental, socioeconomic, and gender dynamics triggered by the mining economy in the analysis of the relationship between mining and SRH, particularly in a period of extractive boom."
+  ],
+  "affiliation": [
+    "Department of Behavioral and Community Health Sciences, Graduate School of Public Health, University of Pittsburgh, 130 De Soto Street, Pittsburgh, PA 15261 USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "HIV",
+        "Reproductive Health",
+        "Latin America",
+        "Sexual Health",
+        "Mining Industry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5809854?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5809854"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40985-017-0078-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-17"
+  ],
+  "dateOfRevision": [
+    "2018-02-18"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-05"
+  ],
+  "firstPublicationDate": [
+    "2018-01-05"
+  ]
+}

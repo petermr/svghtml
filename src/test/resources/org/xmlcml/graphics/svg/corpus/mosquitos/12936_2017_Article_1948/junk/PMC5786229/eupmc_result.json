@@ -1,0 +1,344 @@
+{
+  "id": [
+    "29340581"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29340581"
+  ],
+  "pmcid": [
+    "PMC5786229"
+  ],
+  "doi": [
+    "10.1093/gbe/evy001"
+  ],
+  "title": [
+    "Gene Turnover and Diversification of the α- and β-Globin Gene Families in Sauropsid Vertebrates."
+  ],
+  "authorString": [
+    "Hoffmann FG, Vandewege MW, Storz JF, Opazo JC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hoffmann FG"
+          ],
+          "firstName": [
+            "Federico G"
+          ],
+          "lastName": [
+            "Hoffmann"
+          ],
+          "initials": [
+            "FG"
+          ],
+          "affiliation": [
+            "Department of Biochemistry, Molecular Biology, Entomology, and Plant Pathology, Mississippi State University."
+          ]
+        },
+        {
+          "fullName": [
+            "Vandewege MW"
+          ],
+          "firstName": [
+            "Michael W"
+          ],
+          "lastName": [
+            "Vandewege"
+          ],
+          "initials": [
+            "MW"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, Texas Tech University."
+          ]
+        },
+        {
+          "fullName": [
+            "Storz JF"
+          ],
+          "firstName": [
+            "Jay F"
+          ],
+          "lastName": [
+            "Storz"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "School of Biological Sciences, University of Nebraska."
+          ]
+        },
+        {
+          "fullName": [
+            "Opazo JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Opazo"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7938-4083",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7938-4083",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2636808"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome biology and evolution"
+          ],
+          "ISOAbbreviation": [
+            "Genome Biol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Genome Biol Evol"
+          ],
+          "NLMid": [
+            "101509707"
+          ],
+          "ISSN": [
+            "1759-6653"
+          ],
+          "ESSN": [
+            "1759-6653"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "344-358"
+  ],
+  "abstractText": [
+    "The genes that encode the α- and β-chain subunits of vertebrate hemoglobin have served as a model system for elucidating general principles of gene family evolution, but little is known about patterns of evolution in amniotes other than mammals and birds. Here, we report a comparative genomic analysis of the α- and β-globin gene clusters in sauropsids (archosaurs and nonavian reptiles). The objectives were to characterize changes in the size and membership composition of the α- and β-globin gene families within and among the major sauropsid lineages, to reconstruct the evolutionary history of the sauropsid α- and β-globin genes, to resolve orthologous relationships, and to reconstruct evolutionary changes in the developmental regulation of gene expression. Our comparisons revealed contrasting patterns of evolution in the unlinked α- and β-globin gene clusters. In the α-globin gene cluster, which has remained in the ancestral chromosomal location, evolutionary changes in gene content are attributable to the differential retention of paralogous gene copies that were present in the common ancestor of tetrapods. In the β-globin gene cluster, which was translocated to a new chromosomal location, evolutionary changes in gene content are attributable to differential gene gains (via lineage-specific duplication events) and gene losses (via lineage-specific deletions and inactivations). Consequently, all major groups of amniotes possess unique repertoires of embryonic and postnatally expressed β-type globin genes that diversified independently in each lineage. These independently derived β-type globins descend from a pair of tandemly linked paralogs in the most recent common ancestor of sauropsids."
+  ],
+  "affiliation": [
+    "Department of Biochemistry, Molecular Biology, Entomology, and Plant Pathology, Mississippi State University."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 HL087216"
+          ],
+          "agency": [
+            "NHLBI NIH HHS"
+          ],
+          "acronym": [
+            "HL"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Hemoglobin",
+        "Gene duplication",
+        "Genome evolution",
+        "Gene Expression",
+        "Gene Family Evolution",
+        "Amniotes"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5786229?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5786229"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/gbe/evy001"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "ensembl",
+        "sprot"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-01-18"
+  ],
+  "dateOfRevision": [
+    "2018-02-11"
+  ],
+  "firstPublicationDate": [
+    "2018-01-11"
+  ]
+}

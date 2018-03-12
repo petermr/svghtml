@@ -1,0 +1,327 @@
+{
+  "id": [
+    "28975057"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28975057"
+  ],
+  "pmcid": [
+    "PMC5624292"
+  ],
+  "doi": [
+    "10.7717/peerj.3842"
+  ],
+  "title": [
+    "Does silvoagropecuary landscape fragmentation affect the genetic diversity of the sigmodontine rodent Oligoryzomys longicaudatus?"
+  ],
+  "authorString": [
+    "Lazo-Cancino D, Musleh SS, Hernandez CE, Palma E, Rodriguez-Serrano E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lazo-Cancino D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Lazo-Cancino"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Zoologia, Universidad de Concepción, Concepción, Biobío, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Musleh SS"
+          ],
+          "firstName": [
+            "Selim S"
+          ],
+          "lastName": [
+            "Musleh"
+          ],
+          "initials": [
+            "SS"
+          ],
+          "affiliation": [
+            "Departamento de Oceanografía, Universidad de Concepción, Concepción, Biobío, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernandez CE"
+          ],
+          "firstName": [
+            "Cristian E"
+          ],
+          "lastName": [
+            "Hernandez"
+          ],
+          "initials": [
+            "CE"
+          ],
+          "affiliation": [
+            "Departamento de Zoologia, Universidad de Concepción, Concepción, Biobío, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palma E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Palma"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez-Serrano E"
+          ],
+          "firstName": [
+            "Enrique"
+          ],
+          "lastName": [
+            "Rodriguez-Serrano"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Zoologia, Universidad de Concepción, Concepción, Biobío, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3842"
+  ],
+  "abstractText": [
+    "Fragmentation of native forests is a highly visible result of human land-use throughout the world. In this study, we evaluated the effects of landscape fragmentation and matrix features on the genetic diversity and structure of Oligoryzomys longicaudatus, the natural reservoir of Hantavirus in southern South America. We focused our work in the Valdivian Rainforest where human activities have produced strong change of natural habitats, with an important number of human cases of Hantavirus.We sampled specimens of O. longicaudatus from five native forest patches surrounded by silvoagropecuary matrix from Panguipulli, Los Rios Region, Chile. Using the hypervariable domain I (mtDNA), we characterized the genetic diversity and evaluated the effect of fragmentation and landscape matrix on the genetic structure of O. longicaudatus. For the latter, we used three approaches: (i) Isolation by Distance (IBD) as null model, (ii) Least-cost Path (LCP) where genetic distances between patch pairs increase with cost-weighted distances, and (iii) Isolation by Resistance (IBR) where the resistance distance is the average number of steps that is needed to commute between the patches during a random walk.We found low values of nucleotide diversity (π) for the five patches surveyed, ranging from 0.012 to 0.015, revealing that the 73 sampled specimens of this study belong to two populations but with low values of genetic distance (γST ) ranging from 0.022 to 0.099. Likewise, we found that there are no significant associations between genetic distance and geographic distance for IBD and IBR. However, we found for the LCP approach, a significant positive relationship (r = 0.737, p = 0.05), with shortest least-cost paths traced through native forest and arborescent shrublands.In this work we found that, at this reduced geographical scale, Oligoryzomys longicaudatus shows genetic signs of fragmentation. In addition, we found that connectivity between full growth native forest remnants is mediated by the presence of dense shrublands and native forest corridors. In this sense, our results are important because they show how native forest patches and associated routes act as source of vector species in silvoagropecuary landscape, increasing the infection risk on human population. This study is the first approach to understand the epidemiological spatial context of silvoagropecuary risk of Hantavirus emergence. Further studies are needed to elucidate the effects of landscape fragmentation in order to generate new predictive models based on vector intrinsic attributes and landscape features."
+  ],
+  "affiliation": [
+    "Departamento de Zoologia, Universidad de Concepción, Concepción, Biobío, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Genetic diversity",
+        "Genetic structure",
+        "Conservation genetics",
+        "Surrounding Matrix",
+        "Least Cost Path",
+        "Sigmodontinae"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624292?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5624292"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3842"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-10-04"
+  ],
+  "dateOfRevision": [
+    "2017-10-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-29"
+  ],
+  "firstPublicationDate": [
+    "2017-09-29"
+  ]
+}

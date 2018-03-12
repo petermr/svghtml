@@ -1,0 +1,261 @@
+{
+  "id": [
+    "28828270"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28828270"
+  ],
+  "pmcid": [
+    "PMC5563442"
+  ],
+  "doi": [
+    "10.7717/peerj.3675"
+  ],
+  "title": [
+    "Mesoscale spatiotemporal variability in a complex host-parasite system influenced by intermediate host body size."
+  ],
+  "authorString": [
+    "Rodríguez SM, Valdivia N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rodríguez SM"
+          ],
+          "firstName": [
+            "Sara M"
+          ],
+          "lastName": [
+            "Rodríguez"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Marinas y Limnológicas, Facultad de Ciencias, Universidad Austral de Chile, Campus Isla Teja s/n, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdivia N"
+          ],
+          "firstName": [
+            "Nelson"
+          ],
+          "lastName": [
+            "Valdivia"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Centro FONDAP de Investigación en Dinámica de Ecosistemas Marinos de Altas Latitudes (IDEAL), Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3675"
+  ],
+  "abstractText": [
+    "Parasites are essential components of natural communities, but the factors that generate skewed distributions of parasite occurrences and abundances across host populations are not well understood.Here, we analyse at a seascape scale the spatiotemporal relationships of parasite exposure and host body-size with the proportion of infected hosts (i.e., prevalence) and aggregation of parasite burden across ca. 150 km of the coast and over 22 months. We predicted that the effects of parasite exposure on prevalence and aggregation are dependent on host body-sizes. We used an indirect host-parasite interaction in which migratory seagulls, sandy-shore molecrabs, and an acanthocephalan worm constitute the definitive hosts, intermediate hosts, and endoparasite, respectively. In such complex systems, increments in the abundance of definitive hosts imply increments in intermediate hosts' exposure to the parasite's dispersive stages.Linear mixed-effects models showed a significant, albeit highly variable, positive relationship between seagull density and prevalence. This relationship was stronger for small (cephalothorax length >15 mm) than large molecrabs (<15 mm). Independently of seagull density, large molecrabs carried significantly more parasites than small molecrabs. The analysis of the variance-to-mean ratio of per capita parasite burden showed no relationship between seagull density and mean parasite aggregation across host populations. However, the amount of unexplained variability in aggregation was strikingly higher in larger than smaller intermediate hosts. This unexplained variability was driven by a decrease in the mean-variance scaling in heavily infected large molecrabs.These results show complex interdependencies between extrinsic and intrinsic population attributes on the structure of host-parasite interactions. We suggest that parasite accumulation-a characteristic of indirect host-parasite interactions-and subsequent increasing mortality rates over ontogeny underpin size-dependent host-parasite dynamics."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Marinas y Limnológicas, Facultad de Ciencias, Universidad Austral de Chile, Campus Isla Teja s/n, Valdivia, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Temporal variation",
+        "Acanthocephalans",
+        "Parasite Aggregation",
+        "Laridae",
+        "Molecrabs"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5563442?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5563442"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3675"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-22"
+  ],
+  "dateOfRevision": [
+    "2017-08-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-17"
+  ],
+  "firstPublicationDate": [
+    "2017-08-17"
+  ]
+}

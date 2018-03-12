@@ -1,0 +1,578 @@
+{
+  "id": [
+    "28619052"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28619052"
+  ],
+  "pmcid": [
+    "PMC5472880"
+  ],
+  "doi": [
+    "10.1186/s12934-017-0719-4"
+  ],
+  "title": [
+    "Heterologous expression of an α-amylase inhibitor from common bean (Phaseolus vulgaris) in Kluyveromyces lactis and Saccharomyces cerevisiae."
+  ],
+  "authorString": [
+    "Brain-Isasi S, Álvarez-Lueje A, Higgins TJV."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Brain-Isasi S"
+          ],
+          "firstName": [
+            "Stephanie"
+          ],
+          "lastName": [
+            "Brain-Isasi"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5751-7834",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Drug Analysis Laboratory, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile. sbrain@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Álvarez-Lueje A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Álvarez-Lueje"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Drug Analysis Laboratory, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Higgins TJV"
+          ],
+          "firstName": [
+            "Thomas Joseph V"
+          ],
+          "lastName": [
+            "Higgins"
+          ],
+          "initials": [
+            "TJV"
+          ],
+          "affiliation": [
+            "CSIRO Agriculture and Food, GPO Box 1700, Canberra, ACT, 2601, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5751-7834",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2565233"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Microbial cell factories"
+          ],
+          "ISOAbbreviation": [
+            "Microb. Cell Fact."
+          ],
+          "medlineAbbreviation": [
+            "Microb Cell Fact"
+          ],
+          "NLMid": [
+            "101139812"
+          ],
+          "ISSN": [
+            "1475-2859"
+          ],
+          "ESSN": [
+            "1475-2859"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "110"
+  ],
+  "abstractText": [
+    "Phaseolamin or α-amylase inhibitor 1 (αAI) is a glycoprotein from common beans (Phaseolus vulgaris L.) that inhibits some insect and mammalian α-amylases. Several clinical studies support the beneficial use of bean αAI for control of diabetes and obesity. Commercial extracts of P. vulgaris are available but their efficacy is still under question, mainly because some of these extracts contain antinutritional impurities naturally present in bean seeds and also exhibit a lower specific activity αAI. The production of recombinant αAI allows to overcome these disadvantages and provides a platform for the large-scale production of pure and functional αAI protein for biotechnological and pharmaceutical applications.A synthetic gene encoding αAI from the common bean (Phaseolus vulgaris cv. Pinto) was codon-optimised for expression in yeasts (αAI-OPT) and cloned into the protein expression vectors pKLAC2 and pYES2. The yeasts Kluyveromyces lactis GG799 (and protease deficient derivatives such as YCT390) and Saccharomyces cerevisiae YPH499 were transformed with the optimised genes and transformants were screened for expression by antibody dot blot. Recombinant colonies of K. lactis YCT390 that expressed and secreted functional αAI into the culture supernatants were selected for further analyses. Recombinant αAI from K. lactis YCT390 was purified using anion-exchange and affinity resins leading to the recovery of a functional inhibitor. The identity of the purified αAI was confirmed by mass spectrometry. Recombinant clones of S. cerevisiae YPH499 expressed functional αAI intracellularly, but did not secrete the protein.This is the first report describing the heterologous expression of the α-amylase inhibitor 1 (αAI) from P. vulgaris in yeasts. We demonstrated that recombinant strains of K. lactis and S. cerevisiae expressed and processed the αAI precursor into mature and active protein and also showed that K. lactis secretes functional αAI."
+  ],
+  "affiliation": [
+    "Drug Analysis Laboratory, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Santiago, Chile. sbrain@ug.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kluyveromyces"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Saccharomyces cerevisiae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phaseolus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seeds"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Lectins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BI"
+                  ],
+                  "qualifierName": [
+                    "biosynthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Recombinant Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BI"
+                  ],
+                  "qualifierName": [
+                    "biosynthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Processing, Post-Translational"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Saccharomyces cerevisiae",
+        "Phaseolus vulgaris",
+        "Kluyveromyces lactis",
+        "Common bean",
+        "α-amylase inhibitor",
+        "Yeast Heterologous Expression",
+        "Phaseolamin",
+        "Αai"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "alpha-amylase inhibitor, Phaseolus vulgaris"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Plant Lectins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Recombinant Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5472880?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5472880"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12934-017-0719-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "sprot"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-01-16"
+  ],
+  "dateOfCreation": [
+    "2017-06-17"
+  ],
+  "dateOfRevision": [
+    "2018-01-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-15"
+  ],
+  "firstPublicationDate": [
+    "2017-06-15"
+  ]
+}

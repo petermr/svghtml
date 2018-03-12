@@ -1,0 +1,562 @@
+{
+  "id": [
+    "28267795"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28267795"
+  ],
+  "pmcid": [
+    "PMC5340351"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0172204"
+  ],
+  "title": [
+    "The cost of dementia in an unequal country: The case of Chile."
+  ],
+  "authorString": [
+    "Hojman DA, Duarte F, Ruiz-Tagle J, Budnich M, Delgado C, Slachevsky A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hojman DA"
+          ],
+          "firstName": [
+            "Daniel A"
+          ],
+          "lastName": [
+            "Hojman"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Centre for Social Conflict and Cohesion Studies, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Duarte F"
+          ],
+          "firstName": [
+            "Fabian"
+          ],
+          "lastName": [
+            "Duarte"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centre for Social Conflict and Cohesion Studies, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz-Tagle J"
+          ],
+          "firstName": [
+            "Jaime"
+          ],
+          "lastName": [
+            "Ruiz-Tagle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Economics, Faculty of Economics and Business, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Budnich M"
+          ],
+          "firstName": [
+            "Marilu"
+          ],
+          "lastName": [
+            "Budnich"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro KINTUN, Servicio de Salud Metropolitano Oriente, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Neurology and Neurosurgery Department, Clínica Santa María, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Slachevsky A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Slachevsky"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6285-3189",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Advanced Research in Education, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6285-3189",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2528339"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0172204"
+  ],
+  "abstractText": [
+    "We study the economic cost of dementia in Chile, and its variation according to socioeconomic status (SES). We use primary data from a survey of 330 informal primary caregivers who completed both a RUD-Lite and a socio-demographic questionnaire to evaluate the severity of dementia and caregiver's burden. The costs of dementia are broken into three components: direct medical costs (medical care, drugs, tests); direct social costs (social service, daycare); and indirect costs (mostly associated to informal care). The average monthly cost per patient is estimated at US$ 1,463. Direct medical costs account for 20 per cent, direct social costs for 5 per cent and indirect costs for 75 per cent of the total cost. The mean monthly cost is found to be inversely related to SES, a pattern largely driven by indirect costs. The monthly cost for high SES is US$ 1,083 and US$ 1,588 for low SES. A multivariate regression analysis suggests that severity of dementia and caregiver's burden account for between 49 and 70 per cent of the difference in the indirect cost across SES. However, between one-third and one-half of the variation across SES is not due to gradient in severity of dementia. Direct medical costs increase in higher SES, reflecting differences in purchasing power, while indirect costs are inversely related to SES and more than compensate differences in medical costs. Moreover, in lower SES groups, female caregivers, typically family members who are inactive in the labor market, mostly provide informal care. The average annual cost of dementia in Chile (US$ 17,559) is lower in comparison to high-income countries (US$ 39,595) and the proportion of cost related to informal cost is higher (74 per cent compared to 40 per cent). SES is a key determinant in the cost of dementia. In the absence of universal access to treatment, part of the social cost of dementia potentially preserves or increases income and gender inequality."
+  ],
+  "affiliation": [
+    "Centre for Social Conflict and Cohesion Studies, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dementia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Cost of Illness"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Social Class"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Socioeconomic Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Caregivers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Costs and Cost Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Care Costs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5340351?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5340351"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0172204"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-01"
+  ],
+  "dateOfCreation": [
+    "2017-03-07"
+  ],
+  "dateOfRevision": [
+    "2017-09-01"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-07"
+  ],
+  "firstPublicationDate": [
+    "2017-03-07"
+  ]
+}

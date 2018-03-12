@@ -1,0 +1,406 @@
+{
+  "id": [
+    "28122438"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28122438"
+  ],
+  "pmcid": [
+    "PMC5454640"
+  ],
+  "doi": [
+    "10.22034/apjcp.2016.17.12.5081"
+  ],
+  "title": [
+    "Clinico-Pathologic Subtypes of Breast Cancer Primary Tumors Are Related to Prognosis after Recurrence"
+  ],
+  "authorString": [
+    "Sánchez C, Camus M, Medina L, Oddo D, Artigas RC, Pérez Sepúlveda A, Domínguez F, Razmilic D, Navarro MR, Galindo H, Acevedo F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sánchez C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Catolica de Chile. Email:csanchez@med.puc.cl"
+          ]
+        },
+        {
+          "fullName": [
+            "Camus M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Camus"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Medina L"
+          ],
+          "firstName": [
+            "Lidia"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Oddo D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Oddo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3974-7393",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Artigas RC"
+          ],
+          "firstName": [
+            "Rocío"
+          ],
+          "lastName": [
+            "Artigas"
+          ],
+          "initials": [
+            "RC"
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez Sepúlveda A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Pérez Sepúlveda"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Domínguez F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Domínguez"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Razmilic D"
+          ],
+          "firstName": [
+            "Dravna"
+          ],
+          "lastName": [
+            "Razmilic"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Navarro MR"
+          ],
+          "firstName": [
+            "María Elena"
+          ],
+          "lastName": [
+            "Navarro"
+          ],
+          "initials": [
+            "MR"
+          ]
+        },
+        {
+          "fullName": [
+            "Galindo H"
+          ],
+          "firstName": [
+            "Hector"
+          ],
+          "lastName": [
+            "Galindo"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Acevedo F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Acevedo"
+          ],
+          "initials": [
+            "F"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3974-7393",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2518234"
+      ],
+      "dateOfPublication": [
+        "2016 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Asian Pacific journal of cancer prevention : APJCP"
+          ],
+          "ISOAbbreviation": [
+            "Asian Pac. J. Cancer Prev."
+          ],
+          "medlineAbbreviation": [
+            "Asian Pac J Cancer Prev"
+          ],
+          "NLMid": [
+            "101130625"
+          ],
+          "ISSN": [
+            "1513-7368"
+          ],
+          "ESSN": [
+            "2476-762X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "5081-5086"
+  ],
+  "abstractText": [
+    "Background: Pathological factors, based mainly on immunohistochemistry (IHC) and histological differentiation,\nare mostly used to differentiate breast cancer (BC) subtypes. Our present aim was to describe the characteristics and\nsurvival of a relapsing BC patient cohort based on clinico-pathologic subtypes determined for the primary tumors.\nMethods: We used a clinico- pathological definition of BC subtypes based on histological grade (HG), estrogen\nreceptor (ER), progesterone receptor (PgR),and epidermal growth factor receptor type 2 (HER2) expression assessed\nby IHC. We determined variables associated with loco-regional recurrence (LRR), second primaries (SP), systemic\nrecurrence (SR) and post-recurrence survival (PRS). Results: Out of 1,702 patients, 240 (14%) had an event defined as\nrecurrence. Those with recurrent disease were significantly younger than those without,and were initially diagnosed at\nmore advanced stages, with larger tumors, greater lymph nodal involvement and higher HG. With a median follow up\nof 61 months (1-250), 4.6% of patients without recurrence and 56.6% of patients with an event defined as recurrence\nhad died. The median PRS for the LRR group was 77 months; 75 months for those who developed a SP and 22 months\nfor patients with an SR (p <0.0001). In SR cases, the median PRS was shorter for ER- tumors than for ER+ tumors\n(15 vs. 26 months, respectively; p = 0.0019, HR 0.44; CI: 0.25-0.44). Conclusions: Subtype, defined through classic\nhistopathologic parameters determined for primary tumors, was found to eb related to type of recurrence and also to\nprognosis after relapse."
+  ],
+  "affiliation": [
+    "Pontificia Universidad Catolica de Chile. Email:csanchez@med.puc.cl"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Breast cancer",
+        "Prognostic",
+        "Subtypes",
+        "Recurrence"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5454640?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5454640"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.22034/APJCP.2016.17.12.5081"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-01-26"
+  ],
+  "dateOfRevision": [
+    "2017-08-29"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-01"
+  ],
+  "firstPublicationDate": [
+    "2016-12-01"
+  ]
+}

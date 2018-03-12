@@ -1,0 +1,304 @@
+{
+  "id": [
+    "28743972"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28743972"
+  ],
+  "pmcid": [
+    "PMC5527045"
+  ],
+  "doi": [
+    "10.1038/s41598-017-05370-5"
+  ],
+  "title": [
+    "The power of a control qubit in weak measurements."
+  ],
+  "authorString": [
+    "Coto R, Montenegro V, Eremeev V, Mundarain D, Orszag M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Coto R"
+          ],
+          "firstName": [
+            "Raul"
+          ],
+          "lastName": [
+            "Coto"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad Mayor, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montenegro V"
+          ],
+          "firstName": [
+            "Víctor"
+          ],
+          "lastName": [
+            "Montenegro"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Department of Physics and Astronomy, University College London, London, WC1E 6BT, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Eremeev V"
+          ],
+          "firstName": [
+            "Vitalie"
+          ],
+          "lastName": [
+            "Eremeev"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Facultad de Ingeniería, Universidad Diego Portales, Av. Ejercito, 441, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mundarain D"
+          ],
+          "firstName": [
+            "Douglas"
+          ],
+          "lastName": [
+            "Mundarain"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Fsíca, Universidad Católica del Norte, Casilla, 1280, Antofagasta, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Orszag M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "Orszag"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Fsíca, Pontificia Universidad Católica de Chile, Casilla, 306, Santiago, Chile. morszag@fis.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2573257"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "6351"
+  ],
+  "abstractText": [
+    "In the late 80 s, a curious effect suggested by Aharanov et al. was found to lead to an anomalous amplification based on quantum measurements of weakly coupled systems. In this paper, we investigate the quantum control of the weak value amplification of a qubit system coupled to a meter. For the qubit system, the coupling occurs via a second non-interacting qubit, initially quantum correlated with the first one. We show that for weak measurements, the control can be remotely realized via the post-selected state of the second qubit or the degree of squeezing of the meter. In our study of the quantum control of the amplification, we can easily manipulate the degree of quantum correlations between the initially correlated qubits. We find that the degree of entanglement has no effect on the quantum control of the amplification. However, we also found a clear connection between the amplification and quantum discord like measurements as well as classical correlations between the qubits. Finally, we suggest an application of the amplification control on the enhancement of the quantum measurement accuracy, e.g. measuring the relative phase of the post-selected control qubit in a more precise way, as opposed to the non-amplified case."
+  ],
+  "affiliation": [
+    "Universidad Mayor, Santiago de Chile, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5527045?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5527045"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-05370-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-26"
+  ],
+  "dateOfRevision": [
+    "2017-08-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-25"
+  ],
+  "firstPublicationDate": [
+    "2017-07-25"
+  ]
+}

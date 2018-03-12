@@ -1,0 +1,383 @@
+{
+  "id": [
+    "27877101"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27877101"
+  ],
+  "pmcid": [
+    "PMC5100552"
+  ],
+  "doi": [
+    "10.3389/fnins.2016.00488"
+  ],
+  "title": [
+    "From Molecules to the Clinic: Linking Schizophrenia and Metabolic Syndrome through Sphingolipids Metabolism."
+  ],
+  "authorString": [
+    "Castillo RI, Rojo LE, Henriquez-Henriquez M, Silva H, Maturana A, Villar MJ, Fuentes M, Gaspar PA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castillo RI"
+          ],
+          "firstName": [
+            "Rolando I"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "RI"
+          ],
+          "affiliation": [
+            "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojo LE"
+          ],
+          "firstName": [
+            "Leonel E"
+          ],
+          "lastName": [
+            "Rojo"
+          ],
+          "initials": [
+            "LE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0188-2266",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Henriquez-Henriquez M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Henriquez-Henriquez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de ChileSantiago, Chile; Department of Pediatrics, Institute of Human Nutrition, College of Physicians and Surgeons, Columbia UniversityNew York, NY, USA; Department of Pathology and Cell Biology, Columbia UniversityNew York, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva H"
+          ],
+          "firstName": [
+            "Hernán"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de ChileSantiago, Chile; Facultad de Medicina, Biomedical Neuroscience Institute, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maturana A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Maturana"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Villar MJ"
+          ],
+          "firstName": [
+            "María J"
+          ],
+          "lastName": [
+            "Villar"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Psiquiatría, Clínica Alemana Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gaspar PA"
+          ],
+          "firstName": [
+            "Pablo A"
+          ],
+          "lastName": [
+            "Gaspar"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de ChileSantiago, Chile; Facultad de Medicina, Biomedical Neuroscience Institute, Universidad de ChileSantiago, Chile; Departamento de Psiquiatría, Clínica AlemanaSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0188-2266",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2369098"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Front Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Front Neurosci"
+          ],
+          "NLMid": [
+            "101478481"
+          ],
+          "ISSN": [
+            "1662-4548"
+          ],
+          "ESSN": [
+            "1662-453X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "488"
+  ],
+  "abstractText": [
+    "Metabolic syndrome (MS) is a prevalent and severe comorbidity observed in schizophrenia (SZ). The exact nature of this association is controversial and very often accredited to the effects of psychotropic medications and disease-induced life-style modifications, such as inactive lifestyle, poor dietary choices, and smoking. However, drug therapy and disease-induced lifestyle factors are likely not the only factors contributing to the observed converging nature of these conditions, since an increased prevalence of MS is also observed in first episode and drug-naïve psychosis populations. MS and SZ share common intrinsic susceptibility factors and etiopathogenic mechanisms, which may change the way we approach clinical management of SZ patients. Among the most relevant common pathogenic pathways of SZ and MS are alterations in the sphingolipids (SLs) metabolism and SLs homeostasis. SLs have important structural functions as they participate in the formation of membrane \"lipid rafts.\" SLs also play physiological roles in cell differentiation, proliferation, and inflammatory processes, which might be part of MS/SZ common pathophysiological processes. In this article we review a plausible mechanism to explain the link between MS and SZ through a disruption in SL homeostasis. Additionally, we provide insights on how this hypothesis can lead to the developing of new diagnostic/therapeutic technologies for SZ patients."
+  ],
+  "affiliation": [
+    "Translational Psychiatry Laboratory, Clínica Psiquiátrica Universitaria, Hospital Clínico Universidad de Chile Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Schizophrenia",
+        "metabolic syndrome",
+        "Psychosis",
+        "Sphingolipids"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5100552?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5100552"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fnins.2016.00488"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-08"
+  ],
+  "firstPublicationDate": [
+    "2016-11-08"
+  ]
+}

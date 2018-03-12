@@ -1,0 +1,850 @@
+{
+  "id": [
+    "27803513"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27803513"
+  ],
+  "pmcid": [
+    "PMC5075643"
+  ],
+  "doi": [
+    "10.1155/2016/1258504"
+  ],
+  "title": [
+    "ATP Induces IL-1β Secretion in Neisseria gonorrhoeae-Infected Human Macrophages by a Mechanism Not Related to the NLRP3/ASC/Caspase-1 Axis."
+  ],
+  "authorString": [
+    "García K, Escobar G, Mendoza P, Beltran C, Perez C, Arancibia S, Vernal R, Rodas PI, Acuña-Castillo C, Escobar A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García K"
+          ],
+          "firstName": [
+            "Killen"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escobar G"
+          ],
+          "firstName": [
+            "Gisselle"
+          ],
+          "lastName": [
+            "Escobar"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mendoza P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Mendoza"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Beltran C"
+          ],
+          "firstName": [
+            "Caroll"
+          ],
+          "lastName": [
+            "Beltran"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Perez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Banco de Sangre, Hospital Clínico de la Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arancibia S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Arancibia"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3421-2920",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Investigación y Desarrollo, Laboratorio Centrovet, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vernal R"
+          ],
+          "firstName": [
+            "Rolando"
+          ],
+          "lastName": [
+            "Vernal"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Odontología Conservadora, Facultad de Odontología, Universidad de Chile, Santiago, Chile; Unidad de Odontología, Facultad de Ciencias de la Salud, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodas PI"
+          ],
+          "firstName": [
+            "Paula I"
+          ],
+          "lastName": [
+            "Rodas"
+          ],
+          "initials": [
+            "PI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8071-1229",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Integrative Medicine and Innovative Science, Facultad de Medicina, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña-Castillo C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Acuña-Castillo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Inmunología, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escobar A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Escobar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1587-4179",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1587-4179",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8071-1229",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3421-2920",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2389471"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Mediators of inflammation"
+          ],
+          "ISOAbbreviation": [
+            "Mediators Inflamm."
+          ],
+          "medlineAbbreviation": [
+            "Mediators Inflamm"
+          ],
+          "NLMid": [
+            "9209001"
+          ],
+          "ISSN": [
+            "0962-9351"
+          ],
+          "ESSN": [
+            "1466-1861"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "1258504"
+  ],
+  "abstractText": [
+    "Neisseria gonorrhoeae (Ngo) has developed multiple immune evasion mechanisms involving the innate and adaptive immune responses. Recent findings have reported that Ngo reduces the IL-1β secretion of infected human monocyte-derived macrophages (MDM). Here, we investigate the role of adenosine triphosphate (ATP) in production and release of IL-1β in Ngo-infected MDM. We found that the exposure of Ngo-infected MDM to ATP increases IL-1β levels about ten times compared with unexposed Ngo-infected MDM (P < 0.01). However, we did not observe any changes in inflammasome transcriptional activation of speck-like protein containing a caspase recruitment domain (CARD) (ASC, P > 0.05) and caspase-1 (CASP1, P > 0.05). In addition, ATP was not able to modify caspase-1 activity in Ngo-infected MDM but was able to increase pyroptosis (P > 0.01). Notably ATP treatment defined an increase of positive staining for IL-1β with a distinctive intracellular pattern of distribution. Collectively, these data demonstrate that ATP induces IL-1β secretion by a mechanism not related to the NLRP3/ASC/caspase-1 axis and likely is acting at the level of vesicle trafficking or pore formation."
+  ],
+  "affiliation": [
+    "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cells, Cultured"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Macrophages"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neisseria gonorrhoeae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PY"
+                  ],
+                  "qualifierName": [
+                    "pathogenicity"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Caspases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Organic Anion Transporters, Sodium-Dependent"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Symporters"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adenosine Triphosphate"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Flow Cytometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Apoptosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Interleukin-1beta"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Real-Time Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "NLR Family, Pyrin Domain-Containing 3 Protein"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "sodium-bile acid cotransporter"
+          ],
+          "registryNumber": [
+            "145420-23-1"
+          ]
+        },
+        {
+          "name": [
+            "Symporters"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Organic Anion Transporters, Sodium-Dependent"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Caspases"
+          ],
+          "registryNumber": [
+            "EC 3.4.22.-"
+          ]
+        },
+        {
+          "name": [
+            "Interleukin-1beta"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "NLRP3 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Adenosine Triphosphate"
+          ],
+          "registryNumber": [
+            "8L70Q75FXE"
+          ]
+        },
+        {
+          "name": [
+            "NLR Family, Pyrin Domain-Containing 3 Protein"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5075643?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5075643"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/1258504"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-05-19"
+  ],
+  "dateOfCreation": [
+    "2016-11-02"
+  ],
+  "dateOfRevision": [
+    "2017-05-19"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-10"
+  ],
+  "firstPublicationDate": [
+    "2016-10-10"
+  ]
+}

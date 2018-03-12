@@ -1,0 +1,372 @@
+{
+  "id": [
+    "28818897"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28818897"
+  ],
+  "pmcid": [
+    "PMC5604770"
+  ],
+  "doi": [
+    "10.1128/genomea.00786-17"
+  ],
+  "title": [
+    "Draft Genome Sequence of Bacillus sp. Strain K2I17, Isolated from the Rhizosphere of Deschampsia antarctica Desv."
+  ],
+  "authorString": [
+    "Pavón A, Orellana P, Salazar L, Céspedes S, Muiño L, Gutiérrez A, Castillo D, Corsini G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pavón A"
+          ],
+          "firstName": [
+            "Alequis"
+          ],
+          "lastName": [
+            "Pavón"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Orellana P"
+          ],
+          "firstName": [
+            "Paz"
+          ],
+          "lastName": [
+            "Orellana"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Céspedes S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Céspedes"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muiño L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Muiño"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6198-5304",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutiérrez A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Gutiérrez"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "BIOREN-UFRO and Departamento de Producción Agropecuaria, Facultad de Ciencias Agropecuarias y Forestales, Universidad de la Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Marine Biological Section, University of Copenhagen, Helsingør, Denmark daniel.castillo@bio.ku.dk gino.corsini@uautonoma.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Corsini G"
+          ],
+          "firstName": [
+            "Gino"
+          ],
+          "lastName": [
+            "Corsini"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile daniel.castillo@bio.ku.dk gino.corsini@uautonoma.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6198-5304",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "33"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2588268"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome announcements"
+          ],
+          "ISOAbbreviation": [
+            "Genome Announc"
+          ],
+          "medlineAbbreviation": [
+            "Genome Announc"
+          ],
+          "NLMid": [
+            "101595808"
+          ],
+          "ISSN": [
+            "2169-8287"
+          ],
+          "ESSN": [
+            "2169-8287"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "We present here the draft genome sequence of Bacillus sp. strain K2I17, which was isolated from the rhizosphere of Deschampsia antarctica Desv. The genomic sequence contained 6,113,341 bp. This genome provides insights into the possible new biomedical and biotechnical applications of this specific Antarctic bacterium."
+  ],
+  "affiliation": [
+    "Facultad de Ciencias de la Salud, Instituto de Ciencias Biomédicas, Universidad Autónoma de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5604770?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5604770"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/genomeA.00786-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-18"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-17"
+  ],
+  "firstPublicationDate": [
+    "2017-08-17"
+  ]
+}

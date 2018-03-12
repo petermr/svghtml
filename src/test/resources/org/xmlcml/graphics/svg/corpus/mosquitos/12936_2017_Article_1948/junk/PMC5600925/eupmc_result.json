@@ -1,0 +1,285 @@
+{
+  "id": [
+    "28955215"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28955215"
+  ],
+  "pmcid": [
+    "PMC5600925"
+  ],
+  "doi": [
+    "10.3389/fnhum.2017.00454"
+  ],
+  "title": [
+    "Cold-Blooded Attention: Finger Temperature Predicts Attentional Performance."
+  ],
+  "authorString": [
+    "Vergara RC, Moënne-Loccoz C, Maldonado PE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vergara RC"
+          ],
+          "firstName": [
+            "Rodrigo C"
+          ],
+          "lastName": [
+            "Vergara"
+          ],
+          "initials": [
+            "RC"
+          ],
+          "affiliation": [
+            "Departmento de Neurociencia & Biomedical Neuroscience Institute, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moënne-Loccoz C"
+          ],
+          "firstName": [
+            "Cristóbal"
+          ],
+          "lastName": [
+            "Moënne-Loccoz"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias de la Computación, Escuela de Ingeniería, Pontificia Universidad Católica de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado PE"
+          ],
+          "firstName": [
+            "Pedro E"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "PE"
+          ],
+          "affiliation": [
+            "Departmento de Neurociencia & Biomedical Neuroscience Institute, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2550584"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in human neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Front Hum Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Front Hum Neurosci"
+          ],
+          "NLMid": [
+            "101477954"
+          ],
+          "ISSN": [
+            "1662-5161"
+          ],
+          "ESSN": [
+            "1662-5161"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "454"
+  ],
+  "abstractText": [
+    "Thermal stress has been shown to increase the chances of unsafe behavior during industrial and driving performances due to reductions in mental and attentional resources. Nonetheless, establishing appropriate safety standards regarding environmental temperature has been a major problem, as modulations are also be affected by the task type, complexity, workload, duration, and previous experience with the task. To bypass this attentional and thermoregulatory problem, we focused on the body rather than environmental temperature. Specifically, we measured tympanic, forehead, finger and environmental temperatures accompanied by a battery of attentional tasks. We considered a 10 min baseline period wherein subjects were instructed to sit and relax, followed by three attentional tasks: a continuous performance task (CPT), a flanker task (FT) and a counting task (CT). Using multiple linear regression models, we evaluated which variable(s) were the best predictors of performance. The results showed a decrement in finger temperature due to instruction and task engagement that was absent when the subject was instructed to relax. No changes were observed in tympanic or forehead temperatures, while the environmental temperature remained almost constant for each subject. Specifically, the magnitude of the change in finger temperature was the best predictor of performance in all three attentional tasks. The results presented here suggest that finger temperature can be used as a predictor of alertness, as it predicted performance in attentional tasks better than environmental temperature. These findings strongly support that peripheral temperature can be used as a tool to prevent unsafe behaviors and accidents."
+  ],
+  "affiliation": [
+    "Departmento de Neurociencia & Biomedical Neuroscience Institute, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cognition",
+        "Body temperature",
+        "Attention",
+        "Workload",
+        "Autonomic Response"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5600925?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5600925"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fnhum.2017.00454"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-28"
+  ],
+  "dateOfRevision": [
+    "2017-10-01"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-12"
+  ],
+  "firstPublicationDate": [
+    "2017-09-12"
+  ]
+}

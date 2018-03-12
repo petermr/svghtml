@@ -1,0 +1,785 @@
+{
+  "id": [
+    "28877254"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28877254"
+  ],
+  "pmcid": [
+    "PMC5587261"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0183953"
+  ],
+  "title": [
+    "Prevalence, awareness, treatment and control of diabetes and impaired fasting glucose in the Southern Cone of Latin America."
+  ],
+  "authorString": [
+    "Irazola V, Rubinstein A, Bazzano L, Calandrelli M, Chung-Shiuan C, Elorriaga N, Gutierrez L, Lanas F, Manfredi JA, Mores N, Olivera H, Poggio R, Ponzo J, Seron P, He J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Irazola V"
+          ],
+          "firstName": [
+            "Vilma"
+          ],
+          "lastName": [
+            "Irazola"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Rubinstein A"
+          ],
+          "firstName": [
+            "Adolfo"
+          ],
+          "lastName": [
+            "Rubinstein"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Bazzano L"
+          ],
+          "firstName": [
+            "Lydia"
+          ],
+          "lastName": [
+            "Bazzano"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Epidemiology and Department of Medicine, Tulane University School of Public Health and Tropical Medicine, New Orleans, Louisiana, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Calandrelli M"
+          ],
+          "firstName": [
+            "Matias"
+          ],
+          "lastName": [
+            "Calandrelli"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Sanatorio San Carlos, San Carlos de Bariloche, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Chung-Shiuan C"
+          ],
+          "firstName": [
+            "Chen"
+          ],
+          "lastName": [
+            "Chung-Shiuan"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Epidemiology and Department of Medicine, Tulane University School of Public Health and Tropical Medicine, New Orleans, Louisiana, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Elorriaga N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Elorriaga"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutierrez L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Gutierrez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Lanas F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Lanas"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "CIGES, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Manfredi JA"
+          ],
+          "firstName": [
+            "Jose A"
+          ],
+          "lastName": [
+            "Manfredi"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de la República, Centro Cívico Salvador Allende, Canelones, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Mores N"
+          ],
+          "firstName": [
+            "Nora"
+          ],
+          "lastName": [
+            "Mores"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Municipalidad de Marcos Paz, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Olivera H"
+          ],
+          "firstName": [
+            "Hector"
+          ],
+          "lastName": [
+            "Olivera"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Municipalidad de Marcos Paz, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Poggio R"
+          ],
+          "firstName": [
+            "Rosana"
+          ],
+          "lastName": [
+            "Poggio"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ponzo J"
+          ],
+          "firstName": [
+            "Jacqueline"
+          ],
+          "lastName": [
+            "Ponzo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de la República, Centro Cívico Salvador Allende, Canelones, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Seron P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Seron"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "CIGES, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "He J"
+          ],
+          "firstName": [
+            "Jiang"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Epidemiology and Department of Medicine, Tulane University School of Public Health and Tropical Medicine, New Orleans, Louisiana, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2591647"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0183953"
+  ],
+  "abstractText": [
+    "To determine the prevalence, treatment and control of diabetes mellitus (DM) and impaired fasting glucose (IFG) as well as associated factors in the adult population of four cities of the Southern Cone of Latin America (SCLA).This is a cross-sectional population-based study that included 7407 adults between 35 and 74 years old in four cities of the SCLA: Temuco (Chile), Marcos Paz and Bariloche (Argentina), and Pando-Barros Blancos (Uruguay). DM was defined as fasting plasma glucose ≥126 mg/dL or self-reported history of diabetes. Awareness, treatment, and control of DM were defined as subjects self-reporting a DM previous diagnosis, the use of a prescription medication or nonpharmacological intervention for DM, and fasting plasma glucose <126 mg/dl, respectively.Prevalence of DM varied among cities, between 8.4% in Bariloche and 14.3% in Temuco. Prevalence of IFG varied at different sites, from 3.5% in Barros Blancos to 6.8% in Marcos Paz. Of the total number of people with diabetes, 20% were newly diagnosed at the time of the study. Overall, 79.8% of patients with diabetes were aware of their condition. The treatment and control rate were 58.8% and 46.2%, respectively. Older age, family history of diabetes, lower educational attainment, overweight, obesity, central obesity, low physical activity, hypertension, hypercholesterolemia and hypertriglyceridemia were all significantly associated with an increased risk of diabetes.The prevalence of DM and IFG in the adult population of the SCLA is high and varies among cities. These conditions represent a public health challenge since the rates of awareness, treatment, and control are still low."
+  ],
+  "affiliation": [
+    "South American Center of Excellence for Cardiovascular Health, CESCAS, Institute for Clinical Effectiveness and Health Policy, IECS, Buenos Aires, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetes Mellitus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PX"
+                  ],
+                  "qualifierName": [
+                    "psychology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TH"
+                  ],
+                  "qualifierName": [
+                    "therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prediabetic State"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PX"
+                  ],
+                  "qualifierName": [
+                    "psychology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TH"
+                  ],
+                  "qualifierName": [
+                    "therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Blood Glucose"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prevalence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Knowledge, Attitudes, Practice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Argentina"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Uruguay"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Blood Glucose"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5587261?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5587261"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0183953"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-03"
+  ],
+  "dateOfCreation": [
+    "2017-09-06"
+  ],
+  "dateOfRevision": [
+    "2017-10-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-06"
+  ],
+  "firstPublicationDate": [
+    "2017-09-06"
+  ]
+}

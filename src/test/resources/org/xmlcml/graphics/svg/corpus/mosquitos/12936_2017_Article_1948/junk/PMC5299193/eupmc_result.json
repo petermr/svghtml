@@ -1,0 +1,328 @@
+{
+  "id": [
+    "28246551"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28246551"
+  ],
+  "pmcid": [
+    "PMC5299193"
+  ],
+  "doi": [
+    "10.1155/2017/4310469"
+  ],
+  "title": [
+    "Oxidative Stress in Disease and Aging: Mechanisms and Therapies 2016."
+  ],
+  "authorString": [
+    "Cabello-Verrugio C, Simon F, Trollet C, Santibañez JF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cabello-Verrugio C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Cabello-Verrugio"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7273-2102",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Biología y Fisiopatología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas and Facultad de Medicina, Universidad Andres Bello, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Simon F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Simon"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Santiago, Chile; Laboratorio de Fisiología Integrativa, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas and Facultad de Medicina, Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Trollet C"
+          ],
+          "firstName": [
+            "Capucine"
+          ],
+          "lastName": [
+            "Trollet"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4838-3712",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Sorbonne Universités, UPMC Univ Paris 06, Centre de Recherche en Myologie, INSERM UMRS974, CNRS FRE3617, Institut de Myologie, 47 bd de l'Hôpital, 75013 Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Santibañez JF"
+          ],
+          "firstName": [
+            "Juan F"
+          ],
+          "lastName": [
+            "Santibañez"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9951-8990",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory for Experimental Hematology and Stem Cells, Institute for Medical Research, University of Belgrade, Serbia; Laboratorio de Bionanotecnologia, Universidad Bernardo O'Higgins, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7273-2102",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4838-3712",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9951-8990",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517874"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oxidative medicine and cellular longevity"
+          ],
+          "ISOAbbreviation": [
+            "Oxid Med Cell Longev"
+          ],
+          "medlineAbbreviation": [
+            "Oxid Med Cell Longev"
+          ],
+          "NLMid": [
+            "101479826"
+          ],
+          "ISSN": [
+            "1942-0900"
+          ],
+          "ESSN": [
+            "1942-0994"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4310469"
+  ],
+  "affiliation": [
+    "Laboratorio de Biología y Fisiopatología Molecular, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas and Facultad de Medicina, Universidad Andres Bello, Santiago, Chile; Millennium Institute on Immunology and Immunotherapy, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5299193?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5299193"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/4310469"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-01"
+  ],
+  "dateOfRevision": [
+    "2017-03-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-26"
+  ],
+  "firstPublicationDate": [
+    "2017-01-26"
+  ]
+}

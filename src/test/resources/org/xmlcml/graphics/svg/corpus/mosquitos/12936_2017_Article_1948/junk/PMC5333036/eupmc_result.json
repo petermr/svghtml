@@ -1,0 +1,440 @@
+{
+  "id": [
+    "28125019"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28125019"
+  ],
+  "pmcid": [
+    "PMC5333036"
+  ],
+  "doi": [
+    "10.3390/genes8020047"
+  ],
+  "title": [
+    "Erratum: Hwang Y.T. et al. Molecular Inconsistencies in a Fragile X Male with Early Onset Ataxia. Genes 2016, 7, 68."
+  ],
+  "authorString": [
+    "Hwang YT, Dudding T, Aliaga SM, Arpone M, Francis D, Li X, Slater HR, Rogers C, Bretherton L, du Sart D, Heard R, Godler DE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hwang YT"
+          ],
+          "firstName": [
+            "Yun Tae"
+          ],
+          "lastName": [
+            "Hwang"
+          ],
+          "initials": [
+            "YT"
+          ],
+          "affiliation": [
+            "Institute of Neurology, University College London, London WC1N 3BG, UK. y.hwang@ucl.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Dudding T"
+          ],
+          "firstName": [
+            "Tracy"
+          ],
+          "lastName": [
+            "Dudding"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Grow Up Well Priority Research Centre, University of Newcastle, Waratah 2308, Australia. Tracy.Dudding@hnehealth.nsw.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Aliaga SM"
+          ],
+          "firstName": [
+            "Solange Mabel"
+          ],
+          "lastName": [
+            "Aliaga"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Molecular and Cytogenetics Laboratory, INTA University of Chile, Santiago 7830490, Chile. solange.aliagavera@mcri.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Arpone M"
+          ],
+          "firstName": [
+            "Marta"
+          ],
+          "lastName": [
+            "Arpone"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Child Neuropsychology, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. marta.arpone@mcri.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Francis D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Francis"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Cyto-molecular Diagnostic Research Laboratory, Victorian Clinical Genetics Services and Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. david.francis@vcgs.org.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xin"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Cyto-molecular Diagnostic Research Laboratory, Victorian Clinical Genetics Services and Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. xin.li@mcri.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Slater HR"
+          ],
+          "firstName": [
+            "Howard Robert"
+          ],
+          "lastName": [
+            "Slater"
+          ],
+          "initials": [
+            "HR"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Dentistry and Health Sciences, University of Melbourne, Melbourne 3010, Australia. howard.slater@vcgs.org.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Rogers C"
+          ],
+          "firstName": [
+            "Carolyn"
+          ],
+          "lastName": [
+            "Rogers"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Genetics of Learning Disability Service, Hunter Genetics, Waratah 2298, Australia. Carolyn.Rogers@hnehealth.nsw.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Bretherton L"
+          ],
+          "firstName": [
+            "Lesley"
+          ],
+          "lastName": [
+            "Bretherton"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Child Neuropsychology, Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. Lesley.Bretherton@rch.org.au."
+          ]
+        },
+        {
+          "fullName": [
+            "du Sart D"
+          ],
+          "firstName": [
+            "Desirée"
+          ],
+          "lastName": [
+            "du Sart"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Molecular Genetics Laboratory, Victorian Clinical Genetics Services and Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. dusart.desiree@mcri.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Heard R"
+          ],
+          "firstName": [
+            "Robert"
+          ],
+          "lastName": [
+            "Heard"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Westmead Millennium Institute, University of Sydney, Westmead 2145, Australia. morkeu@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Godler DE"
+          ],
+          "firstName": [
+            "David Eugeny"
+          ],
+          "lastName": [
+            "Godler"
+          ],
+          "initials": [
+            "DE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6405-269X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cyto-molecular Diagnostic Research Laboratory, Victorian Clinical Genetics Services and Murdoch Childrens Research Institute, Royal Children's Hospital, Melbourne 3052, Australia. david.godler@mcri.edu.au."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6405-269X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2518502"
+      ],
+      "dateOfPublication": [
+        "2017 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genes"
+          ],
+          "ISOAbbreviation": [
+            "Genes (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Genes (Basel)"
+          ],
+          "NLMid": [
+            "101551097"
+          ],
+          "ISSN": [
+            "2073-4425"
+          ],
+          "ESSN": [
+            "2073-4425"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "n/a."
+  ],
+  "affiliation": [
+    "Institute of Neurology, University College London, London WC1N 3BG, UK. y.hwang@ucl.ac.uk."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5333036?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5333036"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/genes8020047"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-01-26"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-24"
+  ],
+  "firstPublicationDate": [
+    "2017-01-24"
+  ]
+}

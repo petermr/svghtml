@@ -1,0 +1,380 @@
+{
+  "id": [
+    "29317513"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29317513"
+  ],
+  "pmcid": [
+    "PMC5760743"
+  ],
+  "doi": [
+    "10.1128/mbio.02144-17"
+  ],
+  "title": [
+    "Cyclic AMP Regulates Bacterial Persistence through Repression of the Oxidative Stress Response and SOS-Dependent DNA Repair in Uropathogenic Escherichia coli."
+  ],
+  "authorString": [
+    "Molina-Quiroz RC, Silva-Valenzuela C, Brewster J, Castro-Nallar E, Levy SB, Camilli A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Molina-Quiroz RC"
+          ],
+          "firstName": [
+            "Roberto C"
+          ],
+          "lastName": [
+            "Molina-Quiroz"
+          ],
+          "initials": [
+            "RC"
+          ],
+          "affiliation": [
+            "Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva-Valenzuela C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Silva-Valenzuela"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Brewster J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Brewster"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Center for Adaptation Genetics and Drug Resistance, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro-Nallar E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Castro-Nallar"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4384-8661",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Levy SB"
+          ],
+          "firstName": [
+            "Stuart B"
+          ],
+          "lastName": [
+            "Levy"
+          ],
+          "initials": [
+            "SB"
+          ],
+          "affiliation": [
+            "Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, Massachusetts, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Camilli A"
+          ],
+          "firstName": [
+            "Andrew"
+          ],
+          "lastName": [
+            "Camilli"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, Massachusetts, USA Andrew.Camilli@tufts.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4384-8661",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2634205"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "mBio"
+          ],
+          "ISOAbbreviation": [
+            "MBio"
+          ],
+          "medlineAbbreviation": [
+            "MBio"
+          ],
+          "NLMid": [
+            "101519231"
+          ],
+          "ISSN": [
+            "2150-7511"
+          ],
+          "ESSN": [
+            "2150-7511"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "abstractText": [
+    "Bacterial persistence is a transient, nonheritable physiological state that provides tolerance to bactericidal antibiotics. The stringent response, toxin-antitoxin modules, and stochastic processes, among other mechanisms, play roles in this phenomenon. How persistence is regulated is relatively ill defined. Here we show that cyclic AMP, a global regulator of carbon catabolism and other core processes, is a negative regulator of bacterial persistence in uropathogenic Escherichia coli, as measured by survival after exposure to a β-lactam antibiotic. This phenotype is regulated by a set of genes leading to an oxidative stress response and SOS-dependent DNA repair. Thus, persister cells tolerant to cell wall-acting antibiotics must cope with oxidative stress and DNA damage and these processes are regulated by cyclic AMP in uropathogenic E. coliIMPORTANCE Bacterial persister cells are important in relapsing infections in patients treated with antibiotics and also in the emergence of antibiotic resistance. Our results show that in uropathogenic E. coli, the second messenger cyclic AMP negatively regulates persister cell formation, since in its absence much more persister cells form that are tolerant to β-lactams antibiotics. We reveal the mechanism to be decreased levels of reactive oxygen species, specifically hydroxyl radicals, and SOS-dependent DNA repair. Our findings suggest that the oxidative stress response and DNA repair are relevant pathways to target in the design of persister-specific antibiotic compounds."
+  ],
+  "affiliation": [
+    "Department of Molecular Biology and Microbiology, Tufts University School of Medicine, Boston, Massachusetts, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 AI055058"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Dormancy",
+        "DNA damage",
+        "Antibiotics",
+        "cAMP",
+        "Oxidative stress",
+        "Crp",
+        "Sos Response",
+        "Tn-seq",
+        "Persister Cells"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5760743?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5760743"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1128/mBio.02144-17"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refseq"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-01-11"
+  ],
+  "dateOfRevision": [
+    "2018-01-25"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-09"
+  ],
+  "firstPublicationDate": [
+    "2018-01-09"
+  ]
+}

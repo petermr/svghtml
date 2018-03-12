@@ -1,0 +1,404 @@
+{
+  "id": [
+    "29069082"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29069082"
+  ],
+  "pmcid": [
+    "PMC5656312"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0185851"
+  ],
+  "title": [
+    "Discovery of the first ichthyosaur from the Jurassic of India: Implications for Gondwanan palaeobiogeography."
+  ],
+  "authorString": [
+    "Prasad GVR, Pandey DK, Alberti M, Fürsich FT, Thakkar MG, Chauhan GD."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Prasad GVR"
+          ],
+          "firstName": [
+            "Guntupalli V R"
+          ],
+          "lastName": [
+            "Prasad"
+          ],
+          "initials": [
+            "GVR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0620-4712",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Geology, Centre for Advanced Studies, University of Delhi, Delhi, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Pandey DK"
+          ],
+          "firstName": [
+            "Dhirendra K"
+          ],
+          "lastName": [
+            "Pandey"
+          ],
+          "initials": [
+            "DK"
+          ],
+          "affiliation": [
+            "Earth and Planetary Sciences Group, Manipal Center for Natural Sciences, Manipal University, Manipal, Karnataka, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Alberti M"
+          ],
+          "firstName": [
+            "Matthias"
+          ],
+          "lastName": [
+            "Alberti"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Institut für Geowissenschaften, Christian-Albrechts-Universität zu Kiel, Kiel, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Fürsich FT"
+          ],
+          "firstName": [
+            "Franz T"
+          ],
+          "lastName": [
+            "Fürsich"
+          ],
+          "initials": [
+            "FT"
+          ],
+          "affiliation": [
+            "GeoZentrum Nordbayern, Friedrich-Alexander-Universität Erlangen-Nürnberg, Erlangen, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Thakkar MG"
+          ],
+          "firstName": [
+            "Mahesh G"
+          ],
+          "lastName": [
+            "Thakkar"
+          ],
+          "initials": [
+            "MG"
+          ],
+          "affiliation": [
+            "Department of Earth and Environmental Science, KSKV Kachchh University, Bhuj, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Chauhan GD"
+          ],
+          "firstName": [
+            "Gaurav D"
+          ],
+          "lastName": [
+            "Chauhan"
+          ],
+          "initials": [
+            "GD"
+          ],
+          "affiliation": [
+            "Department of Earth and Environmental Science, KSKV Kachchh University, Bhuj, India."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0620-4712",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0185851"
+  ],
+  "abstractText": [
+    "An articulated and partially preserved skeleton of an ichthyosaur was found in the Upper Jurassic (Upper Kimmeridgian) Katrol Formation exposed at a site south of the village Lodai in Kachchh district, Gujarat (western India). Here we present a detailed description and inferred taxonomic relationship of the specimen. The present study revealed that the articulated skeleton belongs to the family Ophthalmosauridae. The new discovery from India further improves the depauperate fossil record of ichthyosaurs from the former Gondwanan continents. Based on the preserved length of the axial skeleton and anterior part of the snout and taking into account the missing parts of the skull and postflexural region, it is suggested that the specimen may represent an adult possibly reaching a length of 5.0-5.5 m. The widespread occurrence of ophthalmosaurids in the Upper Jurassic deposits of western Tethys, Madagascar, South America and India points to possible faunal exchanges between the western Tethys and Gondwanan continents through a southern seaway."
+  ],
+  "affiliation": [
+    "Department of Geology, Centre for Advanced Studies, University of Delhi, Delhi, India."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Dinosaurs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Paleontology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fossils"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "India"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5656312?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5656312"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0185851"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-21"
+  ],
+  "dateOfCreation": [
+    "2017-10-26"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-25"
+  ],
+  "firstPublicationDate": [
+    "2017-10-25"
+  ]
+}

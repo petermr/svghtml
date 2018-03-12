@@ -1,0 +1,490 @@
+{
+  "id": [
+    "29049384"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29049384"
+  ],
+  "pmcid": [
+    "PMC5648121"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0185908"
+  ],
+  "title": [
+    "Ideal cardiovascular health predicts lower risk of abnormal liver enzymes levels in the Chilean National Health Survey (2009-2010)."
+  ],
+  "authorString": [
+    "García-Hermoso A, Hackney AC, Ramírez-Vélez R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García-Hermoso A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "García-Hermoso"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Ciencias de la Actividad Física, el Deporte y la Salud, Facultad de Ciencias Médicas, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hackney AC"
+          ],
+          "firstName": [
+            "Anthony C"
+          ],
+          "lastName": [
+            "Hackney"
+          ],
+          "initials": [
+            "AC"
+          ],
+          "affiliation": [
+            "Endocrine Section-Applied Physiology Laboratory, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez-Vélez R"
+          ],
+          "firstName": [
+            "Robinson"
+          ],
+          "lastName": [
+            "Ramírez-Vélez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3075-6960",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Estudios para la Medición de la Actividad Física «CEMA». Escuela de Medicina y Ciencias de la Salud, Universidad del Rosario, Bogotá D.C, Colombia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3075-6960",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0185908"
+  ],
+  "abstractText": [
+    "High levels of gamma glutamyltransferase (gamma-GT) and alanine aminotransferase (ALT), as well as fatty liver index (FLI) has been associated with higher cardiovascular disease risk factors in adults. The aim of this study was to examine the relationship between gamma-GT, ALT, and fatty liver index FLI levels across a gradient number of ideal cardiovascular health metrics in a representative sample of adults from the Chilean National Health Survey 2009-2010. Data from 1,023 men and 1,449 women (≥ 15 years) from the Chilean Health Survey 2009-2010 were analyzed. Ideal cardiovascular health was defined as meeting ideal levels of the following components: four behaviours (smoking, body mass index, physical activity and diet adherence) and three factors (total cholesterol, blood pressure and fasting glucose). Adults were grouped into three categories according to their number of ideal cardiovascular health metrics: ideal (5-7 metrics), intermediate (3-4 metrics), and poor (0-2 metrics). Blood levels of gamma-GT and ALT were measured and the FLI was calculated. A higher number of ideal cardiovascular health index metric was associated with lower gamma-GT, ALT and FLI (p from trend analysis <0.001). Also, adults meeting at least 3-4 metrics were predicted less likely to have prevalence of abnormal levels of gamma-GT and FLI (p<0.001) compared to adults who met only 0-2 metrics. These findings reinforce the usefulness of the ideal cardiovascular health metrics proposed by the American Heart Association as a tool to identify target subjects and promote cardiovascular health in South-American adults."
+  ],
+  "affiliation": [
+    "Laboratorio de Ciencias de la Actividad Física, el Deporte y la Salud, Facultad de Ciencias Médicas, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Liver"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Cardiovascular System"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "gamma-Glutamyltransferase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alanine Transaminase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Health Surveys"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Alanine Transaminase"
+          ],
+          "registryNumber": [
+            "EC 2.6.1.2"
+          ]
+        },
+        {
+          "name": [
+            "gamma-Glutamyltransferase"
+          ],
+          "registryNumber": [
+            "EC 2.3.2.2"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5648121?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5648121"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0185908"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-07"
+  ],
+  "dateOfCreation": [
+    "2017-10-20"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-19"
+  ],
+  "firstPublicationDate": [
+    "2017-10-19"
+  ]
+}

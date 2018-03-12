@@ -1,0 +1,494 @@
+{
+  "id": [
+    "28143593"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28143593"
+  ],
+  "pmcid": [
+    "PMC5282780"
+  ],
+  "doi": [
+    "10.1186/s12711-017-0291-8"
+  ],
+  "title": [
+    "The use of genomic information increases the accuracy of breeding value predictions for sea louse (Caligus rogercresseyi) resistance in Atlantic salmon (Salmo salar)."
+  ],
+  "authorString": [
+    "Correa K, Bangera R, Figueroa R, Lhorente JP, Yáñez JM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Correa K"
+          ],
+          "firstName": [
+            "Katharina"
+          ],
+          "lastName": [
+            "Correa"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bangera R"
+          ],
+          "firstName": [
+            "Rama"
+          ],
+          "lastName": [
+            "Bangera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Figueroa R"
+          ],
+          "firstName": [
+            "René"
+          ],
+          "lastName": [
+            "Figueroa"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lhorente JP"
+          ],
+          "firstName": [
+            "Jean P"
+          ],
+          "lastName": [
+            "Lhorente"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Yáñez JM"
+          ],
+          "firstName": [
+            "José M"
+          ],
+          "lastName": [
+            "Yáñez"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6612-4087",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile. jmayanez@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6612-4087",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "49"
+      ],
+      "journalIssueId": [
+        "2514191"
+      ],
+      "dateOfPublication": [
+        "2017 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genetics, selection, evolution : GSE"
+          ],
+          "ISOAbbreviation": [
+            "Genet. Sel. Evol."
+          ],
+          "medlineAbbreviation": [
+            "Genet Sel Evol"
+          ],
+          "NLMid": [
+            "9114088"
+          ],
+          "ISSN": [
+            "0999-193X"
+          ],
+          "ESSN": [
+            "1297-9686"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "15"
+  ],
+  "abstractText": [
+    "Sea lice infestations caused by Caligus rogercresseyi are a main concern to the salmon farming industry due to associated economic losses. Resistance to this parasite was shown to have low to moderate genetic variation and its genetic architecture was suggested to be polygenic. The aim of this study was to compare accuracies of breeding value predictions obtained with pedigree-based best linear unbiased prediction (P-BLUP) methodology against different genomic prediction approaches: genomic BLUP (G-BLUP), Bayesian Lasso, and Bayes C. To achieve this, 2404 individuals from 118 families were measured for C. rogercresseyi count after a challenge and genotyped using 37 K single nucleotide polymorphisms. Accuracies were assessed using fivefold cross-validation and SNP densities of 0.5, 1, 5, 10, 25 and 37 K. Accuracy of genomic predictions increased with increasing SNP density and was higher than pedigree-based BLUP predictions by up to 22%. Both Bayesian and G-BLUP methods can predict breeding values with higher accuracies than pedigree-based BLUP, however, G-BLUP may be the preferred method because of reduced computation time and ease of implementation. A relatively low marker density (i.e. 10 K) is sufficient for maximal increase in accuracy when using G-BLUP or Bayesian methods for genomic prediction of C. rogercresseyi resistance in Atlantic salmon."
+  ],
+  "affiliation": [
+    "Aquainnovo, Cardonal s/n Lote B, Puerto Montt, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Salmo salar"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reproducibility of Results"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Breeding"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Association Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phthiraptera"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5282780?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5282780"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12711-017-0291-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-02-23"
+  ],
+  "dateOfCreation": [
+    "2017-02-01"
+  ],
+  "dateOfRevision": [
+    "2017-02-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-31"
+  ],
+  "firstPublicationDate": [
+    "2017-01-31"
+  ]
+}

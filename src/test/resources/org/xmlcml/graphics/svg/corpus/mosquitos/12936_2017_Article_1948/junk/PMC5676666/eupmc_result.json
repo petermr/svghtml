@@ -1,0 +1,342 @@
+{
+  "id": [
+    "28974037"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28974037"
+  ],
+  "pmcid": [
+    "PMC5676666"
+  ],
+  "doi": [
+    "10.3390/s17102262"
+  ],
+  "title": [
+    "A Method for Automatic Surface Inspection Using a Model-Based 3D Descriptor."
+  ],
+  "authorString": [
+    "Madrigal CA, Branch JW, Restrepo A, Mery D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Madrigal CA"
+          ],
+          "firstName": [
+            "Carlos A"
+          ],
+          "lastName": [
+            "Madrigal"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4775-9642",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Electrónica, Instituto Tecnológico Metropolitano, Medellín 050013, Colombia. carlosmadrigal@itm.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Branch JW"
+          ],
+          "firstName": [
+            "John W"
+          ],
+          "lastName": [
+            "Branch"
+          ],
+          "initials": [
+            "JW"
+          ],
+          "affiliation": [
+            "Facultad de Minas, Universidad Nacional de Colombia, Medellín 050041, Colombia. jwbranch@unal.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Restrepo A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Restrepo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8978-2077",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Minas, Universidad Nacional de Colombia, Medellín 050041, Colombia. arestre5@unal.edu.co."
+          ]
+        },
+        {
+          "fullName": [
+            "Mery D"
+          ],
+          "firstName": [
+            "Domingo"
+          ],
+          "lastName": [
+            "Mery"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4748-3882",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias de la Computación, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. domingo.mery@uc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4775-9642",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8978-2077",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4748-3882",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2603424"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Automatic visual inspection allows for the identification of surface defects in manufactured parts. Nevertheless, when defects are on a sub-millimeter scale, detection and recognition are a challenge. This is particularly true when the defect generates topological deformations that are not shown with strong contrast in the 2D image. In this paper, we present a method for recognizing surface defects in 3D point clouds. Firstly, we propose a novel 3D local descriptor called the Model Point Feature Histogram (MPFH) for defect detection. Our descriptor is inspired from earlier descriptors such as the Point Feature Histogram (PFH). To construct the MPFH descriptor, the models that best fit the local surface and their normal vectors are estimated. For each surface model, its contribution weight to the formation of the surface region is calculated and from the relative difference between models of the same region a histogram is generated representing the underlying surface changes. Secondly, through a classification stage, the points on the surface are labeled according to five types of primitives and the defect is detected. Thirdly, the connected components of primitives are projected to a plane, forming a 2D image. Finally, 2D geometrical features are extracted and by a support vector machine, the defects are recognized. The database used is composed of 3D simulated surfaces and 3D reconstructions of defects in welding, artificial teeth, indentations in materials, ceramics and 3D models of defects. The quantitative and qualitative results showed that the proposed method of description is robust to noise and the scale factor, and it is sufficiently discriminative for detecting some surface defects. The performance evaluation of the proposed method was performed for a classification task of the 3D point cloud in primitives, reporting an accuracy of 95%, which is higher than for other state-of-art descriptors. The rate of recognition of defects was close to 94%."
+  ],
+  "affiliation": [
+    "Departamento de Ingeniería Electrónica, Instituto Tecnológico Metropolitano, Medellín 050013, Colombia. carlosmadrigal@itm.edu.co."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "3d Point Cloud",
+        "3D Inspection",
+        "Defects Detection",
+        "Surface Quality Inspection"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5676666?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5676666"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s17102262"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-05"
+  ],
+  "dateOfRevision": [
+    "2018-01-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-02"
+  ],
+  "firstPublicationDate": [
+    "2017-10-02"
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "id": [
+    "28623340"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28623340"
+  ],
+  "pmcid": [
+    "PMC5473813"
+  ],
+  "doi": [
+    "10.1038/s41598-017-03928-x"
+  ],
+  "title": [
+    "Adenovirus-mediated suppression of hypothalamic glucokinase affects feeding behavior."
+  ],
+  "authorString": [
+    "Uranga RM, Millán C, Barahona MJ, Recabal A, Salgado M, Martinez F, Ordenes P, Elizondo-Vega R, Sepúlveda F, Uribe E, García-Robles MLÁ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Uranga RM"
+          ],
+          "firstName": [
+            "Romina María"
+          ],
+          "lastName": [
+            "Uranga"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Bioquímicas de Bahía Blanca, Universidad Nacional del Sur, y Consejo Nacional de Investigaciones Científicas y Técnicas, Bahía Blanca, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Millán C"
+          ],
+          "firstName": [
+            "Carola"
+          ],
+          "lastName": [
+            "Millán"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Facultad de Artes Liberales, Facultad de Ingeniería y Ciencias, Universidad Adolfo Ibáñez, Viña del Mar Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barahona MJ"
+          ],
+          "firstName": [
+            "María José"
+          ],
+          "lastName": [
+            "Barahona"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Recabal A"
+          ],
+          "firstName": [
+            "Antonia"
+          ],
+          "lastName": [
+            "Recabal"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salgado M"
+          ],
+          "firstName": [
+            "Magdiel"
+          ],
+          "lastName": [
+            "Salgado"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Martinez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ordenes P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Ordenes"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Elizondo-Vega R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "Elizondo-Vega"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe E"
+          ],
+          "firstName": [
+            "Elena"
+          ],
+          "lastName": [
+            "Uribe"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García-Robles MLÁ"
+          ],
+          "firstName": [
+            "María de Los Ángeles"
+          ],
+          "lastName": [
+            "García-Robles"
+          ],
+          "initials": [
+            "MLÁ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8482-0361",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología Celular, Universidad de Concepción, Concepción, Chile. mgarcia@udec.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8482-0361",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2562821"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "3697"
+  ],
+  "abstractText": [
+    "Glucokinase (GK), the hexokinase involved in glucosensing in pancreatic β-cells, is also expressed in arcuate nucleus (AN) neurons and hypothalamic tanycytes, the cells that surround the basal third ventricle (3V). Several lines of evidence suggest that tanycytes may be involved in the regulation of energy homeostasis. Tanycytes have extended cell processes that contact the feeding-regulating neurons in the AN, particularly, agouti-related protein (AgRP), neuropeptide Y (NPY), cocaine- and amphetamine-regulated transcript (CART) and proopiomelanocortin (POMC) neurons. In this study, we developed an adenovirus expressing GK shRNA to inhibit GK expression in vivo. When injected into the 3V of rats, this adenovirus preferentially transduced tanycytes. qRT-PCR and Western blot assays confirmed GK mRNA and protein levels were lower in GK knockdown animals compared to the controls. In response to an intracerebroventricular glucose injection, the mRNA levels of anorexigenic POMC and CART and orexigenic AgRP and NPY neuropeptides were altered in GK knockdown animals. Similarly, food intake, meal duration, frequency of eating events and the cumulative eating time were increased, whereas the intervals between meals were decreased in GK knockdown rats, suggesting a decrease in satiety. Thus, GK expression in the ventricular cells appears to play an important role in feeding behavior."
+  ],
+  "affiliation": [
+    "Instituto de Investigaciones Bioquímicas de Bahía Blanca, Universidad Nacional del Sur, y Consejo Nacional de Investigaciones Científicas y Técnicas, Bahía Blanca, Argentina."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473813?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5473813"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-03928-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-06-17"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-16"
+  ],
+  "firstPublicationDate": [
+    "2017-06-16"
+  ]
+}

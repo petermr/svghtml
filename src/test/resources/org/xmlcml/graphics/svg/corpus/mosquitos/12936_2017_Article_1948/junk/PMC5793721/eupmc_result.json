@@ -1,0 +1,347 @@
+{
+  "id": [
+    "29360975"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29360975"
+  ],
+  "pmcid": [
+    "PMC5793721"
+  ],
+  "doi": [
+    "10.1093/gbe/evy020"
+  ],
+  "title": [
+    "Comparative Genomics of Tenacibaculum dicentrarchi and \"Tenacibaculum finnmarkense\" Highlights Intricate Evolution of Fish-Pathogenic Species."
+  ],
+  "authorString": [
+    "Bridel S, Olsen AB, Nilsen H, Bernardet JF, Achaz G, Avendaño-Herrera R, Duchaud E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bridel S"
+          ],
+          "firstName": [
+            "Sébastien"
+          ],
+          "lastName": [
+            "Bridel"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "VIM, INRA, Université Paris-Saclay, Jouy-en-Josas, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Olsen AB"
+          ],
+          "firstName": [
+            "Anne-Berit"
+          ],
+          "lastName": [
+            "Olsen"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "affiliation": [
+            "Norwegian Veterinary Institute, Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Nilsen H"
+          ],
+          "firstName": [
+            "Hanne"
+          ],
+          "lastName": [
+            "Nilsen"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Norwegian Veterinary Institute, Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Bernardet JF"
+          ],
+          "firstName": [
+            "Jean-François"
+          ],
+          "lastName": [
+            "Bernardet"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "affiliation": [
+            "VIM, INRA, Université Paris-Saclay, Jouy-en-Josas, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Achaz G"
+          ],
+          "firstName": [
+            "Guillaume"
+          ],
+          "lastName": [
+            "Achaz"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Atelier de Bioinformatique, UMR 7205 ISyEB, MNHN-UPMC-CNRS-EPHE, Muséum National d'Histoire Naturelle, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Avendaño-Herrera R"
+          ],
+          "firstName": [
+            "Ruben"
+          ],
+          "lastName": [
+            "Avendaño-Herrera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Patología de Organismos Acuáticos y Biotecnología Acuícola, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Viña del Mar, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Duchaud E"
+          ],
+          "firstName": [
+            "Eric"
+          ],
+          "lastName": [
+            "Duchaud"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "VIM, INRA, Université Paris-Saclay, Jouy-en-Josas, France."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2646406"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genome biology and evolution"
+          ],
+          "ISOAbbreviation": [
+            "Genome Biol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Genome Biol Evol"
+          ],
+          "NLMid": [
+            "101509707"
+          ],
+          "ISSN": [
+            "1759-6653"
+          ],
+          "ESSN": [
+            "1759-6653"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "452-457"
+  ],
+  "abstractText": [
+    "The genus Tenacibaculum encompasses several species pathogenic for marine fish. Tenacibaculum dicentrarchi and \"Tenacibaculum finnmarkense\" (Quotation marks denote species that have not been validly named.) were retrieved from skin lesions of farmed fish such as European sea bass or Atlantic salmon. They cause a condition referred to as tenacibaculosis and severe outbreaks and important fish losses have been reported in Spanish, Norwegian, and Chilean marine farms. We report here the draft genomes of the T. dicentrarchi and \"T. finnmarkense\" type strains. These genomes were compared with draft genomes from field isolates retrieved from Chile and Norway and with previously published Tenacibaculum genomes. We used Average Nucleotide Identity and core genome-based phylogeny as a proxy index for species boundary delineation. This work highlights evolution of closely related fish-pathogenic species and suggests that homologous recombination likely contributes to genome evolution. It also corrects the species affiliation of strain AYD7486TD claimed by Grothusen et al. (2016)."
+  ],
+  "affiliation": [
+    "VIM, INRA, Université Paris-Saclay, Jouy-en-Josas, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Evolution",
+        "Virulence",
+        "Genomes",
+        "Fish Pathogens",
+        "Tenacibaculosis",
+        "Tenacibaculum"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5793721?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5793721"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/gbe/evy020"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "firstPublicationDate": [
+    "2018-01-19"
+  ]
+}

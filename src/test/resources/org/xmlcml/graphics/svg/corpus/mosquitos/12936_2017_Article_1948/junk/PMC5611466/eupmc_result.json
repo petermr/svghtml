@@ -1,0 +1,250 @@
+{
+  "id": [
+    "28989297"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28989297"
+  ],
+  "pmcid": [
+    "PMC5611466"
+  ],
+  "doi": [
+    "10.3897/bdj.5.e15919"
+  ],
+  "title": [
+    "New records for millipedes from southern Chile (Polydesmida: Dalodesmidae; Polyzoniida: Siphonotidae)."
+  ],
+  "authorString": [
+    "Mesibov RE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mesibov RE"
+          ],
+          "firstName": [
+            "Robert Evan"
+          ],
+          "lastName": [
+            "Mesibov"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "affiliation": [
+            "No affiliation for this profile, West Ulverstone, Tasmania,, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2538986"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biodiversity data journal"
+          ],
+          "ISOAbbreviation": [
+            "Biodivers Data J"
+          ],
+          "medlineAbbreviation": [
+            "Biodivers Data J"
+          ],
+          "NLMid": [
+            "101619899"
+          ],
+          "ISSN": [
+            "1314-2828"
+          ],
+          "ESSN": [
+            "1314-2828"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e15919"
+  ],
+  "abstractText": [
+    "Millipedes from 1983 collections by the author in southern Chile have been identified and registered as specimen lots at the Queen Victoria Museum and Art Gallery (QVMAG) in Launceston, Tasmania.Collection and specimen data from the new QVMAG specimen lots have been archived in Darwin Core format together with a KML file of occurrences. The 31 occurrence records in the Darwin Core Archive list 13 millipede taxa from 16 sites in Llanquihue and Osorno provinces, Chile."
+  ],
+  "affiliation": [
+    "No affiliation for this profile, West Ulverstone, Tasmania,, Australia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Polydesmida",
+        "Dalodesmidae",
+        "Polyzoniida",
+        "Siphonotidae"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5611466?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5611466"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3897/BDJ.5.e15919"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-10-09"
+  ],
+  "dateOfRevision": [
+    "2017-10-09"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-09"
+  ],
+  "firstPublicationDate": [
+    "2017-09-09"
+  ]
+}

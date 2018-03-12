@@ -1,0 +1,468 @@
+{
+  "id": [
+    "28333998"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28333998"
+  ],
+  "pmcid": [
+    "PMC5363922"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0174348"
+  ],
+  "title": [
+    "Calibrating coseismic coastal land-level changes during the 2014 Iquique (Mw=8.2) earthquake (northern Chile) with leveling, GPS and intertidal biota."
+  ],
+  "authorString": [
+    "Jaramillo E, Melnick D, Baez JC, Montecino H, Lagos NA, Acuña E, Manzano M, Camus PA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Jaramillo E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Jaramillo"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8054-6980",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra (ICT), Facultad de Ciencias and TAQUACH (Transdisciplinary Center for Quaternary Research), Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Melnick D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Melnick"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8397-7391",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra (ICT), Facultad de Ciencias and TAQUACH (Transdisciplinary Center for Quaternary Research), Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Baez JC"
+          ],
+          "firstName": [
+            "Juan Carlos"
+          ],
+          "lastName": [
+            "Baez"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Centro Sismológico Nacional, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecino H"
+          ],
+          "firstName": [
+            "Henry"
+          ],
+          "lastName": [
+            "Montecino"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Geodésicas, Universidad de Concepción, Los Angeles, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagos NA"
+          ],
+          "firstName": [
+            "Nelson A"
+          ],
+          "lastName": [
+            "Lagos"
+          ],
+          "initials": [
+            "NA"
+          ],
+          "affiliation": [
+            "Centro de Investigación e Innovación para el Cambio Climático (CIICC-UST), Facultad de Ciencias, Universidad Santo Tomás, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña E"
+          ],
+          "firstName": [
+            "Emilio"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra (ICT), Facultad de Ciencias and TAQUACH (Transdisciplinary Center for Quaternary Research), Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Manzano M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Manzano"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Programa de Doctorado en Biología Marina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Camus PA"
+          ],
+          "firstName": [
+            "Patricio A"
+          ],
+          "lastName": [
+            "Camus"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Centro de Investigación en Biodiversidad y Ambientes Sustentables (CIBAS), Departamento de Ecología, Facultad de Ciencias, Universidad Católica de la Santísima Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8397-7391",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8054-6980",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2528339"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0174348"
+  ],
+  "abstractText": [
+    "The April 1st 2014 Iquique earthquake (MW 8.1) occurred along the northern Chile margin where the Nazca plate is subducted below the South American continent. The last great megathrust earthquake here, in 1877 of Mw ~8.8 opened a seismic gap, which was only partly closed by the 2014 earthquake. Prior to the earthquake in 2013, and shortly after it we compared data from leveled benchmarks, deployed campaign GPS instruments, continuous GPS stations and estimated sea levels using the upper vertical level of rocky shore benthic organisms including algae, barnacles, and mussels. Land-level changes estimated from mean elevations of benchmarks indicate subsidence along a ~100-km stretch of coast, ranging from 3 to 9 cm at Corazones (18°30'S) to between 30 and 50 cm at Pisagua (19°30'S). About 15 cm of uplift was measured along the southern part of the rupture at Chanabaya (20°50'S). Land-level changes obtained from benchmarks and campaign GPS were similar at most sites (mean difference 3.7±3.2 cm). Higher differences however, were found between benchmarks and continuous GPS (mean difference 8.5±3.6 cm), possibly because sites were not collocated and separated by several kilometers. Subsidence estimated from the upper limits of intertidal fauna at Pisagua ranged between 40 to 60 cm, in general agreement with benchmarks and GPS. At Chanavaya, the magnitude and sense of displacement of the upper marine limit was variable across species, possibly due to species-dependent differences in ecology. Among the studied species, measurements on lithothamnioid calcareous algae most closely matched those made with benchmarks and GPS. When properly calibrated, rocky shore benthic species may be used to accurately measure land-level changes along coasts affected by subduction earthquakes. Our calibration of those methods will improve their accuracy when applied to coasts lacking pre-earthquake data and in estimating deformation during pre-instrumental earthquakes."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias de la Tierra (ICT), Facultad de Ciencias and TAQUACH (Transdisciplinary Center for Quaternary Research), Universidad Austral de Chile, Valdivia, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cyanobacteria"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Ecosystem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bivalvia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Earthquakes"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Biota"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5363922?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5363922"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0174348"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-08-25"
+  ],
+  "dateOfCreation": [
+    "2017-03-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-23"
+  ],
+  "firstPublicationDate": [
+    "2017-03-23"
+  ]
+}

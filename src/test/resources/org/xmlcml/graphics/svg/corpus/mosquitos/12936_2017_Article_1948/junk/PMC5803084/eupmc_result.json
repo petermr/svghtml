@@ -1,0 +1,280 @@
+{
+  "id": [
+    "29430556"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29430556"
+  ],
+  "pmcid": [
+    "PMC5803084"
+  ],
+  "doi": [
+    "10.1016/j.ensci.2016.12.001"
+  ],
+  "title": [
+    "eNeurologicalSci - Special Issue on Neurological Disorders in South America."
+  ],
+  "authorString": [
+    "Caramelli P, Conforto AB, Verdugo RJ, Allegri R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Caramelli P"
+          ],
+          "firstName": [
+            "Paulo"
+          ],
+          "lastName": [
+            "Caramelli"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Faculdade de Medicina da Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, MG, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Conforto AB"
+          ],
+          "firstName": [
+            "Adriana B"
+          ],
+          "lastName": [
+            "Conforto"
+          ],
+          "initials": [
+            "AB"
+          ],
+          "affiliation": [
+            "Hospital das Clinicas/São Paulo University and Hospital Israelita Albert Einstein, São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Verdugo RJ"
+          ],
+          "firstName": [
+            "Renato J"
+          ],
+          "lastName": [
+            "Verdugo"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Faculty of Medicine, Clinica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Allegri R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Allegri"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Neurological Research Institute Raúl Carrea, Buenos Aires, Argentina."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2527613"
+      ],
+      "dateOfPublication": [
+        "2016 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "eNeurologicalSci"
+          ],
+          "ISOAbbreviation": [
+            "eNeurologicalSci"
+          ],
+          "medlineAbbreviation": [
+            "eNeurologicalSci"
+          ],
+          "NLMid": [
+            "101667077"
+          ],
+          "ISSN": [
+            "2405-6502"
+          ],
+          "ESSN": [
+            "2405-6502"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "41"
+  ],
+  "affiliation": [
+    "Faculdade de Medicina da Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, MG, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5803084?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5803084"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.ensci.2016.12.001"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-13"
+  ],
+  "dateOfRevision": [
+    "2018-02-12"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-15"
+  ],
+  "firstPublicationDate": [
+    "2016-12-15"
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "id": [
+    "29140977"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29140977"
+  ],
+  "pmcid": [
+    "PMC5687719"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0187163"
+  ],
+  "title": [
+    "Low cost and open source multi-fluorescence imaging system for teaching and research in biology and bioengineering."
+  ],
+  "authorString": [
+    "Nuñez I, Matute T, Herrera R, Keymer J, Marzullo T, Rudge T, Federici F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Nuñez I"
+          ],
+          "firstName": [
+            "Isaac"
+          ],
+          "lastName": [
+            "Nuñez"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Matute T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Matute"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herrera R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "Herrera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Backyard Brains, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Keymer J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Keymer"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento Ecología, Facultad Ciencias Biológicas; Instituto de Física, Facultad de Física, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Marzullo T"
+          ],
+          "firstName": [
+            "Timothy"
+          ],
+          "lastName": [
+            "Marzullo"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Backyard Brains, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rudge T"
+          ],
+          "firstName": [
+            "Timothy"
+          ],
+          "lastName": [
+            "Rudge"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Institute for Biological and Medical Engineering, Schools of Engineering, Medicine and Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Federici F"
+          ],
+          "firstName": [
+            "Fernán"
+          ],
+          "lastName": [
+            "Federici"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9200-5383",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Fondo de Desarrollo de Áreas Prioritarias, Center for Genome Regulation, Millennium Nucleus Center for Plant Systems and Synthetic Biology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9200-5383",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0187163"
+  ],
+  "abstractText": [
+    "The advent of easy-to-use open source microcontrollers, off-the-shelf electronics and customizable manufacturing technologies has facilitated the development of inexpensive scientific devices and laboratory equipment. In this study, we describe an imaging system that integrates low-cost and open-source hardware, software and genetic resources. The multi-fluorescence imaging system consists of readily available 470 nm LEDs, a Raspberry Pi camera and a set of filters made with low cost acrylics. This device allows imaging in scales ranging from single colonies to entire plates. We developed a set of genetic components (e.g. promoters, coding sequences, terminators) and vectors following the standard framework of Golden Gate, which allowed the fabrication of genetic constructs in a combinatorial, low cost and robust manner. In order to provide simultaneous imaging of multiple wavelength signals, we screened a series of long stokes shift fluorescent proteins that could be combined with cyan/green fluorescent proteins. We found CyOFP1, mBeRFP and sfGFP to be the most compatible set for 3-channel fluorescent imaging. We developed open source Python code to operate the hardware to run time-lapse experiments with automated control of illumination and camera and a Python module to analyze data and extract meaningful biological information. To demonstrate the potential application of this integral system, we tested its performance on a diverse range of imaging assays often used in disciplines such as microbial ecology, microbiology and synthetic biology. We also assessed its potential use in a high school environment to teach biology, hardware design, optics, and programming. Together, these results demonstrate the successful integration of open source hardware, software, genetic resources and customizable manufacturing to obtain a powerful, low cost and robust system for education, scientific research and bioengineering. All the resources developed here are available under open source licenses."
+  ],
+  "affiliation": [
+    "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R44 MH093334"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Escherichia coli"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Equipment Design"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Equipment and Supplies"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ED"
+                  ],
+                  "qualifierName": [
+                    "education"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomedical Engineering"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomedical Research"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Optical Imaging"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IS"
+                  ],
+                  "qualifierName": [
+                    "instrumentation"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687719?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5687719"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0187163"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-11"
+  ],
+  "dateOfCreation": [
+    "2017-11-16"
+  ],
+  "dateOfRevision": [
+    "2018-01-01"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-15"
+  ],
+  "firstPublicationDate": [
+    "2017-11-15"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "id": [
+    "28533201"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28533201"
+  ],
+  "pmcid": [
+    "PMC5565868"
+  ],
+  "doi": [
+    "10.3399/bjgp17x691337"
+  ],
+  "title": [
+    "Enuresis: practical guidelines for primary care."
+  ],
+  "authorString": [
+    "Vande Walle J, Rittig S, Tekgül S, Austin P, Yang SS, Lopez PJ, Van Herzeele C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vande Walle J"
+          ],
+          "firstName": [
+            "Johan"
+          ],
+          "lastName": [
+            "Vande Walle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "University Hospital Ghent and SafePedrug, Ghent University, Ghent, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Rittig S"
+          ],
+          "firstName": [
+            "Soren"
+          ],
+          "lastName": [
+            "Rittig"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Nephron-urologic Team, Aarhus University Hospital, Aarhus, Denmark."
+          ]
+        },
+        {
+          "fullName": [
+            "Tekgül S"
+          ],
+          "firstName": [
+            "Serdar"
+          ],
+          "lastName": [
+            "Tekgül"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Urology, Hacettepe University, Ankara, Turkey."
+          ]
+        },
+        {
+          "fullName": [
+            "Austin P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Austin"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "St Louis Children's Hospital, Washington University School of Medicine, St Louis, US."
+          ]
+        },
+        {
+          "fullName": [
+            "Yang SS"
+          ],
+          "firstName": [
+            "Stephen Shei-Dei"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "SS"
+          ],
+          "affiliation": [
+            "Taipei Tzu Chi Hospital, Buddhist Medical Foundation, Taiwan. School of Medicine, Buddhist Tzu Chi University, Hualien, Taiwan."
+          ]
+        },
+        {
+          "fullName": [
+            "Lopez PJ"
+          ],
+          "firstName": [
+            "Pédro-José"
+          ],
+          "lastName": [
+            "Lopez"
+          ],
+          "initials": [
+            "PJ"
+          ],
+          "affiliation": [
+            "Hospital Exequiel González Cortés, Clinica Alemana, and Chile Sociedad Iberoamericana de Urología Pediátrica, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Van Herzeele C"
+          ],
+          "firstName": [
+            "Charlotte"
+          ],
+          "lastName": [
+            "Van Herzeele"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "University Hospital Ghent and Ghent University, Ghent, Belgium."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "660"
+      ],
+      "volume": [
+        "67"
+      ],
+      "journalIssueId": [
+        "2571877"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "The British journal of general practice : the journal of the Royal College of General Practitioners"
+          ],
+          "ISOAbbreviation": [
+            "Br J Gen Pract"
+          ],
+          "medlineAbbreviation": [
+            "Br J Gen Pract"
+          ],
+          "NLMid": [
+            "9005323"
+          ],
+          "ISSN": [
+            "0960-1643"
+          ],
+          "ESSN": [
+            "1478-5242"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "328-329"
+  ],
+  "affiliation": [
+    "University Hospital Ghent and SafePedrug, Ghent University, Ghent, Belgium."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5565868?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5565868"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3399/bjgp17X691337"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-23"
+  ],
+  "dateOfRevision": [
+    "2017-11-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-22"
+  ],
+  "firstPublicationDate": [
+    "2017-05-22"
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": [
+    "28272317"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28272317"
+  ],
+  "pmcid": [
+    "PMC5372737"
+  ],
+  "doi": [
+    "10.3390/biom7010025"
+  ],
+  "title": [
+    "Modulation of the Proteostasis Machinery to  Overcome Stress Caused by Diminished Levels of  t6A-Modified tRNAs in Drosophila."
+  ],
+  "authorString": [
+    "Rojas-Benítez D, Eggers C, Glavic A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rojas-Benítez D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Rojas-Benítez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Regulación del Genoma, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Ñuñoa, Santiago 7800024, Chile.. diegorojasb@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Eggers C"
+          ],
+          "firstName": [
+            "Cristián"
+          ],
+          "lastName": [
+            "Eggers"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Regulación del Genoma, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Ñuñoa, Santiago 7800024, Chile.. ceggersa@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Glavic A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Glavic"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Regulación del Genoma, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Ñuñoa, Santiago 7800024, Chile.. alglavic@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2529780"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biomolecules"
+          ],
+          "ISOAbbreviation": [
+            "Biomolecules"
+          ],
+          "medlineAbbreviation": [
+            "Biomolecules"
+          ],
+          "NLMid": [
+            "101596414"
+          ],
+          "ISSN": [
+            "2218-273X"
+          ],
+          "ESSN": [
+            "2218-273X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Transfer RNAs (tRNAs) harbor a subset of post-transcriptional modifications required for structural stability or decoding function. N6-threonylcarbamoyladenosine (t6A) is a universally conserved modification found at position 37 in tRNA that pair A-starting codons (ANN) and is required for proper translation initiation and to prevent frame shift during elongation. In its absence, the synthesis of aberrant proteins is likely, evidenced by the formation of protein aggregates. In this work, our aim was to study the relationship between t6A-modified tRNAs and protein synthesis homeostasis machinery using Drosophila melanogaster. We used the Gal4/UAS system to knockdown genes required for t6A synthesis in a tissue and time specific manner and in vivo reporters of unfolded protein response (UPR) activation. Our results suggest that t6A-modified tRNAs, synthetized by the threonyl-carbamoyl transferase complex (TCTC), are required for organismal growth and imaginal cell survival, and is most likely to support proper protein synthesis."
+  ],
+  "affiliation": [
+    "Centro de Regulación del Genoma, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, Ñuñoa, Santiago 7800024, Chile.. diegorojasb@ug.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P40 OD018537"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "OD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Drosophila melanogaster"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Drosophila Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Transfer"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adenosine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AA"
+                  ],
+                  "qualifierName": [
+                    "analogs & derivatives"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Biosynthesis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Processing, Post-Transcriptional"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Unfolded Protein Response"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Trna  Post‐transcriptional  Modification",
+        "  N6‐threonylcarbamoyladenosine",
+        "  Unfolded  Protein response"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "N(6)-(N-threonylcarbonyl)adenosine"
+          ],
+          "registryNumber": [
+            "24719-82-2"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Transfer"
+          ],
+          "registryNumber": [
+            "9014-25-9"
+          ]
+        },
+        {
+          "name": [
+            "Drosophila Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Adenosine"
+          ],
+          "registryNumber": [
+            "K72T3FS567"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372737?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372737"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/biom7010025"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-11-08"
+  ],
+  "dateOfCreation": [
+    "2017-03-09"
+  ],
+  "dateOfRevision": [
+    "2018-02-05"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-06"
+  ],
+  "firstPublicationDate": [
+    "2017-03-06"
+  ]
+}

@@ -1,0 +1,678 @@
+{
+  "id": [
+    "28765613"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28765613"
+  ],
+  "pmcid": [
+    "PMC5539303"
+  ],
+  "doi": [
+    "10.1038/s41598-017-07622-w"
+  ],
+  "title": [
+    "Structural and functional identification of vasculogenic mimicry in vitro."
+  ],
+  "authorString": [
+    "Racordon D, Valdivia A, Mingo G, Erices R, Aravena R, Santoro F, Bravo ML, Ramirez C, Gonzalez P, Sandoval A, González A, Retamal C, Kogan MJ, Kato S, Cuello MA, Osorio G, Nualart F, Alvares P, Gago-Arias A, Fabri D, Espinoza I, Sanchez B, Corvalán AH, Pinto MP, Owen GI."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Racordon D"
+          ],
+          "firstName": [
+            "Dusan"
+          ],
+          "lastName": [
+            "Racordon"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdivia A"
+          ],
+          "firstName": [
+            "Andrés"
+          ],
+          "lastName": [
+            "Valdivia"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mingo G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Mingo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Erices R"
+          ],
+          "firstName": [
+            "Rafaela"
+          ],
+          "lastName": [
+            "Erices"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Division of Obstetrics & Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aravena R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Aravena"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Universidad Santo Tomás, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Santoro F"
+          ],
+          "firstName": [
+            "Felice"
+          ],
+          "lastName": [
+            "Santoro"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo ML"
+          ],
+          "firstName": [
+            "Maria Loreto"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramirez C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Ramirez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sandoval A"
+          ],
+          "firstName": [
+            "Alejandra"
+          ],
+          "lastName": [
+            "Sandoval"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González A"
+          ],
+          "firstName": [
+            "Alfonso"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Envejecimiento y Regeneración, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Retamal C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Retamal"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Envejecimiento y Regeneración, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kogan MJ"
+          ],
+          "firstName": [
+            "Marcelo J"
+          ],
+          "lastName": [
+            "Kogan"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kato S"
+          ],
+          "firstName": [
+            "Sumie"
+          ],
+          "lastName": [
+            "Kato"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Division of Obstetrics & Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuello MA"
+          ],
+          "firstName": [
+            "Mauricio A"
+          ],
+          "lastName": [
+            "Cuello"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2812-0015",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Obstetrics & Gynecology, Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Osorio G"
+          ],
+          "firstName": [
+            "German"
+          ],
+          "lastName": [
+            "Osorio"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Cellular Biology, Faculty of Biological Sciences, Universidad de Concepcion, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nualart F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Nualart"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Cellular Biology, Faculty of Biological Sciences, Universidad de Concepcion, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvares P"
+          ],
+          "firstName": [
+            "Pedro"
+          ],
+          "lastName": [
+            "Alvares"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Institute of Physics, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gago-Arias A"
+          ],
+          "firstName": [
+            "Araceli"
+          ],
+          "lastName": [
+            "Gago-Arias"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1999-2340",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Physics, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fabri D"
+          ],
+          "firstName": [
+            "Daniella"
+          ],
+          "lastName": [
+            "Fabri"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Institute of Physics, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza I"
+          ],
+          "firstName": [
+            "Ignacio"
+          ],
+          "lastName": [
+            "Espinoza"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Institute of Physics, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanchez B"
+          ],
+          "firstName": [
+            "Beatriz"
+          ],
+          "lastName": [
+            "Sanchez"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Institute of Physics, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalán AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalán"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinto MP"
+          ],
+          "firstName": [
+            "Mauricio P"
+          ],
+          "lastName": [
+            "Pinto"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile. gowen@bio.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2812-0015",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1999-2340",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "6985"
+  ],
+  "abstractText": [
+    "Vasculogenic mimicry (VM) describes a process by which cancer cells establish an alternative perfusion pathway in an endothelial cell-free manner. Despite its strong correlation with reduced patient survival, controversy still surrounds the existence of an in vitro model of VM. Furthermore, many studies that claim to demonstrate VM fail to provide solid evidence of true hollow channels, raising concerns as to whether actual VM is actually being examined. Herein, we provide a standardized in vitro assay that recreates the formation of functional hollow channels using ovarian cancer cell lines, cancer spheres and primary cultures derived from ovarian cancer ascites. X-ray microtomography 3D-reconstruction, fluorescence confocal microscopy and dye microinjection conclusively confirm the existence of functional glycoprotein-rich lined tubular structures in vitro and demonstrate that many of structures reported in the literature may not represent VM. This assay may be useful to design and test future VM-blocking anticancer therapies."
+  ],
+  "affiliation": [
+    "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539303?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539303"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-07622-w"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-02"
+  ],
+  "dateOfRevision": [
+    "2017-08-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-01"
+  ],
+  "firstPublicationDate": [
+    "2017-08-01"
+  ]
+}

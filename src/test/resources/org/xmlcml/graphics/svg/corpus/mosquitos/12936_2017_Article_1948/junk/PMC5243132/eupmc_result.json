@@ -1,0 +1,293 @@
+{
+  "id": [
+    "28144287"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28144287"
+  ],
+  "pmcid": [
+    "PMC5243132"
+  ],
+  "doi": [
+    "10.3332/ecancer.2017.713"
+  ],
+  "title": [
+    "Estimation of life expectancy of patients diagnosed with the most common cancers in the Valparaiso Region, Chile."
+  ],
+  "authorString": [
+    "Taramasco C, Figueroa K, Lazo Y, Demongeot J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Taramasco C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Taramasco"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Civil en Informática, Universidad de Valparaíso, 2362905, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Figueroa K"
+          ],
+          "firstName": [
+            "K"
+          ],
+          "lastName": [
+            "Figueroa"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Civil en Informática, Universidad de Valparaíso, 2362905, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lazo Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Lazo"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Civil en Informática, Universidad de Valparaíso, 2362905, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Demongeot J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Demongeot"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Escuela de Ingeniería Civil en Informática, Universidad de Valparaíso, 2362905, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2519711"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Ecancermedicalscience"
+          ],
+          "ISOAbbreviation": [
+            "Ecancermedicalscience"
+          ],
+          "medlineAbbreviation": [
+            "Ecancermedicalscience"
+          ],
+          "NLMid": [
+            "101392236"
+          ],
+          "ISSN": [
+            "1754-6605"
+          ],
+          "ESSN": [
+            "1754-6605"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "713"
+  ],
+  "abstractText": [
+    "The 1000s of people who die from cancer each year have become one of the leading causes of death among the Chilean population, placing it as the second cause of death in the region of Valparaiso between 1997 and 2003. Statistics have provided different measures regarding the life expectancy of cancer patients which have resulted in being useful to establish courses of action for prevention and treatment plans to follow.Data was extracted from the cancer module of the Epidemiology Assistance System (SADEPI for its initials in Spanish) which stores information about cancer cases in the provinces of Valparaiso and Petorca. The survival period is defined as the difference in days between the date of occurrence and the date of death of the patient by separating the data into quartiles.The more frequent cancers in the region of Valparaiso behave similarly to global behaviours of the disease. The majority of affected patients are around 65 years of age which progressively lowers its occurrence in younger adults under the age of 45.Further efforts are required for early detection and timely access to treatment for cancer patients. Statistics are an important support in achieving this."
+  ],
+  "affiliation": [
+    "Escuela de Ingeniería Civil en Informática, Universidad de Valparaíso, 2362905, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Statistical methods",
+        "Cancerous Tumours",
+        "Prevalence Of Cancer"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5243132?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5243132"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3332/ecancer.2017.713"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-02-01"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-17"
+  ],
+  "firstPublicationDate": [
+    "2017-01-17"
+  ]
+}

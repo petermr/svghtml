@@ -1,0 +1,300 @@
+{
+  "id": [
+    "27807416"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27807416"
+  ],
+  "pmcid": [
+    "PMC5069290"
+  ],
+  "doi": [
+    "10.3389/fninf.2016.00040"
+  ],
+  "title": [
+    "Mobile Device Applications for the Visualization of Functional Connectivity Networks and EEG Electrodes: iBraiN and iBraiNEEG."
+  ],
+  "authorString": [
+    "Rojas GM, Fuentes JA, Gálvez M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rojas GM"
+          ],
+          "firstName": [
+            "Gonzalo M"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "GM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6228-2678",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory for Advanced Medical Image Processing, Department of Radiology, Clínica las CondesSantiago, Chile; Advanced Epilepsy Center, Clínica las CondesSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes JA"
+          ],
+          "firstName": [
+            "Jorge A"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Department of Radiology, Clínica las Condes Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gálvez M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Gálvez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Advanced Epilepsy Center, Clínica las CondesSantiago, Chile; Department of Radiology, Clínica las CondesSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6228-2678",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2378187"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in neuroinformatics"
+          ],
+          "ISOAbbreviation": [
+            "Front Neuroinform"
+          ],
+          "medlineAbbreviation": [
+            "Front Neuroinform"
+          ],
+          "NLMid": [
+            "101477957"
+          ],
+          "ISSN": [
+            "1662-5196"
+          ],
+          "ESSN": [
+            "1662-5196"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "40"
+  ],
+  "abstractText": [
+    "Multiple functional MRI (fMRI)-based functional connectivity networks were obtained by Yeo et al. (2011), and the visualization of these complex networks is a difficult task. Also, the combination of functional connectivity networks determined by fMRI with electroencephalography (EEG) data could be a very useful tool. Mobile devices are becoming increasingly common among users, and for this reason, we describe here two applications for Android and iOS mobile devices: one that shows in an interactive way the seven Yeo functional connectivity networks, and another application that shows the relative position of 10-20 EEG electrodes with Yeo's seven functional connectivity networks."
+  ],
+  "affiliation": [
+    "Laboratory for Advanced Medical Image Processing, Department of Radiology, Clínica las CondesSantiago, Chile; Advanced Epilepsy Center, Clínica las CondesSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "EEG",
+        "fMRI",
+        "Functional Connectivity",
+        "Smartphone",
+        "Intrinsic Connectivity Networks",
+        "Mobile Application",
+        "Eeg-fmri"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5069290?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5069290"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fninf.2016.00040"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-11-03"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-19"
+  ],
+  "firstPublicationDate": [
+    "2016-10-19"
+  ]
+}

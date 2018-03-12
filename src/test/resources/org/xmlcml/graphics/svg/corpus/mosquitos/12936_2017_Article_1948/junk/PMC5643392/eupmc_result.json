@@ -1,0 +1,290 @@
+{
+  "id": [
+    "29038489"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29038489"
+  ],
+  "pmcid": [
+    "PMC5643392"
+  ],
+  "doi": [
+    "10.1038/s41598-017-13313-3"
+  ],
+  "title": [
+    "Controlling the Quantum State with a time varying potential."
+  ],
+  "authorString": [
+    "Carrasco S, Rogan J, Valdivia JA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Carrasco S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Física, Facultad de Ciencias, Universidad de Chile, Casilla 653, Santiago, 7800024, Chile. sebastian.carrasco@ug.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Rogan J"
+          ],
+          "firstName": [
+            "José"
+          ],
+          "lastName": [
+            "Rogan"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Centro para la Nanociencia y la Nanotecnolgía, CEDENNA, Santiago, 9170124, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdivia JA"
+          ],
+          "firstName": [
+            "Juan Alejandro"
+          ],
+          "lastName": [
+            "Valdivia"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3381-9904",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro para la Nanociencia y la Nanotecnolgía, CEDENNA, Santiago, 9170124, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3381-9904",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2603102"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "13217"
+  ],
+  "abstractText": [
+    "The problem of controlling the quantum state of a system is investigated using a time varying potential. As a concrete example we study the problem of a particle in a box with a periodically oscillating infinite square-well potential, from which we obtain results that can be applied to systems with periodically oscillating boundary conditions. We derive an analytic expression for the frequencies of resonance between states, and against standard intuition, we show how to use this behavior to control the quantum state of the system at will. In particular, we offer as an example the transition from the ground state to the first excited state of the square well potential. At first sight, it may be counter intuitive that we can control the state of such a quantum Hamiltonian, as the Schrödinger equation conserves the norm of the wave function. In this manuscript, we show how that can be achieved."
+  ],
+  "affiliation": [
+    "Departamento de Física, Facultad de Ciencias, Universidad de Chile, Casilla 653, Santiago, 7800024, Chile. sebastian.carrasco@ug.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5643392?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5643392"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-13313-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-18"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-16"
+  ],
+  "firstPublicationDate": [
+    "2017-10-16"
+  ]
+}

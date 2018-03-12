@@ -1,0 +1,273 @@
+{
+  "id": [
+    "28717656"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28717656"
+  ],
+  "pmcid": [
+    "PMC5511793"
+  ],
+  "doi": [
+    "10.1002/mgg3.288"
+  ],
+  "title": [
+    "Commentary to medical genetics and genomic medicine in Chile: Chilean experience on molecular diagnosis for neurodegenerative disorders."
+  ],
+  "authorString": [
+    "Miranda M, Bustamante ML."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Miranda M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of NeurologyClínica Las CondesAv. Lo Fontecilla 441Las CondesSantiagoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustamante ML"
+          ],
+          "firstName": [
+            "María Leonor"
+          ],
+          "lastName": [
+            "Bustamante"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9071-2463",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Psychiatry and Mental Health North DivisionFaculty of MedicineUniversity of ChileAv. Independencia 1027IndependenciaSantiagoChile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9071-2463",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2578374"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecular genetics & genomic medicine"
+          ],
+          "ISOAbbreviation": [
+            "Mol Genet Genomic Med"
+          ],
+          "medlineAbbreviation": [
+            "Mol Genet Genomic Med"
+          ],
+          "NLMid": [
+            "101603758"
+          ],
+          "ISSN": [
+            "2324-9269"
+          ],
+          "ESSN": [
+            "2324-9269"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "305-306"
+  ],
+  "abstractText": [
+    "In this article, the experience in the molecular diagnosis in neurodegenerative disorders in Chile, including present challenges and potential new pathways for development, is explained."
+  ],
+  "affiliation": [
+    "Department of NeurologyClínica Las CondesAv. Lo Fontecilla 441Las CondesSantiagoChile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "article-commentary",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5511793?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5511793"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/mgg3.288"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-18"
+  ],
+  "dateOfRevision": [
+    "2017-07-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-02"
+  ],
+  "firstPublicationDate": [
+    "2017-05-02"
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "id": [
+    "29343858"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29343858"
+  ],
+  "pmcid": [
+    "PMC5772513"
+  ],
+  "doi": [
+    "10.1038/s41598-018-19324-y"
+  ],
+  "title": [
+    "Developmental pathways inferred from modularity, morphological integration and fluctuating asymmetry patterns in the human face."
+  ],
+  "authorString": [
+    "Quinto-Sánchez M, Muñoz-Muñoz F, Gomez-Valdes J, Cintas C, Navarro P, Cerqueira CCS, Paschetta C, de Azevedo S, Ramallo V, Acuña-Alonzo V, Adhikari K, Fuentes-Guajardo M, Hünemeier T, Everardo P, de Avila F, Jaramillo C, Arias W, Gallo C, Poletti G, Bedoya G, Bortolini MC, Canizales-Quinteros S, Rothhammer F, Rosique J, Ruiz-Linares A, Gonzalez-Jose R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Quinto-Sánchez M"
+          ],
+          "firstName": [
+            "Mirsha"
+          ],
+          "lastName": [
+            "Quinto-Sánchez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1173-4494",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Ciencia Forense, Facultad de Medicina, Universidad Nacional Autónoma de México, Ciudad de México, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz-Muñoz F"
+          ],
+          "firstName": [
+            "Francesc"
+          ],
+          "lastName": [
+            "Muñoz-Muñoz"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departament de Biologia Animal, de Biologia Vegetal i d'Ecologia, Facultat de Biociències, Universitat Autònoma de Barcelona, Avinguda de l'Eix Central, Edifici C, E-08193, Bellaterra (Cerdanyola del Vallès), Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez-Valdes J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Gomez-Valdes"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6996-2732",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Posgrado en Antropología Física, Escuela Nacional de Antropología e Historia, Ciudad de México, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Cintas C"
+          ],
+          "firstName": [
+            "Celia"
+          ],
+          "lastName": [
+            "Cintas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarro P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Navarro"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerqueira CCS"
+          ],
+          "firstName": [
+            "Caio Cesar Silva de"
+          ],
+          "lastName": [
+            "Cerqueira"
+          ],
+          "initials": [
+            "CCS"
+          ],
+          "affiliation": [
+            "Superintendência da Polícia Técnico-Científica do Estado de São Paulo. Equipe de Perícias Criminalísticas de Ourinhos, São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Paschetta C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Paschetta"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "de Azevedo S"
+          ],
+          "firstName": [
+            "Soledad"
+          ],
+          "lastName": [
+            "de Azevedo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramallo V"
+          ],
+          "firstName": [
+            "Virginia"
+          ],
+          "lastName": [
+            "Ramallo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña-Alonzo V"
+          ],
+          "firstName": [
+            "Victor"
+          ],
+          "lastName": [
+            "Acuña-Alonzo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Adhikari K"
+          ],
+          "firstName": [
+            "Kaustubh"
+          ],
+          "lastName": [
+            "Adhikari"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes-Guajardo M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Fuentes-Guajardo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Hünemeier T"
+          ],
+          "firstName": [
+            "Tábita"
+          ],
+          "lastName": [
+            "Hünemeier"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Departamento de Genética e Biologia Evolutiva, Instituto de Biociências, Universidade de São Paulo, São Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Everardo P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Everardo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Licenciatura en Antropología Física, Escuela Nacional de Antropología e Historia, Ciudad de México, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "de Avila F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "de Avila"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Licenciatura en Antropología Física, Escuela Nacional de Antropología e Historia, Ciudad de México, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Jaramillo C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Jaramillo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Universidad de Antioquia, Medellín, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Arias W"
+          ],
+          "firstName": [
+            "Williams"
+          ],
+          "lastName": [
+            "Arias"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Universidad de Antioquia, Medellín, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallo C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Gallo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorios de Investigación y Desarrollo, Facultad de Ciencias y Filosofía, Universidad Peruana Cayetano Heredia, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Poletti G"
+          ],
+          "firstName": [
+            "Giovani"
+          ],
+          "lastName": [
+            "Poletti"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratorios de Investigación y Desarrollo, Facultad de Ciencias y Filosofía, Universidad Peruana Cayetano Heredia, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Bedoya G"
+          ],
+          "firstName": [
+            "Gabriel"
+          ],
+          "lastName": [
+            "Bedoya"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Universidad de Antioquia, Medellín, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Bortolini MC"
+          ],
+          "firstName": [
+            "Maria Cátira"
+          ],
+          "lastName": [
+            "Bortolini"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Departamento de Genética, Instituto de Biociências, Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Canizales-Quinteros S"
+          ],
+          "firstName": [
+            "Samuel"
+          ],
+          "lastName": [
+            "Canizales-Quinteros"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Facultad de Química, UNAM, Mexico City, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Rothhammer F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Rothhammer"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Facultad Instituto de Alta Investigación Universidad de Tarapacá, Programa de Genética Humana ICBM Facultad de Medicina Universidad de Chile y Centro de Investigaciones del Hombre en el Desierto, Arica, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rosique J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Rosique"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Antropología, Facultad de Ciencias Sociales y Humanas. Universidad de Antioquia, Medellín, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz-Linares A"
+          ],
+          "firstName": [
+            "Andres"
+          ],
+          "lastName": [
+            "Ruiz-Linares"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Genetics, Evolution and Environment, and UCL Genetics Institute, University College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez-Jose R"
+          ],
+          "firstName": [
+            "Rolando"
+          ],
+          "lastName": [
+            "Gonzalez-Jose"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Instituto Patagónico de Ciencias Sociales y Humanas. Centro Nacional Patagónico, CONICET, Puerto Madryn, Argentina. rolando@cenpat-conicet.gob.ar."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1173-4494",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6996-2732",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2635309"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "963"
+  ],
+  "abstractText": [
+    "Facial asymmetries are usually measured and interpreted as proxies to developmental noise. However, analyses focused on its developmental and genetic architecture are scarce. To advance on this topic, studies based on a comprehensive and simultaneous analysis of modularity, morphological integration and facial asymmetries including both phenotypic and genomic information are needed. Here we explore several modularity hypotheses on a sample of Latin American mestizos, in order to test if modularity and integration patterns differ across several genomic ancestry backgrounds. To do so, 4104 individuals were analyzed using 3D photogrammetry reconstructions and a set of 34 facial landmarks placed on each individual. We found a pattern of modularity and integration that is conserved across sub-samples differing in their genomic ancestry background. Specifically, a signal of modularity based on functional demands and organization of the face is regularly observed across the whole sample. Our results shed more light on previous evidence obtained from Genome Wide Association Studies performed on the same samples, indicating the action of different genomic regions contributing to the expression of the nose and mouth facial phenotypes. Our results also indicate that large samples including phenotypic and genomic metadata enable a better understanding of the developmental and genetic architecture of craniofacial phenotypes."
+  ],
+  "affiliation": [
+    "Ciencia Forense, Facultad de Medicina, Universidad Nacional Autónoma de México, Ciudad de México, Mexico."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5772513?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5772513"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-19324-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-19"
+  ],
+  "dateOfRevision": [
+    "2018-01-28"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-17"
+  ],
+  "firstPublicationDate": [
+    "2018-01-17"
+  ]
+}

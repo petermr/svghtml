@@ -1,0 +1,665 @@
+{
+  "id": [
+    "28403225"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28403225"
+  ],
+  "pmcid": [
+    "PMC5389794"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0175400"
+  ],
+  "title": [
+    "Association of vitamin D deficiency, season of the year, and latent tuberculosis infection among household contacts."
+  ],
+  "authorString": [
+    "Balcells ME, García P, Tiznado C, Villarroel L, Scioscia N, Carvajal C, Zegna-Ratá F, Hernández M, Meza P, González LF, Peña C, Naves R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Balcells ME"
+          ],
+          "firstName": [
+            "María Elvira"
+          ],
+          "lastName": [
+            "Balcells"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7223-9665",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Enfermedades Infecciosas del Adulto, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tiznado C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Tiznado"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Villarroel L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Villarroel"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Salud Pública, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Scioscia N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Scioscia"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carvajal C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Carvajal"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Enfermedades Infecciosas del Adulto, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zegna-Ratá F"
+          ],
+          "firstName": [
+            "Francesca"
+          ],
+          "lastName": [
+            "Zegna-Ratá"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Enfermedades Infecciosas del Adulto, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández M"
+          ],
+          "firstName": [
+            "Mariluz"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Programa de Microbiología y Micología, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Meza P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Meza"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González LF"
+          ],
+          "firstName": [
+            "Luis F"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peña C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Peña"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Servicio de Respiratorio, Hospital San Borja Arriarán, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Naves R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Naves"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7223-9665",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2543035"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0175400"
+  ],
+  "abstractText": [
+    "Vitamin D (VD) enhances the immune response against Mycobacterium tuberculosis in vitro, and VD deficiency has been described in patients with active tuberculosis (TB). However, the role of hypovitaminosis D in the pathogenesis of early TB infection acquisition is unclear. We aimed to evaluate the association of VD deficiency, season of the year, and latent TB infection in household contacts (HHC), given that this is a potentially modifiable condition often related to nutritional deficiencies and lack of sun exposure.We prospectively enrolled new pulmonary TB cases (n = 107) and their HHC (n = 144) over a 2-year period in Santiago, Chile. We compared plasma 25-hydroxycholecalciferol (25OHD) levels and examined the influence of season, ethnic background, living conditions, and country of origin.Over 77% of TB cases and 62.6% of HHC had VD deficiency (<20 ng/ml). Median 25OHD concentration was significantly lower in TB cases than in HHC (11.7 vs. 18.2 ng/ml, p<0.0001). Migrants HHC had lower 25OHD levels than non-migrants (14.6 vs. 19.0 ng/ml, p = 0.026), and a trend towards a higher burden of latent TB infection (52.9% vs. 35.2%, p = 0.066). Multivariate analysis found VD deficiency in HHC was strongly associated with being sampled in winter/spring (adOR 25.68, 95%CI 7.35-89.7), corresponding to the seasons with lowest solar radiation exposure. Spring enrollment-compared with other seasons-was the chief risk factor for latent TB infection in HHC (adOR 3.14, 95%CI 1.28-7.69).Hypovitaminosis D was highly prevalent in TB cases and also in HHC. A marked seasonality was found for both VD levels and latent TB in HHC, with winter being the season with lowest VD levels and spring the season with the highest risk of latent TB infection."
+  ],
+  "affiliation": [
+    "Departamento de Enfermedades Infecciosas del Adulto, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Community-Acquired Infections"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vitamin D Deficiency"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prospective Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Family Characteristics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Seasons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Latent Tuberculosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomarkers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BL"
+                  ],
+                  "qualifierName": [
+                    "blood"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Biomarkers"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5389794?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5389794"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0175400"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-21"
+  ],
+  "dateOfCreation": [
+    "2017-04-13"
+  ],
+  "dateOfRevision": [
+    "2017-05-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-12"
+  ],
+  "firstPublicationDate": [
+    "2017-04-12"
+  ]
+}

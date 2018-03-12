@@ -1,0 +1,331 @@
+{
+  "id": [
+    "28976925"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28976925"
+  ],
+  "pmcid": [
+    "PMC5666777"
+  ],
+  "doi": [
+    "10.3390/ijms18102095"
+  ],
+  "title": [
+    "Prebiotics Mediate Microbial Interactions in a Consortium of the Infant Gut Microbiome."
+  ],
+  "authorString": [
+    "Medina DA, Pinto F, Ovalle A, Thomson P, Garrido D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Medina DA"
+          ],
+          "firstName": [
+            "Daniel A"
+          ],
+          "lastName": [
+            "Medina"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. damedinas@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Pinto F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Pinto"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. fmpinto@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Ovalle A"
+          ],
+          "firstName": [
+            "Aline"
+          ],
+          "lastName": [
+            "Ovalle"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. amovalle@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Thomson P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Thomson"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. ptm_thomson@hotmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Garrido D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Garrido"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4982-134X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. dgarridoc@ing.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4982-134X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2603420"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Composition of the gut microbiome is influenced by diet. Milk or formula oligosaccharides act as prebiotics, bioactives that promote the growth of beneficial gut microbes. The influence of prebiotics on microbial interactions is not well understood. Here we investigated the transformation of prebiotics by a consortium of four representative species of the infant gut microbiome, and how their interactions changed with dietary substrates. First, we optimized a culture medium resembling certain infant gut parameters. A consortium containing Bifidobacterium longum subsp. infantis, Bacteroides vulgatus, Escherichia coli and Lactobacillus acidophilus was grown on fructooligosaccharides (FOS) or 2'-fucosyllactose (2FL) in mono- or co-culture. While Bi. infantis and Ba. vulgatus dominated growth on 2FL, their combined growth was reduced. Besides, interaction coefficients indicated strong competition, especially on FOS. While FOS was rapidly consumed by the consortium, B. infantis was the only microbe displaying significant consumption of 2FL. Acid production by the consortium resembled the metabolism of microorganisms dominating growth in each substrate. Finally, the consortium was tested in a bioreactor, observing similar predominance but more pronounced acid production and substrate consumption. This study indicates that the chemical nature of prebiotics modulate microbial interactions in a consortium of infant gut species."
+  ],
+  "affiliation": [
+    "Department of Chemical and Bioprocess Engineering, School of Engineering, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, Santiago 7820436, Chile. damedinas@uc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Prebiotics",
+        "Human Milk Oligosaccharides",
+        "Microbial Interactions",
+        "Intestinal Microbiome"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5666777?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5666777"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18102095"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-04"
+  ],
+  "dateOfRevision": [
+    "2017-11-10"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-04"
+  ],
+  "firstPublicationDate": [
+    "2017-10-04"
+  ]
+}

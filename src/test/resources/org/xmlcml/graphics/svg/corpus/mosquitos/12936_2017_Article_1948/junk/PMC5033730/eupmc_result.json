@@ -1,0 +1,532 @@
+{
+  "id": [
+    "27672404"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27672404"
+  ],
+  "pmcid": [
+    "PMC5033730"
+  ],
+  "doi": [
+    "10.7150/jgen.16885"
+  ],
+  "title": [
+    "De novo Assembly and Analysis of the Chilean Pencil Catfish Trichomycterus areolatus Transcriptome."
+  ],
+  "authorString": [
+    "Schulze TT, Ali JM, Bartlett ML, McFarland MM, Clement EJ, Won HI, Sanford AG, Monzingo EB, Martens MC, Hemsley RM, Kumar S, Gouin N, Kolok AS, Davis PH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Schulze TT"
+          ],
+          "firstName": [
+            "Thomas T"
+          ],
+          "lastName": [
+            "Schulze"
+          ],
+          "initials": [
+            "TT"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Ali JM"
+          ],
+          "firstName": [
+            "Jonathan M"
+          ],
+          "lastName": [
+            "Ali"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Department of Environmental, Agricultural and Occupational Health, University of Nebraska - Medical Center, Omaha, NE, 68198-6805, United States;"
+          ]
+        },
+        {
+          "fullName": [
+            "Bartlett ML"
+          ],
+          "firstName": [
+            "Maggie L"
+          ],
+          "lastName": [
+            "Bartlett"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "McFarland MM"
+          ],
+          "firstName": [
+            "Madalyn M"
+          ],
+          "lastName": [
+            "McFarland"
+          ],
+          "initials": [
+            "MM"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Clement EJ"
+          ],
+          "firstName": [
+            "Emalie J"
+          ],
+          "lastName": [
+            "Clement"
+          ],
+          "initials": [
+            "EJ"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Won HI"
+          ],
+          "firstName": [
+            "Harim I"
+          ],
+          "lastName": [
+            "Won"
+          ],
+          "initials": [
+            "HI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7182-8599",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Sanford AG"
+          ],
+          "firstName": [
+            "Austin G"
+          ],
+          "lastName": [
+            "Sanford"
+          ],
+          "initials": [
+            "AG"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Monzingo EB"
+          ],
+          "firstName": [
+            "Elyssa B"
+          ],
+          "lastName": [
+            "Monzingo"
+          ],
+          "initials": [
+            "EB"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Martens MC"
+          ],
+          "firstName": [
+            "Matthew C"
+          ],
+          "lastName": [
+            "Martens"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Hemsley RM"
+          ],
+          "firstName": [
+            "Ryan M"
+          ],
+          "lastName": [
+            "Hemsley"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar S"
+          ],
+          "firstName": [
+            "Sidharta"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Gouin N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Gouin"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Universidad de La Serena, La Serena, Chile;; Centro de Estudios Avanzados en Zonas Aridas, La Serena, Chile;; Instituto de Investigación Multidisciplinar en Ciencia y Tecnología, Universidad de La Serena, La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kolok AS"
+          ],
+          "firstName": [
+            "Alan S"
+          ],
+          "lastName": [
+            "Kolok"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;; Center for Environmental Health and Toxicology, University of Nebraska Medical Center, Omaha, Nebraska 68198, USA;"
+          ]
+        },
+        {
+          "fullName": [
+            "Davis PH"
+          ],
+          "firstName": [
+            "Paul H"
+          ],
+          "lastName": [
+            "Davis"
+          ],
+          "initials": [
+            "PH"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7182-8599",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2384438"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of genomics"
+          ],
+          "ISOAbbreviation": [
+            "J Genomics"
+          ],
+          "medlineAbbreviation": [
+            "J Genomics"
+          ],
+          "NLMid": [
+            "101623535"
+          ],
+          "ISSN": [
+            "1839-9940"
+          ],
+          "ESSN": [
+            "1839-9940"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "29-41"
+  ],
+  "abstractText": [
+    "Trichomycterus areolatus is an endemic species of pencil catfish that inhabits the riffles and rapids of many freshwater ecosystems of Chile. Despite its unique adaptation to Chile's high gradient watersheds and therefore potential application in the investigation of ecosystem integrity and environmental contamination, relatively little is known regarding the molecular biology of this environmental sentinel. Here, we detail the assembly of the Trichomycterus areolatus transcriptome, a molecular resource for the study of this organism and its molecular response to the environment. RNA-Seq reads were obtained by next-generation sequencing with an Illumina® platform and processed using PRINSEQ. The transcriptome assembly was performed using TRINITY assembler. Transcriptome validation was performed by functional characterization with KOG, KEGG, and GO analyses. Additionally, differential expression analysis highlights sex-specific expression patterns, and a list of endocrine and oxidative stress related transcripts are included."
+  ],
+  "affiliation": [
+    "Department of Biology, University of Nebraska at Omaha, Omaha, Nebraska 68182, USA;"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P20 GM103427"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 GM110768"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA036727"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Assembly",
+        "Catfish",
+        "De Novo Transcriptome",
+        "Trichomycterus Areolatus"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5033730?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5033730"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7150/jgen.16885"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-27"
+  ],
+  "dateOfCreation": [
+    "2016-09-27"
+  ],
+  "dateOfRevision": [
+    "2017-02-24"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-06"
+  ],
+  "firstPublicationDate": [
+    "2016-09-06"
+  ]
+}

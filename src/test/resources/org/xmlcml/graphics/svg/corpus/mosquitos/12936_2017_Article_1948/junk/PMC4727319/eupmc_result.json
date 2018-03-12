@@ -1,0 +1,256 @@
+{
+  "id": [
+    "26810475"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26810475"
+  ],
+  "pmcid": [
+    "PMC4727319"
+  ],
+  "doi": [
+    "10.1186/s13054-016-1203-y"
+  ],
+  "title": [
+    "Erratum to: A commentary on the 2015 Canadian Clinical Practice Guidelines in glutamine supplementation to parenteral nutrition."
+  ],
+  "authorString": [
+    "Leguina-Ruzzi A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Leguina-Ruzzi A"
+          ],
+          "firstName": [
+            "Alberto"
+          ],
+          "lastName": [
+            "Leguina-Ruzzi"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Hematology and Oncology, Department of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile, Portugal 61, Second Floor, Santiago, 8330034, Chile. aaleguin@uc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "2377113"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Critical care (London, England)"
+          ],
+          "ISOAbbreviation": [
+            "Crit Care"
+          ],
+          "medlineAbbreviation": [
+            "Crit Care"
+          ],
+          "NLMid": [
+            "9801902"
+          ],
+          "ISSN": [
+            "1364-8535"
+          ],
+          "ESSN": [
+            "1466-609X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "24"
+  ],
+  "affiliation": [
+    "Hematology and Oncology, Department of Medicine, Pontificia Universidad Católica de Chile, Santiago, Chile, Portugal 61, Second Floor, Santiago, 8330034, Chile. aaleguin@uc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4727319?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4727319"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13054-016-1203-y"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "26743681"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Crit Care. 2016;20:7"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-05-02"
+  ],
+  "dateOfCreation": [
+    "2016-01-26"
+  ],
+  "dateOfRevision": [
+    "2016-08-12"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-25"
+  ],
+  "firstPublicationDate": [
+    "2016-01-25"
+  ]
+}

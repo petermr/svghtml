@@ -1,0 +1,591 @@
+{
+  "id": [
+    "26714644"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26714644"
+  ],
+  "pmcid": [
+    "PMC4696083"
+  ],
+  "doi": [
+    "10.1186/s12879-015-1292-2"
+  ],
+  "title": [
+    "Whooping cough dynamics in Chile (1932-2010): disease temporal fluctuations across a north-south gradient."
+  ],
+  "authorString": [
+    "Lima M, Estay SA, Fuentes R, Rubilar P, Broutin H, Chowell-Puente G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lima M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Lima"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center of Applied Ecology and Sustainability (CAPES), Santiago, Chile. mlima@bio.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Estay SA"
+          ],
+          "firstName": [
+            "Sergio A"
+          ],
+          "lastName": [
+            "Estay"
+          ],
+          "initials": [
+            "SA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3797-8964",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Inst. de Ecología y Evolución, Facultad de Ciencias. Univ. Austral de Chile, Casilla 567, Valdivia, Chile. sergio.estay@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5154-3185",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Epidemiologia, Ministerio de Salud, Santiago, Chile. rodrigo.fuentes@minsal.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Rubilar P"
+          ],
+          "firstName": [
+            "Paola"
+          ],
+          "lastName": [
+            "Rubilar"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Epidemiologia, Ministerio de Salud, Santiago, Chile. paolarubilarr@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Broutin H"
+          ],
+          "firstName": [
+            "Hélène"
+          ],
+          "lastName": [
+            "Broutin"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "MIVEGEC, UMR CNRS 5290-IRD 224-UM1-UM2, 911, Avenue Agropolis BP 64501, 34394, Montpellier Cédex 5, France. helene.broutin@ird.fr."
+          ]
+        },
+        {
+          "fullName": [
+            "Chowell-Puente G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "Chowell-Puente"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "School Public Health, Georgia State University, Atlanta, GA, USA. gchowell@gsu.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3797-8964",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5154-3185",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2262623"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC infectious diseases"
+          ],
+          "ISOAbbreviation": [
+            "BMC Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "BMC Infect Dis"
+          ],
+          "NLMid": [
+            "100968551"
+          ],
+          "ISSN": [
+            "1471-2334"
+          ],
+          "ESSN": [
+            "1471-2334"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "590"
+  ],
+  "abstractText": [
+    "The spatial-temporal dynamics of Bordetella pertussis remains as a highly interesting case in infectious disease epidemiology. Despite large-scale vaccination programs in place for over 50 years around the world, frequent outbreaks are still reported in many countries.Here, we use annual time series of pertussis incidence from the thirteen different regions of Chile (1952-2010) to study the spatial-temporal dynamics of Pertussis. The period 1975-1995 was characterized by a strong 4 year cycle, while the last two decades of the study period (1990-2010) were characterized by disease resurgence without significant periodic patterns.During the first decades, differences in periodic patterns across regions can be explained by the differences in susceptible recruitment. The observed shift in periodicity from the period 1952-1974 to the period 1975-1995 across regions was relatively well predicted by the susceptible recruitment and population size. However, data on vaccination rates was not taken into account in this study.Our findings highlight how demography and population size have interacted with the immunization program in shaping periodicity along a unique latitudinal gradient. Widespread B. pertussis vaccination appears to lead to longer periodic dynamics, which is line with a reduction in B. pertussis transmission, but our findings indicate that regions characterized by both low birth rate and population size decreased in periodicity following immunization efforts."
+  ],
+  "affiliation": [
+    "Center of Applied Ecology and Sustainability (CAPES), Santiago, Chile. mlima@bio.puc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bordetella pertussis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PY"
+                  ],
+                  "qualifierName": [
+                    "pathogenicity"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Whooping Cough"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PC"
+                  ],
+                  "qualifierName": [
+                    "prevention & control"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pertussis Vaccine"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Density"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adolescent"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Preschool"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Immunization Programs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mass Vaccination"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spatio-Temporal Analysis"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Pertussis Vaccine"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4696083?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4696083"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12879-015-1292-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-02"
+  ],
+  "dateOfCreation": [
+    "2015-12-30"
+  ],
+  "dateOfRevision": [
+    "2016-01-01"
+  ],
+  "electronicPublicationDate": [
+    "2015-12-30"
+  ],
+  "firstPublicationDate": [
+    "2015-12-30"
+  ]
+}

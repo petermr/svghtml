@@ -1,0 +1,329 @@
+{
+  "id": [
+    "28337209"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28337209"
+  ],
+  "pmcid": [
+    "PMC5340777"
+  ],
+  "doi": [
+    "10.3389/fpls.2017.00216"
+  ],
+  "title": [
+    "Transcriptional Responses of Chilean Quinoa (Chenopodium quinoa Willd.) Under Water Deficit Conditions Uncovers ABA-Independent Expression Patterns."
+  ],
+  "authorString": [
+    "Morales A, Zurita-Silva A, Maldonado J, Silva H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Morales A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Estudios Avanzados en Zonas Áridas, Universidad de La Serena La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zurita-Silva A"
+          ],
+          "firstName": [
+            "Andres"
+          ],
+          "lastName": [
+            "Zurita-Silva"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Investigaciones Agropecuarias, Centro de Investigación Intihuasi La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9967-0885",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Genómica Funcional & Bioinformática, Departamento de Producción Agrícola, Facultad de Ciencias Agronómicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva H"
+          ],
+          "firstName": [
+            "Herman"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1007-7442",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Genómica Funcional & Bioinformática, Departamento de Producción Agrícola, Facultad de Ciencias Agronómicas, Universidad de Chile Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9967-0885",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1007-7442",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550591"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in plant science"
+          ],
+          "ISOAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "medlineAbbreviation": [
+            "Front Plant Sci"
+          ],
+          "NLMid": [
+            "101568200"
+          ],
+          "ISSN": [
+            "1664-462X"
+          ],
+          "ESSN": [
+            "1664-462X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "216"
+  ],
+  "abstractText": [
+    "HIGHLIGHTS R49 genotype displayed best performance on selected physiological parameters and highest tolerance to drought.R49 drought over-represented transcripts has exhibited 19% of genes (306 contigs) that presented no homology to published databases.Expression pattern for canonical responses to drought such as ABA biosynthesis and other genes induced in response to drought were assessed by qPCR. Global freshwater shortage is one of the biggest challenges of our time, often associated to misuse, increased consumption demands and the effects of climate change, paralleled with the desertification of vast areas. Chenopodium quinoa (Willd.) represents a very promising species, due to both nutritional content and cultivation under water constraint. We characterized drought tolerance of three Chilean genotypes and selected Genotype R49 (Salares ecotype) based upon Relative Water Content (RWC), Electrolyte Leakage (EL) and maximum efficiency of photosystem II (Fv/Fm) after drought treatment, when compared to another two genotypes. Exploratory RNA-Seq of R49 was generated by Illumina paired-ends method comparing drought and control irrigation conditions. We obtained 104.8 million reads, with 54 million reads for control condition and 51 million reads for drought condition. Reads were assembled in 150,952 contigs, were 31,523 contigs have a reading frame of at least 300 nucleotides (100 aminoacids). BLAST2GO annotation showed a 15% of genes without homology to NCBI proteins, but increased to 19% (306 contigs) when focused into drought-induced genes. Expression pattern for canonical drought responses such as ABA biosynthesis and other genes induced were assessed by qPCR, suggesting novelty of R49 drought responses."
+  ],
+  "affiliation": [
+    "Centro de Estudios Avanzados en Zonas Áridas, Universidad de La Serena La Serena, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Drought tolerance",
+        "Rna-seq",
+        "Qpcr",
+        "Andean Grain",
+        "Salares And Coastal/lowlands Genotypes"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5340777?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5340777"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fpls.2017.00216"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-24"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-08"
+  ],
+  "firstPublicationDate": [
+    "2017-03-08"
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "id": [
+    "28659813"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28659813"
+  ],
+  "pmcid": [
+    "PMC5468383"
+  ],
+  "doi": [
+    "10.3389/fphys.2017.00379"
+  ],
+  "title": [
+    "Human Peritoneal Mesothelial Cell Death Induced by High-Glucose Hypertonic Solution Involves Ca2+ and Na+ Ions and Oxidative Stress with the Participation of PKC/NOX2 and PI3K/Akt Pathways."
+  ],
+  "authorString": [
+    "Simon F, Tapia P, Armisen R, Echeverria C, Gatica S, Vallejos A, Pacheco A, Sanhueza ME, Alvo M, Segovia E, Torres R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Simon F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Simon"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and ImmunotherapySantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Unidad de Paciente Critico, Hospital Clínico Metropolitano de La FloridaSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Armisen R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Armisen"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2567-0521",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Excellence in Precision Medicine Pfizer, Pfizer ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Echeverria C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Echeverria"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro Integrativo de Biología y Química Aplicada, Universidad Bernardo OHigginsSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gatica S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Gatica"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Biologicas, Facultad de Ciencias Biologicas and Facultad de Medicina, Universidad Andres BelloSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vallejos A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Vallejos"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Biologicas, Facultad de Ciencias Biologicas and Facultad de Medicina, Universidad Andres BelloSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pacheco A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Pacheco"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Sección de Nefrología, Departamento de Medicina, Hospital Clínico Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanhueza ME"
+          ],
+          "firstName": [
+            "Maria E"
+          ],
+          "lastName": [
+            "Sanhueza"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "Sección de Nefrología, Departamento de Medicina, Hospital Clínico Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvo M"
+          ],
+          "firstName": [
+            "Miriam"
+          ],
+          "lastName": [
+            "Alvo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Sección de Nefrología, Departamento de Medicina, Hospital Clínico Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Segovia E"
+          ],
+          "firstName": [
+            "Erico"
+          ],
+          "lastName": [
+            "Segovia"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Centro Integrativo de Biología y Química Aplicada, Universidad Bernardo OHigginsSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres R"
+          ],
+          "firstName": [
+            "Rubén"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Instituto de Ciencias Biomédicas, Universidad de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2567-0521",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550597"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in physiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Physiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Physiol"
+          ],
+          "NLMid": [
+            "101549006"
+          ],
+          "ISSN": [
+            "1664-042X"
+          ],
+          "ESSN": [
+            "1664-042X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "379"
+  ],
+  "abstractText": [
+    "Chronic peritoneal dialysis (PD) therapy is equally efficient as hemodialysis while providing greater patient comfort and mobility. Therefore, PD is the treatment of choice for several types of renal patients. During PD, a high-glucose hyperosmotic (HGH) solution is administered into the peritoneal cavity to generate an osmotic gradient that promotes water and solutes transport from peritoneal blood to the dialysis solution. Unfortunately, PD has been associated with a loss of peritoneal viability and function through the generation of a severe inflammatory state that induces human peritoneal mesothelial cell (HPMC) death. Despite this deleterious effect, the precise molecular mechanism of HPMC death as induced by HGH solutions is far from being understood. Therefore, the aim of this study was to explore the pathways involved in HGH solution-induced HPMC death. HGH-induced HPMC death included influxes of intracellular Ca2+ and Na+. Furthermore, HGH-induced HPMC death was inhibited by antioxidant and reducing agents. In line with this, HPMC death was induced solely by increased oxidative stress. In addition to this, the cPKC/NOX2 and PI3K/Akt intracellular signaling pathways also participated in HGH-induced HPMC death. The participation of PI3K/Akt intracellular is in agreement with previously shown in rat PMC apoptosis. These findings contribute toward fully elucidating the underlying molecular mechanism mediating peritoneal mesothelial cell death induced by high-glucose solutions during peritoneal dialysis."
+  ],
+  "affiliation": [
+    "Millennium Institute on Immunology and ImmunotherapySantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mesothelial cell",
+        "Cell death",
+        "Dialysis",
+        "Hypertonicity",
+        "Peritoneal Tissue"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5468383?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5468383"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fphys.2017.00379"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-29"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-13"
+  ],
+  "firstPublicationDate": [
+    "2017-06-13"
+  ]
+}

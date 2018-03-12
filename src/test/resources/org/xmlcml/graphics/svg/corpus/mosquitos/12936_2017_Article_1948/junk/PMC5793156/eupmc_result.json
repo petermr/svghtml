@@ -1,0 +1,269 @@
+{
+  "id": [
+    "29271907"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29271907"
+  ],
+  "pmcid": [
+    "PMC5793156"
+  ],
+  "doi": [
+    "10.3390/genes9010003"
+  ],
+  "title": [
+    "Transitioning from Forensic Genetics to Forensic Genomics."
+  ],
+  "authorString": [
+    "Kayser M, Parson W."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kayser M"
+          ],
+          "firstName": [
+            "Manfred"
+          ],
+          "lastName": [
+            "Kayser"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Genetic Identification, Erasmus MC University Medical Center Rotterdam, 3000 CA Rotterdam, The Netherlands. m.kayser@erasmusmc.nl."
+          ]
+        },
+        {
+          "fullName": [
+            "Parson W"
+          ],
+          "firstName": [
+            "Walther"
+          ],
+          "lastName": [
+            "Parson"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5692-2392",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Legal Medicine, Medical University Innsbruck, 6020 Innsbruck, Austria. walther.parson@i-med.ac.at."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5692-2392",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2631969"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genes"
+          ],
+          "ISOAbbreviation": [
+            "Genes (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Genes (Basel)"
+          ],
+          "NLMid": [
+            "101551097"
+          ],
+          "ISSN": [
+            "2073-4425"
+          ],
+          "ESSN": [
+            "2073-4425"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Due to its support of law enforcement, forensics is a conservative field; nevertheless, driven by scientific and technological progress, forensic genetics is slowly transitioning into forensic genomics. With this Special Issue of Genes we acknowledge and appreciate this rather recent development by not only introducing the field of forensics to the wider community of geneticists, but we do so by emphasizing on different topics of forensic relevance where genomic, transcriptomic, and epigenomic principles, methods, and datasets of humans and beyond are beginning to be used to answer forensic questions."
+  ],
+  "affiliation": [
+    "Department of Genetic Identification, Erasmus MC University Medical Center Rotterdam, 3000 CA Rotterdam, The Netherlands. m.kayser@erasmusmc.nl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5793156?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5793156"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/genes9010003"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-23"
+  ],
+  "dateOfRevision": [
+    "2018-02-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-22"
+  ],
+  "firstPublicationDate": [
+    "2017-12-22"
+  ]
+}

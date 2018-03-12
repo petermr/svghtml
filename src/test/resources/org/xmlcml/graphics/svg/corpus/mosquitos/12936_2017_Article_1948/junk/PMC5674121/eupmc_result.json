@@ -1,0 +1,425 @@
+{
+  "id": [
+    "28849295"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28849295"
+  ],
+  "pmcid": [
+    "PMC5674121"
+  ],
+  "doi": [
+    "10.1007/s00408-017-0044-z"
+  ],
+  "title": [
+    "Diet and Respiratory Health in Children from 11 Latin American Countries: Evidence from ISAAC Phase III."
+  ],
+  "authorString": [
+    "Cepeda AM, Thawer S, Boyle RJ, Villalba S, Jaller R, Tapias E, Segura AM, Villegas R, Garcia-Larsen V, and the ISAAC Phase III Latin America Group."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cepeda AM"
+          ],
+          "firstName": [
+            "Alfonso Mario"
+          ],
+          "lastName": [
+            "Cepeda"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Thawer S"
+          ],
+          "firstName": [
+            "Sumaiyya"
+          ],
+          "lastName": [
+            "Thawer"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Population Health and Occupational Disease Group, NHLI Imperial College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Boyle RJ"
+          ],
+          "firstName": [
+            "Robert J"
+          ],
+          "lastName": [
+            "Boyle"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4913-7580",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Paediatrics, Faculty of Medicine, Imperial College London, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Villalba S"
+          ],
+          "firstName": [
+            "Sara"
+          ],
+          "lastName": [
+            "Villalba"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Jaller R"
+          ],
+          "firstName": [
+            "Rodolfo"
+          ],
+          "lastName": [
+            "Jaller"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapias E"
+          ],
+          "firstName": [
+            "Elmy"
+          ],
+          "lastName": [
+            "Tapias"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Segura AM"
+          ],
+          "firstName": [
+            "Ana María"
+          ],
+          "lastName": [
+            "Segura"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Villegas R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Villegas"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Garcia-Larsen V"
+          ],
+          "firstName": [
+            "Vanessa"
+          ],
+          "lastName": [
+            "Garcia-Larsen"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2713-6584",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of International Health, Johns Hopkins Bloomberg School of Public Health, 615 N Wolfe, Suite E2546, Baltimore, MD, 21205, USA. vgla@jhu.edu."
+          ]
+        },
+        {
+          "collectiveName": [
+            "and the ISAAC Phase III Latin America Group"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4913-7580",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2713-6584",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "195"
+      ],
+      "journalIssueId": [
+        "2616109"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Lung"
+          ],
+          "ISOAbbreviation": [
+            "Lung"
+          ],
+          "medlineAbbreviation": [
+            "Lung"
+          ],
+          "NLMid": [
+            "7701875"
+          ],
+          "ISSN": [
+            "0341-2040"
+          ],
+          "ESSN": [
+            "1432-1750"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "683-692"
+  ],
+  "abstractText": [
+    "The burden of childhood asthma and its risk factors is an important but neglected public health challenge in Latin America. We investigated the association between allergic symptoms and dietary intake in children from this region.As part of the International Study of Asthma and Allergies in Childhood (ISAAC) Phase III, questionnaire collected dietary intake was investigated in relation to risk of parental/child reported current wheeze (primary outcome) and rhino-conjunctivitis and eczema. Per-country adjusted logistic regressions were performed, and combined effect sizes were calculated with meta-analyses.143,967 children from 11 countries had complete data. In children aged 6-7 years, current wheeze was negatively associated with higher fruit intake (adjusted odds ratio [aOR] 0.65; 95% CI 0.74, 0.97). Current rhino-conjunctivitis and eczema were statistically negatively associated with fruit intake (aOR 0.72; 95% CI 0.64, 0.82; and OR 0.64, 95% CI 0.56, 0.74, respectively). Vegetable intake was negatively associated with risk of symptoms in younger children, but these associations were attenuated in the 13-14 years old group. Fastfood/burger intake was positively associated with all three outcomes in the older children.A higher intake of fruits and vegetables was associated with a lower prevalence of allergic symptoms in Latin American children. Conversely, intake of fastfood was positively associated with a higher prevalence of wheeze in adolescents. Improved dietary habits in children might help reduce the epidemic of allergic symptoms in Latin America. Food interventions in asthmatic children are needed to evaluate the possible public health impact of a better diet on respiratory health."
+  ],
+  "affiliation": [
+    "Fundación Hospital Universitario Metropolitano de Barranquilla, Barranquilla, Colombia."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Fruits",
+        "Diet",
+        "Children",
+        "Asthma",
+        "vegetables",
+        "Latin America",
+        "Wheeze",
+        "Isaac Phase Iii"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5674121?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5674121"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s00408-017-0044-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-29"
+  ],
+  "dateOfRevision": [
+    "2017-11-21"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-28"
+  ],
+  "firstPublicationDate": [
+    "2017-08-28"
+  ]
+}

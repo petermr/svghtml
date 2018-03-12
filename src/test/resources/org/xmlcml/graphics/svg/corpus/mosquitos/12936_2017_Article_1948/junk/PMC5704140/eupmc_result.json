@@ -1,0 +1,397 @@
+{
+  "id": [
+    "29112134"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29112134"
+  ],
+  "pmcid": [
+    "PMC5704140"
+  ],
+  "doi": [
+    "10.3390/foods6110096"
+  ],
+  "title": [
+    "¹H NMR and Multivariate Analysis for Geographic Characterization of Commercial Extra Virgin Olive Oil: A Possible Correlation with Climate Data."
+  ],
+  "authorString": [
+    "Rongai D, Sabatini N, Del Coco L, Perri E, Del Re P, Simone N, Marchegiani D, Fanizzi FP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rongai D"
+          ],
+          "firstName": [
+            "Domenico"
+          ],
+          "lastName": [
+            "Rongai"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Plant Protection and Certification, via C.G. Bertero, 22, 00156 Roma, Italy. domenico.rongai@crea.gov.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Sabatini N"
+          ],
+          "firstName": [
+            "Nadia"
+          ],
+          "lastName": [
+            "Sabatini"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Engineering and Agro-Food Processing, via L. Petruzzi, 75, 65013 Città Sant'Angelo, Italy. nadia.sabatini@crea.gov.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Coco L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Del Coco"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4805-7538",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Dipartimento di Scienze e Tecnologie Biologiche ed Ambientali (Di.S.Te.B.A.), Università del Salento, Prov.Le Lecce-Monteroni, 73100 Lecce, Italy. laura.delcoco@unisalento.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Perri E"
+          ],
+          "firstName": [
+            "Enzo"
+          ],
+          "lastName": [
+            "Perri"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Consiglio per la Ricerca in Agricoltura e l'Analisi dell'Economia Agraria-Centro di Ricerca per l'Olivicoltura e l'Industria Olearia, Contrada Li Rocchi, 87036 Rende, Italy. enzo.perri@entecra.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Re P"
+          ],
+          "firstName": [
+            "Paolo"
+          ],
+          "lastName": [
+            "Del Re"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Engineering and Agro-Food Processing, via L. Petruzzi, 75, 65013 Città Sant'Angelo, Italy. paolo.delre@crea.gov.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Simone N"
+          ],
+          "firstName": [
+            "Nicola"
+          ],
+          "lastName": [
+            "Simone"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Engineering and Agro-Food Processing, via L. Petruzzi, 75, 65013 Città Sant'Angelo, Italy. nicola.simone@crea.gov.it."
+          ]
+        },
+        {
+          "fullName": [
+            "Marchegiani D"
+          ],
+          "firstName": [
+            "Donato"
+          ],
+          "lastName": [
+            "Marchegiani"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Engineering and Agro-Food Processing, via L. Petruzzi, 75, 65013 Città Sant'Angelo, Italy. donato.marchegiani@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Fanizzi FP"
+          ],
+          "firstName": [
+            "Francesco Paolo"
+          ],
+          "lastName": [
+            "Fanizzi"
+          ],
+          "initials": [
+            "FP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3073-5772",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Dipartimento di Scienze e Tecnologie Biologiche ed Ambientali (Di.S.Te.B.A.), Università del Salento, Prov.Le Lecce-Monteroni, 73100 Lecce, Italy. fp.fanizzi@unisalento.it."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4805-7538",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3073-5772",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2614446"
+      ],
+      "dateOfPublication": [
+        "2017 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Foods (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Foods"
+          ],
+          "medlineAbbreviation": [
+            "Foods"
+          ],
+          "NLMid": [
+            "101670569"
+          ],
+          "ISSN": [
+            "2304-8158"
+          ],
+          "ESSN": [
+            "2304-8158"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "¹H Nuclear Magnetic Resonance (NMR) spectroscopy coupled with multivariate analysis has been applied in order to investigate metabolomic profiles of more than 200 extravirgin olive oils (EVOOs) collected in a period of over four years (2009-2012) from different geographic areas. In particular, commercially blended EVOO samples originating from different Italian regions (Tuscany, Sicily and Apulia), as well as European (Spain and Portugal) and non-European (Tunisia, Turkey, Chile and Australia) countries. Multivariate statistical analysis (Principal Component Analisys (PCA) and Orthogonal Partial Least Squares Discriminant Analysis (OPLS-DA)) applied on the NMR data revealed the existence of marked differences between Italian (in particular from Tuscany, Sicily and Apulia regions) and foreign (in particular Tunisian) EVOO samples. A possible correlation with available climate data has been also investigated. These results aim to develop a powerful NMR-based tool able to protect Italian olive oil productions."
+  ],
+  "affiliation": [
+    "Consiglio per la ricerca in agricoltura e l'analisi dell'economia agraria (CREA), Research Centre for Plant Protection and Certification, via C.G. Bertero, 22, 00156 Roma, Italy. domenico.rongai@crea.gov.it."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Multivariate statistical analysis",
+        "1h Nmr Spectroscopy",
+        "Extra Virgin Olive Oil",
+        "Evoos Geographical Origin",
+        "Historical Climate Data"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5704140?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5704140"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/foods6110096"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-08"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-07"
+  ],
+  "firstPublicationDate": [
+    "2017-11-07"
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "id": [
+    "29292763"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29292763"
+  ],
+  "pmcid": [
+    "PMC5744341"
+  ],
+  "doi": [
+    "10.3390/ma10121406"
+  ],
+  "title": [
+    "The Many Faces of Graphene as Protection Barrier. Performance under Microbial Corrosion and Ni Allergy Conditions."
+  ],
+  "authorString": [
+    "Parra C, Montero-Silva F, Gentil D, Del Campo V, Henrique Rodrigues da Cunha T, Henríquez R, Häberle P, Garín C, Ramírez C, Fuentes R, Flores M, Seeger M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Parra C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Parra"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3819-7614",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Nanobiomateriales, Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. carolina.parra@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Montero-Silva F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Montero-Silva"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8367-5123",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Nanobiomateriales, Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. monteroster@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Gentil D"
+          ],
+          "firstName": [
+            "Dana"
+          ],
+          "lastName": [
+            "Gentil"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratorio de Nanobiomateriales, Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. danagentil5@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Campo V"
+          ],
+          "firstName": [
+            "Valeria"
+          ],
+          "lastName": [
+            "Del Campo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. valeria.delcampo@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Henrique Rodrigues da Cunha T"
+          ],
+          "firstName": [
+            "Thiago"
+          ],
+          "lastName": [
+            "Henrique Rodrigues da Cunha"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Departamento de Física, CTNanotubos, Universidade Federal de Minas Gerais, Belo Horizonte 31310260, Brazil. thyagoh@yahoo.com.br."
+          ]
+        },
+        {
+          "fullName": [
+            "Henríquez R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Henríquez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5141-1676",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. ricardo.henriquez@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Häberle P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Häberle"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0840-511X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. patricio.haberle@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Garín C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Garín"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto de Química, Pontificia Universidad Católica de Valparaíso, Valparaíso 3100000, Chile. carolina.garin@pucv.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Ramírez C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Ramírez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Ingeniería Química y Ambiental, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. cristian.ramirez@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes R"
+          ],
+          "firstName": [
+            "Raúl"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1195-8401",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Industrias, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. raul.fuentes@usm.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Flores M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Flores"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Superficies y Nanomateriales, Departamento de Física, Facultad de Ciencias Físicas y Matemáticas, Universidad de Chile, Santiago 8370448, Chile. mflorescarra@ing.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Seeger M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Seeger"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Química, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. michael.seeger@usm.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8367-5123",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5141-1676",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3819-7614",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0840-511X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1195-8401",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2624008"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "In this work we present a study on the performance of CVD (chemical vapor deposition) graphene coatings grown and transferred on Ni as protection barriers under two scenarios that lead to unwanted metal ion release, microbial corrosion and allergy test conditions. These phenomena have a strong impact in different fields considering nickel (or its alloys) is one of the most widely used metals in industrial and consumer products. Microbial corrosion costs represent fractions of national gross product in different developed countries, whereas Ni allergy is one of the most prevalent allergic conditions in the western world, affecting around 10% of the population. We found that grown graphene coatings act as a protective membrane in biological environments that decreases microbial corrosion of Ni and reduces release of Ni2+ ions (source of Ni allergic contact hypersensitivity) when in contact with sweat. This performance seems not to be connected to the strong orbital hybridization that Ni and graphene interface present, indicating electron transfer might not be playing a main role in the robust response of this nanostructured system. The observed protection from biological environment can be understood in terms of graphene impermeability to transfer Ni2+ ions, which is enhanced for few layers of graphene grown on Ni. We expect our work will provide a new route for application of graphene as a protection coating for metals in biological environments, where current strategies have shown short-term efficiency and have raised health concerns."
+  ],
+  "affiliation": [
+    "Laboratorio de Nanobiomateriales, Departamento de Física, Universidad Técnica Federico Santa María, Valparaíso 2390123, Chile. carolina.parra@usm.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Nickel",
+        "Sweat",
+        "Graphene",
+        "Cvd",
+        "Microbial Corrosion"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5744341?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5744341"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma10121406"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-03"
+  ],
+  "dateOfRevision": [
+    "2018-01-05"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-08"
+  ],
+  "firstPublicationDate": [
+    "2017-12-08"
+  ]
+}

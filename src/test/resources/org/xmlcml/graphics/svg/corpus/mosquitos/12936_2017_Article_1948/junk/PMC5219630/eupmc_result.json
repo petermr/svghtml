@@ -1,0 +1,339 @@
+{
+  "id": [
+    "28070334"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28070334"
+  ],
+  "pmcid": [
+    "PMC5219630"
+  ],
+  "doi": [
+    "10.1016/j.nmni.2016.11.014"
+  ],
+  "title": [
+    "'Arcobacter porcinus' sp. nov., a novel Arcobacter species uncovered by Arcobacter thereius."
+  ],
+  "authorString": [
+    "Figueras MJ, Pérez-Cataluña A, Salas-Massó N, Levican A, Collado L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Figueras MJ"
+          ],
+          "firstName": [
+            "M J"
+          ],
+          "lastName": [
+            "Figueras"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2268-8980",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Facultad de Medicina y Ciencias de la Salud, IISPV, Universidad Rovira i Virgili, Reus, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez-Cataluña A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Pérez-Cataluña"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Facultad de Medicina y Ciencias de la Salud, IISPV, Universidad Rovira i Virgili, Reus, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Salas-Massó N"
+          ],
+          "firstName": [
+            "N"
+          ],
+          "lastName": [
+            "Salas-Massó"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Facultad de Medicina y Ciencias de la Salud, IISPV, Universidad Rovira i Virgili, Reus, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Levican A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Levican"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Escuela de Tecnología Médica, Facultad de Ciencias, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Collado L"
+          ],
+          "firstName": [
+            "L"
+          ],
+          "lastName": [
+            "Collado"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Facultad de Medicina y Ciencias de la Salud, IISPV, Universidad Rovira i Virgili, Reus, Spain; Instituto de Bioquímica y Microbiología, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2268-8980",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2503769"
+      ],
+      "dateOfPublication": [
+        "2017 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "New microbes and new infections"
+          ],
+          "ISOAbbreviation": [
+            "New Microbes New Infect"
+          ],
+          "medlineAbbreviation": [
+            "New Microbes New Infect"
+          ],
+          "NLMid": [
+            "101624750"
+          ],
+          "ISSN": [
+            "2052-2975"
+          ],
+          "ESSN": [
+            "2052-2975"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "104-106"
+  ],
+  "abstractText": [
+    "Arcobacter thereius is a species associated with human disease. A group of A. thereius pork strains (represented by strain LMG 24487) clustered separately from the type strain (LMG 24486T) in the 16S rRNA and multilocus phylogenetic trees. In silico DNA-DNA hybridization and average nucleotide identity results between their genomes (93.3 and 51.1%) confirmed 'Arcobacter porcinus' (LMG 24487T) as a new species."
+  ],
+  "affiliation": [
+    "Unidad de Microbiología, Facultad de Medicina y Ciencias de la Salud, IISPV, Universidad Rovira i Virgili, Reus, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Taxonomy",
+        "New species",
+        "Arcobacter",
+        "Ani",
+        "Pork Abortion"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5219630?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5219630"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.nmni.2016.11.014"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-01-10"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-22"
+  ],
+  "firstPublicationDate": [
+    "2016-11-22"
+  ]
+}

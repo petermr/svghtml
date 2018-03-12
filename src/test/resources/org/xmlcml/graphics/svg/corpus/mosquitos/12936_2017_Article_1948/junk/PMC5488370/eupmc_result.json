@@ -1,0 +1,1108 @@
+{
+  "id": [
+    "28655320"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28655320"
+  ],
+  "pmcid": [
+    "PMC5488370"
+  ],
+  "doi": [
+    "10.1186/s12864-017-3862-8"
+  ],
+  "title": [
+    "Functional Annotation of All Salmonid Genomes (FAASG): an international initiative supporting future salmonid research, conservation and aquaculture."
+  ],
+  "authorString": [
+    "Macqueen DJ, Primmer CR, Houston RD, Nowak BF, Bernatchez L, Bergseth S, Davidson WS, Gallardo-Escárate C, Goldammer T, Guiguen Y, Iturra P, Kijas JW, Koop BF, Lien S, Maass A, Martin SAM, McGinnity P, Montecino M, Naish KA, Nichols KM, Ólafsson K, Omholt SW, Palti Y, Plastow GS, Rexroad CE, Rise ML, Ritchie RJ, Sandve SR, Schulte PM, Tello A, Vidal R, Vik JO, Wargelius A, Yáñez JM, FAASG Consortium."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Macqueen DJ"
+          ],
+          "firstName": [
+            "Daniel J"
+          ],
+          "lastName": [
+            "Macqueen"
+          ],
+          "initials": [
+            "DJ"
+          ],
+          "affiliation": [
+            "Institute of Biological and Environmental Sciences, University of Aberdeen, Aberdeen, AB24 2TZ, UK. daniel.macqueen@abdn.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Primmer CR"
+          ],
+          "firstName": [
+            "Craig R"
+          ],
+          "lastName": [
+            "Primmer"
+          ],
+          "initials": [
+            "CR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3687-8435",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biology, University of Turku, 20014, Turku, Finland. craig.primmer@helsinki.fi."
+          ]
+        },
+        {
+          "fullName": [
+            "Houston RD"
+          ],
+          "firstName": [
+            "Ross D"
+          ],
+          "lastName": [
+            "Houston"
+          ],
+          "initials": [
+            "RD"
+          ],
+          "affiliation": [
+            "The Roslin Institute and Royal (Dick) School of Veterinary Studies, The University of Edinburgh, Midlothian, EH25 9RG, UK. ross.houston@roslin.ed.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Nowak BF"
+          ],
+          "firstName": [
+            "Barbara F"
+          ],
+          "lastName": [
+            "Nowak"
+          ],
+          "initials": [
+            "BF"
+          ],
+          "affiliation": [
+            "Institute for Marine and Antarctic Studies, University of Tasmania, Launceston, TAS, Australia. b.nowak@utas.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Bernatchez L"
+          ],
+          "firstName": [
+            "Louis"
+          ],
+          "lastName": [
+            "Bernatchez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Département de biologie, Institut de Biologie Intégrative et des Systèmes (IBIS), Université Laval, Québec, G1V 0A6, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Bergseth S"
+          ],
+          "firstName": [
+            "Steinar"
+          ],
+          "lastName": [
+            "Bergseth"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "The Research Council of Norway, Drammensveien 288, P.O. Box 564, NO-1327, Lysaker, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Davidson WS"
+          ],
+          "firstName": [
+            "William S"
+          ],
+          "lastName": [
+            "Davidson"
+          ],
+          "initials": [
+            "WS"
+          ],
+          "affiliation": [
+            "Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallardo-Escárate C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Gallardo-Escárate"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratory of Biotechnology and Aquatic Genomics, Interdisciplinary Center for Aquaculture Research, Department of Oceanography, Universidad de Concepción, 4030000, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Goldammer T"
+          ],
+          "firstName": [
+            "Tom"
+          ],
+          "lastName": [
+            "Goldammer"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Leibniz Institute for Farm Animal Biology, Institute for Genome Biology, Fish Genetics Unit, Wilhelm-Stahl-Allee 2, 18196, Dummerstorf, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Guiguen Y"
+          ],
+          "firstName": [
+            "Yann"
+          ],
+          "lastName": [
+            "Guiguen"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "INRA, UR1037 Fish Physiology and Genomics, Rennes, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Iturra P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Iturra"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Human Genetics Program ICBM Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kijas JW"
+          ],
+          "firstName": [
+            "James W"
+          ],
+          "lastName": [
+            "Kijas"
+          ],
+          "initials": [
+            "JW"
+          ],
+          "affiliation": [
+            "CSIRO Agriculture, QLD, St Lucia, 4067, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Koop BF"
+          ],
+          "firstName": [
+            "Ben F"
+          ],
+          "lastName": [
+            "Koop"
+          ],
+          "initials": [
+            "BF"
+          ],
+          "affiliation": [
+            "Department of Biology, University of Victoria, Victoria, BC, V8W 3N5, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Lien S"
+          ],
+          "firstName": [
+            "Sigbjørn"
+          ],
+          "lastName": [
+            "Lien"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centre for Integrative Genetics (CIGENE), Department of Animal and Aquacultural Sciences, Norwegian University of Life Sciences, NO-1432, Ås, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Maass A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Maass"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Center for Mathematical Modelling, Department of Mathematical Engineering, University of Chile, 8370456, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martin SAM"
+          ],
+          "firstName": [
+            "Samuel A M"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "SAM"
+          ],
+          "affiliation": [
+            "Institute of Biological and Environmental Sciences, University of Aberdeen, Aberdeen, AB24 2TZ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "McGinnity P"
+          ],
+          "firstName": [
+            "Philip"
+          ],
+          "lastName": [
+            "McGinnity"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "School of Biological, Earth and Environmental Sciences, University College Cork, Cork, Ireland."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecino M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Montecino"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Center for Biomedical Research, Universidad Andres Bello, 8370146, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Naish KA"
+          ],
+          "firstName": [
+            "Kerry A"
+          ],
+          "lastName": [
+            "Naish"
+          ],
+          "initials": [
+            "KA"
+          ],
+          "affiliation": [
+            "School of Aquatic and Fishery Sciences, University of Washington, Box 355020, Seattle, WA, 98195, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Nichols KM"
+          ],
+          "firstName": [
+            "Krista M"
+          ],
+          "lastName": [
+            "Nichols"
+          ],
+          "initials": [
+            "KM"
+          ],
+          "affiliation": [
+            "Conservation Biology Division, Northwest Fisheries Science Center, National Marine Fisheries Service, National Oceanic and Atmospheric Administration, 2725 Montlake Blvd E, Seattle, WA, 98112, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ólafsson K"
+          ],
+          "firstName": [
+            "Kristinn"
+          ],
+          "lastName": [
+            "Ólafsson"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Matis Ltd, Vínlandsleið 12, 113, Reykjavík, Iceland."
+          ]
+        },
+        {
+          "fullName": [
+            "Omholt SW"
+          ],
+          "firstName": [
+            "Stig W"
+          ],
+          "lastName": [
+            "Omholt"
+          ],
+          "initials": [
+            "SW"
+          ],
+          "affiliation": [
+            "Centre for Integrative Genetics (CIGENE), Department of Animal and Aquacultural Sciences, Norwegian University of Life Sciences, NO-1432, Ås, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Palti Y"
+          ],
+          "firstName": [
+            "Yniv"
+          ],
+          "lastName": [
+            "Palti"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "National Center for Cool and Cold Water Aquaculture, USDA ARS, 11861 Leetown Road, Kearneysville, WV, 25430, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Plastow GS"
+          ],
+          "firstName": [
+            "Graham S"
+          ],
+          "lastName": [
+            "Plastow"
+          ],
+          "initials": [
+            "GS"
+          ],
+          "affiliation": [
+            "Department of Agricultural, Food, and Nutritional Science, University of Alberta, Edmonton, AB, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Rexroad CE Rd"
+          ],
+          "firstName": [
+            "Caird E"
+          ],
+          "lastName": [
+            "Rexroad"
+          ],
+          "initials": [
+            "CE"
+          ],
+          "affiliation": [
+            "Office of National Programs, USDA ARS, 5601 Sunnyside Avenue, Beltsville, MD, 20705-5148, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Rise ML"
+          ],
+          "firstName": [
+            "Matthew L"
+          ],
+          "lastName": [
+            "Rise"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "affiliation": [
+            "Department of Ocean Sciences, Memorial University of Newfoundland, 1 Marine Lab Road, St. John's, NL, A1C 5S7, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Ritchie RJ"
+          ],
+          "firstName": [
+            "Rachael J"
+          ],
+          "lastName": [
+            "Ritchie"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Genome British Columbia, Suite 400 - 575, West 8th Avenue, Vancouver, BC, V5Z 0C4, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Sandve SR"
+          ],
+          "firstName": [
+            "Simen R"
+          ],
+          "lastName": [
+            "Sandve"
+          ],
+          "initials": [
+            "SR"
+          ],
+          "affiliation": [
+            "Centre for Integrative Genetics (CIGENE), Department of Animal and Aquacultural Sciences, Norwegian University of Life Sciences, NO-1432, Ås, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Schulte PM"
+          ],
+          "firstName": [
+            "Patricia M"
+          ],
+          "lastName": [
+            "Schulte"
+          ],
+          "initials": [
+            "PM"
+          ],
+          "affiliation": [
+            "Department of Zoology, University of British Columbia, 6270 University Blvd, Vancouver, BC, V6T 1Z4, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Tello A"
+          ],
+          "firstName": [
+            "Alfredo"
+          ],
+          "lastName": [
+            "Tello"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto Tecnológico del Salmón S.A., INTESAL de SalmonChile, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Ecology, Genomics, and Evolutionary Studies, Department of Biology, University of Santiago, 9170022, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vik JO"
+          ],
+          "firstName": [
+            "Jon Olav"
+          ],
+          "lastName": [
+            "Vik"
+          ],
+          "initials": [
+            "JO"
+          ],
+          "affiliation": [
+            "Centre for Integrative Genetics (CIGENE), Department of Animal and Aquacultural Sciences, Norwegian University of Life Sciences, NO-1432, Ås, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Wargelius A"
+          ],
+          "firstName": [
+            "Anna"
+          ],
+          "lastName": [
+            "Wargelius"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Institute of Marine Research, P.O. Box 1870, Nordnes, NO-5817, Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Yáñez JM"
+          ],
+          "firstName": [
+            "José Manuel"
+          ],
+          "lastName": [
+            "Yáñez"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Faculty of Veterinary and Animal Sciences, University of Chile, Av. Santa Rosa 11735, Santiago, Chile & Aquainnovo, Cardonal s/n, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "collectiveName": [
+            "FAASG Consortium"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Primmer CR"
+          ],
+          "firstName": [
+            "Craig R"
+          ],
+          "lastName": [
+            "Primmer"
+          ],
+          "initials": [
+            "CR"
+          ]
+        },
+        {
+          "fullName": [
+            "Macqueen DJ"
+          ],
+          "firstName": [
+            "Daniel J"
+          ],
+          "lastName": [
+            "Macqueen"
+          ],
+          "initials": [
+            "DJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Houston RD"
+          ],
+          "firstName": [
+            "Ross D"
+          ],
+          "lastName": [
+            "Houston"
+          ],
+          "initials": [
+            "RD"
+          ]
+        },
+        {
+          "fullName": [
+            "Nowak BF"
+          ],
+          "firstName": [
+            "Barbara F"
+          ],
+          "lastName": [
+            "Nowak"
+          ],
+          "initials": [
+            "BF"
+          ]
+        },
+        {
+          "fullName": [
+            "Davidson WS"
+          ],
+          "firstName": [
+            "Willie S"
+          ],
+          "lastName": [
+            "Davidson"
+          ],
+          "initials": [
+            "WS"
+          ]
+        },
+        {
+          "fullName": [
+            "Lien S"
+          ],
+          "firstName": [
+            "Sigbjørn"
+          ],
+          "lastName": [
+            "Lien"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Koop BF"
+          ],
+          "firstName": [
+            "Ben F"
+          ],
+          "lastName": [
+            "Koop"
+          ],
+          "initials": [
+            "BF"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3687-8435",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2562145"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ISSN": [
+            "1471-2164"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "484"
+  ],
+  "abstractText": [
+    "We describe an emerging initiative - the 'Functional Annotation of All Salmonid Genomes' (FAASG), which will leverage the extensive trait diversity that has evolved since a whole genome duplication event in the salmonid ancestor, to develop an integrative understanding of the functional genomic basis of phenotypic variation. The outcomes of FAASG will have diverse applications, ranging from improved understanding of genome evolution, to improving the efficiency and sustainability of aquaculture production, supporting the future of fundamental and applied research in an iconic fish lineage of major societal importance."
+  ],
+  "affiliation": [
+    "Institute of Biological and Environmental Sciences, University of Aberdeen, Aberdeen, AB24 2TZ, UK. daniel.macqueen@abdn.ac.uk."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Editorial"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BB/P02582X/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Salmonidae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Conservation of Natural Resources"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Evolution, Molecular"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Internationality"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Aquaculture"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Molecular Sequence Annotation"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Evolution",
+        "Aquaculture",
+        "Phenotyping",
+        "Comparative biology",
+        "data sharing",
+        "Functional Annotation",
+        "Whole Genome Duplication",
+        "Genome Biology",
+        "Standardized Data And Metadata",
+        "Salmonid Fish"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5488370?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5488370"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12864-017-3862-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "4"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-02-27"
+  ],
+  "dateOfCreation": [
+    "2017-06-29"
+  ],
+  "dateOfRevision": [
+    "2018-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-27"
+  ],
+  "firstPublicationDate": [
+    "2017-06-27"
+  ]
+}

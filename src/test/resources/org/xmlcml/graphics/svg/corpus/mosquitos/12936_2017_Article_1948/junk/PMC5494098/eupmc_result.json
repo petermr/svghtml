@@ -1,0 +1,451 @@
+{
+  "id": [
+    "28698878"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28698878"
+  ],
+  "pmcid": [
+    "PMC5494098"
+  ],
+  "doi": [
+    "10.1155/2017/8127814"
+  ],
+  "title": [
+    "Bacterial Community Profile of the Gut Microbiota Differs between Hypercholesterolemic Subjects and Controls."
+  ],
+  "authorString": [
+    "Rebolledo C, Cuevas A, Zambrano T, Acuña JJ, Jorquera MA, Saavedra K, Martínez C, Lanas F, Serón P, Salazar LA, Saavedra N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rebolledo C"
+          ],
+          "firstName": [
+            "Camilo"
+          ],
+          "lastName": [
+            "Rebolledo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cuevas A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Cuevas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Preclinical Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zambrano T"
+          ],
+          "firstName": [
+            "Tomás"
+          ],
+          "lastName": [
+            "Zambrano"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña JJ"
+          ],
+          "firstName": [
+            "Jacquelinne J"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Applied Microbial Ecology Laboratory, Department of Chemical Sciences and Natural Resources, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jorquera MA"
+          ],
+          "firstName": [
+            "Milko A"
+          ],
+          "lastName": [
+            "Jorquera"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4760-6379",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Applied Microbial Ecology Laboratory, Department of Chemical Sciences and Natural Resources, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra K"
+          ],
+          "firstName": [
+            "Kathleen"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Faculty of Health, Universidad Santo Tomás, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lanas F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Lanas"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Serón P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Serón"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar LA"
+          ],
+          "firstName": [
+            "Luis A"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5112-6944",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3334-5107",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4760-6379",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5112-6944",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3334-5107",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "8127814"
+  ],
+  "abstractText": [
+    "The role of gut microbiota in the development of metabolic illnesses has been abundantly demonstrated. Recent studies suggest that gut microbiota alterations may also be related to the development of hypercholesterolemia. Therefore, we aimed to assess differences in the gut bacterial community profiles between hypercholesterolemic subjects and controls. Thirty cases diagnosed with hypercholesterolemia and 27 normocholesterolemic controls were included. A fasting whole blood sample was obtained to determine the lipid profile. In parallel, stool samples were collected and total DNA was isolated to assess the bacterial community profiles by denaturing gradient gel electrophoresis (DGGE). In addition, the Richness, Shannon-Weaver, and Simpson indexes were used to evaluate the richness and diversity of bacterial communities. As expected, serum concentrations of total cholesterol, triglycerides, and LDL-cholesterol were significantly higher in the cases compared with controls. Moreover, DGGE analysis showed a lower richness and diversity of bacterial communities in hypercholesterolemic subjects. In conclusion, our results showed differences in the profiles of bacterial communities between hypercholesterolemic subjects and controls, suggesting a possible role of the gut microbiota in the development of hypercholesterolemia."
+  ],
+  "affiliation": [
+    "Center of Molecular Biology and Pharmacogenetics, Department of Basic Sciences, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5494098?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5494098"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/8127814"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-12"
+  ],
+  "dateOfRevision": [
+    "2017-07-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-15"
+  ],
+  "firstPublicationDate": [
+    "2017-06-15"
+  ]
+}

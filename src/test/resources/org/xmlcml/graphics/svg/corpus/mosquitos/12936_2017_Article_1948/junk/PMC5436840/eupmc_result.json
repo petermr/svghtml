@@ -1,0 +1,517 @@
+{
+  "id": [
+    "28542393"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28542393"
+  ],
+  "pmcid": [
+    "PMC5436840"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0177929"
+  ],
+  "title": [
+    "Head-to-head comparison of Microflex LT and Vitek MS systems for routine identification of microorganisms by MALDI-TOF mass spectrometry in Chile."
+  ],
+  "authorString": [
+    "Porte L, García P, Braun S, Ulloa MT, Lafourcade M, Montaña A, Miranda C, Acosta-Jamett G, Weitzel T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Porte L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Porte"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7766-7995",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Laboratorio Clínico, Hospital Militar, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Laboratorios Clínicos, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Braun S"
+          ],
+          "firstName": [
+            "Stephanie"
+          ],
+          "lastName": [
+            "Braun"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Unidad de Microbiología, Laboratorio Clínico, Hospital Militar, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ulloa MT"
+          ],
+          "firstName": [
+            "María Teresa"
+          ],
+          "lastName": [
+            "Ulloa"
+          ],
+          "initials": [
+            "MT"
+          ],
+          "affiliation": [
+            "Programa de Microbiología, ICBM Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lafourcade M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Lafourcade"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Clínica Santa María, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montaña A"
+          ],
+          "firstName": [
+            "Alisson"
+          ],
+          "lastName": [
+            "Montaña"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Clínica Santa María, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Miranda C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Miranda"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología, Servicio de Laboratorios Clínicos, Red de Salud UC-CHRISTUS, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acosta-Jamett G"
+          ],
+          "firstName": [
+            "Gerardo"
+          ],
+          "lastName": [
+            "Acosta-Jamett"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Medicina Preventiva Veterinaria, Facultad de Ciencias Veterinarias, Universidad Austral, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Weitzel T"
+          ],
+          "firstName": [
+            "Thomas"
+          ],
+          "lastName": [
+            "Weitzel"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Laboratorio Clínico, Clínica Alemana de Santiago, Facultad de Medicina Clínica Alemana, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7766-7995",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9645-3551",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2551942"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0177929"
+  ],
+  "abstractText": [
+    "Matrix-assisted laser desorption ionization-time of flight (MALDI-TOF) mass spectrometry (MS) is a new and revolutionary identification method for microorganisms and has recently been introduced into clinical microbiology in many industrialized countries in Europe and North America.Our study aimed to compare the performance and practicality of two commercial MALDI-TOF MS platforms in a head-to head manner at a routine laboratory in Chile.During a five-month period in 2012-13, the diagnostic efficiency (correct identification rate) and agreement between Microflex LT (Bruker Daltonics) and Vitek MS (bioMérieux) was compared in a parallel manner to conventional identification including genotypic analysis for difficult-to-identify strains. The study included 804 microbial isolates: 252 Enterobacteriaceae, 126 non-fermenters, 36 other gram-negative rods, 279 gram-positive cocci, 32 gram-positive rods, 32 anaerobes, and 47 yeasts. Other relevant factors of the two devices such as user friendliness and connectivity were also evaluated and compared.Both systems correctly identified the vast majority (98%) of the isolates to the genus level. Vitek MS reached higher rates of identification to species and species complex level than Microflex LT (81% vs. 85% and 87% vs. 93%, respectively), which was mainly based on the higher performance among coagulase negative staphylococci and Candida isolates. The evaluation of user friendliness and other technical aspects showed only marginal differences, which slightly favored Vitek MS, mainly due to its ready-to-use supplies, easier connectivity and workflow integration, and availability of local technical support.Both MALDI-TOF MS systems permitted fast and accurate identification of most microbial strains and showed a high level of user-friendliness. The observed differences were marginal and slightly favored Vitek MS, mainly due to practicality and connectivity issues within our setting."
+  ],
+  "affiliation": [
+    "Unidad de Microbiología, Laboratorio Clínico, Hospital Militar, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spectrometry, Mass, Matrix-Assisted Laser Desorption-Ionization"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Microbiological Techniques"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Time Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5436840?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5436840"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0177929"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "omim"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-09-12"
+  ],
+  "dateOfCreation": [
+    "2017-05-25"
+  ],
+  "dateOfRevision": [
+    "2017-09-12"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-18"
+  ],
+  "firstPublicationDate": [
+    "2017-05-18"
+  ]
+}

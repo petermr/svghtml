@@ -1,0 +1,451 @@
+{
+  "id": [
+    "28824622"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28824622"
+  ],
+  "pmcid": [
+    "PMC5539121"
+  ],
+  "doi": [
+    "10.3389/fimmu.2017.00889"
+  ],
+  "title": [
+    "Interleukin-10 Production by T and B Cells Is a Key Factor to Promote Systemic Salmonella enterica Serovar Typhimurium Infection in Mice."
+  ],
+  "authorString": [
+    "Salazar GA, Peñaloza HF, Pardo-Roa C, Schultz BM, Muñoz-Durango N, Gómez RS, Salazar FJ, Pizarro DP, Riedel CA, González PA, Alvarez-Lobos M, Kalergis AM, Bueno SM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Salazar GA"
+          ],
+          "firstName": [
+            "Geraldyne A"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peñaloza HF"
+          ],
+          "firstName": [
+            "Hernán F"
+          ],
+          "lastName": [
+            "Peñaloza"
+          ],
+          "initials": [
+            "HF"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pardo-Roa C"
+          ],
+          "firstName": [
+            "Catalina"
+          ],
+          "lastName": [
+            "Pardo-Roa"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Schultz BM"
+          ],
+          "firstName": [
+            "Bárbara M"
+          ],
+          "lastName": [
+            "Schultz"
+          ],
+          "initials": [
+            "BM"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz-Durango N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Muñoz-Durango"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gómez RS"
+          ],
+          "firstName": [
+            "Roberto S"
+          ],
+          "lastName": [
+            "Gómez"
+          ],
+          "initials": [
+            "RS"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pizarro DP"
+          ],
+          "firstName": [
+            "Daniela P"
+          ],
+          "lastName": [
+            "Pizarro"
+          ],
+          "initials": [
+            "DP"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Riedel CA"
+          ],
+          "firstName": [
+            "Claudia A"
+          ],
+          "lastName": [
+            "Riedel"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Ciencias Biológicas, Facultad de Ciencias Biológicas y Medicina, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González PA"
+          ],
+          "firstName": [
+            "Pablo A"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvarez-Lobos M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Alvarez-Lobos"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Gastroenterología, Facultad de Medicina, Pontificia Universidad Católica de, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kalergis AM"
+          ],
+          "firstName": [
+            "Alexis M"
+          ],
+          "lastName": [
+            "Kalergis"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Departamento de Endocrinología, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bueno SM"
+          ],
+          "firstName": [
+            "Susan M"
+          ],
+          "lastName": [
+            "Bueno"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550594"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "889"
+  ],
+  "abstractText": [
+    "Salmonella enterica serovar Typhimurium (S. Typhimurium) is a Gram-negative bacterium that produces disease in numerous hosts. In mice, oral inoculation is followed by intestinal colonization and subsequent systemic dissemination, which leads to severe pathogenesis without the activation of an efficient anti-Salmonella immune response. This feature suggests that the infection caused by S. Typhimurium may promote the production of anti-inflammatory molecules by the host that prevent efficient T cell activation and bacterial clearance. In this study, we describe the contribution of immune cells producing the anti-inflammatory cytokine interleukin-10 (IL-10) to the systemic infection caused by S. Typhimurium in mice. We observed that the production of IL-10 was required by S. Typhimurium to cause a systemic disease, since mice lacking IL-10 (IL-10-/-) were significantly more resistant to die after an infection as compared to wild-type (WT) mice. IL-10-/- mice had reduced bacterial loads in internal organs and increased levels of pro-inflammatory cytokines in serum at 5 days of infection. Importantly, WT mice showed high bacterial loads in tissues and no increase of cytokines in serum after 5 days of S. Typhimurium infection, except for IL-10. In WT mice, we observed a peak of il-10 messenger RNA production in ileum, spleen, and liver after 5 days of infection. Importantly, the adoptive transfer of T or B cells from WT mice restored the susceptibility of IL-10-/- mice to systemic S. Typhimurium infection, suggesting that the generation of regulatory cells in vivo is required to sustain a systemic infection by S. Typhimurium. These findings support the notion that IL-10 production from lymphoid cells is a key process in the infective cycle of S. Typhimurium in mice due to generation of a tolerogenic immune response that prevents bacterial clearance and supports systemic dissemination."
+  ],
+  "affiliation": [
+    "Millennium Institute on Immunology and Immunotherapy, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de, Chile Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Macrophages",
+        "T cells",
+        "Dendritic cells",
+        "Interleukin-10",
+        "Regulatory T cells",
+        "B cells",
+        "Salmonella Enterica Serovar Typhimurium",
+        "Systemic Infection"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539121?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5539121"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2017.00889"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-21"
+  ],
+  "dateOfRevision": [
+    "2017-08-24"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-02"
+  ],
+  "firstPublicationDate": [
+    "2017-08-02"
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "id": [
+    "29471805"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29471805"
+  ],
+  "pmcid": [
+    "PMC5824471"
+  ],
+  "doi": [
+    "10.1186/s12711-018-0376-z"
+  ],
+  "title": [
+    "Single nucleotide polymorphisms in native South American Atlantic coast populations of smooth shelled mussels: hybridization with invasive European Mytilus galloprovincialis."
+  ],
+  "authorString": [
+    "Zbawicka M, Trucco MI, Wenne R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zbawicka M"
+          ],
+          "firstName": [
+            "Małgorzata"
+          ],
+          "lastName": [
+            "Zbawicka"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Institute of Oceanology, Polish Academy of Sciences, Powstańców Warszawy 55, 81-712, Sopot, Poland."
+          ]
+        },
+        {
+          "fullName": [
+            "Trucco MI"
+          ],
+          "firstName": [
+            "María I"
+          ],
+          "lastName": [
+            "Trucco"
+          ],
+          "initials": [
+            "MI"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Investigación y Desarrollo Pesquero, Paseo Victoria Ocampo No. 1, B7602HSA, Mar Del Plata, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Wenne R"
+          ],
+          "firstName": [
+            "Roman"
+          ],
+          "lastName": [
+            "Wenne"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6994-1181",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute of Oceanology, Polish Academy of Sciences, Powstańców Warszawy 55, 81-712, Sopot, Poland. rwenne@iopan.gda.pl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6994-1181",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "50"
+      ],
+      "journalIssueId": [
+        "2645701"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genetics, selection, evolution : GSE"
+          ],
+          "ISOAbbreviation": [
+            "Genet. Sel. Evol."
+          ],
+          "medlineAbbreviation": [
+            "Genet Sel Evol"
+          ],
+          "NLMid": [
+            "9114088"
+          ],
+          "ISSN": [
+            "0999-193X"
+          ],
+          "ESSN": [
+            "1297-9686"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "5"
+  ],
+  "abstractText": [
+    "Throughout the world, harvesting of mussels Mytilus spp. is based on the exploitation of natural populations and aquaculture. Aquaculture activities include transfers of spat and live adult mussels between various geographic locations, which may result in large-scale changes in the world distribution of Mytilus taxa. Mytilus taxa are morphologically similar and difficult to distinguish. In spite of much research on taxonomy, evolution and geographic distribution, the native Mytilus taxa of the Southern Hemisphere are poorly understood. Recently, single nucleotide polymorphisms (SNPs) have been used to clarify the taxonomic status of populations of smooth shelled mussels from the Pacific coast of South America. In this paper, we used a set of SNPs to characterize, for the first time, populations of smooth shelled mussels Mytilus from the Atlantic coast of South America.Mytilus spp. samples were collected from eastern South America. Six reference samples from the Northern Hemisphere were used: Mytilus edulis from USA and Northern Ireland, Mytilus trossulus from Canada, and Mytilus galloprovincialis from Spain and Italy. Two other reference samples from the Southern Hemisphere were included: M. galloprovincialis from New Zealand and Mytilus chilensis from Chile. Fifty-five SNPs were successfully genotyped, of which 51 were polymorphic. Population genetic analyses using the STRUCTURE program revealed the clustering of eight populations from Argentina (Mytilus platensis) and the clustering of the sample from Ushuaia with M. chilensis from Chile. All individuals in the Puerto Madryn (Argentina) sample were identified as M. platensis × M. galloprovincialis F2 (88.89%) hybrids, except one that was classified as Mediterranean M. galloprovincialis. No F1 hybrids were observed.We demonstrate that M. platensis (or Mytilus edulis platensis) and M. chilensis are distinct native taxa in South America, which indicates that the evolutionary histories of Mytilus taxa along the Atlantic and Pacific coasts differ. M. platensis is endangered by hybridization with M. galloprovincialis that was introduced from Europe into the Puerto Madryn area in Argentina, presumably by accidental introduction via ship traffic. We confirm the occurrence of a native M. chilensis population in southern Argentina on the coast of Patagonia."
+  ],
+  "affiliation": [
+    "Institute of Oceanology, Polish Academy of Sciences, Powstańców Warszawy 55, 81-712, Sopot, Poland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "2011/01/B/NZ9/04352"
+          ],
+          "agency": [
+            "Narodowe Centrum Nauki"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5824471?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5824471"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12711-018-0376-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-27"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-22"
+  ],
+  "firstPublicationDate": [
+    "2018-02-22"
+  ]
+}

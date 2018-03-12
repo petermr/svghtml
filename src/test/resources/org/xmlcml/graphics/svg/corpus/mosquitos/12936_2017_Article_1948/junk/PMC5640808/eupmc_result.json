@@ -1,0 +1,567 @@
+{
+  "id": [
+    "29062313"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29062313"
+  ],
+  "pmcid": [
+    "PMC5640808"
+  ],
+  "doi": [
+    "10.3389/fimmu.2017.01170"
+  ],
+  "title": [
+    "Dead Tumor Cells Expressing Infectious Salmon Anemia Virus Fusogenic Protein Favor Antigen Cross-Priming In Vitro."
+  ],
+  "authorString": [
+    "Morales J, Barrera-Avalos C, Castro C, Castillo S, Barrientos C, Robles-Planells C, López X, Torres E, Montoya M, Cortez-San Martín M, Riquelme D, Escobar A, Fernández R, Imarai M, Sauma D, Rojo LE, Leiva-Salcedo E, Acuña-Castillo C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Morales J"
+          ],
+          "firstName": [
+            "Jonathan"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrera-Avalos C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Barrera-Avalos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castillo S"
+          ],
+          "firstName": [
+            "Stephanie"
+          ],
+          "lastName": [
+            "Castillo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barrientos C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Barrientos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Robles-Planells C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Robles-Planells"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres E"
+          ],
+          "firstName": [
+            "Ernesto"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montoya M"
+          ],
+          "firstName": [
+            "Margarita"
+          ],
+          "lastName": [
+            "Montoya"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cortez-San Martín M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Cortez-San Martín"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Riquelme D"
+          ],
+          "firstName": [
+            "Denise"
+          ],
+          "lastName": [
+            "Riquelme"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escobar A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Escobar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas, Facultad de Odontología, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Fernández"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Salud, Universidad de Los Lagos, Osorno, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Imarai M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Imarai"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8767-9180",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sauma D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Sauma"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojo LE"
+          ],
+          "firstName": [
+            "Leonel E"
+          ],
+          "lastName": [
+            "Rojo"
+          ],
+          "initials": [
+            "LE"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leiva-Salcedo E"
+          ],
+          "firstName": [
+            "Elias"
+          ],
+          "lastName": [
+            "Leiva-Salcedo"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña-Castillo C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Acuña-Castillo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3607-6077",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3607-6077",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8767-9180",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550594"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1170"
+  ],
+  "abstractText": [
+    "Antigen cross-presentation is a crucial step in the assembly of an antitumor immune response leading to activation of naïve CD8 T cells. This process has been extensively used in clinical trials, in which dendritic cells generated in vitro are loaded with tumor antigens and then autotransplanted to the patients. Recently, the use of autologous transplant of dendritic cells fused with dying tumor cells has demonstrated good results in clinical studies. In this work, we generated a similar process in vivo by treating mice with dead tumor cells [cell bodies (CBs)] expressing the fusogenic protein of the infectious salmon anemia virus (ISAV). ISAV fusion protein retains its fusogenic capability when is expressed on mammalian cells in vitro and the CBs expressing it facilitates DCs maturation, antigen transfer by antigen-presenting cells, and increase cross-presentation by DCs in vitro. Additionally, we observed in the melanoma model that CBs with or without ISAV fusion protein reduce tumor growth in prophylactic treatment; however, only ISAV expressing CBs showed an increase CD4 and CD8 cells in spleen. Overall, our results suggest that CBs could be used as a complement with other type of strategies to amplify antitumor immune response."
+  ],
+  "affiliation": [
+    "Centro de Biotecnología Acuícola, Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, USACH, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cell fusion",
+        "Cross-priming",
+        "B16 Melanoma",
+        "Infectious Salmon Anemia Virus",
+        "Antitumor Immune Response"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5640808?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5640808"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2017.01170"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-25"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-09"
+  ],
+  "firstPublicationDate": [
+    "2017-10-09"
+  ]
+}

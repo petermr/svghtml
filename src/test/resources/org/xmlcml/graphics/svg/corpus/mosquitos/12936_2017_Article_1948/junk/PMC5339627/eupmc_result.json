@@ -1,0 +1,448 @@
+{
+  "id": [
+    "28321254"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28321254"
+  ],
+  "pmcid": [
+    "PMC5339627"
+  ],
+  "doi": [
+    "10.1155/2017/8351635"
+  ],
+  "title": [
+    "Does Good Aerobic Capacity Attenuate the Effects of Aging on Cardiovascular Risk Factors? Results from a Cross-Sectional Study in a Latino Population."
+  ],
+  "authorString": [
+    "Valentino G, Acevedo M, Orellana L, Bustamante MJ, Kramer V, Adasme M, Baraona F, Chamorro G, Jalil J, Navarrete C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Valentino G"
+          ],
+          "firstName": [
+            "Giovanna"
+          ],
+          "lastName": [
+            "Valentino"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0203-6782",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile; UDA-Ciencias de la Salud, Carrera Nutrición y Dietética, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acevedo M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "Acevedo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7989-6633",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Orellana L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Orellana"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2752-8329",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bustamante MJ"
+          ],
+          "firstName": [
+            "María José"
+          ],
+          "lastName": [
+            "Bustamante"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kramer V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "Kramer"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Adasme M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Adasme"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Baraona F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Baraona"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chamorro G"
+          ],
+          "firstName": [
+            "Gastón"
+          ],
+          "lastName": [
+            "Chamorro"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jalil J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Jalil"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Navarrete C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Navarrete"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2884-7882",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Matemáticas, Facultad de Ciencias, Universidad de La Serena, La Serena, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0203-6782",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7989-6633",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2752-8329",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2884-7882",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2522906"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of endocrinology"
+          ],
+          "ISOAbbreviation": [
+            "Int J Endocrinol"
+          ],
+          "medlineAbbreviation": [
+            "Int J Endocrinol"
+          ],
+          "NLMid": [
+            "101516376"
+          ],
+          "ISSN": [
+            "1687-8337"
+          ],
+          "ESSN": [
+            "1687-8345"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "8351635"
+  ],
+  "abstractText": [
+    "Background. High aerobic capacity is associated with low cardiovascular (CV) risk. The aim of this study was to determine the CV RF burden in subjects with aerobic capacity ≥10 METs and compare it with those having <10 METs. Methods. Cross-sectional study in 2646 subjects (mean age 48 ± 12 years). Demographics, medical history, physical activity, cardiovascular RFs, fasting lipids and blood glucose levels, blood pressure, and anthropometric measurements were collected. Aerobic capacity was determined by exercise stress test. The ACC/AHA 2013 pooled cohort equation was used to calculate CV risk. Logistic models were built to determine the probability of having ≥2 RFs versus 0-1 RF, by age and sex, according to aerobic capacity. Results. 15% of subjects had aerobic capacity < 10 METs. The ACC/AHA scores were 15% in men and 6% in women with <10 METs and 5% and 2%, respectively, in those with ≥10 METs. The probability of having ≥2 RFs increased with age in both groups; however, it was significantly higher in subjects with <10 METs (odds ratio [OR]: 2.54; 95% CI: 1.92-3.35). Conclusions. Aerobic capacity ≥ 10 METs is associated with a better CV RF profile and lower CV risk score in all age groups, regardless of gender."
+  ],
+  "affiliation": [
+    "División de Enfermedades Cardiovasculares, Escuela de Medicina, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile; UDA-Ciencias de la Salud, Carrera Nutrición y Dietética, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5339627?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5339627"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/8351635"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-21"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-20"
+  ],
+  "firstPublicationDate": [
+    "2017-02-20"
+  ]
+}

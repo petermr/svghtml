@@ -1,0 +1,588 @@
+{
+  "id": [
+    "28335547"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28335547"
+  ],
+  "pmcid": [
+    "PMC5372666"
+  ],
+  "doi": [
+    "10.3390/ijms18030654"
+  ],
+  "title": [
+    "Genomic Loads and Genotypes of Respiratory Syncytial Virus: Viral Factors during Lower Respiratory Tract Infection in Chilean Hospitalized Infants."
+  ],
+  "authorString": [
+    "Espinosa Y, San Martín C, Torres AA, Farfán MJ, Torres JP, Avadhanula V, Piedra PA, Tapia LI."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Espinosa Y"
+          ],
+          "firstName": [
+            "Yazmín"
+          ],
+          "lastName": [
+            "Espinosa"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery, Hospital Roberto del Río, Facultad de Medicina, Universidad de Chile, Profesor Zañartu 1085, Independencia, 8380418 Santiago, Chile. y.espinosa.v@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "San Martín C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "San Martín"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery, Hospital Roberto del Río, Facultad de Medicina, Universidad de Chile, Profesor Zañartu 1085, Independencia, 8380418 Santiago, Chile. camilasanmartin@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres AA"
+          ],
+          "firstName": [
+            "Alejandro A"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "affiliation": [
+            "Virology Program, Institute of Biomedical Sciences (ICBM), Facultad de Medicina, Universidad de Chile, Independencia 1027, Pabellón J. Independencia, 8380453 Santiago, Chile. a.torres.riquelme@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Farfán MJ"
+          ],
+          "firstName": [
+            "Mauricio J"
+          ],
+          "lastName": [
+            "Farfán"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Molecular Biology Laboratory, Hospital Luis Calvo Mackenna, Facultad de Medicina, Universidad de Chile, Av. Antonio Varas 360, Providencia, 7500539 Santiago, Chile. mfarfan@med.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres JP"
+          ],
+          "firstName": [
+            "Juan P"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Molecular Biology Laboratory, Hospital Luis Calvo Mackenna, Facultad de Medicina, Universidad de Chile, Av. Antonio Varas 360, Providencia, 7500539 Santiago, Chile. jptorres@med.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Avadhanula V"
+          ],
+          "firstName": [
+            "Vasanthi"
+          ],
+          "lastName": [
+            "Avadhanula"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Department of Molecular Virology and Microbiology, Baylor College of Medicine, One Baylor Plaza, Room 248E, Houston, TX 77030, USA. avadhanu@bcm.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Piedra PA"
+          ],
+          "firstName": [
+            "Pedro A"
+          ],
+          "lastName": [
+            "Piedra"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Pediatrics, Baylor College of Medicine, One Baylor Plaza, Houston, TX 77030, USA. ppiedra@bcm.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia LI"
+          ],
+          "firstName": [
+            "Lorena I"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "LI"
+          ],
+          "affiliation": [
+            "Virology Program, Institute of Biomedical Sciences (ICBM), Facultad de Medicina, Universidad de Chile, Independencia 1027, Pabellón J. Independencia, 8380453 Santiago, Chile. ltapia@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5581-3936",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2529765"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "The clinical impact of viral factors (types and viral loads) during respiratory syncytial virus (RSV) infection is still controversial, especially regarding newly described genotypes. In this study, infants with RSV bronchiolitis were recruited to describe the association of these viral factors with severity of infection. RSV antigenic types, genotypes, and viral loads were determined from hospitalized patients at Hospital Roberto del Río, Santiago, Chile. Cases were characterized by demographic and clinical information, including days of lower respiratory symptoms and severity. A total of 86 patients were included: 49 moderate and 37 severe cases. During 2013, RSV-A was dominant (86%). RSV-B predominated in 2014 (92%). Phylogenetic analyses revealed circulation of GA2, Buenos Aires (BA), and Ontario (ON) genotypes. No association was observed between severity of infection and RSV group (p = 0.69) or genotype (p = 0.87). After a clinical categorization of duration of illness, higher RSV genomic loads were detected in infants evaluated earlier in their disease (p < 0.001) and also in infants evaluated later, but coursing a more severe infection (p = 0.04). Although types and genotypes did not associate with severity in our children, higher RSV genomic loads and delayed viral clearance in severe patients define a group that might benefit from new antiviral therapies."
+  ],
+  "affiliation": [
+    "Department of Pediatrics and Pediatric Surgery, Hospital Roberto del Río, Facultad de Medicina, Universidad de Chile, Profesor Zañartu 1085, Independencia, 8380418 Santiago, Chile. y.espinosa.v@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiratory Syncytial Virus, Human"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiratory Syncytial Virus Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Viral Load"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Viral"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Child, Hospitalized"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Respiratory syncytial virus",
+        "Viral load",
+        "Severity",
+        "Rsv Genotypes"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372666?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5372666"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms18030654"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-04-25"
+  ],
+  "dateOfCreation": [
+    "2017-03-24"
+  ],
+  "dateOfRevision": [
+    "2017-04-25"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-21"
+  ],
+  "firstPublicationDate": [
+    "2017-03-21"
+  ]
+}

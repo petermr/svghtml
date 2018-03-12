@@ -1,0 +1,454 @@
+{
+  "id": [
+    "29472572"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29472572"
+  ],
+  "pmcid": [
+    "PMC5823851"
+  ],
+  "doi": [
+    "10.1038/s41598-018-21836-6"
+  ],
+  "title": [
+    "Onset and Evolution of Southern Annular Mode-Like Changes at Centennial Timescale."
+  ],
+  "authorString": [
+    "Moreno PI, Vilanova I, Villa-Martínez R, Dunbar RB, Mucciarone DA, Kaplan MR, Garreaud RD, Rojas M, Moy CM, De Pol-Holz R, Lambert F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Moreno PI"
+          ],
+          "firstName": [
+            "P I"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "PI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1333-6238",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Ecológicas, Universidad de Chile, Santiago, Chile. pimoreno@uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Vilanova I"
+          ],
+          "firstName": [
+            "I"
+          ],
+          "lastName": [
+            "Vilanova"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "CONICET-Museo Argentino de Ciencias Naturales, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Villa-Martínez R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Villa-Martínez"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "GAIA-Antártica, Universidad de Magallanes, Punta Arenas, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Dunbar RB"
+          ],
+          "firstName": [
+            "R B"
+          ],
+          "lastName": [
+            "Dunbar"
+          ],
+          "initials": [
+            "RB"
+          ],
+          "affiliation": [
+            "School of Earth, Energy & Environmental Sciences, Stanford University, Palo Alto, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Mucciarone DA"
+          ],
+          "firstName": [
+            "D A"
+          ],
+          "lastName": [
+            "Mucciarone"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "School of Earth, Energy & Environmental Sciences, Stanford University, Palo Alto, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kaplan MR"
+          ],
+          "firstName": [
+            "M R"
+          ],
+          "lastName": [
+            "Kaplan"
+          ],
+          "initials": [
+            "MR"
+          ],
+          "affiliation": [
+            "Geochemistry, Lamont-Doherty Earth Observatory of Columbia University, Palisades, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Garreaud RD"
+          ],
+          "firstName": [
+            "R D"
+          ],
+          "lastName": [
+            "Garreaud"
+          ],
+          "initials": [
+            "RD"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Geofísica, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Moy CM"
+          ],
+          "firstName": [
+            "C M"
+          ],
+          "lastName": [
+            "Moy"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "Department of Geology, University of Otago, Dunedin, New Zealand."
+          ]
+        },
+        {
+          "fullName": [
+            "De Pol-Holz R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "De Pol-Holz"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3281-8232",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "GAIA-Antártica, Universidad de Magallanes, Punta Arenas, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lambert F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Lambert"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2192-024X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Geografía Física, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3281-8232",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1333-6238",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2192-024X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2645780"
+      ],
+      "dateOfPublication": [
+        "2018 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "3458"
+  ],
+  "abstractText": [
+    "The Southern Westerly Winds (SWW) are the surface expression of geostrophic winds that encircle the southern mid-latitudes. In conjunction with the Southern Ocean, they establish a coupled system that not only controls climate in the southern third of the world, but is also closely connected to the position of the Intertropical Convergence Zone and CO2 degassing from the deep ocean. Paradoxically, little is known about their behavior since the last ice age and relationships with mid-latitude glacier history and tropical climate variability. Here we present a lake sediment record from Chilean Patagonia (51°S) that reveals fluctuations of the low-level SWW at mid-latitudes, including strong westerlies during the Antarctic Cold Reversal, anomalously low intensity during the early Holocene, which was unfavorable for glacier growth, and strong SWW since ~7.5 ka. We detect nine positive Southern Annular Mode-like events at centennial timescale since ~5.8 ka that alternate with cold/wet intervals favorable for glacier expansions (Neoglaciations) in southern Patagonia. The correspondence of key features of mid-latitude atmospheric circulation with shifts in tropical climate since ~10 ka suggests that coherent climatic shifts in these regions have driven climate change in vast sectors of the Southern Hemisphere at centennial and millennial timescales."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias Ecológicas, Universidad de Chile, Santiago, Chile. pimoreno@uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5823851?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5823851"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-21836-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-24"
+  ],
+  "dateOfRevision": [
+    "2018-02-27"
+  ],
+  "electronicPublicationDate": [
+    "2018-02-22"
+  ],
+  "firstPublicationDate": [
+    "2018-02-22"
+  ]
+}

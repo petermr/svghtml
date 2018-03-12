@@ -1,0 +1,675 @@
+{
+  "id": [
+    "28784139"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28784139"
+  ],
+  "pmcid": [
+    "PMC5547475"
+  ],
+  "doi": [
+    "10.1186/s12934-017-0737-2"
+  ],
+  "title": [
+    "Structure and application of antifreeze proteins from Antarctic bacteria."
+  ],
+  "authorString": [
+    "Muñoz PA, Márquez SL, González-Nilo FD, Márquez-Miranda V, Blamey JM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Muñoz PA"
+          ],
+          "firstName": [
+            "Patricio A"
+          ],
+          "lastName": [
+            "Muñoz"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Fundación Científica y Cultural Biociencia, José Domingo Cañas, 2280, Ñuñoa, Santiago, Chile. pmunoz@bioscience.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Márquez SL"
+          ],
+          "firstName": [
+            "Sebastián L"
+          ],
+          "lastName": [
+            "Márquez"
+          ],
+          "initials": [
+            "SL"
+          ],
+          "affiliation": [
+            "Fundación Científica y Cultural Biociencia, José Domingo Cañas, 2280, Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Nilo FD"
+          ],
+          "firstName": [
+            "Fernando D"
+          ],
+          "lastName": [
+            "González-Nilo"
+          ],
+          "initials": [
+            "FD"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology (CBIB), Facultad de Ciencias Biológicas, Universidad Andres Bello, Avenida Republica 239, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Márquez-Miranda V"
+          ],
+          "firstName": [
+            "Valeria"
+          ],
+          "lastName": [
+            "Márquez-Miranda"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Center for Bioinformatics and Integrative Biology (CBIB), Facultad de Ciencias Biológicas, Universidad Andres Bello, Avenida Republica 239, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Blamey JM"
+          ],
+          "firstName": [
+            "Jenny M"
+          ],
+          "lastName": [
+            "Blamey"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Fundación Científica y Cultural Biociencia, José Domingo Cañas, 2280, Ñuñoa, Santiago, Chile. jblamey@bioscience.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2582326"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Microbial cell factories"
+          ],
+          "ISOAbbreviation": [
+            "Microb. Cell Fact."
+          ],
+          "medlineAbbreviation": [
+            "Microb Cell Fact"
+          ],
+          "NLMid": [
+            "101139812"
+          ],
+          "ISSN": [
+            "1475-2859"
+          ],
+          "ESSN": [
+            "1475-2859"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "138"
+  ],
+  "abstractText": [
+    "Antifreeze proteins (AFPs) production is a survival strategy of psychrophiles in ice. These proteins have potential in frozen food industry avoiding the damage in the structure of animal or vegetal foods. Moreover, there is not much information regarding the interaction of Antarctic bacterial AFPs with ice, and new determinations are needed to understand the behaviour of these proteins at the water/ice interface.Different Antarctic places were screened for antifreeze activity and microorganisms were selected for the presence of thermal hysteresis in their crude extracts. Isolates GU1.7.1, GU3.1.1, and AFP5.1 showed higher thermal hysteresis and were characterized using a polyphasic approach. Studies using cucumber and zucchini samples showed cellular protection when samples were treated with partially purified AFPs or a commercial AFP as was determined using toluidine blue O and neutral red staining. Additionally, genome analysis of these isolates revealed the presence of genes that encode for putative AFPs. Deduced amino acids sequences from GU3.1.1 (gu3A and gu3B) and AFP5.1 (afp5A) showed high similarity to reported AFPs which crystal structures are solved, allowing then generating homology models. Modelled proteins showed a triangular prism form similar to β-helix AFPs with a linear distribution of threonine residues at one side of the prism that could correspond to the putative ice binding side. The statistically best models were used to build a protein-water system. Molecular dynamics simulations were then performed to compare the antifreezing behaviour of these AFPs at the ice/water interface. Docking and molecular dynamics simulations revealed that gu3B could have the most efficient antifreezing behavior, but gu3A could have a higher affinity for ice.AFPs from Antarctic microorganisms GU1.7.1, GU3.1.1 and AFP5.1 protect cellular structures of frozen food showing a potential for frozen food industry. Modeled proteins possess a β-helix structure, and molecular docking analysis revealed the AFP gu3B could be the most efficient AFPs in order to avoid the formation of ice crystals, even when gu3A has a higher affinity for ice. By determining the interaction of AFPs at the ice/water interface, it will be possible to understand the process of adaptation of psychrophilic bacteria to Antarctic ice."
+  ],
+  "affiliation": [
+    "Fundación Científica y Cultural Biociencia, José Domingo Cañas, 2280, Ñuñoa, Santiago, Chile. pmunoz@bioscience.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacteria"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cucurbitaceae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cucurbita"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antifreeze Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bacterial Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Bacterial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Alignment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Binding Sites"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Amino Acid Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Structure, Tertiary"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antarctic Regions"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Dynamics Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Docking Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Whole Genome Sequencing"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Antifreeze proteins",
+        "Antarctica",
+        "psychrophiles",
+        "Frozen Food",
+        "Ice Binding Proteins"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Bacterial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Bacterial Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Antifreeze Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5547475?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5547475"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12934-017-0737-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "sprot",
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-02-05"
+  ],
+  "dateOfCreation": [
+    "2017-08-09"
+  ],
+  "dateOfRevision": [
+    "2018-02-05"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-07"
+  ],
+  "firstPublicationDate": [
+    "2017-08-07"
+  ]
+}

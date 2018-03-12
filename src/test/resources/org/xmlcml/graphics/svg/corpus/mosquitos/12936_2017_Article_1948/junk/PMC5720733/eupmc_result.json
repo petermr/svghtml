@@ -1,0 +1,592 @@
+{
+  "id": [
+    "29216268"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29216268"
+  ],
+  "pmcid": [
+    "PMC5720733"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0189213"
+  ],
+  "title": [
+    "Docking and quantitative structure-activity relationship of bi-cyclic heteroaromatic pyridazinone and pyrazolone derivatives as phosphodiesterase 3A (PDE3A) inhibitors."
+  ],
+  "authorString": [
+    "Muñoz-Gutiérrez C, Cáceres-Rojas D, Adasme-Carreño F, Palomo I, Fuentes E, Caballero J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Muñoz-Gutiérrez C"
+          ],
+          "firstName": [
+            "Camila"
+          ],
+          "lastName": [
+            "Muñoz-Gutiérrez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular (CBSM), Universidad de Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cáceres-Rojas D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Cáceres-Rojas"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular (CBSM), Universidad de Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Adasme-Carreño F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Adasme-Carreño"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular (CBSM), Universidad de Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palomo I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Palomo"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Platelet Research Laboratory, Department of Clinical Biochemistry and Immunohematology, Faculty of Health Sciences, Interdisciplinary Excellence Research Program on Healthy Aging (PIEI-ES), Universidad de Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Núcleo Científico Multidisciplinario, Universidad de Talca, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Caballero J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Caballero"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0182-1444",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Bioinformática y Simulación Molecular (CBSM), Universidad de Talca, Talca, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0182-1444",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2632138"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0189213"
+  ],
+  "abstractText": [
+    "PDE3s belong to the phosphodiesterases family, where the PDE3A isoform is the major subtype in platelets involved in the cAMP regulation pathway of platelet aggregation. PDE3A inhibitors have been designed as potential antiplatelet agents. In this work, a homology model of PDE3A was developed and used to obtain the binding modes of bicyclic heteroaromatic pyridazinones and pyrazolones. Most of the studied compounds adopted similar orientations within the PDE3A active site, establishing hydrogen bonds with catalytic amino acids. Besides, the structure-activity relationship of the studied inhibitors was described by using a field-based 3D-QSAR method. Different structure alignment strategies were employed, including template-based and docking-based alignments. Adequate correlation models were obtained according to internal and external validations. In general, QSAR models revealed that steric and hydrophobic fields describe the different inhibitory activities of the compounds, where the hydrogen bond donor and acceptor fields have minor contributions. It should be stressed that structural elements of PDE3A inhibitors are reported here, through descriptions of their binding interactions and their differential affinities. In this sense, the present results could be useful in the future design of more specific and potent PDE3A inhibitors that may be used for the treatment of cardiovascular diseases."
+  ],
+  "affiliation": [
+    "Centro de Bioinformática y Simulación Molecular (CBSM), Universidad de Talca, Talca, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pyrazolones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pyridones"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Quantitative Structure-Activity Relationship"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cyclic Nucleotide Phosphodiesterases, Type 3"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phosphodiesterase 3 Inhibitors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Docking Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bridged Bicyclo Compounds"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Pyridones"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Pyrazolones"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cyclic Nucleotide Phosphodiesterases, Type 3"
+          ],
+          "registryNumber": [
+            "EC 3.1.4.17"
+          ]
+        },
+        {
+          "name": [
+            "Phosphodiesterase 3 Inhibitors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Bridged Bicyclo Compounds"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5720733?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5720733"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0189213"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "sprot",
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-12-26"
+  ],
+  "dateOfCreation": [
+    "2017-12-08"
+  ],
+  "dateOfRevision": [
+    "2017-12-26"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-07"
+  ],
+  "firstPublicationDate": [
+    "2017-12-07"
+  ]
+}

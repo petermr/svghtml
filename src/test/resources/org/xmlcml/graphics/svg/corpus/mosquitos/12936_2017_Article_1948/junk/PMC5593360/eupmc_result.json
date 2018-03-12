@@ -1,0 +1,297 @@
+{
+  "id": [
+    "28860270"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28860270"
+  ],
+  "pmcid": [
+    "PMC5593360"
+  ],
+  "doi": [
+    "10.1183/13993003.01030-2017"
+  ],
+  "title": [
+    "Clinical screening of oropharyngeal dysphagia: standard of care."
+  ],
+  "authorString": [
+    "Caviedes I, Fernandez-Bussy S, Labarca G, Herth FJF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Caviedes I"
+          ],
+          "firstName": [
+            "Ivan"
+          ],
+          "lastName": [
+            "Caviedes"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Servicio y Laboratorio Broncopulmonar, Clínica Alemana de Santiago, Facultad de Medicina, Clínica Alemana, Universidad del Desarrollo, Santiago, Chile icaviedes@alemana.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez-Bussy S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Fernandez-Bussy"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Servicio de Neumología Intervencionista, Clínica Alemana de Santiago, Facultad de Medicina, Clínica Alemana, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Labarca G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Labarca"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0069-3420",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Complejo Asistencial Dr Víctor Ríos Ruiz, Los Ángeles, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herth FJF"
+          ],
+          "firstName": [
+            "Felix J F"
+          ],
+          "lastName": [
+            "Herth"
+          ],
+          "initials": [
+            "FJF"
+          ],
+          "affiliation": [
+            "Dept of Pneumology and Critical Care Medicine, Thoraxklinik University of Heidelberg, Heidelberg, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0069-3420",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "50"
+      ],
+      "journalIssueId": [
+        "2583728"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "The European respiratory journal"
+          ],
+          "ISOAbbreviation": [
+            "Eur. Respir. J."
+          ],
+          "medlineAbbreviation": [
+            "Eur Respir J"
+          ],
+          "NLMid": [
+            "8803460"
+          ],
+          "ISSN": [
+            "0903-1936"
+          ],
+          "ESSN": [
+            "1399-3003"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "affiliation": [
+    "Servicio y Laboratorio Broncopulmonar, Clínica Alemana de Santiago, Facultad de Medicina, Clínica Alemana, Universidad del Desarrollo, Santiago, Chile icaviedes@alemana.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Letter"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5593360?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5593360"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1183/13993003.01030-2017"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-01"
+  ],
+  "dateOfRevision": [
+    "2017-09-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-31"
+  ],
+  "firstPublicationDate": [
+    "2017-08-31"
+  ]
+}

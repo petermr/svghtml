@@ -1,0 +1,319 @@
+{
+  "id": [
+    "29349262"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29349262"
+  ],
+  "pmcid": [
+    "PMC5769106"
+  ],
+  "doi": [
+    "10.1016/j.ssmph.2017.08.010"
+  ],
+  "title": [
+    "Mothers' labor market choices and child development outcomes in Chile."
+  ],
+  "authorString": [
+    "Reynolds SA, Fernald LCH, Behrman JR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Reynolds SA"
+          ],
+          "firstName": [
+            "Sarah A"
+          ],
+          "lastName": [
+            "Reynolds"
+          ],
+          "initials": [
+            "SA"
+          ],
+          "affiliation": [
+            "Division of Community Health Sciences, School of Public Health, University of California, 50 University Hall, Berkeley, CA 94720-7360, United States."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernald LCH"
+          ],
+          "firstName": [
+            "Lia C H"
+          ],
+          "lastName": [
+            "Fernald"
+          ],
+          "initials": [
+            "LCH"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1555-4607",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Division of Community Health Sciences, School of Public Health, University of California, 50 University Hall, Berkeley, CA 94720-7360, United States."
+          ]
+        },
+        {
+          "fullName": [
+            "Behrman JR"
+          ],
+          "firstName": [
+            "Jere R"
+          ],
+          "lastName": [
+            "Behrman"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Economics and Sociology Departments, School of Arts and Sciences, University of Pennsylvania, 160 McNeil Building, 3718 Locust Walk, Philadelphia, PA 19104-6297, United States."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1555-4607",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "3"
+      ],
+      "journalIssueId": [
+        "2585363"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "SSM - population health"
+          ],
+          "ISOAbbreviation": [
+            "SSM Popul Health"
+          ],
+          "medlineAbbreviation": [
+            "SSM Popul Health"
+          ],
+          "NLMid": [
+            "101678841"
+          ],
+          "ISSN": [
+            "2352-8273"
+          ],
+          "ESSN": [
+            "2352-8273"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "756-766"
+  ],
+  "abstractText": [
+    "This paper examines associations between labor market participation of Chilean mothers and the cognitive, language, and socio-economic development of their children. Using a nationally-representative sample of 3-year-old children, we test if mothers' work intensity in the two previous years is associated with child development outcomes; data were collected in 2010 when children were one year old, and again in 2012, when they were three years old. We find that children who were three years old with mothers who worked for higher fractions of their children's lives in the previous two years perform significantly better on all tests (cognitive, language, socio-emotional) than children whose mothers had worked less, while controlling for baseline test performance. These main effects did not remain significant with the inclusion of a wide range of socio-economic, demographic control variables, however. Our results were similarly null when using an IV analysis or a propensity score matching approach. We provide descriptive information on theoretical pathways by which maternal work may influence child development. Though several of these pathways (e.g. preschool, toys, maternal stress) seem to be associated with both maternal work and child development outcomes, the pathways are not sufficiently strong to generate an association between maternal work and child development. We conclude that Chilean mothers' employment in early childhood generally does not have an effect on child development."
+  ],
+  "affiliation": [
+    "Division of Community Health Sciences, School of Public Health, University of California, 50 University Hall, Berkeley, CA 94720-7360, United States."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 HD065436"
+          ],
+          "agency": [
+            "NICHD NIH HHS"
+          ],
+          "acronym": [
+            "HD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "Maternal stress",
+        "Child Development",
+        "Preschool",
+        "Parental Engagement",
+        "Mothers’ Employment"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5769106?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5769106"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.ssmph.2017.08.010"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-20"
+  ],
+  "dateOfRevision": [
+    "2018-01-23"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-18"
+  ],
+  "firstPublicationDate": [
+    "2017-09-18"
+  ]
+}

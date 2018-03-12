@@ -1,0 +1,307 @@
+{
+  "id": [
+    "28680166"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28680166"
+  ],
+  "pmcid": [
+    "PMC5498549"
+  ],
+  "doi": [
+    "10.1038/s41598-017-05026-4"
+  ],
+  "title": [
+    "Nanometric alternating magnetic field generator."
+  ],
+  "authorString": [
+    "Espejo AP, Tejo F, Vidal-Silva N, Escrig J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Espejo AP"
+          ],
+          "firstName": [
+            "A P"
+          ],
+          "lastName": [
+            "Espejo"
+          ],
+          "initials": [
+            "AP"
+          ],
+          "affiliation": [
+            "Center for the Development of Nanoscience and Nanotechnology (CEDENNA), 9170124, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tejo F"
+          ],
+          "firstName": [
+            "F"
+          ],
+          "lastName": [
+            "Tejo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Fsica, Universidad de Santiago de Chile (USACH), Avda. Ecuador 3493, 9170124, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal-Silva N"
+          ],
+          "firstName": [
+            "N"
+          ],
+          "lastName": [
+            "Vidal-Silva"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Departamento de Fsica, Universidad de Santiago de Chile (USACH), Avda. Ecuador 3493, 9170124, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Escrig J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Escrig"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3958-8185",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Fsica, Universidad de Santiago de Chile (USACH), Avda. Ecuador 3493, 9170124, Santiago, Chile. juan.escrig@usach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3958-8185",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2573257"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4736"
+  ],
+  "abstractText": [
+    "In this work we introduce an alternating magnetic field generator in a cylindrical nanostructure. This field appears due to the rotation of a magnetic domain wall located at some position, generating a magnetic region that varies its direction of magnetization alternately, thus inducing an alternating magnetic flux in its vicinity. This phenomenon occurs due to the competition between a spin-polarized current and a magnetic field, which allows to control both the angular velocity and the pinning position of the domain wall. As proof of concept, we study the particular case of a diameter-modulated nanowire with a spin-polarized current along its axis and the demagnetizing field produced by its modulation. This inhomogeneous field allows one to control the angular velocity of the domain wall as a function of its position along the nanowire allowing frequencies in the GHz range to be achieved. This generator could be used in telecommunications for devices in the range of radiofrequencies or, following Faraday's induction law, could also induce an electromotive force and be used as a movable alternate voltage source in future nanodevices."
+  ],
+  "affiliation": [
+    "Center for the Development of Nanoscience and Nanotechnology (CEDENNA), 9170124, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498549?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5498549"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-05026-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-07-06"
+  ],
+  "dateOfRevision": [
+    "2017-07-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-05"
+  ],
+  "firstPublicationDate": [
+    "2017-07-05"
+  ]
+}

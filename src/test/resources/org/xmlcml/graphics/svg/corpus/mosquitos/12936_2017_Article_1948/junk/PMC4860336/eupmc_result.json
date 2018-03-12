@@ -1,0 +1,304 @@
+{
+  "id": [
+    "27168975"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27168975"
+  ],
+  "pmcid": [
+    "PMC4860336"
+  ],
+  "doi": [
+    "10.7717/peerj.1963"
+  ],
+  "title": [
+    "Shallow water heterobranch sea slugs (Gastropoda: Heterobranchia) from the Región de Atacama, northern Chile."
+  ],
+  "authorString": [
+    "Araya JF, Valdés Á."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Araya JF"
+          ],
+          "firstName": [
+            "Juan Francisco"
+          ],
+          "lastName": [
+            "Araya"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4087-9641",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Geología, Universidad de Atacama, Copiapó, Región de Atacama, Chile; Programa de Doctorado en Sistemática y Biodiversidad, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valdés Á"
+          ],
+          "firstName": [
+            "Ángel"
+          ],
+          "lastName": [
+            "Valdés"
+          ],
+          "initials": [
+            "Á"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, California State Polytechnic University , Pomona, California , United States."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4087-9641",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "4"
+      ],
+      "journalIssueId": [
+        "2370428"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e1963"
+  ],
+  "abstractText": [
+    "The coast of northern Chile has been sparsely studied in regards to its invertebrate fauna, with just a few works reviewing the distribution of local mollusks. This work presents a survey of the shallow water heterobranch sea slugs currently occurring around the port of Caldera (27 °S), in the Región de Atacama, northern Chile. Eight species of sea slugs were found in this study: Aplysiopsis cf. brattstroemi (Marcus, 1959), Baptodoris peruviana (d'Orbigny, 1837), Diaulula variolata (d'Orbigny, 1837), Doris fontainii d'Orbigny, 1837, Onchidella marginata (Couthouy in Gould, 1852), Phidiana lottini (Lesson, 1831), Tyrinna delicata (Abraham, 1877) and the new species Berthella schroedli sp. nov., described herein. All of the species found in the area are endemic to South America, having distributions in the southeastern Pacific and South Atlantic Oceans, from Ancash, Perú to Peninsula Valdés, Argentina, and two of them represent species which are endemic to the Chilean coasts (Aplysiopsis cf. brattstroemi and Berthella schroedli). The finding of a previously undescribed species emphasizes the need of further surveys, particularly in subtidal and deeper waters, in order to improve the knowledge on this neglected fauna in Atacama."
+  ],
+  "affiliation": [
+    "Departamento de Geología, Universidad de Atacama, Copiapó, Región de Atacama, Chile; Programa de Doctorado en Sistemática y Biodiversidad, Universidad de Concepción, Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "New taxa",
+        "Opisthobranchia",
+        "Sacoglossa",
+        "Nudibranchia",
+        "Shallow Water",
+        "Eastern Pacific",
+        "Onchidiidae",
+        "Chromodorididae",
+        "Dorididae",
+        "Pleurobranchidae"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4860336?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4860336"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.1963"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL",
+        "UNIPROT"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-05-12"
+  ],
+  "dateOfCreation": [
+    "2016-05-12"
+  ],
+  "dateOfRevision": [
+    "2016-05-13"
+  ],
+  "electronicPublicationDate": [
+    "2016-05-02"
+  ],
+  "firstPublicationDate": [
+    "2016-05-02"
+  ]
+}

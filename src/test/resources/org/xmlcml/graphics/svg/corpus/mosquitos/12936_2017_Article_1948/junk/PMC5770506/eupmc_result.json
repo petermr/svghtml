@@ -1,0 +1,391 @@
+{
+  "id": [
+    "29101684"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29101684"
+  ],
+  "pmcid": [
+    "PMC5770506"
+  ],
+  "doi": [
+    "10.1007/s00792-017-0976-5"
+  ],
+  "title": [
+    "High altitude, hyper-arid soils of the Central-Andes harbor mega-diverse communities of actinobacteria."
+  ],
+  "authorString": [
+    "Bull AT, Idris H, Sanderson R, Asenjo J, Andrews B, Goodfellow M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bull AT"
+          ],
+          "firstName": [
+            "Alan T"
+          ],
+          "lastName": [
+            "Bull"
+          ],
+          "initials": [
+            "AT"
+          ],
+          "affiliation": [
+            "School of Biosciences, University of Kent, Canterbury, Kent, CT2 7NJ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Idris H"
+          ],
+          "firstName": [
+            "Hamidah"
+          ],
+          "lastName": [
+            "Idris"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "School of Biology, Ridley Building, Newcastle University, Newcastle upon Tyne, NE1 7RU, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanderson R"
+          ],
+          "firstName": [
+            "Roy"
+          ],
+          "lastName": [
+            "Sanderson"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9580-4751",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Biology, Ridley Building, Newcastle University, Newcastle upon Tyne, NE1 7RU, UK. roy.sanderson@ncl.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Asenjo J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Asenjo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering and Biotechnology, Centre for Biotechnology and Bioengineering (CeBiB), University of Chile, Beauchef 851, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Andrews B"
+          ],
+          "firstName": [
+            "Barbara"
+          ],
+          "lastName": [
+            "Andrews"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Chemical Engineering and Biotechnology, Centre for Biotechnology and Bioengineering (CeBiB), University of Chile, Beauchef 851, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Goodfellow M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Goodfellow"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "School of Biology, Ridley Building, Newcastle University, Newcastle upon Tyne, NE1 7RU, UK."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9580-4751",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "2641423"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Extremophiles : life under extreme conditions"
+          ],
+          "ISOAbbreviation": [
+            "Extremophiles"
+          ],
+          "medlineAbbreviation": [
+            "Extremophiles"
+          ],
+          "NLMid": [
+            "9706854"
+          ],
+          "ISSN": [
+            "1431-0651"
+          ],
+          "ESSN": [
+            "1433-4909"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "47-57"
+  ],
+  "abstractText": [
+    "The data reported in this paper are among the first relating to the microbiology of hyper-arid, very high altitude deserts and they provide base line information on the structure of actinobacterial communities. The high mountain Cerro Chajnantor landscape of the Central Andes in northern Chile is exposed to the world's most intense levels of solar radiation and its impoverished soils are severely desiccated. The purpose of this research was to define the actinobacterial community structures in soils at altitudes ranging from 3000 to 5000 m above sea level. Pyrosequencing surveys have revealed an extraordinary degree of microbial dark matter at these elevations that includes novel candidate actinobacterial classes, orders and families. Ultraviolet-B irradiance and a range of edaphic factors were found to be highly significant in determining community compositions at family and genus levels of diversity."
+  ],
+  "affiliation": [
+    "School of Biosciences, University of Kent, Canterbury, Kent, CT2 7NJ, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "Emeritus Fellowship"
+          ],
+          "agency": [
+            "Leverhulme Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "JP100654"
+          ],
+          "agency": [
+            "Royal Society"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "International Scholarship"
+          ],
+          "agency": [
+            "Malaysian Government"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Actinobacteria",
+        "High altitude",
+        "Β-diversity",
+        "Microbial Dark Matter",
+        "Hyper-arid Soils"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5770506?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5770506"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s00792-017-0976-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-05"
+  ],
+  "dateOfRevision": [
+    "2018-01-30"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-03"
+  ],
+  "firstPublicationDate": [
+    "2017-11-03"
+  ]
+}

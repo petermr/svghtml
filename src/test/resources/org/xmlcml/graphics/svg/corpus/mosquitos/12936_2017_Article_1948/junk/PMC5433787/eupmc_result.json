@@ -1,0 +1,430 @@
+{
+  "id": [
+    "28492762"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28492762"
+  ],
+  "pmcid": [
+    "PMC5433787"
+  ],
+  "doi": [
+    "10.1590/s1518-8787.2017051006666"
+  ],
+  "title": [
+    "Equity in out-of-pocket payment in Chile."
+  ],
+  "authorString": [
+    "Mondaca ALN, Chi C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mondaca ALN"
+          ],
+          "firstName": [
+            "Alicia Lorena Núñez"
+          ],
+          "lastName": [
+            "Mondaca"
+          ],
+          "initials": [
+            "ALN"
+          ],
+          "affiliation": [
+            "Department of Management Control and Information Systems. School of Economics and Business. University of Chile. Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chi C"
+          ],
+          "firstName": [
+            "Chunhuei"
+          ],
+          "lastName": [
+            "Chi"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for Global Health. International Health Program. College of Public Health and Human Sciences. Oregon State University. Corvallis, Oregon, United States."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "51"
+      ],
+      "journalIssueId": [
+        "2556558"
+      ],
+      "dateOfPublication": [
+        "2017 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Revista de saude publica"
+          ],
+          "ISOAbbreviation": [
+            "Rev Saude Publica"
+          ],
+          "medlineAbbreviation": [
+            "Rev Saude Publica"
+          ],
+          "NLMid": [
+            "0135043"
+          ],
+          "ISSN": [
+            "0034-8910"
+          ],
+          "ESSN": [
+            "1518-8787"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "44"
+  ],
+  "abstractText": [
+    "To assess the distribution of financial burden in Chile, with a focus on the burden and progressivity of out-of-pocket payment.Based on the principle of ability to pay, we explore factors that contribute to inequities in the health system finance and issues about the burden of out-of-pocket payment, as well as the progressivity and redistributive effect of out-of-pocket payment in Chile. Our analysis is based on data from the 2006 National Survey on Satisfaction and Out-of-Pocket Payments.Results from this study indicate evidence of inequity, in spite of the progressivity of the healthcare system. Our analysis also identifies relevant policy variables such as education, insurance system, and method of payment that should be taken into consideration in the ongoing debates and research in improving the Chilean system.In order to reduce the detected disparities among income groups, healthcare priorities should target low-income groups. Furthermore, policies should explore changes in the access to education and its impact on equity."
+  ],
+  "affiliation": [
+    "Department of Management Control and Information Systems. School of Economics and Business. University of Chile. Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cost Sharing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Expenditures"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Financing, Personal"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Delivery of Health Care"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Healthcare Disparities"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5433787?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5433787"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1590/S1518-8787.2017051006666"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-29"
+  ],
+  "dateOfCreation": [
+    "2017-05-11"
+  ],
+  "dateOfRevision": [
+    "2017-06-29"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-04"
+  ],
+  "firstPublicationDate": [
+    "2017-05-04"
+  ]
+}

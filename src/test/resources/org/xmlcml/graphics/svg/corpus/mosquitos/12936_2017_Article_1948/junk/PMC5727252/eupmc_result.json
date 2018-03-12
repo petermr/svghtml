@@ -1,0 +1,483 @@
+{
+  "id": [
+    "29233974"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29233974"
+  ],
+  "pmcid": [
+    "PMC5727252"
+  ],
+  "doi": [
+    "10.1038/s41467-017-02139-2"
+  ],
+  "title": [
+    "Author Correction: Nanoscale control of competing interactions and geometrical frustration in a dipolar trident lattice."
+  ],
+  "authorString": [
+    "Farhan A, Petersen CF, Dhuey S, Anghinolfi L, Qin QH, Saccone M, Velten S, Wuth C, Gliga S, Mellado P, Alava MJ, Scholl A, van Dijken S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farhan A"
+          ],
+          "firstName": [
+            "Alan"
+          ],
+          "lastName": [
+            "Farhan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2384-2249",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Advanced Light Source, Lawrence Berkeley National Laboratory (LBNL), 1 Cyclotron Road, Berkeley, CA, 94720, USA. alan.farhan@gmx.net."
+          ]
+        },
+        {
+          "fullName": [
+            "Petersen CF"
+          ],
+          "firstName": [
+            "Charlotte F"
+          ],
+          "lastName": [
+            "Petersen"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "affiliation": [
+            "COMP Centre of Excellence, Department of Applied Physics, Aalto University, P.O. Box 11100, Espoo, FI-00076, Aalto, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Dhuey S"
+          ],
+          "firstName": [
+            "Scott"
+          ],
+          "lastName": [
+            "Dhuey"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Molecular Foundry, Lawrence Berkeley National Laboratory (LBNL), 1 Cyclotron Road, Berkeley, CA, 94720, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Anghinolfi L"
+          ],
+          "firstName": [
+            "Luca"
+          ],
+          "lastName": [
+            "Anghinolfi"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Dipartimento di Fisica, Università di Genova, via Dodecaneso 33, I-16146, Genova, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Qin QH"
+          ],
+          "firstName": [
+            "Qi Hang"
+          ],
+          "lastName": [
+            "Qin"
+          ],
+          "initials": [
+            "QH"
+          ],
+          "affiliation": [
+            "NanoSpin, Department of Applied Physics, Aalto University School of Science, P.O. Box 15100, FI-00076, Aalto, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Saccone M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Saccone"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Physics, University of California, Santa Cruz, CA, 95064, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Velten S"
+          ],
+          "firstName": [
+            "Sven"
+          ],
+          "lastName": [
+            "Velten"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Materials Sciences Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA, 94720, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Wuth C"
+          ],
+          "firstName": [
+            "Clemens"
+          ],
+          "lastName": [
+            "Wuth"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Center for X-ray Optics, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA, 94720, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gliga S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Gliga"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "SUPA, School of Physics and Astronomy, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Mellado P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Mellado"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "School of Engineering and Sciences, Adolfo Ibáñez University, Diagonal Las Torres, 2640, Peñalolén, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alava MJ"
+          ],
+          "firstName": [
+            "Mikko J"
+          ],
+          "lastName": [
+            "Alava"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "COMP Centre of Excellence, Department of Applied Physics, Aalto University, P.O. Box 11100, Espoo, FI-00076, Aalto, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Scholl A"
+          ],
+          "firstName": [
+            "Andreas"
+          ],
+          "lastName": [
+            "Scholl"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Advanced Light Source, Lawrence Berkeley National Laboratory (LBNL), 1 Cyclotron Road, Berkeley, CA, 94720, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "van Dijken S"
+          ],
+          "firstName": [
+            "Sebastiaan"
+          ],
+          "lastName": [
+            "van Dijken"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "NanoSpin, Department of Applied Physics, Aalto University School of Science, P.O. Box 15100, FI-00076, Aalto, Finland."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2384-2249",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2527030"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2138"
+  ],
+  "abstractText": [
+    "The original version of this article contained an error in the legend to Figure 4. The yellow scale bar should have been defined as '~600 nm', not '~600 µm'. This has now been corrected in both the PDF and HTML versions of the article."
+  ],
+  "affiliation": [
+    "Advanced Light Source, Lawrence Berkeley National Laboratory (LBNL), 1 Cyclotron Road, Berkeley, CA, 94720, USA. alan.farhan@gmx.net."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5727252?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5727252"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-017-02139-2"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "29042556"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Nat Commun. 2017 Oct 17;8(1):995"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-14"
+  ],
+  "dateOfRevision": [
+    "2018-01-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-12"
+  ],
+  "firstPublicationDate": [
+    "2017-12-12"
+  ]
+}

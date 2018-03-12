@@ -1,0 +1,493 @@
+{
+  "id": [
+    "28982192"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28982192"
+  ],
+  "pmcid": [
+    "PMC5629031"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0186140"
+  ],
+  "title": [
+    "The identification of sympatric cryptic free-living nematode species in the Antarctic intertidal."
+  ],
+  "authorString": [
+    "Lee MR, Canales-Aguirre CB, Nuñez D, Pérez K, Hernández CE, Brante A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lee MR"
+          ],
+          "firstName": [
+            "Matthew R"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "MR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9675-9908",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro i~mar, Universidad de Los Lagos, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canales-Aguirre CB"
+          ],
+          "firstName": [
+            "Cristian B"
+          ],
+          "lastName": [
+            "Canales-Aguirre"
+          ],
+          "initials": [
+            "CB"
+          ],
+          "affiliation": [
+            "Centro i~mar, Universidad de Los Lagos, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nuñez D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Nuñez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Centro i~mar, Universidad de Los Lagos, Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez K"
+          ],
+          "firstName": [
+            "Karla"
+          ],
+          "lastName": [
+            "Pérez"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Departamento de Ecología, Universidad Católica de la Santísima de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández CE"
+          ],
+          "firstName": [
+            "Crisitan E"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "CE"
+          ],
+          "affiliation": [
+            "Laboratorio de Ecología Evolutiva and Filoinformática, Departamento de Zoología, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Brante A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Brante"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centro de Investigación en Biodiversidad y Ambientes Sustentables (CIBAS), Universidad Católica de la Santísima de Concepción, Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9675-9908",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0186140"
+  ],
+  "abstractText": [
+    "The diversity of free-living nematodes in the beaches of two Antarctic islands, King George and Deception islands was investigated. We used morphological and molecular (LSU, and two fragments of SSU sequences) approaches to evaluate 236 nematodes. Specimens were assigned to at least genera using morphology and were assessed for the presence of cryptic speciation. The following genera were identified: Halomonhystera, Litoditis, Enoploides, Chromadorita, Theristus, Oncholaimus, Viscosia, Gammanema, Bathylaimus, Choanolaimus, and Paracanthonchus; along with specimens from the families Anticomidae and Linhomoeidae. Cryptic speciation was identified within the genera Halomonhystera and Litoditis. All of the cryptic species identified live sympatrically. The two cryptic species of Halomonhystera exhibited no significant morphological differences. However, Litoditis species 2 was significantly larger than Litoditis species 1. The utility of molecular data in confirming the identifications of some of the morphologically more challenging families of nematodes was demonstrated. In terms of which molecular sequences to use for the identification of free-living nematodes, the SSU sequences were more variable than the LSU sequences, and thus provided more resolution in the identification of cryptic speciation. Finally, despite the considerable amount of time and effort required to put together genetic and morphological data, the resulting advance in our understanding of diversity and ecology of free-living marine nematodes, makes that effort worthwhile."
+  ],
+  "affiliation": [
+    "Centro i~mar, Universidad de Los Lagos, Puerto Montt, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nematoda"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Helminth"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IP"
+                  ],
+                  "qualifierName": [
+                    "isolation & purification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antarctic Regions"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Helminth"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5629031?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5629031"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0186140"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-11-03"
+  ],
+  "dateOfCreation": [
+    "2017-10-05"
+  ],
+  "dateOfRevision": [
+    "2017-11-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-05"
+  ],
+  "firstPublicationDate": [
+    "2017-10-05"
+  ]
+}

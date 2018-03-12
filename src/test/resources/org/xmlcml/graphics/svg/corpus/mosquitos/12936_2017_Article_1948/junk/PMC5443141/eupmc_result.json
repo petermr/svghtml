@@ -1,0 +1,484 @@
+{
+  "id": [
+    "28596755"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28596755"
+  ],
+  "pmcid": [
+    "PMC5443141"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.00639"
+  ],
+  "title": [
+    "Genetic Diversity and Virulence Determinants of Escherichia coli Strains Isolated from Patients with Crohn's Disease in Spain and Chile."
+  ],
+  "authorString": [
+    "Céspedes S, Saitz W, Del Canto F, De la Fuente M, Quera R, Hermoso M, Muñoz R, Ginard D, Khorrami S, Girón J, Assar R, Rosselló-Mora R, Vidal RM."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Céspedes S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Céspedes"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saitz W"
+          ],
+          "firstName": [
+            "Waleska"
+          ],
+          "lastName": [
+            "Saitz"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Del Canto F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Del Canto"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "De la Fuente M"
+          ],
+          "firstName": [
+            "Marjorie"
+          ],
+          "lastName": [
+            "De la Fuente"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Gastroenterology Unit, Clínica Las CondesSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quera R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Quera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Gastroenterology Unit, Clínica Las CondesSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hermoso M"
+          ],
+          "firstName": [
+            "Marcela"
+          ],
+          "lastName": [
+            "Hermoso"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz R"
+          ],
+          "firstName": [
+            "Rául"
+          ],
+          "lastName": [
+            "Muñoz"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5926-8835",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institut Mediterrani d'Estudis Avançats (CSIC-UIB)Illes Balears, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Ginard D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Ginard"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology and Palma Health Research Institute, Hospital Universitario Son EspasesPalma de Mallorca, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Khorrami S"
+          ],
+          "firstName": [
+            "Sam"
+          ],
+          "lastName": [
+            "Khorrami"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology and Palma Health Research Institute, Hospital Universitario Son EspasesPalma de Mallorca, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Girón J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Girón"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Pediatrics, University of Virginia School of MedicineCharlottesville, VA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Assar R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Assar"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rosselló-Mora R"
+          ],
+          "firstName": [
+            "Ramón"
+          ],
+          "lastName": [
+            "Rosselló-Mora"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8253-3107",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institut Mediterrani d'Estudis Avançats (CSIC-UIB)Illes Balears, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal RM"
+          ],
+          "firstName": [
+            "Roberto M"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8253-3107",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5926-8835",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "639"
+  ],
+  "abstractText": [
+    "Adherent-invasive Escherichia coli (AIEC) strains are genetically variable and virulence factors for AIEC are non-specific. FimH is the most studied pathogenicity-related protein, and there have been few studies on other proteins, such as Serine Protease Autotransporters of Enterobacteriacea (SPATEs). The goal of this study is to characterize E. coli strains isolated from patients with Crohn's disease (CD) in Chile and Spain, and identify genetic differences between strains associated with virulence markers and clonality. We characterized virulence factors and genetic variability by pulse field electrophoresis (PFGE) in 50 E. coli strains isolated from Chilean and Spanish patients with CD, and also determined which of these strains presented an AIEC phenotype. Twenty-six E. coli strains from control patients were also included. PFGE patterns were heterogeneous and we also observed a highly diverse profile of virulence genes among all E. coli strains obtained from patients with CD, including those strains defined as AIEC. Two iron transporter genes chuA, and irp2, were detected in various combinations in 68-84% of CD strains. We found that the most significant individual E. coli genetic marker associated with CD E. coli strains was chuA. In addition, patho-adaptative fimH mutations were absent in some of the highly adherent and invasive strains. The fimH adhesin, the iron transporter irp2, and Class-2 SPATEs did not show a significant association with CD strains. The V27A fimH mutation was detected in the most CD strains. This study highlights the genetic variability of E. coli CD strains from two distinct geographic origins, most of them affiliated with the B2 or D E. coli phylogroups and also reveals that nearly 40% of Chilean and Spanish CD patients are colonized with E.coli with a characteristic AIEC phenotype."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Virulence genes",
+        "Biopsy",
+        "Crohn's Disease",
+        "Clonal Relationship",
+        "Adherent Invasive Escherichia Coli (Aiec)",
+        "Fimh Mutations",
+        "Spates"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5443141?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5443141"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.00639"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-09"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-24"
+  ],
+  "firstPublicationDate": [
+    "2017-05-24"
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": [
+    "27993775"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27993775"
+  ],
+  "pmcid": [
+    "PMC5408817"
+  ],
+  "doi": [
+    "10.1093/bioinformatics/btw702"
+  ],
+  "title": [
+    "GENIUS: web server to predict local gene networks and key genes for biological functions."
+  ],
+  "authorString": [
+    "Puelma T, Araus V, Canales J, Vidal EA, Cabello JM, Soto A, Gutiérrez RA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Puelma T"
+          ],
+          "firstName": [
+            "Tomas"
+          ],
+          "lastName": [
+            "Puelma"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araus V"
+          ],
+          "firstName": [
+            "Viviana"
+          ],
+          "lastName": [
+            "Araus"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canales J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6263-6974",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vidal EA"
+          ],
+          "firstName": [
+            "Elena A"
+          ],
+          "lastName": [
+            "Vidal"
+          ],
+          "initials": [
+            "EA"
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cabello JM"
+          ],
+          "firstName": [
+            "Juan M"
+          ],
+          "lastName": [
+            "Cabello"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Soto"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, Departamento de Ciencias de la Computación, Facultad de Ingeniería, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutiérrez RA"
+          ],
+          "firstName": [
+            "Rodrigo A"
+          ],
+          "lastName": [
+            "Gutiérrez"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5961-5005",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6263-6974",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5961-5005",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "33"
+      ],
+      "journalIssueId": [
+        "2542011"
+      ],
+      "dateOfPublication": [
+        "2017 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Bioinformatics (Oxford, England)"
+          ],
+          "ISOAbbreviation": [
+            "Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "Bioinformatics"
+          ],
+          "NLMid": [
+            "9808944"
+          ],
+          "ISSN": [
+            "1367-4803"
+          ],
+          "ESSN": [
+            "1367-4811"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "760-761"
+  ],
+  "abstractText": [
+    "GENIUS is a user-friendly web server that uses a novel machine learning algorithm to infer functional gene networks focused on specific genes and experimental conditions that are relevant to biological functions of interest. These functions may have different levels of complexity, from specific biological processes to complex traits that involve several interacting processes. GENIUS also enriches the network with new genes related to the biological function of interest, with accuracies comparable to highly discriminative Support Vector Machine methods.GENIUS currently supports eight model organisms and is freely available for public use at http://networks.bio.puc.cl/genius .genius.psbl@gmail.com.Supplementary data are available at Bioinformatics online."
+  ],
+  "affiliation": [
+    "Millennium Nucleus Center for Plant Systems and Synthetic Biology, FONDAP Center for Genome Regulation, Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Arabidopsis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Machine Learning"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5408817?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5408817"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/bioinformatics/btw702"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2018-01-30"
+  ],
+  "dateOfCreation": [
+    "2016-12-21"
+  ],
+  "dateOfRevision": [
+    "2018-03-08"
+  ],
+  "firstPublicationDate": [
+    "2016-12-19"
+  ]
+}

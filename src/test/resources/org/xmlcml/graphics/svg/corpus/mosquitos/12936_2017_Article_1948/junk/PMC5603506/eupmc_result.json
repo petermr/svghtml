@@ -1,0 +1,542 @@
+{
+  "id": [
+    "28924180"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28924180"
+  ],
+  "pmcid": [
+    "PMC5603506"
+  ],
+  "doi": [
+    "10.1038/s41598-017-12292-9"
+  ],
+  "title": [
+    "α-SNAP is expressed in mouse ovarian granulosa cells and plays a key role in folliculogenesis and female fertility."
+  ],
+  "authorString": [
+    "Arcos A, Paola M, Gianetti D, Acuña D, Velásquez ZD, Miró MP, Toro G, Hinrichsen B, Muñoz RI, Lin Y, Mardones GA, Ehrenfeld P, Rivera FJ, Michaut MA, Batiz LF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Arcos A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Arcos"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Paola M"
+          ],
+          "firstName": [
+            "Matilde de"
+          ],
+          "lastName": [
+            "Paola"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Histología y Embriología (IHEM), Universidad Nacional de Cuyo-CONICET, Mendoza, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Gianetti D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Gianetti"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acuña D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Acuña"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Velásquez ZD"
+          ],
+          "firstName": [
+            "Zahady D"
+          ],
+          "lastName": [
+            "Velásquez"
+          ],
+          "initials": [
+            "ZD"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Miró MP"
+          ],
+          "firstName": [
+            "María Paz"
+          ],
+          "lastName": [
+            "Miró"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Toro G"
+          ],
+          "firstName": [
+            "Gabriela"
+          ],
+          "lastName": [
+            "Toro"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hinrichsen B"
+          ],
+          "firstName": [
+            "Bryan"
+          ],
+          "lastName": [
+            "Hinrichsen"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Muñoz RI"
+          ],
+          "firstName": [
+            "Rosa Iris"
+          ],
+          "lastName": [
+            "Muñoz"
+          ],
+          "initials": [
+            "RI"
+          ],
+          "affiliation": [
+            "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lin Y"
+          ],
+          "firstName": [
+            "Yimo"
+          ],
+          "lastName": [
+            "Lin"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Neurosurgery, Oregon Health and Science University, Portland, Oregon, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Mardones GA"
+          ],
+          "firstName": [
+            "Gonzalo A"
+          ],
+          "lastName": [
+            "Mardones"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "affiliation": [
+            "Center for Interdisciplinary Studies on the Nervous System (CISNe), Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ehrenfeld P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Ehrenfeld"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center for Interdisciplinary Studies on the Nervous System (CISNe), Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rivera FJ"
+          ],
+          "firstName": [
+            "Francisco J"
+          ],
+          "lastName": [
+            "Rivera"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7895-6318",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Spinal Cord Injury and Tissue Regeneration Center Salzburg, Paracelsus Medical University Salzburg, Salzburg, A-5020, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Michaut MA"
+          ],
+          "firstName": [
+            "Marcela A"
+          ],
+          "lastName": [
+            "Michaut"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0528-6605",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Facultad de Ciencias Exactas y Naturales, Universidad Nacional de Cuyo, Mendoza, Argentina. mmichaut@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Batiz LF"
+          ],
+          "firstName": [
+            "Luis Federico"
+          ],
+          "lastName": [
+            "Batiz"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3043-8797",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro de Investigación Biomédica (CIB), Facultad de Medicina, Universidad de los Andes, Santiago, Chile. lbatiz@uandes.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3043-8797",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0528-6605",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7895-6318",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2591886"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "11765"
+  ],
+  "abstractText": [
+    "The balance between ovarian folliculogenesis and follicular atresia is critical for female fertility and is strictly regulated by a complex network of neuroendocrine and intra-ovarian signals. Despite the numerous functions executed by granulosa cells (GCs) in ovarian physiology, the role of multifunctional proteins able to simultaneously coordinate/modulate several cellular pathways is unclear. Soluble N-ethylmaleimide-sensitive factor (NSF) attachment protein (α-SNAP) is a multifunctional protein that participates in SNARE-mediated membrane fusion events. In addition, it regulates cell-to-cell adhesion, AMPK signaling, autophagy and apoptosis in different cell types. In this study we examined the expression pattern of α-SNAP in ovarian tissue and the consequences of α-SNAP (M105I) mutation (hyh mutation) in folliculogenesis and female fertility. Our results showed that α-SNAP protein is highly expressed in GCs and its expression is modulated by gonadotropin stimuli. On the other hand, α-SNAP-mutant mice show a reduction in α-SNAP protein levels. Moreover, increased apoptosis of GCs and follicular atresia, reduced ovulation rate, and a dramatic decline in fertility is observed in α-SNAP-mutant females. In conclusion, α-SNAP plays a critical role in the balance between follicular development and atresia. Consequently, a reduction in its expression/function (M105I mutation) causes early depletion of ovarian follicles and female subfertility."
+  ],
+  "affiliation": [
+    "Instituto de Anatomía, Histología y Patología, Facultad de Medicina, Universidad Austral de Chile, Valdivia, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 TW007571"
+          ],
+          "agency": [
+            "FIC NIH HHS"
+          ],
+          "acronym": [
+            "TW"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5603506?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5603506"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-12292-9"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-19"
+  ],
+  "dateOfRevision": [
+    "2017-09-22"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-18"
+  ],
+  "firstPublicationDate": [
+    "2017-09-18"
+  ]
+}

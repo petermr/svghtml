@@ -1,0 +1,276 @@
+{
+  "id": [
+    "29151635"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29151635"
+  ],
+  "pmcid": [
+    "PMC5691402"
+  ],
+  "doi": [
+    "10.2471/blt.16.189894"
+  ],
+  "title": [
+    "Lower incidence of myocardial infarction after smoke-free legislation enforcement in Chile."
+  ],
+  "authorString": [
+    "Nazzal C, Harris JE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Nazzal C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Nazzal"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "School of Public Health, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Harris JE"
+          ],
+          "firstName": [
+            "Jeffrey E"
+          ],
+          "lastName": [
+            "Harris"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Department of Economics, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, Massachusetts, MA 02139, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "95"
+      ],
+      "journalIssueId": [
+        "2619827"
+      ],
+      "dateOfPublication": [
+        "2017 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Bulletin of the World Health Organization"
+          ],
+          "ISOAbbreviation": [
+            "Bull. World Health Organ."
+          ],
+          "medlineAbbreviation": [
+            "Bull World Health Organ"
+          ],
+          "NLMid": [
+            "7507052"
+          ],
+          "ISSN": [
+            "0042-9686"
+          ],
+          "ESSN": [
+            "1564-0604"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "674-682"
+  ],
+  "abstractText": [
+    "To evaluate the impact of a complete smoking ban in enclosed spaces on the incidence of acute myocardial infarction in Chile.The population-based study involved residents of urban areas, where 80% of the Chilean population live, aged 20 years or older who had a myocardial infarction. Monthly myocardial infarction incidence and mortality rates at health-care facilities between January 2011 and December 2014 were derived from admission and mortality databases. Regression discontinuity methods were used to estimate the near-immediate impact on disease incidence of enforcing smoke-free legislation in March 2013. The same analysis was performed for ischaemic stroke, degenerative disc disease and colon cancer. Data on the concentration of fine respirable particulates were included in an additional analysis of myocardial infarction incidence in the Santiago metropolitan area.The enforcement of smoke-free legislation was associated with an abrupt, near-immediate decline of 0.639 cases of myocardial infarction per 100 000 adults per month (95% confidence interval, CI: 0.242 to 1.036; relative decline: 7.8%). Similar declines were observed in men and women and in people aged over and under 70 years. However, enforcement of the legislation was not associated with a significant change in the rate of ischaemic stroke, degenerative disc disease or colon cancer. The abrupt decline in myocardial infarction incidence was also observed when data on fine respirable particulates were included in an analysis for Santiago.The enforcement of extensive smoke-free legislation in Chile was associated with an abrupt, near-immediate decline in the incidence of myocardial infarction."
+  ],
+  "affiliation": [
+    "School of Public Health, Faculty of Medicine, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5691402?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5691402"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2471/BLT.16.189894"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "29155901"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Bull World Health Organ. 2017 Nov 1;95(11):792"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-21"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-28"
+  ],
+  "firstPublicationDate": [
+    "2017-08-28"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "id": [
+    "28099466"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28099466"
+  ],
+  "pmcid": [
+    "PMC5242442"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0170103"
+  ],
+  "title": [
+    "Biogeography in Cellana (Patellogastropoda, Nacellidae) with Special Emphasis on the Relationships of Southern Hemisphere Oceanic Island Species."
+  ],
+  "authorString": [
+    "González-Wevar CA, Nakano T, Palma A, Poulin E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "González-Wevar CA"
+          ],
+          "firstName": [
+            "Claudio A"
+          ],
+          "lastName": [
+            "González-Wevar"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0807-8032",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ecología y Biodiversidad (IEB), Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nakano T"
+          ],
+          "firstName": [
+            "Tomoyuki"
+          ],
+          "lastName": [
+            "Nakano"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Seto Marine Biological Laboratory, Field Science Education and Research Centre, Kyoto University, Nishimuro, Wakayama, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Palma A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Palma"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Universidad Gabriela Mistral, Facultad de Ingeniería y Negocios, Providencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Poulin E"
+          ],
+          "firstName": [
+            "Elie"
+          ],
+          "lastName": [
+            "Poulin"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7736-0969",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "GAIA-Antártica, Universidad de Magallanes, Punta Arenas, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0807-8032",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7736-0969",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2510576"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0170103"
+  ],
+  "abstractText": [
+    "Oceanic islands lacking connections to other land are extremely isolated from sources of potential colonists and have acquired their biota mainly through dispersal from geographically distant areas. Hence, isolated island biota constitutes interesting models to infer biogeographical mechanisms of dispersal, colonization, differentiation, and speciation. Limpets of the genus Cellana (Nacellidae: Patellogastropoda) show limited dispersal capacity but are broadly distributed across the Indo-Pacific including many endemic species in isolated oceanic islands. Here, we examined main distributional patterns and geographic boundaries among Cellana lineages with special emphasis in the relationships of Southern Hemisphere oceanic islands species. Phylogenetic reconstructions based on mtDNA (COI) recognized three main clades in Cellana including taxa from different provinces of the Indo-Pacific. Clear genetic discontinuities characterize the biogeography of Cellana and several lineages are associated to particular areas of the Indo-Pacific supporting the low dispersal capacity of the genus across recognized biogeographical barriers in the region. However, evolutionary relationships within Cellana suggest that long-distance dispersal processes have been common in the history of the genus and probably associated to the origin of the species in Hawaii and Juan Fernández Archipelago. Therefore, the presence of Cellana species in geographically distant Southern Hemisphere oceanic islands, such as the Juan Fernández Archipelago, suggests that long-distance dispersal mediated by rafting may have played an important role in the biogeography of the genus."
+  ],
+  "affiliation": [
+    "Instituto de Ecología y Biodiversidad (IEB), Departamento de Ciencias Ecológicas, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "New Zealand"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pacific Ocean"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polynesia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gastropoda"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biological Evolution"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeography"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5242442?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5242442"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0170103"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL",
+        "UNIPROT"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-08-11"
+  ],
+  "dateOfCreation": [
+    "2017-01-18"
+  ],
+  "dateOfRevision": [
+    "2017-08-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-01-18"
+  ],
+  "firstPublicationDate": [
+    "2017-01-18"
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": [
+    "28962669"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28962669"
+  ],
+  "pmcid": [
+    "PMC5622478"
+  ],
+  "doi": [
+    "10.1186/s13287-017-0653-8"
+  ],
+  "title": [
+    "Sonic hedgehog (SHH) signaling improves the angiogenic potential of Wharton's jelly-derived mesenchymal stem cells (WJ-MSC)."
+  ],
+  "authorString": [
+    "Zavala G, Prieto CP, Villanueva AA, Palma V."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zavala G"
+          ],
+          "firstName": [
+            "Gabriela"
+          ],
+          "lastName": [
+            "Zavala"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratory of Stem Cells and Development, Faculty of Sciences, Universidad de Chile, Las Palmeras 3425, Ñuñoa, 7800003, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Prieto CP"
+          ],
+          "firstName": [
+            "Catalina P"
+          ],
+          "lastName": [
+            "Prieto"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "affiliation": [
+            "Laboratory of Stem Cells and Development, Faculty of Sciences, Universidad de Chile, Las Palmeras 3425, Ñuñoa, 7800003, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Villanueva AA"
+          ],
+          "firstName": [
+            "Andrea A"
+          ],
+          "lastName": [
+            "Villanueva"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "affiliation": [
+            "Laboratory of Stem Cells and Development, Faculty of Sciences, Universidad de Chile, Las Palmeras 3425, Ñuñoa, 7800003, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Palma V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "Palma"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4320-7525",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Stem Cells and Development, Faculty of Sciences, Universidad de Chile, Las Palmeras 3425, Ñuñoa, 7800003, Santiago, Chile. vpalma@uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4320-7525",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2593813"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Stem cell research & therapy"
+          ],
+          "ISOAbbreviation": [
+            "Stem Cell Res Ther"
+          ],
+          "medlineAbbreviation": [
+            "Stem Cell Res Ther"
+          ],
+          "NLMid": [
+            "101527581"
+          ],
+          "ISSN": [
+            "1757-6512"
+          ],
+          "ESSN": [
+            "1757-6512"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "203"
+  ],
+  "abstractText": [
+    "Wharton's jelly-derived mesenchymal stem cells (WJ-MSC) show remarkable therapeutic potential to repair tissue upon injury via paracrine signaling by secreting diverse trophic factors that promote angiogenesis. However, the mechanisms and signaling pathways that regulate the induction of these specific factors are still mostly unknown. Emerging evidence suggests that Sonic hedgehog (SHH) plays a central role in angiogenesis and tissue maintenance. However, its contribution to the angiogenic potential of MSC has not been fully addressed. The aim of this work was to characterize the expression of the SHH pathway components in WJ-MSC primary cultures and to evaluate their angiogenic responsiveness to SHH signaling.Primary cell cultures obtained from human umbilical cords were treated with pharmacological modulators of the SHH pathway. We evaluated the modulation of diverse trophic factors in cell lysates, conditioned medium, and functional in vitro assays. In addition, we determined the angiogenic potential of the SHH pathway in the chicken chorioallantoic membrane, an in vivo model.Our results show that WJ-MSC express components of the canonical SHH pathway and are activated by its signaling. In fact, we provide evidence of basal autocrine/paracrine SHH signaling in WJ-MSC. SHH pathway stimulation promotes the secretion of angiogenic factors such as activin A, angiogenin, angiopoietin 1, granulocyte-macrophage colony-stimulating factor, matrix metallometallopeptidase -9, and urokinase-type plasminogen activator, enhancing the pro-angiogenic capabilities of WJ-MSC both in vitro and in vivo.WJ-MSC are a cell population responsive to SHH pathway stimulation. Basal SHH signaling is in part responsible for the angiogenic inductive properties of WJ-MSC. Overall, exogenous activation of the SHH pathway enhances the angiogenic properties of WJ-MSC, making this cell population an ideal target for treating tissue injury."
+  ],
+  "affiliation": [
+    "Laboratory of Stem Cells and Development, Faculty of Sciences, Universidad de Chile, Las Palmeras 3425, Ñuñoa, 7800003, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Angiogenesis",
+        "VEGF",
+        "Sonic hedgehog",
+        "Umbilical cord",
+        "Cam Assay",
+        "Niche Factor",
+        "Wj-msc"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622478?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5622478"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13287-017-0653-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-30"
+  ],
+  "dateOfRevision": [
+    "2017-10-13"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-29"
+  ],
+  "firstPublicationDate": [
+    "2017-09-29"
+  ]
+}

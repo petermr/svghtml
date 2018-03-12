@@ -1,0 +1,718 @@
+{
+  "id": [
+    "28831381"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28831381"
+  ],
+  "pmcid": [
+    "PMC5555271"
+  ],
+  "doi": [
+    "10.1016/j.gdata.2017.08.003"
+  ],
+  "title": [
+    "Draft genome sequence of a monokaryotic model brown-rot fungus Postia (Rhodonia) placenta SB12."
+  ],
+  "authorString": [
+    "Gaskell J, Kersten P, Larrondo LF, Canessa P, Martinez D, Hibbett D, Schmoll M, Kubicek CP, Martinez AT, Yadav J, Master E, Magnuson JK, Yaver D, Berka R, Lail K, Chen C, LaButti K, Nolan M, Lipzen A, Aerts A, Riley R, Barry K, Henrissat B, Blanchette R, Grigoriev IV, Cullen D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gaskell J"
+          ],
+          "firstName": [
+            "Jill"
+          ],
+          "lastName": [
+            "Gaskell"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "USDA Forest Products Laboratory, Madison, WI, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kersten P"
+          ],
+          "firstName": [
+            "Phil"
+          ],
+          "lastName": [
+            "Kersten"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "USDA Forest Products Laboratory, Madison, WI, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Larrondo LF"
+          ],
+          "firstName": [
+            "Luis F"
+          ],
+          "lastName": [
+            "Larrondo"
+          ],
+          "initials": [
+            "LF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8832-7109",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Canessa P"
+          ],
+          "firstName": [
+            "Paulo"
+          ],
+          "lastName": [
+            "Canessa"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3138-8223",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Martinez"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Los Alamos National Laboratory/Joint Genome Institute, Los Alamos, NM, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Hibbett D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Hibbett"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Biology Department, Clark University, Worcester, MA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Schmoll M"
+          ],
+          "firstName": [
+            "Monika"
+          ],
+          "lastName": [
+            "Schmoll"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Austrian Institute of Technology GmbH, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Kubicek CP"
+          ],
+          "firstName": [
+            "Christian P"
+          ],
+          "lastName": [
+            "Kubicek"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "affiliation": [
+            "Institute of Chemical, Environmental and Biological Engineering, Vienna, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez AT"
+          ],
+          "firstName": [
+            "Angel T"
+          ],
+          "lastName": [
+            "Martinez"
+          ],
+          "initials": [
+            "AT"
+          ],
+          "affiliation": [
+            "IPSBB unit, CIB, CSIC, Ramiro de Maeztu 9, E-28040, Madrid, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Yadav J"
+          ],
+          "firstName": [
+            "Jagjit"
+          ],
+          "lastName": [
+            "Yadav"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Environmental Health, University of Cincinnati, Cincinnati, OH, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Master E"
+          ],
+          "firstName": [
+            "Emma"
+          ],
+          "lastName": [
+            "Master"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Chemical Engineering, University of Toronto, Toronto, Ontario, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Magnuson JK"
+          ],
+          "firstName": [
+            "Jon Karl"
+          ],
+          "lastName": [
+            "Magnuson"
+          ],
+          "initials": [
+            "JK"
+          ],
+          "affiliation": [
+            "Pacific Northwest National Laboratory, P.O. Box 999, Richland, WA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Yaver D"
+          ],
+          "firstName": [
+            "Debbie"
+          ],
+          "lastName": [
+            "Yaver"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Novozymes Inc., 1445 Drew Avenue, Davis, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Berka R"
+          ],
+          "firstName": [
+            "Randy"
+          ],
+          "lastName": [
+            "Berka"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Novozymes Inc., 1445 Drew Avenue, Davis, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lail K"
+          ],
+          "firstName": [
+            "Kathleen"
+          ],
+          "lastName": [
+            "Lail"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Chen C"
+          ],
+          "firstName": [
+            "Cindy"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "LaButti K"
+          ],
+          "firstName": [
+            "Kurt"
+          ],
+          "lastName": [
+            "LaButti"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Nolan M"
+          ],
+          "firstName": [
+            "Matt"
+          ],
+          "lastName": [
+            "Nolan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lipzen A"
+          ],
+          "firstName": [
+            "Anna"
+          ],
+          "lastName": [
+            "Lipzen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Aerts A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Aerts"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Riley R"
+          ],
+          "firstName": [
+            "Robert"
+          ],
+          "lastName": [
+            "Riley"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Barry K"
+          ],
+          "firstName": [
+            "Kerrie"
+          ],
+          "lastName": [
+            "Barry"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8999-6785",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Henrissat B"
+          ],
+          "firstName": [
+            "Bernard"
+          ],
+          "lastName": [
+            "Henrissat"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, King Abdulaziz University, Jeddah, Saudi Arabia."
+          ]
+        },
+        {
+          "fullName": [
+            "Blanchette R"
+          ],
+          "firstName": [
+            "Robert"
+          ],
+          "lastName": [
+            "Blanchette"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "University of Minnesota, St. Paul, MN, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Grigoriev IV"
+          ],
+          "firstName": [
+            "Igor V"
+          ],
+          "lastName": [
+            "Grigoriev"
+          ],
+          "initials": [
+            "IV"
+          ],
+          "affiliation": [
+            "US Department of Energy Joint Genome Institute, 2800 Mitchell Avenue, Walnut Creek, CA, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Cullen D"
+          ],
+          "firstName": [
+            "Dan"
+          ],
+          "lastName": [
+            "Cullen"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "USDA Forest Products Laboratory, Madison, WI, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8999-6785",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1584-2863",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8832-7109",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3138-8223",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2579989"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Genomics data"
+          ],
+          "ISOAbbreviation": [
+            "Genom Data"
+          ],
+          "medlineAbbreviation": [
+            "Genom Data"
+          ],
+          "NLMid": [
+            "101634120"
+          ],
+          "ISSN": [
+            "2213-5960"
+          ],
+          "ESSN": [
+            "2213-5960"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "21-23"
+  ],
+  "affiliation": [
+    "USDA Forest Products Laboratory, Madison, WI, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Postia Placenta",
+        "Monokaryon",
+        "Rhodonia Placenta"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5555271?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5555271"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.gdata.2017.08.003"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-27"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-10"
+  ],
+  "firstPublicationDate": [
+    "2017-08-10"
+  ]
+}

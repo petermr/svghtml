@@ -16,10 +16,12 @@ import org.xmlcml.graphics.html.HtmlElement;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.util.CMineGlobberNew;
+import org.xmlcml.graphics.svg.layout.SVGPubstyle;
+import org.xmlcml.graphics.svg.layout.PubstyleManager;
+import org.xmlcml.graphics.svg.pubstyle.Publisher;
+import org.xmlcml.graphics.util.FilePathGlobber;
 
 import nu.xom.Comment;
-import nu.xom.Element;
 
 /** manages a complete document of several pages.
  * @author pm286
@@ -49,6 +51,8 @@ public class DocumentCache extends ComponentCache {
 	private PageLayout currentPageLayout;
 	private int npages;
 	private HtmlElement htmlDiv;
+	private SVGPubstyle pubstyle;
+	private PubstyleManager pubstyleManager;
 
 	public DocumentCache() {
 		
@@ -66,7 +70,7 @@ public class DocumentCache extends ComponentCache {
 
 	public AbstractCMElement processSVGInCTreeDirectory(File cTreeDir) {
 		this.setCTreeDir(cTreeDir);
-		CMineGlobberNew globber = new CMineGlobberNew();
+		FilePathGlobber globber = new FilePathGlobber();
 		globber.setRegex(DocumentCache.FULLTEXT_SVG_REGEX).setUseDirectories(false).setLocation(cTreeDir.toString());
 		try {
 			svgFiles = globber.listFiles();
@@ -112,6 +116,7 @@ public class DocumentCache extends ComponentCache {
 		}
 	}
 
+	
 	private void addPagesToConvertedSVGElement() {
 		for (int ipage = 0; ipage < pageCacheList.size(); ipage++) {
 			PageCache pageCache = pageCacheList.get(ipage);
@@ -157,9 +162,26 @@ public class DocumentCache extends ComponentCache {
 			pageCacheList = new ArrayList<PageCache>();
 		}
 		if (pageCacheList.size() == 0) {
+			getOrCreatePubstyle();
 			addSVGFilesToPageCacheList();
 		}
 		return pageCacheList;
+	}
+
+	private SVGPubstyle getOrCreatePubstyle() {
+		if (this.pubstyle == null) {
+			ensurePubstyleManager();
+			if (svgFiles.size() > 0) {
+				pubstyle = pubstyleManager.guessPubstyleFromFirstPage(svgFiles.get(0));
+			}
+		}
+		return pubstyle;
+	}
+
+	private void ensurePubstyleManager() {
+		if (pubstyleManager == null) {
+			pubstyleManager = new PubstyleManager();
+		}
 	}
 
 	private void addSVGFilesToPageCacheList() {
@@ -167,9 +189,9 @@ public class DocumentCache extends ComponentCache {
 			File svgFile = svgFiles.get(ifile);	
 			PageCache pageCache = new PageCache(this);
 			pageCache.setSerialNumber(ifile + 1);
-			LOG.debug("F: "+svgFile);
+			LOG.trace("F: "+svgFile);
 			pageCache.readGraphicsComponentsAndMakeCaches(svgFile);
-			LOG.debug("F1: "+svgFile);
+			LOG.trace("F1: "+svgFile);
 			pageCacheList.add(pageCache);
 			AbstractCMElement extractedSvgCacheElement = pageCache.getExtractedSVGElement();
 			LOG.debug("Got Cache "+ifile);
@@ -236,8 +258,7 @@ public class DocumentCache extends ComponentCache {
 	}
 
 	public HtmlElement getOrCreateConvertedHtmlElement() {
-		// TODO Auto-generated method stub
-		return null;
+		return htmlDiv;
 	}
 
 	public HtmlElement getHtmlDiv() {
@@ -248,4 +269,10 @@ public class DocumentCache extends ComponentCache {
 		return cTreeDir == null ? null : cTreeDir.getName();
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("tree: "+cTreeDir+"; pages: "+pageCacheList.size()+"; xml: "+(htmlDiv == null ? "null" : htmlDiv.toXML().length()));
+		return sb.toString();
+	}
 }

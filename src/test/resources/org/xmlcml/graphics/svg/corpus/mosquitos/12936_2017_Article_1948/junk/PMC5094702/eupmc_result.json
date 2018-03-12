@@ -1,0 +1,617 @@
+{
+  "id": [
+    "27812111"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27812111"
+  ],
+  "pmcid": [
+    "PMC5094702"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0164507"
+  ],
+  "title": [
+    "Morin Flavonoid Adsorbed on Mesoporous Silica, a Novel Antioxidant Nanomaterial."
+  ],
+  "authorString": [
+    "Arriagada F, Correa O, Günther G, Nonell S, Mura F, Olea-Azar C, Morales J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Arriagada F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Arriagada"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias y Tecnología Farmacéuticas, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Correa O"
+          ],
+          "firstName": [
+            "Olosmira"
+          ],
+          "lastName": [
+            "Correa"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias y Tecnología Farmacéuticas, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Günther G"
+          ],
+          "firstName": [
+            "Germán"
+          ],
+          "lastName": [
+            "Günther"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Química Orgánica y Fisicoquímica, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Nonell S"
+          ],
+          "firstName": [
+            "Santi"
+          ],
+          "lastName": [
+            "Nonell"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Institut Químic de Sarriá (IQS), University Ramón Llull, Via Augusta, 390, 08017, Barcelona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Mura F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Mura"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Química Inorgánica y Analítica, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olea-Azar C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Olea-Azar"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Departamento de Química Inorgánica y Analítica, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morales J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3190-2168",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencias y Tecnología Farmacéuticas, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3190-2168",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2483849"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0164507"
+  ],
+  "abstractText": [
+    "Morin (2´,3, 4´,5,7-pentahydroxyflavone) is a flavonoid with several beneficial health effects. However, its poor water solubility and it sensitivity to several environmental factors avoid its use in applications like pharmaceutical and cosmetic. In this work, we synthetized morin-modified mesoporous silica nanoparticles (AMSNPs-MOR) as useful material to be used as potential nanoantioxidant. To achieve this, we characterized its adsorption kinetics, isotherm and the antioxidant capacity as hydroxyl radical (HO•) scavenger and singlet oxygen (1O2) quencher. The experimental data could be well fitted with Langmuir, Freundlich and Temkin isotherm models, besides the pseudo-second order kinetics model. The total quenching rate constant obtained for singlet oxygen deactivation by AMSNPs-MOR was one order of magnitude lower than the morin rate constant reported previously in neat solvents and lipid membranes. The AMSNPs-MOR have good antioxidant properties by itself and exhibit a synergic effect with morin on the antioxidant property against hydroxyl radical. This effect, in the range of concentrations studied, was increased when the amount of morin adsorbed increased."
+  ],
+  "affiliation": [
+    "Departamento de Ciencias y Tecnología Farmacéuticas, Facultad de Ciencias Químicas y Farmacéuticas, Universidad de Chile, Sergio Livingstone, 1007, Independencia, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hydroxyl Radical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Singlet Oxygen"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Silicon Dioxide"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Flavonoids"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antioxidants"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kinetics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adsorption"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Particle Size"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Porosity"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nanoparticles"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Silicon Dioxide"
+          ],
+          "registryNumber": [
+            "7631-86-9"
+          ]
+        },
+        {
+          "name": [
+            "Flavonoids"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Antioxidants"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Hydroxyl Radical"
+          ],
+          "registryNumber": [
+            "3352-57-6"
+          ]
+        },
+        {
+          "name": [
+            "Singlet Oxygen"
+          ],
+          "registryNumber": [
+            "17778-80-2"
+          ]
+        },
+        {
+          "name": [
+            "morin"
+          ],
+          "registryNumber": [
+            "8NFQ3F76WR"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5094702?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5094702"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0164507"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-06-30"
+  ],
+  "dateOfCreation": [
+    "2016-11-04"
+  ],
+  "dateOfRevision": [
+    "2017-06-30"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-03"
+  ],
+  "firstPublicationDate": [
+    "2016-11-03"
+  ]
+}

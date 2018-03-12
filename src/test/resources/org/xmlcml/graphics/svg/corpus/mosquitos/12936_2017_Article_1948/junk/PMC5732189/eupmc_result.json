@@ -1,0 +1,376 @@
+{
+  "id": [
+    "29321769"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29321769"
+  ],
+  "pmcid": [
+    "PMC5732189"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.02462"
+  ],
+  "title": [
+    "Analysis of Piscirickettsia salmonis Metabolism Using Genome-Scale Reconstruction, Modeling, and Testing."
+  ],
+  "authorString": [
+    "Cortés MP, Mendoza SN, Travisany D, Gaete A, Siegel A, Cambiazo V, Maass A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cortés MP"
+          ],
+          "firstName": [
+            "María P"
+          ],
+          "lastName": [
+            "Cortés"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Mathomics, Center for Mathematical Modeling, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mendoza SN"
+          ],
+          "firstName": [
+            "Sebastián N"
+          ],
+          "lastName": [
+            "Mendoza"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2192-5569",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Mathomics, Center for Mathematical Modeling, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Travisany D"
+          ],
+          "firstName": [
+            "Dante"
+          ],
+          "lastName": [
+            "Travisany"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Mathomics, Center for Mathematical Modeling, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gaete A"
+          ],
+          "firstName": [
+            "Alexis"
+          ],
+          "lastName": [
+            "Gaete"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratorio de Bioinformática y Expresión Génica, Instituto de Nutrición y Tecnología de los Alimentos, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Siegel A"
+          ],
+          "firstName": [
+            "Anne"
+          ],
+          "lastName": [
+            "Siegel"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "DYLISS (INRIA-IRISA)-INRIA, CNRS UMR 6074, Université de Rennes 1, Rennes, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Cambiazo V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "Cambiazo"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Fondap Center for Genome Regulation (CGR), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maass A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Maass"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Mathomics, Center for Mathematical Modeling, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2192-5569",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2462"
+  ],
+  "abstractText": [
+    "Piscirickettsia salmonis is an intracellular bacterial fish pathogen that causes piscirickettsiosis, a disease with highly adverse impact in the Chilean salmon farming industry. The development of effective treatment and control methods for piscireckttsiosis is still a challenge. To meet it the number of studies on P. salmonis has grown in the last couple of years but many aspects of the pathogen's biology are still poorly understood. Studies on its metabolism are scarce and only recently a metabolic model for reference strain LF-89 was developed. We present a new genome-scale model for P. salmonis LF-89 with more than twice as many genes as in the previous model and incorporating specific elements of the fish pathogen metabolism. Comparative analysis with models of different bacterial pathogens revealed a lower flexibility in P. salmonis metabolic network. Through constraint-based analysis, we determined essential metabolites required for its growth and showed that it can benefit from different carbon sources tested experimentally in new defined media. We also built an additional model for strain A1-15972, and together with an analysis of P. salmonis pangenome, we identified metabolic features that differentiate two main species clades. Both models constitute a knowledge-base for P. salmonis metabolism and can be used to guide the efficient culture of the pathogen and the identification of specific drug targets."
+  ],
+  "affiliation": [
+    "Mathomics, Center for Mathematical Modeling, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Metabolism",
+        "Pathogen",
+        "Constraint-based",
+        "Piscirickettsia",
+        "Genome-scale",
+        "Salmonis"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5732189?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5732189"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.02462"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "refseq",
+        "biomodels"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-01-12"
+  ],
+  "dateOfRevision": [
+    "2018-01-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-11"
+  ],
+  "firstPublicationDate": [
+    "2017-12-11"
+  ]
+}

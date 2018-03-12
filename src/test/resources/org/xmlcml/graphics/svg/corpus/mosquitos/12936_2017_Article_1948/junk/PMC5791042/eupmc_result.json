@@ -1,0 +1,507 @@
+{
+  "id": [
+    "29384080"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29384080"
+  ],
+  "pmcid": [
+    "PMC5791042"
+  ],
+  "doi": [
+    "10.1186/s13012-017-0693-6"
+  ],
+  "title": [
+    "Applying GRADE-CERQual to qualitative evidence synthesis findings-paper 6: how to assess relevance of the data."
+  ],
+  "authorString": [
+    "Noyes J, Booth A, Lewin S, Carlsen B, Glenton C, Colvin CJ, Garside R, Bohren MA, Rashidian A, Wainwright M, Tunςalp Ö, Chandler J, Flottorp S, Pantoja T, Tucker JD, Munthe-Kaas H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Noyes J"
+          ],
+          "firstName": [
+            "Jane"
+          ],
+          "lastName": [
+            "Noyes"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "School of Social Sciences, Bangor University, Bangor, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Booth A"
+          ],
+          "firstName": [
+            "Andrew"
+          ],
+          "lastName": [
+            "Booth"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "School of Health and Related Research (ScHARR), University of Sheffield, Sheffield, UK. A.Booth@sheffield.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Lewin S"
+          ],
+          "firstName": [
+            "Simon"
+          ],
+          "lastName": [
+            "Lewin"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Norwegian Institute of Public Health, Oslo, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Carlsen B"
+          ],
+          "firstName": [
+            "Benedicte"
+          ],
+          "lastName": [
+            "Carlsen"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Uni Research Rokkan Centre, Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Glenton C"
+          ],
+          "firstName": [
+            "Claire"
+          ],
+          "lastName": [
+            "Glenton"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Norwegian Institute of Public Health, Oslo, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Colvin CJ"
+          ],
+          "firstName": [
+            "Christopher J"
+          ],
+          "lastName": [
+            "Colvin"
+          ],
+          "initials": [
+            "CJ"
+          ],
+          "affiliation": [
+            "Division of Social and Behavioural Sciences, School of Public Health and Family Medicine, University of Cape Town, Cape Town, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Garside R"
+          ],
+          "firstName": [
+            "Ruth"
+          ],
+          "lastName": [
+            "Garside"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "European Centre for Environment and Human Health, University of Exeter Medical School, Exeter, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Bohren MA"
+          ],
+          "firstName": [
+            "Meghan A"
+          ],
+          "lastName": [
+            "Bohren"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction, Department of Reproductive Health and Research, WHO, Geneva, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Rashidian A"
+          ],
+          "firstName": [
+            "Arash"
+          ],
+          "lastName": [
+            "Rashidian"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Health Management and Economics, School of Public Health, Tehran University of Medical Sciences, Tehran, Iran."
+          ]
+        },
+        {
+          "fullName": [
+            "Wainwright M"
+          ],
+          "firstName": [
+            "Megan"
+          ],
+          "lastName": [
+            "Wainwright"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Uni Research Rokkan Centre, Bergen, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Tunςalp Ö"
+          ],
+          "firstName": [
+            "Özge"
+          ],
+          "lastName": [
+            "Tunςalp"
+          ],
+          "initials": [
+            "Ö"
+          ],
+          "affiliation": [
+            "European Centre for Environment and Human Health, University of Exeter Medical School, Exeter, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Chandler J"
+          ],
+          "firstName": [
+            "Jacqueline"
+          ],
+          "lastName": [
+            "Chandler"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Cochrane, Cochrane Central Executive, London, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Flottorp S"
+          ],
+          "firstName": [
+            "Signe"
+          ],
+          "lastName": [
+            "Flottorp"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Norwegian Institute of Public Health, Oslo, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Pantoja T"
+          ],
+          "firstName": [
+            "Tomas"
+          ],
+          "lastName": [
+            "Pantoja"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Family Medicine, Pontificia Universidad Catolica de Chile, Santiago de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tucker JD"
+          ],
+          "firstName": [
+            "Joseph D"
+          ],
+          "lastName": [
+            "Tucker"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "affiliation": [
+            "University of North Carolina, Chapel Hill, NC, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Munthe-Kaas H"
+          ],
+          "firstName": [
+            "Heather"
+          ],
+          "lastName": [
+            "Munthe-Kaas"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Norwegian Institute of Public Health, Oslo, Norway."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "Suppl 1"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2644701"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Implementation science : IS"
+          ],
+          "ISOAbbreviation": [
+            "Implement Sci"
+          ],
+          "medlineAbbreviation": [
+            "Implement Sci"
+          ],
+          "NLMid": [
+            "101258411"
+          ],
+          "ISSN": [
+            "1748-5908"
+          ],
+          "ESSN": [
+            "1748-5908"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "4"
+  ],
+  "abstractText": [
+    "The GRADE-CERQual (Confidence in Evidence from Reviews of Qualitative research) approach has been developed by the GRADE (Grading of Recommendations Assessment, Development and Evaluation) Working Group. The approach has been developed to support the use of findings from qualitative evidence syntheses in decision-making, including guideline development and policy formulation. CERQual includes four components for assessing how much confidence to place in findings from reviews of qualitative research (also referred to as qualitative evidence syntheses): (1) methodological limitations, (2) coherence, (3) adequacy of data and (4) relevance. This paper is part of a series providing guidance on how to apply CERQual and focuses on CERQual's relevance component.We developed the relevance component by searching the literature for definitions, gathering feedback from relevant research communities and developing consensus through project group meetings. We tested the CERQual relevance component within several qualitative evidence syntheses before agreeing on the current definition and principles for application.When applying CERQual, we define relevance as the extent to which the body of data from the primary studies supporting a review finding is applicable to the context (perspective or population, phenomenon of interest, setting) specified in the review question. In this paper, we describe the relevance component and its rationale and offer guidance on how to assess relevance in the context of a review finding. This guidance outlines the information required to assess relevance, the steps that need to be taken to assess relevance and examples of relevance assessments.This paper provides guidance for review authors and others on undertaking an assessment of relevance in the context of the CERQual approach. Assessing the relevance component requires consideration of potentially important contextual factors at an early stage in the review process. We expect the CERQual approach, and its individual components, to develop further as our experiences with the practical implementation of the approach increase."
+  ],
+  "affiliation": [
+    "School of Social Sciences, Bangor University, Bangor, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Methodology",
+        "Grade",
+        "Relevance",
+        "Research Design",
+        "Qualitative Research",
+        "Evidence-based Practice",
+        "Confidence",
+        "Guidance",
+        "Systematic Review Methodology",
+        "Qualitative Evidence Synthesis"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791042?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5791042"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13012-017-0693-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-02-01"
+  ],
+  "dateOfRevision": [
+    "2018-02-09"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-25"
+  ],
+  "firstPublicationDate": [
+    "2018-01-25"
+  ]
+}

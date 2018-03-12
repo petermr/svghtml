@@ -1,0 +1,336 @@
+{
+  "id": [
+    "28913352"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28913352"
+  ],
+  "pmcid": [
+    "PMC5587941"
+  ],
+  "doi": [
+    "10.1155/2017/4367019"
+  ],
+  "title": [
+    "New Roles of the Primary Cilium in Autophagy."
+  ],
+  "authorString": [
+    "Ávalos Y, Peña-Oyarzun D, Budini M, Morselli E, Criollo A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ávalos Y"
+          ],
+          "firstName": [
+            "Yenniffer"
+          ],
+          "lastName": [
+            "Ávalos"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Facultad Ciencias Biológicas, Pontificia Universidad Católica de Chile, 7820436 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Peña-Oyarzun D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Peña-Oyarzun"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Center for Molecular Studies of the Cell (CEMC), Facultad de Medicina, 8380453 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Budini M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Budini"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas (ICOD), Facultad de Odontología, 8380492 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Morselli E"
+          ],
+          "firstName": [
+            "Eugenia"
+          ],
+          "lastName": [
+            "Morselli"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7840-8351",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Facultad Ciencias Biológicas, Pontificia Universidad Católica de Chile, 7820436 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Criollo A"
+          ],
+          "firstName": [
+            "Alfredo"
+          ],
+          "lastName": [
+            "Criollo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2737-7751",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Investigación en Ciencias Odontológicas (ICOD), Facultad de Odontología, 8380492 Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7840-8351",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2737-7751",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "4367019"
+  ],
+  "abstractText": [
+    "The primary cilium is a nonmotile organelle that emanates from the surface of multiple cell types and receives signals from the environment to regulate intracellular signaling pathways. The presence of cilia, as well as their length, is important for proper cell function; shortened, elongated, or absent cilia are associated with pathological conditions. Interestingly, it has recently been shown that the molecular machinery involved in autophagy, the process of recycling of intracellular material to maintain cellular and tissue homeostasis, participates in ciliogenesis. Cilium-dependent signaling is necessary for autophagosome formation and, conversely, autophagy regulates both ciliogenesis and cilium length by degrading specific ciliary proteins. Here, we will discuss the relationship that exists between the two processes at the cellular and molecular level, highlighting what is known about the effects of ciliary dysfunction in the control of energy homeostasis in some ciliopathies."
+  ],
+  "affiliation": [
+    "Departamento de Fisiología, Facultad Ciencias Biológicas, Pontificia Universidad Católica de Chile, 7820436 Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5587941?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5587941"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/4367019"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-09-15"
+  ],
+  "dateOfRevision": [
+    "2017-09-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-23"
+  ],
+  "firstPublicationDate": [
+    "2017-08-23"
+  ]
+}

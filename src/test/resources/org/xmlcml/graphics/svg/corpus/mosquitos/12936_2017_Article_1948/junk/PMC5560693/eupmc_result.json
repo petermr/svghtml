@@ -1,0 +1,863 @@
+{
+  "id": [
+    "28817576"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28817576"
+  ],
+  "pmcid": [
+    "PMC5560693"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0182509"
+  ],
+  "title": [
+    "Gestational diabetes mellitus is associated with increased pro-migratory activation of vascular endothelial growth factor receptor 2 and reduced expression of vascular endothelial growth factor receptor 1."
+  ],
+  "authorString": [
+    "Troncoso F, Acurio J, Herlitz K, Aguayo C, Bertoglia P, Guzman-Gutierrez E, Loyola M, Gonzalez M, Rezgaoui M, Desoye G, Escudero C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Troncoso F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Troncoso"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Group of Investigation in Tumor Angiogenesis (GIANT), Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Acurio J"
+          ],
+          "firstName": [
+            "Jesenia"
+          ],
+          "lastName": [
+            "Acurio"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Basic Sciences, Universidad del Bío-Bío, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herlitz K"
+          ],
+          "firstName": [
+            "Kurt"
+          ],
+          "lastName": [
+            "Herlitz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Basic Sciences, Universidad del Bío-Bío, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Group of Research and Innovation in Vascular Health (GRIVAS Health), Chillan, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bertoglia P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Bertoglia"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Universidad Católica de la Santísima Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Guzman-Gutierrez E"
+          ],
+          "firstName": [
+            "Enrique"
+          ],
+          "lastName": [
+            "Guzman-Gutierrez"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad San Sebastián, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Loyola M"
+          ],
+          "firstName": [
+            "Marco"
+          ],
+          "lastName": [
+            "Loyola"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias de la Salud, Universidad San Sebastián, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rezgaoui M"
+          ],
+          "firstName": [
+            "Meriem"
+          ],
+          "lastName": [
+            "Rezgaoui"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Basic Sciences, Universidad del Bío-Bío, Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Desoye G"
+          ],
+          "firstName": [
+            "Gernot"
+          ],
+          "lastName": [
+            "Desoye"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Obstetrics and Gynaecology, Medical University of Graz, Graz, Austria."
+          ]
+        },
+        {
+          "fullName": [
+            "Escudero C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Escudero"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7688-4621",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Group of Research and Innovation in Vascular Health (GRIVAS Health), Chillan, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7688-4621",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2582087"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0182509"
+  ],
+  "abstractText": [
+    "Placentas from gestational diabetes mellitus (GDM) are often hypervascularized; however, participation of vascular endothelial growth factor (VEGF) and its receptors in this placental adaptation is unclear. We aimed to test whether changes in phosphorylation of tyrosine 951 or tyrosine 1175 (pY951 or pY1175) of the vascular endothelial growth factor receptor 2 (KDR) are associated with the proangiogenic state observed in placentas from GDM. We obtained placental samples from women with normal pregnancies (n = 24) or GDM (n = 18). We measured the relative expression of markers for endothelial cell number (CD31, CD34), VEGF, vascular endothelial growth factor receptor 1 (Flt-1), KDR, pY951 and pY1175 of KDR in placental homogenate. Immunohistochemistry of placental blood vessels were performed using CD34. Proliferation and migration of human umbilical vein endothelial cells (HUVEC) obtained from normal pregnancy and GDM were determined in absence or presence of conditioned medium (CM) harvested from GDM or normoglycemic HUVEC cultures. GDM was associated with more CD31 and CD34 protein compared to normal pregnancy. High number, but reduced area of placental blood vessels was found in GDM. Reduced Flt-1 levels (mRNA and protein) are associated with reduced KDR mRNA, but higher KDR protein levels in placentas from GDM. No significant changes in Y951-or Y1175-phosphorylation of KDR in placentas from GDM were found. GDM did not alter proliferation of HUVECs, but enhanced migration. Conditioned medium harvested from GDM HUVEC cultures enhanced KDR protein amount, tube formation capacity and cell migration in HUVEC isolated from normoglycemic pregnancies. The data indicate that GDM is associated with reduced expression of Flt-1 but high pro-migratory activation of KDR reflecting a proangiogenic state in GDM."
+  ],
+  "affiliation": [
+    "Vascular Physiology Laboratory, Group of Investigation in Tumor Angiogenesis (GIANT), Chillán, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cells, Cultured"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Placenta"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetes, Gestational"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vascular Endothelial Growth Factor Receptor-1"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vascular Endothelial Growth Factor Receptor-2"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vascular Endothelial Growth Factor A"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antigens, CD31"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antigens, CD34"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Cell Movement"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pregnancy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Infant, Newborn"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Human Umbilical Vein Endothelial Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomarkers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Vascular Endothelial Growth Factor A"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Antigens, CD34"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Antigens, CD31"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "FLT1 protein, human"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        },
+        {
+          "name": [
+            "Vascular Endothelial Growth Factor Receptor-1"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        },
+        {
+          "name": [
+            "Vascular Endothelial Growth Factor Receptor-2"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        },
+        {
+          "name": [
+            "Biomarkers"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "KDR protein, human"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5560693?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5560693"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0182509"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-06"
+  ],
+  "dateOfCreation": [
+    "2017-08-17"
+  ],
+  "dateOfRevision": [
+    "2017-10-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-17"
+  ],
+  "firstPublicationDate": [
+    "2017-08-17"
+  ]
+}

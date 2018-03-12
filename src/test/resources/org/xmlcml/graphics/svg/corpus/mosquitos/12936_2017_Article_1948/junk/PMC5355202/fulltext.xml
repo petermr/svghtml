@@ -1,0 +1,657 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5355202</article-id><article-id pub-id-type="doi">10.1002/ece3.2762</article-id><article-id pub-id-type="publisher-id">ECE32762</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Context&#x02010;dependent functional dispersion across similar ranges of trait space covered by intertidal rocky shore communities</article-title></title-group><contrib-group><contrib id="ece32762-cr-0001" contrib-type="author" corresp="yes"><name><surname>Valdivia</surname><given-names>Nelson</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5394-2072</contrib-id><address><email>nelson.valdivia@uach.cl</email></address><xref ref-type="aff" rid="ece32762-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece32762-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece32762-cr-0002" contrib-type="author"><name><surname>Segovia&#x02010;Rivera</surname><given-names>Viviana</given-names></name><xref ref-type="aff" rid="ece32762-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece32762-cr-0003" contrib-type="author"><name><surname>Fica</surname><given-names>Eliseo</given-names></name><xref ref-type="aff" rid="ece32762-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece32762-cr-0004" contrib-type="author"><name><surname>Bonta</surname><given-names>C&#x000e9;sar C.</given-names></name><xref ref-type="aff" rid="ece32762-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece32762-cr-0005" contrib-type="author"><name><surname>Aguilera</surname><given-names>Mois&#x000e9;s A.</given-names></name><xref ref-type="aff" rid="ece32762-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece32762-cr-0006" contrib-type="author"><name><surname>Broitman</surname><given-names>Bernardo R.</given-names></name><xref ref-type="aff" rid="ece32762-aff-0004">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="ece32762-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Instituto de Ciencias Marinas y Limnol&#x000f3;gicas</named-content><named-content content-type="organisation-division">Facultad de Ciencias</named-content><institution>Universidad Austral de Chile, Campus Isla Teja</institution><named-content content-type="city">Valdivia</named-content><country country="CL">Chile</country></aff><aff id="ece32762-aff-0002"><label><sup>2</sup></label><institution>Centro FONDAP de Investigaci&#x000f3;n de Din&#x000e1;micas de Ecosistemas Marinos de Altas Latitudes (IDEAL)</institution><named-content content-type="city">Valdivia</named-content><country country="CL">Chile</country></aff><aff id="ece32762-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Departamento de Biolog&#x000ed;a Marina</named-content><named-content content-type="organisation-division">Facultad de Ciencias del Mar</named-content><institution>Universidad Cat&#x000f3;lica del Norte</institution><named-content content-type="city">Coquimbo</named-content><country country="CL">Chile</country></aff><aff id="ece32762-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Centro de Estudios Avanzados en Zonas &#x000c1;ridas (CEAZA)</named-content><institution>Universidad Cat&#x000f3;lica del Norte</institution><named-content content-type="city">Coquimbo</named-content><country country="CL">Chile</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Nelson Valdivia, Instituto de Ciencias Marinas y Limnol&#x000f3;gicas, Facultad de Ciencias, Universidad Austral de Chile, Campus Isla Teja, Valdivia, Chile.<break/>
+Email: <email>nelson.valdivia@uach.cl</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>17</day><month>2</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2017</year></pub-date><volume>7</volume><issue>6</issue><issue-id pub-id-type="doi">10.1002/ece3.2017.7.issue-6</issue-id><fpage>1882</fpage><lpage>1891</lpage><history><date date-type="received"><day>12</day><month>10</month><year>2016</year></date><date date-type="rev-recd"><day>20</day><month>12</month><year>2016</year></date><date date-type="accepted"><day>29</day><month>12</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2017 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2017 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-7-1882.pdf"/><abstract id="ece32762-abs-0001"><title>Abstract</title><p>Functional diversity is intimately linked with community assembly processes, but its large&#x02010;scale patterns of variation are often not well understood. Here, we investigated the spatiotemporal changes in multiple trait dimensions (&#x0201c;trait space&#x0201d;) along vertical intertidal environmental stress gradients and across a landscape scale. We predicted that the range of the trait space covered by local assemblages (i.e., functional richness) and the dispersion in trait abundances (i.e., functional dispersion) should increase from high&#x02010; to low&#x02010;intertidal elevations, due to the decreasing influence of environmental filtering. The abundance of macrobenthic algae and invertebrates was estimated at four rocky shores spanning ca. 200&#x000a0;km of the coast over a 36&#x02010;month period. Functional richness and dispersion were contrasted against matrix&#x02010;swap models to remove any confounding effect of species richness on functional diversity. Random&#x02010;slope models showed that functional richness and dispersion significantly increased from high&#x02010; to low&#x02010;intertidal heights, demonstrating that under harsh environmental conditions, the assemblages comprised similar abundances of functionally similar species (i.e., trait convergence), while that under milder conditions, the assemblages encompassed differing abundances of functionally dissimilar species (i.e., trait divergence). According to the Akaike information criteria, the relationship between local environmental stress and functional richness was persistent across sites and sampling times, while functional dispersion varied significantly. Environmental filtering therefore has persistent effects on the range of trait space covered by these assemblages, but context&#x02010;dependent effects on the abundances of trait combinations within such range. Our results further suggest that natural and/or anthropogenic factors might have significant effects on the relative abundance of functional traits, despite that no trait addition or extinction is detected.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece32762-kwd-0001">community assembly</kwd><kwd id="ece32762-kwd-0002">desiccation</kwd><kwd id="ece32762-kwd-0003">environmental filtering</kwd><kwd id="ece32762-kwd-0004">functional beta&#x02010;diversity</kwd><kwd id="ece32762-kwd-0005">functional traits</kwd><kwd id="ece32762-kwd-0006">marine</kwd><kwd id="ece32762-kwd-0007">mesoscale</kwd><kwd id="ece32762-kwd-0008">seasonal</kwd></kwd-group><funding-group><award-group><funding-source>Centro FONDAP de investigaci&#x000f3;n en din&#x000e1;mica de ecosistemas marinos de altas latitudes (IDEAL)</funding-source><award-id>15150003</award-id></award-group></funding-group><funding-group><award-group><funding-source>Ministerio de Econom&#x000ed;a, Fomento y Turismo</funding-source><award-id>NC120086</award-id></award-group></funding-group><funding-group><award-group><funding-source>Fondo Nacional de Desarrollo Cient&#x000ed;fico y Tecnol&#x000f3;gico</funding-source><award-id>1141037</award-id><award-id>1160223</award-id></award-group></funding-group><funding-group><award-group><funding-source>PAI&#x02010;CONICYT</funding-source><award-id>79150002&#x02010;2015</award-id></award-group></funding-group><funding-group><award-group><funding-source>MINECON</funding-source><award-id>NC120086.</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="2"/><page-count count="10"/><word-count count="8229"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece32762</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2017</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.0.8 mode:remove_FC converted:16.03.2017</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece32762-cit-1001">
+<string-name>
+<surname>Valdivia</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Segovia&#x02010;Rivera</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Fica</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Bonta</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name>
+<surname>Aguilera</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Broitman</surname>
+<given-names>BR</given-names>
+</string-name>. <article-title>Context&#x02010;dependent functional dispersion across similar ranges of trait space covered by intertidal rocky shore communities</article-title>. <source>Ecol Evol</source>. <year>2017</year>;<volume>7</volume>:<fpage>1882</fpage>&#x02013;<lpage>1891</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.2762">https://doi.org/10.1002/ece3.2762</ext-link>
+</mixed-citation>
+</p></notes></front><body><sec id="ece32762-sec-0001"><label>1</label><title>Introduction</title><p>The study of functional diversity can reveal the mechanisms that underpin the assembly of communities (Hooper et&#x000a0;al., <xref rid="ece32762-bib-0026" ref-type="ref">2005</xref>; Mouchet, Vill&#x000e9;ger, Mason, &#x00026; Mouillot, <xref rid="ece32762-bib-0047" ref-type="ref">2010</xref>). Functional diversity expresses the diversity of functional traits, which are those components of an organism's phenotype that influence its response to environmental stress and its effects on ecosystem properties (Hooper et&#x000a0;al., <xref rid="ece32762-bib-0026" ref-type="ref">2005</xref>; Petchey &#x00026; Gaston, <xref rid="ece32762-bib-0056" ref-type="ref">2006</xref>). Accordingly, processes related to niche differences among species, such as niche complementarity, are intimately linked with variations in functional diversity (Mason, de Bello, Mouillot, Pavoine, &#x00026; Dray, <xref rid="ece32762-bib-0036" ref-type="ref">2013</xref>). For instance, steep environmental gradients, like in wetlands and intertidal rocky shores (Berthelsen, Hewitt, &#x00026; Taylor, <xref rid="ece32762-bib-0003" ref-type="ref">2015</xref>; Mudrak et&#x000a0;al., <xref rid="ece32762-bib-0048" ref-type="ref">2016</xref>), can drive spatial shifts in composition from functionally similar species due to the selection of traits adapted to the local abiotic and biotic conditions (i.e., trait convergence), to functionally dissimilar species that occupy different niches (i.e., trait divergence; Boersma et&#x000a0;al., <xref rid="ece32762-bib-0005" ref-type="ref">2016</xref>; de Bello, Leps, &#x00026; Sebastia, <xref rid="ece32762-bib-0015" ref-type="ref">2006</xref>). Functional divergence, in turn, allows the coexistence of functionally dissimilar organisms through niche complementarity (Mason, de Bello, et&#x000a0;al., <xref rid="ece32762-bib-0036" ref-type="ref">2013</xref>). Assessing how different facets of functional diversity vary from convergence to divergence and the spatiotemporal persistence of these patterns could improve our ability to unravel the mechanisms underlying community assembly.</p><p>Ecosystems characterized by strong environmental stress gradients provide an opportunity to understand how communities assemble through the spatiotemporal variation in functional diversity. Environmental filtering occurs when environmental stress exceeds the physiological limits of tolerances of individuals in local populations (Somero, <xref rid="ece32762-bib-0067" ref-type="ref">2010</xref>), which are selected for subsets of organisms with similar functional traits that allow them to persist in a given area (Leibold et&#x000a0;al., <xref rid="ece32762-bib-0031" ref-type="ref">2004</xref>). Such trait convergence can be represented by reduced functional diversity within the assemblage (e.g., Fukami, Bezemer, Mortimer, &#x00026; van der Putten, <xref rid="ece32762-bib-0017" ref-type="ref">2005</xref>). As environmental stress decreases, reduced similarity and increased niche differences among competing individuals allow coexistence, leading to a stronger influence of niche complementarity on community assembly (MacArthur &#x00026; Levins, <xref rid="ece32762-bib-0034" ref-type="ref">1967</xref>; Mason, de Bello, et&#x000a0;al., <xref rid="ece32762-bib-0036" ref-type="ref">2013</xref>). This functional divergence leads to increased functional diversity during community assembly (e.g., Mudrak et&#x000a0;al., <xref rid="ece32762-bib-0048" ref-type="ref">2016</xref>). As a consequence, species&#x02010;rich communities should show reduced functional diversity in areas where environmental stress is high compared to areas where stress is low.</p><p>Functional diversity is a multifaceted concept that can be represented on a multidimensional space where the axes are functional traits (recently reviewed in Carmona, de Bello, Mason, &#x00026; Leps, <xref rid="ece32762-bib-0010" ref-type="ref">2016</xref>). In such <italic>trait space</italic>, functional richness (Vill&#x000e9;ger, Mason, &#x00026; Mouillot, <xref rid="ece32762-bib-0077" ref-type="ref">2008</xref>) represents the range occupied by a given community and can be estimated as the number of functional trait combinations. Functional dispersion (Lalibert&#x000e9; &#x00026; Legendre, <xref rid="ece32762-bib-0030" ref-type="ref">2010</xref>) is estimated as the mean distance of all species to the weighted centroid of the community in the trait space, being equivalent to the multivariate dispersion (Anderson, Ellingsen, &#x00026; McArdle, <xref rid="ece32762-bib-0002" ref-type="ref">2006</xref>). When the influence of species richness on these indices is statistically removed (Mason, Lanoiselee, Mouillot, Wilson, &#x00026; Argillier, <xref rid="ece32762-bib-0037" ref-type="ref">2008</xref>), functional richness and dispersion are &#x0201c;pure&#x0201d; estimators of the occupied range of functional space and the dispersion in trait combination abundances, respectively (Mason et&#x000a0;al., <xref rid="ece32762-bib-0038" ref-type="ref">2012</xref>). Interestingly, functional richness and functional dispersion can show differing spatiotemporal patterns of variation. Environmental stress would not be strong enough to filter out functional roles, but it would be enough to generate significant differences in the number of individuals within functional trait combinations (Boersma et&#x000a0;al., <xref rid="ece32762-bib-0005" ref-type="ref">2016</xref>). In temperate regions, for instance, the seasonal variation in environmental conditions and recruitment intensity leads to significant changes in the abundance of marine seaweeds (Cavanaugh, Siegel, Reed, &#x00026; Dennison, <xref rid="ece32762-bib-0012" ref-type="ref">2011</xref>; Valdivia, Gollety, Migne, Davoult, &#x00026; Molis, <xref rid="ece32762-bib-0074" ref-type="ref">2012</xref>). Then, these environmentally driven effects would result in a significant variation in multivariate trait dispersion (i.e., varying functional dispersion) despite that all trait combinations are present under the full range of environmental conditions (i.e., similar functional richness).</p><p>Intertidal rocky shore communities represent an ideal habitat to investigate how functional diversity varies along environmental stress gradients, because of the strong vertical gradients observed within a few meters for abiotic factors such as temperature, desiccation, irradiance, and osmotic potential (G&#x000f3;mez &#x00026; Huovinen, <xref rid="ece32762-bib-0019" ref-type="ref">2011</xref>; Menge &#x00026; Branch, <xref rid="ece32762-bib-0040" ref-type="ref">2001</xref>; Raffaelli &#x00026; Hawkins, <xref rid="ece32762-bib-0060" ref-type="ref">1996</xref>; Stephenson &#x00026; Stephenson, <xref rid="ece32762-bib-0068" ref-type="ref">1949</xref>). In these systems, competition for settlement space increases as the abiotic environmental stress decreases from high to low vertical elevations, and biotic interactions such as predation and grazing prevent competitive exclusion in the low&#x02010;intertidal zone (e.g., Connell, <xref rid="ece32762-bib-0014" ref-type="ref">1961</xref>; Donahue, Desharnais, Robles, &#x00026; Arriola, <xref rid="ece32762-bib-0016" ref-type="ref">2011</xref>; Paine, <xref rid="ece32762-bib-0054" ref-type="ref">1974</xref>). Then, niche complementarity should take a larger role in determining species occurrences and abundances, allowing more species to coexist in the less stressful environment (MacArthur &#x00026; Levins, <xref rid="ece32762-bib-0034" ref-type="ref">1967</xref>). Regarding the horizontal variation in community structure, local and mesoscale factors such as productivity, wave exposure, and recruitment variability modulate species abundances and occurrences to lesser extent (Navarrete, Wieters, Broitman, &#x00026; Castilla, <xref rid="ece32762-bib-0051" ref-type="ref">2005</xref>; Roughgarden, Gaines, &#x00026; Possingham, <xref rid="ece32762-bib-0062" ref-type="ref">1988</xref>; Valdivia, Aguilera, Navarrete, &#x00026; Broitman, <xref rid="ece32762-bib-0072" ref-type="ref">2015</xref>). For instance, high wave&#x02010;exposure can hamper the grazing activity of low&#x02010;intertidal gastropods and sea urchins, allowing for competitive exclusion by algae (e.g., Hawkins &#x00026; Hartnoll, <xref rid="ece32762-bib-0024" ref-type="ref">1983</xref>; Underwood &#x00026; Jernakoff, <xref rid="ece32762-bib-0070" ref-type="ref">1981</xref>, <xref rid="ece32762-bib-0071" ref-type="ref">1984</xref>). Environmental filters and biotic interactions have therefore interdependent selective effects on trait combinations and thus on functional diversity. Despite the large body of literature arising from the study of intertidal rocky shore communities, less work has been carried out on how different facets of functional diversity vary at different spatiotemporal scales in these ecosystems (but see Berthelsen et&#x000a0;al., <xref rid="ece32762-bib-0003" ref-type="ref">2015</xref>).</p><p>In this work, we analyzed a dataset of 68 intertidal macrobenthic species (macroalgae and both mobile and sessile invertebrates) to test the hypothesis that functional richness and dispersion increase from high&#x02010; to low&#x02010;intertidal elevations, because of decreasing effects of environmental filtering on trait combination&#x02019; occurrences and abundances along the vertical stress gradient. We further assessed the persistence of local patterns of functional richness and dispersion over multiple sites (covering ca. 200&#x000a0;km) and times (seasonal samplings over three years) in a region showing a mesoscale structure in ecological subsidies such as chlorophyll&#x02010;<italic>a</italic> concentration and invertebrate recruitment (e.g., Van Holt et&#x000a0;al., <xref rid="ece32762-bib-0075" ref-type="ref">2012</xref>).</p></sec><sec id="ece32762-sec-0002"><label>2</label><title>Materials and Methods</title><sec id="ece32762-sec-0003"><label>2.1</label><title>Study region and environmental conditions</title><p>Between June 2012 and June 2015, four intertidal shores were sampled every 6&#x000a0;months along ca. 200&#x000a0;km of the shore (Figure&#x000a0;<xref rid="ece32762-fig-0001" ref-type="fig">1</xref>; 39.5&#x000b0;&#x02013;40.5&#x000b0;S). The shores were Cheuque, Calfuco, Chaihu&#x000ed;n, and Pucatrihue (Figure&#x000a0;<xref rid="ece32762-fig-0001" ref-type="fig">1</xref>). The sites are representative of wave&#x02010;exposed southeastern Pacific shores in a region characterized by a significant mesoscale variation (i.e., between 10s and 100s of km) in chlorophyll&#x02010;<italic>a</italic> concentration, related to freshwater inputs and apparently to runoff from forestry and agricultural activities (Van Holt et&#x000a0;al., <xref rid="ece32762-bib-0075" ref-type="ref">2012</xref>). In addition, a seasonal upwelling center is located in Punta Galera (Letelier, Pizarro, &#x00026; Nunez, <xref rid="ece32762-bib-0032" ref-type="ref">2009</xref>), few km to the south of Chaihu&#x000ed;n (Figure&#x000a0;<xref rid="ece32762-fig-0001" ref-type="fig">1</xref>). Calfuco is an open&#x02010;access shore, where no regulation on fishermen activity is enforced. On the other hand, Cheuque, Chaihu&#x000ed;n, and Pucatrihue are management and exploitation areas for benthic resources where the exploitation of intertidal macroalgae and invertebrates by small&#x02010;scale artisanal fishermen is regulated (Gelcich et&#x000a0;al., <xref rid="ece32762-bib-0018" ref-type="ref">2010</xref>). During the last decades, the intensification and southward migration of the Southeast Pacific Subtropical Anticyclone have led to a strong cooling of coastal sea surface temperatures in the region of the southeastern Pacific located to the south of 33&#x000b0;S (Ancapich&#x000fa;n &#x00026; Garc&#x000e9;s&#x02010;Vargas, <xref rid="ece32762-bib-1000" ref-type="ref">2015</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece32762-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Location of sampling sites along southeast Pacific shores. The insert indicates the geographic area covered by our sampling program</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-7-1882-g001"/></fig><p>Monthly data (2003&#x02013;2014) of sea surface temperature and chlorophyll&#x02010;<italic>a</italic> concentration (SST and Chl&#x02010;<italic>a</italic>, respectively) were analyzed to characterize the environmental conditions in the four sampling sites. Satellite&#x02010;derived MODIS data were downloaded from <ext-link ext-link-type="uri" xlink:href="http://oceancolor.gsfc.nasa.gov/">http://oceancolor.gsfc.nasa.gov/</ext-link>. Air temperature data would have been desirable to better characterize the environmental conditions to which intertidal organisms are exposed. However, air temperature data for southeastern Pacific shores are available at too coarse resolution (1&#x000b0;), which would have not fitted to our study.</p><p>Across these shores, intertidal habitats are dominated by sessile species such as the acorn barnacles <italic>Jehlius cirratus</italic> and <italic>Notochthamalus scabrosus</italic> (high intertidal), the purple mussel <italic>Perumytilus purpuratus</italic> and the red corticated algae <italic>Mazzaella laminarioides</italic> (mid intertidal), and large brown kelps such as <italic>Lessonia spicata</italic>,<italic> Durvillaea antarctica</italic>, and <italic>Macrocystis pyrifera</italic> (low intertidal; Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>; G&#x000f3;mez &#x00026; Huovinen, <xref rid="ece32762-bib-0019" ref-type="ref">2011</xref>). Grazers such as the keyhole <italic>Fissurella picta</italic>,<italic> Chiton granosus</italic>, and <italic>Scurria zebrina</italic> can have significant effects on the structure and zonation patterns of intertidal macroalgae (Moreno &#x00026; Jaramillo, <xref rid="ece32762-bib-0045" ref-type="ref">1983</xref>). Smaller grazers, such as the pulmonate gastropod <italic>Siphonaria lessoni,</italic> littorinids, and amphipods, are abundant in this region (Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>)&#x02014;these grazing species are mainly associated with patches of the numerically dominant <italic>P.&#x000a0;purpuratus</italic> and can have a strong top&#x02010;down effect on the assembly of sessile communities (Jara &#x00026; Moreno, <xref rid="ece32762-bib-0027" ref-type="ref">1984</xref>; Tejada&#x02010;Martinez, L&#x000f3;pez, Bonta, Sep&#x000fa;lveda, &#x00026; Valdivia, <xref rid="ece32762-bib-0069" ref-type="ref">2016</xref>).</p></sec><sec id="ece32762-sec-0004"><label>2.2</label><title>Sampling</title><p>At each site and sampling time, we estimated species abundances on ten 0.25&#x000a0;m<sup>2</sup> plots located along ca. 20&#x02010;m alongshore transects. Transects were replicated at three intertidal elevations, low&#x02010;, mid&#x02010;, and high&#x02010;intertidal zones. On each bench, we used perennial marine species occurring highest on the shore as indicators of the upper intertidal boundary. Studies on wave&#x02010;exposed shores conducted elsewhere show that their upper distribution limit on different sites represents a summary of the local wave regime across multiple sites (Harley &#x00026; Helmuth, <xref rid="ece32762-bib-0023" ref-type="ref">2003</xref>). The barnacle <italic>J.&#x000a0;cirratus</italic> is the sessile and perennial species occurring highest on these shores. Once the upper boundary was determined on each shore, we divided the intertidal range into three zones of roughly equal vertical extent (i.e., high, mid, and low zones). Plots were haphazardly positioned along each elevation zone, but positions were restricted to flat and gently sloping surfaces lacking deep crevices and tide pools.</p><p>All seaweeds and invertebrates (&#x0003e;5&#x000a0;mm) occurring on each plot were identified in situ. Organisms were classified to the lowest possible taxonomic level (usually species). For each plot, we used a 50&#x000a0;&#x000d7;&#x000a0;50&#x000a0;cm frame, divided into 25 equal fields with monofilament line, to estimate species abundances. Sessile and mobile species abundances were estimated as percentage covers (1% resolution) and densities (ind./m<sup>2</sup>), respectively. This same protocol has been used in several studies of benthic diversity along Chile and elsewhere (Broitman et&#x000a0;al., <xref rid="ece32762-bib-0006" ref-type="ref">2011</xref>; Bulleri et&#x000a0;al., <xref rid="ece32762-bib-0008" ref-type="ref">2012</xref>). In order to simultaneously analyze sessile and mobile species, percentage cover data were transformed to proportions of the maximum observed for each taxon across the shores. In this way, all cover and density data ranged between 0 (the absence of species in a given quadrat) and 1 (maximum value across all quadrats; Caro, Navarrete, &#x00026; Castilla, <xref rid="ece32762-bib-0011" ref-type="ref">2010</xref>; Valdivia et&#x000a0;al., <xref rid="ece32762-bib-0072" ref-type="ref">2015</xref>). All species abundance estimations were conducted during diurnal low&#x02010;tide hours.</p><p>Each taxon was categorized according to four functional categories: hatching mode, adult body size, growth type, and trophic type (Table&#x000a0;<xref rid="ece32762-tbl-0001" ref-type="table-wrap">1</xref>). The information of functional traits was obtained mostly from the published literature (Brusca &#x00026; Brusca, <xref rid="ece32762-bib-0007" ref-type="ref">2003</xref>; Chen, Soong, &#x00026; Chen, <xref rid="ece32762-bib-0013" ref-type="ref">2008</xref>; R&#x000ed;os, Noziglia, &#x00026; Guzm&#x000e1;n, <xref rid="ece32762-bib-0022" ref-type="ref">1987</xref>; Hines, <xref rid="ece32762-bib-0025" ref-type="ref">1986</xref>; Kay &#x00026; Emlet, <xref rid="ece32762-bib-0028" ref-type="ref">2002</xref>; Levin &#x00026; Bridges, <xref rid="ece32762-bib-0033" ref-type="ref">1995</xref>; Moran, <xref rid="ece32762-bib-0043" ref-type="ref">1997</xref>; Narvaez, Navarrete, Largier, &#x00026; Vargas, <xref rid="ece32762-bib-0049" ref-type="ref">2006</xref>; Reynoso&#x02010;Granados, Monsalvo&#x02010;Spencer, Serviere&#x02010;Zaragoza, &#x00026; Del Proo, <xref rid="ece32762-bib-0061" ref-type="ref">2007</xref>; Saelzer, Quintana, &#x00026; Qui&#x000f1;ones, <xref rid="ece32762-bib-0063" ref-type="ref">1986</xref>; Venegas, Ortiz, Olguin, &#x00026; Navarrete, <xref rid="ece32762-bib-0076" ref-type="ref">2000</xref>) and experts&#x02019; personal communication. In some cases, genus&#x02010; and family&#x02010;level information was used when more specific information was unavailable. We then calculated functional richness and functional dispersion (referred to as FRic and FDis hereafter, respectively) as estimators of functional diversity (Lalibert&#x000e9; &#x00026; Legendre, <xref rid="ece32762-bib-0030" ref-type="ref">2010</xref>; Vill&#x000e9;ger et&#x000a0;al., <xref rid="ece32762-bib-0077" ref-type="ref">2008</xref>). As our functional traits were defined as categorical variables, FRic was estimated as the number of unique trait combinations. To estimate functional FDis, we used principal coordinate analysis (PCoA) axes as the new quantitative traits (Vill&#x000e9;ger et&#x000a0;al., <xref rid="ece32762-bib-0077" ref-type="ref">2008</xref>). PCoA axes were computed from a square root&#x02010;corrected Gowen dissimilarity matrix among the species (Lalibert&#x000e9; &#x00026; Legendre, <xref rid="ece32762-bib-0030" ref-type="ref">2010</xref>). Then, FDis was calculated from the mean distance of species to the centroid of the resulting multivariate trait space&#x02014;each distance was weighted by the relative abundance of the corresponding species (Lalibert&#x000e9; &#x00026; Legendre, <xref rid="ece32762-bib-0030" ref-type="ref">2010</xref>).</p><table-wrap id="ece32762-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Functional trait categories analyzed in this study</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Hatching mode</th><th align="center" valign="top" rowspan="1" colspan="1">Adult body size</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">PD Planktonic development</td><td align="char" char=" " rowspan="1" colspan="1">S <italic>&#x0003c;</italic>1&#x000a0;cm</td></tr><tr><td align="left" rowspan="1" colspan="1">NPD Nonplanktonic development</td><td align="char" char=" " rowspan="1" colspan="1">M 1&#x02013;10&#x000a0;cm</td></tr><tr><td align="left" rowspan="3" colspan="1">SP Spore</td><td align="char" char=" " rowspan="1" colspan="1">L 10&#x02013;100&#x000a0;cm</td></tr><tr><td align="char" char=" " rowspan="1" colspan="1">XL 100&#x02013;1,000&#x000a0;cm</td></tr><tr><td align="char" char=" " rowspan="1" colspan="1">XXL &#x0003e;1,000&#x000a0;cm</td></tr></tbody></table><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Growth type</th><th align="left" valign="top" rowspan="1" colspan="1">Trophic type</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">E encrusting</td><td align="left" rowspan="1" colspan="1">A autotroph</td></tr><tr><td align="left" rowspan="1" colspan="1">B bushy</td><td align="left" rowspan="1" colspan="1">P predator</td></tr><tr><td align="left" rowspan="1" colspan="1">F filamentous</td><td align="left" rowspan="1" colspan="1">S suspension feeder</td></tr><tr><td align="left" rowspan="1" colspan="1">M massive</td><td align="left" rowspan="1" colspan="1">G grazer</td></tr><tr><td align="left" rowspan="1" colspan="1">L Foliose</td><td align="left" rowspan="1" colspan="1">D deposit feeder</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>The spatial or temporal patterns of FRic and FDis can be largely influenced by collinear patterns of species richness. In order to account for this collinearity, we estimated the standardized effect size of FRic (i.e., SESFRic) and FDis (i.e., SESFDis) according to Mason et&#x000a0;al. (<xref rid="ece32762-bib-0037" ref-type="ref">2008</xref>) and Mason, de Bello, et&#x000a0;al. (<xref rid="ece32762-bib-0036" ref-type="ref">2013</xref>). By this method, the observed FRic and FDis values are contrasted to those expected from matrix&#x02010;swap models (Manly &#x00026; Sanderson, <xref rid="ece32762-bib-0035" ref-type="ref">2002</xref>) that randomize species&#x02019; occurrences (for FRic) and abundances within observations (for FDis). The SES estimators were then calculated according to Gotelli and McCabe (<xref rid="ece32762-bib-0020" ref-type="ref">2002</xref>). Null model analyses used 10,000 randomizations. In this way, SESFRic and SESFDis were &#x0201c;pure&#x0201d; estimators of functional richness and the dispersion in trait combination abundances, respectively (Mason et&#x000a0;al., <xref rid="ece32762-bib-0038" ref-type="ref">2012</xref>). Negative (positive) values of both estimators indicate that functional richness and dispersion are lower (greater) than expected at random.</p></sec><sec id="ece32762-sec-0005"><label>2.3</label><title>Statistical analysis</title><p>Separate random&#x02010;slope mixed models were fitted to SESFRic and SESFDis in order to test our prediction. In these models, intertidal height (high, mid, and low intertidal) was included as fixed factor, and sampling site and time (nested in site) were included as random factors. In addition, the autocorrelation of errors, due to repeated measurements over time of each site, was specified as an autoregressive structure (AR1). Model diagnostics were checked by visually inspecting autocorrelation of residuals and fitted&#x02010;versus&#x02010;residual plots. We compared the second&#x02010;order Akaike information criterion corrected for small sample sizes (AICc) in order to select the more parsimonious model that accounted for the variation in SESFRic and SESFDis (Burnham &#x00026; Anderson, <xref rid="ece32762-bib-0009" ref-type="ref">2004</xref>). A delta AICc&#x000a0;&#x0003e;&#x000a0;2 was used as decision rule for selecting two competing models (Burnham &#x00026; Anderson, <xref rid="ece32762-bib-0009" ref-type="ref">2004</xref>). The random&#x02010;slope models allowed us to determine whether the intercepts and slopes of the effects of intertidal height on both estimators of functional diversity varied between sites and between sampling times.</p><p>We used similarity routines (SIMPER) to determine the trait combinations that accounted for most of the differences between intertidal heights, sites, and times. SIMPER was based on a Bray&#x02010;Curtis dissimilarity matrix. Environmental SST and Chl&#x02010;<italic>a</italic> data were visualized by means of multivariate redundancy analyses with site as the grouping factor. All analyses were conducted in the R programming environment version 3.3.0 (R Core Team, <xref rid="ece32762-bib-0059" ref-type="ref">2016</xref>). We used the libraries FD, mgcv, picante, nlme, MuMIn, vegan, and sciplot.</p></sec></sec><sec id="ece32762-sec-0006"><label>3</label><title>Results</title><p>Our sampling protocol provided representative estimations of the number of unique trait combinations (i.e., functional richness, FRic) and taxonomic units (i.e., species richness; Figure&#x000a0;<xref rid="ece32762-fig-0002" ref-type="fig">2</xref>). Asymptotic values of FRic ranged from ca. 10 to 15 unique combinations for high&#x02010; and low&#x02010;intertidal heights, respectively (Figure&#x000a0;<xref rid="ece32762-fig-0002" ref-type="fig">2</xref>a). Species richness ranged from ca. 30 in the high intertidal to 55 in the low intertidal (Figure&#x000a0;<xref rid="ece32762-fig-0002" ref-type="fig">2</xref>b). According to these collinear patterns between FRic and species richness, the estimation of standardized effect sizes was appropriate.</p><fig fig-type="Figure" xml:lang="en" id="ece32762-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Accumulation curves for functional richness (<styled-content style="fixed-case">FR</styled-content>ic) and species richness for each level of the vertical intertidal environmental stress gradient (high, mid, and low heights). <styled-content style="fixed-case">FR</styled-content>ic was the number of unique functional trait combinations and species richness the number of taxonomic units</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-7-1882-g002"/></fig><p>The analysis of nearshore environmental conditions revealed that the sites located to the north of the study region were characterized by, in average, higher SST and Chl&#x02010;<italic>a</italic> concentrations than the southern sites (Fig. S1). This result agrees with previously published analyses showing higher Chl&#x02010;<italic>a</italic> concentrations to the north of the region (Van Holt et&#x000a0;al., <xref rid="ece32762-bib-0075" ref-type="ref">2012</xref>).</p><p>Standardized effect sizes for functional richness and functional dispersion showed positive trends with decreasing environmental stress (Figure&#x000a0;<xref rid="ece32762-fig-0003" ref-type="fig">3</xref>; SESFRic and SESFDis, respectively). At high&#x02010;intertidal elevations, SESFRic and SESFDis exhibited values lower than those expected at random, hinting for trait convergence. At mid elevations, both estimators of functional diversity showed either lower or similar values than expected at random (Figure&#x000a0;<xref rid="ece32762-fig-0003" ref-type="fig">3</xref>). At low&#x02010;intertidal elevations, most sites displayed values of functional diversity that where greater than expected at random, which suggests trait divergence. SESFRic showed relatively similar patterns of variation among sites, excepting for the mid&#x02010;intertidal height, where two sites displayed mean SESFRic values close to zero (Figure&#x000a0;<xref rid="ece32762-fig-0003" ref-type="fig">3</xref>a). SESFDis showed a larger amount of geographic variation, with a balance between functionally similar and dissimilar species at every environmental stress level (Figure&#x000a0;<xref rid="ece32762-fig-0003" ref-type="fig">3</xref>b). The results of random&#x02010;slope models supported these observations, as intertidal height was always selected in the most parsimonious models of the variation in SESFRic and SESFDis (Table&#x000a0;<xref rid="ece32762-tbl-0002" ref-type="table-wrap">2</xref>). In addition, the fixed&#x02010;effects coefficients of intertidal height were all positive (Figure&#x000a0;<xref rid="ece32762-fig-0004" ref-type="fig">4</xref>), supporting the prediction that functional richness and dispersion increase with decreasing environmental stress.</p><fig fig-type="Figure" xml:lang="en" id="ece32762-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Patterns of variation of the standardized effect sizes of functional richness and functional dispersion (<styled-content style="fixed-case">SESFR</styled-content>ic and <styled-content style="fixed-case">SESFD</styled-content>is, respectively) related to the vertical intertidal environmental stress gradient and sampling sites. <styled-content style="fixed-case">SESFR</styled-content>ic was calculated after randomizing the species occurrences according to a matrix&#x02010;swap null model. <styled-content style="fixed-case">SESFD</styled-content>is was obtained by means of a null model in which abundances were randomized across species, but within sampling plots (Mason, Wiser, et&#x000a0;al., <xref rid="ece32762-bib-0039" ref-type="ref">2013</xref>). Values are given as means&#x000a0;&#x000b1;&#x000a0;confidence intervals</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-7-1882-g003"/></fig><table-wrap id="ece32762-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Summary of results of random&#x02010;slope model selection for the standardized effect sizes of functional richness and functional dispersion (SESFRic and SESFDis, respectively)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Model</th><th align="left" valign="top" rowspan="1" colspan="1">Fixed</th><th align="left" valign="top" rowspan="1" colspan="1">Random</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">logLik</th><th align="center" valign="top" rowspan="1" colspan="1">AICc</th><th align="center" valign="top" rowspan="1" colspan="1">&#x00394;<italic>i</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">&#x003c9;<sub><italic>i</italic></sub>
+</th></tr></thead><tbody><tr><td align="left" colspan="8" rowspan="1">Functional richness (SESFRic)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="char" char=" " rowspan="1" colspan="1">5</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;860</td><td align="char" char=" " rowspan="1" colspan="1">1,730</td><td align="char" char=" " rowspan="1" colspan="1">0.00</td><td align="char" char=" " rowspan="1" colspan="1">0.7428</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>|<italic>S</italic>&#x000a0;+&#x000a0;<italic>H</italic>|<italic>T</italic>(<italic>S</italic>)</td><td align="char" char=" " rowspan="1" colspan="1">17</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;849</td><td align="char" char=" " rowspan="1" colspan="1">1,733</td><td align="char" char=" " rowspan="1" colspan="1">2.28</td><td align="char" char=" " rowspan="1" colspan="1">0.2379</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>|<italic>S</italic>
+</td><td align="char" char=" " rowspan="1" colspan="1">11</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;858</td><td align="char" char=" " rowspan="1" colspan="1">1,738</td><td align="char" char=" " rowspan="1" colspan="1">7.30</td><td align="char" char=" " rowspan="1" colspan="1">0.0193</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Null</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="char" char=" " rowspan="1" colspan="1">3</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;952</td><td align="char" char=" " rowspan="1" colspan="1">1,911</td><td align="char" char=" " rowspan="1" colspan="1">180.44</td><td align="char" char=" " rowspan="1" colspan="1">&#x0003c;0.0001</td></tr><tr><td align="left" colspan="8" rowspan="1">Functional dispersion (SESFDis)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>|<italic>S</italic>&#x000a0;+&#x000a0;<italic>H</italic>|<italic>T</italic>(<italic>S</italic>)</td><td align="char" char=" " rowspan="1" colspan="1">17</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;908</td><td align="char" char=" " rowspan="1" colspan="1">1,852</td><td align="char" char=" " rowspan="1" colspan="1">0.00</td><td align="char" char=" " rowspan="1" colspan="1">0.9975</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="char" char=" " rowspan="1" colspan="1">5</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;927</td><td align="char" char=" " rowspan="1" colspan="1">1,864</td><td align="char" char=" " rowspan="1" colspan="1">12.20</td><td align="char" char=" " rowspan="1" colspan="1">0.0022</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>
+</td><td align="left" rowspan="1" colspan="1">
+<italic>H</italic>|<italic>S</italic>
+</td><td align="char" char=" " rowspan="1" colspan="1">11</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;923</td><td align="char" char=" " rowspan="1" colspan="1">1,868</td><td align="char" char=" " rowspan="1" colspan="1">16.18</td><td align="char" char=" " rowspan="1" colspan="1">0.0003</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Null</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="left" rowspan="1" colspan="1">&#x02014;</td><td align="char" char=" " rowspan="1" colspan="1">3</td><td align="char" char=" " rowspan="1" colspan="1">&#x02212;976</td><td align="char" char=" " rowspan="1" colspan="1">1,958</td><td align="char" char=" " rowspan="1" colspan="1">106.14</td><td align="char" char=" " rowspan="1" colspan="1">&#x0003c;0.0001</td></tr></tbody></table><table-wrap-foot><fn id="ece32762-note-0001"><p>For each competing model, fixed (intertidal height&#x000a0;=&#x000a0;<italic>H</italic>) and random (site&#x000a0;=&#x000a0;<italic>S</italic> and time&#x000a0;=&#x000a0;<italic>T</italic>(<italic>S</italic>)) components, in addition to the degrees of freedom (<italic>df</italic>) and log&#x02010;likelihood function (logLik), are given. Model were selected according to second&#x02010;order Akaike information criterion, corrected for small sampling sizes (AICc), &#x00394;<italic>i</italic>, which is the difference between the AICc of each model and the smaller AICc, and Akaike weights (&#x003c9;<sub><italic>i</italic></sub>).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="ece32762-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Coefficients of random&#x02010;slope models for the effects of the vertical intertidal environmental stress gradient (average change) on <styled-content style="fixed-case">SESFR</styled-content>ic and <styled-content style="fixed-case">SESFD</styled-content>is at four rocky shore sites and over 3&#x000a0;years. <styled-content style="fixed-case">SESFR</styled-content>ic and <styled-content style="fixed-case">SESFD</styled-content>is were calculated according to Mason, Wiser, et&#x000a0;al. (<xref rid="ece32762-bib-0039" ref-type="ref">2013</xref>). For each estimator of functional diversity, the coefficients represent the net change from high&#x02010; to low&#x02010;intertidal heights at each site and sampling time. The coefficients were calculated from the full models in Table&#x000a0;<xref rid="ece32762-tbl-0002" ref-type="table-wrap">2</xref>. Wi and Su are austral winter and summer, respectively</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-7-1882-g004"/></fig><p>The fixed&#x02010;effects coefficients from the random&#x02010;slope models showed differing spatiotemporal patterns between SESFRic and SESFDis (Figure&#x000a0;<xref rid="ece32762-fig-0004" ref-type="fig">4</xref>). Average effects of the vertical intertidal stress gradient on SESFRic remained relatively constant over time and sites, excepting for the summer 2013 in Calfuco and winter 2014 in Chaihu&#x000ed;n (Figure&#x000a0;<xref rid="ece32762-fig-0004" ref-type="fig">4</xref>a). For SESFDis, average effect sizes of intertidal height presented a comparatively high variation over time, which was dependent on the sampling site (Figure&#x000a0;<xref rid="ece32762-fig-0004" ref-type="fig">4</xref>b). Accordingly, the most parsimonious model for SESFRic selected via AIC<italic>c</italic> retained only the fixed effect of intertidal height&#x02014;for SESFDis, the selected model retained intertidal height and the random effects of site and time (Table&#x000a0;<xref rid="ece32762-tbl-0002" ref-type="table-wrap">2</xref>). Therefore, the results of model selection procedure indicated that the relationship between local environmental stress and functional dispersion, but not functional richness, significantly varied over space and time.</p><p>Medium&#x02010;sized, massive, and suspension feeder planktonic developers were the organisms that accounted for most of the Bray&#x02010;Curtis dissimilarities between intertidal heights, between sites, and between sampling times (Figure&#x000a0;<xref rid="ece32762-fig-0005" ref-type="fig">5</xref>). Grazer species were also important to explain the between&#x02010;group differences for the three factors (Figure&#x000a0;<xref rid="ece32762-fig-0005" ref-type="fig">5</xref>). Small&#x02010;sized encrusting macroalgae were ranked in third place to account for the variation across the vertical intertidal stress gradient and sampling times (Figure&#x000a0;<xref rid="ece32762-fig-0005" ref-type="fig">5</xref>a,c). For the differences between sites, medium&#x02010;sized foliose algae accounted for ca. 11% of dissimilarities (Figure&#x000a0;<xref rid="ece32762-fig-0005" ref-type="fig">5</xref>b).</p><fig fig-type="Figure" xml:lang="en" id="ece32762-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Proportional contribution of unique functional trait combinations to between&#x02010;group Bray&#x02010;Curtis dissimilarities for each source of variation (intertidal height, site, and time). Each contribution was calculated as the mean contribution of all of the average pairwise dissimilarities for each factor. A cutoff of 70% of contribution was used. Trait combination codes are as in Table&#x000a0;<xref rid="ece32762-tbl-0001" ref-type="table-wrap">1</xref>&#x02014;for example, <styled-content style="fixed-case">PDMMS</styled-content>, the trait combination contributing most to differences between heights, sites, and times, is the combination of planktonic developer (<styled-content style="fixed-case">PD</styled-content>), mid&#x02010;sized (M), massive (M), and suspension&#x02010;feeding (S) organisms</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-7-1882-g005"/></fig></sec><sec id="ece32762-sec-0007"><label>4</label><title>Discussion</title><p>In this study, we showed that different facets of functional diversity had differing patterns of spatiotemporal variation. A significant increase in functional diversity along the vertical intertidal stress gradient was consistent across varying environmental conditions (in terms of SST and Chlo&#x02010;<italic>a</italic> concentration) and over more than 200&#x000a0;km and 36&#x000a0;months when the range of trait space covered by the local assemblages (functional richness) was analyzed. When the relative abundances of individuals within trait combinations were incorporated in the analyses (functional dispersion), the slopes between functional diversity and decreasing environmental stress significantly varied between sampling sites and times. Importantly, these effects were independent of the spatiotemporal variation in species richness. Suspension&#x02010;feeding planktonic developers and encrusting and foliose autotrophs were the functional traits that accounted for most of the spatiotemporal variation in abundances. Therefore, local environmental stress gradients might have persistent effects on the range of trait space covered by the local communities, but context&#x02010;dependent effects on the trait combination abundance distribution. Our results stress the relevance of analyzing multiple facets of functional diversity to understand the response of community assembly mechanisms to the environmental variability.</p><p>In agreement with our hypothesis, these results provide evidence for trait convergence and divergence along a steep environmental gradient over very small spatial scales. The negative values of the standardized effect sizes for functional richness (SESFRic) indicated that high&#x02010;intertidal assemblages encompassed functionally similar organisms, which were characterized by small body sizes. In general, trait convergence has been usually explained as the result of environmental filters that allow a subset of organisms with similar trait combinations to colonize and survive in patchy environments (e.g., Leibold et&#x000a0;al., <xref rid="ece32762-bib-0031" ref-type="ref">2004</xref>). In central Chile, small&#x02010;sized barnacles that share similar environmental tolerances in the high intertidal show no evidence for competitive advantages of one species over the other, suggesting that ecological equivalence can be common at this height of the shore (Shinen &#x00026; Navarrete, <xref rid="ece32762-bib-0065" ref-type="ref">2010</xref>, <xref rid="ece32762-bib-0066" ref-type="ref">2014</xref>)&#x02014;complementarity in other traits, such as filtration rates (e.g., Valdivia et&#x000a0;al., <xref rid="ece32762-bib-0073" ref-type="ref">2009</xref>), should be further analyzed to assess niche partitioning in this model system. At the low&#x02010;intertidal fringe, we observed that SESFRic was greater than expected at random, indicating the occurrence of species with dissimilar functional traits and an expanded coverage of the trait space (Pavoine &#x00026; Bonsall, <xref rid="ece32762-bib-0055" ref-type="ref">2011</xref>). Predation of dominant competitors such as medium&#x02010;sized mussels by shallow subtidal seastars and muricid gastropods could facilitate the establishment of subordinate species (Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>; Navarrete &#x00026; Castilla, <xref rid="ece32762-bib-0050" ref-type="ref">2003</xref>; Paine, <xref rid="ece32762-bib-0053" ref-type="ref">1966</xref>) with different traits and thus increase functional divergence. In other systems, grazing limpets have been shown to exert a firm control on the upper limit of low&#x02010;intertidal macroalgae, preventing substrate monopolization (Boaventura et&#x000a0;al., <xref rid="ece32762-bib-0004" ref-type="ref">2002</xref>). Our results further suggest that the role of niche complementarity in determining species occurrences and abundances increases with decreasing local environmental stress (MacArthur &#x00026; Levins, <xref rid="ece32762-bib-0034" ref-type="ref">1967</xref>; Mason, de Bello, et&#x000a0;al., <xref rid="ece32762-bib-0036" ref-type="ref">2013</xref>). Testing this hypothesis will require field&#x02010;based manipulations of functional diversity (e.g., Aguilera &#x00026; Navarrete, <xref rid="ece32762-bib-0001" ref-type="ref">2012</xref>; Griffin, Mendez, Johnson, Jenkins, &#x00026; Foggo, <xref rid="ece32762-bib-0021" ref-type="ref">2009</xref>) across intertidal heights, which will foster our understanding of the degree to which niche complementarity influences the assembly of these communities.</p><p>Contrarily to functional richness, the patterns of standardized effect sizes of functional dispersion (SESFDis) showed significant variations between sites and between seasonal samplings. This spatiotemporal variation in functional dispersion would be the result of changing environmental conditions strong enough to influence species abundances, but not enough to produce local or temporal extinctions. The higher Chl&#x02010;<italic>a</italic> concentrations observed at the northern sites could imply a higher food supply for planktotrophic larvae and adult suspension feeders, leading to greater invertebrate colonization rates and abundances (e.g., Menge, Gouhier, Hacker, Chan, &#x00026; Nielsen, <xref rid="ece32762-bib-0041" ref-type="ref">2015</xref>). In our study region, the sites exposed to higher Chl&#x02010;<italic>a</italic> concentrations also exhibit higher invertebrate recruitment rates (Van Holt et&#x000a0;al., <xref rid="ece32762-bib-0075" ref-type="ref">2012</xref>; N. Valdivia, unpblish. data), which would explain the spatial variation in the abundance of planktonic developers and suspension feeders observed in this study. The sites with greater Chl&#x02010;<italic>a</italic> concentrations also showed warmer waters. Along Chilean shores, and particularly in northern and central regions, the links between nearshore oceanography and coastal ecological processes are strongly related to upwelling activity (e.g., Lagos, Castilla, &#x00026; Broitman, <xref rid="ece32762-bib-0029" ref-type="ref">2008</xref>; Navarrete et&#x000a0;al., <xref rid="ece32762-bib-0051" ref-type="ref">2005</xref>). In central Chile, for example, upwelling&#x02010;related nutrient inputs are associated with greater abundances of corticated algae, but lower abundances of ephemeral algae and grazing effects (Nielsen &#x00026; Navarrete, <xref rid="ece32762-bib-0052" ref-type="ref">2004</xref>). In southern central Chile, the upwelling center locked to Punta Galera (south of Chaihu&#x000ed;n, Figure&#x000a0;<xref rid="ece32762-fig-0001" ref-type="fig">1</xref>) might well encompass a source of environmental variability for coastal communities. Indeed, the sites in our study showing the higher Chl&#x02010;<italic>a</italic> concentrations and SST are located in the lee of this upwelling center (Pinochet&#x02010;Vel&#x000e1;squez, <xref rid="ece32762-bib-0057" ref-type="ref">2015</xref>). Small bays downwind from upwelling centers can be areas where surface waters are retained close to the shore, resulting in warmer waters (Pi&#x000f1;ones, Castilla, Gui&#x000f1;ez, &#x00026; Largier, <xref rid="ece32762-bib-0058" ref-type="ref">2007</xref>) and greater larval retention (e.g., Morgan &#x00026; Fisher, <xref rid="ece32762-bib-0046" ref-type="ref">2010</xref>). Nevertheless, the activity of the upwelling at Punta Galera is highly limited to spring and summer (Letelier et&#x000a0;al., <xref rid="ece32762-bib-0032" ref-type="ref">2009</xref>), and the SST difference between the upwelling and shadow areas is relatively small (Pinochet&#x02010;Vel&#x000e1;squez, <xref rid="ece32762-bib-0057" ref-type="ref">2015</xref>). Further studies are needed to determine the effects of this upwelling center on the spatial variability of functional traits in this region. Upwelling effects on species abundances and several relevant ecological processes have been shown worldwide, with stronger effects localized at areas characterized by more intermittent upwelling activity (e.g., Menge &#x00026; Menge, <xref rid="ece32762-bib-0042" ref-type="ref">2013</xref>). In this way, nearshore oceanographic conditions can have strong effects on the abundance of functional trait related with, at least, dispersal potential and trophic strategies.</p><p>In addition to abiotic environmental factors, anthropogenic impacts should be considered to explain the patterns of functional trait variation along Chilean shores. Human harvesting in these shores has significantly altered the assemblages at the landscape scale. In particular, the overexploitation of keystone predators, such as muricid gastropods, has severely reduced their abundances on the shore, despite small&#x02010;sized individuals can be still observed (Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>). This could increase the occurrences of small&#x02010;sized carnivore species (e.g., <italic>Acanthina monodon</italic>; Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>), leading to trait convergence in terms of similarity in body size. A similar pattern has been observed for keyhole limpets, and small&#x02010;sized herbivores seem to dominate the assemblage of grazers in these shores (Tejada&#x02010;Martinez et&#x000a0;al., <xref rid="ece32762-bib-0069" ref-type="ref">2016</xref>). Moreover, high&#x02010;intertidal macroalgae, such as <italic>Pyropia orbicularis</italic>, and low&#x02010;intertidal kelps, such as <italic>D.&#x000a0;antarctica</italic> and <italic>L.&#x000a0;spicata</italic>, are also under severe harvesting (Moreno, <xref rid="ece32762-bib-0044" ref-type="ref">2001</xref>). The region under study also shows spatial heterogeneity in these human impacts. Three of the sites are managed, while one is under an open&#x02010;access regime. Between the enforced sites, there are also important differences in the consequences of management for the natural communities, depending on differences among stakeholders and local environmental conditions (Van Holt et&#x000a0;al., <xref rid="ece32762-bib-0075" ref-type="ref">2012</xref>). Our results therefore could have important applications for conservation. For instance, the fact that the relative abundances within functional traits change&#x02014;despite no trait combination is lost or added at ecological scales&#x02014;can be seen as evidence for imminent functional extinctions and turnover (Boersma et&#x000a0;al., <xref rid="ece32762-bib-0005" ref-type="ref">2016</xref>; S&#x000e4;terberg, Sellman, &#x00026; Ebenman, <xref rid="ece32762-bib-0064" ref-type="ref">2013</xref>). Accordingly, the analysis of the combined variation of functional richness and dispersion can be a useful tool to prevent the extinction of critical functional traits.</p><p>In summary, our results indicate that considering different facets of functional diversity allows the identification of differing spatiotemporal patterns of variation of community assembly processes. Although the mechanisms that generate variation in functional diversity were not experimentally assessed in this study, the well&#x02010;known effects of the vertical environmental stress gradient in rocky intertidal habitats support the idea that the interplay between environmental filters and niche complementarity generates a continuum between functional convergence and divergence. Both environmental and anthropogenic factors could be analyzed to explain the significant spatial (horizontal) and temporal variation in the patterns of functional dispersion along the vertical intertidal environmental gradient. Future work on this issue could help to disentangle the impact of human disturbances on the functional structure of aquatic and terrestrial communities worldwide. For instance, a trait&#x02010;based approach would allow us to assess anthropogenic impacts across biogeographic regions with different levels of taxonomic and phylogenetic diversity. The integrated analysis of different facets of functional diversity can provide useful information about the variation and potential for local extinction of functional traits that ultimately influence ecosystem functioning.</p></sec><sec id="ece32762-sec-0009"><title>Conflict of Interest</title><p>None declared.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece32762-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-7-1882-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece32762-sec-0008"><title>Acknowledgments</title><p>We thank all the enthusiastic undergraduate interns (<italic>Biolog&#x000ed;a Marina</italic>; UACH) that provided invaluable help during the fieldwork. Carlos Lara helped with satellite data downloading and preprocessing. This study was financially supported by the FONDECYT grant #1141037 to NV. While writing, NV was supported by the FONDAP grant #15150003 (IDEAL), MAA by FONDECYT 1160223 and PAI&#x02010;CONICYT #79150002&#x02010;2015, and BRB by MINECON NC120086.</p></ack><ref-list content-type="cited-references" id="ece32762-bibl-0001"><title>References</title><ref id="ece32762-bib-0001"><mixed-citation publication-type="journal" id="ece32762-cit-0001">
+<string-name>
+<surname>Aguilera</surname>, <given-names>M. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Functional identity and functional structure change through succession in a rocky intertidal marine herbivore assemblage</article-title>. <source>Ecology</source>, <volume>93</volume>, <fpage>75</fpage>&#x02013;<lpage>89</lpage>.<pub-id pub-id-type="pmid">22486089</pub-id></mixed-citation></ref><ref id="ece32762-bib-1000"><mixed-citation publication-type="journal" id="ece32762-cit-1000">
+<string-name>
+<surname>Ancapich&#x000fa;n</surname>
+<given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garc&#x000e9;s&#x02010;Vargas</surname>
+<given-names>J.</given-names>
+</string-name> (<year>2015</year>) <article-title>Variability of the Southeast Pacific Subtropical Anticyclone and its impact on sea surface temperature off north&#x02010;central Chile</article-title>. <source>Ciencias Marinas</source>
+<volume>41</volume>, <fpage>1</fpage>&#x02010;<lpage>20</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0002"><mixed-citation publication-type="journal" id="ece32762-cit-0002">
+<string-name>
+<surname>Anderson</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Ellingsen</surname>, <given-names>K. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McArdle</surname>, <given-names>B. H.</given-names>
+</string-name> (<year>2006</year>). <article-title>Multivariate dispersion as a measure of beta diversity</article-title>. <source>Ecology Letters</source>, <volume>9</volume>, <fpage>683</fpage>&#x02013;<lpage>693</lpage>.<pub-id pub-id-type="pmid">16706913</pub-id></mixed-citation></ref><ref id="ece32762-bib-0003"><mixed-citation publication-type="journal" id="ece32762-cit-0003">
+<string-name>
+<surname>Berthelsen</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Hewitt</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Taylor</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2015</year>). <article-title>Biological traits and taxonomic composition of invertebrate assemblages associated with coralline turf along an environmental gradient</article-title>. <source>Marine Ecology Progress Series</source>, <volume>530</volume>, <fpage>15</fpage>&#x02013;<lpage>27</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0004"><mixed-citation publication-type="journal" id="ece32762-cit-0004">
+<string-name>
+<surname>Boaventura</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Alexander</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Della Santina</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>N. D.</given-names>
+</string-name>, <string-name>
+<surname>Re</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>da Fonseca</surname>, <given-names>L. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hawkins</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>The effects of grazing on the distribution and composition of low&#x02010;shore algal communities on the central coast of Portugal and on the southern coast of Britain</article-title>. <source>Journal of Experimental Marine Biology and Ecology</source>, <volume>267</volume>, <fpage>185</fpage>&#x02013;<lpage>206</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0005"><mixed-citation publication-type="journal" id="ece32762-cit-0005">
+<string-name>
+<surname>Boersma</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name>
+<surname>Dee</surname>, <given-names>L. E.</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Bogan</surname>, <given-names>M. T.</given-names>
+</string-name>, <string-name>
+<surname>Lytle</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gitelman</surname>, <given-names>A. I.</given-names>
+</string-name> (<year>2016</year>). <article-title>Linking multidimensional functional diversity to quantitative methods: A graphical hypothesis&#x02010;evaluation framework</article-title>. <source>Ecology</source>, <volume>97</volume>, <fpage>583</fpage>&#x02013;<lpage>593</lpage>.<pub-id pub-id-type="pmid">27197386</pub-id></mixed-citation></ref><ref id="ece32762-bib-0006"><mixed-citation publication-type="journal" id="ece32762-cit-0006">
+<string-name>
+<surname>Broitman</surname>, <given-names>B. R.</given-names>
+</string-name>, <string-name>
+<surname>V&#x000e9;liz</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Manzur</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Wieters</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<surname>Finke</surname>, <given-names>G. R.</given-names>
+</string-name>, <string-name>
+<surname>Fornes</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Geographic variation in diversity of wave exposed rocky intertidal communities along central Chile</article-title>. <source>Revista Chilena de Historia Natural</source>, <volume>84</volume>, <fpage>143</fpage>&#x02013;<lpage>154</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0007"><mixed-citation publication-type="book" id="ece32762-cit-0007">
+<string-name>
+<surname>Brusca</surname>, <given-names>R. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Brusca</surname>, <given-names>G. J.</given-names>
+</string-name> (<year>2003</year>). <source>Invertebrates</source>. <publisher-loc>Sunderland, MA</publisher-loc>: <publisher-name>Sinauer Associates</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0008"><mixed-citation publication-type="journal" id="ece32762-cit-0008">
+<string-name>
+<surname>Bulleri</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Benedetti&#x02010;Cecchi</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Cusson</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Maggi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Arenas</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Aspden</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Paterson</surname>, <given-names>D. M.</given-names>
+</string-name> (<year>2012</year>). <article-title>Temporal stability of European rocky shore assemblages: Variation across a latitudinal gradient and the role of habitat&#x02010;formers</article-title>. <source>Oikos</source>, <volume>121</volume>, <fpage>1801</fpage>&#x02013;<lpage>1809</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0009"><mixed-citation publication-type="journal" id="ece32762-cit-0009">
+<string-name>
+<surname>Burnham</surname>, <given-names>K. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anderson</surname>, <given-names>D. R.</given-names>
+</string-name> (<year>2004</year>). <article-title>Multimodel inference&#x02014;Understanding AIC and BIC in model selection</article-title>. <source>Sociological Methods &#x00026; Research</source>, <volume>33</volume>, <fpage>261</fpage>&#x02013;<lpage>304</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0010"><mixed-citation publication-type="journal" id="ece32762-cit-0010">
+<string-name>
+<surname>Carmona</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name>
+<surname>de Bello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Leps</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Traits without borders: Integrating functional diversity across scales</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>31</volume>, <fpage>382</fpage>&#x02013;<lpage>394</lpage>.<pub-id pub-id-type="pmid">26924737</pub-id></mixed-citation></ref><ref id="ece32762-bib-0011"><mixed-citation publication-type="journal" id="ece32762-cit-0011">
+<string-name>
+<surname>Caro</surname>, <given-names>A. U.</given-names>
+</string-name>, <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Ecological convergence in a rocky intertidal shore metacommunity despite high spatial variability in recruitment regimes</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>107</volume>, <fpage>18528</fpage>&#x02013;<lpage>18532</lpage>.<pub-id pub-id-type="pmid">20937867</pub-id></mixed-citation></ref><ref id="ece32762-bib-0012"><mixed-citation publication-type="journal" id="ece32762-cit-0012">
+<string-name>
+<surname>Cavanaugh</surname>, <given-names>K. C.</given-names>
+</string-name>, <string-name>
+<surname>Siegel</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Reed</surname>, <given-names>D. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dennison</surname>, <given-names>P. E.</given-names>
+</string-name> (<year>2011</year>). <article-title>Environmental controls of giant&#x02010;kelp biomass in the Santa Barbara Channel, California</article-title>. <source>Marine Ecology Progress Series</source>, <volume>429</volume>, <fpage>1</fpage>&#x02013;<lpage>17</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0013"><mixed-citation publication-type="journal" id="ece32762-cit-0013">
+<string-name>
+<surname>Chen</surname>, <given-names>C. L. A.</given-names>
+</string-name>, <string-name>
+<surname>Soong</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2008</year>). <article-title>The smallest oocytes among broadcast&#x02010;spawning actiniarians and a unique lunar reproductive cycle in a unisexual population of the sea anemone, <italic>Aiptasia pulchella</italic> (Anthozoa: Actiniaria)</article-title>. <source>Zoological Studies</source>, <volume>47</volume>, <fpage>37</fpage>&#x02013;<lpage>45</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0014"><mixed-citation publication-type="journal" id="ece32762-cit-0014">
+<string-name>
+<surname>Connell</surname>, <given-names>J. H.</given-names>
+</string-name> (<year>1961</year>). <article-title>The influence of interspecific competition and other factors on the distribution of the barnacle <italic>Chathamalus stellatus</italic>
+</article-title>. <source>Ecology</source>, <volume>42</volume>, <fpage>710</fpage>&#x02013;<lpage>723</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0015"><mixed-citation publication-type="journal" id="ece32762-cit-0015">
+<string-name>
+<surname>de Bello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Leps</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sebastia</surname>, <given-names>M. T.</given-names>
+</string-name> (<year>2006</year>). <article-title>Variations in species and functional plant diversity along climatic and grazing gradients</article-title>. <source>Ecography</source>, <volume>29</volume>, <fpage>801</fpage>&#x02013;<lpage>810</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0016"><mixed-citation publication-type="journal" id="ece32762-cit-0016">
+<string-name>
+<surname>Donahue</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Desharnais</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Robles</surname>, <given-names>C. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Arriola</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>Mussel bed boundaries as dynamic equilibria: Thresholds, phase shifts, and alternative states</article-title>. <source>American Naturalist</source>, <volume>178</volume>, <fpage>612</fpage>&#x02013;<lpage>625</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0017"><mixed-citation publication-type="journal" id="ece32762-cit-0017">
+<string-name>
+<surname>Fukami</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bezemer</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name>
+<surname>Mortimer</surname>, <given-names>S. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van der Putten</surname>, <given-names>W. H.</given-names>
+</string-name> (<year>2005</year>). <article-title>Species divergence and trait convergence in experimental plant community assembly</article-title>. <source>Ecology Letters</source>, <volume>8</volume>, <fpage>1283</fpage>&#x02013;<lpage>1290</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0018"><mixed-citation publication-type="journal" id="ece32762-cit-0018">
+<string-name>
+<surname>Gelcich</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>, <given-names>T. P.</given-names>
+</string-name>, <string-name>
+<surname>Olsson</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Folke</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Defeo</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Fern&#x000e1;ndez</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Navigating transformations in governance of Chilean marine coastal resources</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>107</volume>, <fpage>16794</fpage>&#x02013;<lpage>16799</lpage>.<pub-id pub-id-type="pmid">20837530</pub-id></mixed-citation></ref><ref id="ece32762-bib-0019"><mixed-citation publication-type="journal" id="ece32762-cit-0019">
+<string-name>
+<surname>G&#x000f3;mez</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Huovinen</surname>, <given-names>P.</given-names>
+</string-name> (<year>2011</year>). <article-title>Morpho&#x02010;functional patterns and zonation of South Chilean seaweeds: The importance of photosynthetic and bio&#x02010;optical traits</article-title>. <source>Marine Ecology&#x02010;Progress Series</source>, <volume>422</volume>, <fpage>77</fpage>&#x02013;<lpage>91</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0020"><mixed-citation publication-type="journal" id="ece32762-cit-0020">
+<string-name>
+<surname>Gotelli</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McCabe</surname>, <given-names>D. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Species co&#x02010;occurrence: A meta&#x02010;analysis of J. M. Diamond's assembly rules model</article-title>. <source>Ecology</source>, <volume>83</volume>, <fpage>2091</fpage>&#x02013;<lpage>2096</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0021"><mixed-citation publication-type="journal" id="ece32762-cit-0021">
+<string-name>
+<surname>Griffin</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name>
+<surname>Mendez</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name>
+<surname>Jenkins</surname>, <given-names>S. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Foggo</surname>, <given-names>A.</given-names>
+</string-name> (<year>2009</year>). <article-title>Functional diversity predicts overyielding effect of species combination on primary productivity</article-title>. <source>Oikos</source>, <volume>118</volume>, <fpage>37</fpage>&#x02013;<lpage>44</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0023"><mixed-citation publication-type="journal" id="ece32762-cit-0023">
+<string-name>
+<surname>Harley</surname>, <given-names>C. D. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Helmuth</surname>, <given-names>B. S. T.</given-names>
+</string-name> (<year>2003</year>). <article-title>Local&#x02010; and regional&#x02010;scale effects of wave exposure, thermal stress, and absolute versus effective shore level on patterns of intertidal zonation</article-title>. <source>Limnology and Oceanography</source>, <volume>48</volume>, <fpage>1498</fpage>&#x02013;<lpage>1508</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0024"><mixed-citation publication-type="journal" id="ece32762-cit-0024">
+<string-name>
+<surname>Hawkins</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hartnoll</surname>, <given-names>R. G.</given-names>
+</string-name> (<year>1983</year>). <article-title>Grazing of intertidal algae by marine invertebrates</article-title>. <source>Oceanography and Marine Biology</source>
+<volume>21</volume>, <fpage>195</fpage>&#x02010;<lpage>282</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0025"><mixed-citation publication-type="journal" id="ece32762-cit-0025">
+<string-name>
+<surname>Hines</surname>, <given-names>A. H.</given-names>
+</string-name> (<year>1986</year>). <article-title>Larval patterns in the life histories of Brachyuran crabs (Crustacea, Decapoda, Brachyura)</article-title>. <source>Bulletin of Marine Science</source>, <volume>39</volume>, <fpage>444</fpage>&#x02013;<lpage>466</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0026"><mixed-citation publication-type="journal" id="ece32762-cit-0026">
+<string-name>
+<surname>Hooper</surname>, <given-names>D. U.</given-names>
+</string-name>, <string-name>
+<surname>Chapin</surname>, <given-names>F. S.</given-names>
+</string-name>, <string-name>
+<surname>Ewel</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Hector</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Inchausti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Lavorel</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wardle</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2005</year>). <article-title>Effects of biodiversity on ecosystem functioning: A consensus of current knowledge</article-title>. <source>Ecological Monographs</source>, <volume>75</volume>, <fpage>3</fpage>&#x02013;<lpage>35</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0027"><mixed-citation publication-type="journal" id="ece32762-cit-0027">
+<string-name>
+<surname>Jara</surname>, <given-names>H. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Moreno</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>1984</year>). <article-title>Herbivory and structure in a midlittoral rocky community: A case in southern Chile</article-title>. <source>Ecology</source>, <volume>65</volume>, <fpage>28</fpage>&#x02013;<lpage>38</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0028"><mixed-citation publication-type="journal" id="ece32762-cit-0028">
+<string-name>
+<surname>Kay</surname>, <given-names>M. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Emlet</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2002</year>). <article-title>Laboratory spawning, larval development, and metamorphosis of the limpets <italic>Lottia digitalis</italic> and <italic>Lottia asmi</italic> (Patellogastropoda, Lottiidae)</article-title>. <source>Invertebrate Biology</source>, <volume>121</volume>, <fpage>11</fpage>&#x02013;<lpage>24</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0029"><mixed-citation publication-type="journal" id="ece32762-cit-0029">
+<string-name>
+<surname>Lagos</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Broitman</surname>, <given-names>B. R.</given-names>
+</string-name> (<year>2008</year>). <article-title>Spatial environmental correlates of benthic recruitment: A test using intertidal barnacles along the coast of northern Chile</article-title>. <source>Ecological Monographs</source>, <volume>78</volume>, <fpage>245</fpage>&#x02013;<lpage>261</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0030"><mixed-citation publication-type="journal" id="ece32762-cit-0030">
+<string-name>
+<surname>Lalibert&#x000e9;</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Legendre</surname>, <given-names>P.</given-names>
+</string-name> (<year>2010</year>). <article-title>A distance&#x02010;based framework for measuring functional diversity from multiple traits</article-title>. <source>Ecology</source>, <volume>91</volume>, <fpage>299</fpage>&#x02013;<lpage>305</lpage>.<pub-id pub-id-type="pmid">20380219</pub-id></mixed-citation></ref><ref id="ece32762-bib-0031"><mixed-citation publication-type="journal" id="ece32762-cit-0031">
+<string-name>
+<surname>Leibold</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Holyoak</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Mouquet</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Amarasekare</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Chase</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Hoopes</surname>, <given-names>M. F.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Gonzalez</surname>, <given-names>A.</given-names>
+</string-name> (<year>2004</year>). <article-title>The metacommunity concept: A framework for multi&#x02010;scale community ecology</article-title>. <source>Ecology Letters</source>, <volume>7</volume>, <fpage>601</fpage>&#x02013;<lpage>613</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0032"><mixed-citation publication-type="journal" id="ece32762-cit-0032">
+<string-name>
+<surname>Letelier</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pizarro</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nunez</surname>, <given-names>S.</given-names>
+</string-name> (<year>2009</year>). <article-title>Seasonal variability of coastal upwelling and the upwelling front off central Chile</article-title>. <source>Journal of Geophysical Research&#x02010;Oceans</source>, <volume>114</volume>, <fpage>1</fpage>&#x02013;<lpage>16</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0033"><mixed-citation publication-type="book" id="ece32762-cit-0033">
+<string-name>
+<surname>Levin</surname>, <given-names>L. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bridges</surname>, <given-names>T. S.</given-names>
+</string-name> (<year>1995</year>). <chapter-title>Patterns and diversity in reproduction and development</chapter-title> In <person-group person-group-type="editor"><name><surname>McEdward</surname><given-names>L. R.</given-names></name></person-group> (Ed.), <source>Ecology of marine invertebrate larvae</source> (pp. <fpage>1</fpage>&#x02013;<lpage>48</lpage>). <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0034"><mixed-citation publication-type="journal" id="ece32762-cit-0034">
+<string-name>
+<surname>MacArthur</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Levins</surname>, <given-names>R.</given-names>
+</string-name> (<year>1967</year>). <article-title>The limiting similarity, convergence, and divergence of coexisting species</article-title>. <source>The American Naturalist</source>, <volume>101</volume>, <fpage>377</fpage>&#x02013;<lpage>385</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0035"><mixed-citation publication-type="journal" id="ece32762-cit-0035">
+<string-name>
+<surname>Manly</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sanderson</surname>, <given-names>J. G.</given-names>
+</string-name> (<year>2002</year>). <article-title>A note on null models: Justifying the methodology</article-title>. <source>Ecology</source>, <volume>83</volume>, <fpage>580</fpage>&#x02013;<lpage>582</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0036"><mixed-citation publication-type="journal" id="ece32762-cit-0036">
+<string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, <string-name>
+<surname>de Bello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Pavoine</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dray</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>A guide for using functional diversity indices to reveal changes in assembly processes along ecological gradients</article-title>. <source>Journal of Vegetation Science</source>, <volume>24</volume>, <fpage>794</fpage>&#x02013;<lpage>806</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0037"><mixed-citation publication-type="journal" id="ece32762-cit-0037">
+<string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, <string-name>
+<surname>Lanoiselee</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Wilson</surname>, <given-names>J. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Argillier</surname>, <given-names>C.</given-names>
+</string-name> (<year>2008</year>). <article-title>Does niche overlap control relative abundance in French lacustrine fish communities? A new method incorporating functional traits</article-title>. <source>Journal of Animal Ecology</source>, <volume>77</volume>, <fpage>661</fpage>&#x02013;<lpage>669</lpage>.<pub-id pub-id-type="pmid">18397248</pub-id></mixed-citation></ref><ref id="ece32762-bib-0038"><mixed-citation publication-type="journal" id="ece32762-cit-0038">
+<string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, <string-name>
+<surname>Richardson</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Peltzer</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>de Bello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Wardle</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Allen</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2012</year>). <article-title>Changes in coexistence mechanisms along a long&#x02010;term soil chronosequence revealed by functional trait diversity</article-title>. <source>Journal of Ecology</source>, <volume>100</volume>, <fpage>678</fpage>&#x02013;<lpage>689</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0039"><mixed-citation publication-type="journal" id="ece32762-cit-0039">
+<string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, <string-name>
+<surname>Wiser</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name>
+<surname>Richardson</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Thorsen</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Holdaway</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Dray</surname>, <given-names>S.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Carswell</surname>, <given-names>F. E.</given-names>
+</string-name> (<year>2013</year>). <article-title>Functional traits reveal processes driving natural afforestation at large spatial scales</article-title>. <source>PLoS One</source>, <volume>8</volume>, <fpage>e75219</fpage>.<pub-id pub-id-type="pmid">24058664</pub-id></mixed-citation></ref><ref id="ece32762-bib-0040"><mixed-citation publication-type="book" id="ece32762-cit-0040">
+<string-name>
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Branch</surname>, <given-names>G. M.</given-names>
+</string-name> (<year>2001</year>). <chapter-title>Rocky intertidal communities</chapter-title> In <person-group person-group-type="editor"><name><surname>Bertness</surname><given-names>M. D.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Gaines</surname><given-names>S. D.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Hay</surname><given-names>M. E.</given-names></name></person-group> (Eds.), <source>Marine community ecology</source> (pp. <fpage>221</fpage>&#x02013;<lpage>251</lpage>). <publisher-loc>Sunderland, MA</publisher-loc>: <publisher-name>Sinauer Associates</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0041"><mixed-citation publication-type="journal" id="ece32762-cit-0041">
+<string-name>
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>Gouhier</surname>, <given-names>T. C.</given-names>
+</string-name>, <string-name>
+<surname>Hacker</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nielsen</surname>, <given-names>K. J.</given-names>
+</string-name> (<year>2015</year>). <article-title>Are meta&#x02010;ecosystems organized hierarchically? A model and test in rocky intertidal habitats</article-title>. <source>Ecological Monographs</source>, <volume>85</volume>, <fpage>213</fpage>&#x02013;<lpage>233</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0042"><mixed-citation publication-type="journal" id="ece32762-cit-0042">
+<string-name>
+<surname>Menge</surname>, <given-names>B. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Menge</surname>, <given-names>D. N. L.</given-names>
+</string-name> (<year>2013</year>). <article-title>Dynamics of coastal meta&#x02010;ecosystems: The intermittent upwelling hypothesis and a test in rocky intertidal regions</article-title>. <source>Ecological Monographs</source>, <volume>83</volume>, <fpage>283</fpage>&#x02013;<lpage>310</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0043"><mixed-citation publication-type="journal" id="ece32762-cit-0043">
+<string-name>
+<surname>Moran</surname>, <given-names>A. L.</given-names>
+</string-name> (<year>1997</year>). <article-title>Spawning and larval development of the black turban snail <italic>Tegula funebralis</italic> (Prosobranchia: Trochidae)</article-title>. <source>Marine Biology</source>, <volume>128</volume>, <fpage>107</fpage>&#x02013;<lpage>114</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0044"><mixed-citation publication-type="journal" id="ece32762-cit-0044">
+<string-name>
+<surname>Moreno</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2001</year>). <article-title>Community patterns generated by human harvesting on Chilean shores: A review</article-title>. <source>Aquatic Conservation&#x02010;Marine and Freshwater Ecosystems</source>, <volume>11</volume>, <fpage>19</fpage>&#x02013;<lpage>30</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0045"><mixed-citation publication-type="journal" id="ece32762-cit-0045">
+<string-name>
+<surname>Moreno</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jaramillo</surname>, <given-names>E.</given-names>
+</string-name> (<year>1983</year>). <article-title>The role of grazers in the zonation of intertidal macroalgae of the Chilean coast</article-title>. <source>Oikos</source>, <volume>41</volume>, <fpage>73</fpage>&#x02013;<lpage>76</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0046"><mixed-citation publication-type="journal" id="ece32762-cit-0046">
+<string-name>
+<surname>Morgan</surname>, <given-names>S. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fisher</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2010</year>). <article-title>Larval behavior regulates nearshore retention and offshore migration in an upwelling shadow and along the open coast</article-title>. <source>Marine Ecology Progress Series</source>, <volume>404</volume>, <fpage>109</fpage>&#x02013;<lpage>126</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0047"><mixed-citation publication-type="journal" id="ece32762-cit-0047">
+<string-name>
+<surname>Mouchet</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Vill&#x000e9;ger</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name> (<year>2010</year>). <article-title>Functional diversity measures: An overview of their redundancy and their ability to discriminate community assembly rules</article-title>. <source>Functional Ecology</source>, <volume>24</volume>, <fpage>867</fpage>&#x02013;<lpage>876</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0048"><mixed-citation publication-type="journal" id="ece32762-cit-0048">
+<string-name>
+<surname>Mudrak</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Janecek</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gotzenberger</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, <string-name>
+<surname>Hornik</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>de Castro</surname>, <given-names>I.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>de Bello</surname>, <given-names>F.</given-names>
+</string-name> (<year>2016</year>). <article-title>Fine&#x02010;scale coexistence patterns along a productivity gradient in wet meadows: Shifts from trait convergence to divergence</article-title>. <source>Ecography</source>, <volume>39</volume>, <fpage>338</fpage>&#x02013;<lpage>348</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0049"><mixed-citation publication-type="journal" id="ece32762-cit-0049">
+<string-name>
+<surname>Narvaez</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Largier</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vargas</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Onshore advection of warm water, larval invertebrate settlement, and relaxation of upwelling off central Chile</article-title>. <source>Marine Ecology Progress Series</source>, <volume>309</volume>, <fpage>159</fpage>&#x02013;<lpage>173</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0050"><mixed-citation publication-type="journal" id="ece32762-cit-0050">
+<string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2003</year>). <article-title>Experimental determination of predation intensity in an intertidal predator guild: Dominant versus subordinate prey</article-title>. <source>Oikos</source>, <volume>100</volume>, <fpage>251</fpage>&#x02013;<lpage>262</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0051"><mixed-citation publication-type="journal" id="ece32762-cit-0051">
+<string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Wieters</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<surname>Broitman</surname>, <given-names>B. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name> (<year>2005</year>). <article-title>Scales of benthic&#x02010;pelagic coupling and the intensity of species interactions: From recruitment limitation to top&#x02010;down control</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>102</volume>, <fpage>18046</fpage>&#x02013;<lpage>18051</lpage>.<pub-id pub-id-type="pmid">16332959</pub-id></mixed-citation></ref><ref id="ece32762-bib-0052"><mixed-citation publication-type="journal" id="ece32762-cit-0052">
+<string-name>
+<surname>Nielsen</surname>, <given-names>K. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2004</year>). <article-title>Mesoscale regulation comes from the bottom&#x02010;up: Intertidal interactions between consumers and upwelling</article-title>. <source>Ecology Letters</source>, <volume>7</volume>, <fpage>31</fpage>&#x02013;<lpage>41</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0053"><mixed-citation publication-type="journal" id="ece32762-cit-0053">
+<string-name>
+<surname>Paine</surname>, <given-names>R.</given-names>
+</string-name> (<year>1966</year>). <article-title>Food web complexity and species diversity</article-title>. <source>American Naturalist</source>, <volume>100</volume>, <fpage>65</fpage>&#x02013;<lpage>75</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0054"><mixed-citation publication-type="journal" id="ece32762-cit-0054">
+<string-name>
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name> (<year>1974</year>). <article-title>Intertidal community structure</article-title>. <source>Oecologia</source>, <volume>15</volume>, <fpage>93</fpage>&#x02013;<lpage>120</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0055"><mixed-citation publication-type="journal" id="ece32762-cit-0055">
+<string-name>
+<surname>Pavoine</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bonsall</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2011</year>). <article-title>Measuring biodiversity to explain community assembly: A unified approach</article-title>. <source>Biological Reviews</source>, <volume>86</volume>, <fpage>792</fpage>&#x02013;<lpage>812</lpage>.<pub-id pub-id-type="pmid">21155964</pub-id></mixed-citation></ref><ref id="ece32762-bib-0056"><mixed-citation publication-type="journal" id="ece32762-cit-0056">
+<string-name>
+<surname>Petchey</surname>, <given-names>O. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gaston</surname>, <given-names>K. J.</given-names>
+</string-name> (<year>2006</year>). <article-title>Functional diversity: Back to basics and looking forward</article-title>. <source>Ecology Letters</source>, <volume>9</volume>, <fpage>741</fpage>&#x02013;<lpage>758</lpage>.<pub-id pub-id-type="pmid">16706917</pub-id></mixed-citation></ref><ref id="ece32762-bib-0057"><mixed-citation publication-type="book" id="ece32762-cit-0057">
+<string-name>
+<surname>Pinochet&#x02010;Vel&#x000e1;squez</surname>, <given-names>A. S.</given-names>
+</string-name> (<year>2015</year>). <source>Variaci&#x000f3;n temporal de la surgencia en la regi&#x000f3;n centro&#x02010;sur de Chile (39&#x000ba;&#x02010;41&#x000ba;) a trav&#x000e9;s de informaci&#x000f3;n procedente de sat&#x000e9;lites</source>. <publisher-loc>Valdivia, Chile</publisher-loc>: <publisher-name>Facultad de Ciencias</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0058"><mixed-citation publication-type="journal" id="ece32762-cit-0058">
+<string-name>
+<surname>Pi&#x000f1;ones</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Castilla</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Gui&#x000f1;ez</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Largier</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2007</year>). <article-title>Nearshore surface temperatures in Antofagasta Bay (Chile) and adjacent upwelling centers</article-title>. <source>Ciencias Marinas</source>, <volume>33</volume>, <fpage>37</fpage>&#x02013;<lpage>48</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0059"><mixed-citation publication-type="book" id="ece32762-cit-0059">
+<collab collab-type="authors">R Core Team</collab>
+(<year>2016</year>). <source>R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0060"><mixed-citation publication-type="book" id="ece32762-cit-0060">
+<string-name>
+<surname>Raffaelli</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hawkins</surname>, <given-names>S.</given-names>
+</string-name> (<year>1996</year>). <source>Intertidal ecology</source> (<fpage>356</fpage> pp.). <publisher-loc>London, UK</publisher-loc>: <publisher-name>Chapman &#x00026; Hall</publisher-name>.</mixed-citation></ref><ref id="ece32762-bib-0061"><mixed-citation publication-type="journal" id="ece32762-cit-0061">
+<string-name>
+<surname>Reynoso&#x02010;Granados</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Monsalvo&#x02010;Spencer</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Serviere&#x02010;Zaragoza</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Del Proo</surname>, <given-names>S. A. G.</given-names>
+</string-name> (<year>2007</year>). <article-title>Larval and early juvenile development of the volcano keyhole limpet, <italic>Fissurella volcano</italic>
+</article-title>. <source>Journal of Shellfish Research</source>, <volume>26</volume>, <fpage>65</fpage>&#x02013;<lpage>70</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0022"><mixed-citation publication-type="journal" id="ece32762-cit-0022">
+<string-name>
+<surname>R&#x000ed;os</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Noziglia</surname>, <given-names>N. C.</given-names>
+</string-name>, <string-name>
+<surname>Guzm&#x000e1;n</surname>, <given-names>M. L.</given-names>
+</string-name> (<year>1987</year>). <article-title>Larval development of the gastropods <italic>Siphonaria lessoni</italic> blainville 1824 and <italic>Kerguelenella lateralis</italic> Gould 1946 <italic>Pulmonata siphonariidae</italic> from the strait of Magellan Chile</article-title>. <source>Anales del Instituto de La Patagonia Serie Ciencias Naturales</source>, <volume>17</volume>, <fpage>77</fpage>&#x02013;<lpage>88</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0062"><mixed-citation publication-type="journal" id="ece32762-cit-0062">
+<string-name>
+<surname>Roughgarden</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gaines</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Possingham</surname>, <given-names>H.</given-names>
+</string-name> (<year>1988</year>). <article-title>Recruitment dynamics in complex life cycles</article-title>. <source>Science</source>, <volume>241</volume>, <fpage>1460</fpage>&#x02013;<lpage>1466</lpage>.<pub-id pub-id-type="pmid">11538249</pub-id></mixed-citation></ref><ref id="ece32762-bib-0063"><mixed-citation publication-type="journal" id="ece32762-cit-0063">
+<string-name>
+<surname>Saelzer</surname>, <given-names>H. E.</given-names>
+</string-name>, <string-name>
+<surname>Quintana</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Qui&#x000f1;ones</surname>, <given-names>R.</given-names>
+</string-name> (<year>1986</year>). <article-title>Larval development of <italic>Petrolisthes granulosus</italic> (Gu&#x000e9;rin, 1835) (Decapoda: Anomura: Porcellanidae) under Laboratory conditions</article-title>. <source>Journal of Crustacean Biology</source>, <volume>6</volume>, <fpage>804</fpage>&#x02013;<lpage>819</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0064"><mixed-citation publication-type="journal" id="ece32762-cit-0064">
+<string-name>
+<surname>S&#x000e4;terberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sellman</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ebenman</surname>, <given-names>B.</given-names>
+</string-name> (<year>2013</year>). <article-title>High frequency of functional extinctions in ecological networks</article-title>. <source>Nature</source>, <volume>499</volume>, <fpage>468</fpage>&#x02013;<lpage>470</lpage>.<pub-id pub-id-type="pmid">23831648</pub-id></mixed-citation></ref><ref id="ece32762-bib-0065"><mixed-citation publication-type="journal" id="ece32762-cit-0065">
+<string-name>
+<surname>Shinen</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2010</year>). <article-title>Coexistence and intertidal zonation of chthamalid barnacles along central Chile: Interference competition or a lottery for space?</article-title>
+<source>Journal of Experimental Marine Biology and Ecology</source>, <volume>392</volume>, <fpage>176</fpage>&#x02013;<lpage>187</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0066"><mixed-citation publication-type="journal" id="ece32762-cit-0066">
+<string-name>
+<surname>Shinen</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Lottery coexistence on rocky shores: Weak niche differentiation or equal competitors engaged in neutral dynamics?</article-title>
+<source>The American Naturalist</source>, <volume>183</volume>, <fpage>342</fpage>&#x02013;<lpage>362</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0067"><mixed-citation publication-type="journal" id="ece32762-cit-0067">
+<string-name>
+<surname>Somero</surname>, <given-names>G. N.</given-names>
+</string-name> (<year>2010</year>). <article-title>The physiology of climate change: How potentials for acclimatization and genetic adaptation will determine &#x02018;winners&#x02019; and &#x02018;losers&#x02019;</article-title>. <source>Journal of Experimental Biology</source>, <volume>213</volume>, <fpage>912</fpage>&#x02013;<lpage>920</lpage>.<pub-id pub-id-type="pmid">20190116</pub-id></mixed-citation></ref><ref id="ece32762-bib-0068"><mixed-citation publication-type="journal" id="ece32762-cit-0068">
+<string-name>
+<surname>Stephenson</surname>, <given-names>T. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stephenson</surname>, <given-names>A.</given-names>
+</string-name> (<year>1949</year>). <article-title>The universal features of zonation between tide&#x02010;marks on rocky coasts</article-title>. <source>Journal of Ecology</source>, <volume>37</volume>, <fpage>289</fpage>&#x02013;<lpage>305</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0069"><mixed-citation publication-type="journal" id="ece32762-cit-0069">
+<string-name>
+<surname>Tejada&#x02010;Martinez</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>L&#x000f3;pez</surname>, <given-names>D. N.</given-names>
+</string-name>, <string-name>
+<surname>Bonta</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Sep&#x000fa;lveda</surname>, <given-names>R. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Valdivia</surname>, <given-names>N.</given-names>
+</string-name> (<year>2016</year>). <article-title>Positive and negative effects of mesograzers on early&#x02010;colonizing species in an intertidal rocky&#x02010;shore community</article-title>. <source>Ecology and Evolution</source>, <volume>6</volume>, <fpage>2045</fpage>&#x02013;<lpage>7758</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0070"><mixed-citation publication-type="journal" id="ece32762-cit-0070">
+<string-name>
+<surname>Underwood</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jernakoff</surname>, <given-names>P.</given-names>
+</string-name> (<year>1981</year>). <article-title>Effects of interactions between algae and grazing gastropods on the structure of a low&#x02010;shore inter&#x02010;tidal algal community</article-title>. <source>Oecologia</source>, <volume>48</volume>, <fpage>221</fpage>&#x02013;<lpage>233</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0071"><mixed-citation publication-type="journal" id="ece32762-cit-0071">
+<string-name>
+<surname>Underwood</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jernakoff</surname>, <given-names>P.</given-names>
+</string-name> (<year>1984</year>). <article-title>The effects of tidal height, wave&#x02010;exposure, seasonality and rock&#x02010;pools on grazing and the distribution of intertidal macroalgae in New&#x02010;South&#x02010;Wales</article-title>. <source>Journal of Experimental Marine Biology and Ecology</source>, <volume>75</volume>, <fpage>71</fpage>&#x02013;<lpage>96</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0072"><mixed-citation publication-type="journal" id="ece32762-cit-0072">
+<string-name>
+<surname>Valdivia</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Aguilera</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Broitman</surname>, <given-names>B. R.</given-names>
+</string-name> (<year>2015</year>). <article-title>Disentangling the effects of propagule supply and environmental filtering on the spatial structure of a rocky shore metacommunity</article-title>. <source>Marine Ecology Progress Series</source>, <volume>538</volume>, <fpage>67</fpage>&#x02013;<lpage>79</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0073"><mixed-citation publication-type="journal" id="ece32762-cit-0073">
+<string-name>
+<surname>Valdivia</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>de la Haye</surname>, <given-names>K. L.</given-names>
+</string-name>, <string-name>
+<surname>Jenkins</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name>
+<surname>Kimmance</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>, <given-names>R. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Molis</surname>, <given-names>M.</given-names>
+</string-name> (<year>2009</year>). <article-title>Functional composition, but not richness, affected the performance of sessile suspension&#x02010;feeding assemblages</article-title>. <source>Journal of Sea Research</source>, <volume>61</volume>, <fpage>216</fpage>&#x02013;<lpage>221</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0074"><mixed-citation publication-type="journal" id="ece32762-cit-0074">
+<string-name>
+<surname>Valdivia</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Gollety</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Migne</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Davoult</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Molis</surname>, <given-names>M.</given-names>
+</string-name> (<year>2012</year>). <article-title>Stressed but stable: Canopy loss decreased species synchrony and metabolic variability in an intertidal hard&#x02010;bottom community</article-title>. <source>PLoS One</source>, <volume>7</volume>, <fpage>e36541</fpage>.<pub-id pub-id-type="pmid">22574181</pub-id></mixed-citation></ref><ref id="ece32762-bib-0075"><mixed-citation publication-type="journal" id="ece32762-cit-0075">
+<string-name>
+<surname>Van Holt</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Moreno</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Binford</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Portier</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name>
+<surname>Mulsow</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Frazer</surname>, <given-names>T. K.</given-names>
+</string-name> (<year>2012</year>). <article-title>Influence of landscape change on nearshore fisheries in southern Chile</article-title>. <source>Global Change Biology</source>, <volume>18</volume>, <fpage>2147</fpage>&#x02013;<lpage>2160</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0076"><mixed-citation publication-type="journal" id="ece32762-cit-0076">
+<string-name>
+<surname>Venegas</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<surname>Ortiz</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Olguin</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Navarrete</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2000</year>). <article-title>Larval development of the intertidal barnacles <italic>Jehlius cirratus</italic> and <italic>Notochthamalus scabrosus</italic> (Cirripedia: Chthamalidae) under laboratory conditions</article-title>. <source>Journal of Crustacean Biology</source>, <volume>20</volume>, <fpage>495</fpage>&#x02013;<lpage>504</lpage>.</mixed-citation></ref><ref id="ece32762-bib-0077"><mixed-citation publication-type="journal" id="ece32762-cit-0077">
+<string-name>
+<surname>Vill&#x000e9;ger</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Mason</surname>, <given-names>N. W. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mouillot</surname>, <given-names>D.</given-names>
+</string-name> (<year>2008</year>). <article-title>New multidimensional functional diversity indices for a multifaceted framework in functional ecology</article-title>. <source>Ecology</source>, <volume>89</volume>, <fpage>2290</fpage>&#x02013;<lpage>2301</lpage>.<pub-id pub-id-type="pmid">18724739</pub-id></mixed-citation></ref></ref-list></back></article>

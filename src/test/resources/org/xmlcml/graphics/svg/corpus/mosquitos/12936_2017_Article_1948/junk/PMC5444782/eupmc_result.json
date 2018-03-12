@@ -1,0 +1,689 @@
+{
+  "id": [
+    "28542472"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28542472"
+  ],
+  "pmcid": [
+    "PMC5444782"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0178092"
+  ],
+  "title": [
+    "The population impact of obesity, sedentary lifestyle, and tobacco and alcohol consumption on the prevalence of type 2 diabetes: Analysis of a health population survey in Chile, 2010."
+  ],
+  "authorString": [
+    "Bertoglia MP, Gormaz JG, Libuy M, Sanhueza D, Gajardo A, Srur A, Wallbaum M, Erazo M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bertoglia MP"
+          ],
+          "firstName": [
+            "María P"
+          ],
+          "lastName": [
+            "Bertoglia"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3631-0732",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gormaz JG"
+          ],
+          "firstName": [
+            "Juan G"
+          ],
+          "lastName": [
+            "Gormaz"
+          ],
+          "initials": [
+            "JG"
+          ],
+          "affiliation": [
+            "Molecular and Clinical Pharmacology Program, Bio-Medical Sciences Institute, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Libuy M"
+          ],
+          "firstName": [
+            "Matías"
+          ],
+          "lastName": [
+            "Libuy"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanhueza D"
+          ],
+          "firstName": [
+            "Dérgica"
+          ],
+          "lastName": [
+            "Sanhueza"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo A"
+          ],
+          "firstName": [
+            "Abraham"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Srur A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Srur"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Noncommunicable Diseases Department. Ministry of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wallbaum M"
+          ],
+          "firstName": [
+            "Magdalena"
+          ],
+          "lastName": [
+            "Wallbaum"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Noncommunicable Diseases Department. Ministry of Health, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Erazo M"
+          ],
+          "firstName": [
+            "Marcia"
+          ],
+          "lastName": [
+            "Erazo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0766-9503",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3631-0732",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0766-9503",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2551942"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0178092"
+  ],
+  "abstractText": [
+    "To estimate the impact of tobacco use, sedentary lifestyle, obesity and alcohol consumption on type 2 diabetes mellitus (T2DM) prevalence in the Chilean population.The study-included 5,293 subjects with fasting glycaemia levels from the nationwide cross-sectional health survey in 2010, commissioned by the Ministry of Health, Chile. Crude and Adjusted Odds Ratio to T2DM and its corresponding 95% confidence interval were estimated through logistic regressions. Attributable fractions and population attributable fractions were estimated.T2DM prevalence was 9.5%. Sedentary lifestyles and obesity were significant risk factors for T2DM. 52,4% of T2DM could be avoided if these individuals were not obese, and at a population level, 23% of T2DM could be preventable if obesity did not exist. A 64% of T2DM is explained by sedentariness, and if people would become active, a 62,2% of the cases of diabetes could be avoided.About 79% of T2DM cases in Chile could be prevented with cost-effective strategies focused on preventing sedentary lifestyle and obesity. It's therefore urgent to implement evidence-based public health polices, aimed to decrease the prevalence of T2DM, by controlling its risk factors and consequently, reducing the complications from T2DM."
+  ],
+  "affiliation": [
+    "Public Health Nutrition Program, School of Public Health, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetes Mellitus, Type 2"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ET"
+                  ],
+                  "qualifierName": [
+                    "etiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Obesity"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ET"
+                  ],
+                  "qualifierName": [
+                    "etiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcoholism"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prevalence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Risk Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cross-Sectional Studies"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcohol Drinking"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AE"
+                  ],
+                  "qualifierName": [
+                    "adverse effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Sedentary Lifestyle"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tobacco Use"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AE"
+                  ],
+                  "qualifierName": [
+                    "adverse effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "EP"
+                  ],
+                  "qualifierName": [
+                    "epidemiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Surveys and Questionnaires"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5444782?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5444782"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0178092"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-12"
+  ],
+  "dateOfCreation": [
+    "2017-05-25"
+  ],
+  "dateOfRevision": [
+    "2017-09-12"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-25"
+  ],
+  "firstPublicationDate": [
+    "2017-05-25"
+  ]
+}

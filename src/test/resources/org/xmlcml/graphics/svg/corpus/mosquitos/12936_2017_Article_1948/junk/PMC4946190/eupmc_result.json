@@ -1,0 +1,631 @@
+{
+  "id": [
+    "27421647"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27421647"
+  ],
+  "pmcid": [
+    "PMC4946190"
+  ],
+  "doi": [
+    "10.1186/s12863-016-0415-0"
+  ],
+  "title": [
+    "Association of single nucleotide polymorphisms in Pre-miR-27a, Pre-miR-196a2, Pre-miR-423, miR-608 and Pre-miR-618 with breast cancer susceptibility in a South American population."
+  ],
+  "authorString": [
+    "Morales S, Gulppi F, Gonzalez-Hormazabal P, Fernandez-Ramires R, Bravo T, Reyes JM, Gomez F, Waugh E, Jara L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Morales S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Morales"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Universidad Andres Bello, Facultad de Ciencias Biológicas, República N°217, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gulppi F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Gulppi"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Hospital Clínico San Borja Arriaran, Avenida Santa Rosa 1234, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez-Hormazabal P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Gonzalez-Hormazabal"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Human Genetics Program, Institute of Biomedical Sciences (ICBM), School of Medicine, University of Chile, Av. Independencia 1027, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernandez-Ramires R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Fernandez-Ramires"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Pathology and Oral Medicine, School of Odontology, University of Chile, Sergio Livingstone Pohlhammer 943, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo T"
+          ],
+          "firstName": [
+            "Teresa"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "National Cancer Society Corporación Nacional del Cáncer CONAC, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Reyes JM"
+          ],
+          "firstName": [
+            "José Miguel"
+          ],
+          "lastName": [
+            "Reyes"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "Clínca Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Gomez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Clínica Santa María, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Waugh E"
+          ],
+          "firstName": [
+            "Enrique"
+          ],
+          "lastName": [
+            "Waugh"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Clínica Santa María, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jara L"
+          ],
+          "firstName": [
+            "Lilian"
+          ],
+          "lastName": [
+            "Jara"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Laboratorio de Genética Molecular Humana, Facultad de Medicina, Instituto de Ciencias Biomédicas (ICBM), Programa de Genética, Universidad de Chile, Independencia 1027, Santiago, Chile. ljara@med.uchile.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2547260"
+      ],
+      "dateOfPublication": [
+        "2016 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genetics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genet."
+          ],
+          "medlineAbbreviation": [
+            "BMC Genet"
+          ],
+          "NLMid": [
+            "100966978"
+          ],
+          "ISSN": [
+            "1471-2156"
+          ],
+          "ESSN": [
+            "1471-2156"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "109"
+  ],
+  "abstractText": [
+    "MicroRNAs (miRNAs) are a novel class of endogenous, non-coding, single-stranded RNAs capable of regulating gene expression by suppressing translation or degrading mRNAs. Single nucleotide polymorphisms (SNP) can alter miRNA expression, resulting in diverse functional consequences. Previous studies have examined the association of miRNA SNPs with breast cancer (BC) susceptibility. The contribution of miRNA gene variants to BC susceptibility in South American women had been unexplored. Our study evaluated the association of the SNPs rs895819 in pre-miR27a, rs11614913 in pre-miR-196a2, rs6505162 in pre-miR-423, rs4919510 in miR-608, and rs2682818 in pre-mir-618 with familial BC and early-onset non-familial BC in non-carriers of BRCA1/2 mutations from a South American population.We evaluated the association of five SNPs with BC risk in 440 cases and 807 controls. Our data do not support an association of rs11614913:C > T and rs4919510:C > G with BC risk. The rs6505162:C > A was significantly associated with increased risk of familial BC in persons with a strong family history of BC (OR = 1.7 [95 % CI 1.0-2.0] p = 0.05). The rs2682818:C > A genotype C/A is associated with an increased BC risk in non-familial early-onset BC. For the rs895819:A > G polymorphism, the genotype G/G is significantly associated with reduced BC risk in families with a moderate history of BC (OR = 0.3 [95 % CI 0.1-0.8] p = 0.01).The contribution of variant miRNA genes to BC in South American women had been unexplored. Our findings support the following conclusions: a) rs6505162:C > A in pre-miR-423 increases risk of familial BC in families with a strong history of BC; b) the C/A genotype at rs2682818:C > A (pre-miR-618) increases BC risk in non-familial early-onset BC; and c) the G/G genotype at rs895819:A > G (miR-27a) reduces BC risk in families with a moderate history of BC."
+  ],
+  "affiliation": [
+    "Universidad Andres Bello, Facultad de Ciencias Biológicas, República N°217, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Breast Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Predisposition to Disease"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "MicroRNAs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Precursors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Frequency"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mutation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "South America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Polymorphisms",
+        "MicroRNA",
+        "Familial Breast Cancer",
+        "South American Population"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA Precursors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MicroRNAs"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MIRN196 microRNA, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MIRN27 microRNA, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MIRN423 microRNA, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MIRN618 microRNA, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MIRN608 microRNA, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4946190?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4946190"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12863-016-0415-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "10"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-09-13"
+  ],
+  "dateOfCreation": [
+    "2016-07-17"
+  ],
+  "dateOfRevision": [
+    "2017-12-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-15"
+  ],
+  "firstPublicationDate": [
+    "2016-07-15"
+  ]
+}

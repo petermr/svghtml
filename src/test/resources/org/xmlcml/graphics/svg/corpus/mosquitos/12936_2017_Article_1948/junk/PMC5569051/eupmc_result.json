@@ -1,0 +1,396 @@
+{
+  "id": [
+    "28835621"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28835621"
+  ],
+  "pmcid": [
+    "PMC5569051"
+  ],
+  "doi": [
+    "10.1038/s41598-017-09471-z"
+  ],
+  "title": [
+    "Genetic basis of mycotoxin susceptibility differences between budding yeast isolates."
+  ],
+  "authorString": [
+    "Quispe X, Tapia SM, Villarroel C, Oporto C, Abarca V, García V, Martínez C, Cubillos FA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Quispe X"
+          ],
+          "firstName": [
+            "Xtopher"
+          ],
+          "lastName": [
+            "Quispe"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Casilla, 114-D, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia SM"
+          ],
+          "firstName": [
+            "Sebastián M"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Casilla, 114-D, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Villarroel C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Villarroel"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Casilla, 114-D, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oporto C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Oporto"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Casilla, 114-D, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Abarca V"
+          ],
+          "firstName": [
+            "Valentina"
+          ],
+          "lastName": [
+            "Abarca"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Centro de Estudios en Ciencia y Tecnología de Alimentos (CECTA), Universidad de Santiago de Chile (USACH), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "García V"
+          ],
+          "firstName": [
+            "Verónica"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martínez C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Martínez"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8564-9287",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Ciencia y Tecnología de los Alimentos, Universidad de Santiago de Chile (USACH), Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cubillos FA"
+          ],
+          "firstName": [
+            "Francisco A"
+          ],
+          "lastName": [
+            "Cubillos"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3022-469X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Biología, Facultad de Química y Biología, Universidad de Santiago de Chile, Santiago, Chile. francisco.cubillos.r@usach.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8564-9287",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3022-469X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "9173"
+  ],
+  "abstractText": [
+    "Micophenolic acid (MPA) is an immunosuppressant mycotoxin which impairs yeast cell growth to variable degrees depending on the genetic background. Such variation could have emerged from several phenomena, including MPA gene resistance mutations and variations in copy number and localisation of resistance genes. To test this, we evaluated MPA susceptibility in four S. cerevisiae isolates and genetically dissected variation through the identification of Quantitative Trait Loci. Via linkage analysis we identified six QTLs, majority of which were located within subtelomeres and co-localised with IMD2, an inosine monophosphate dehydrogenase previously identified underlying MPA drug resistance in yeast cells. From chromosome end disruption and bioinformatics analysis, it was found that the subtelomere localisation of IMD2 within chromosome ends is variable depending on the strain, demonstrating the influence of IMD2 on the natural variation in yeast MPA susceptibility. Furthermore, GxE gene expression analysis of strains exhibiting opposite phenotypes indicated that ribosome biogenesis, RNA transport, and purine biosynthesis were impaired in strains most susceptible to MPA toxicity. Our results demonstrate that natural variation can be exploited to better understand the molecular mechanisms underlying mycotoxin susceptibility in eukaryote cells and demonstrate the role of subtelomeric regions in mediating interactions with the environment."
+  ],
+  "affiliation": [
+    "Millennium Nucleus for Fungal Integrative and Synthetic Biology (MN-FISB), Departamento de Genética Molecular y Microbiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Casilla, 114-D, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5569051?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5569051"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-09471-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-24"
+  ],
+  "dateOfRevision": [
+    "2017-09-03"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-23"
+  ],
+  "firstPublicationDate": [
+    "2017-08-23"
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "id": [
+    "27446942"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27446942"
+  ],
+  "pmcid": [
+    "PMC4944027"
+  ],
+  "doi": [
+    "10.1155/2016/3654093"
+  ],
+  "title": [
+    "Using Genome-Wide SNP Discovery and Genotyping to Reveal the Main Source of Population Differentiation in Nothofagus dombeyi (Mirb.) Oerst. in Chile."
+  ],
+  "authorString": [
+    "Hasbún R, González J, Iturra C, Fuentes G, Alarcón D, Ruiz E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hasbún R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Hasbún"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4852-6154",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Silvicultura, Facultad de Ciencias Forestales, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Departamento de Silvicultura, Facultad de Ciencias Forestales, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Iturra C"
+          ],
+          "firstName": [
+            "Carolina"
+          ],
+          "lastName": [
+            "Iturra"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9312-7745",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Silvicultura, Facultad de Ciencias Forestales, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes G"
+          ],
+          "firstName": [
+            "Glenda"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Botánica, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alarcón D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Alarcón"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3751-047X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Botánica, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, 4070386 Concepción, Chile; Instituto de Ecología y Biodiversidad (IEB), Facultad de Ciencias, Universidad de Chile, 7800003 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Botánica, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3751-047X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4852-6154",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9312-7745",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2431328"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of genomics"
+          ],
+          "ISOAbbreviation": [
+            "Int J Genomics"
+          ],
+          "medlineAbbreviation": [
+            "Int J Genomics"
+          ],
+          "NLMid": [
+            "101605206"
+          ],
+          "ISSN": [
+            "2314-436X"
+          ],
+          "ESSN": [
+            "2314-4378"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "3654093"
+  ],
+  "abstractText": [
+    "Within a woody plant species, environmental heterogeneity has the potential to influence the distribution of genetic variation among populations through several evolutionary processes. In some species, a relationship between environmental characteristics and the distribution of genotypes can be detected, showing the importance of natural selection as the main source of differentiation. Nothofagus dombeyi (Mirb.) Oerst. (Nothofagaceae) is an endemic tree species occurring both in Chile and in Argentina temperate forests. Postglacial history has been studied with chloroplast DNA and evolutionary forces shaping genetic variation patterns have been analysed with isozymes but fine-scale genetic diversity studies are needed. The study of demographic and selection histories in Nothofagus dombeyi requires more informative markers such as single nucleotide polymorphisms (SNP). Genotyping-by-Sequencing tools now allow studying thousands of SNP markers at reasonable prices in nonmodel species. We investigated more than 10 K SNP loci for signatures of local adaptation and showed that interrogation of genomic resources can identify shifts in genetic diversity and putative adaptive signals in this nonmodel woody species."
+  ],
+  "affiliation": [
+    "Departamento de Silvicultura, Facultad de Ciencias Forestales, Universidad de Concepción, 4070386 Concepción, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4944027?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4944027"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2016/3654093"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-07-22"
+  ],
+  "dateOfCreation": [
+    "2016-07-22"
+  ],
+  "dateOfRevision": [
+    "2016-07-25"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-20"
+  ],
+  "firstPublicationDate": [
+    "2016-06-20"
+  ]
+}

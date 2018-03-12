@@ -1,0 +1,464 @@
+{
+  "id": [
+    "27608016"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27608016"
+  ],
+  "pmcid": [
+    "PMC5037767"
+  ],
+  "doi": [
+    "10.3390/ijms17091489"
+  ],
+  "title": [
+    "Escaping Antiangiogenic Therapy: Strategies Employed by Cancer Cells."
+  ],
+  "authorString": [
+    "Pinto MP, Sotomayor P, Carrasco-Avino G, Corvalan AH, Owen GI."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pinto MP"
+          ],
+          "firstName": [
+            "Mauricio P"
+          ],
+          "lastName": [
+            "Pinto"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile. mauricio_pinto@outlook.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Sotomayor P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Sotomayor"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Center for Integrative Medicine and Innovative Science, Facultad de Medicina, Universidad Andrés Bello, Santiago 8370071, Chile. paulacsf@yahoo.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco-Avino G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Carrasco-Avino"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Pathology, Faculty of Medicine, Universidad de Chile, Santiago 8380456, Chile. gcarrasa@me.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Corvalan AH"
+          ],
+          "firstName": [
+            "Alejandro H"
+          ],
+          "lastName": [
+            "Corvalan"
+          ],
+          "initials": [
+            "AH"
+          ],
+          "affiliation": [
+            "Center UC Investigation in Oncology (CITO), Pontificia Universidad Católica de Chile, Santiago 8330023, Chile. corvalan@med.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Owen GI"
+          ],
+          "firstName": [
+            "Gareth I"
+          ],
+          "lastName": [
+            "Owen"
+          ],
+          "initials": [
+            "GI"
+          ],
+          "affiliation": [
+            "Advanced Center for Chronic Diseases (ACCDiS), Universidad de Chile, Santiago 8380492, Chile. gowen@bio.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2478154"
+      ],
+      "dateOfPublication": [
+        "2016 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "abstractText": [
+    "Tumor angiogenesis is widely recognized as one of the \"hallmarks of cancer\". Consequently, during the last decades the development and testing of commercial angiogenic inhibitors has been a central focus for both basic and clinical cancer research. While antiangiogenic drugs are now incorporated into standard clinical practice, as with all cancer therapies, tumors can eventually become resistant by employing a variety of strategies to receive nutrients and oxygen in the event of therapeutic assault. Herein, we concentrate and review in detail three of the principal mechanisms of antiangiogenic therapy escape: (1) upregulation of compensatory/alternative pathways for angiogenesis; (2) vasculogenic mimicry; and (3) vessel co-option. We suggest that an understanding of how a cancer cell adapts to antiangiogenic therapy may also parallel the mechanisms employed in the bourgeoning tumor and isolated metastatic cells delivering responsible for residual disease. Finally, we speculate on strategies to adapt antiangiogenic therapy for future clinical uses."
+  ],
+  "affiliation": [
+    "Department of Physiology, Faculty of Biological Sciences, Pontificia Universidad Católica de Chile, Santiago 8331150, Chile. mauricio_pinto@outlook.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neovascularization, Pathologic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DT"
+                  ],
+                  "qualifierName": [
+                    "drug therapy"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Angiogenesis Inhibitors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TU"
+                  ],
+                  "qualifierName": [
+                    "therapeutic use"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Neoplastic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Drug Resistance, Neoplasm"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Vasculogenic mimicry",
+        "Vascular Co-option",
+        "Residual Disease",
+        "Cancer Dormancy"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Angiogenesis Inhibitors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5037767?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5037767"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms17091489"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "8"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-03-23"
+  ],
+  "dateOfCreation": [
+    "2016-09-09"
+  ],
+  "dateOfRevision": [
+    "2017-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2016-09-06"
+  ],
+  "firstPublicationDate": [
+    "2016-09-06"
+  ]
+}

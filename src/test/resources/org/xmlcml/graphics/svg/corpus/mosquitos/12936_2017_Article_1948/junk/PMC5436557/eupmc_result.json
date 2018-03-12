@@ -1,0 +1,466 @@
+{
+  "id": [
+    "28533950"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28533950"
+  ],
+  "pmcid": [
+    "PMC5436557"
+  ],
+  "doi": [
+    "10.7717/peerj.3250"
+  ],
+  "title": [
+    "Are invasive populations characterized by a broader diet than native populations?"
+  ],
+  "authorString": [
+    "Courant J, Vogt S, Marques R, Measey J, Secondi J, Rebelo R, De Villiers A, Ihlow F, De Busschere C, Backeljau T, Rödder D, Herrel A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Courant J"
+          ],
+          "firstName": [
+            "Julien"
+          ],
+          "lastName": [
+            "Courant"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "UMR 7179, Département d'Ecologie et de Gestion de la Biodiversité, Centre National de la Recherche Scientifique, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Vogt S"
+          ],
+          "firstName": [
+            "Solveig"
+          ],
+          "lastName": [
+            "Vogt"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centre for Invasion Biology, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Marques R"
+          ],
+          "firstName": [
+            "Raquel"
+          ],
+          "lastName": [
+            "Marques"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Centre for Ecology, Evolution and Environmental Changes, Faculdade de Ciências da Universidade de Lisboa, Lisboa, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Measey J"
+          ],
+          "firstName": [
+            "John"
+          ],
+          "lastName": [
+            "Measey"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9939-7615",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Invasion Biology, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Secondi J"
+          ],
+          "firstName": [
+            "Jean"
+          ],
+          "lastName": [
+            "Secondi"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "UMR 6554 LETG -LEESA, Université d'Angers, Angers, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Rebelo R"
+          ],
+          "firstName": [
+            "Rui"
+          ],
+          "lastName": [
+            "Rebelo"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2544-1470",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Ecology, Evolution and Environmental Changes, Faculdade de Ciências da Universidade de Lisboa, Lisboa, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "De Villiers A"
+          ],
+          "firstName": [
+            "André"
+          ],
+          "lastName": [
+            "De Villiers"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre for Invasion Biology, Stellenbosch University, Stellenbosch, South Africa."
+          ]
+        },
+        {
+          "fullName": [
+            "Ihlow F"
+          ],
+          "firstName": [
+            "Flora"
+          ],
+          "lastName": [
+            "Ihlow"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Herpetology Section, Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "De Busschere C"
+          ],
+          "firstName": [
+            "Charlotte"
+          ],
+          "lastName": [
+            "De Busschere"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Royal Belgian Institute of Natural Sciences, Brussels, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Backeljau T"
+          ],
+          "firstName": [
+            "Thierry"
+          ],
+          "lastName": [
+            "Backeljau"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Evolutionary Ecology Group, University of Antwerp, Antwerp, Belgium."
+          ]
+        },
+        {
+          "fullName": [
+            "Rödder D"
+          ],
+          "firstName": [
+            "Dennis"
+          ],
+          "lastName": [
+            "Rödder"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Herpetology Section, Zoologisches Forschungsmuseum Alexander Koenig, Bonn, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Herrel A"
+          ],
+          "firstName": [
+            "Anthony"
+          ],
+          "lastName": [
+            "Herrel"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Evolutionary Morphology of Vertebrates, Ghent University, Ghent, Belgium."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9939-7615",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2544-1470",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3250"
+  ],
+  "abstractText": [
+    "Invasive species are among the most significant threats to biodiversity. The diet of invasive animal populations is a crucial factor that must be considered in the context of biological invasions. A broad dietary spectrum is a frequently cited characteristic of invasive species, allowing them to thrive in a wide range of environments. Therefore, empirical studies comparing diet in invasive and native populations are necessary to understand dietary requirements, dietary flexibility, and the associated impacts of invasive species.In this study, we compared the diet of populations of the African clawed frog, Xenopus laevis in its native range, with several areas where it has become invasive. Each prey category detected in stomach contents was assigned to an ecological category, allowing a comparison of the diversity of ecological traits among the prey items in the diet of native and introduced populations. The comparison of diets was also performed using evenness as a niche breadth index on all sampled populations, and electivity as a prey selection index for three out of the six sampled populations.Our results showed that diet breadth could be either narrow or broad in invasive populations. According to diet and prey availability, zooplankton was strongly preferred in most cases. In lotic environments, zooplankton was replaced by benthic preys, such as ephemeropteran larvae.The relative proportions of prey with different ecological traits, and dietary variability within and between areas of occurrence, suggest that X. laevis is a generalist predator in both native and invasive populations. Shifts in the realized trophic niche are observed, and appear related to resource availability. Xenopus laevis may strongly impact aquatic ecosystems because of its near complete aquatic lifestyle and its significant consumption of key taxa for the trophic relationships in ponds."
+  ],
+  "affiliation": [
+    "UMR 7179, Département d'Ecologie et de Gestion de la Biodiversité, Centre National de la Recherche Scientifique, Paris, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Trophic niche",
+        "Native",
+        "African Clawed Frog",
+        "Invasive",
+        "Diet Breadth",
+        "Electivity"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5436557?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5436557"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3250"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-05-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-05-16"
+  ],
+  "firstPublicationDate": [
+    "2017-05-16"
+  ]
+}

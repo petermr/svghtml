@@ -1,0 +1,315 @@
+{
+  "id": [
+    "28642741"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28642741"
+  ],
+  "pmcid": [
+    "PMC5463503"
+  ],
+  "doi": [
+    "10.3389/fmicb.2017.00993"
+  ],
+  "title": [
+    "The Hyperarid Core of the Atacama Desert, an Extremely Dry and Carbon Deprived Habitat of Potential Interest for the Field of Carbon Science."
+  ],
+  "authorString": [
+    "Azua-Bustos A, González-Silva C, Corsini G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Azua-Bustos A"
+          ],
+          "firstName": [
+            "Armando"
+          ],
+          "lastName": [
+            "Azua-Bustos"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6590-4145",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Ciencias de la Salud, Universidad Autónoma de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González-Silva C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "González-Silva"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Investigación del Medio Ambiente, Universidad Arturo PratIquique, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Corsini G"
+          ],
+          "firstName": [
+            "Gino"
+          ],
+          "lastName": [
+            "Corsini"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Biomédicas, Facultad de Ciencias de la Salud, Universidad Autónoma de ChileSantiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6590-4145",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550583"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Microbiol"
+          ],
+          "NLMid": [
+            "101548977"
+          ],
+          "ISSN": [
+            "1664-302X"
+          ],
+          "ESSN": [
+            "1664-302X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "993"
+  ],
+  "abstractText": [
+    "The Atacama Desert in Chile is the driest and oldest desert on Earth, also considered one of the best Mars analog models. Here, several heterotrophic microbial communities have been discovered in its driest regions, with the ones present in the soil subsurface being one of the most interesting due to its existence in a habitat with almost no water available and almost undetectable organic carbon sources. Our recent discovery of the driest site of the Atacama known to date (and the heterotrophic microbial species that are able to survive in this site) reaffirms the opportunity to better characterize the physiological and molecular mechanisms that these species use to detect, mobilize, incorporate and use carbon under these extremely harsh conditions. Here we summarize what has been reported up to date on the organic carbon concentrations in different sites of the hyperarid core of the Atacama Desert, proposing that due to the meager amounts of carbon and extremely dry conditions, the microbial communities of the hyperarid core of the Atacama Desert may be of interest for the field of carbon science."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Biomédicas, Facultad de Ciencias de la Salud, Universidad Autónoma de ChileSantiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "307496"
+          ],
+          "agency": [
+            "European Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Organic carbon",
+        "Mars",
+        "Atacama Desert",
+        "Desert Ecosystems",
+        "Carbon Science"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5463503?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5463503"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fmicb.2017.00993"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-23"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-08"
+  ],
+  "firstPublicationDate": [
+    "2017-06-08"
+  ]
+}

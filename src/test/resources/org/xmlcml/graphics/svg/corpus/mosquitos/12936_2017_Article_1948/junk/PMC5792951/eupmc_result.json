@@ -1,0 +1,411 @@
+{
+  "id": [
+    "29410874"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29410874"
+  ],
+  "pmcid": [
+    "PMC5792951"
+  ],
+  "doi": [
+    "10.1098/rsos.171816"
+  ],
+  "title": [
+    "Differential influences of allometry, phylogeny and environment on the rostral shape diversity of extinct South American notoungulates."
+  ],
+  "authorString": [
+    "Gomes Rodrigues H, Cornette R, Clavel J, Cassini G, Bhullar BS, Fernández-Monescillo M, Moreno K, Herrel A, Billet G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gomes Rodrigues H"
+          ],
+          "firstName": [
+            "Helder"
+          ],
+          "lastName": [
+            "Gomes Rodrigues"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Centre de Recherche sur la Paléobiodiversité et les Paléoenvironnements (CR2P), UMR CNRS 7207, CP38, Muséum National d'Histoire Naturelle, Univ Paris 6, 8 rue Buffon, 75005 Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Cornette R"
+          ],
+          "firstName": [
+            "Raphaël"
+          ],
+          "lastName": [
+            "Cornette"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Institut de Systématique, Evolution, Biodiversité (ISYEB UMR 7205), MNHN, CNRS, UPMC, CP26, Sorbonne Universités, 57 rue Cuvier, 75005 Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Clavel J"
+          ],
+          "firstName": [
+            "Julien"
+          ],
+          "lastName": [
+            "Clavel"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institut de Biologie de l'Ecole Normale Supérieure (IBENS), CNRS UMR 8197, INSERM U1024, Ecole Normale Supérieure, Paris Sciences et Lettres (PSL), Research University, 75005 Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Cassini G"
+          ],
+          "firstName": [
+            "Guillermo"
+          ],
+          "lastName": [
+            "Cassini"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "División Mastozoología, Museo Argentino de Ciencias Naturales ''Bernardino Rivadavia''(MACN), Ciudad Autónoma de Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Bhullar BS"
+          ],
+          "firstName": [
+            "Bhart-Anjan S"
+          ],
+          "lastName": [
+            "Bhullar"
+          ],
+          "initials": [
+            "BS"
+          ],
+          "affiliation": [
+            "Department of Geology and Geophysics, Yale University, PO Box 208109, New Haven, CT 06520, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Fernández-Monescillo M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Fernández-Monescillo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0698-1909",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto Argentino de Nivología, Glaciología y Ciencias Ambientales (IANIGLA), CCT-CONICET-Mendoza, Avenida Ruiz Leal s/n, Parque Gral, San Martín 5500, Mendoza, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreno K"
+          ],
+          "firstName": [
+            "Karen"
+          ],
+          "lastName": [
+            "Moreno"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias de la Tierra, Universidad Austral de Chile, Casilla 567, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Herrel A"
+          ],
+          "firstName": [
+            "Anthony"
+          ],
+          "lastName": [
+            "Herrel"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Mécanismes adaptatifs et évolution (MECADEV), UMR 7179, CNRS, Funevol team, Muséum National d'Histoire Naturelle, 55 rue Buffon, Bat. Anatomie Comparée, CP 55, 75005, Paris Cedex 5, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Billet G"
+          ],
+          "firstName": [
+            "Guillaume"
+          ],
+          "lastName": [
+            "Billet"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Centre de Recherche sur la Paléobiodiversité et les Paléoenvironnements (CR2P), UMR CNRS 7207, CP38, Muséum National d'Histoire Naturelle, Univ Paris 6, 8 rue Buffon, 75005 Paris, France."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0698-1909",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2648720"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Royal Society open science"
+          ],
+          "ISOAbbreviation": [
+            "R Soc Open Sci"
+          ],
+          "medlineAbbreviation": [
+            "R Soc Open Sci"
+          ],
+          "NLMid": [
+            "101647528"
+          ],
+          "ISSN": [
+            "2054-5703"
+          ],
+          "ESSN": [
+            "2054-5703"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "171816"
+  ],
+  "abstractText": [
+    "Understanding the mechanisms responsible for phenotypic diversification, and the associated underlying constraints and ecological factors represents a central issue in evolutionary biology. Mammals present a wide variety of sizes and shapes, and are characterized by a high number of morphological convergences that are hypothesized to reflect similar environmental pressures. Extinct South American notoungulates evolved in isolation from northern mammalian faunas in highly disparate environments. They present a wide array of skeletal phenotypes and convergences, such as ever-growing dentition. Here, we focused on the origins of the rostral diversity of notoungulates by quantifying the shape of 26 genera using three-dimensional geometric morphometric analysis. We tested the influence of allometry and phylogeny on rostral shape and evaluated rates of evolutionary change in the different clades. We found strong allometric and phylogenetic signals concerning the rostral shape of notoungulates. Despite convergent forms, we observed a diffuse diversification of rostral shape, with no significant evidence of influence by large-scaled environmental variation. This contrasts with the increase in dental crown height that occurred in four late-diverging families in response to similar environmental pressures. These results illustrate the importance of considering both biological components and evolutionary rates to better understand some aspects of phenotypic diversity."
+  ],
+  "affiliation": [
+    "Centre de Recherche sur la Paléobiodiversité et les Paléoenvironnements (CR2P), UMR CNRS 7207, CP38, Muséum National d'Histoire Naturelle, Univ Paris 6, 8 rue Buffon, 75005 Paris, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mammals",
+        "Adaptation",
+        "Masticatory apparatus",
+        "Evolutionary rates",
+        "geometric morphometrics",
+        "Convergences"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5792951?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5792951"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1098/rsos.171816"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-02-08"
+  ],
+  "dateOfRevision": [
+    "2018-02-09"
+  ],
+  "electronicPublicationDate": [
+    "2018-01-31"
+  ],
+  "firstPublicationDate": [
+    "2018-01-31"
+  ]
+}

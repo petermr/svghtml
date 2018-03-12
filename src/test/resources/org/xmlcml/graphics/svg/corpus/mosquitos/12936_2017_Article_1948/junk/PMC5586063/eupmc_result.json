@@ -1,0 +1,939 @@
+{
+  "id": [
+    "28874130"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28874130"
+  ],
+  "pmcid": [
+    "PMC5586063"
+  ],
+  "doi": [
+    "10.1186/s12885-017-3599-4"
+  ],
+  "title": [
+    "A survey of the clinicopathological and molecular characteristics of patients with suspected Lynch syndrome in Latin America."
+  ],
+  "authorString": [
+    "Rossi BM, Palmero EI, López-Kostner F, Sarroca C, Vaccaro CA, Spirandelli F, Ashton-Prolla P, Rodriguez Y, de Campos Reis Galvão H, Reis RM, Escremim de Paula A, Capochin Romagnolo LG, Alvarez K, Della Valle A, Neffa F, Kalfayan PG, Spirandelli E, Chialina S, Gutiérrez Angulo M, Castro-Mujica MDC, Sanchez de Monte J, Quispe R, da Silva SD, Rossi NT, Barletta-Carrillo C, Revollo S, Taborga X, Morillas LL, Tubeuf H, Monteiro-Santos EM, Piñero TA, Dominguez-Barrera C, Wernhoff P, Martins A, Hovig E, Møller P, Dominguez-Valentin M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rossi BM"
+          ],
+          "firstName": [
+            "Benedito Mauro"
+          ],
+          "lastName": [
+            "Rossi"
+          ],
+          "initials": [
+            "BM"
+          ],
+          "affiliation": [
+            "Hospital Sirio Libanes, Sao Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Palmero EI"
+          ],
+          "firstName": [
+            "Edenir Inêz"
+          ],
+          "lastName": [
+            "Palmero"
+          ],
+          "initials": [
+            "EI"
+          ],
+          "affiliation": [
+            "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, SP, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "López-Kostner F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "López-Kostner"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratorio de Oncología y Genética Molecular, Clínica Los Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sarroca C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Sarroca"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Hospital Fuerzas Armadas, Grupo Colaborativo Uruguayo, Investigación de Afecciones Oncológicas Hereditarias (GCU), Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Vaccaro CA"
+          ],
+          "firstName": [
+            "Carlos Alberto"
+          ],
+          "lastName": [
+            "Vaccaro"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Hereditary Cancer Program (PROCANHE), Hospital Italiano, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Spirandelli F"
+          ],
+          "firstName": [
+            "Florencia"
+          ],
+          "lastName": [
+            "Spirandelli"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Servicio de Coloproctologia y Asesoria Genetica en Cancer, Hospital Español de Rosario, Rosario, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Ashton-Prolla P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Ashton-Prolla"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Genética da Universidade Federal do Rio Grande do Sul (UFRGS) e Serviço de Genética Médica do Hospital de Clinicas de Porto Alegre (HCPA) & Rede Brasileira de Câncer Hereditário, Porto Alegre, Rio Grande Do Sul, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez Y"
+          ],
+          "firstName": [
+            "Yenni"
+          ],
+          "lastName": [
+            "Rodriguez"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Clinica del Country, Bogota, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "de Campos Reis Galvão H"
+          ],
+          "firstName": [
+            "Henrique"
+          ],
+          "lastName": [
+            "de Campos Reis Galvão"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Oncogenetics Department, Barretos Cancer Hospital, Barretos, SP, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Reis RM"
+          ],
+          "firstName": [
+            "Rui Manuel"
+          ],
+          "lastName": [
+            "Reis"
+          ],
+          "initials": [
+            "RM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9639-7940",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "ICVS/3B's-PT Government Associate Laboratory, Braga, Guimarães, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Escremim de Paula A"
+          ],
+          "firstName": [
+            "André"
+          ],
+          "lastName": [
+            "Escremim de Paula"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Molecular Oncology Research Center, Barretos Cancer Hospital, Barretos, SP, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Capochin Romagnolo LG"
+          ],
+          "firstName": [
+            "Luis Gustavo"
+          ],
+          "lastName": [
+            "Capochin Romagnolo"
+          ],
+          "initials": [
+            "LG"
+          ],
+          "affiliation": [
+            "Oncogenetics Department, Barretos Cancer Hospital, Barretos, SP, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Alvarez K"
+          ],
+          "firstName": [
+            "Karin"
+          ],
+          "lastName": [
+            "Alvarez"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Laboratorio de Oncología y Genética Molecular, Clínica Los Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Della Valle A"
+          ],
+          "firstName": [
+            "Adriana"
+          ],
+          "lastName": [
+            "Della Valle"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Hospital Fuerzas Armadas, Grupo Colaborativo Uruguayo, Investigación de Afecciones Oncológicas Hereditarias (GCU), Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Neffa F"
+          ],
+          "firstName": [
+            "Florencia"
+          ],
+          "lastName": [
+            "Neffa"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Hospital Fuerzas Armadas, Grupo Colaborativo Uruguayo, Investigación de Afecciones Oncológicas Hereditarias (GCU), Montevideo, Uruguay."
+          ]
+        },
+        {
+          "fullName": [
+            "Kalfayan PG"
+          ],
+          "firstName": [
+            "Pablo German"
+          ],
+          "lastName": [
+            "Kalfayan"
+          ],
+          "initials": [
+            "PG"
+          ],
+          "affiliation": [
+            "Hereditary Cancer Program (PROCANHE), Hospital Italiano, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Spirandelli E"
+          ],
+          "firstName": [
+            "Enrique"
+          ],
+          "lastName": [
+            "Spirandelli"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Servicio de Coloproctologia y Asesoria Genetica en Cancer, Hospital Español de Rosario, Rosario, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Chialina S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Chialina"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Servicio de Coloproctologia y Asesoria Genetica en Cancer, Hospital Español de Rosario, Rosario, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Gutiérrez Angulo M"
+          ],
+          "firstName": [
+            "Melva"
+          ],
+          "lastName": [
+            "Gutiérrez Angulo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centro Universitario de los Altos, Universidad de Guadalajara, Jalisco, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro-Mujica MDC"
+          ],
+          "firstName": [
+            "Maria Del Carmen"
+          ],
+          "lastName": [
+            "Castro-Mujica"
+          ],
+          "initials": [
+            "MDC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4404-2133",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Equipo Funcional de Genética y Biologia Molecular, Instituto Nacional de Enfermedades Neoplásicas, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Sanchez de Monte J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Sanchez de Monte"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Instituto Nacional de Cancerologia de México, México City, Mexico."
+          ]
+        },
+        {
+          "fullName": [
+            "Quispe R"
+          ],
+          "firstName": [
+            "Richard"
+          ],
+          "lastName": [
+            "Quispe"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Genética Molecular del Instituto de Servicios de Laboratorio de Diagnóstico e Investigación en Salud (SELADIS), La Paz, Bolivia."
+          ]
+        },
+        {
+          "fullName": [
+            "da Silva SD"
+          ],
+          "firstName": [
+            "Sabrina Daniela"
+          ],
+          "lastName": [
+            "da Silva"
+          ],
+          "initials": [
+            "SD"
+          ],
+          "affiliation": [
+            "Department of Otolaryngology-Head and Neck Surgery, McGill University, Montreal, Quebec, Canada."
+          ]
+        },
+        {
+          "fullName": [
+            "Rossi NT"
+          ],
+          "firstName": [
+            "Norma Teresa"
+          ],
+          "lastName": [
+            "Rossi"
+          ],
+          "initials": [
+            "NT"
+          ],
+          "affiliation": [
+            "Hospital Privado Universitario de Cordoba, Cordoba, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Barletta-Carrillo C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Barletta-Carrillo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Equipo Funcional de Genética y Biologia Molecular, Instituto Nacional de Enfermedades Neoplásicas, Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Revollo S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Revollo"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Laboratorio de Genética Molecular del Instituto de Servicios de Laboratorio de Diagnóstico e Investigación en Salud (SELADIS), La Paz, Bolivia."
+          ]
+        },
+        {
+          "fullName": [
+            "Taborga X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Taborga"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Laboratorio de Genética Molecular del Instituto de Servicios de Laboratorio de Diagnóstico e Investigación en Salud (SELADIS), La Paz, Bolivia."
+          ]
+        },
+        {
+          "fullName": [
+            "Morillas LL"
+          ],
+          "firstName": [
+            "L Lena"
+          ],
+          "lastName": [
+            "Morillas"
+          ],
+          "initials": [
+            "LL"
+          ],
+          "affiliation": [
+            "Centro de Enfermedades Neoplasicas ONCOVIDA, La Paz, Bolivia."
+          ]
+        },
+        {
+          "fullName": [
+            "Tubeuf H"
+          ],
+          "firstName": [
+            "Hélène"
+          ],
+          "lastName": [
+            "Tubeuf"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Interactive Biosoftware, Rouen, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Monteiro-Santos EM"
+          ],
+          "firstName": [
+            "Erika Maria"
+          ],
+          "lastName": [
+            "Monteiro-Santos"
+          ],
+          "initials": [
+            "EM"
+          ],
+          "affiliation": [
+            "Hospital Sirio Libanes, Sao Paulo, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Piñero TA"
+          ],
+          "firstName": [
+            "Tamara Alejandra"
+          ],
+          "lastName": [
+            "Piñero"
+          ],
+          "initials": [
+            "TA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3853-9795",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Basicas y Medicina Experimental (ICBME), Hospital Italiano, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Dominguez-Barrera C"
+          ],
+          "firstName": [
+            "Constantino"
+          ],
+          "lastName": [
+            "Dominguez-Barrera"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Department of Preventive Medicine, Faculty of Medicine, Universidad Nacional Mayor de San Marcos (UNMSM), Lima, Peru."
+          ]
+        },
+        {
+          "fullName": [
+            "Wernhoff P"
+          ],
+          "firstName": [
+            "Patrik"
+          ],
+          "lastName": [
+            "Wernhoff"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Clinical Molecular Biology (EpiGen), Akershus University Hospital, Lørenskog, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Martins A"
+          ],
+          "firstName": [
+            "Alexandra"
+          ],
+          "lastName": [
+            "Martins"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Inserm-U1079-IRIB, UNIROUEN, Normandie Univ, Normandy Centre for Genomic and Personalized Medicine, Rouen, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Hovig E"
+          ],
+          "firstName": [
+            "Eivind"
+          ],
+          "lastName": [
+            "Hovig"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Institute of Cancer Genetics and Informatics, Oslo University Hospital, Oslo, Norway."
+          ]
+        },
+        {
+          "fullName": [
+            "Møller P"
+          ],
+          "firstName": [
+            "Pål"
+          ],
+          "lastName": [
+            "Møller"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Human Medicine, Universität Witten/Herdecke, Witten, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Dominguez-Valentin M"
+          ],
+          "firstName": [
+            "Mev"
+          ],
+          "lastName": [
+            "Dominguez-Valentin"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7856-0057",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Tumor Biology, Institute for Cancer Research, Oslo University Hospital, Oslo, Norway. mev.dominguez.valentin@rr-research.no."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7315-9843",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9639-7940",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7856-0057",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0252-4321",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4404-2133",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3853-9795",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2591814"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC cancer"
+          ],
+          "ISOAbbreviation": [
+            "BMC Cancer"
+          ],
+          "medlineAbbreviation": [
+            "BMC Cancer"
+          ],
+          "NLMid": [
+            "100967800"
+          ],
+          "ISSN": [
+            "1471-2407"
+          ],
+          "ESSN": [
+            "1471-2407"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "623"
+  ],
+  "abstractText": [
+    "Genetic counselling and testing for Lynch syndrome (LS) have recently been introduced in several Latin America countries. We aimed to characterize the clinical, molecular and mismatch repair (MMR) variants spectrum of patients with suspected LS in Latin America.Eleven LS hereditary cancer registries and 34 published LS databases were used to identify unrelated families that fulfilled the Amsterdam II (AMSII) criteria and/or the Bethesda guidelines or suggestive of a dominant colorectal (CRC) inheritance syndrome.We performed a thorough investigation of 15 countries and identified 6 countries where germline genetic testing for LS is available and 3 countries where tumor testing is used in the LS diagnosis. The spectrum of pathogenic MMR variants included MLH1 up to 54%, MSH2 up to 43%, MSH6 up to 10%, PMS2 up to 3% and EPCAM up to 0.8%. The Latin America MMR spectrum is broad with a total of 220 different variants which 80% were private and 20% were recurrent. Frequent regions included exons 11 of MLH1 (15%), exon 3 and 7 of MSH2 (17 and 15%, respectively), exon 4 of MSH6 (65%), exons 11 and 13 of PMS2 (31% and 23%, respectively). Sixteen international founder variants in MLH1, MSH2 and MSH6 were identified and 41 (19%) variants have not previously been reported, thus representing novel genetic variants in the MMR genes. The AMSII criteria was the most used clinical criteria to identify pathogenic MMR carriers although microsatellite instability, immunohistochemistry and family history are still the primary methods in several countries where no genetic testing for LS is available yet.The Latin America LS pathogenic MMR variants spectrum included new variants, frequently altered genetic regions and potential founder effects, emphasizing the relevance implementing Lynch syndrome genetic testing and counseling in all of Latin America countries."
+  ],
+  "affiliation": [
+    "Hospital Sirio Libanes, Sao Paulo, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Variants",
+        "Latin America",
+        "Mmr",
+        "Lynch Syndrome"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5586063?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5586063"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12885-017-3599-4"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refseq"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-06"
+  ],
+  "dateOfRevision": [
+    "2017-09-10"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-05"
+  ],
+  "firstPublicationDate": [
+    "2017-09-05"
+  ]
+}

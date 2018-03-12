@@ -1,0 +1,270 @@
+{
+  "id": [
+    "28293442"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28293442"
+  ],
+  "pmcid": [
+    "PMC5331280"
+  ],
+  "doi": [
+    "10.1155/2017/7956041"
+  ],
+  "title": [
+    "Cone Beam CT in Diagnosis and Surgical Planning of Dentigerous Cyst."
+  ],
+  "authorString": [
+    "Deana NF, Alves N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Deana NF"
+          ],
+          "firstName": [
+            "Naira Figueiredo"
+          ],
+          "lastName": [
+            "Deana"
+          ],
+          "initials": [
+            "NF"
+          ],
+          "affiliation": [
+            "Magister Program in Dentistry, Faculty of Dentistry, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alves N"
+          ],
+          "firstName": [
+            "Nilton"
+          ],
+          "lastName": [
+            "Alves"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7878-1810",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CIMA-Research Center in Applied Morphology, Universidad de La Frontera, Temuco, Chile; Faculty of Dentistry, Universidad de La Frontera, 1145 Francisco Salazar Avenue, P.O. Box 54-D, Temuco, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7878-1810",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518641"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Case reports in dentistry"
+          ],
+          "ISOAbbreviation": [
+            "Case Rep Dent"
+          ],
+          "medlineAbbreviation": [
+            "Case Rep Dent"
+          ],
+          "NLMid": [
+            "101573242"
+          ],
+          "ISSN": [
+            "2090-6447"
+          ],
+          "ESSN": [
+            "2090-6455"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7956041"
+  ],
+  "abstractText": [
+    "Diagnosis and preoperative planning are critical in the execution of any surgical procedure. Panoramic radiography is a routine method used in dentistry to assist clinical diagnosis; however, with this technique 3D anatomical structures are compressed into 2D images, resulting in overlapping of structures which are of interest in the diagnosis. In this study we report the case of a patient who presented with a dentigerous cyst of expressive dimensions in the body of the mandible region. The surgery was planned and executed after observing the margins of the lesion by Cone Beam Computed Tomography (CBCT). We conclude that CBCT is a precise method to help diagnosis; it provides greater accuracy in surgical treatment planning through 3D image display, allowing more effective results."
+  ],
+  "affiliation": [
+    "Magister Program in Dentistry, Faculty of Dentistry, Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "case-report"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5331280?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5331280"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/7956041"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-15"
+  ],
+  "dateOfRevision": [
+    "2017-03-17"
+  ],
+  "electronicPublicationDate": [
+    "2017-02-15"
+  ],
+  "firstPublicationDate": [
+    "2017-02-15"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": [
+    "28382231"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28382231"
+  ],
+  "pmcid": [
+    "PMC5376117"
+  ],
+  "doi": [
+    "10.7717/peerj.3098"
+  ],
+  "title": [
+    "Metagenomic analysis exploring taxonomic and functional diversity of soil microbial communities in Chilean vineyards and surrounding native forests."
+  ],
+  "authorString": [
+    "Castañeda LE, Barbosa O."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Castañeda LE"
+          ],
+          "firstName": [
+            "Luis E"
+          ],
+          "lastName": [
+            "Castañeda"
+          ],
+          "initials": [
+            "LE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5484-4573",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Facultad de Ciencias, Universidad Austral de Chile , Valdivia , Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Barbosa O"
+          ],
+          "firstName": [
+            "Olga"
+          ],
+          "lastName": [
+            "Barbosa"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Ambientales y Evolutivas, Facultad de Ciencias, Universidad Austral de Chile, Valdivia, Chile; Instituto de Ecología y Biodiversidad (IEB-Chile), Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5484-4573",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2513857"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PeerJ"
+          ],
+          "ISOAbbreviation": [
+            "PeerJ"
+          ],
+          "medlineAbbreviation": [
+            "PeerJ"
+          ],
+          "NLMid": [
+            "101603425"
+          ],
+          "ISSN": [
+            "2167-8359"
+          ],
+          "ESSN": [
+            "2167-8359"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e3098"
+  ],
+  "abstractText": [
+    "Mediterranean biomes are biodiversity hotspots, and vineyards are important components of the Mediterranean landscape. Over the last few decades, the amount of land occupied by vineyards has augmented rapidly, thereby increasing threats to Mediterranean ecosystems. Land use change and agricultural management have important effects on soil biodiversity, because they change the physical and chemical properties of soil. These changes may also have consequences on wine production considering that soil is a key component of terroir. Here, we describe the taxonomic diversity and metabolic functions of bacterial and fungal communities present in forest and vineyard soils in Chile. To accomplish this goal, we collected soil samples from organic vineyards in central Chile and employed a shotgun metagenomic approach to sequence the microbial DNA. Additionally, we studied the surrounding native forest to obtain a baseline of the soil conditions in the area prior to the establishment of the vineyard. Our metagenomic analyses revealed that both habitats shared most of the soil microbial species. The most abundant genera in the two habitats were the bacteria Candidatus Solibacter and Bradyrhizobium and the fungus Gibberella. Our results suggest that the soil microbial communities are similar in these forests and vineyards. Therefore, we hypothesize that native forests surrounding the vineyards may be acting as a microbial reservoir buffering the effects of the land conversion. Regarding the metabolic diversity, we found that genes pertaining to the metabolism of amino acids, fatty acids, and nucleotides as well as genes involved in secondary metabolism were enriched in forest soils. On the other hand, genes related to miscellaneous functions were more abundant in vineyard soils. These results suggest that the metabolic function of microbes found in these habitats differs, though differences are not related to taxonomy. Finally, we propose that the implementation of environmentally friendly practices by the wine industry may help to maintain the microbial diversity and ecosystem functions associated with natural habitats."
+  ],
+  "affiliation": [
+    "Instituto de Ciencias Ambientales y Evolutivas, Facultad de Ciencias, Universidad Austral de Chile , Valdivia , Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Conservation",
+        "Wine",
+        "Bacterial diversity",
+        "Shotgun sequencing",
+        "Fungal diversity",
+        "ecosystem services",
+        "Pyrosequencing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5376117?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5376117"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7717/peerj.3098"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-04-06"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-30"
+  ],
+  "firstPublicationDate": [
+    "2017-03-30"
+  ]
+}

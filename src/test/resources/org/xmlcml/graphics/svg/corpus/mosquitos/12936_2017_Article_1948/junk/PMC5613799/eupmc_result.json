@@ -1,0 +1,433 @@
+{
+  "id": [
+    "28975024"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28975024"
+  ],
+  "pmcid": [
+    "PMC5613799"
+  ],
+  "doi": [
+    "10.1177/2048004017731986"
+  ],
+  "title": [
+    "Quantification of pulmonary regurgitation in patients with repaired Tetralogy of Fallot by 2D phase-contrast MRI: Differences between the standard method of velocity averaging and a pixel-wise analysis."
+  ],
+  "authorString": [
+    "Sotelo J, Bächler P, Urbina J, Crelier G, Toro L, Ferreiro M, Valverde I, Andia M, Tejos C, Irarrazaval P, Uribe S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sotelo J"
+          ],
+          "firstName": [
+            "Julio"
+          ],
+          "lastName": [
+            "Sotelo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bächler P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Bächler"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Urbina J"
+          ],
+          "firstName": [
+            "Jesús"
+          ],
+          "lastName": [
+            "Urbina"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Crelier G"
+          ],
+          "firstName": [
+            "Gerard"
+          ],
+          "lastName": [
+            "Crelier"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Institute for Biomedical Engineering, University of ETH, Zurich, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Toro L"
+          ],
+          "firstName": [
+            "Lida"
+          ],
+          "lastName": [
+            "Toro"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Division of Pediatric Cardiology, Hospital Sótero del Río, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreiro M"
+          ],
+          "firstName": [
+            "Myriam"
+          ],
+          "lastName": [
+            "Ferreiro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Division of Pediatric Cardiology, Hospital Sótero del Río, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valverde I"
+          ],
+          "firstName": [
+            "Israel"
+          ],
+          "lastName": [
+            "Valverde"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5661-9900",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pediatric Cardiology Unit, Cardiovascular Pathology Unit, Institute of Biomedicine of Seville (IBIS), Hospital Virgen del Rocio, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Andia M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Andia"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tejos C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Tejos"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Irarrazaval P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Irarrazaval"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Uribe S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Uribe"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Pontificia Universidad Católica de Chile, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5661-9900",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2525584"
+      ],
+      "dateOfPublication": [
+        "2017 Jan-Dec"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "JRSM cardiovascular disease"
+          ],
+          "ISOAbbreviation": [
+            "JRSM Cardiovasc Dis"
+          ],
+          "medlineAbbreviation": [
+            "JRSM Cardiovasc Dis"
+          ],
+          "NLMid": [
+            "101598607"
+          ],
+          "ISSN": [
+            "2048-0040"
+          ],
+          "ESSN": [
+            "2048-0040"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "2048004017731986"
+  ],
+  "abstractText": [
+    "To compare the values of pulmonary regurgitation in patients with repaired Tetralogy of Fallot quantified from two-dimensional phase-contrast data, by using a new pixel-wise analysis and the standard velocity-averaging method.Quantitative in silico and in vivo analysis.Hospital Sótero del Río. The magnetic resonance images were acquired using a Philips Achieva 1.5T scanner.Twenty-five patients with repaired Tetralogy of Fallot who underwent cardiovascular magnetic resonance imaging requested by their referring physicians were included in this study.Using a computational fluid dynamics simulation, we validated our pixel-wise method, quantifying the error of our method in comparison with the standard method. The patients underwent a standard two-dimensional phase-contrast magnetic resonance imaging acquisition for quantifying pulmonary artery flow. Pulmonary regurgitation fraction was estimated by using our pixel-wise and the standard method. The two-dimensional flow profiles were inspected looking for simultaneous antegrade and retrograde flows in the same cardiac phase. Statistical analysis was performed with t-test for related samples, Bland-Altman plots, and Pearson correlation coefficient.Estimation of pulmonary regurgitation fraction using the pixel-wise analysis revealed higher values compared with the standard method (39 ± 16% vs. 30 ± 22%, p-value <0.01). Eight patients (32%) had a difference of more than 10% between methods. Analysis of two-dimensional flow profiles in these patients revealed simultaneous antegrade and retrograde flows through the pulmonary artery during systole-early diastole.Quantification of pulmonary regurgitation fraction in patients with repaired Tetralogy of Fallot through a pixel-wise analysis yields higher values of pulmonary regurgitation compared with the standard velocity-averaging method."
+  ],
+  "affiliation": [
+    "Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Tetralogy of Fallot",
+        "Magnetic Resonance Imaging",
+        "Pulmonary Valve Insufficiency",
+        "Two-dimensional Flow"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5613799?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5613799"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1177/2048004017731986"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-04"
+  ],
+  "dateOfRevision": [
+    "2017-10-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-21"
+  ],
+  "firstPublicationDate": [
+    "2017-01-01"
+  ]
+}

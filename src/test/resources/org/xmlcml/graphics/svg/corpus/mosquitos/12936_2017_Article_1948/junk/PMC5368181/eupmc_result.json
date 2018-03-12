@@ -1,0 +1,977 @@
+{
+  "id": [
+    "28401064"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28401064"
+  ],
+  "pmcid": [
+    "PMC5368181"
+  ],
+  "doi": [
+    "10.3389/fcimb.2017.00092"
+  ],
+  "title": [
+    "Helicobacter pylori Induced Phosphatidylinositol-3-OH Kinase/mTOR Activation Increases Hypoxia Inducible Factor-1α to Promote Loss of Cyclin D1 and G0/G1 Cell Cycle Arrest in Human Gastric Cells."
+  ],
+  "authorString": [
+    "Canales J, Valenzuela M, Bravo J, Cerda-Opazo P, Jorquera C, Toledo H, Bravo D, Quest AF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Canales J"
+          ],
+          "firstName": [
+            "Jimena"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de ChileSantiago, Chile; Facultad de Ciencias de la Salud, Universidad Central de ChileSantiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo J"
+          ],
+          "firstName": [
+            "Jimena"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cerda-Opazo P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Cerda-Opazo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Jorquera C"
+          ],
+          "firstName": [
+            "Carla"
+          ],
+          "lastName": [
+            "Jorquera"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Toledo H"
+          ],
+          "firstName": [
+            "Héctor"
+          ],
+          "lastName": [
+            "Toledo"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Molecular, Facultad de Medicina, Programa de Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bravo D"
+          ],
+          "firstName": [
+            "Denisse"
+          ],
+          "lastName": [
+            "Bravo"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratorio de Microbiología Oral, Departamento de Patología y Medicina Oral, Facultad De Odontología, Universidad de Chile Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AF"
+          ],
+          "firstName": [
+            "Andrew F G"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2519726"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "92"
+  ],
+  "abstractText": [
+    "Helicobacter pylori (H. pylori) is a human gastric pathogen that has been linked to the development of several gastric pathologies, such as gastritis, peptic ulcer, and gastric cancer. In the gastric epithelium, the bacterium modifies many signaling pathways, resulting in contradictory responses that favor both proliferation and apoptosis. Consistent with such observations, H. pylori activates routes associated with cell cycle progression and cell cycle arrest. H. pylori infection also induces the hypoxia-induced factor HIF-1α, a transcription factor known to promote expression of genes that permit metabolic adaptation to the hypoxic environment in tumors and angiogenesis. Recently, however, also roles for HIF-1α in the repair of damaged DNA and inhibition of gene expression were described. Here, we investigated signaling pathways induced by H. pylori in gastric cells that favor HIF-1α expression and the consequences thereof in infected cells. Our results revealed that H. pylori promoted PI3K/mTOR-dependent HIF-1α induction, HIF-1α translocation to the nucleus, and activity as a transcription factor as evidenced using a reporter assay. Surprisingly, however, transcription of known HIF-1α effector genes evaluated by qPCR analysis, revealed either no change (LDHA and GAPDH), statistically insignificant increases SLC2A1 (GLUT-1) or greatly enhance transcription (VEGFA), but in an HIF-1α-independent manner, as quantified by PCR analysis in cells with shRNA-mediated silencing of HIF-1α. Instead, HIF-1α knockdown facilitated G1/S progression and increased Cyclin D1 protein half-life, via a post-translational pathway. Taken together, these findings link H. pylori-induced PI3K-mTOR activation to HIF-1α induced G0/G1 cell cycle arrest by a Cyclin D1-dependent mechanism. Thus, HIF-1α is identified here as a mediator between survival and cell cycle arrest signaling activated by H. pylori infection."
+  ],
+  "affiliation": [
+    "Laboratorio de Comunicaciones Celulares, Facultad De Medicina, Centro de Estudios Moleculares De la Célula, Centro de Estudios Avanzados en Enfermedades Crónicas, Programa De Biología Celular y Molecular, Instituto de Ciencias Biomédicas, Universidad de Chile Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gastric Mucosa"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MI"
+                  ],
+                  "qualifierName": [
+                    "microbiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Helicobacter pylori"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Helicobacter Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Stomach Neoplasms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cyclin D1"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Vascular Endothelial Growth Factor A"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription Factors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Messenger"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Hypoxia"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glucose Transporter Type 1"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hypoxia-Inducible Factor 1, alpha Subunit"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Host-Pathogen Interactions"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Knockdown Techniques"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phosphatidylinositol 3-Kinases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "TOR Serine-Threonine Kinases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Cycle Checkpoints"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Helicobacter Pylori",
+        "Cell cycle arrest",
+        "HIF-1α",
+        "cyclin D1",
+        "Pi3k/mtor"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Messenger"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Transcription Factors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Vascular Endothelial Growth Factor A"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cyclin D1"
+          ],
+          "registryNumber": [
+            "136601-57-5"
+          ]
+        },
+        {
+          "name": [
+            "hypoxia-inducible factor 1, alpha subunit"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "HIF1A protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Glucose Transporter Type 1"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "SLC2A1 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "VEGFA protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "CCND1 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Phosphatidylinositol 3-Kinases"
+          ],
+          "registryNumber": [
+            "EC 2.7.1.-"
+          ]
+        },
+        {
+          "name": [
+            "MTOR protein, human"
+          ],
+          "registryNumber": [
+            "EC 2.7.1.1"
+          ]
+        },
+        {
+          "name": [
+            "TOR Serine-Threonine Kinases"
+          ],
+          "registryNumber": [
+            "EC 2.7.1.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5368181?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5368181"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2017.00092"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-01"
+  ],
+  "dateOfCreation": [
+    "2017-04-13"
+  ],
+  "dateOfRevision": [
+    "2018-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-28"
+  ],
+  "firstPublicationDate": [
+    "2017-03-28"
+  ]
+}

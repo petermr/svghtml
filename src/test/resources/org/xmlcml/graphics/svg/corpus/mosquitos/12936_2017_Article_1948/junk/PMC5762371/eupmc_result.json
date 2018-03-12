@@ -1,0 +1,502 @@
+{
+  "id": [
+    "29340103"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29340103"
+  ],
+  "pmcid": [
+    "PMC5762371"
+  ],
+  "doi": [
+    "10.18632/oncotarget.22955"
+  ],
+  "title": [
+    "Anti-neoplastic drugs increase caveolin-1-dependent migration, invasion and metastasis of cancer cells."
+  ],
+  "authorString": [
+    "Díaz-Valdivia NI, Calderón CC, Díaz JE, Lobos-González L, Sepulveda H, Ortíz RJ, Martinez S, Silva V, Maldonado HJ, Silva P, Wehinger S, Burzio VA, Torres VA, Montecino M, Leyton L, Quest AFG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Díaz-Valdivia NI"
+          ],
+          "firstName": [
+            "Natalia I"
+          ],
+          "lastName": [
+            "Díaz-Valdivia"
+          ],
+          "initials": [
+            "NI"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Calderón CC"
+          ],
+          "firstName": [
+            "Claudia C"
+          ],
+          "lastName": [
+            "Calderón"
+          ],
+          "initials": [
+            "CC"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz JE"
+          ],
+          "firstName": [
+            "Jorge E"
+          ],
+          "lastName": [
+            "Díaz"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lobos-González L"
+          ],
+          "firstName": [
+            "Lorena"
+          ],
+          "lastName": [
+            "Lobos-González"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepulveda H"
+          ],
+          "firstName": [
+            "Hugo"
+          ],
+          "lastName": [
+            "Sepulveda"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Gene Regulation Laboratory, Center for Biomedical Research, Faculty of Biological Sciences and Faculty of Medicine, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortíz RJ"
+          ],
+          "firstName": [
+            "Rina J"
+          ],
+          "lastName": [
+            "Ortíz"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Martinez S"
+          ],
+          "firstName": [
+            "Samuel"
+          ],
+          "lastName": [
+            "Martinez"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva V"
+          ],
+          "firstName": [
+            "Veronica"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado HJ"
+          ],
+          "firstName": [
+            "Horacio J"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Institute for Research in Dental Sciences, Faculty of Dentistry, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Wehinger S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Wehinger"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Faculty of Health Sciences, University of Talca, Interdisciplinary Excellence Research Program Healthy Ageing (PIEI-ES), Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Burzio VA"
+          ],
+          "firstName": [
+            "Verónica A"
+          ],
+          "lastName": [
+            "Burzio"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "affiliation": [
+            "Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Torres VA"
+          ],
+          "firstName": [
+            "Vicente A"
+          ],
+          "lastName": [
+            "Torres"
+          ],
+          "initials": [
+            "VA"
+          ],
+          "affiliation": [
+            "Institute for Research in Dental Sciences, Faculty of Dentistry, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecino M"
+          ],
+          "firstName": [
+            "Martín"
+          ],
+          "lastName": [
+            "Montecino"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Gene Regulation Laboratory, Center for Biomedical Research, Faculty of Biological Sciences and Faculty of Medicine, Universidad Andrés Bello, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leyton L"
+          ],
+          "firstName": [
+            "Lisette"
+          ],
+          "lastName": [
+            "Leyton"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AFG"
+          ],
+          "firstName": [
+            "Andrew F G"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AFG"
+          ],
+          "affiliation": [
+            "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "67"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2641557"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncotarget"
+          ],
+          "ISOAbbreviation": [
+            "Oncotarget"
+          ],
+          "medlineAbbreviation": [
+            "Oncotarget"
+          ],
+          "NLMid": [
+            "101532965"
+          ],
+          "ISSN": [
+            "1949-2553"
+          ],
+          "ESSN": [
+            "1949-2553"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "111943-111965"
+  ],
+  "abstractText": [
+    "Expression of the scaffolding protein Caveolin-1 (CAV1) enhances migration and invasion of metastatic cancer cells. Yet, CAV1 also functions as a tumor suppressor in early stages of cancer, where expression is suppressed by epigenetic mechanisms. Thus, we sought to identify stimuli/mechanisms that revert epigenetic CAV1 silencing in cancer cells and evaluate how this affects their metastatic potential. We reasoned that restricted tissue availability of anti-neoplastic drugs during chemotherapy might expose cancer cells to sub-therapeutic concentrations, which activate signaling pathways and the expression of CAV1 to favor the acquisition of more aggressive traits. Here, we used in vitro [2D, invasion] and in vivo (metastasis) assays, as well as genetic and biochemical approaches to address this question. Colon and breast cancer cells were identified where CAV1 levels were low due to epigenetic suppression and could be reverted by treatment with the methyltransferase inhibitor 5'-azacytidine. Exposure of these cells to anti-neoplastic drugs for short periods of time (24-48 h) increased CAV1 expression through ROS production and MEK/ERK activation. In colon cancer cells, increased CAV1 expression enhanced migration and invasion in vitro via pathways requiring Src-family kinases, as well as Rac-1 activity. Finally, elevated CAV1 expression in colon cancer cells following exposure in vitro to sub-cytotoxic drug concentrations increased their metastatic potential in vivo. Therefore exposure of cancer cells to anti-neoplastic drugs at non-lethal drug concentrations induces signaling events and changes in transcription that favor CAV1-dependent migration, invasion and metastasis. Importantly, this may occur in the absence of selection for drug-resistance."
+  ],
+  "affiliation": [
+    "Cellular Communication Laboratory, Center for Molecular Studies of the Cell (CEMC), Advanced Center for Chronic Diseases (ACCDiS), Faculty of Medicine, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Reactive oxygen species",
+        "Chemotherapy",
+        "Cell signaling",
+        "Caveolin-1",
+        "Epigenetic Silencing"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5762371?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5762371"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.18632/oncotarget.22955"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-18"
+  ],
+  "dateOfRevision": [
+    "2018-02-10"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-05"
+  ],
+  "firstPublicationDate": [
+    "2017-12-05"
+  ]
+}

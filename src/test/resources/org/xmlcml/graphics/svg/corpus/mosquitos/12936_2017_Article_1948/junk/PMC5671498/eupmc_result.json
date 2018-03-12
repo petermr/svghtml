@@ -1,0 +1,474 @@
+{
+  "id": [
+    "29164068"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29164068"
+  ],
+  "pmcid": [
+    "PMC5671498"
+  ],
+  "doi": [
+    "10.3389/fcimb.2017.00459"
+  ],
+  "title": [
+    "Comparative Pan-Genome Analysis of Piscirickettsia salmonis Reveals Genomic Divergences within Genogroups."
+  ],
+  "authorString": [
+    "Nourdin-Galindo G, Sánchez P, Molina CF, Espinoza-Rojas DA, Oliver C, Ruiz P, Vargas-Chacoff L, Cárcamo JG, Figueroa JE, Mancilla M, Maracaja-Coutinho V, Yañez AJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Nourdin-Galindo G"
+          ],
+          "firstName": [
+            "Guillermo"
+          ],
+          "lastName": [
+            "Nourdin-Galindo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratory of Integrative Bioinformatics, Facultad de Ciencias, Centro de Genómica y Bioinformática, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez P"
+          ],
+          "firstName": [
+            "Patricio"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4385-1230",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro FONDAP, Interdisciplinary Center for Aquaculture Research, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Molina CF"
+          ],
+          "firstName": [
+            "Cristian F"
+          ],
+          "lastName": [
+            "Molina"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "affiliation": [
+            "AUSTRAL-omics, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinoza-Rojas DA"
+          ],
+          "firstName": [
+            "Daniela A"
+          ],
+          "lastName": [
+            "Espinoza-Rojas"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Laboratory of Integrative Bioinformatics, Facultad de Ciencias, Centro de Genómica y Bioinformática, Universidad Mayor, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oliver C"
+          ],
+          "firstName": [
+            "Cristian"
+          ],
+          "lastName": [
+            "Oliver"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratorio de Patología de Organismos Acuáticos y Biotecnología Acuícola, Facultad de Ciencias Biológicas, Universidad Andrés Bello, Viña del Mar, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruiz P"
+          ],
+          "firstName": [
+            "Pamela"
+          ],
+          "lastName": [
+            "Ruiz"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centro FONDAP, Interdisciplinary Center for Aquaculture Research, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vargas-Chacoff L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Vargas-Chacoff"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Facultad de Ciencias, Instituto de Ciencias Marinas y Limnológicas, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cárcamo JG"
+          ],
+          "firstName": [
+            "Juan G"
+          ],
+          "lastName": [
+            "Cárcamo"
+          ],
+          "initials": [
+            "JG"
+          ],
+          "affiliation": [
+            "Centro FONDAP, Interdisciplinary Center for Aquaculture Research, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Figueroa JE"
+          ],
+          "firstName": [
+            "Jaime E"
+          ],
+          "lastName": [
+            "Figueroa"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Centro FONDAP, Interdisciplinary Center for Aquaculture Research, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mancilla M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Mancilla"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0100-2190",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Diagnóstico y Biotecnología, ADL Diagnostic Chile SpA., Puerto Montt, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maracaja-Coutinho V"
+          ],
+          "firstName": [
+            "Vinicius"
+          ],
+          "lastName": [
+            "Maracaja-Coutinho"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Beagle Bioinformatics, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Yañez AJ"
+          ],
+          "firstName": [
+            "Alejandro J"
+          ],
+          "lastName": [
+            "Yañez"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "AUSTRAL-omics, Universidad Austral de Chile, Valdivia, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0100-2190",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4385-1230",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2519726"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "459"
+  ],
+  "abstractText": [
+    "Piscirickettsia salmonis is the etiological agent of salmonid rickettsial septicemia, a disease that seriously affects the salmonid industry. Despite efforts to genomically characterize P. salmonis, functional information on the life cycle, pathogenesis mechanisms, diagnosis, treatment, and control of this fish pathogen remain lacking. To address this knowledge gap, the present study conducted an in silico pan-genome analysis of 19 P. salmonis strains from distinct geographic locations and genogroups. Results revealed an expected open pan-genome of 3,463 genes and a core-genome of 1,732 genes. Two marked genogroups were identified, as confirmed by phylogenetic and phylogenomic relationships to the LF-89 and EM-90 reference strains, as well as by assessments of genomic structures. Different structural configurations were found for the six identified copies of the ribosomal operon in the P. salmonis genome, indicating translocation throughout the genetic material. Chromosomal divergences in genomic localization and quantity of genetic cassettes were also found for the Dot/Icm type IVB secretion system. To determine divergences between core-genomes, additional pan-genome descriptions were compiled for the so-termed LF and EM genogroups. Open pan-genomes composed of 2,924 and 2,778 genes and core-genomes composed of 2,170 and 2,228 genes were respectively found for the LF and EM genogroups. The core-genomes were functionally annotated using the Gene Ontology, KEGG, and Virulence Factor databases, revealing the presence of several shared groups of genes related to basic function of intracellular survival and bacterial pathogenesis. Additionally, the specific pan-genomes for the LF and EM genogroups were defined, resulting in the identification of 148 and 273 exclusive proteins, respectively. Notably, specific virulence factors linked to adherence, colonization, invasion factors, and endotoxins were established. The obtained data suggest that these genes could be directly associated with inter-genogroup differences in pathogenesis and host-pathogen interactions, information that could be useful in designing novel strategies for diagnosing and controlling P. salmonis infection."
+  ],
+  "affiliation": [
+    "Laboratory of Integrative Bioinformatics, Facultad de Ciencias, Centro de Genómica y Bioinformática, Universidad Mayor, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Comparative genomics",
+        "virulence factors",
+        "Gammaproteobacteria",
+        "Fish Pathogen",
+        "Pan-genome",
+        "Piscirickettsiosis",
+        "Salmonid Rickettsial Septicemia"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5671498?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5671498"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2017.00459"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-11-23"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-31"
+  ],
+  "firstPublicationDate": [
+    "2017-10-31"
+  ]
+}

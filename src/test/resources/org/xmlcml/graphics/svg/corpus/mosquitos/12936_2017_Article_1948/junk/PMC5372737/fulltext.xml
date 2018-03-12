@@ -1,0 +1,493 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biomolecules</journal-id><journal-id journal-id-type="iso-abbrev">Biomolecules</journal-id><journal-id journal-id-type="publisher-id">biomolecules</journal-id><journal-title-group><journal-title>Biomolecules</journal-title></journal-title-group><issn pub-type="epub">2218-273X</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5372737</article-id><article-id pub-id-type="doi">10.3390/biom7010025</article-id><article-id pub-id-type="publisher-id">biomolecules-07-00025</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Modulation of the Proteostasis Machinery to Overcome Stress Caused by Diminished Levels of t<sup>6</sup>A-Modified tRNAs in <italic>Drosophila</italic></article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Rojas-Ben&#x000ed;tez</surname><given-names>Diego</given-names></name></contrib><contrib contrib-type="author"><name><surname>Eggers</surname><given-names>Cristi&#x000e1;n</given-names></name></contrib><contrib contrib-type="author"><name><surname>Glavic</surname><given-names>Alvaro</given-names></name><xref rid="c1-biomolecules-07-00025" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Ibba</surname><given-names>Michael</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-biomolecules-07-00025">Centro de Regulaci&#x000f3;n del Genoma, Facultad de Ciencias, Universidad de Chile, Las Palmeras 3425, &#x000d1;u&#x000f1;oa, Santiago 7800024, Chile; <email>diegorojasb@ug.uchile.cl</email> (D.R.-B.); <email>ceggersa@gmail.com</email> (C.E.)</aff><author-notes><corresp id="c1-biomolecules-07-00025"><label>*</label>Correspondence: <email>alglavic@uchile.cl</email>; Tel.: +56-2-2978-7179</corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>3</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2017</year></pub-date><volume>7</volume><issue>1</issue><elocation-id>25</elocation-id><history><date date-type="received"><day>30</day><month>11</month><year>2016</year></date><date date-type="accepted"><day>28</day><month>2</month><year>2017</year></date></history><permissions><copyright-statement>&#x000a9; 2017 by the authors.</copyright-statement><copyright-year>2017</copyright-year><license license-type="open-access"><license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Transfer RNAs (tRNAs) harbor a subset of post-transcriptional modifications required for structural stability or decoding function. <italic>N</italic><sup>6</sup>-threonylcarbamoyladenosine (t<sup>6</sup>A) is a universally conserved modification found at position 37 in tRNA that pair A-starting codons (ANN) and is required for proper translation initiation and to prevent frame shift during elongation. In its absence, the synthesis of aberrant proteins is likely, evidenced by the formation of protein aggregates. In this work, our aim was to study the relationship between t<sup>6</sup>A-modified tRNAs and protein synthesis homeostasis machinery using <italic>Drosophila melanogaster</italic>. We used the Gal4/UAS system to knockdown genes required for t<sup>6</sup>A synthesis in a tissue and time specific manner and in vivo reporters of unfolded protein response (UPR) activation. Our results suggest that t<sup>6</sup>A-modified tRNAs, synthetized by the threonyl-carbamoyl transferase complex (TCTC), are required for organismal growth and imaginal cell survival, and is most likely to support proper protein synthesis.</p></abstract><kwd-group><kwd>tRNA post-transcriptional modification</kwd><kwd><italic>N</italic><sup>6</sup>-threonylcarbamoyladenosine</kwd><kwd>unfolded protein response</kwd></kwd-group></article-meta></front><body><sec id="sec1-biomolecules-07-00025"><title>1. Introduction</title><p>Transfer RNAs (tRNAs) are structured and stable nucleic acids, transcribed by RNA Polymerase III in eukaryotes. During protein synthesis, they act together with ribosomes as decoders of information contained in messenger RNAs (mRNAs), recognizing successive codons to add specific amino acids to nascent polypeptide chains [<xref rid="B1-biomolecules-07-00025" ref-type="bibr">1</xref>]. After transcription, tRNAs are extensively processed and modified. A distinctive feature of tRNAs is the high level of post-transcriptional modification that is held, each one presents a subset of over 90 known modifications [<xref rid="B2-biomolecules-07-00025" ref-type="bibr">2</xref>]. Depending on their position, they play structural roles [<xref rid="B3-biomolecules-07-00025" ref-type="bibr">3</xref>] or are required for proper decoding activity stabilizing cognate base pairing or expediting wobble base pairing [<xref rid="B4-biomolecules-07-00025" ref-type="bibr">4</xref>], thus increasing decoding capability [<xref rid="B5-biomolecules-07-00025" ref-type="bibr">5</xref>]. Additionally, these kinds of modification prevent frame-shift [<xref rid="B6-biomolecules-07-00025" ref-type="bibr">6</xref>], ensuring correct translation. Position 37 (adjacent to the anticodon) is frequently modified, even more so than the wobble position [<xref rid="B7-biomolecules-07-00025" ref-type="bibr">7</xref>]. The most common modification present in purines at position 37 are <italic>N</italic><sup>6</sup>-isopentenyladenosine (i<sup>6</sup>A), <italic>N</italic><sup>6</sup>-isopenetyl-2-thiomethy-ladenosine (mS<sup>2</sup>i<sup>6</sup>A), 1-methylguanosine (m<sup>1</sup>G) and <italic>N</italic><sup>6</sup>-threonylcarbamoyladenosine (t<sup>6</sup>A). The last is present in tRNAs that pair A-starting codons (ANN) (<xref ref-type="fig" rid="biomolecules-07-00025-f001">Figure 1</xref>) [<xref rid="B2-biomolecules-07-00025" ref-type="bibr">2</xref>]. This modification is universally conserved and has a paramount role for tRNA decoding function, as has been shown in yeast [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>,<xref rid="B9-biomolecules-07-00025" ref-type="bibr">9</xref>], archea [<xref rid="B10-biomolecules-07-00025" ref-type="bibr">10</xref>], bacteria [<xref rid="B11-biomolecules-07-00025" ref-type="bibr">11</xref>], and, recently by our laboratory [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>] and others [<xref rid="B13-biomolecules-07-00025" ref-type="bibr">13</xref>], in <italic>Drosophila</italic>. This modification was identified over 40 years ago [<xref rid="B14-biomolecules-07-00025" ref-type="bibr">14</xref>,<xref rid="B15-biomolecules-07-00025" ref-type="bibr">15</xref>,<xref rid="B16-biomolecules-07-00025" ref-type="bibr">16</xref>]; however, the enzymes that synthetize it were only recently identified [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>,<xref rid="B9-biomolecules-07-00025" ref-type="bibr">9</xref>]. Tcs1 (Yrdc) or Tcs2 (Sua5) catalyzes the formation of a <sc>l</sc>-threonyl-cabamoyl-AMP (TC-AMP) intermediate from bicarbonate, threonine and ATP. Next, the threonyl-carbamoyl transferase complex (TCTC, previously named KEOPS/EKC (kinase, endopeptidase and other proteins of small size/endopeptidase-like and kinase associated to transcribed chromatin)) is responsible for the last step of the reaction, transferring the TC-group to A37 in substrate tRNA [<xref rid="B17-biomolecules-07-00025" ref-type="bibr">17</xref>]. This synthetic pathway is universally conserved [<xref rid="B18-biomolecules-07-00025" ref-type="bibr">18</xref>]. In silico analyses have found Tcs2 (CG33786) and the TCTC subunit homologues in <italic>Drosophila</italic>; TCTC complex is composed of Tcs3 (Kae1), the catalytic subunit that physically interacts with Tcs5 (Prpk) and has regulatory functions over Tcs3; while Tsc6 (Pcc1) allows dimerization, two more subunits compose the yeast TCTC complex, Tcs4 (Qri7) and Tcs8 (Gon7), but there are no counterparts in <italic>Drosophila</italic>. Mutations in either the gene coding for TCTC subunits or Tcs2 eliminate t<sup>6</sup>A in tRNA and cause strong slow-growth phenotype in yeast [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>], as well as cell and organismal size reductions in <italic>Drosophila</italic> [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>,<xref rid="B19-biomolecules-07-00025" ref-type="bibr">19</xref>]. At the molecular level, yeast lacking t<sup>6</sup>A present erroneous protein synthesis initiation at non-AUG codons and frameshifts during elongation [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>], making the synthesis of misfolded and unfolded proteins very likely, as evidenced by the formation of protein aggregates [<xref rid="B20-biomolecules-07-00025" ref-type="bibr">20</xref>]. Upon <italic>Tcs3</italic> knockdown in <italic>Drosophila</italic>, a collection of signaling pathways, called the unfolded protein response (UPR), is activated in order to overcome stress caused by aberrant proteins in the lumen of the endoplasmic reticulum (ER), thus reestablishing protein homeostasis. Nonetheless, its chronic activation leads to apoptosis [<xref rid="B21-biomolecules-07-00025" ref-type="bibr">21</xref>,<xref rid="B22-biomolecules-07-00025" ref-type="bibr">22</xref>]. Chronic activation of the UPR is a likely explanation for the phenotypes observed upon loss of function of the TCTC subunits. In this work, our aim was to establish functional relationships between t<sup>6</sup>A-modified tRNAs and the protein synthesis homeostasis machinery in <italic>Drosophila</italic>. We show that a loss of function in the t<sup>6</sup>A synthetic machinery causes apoptosis and the UPR activation in imaginal cells, indicating that the role of t<sup>6</sup>A-modified tRNAs is to support correct protein synthesis.</p></sec><sec id="sec2-biomolecules-07-00025"><title>2. Results</title><p>We have previously shown that <italic>Drosophila</italic> mutants for <italic>tcs3</italic> have extremely low levels of t<sup>6</sup>A-modified tRNAs. The phenotype of these mutants is too severe to establish functional relationships or underlying causes of phenotypes. In order to overcome this, we took a different approach using the binary Gal4/UAS system [<xref rid="B23-biomolecules-07-00025" ref-type="bibr">23</xref>], which was originally created to study gene expression and was adapted to knockdown. Driver lines were used to express the yeast transcription factor Gal4 under a specific promoter. By itself, this does not present effects on cells, since it must bind to an upstream activating sequence (UAS) region to activate transcription. There is a plethora of flies with an UAS region upstream to a desired sequence to be expressed, either a coding sequence (i.e., green fluorescent protein (GFP)) or an inverted repeated (IR) to transcribe a RNA hairpin to activate specific RNA interference (RNAi) [<xref rid="B24-biomolecules-07-00025" ref-type="bibr">24</xref>]. Gal4 and UAS lines were mated to knockdown <italic>Tcs2</italic> and TCTC components either ubiquitously, or in a tissue-specific manner. A list of driver lines (<xref ref-type="table" rid="biomolecules-07-00025-t001">Table 1</xref>) and UAS lines (<xref ref-type="table" rid="biomolecules-07-00025-t002">Table 2</xref>) is provided.</p><sec id="sec2dot1-biomolecules-07-00025"><title>2.1. t<sup>6</sup>A Synthetic Machinery is Required for Larval Growth</title><p>To shed light on t<sup>6</sup>A-modified tRNA function in <italic>Drosophila</italic> using the <italic>tubulin</italic> driver (<italic>tub</italic> &#x0003e; Gal4), we knocked-down genes required for t<sup>6</sup>A synthesis using different validated UAS-IR constructs [<xref rid="B25-biomolecules-07-00025" ref-type="bibr">25</xref>,<xref rid="B26-biomolecules-07-00025" ref-type="bibr">26</xref>,<xref rid="B27-biomolecules-07-00025" ref-type="bibr">27</xref>]. Reduced larval size was observed by Day 5 after egg laying (AEL) (<xref ref-type="fig" rid="biomolecules-07-00025-f002">Figure 2</xref>). By Day 8, the AEL control individuals had pupariated, but when TCTC components or <italic>tcs2</italic> were silenced, smaller larvae were observed with no pupa features. In the case of the <italic>tcs2</italic> knockdown, larvae were small by Day 5 and died by Day 8 AEL. In the controls, by Day 12 adults are observed, while in the loss of function only larvae were present. These results, which are consistent with previous data, suggest that all silenced genes, namely t<sup>6</sup>A-modified tRNAs, are required for animal growth.</p></sec><sec id="sec2dot2-biomolecules-07-00025"><title>2.2. <italic>Tcs3</italic> is Required for Imaginal Cell Survival</title><p>Ubiquitous knockdown of <italic>tcs2</italic> and the TCTC subunits caused a severe phenotype, a condition for which underlying causes are difficult to establish. To overcome this, we made a tissue-specific knockdown. The <italic>Drosophila</italic> adult structures arise from groups of highly proliferative cells called imaginal discs where wings are formed from wing imaginal discs [<xref rid="B28-biomolecules-07-00025" ref-type="bibr">28</xref>]. We silenced <italic>tcs3</italic>, the catalytic subunit of the TCTC, in the posterior compartment of the developing wing imaginal discs using the <italic>engrailed</italic> driver (<italic>en</italic> &#x0003e; Gal4) [<xref rid="B29-biomolecules-07-00025" ref-type="bibr">29</xref>], so that any effect on wing development could be later analyzed in the adult structures. This allowed us to evaluate functional relationships between genes using a morphological trait in wings (area of sector D) (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>A, green-colored area). A collapse between veins IV and V (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>B,H) was regularly observed when <italic>tcs3</italic> was silenced. In order to test knockdown specificity, we crossed flies in which <italic>tcs3</italic> was knocked-down with null mutants for <italic>tcs3</italic>, generating a heterozygous mutant background in which the sector D area was further reduced (data not shown). In addition, we simultaneously silenced <italic>tcs3</italic> and expressed the <italic>Tcs3</italic> coding sequence, a complete reversion of the phenotype was observed (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>C,H). These results showed that the observed phenotype was specific to the <italic>tcs3</italic> knockdown.</p><p>As the observed veins were malformed, we wondered if this phenotype was produced by apoptosis occurring in the wing imaginal cells. To investigate this, we simultaneously knocked-down <italic>tcs3</italic> and expressed GFP in the posterior compartment of the wing imaginal discs using the <italic>hedgehog</italic> driver (<italic>hh</italic> &#x0003e; Gal4), and analyzed the DNA content in the control (GFP-) and GFP-expressing/<italic>tsc3</italic> knockdown cells by flow cytometry (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>D). In cells where <italic>tcs3</italic> was knocked-down, we detected a reduction in the G<sub>0</sub>/G<sub>1</sub> cell population and a new population of cells in the sub-G<sub>0</sub>/G<sub>1</sub> region, which exhibited a deficit in DNA content, a feature consistent with apoptotic cells [<xref rid="B30-biomolecules-07-00025" ref-type="bibr">30</xref>]. In order to confirm this, we detected cleaved Caspase-3 in the wing imaginal discs by immunohistochemistry. Positive patches for cleaved Caspase-3 were present only in the posterior compartment, indicating that apoptosis was induced only in the region where <italic>tcs3</italic> was silenced (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>E). In order to prove whether apoptosis was the underlying cause of the phenotype upon <italic>tcs3</italic> knockdown, we simultaneously overexpressed the anti-apoptotic protein p35 [<xref rid="B31-biomolecules-07-00025" ref-type="bibr">31</xref>,<xref rid="B32-biomolecules-07-00025" ref-type="bibr">32</xref>] where a reversion of the phenotype similar to the expressed <italic>Tcs3</italic> was observed (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>F,H). In contrast, the overexpression of a dominant negative form of Basket (BSK<sup>DN</sup>), the <italic>Drosophila</italic> orthologue of c-Jun N-terminal kinase (JNK) required apoptosis activation in several stressful conditions [<xref rid="B33-biomolecules-07-00025" ref-type="bibr">33</xref>], did not rescue the phenotype (<xref ref-type="fig" rid="biomolecules-07-00025-f003">Figure 3</xref>E,H). Thus, our results showed that <italic>Tcs3</italic> is required for the survival of imaginal cells and suggest that apoptosis of imaginal cells, independent of BSK, is the underlying cause of the phenotype.</p></sec><sec id="sec2dot3-biomolecules-07-00025"><title>2.3. Activation of UPR upon Silencing of t<sup>6</sup>A Synthetic Machinery</title><p>t<sup>6</sup>A is a structural feature that allows the correct recognition of ANN codons by its cognate tRNA. It has been suggested that its absence causes incorrect protein synthesis initiation and enhances the chance of frameshifting during translation in yeast [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>]. Under these conditions, the synthesis of misfolded and unfolded proteins is very likely, as evidenced by the formation of protein aggregates [<xref rid="B20-biomolecules-07-00025" ref-type="bibr">20</xref>]. When unfolded proteins populate the lumen of the ER it leads to ER stress, which activates the UPR, a collection of signaling pathways aiming to reestablish protein synthesis homeostasis [<xref rid="B34-biomolecules-07-00025" ref-type="bibr">34</xref>] if this is not accomplished, apoptosis is induced [<xref rid="B35-biomolecules-07-00025" ref-type="bibr">35</xref>]. In previous studies, we showed that <italic>tcs3</italic> or <italic>tcs5</italic> knockdown activated the UPR [<xref rid="B21-biomolecules-07-00025" ref-type="bibr">21</xref>]. This analysis was extended to the complete set of t<sup>6</sup>A synthetic machinery genes in non-proliferative cells, the fat body (<xref ref-type="fig" rid="biomolecules-07-00025-f004">Figure 4</xref>A&#x02013;E) and evaluated the UPR induction using an in vivo reporter of PERK/Atf4 activation. Atf4 mRNA translation control occurs due to several small upstream open reading frames (uORFs) in the 5&#x02019; UTR. The last one overlaps Atf4 coding sequence in a different reading frame, therefore inhibiting its translation in the unstressed cells where upon ER stress, the main reading frame is translated [<xref rid="B22-biomolecules-07-00025" ref-type="bibr">22</xref>]. In the reporter, Atf4 5&#x02019;UTR is fused to dsRed ORF, then in stressed cells dsRed will be translated [<xref rid="B36-biomolecules-07-00025" ref-type="bibr">36</xref>]. In control animals, no dsRed signal was detected (<xref ref-type="fig" rid="biomolecules-07-00025-f004">Figure 4</xref>A); however, when <italic>tcs2</italic> (<xref ref-type="fig" rid="biomolecules-07-00025-f004">Figure 4</xref>B) or TCTC subunits were silenced (<xref ref-type="fig" rid="biomolecules-07-00025-f004">Figure 4</xref>C&#x02013;E), a signal was detected, indicating that the UPR is active via the PERK/ATF4 pathway, confirming and extending our previous results for <italic>tcs3</italic> and <italic>tcs5</italic> [<xref rid="B21-biomolecules-07-00025" ref-type="bibr">21</xref>]. In addition, we wondered whether the UPR activation upon <italic>tcs3</italic> silencing also took place in the imaginal cells (proliferative cells). In order to prove this, we used the <italic>nubbin</italic> driver (<italic>nub</italic> &#x0003e; Gal4) to knockdown <italic>tcs3</italic> and simultaneously express a different in vivo UPR activation reporter, in which a Xbp-1::GFP fusion protein was translated only after non-canonical splicing of Xbp-1::GFP mRNA is induced upon Ire1 activation by ER stress [<xref rid="B37-biomolecules-07-00025" ref-type="bibr">37</xref>]. Upon <italic>tcs3</italic> knockdown, we detected GFP in the <italic>nub</italic> &#x0003e; Gal4 territory (<xref ref-type="fig" rid="biomolecules-07-00025-f004">Figure 4</xref>F), indicating the UPR was active in these cells. We wondered if chronic ER stress and the UPR activation were the underlying causes of the observed phenotype in wings. To address this, we simultaneously silenced <italic>tcs3</italic> and overexpressed Xbp-1::GFP (<xref ref-type="fig" rid="biomolecules-07-00025-f005">Figure 5</xref>C) or Hsc70 (<xref ref-type="fig" rid="biomolecules-07-00025-f005">Figure 5</xref>D), the <italic>Drosophila</italic> orthologue of BIP/GRP78 (the main ER chaperone) [<xref rid="B38-biomolecules-07-00025" ref-type="bibr">38</xref>], where both partially reverted the phenotype (<xref ref-type="fig" rid="biomolecules-07-00025-f005">Figure 5</xref>E). These results show that Tcs3 is required for organismal growth and the survival of imaginal cells in <italic>Drosophila</italic>, and most likely supports proper protein synthesis.</p></sec></sec><sec id="sec3-biomolecules-07-00025"><title>3. Discussion</title><p>Nucleic acids in cells are post-transcriptionally modified, a phenomenon known for several decades. In RNA, over 90 modifications have been identified, most of them found in tRNAs [<xref rid="B39-biomolecules-07-00025" ref-type="bibr">39</xref>]. Modifications present in the body of tRNA are usually relevant for folding and stability [<xref rid="B40-biomolecules-07-00025" ref-type="bibr">40</xref>,<xref rid="B41-biomolecules-07-00025" ref-type="bibr">41</xref>], while the ones present in the anticodon wobble position 34 and base 37, adjacent to the anticodon are required for proper decoding capabilities. Some of these modifications such as <italic>N</italic><sup>6</sup>-threonylcarbamoyladenosine (t<sup>6</sup>A) are universally conserved and its synthesis requires a multi-enzymatic pathway, which is present in all domains of life, suggesting that it is part of the minimal translation machinery [<xref rid="B42-biomolecules-07-00025" ref-type="bibr">42</xref>] and could be considered as a primordial modification [<xref rid="B43-biomolecules-07-00025" ref-type="bibr">43</xref>]. The study of this modification would allow us to understand not only how the translation machinery works, but also how it has evolved as this modification would have eased the evolution of highly-accurate translation systems [<xref rid="B44-biomolecules-07-00025" ref-type="bibr">44</xref>]. Intensive study of tRNA modification using metazoan models is imperative as tRNA modification have been linked to numerous human pathologies (reviewed in references [<xref rid="B45-biomolecules-07-00025" ref-type="bibr">45</xref>,<xref rid="B46-biomolecules-07-00025" ref-type="bibr">46</xref>]).</p><p>Our group [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>] and others [<xref rid="B13-biomolecules-07-00025" ref-type="bibr">13</xref>] have observed that <italic>tcs3</italic> mutants lacked imaginal discs and larval tissues were smaller, indicating that different cell types could have particular requirements for t<sup>6</sup>A-modified tRNAs; consistently <italic>Drosophila tcs3</italic> [<xref rid="B47-biomolecules-07-00025" ref-type="bibr">47</xref>] and human <italic>TCS3</italic>/OSGEP [<xref rid="B48-biomolecules-07-00025" ref-type="bibr">48</xref>] are differentially expressed in different tissues, supporting a tissue-specific demand. Accordingly, silencing the TCTC components in differentiated <italic>Drosophila</italic> photoreceptors did not cause any phenotype [<xref rid="B13-biomolecules-07-00025" ref-type="bibr">13</xref>], suggesting that differentiated cells have a low demand for t<sup>6</sup>A-modified tRNAs; in contrast, highly proliferative cells such as the ones that the wing imaginal discs in <italic>Drosophila</italic> are composed, seem to have a high demand for these tRNAs. There could be a cell cycle-dependent requirement of t<sup>6</sup>A-modified tRNAs even in the same cell type, as we observed only G<sub>0</sub>/G<sub>1</sub> cells die by apoptosis, which is consistent with the severe target of rapamycin (TOR) inhibition in <italic>tcs3</italic> mutants [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>] as its activity promotes G<sub>1</sub>/S progression [<xref rid="B49-biomolecules-07-00025" ref-type="bibr">49</xref>].</p><p>One could propose that the absence of t<sup>6</sup>A has a global and disastrous effect on translation; however, this appears not to be the case. Even with twice the erroneous translation start in non-AUG codons and doubling the translational ambiguities, only a subset of genes was affected, suggesting that the pleiotropic phenotype observed was caused not by a global translational problem, but depended on codon-specific defects [<xref rid="B20-biomolecules-07-00025" ref-type="bibr">20</xref>]. Modified bases in tRNAs modulate protein synthesis [<xref rid="B50-biomolecules-07-00025" ref-type="bibr">50</xref>]. Codon bias contributes to establish protein level in order to adjust production rate of a particular proteins to changing requirements (e.g., stressful conditions, cell cycle progression, differentiation, etc.), and tRNA modifications are regulated, resulting in preferential translation of mRNAs coding the required proteins [<xref rid="B51-biomolecules-07-00025" ref-type="bibr">51</xref>,<xref rid="B52-biomolecules-07-00025" ref-type="bibr">52</xref>]. Different cell types, each one having particular translational requirements, would be differentially affected, as each will have particular codon biases and requirements for modified tRNAs. For instance, imaginal cells die when t<sup>6</sup>A-modified tRNAs levels are diminished; on the contrary, larval tissue deals with this by lowering their anabolic rate and survive. Ribosome profiling combined with proteomics from different tissues would help to elucidate this in <italic>Drosophila</italic>.</p><p>As imaginal cells were more affected than other cell types, we silenced <italic>tcs3</italic> in the posterior wing compartment using the Gal4 driver <italic>engrailed</italic> and observed a reduction in the sector D area, a phenotype we demonstrated was caused specifically by <italic>tcs3</italic> knockdown. This change in morphological trait allowed us to establish functional relationships. The reduction in sector D was rescued by blocking apoptosis with p35, an anti-apoptotic protein [<xref rid="B31-biomolecules-07-00025" ref-type="bibr">31</xref>]. We also asked what activated apoptosis when t<sup>6</sup>A-modified tRNAs levels were diminished. One possible explanation for the observed phenotype is the chronic activation of the UPR. Silencing either component of the TCTC activated the UPR in larval and imaginal tissue. We noticed that when cellular folding capacity was enhanced&#x02014;either by overexpression of Xbp1 or Hsc70&#x02014;a partial rescue of the phenotype was observed. This indicates that at least in part, the phenotype was caused by aberrant protein overload at the ER. Another component of the phenotype that was not explored further, was the observation of differential ORF selection by the levels of t<sup>6</sup>A-modified tRNAs. A fact that, independently from the UPR activation, could explain the Atf4-5&#x02019;UTR::dsRed reporter activation. Nonetheless, our previous results, using a different reporter, showed that the UPR was active when <italic>tcs3</italic> or <italic>tcs5</italic> was silenced [<xref rid="B21-biomolecules-07-00025" ref-type="bibr">21</xref>]. Thus, diminished levels of t<sup>6</sup>A-modified tRNAs would have at least two different impacts on protein synthesis: making it error-prone and to favor or inhibit specific ORF translation, creating a disturbance in protein synthesis homeostasis.</p><p>A series of unanswered questions remain about t<sup>6</sup>A-modified tRNAs and its relationship with protein synthesis and other cellular processes, for instance, in previous studies we showed that t<sup>6</sup>A-modified tRNAs were related, by an unknown mechanism, to TOR activity [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>] and endocytosis [<xref rid="B19-biomolecules-07-00025" ref-type="bibr">19</xref>]. Other modifications present in the anticodon loop, such as methoxycarbonylmethyl-2-thiouridine (mcm<sup>5</sup>s<sup>2</sup>U) also affect translation efficiency and compromise TOR activity [<xref rid="B53-biomolecules-07-00025" ref-type="bibr">53</xref>] and activate GCN4-dependent transcription [<xref rid="B54-biomolecules-07-00025" ref-type="bibr">54</xref>], common features that have been observed in mutant yeast for TCTC subunits [<xref rid="B8-biomolecules-07-00025" ref-type="bibr">8</xref>,<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>,<xref rid="B19-biomolecules-07-00025" ref-type="bibr">19</xref>]. Therefore, these observations suggest that there are unknown molecular mechanisms that link tRNA modification to stress-response mechanisms and other central components of cellular physiology. How <italic>tcs3</italic> expression and more importantly, how tRNA modifications are regulated in different cell types or through cell cycle are questions that require further research.</p></sec><sec id="sec4-biomolecules-07-00025"><title>4. Materials and Methods</title><sec id="sec4dot1-biomolecules-07-00025"><title>4.1. Fly Husbandry and Fly Stocks</title><p>Animals were raised at low density at 25 &#x000b0;C on standard meal containing wheat flour (50 g/L); fresh yeast (100 g/L); agar-agar (11 g/L); dextrose monohydrate (80 g/L); propionic acid (6 mL/L); and Nipagin (1.56 g/L). Stocks were obtained from the Bloomington Drosophila Stock Center (BDSC) and the Vienna Drosophila Resource Center (VDRC) [<xref rid="B25-biomolecules-07-00025" ref-type="bibr">25</xref>]. The Atf4 5&#x02019;UTR::dsRed reporter is described in reference [<xref rid="B36-biomolecules-07-00025" ref-type="bibr">36</xref>] and Xpb1::GFP is described in reference [<xref rid="B37-biomolecules-07-00025" ref-type="bibr">37</xref>].</p></sec><sec id="sec4dot2-biomolecules-07-00025"><title>4.2. Morphological, Morphometric and Statistical Analysis</title><p>Adults of the corresponding genotypes were crossed for 24 h in vials with standard meal, then withdrawn and incubated for the indicated periods of time. Pictures of the larvae were taken with a Nikon SMZ800 stereoscope (Tokyo, Japan) using a Micrometrics 519CU OM camera and Micrometrics SE Premium 4 software (Unitron, New York, NY, USA). <italic>Drosophila</italic> wings were mounted in a 1:1 mixture of lactic acid/ethanol as described in reference [<xref rid="B19-biomolecules-07-00025" ref-type="bibr">19</xref>] and photographed under an Olympus BX51 microscope (Tokyo, Japan) using a Moticam 2500 digital camera (Motic. XiangAn, Xiamen, China). The wing area was measured using Adobe Photoshop CS5 Extended (Adobe, San Jos&#x000e9;, CA, USA). All data presented are mean &#x000b1; standard deviation (s.d.) and were subjected to a one-way ANOVA test using GraphPad Prism 6 (GraphPad Software, La Jolla, CA, USA). <italic>p</italic> values lower than 0.05 were considered to be significant, unless otherwise indicated.</p></sec><sec id="sec4dot3-biomolecules-07-00025"><title>4.3. Immunofluorescence</title><p>Larvae were dissected and fixed as described in reference [<xref rid="B56-biomolecules-07-00025" ref-type="bibr">56</xref>]. Confocal images were captured using a Zeiss LSM510 Meta confocal microscope (Oberkochen, Germany). Nuclei were stained with TO-PRO-3 (1:200, phalloidin (1:200, Invitrogen, Carlsbad, CA, USA) and cleaved Caspase-3 (1:200 Cell Signaling, Danvers, MA, USA).</p></sec><sec id="sec4dot4-biomolecules-07-00025"><title>4.4. Flow Cytometry</title><p>Larvae were dissected in the early third stage and wing imaginal discs were transferred to microtubes with 500 &#x000b5;L of Trypsin/EDTA (Sigma, St. Louis, MO, USA) and 10 &#x000b5;M DRAQ5 (Biostatus, Loughborough, UK). For disaggregation, imaginal discs were incubated a 25 &#x000b0;C with constant shaking for 2 h, and, to stop digestion, fetal bovine serum was added to a final concentration of 2%. Cells were filtered through a 0.35 &#x000b5;m mesh (Nythal, Heiden, Switzerland) and immediately analyzed in a FACSCanto flow cytometer (BD, Franklin Lakes, NJ, USA). Data were analyzed using FlowJo (TreeStar, Ashland, OR, USA).</p></sec></sec><sec id="sec5-biomolecules-07-00025"><title>5. Conclusions</title><p>t<sup>6</sup>A-modified tRNAs are required in <italic>Drosophila melanogaster</italic> for correct protein synthesis in order to support organismal growth and cell survival of imaginal cells.</p></sec></body><back><ack><title>Acknowledgments</title><p>This work was funded by FONDECYT 1140522 and FONDAP 15090007 grants to Alvaro Glavic and FONDECYT POSTDOC 3160326 to Diego Rojas-Ben&#x000ed;tez. We would like to thank The Company of Biologists and International Union of Biochemistry and Molecular Biology for travel funding to Diego Rojas-Ben&#x000ed;tez. Stocks obtained from the Bloomington Drosophila Stock Center (NIH P40OD018537) and the Vienna Drosophila Resource Center were used in this study.</p></ack><notes><title>Author Contributions</title><p>Diego Rojas-Ben&#x000ed;tez and Cristi&#x000e1;n Eggers conceived, performed the experiments, and wrote the paper. Alvaro Glavic conceived experiments and helped draft and revise the article for critically important intellectual content.</p></notes><notes notes-type="COI-statement"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></notes><ref-list><title>References</title><ref id="B1-biomolecules-07-00025"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Phizicky</surname><given-names>E.M.</given-names></name><name><surname>Hopper</surname><given-names>A.K.</given-names></name></person-group>
+<article-title>tRNA biology charges to the front</article-title>
+<source>Genes Dev.</source>
+<year>2010</year>
+<volume>24</volume>
+<fpage>1832</fpage>
+<lpage>1860</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1956510</pub-id>
+<?supplied-pmid 20810645?><pub-id pub-id-type="pmid">20810645</pub-id></element-citation></ref><ref id="B2-biomolecules-07-00025"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>El Yacoubi</surname><given-names>B.</given-names></name><name><surname>Bailly</surname><given-names>M.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name></person-group>
+<article-title>Biosynthesis and function of posttranscriptional modifications of transfer rnas</article-title>
+<source>Ann. Rev. Genet.</source>
+<year>2012</year>
+<volume>46</volume>
+<fpage>69</fpage>
+<lpage>95</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-genet-110711-155641</pub-id>
+<?supplied-pmid 22905870?><pub-id pub-id-type="pmid">22905870</pub-id></element-citation></ref><ref id="B3-biomolecules-07-00025"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Motorin</surname><given-names>Y.</given-names></name><name><surname>Helm</surname><given-names>M.</given-names></name></person-group>
+<article-title>tRNA stabilization by modified nucleotides</article-title>
+<source>Biochemistry</source>
+<year>2010</year>
+<volume>49</volume>
+<fpage>4934</fpage>
+<lpage>4944</lpage>
+<pub-id pub-id-type="doi">10.1021/bi100408z</pub-id>
+<?supplied-pmid 20459084?><pub-id pub-id-type="pmid">20459084</pub-id></element-citation></ref><ref id="B4-biomolecules-07-00025"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Novoa</surname><given-names>E.M.</given-names></name><name><surname>Pavon-Eternod</surname><given-names>M.</given-names></name><name><surname>Pan</surname><given-names>T.</given-names></name><name><surname>de Pouplana</surname><given-names>L.R.</given-names></name></person-group>
+<article-title>A role for tRNA modifications in genome structure and codon usage</article-title>
+<source>Cell</source>
+<year>2012</year>
+<volume>149</volume>
+<fpage>202</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.01.050</pub-id>
+<?supplied-pmid 22464330?><pub-id pub-id-type="pmid">22464330</pub-id></element-citation></ref><ref id="B5-biomolecules-07-00025"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhou</surname><given-names>M.</given-names></name><name><surname>Guo</surname><given-names>J.</given-names></name><name><surname>Cha</surname><given-names>J.</given-names></name><name><surname>Chae</surname><given-names>M.</given-names></name><name><surname>Chen</surname><given-names>S.</given-names></name><name><surname>Barral</surname><given-names>J.M.</given-names></name><name><surname>Sachs</surname><given-names>M.S.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Non-optimal codon usage affects expression, structure and function of clock protein FRQ</article-title>
+<source>Nature</source>
+<year>2013</year>
+<volume>495</volume>
+<fpage>111</fpage>
+<lpage>115</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11833</pub-id>
+<?supplied-pmid 23417067?><pub-id pub-id-type="pmid">23417067</pub-id></element-citation></ref><ref id="B6-biomolecules-07-00025"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hori</surname><given-names>H.</given-names></name></person-group>
+<article-title>Methylated nucleosides in tRNA and tRNA methyltransferases</article-title>
+<source>Front. Genet.</source>
+<year>2014</year>
+<volume>5</volume>
+<fpage>144</fpage>
+<pub-id pub-id-type="doi">10.3389/fgene.2014.00144</pub-id>
+<?supplied-pmid 24904644?><pub-id pub-id-type="pmid">24904644</pub-id></element-citation></ref><ref id="B7-biomolecules-07-00025"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Machnicka</surname><given-names>M.A.</given-names></name><name><surname>Olchowik</surname><given-names>A.</given-names></name><name><surname>Grosjean</surname><given-names>H.</given-names></name><name><surname>Bujnicki</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Distribution and frequencies of post-transcriptional modifications in tRNAs</article-title>
+<source>RNA Biol.</source>
+<year>2014</year>
+<volume>11</volume>
+<fpage>1619</fpage>
+<lpage>1629</lpage>
+<pub-id pub-id-type="doi">10.4161/15476286.2014.992273</pub-id>
+<?supplied-pmid 25611331?><pub-id pub-id-type="pmid">25611331</pub-id></element-citation></ref><ref id="B8-biomolecules-07-00025"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Daugeron</surname><given-names>M.C.</given-names></name><name><surname>Lenstra</surname><given-names>T.L.</given-names></name><name><surname>Frizzarin</surname><given-names>M.</given-names></name><name><surname>El Yacoubi</surname><given-names>B.</given-names></name><name><surname>Liu</surname><given-names>X.</given-names></name><name><surname>Baudin-Baillieu</surname><given-names>A.</given-names></name><name><surname>Lijnzaad</surname><given-names>P.</given-names></name><name><surname>Decourty</surname><given-names>L.</given-names></name><name><surname>Saveanu</surname><given-names>C.</given-names></name><name><surname>Jacquier</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Gcn4 misregulation reveals a direct role for the evolutionary conserved EKC/KEOPS in the t<sup>6</sup>A modification of tRNAs</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2011</year>
+<volume>39</volume>
+<fpage>6148</fpage>
+<lpage>6160</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkr178</pub-id>
+<?supplied-pmid 21459853?><pub-id pub-id-type="pmid">21459853</pub-id></element-citation></ref><ref id="B9-biomolecules-07-00025"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>El Yacoubi</surname><given-names>B.</given-names></name><name><surname>Hatin</surname><given-names>I.</given-names></name><name><surname>Deutsch</surname><given-names>C.</given-names></name><name><surname>Kahveci</surname><given-names>T.</given-names></name><name><surname>Rousset</surname><given-names>J.P.</given-names></name><name><surname>Iwata-Reuyl</surname><given-names>D.</given-names></name><name><surname>Murzin</surname><given-names>A.G.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name></person-group>
+<article-title>A role for the universal Kae1/Qri7/YgjD (COG0533) family in tRNA modification</article-title>
+<source>EMBO J.</source>
+<year>2011</year>
+<volume>30</volume>
+<fpage>882</fpage>
+<lpage>893</lpage>
+<pub-id pub-id-type="doi">10.1038/emboj.2010.363</pub-id>
+<?supplied-pmid 21285948?><pub-id pub-id-type="pmid">21285948</pub-id></element-citation></ref><ref id="B10-biomolecules-07-00025"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perrochia</surname><given-names>L.</given-names></name><name><surname>Crozat</surname><given-names>E.</given-names></name><name><surname>Hecker</surname><given-names>A.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Bareille</surname><given-names>J.</given-names></name><name><surname>Collinet</surname><given-names>B.</given-names></name><name><surname>van Tilbeurgh</surname><given-names>H.</given-names></name><name><surname>Forterre</surname><given-names>P.</given-names></name><name><surname>Basta</surname><given-names>T.</given-names></name></person-group>
+<article-title>In vitro biosynthesis of a universal t<sup>6</sup>A tRNA modification in archaea and eukarya</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>1953</fpage>
+<lpage>1964</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gks1287</pub-id>
+<?supplied-pmid 23258706?><pub-id pub-id-type="pmid">23258706</pub-id></element-citation></ref><ref id="B11-biomolecules-07-00025"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deutsch</surname><given-names>C.</given-names></name><name><surname>El Yacoubi</surname><given-names>B.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name><name><surname>Iwata-Reuyl</surname><given-names>D.</given-names></name></person-group>
+<article-title>Biosynthesis of threonylcarbamoyl adenosine (t<sup>6</sup>A), a universal tRNA nucleoside</article-title>
+<source>J. Biol. Chem.</source>
+<year>2012</year>
+<volume>287</volume>
+<fpage>13666</fpage>
+<lpage>13673</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M112.344028</pub-id>
+<?supplied-pmid 22378793?><pub-id pub-id-type="pmid">22378793</pub-id></element-citation></ref><ref id="B12-biomolecules-07-00025"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rojas-Benitez</surname><given-names>D.</given-names></name><name><surname>Thiaville</surname><given-names>P.C.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name><name><surname>Glavic</surname><given-names>A.</given-names></name></person-group>
+<article-title>The levels of a universally conserved trna modification regulate cell growth</article-title>
+<source>J. Biol. Chem.</source>
+<year>2015</year>
+<volume>290</volume>
+<fpage>18699</fpage>
+<lpage>18707</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M115.665406</pub-id>
+<?supplied-pmid 26063805?><pub-id pub-id-type="pmid">26063805</pub-id></element-citation></ref><ref id="B13-biomolecules-07-00025"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>C.J.</given-names></name><name><surname>Smibert</surname><given-names>P.</given-names></name><name><surname>Zhao</surname><given-names>X.</given-names></name><name><surname>Hu</surname><given-names>J.F.</given-names></name><name><surname>Ramroop</surname><given-names>J.</given-names></name><name><surname>Kellner</surname><given-names>S.M.</given-names></name><name><surname>Benton</surname><given-names>M.A.</given-names></name><name><surname>Govind</surname><given-names>S.</given-names></name><name><surname>Dedon</surname><given-names>P.C.</given-names></name><name><surname>Sternglanz</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>An extensive allelic series of drosophila <italic>kae1</italic> mutants reveals diverse and tissue-specific requirements for t<sup>6</sup>A biogenesis</article-title>
+<source>RNA</source>
+<year>2015</year>
+<volume>21</volume>
+<fpage>2103</fpage>
+<lpage>2118</lpage>
+<pub-id pub-id-type="doi">10.1261/rna.053934.115</pub-id>
+<?supplied-pmid 26516084?><pub-id pub-id-type="pmid">26516084</pub-id></element-citation></ref><ref id="B14-biomolecules-07-00025"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elkins</surname><given-names>B.N.</given-names></name><name><surname>Keller</surname><given-names>E.B.</given-names></name></person-group>
+<article-title>The enzymatic synthesis of <italic>N</italic>-(purin-6-ylcarbamoyl)threonine, an anticodon-adjacent base in transfer ribonucleic acid</article-title>
+<source>Biochemistry</source>
+<year>1974</year>
+<volume>13</volume>
+<fpage>4622</fpage>
+<lpage>4628</lpage>
+<pub-id pub-id-type="doi">10.1021/bi00719a024</pub-id>
+<?supplied-pmid 4609459?><pub-id pub-id-type="pmid">4609459</pub-id></element-citation></ref><ref id="B15-biomolecules-07-00025"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Korner</surname><given-names>A.</given-names></name><name><surname>Soll</surname><given-names>D.</given-names></name></person-group>
+<article-title><italic>N</italic>-(purin-6-ylcarbamoyl)threonine: Biosynthesis in vitro in transfer RNA by an enzyme purified from <italic>Escherichia coli</italic></article-title>
+<source>FEBS Lett.</source>
+<year>1974</year>
+<volume>39</volume>
+<fpage>301</fpage>
+<lpage>306</lpage>
+<pub-id pub-id-type="doi">10.1016/0014-5793(74)80135-3</pub-id>
+<pub-id pub-id-type="pmid">4604806</pub-id></element-citation></ref><ref id="B16-biomolecules-07-00025"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chheda</surname><given-names>G.B.</given-names></name><name><surname>Hong</surname><given-names>C.I.</given-names></name><name><surname>Piskorz</surname><given-names>C.F.</given-names></name><name><surname>Harmon</surname><given-names>G.A.</given-names></name></person-group>
+<article-title>Biosynthesis of <italic>N</italic>-(purin-6-ylcarbamoyl)-<sc>l</sc>-threonine riboside. Incorporation of <sc>l</sc>-threonine in vivo into modified nucleoside of transfer ribonucleic acid</article-title>
+<source>Biochem. J.</source>
+<year>1972</year>
+<volume>127</volume>
+<fpage>515</fpage>
+<lpage>519</lpage>
+<pub-id pub-id-type="doi">10.1042/bj1270515</pub-id>
+<?supplied-pmid 4561775?><pub-id pub-id-type="pmid">4561775</pub-id></element-citation></ref><ref id="B17-biomolecules-07-00025"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perrochia</surname><given-names>L.</given-names></name><name><surname>Guetta</surname><given-names>D.</given-names></name><name><surname>Hecker</surname><given-names>A.</given-names></name><name><surname>Forterre</surname><given-names>P.</given-names></name><name><surname>Basta</surname><given-names>T.</given-names></name></person-group>
+<article-title>Functional assignment of KEOPS/EKC complex subunits in the biosynthesis of the universal t<sup>6</sup>A trna modification</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>9484</fpage>
+<lpage>9499</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkt720</pub-id>
+<?supplied-pmid 23945934?><pub-id pub-id-type="pmid">23945934</pub-id></element-citation></ref><ref id="B18-biomolecules-07-00025"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiaville</surname><given-names>P.C.</given-names></name><name><surname>Iwata-Reuyl</surname><given-names>D.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name></person-group>
+<article-title>Diversity of the biosynthesis pathway for threonylcarbamoyladenosine (t(6)A), a universal modification of tRNA</article-title>
+<source>RNA Biol.</source>
+<year>2014</year>
+<volume>11</volume>
+<fpage>1529</fpage>
+<lpage>1539</lpage>
+<pub-id pub-id-type="doi">10.4161/15476286.2014.992277</pub-id>
+<?supplied-pmid 25629598?><pub-id pub-id-type="pmid">25629598</pub-id></element-citation></ref><ref id="B19-biomolecules-07-00025"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ibar</surname><given-names>C.</given-names></name><name><surname>Cataldo</surname><given-names>V.F.</given-names></name><name><surname>Vasquez-Doorman</surname><given-names>C.</given-names></name><name><surname>Olguin</surname><given-names>P.</given-names></name><name><surname>Glavic</surname><given-names>A.</given-names></name></person-group>
+<article-title>Drosophila p53-related protein kinase is required for PI3K/TOR pathway-dependent growth</article-title>
+<source>Development</source>
+<year>2013</year>
+<volume>140</volume>
+<fpage>1282</fpage>
+<lpage>1291</lpage>
+<pub-id pub-id-type="doi">10.1242/dev.086918</pub-id>
+<?supplied-pmid 23444356?><pub-id pub-id-type="pmid">23444356</pub-id></element-citation></ref><ref id="B20-biomolecules-07-00025"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiaville</surname><given-names>P.C.</given-names></name><name><surname>Legendre</surname><given-names>R.</given-names></name><name><surname>Rojas-Benitez</surname><given-names>D.</given-names></name><name><surname>Baudin-Baillieu</surname><given-names>A.</given-names></name><name><surname>Hatin</surname><given-names>I.</given-names></name><name><surname>Chalancon</surname><given-names>G.</given-names></name><name><surname>Glavic</surname><given-names>A.</given-names></name><name><surname>Namy</surname><given-names>O.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name></person-group>
+<article-title>Global translational impacts of the loss of the trna modification t<sup>6</sup>A in yeast</article-title>
+<source>Microb. Cell</source>
+<year>2016</year>
+<volume>3</volume>
+<fpage>29</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="doi">10.15698/mic2016.01.473</pub-id>
+<?supplied-pmid 26798630?><pub-id pub-id-type="pmid">26798630</pub-id></element-citation></ref><ref id="B21-biomolecules-07-00025"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rojas-Benitez</surname><given-names>D.</given-names></name><name><surname>Ibar</surname><given-names>C.</given-names></name><name><surname>Glavic</surname><given-names>A.</given-names></name></person-group>
+<article-title>The drosophila EKC/KEOPS complex: Roles in protein synthesis homeostasis and animal growth</article-title>
+<source>Fly</source>
+<year>2013</year>
+<volume>7</volume>
+<fpage>168</fpage>
+<lpage>172</lpage>
+<pub-id pub-id-type="doi">10.4161/fly.25227</pub-id>
+<?supplied-pmid 23823807?><pub-id pub-id-type="pmid">23823807</pub-id></element-citation></ref><ref id="B22-biomolecules-07-00025"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hetz</surname><given-names>C.</given-names></name><name><surname>Chevet</surname><given-names>E.</given-names></name><name><surname>Oakes</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Proteostasis control by the unfolded protein response</article-title>
+<source>Nat. Cell Biol.</source>
+<year>2015</year>
+<volume>17</volume>
+<fpage>829</fpage>
+<lpage>838</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb3184</pub-id>
+<?supplied-pmid 26123108?><pub-id pub-id-type="pmid">26123108</pub-id></element-citation></ref><ref id="B23-biomolecules-07-00025"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brand</surname><given-names>A.H.</given-names></name><name><surname>Perrimon</surname><given-names>N.</given-names></name></person-group>
+<article-title>Targeted gene expression as a means of altering cell fates and generating dominant phenotypes</article-title>
+<source>Development</source>
+<year>1993</year>
+<volume>118</volume>
+<fpage>401</fpage>
+<lpage>415</lpage>
+<?supplied-pmid 8223268?><pub-id pub-id-type="pmid">8223268</pub-id></element-citation></ref><ref id="B24-biomolecules-07-00025"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>K.</given-names></name><name><surname>Lee</surname><given-names>Y.S.</given-names></name><name><surname>Harris</surname><given-names>D.</given-names></name><name><surname>Nakahara</surname><given-names>K.</given-names></name><name><surname>Carthew</surname><given-names>R.W.</given-names></name></person-group>
+<article-title>The RNAi pathway initiated by Dicer-2 in <italic>Drosophila</italic></article-title>
+<source>Cold Spring Harb. Symp. Quant. Biol.</source>
+<year>2006</year>
+<volume>71</volume>
+<fpage>39</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="doi">10.1101/sqb.2006.71.008</pub-id>
+<?supplied-pmid 17381278?><pub-id pub-id-type="pmid">17381278</pub-id></element-citation></ref><ref id="B25-biomolecules-07-00025"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dietzl</surname><given-names>G.</given-names></name><name><surname>Chen</surname><given-names>D.</given-names></name><name><surname>Schnorrer</surname><given-names>F.</given-names></name><name><surname>Su</surname><given-names>K.C.</given-names></name><name><surname>Barinova</surname><given-names>Y.</given-names></name><name><surname>Fellner</surname><given-names>M.</given-names></name><name><surname>Gasser</surname><given-names>B.</given-names></name><name><surname>Kinsey</surname><given-names>K.</given-names></name><name><surname>Oppel</surname><given-names>S.</given-names></name><name><surname>Scheiblauer</surname><given-names>S.</given-names></name><etal/></person-group>
+<article-title>A genome-wide transgenic RNAi library for conditional gene inactivation in <italic>Drosophila</italic></article-title>
+<source>Nature</source>
+<year>2007</year>
+<volume>448</volume>
+<fpage>151</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="doi">10.1038/nature05954</pub-id>
+<?supplied-pmid 17625558?><pub-id pub-id-type="pmid">17625558</pub-id></element-citation></ref><ref id="B26-biomolecules-07-00025"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perkins</surname><given-names>L.A.</given-names></name><name><surname>Holderbaum</surname><given-names>L.</given-names></name><name><surname>Tao</surname><given-names>R.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Sopko</surname><given-names>R.</given-names></name><name><surname>McCall</surname><given-names>K.</given-names></name><name><surname>Yang-Zhou</surname><given-names>D.</given-names></name><name><surname>Flockhart</surname><given-names>I.</given-names></name><name><surname>Binari</surname><given-names>R.</given-names></name><name><surname>Shim</surname><given-names>H.S.</given-names></name><etal/></person-group>
+<article-title>The transgenic RNAi project at harvard medical school: Resources and validation</article-title>
+<source>Genetics</source>
+<year>2015</year>
+<volume>201</volume>
+<fpage>843</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="doi">10.1534/genetics.115.180208</pub-id>
+<?supplied-pmid 26320097?><pub-id pub-id-type="pmid">26320097</pub-id></element-citation></ref><ref id="B27-biomolecules-07-00025"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Comjean</surname><given-names>A.</given-names></name><name><surname>Roesel</surname><given-names>C.</given-names></name><name><surname>Vinayagam</surname><given-names>A.</given-names></name><name><surname>Flockhart</surname><given-names>I.</given-names></name><name><surname>Zirin</surname><given-names>J.</given-names></name><name><surname>Perkins</surname><given-names>L.</given-names></name><name><surname>Perrimon</surname><given-names>N.</given-names></name><name><surname>Mohr</surname><given-names>S.E.</given-names></name></person-group>
+<article-title>FlyRNAi.Org&#x02014;The database of the drosophila RNAi screening center and transgenic RNAi project: 2017 update</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2017</year>
+<volume>45</volume>
+<fpage>D672</fpage>
+<lpage>D678</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkw977</pub-id>
+<?supplied-pmid 27924039?><pub-id pub-id-type="pmid">27924039</pub-id></element-citation></ref><ref id="B28-biomolecules-07-00025"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morata</surname><given-names>G.</given-names></name></person-group>
+<article-title>How <italic>drosophila</italic> appendages develop</article-title>
+<source>Nat. Rev. Mol. Cell Biol.</source>
+<year>2001</year>
+<volume>2</volume>
+<fpage>89</fpage>
+<lpage>97</lpage>
+<pub-id pub-id-type="doi">10.1038/35052047</pub-id>
+<?supplied-pmid 11252967?><pub-id pub-id-type="pmid">11252967</pub-id></element-citation></ref><ref id="B29-biomolecules-07-00025"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brower</surname><given-names>D.L.</given-names></name></person-group>
+<article-title>Engrailed gene expression in <italic>Drosophila</italic> imaginal discs</article-title>
+<source>EMBO J.</source>
+<year>1986</year>
+<volume>5</volume>
+<fpage>2649</fpage>
+<lpage>2656</lpage>
+<?supplied-pmid 3536480?><pub-id pub-id-type="pmid">3536480</pub-id></element-citation></ref><ref id="B30-biomolecules-07-00025"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vermes</surname><given-names>I.</given-names></name><name><surname>Haanen</surname><given-names>C.</given-names></name><name><surname>Reutelingsperger</surname><given-names>C.</given-names></name></person-group>
+<article-title>Flow cytometry of apoptotic cell death</article-title>
+<source>J. Immunol. Methods</source>
+<year>2000</year>
+<volume>243</volume>
+<fpage>167</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="doi">10.1016/S0022-1759(00)00233-7</pub-id>
+<pub-id pub-id-type="pmid">10986414</pub-id></element-citation></ref><ref id="B31-biomolecules-07-00025"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohtsubo</surname><given-names>T.</given-names></name><name><surname>Kamada</surname><given-names>S.</given-names></name><name><surname>Tsujimoto</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Inhibition of apoptosis by a baculovirus <italic>p35</italic> gene</article-title>
+<source>Nihon Rinsho. J. J. Clin. Med.</source>
+<year>1996</year>
+<volume>54</volume>
+<fpage>1907</fpage>
+<lpage>1911</lpage>
+</element-citation></ref><ref id="B32-biomolecules-07-00025"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hay</surname><given-names>B.A.</given-names></name><name><surname>Wolff</surname><given-names>T.</given-names></name><name><surname>Rubin</surname><given-names>G.M.</given-names></name></person-group>
+<article-title>Expression of baculovirus p35 prevents cell death in <italic>Drosophila</italic></article-title>
+<source>Development</source>
+<year>1994</year>
+<volume>120</volume>
+<fpage>2121</fpage>
+<lpage>2129</lpage>
+<?supplied-pmid 7925015?><pub-id pub-id-type="pmid">7925015</pub-id></element-citation></ref><ref id="B33-biomolecules-07-00025"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Igaki</surname><given-names>T.</given-names></name><name><surname>Kanda</surname><given-names>H.</given-names></name><name><surname>Yamamoto-Goto</surname><given-names>Y.</given-names></name><name><surname>Kanuka</surname><given-names>H.</given-names></name><name><surname>Kuranaga</surname><given-names>E.</given-names></name><name><surname>Aigaki</surname><given-names>T.</given-names></name><name><surname>Miura</surname><given-names>M.</given-names></name></person-group>
+<article-title>Eiger, a TNF superfamily ligand that triggers the drosophila JNK pathway</article-title>
+<source>EMBO J.</source>
+<year>2002</year>
+<volume>21</volume>
+<fpage>3009</fpage>
+<lpage>3018</lpage>
+<pub-id pub-id-type="doi">10.1093/emboj/cdf306</pub-id>
+<?supplied-pmid 12065414?><pub-id pub-id-type="pmid">12065414</pub-id></element-citation></ref><ref id="B34-biomolecules-07-00025"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hetz</surname><given-names>C.</given-names></name></person-group>
+<article-title>The biological meaning of the UPR</article-title>
+<source>Nat. Rev. Mol. Cell Biol.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>404</fpage>
+<pub-id pub-id-type="doi">10.1038/nrm3606</pub-id>
+<?supplied-pmid 23756618?><pub-id pub-id-type="pmid">23756618</pub-id></element-citation></ref><ref id="B35-biomolecules-07-00025"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Demay</surname><given-names>Y.</given-names></name><name><surname>Perochon</surname><given-names>J.</given-names></name><name><surname>Szuplewski</surname><given-names>S.</given-names></name><name><surname>Mignotte</surname><given-names>B.</given-names></name><name><surname>Gaumer</surname><given-names>S.</given-names></name></person-group>
+<article-title>The PERK pathway independently triggers apoptosis and a Rac1/Slpr/JNK/Dilp8 signaling favoring tissue homeostasis in a chronic ER stress drosophila model</article-title>
+<source>Cell Death Dis.</source>
+<year>2014</year>
+<volume>5</volume>
+<fpage>e1452</fpage>
+<pub-id pub-id-type="doi">10.1038/cddis.2014.403</pub-id>
+<?supplied-pmid 25299777?><pub-id pub-id-type="pmid">25299777</pub-id></element-citation></ref><ref id="B36-biomolecules-07-00025"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kang</surname><given-names>K.</given-names></name><name><surname>Ryoo</surname><given-names>H.D.</given-names></name><name><surname>Park</surname><given-names>J.E.</given-names></name><name><surname>Yoon</surname><given-names>J.H.</given-names></name><name><surname>Kang</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>A Drosophila reporter for the translational activation of ATF4 marks stressed cells during development</article-title>
+<source>PLoS ONE</source>
+<year>2015</year>
+<volume>10</volume>
+<elocation-id>e0126795</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0126795</pub-id>
+<?supplied-pmid 25978358?><pub-id pub-id-type="pmid">25978358</pub-id></element-citation></ref><ref id="B37-biomolecules-07-00025"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sone</surname><given-names>M.</given-names></name><name><surname>Zeng</surname><given-names>X.</given-names></name><name><surname>Larese</surname><given-names>J.</given-names></name><name><surname>Ryoo</surname><given-names>H.D.</given-names></name></person-group>
+<article-title>A modified upr stress sensing system reveals a novel tissue distribution of IRE1/XBP1 activity during normal <italic>Drosophila</italic> development</article-title>
+<source>Cell Stress Chaperones</source>
+<year>2013</year>
+<volume>18</volume>
+<fpage>307</fpage>
+<lpage>319</lpage>
+<pub-id pub-id-type="doi">10.1007/s12192-012-0383-x</pub-id>
+<?supplied-pmid 23160805?><pub-id pub-id-type="pmid">23160805</pub-id></element-citation></ref><ref id="B38-biomolecules-07-00025"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mayer</surname><given-names>M.P.</given-names></name><name><surname>Bukau</surname><given-names>B.</given-names></name></person-group>
+<article-title>Hsp70 chaperones: Cellular functions and molecular mechanism</article-title>
+<source>Cell. Mol. Life Sci. CMLS</source>
+<year>2005</year>
+<volume>62</volume>
+<fpage>670</fpage>
+<lpage>684</lpage>
+<pub-id pub-id-type="doi">10.1007/s00018-004-4464-6</pub-id>
+<?supplied-pmid 15770419?><pub-id pub-id-type="pmid">15770419</pub-id></element-citation></ref><ref id="B39-biomolecules-07-00025"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Machnicka</surname><given-names>M.A.</given-names></name><name><surname>Milanowska</surname><given-names>K.</given-names></name><name><surname>Osman Oglou</surname><given-names>O.</given-names></name><name><surname>Purta</surname><given-names>E.</given-names></name><name><surname>Kurkowska</surname><given-names>M.</given-names></name><name><surname>Olchowik</surname><given-names>A.</given-names></name><name><surname>Januszewski</surname><given-names>W.</given-names></name><name><surname>Kalinowski</surname><given-names>S.</given-names></name><name><surname>Dunin-Horkawicz</surname><given-names>S.</given-names></name><name><surname>Rother</surname><given-names>K.M.</given-names></name><etal/></person-group>
+<article-title>Modomics: A database of RNA modification pathways&#x02014;2013 update</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>D262</fpage>
+<lpage>D267</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gks1007</pub-id>
+<?supplied-pmid 23118484?><pub-id pub-id-type="pmid">23118484</pub-id></element-citation></ref><ref id="B40-biomolecules-07-00025"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Helm</surname><given-names>M.</given-names></name></person-group>
+<article-title>Post-transcriptional nucleotide modification and alternative folding of RNA</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2006</year>
+<volume>34</volume>
+<fpage>721</fpage>
+<lpage>733</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkj471</pub-id>
+<?supplied-pmid 16452298?><pub-id pub-id-type="pmid">16452298</pub-id></element-citation></ref><ref id="B41-biomolecules-07-00025"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alexandrov</surname><given-names>A.</given-names></name><name><surname>Chernyakov</surname><given-names>I.</given-names></name><name><surname>Gu</surname><given-names>W.</given-names></name><name><surname>Hiley</surname><given-names>S.L.</given-names></name><name><surname>Hughes</surname><given-names>T.R.</given-names></name><name><surname>Grayhack</surname><given-names>E.J.</given-names></name><name><surname>Phizicky</surname><given-names>E.M.</given-names></name></person-group>
+<article-title>Rapid tRNA decay can result from lack of nonessential modifications</article-title>
+<source>Mol. Cell</source>
+<year>2006</year>
+<volume>21</volume>
+<fpage>87</fpage>
+<lpage>96</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2005.10.036</pub-id>
+<?supplied-pmid 16387656?><pub-id pub-id-type="pmid">16387656</pub-id></element-citation></ref><ref id="B42-biomolecules-07-00025"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grosjean</surname><given-names>H.</given-names></name><name><surname>Breton</surname><given-names>M.</given-names></name><name><surname>Sirand-Pugnet</surname><given-names>P.</given-names></name><name><surname>Tardy</surname><given-names>F.</given-names></name><name><surname>Thiaucourt</surname><given-names>F.</given-names></name><name><surname>Citti</surname><given-names>C.</given-names></name><name><surname>Barre</surname><given-names>A.</given-names></name><name><surname>Yoshizawa</surname><given-names>S.</given-names></name><name><surname>Fourmy</surname><given-names>D.</given-names></name><name><surname>de Crecy-Lagard</surname><given-names>V.</given-names></name><etal/></person-group>
+<article-title>Predicting the minimal translation apparatus: Lessons from the reductive evolution of mollicutes</article-title>
+<source>PLoS Genet.</source>
+<year>2014</year>
+<volume>10</volume>
+<elocation-id>e1004363</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1004363</pub-id>
+<?supplied-pmid 24809820?><pub-id pub-id-type="pmid">24809820</pub-id></element-citation></ref><ref id="B43-biomolecules-07-00025"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yarian</surname><given-names>C.</given-names></name><name><surname>Townsend</surname><given-names>H.</given-names></name><name><surname>Czestkowski</surname><given-names>W.</given-names></name><name><surname>Sochacka</surname><given-names>E.</given-names></name><name><surname>Malkiewicz</surname><given-names>A.J.</given-names></name><name><surname>Guenther</surname><given-names>R.</given-names></name><name><surname>Miskiewicz</surname><given-names>A.</given-names></name><name><surname>Agris</surname><given-names>P.F.</given-names></name></person-group>
+<article-title>Accurate translation of the genetic code depends on tRNA modified nucleosides</article-title>
+<source>J. Biol. Chem.</source>
+<year>2002</year>
+<volume>277</volume>
+<fpage>16391</fpage>
+<lpage>16395</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M200253200</pub-id>
+<?supplied-pmid 11861649?><pub-id pub-id-type="pmid">11861649</pub-id></element-citation></ref><ref id="B44-biomolecules-07-00025"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKenney</surname><given-names>K.M.</given-names></name><name><surname>Alfonzo</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>From prebiotics to probiotics: The evolution and functions of tRNA modifications</article-title>
+<source>Life</source>
+<year>2016</year>
+<volume>6</volume>
+<fpage>13</fpage>
+<pub-id pub-id-type="doi">10.3390/life6010013</pub-id>
+<?supplied-pmid 26985907?><pub-id pub-id-type="pmid">26985907</pub-id></element-citation></ref><ref id="B45-biomolecules-07-00025"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Torres</surname><given-names>A.G.</given-names></name><name><surname>Batlle</surname><given-names>E.</given-names></name><name><surname>de Pouplana</surname><given-names>L.R.</given-names></name></person-group>
+<article-title>Role of tRNA modifications in human diseases</article-title>
+<source>Trends Mol. Med.</source>
+<year>2014</year>
+<volume>20</volume>
+<fpage>306</fpage>
+<lpage>314</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molmed.2014.01.008</pub-id>
+<?supplied-pmid 24581449?><pub-id pub-id-type="pmid">24581449</pub-id></element-citation></ref><ref id="B46-biomolecules-07-00025"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kirchner</surname><given-names>S.</given-names></name><name><surname>Ignatova</surname><given-names>Z.</given-names></name></person-group>
+<article-title>Emerging roles of trna in adaptive translation, signalling dynamics and disease</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2015</year>
+<volume>16</volume>
+<fpage>98</fpage>
+<lpage>112</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg3861</pub-id>
+<?supplied-pmid 25534324?><pub-id pub-id-type="pmid">25534324</pub-id></element-citation></ref><ref id="B47-biomolecules-07-00025"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>St Pierre</surname><given-names>S.E.</given-names></name><name><surname>Ponting</surname><given-names>L.</given-names></name><name><surname>Stefancsik</surname><given-names>R.</given-names></name><name><surname>McQuilton</surname><given-names>P.</given-names></name><name><surname>FlyBase</surname><given-names>C.</given-names></name></person-group>
+<article-title>Flybase 102&#x02014;Advanced approaches to interrogating FlyBase</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>D780</fpage>
+<lpage>D788</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkt1092</pub-id>
+<?supplied-pmid 24234449?><pub-id pub-id-type="pmid">24234449</pub-id></element-citation></ref><ref id="B48-biomolecules-07-00025"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Uhlen</surname><given-names>M.</given-names></name><name><surname>Fagerberg</surname><given-names>L.</given-names></name><name><surname>Hallstrom</surname><given-names>B.M.</given-names></name><name><surname>Lindskog</surname><given-names>C.</given-names></name><name><surname>Oksvold</surname><given-names>P.</given-names></name><name><surname>Mardinoglu</surname><given-names>A.</given-names></name><name><surname>Sivertsson</surname><given-names>A.</given-names></name><name><surname>Kampf</surname><given-names>C.</given-names></name><name><surname>Sjostedt</surname><given-names>E.</given-names></name><name><surname>Asplund</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Proteomics. Tissue-based map of the human proteome</article-title>
+<source>Science</source>
+<year>2015</year>
+<volume>347</volume>
+<fpage>1260419</fpage>
+<pub-id pub-id-type="doi">10.1126/science.1260419</pub-id>
+<?supplied-pmid 25613900?><pub-id pub-id-type="pmid">25613900</pub-id></element-citation></ref><ref id="B49-biomolecules-07-00025"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>M.Y.</given-names></name><name><surname>Cully</surname><given-names>M.</given-names></name><name><surname>Andersen</surname><given-names>D.</given-names></name><name><surname>Leevers</surname><given-names>S.J.</given-names></name></person-group>
+<article-title>Insulin delays the progression of <italic>Drosophila</italic> cells through G2/M by activating the dTOR/dRaptor complex</article-title>
+<source>EMBO J.</source>
+<year>2007</year>
+<volume>26</volume>
+<fpage>371</fpage>
+<lpage>379</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.emboj.7601487</pub-id>
+<?supplied-pmid 17183368?><pub-id pub-id-type="pmid">17183368</pub-id></element-citation></ref><ref id="B50-biomolecules-07-00025"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duechler</surname><given-names>M.</given-names></name><name><surname>Leszczynska</surname><given-names>G.</given-names></name><name><surname>Sochacka</surname><given-names>E.</given-names></name><name><surname>Nawrot</surname><given-names>B.</given-names></name></person-group>
+<article-title>Nucleoside modifications in the regulation of gene expression: Focus on trna</article-title>
+<source>Cell. Mol. Life Sci. CMLS</source>
+<year>2016</year>
+<volume>73</volume>
+<fpage>3075</fpage>
+<lpage>3095</lpage>
+<pub-id pub-id-type="doi">10.1007/s00018-016-2217-y</pub-id>
+<?supplied-pmid 27094388?><pub-id pub-id-type="pmid">27094388</pub-id></element-citation></ref><ref id="B51-biomolecules-07-00025"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Endres</surname><given-names>L.</given-names></name><name><surname>Dedon</surname><given-names>P.C.</given-names></name><name><surname>Begley</surname><given-names>T.J.</given-names></name></person-group>
+<article-title>Codon-biased translation can be regulated by wobble-base tRNA modification systems during cellular stress responses</article-title>
+<source>RNA Biol.</source>
+<year>2015</year>
+<volume>12</volume>
+<fpage>603</fpage>
+<lpage>614</lpage>
+<pub-id pub-id-type="doi">10.1080/15476286.2015.1031947</pub-id>
+<?supplied-pmid 25892531?><pub-id pub-id-type="pmid">25892531</pub-id></element-citation></ref><ref id="B52-biomolecules-07-00025"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chan</surname><given-names>C.T.</given-names></name><name><surname>Pang</surname><given-names>Y.L.</given-names></name><name><surname>Deng</surname><given-names>W.</given-names></name><name><surname>Babu</surname><given-names>I.R.</given-names></name><name><surname>Dyavaiah</surname><given-names>M.</given-names></name><name><surname>Begley</surname><given-names>T.J.</given-names></name><name><surname>Dedon</surname><given-names>P.C.</given-names></name></person-group>
+<article-title>Reprogramming of tRNA modifications controls the oxidative stress response by codon-biased translation of proteins</article-title>
+<source>Nat. Commun.</source>
+<year>2012</year>
+<volume>3</volume>
+<fpage>937</fpage>
+<pub-id pub-id-type="doi">10.1038/ncomms1938</pub-id>
+<?supplied-pmid 22760636?><pub-id pub-id-type="pmid">22760636</pub-id></element-citation></ref><ref id="B53-biomolecules-07-00025"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klassen</surname><given-names>R.</given-names></name><name><surname>Grunewald</surname><given-names>P.</given-names></name><name><surname>Thuring</surname><given-names>K.L.</given-names></name><name><surname>Eichler</surname><given-names>C.</given-names></name><name><surname>Helm</surname><given-names>M.</given-names></name><name><surname>Schaffrath</surname><given-names>R.</given-names></name></person-group>
+<article-title>Loss of anticodon wobble uridine modifications affects tRNA<sup>lys</sup> function and protein levels in <italic>Saccharomyces cerevisiae</italic></article-title>
+<source>PLoS ONE</source>
+<year>2015</year>
+<volume>10</volume>
+<elocation-id>e0119261</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0119261</pub-id>
+<?supplied-pmid 25747122?><pub-id pub-id-type="pmid">25747122</pub-id></element-citation></ref><ref id="B54-biomolecules-07-00025"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zinshteyn</surname><given-names>B.</given-names></name><name><surname>Gilbert</surname><given-names>W.V.</given-names></name></person-group>
+<article-title>Loss of a conserved trna anticodon modification perturbs cellular signaling</article-title>
+<source>PLoS Genet.</source>
+<year>2013</year>
+<volume>9</volume>
+<elocation-id>e1003675</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1003675</pub-id>
+<?supplied-pmid 23935536?><pub-id pub-id-type="pmid">23935536</pub-id></element-citation></ref><ref id="B55-biomolecules-07-00025"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mullor</surname><given-names>J.L.</given-names></name><name><surname>Guerrero</surname><given-names>I.</given-names></name></person-group>
+<article-title>A gain-of-function mutant of patched dissects different responses to the hedgehog gradient</article-title>
+<source>Dev. Biol.</source>
+<year>2000</year>
+<volume>228</volume>
+<fpage>211</fpage>
+<lpage>224</lpage>
+<pub-id pub-id-type="doi">10.1006/dbio.2000.9862</pub-id>
+<?supplied-pmid 11112325?><pub-id pub-id-type="pmid">11112325</pub-id></element-citation></ref><ref id="B56-biomolecules-07-00025"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cruz</surname><given-names>C.</given-names></name><name><surname>Glavic</surname><given-names>A.</given-names></name><name><surname>Casado</surname><given-names>M.</given-names></name><name><surname>de Celis</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>A gain-of-function screen identifying genes required for growth and pattern formation of the <italic>Drosophila</italic>
+<italic>melanogaster</italic> wing</article-title>
+<source>Genetics</source>
+<year>2009</year>
+<volume>183</volume>
+<fpage>1005</fpage>
+<lpage>1026</lpage>
+<pub-id pub-id-type="doi">10.1534/genetics.109.107748</pub-id>
+<?supplied-pmid 19737745?><pub-id pub-id-type="pmid">19737745</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="biomolecules-07-00025-f001" position="float"><label>Figure 1</label><caption><p><italic>N</italic><sup>6</sup>-threonylcarbamoyladenosine (t<sup>6</sup>A) is harbored in position 37 of A-starting codons (ANN)-pairing transfer RNAs (tRNAs). The schematic representation of the anticodon loop of an ANN-pairing tRNA: t<sup>6</sup>A at position 37 is represented as a red full circle; the anticodon is represented in yellow; and the rest of the tRNA in light blue. Messenger RNA (mRNA) is represented at the bottom in light blue circles and the codon in yellow. Codon-anticodon interactions are depicted with dotted lines, and are stabilized by t<sup>6</sup>A, thus preventing intra-loop bonding between positions U33 and A37.</p></caption><graphic xlink:href="biomolecules-07-00025-g001"/></fig><fig id="biomolecules-07-00025-f002" position="float"><label>Figure 2</label><caption><p>Ubiquitous knockdown of t<sup>6</sup>A modification system results in reduced larval size. Ubiquitous knock down of components of the threonyl-carbamoyl transferase complex (TCTC) and <italic>tcs2</italic> was achieved using the Gal4/UAS system. For this, the <italic>tub</italic> &#x0003e; Gal4 driver was used and animal size was evaluated at three different time points. The figure shows the representative images of the individuals depicted at different times after egg laying (AEL).</p></caption><graphic xlink:href="biomolecules-07-00025-g002"/></fig><fig id="biomolecules-07-00025-f003" position="float"><label>Figure 3</label><caption><p><italic>tcs3</italic> knockdown causes apoptosis in imaginal cells. (<bold>A</bold>) Using the Gal4/UAS system <italic>tcs3</italic> was knocked-down in the wing disc posterior compartment (<italic>engrailed</italic> driver, <italic>en</italic> &#x0003e; Gal4; bottom part of the wing where the boundary between the anterior and posterior compartments is indicated with a black line). Representative pictures of the observed phenotypes are shown. Control (<italic>en</italic> &#x0003e; Gal4/+); (<bold>B</bold>) <italic>tcs3</italic> knock down (<italic>en</italic> &#x0003e; Tcs3-IR); (<bold>C</bold>) co-expression of Tcs3 and Tsc3-IR; (<bold>D</bold>) <italic>hedgehog</italic> driver (<italic>hh</italic> &#x0003e; Gal4) was used to knock down <italic>tcs3</italic> and express GFP in the wing posterior compartment. Wing discs were disaggregated and cells analyzed by flow cytometry. Control cells (GFP-, anterior compartment) and GFP+ (<italic>hh</italic> &#x0003e; Tcs3-IR, GFP) were analyzed for DNA content (DRAQ5). The sub G1 population is indicated by a black line over the curve; (<bold>E</bold>) cleaved Caspase-3 (C3*) was detected by immunofluorescence in wing discs in which tcs3 was silenced in the GFP expressing domain using the <italic>hedgehog</italic> driver. A white line indicates the boundary of the anterior (ant) and posterior (pos) compartments; bar 100 &#x000b5;m; (<bold>F</bold>) Simultaneous <italic>tcs3</italic> knockdown and p35 expression or (<bold>G</bold>) BSK dominant negative (BSK<sup>DN</sup>) expression. (<bold>H</bold>) Quantification of the area of sector D in the wings of these animals (green section in control) (<italic>n</italic> = 15, ANOVA, <italic>p</italic> &#x0003c; 0.005).</p></caption><graphic xlink:href="biomolecules-07-00025-g003"/></fig><fig id="biomolecules-07-00025-f004" position="float"><label>Figure 4</label><caption><p>Unfolded protein response (UPR) is activated in larval and imaginal cells deficient of t<sup>6</sup>A modified tRNAs. In vivo UPR activation reporters were used. (<bold>A</bold>&#x02013;<bold>E</bold>) Construct in which the 5&#x02019;UTR of Atf4 mRNA was fused with dsRed and expressed ubiquitously; when the PERK/Atf4 branch of the UPR is activated, dsRed is translated. In this reporter background, t<sup>6</sup>A synthetic machinery was knocked-down exclusively in the fat body using <italic>collagen type IV</italic> driver (<italic>cg</italic> &#x0003e; Gal4). Nuclei were stained with TO-PRO3. Bar 100 &#x000b5;m; (<bold>F</bold>) <italic>tcs3</italic> was knocked-down using the <italic>nubbin</italic> &#x0003e; Gal4 driver, simultaneously an Ire1 branch UPR reporter was expressed. Upon UPR activation, the Xbp-1::GFP message was spliced and the fusion protein synthetized. F-actin was stained with phalloidin (Phall) and nuclei with TO-PRO3 (TOPRO). Bar 100 &#x000b5;m.</p></caption><graphic xlink:href="biomolecules-07-00025-g004"/></fig><fig id="biomolecules-07-00025-f005" position="float"><label>Figure 5</label><caption><p>Enhancement of protein folding capacity of cells partially reverted wing phenotype. (<bold>A</bold>) Control wings (<italic>en</italic> &#x0003e; Gal4/+), using the <italic>en</italic> &#x0003e; Gal4 driver we simultaneously knocked-down <italic>tcs3</italic> (<bold>B</bold>) and overexpressed (<bold>C</bold>) Xbp1::GFP or (<bold>D</bold>) Hsc70. (<bold>E</bold>) Quantification of the area of sector D (<italic>n</italic> = 15, ANOVA, <italic>p</italic> &#x0003c; 0.005).</p></caption><graphic xlink:href="biomolecules-07-00025-g005"/></fig><table-wrap id="biomolecules-07-00025-t001" position="float"><object-id pub-id-type="pii">biomolecules-07-00025-t001_Table 1</object-id><label>Table 1</label><caption><p>List of Gal4 lines used.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Expression Pattern</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1"><italic>tubulin</italic> (<italic>tub</italic> &#x0003e; Gal4)</td><td align="center" valign="middle" rowspan="1" colspan="1">Ubiquitous</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (5138)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><italic>engrailed</italic> (<italic>en</italic> &#x0003e; Gal4)</td><td align="center" valign="middle" rowspan="1" colspan="1">Posterior compartment</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (1973)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><italic>hedgehog</italic> (<italic>hh</italic> &#x0003e; Gal4)</td><td align="center" valign="middle" rowspan="1" colspan="1">Posterior compartment</td><td align="center" valign="middle" rowspan="1" colspan="1">Mullor et al. [<xref rid="B55-biomolecules-07-00025" ref-type="bibr">55</xref>]</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><italic>collagen type IV</italic> (<italic>cg</italic> &#x0003e; Gal)</td><td align="center" valign="middle" rowspan="1" colspan="1">Fat body (larval tissue)</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (7011)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>nubbin</italic> (<italic>nub</italic> &#x0003e; Gal4)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Wing pouch (imaginal disc)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BDSC (42699)</td></tr></tbody></table><table-wrap-foot><fn><p>BDSC: Bloomington Drosophila Stock Center.</p></fn></table-wrap-foot></table-wrap><table-wrap id="biomolecules-07-00025-t002" position="float"><object-id pub-id-type="pii">biomolecules-07-00025-t002_Table 2</object-id><label>Table 2</label><caption><p>List of upstream activating sequence (UAS) lines used.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Utility</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Tcs2 IR</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>tcs2</italic> knockdown</td><td align="center" valign="middle" rowspan="1" colspan="1">VDRC (dna13368)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Tcs3 IR</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>tcs3</italic> knockdown</td><td align="center" valign="middle" rowspan="1" colspan="1">VDRC (106250)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Tcs5 IR</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>tcs5</italic> knockdown</td><td align="center" valign="middle" rowspan="1" colspan="1">VDRC (dna7059)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Tcs6 IR</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>tcs6</italic> knockdown</td><td align="center" valign="middle" rowspan="1" colspan="1">VDRC (4371)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-GFP</td><td align="center" valign="middle" rowspan="1" colspan="1">GFP expression</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (5137)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Tcs3</td><td align="center" valign="middle" rowspan="1" colspan="1">Tcs3 expression</td><td align="center" valign="middle" rowspan="1" colspan="1">Rojas-Benitez et al. [<xref rid="B12-biomolecules-07-00025" ref-type="bibr">12</xref>]</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-p35</td><td align="center" valign="middle" rowspan="1" colspan="1">p35 expression</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (5072)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-BSK<sup>DN</sup></td><td align="center" valign="middle" rowspan="1" colspan="1">Dominant negative BSK expression</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (6409)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">GFP-IR</td><td align="center" valign="middle" rowspan="1" colspan="1">GFP knockdown</td><td align="center" valign="middle" rowspan="1" colspan="1">BDSC (9331)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">tub &#x0003e; Atf4 5&#x02019;UTR::dsRed</td><td align="center" valign="middle" rowspan="1" colspan="1">UPR activation reporter</td><td align="center" valign="middle" rowspan="1" colspan="1">Kang et al. [<xref rid="B36-biomolecules-07-00025" ref-type="bibr">36</xref>]</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">UAS-Xbp1::GFP</td><td align="center" valign="middle" rowspan="1" colspan="1">UPR activation reporter</td><td align="center" valign="middle" rowspan="1" colspan="1">Sone et al. [<xref rid="B37-biomolecules-07-00025" ref-type="bibr">37</xref>]</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">UAS-Hsc70</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hsc70 expression</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BDSC (5843)</td></tr></tbody></table><table-wrap-foot><fn><p>VDRC: Vienna Drosophila Resource Center; BDSC: Bloomington Drosophila Stock Center.</p></fn></table-wrap-foot></table-wrap></floats-group></article>

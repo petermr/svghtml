@@ -1,0 +1,315 @@
+{
+  "id": [
+    "29283378"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29283378"
+  ],
+  "pmcid": [
+    "PMC5795870"
+  ],
+  "doi": [
+    "10.3390/s18010071"
+  ],
+  "title": [
+    "A New Method for Sensing Soil Water Content in Green Roofs Using Plant Microbial Fuel Cells."
+  ],
+  "authorString": [
+    "Tapia NF, Rojas C, Bonilla CA, Vargas IT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Tapia NF"
+          ],
+          "firstName": [
+            "Natalia F"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "NF"
+          ],
+          "affiliation": [
+            "Department of Hydraulic and Environmental Engineering, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. netapia@uc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Instituto de Ciencias Agronómicas, Universidad de O'Higgins, Rancagua 2840856, Chile. claudia.rojas@uoh.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Bonilla CA"
+          ],
+          "firstName": [
+            "Carlos A"
+          ],
+          "lastName": [
+            "Bonilla"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Department of Hydraulic and Environmental Engineering, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. cbonilla@ing.puc.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Vargas IT"
+          ],
+          "firstName": [
+            "Ignacio T"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "IT"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5974-2795",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Hydraulic and Environmental Engineering, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. itvargas@ing.puc.cl."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5974-2795",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2631954"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "Green roofs have many benefits, but in countries with semiarid climates the amount of water needed for irrigation is a limiting factor for their maintenance. The use of drought-tolerant plants such as Sedum species, reduces the water requirements in the dry season, but, even so, in semiarid environments these can reach up to 60 L m-2 per day. Continuous substrate/soil water content monitoring would facilitate the efficient use of this critical resource. In this context, the use of plant microbial fuel cells (PMFCs) emerges as a suitable and more sustainable alternative for monitoring water content in green roofs in semiarid climates. In this study, bench and pilot-scale experiments using seven Sedum species showed a positive relationship between current generation and water content in the substrate. PMFC reactors with higher water content (around 27% vs. 17.5% v/v) showed larger power density (114.6 and 82.3 μW m-2 vs. 32.5 μW m-2). Moreover, a correlation coefficient of 0.95 (±0.01) between current density and water content was observed. The results of this research represent the first effort of using PMFCs as low-cost water content biosensors for green roofs."
+  ],
+  "affiliation": [
+    "Department of Hydraulic and Environmental Engineering, Pontificia Universidad Católica de Chile, Santiago 7820436, Chile. netapia@uc.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Sedum",
+        "Biosensor",
+        "Soil water content",
+        "Microbial Fuel Cells",
+        "Green Roof"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5795870?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5795870"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s18010071"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-12-29"
+  ],
+  "dateOfRevision": [
+    "2018-02-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-28"
+  ],
+  "firstPublicationDate": [
+    "2017-12-28"
+  ]
+}

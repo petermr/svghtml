@@ -1,0 +1,516 @@
+{
+  "id": [
+    "27480413"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27480413"
+  ],
+  "pmcid": [
+    "PMC4969982"
+  ],
+  "doi": [
+    "10.1186/s13054-016-1419-x"
+  ],
+  "title": [
+    "Effects of dexmedetomidine and esmolol on systemic hemodynamics and exogenous lactate clearance in early experimental septic shock."
+  ],
+  "authorString": [
+    "Hernández G, Tapia P, Alegría L, Soto D, Luengo C, Gomez J, Jarufe N, Achurra P, Rebolledo R, Bruhn A, Castro R, Kattan E, Ospina-Tascón G, Bakker J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hernández G"
+          ],
+          "firstName": [
+            "Glenn"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile. glennguru@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Tapia P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Tapia"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alegría L"
+          ],
+          "firstName": [
+            "Leyla"
+          ],
+          "lastName": [
+            "Alegría"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Soto D"
+          ],
+          "firstName": [
+            "Dagoberto"
+          ],
+          "lastName": [
+            "Soto"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Luengo C"
+          ],
+          "firstName": [
+            "Cecilia"
+          ],
+          "lastName": [
+            "Luengo"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Unidad de Pacientes Críticos, Hospital Clínico Universidad de Chile Santos Dumont 999, Santiago, 8380000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez J"
+          ],
+          "firstName": [
+            "Jussara"
+          ],
+          "lastName": [
+            "Gomez"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Universidade de Passo Fundo, Av. Brasil Leste, 285 - São José, Passo Fundo, RS, 99052-900, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Jarufe N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Jarufe"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Departamento de Cirugía Digestiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Achurra P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Achurra"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Cirugía Digestiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rebolledo R"
+          ],
+          "firstName": [
+            "Rolando"
+          ],
+          "lastName": [
+            "Rebolledo"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3501-4042",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Cirugía Digestiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bruhn A"
+          ],
+          "firstName": [
+            "Alejandro"
+          ],
+          "lastName": [
+            "Bruhn"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8034-1937",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kattan E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Kattan"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ospina-Tascón G"
+          ],
+          "firstName": [
+            "Gustavo"
+          ],
+          "lastName": [
+            "Ospina-Tascón"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Intensive Care Medicine Department, Fundación Valle del Lili - Universidad ICESI, Avenida Simón Bolívar Carrera 98, Cali, 76001000, Colombia."
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Intensive Care Adults, Erasmus University Medical Center, PO Box 2040, Room H625, Rotterdam, CA, 3000, The Netherlands."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3501-4042",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8034-1937",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "2461731"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Critical care (London, England)"
+          ],
+          "ISOAbbreviation": [
+            "Crit Care"
+          ],
+          "medlineAbbreviation": [
+            "Crit Care"
+          ],
+          "NLMid": [
+            "9801902"
+          ],
+          "ISSN": [
+            "1364-8535"
+          ],
+          "ESSN": [
+            "1466-609X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "234"
+  ],
+  "abstractText": [
+    "Persistent hyperlactatemia during septic shock is multifactorial. Hypoperfusion-related anaerobic production and adrenergic-driven aerobic generation together with impaired lactate clearance have been implicated. An excessive adrenergic response could contribute to persistent hyperlactatemia and adrenergic modulation might be beneficial. We assessed the effects of dexmedetomidine and esmolol on hemodynamics, lactate generation, and exogenous lactate clearance during endotoxin-induced septic shock.Eighteen anesthetized and mechanically ventilated sheep were subjected to a multimodal hemodynamic/perfusion assessment including hepatic and portal vein catheterizations, total hepatic blood flow, and muscle microdialysis. After monitoring, all received a bolus and continuous infusion of endotoxin. After 1 h they were volume resuscitated, and then randomized to endotoxin-control, endotoxin-dexmedetomidine (sequential doses of 0.5 and 1.0 μg/k/h) or endotoxin-esmolol (titrated to decrease basal heart rate by 20 %) groups. Samples were taken at four time points, and exogenous lactate clearance using an intravenous administration of sodium L-lactate (1 mmol/kg) was performed at the end of the experiments.Dexmedetomidine and esmolol were hemodynamically well tolerated. The dexmedetomidine group exhibited lower epinephrine levels, but no difference in muscle lactate. Despite progressive hypotension in all groups, both dexmedetomidine and esmolol were associated with lower arterial and portal vein lactate levels. Exogenous lactate clearance was significantly higher in the dexmedetomidine and esmolol groups.Dexmedetomidine and esmolol were associated with lower arterial and portal lactate levels, and less impairment of exogenous lactate clearance in a model of septic shock. The use of dexmedetomidine and esmolol appears to be associated with beneficial effects on gut lactate generation and lactate clearance and exhibits no negative impact on systemic hemodynamics."
+  ],
+  "affiliation": [
+    "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Marcoleta 367, Santiago, 8320000, Chile. glennguru@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Lactate",
+        "Septic shock",
+        "Esmolol",
+        "Dexmedetomidine",
+        "Lactate Clearance"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4969982?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4969982"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13054-016-1419-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-08-03"
+  ],
+  "dateOfRevision": [
+    "2017-12-28"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-02"
+  ],
+  "firstPublicationDate": [
+    "2016-08-02"
+  ]
+}

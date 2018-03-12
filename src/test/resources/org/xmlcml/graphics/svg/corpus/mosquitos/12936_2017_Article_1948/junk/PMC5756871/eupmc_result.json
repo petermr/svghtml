@@ -1,0 +1,439 @@
+{
+  "id": [
+    "29321870"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29321870"
+  ],
+  "pmcid": [
+    "PMC5756871"
+  ],
+  "doi": [
+    "10.1002/ece3.3574"
+  ],
+  "title": [
+    "Contrasting genetic metrics and patterns among naturalized rainbow trout (Oncorhynchus mykiss) in two Patagonian lakes differentially impacted by trout aquaculture."
+  ],
+  "authorString": [
+    "Canales-Aguirre CB, Seeb LW, Seeb JE, Cádiz MI, Musleh SS, Arismendi I, Gajardo G, Galleguillos R, Gomez-Uchida D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Canales-Aguirre CB"
+          ],
+          "firstName": [
+            "Cristian B"
+          ],
+          "lastName": [
+            "Canales-Aguirre"
+          ],
+          "initials": [
+            "CB"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8468-6139",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)Departamento de ZoologíaUniversidad de ConcepciónConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Seeb LW"
+          ],
+          "firstName": [
+            "Lisa W"
+          ],
+          "lastName": [
+            "Seeb"
+          ],
+          "initials": [
+            "LW"
+          ],
+          "affiliation": [
+            "Nucleo Milenio INVASALConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Seeb JE"
+          ],
+          "firstName": [
+            "James E"
+          ],
+          "lastName": [
+            "Seeb"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "affiliation": [
+            "Nucleo Milenio INVASALConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cádiz MI"
+          ],
+          "firstName": [
+            "María I"
+          ],
+          "lastName": [
+            "Cádiz"
+          ],
+          "initials": [
+            "MI"
+          ],
+          "affiliation": [
+            "Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)Departamento de ZoologíaUniversidad de ConcepciónConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Musleh SS"
+          ],
+          "firstName": [
+            "Selim S"
+          ],
+          "lastName": [
+            "Musleh"
+          ],
+          "initials": [
+            "SS"
+          ],
+          "affiliation": [
+            "Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)Departamento de ZoologíaUniversidad de ConcepciónConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arismendi I"
+          ],
+          "firstName": [
+            "Ivan"
+          ],
+          "lastName": [
+            "Arismendi"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Fisheries and WildlifeOregon State UniversityCorvallisORUSA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8634-141X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Genética, Acuicultura & BiodiversidadUniversidad de Los LagosOsornoChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galleguillos R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Galleguillos"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Genética y AcuiculturaDepartamento de OceanografíaFacultad de Ciencias Naturales y OceanográficasUniversidad de ConcepciónConcepciónChile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gomez-Uchida D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Gomez-Uchida"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5150-2030",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)Departamento de ZoologíaUniversidad de ConcepciónConcepciónChile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5150-2030",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8468-6139",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8634-141X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2639744"
+      ],
+      "dateOfPublication": [
+        "2018 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Ecology and evolution"
+          ],
+          "ISOAbbreviation": [
+            "Ecol Evol"
+          ],
+          "medlineAbbreviation": [
+            "Ecol Evol"
+          ],
+          "NLMid": [
+            "101566408"
+          ],
+          "ISSN": [
+            "2045-7758"
+          ],
+          "ESSN": [
+            "2045-7758"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "273-285"
+  ],
+  "abstractText": [
+    "Different pathways of propagation and dispersal of non-native species into new environments may have contrasting demographic and genetic impacts on established populations. Repeated introductions of rainbow trout (Oncorhynchus mykiss) to Chile in South America, initially through stocking and later through aquaculture escapes, provide a unique setting to contrast these two pathways. Using a panel of single nucleotide polymorphisms, we found contrasting genetic metrics and patterns among naturalized trout in Lake Llanquihue, Chile's largest producer of salmonid smolts for nearly 50 years, and Lake Todos Los Santos (TLS), a reference lake where aquaculture has been prohibited by law. Trout from Lake Llanquihue showed higher genetic diversity, weaker genetic structure, and larger estimates for the effective number of breeders (Nb) than trout from Lake TLS. Trout from Lake TLS were divergent from Lake Llanquihue and showed marked genetic structure and a significant isolation-by-distance pattern consistent with secondary contact between documented and undocumented stocking events in opposite shores of the lake. Multiple factors, including differences in propagule pressure, origin of donor populations, lake geomorphology, habitat quality or quantity, and life history, may help explain contrasting genetic metrics and patterns for trout between lakes. We contend that high propagule pressure from aquaculture may not only increase genetic diversity and Nb via demographic effects and admixture, but also may impact the evolution of genetic structure and increase gene flow, consistent with findings from artificially propagated salmonid populations in their native and naturalized ranges."
+  ],
+  "affiliation": [
+    "Genomics in Ecology, Evolution and Conservation Lab (GEECLAB)Departamento de ZoologíaUniversidad de ConcepciónConcepciónChile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chile",
+        "South America",
+        "Propagule Pressure",
+        "Northern Patagonia",
+        "Aquaculture Escapes",
+        "Invasion Genetics"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5756871?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5756871"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/ece3.3574"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-01-12"
+  ],
+  "dateOfRevision": [
+    "2018-01-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-28"
+  ],
+  "firstPublicationDate": [
+    "2017-11-28"
+  ]
+}

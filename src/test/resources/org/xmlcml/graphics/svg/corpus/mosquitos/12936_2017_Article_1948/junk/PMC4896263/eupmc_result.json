@@ -1,0 +1,825 @@
+{
+  "id": [
+    "27229680"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27229680"
+  ],
+  "pmcid": [
+    "PMC4896263"
+  ],
+  "doi": [
+    "10.1186/s12860-016-0096-6"
+  ],
+  "title": [
+    "The absence of dysferlin induces the expression of functional connexin-based hemichannels in human myotubes."
+  ],
+  "authorString": [
+    "Cea LA, Bevilacqua JA, Arriagada C, Cárdenas AM, Bigot A, Mouly V, Sáez JC, Caviedes P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cea LA"
+          ],
+          "firstName": [
+            "Luis A"
+          ],
+          "lastName": [
+            "Cea"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "affiliation": [
+            "Program of Anatomy and Developmental Biology, Faculty of Medicine, Institute of Biomedical Sciences, University of Chile, Av. Independencia #1027, Independencia, Santiago, Chile. luiscea@med.uchile.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Bevilacqua JA"
+          ],
+          "firstName": [
+            "Jorge A"
+          ],
+          "lastName": [
+            "Bevilacqua"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Departamento de Neurología y Neurocirugía, Hospital Clínico Universidad de Chile, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arriagada C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Arriagada"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Program of Anatomy and Developmental Biology, Faculty of Medicine, Institute of Biomedical Sciences, University of Chile, Av. Independencia #1027, Independencia, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cárdenas AM"
+          ],
+          "firstName": [
+            "Ana María"
+          ],
+          "lastName": [
+            "Cárdenas"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencias de Valparaíso, Universidad de Valparaíso, Valparaíso, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bigot A"
+          ],
+          "firstName": [
+            "Anne"
+          ],
+          "lastName": [
+            "Bigot"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0337-5425",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Research in Myology, Sorbonne Universités, UPMC Univ Paris 06, INSERM UMRS974, CNRS FRE3617, 47 Boulevard de l'hôpital, 75013, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Mouly V"
+          ],
+          "firstName": [
+            "Vincent"
+          ],
+          "lastName": [
+            "Mouly"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3809-4033",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Research in Myology, Sorbonne Universités, UPMC Univ Paris 06, INSERM UMRS974, CNRS FRE3617, 47 Boulevard de l'hôpital, 75013, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Sáez JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Sáez"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Departamento de Fisiología, Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Caviedes P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Caviedes"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Programa de Farmacología Molecular y Clínica, Facultad de Medicina, Instituto de Ciencias Biomédicas, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0337-5425",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3809-4033",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17 Suppl 1"
+      ],
+      "journalIssueId": [
+        "2477680"
+      ],
+      "dateOfPublication": [
+        "2016 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC cell biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Cell Biol."
+          ],
+          "medlineAbbreviation": [
+            "BMC Cell Biol"
+          ],
+          "NLMid": [
+            "100966972"
+          ],
+          "ESSN": [
+            "1471-2121"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "15"
+  ],
+  "abstractText": [
+    "Mutations in the gene encoding for dysferlin cause recessive autosomal muscular dystrophies called dysferlinopathies. These mutations induce several alterations in skeletal muscles, including, inflammation, increased membrane permeability and cell death. Despite the fact that the etiology of dysferlinopathies is known, the mechanism that explains the aforementioned alterations is still elusive. Therefore, we have now evaluated the potential involvement of connexin based hemichannels in the pathophysiology of dysferlinopathies.Human deltoid muscle biopsies of 5 Chilean dysferlinopathy patients exhibited the presence of muscular connexins (Cx40.1, Cx43 and Cx45). The presence of these connexins was also observed in human myotubes derived from immortalized myoblasts derived from other patients with mutated forms of dysferlin. In addition to the aforementioned connexins, these myotubes expressed functional connexin based hemichannels, evaluated by ethidium uptake assays, as opposed to myotubes obtained from a normal human muscle cell line, RCMH. This response was reproduced in a knock-down model of dysferlin, by treating RCMH cell line with small hairpin RNA specific for dysferlin (RCMH-sh Dysferlin). Also, the presence of P2X7 receptor and the transient receptor potential channel, TRPV2, another Ca(2+) permeable channels, was detected in the myotubes expressing mutated dysferlin, and an elevated resting intracellular Ca(2+) level was found in the latter myotubes, which was in turn reduced to control levels in the presence of the molecule D4, a selective Cx HCs inhibitor.The data suggests that dysferlin deficiency, caused by mutation or downregulation of dysferlin, promotes the expression of Cx HCs. Then, the de novo expression Cx HC causes a dysregulation of intracellular free Ca(2+) levels, which could underlie muscular damage associated to dysferlin mutations. This mechanism could constitute a potential therapeutical target in dysferlinopathies."
+  ],
+  "affiliation": [
+    "Program of Anatomy and Developmental Biology, Faculty of Medicine, Institute of Biomedical Sciences, University of Chile, Av. Independencia #1027, Independencia, Santiago, Chile. luiscea@med.uchile.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sarcolemma"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Intracellular Space"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Muscular Dystrophies, Limb-Girdle"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Muscle Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DF"
+                  ],
+                  "qualifierName": [
+                    "deficiency"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Membrane Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DF"
+                  ],
+                  "qualifierName": [
+                    "deficiency"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Connexins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biopsy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calcium Signaling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mutation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "TRPV Cation Channels"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Muscle Fibers, Skeletal"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Receptors, Purinergic P2X7"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Membrane permeability",
+        "Calcium",
+        "Dysferlinopathy"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DYSF protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "TRPV2 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Membrane Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Muscle Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Connexins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "TRPV Cation Channels"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Receptors, Purinergic P2X7"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4896263?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4896263"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12860-016-0096-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-05-29"
+  ],
+  "dateOfCreation": [
+    "2016-05-27"
+  ],
+  "dateOfRevision": [
+    "2017-05-29"
+  ],
+  "electronicPublicationDate": [
+    "2016-05-24"
+  ],
+  "firstPublicationDate": [
+    "2016-05-24"
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "id": [
+    "27927737"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27927737"
+  ],
+  "pmcid": [
+    "PMC5409106"
+  ],
+  "doi": [
+    "10.1093/ijnp/pyw108"
+  ],
+  "title": [
+    "The ROCK Inhibitor Fasudil Prevents Chronic Restraint Stress-Induced Depressive-Like Behaviors and Dendritic Spine Loss in Rat Hippocampus."
+  ],
+  "authorString": [
+    "García-Rojo G, Fresno C, Vilches N, Díaz-Véliz G, Mora S, Aguayo F, Pacheco A, Parra-Fiedler N, Parra CS, Rojas PS, Tejos M, Aliaga E, Fiedler JL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "García-Rojo G"
+          ],
+          "firstName": [
+            "Gonzalo"
+          ],
+          "lastName": [
+            "García-Rojo"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fresno C"
+          ],
+          "firstName": [
+            "Cristóbal"
+          ],
+          "lastName": [
+            "Fresno"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vilches N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Vilches"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Díaz-Véliz G"
+          ],
+          "firstName": [
+            "Gabriela"
+          ],
+          "lastName": [
+            "Díaz-Véliz"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mora S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Mora"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguayo F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Aguayo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pacheco A"
+          ],
+          "firstName": [
+            "Aníbal"
+          ],
+          "lastName": [
+            "Pacheco"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Parra-Fiedler N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Parra-Fiedler"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Parra CS"
+          ],
+          "firstName": [
+            "Claudio S"
+          ],
+          "lastName": [
+            "Parra"
+          ],
+          "initials": [
+            "CS"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Rojas PS"
+          ],
+          "firstName": [
+            "Paulina S"
+          ],
+          "lastName": [
+            "Rojas"
+          ],
+          "initials": [
+            "PS"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Tejos M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Tejos"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aliaga E"
+          ],
+          "firstName": [
+            "Esteban"
+          ],
+          "lastName": [
+            "Aliaga"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1084-7515",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Fiedler JL"
+          ],
+          "firstName": [
+            "Jenny L"
+          ],
+          "lastName": [
+            "Fiedler"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-0767-8052",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5795-5495",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1084-7515",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "2548966"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "The international journal of neuropsychopharmacology"
+          ],
+          "ISOAbbreviation": [
+            "Int. J. Neuropsychopharmacol."
+          ],
+          "medlineAbbreviation": [
+            "Int J Neuropsychopharmacol"
+          ],
+          "NLMid": [
+            "9815893"
+          ],
+          "ISSN": [
+            "1461-1457"
+          ],
+          "ESSN": [
+            "1469-5111"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "336-345"
+  ],
+  "abstractText": [
+    "Dendritic arbor simplification and dendritic spine loss in the hippocampus, a limbic structure implicated in mood disorders, are assumed to contribute to symptoms of depression. These morphological changes imply modifications in dendritic cytoskeleton. Rho GTPases are regulators of actin dynamics through their effector Rho kinase. We have reported that chronic stress promotes depressive-like behaviors in rats along with dendritic spine loss in apical dendrites of hippocampal pyramidal neurons, changes associated with Rho kinase activation. The present study proposes that the Rho kinase inhibitor Fasudil may prevent the stress-induced behavior and dendritic spine loss.Adult male Sprague-Dawley rats were injected with saline or Fasudil (i.p., 10 mg/kg) starting 4 days prior to and maintained during the restraint stress procedure (2.5 h/d for 14 days). Nonstressed control animals were injected with saline or Fasudil for 18 days. At 24 hours after treatment, forced swimming test, Golgi-staining, and immuno-western blot were performed.Fasudil prevented stress-induced immobility observed in the forced swimming test. On the other hand, Fasudil-treated control animals showed behavioral patterns similar to those of saline-treated controls. Furthermore, we observed that stress induced an increase in the phosphorylation of MYPT1 in the hippocampus, an exclusive target of Rho kinase. This change was accompanied by dendritic spine loss of apical dendrites of pyramidal hippocampal neurons. Interestingly, increased pMYPT1 levels and spine loss were both prevented by Fasudil administration.Our findings suggest that Fasudil may prevent the development of abnormal behavior and spine loss induced by chronic stress by blocking Rho kinase activity."
+  ],
+  "affiliation": [
+    "Laboratory of Neuroplasticity and Neurogenetics, Department of Biochemistry and Molecular Biology, Faculty of Chemistry and Pharmaceutical Sciences, Universidad de Chile, Santiago, Chile; CONICET, Universidad Católica de Córdoba, Córdoba, Argentina; Laboratorio Farmacología del Comportamiento, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Faculty of Medicine, School of Pharmacy, Universidad Andres Bello, Santiago, Chile; Department of Kinesiology, Faculty of Health Sciences, Universidad Católica del Maule, Talca, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Stress",
+        "Behavior",
+        "Antidepressant",
+        "Dendritic Spines",
+        "Rock Inhibitor Fasudil"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5409106?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5409106"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/ijnp/pyw108"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-12-09"
+  ],
+  "dateOfRevision": [
+    "2018-03-08"
+  ],
+  "firstPublicationDate": [
+    "2016-12-07"
+  ]
+}

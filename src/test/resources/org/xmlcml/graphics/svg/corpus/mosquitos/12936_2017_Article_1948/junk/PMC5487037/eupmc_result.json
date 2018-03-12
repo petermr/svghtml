@@ -1,0 +1,793 @@
+{
+  "id": [
+    "28654647"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28654647"
+  ],
+  "pmcid": [
+    "PMC5487037"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0179442"
+  ],
+  "title": [
+    "Ancient female philopatry, asymmetric male gene flow, and synchronous population expansion support the influence of climatic oscillations on the evolution of South American sea lion (Otaria flavescens)."
+  ],
+  "authorString": [
+    "Oliveira LR, Gehara MCM, Fraga LD, Lopes F, Túnez JI, Cassini MH, Majluf P, Cárdenas-Alayza S, Pavés HJ, Crespo EA, García N, Loizaga de Castro R, Hoelzel AR, Sepúlveda M, Olavarría C, Valiati VH, Quiñones R, Pérez-Alvarez MJ, Ott PH, Bonatto SL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Oliveira LR"
+          ],
+          "firstName": [
+            "Larissa Rosa de"
+          ],
+          "lastName": [
+            "Oliveira"
+          ],
+          "initials": [
+            "LR"
+          ],
+          "affiliation": [
+            "Grupo de Estudos de Mamíferos Aquáticos do Rio Grande do Sul, Osório, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Gehara MCM"
+          ],
+          "firstName": [
+            "Marcelo C M"
+          ],
+          "lastName": [
+            "Gehara"
+          ],
+          "initials": [
+            "MCM"
+          ],
+          "affiliation": [
+            "Faculdade de Biociências, Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Fraga LD"
+          ],
+          "firstName": [
+            "Lúcia D"
+          ],
+          "lastName": [
+            "Fraga"
+          ],
+          "initials": [
+            "LD"
+          ],
+          "affiliation": [
+            "Faculdade de Biociências, Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Lopes F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Lopes"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Faculdade de Biociências, Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Túnez JI"
+          ],
+          "firstName": [
+            "Juan Ignacio"
+          ],
+          "lastName": [
+            "Túnez"
+          ],
+          "initials": [
+            "JI"
+          ],
+          "affiliation": [
+            "Grupo GEMA, Departamento de Ciencias Básicas, Universidad Nacional de Luján and CONICET, Luján, Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Cassini MH"
+          ],
+          "firstName": [
+            "Marcelo H"
+          ],
+          "lastName": [
+            "Cassini"
+          ],
+          "initials": [
+            "MH"
+          ],
+          "affiliation": [
+            "Laboratorio de Biología del Comportamiento, Instituto de Biología y Medicina Experimental (CONICET), Buenos Aires, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Majluf P"
+          ],
+          "firstName": [
+            "Patricia"
+          ],
+          "lastName": [
+            "Majluf"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centro para la Sostenibilidad Ambiental / Universidad Peruana Cayetano Heredia, Lima, Perú."
+          ]
+        },
+        {
+          "fullName": [
+            "Cárdenas-Alayza S"
+          ],
+          "firstName": [
+            "Susana"
+          ],
+          "lastName": [
+            "Cárdenas-Alayza"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8828-9552",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centro para la Sostenibilidad Ambiental / Universidad Peruana Cayetano Heredia, Lima, Perú."
+          ]
+        },
+        {
+          "fullName": [
+            "Pavés HJ"
+          ],
+          "firstName": [
+            "Héctor J"
+          ],
+          "lastName": [
+            "Pavés"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "affiliation": [
+            "Departamento de Ciencias Básica, Facultad de Ciencias, Universidad Santo Tomas, Osorno, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Crespo EA"
+          ],
+          "firstName": [
+            "Enrique Alberto"
+          ],
+          "lastName": [
+            "Crespo"
+          ],
+          "initials": [
+            "EA"
+          ],
+          "affiliation": [
+            "Laboratorio de Mamíferos Marinos, Centro para el Estudio de los Sistemas Marinos (CENPAT-CONICET), Puerto Madryn, Chubut, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "García N"
+          ],
+          "firstName": [
+            "Nestor"
+          ],
+          "lastName": [
+            "García"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Laboratorio de Mamíferos Marinos, Centro para el Estudio de los Sistemas Marinos (CENPAT-CONICET), Puerto Madryn, Chubut, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Loizaga de Castro R"
+          ],
+          "firstName": [
+            "Rocío"
+          ],
+          "lastName": [
+            "Loizaga de Castro"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Mamíferos Marinos, Centro para el Estudio de los Sistemas Marinos (CENPAT-CONICET), Puerto Madryn, Chubut, Argentina."
+          ]
+        },
+        {
+          "fullName": [
+            "Hoelzel AR"
+          ],
+          "firstName": [
+            "A Rus"
+          ],
+          "lastName": [
+            "Hoelzel"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "affiliation": [
+            "Department of Biosciences, Durham University, Durham, United Kingdom."
+          ]
+        },
+        {
+          "fullName": [
+            "Sepúlveda M"
+          ],
+          "firstName": [
+            "Maritza"
+          ],
+          "lastName": [
+            "Sepúlveda"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Millenium Nucleus of Invasive Salmonids (INVASAL), Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Olavarría C"
+          ],
+          "firstName": [
+            "Carlos"
+          ],
+          "lastName": [
+            "Olavarría"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Centro de Estudios Avanzados en Zonas Aridas, La Serena, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valiati VH"
+          ],
+          "firstName": [
+            "Victor Hugo"
+          ],
+          "lastName": [
+            "Valiati"
+          ],
+          "initials": [
+            "VH"
+          ],
+          "affiliation": [
+            "Laboratório de Biologia Molecular, Universidade do Vale do Rio dos Sinos, São Leopoldo, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Quiñones R"
+          ],
+          "firstName": [
+            "Renato"
+          ],
+          "lastName": [
+            "Quiñones"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Interdisciplinary Center for Aquaculture Research (FONDAP), Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez-Alvarez MJ"
+          ],
+          "firstName": [
+            "Maria Jose"
+          ],
+          "lastName": [
+            "Pérez-Alvarez"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Instituto de Ecología y Biodiversidad, Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ott PH"
+          ],
+          "firstName": [
+            "Paulo Henrique"
+          ],
+          "lastName": [
+            "Ott"
+          ],
+          "initials": [
+            "PH"
+          ],
+          "affiliation": [
+            "Laboratório de Ecologia e Conservação de Organismos Aquáticos, Universidade Estadual do Rio Grande do Sul, Osório, RS, Brazil."
+          ]
+        },
+        {
+          "fullName": [
+            "Bonatto SL"
+          ],
+          "firstName": [
+            "Sandro L"
+          ],
+          "lastName": [
+            "Bonatto"
+          ],
+          "initials": [
+            "SL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0064-467X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Faculdade de Biociências, Pontifícia Universidade Católica do Rio Grande do Sul, Porto Alegre, RS, Brazil."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8828-9552",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0064-467X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2562707"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0179442"
+  ],
+  "abstractText": [
+    "The South American sea lion (Otaria flavescens) is widely distributed along the southern Atlantic and Pacific coasts of South America with a history of significant commercial exploitation. We aimed to evaluate the population genetic structure and the evolutionary history of South American sea lion along its distribution by analyses of mitochondrial DNA (mtDNA) and 10 nuclear microsatellites loci. We analyzed 147 sequences of mtDNA control region and genotyped 111 individuals of South American sea lion for 10 microsatellite loci, representing six populations (Peru, Northern Chile, Southern Chile, Uruguay (Brazil), Argentina and Falkland (Malvinas) Islands) and covering the entire distribution of the species. The mtDNA phylogeny shows that haplotypes from the two oceans comprise two very divergent clades as observed in previous studies, suggesting a long period (>1 million years) of low inter-oceanic female gene flow. Bayesian analysis of bi-parental genetic diversity supports significant (but less pronounced than mitochondrial) genetic structure between Pacific and Atlantic populations, although also suggested some inter-oceanic gene flow mediated by males. Higher male migration rates were found in the intra-oceanic population comparisons, supporting very high female philopatry in the species. Demographic analyses showed that populations from both oceans went through a large population expansion ~10,000 years ago, suggesting a very similar influence of historical environmental factors, such as the last glacial cycle, on both regions. Our results support the proposition that the Pacific and Atlantic populations of the South American sea lion should be considered distinct evolutionarily significant units, with at least two managements units in each ocean."
+  ],
+  "affiliation": [
+    "Grupo de Estudos de Mamíferos Aquáticos do Rio Grande do Sul, Osório, RS, Brazil."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sea Lions"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "DNA, Mitochondrial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animal Migration"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetics, Population"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Population Dynamics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phylogeny"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "South America"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oceans and Seas"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Flow"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Variation"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "DNA, Mitochondrial"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5487037?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5487037"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0179442"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "EMBL",
+        "UNIPROT"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-09-20"
+  ],
+  "dateOfCreation": [
+    "2017-06-27"
+  ],
+  "dateOfRevision": [
+    "2017-09-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-06-27"
+  ],
+  "firstPublicationDate": [
+    "2017-06-27"
+  ]
+}

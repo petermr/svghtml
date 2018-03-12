@@ -1,0 +1,575 @@
+{
+  "id": [
+    "28982174"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28982174"
+  ],
+  "pmcid": [
+    "PMC5628889"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0185707"
+  ],
+  "title": [
+    "Thermal adaptation of mesophilic and thermophilic FtsZ assembly by modulation of the critical concentration."
+  ],
+  "authorString": [
+    "Concha-Marambio L, Maldonado P, Lagos R, Monasterio O, Montecinos-Franjola F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Concha-Marambio L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Concha-Marambio"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9454-8389",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maldonado P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Maldonado"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lagos R"
+          ],
+          "firstName": [
+            "Rosalba"
+          ],
+          "lastName": [
+            "Lagos"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Monasterio O"
+          ],
+          "firstName": [
+            "Octavio"
+          ],
+          "lastName": [
+            "Monasterio"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Montecinos-Franjola F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Montecinos-Franjola"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1823-103X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1823-103X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9454-8389",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2602763"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0185707"
+  ],
+  "abstractText": [
+    "Cytokinesis is the last stage in the cell cycle. In prokaryotes, the protein FtsZ guides cell constriction by assembling into a contractile ring-shaped structure termed the Z-ring. Constriction of the Z-ring is driven by the GTPase activity of FtsZ that overcomes the energetic barrier between two protein conformations having different propensities to assemble into polymers. FtsZ is found in psychrophilic, mesophilic and thermophilic organisms thereby functioning at temperatures ranging from subzero to >100°C. To gain insight into the functional adaptations enabling assembly of FtsZ in distinct environmental conditions, we analyzed the energetics of FtsZ function from mesophilic Escherichia coli in comparison with FtsZ from thermophilic Methanocaldococcus jannaschii. Presumably, the assembly may be similarly modulated by temperature for both FtsZ orthologs. The temperature dependence of the first-order rates of nucleotide hydrolysis and of polymer disassembly, indicated an entropy-driven destabilization of the FtsZ-GTP intermediate. This destabilization was true for both mesophilic and thermophilic FtsZ, reflecting a conserved mechanism of disassembly. From the temperature dependence of the critical concentrations for polymerization, we detected a change of opposite sign in the heat capacity, that was partially explained by the specific changes in the solvent-accessible surface area between the free and polymerized states of FtsZ. At the physiological temperature, the assembly of both FtsZ orthologs was found to be driven by a small positive entropy. In contrast, the assembly occurred with a negative enthalpy for mesophilic FtsZ and with a positive enthalpy for thermophilic FtsZ. Notably, the assembly of both FtsZ orthologs is characterized by a critical concentration of similar value (1-2 μM) at the environmental temperatures of their host organisms. These findings suggest a simple but robust mechanism of adaptation of FtsZ, previously shown for eukaryotic tubulin, by adjustment of the critical concentration for polymerization."
+  ],
+  "affiliation": [
+    "Laboratorio de Biologia Estructural y Molecular/Departamento de Biologia/Facultad de Ciencias, Universidad de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Escherichia coli"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biopolymers"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Archaeal Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Guanosine Triphosphate"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Temperature"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hydrolysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kinetics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thermodynamics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymerization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Methanocaldococcus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "FtsZ protein, Methanococcus jannaschii"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Biopolymers"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Guanosine Triphosphate"
+          ],
+          "registryNumber": [
+            "86-01-1"
+          ]
+        },
+        {
+          "name": [
+            "Archaeal Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5628889?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5628889"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0185707"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-10-31"
+  ],
+  "dateOfCreation": [
+    "2017-10-05"
+  ],
+  "dateOfRevision": [
+    "2017-10-31"
+  ],
+  "electronicPublicationDate": [
+    "2017-10-05"
+  ],
+  "firstPublicationDate": [
+    "2017-10-05"
+  ]
+}

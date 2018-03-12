@@ -1,0 +1,410 @@
+{
+  "id": [
+    "28785581"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28785581"
+  ],
+  "pmcid": [
+    "PMC5530410"
+  ],
+  "doi": [
+    "10.1155/2017/5783719"
+  ],
+  "title": [
+    "CYP2C19⁎2 Polymorphism in Chilean Patients with In-Stent Restenosis Development and Controls."
+  ],
+  "authorString": [
+    "Ruedlinger J, Prado Y, Zambrano T, Saavedra N, Bobadilla B, Potthoff M, Pérez L, Lanas F, Salazar LA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ruedlinger J"
+          ],
+          "firstName": [
+            "Jenny"
+          ],
+          "lastName": [
+            "Ruedlinger"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Prado Y"
+          ],
+          "firstName": [
+            "Yalena"
+          ],
+          "lastName": [
+            "Prado"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Zambrano T"
+          ],
+          "firstName": [
+            "Tomás"
+          ],
+          "lastName": [
+            "Zambrano"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Saavedra N"
+          ],
+          "firstName": [
+            "Nicolás"
+          ],
+          "lastName": [
+            "Saavedra"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3334-5107",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bobadilla B"
+          ],
+          "firstName": [
+            "Braulio"
+          ],
+          "lastName": [
+            "Bobadilla"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Potthoff M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "Potthoff"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pérez L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Pérez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Facultad de Medicina, Universidad de Concepción, Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lanas F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Lanas"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, Faculty of Medicine, Universidad de La Frontera, Temuco, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar LA"
+          ],
+          "firstName": [
+            "Luis A"
+          ],
+          "lastName": [
+            "Salazar"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5112-6944",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5112-6944",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3334-5107",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2517904"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "5783719"
+  ],
+  "abstractText": [
+    "Clopidogrel is an antiplatelet drug especially used in patients undergoing percutaneous coronary interventions (PCI). Polymorphisms within CYP2C19 can result in important interindividual variations regarding therapeutic efficacy. Therefore, we aimed to evaluate the impact of the CYP2C19⁎2 variant (rs4244285) on in-stent restenosis occurrence in Chilean patients who underwent PCI and received clopidogrel. A total of 77 cases with stenosis >50% in the angioplasty site (62.75 ± 9.8 years, 80.5% males) and 86 controls (65.45 ± 9.8 years, 72.1% males) were studied. The polymorphism was genotyped using TaqMan® Drug Metabolism Genotyping Assays. Overall, CYP2C19⁎2 allele frequency was 8.3%. Diabetes, chronic lesions, and bare metal stents (BMS) were observed more often in cases than in controls (p = 0.05, p = 0.04, and p = 0.02, resp.). Genotypic frequencies did not differ significantly between the groups (p = 0.15). Nonetheless, the mutated allele was observed in a greater proportion in patients without in-stent restenosis (p = 0.055). There was no significant association between the rs4244285 variant and the occurrence of in-stent restenosis after PCI (OR = 0.44; 95% CI: 0.19 to 1.04; p = 0.06). In summary, no association was identified between the CYP2C19⁎2 variant and the development of coronary in-stent restenosis."
+  ],
+  "affiliation": [
+    "Center of Molecular Biology and Pharmacogenetics, Scientific and Technological Bioresource Nucleus, Universidad de La Frontera, Temuco, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5530410?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5530410"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/5783719"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-08"
+  ],
+  "dateOfRevision": [
+    "2017-08-11"
+  ],
+  "electronicPublicationDate": [
+    "2017-07-13"
+  ],
+  "firstPublicationDate": [
+    "2017-07-13"
+  ]
+}

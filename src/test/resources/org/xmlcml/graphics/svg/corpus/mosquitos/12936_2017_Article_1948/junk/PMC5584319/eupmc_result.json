@@ -1,0 +1,391 @@
+{
+  "id": [
+    "28870149"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28870149"
+  ],
+  "pmcid": [
+    "PMC5584319"
+  ],
+  "doi": [
+    "10.1186/s12864-017-4093-8"
+  ],
+  "title": [
+    "Development of novel InDel markers and genetic diversity in Chenopodium quinoa through whole-genome re-sequencing."
+  ],
+  "authorString": [
+    "Zhang T, Gu M, Liu Y, Lv Y, Zhou L, Lu H, Liang S, Bao H, Zhao H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhang T"
+          ],
+          "firstName": [
+            "Tifu"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Gu M"
+          ],
+          "firstName": [
+            "Minfeng"
+          ],
+          "lastName": [
+            "Gu"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Xinyang Agricultural Experiment Station of Yancheng City, Yancheng, Jiangsu, 224336, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Liu Y"
+          ],
+          "firstName": [
+            "Yuhe"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Lv Y"
+          ],
+          "firstName": [
+            "Yuanda"
+          ],
+          "lastName": [
+            "Lv"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou L"
+          ],
+          "firstName": [
+            "Ling"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Lu H"
+          ],
+          "firstName": [
+            "Haiyan"
+          ],
+          "lastName": [
+            "Lu"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Liang S"
+          ],
+          "firstName": [
+            "Shuaiqiang"
+          ],
+          "lastName": [
+            "Liang"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Bao H"
+          ],
+          "firstName": [
+            "Huabin"
+          ],
+          "lastName": [
+            "Bao"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao H"
+          ],
+          "firstName": [
+            "Han"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China. zhaohan@jaas.ac.cn."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "18"
+      ],
+      "journalIssueId": [
+        "2591817"
+      ],
+      "dateOfPublication": [
+        "2017 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ISSN": [
+            "1471-2164"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "685"
+  ],
+  "abstractText": [
+    "Quinoa (Chenopodium quinoa Willd.) is a balanced nutritional crop, but its breeding improvement has been limited by the lack of information on its genetics and genomics. Therefore, it is necessary to obtain knowledge on genomic variation, population structure, and genetic diversity and to develop novel Insertion/Deletion (InDel) markers for quinoa by whole-genome re-sequencing.We re-sequenced 11 quinoa accessions and obtained a coverage depth between approximately 7× to 23× the quinoa genome. Based on the 1453-megabase (Mb) assembly from the reference accession Riobamba, 8,441,022 filtered bi-allelic single nucleotide polymorphisms (SNPs) and 842,783 filtered InDels were identified, with an estimated SNP and InDel density of 5.81 and 0.58 per kilobase (kb). From the genomic InDel variations, 85 dimorphic InDel markers were newly developed and validated. Together with the 62 simple sequence repeat (SSR) markers reported, a total of 147 markers were used for genotyping the 129 quinoa accessions. Molecular grouping analysis showed classification into two major groups, the Andean highland (composed of the northern and southern highland subgroups) and Chilean coastal, based on combined STRUCTURE, phylogenetic tree and PCA (Principle Component Analysis) analyses. Further analysis of the genetic diversity exhibited a decreasing tendency from the Chilean coast group to the Andean highland group, and the gene flow between subgroups was more frequent than that between the two subgroups and the Chilean coastal group. The majority of the variations (approximately 70%) were found through an analysis of molecular variation (AMOVA) due to the diversity between the groups. This was congruent with the observation of a highly significant FST value (0.705) between the groups, demonstrating significant genetic differentiation between the Andean highland type of quinoa and the Chilean coastal type. Moreover, a core set of 16 quinoa germplasms that capture all 362 alleles was selected using a simulated annealing method.The large number of SNPs and InDels identified in this study demonstrated that the quinoa genome is enriched with genomic variations. Genetic population structure, genetic core germplasms and dimorphic InDel markers are useful resources for genetic analysis and quinoa breeding."
+  ],
+  "affiliation": [
+    "Provincial Key Laboratory of Agrobiology, Institute of Crop Germplasm and Biotechnology, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu, 210014, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Population structure",
+        "Genetic diversity",
+        "Quinoa",
+        "SNP",
+        "core germplasm",
+        "Indel"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5584319?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5584319"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12864-017-4093-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-09-05"
+  ],
+  "dateOfRevision": [
+    "2017-09-07"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-05"
+  ],
+  "firstPublicationDate": [
+    "2017-09-05"
+  ]
+}

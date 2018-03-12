@@ -1,0 +1,573 @@
+{
+  "id": [
+    "29104874"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29104874"
+  ],
+  "pmcid": [
+    "PMC5618766"
+  ],
+  "doi": [
+    "10.1155/2017/5947859"
+  ],
+  "title": [
+    "Akt/mTOR Role in Human Foetoplacental Vascular Insulin Resistance in Diseases of Pregnancy."
+  ],
+  "authorString": [
+    "Villalobos-Labra R, Silva L, Subiabre M, Araos J, Salsoso R, Fuenzalida B, Sáez T, Toledo F, González M, Quezada C, Pardo F, Chiarello DI, Leiva A, Sobrevia L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Villalobos-Labra R"
+          ],
+          "firstName": [
+            "Roberto"
+          ],
+          "lastName": [
+            "Villalobos-Labra"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9638-9721",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Silva L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Silva"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2883-378X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Immunoendocrinology, Division of Medical Biology, Department of Pathology and Medical Biology, University of Groningen, University Medical Center Groningen (UMCG), 9700 RB Groningen, Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Subiabre M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Subiabre"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1280-9128",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araos J"
+          ],
+          "firstName": [
+            "Joaquín"
+          ],
+          "lastName": [
+            "Araos"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0901-7672",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salsoso R"
+          ],
+          "firstName": [
+            "Rocío"
+          ],
+          "lastName": [
+            "Salsoso"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8218-1882",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physiology, Faculty of Pharmacy, Universidad de Sevilla, 41012 Seville, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Fuenzalida B"
+          ],
+          "firstName": [
+            "Bárbara"
+          ],
+          "lastName": [
+            "Fuenzalida"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5128-570X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sáez T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Sáez"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Immunoendocrinology, Division of Medical Biology, Department of Pathology and Medical Biology, University of Groningen, University Medical Center Groningen (UMCG), 9700 RB Groningen, Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Toledo F"
+          ],
+          "firstName": [
+            "Fernando"
+          ],
+          "lastName": [
+            "Toledo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Basic Sciences, Faculty of Sciences, Universidad del Bío-Bío, 3780000 Chillán, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González M"
+          ],
+          "firstName": [
+            "Marcelo"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Vascular Physiology Laboratory, Department of Physiology, Faculty of Biological Sciences, Universidad de Concepción, 4070386 Concepción, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quezada C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "Quezada"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Institute of Biochemistry and Microbiology, Science Faculty, Universidad Austral de Chile, 5110566 Valdivia, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pardo F"
+          ],
+          "firstName": [
+            "Fabián"
+          ],
+          "lastName": [
+            "Pardo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Metabolic Diseases Research Laboratory, Center of Research, Development and Innovation in Health-Aconcagua Valley, School of Medicine, Faculty of Medicine, Universidad de Valparaíso, San Felipe Campus, 2172972 San Felipe, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Chiarello DI"
+          ],
+          "firstName": [
+            "Delia I"
+          ],
+          "lastName": [
+            "Chiarello"
+          ],
+          "initials": [
+            "DI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1530-0458",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leiva A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Leiva"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Sobrevia L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Sobrevia"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5802-2243",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "University of Queensland Centre for Clinical Research (UQCCR), Faculty of Medicine and Biomedical Sciences, University of Queensland, Herston, Brisbane, QLD 4029, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9638-9721",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2883-378X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1280-9128",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0901-7672",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8218-1882",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5128-570X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1530-0458",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5802-2243",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2017"
+      ],
+      "journalIssueId": [
+        "2518238"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of diabetes research"
+          ],
+          "ISOAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "medlineAbbreviation": [
+            "J Diabetes Res"
+          ],
+          "NLMid": [
+            "101605237"
+          ],
+          "ISSN": [
+            "2314-6745"
+          ],
+          "ESSN": [
+            "2314-6753"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "5947859"
+  ],
+  "abstractText": [
+    "Insulin resistance is characteristic of pregnancies where the mother shows metabolic alterations, such as preeclampsia (PE) and gestational diabetes mellitus (GDM), or abnormal maternal conditions such as pregestational maternal obesity (PGMO). Insulin signalling includes activation of insulin receptor substrates 1 and 2 (IRS1/2) as well as Src homology 2 domain-containing transforming protein 1, leading to activation of 44 and 42 kDa mitogen-activated protein kinases and protein kinase B/Akt (Akt) signalling cascades in the human foetoplacental vasculature. PE, GDM, and PGMO are abnormal conditions coursing with reduced insulin signalling, but the possibility of the involvement of similar cell signalling mechanisms is not addressed. This review aimed to determine whether reduced insulin signalling in PE, GDM, and PGMO shares a common mechanism in the human foetoplacental vasculature. Insulin resistance in these pathological conditions results from reduced Akt activation mainly due to inhibition of IRS1/2, likely due to the increased activity of the mammalian target of rapamycin (mTOR) resulting from lower activity of adenosine monophosphate kinase. Thus, a defective signalling via Akt/mTOR in response to insulin is a central and common mechanism of insulin resistance in these diseases of pregnancy. In this review, we summarise the cell signalling mechanisms behind the insulin resistance state in PE, GDM, and PGMO focused in the Akt/mTOR signalling pathway in the human foetoplacental endothelium."
+  ],
+  "affiliation": [
+    "Cellular and Molecular Physiology Laboratory (CMPL), Division of Obstetrics and Gynaecology, School of Medicine, Faculty of Medicine, Pontificia Universidad Católica de Chile, 8330024 Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5618766?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5618766"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2017/5947859"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-11-07"
+  ],
+  "dateOfRevision": [
+    "2017-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-14"
+  ],
+  "firstPublicationDate": [
+    "2017-09-14"
+  ]
+}

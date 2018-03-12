@@ -1,0 +1,593 @@
+{
+  "id": [
+    "29176794"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29176794"
+  ],
+  "pmcid": [
+    "PMC5703524"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0188548"
+  ],
+  "title": [
+    "Capillary refill time during fluid resuscitation in patients with sepsis-related hyperlactatemia at the emergency department is related to mortality."
+  ],
+  "authorString": [
+    "Lara B, Enberg L, Ortega M, Leon P, Kripper C, Aguilera P, Kattan E, Castro R, Bakker J, Hernandez G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lara B"
+          ],
+          "firstName": [
+            "Barbara"
+          ],
+          "lastName": [
+            "Lara"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Programa de Medicina de Urgencia, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Enberg L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Enberg"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Programa de Medicina de Urgencia, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ortega M"
+          ],
+          "firstName": [
+            "Marcos"
+          ],
+          "lastName": [
+            "Ortega"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Leon P"
+          ],
+          "firstName": [
+            "Paula"
+          ],
+          "lastName": [
+            "Leon"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kripper C"
+          ],
+          "firstName": [
+            "Cristobal"
+          ],
+          "lastName": [
+            "Kripper"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Programa de Medicina de Urgencia, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilera P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Aguilera"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Programa de Medicina de Urgencia, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kattan E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Kattan"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro R"
+          ],
+          "firstName": [
+            "Ricardo"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Bakker J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Bakker"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Division of Pulmonary, and Critical Care Medicine, New York University-Langone, New York, NY, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Hernandez G"
+          ],
+          "firstName": [
+            "Glenn"
+          ],
+          "lastName": [
+            "Hernandez"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3032-4087",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Departamento de Medicina Intensiva, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3032-4087",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2619428"
+      ],
+      "dateOfPublication": [
+        "2017"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "e0188548"
+  ],
+  "abstractText": [
+    "Acute circulatory dysfunction in patients with sepsis can evolve rapidly into a progressive stage associated with high mortality. Early recognition and adequate resuscitation could improve outcome. However, since the spectrum of clinical presentation is quite variable, signs of hypoperfusion are frequently unrecognized in patients just admitted to the emergency department (ED). Hyperlactatemia is considered a key parameter to disclose tissue hypoxia but it is not universally available and getting timely results can be challenging in low resource settings. In addition, non-hypoxic sources can be involved in hyperlactatemia, and a misinterpretation could lead to over-resuscitation in an unknown number of cases. Capillary refill time (CRT) is a marker of peripheral perfusion that worsens during circulatory failure. An abnormal CRT in septic shock patients after ICU-based resuscitation has been associated with poor outcome. The aim of this study was to determine the prevalence of abnormal CRT in patients with sepsis-related hyperlactatemia in the early phase after ED admission, and its relationship with outcome.We performed a prospective observational study. Septic patients with hyperlactemia at ED admission subjected to an initial fluid resuscitation (FR) were included. CRT and other parameters were assessed before and after FR. CRT-normal or CRT-abnormal subgroups were defined according to the status of CRT following initial FR, and major outcomes were registered.Ninety-five hyperlactatemic septic patients were included. Thirty-one percent had abnormal CRT at ED arrival. After FR, 87 patients exhibited normal CRT, and 8 an abnormal one. Patients with abnormal CRT had an increased risk of adverse outcomes (88% vs. 20% p<0.001; RR 4.4 [2.7-7.4]), and hospital mortality (63% vs. 9% p<0.001; RR 6.7 [2.9-16]) as compared to those with normal CRT after FR. Specifically, CRT-normal patients required less frequently mechanical ventilation, renal replacement therapy, and ICU admission, and exhibited a lower hospital mortality.Hyperlactatemic sepsis patients with abnormal CRT after initial fluid resuscitation exhibit higher mortality and worse clinical outcomes than patients with normal CRT."
+  ],
+  "affiliation": [
+    "Programa de Medicina de Urgencia, Facultad de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Capillaries"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PP"
+                  ],
+                  "qualifierName": [
+                    "physiopathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sepsis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CO"
+                  ],
+                  "qualifierName": [
+                    "complications"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Fluid Therapy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Emergency Service, Hospital"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hyperlactatemia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ET"
+                  ],
+                  "qualifierName": [
+                    "etiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MO"
+                  ],
+                  "qualifierName": [
+                    "mortality"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5703524?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5703524"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0188548"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-26"
+  ],
+  "dateOfCreation": [
+    "2017-11-28"
+  ],
+  "dateOfRevision": [
+    "2017-12-26"
+  ],
+  "electronicPublicationDate": [
+    "2017-11-27"
+  ],
+  "firstPublicationDate": [
+    "2017-11-27"
+  ]
+}

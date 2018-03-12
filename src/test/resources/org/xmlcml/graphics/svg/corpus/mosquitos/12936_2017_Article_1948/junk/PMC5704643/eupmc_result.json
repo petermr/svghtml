@@ -1,0 +1,367 @@
+{
+  "id": [
+    "29211206"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29211206"
+  ],
+  "pmcid": [
+    "PMC5704643"
+  ],
+  "doi": [
+    "10.11606/s1518-8787.2017051007034"
+  ],
+  "title": [
+    "Inequality of opportunity in health: evidence from Chile."
+  ],
+  "authorString": [
+    "Gallardo K, Varas L, Gallardo M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gallardo K"
+          ],
+          "firstName": [
+            "Kevin"
+          ],
+          "lastName": [
+            "Gallardo"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Universidad Católica del Norte. Escuela de Ciencias Empresariales. Coquimbo, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Varas L"
+          ],
+          "firstName": [
+            "Liseth"
+          ],
+          "lastName": [
+            "Varas"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Universidad Católica del Norte. Escuela de Ciencias Empresariales. Coquimbo, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gallardo M"
+          ],
+          "firstName": [
+            "Mauricio"
+          ],
+          "lastName": [
+            "Gallardo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Universidad Católica del Norte. Escuela de Ciencias Empresariales. Coquimbo, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7230-2281",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "51"
+      ],
+      "journalIssueId": [
+        "2626545"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Revista de saude publica"
+          ],
+          "ISOAbbreviation": [
+            "Rev Saude Publica"
+          ],
+          "medlineAbbreviation": [
+            "Rev Saude Publica"
+          ],
+          "NLMid": [
+            "0135043"
+          ],
+          "ISSN": [
+            "0034-8910"
+          ],
+          "ESSN": [
+            "1518-8787"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "110"
+  ],
+  "abstractText": [
+    "To assess the possible presence of inequality of opportunities in the health status of Chileans, according to sociodemographic circumstances.Self-rated health data were used from the Chilean National Health Survey of 2010 to test the hypothesis of strong and weak equality of opportunities in the health status of the Chilean population. These hypotheses were tested using nonparametric techniques and second-order stochastic dominance criteria.Robust empirical evidence was obtained, which indicate that the education level of the mother, household socioeconomic status, sex, zone, and region of residence determine opportunities to achieve good health in Chile.Better health status was identified for Chilean adults whenever their mothers had a higher education level, their household income was higher, they were men, or lived in urban areas. The region of residence also affects opportunities to achieve good health in Chile."
+  ],
+  "affiliation": [
+    "Universidad Católica del Norte. Escuela de Ciencias Empresariales. Coquimbo, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Surveys"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Stochastic Processes"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Socioeconomic Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Health Services Accessibility"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "SN"
+                  ],
+                  "qualifierName": [
+                    "statistics & numerical data"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chile"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5704643?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5704643"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.11606/S1518-8787.2017051007034"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-19"
+  ],
+  "dateOfCreation": [
+    "2017-12-07"
+  ],
+  "dateOfRevision": [
+    "2017-12-20"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-04"
+  ],
+  "firstPublicationDate": [
+    "2017-12-04"
+  ]
+}

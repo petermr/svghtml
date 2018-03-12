@@ -1,0 +1,251 @@
+{
+  "id": [
+    "28761417"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28761417"
+  ],
+  "pmcid": [
+    "PMC5514859"
+  ],
+  "doi": [
+    "10.4103/1673-5374.208560"
+  ],
+  "title": [
+    "On the role of endogenous neurotoxins and neuroprotection in Parkinson's disease."
+  ],
+  "authorString": [
+    "Segura-Aguilar J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Segura-Aguilar J"
+          ],
+          "firstName": [
+            "Juan"
+          ],
+          "lastName": [
+            "Segura-Aguilar"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1018-673X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Molecular and Clinical Pharmacology, ICBM, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1018-673X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2581747"
+      ],
+      "dateOfPublication": [
+        "2017 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Neural regeneration research"
+          ],
+          "ISOAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "medlineAbbreviation": [
+            "Neural Regen Res"
+          ],
+          "NLMid": [
+            "101316351"
+          ],
+          "ISSN": [
+            "1673-5374"
+          ],
+          "ESSN": [
+            "1876-7958"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "897-901"
+  ],
+  "abstractText": [
+    "For 50 years ago was introduced L-3,4-dihydroxyphenylalanine (L-dopa) in Parkinson's disease treatment and during this significant advances has been done but what trigger the degeneration of the nigrostriatal system remain unknown. There is a general agreement in the scientific community that mitochondrial dysfunction, protein degradation dysfunction, alpha-synuclein aggregation to neurotoxic oligomers, neuroinflammation, oxidative and endoplasmic reticulum stress are involved in the loss of dopaminergic neurons containing neuromelanin in Parkinson's disease. The question is what triggers these mechanisms. The age of normal onset in idiopathic Parkinson's disease suggests that environmental factors such as metals, pollutants or genetic mutations cannot be involved because these factors are related to early onset of Parkinsonism. Therefore, we have to search for endogenous neurotoxins and neuroprotection in order to understand what trigger the loss of dopaminergic neurons. One important feature of Parkinson's disease is the rate of the degenerative process before the motor symptoms are evident and during the disease progression. The extremely slow rate of Parkinson's disease suggests that the neurotoxins and the neuroprotection have to be related to dopamine metabolism. Possible candidates for endogenous neurotoxins are alpha-synuclein neurotoxic oligomers, 4-dihydroxyphenylacetaldehyde and ortho-quinones formed during dopamine oxidation to neuromelanin. Vesicular monoamine transporter-2, DT-diaphorase and glutathione transferase M2-2 seems to be the most important neuroprotective mechanism to prevent neurotoxic mechanism during dopamine oxidation."
+  ],
+  "affiliation": [
+    "Molecular and Clinical Pharmacology, ICBM, Faculty of Medicine, University of Chile, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Dopamine",
+        "Monoamine oxidase",
+        "3,4-dihydroxyphenylacetic acid",
+        "L-dopa",
+        "Neuromelanin",
+        "Vmat-2",
+        "3,4-Dihydroxyphenylacetaldehyde",
+        "Aminochrome"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5514859"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.4103/1673-5374.208560"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-sa"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-01"
+  ],
+  "dateOfRevision": [
+    "2017-08-03"
+  ],
+  "firstPublicationDate": [
+    "2017-06-01"
+  ]
+}

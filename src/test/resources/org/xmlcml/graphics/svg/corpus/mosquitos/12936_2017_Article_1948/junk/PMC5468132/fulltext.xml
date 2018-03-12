@@ -1,0 +1,720 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5468132</article-id><article-id pub-id-type="doi">10.1002/ece3.2957</article-id><article-id pub-id-type="publisher-id">ECE32957</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Spatial overlap of shark nursery areas and the salmon farming industry influences the trophic ecology of <italic>Squalus acanthias</italic> on the southern coast of Chile</article-title></title-group><contrib-group><contrib id="ece32957-cr-0001" contrib-type="author" corresp="yes"><name><surname>Gait&#x000e1;n&#x02010;Espitia</surname><given-names>Juan Diego</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8781-5736</contrib-id><address><email>juadiegaitan@gmail.com</email></address><xref ref-type="aff" rid="ece32957-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece32957-cr-0002" contrib-type="author"><name><surname>G&#x000f3;mez</surname><given-names>Daniela</given-names></name><xref ref-type="aff" rid="ece32957-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece32957-cr-0003" contrib-type="author"><name><surname>Hobday</surname><given-names>Alistair J.</given-names></name><xref ref-type="aff" rid="ece32957-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece32957-cr-0004" contrib-type="author"><name><surname>Daley</surname><given-names>Ross</given-names></name><xref ref-type="aff" rid="ece32957-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece32957-cr-0005" contrib-type="author"><name><surname>Lamilla</surname><given-names>Julio</given-names></name><xref ref-type="aff" rid="ece32957-aff-0004">
+<sup>4</sup>
+</xref><xref ref-type="author-notes" rid="ece32957-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="ece32957-cr-0006" contrib-type="author"><name><surname>C&#x000e1;rdenas</surname><given-names>Leyla</given-names></name><xref ref-type="aff" rid="ece32957-aff-0002">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece32957-aff-0001"><label><sup>1</sup></label><institution>CSIRO Oceans and Atmosphere</institution><named-content content-type="city">Hobart</named-content><named-content content-type="country-part">TAS</named-content><country country="AU">Australia</country></aff><aff id="ece32957-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Facultad de Ciencias</named-content><named-content content-type="organisation-division">Instituto de Ciencias Ambientales y Evolutivas</named-content><institution>Universidad Austral de Chile</institution><named-content content-type="city">Valdivia</named-content><country country="CL">Chile</country></aff><aff id="ece32957-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Institute for Marine and Antarctic Studies</named-content><institution>University of Tasmania</institution><named-content content-type="city">Hobart</named-content><named-content content-type="country-part">TAS</named-content><country country="AU">Australia</country></aff><aff id="ece32957-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Facultad de Ciencias</named-content><named-content content-type="organisation-division">Instituto de Ciencias Marinas y Limnologicas</named-content><institution>Universidad Austral de Chile</institution><named-content content-type="city">Valdivia</named-content><country country="CL">Chile</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Juan Diego Gait&#x000e1;n&#x02010;Espitia, CSIRO Oceans and Atmosphere, Hobart, TAS, Australia.<break/>
+Email: <email>juadiegaitan@gmail.com</email><break/></corresp><fn id="ece32957-note-1001"><label>&#x02020;</label><p>Deceased Author.</p></fn></author-notes><pub-date pub-type="epub"><day>18</day><month>4</month><year>2017</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2017</year></pub-date><volume>7</volume><issue>11</issue><issue-id pub-id-type="doi">10.1002/ece3.2017.7.issue-11</issue-id><fpage>3773</fpage><lpage>3783</lpage><history><date date-type="received"><day>09</day><month>1</month><year>2017</year></date><date date-type="accepted"><day>14</day><month>3</month><year>2017</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2017 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2017 The Authors. Ecology and Evolution published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-7-3773.pdf"/><abstract id="ece32957-abs-0001"><title>Abstract</title><p>Potential interactions between marine predators and humans arise in the southern coast of Chile where predator feeding and reproduction sites overlap with fisheries and aquaculture. Here, we assess the potential effects of intensive salmon aquaculture on food habits, growth, and reproduction of a common predator, the spiny dogfish&#x02014;identified as <italic>Squalus acanthias</italic> via genetic barcoding. A total of 102 (89 females and 13 males) individuals were collected during winter and summer of 2013&#x02013;2014 from the Chilo&#x000e9; Sea where salmon aquaculture activities are concentrated. The low frequency of males in our study suggests spatial segregation of sex, while immature and mature females spatially overlapped in both seasons. Female spiny dogfish showed a functional specialist behavior as indicated by the small number of prey items and the relative high importance of the austral hake and salmon pellets in the diet. Immature sharks fed more on pellets and anchovies than the larger hake&#x02010;preferring mature females. Our results also indicate that spiny dogfish switch prey (anchovy to hake) to take advantage of seasonal changes in prey availability. Despite differences in the trophic patterns of <italic>S. acanthias</italic> due to the spatial association with intensive salmon farming, in this region, there appears to be no difference in fecundity or size at maturity compared to other populations. Although no demographic effects were detected, we suggest that a range of additional factors should be considered before concluding that intensive aquaculture does not have any impact on these marine predators.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece32957-kwd-0001">artisanal fishery</kwd><kwd id="ece32957-kwd-0002">reproduction</kwd><kwd id="ece32957-kwd-0003">Salmon industry</kwd><kwd id="ece32957-kwd-0004">sexual maturity</kwd><kwd id="ece32957-kwd-0005"><italic>Squalus acanthias</italic></kwd><kwd id="ece32957-kwd-0006">trophic ecology</kwd></kwd-group><funding-group><award-group><funding-source>CSIRO&#x02010;OCE post&#x02010;doctoral fellowship</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Millennium Nucleus Center for the Study of Multiple drivers</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Marine Socio&#x02010;Ecological Systems (MUSELS)&#x02010;MINECON</funding-source><award-id>NC120086</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="1"/><page-count count="11"/><word-count count="8454"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece32957</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2017</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.1.1 mode:remove_FC converted:12.06.2017</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece32957-cit-1001">
+<string-name>
+<surname>Gait&#x000e1;n&#x02010;Espitia</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>G&#x000f3;mez</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Hobday</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Daley</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Lamilla</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>C&#x000e1;rdenas</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Spatial overlap of shark nursery areas and the salmon farming industry influences the trophic ecology of <italic>Squalus acanthias</italic> on the southern coast of Chile</article-title>. <source>Ecol Evol</source>. <year>2017</year>;<volume>7</volume>:<fpage>3773</fpage>&#x02013;<lpage>3783</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.2957">https://doi.org/10.1002/ece3.2957</ext-link>
+</mixed-citation>
+</p></notes></front><body><sec id="ece32957-sec-0001"><label>1</label><title>Introduction</title><p>In the past three decades, salmonid aquaculture in Chile has experienced an explosive growth and diversification driven by the use of intensive farming techniques (Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0010" ref-type="ref">2009</xref>; Oddone, Paesch, &#x00026; Norbis, <xref rid="ece32957-bib-0052" ref-type="ref">2015</xref>) and the introduction of several different salmonid species (Correa &#x00026; Gross, <xref rid="ece32957-bib-0017" ref-type="ref">2008</xref>). Although this growth has placed Chile as the second most important salmon exporter worldwide (Ellis et&#x000a0;al., <xref rid="ece32957-bib-0025" ref-type="ref">2016</xref>), it has also raised criticisms and concerns related to its negative environmental effects (Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0009" ref-type="ref">2006</xref>, <xref rid="ece32957-bib-0010" ref-type="ref">2009</xref>; Soto &#x00026; Norambuena, <xref rid="ece32957-bib-0070" ref-type="ref">2004</xref>). The marine phase of salmon aquaculture is conducted in an open water net&#x02010;system that allows the discharge of large quantities of pollutants, mainly organic matter, nitrogen, and phosphorus into water bodies and the sea floor (Paudel et&#x000a0;al., <xref rid="ece32957-bib-0056" ref-type="ref">2015</xref>). Discharges from salmon farms can lead to eutrophication and alterations of the seasonal nutrient supply of coastal ecosystems (Brooks &#x00026; Mahnken, <xref rid="ece32957-bib-0007" ref-type="ref">2003</xref>; Kutti et&#x000a0;al., <xref rid="ece32957-bib-0044" ref-type="ref">2007</xref>) and the sediment organic content (Carroll et&#x000a0;al., <xref rid="ece32957-bib-0013" ref-type="ref">2003</xref>; Soto &#x00026; Norambuena, <xref rid="ece32957-bib-0070" ref-type="ref">2004</xref>), producing zones of anoxic conditions (Brown, Gowen, &#x00026; McLusky, <xref rid="ece32957-bib-0008" ref-type="ref">1987</xref>; Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0009" ref-type="ref">2006</xref>). All of these environmental changes around salmon farms impact the structure and composition of benthic communities by supporting high production of deposit&#x02010;feeding invertebrates (Guilpart et&#x000a0;al., <xref rid="ece32957-bib-0031" ref-type="ref">2012</xref>; Kutti et&#x000a0;al., <xref rid="ece32957-bib-0044" ref-type="ref">2007</xref>) and attracting high densities of demersal fish (Carss, <xref rid="ece32957-bib-0014" ref-type="ref">1990</xref>; Dempster et&#x000a0;al., <xref rid="ece32957-bib-0022" ref-type="ref">2002</xref>) and other mobile carnivores (Bonizzoni et&#x000a0;al., <xref rid="ece32957-bib-0006" ref-type="ref">2014</xref>; Kemper et&#x000a0;al., <xref rid="ece32957-bib-0041" ref-type="ref">2003</xref>; Quick, Middlemas, &#x00026; Armstrong, <xref rid="ece32957-bib-0059" ref-type="ref">2004</xref>; Ribeiro et&#x000a0;al., <xref rid="ece32957-bib-0062" ref-type="ref">2007</xref>; Sep&#x000fa;lveda &#x00026; Oliva, <xref rid="ece32957-bib-0064" ref-type="ref">2005</xref>; Ver&#x000ed;ssimo, McDowell, &#x00026; Graves, <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>). The immediate outcome of these alterations is enhancement of benthic&#x02010;pelagic coupling and the potential transfer of sediment&#x02010;associated contaminants into higher trophic levels (Debruyn et&#x000a0;al., <xref rid="ece32957-bib-0020" ref-type="ref">2006</xref>).</p><p>In Chile, the salmon industry is concentrated around the inner sea of Chilo&#x000e9; Island (41&#x02013;43&#x000b0;S, hereafter Chilo&#x000e9; Sea) (Figure&#x000a0;<xref rid="ece32957-fig-0001" ref-type="fig">1</xref>) (Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0009" ref-type="ref">2006</xref>, <xref rid="ece32957-bib-0010" ref-type="ref">2009</xref>). This region is a semi&#x02010;closed environment that is home to rare, unique and endangered marine species, including cold&#x02010;water corals (F&#x000f6;rsterra &#x00026; H&#x000e4;ussermann, <xref rid="ece32957-bib-0029" ref-type="ref">2003</xref>), penguins and migratory birds (Senner et&#x000a0;al., <xref rid="ece32957-bib-0063" ref-type="ref">2014</xref>; Skewgar, Boersma, &#x00026; Simeone, <xref rid="ece32957-bib-0067" ref-type="ref">2014</xref>), otters (Ebensperger &#x00026; Botto&#x02010;Mahan, <xref rid="ece32957-bib-0024" ref-type="ref">1997</xref>), blue and humpback whales (Hucke&#x02010;Gaete et&#x000a0;al., <xref rid="ece32957-bib-0038" ref-type="ref">2004</xref>), dolphins and pinnipeds (Ribeiro et&#x000a0;al., <xref rid="ece32957-bib-0062" ref-type="ref">2007</xref>; Ver&#x000ed;ssimo et&#x000a0;al., <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>), and skates and sharks (Lamilla et&#x000a0;al., <xref rid="ece32957-bib-0045" ref-type="ref">2005</xref>; Quiroz, Wiff, &#x00026; C&#x000e9;spedes, <xref rid="ece32957-bib-0060" ref-type="ref">2009</xref>; Valenzuela, Bustamante, &#x00026; Lamilla, <xref rid="ece32957-bib-0074" ref-type="ref">2008</xref>). Most of these marine animals use the Chilo&#x000e9; Sea as a feeding and nursery area (Hucke&#x02010;Gaete et&#x000a0;al., <xref rid="ece32957-bib-0038" ref-type="ref">2004</xref>; Quiroz et&#x000a0;al., <xref rid="ece32957-bib-0060" ref-type="ref">2009</xref>). However, this semi&#x02010;closed environment is under great pressure because the high density of human&#x02010;related activities that are carried out in this region has become a major threat for the ecological balance and persistence of local marine species (Oddone et&#x000a0;al., <xref rid="ece32957-bib-0052" ref-type="ref">2015</xref>). For instance, different biological aspects (e.g., mortality rates, behavior and distribution) of a range of marine predators, such as seals, dolphins, and sharks, are significantly affected by their interactions with fisheries (e.g., hake, mackerel, sardine, and anchovy) and intensive aquaculture systems (e.g., salmon, mussels) in the Chilo&#x000e9; Sea (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Kemper et&#x000a0;al., <xref rid="ece32957-bib-0041" ref-type="ref">2003</xref>; Ribeiro et&#x000a0;al., <xref rid="ece32957-bib-0062" ref-type="ref">2007</xref>; Sep&#x000fa;lveda &#x00026; Oliva, <xref rid="ece32957-bib-0064" ref-type="ref">2005</xref>; Ver&#x000ed;ssimo et&#x000a0;al., <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>). Some of these interactions have led to mortalities as a consequence of direct human attack or by accidental bycatch (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Ribeiro et&#x000a0;al., <xref rid="ece32957-bib-0062" ref-type="ref">2007</xref>; Sepulveda et&#x000a0;al., <xref rid="ece32957-bib-0065" ref-type="ref">2007</xref>). One of the best examples of this situation is the spiny dogfish <italic>Squalus acanthias</italic>. This coastal squaloid shark, as well as other dogfish species (e.g., <italic>Centroscyllium granulatum</italic> and <italic>Deania calcea</italic>), is common bycatch species in many small and large&#x02010;scale fisheries in southern Chile (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Lamilla et&#x000a0;al., <xref rid="ece32957-bib-0045" ref-type="ref">2005</xref>; Valenzuela et&#x000a0;al., <xref rid="ece32957-bib-0074" ref-type="ref">2008</xref>). Unfortunately, little is known about the abundance of <italic>S. acanthias</italic> in Chile and the ecological implications of the population declines (~30%) documented for this vulnerable species in South America (Fordham et&#x000a0;al., <xref rid="ece32957-bib-0028" ref-type="ref">2006</xref>; Ver&#x000ed;ssimo et&#x000a0;al., <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece32957-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Map of the study area with salmon farms distribution and activity areas of small to large&#x02010;scale fisheries (e.g., hake, anchovies, mackerel, cusk&#x02010;eel, sea urchins) (modified from Bustos&#x02010;Gallardo &#x00026; Irarrazaval, <xref rid="ece32957-bib-0011" ref-type="ref">2016</xref>) </p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-7-3773-g001"/></fig><p>Given the potential for strong interactions between human activities (aquaculture and fisheries) and spiny dogfish populations in southern Chile (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Valenzuela et&#x000a0;al., <xref rid="ece32957-bib-0074" ref-type="ref">2008</xref>), here we assessed the potential effects of salmon farming on the biology of <italic>S. acanthias</italic> in the Chilo&#x000e9; Sea. We also discuss the trophic and reproductive metrics employed here in the context of <italic>S. acanthias</italic> populations elsewhere, which are unexposed to intense salmonid aquaculture.</p></sec><sec id="ece32957-sec-0002"><label>2</label><title>Material and Methods</title><p>Spiny dogfish (<italic>N</italic>&#x000a0;=&#x000a0;102; 89 females and 13 males) were collected from bycatch of artisanal fisheries in the inner sea of Chiloe Island (41&#x000b0;40&#x02032;S; 72&#x000b0;39&#x02032;W) at the northern part of the Chilean Southern fiords area (Figure&#x000a0;<xref rid="ece32957-fig-0001" ref-type="fig">1</xref>) during May&#x02013;August (winter) 2013 and December&#x02013;February (summer) 2014. These fisheries exploit small pelagic fish species such as jack mackerel, anchoveta, hake, sardine among others. Once captured, spiny dogfish specimens were preliminarily identified by morphological examination, preserved in ice, and transported to the Elasmobranches Laboratory at the Austral University of Chile (UACh). Gender and weight (<italic>W</italic>) were recorded, while maturity stage was determined following Stehmann (<xref rid="ece32957-bib-0071" ref-type="ref">2002</xref>). Precaudal length (PC<sub>L</sub>) and total length (<italic>T</italic>
+<sub>L</sub>) were measured to the nearest gram and millimeter for each animal.</p><sec id="ece32957-sec-0003"><label>2.1</label><title>Species identification</title><p>Many bycatch species of dogfish are difficult to identify owing to extensive morphological similarities. This identification problem is exacerbated by the common fishery practice of removing the head, tail, and most fins from landed sharks while still at sea to reduce required storage space for the animal. In order to confirm the identity of the spiny dogfish species captured by the artisanal fishery in the inner sea of Chilo&#x000e9;, and assumed to be <italic>S. acanthias</italic>, we sequenced a 670&#x02010;bp fragment of the cytochrome c oxidase subunit 1 gene (<italic>Cox1</italic>). Total genomic DNA (gDNA) was extracted from muscle of 10 randomly selected individuals using the standard phenol&#x02010;chloroform method. <italic>Cox1</italic> sequences were amplified by polymerase chain reaction (PCR) using primers reported elsewhere (Fallabella, <xref rid="ece32957-bib-0026" ref-type="ref">1994</xref>; Ward et&#x000a0;al., <xref rid="ece32957-bib-0079" ref-type="ref">2007</xref>). PCR products were purified using the ENZA DNA Purification Kit (OMEGA). Sequencing was performed at the Departamento de Ecolog&#x000ed;a&#x02014;Universidad Cat&#x000f3;lica de Chile. All sequences were compared against the GenBank nonredundant protein database using BLASTN. Sequences showing significant hits (<italic>E</italic> value&#x000a0;&#x0003c;&#x000a0;.001) and high percent of identity (&#x0003e;99%) were downloaded from GenBank for posterior analysis. Sequences were aligned using the MAFFT platform of the TranslatorX multiple sequence alignment program (Abascal, Zardoya, &#x00026; Telford, <xref rid="ece32957-bib-0001" ref-type="ref">2010</xref>). Alignments were performed using the L&#x02010;INS&#x02010;i option (accurate for alignment of &#x02264;200 sequences) and default settings. A median&#x02010;joining haplotype network was constructed with the PopART program (Leigh &#x00026; Bryant, <xref rid="ece32957-bib-0048" ref-type="ref">2015</xref>) to estimate the &#x0201c;fine scaled&#x0201d; intraspecific relationships among Chilean sequences and the reference sequences obtained from GenBank. Haplotype network analyses are powerful methods for intraspecific data in revealing multiple connections between haplotypes and the number of base&#x02010;pair changes between them (Mardulyn, <xref rid="ece32957-bib-0049" ref-type="ref">2012</xref>).</p></sec><sec id="ece32957-sec-0004"><label>2.2</label><title>Trophic ecology</title><p>To investigate how diet around the salmon cages may vary with shark size, specimens were divided into two classes&#x02014;mature or immature, following size cutoffs provided in Alonso et&#x000a0;al. (<xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>). Stomachs were preserved in 10% formalin and stored frozen at &#x02212;20&#x000b0;C until analyzed. Stomach contents were thawed and washed with water. Identification was based on intact and remaining hard structures combined with general shape and anatomical features of prey. Recognizable prey items were identified to the lowest possible taxon, following the osteological guide of fishes (Fallabella, <xref rid="ece32957-bib-0026" ref-type="ref">1994</xref>) from the Biological Collection at the Zoology Institute of the UACh. Because the sample size was relatively small, cumulative number of prey curves was used to evaluate adequacy of the sample size in our study. These curves were estimated with asymptotic models using two different approaches: (1) the rarefaction curve and (2) the trophic diversity curve based on the number of prey items and the number of stomachs sampled (Cort&#x000e9;s, <xref rid="ece32957-bib-0018" ref-type="ref">1997</xref>; Mardulyn, <xref rid="ece32957-bib-0049" ref-type="ref">2012</xref>). The rarefaction curve was generated by means of the EstimateS 8.2 software (Colwell, <xref rid="ece32957-bib-0016" ref-type="ref">2013</xref>), randomizing the sample order 100 times. Thereafter, the asymptotic Clench function was fitted to the smoothed curve <italic>S</italic>(<italic>e</italic>)&#x000a0;=&#x000a0;<italic>ae</italic>/(1&#x000a0;+&#x000a0;<italic>be</italic>), where <italic>S</italic>(<italic>e</italic>) is the number of species found per sampling&#x02010;effort unit (<italic>e</italic>); <italic>a</italic> and <italic>b</italic> are function parameters. The latter were adjusted to the data of each curve by means of a Simplex and Quasi Newton method of the Statistica package (StatSoft Inc. version 6.0, 2004) to calculate regression coefficients and asymptote. The composition and relative importance of food items in the diet were examined using the three indices described by Hyslop (<xref rid="ece32957-bib-0039" ref-type="ref">1980</xref>): (1) the numerical index (%<italic>N</italic>); (2) the frequency of occurrence (%<italic>O</italic>); and (3) the gravimetric index (%<italic>W</italic>). If used separately, these indices can produce a bias toward highly abundant items (%<italic>O</italic>), small items (%<italic>N</italic>), or very large items (%<italic>W</italic>) (Mardulyn, <xref rid="ece32957-bib-0049" ref-type="ref">2012</xref>). To overcome these individual biases, a generalized form of the relative importance index (%RI) was calculated to determine the combined effect of these indices on each prey category (V&#x000f6;gler, Milessi, &#x00026; Duarte, <xref rid="ece32957-bib-0078" ref-type="ref">2009</xref>). The %RI was plotted to establish the level of importance of each prey category according to discontinuities in the slope of the curve. The categories of prey were sorted according to level of importance where high %RI values were assigned to the first level of importance and so forth (V&#x000f6;gler et&#x000a0;al., <xref rid="ece32957-bib-0078" ref-type="ref">2009</xref>). Finally, diet breadth was calculated using Levin's standardized index, ranging from 0 to 1, where low values indicate diets dominated by few prey items (specialist predators), and high values indicate generalist diets (Krebs, <xref rid="ece32957-bib-0043" ref-type="ref">1989</xref>).</p><p>For the data set, a similarity matrix was generated using the Bray&#x02013;Curtis similarity measure. In addition, the nonparametric analysis of similarities (ANOSIM) was run on the matrices using 999 permutations with the PRIMER software (v 6.0). We tested the null hypothesis of no differences in the diet composition between the mature and immature female sharks, and between winter and summer (grouping maturity stages). Percent data were square&#x02010;root&#x02010;transformed prior to statistical analysis, which satisfied assumptions of normality.</p></sec><sec id="ece32957-sec-0005"><label>2.3</label><title>Reproductive biology</title><p>Reproduction of <italic>S. acanthias</italic> in the Chilo&#x000e9; Sea may also be influenced by association with salmon aquaculture. Because of the low number of males collected in the area of study, we focused investigation on the 89 females. A regression analysis was first conducted to determine length&#x02013;weight relationships using the following equation:<disp-formula id="ece32957-disp-0001"><mml:math id="nlm-math-1"><mml:mrow><mml:mi>W</mml:mi><mml:mo>=</mml:mo><mml:mi>a</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:msup><mml:mi>L</mml:mi><mml:mi>b</mml:mi></mml:msup><mml:mi>c</mml:mi></mml:mrow></mml:math></disp-formula>where <italic>W</italic> is the weight (g), <italic>a</italic> and <italic>b</italic> are constants, and <italic>L</italic> is the total length in cm.</p><p>The presence of mature yellow oocytes (diameter over 2&#x000a0;cm) and embryos within the uteri was considered to indicate mature females (Stehmann, <xref rid="ece32957-bib-0071" ref-type="ref">2002</xref>). Relationships between mother size and the number of eggs and embryos were then determined. Total length at 50% maturity (<italic>T</italic>
+<sub>L50%</sub>) was calculated by a logistic model fitted to the maturity data as follows:<disp-formula id="ece32957-disp-0002"><mml:math id="nlm-math-2"><mml:mrow><mml:mi>Y</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>e</mml:mi><mml:mo>&#x02212;</mml:mo><mml:mfenced close=")" open="(" separators=""><mml:mrow><mml:mi>a</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x000d7;</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mfenced><mml:mo>&#x02212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math></disp-formula>where <italic>Y</italic> is the proportion of mature individuals and <italic>T</italic>
+<sub>L50%</sub> is given by&#x02014;<italic>a</italic>/<italic>b</italic> (Nakano, Hayashi, &#x00026; Nagamine, <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>). Litter size was recorded for pregnant females, along with sex, total length (<italic>T</italic>
+<sub>Lpup</sub>), weight (<italic>W</italic>
+<sub>pup</sub>), and volume of the yolk sac (<italic>V</italic>) for each embryo. Relationships between length&#x02013;weight, length&#x02013;volume of the yolk sac, and the sex ratio of the embryos were explored using the lm() function in the R statistical package. The developmental stage of the embryos was estimated following Jones and Ugland (<xref rid="ece32957-bib-0040" ref-type="ref">2001</xref>). A two&#x02010;way ANOVA was performed for comparison of the number of embryos among maturity classes and seasons.</p></sec></sec><sec id="ece32957-sec-0006"><label>3</label><title>Results</title><sec id="ece32957-sec-0007"><label>3.1</label><title>Species validation</title><p>Spiny dogfish samples (<italic>n</italic>&#x000a0;=&#x000a0;10) from the Chilo&#x000e9; Sea were successfully amplified, sequenced, and deposited at the NCBI under the accession numbers GU191146 to GU191155. Comparison of these sequences against GenBank showed high similarity (&#x0003e;99%) to <italic>S. acanthias</italic> followed by <italic>S. suckleyi</italic> (98%), <italic>S. edmundsi</italic> (93%), and <italic>S. hemipinnis</italic> (92%) (Fig.&#x000a0;<xref rid="ece32957-sup-0001" ref-type="supplementary-material">S1</xref>). Consequently, sequences of <italic>S. acanthias</italic> from different parts of the world were used as reference in the median&#x02010;joining haplotype network (Fig.&#x000a0;<xref rid="ece32957-sup-0002" ref-type="supplementary-material">S2</xref>). Only one haplotype was shared among populations in the Southern (Chile, Argentina, Tasmania, South Africa) and the Northern (USA, Canada, Europe) Hemisphere. All other haplotypes are inferred to have been derived from this haplotype by one (e.g., Chilean and Argentinian populations) or &#x0003e;2 mutational steps (e.g., UK and USA populations) (Fig.&#x000a0;<xref rid="ece32957-sup-0002" ref-type="supplementary-material">S2</xref>).</p></sec><sec id="ece32957-sec-0008"><label>3.2</label><title>Diet composition</title><p>Stomach contents of 26 immature (range 46&#x02013;74&#x000a0;cm <italic>T</italic>
+<sub>L</sub>; mean&#x000a0;&#x000b1;&#x000a0;1 <italic>SD</italic>: 57&#x000a0;&#x000b1;&#x000a0;8.1&#x000a0;cm) and 63 mature (71&#x02013;98&#x000a0;cm <italic>T</italic>
+<sub>L</sub>; 85&#x000a0;&#x000b1;&#x000a0;5.8&#x000a0;cm) females, were examined, with 61 (68.5%) stomachs containing food items. Whole and undigested prey items were frequently found in the same stomachs as well&#x02010;digested prey. The rarefaction curve and the trophic diversity curve showed a well&#x02010;defined asymptote (Figure&#x000a0;<xref rid="ece32957-fig-0002" ref-type="fig">2</xref>), indicating that the total sample size was adequate in describing spiny dogfish diet in the Chilo&#x000e9; Sea. The stomach content of female sharks was composed of five prey items (Table&#x000a0;<xref rid="ece32957-tbl-0001" ref-type="table-wrap">1</xref>), where fish were the most represented taxa with three items: austral hake (<italic>Merluccius australis</italic>), anchovy (<italic>Engraulis ringens</italic>), and sardine (<italic>Sprattus fuegensis</italic>). <italic>M. australis</italic> was the dominant prey, contributing the highest values of trophic indices followed by food pellets from salmon farms (Table&#x000a0;<xref rid="ece32957-tbl-0001" ref-type="table-wrap">1</xref>). According to the %RI, the diet of female spiny dogfish is characterized by three levels of importance (Figure&#x000a0;<xref rid="ece32957-fig-0003" ref-type="fig">3</xref>a), where hake and pellets are grouped in the first level, anchovy in the second level, and the third level is comprised of sardine and unidentified prey items (e.g., gelatinous prey). The Levin's standardized index (Ba) indicated a narrow trophic niche breath (Ba&#x000a0;=&#x000a0;0.31) for <italic>S. acanthias</italic> in the Chilo&#x000e9; Sea as a result of the low number of prey items and the higher importance of austral hake in the diet of female sharks. The relative importance of pellets for immature females decreased in the diet of mature sharks, in part due to increased %RI of the austral hake (Table&#x000a0;<xref rid="ece32957-tbl-0001" ref-type="table-wrap">1</xref>, Figure&#x000a0;<xref rid="ece32957-fig-0003" ref-type="fig">3</xref>b). However, the results of the ANOSIM test indicated that the diets of these two groups were not significantly different (Global <italic>R</italic>&#x000a0;=&#x000a0;.008, <italic>P</italic>&#x000a0;=&#x000a0;.399). Comparison of stomach contents during austral seasons revealed some differences in the %RI between winter and summer (Global <italic>R</italic>&#x000a0;=&#x000a0;.165, <italic>P</italic>&#x000a0;=&#x000a0;.044; Table&#x000a0;<xref rid="ece32957-tbl-0001" ref-type="table-wrap">1</xref>, Figure&#x000a0;<xref rid="ece32957-fig-0003" ref-type="fig">3</xref>c). For instance, during winter, anchovy and salmon pellets represent 93% of the prey contribution to the %RI, while in summer, hake and pellets are the most important items with ~74% of RI (Table&#x000a0;<xref rid="ece32957-tbl-0001" ref-type="table-wrap">1</xref>, Figure&#x000a0;<xref rid="ece32957-fig-0003" ref-type="fig">3</xref>c). No differences in the number of immature and mature females were detected between seasons (<italic>&#x003c7;</italic>
+<sup>2&#x000a0;</sup>=&#x000a0;1.9, <italic>P</italic>&#x000a0;=&#x000a0;.59).</p><fig fig-type="Figure" xml:lang="en" id="ece32957-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Cumulative prey curves for females of <italic>Squalus acanthias</italic>, the vertical axis shows the number of prey items and the horizontal axis shows the number of guts analyzed</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-7-3773-g002"/></fig><table-wrap id="ece32957-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Diet composition of females <italic>Squalus acanthias</italic>
+</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="center" colspan="3" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Total</th><th align="center" colspan="3" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Stages of development</th><th align="center" colspan="2" style="border-bottom:solid 1px #000000" valign="top" rowspan="1">Seasons</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Stomach contents</th><th align="center" valign="top" rowspan="1" colspan="1">%<italic>O</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">%<italic>N</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">%<italic>W</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">%RI</th><th align="center" valign="top" rowspan="1" colspan="1">%RI mature</th><th align="center" valign="top" rowspan="1" colspan="1">%RI immature</th><th align="center" valign="top" rowspan="1" colspan="1">%RI winter</th><th align="center" valign="top" rowspan="1" colspan="1">%RI summer</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Unidentified</td><td align="char" char="." rowspan="1" colspan="1">13.1</td><td align="char" char="." rowspan="1" colspan="1">5.2</td><td align="char" char="." rowspan="1" colspan="1">1.5</td><td align="char" char="." rowspan="1" colspan="1">0.93</td><td align="char" char="." rowspan="1" colspan="1">0.7</td><td align="char" char="." rowspan="1" colspan="1">1.1</td><td align="char" char="." rowspan="1" colspan="1">0.8</td><td align="char" char="." rowspan="1" colspan="1">7.3</td></tr><tr><td align="left" rowspan="1" colspan="1">Pellet</td><td align="char" char="." rowspan="1" colspan="1">57.4</td><td align="char" char="." rowspan="1" colspan="1">30.9</td><td align="char" char="." rowspan="1" colspan="1">26.6</td><td align="char" char="." rowspan="1" colspan="1">35.5</td><td align="char" char="." rowspan="1" colspan="1">14.4</td><td align="char" char="." rowspan="1" colspan="1">35.8</td><td align="char" char="." rowspan="1" colspan="1">48.6</td><td align="char" char="." rowspan="1" colspan="1">37.7</td></tr><tr><td align="left" rowspan="1" colspan="1">Hake</td><td align="char" char="." rowspan="1" colspan="1">49.2</td><td align="char" char="." rowspan="1" colspan="1">40.4</td><td align="char" char="." rowspan="1" colspan="1">52.4</td><td align="char" char="." rowspan="1" colspan="1">48.9</td><td align="char" char="." rowspan="1" colspan="1">74.5</td><td align="char" char="." rowspan="1" colspan="1">43.0</td><td align="char" char="." rowspan="1" colspan="1">4.5</td><td align="char" char="." rowspan="1" colspan="1">36.4</td></tr><tr><td align="left" rowspan="1" colspan="1">Anchovy</td><td align="char" char="." rowspan="1" colspan="1">37.7</td><td align="char" char="." rowspan="1" colspan="1">15.7</td><td align="char" char="." rowspan="1" colspan="1">13.1</td><td align="char" char="." rowspan="1" colspan="1">11.6</td><td align="char" char="." rowspan="1" colspan="1">1.0</td><td align="char" char="." rowspan="1" colspan="1">7.7</td><td align="char" char="." rowspan="1" colspan="1">44.4</td><td align="char" char="." rowspan="1" colspan="1">3.2</td></tr><tr><td align="left" rowspan="1" colspan="1">Sardine</td><td align="char" char="." rowspan="1" colspan="1">19.6</td><td align="char" char="." rowspan="1" colspan="1">7.8</td><td align="char" char="." rowspan="1" colspan="1">6.5</td><td align="char" char="." rowspan="1" colspan="1">3.1</td><td align="char" char="." rowspan="1" colspan="1">9.4</td><td align="char" char="." rowspan="1" colspan="1">12.4</td><td align="char" char="." rowspan="1" colspan="1">1.7</td><td align="char" char="." rowspan="1" colspan="1">15.4</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="ece32957-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Trophic ecology in females of <italic>Squalus acanthias</italic>. (a) Relative importance (%<styled-content style="fixed-case">RI</styled-content>) of functional prey categories. Vertical lines indicate the three levels of importance of the functional prey categories according to discontinuities in the slope of the %<styled-content style="fixed-case">RI</styled-content> curve. Comparative analysis of the relative importance (%<styled-content style="fixed-case">RI</styled-content>) between (b) maturity stages and (c) seasons</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-7-3773-g003"/></fig></sec><sec id="ece32957-sec-0009"><label>3.3</label><title>Reproductive development and fecundity</title><p>Females of <italic>S. acanthias</italic> collected in the Chilo&#x000e9; Sea ranged in length from 46 to 98&#x000a0;cm (mean&#x000a0;&#x000b1;&#x000a0;1 <italic>SD</italic>: 79&#x000a0;&#x000b1;&#x000a0;11&#x000a0;cm). Their weights varied between 0.7 and 4.9&#x000a0;kg (mean&#x000a0;&#x000b1;&#x000a0;1 <italic>SD</italic>: 2.4&#x000a0;&#x000b1;&#x000a0;1&#x000a0;kg). The relationship between these two variables revealed a positive allometric trend for somatic growth (Figure&#x000a0;<xref rid="ece32957-fig-0004" ref-type="fig">4</xref>a, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.915; <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;.001). The estimated length at 50% maturity was 72.8&#x000a0;cm (<italic>r</italic>&#x000a0;=&#x000a0;.998, Figure&#x000a0;<xref rid="ece32957-fig-0004" ref-type="fig">4</xref>b). The number of oocytes with a diameter over 2&#x000a0;cm varied between three and 17 (mean&#x000a0;&#x000b1;&#x000a0;<italic>SD</italic>: 7.67&#x000a0;&#x000b1;&#x000a0;2.8 oocytes), and no significant relationship was detected between the <italic>T</italic>
+<sub>L</sub> of mature females and the number of eggs (Figure&#x000a0;<xref rid="ece32957-fig-0004" ref-type="fig">4</xref>c, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.002; <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;.91). On the other hand, the number of embryos showed a low but positive relationship with the <italic>T</italic>
+<sub>L</sub> of the female sharks (Figure&#x000a0;<xref rid="ece32957-fig-0004" ref-type="fig">4</xref>d, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.348; <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.012) ranging between one and 12 embryos per female (mean&#x000a0;&#x000b1;&#x000a0;<italic>SD</italic>: 5.52&#x000a0;&#x000b1;&#x000a0;3.1). A total of 274 embryos were found with lengths between 3.6 and 25.8&#x000a0;cm (mean&#x000a0;&#x000b1;&#x000a0;<italic>SD</italic>: 12.7&#x000a0;&#x000b1;&#x000a0;5.7&#x000a0;cm) and weights between 2.5 and 40.8&#x000a0;g (mean&#x000a0;&#x000b1;&#x000a0;<italic>SD</italic>: 12.3&#x000a0;&#x000b1;&#x000a0;11.9&#x000a0;g). The relationship between total length (<italic>T</italic>
+<sub>Lpup</sub>) and weight (<italic>W</italic>
+<sub>pup</sub>) of pups suggests that embryos increase in weight exponentially (Figure&#x000a0;<xref rid="ece32957-fig-0005" ref-type="fig">5</xref>a, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.913; <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001) and as they grow the weight of their yolk sac decreases (Figure&#x000a0;<xref rid="ece32957-fig-0005" ref-type="fig">5</xref>b, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;.385; <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001). The sex ratio of the embryos was even (1:1), and significant differences were detected in the number of embryos at the smaller mature size classes between seasons (Figure&#x000a0;<xref rid="ece32957-fig-0005" ref-type="fig">5</xref>c, two&#x02010;way ANOVA; <italic>F</italic>
+<sub>10,251</sub>&#x000a0;=&#x000a0;1.96, <italic>P</italic>&#x000a0;=&#x000a0;.038).</p><fig fig-type="Figure" xml:lang="en" id="ece32957-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Reproductive biology of <italic>Squalus acanthias</italic> females in the Chiloe Sea. (a) Allometric relationship between the total weight and total length of spiny dogfish. Relationships between length of female sharks and (b) the percentage of mature females, (c) the number of eggs and (d) the number of embryos</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-7-3773-g004"/></fig><fig fig-type="Figure" xml:lang="en" id="ece32957-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Relationship between the total lengths of pups with (a) their body and (b) yolk sac weights. (c) Changes in distribution of the total lengths of pups between summer and winter</p></caption><graphic id="nlm-graphic-11" xlink:href="ECE3-7-3773-g005"/></fig></sec></sec><sec id="ece32957-sec-0010"><label>4</label><title>Discussion</title><p>Interactions between marine predators and humans arise in coastal ecosystems in various parts of the world where feeding and reproduction sites overlap with economic activities such as fisheries and aquaculture. These interactions include (1) mortality through bycatch; (2) deliberate harming of animals by humans; (3) changes in animal behavior; (4) competition for the same resource; (5) changes in prey size structure and distribution; and (6) changes in community composition resulting from fishing or from aquaculture&#x02010;induced alterations of the environment (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Guilpart et&#x000a0;al., <xref rid="ece32957-bib-0031" ref-type="ref">2012</xref>; Kemper et&#x000a0;al., <xref rid="ece32957-bib-0041" ref-type="ref">2003</xref>; Kutti et&#x000a0;al., <xref rid="ece32957-bib-0044" ref-type="ref">2007</xref>; Papastamatiou et&#x000a0;al., <xref rid="ece32957-bib-0055" ref-type="ref">2010</xref>; Ribeiro et&#x000a0;al., <xref rid="ece32957-bib-0062" ref-type="ref">2007</xref>; Sep&#x000fa;lveda &#x00026; Oliva, <xref rid="ece32957-bib-0064" ref-type="ref">2005</xref>; Sepulveda et&#x000a0;al., <xref rid="ece32957-bib-0065" ref-type="ref">2007</xref>; Ver&#x000ed;ssimo et&#x000a0;al., <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>). Given the high density of human&#x02010;related activities (e.g., fisheries and intensive aquaculture systems) in the Chilo&#x000e9; Sea (Oddone et&#x000a0;al., <xref rid="ece32957-bib-0052" ref-type="ref">2015</xref>), strong interactions with spiny dogfish populations (De La Torriente et&#x000a0;al., <xref rid="ece32957-bib-0019" ref-type="ref">2010</xref>; Valenzuela et&#x000a0;al., <xref rid="ece32957-bib-0074" ref-type="ref">2008</xref>) were possible. Our results show that the spatial overlap of shark nursery areas and the salmon industry influences the trophic niche of <italic>S. acanthias</italic> in this region by adding new food items (i.e., pellets; direct effect), and altering the structure and composition of benthic communities (e.g., crustaceans; indirect effect).</p><sec id="ece32957-sec-0011"><label>4.1</label><title>Genetic validation of <italic>Squalus acanthias</italic>
+</title><p>Although sharks are not the target species in many Chilean fisheries, practices such as drift netting and long line fishing result in high levels of shark bycatch (Lamilla et&#x000a0;al., <xref rid="ece32957-bib-0045" ref-type="ref">2005</xref>; Valenzuela et&#x000a0;al., <xref rid="ece32957-bib-0074" ref-type="ref">2008</xref>). The accurate identification of species of sharks obtained from bycatch is difficult because some species differ only slightly in their morphology and also because in some cases, head, tail, and most fins from landed sharks are removed at sea to minimize storage needs and prevent spoiling (Shivji et&#x000a0;al., <xref rid="ece32957-bib-0066" ref-type="ref">2002</xref>). Therefore, different molecular approaches have been recommended for shark species identification. One approach is DNA barcoding using universal primers to amplify part of target genes (Holmes, Steinke, &#x00026; Ward, <xref rid="ece32957-bib-0037" ref-type="ref">2009</xref>; Ward et&#x000a0;al., <xref rid="ece32957-bib-0080" ref-type="ref">2008</xref>). This approach is similar to the traditional morphology&#x02010;based methods, where species identification is based on the presence or absence of a distinct morphological feature (Viswambharan et&#x000a0;al., <xref rid="ece32957-bib-0077" ref-type="ref">2015</xref>). In our study, the use of the cytochrome c oxidase subunit 1 gene (<italic>Cox1</italic>) as a barcoding sequence allowed us for the first time to unambiguously identify <italic>S. acanthias</italic> as the dogfish species in the bycatch of artisanal fisheries in the region. As with other reported barcoding studies, the <italic>Cox1</italic> region is effective in delineating sharks up to the species level within the genus <italic>Squalus</italic> (Ward et&#x000a0;al., <xref rid="ece32957-bib-0079" ref-type="ref">2007</xref>). Despite the relatively low number of individuals sequenced in this study, we were able to identify 10 closely related haplotypes in these Chilean dogfish. One of these haplotypes was shared mainly with other <italic>S. acanthias</italic> populations in the Southern Hemisphere. These results are consistent with a previous global phylogeographic study, in which the South Pacific and Atlantic lineage of <italic>S. acanthias</italic> was characterized by a star&#x02010;shaped network with one very common, central haplotype and several derived and low&#x02010;frequency haplotypes (Ver&#x000ed;ssimo et&#x000a0;al., <xref rid="ece32957-bib-0075" ref-type="ref">2010</xref>).</p></sec><sec id="ece32957-sec-0012"><label>4.2</label><title>Trophic ecology of <italic>Squalus acanthias</italic> around salmon farms in Chile</title><p>The overall diet of <italic>S. acanthias</italic> females in the Chilo&#x000e9; Sea consisted mainly of teleost fishes. However, commercial salmon feeds were present in the stomachs of female dogfish. This is the first record of this high&#x02010;energy food item (24&#x02013;30% oil, ~19&#x000a0;kJ&#x000a0;g<sup>&#x02212;1</sup>) in <italic>S. acanthias</italic>, which differs from the natural trophic composition for this species in other regions of the world (Alonso et&#x000a0;al., <xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>; Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>; Demirhan, Seyhan, &#x00026; Basusta, <xref rid="ece32957-bib-0021" ref-type="ref">2007</xref>; Dunn et&#x000a0;al., <xref rid="ece32957-bib-0023" ref-type="ref">2013</xref>; Hanchet, <xref rid="ece32957-bib-0034" ref-type="ref">1991</xref>; Holden, <xref rid="ece32957-bib-0036" ref-type="ref">1966</xref>; Laptikhovsky, Arkhipkin, &#x00026; Henderson, <xref rid="ece32957-bib-0046" ref-type="ref">2001</xref>; Tanasichuk et&#x000a0;al., <xref rid="ece32957-bib-0073" ref-type="ref">1991</xref>). Salmon farms are known to affect the surrounding environment and local marine communities by the addition of organic matter in the form of feces and uneaten feed (Kutti et&#x000a0;al., <xref rid="ece32957-bib-0044" ref-type="ref">2007</xref>; Soto &#x00026; Norambuena, <xref rid="ece32957-bib-0070" ref-type="ref">2004</xref>). Organic waste from salmon cages produces a high concentration of ammonia in the local environment that can lead to decreased growth, increased vulnerability to diseases and pathological changes in animals inhabiting salmon farming areas (Piedecausa et&#x000a0;al., <xref rid="ece32957-bib-0057" ref-type="ref">2010</xref>). Here, the presence of salmon pellets in the diet of <italic>S. acanthias</italic> raises concern about the potential impact of salmon farms on the biology of marine predators, their trophic relationships, and ecosystem function in this region. For example, the use of corn or soybean in commercial pellets provides a high proportion of oleic acid (18:1n&#x02010;9), linoleic acid (18:2n&#x02010;6) and linolenic acid (18:3n&#x02010;3), that alter the fatty acid composition, physiology and behavior of fish and mussels from areas in the vicinity of salmon farms (Redmond et&#x000a0;al., <xref rid="ece32957-bib-0061" ref-type="ref">2010</xref>; Skog et&#x000a0;al., <xref rid="ece32957-bib-0068" ref-type="ref">2003</xref>). In addition, the intensive nature of salmon farming has resulted in the use of antibiotics (e.g., oxytetracycline), to limit bacterial and protozoan infections (Primavera, <xref rid="ece32957-bib-0058" ref-type="ref">2006</xref>). These antibiotics are administered with the feed pellets and have the potential to be accumulated in tissues of marine organisms around the salmon cages (Campbell, Pantazis, &#x00026; Kelly, <xref rid="ece32957-bib-0012" ref-type="ref">2001</xref>). Excessive use of antibiotics results in the development of side effects, such as liver damage, toxic effects, bacterial resistance, and immune suppression, and can have negative effects on environmental quality and human health (Nakano et&#x000a0;al., <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>; Zounkov&#x000e1; et&#x000a0;al., <xref rid="ece32957-bib-0082" ref-type="ref">2011</xref>). In Chile, salmon aquaculture uses 8000 times more antibiotics than in other countries (e.g., Norway), and the presence of tetracyclines (used for protein inhibition) and quinolones (fast bactericide action) has been documented in native species surrounding the salmon pens of the Chilo&#x000e9; Sea (Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0010" ref-type="ref">2009</xref>; Outeiro &#x00026; Villasante, <xref rid="ece32957-bib-0053" ref-type="ref">2013</xref>; Soto &#x00026; Norambuena, <xref rid="ece32957-bib-0070" ref-type="ref">2004</xref>).</p><p>Beyond the presence of salmon pellets in the diet of <italic>S. acanthias</italic> in Chile, the trophic ecology of this squaloid differs compared to populations in other regions. Overall, spiny dogfish are described as a fairly non&#x02010;selective (i.e., generalist) and opportunistic predator that feeds on many pelagic and benthic species (Alonso et&#x000a0;al., <xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>; Belleggia et&#x000a0;al., <xref rid="ece32957-bib-0005" ref-type="ref">2012</xref>). However, female spiny dogfish in Chile showed a functional specialist behavior as indicated by the small number of prey items and the relative high importance of the austral hake and pellets in the diet. The trophic niche of <italic>S. acanthias</italic> populations in the Northern Hemisphere, the Southwest Atlantic, and Southwest Pacific is characterized by a great diversity of teleost fishes (e.g., hakes, sandeels, gobies, herrings, anchovies, and whiting), crustaceans (e.g., shrimps, crabs, lobsters, and euphausiids), mollusks (e.g., squids and octopuses), and other invertebrates (e.g., salps, sea anemones, nematodes, and polychaetes) (Alonso et&#x000a0;al., <xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>; Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>; Belleggia et&#x000a0;al., <xref rid="ece32957-bib-0005" ref-type="ref">2012</xref>; Demirhan et&#x000a0;al., <xref rid="ece32957-bib-0021" ref-type="ref">2007</xref>; Dunn et&#x000a0;al., <xref rid="ece32957-bib-0023" ref-type="ref">2013</xref>; Hanchet, <xref rid="ece32957-bib-0034" ref-type="ref">1991</xref>; Holden, <xref rid="ece32957-bib-0036" ref-type="ref">1966</xref>; Laptikhovsky et&#x000a0;al., <xref rid="ece32957-bib-0046" ref-type="ref">2001</xref>; Tanasichuk et&#x000a0;al., <xref rid="ece32957-bib-0073" ref-type="ref">1991</xref>). In most of these studies, demersal and pelagic fish were the main component of the diet, which is consistent with our result. However, in these regions, <italic>S. acanthias</italic> feeds on other important prey items such as crustaceans and mollusks that are absent in the diet of sharks in the Chilo&#x000e9; Sea. One plausible explanation of this discrepancy could be the low occurrence of these preys near salmon farms in Southern Chile. In fact, one of the most drastic environmental effects of organic waste from salmon aquaculture is the alteration of the structure and composition of benthic communities (Guilpart et&#x000a0;al., <xref rid="ece32957-bib-0031" ref-type="ref">2012</xref>; Kutti et&#x000a0;al., <xref rid="ece32957-bib-0044" ref-type="ref">2007</xref>) and particularly the reductions in biodiversity of crustaceans in the vicinity of salmon cages (Buschmann et&#x000a0;al., <xref rid="ece32957-bib-0010" ref-type="ref">2009</xref>; Hall&#x02010;Spencer et&#x000a0;al., <xref rid="ece32957-bib-0032" ref-type="ref">2006</xref>; Outeiro &#x00026; Villasante, <xref rid="ece32957-bib-0053" ref-type="ref">2013</xref>).</p><p>From an ontogenetic perspective, <italic>S. acanthias</italic> exhibits substantial variation in diet with body length (e.g., Alonso et&#x000a0;al., <xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>; Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>; Demirhan et&#x000a0;al., <xref rid="ece32957-bib-0021" ref-type="ref">2007</xref>; Dunn et&#x000a0;al., <xref rid="ece32957-bib-0023" ref-type="ref">2013</xref>; Hanchet, <xref rid="ece32957-bib-0034" ref-type="ref">1991</xref>). This is consistent with our results in which smaller immature sharks fed more on pellets and anchovies than larger mature females. The ontogenetic transition from small prey items (e.g., crustaceans, salps, other invertebrates) to fish feeding is a typical feature of the trophic ecology of <italic>S. acanthias</italic> (Dunn et&#x000a0;al., <xref rid="ece32957-bib-0023" ref-type="ref">2013</xref>; Tanasichuk et&#x000a0;al., <xref rid="ece32957-bib-0073" ref-type="ref">1991</xref>). Another source of variation in the diet composition of the spiny dogfish is seasonality (Belleggia et&#x000a0;al., <xref rid="ece32957-bib-0005" ref-type="ref">2012</xref>; Demirhan et&#x000a0;al., <xref rid="ece32957-bib-0021" ref-type="ref">2007</xref>; Laptikhovsky et&#x000a0;al., <xref rid="ece32957-bib-0046" ref-type="ref">2001</xref>; Tanasichuk et&#x000a0;al., <xref rid="ece32957-bib-0073" ref-type="ref">1991</xref>). Here, despite of the presence of salmon pellets in the stomachs of female sharks throughout the year, significant differences were detected between summer and winter, again consistent with other studies that show spiny dogfish switch prey to take advantage of spatiotemporal changes in prey availability (Demirhan et&#x000a0;al., <xref rid="ece32957-bib-0021" ref-type="ref">2007</xref>). In the Chilo&#x000e9; Sea, sharks prey more on anchovies during winter and hakes during summer, which is consistent with the local availability of these prey fishes due to their seasonal migration (Aguayo&#x02010;Hern&#x000e1;ndez, <xref rid="ece32957-bib-0002" ref-type="ref">1995</xref>; Leal et&#x000a0;al., <xref rid="ece32957-bib-0047" ref-type="ref">2011</xref>).</p></sec><sec id="ece32957-sec-0013"><label>4.3</label><title>Biological parameters</title><p>The relatively larger size and increased residence time of fishes near salmon farms compared with fishes from other areas is explained by the availability of high&#x02010;energy pellets from salmon cages, as documented in many species elsewhere (Skog et&#x000a0;al., <xref rid="ece32957-bib-0068" ref-type="ref">2003</xref>). Hence, differences in biological parameters for spiny dogfish in the Chilo&#x000e9; Sea compared to populations not influenced by salmonid aquaculture might be expected. However, our results did not support the hypothesis of different reproductive and growth patterns in spiny dogfish in Chiloe. The size range of immature and mature females was similar to southwest Atlantic populations (Alonso et&#x000a0;al., <xref rid="ece32957-bib-0003" ref-type="ref">2002</xref>; Nakano et&#x000a0;al., <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>), and slightly lower than Northern Hemisphere populations (Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>; Gra&#x0010d;an et&#x000a0;al., <xref rid="ece32957-bib-0030" ref-type="ref">2016</xref>; Jones &#x00026; Ugland, <xref rid="ece32957-bib-0040" ref-type="ref">2001</xref>; Yigin &#x00026; Ismen, <xref rid="ece32957-bib-0081" ref-type="ref">2013</xref>), but with positive allometric trends for somatic growth (<italic>T</italic>
+<sub>L&#x000a0;</sub>~&#x000a0;<italic>W</italic>) in all of the cases. The size at 50% maturity of <italic>S. acanthias</italic> in the Chilo&#x000e9; Sea (72.8&#x000a0;cm) was higher than reported for the Mediterranean Sea (51.8&#x02013;52.8&#x000a0;cm) (Chatzispyrou &#x00026; Megalofonou, <xref rid="ece32957-bib-0015" ref-type="ref">2005</xref>; Yigin &#x00026; Ismen, <xref rid="ece32957-bib-0081" ref-type="ref">2013</xref>), similar to Southwest Atlantic (70.4&#x000a0;cm) (Nakano et&#x000a0;al., <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>) and Southwest Pacific (71.5&#x02013;74.0&#x000a0;cm) populations (Hanchet, <xref rid="ece32957-bib-0033" ref-type="ref">1988</xref>), and lower than in the Black Sea (88&#x000a0;cm) (Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>), the Northeast (77&#x02013;78.2&#x000a0;cm) (Henderson, Flannery, &#x00026; Dunne, <xref rid="ece32957-bib-0035" ref-type="ref">2002</xref>; Stenberg, <xref rid="ece32957-bib-0072" ref-type="ref">2005</xref>) and Northwest (79.1&#x000a0;cm) (Sosebee, <xref rid="ece32957-bib-0069" ref-type="ref">2005</xref>) Atlantic, and British Columbia waters (93.5&#x000a0;cm) (Ketchen, <xref rid="ece32957-bib-0042" ref-type="ref">1972</xref>). Although regional differences in <italic>T</italic>
+<sub>L50%</sub> occur, there is no evidence of particular effects of local conditions (i.e., salmon farming) on this parameter of <italic>S. acanthias</italic> in the Chilo&#x000e9; Sea. Fecundity (i.e., number of eggs and embryos) was also within the values described for <italic>S. acanthias</italic> elsewhere in the world, with an increasing number of embryos in larger mature females, and no differences in their sex ratio (Avsar, <xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>; Jones &#x00026; Ugland, <xref rid="ece32957-bib-0040" ref-type="ref">2001</xref>; Ketchen, <xref rid="ece32957-bib-0042" ref-type="ref">1972</xref>; Nakano et&#x000a0;al., <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>). The range of total length of embryos examined encompasses the theoretical curve proposed by Avsar (<xref rid="ece32957-bib-0004" ref-type="ref">2001</xref>) for this species and follows the relationship for embryo weight described in other regions (Chatzispyrou &#x00026; Megalofonou, <xref rid="ece32957-bib-0015" ref-type="ref">2005</xref>; Yigin &#x00026; Ismen, <xref rid="ece32957-bib-0081" ref-type="ref">2013</xref>). The low frequency of males in our study suggests that spatial segregation (latitude and depth) of sex may occur, while immature and mature females spatially overlapped in all seasons (Nakano et&#x000a0;al., <xref rid="ece32957-bib-0051" ref-type="ref">2015</xref>).</p><p>Overall, despite differences in the trophic patterns in this region, from this study, there appears to be no demographic expression in terms of fecundity or size at maturity of these trophic changes due to the spatial association with intensive salmon farming. We have not calculated the calorific value of the diet, and we suggest that this variable is needed in one additional comparative study with samples from other regions that are not influenced by salmon farming, to test any diet enrichment hypothesis. It may also be necessary to examine the effect of any chemicals in the environment on the reproductive performance of the sharks. If this inner sea is the only dogfish nursery area in the region, then a reproductive comparison may not be possible, and global comparisons of dietary energy and reproductive output will be needed. We conclude that at this stage, the intensive salmon aquaculture of the Chilo&#x000e9; Sea is influencing the diet of <italic>S. acanthias</italic>, but without an impact on shark reproduction.</p></sec></sec><sec id="ece32957-sec-0015"><title>Conflict of interest</title><p>None declared.</p></sec><sec id="ece32957-sec-0016"><title>Author contribution</title><p>LC, JDGE, DG, and JL conceived and designed the study. DG sampled the biological material and carried out DNA extractions. JD, DG, AH, and RD performed data analyses. JD, AH, and LC drafted the manuscript. All authors read, approved, and contributed to the final manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece32957-sup-0001"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-7-3773-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece32957-sup-0002"><caption><p>&#x000a0;</p></caption><media xlink:href="ECE3-7-3773-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece32957-sec-0014"><title>Acknowledgments</title><p>This paper is dedicated to the memory of Professor Julio Lamilla, one of the co&#x02010;authors, who passed away during the development of this article, on March 31, 2016. The authors express their thanks to the fishery creek of Anahuac. JDGE was supported by a CSIRO&#x02010;OCE postdoctoral fellowship. LC was supported by the Millennium Nucleus Center for the Study of Multiple drivers on Marine Socio&#x02010;Ecological Systems (MUSELS)&#x02010;MINECON Project NC120086.</p></ack><ref-list content-type="cited-references" id="ece32957-bibl-0001"><title>References</title><ref id="ece32957-bib-0001"><mixed-citation publication-type="journal" id="ece32957-cit-0001">
+<string-name>
+<surname>Abascal</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Zardoya</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Telford</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>TranslatorX: Multiple alignment of nucleotide sequences guided by amino acid translations</article-title>. <source>Nucleic Acids Research</source>, <volume>38</volume>, <fpage>W7</fpage>&#x02013;<lpage>W13</lpage>.<pub-id pub-id-type="pmid">20435676</pub-id></mixed-citation></ref><ref id="ece32957-bib-0002"><mixed-citation publication-type="book" id="ece32957-cit-0002">
+<string-name>
+<surname>Aguayo&#x02010;Hern&#x000e1;ndez</surname>, <given-names>M.</given-names>
+</string-name> (<year>1995</year>). <chapter-title>Biology and fisheries of Chilean hakes (<italic>M. gayi</italic> and <italic>M. australis</italic>)</chapter-title> In <person-group person-group-type="editor"><name><surname>Alheit</surname><given-names>J.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Pitcher</surname><given-names>T. J.</given-names></name></person-group> (Ed.), <article-title>Hake &#x02010;Fisheries, ecology and markets. Fish and Fisheries Series, 15</article-title> (pp. <fpage>305</fpage>&#x02013;<lpage>337</lpage>). <publisher-loc>London, UK</publisher-loc>: <publisher-name>Chapman &#x00026; Hall</publisher-name>.</mixed-citation></ref><ref id="ece32957-bib-0003"><mixed-citation publication-type="journal" id="ece32957-cit-0003">
+<string-name>
+<surname>Alonso</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Crespo</surname>, <given-names>A. E.</given-names>
+</string-name>, <string-name>
+<surname>Garc&#x000ed;a</surname>, <given-names>N. E.</given-names>
+</string-name>, <string-name>
+<surname>Pedraza</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name>
+<surname>Mariotti</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mora</surname>, <given-names>N. J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Fishery and ontogenetic driven changes in the diet of the spiny dogfish, <italic>Squalus acanthias</italic>, in Patagonian waters, Argentina</article-title>. <source>Environmental Biology of Fishes</source>, <volume>63</volume>(<issue>2</issue>), <fpage>193</fpage>&#x02013;<lpage>202</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0004"><mixed-citation publication-type="journal" id="ece32957-cit-0004">
+<string-name>
+<surname>Avsar</surname>, <given-names>D.</given-names>
+</string-name> (<year>2001</year>). <article-title>Age, growth, reproduction and feeding of the Spurdog (<italic>Squalus acanthias</italic> Linnaeus, 1758) in the South&#x02010;eastern Black Sea</article-title>. <source>Estuarine, Coastal and Shelf Science</source>, <volume>52</volume>, <fpage>269</fpage>&#x02013;<lpage>278</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0005"><mixed-citation publication-type="journal" id="ece32957-cit-0005">
+<string-name>
+<surname>Belleggia</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Figueroa</surname>, <given-names>D. E.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bremec</surname>, <given-names>C.</given-names>
+</string-name> (<year>2012</year>). <article-title>Long&#x02010;term changes in the spiny dogfish (<italic>Squalus acanthias</italic>) trophic role in the southwestern Atlantic</article-title>. <source>Hydrobiologia</source>, <volume>684</volume>(<issue>1</issue>), <fpage>57</fpage>&#x02013;<lpage>67</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0006"><mixed-citation publication-type="journal" id="ece32957-cit-0006">
+<string-name>
+<surname>Bonizzoni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Furey</surname>, <given-names>N. B.</given-names>
+</string-name>, <string-name>
+<surname>Pirotta</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Valavanis</surname>, <given-names>V. D.</given-names>
+</string-name>, <string-name>
+<surname>W&#x000fc;rsig</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bearzi</surname>, <given-names>G.</given-names>
+</string-name> (<year>2014</year>). <article-title>Fish farming and its appeal to common bottlenose dolphins: modelling habitat use in a Mediterranean embayment</article-title>. <source>Aquatic Conservation: Marine and Freshwater Ecosystems</source>, <volume>24</volume>(<issue>5</issue>), <fpage>696</fpage>&#x02013;<lpage>711</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0007"><mixed-citation publication-type="journal" id="ece32957-cit-0007">
+<string-name>
+<surname>Brooks</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mahnken</surname>, <given-names>C. V.</given-names>
+</string-name> (<year>2003</year>). <article-title>Interactions of Atlantic salmon in the Pacific northwest environment</article-title>. <source>Fisheries Research</source>, <volume>62</volume>(<issue>3</issue>), <fpage>255</fpage>&#x02013;<lpage>293</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0008"><mixed-citation publication-type="journal" id="ece32957-cit-0008">
+<string-name>
+<surname>Brown</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Gowen</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McLusky</surname>, <given-names>D. S.</given-names>
+</string-name> (<year>1987</year>). <article-title>The effect of salmon farming on the benthos of a Scottish sea loch</article-title>. <source>Journal of Experimental Marine Biology and Ecology</source>, <volume>109</volume>(<issue>1</issue>), <fpage>39</fpage>&#x02013;<lpage>51</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0009"><mixed-citation publication-type="journal" id="ece32957-cit-0009">
+<string-name>
+<surname>Buschmann</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name>
+<surname>Riquelme</surname>, <given-names>V. A.</given-names>
+</string-name>, <string-name>
+<surname>Hern&#x000e1;ndez&#x02010;Gonz&#x000e1;lez</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Jim&#x000e9;nez</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name>
+<surname>Henr&#x000ed;quez</surname>, <given-names>L. A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Fil&#x000fa;n</surname>, <given-names>L.</given-names>
+</string-name> (<year>2006</year>). <article-title>A review of the impacts of salmonid farming on marine coastal ecosystems in the southeast Pacific</article-title>. <source>ICES Journal of Marine Science</source>, <volume>63</volume>(<issue>7</issue>), <fpage>1338</fpage>&#x02013;<lpage>1345</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0010"><mixed-citation publication-type="journal" id="ece32957-cit-0010">
+<string-name>
+<surname>Buschmann</surname>, <given-names>A. H.</given-names>
+</string-name>, <string-name>
+<surname>Cabello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Carvajal</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Varela</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Henr&#x000ed;quez</surname>, <given-names>L.</given-names>
+</string-name> (<year>2009</year>). <article-title>Salmon aquaculture and coastal ecosystem health in Chile: Analysis of regulations, environmental impacts and bioremediation systems</article-title>. <source>Ocean and Coastal Management</source>, <volume>52</volume>(<issue>5</issue>), <fpage>243</fpage>&#x02013;<lpage>249</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0011"><mixed-citation publication-type="journal" id="ece32957-cit-0011">
+<string-name>
+<surname>Bustos&#x02010;Gallardo</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Irarrazaval</surname>, <given-names>F.</given-names>
+</string-name> (<year>2016</year>). <article-title>&#x0201c;Throwing money into the sea&#x0201d;: Capitalism as a world&#x02010;ecological System. Evidence from the Chilean Salmon Industry Crisis, 2008</article-title>. <source>Capitalism Nature Socialism</source>, <volume>5752</volume>(<issue>April</issue>), <fpage>1</fpage>&#x02013;<lpage>20</lpage>. doi:<ext-link ext-link-type="doi" xlink:href="10.1080/10455752.2016.1162822">10.1080/10455752.2016.1162822</ext-link>.</mixed-citation></ref><ref id="ece32957-bib-0012"><mixed-citation publication-type="journal" id="ece32957-cit-0012">
+<string-name>
+<surname>Campbell</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Pantazis</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kelly</surname>, <given-names>M. S.</given-names>
+</string-name> (<year>2001</year>). <article-title>Impact and residence time of oxytetracycline in the sea urchin, <italic>Psammechinus miliaris</italic>, a potential aquaculture species</article-title>. <source>Aquaculture</source>, <volume>202</volume>(<issue>1&#x02013;2</issue>), <fpage>73</fpage>&#x02013;<lpage>87</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0013"><mixed-citation publication-type="journal" id="ece32957-cit-0013">
+<string-name>
+<surname>Carroll</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name>
+<surname>Cochrane</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Fieler</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Velvin</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>White</surname>, <given-names>P.</given-names>
+</string-name> (<year>2003</year>). <article-title>Organic enrichment of sediments from salmon farming in Norway: Environmental factors, management practices, and monitoring techniques</article-title>. <source>Aquaculture</source>, <volume>226</volume>(<issue>1&#x02013;4</issue>), <fpage>165</fpage>&#x02013;<lpage>180</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0014"><mixed-citation publication-type="journal" id="ece32957-cit-0014">
+<string-name>
+<surname>Carss</surname>, <given-names>D.</given-names>
+</string-name> (<year>1990</year>). <article-title>Concentrations of wild and escaped fishes immediately adjacent to fish farm cages</article-title>. <source>Aquaculture</source>, <volume>90</volume>(<issue>1</issue>), <fpage>29</fpage>&#x02013;<lpage>40</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0015"><mixed-citation publication-type="journal" id="ece32957-cit-0015">
+<string-name>
+<surname>Chatzispyrou</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Megalofonou</surname>, <given-names>P.</given-names>
+</string-name> (<year>2005</year>). <article-title>Sexual maturity, fecundity and embryonic development of the spiny dogfish, <italic>Squalus acanthias</italic>, in the eastern Mediterranean Sea</article-title>. <source>Journal of the Marine Biological Association of the United Kingdom</source>, <volume>85</volume>, <fpage>1155</fpage>&#x02013;<lpage>1161</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0016"><mixed-citation publication-type="book" id="ece32957-cit-0016">
+<string-name>
+<surname>Colwell</surname>, <given-names>R. K.</given-names>
+</string-name> (<year>2013</year>). <article-title>EstimateS: statistical estimation of species richness and sharedspecies from samples</article-title>. Version 9.0 User's Guide and application. Retrieved from <ext-link ext-link-type="uri" xlink:href="http://viceroy.eeb.uconn.edu/estimates">http://viceroy.eeb.uconn.edu/estimates</ext-link>
+</mixed-citation></ref><ref id="ece32957-bib-0017"><mixed-citation publication-type="journal" id="ece32957-cit-0017">
+<string-name>
+<surname>Correa</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gross</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2008</year>). <article-title>Chinook salmon invade southern South America</article-title>. <source>Biological Invasions</source>, <volume>10</volume>(<issue>5</issue>), <fpage>615</fpage>&#x02013;<lpage>639</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0018"><mixed-citation publication-type="journal" id="ece32957-cit-0018">
+<string-name>
+<surname>Cort&#x000e9;s</surname>, <given-names>E.</given-names>
+</string-name> (<year>1997</year>). <article-title>A critical review of methods of studying fish feeding based on analysis of stomach contents: Application to elasmobranch fishes</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>54</volume>(<issue>3</issue>), <fpage>726</fpage>&#x02013;<lpage>738</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0019"><mixed-citation publication-type="journal" id="ece32957-cit-0019">
+<string-name>
+<surname>De La Torriente</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Qui&#x000f1;ones</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Miranda&#x02010;Urbina</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Echevarr&#x000ed;a</surname>, <given-names>F.</given-names>
+</string-name> (<year>2010</year>). <article-title>South American sea lion and spiny dogfish predation on artisanal catches of southern hake in fjords of Chilean Patagonia</article-title>. <source>ICES Journal of Marine Science</source>, <volume>67</volume>(<issue>2</issue>), <fpage>294</fpage>&#x02013;<lpage>303</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0020"><mixed-citation publication-type="journal" id="ece32957-cit-0020">
+<string-name>
+<surname>Debruyn</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Trudel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Eyding</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Harding</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>McNally</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Mountain</surname>, <given-names>R.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Mazumder</surname>, <given-names>A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Ecosystemic effects of salmon farming increase mercury contamination in wild fish</article-title>. <source>Environmental Science &#x00026; Technology</source>, <volume>40</volume>(<issue>11</issue>), <fpage>3489</fpage>&#x02013;<lpage>3493</lpage>.<pub-id pub-id-type="pmid">16786684</pub-id></mixed-citation></ref><ref id="ece32957-bib-0021"><mixed-citation publication-type="journal" id="ece32957-cit-0021">
+<string-name>
+<surname>Demirhan</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Seyhan</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Basusta</surname>, <given-names>N.</given-names>
+</string-name> (<year>2007</year>). <article-title>Dietary overlap in spiny dogfish (<italic>Squalus acanthias</italic>) and thornback ray (<italic>Raja clavata</italic>) in the southeastern black sea</article-title>. <source>Ekoloji</source>, <volume>16</volume>(<issue>62</issue>), <fpage>1</fpage>&#x02013;<lpage>8</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0022"><mixed-citation publication-type="journal" id="ece32957-cit-0022">
+<string-name>
+<surname>Dempster</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sanchez&#x02010;Jerez</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Bayle&#x02010;Sempere</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name>
+<surname>Gim&#x000e9;nez&#x02010;Casalduero</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Valle</surname>, <given-names>C.</given-names>
+</string-name> (<year>2002</year>). <article-title>Attraction of wild fish to sea&#x02010;cage fish farms in the south&#x02010;western Mediterranean Sea: Spatial and short&#x02010;term temporal variability</article-title>. <source>Marine Ecology Progress Series</source>, <volume>242</volume>, <fpage>237</fpage>&#x02013;<lpage>252</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0023"><mixed-citation publication-type="journal" id="ece32957-cit-0023">
+<string-name>
+<surname>Dunn</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Stevens</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name>
+<surname>Forman</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Connell</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Trophic interactions and distribution of some squaliforme sharks, including new diet descriptions for <italic>Deania calcea</italic> and <italic>Squalus acanthias</italic>
+</article-title>. <source>PLoS ONE</source>, <volume>8</volume>(<issue>3</issue>), <fpage>1</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0024"><mixed-citation publication-type="journal" id="ece32957-cit-0024">
+<string-name>
+<surname>Ebensperger</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Botto&#x02010;Mahan</surname>, <given-names>C.</given-names>
+</string-name> (<year>1997</year>). <article-title>Use of habitat, size of prey, and food&#x02010;niche relationships of two sympatric otters in southernmost Chile</article-title>. <source>Journal of Mammalogy</source>, <volume>78</volume>(<issue>1</issue>), <fpage>222</fpage>&#x02013;<lpage>227</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0025"><mixed-citation publication-type="journal" id="ece32957-cit-0025">
+<string-name>
+<surname>Ellis</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Turnbull</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>Knowles</surname>, <given-names>T. G.</given-names>
+</string-name>, <string-name>
+<surname>Lines</surname>, <given-names>J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Auchterlonie</surname>, <given-names>N. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Trends during development of Scottish salmon farming: An example of sustainable intensification?</article-title>
+<source>Aquaculture</source>, <volume>458</volume>, <fpage>82</fpage>&#x02013;<lpage>99</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0026"><mixed-citation publication-type="book" id="ece32957-cit-0026">
+<string-name>
+<surname>Fallabella</surname>, <given-names>F.</given-names>
+</string-name> (<year>1994</year>). <source>Guia osteologica de peces marinos de Chile</source>. <publisher-loc>Valdivia</publisher-loc>: <publisher-name>Universidad Austral de Chile</publisher-name>.</mixed-citation></ref><ref id="ece32957-bib-0027"><mixed-citation publication-type="journal" id="ece32957-cit-0027">
+<string-name>
+<surname>Folmer</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Black</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hoeh</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Lutz</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vrijenhoek</surname>, <given-names>R.</given-names>
+</string-name> (<year>1994</year>). <article-title>DNA primers for amplification of mitochondrial cytochrome c oxidase subunit I from diverse metazoan invertebrates</article-title>. <source>Molecular Marine Biology and Biotechnology</source>, <volume>3</volume>(<issue>5</issue>), <fpage>294</fpage>&#x02013;<lpage>299</lpage>.<pub-id pub-id-type="pmid">7881515</pub-id></mixed-citation></ref><ref id="ece32957-bib-0028"><mixed-citation publication-type="book" id="ece32957-cit-0028">
+<string-name>
+<surname>Fordham</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Fowler</surname>, <given-names>S. L.</given-names>
+</string-name>, <string-name>
+<surname>Coelho</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Goldman</surname>, <given-names>K. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Francis</surname>, <given-names>M.</given-names>
+</string-name> (<year>2006</year>). <article-title>Squalus acanthias (South America subpopulations). In IUCN 2013. IUCN Red List of Threatened Species</article-title>. (Version 2013.2). Retrieved from <ext-link ext-link-type="uri" xlink:href="http://www.iucnredlist.org/details/39326/0">http://www.iucnredlist.org/details/39326/0</ext-link>
+</mixed-citation></ref><ref id="ece32957-bib-0029"><mixed-citation publication-type="journal" id="ece32957-cit-0029">
+<string-name>
+<surname>F&#x000f6;rsterra</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>H&#x000e4;ussermann</surname>, <given-names>V.</given-names>
+</string-name> (<year>2003</year>). <article-title>First report on large scleractinian (Cnidaria: Anthozoa) accumulations in cold&#x02010;temperate shallow water of south Chilean fjords</article-title>. <source>Zoologische Verhandelingen</source>, <volume>345</volume>, <fpage>117</fpage>&#x02013;<lpage>128</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0030"><mixed-citation publication-type="journal" id="ece32957-cit-0030">
+<string-name>
+<surname>Gra&#x0010d;an</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Heppell</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Lackovi&#x00107;</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lazar</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Age and growth dynamics of spiny dogfish, <italic>Squalus acanthias</italic>, in the Adriatic Sea (Eastern Mediterranean Sea)</article-title>. <source>Marine and Freshwater Research</source>, <volume>67</volume>(<issue>3</issue>), <fpage>357</fpage>&#x02013;<lpage>367</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0031"><mixed-citation publication-type="journal" id="ece32957-cit-0031">
+<string-name>
+<surname>Guilpart</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Roussel</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Aubin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Caquet</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Marle</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Le Bris</surname>, <given-names>H.</given-names>
+</string-name> (<year>2012</year>). <article-title>The use of benthic invertebrate community and water quality analyses to assess ecological consequences of fish farm effluents in rivers</article-title>. <source>Ecological Indicators</source>, <volume>23</volume>, <fpage>356</fpage>&#x02013;<lpage>365</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0032"><mixed-citation publication-type="journal" id="ece32957-cit-0032">
+<string-name>
+<surname>Hall&#x02010;Spencer</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Gillespie</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Gillham</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Foggo</surname>, <given-names>A.</given-names>
+</string-name> (<year>2006</year>). <article-title>Impact of fish farms on maerl beds in strongly tidal areas</article-title>. <source>Marine Ecology Progress Series</source>, <volume>326</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0033"><mixed-citation publication-type="journal" id="ece32957-cit-0033">
+<string-name>
+<surname>Hanchet</surname>, <given-names>S.</given-names>
+</string-name> (<year>1988</year>). <article-title>Reproductive biology of <italic>Squalus acanthias</italic> from the east coast, South Island, New Zealand</article-title>. <source>New Zealand Journal of Marine and Freshwater Research</source>, <volume>22</volume>(<issue>May</issue>), <fpage>537</fpage>&#x02013;<lpage>549</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0034"><mixed-citation publication-type="journal" id="ece32957-cit-0034">
+<string-name>
+<surname>Hanchet</surname>, <given-names>S.</given-names>
+</string-name> (<year>1991</year>). <article-title>Diet of spiny dogfish, <italic>Squalus acanthias</italic> Linnaeus, on the east coast, South Island, New Zealand</article-title>. <source>Journal of Fish Biology</source>, <volume>39</volume>, <fpage>313</fpage>&#x02013;<lpage>323</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0035"><mixed-citation publication-type="journal" id="ece32957-cit-0035">
+<string-name>
+<surname>Henderson</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name>
+<surname>Flannery</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dunne</surname>, <given-names>J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Growth and Reproduction in Spiny Dogfish <italic>Squalus acanthias</italic> L. (Elasmobranchii: Squalidae), from the West Coast of Ireland</article-title>. <source>Sarsia</source>, <volume>87</volume>, <fpage>350</fpage>&#x02013;<lpage>361</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0036"><mixed-citation publication-type="journal" id="ece32957-cit-0036">
+<string-name>
+<surname>Holden</surname>, <given-names>M. J.</given-names>
+</string-name>, <year>1966</year>
+<article-title>The Food of the Spurdog, <italic>Squalus acanthias</italic> (L.)</article-title>. <source>ICES Journal of Marine Science</source>, <volume>30</volume>(<issue>2</issue>), <fpage>255</fpage>&#x02013;<lpage>266</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0037"><mixed-citation publication-type="journal" id="ece32957-cit-0037">
+<string-name>
+<surname>Holmes</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>Steinke</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ward</surname>, <given-names>R. D.</given-names>
+</string-name>, (<year>2009</year>). <article-title>Identification of shark and ray fins using DNA barcoding</article-title>. <source>Fisheries Research</source>, <volume>95</volume>(<issue>2&#x02013;3</issue>), <fpage>280</fpage>&#x02013;<lpage>288</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0038"><mixed-citation publication-type="journal" id="ece32957-cit-0038">
+<string-name>
+<surname>Hucke&#x02010;Gaete</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Osman</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name>
+<surname>Moreno</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name>
+<surname>Findlay</surname>, <given-names>K. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ljungblad</surname>, <given-names>D. K.</given-names>
+</string-name> (<year>2004</year>). <article-title>Discovery of a blue whale feeding and nursing ground in southern Chile</article-title>. <source>Proceedings of the Royal Society of London B: Biological Sciences</source>, <volume>271</volume>(<issue>1</issue>), <fpage>S170</fpage>&#x02013;<lpage>S173</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0039"><mixed-citation publication-type="journal" id="ece32957-cit-0039">
+<string-name>
+<surname>Hyslop</surname>, <given-names>E. J.</given-names>
+</string-name> (<year>1980</year>). <article-title>Stomach contents analysis&#x02010;a review of methods and their application</article-title>. <source>Journal of Fish Biology</source>, <volume>17</volume>, <fpage>411</fpage>&#x02013;<lpage>429</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0040"><mixed-citation publication-type="journal" id="ece32957-cit-0040">
+<string-name>
+<surname>Jones</surname>, <given-names>T. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ugland</surname>, <given-names>K. I.</given-names>
+</string-name> (<year>2001</year>). <article-title>Reproduction of female spiny dogfish, <italic>Squalus acanthias</italic>, in the Oslofjord</article-title>. <source>Fishery Bulletin</source>, <volume>99</volume>(<issue>4</issue>), <fpage>685</fpage>&#x02013;<lpage>690</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0041"><mixed-citation publication-type="book" id="ece32957-cit-0041">
+<string-name>
+<surname>Kemper</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Pemberton</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Cawthorn</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Heinrich</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Wursig</surname>, <given-names>B.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Gales</surname>, <given-names>R.</given-names>
+</string-name> (<year>2003</year>). <source>Aquaculture and Marine Mammals: Co&#x02010;existence or conflict&#x0202f;? In Marine mammals: fisheries, tourism and management issues</source>. <publisher-loc>Clayton</publisher-loc>: <publisher-name>CSIRO Publishing</publisher-name>, pp. <fpage>208</fpage>&#x02013;<lpage>226</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0042"><mixed-citation publication-type="journal" id="ece32957-cit-0042">
+<string-name>
+<surname>Ketchen</surname>, <given-names>K. S.</given-names>
+</string-name> (<year>1972</year>). <article-title>Size at maturity, fecundity and embryonic growth of the spiny dogfish (<italic>Squalus acanthias</italic>) in British Columbia waters</article-title>. <source>Journal of the Fisheries Research Board of Canada</source>, <volume>29</volume>, <fpage>1717</fpage>&#x02013;<lpage>1723</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0043"><mixed-citation publication-type="book" id="ece32957-cit-0043">
+<string-name>
+<surname>Krebs</surname>, <given-names>C.J.</given-names>
+</string-name>, <year>1989</year>
+<source>Ecological methodology</source>, <publisher-loc>New York</publisher-loc>: <publisher-name>Harper Collins</publisher-name>.</mixed-citation></ref><ref id="ece32957-bib-0044"><mixed-citation publication-type="journal" id="ece32957-cit-0044">
+<string-name>
+<surname>Kutti</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hansen</surname>, <given-names>P. K.</given-names>
+</string-name>, <string-name>
+<surname>Ervik</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000f8;is&#x000e6;ter</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Johannessen</surname>, <given-names>P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effects of organic effluents from a salmon farm on a fjord system. II. Temporal and spatial patterns in infauna community composition</article-title>. <source>Aquaculture</source>, <volume>262</volume>(<issue>2&#x02013;4</issue>), <fpage>355</fpage>&#x02013;<lpage>366</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0045"><mixed-citation publication-type="journal" id="ece32957-cit-0045">
+<string-name>
+<surname>Lamilla</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Acu&#x000f1;a</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Araya</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Oliva</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Villaroel</surname>, <given-names>J. C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Mutschcke</surname>, <given-names>E.</given-names>
+</string-name> (<year>2005</year>). <article-title>Lineamientos b&#x000e1;sicos para desarrollar el Plan de Acci&#x000f3;n Nacional de Tiburones</article-title>. <source>Informe Final. Proyecto FIP</source>, <volume>2004&#x02010;18</volume>, <fpage>1</fpage>&#x02013;<lpage>621</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0046"><mixed-citation publication-type="journal" id="ece32957-cit-0046">
+<string-name>
+<surname>Laptikhovsky</surname>, <given-names>V. V.</given-names>
+</string-name>, <string-name>
+<surname>Arkhipkin</surname>, <given-names>A. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Henderson</surname>, <given-names>A. C.</given-names>
+</string-name> (<year>2001</year>). <article-title>Feeding habits and dietary overlap in spiny dogfish <italic>Squalus acanthias</italic> (Squalidae) and narrowmouth catshark <italic>Schroederidhthys bivius</italic> (Scyliorhinidae)</article-title>. <source>Journal of the Marine Biological Association of the United Kingdom</source>, <volume>81</volume>, <fpage>1015</fpage>&#x02013;<lpage>1018</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0047"><mixed-citation publication-type="journal" id="ece32957-cit-0047">
+<string-name>
+<surname>Leal</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Canales</surname>, <given-names>T. M.</given-names>
+</string-name>, <string-name>
+<surname>Aranis</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gonz&#x000e1;les</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Actividad reproductiva y longitud de madurez de sardina austral <italic>Sprattus fuegensis</italic> en el mar interior de Chilo&#x000e9;, Chile</article-title>. <source>Revista de Biolog&#x000ed;a Marina y Oceanograf&#x000ed;ia</source>, <volume>46</volume>(<issue>1</issue>), <fpage>43</fpage>&#x02013;<lpage>51</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0048"><mixed-citation publication-type="journal" id="ece32957-cit-0048">
+<string-name>
+<surname>Leigh</surname>, <given-names>J. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bryant</surname>, <given-names>D.</given-names>
+</string-name> (<year>2015</year>). <article-title>Popart: Full&#x02010;feature software for haplotype network construction</article-title>. <source>Methods in Ecology and Evolution</source>, <volume>6</volume>(<issue>9</issue>), <fpage>1110</fpage>&#x02013;<lpage>1116</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0049"><mixed-citation publication-type="journal" id="ece32957-cit-0049">
+<string-name>
+<surname>Mardulyn</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>Trees and/or networks to display intraspecific DNA sequence variation?</article-title>
+<source>Molecular Ecology</source>, <volume>21</volume>(<issue>14</issue>), <fpage>3385</fpage>&#x02013;<lpage>3390</lpage>.<pub-id pub-id-type="pmid">22607262</pub-id></mixed-citation></ref><ref id="ece32957-bib-0050"><mixed-citation publication-type="journal" id="ece32957-cit-0050">
+<string-name>
+<surname>McLeod</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Hobday</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Lyle</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Welsford</surname>, <given-names>D. C.</given-names>
+</string-name> (<year>2012</year>). <article-title>A prey&#x02010;related shift in the abundance of small pelagic fish in eastern Tasmania?</article-title>
+<source>ICES Journal of Marine Science</source>, <volume>69</volume>(<issue>6</issue>), <fpage>953</fpage>&#x02013;<lpage>960</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0051"><mixed-citation publication-type="journal" id="ece32957-cit-0051">
+<string-name>
+<surname>Nakano</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hayashi</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nagamine</surname>, <given-names>N.</given-names>
+</string-name> (<year>2015</year>). <article-title>Effect of excessive doses of oxytetracycline on stress&#x02010;related biomarker expression in coho salmon</article-title>. <source>Environmental Science and Pollution Research International</source>. Available at: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/26111749">http://www.ncbi.nlm.nih.gov/pubmed/26111749</ext-link>.</mixed-citation></ref><ref id="ece32957-bib-0052"><mixed-citation publication-type="journal" id="ece32957-cit-0052">
+<string-name>
+<surname>Oddone</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Paesch</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Norbis</surname>, <given-names>W.</given-names>
+</string-name> (<year>2015</year>). <article-title>Population structure of the piked dogfish <italic>Squalus acanthias</italic> (Elasmobranchii: Squalidae), with preliminary reproductive observations</article-title>. <source>Ichthyological Research</source>, <volume>62</volume>(<issue>4</issue>), <fpage>463</fpage>&#x02013;<lpage>473</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0053"><mixed-citation publication-type="journal" id="ece32957-cit-0053">
+<string-name>
+<surname>Outeiro</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Villasante</surname>, <given-names>S.</given-names>
+</string-name> (<year>2013</year>). <article-title>Linking salmon aquaculture synergies and trade&#x02010;offs on ecosystem services to human wellbeing constituents</article-title>. <source>Ambio</source>, <volume>42</volume>(<issue>8</issue>), <fpage>1022</fpage>&#x02013;<lpage>1036</lpage>.<pub-id pub-id-type="pmid">24214000</pub-id></mixed-citation></ref><ref id="ece32957-bib-0054"><mixed-citation publication-type="journal" id="ece32957-cit-0054">
+<string-name>
+<surname>Outeiro</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000e4;ussermann</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Viddi</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Hucke&#x02010;Gaete</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>F&#x000f6;rsterra</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Oyarzo</surname>, <given-names>H.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Villasante</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>). <article-title>Using ecosystem services mapping for marine spatial planning in southern Chile under scenario assessment</article-title>. <source>Ecosystem Services</source>, <volume>16</volume>, <fpage>341</fpage>&#x02013;<lpage>353</lpage>. doi:<ext-link ext-link-type="doi" xlink:href="10.1016/j.ecoser.2015.03.004">10.1016/j.ecoser.2015.03.004</ext-link>.</mixed-citation></ref><ref id="ece32957-bib-0055"><mixed-citation publication-type="journal" id="ece32957-cit-0055">
+<string-name>
+<surname>Papastamatiou</surname>, <given-names>Y. P.</given-names>
+</string-name>, <string-name>
+<surname>Itano</surname>, <given-names>D. G.</given-names>
+</string-name>, <string-name>
+<surname>Dale</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>, <given-names>C. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Holland</surname>, <given-names>K. N.</given-names>
+</string-name> (<year>2010</year>). <article-title>Site fidelity and movements of sharks associated with ocean&#x02010;farming cages in Hawaii</article-title>. <source>Marine and Freshwater Research</source>, <volume>61</volume>(<issue>12</issue>), <fpage>1366</fpage>&#x02013;<lpage>1375</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0056"><mixed-citation publication-type="journal" id="ece32957-cit-0056">
+<string-name>
+<surname>Paudel</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Khanal</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name>
+<surname>Chandran</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lee</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>2015</year>). <article-title>Effects of temperature on nitrous oxide (N2O) emission from intensive aquaculture system</article-title>. <source>The Science of the Total Environment</source>, <volume>518&#x02013;519</volume>, <fpage>16</fpage>&#x02013;<lpage>23</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0057"><mixed-citation publication-type="journal" id="ece32957-cit-0057">
+<string-name>
+<surname>Piedecausa</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Aguado&#x02010;Gim&#x000e9;nez</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Garc&#x000ed;a&#x02010;Garc&#x000ed;a</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Telfer</surname>, <given-names>T. C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Total ammonia nitrogen leaching from feed pellets used in salmon aquaculture</article-title>. <source>Journal of Applied Ichthyology</source>, <volume>26</volume>(<issue>1</issue>), <fpage>16</fpage>&#x02013;<lpage>20</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0058"><mixed-citation publication-type="journal" id="ece32957-cit-0058">
+<string-name>
+<surname>Primavera</surname>, <given-names>J. H.</given-names>
+</string-name>, <year>2006</year>
+<article-title>Overcoming the impacts of aquaculture on the coastal zone</article-title>. <source>Ocean &#x00026; Coastal Management</source>, <volume>49</volume>(<issue>9&#x02013;10</issue>), <fpage>531</fpage>&#x02013;<lpage>545</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0059"><mixed-citation publication-type="journal" id="ece32957-cit-0059">
+<string-name>
+<surname>Quick</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Middlemas</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Armstrong</surname>, <given-names>J. D.</given-names>
+</string-name>, <year>2004</year>
+<article-title>A survey of antipredator controls at marine salmon farms in Scotland</article-title>. <source>Aquaculture</source>, <volume>230</volume>(<issue>1&#x02013;4</issue>), <fpage>169</fpage>&#x02013;<lpage>180</lpage>. doi:<ext-link ext-link-type="uri" xlink:href="http://10.1016/S0044-8486(03)00428-9">10.1016/S0044-8486(03)00428-9</ext-link>.</mixed-citation></ref><ref id="ece32957-bib-0060"><mixed-citation publication-type="journal" id="ece32957-cit-0060">
+<string-name>
+<surname>Quiroz</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Wiff</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>C&#x000e9;spedes</surname>, <given-names>R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Reproduction and population aspects of the yellownose skate, <italic>Dipturus chilensis</italic> (Pisces, Elasmobranchii: Rajidae), from southern Chile</article-title>. <source>Journal of Applied Ichthyology</source>, <volume>25</volume>(<issue>1</issue>), <fpage>72</fpage>&#x02013;<lpage>77</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0061"><mixed-citation publication-type="journal" id="ece32957-cit-0061">
+<string-name>
+<surname>Redmond</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name>
+<surname>Magnesen</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hansen</surname>, <given-names>P. K.</given-names>
+</string-name>, <string-name>
+<surname>Strand</surname>, <given-names>&#x000d8;.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Meier</surname>, <given-names>S.</given-names>
+</string-name> (<year>2010</year>). <article-title>Stable isotopes and fatty acids as tracers of the assimilation of salmon fish feed in blue mussels (<italic>Mytilus edulis</italic>)</article-title>. <source>Aquaculture</source>, <volume>298</volume>(<issue>3&#x02013;4</issue>), <fpage>202</fpage>&#x02013;<lpage>210</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0062"><mixed-citation publication-type="journal" id="ece32957-cit-0062">
+<string-name>
+<surname>Ribeiro</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Viddi</surname>, <given-names>F. A.</given-names>
+</string-name>, <string-name>
+<surname>Cordeiro</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Freitas</surname>, <given-names>T. R.</given-names>
+</string-name> (<year>2007</year>). <article-title>Fine&#x02010;scale habitat selection of Chilean dolphins (Cephalorhynchus eutropia): Interactions with aquaculture activities in southern Chilo&#x000e9; Island, Chile</article-title>. <source>Journal of the Marine Biological Association of the UK</source>, <volume>87</volume>(<issue>1</issue>), <fpage>119</fpage>.</mixed-citation></ref><ref id="ece32957-bib-0063"><mixed-citation publication-type="journal" id="ece32957-cit-0063">
+<string-name>
+<surname>Senner</surname>, <given-names>N. R.</given-names>
+</string-name>, <string-name>
+<surname>Hochachka</surname>, <given-names>W. M.</given-names>
+</string-name>, <string-name>
+<surname>Fox</surname>, <given-names>J. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Afanasyev</surname>, <given-names>V.</given-names>
+</string-name> (<year>2014</year>). <article-title>An exception to the rule: Carry&#x02010;over effects do not accumulate in a long&#x02010;distance migratory bird</article-title>. <source>PLoS ONE</source>, <volume>9</volume>(<issue>2</issue>), <elocation-id>e86588</elocation-id>.<pub-id pub-id-type="pmid">24523862</pub-id></mixed-citation></ref><ref id="ece32957-bib-0064"><mixed-citation publication-type="journal" id="ece32957-cit-0064">
+<string-name>
+<surname>Sep&#x000fa;lveda</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Oliva</surname>, <given-names>D.</given-names>
+</string-name> (<year>2005</year>). <article-title>Interactions between South American sea lions <italic>Otaria flavescens</italic> (Shaw) and salmon farms in southern Chile</article-title>. <source>Aquaculture Research</source>, <volume>36</volume>(<issue>11</issue>), <fpage>1062</fpage>&#x02013;<lpage>1068</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0065"><mixed-citation publication-type="journal" id="ece32957-cit-0065">
+<string-name>
+<surname>Sep&#x000fa;lveda</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>P&#x000e9;rez</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Sielfeld</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Oliva</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Dur&#x000e1;n</surname>, <given-names>L. R.</given-names>
+</string-name>, <string-name>
+<surname>Rodr&#x000ed;guez</surname>, <given-names>L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Buscaglia</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Operational interaction between South American sea lions <italic>Otaria flavescens</italic> and artisanal (small&#x02010;scale) fishing in Chile: Results from interview surveys and on&#x02010;board observations</article-title>. <source>Fisheries Research</source>, <volume>83</volume>(<issue>2&#x02013;3</issue>), <fpage>332</fpage>&#x02013;<lpage>340</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0066"><mixed-citation publication-type="journal" id="ece32957-cit-0066">
+<string-name>
+<surname>Shivji</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Clarke</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Pank</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Natanson</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Kohler</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stanhope</surname>, <given-names>M.</given-names>
+</string-name> (<year>2002</year>). <article-title>Genetic identification of pelagic shark body parts for conservation and trade monitoring</article-title>. <source>Conservation Biology</source>, <volume>16</volume>(<issue>4</issue>), <fpage>1036</fpage>&#x02013;<lpage>1047</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0067"><mixed-citation publication-type="journal" id="ece32957-cit-0067">
+<string-name>
+<surname>Skewgar</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Boersma</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Simeone</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Winter migration of Magellanic Penguins (<italic>Spheniscus magellanicus</italic>) along the southeastern Pacific</article-title>. <source>Waterbirds</source>, <volume>37</volume>(<issue>2</issue>), <fpage>203</fpage>&#x02013;<lpage>209</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0068"><mixed-citation publication-type="journal" id="ece32957-cit-0068">
+<string-name>
+<surname>Skog</surname>, <given-names>T. E.</given-names>
+</string-name>, <string-name>
+<surname>Hylland</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Torstensen</surname>, <given-names>B. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Berntssen</surname>, <given-names>M. H.</given-names>
+</string-name> (<year>2003</year>). <article-title>Salmon farming affects the fatty acid composition and taste of wild saithe <italic>Pollachius virens</italic> L</article-title>. <source>Aquaculture Research</source>, <volume>34</volume>(<issue>12</issue>), <fpage>999</fpage>&#x02013;<lpage>1007</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0069"><mixed-citation publication-type="journal" id="ece32957-cit-0069">
+<string-name>
+<surname>Sosebee</surname>, <given-names>K. A.</given-names>
+</string-name> (<year>2005</year>). <article-title>Are density&#x02010;dependent effects on elasmobranch maturity possible?</article-title>
+<source>Journal of Northwest Atlantic Fishery Science</source>, <volume>35</volume>(<issue>March</issue>), <fpage>115</fpage>&#x02013;<lpage>124</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0070"><mixed-citation publication-type="journal" id="ece32957-cit-0070">
+<string-name>
+<surname>Soto</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Norambuena</surname>, <given-names>F.</given-names>
+</string-name> (<year>2004</year>). <article-title>Evaluation of salmon farming effects on marine systems in the inner seas of southern Chile: A large&#x02010;scale mensurative experiment</article-title>. <source>Journal of Applied Ichthyology</source>, <volume>20</volume>(<issue>6</issue>), <fpage>493</fpage>&#x02013;<lpage>501</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0071"><mixed-citation publication-type="journal" id="ece32957-cit-0071">
+<string-name>
+<surname>Stehmann</surname>, <given-names>M. F.</given-names>
+</string-name> (<year>2002</year>). <article-title>Proposal of a maturity stages scale for oviparous and viviparous cartilaginous fishes (Pisces, Chondrichthyes)</article-title>. <source>Archive of Fishery and Marine Research</source>, <volume>50</volume>(<issue>1</issue>), <fpage>23</fpage>&#x02013;<lpage>48</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0072"><mixed-citation publication-type="journal" id="ece32957-cit-0072">
+<string-name>
+<surname>Stenberg</surname>, <given-names>C.</given-names>
+</string-name> (<year>2005</year>). <article-title>Life history of the piked dogfish (<italic>Squalus acanthias</italic> L.) in Swedish waters</article-title>. <source>Journal of Northwest Atlantic Fishery Science</source>, <volume>35</volume>(<issue>March</issue>), <fpage>155</fpage>&#x02013;<lpage>164</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0073"><mixed-citation publication-type="journal" id="ece32957-cit-0073">
+<string-name>
+<surname>Tanasichuk</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<surname>Ware</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Shaw</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>McFarlane</surname>, <given-names>G. A.</given-names>
+</string-name> (<year>1991</year>). <article-title>Variations in diet daily ration and feeding periodicity of pacific hake merluccius&#x02010;productus and spiny dogfish <italic>Squalus acanthias</italic> off the lower west coast of Vancouver Island</article-title>. <source>Canadian Journal of Fisheries and Aquatic Sciences</source>, <volume>48</volume>(<issue>11</issue>), <fpage>2118</fpage>&#x02013;<lpage>2128</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0074"><mixed-citation publication-type="journal" id="ece32957-cit-0074">
+<string-name>
+<surname>Valenzuela</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Bustamante</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lamilla</surname>, <given-names>J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Morphological characteristics of five bycatch sharks caught by southern Chilean demersal longline fisheries</article-title>. <source>Scientia Marina</source>, <volume>72</volume>(<issue>2</issue>), <fpage>231</fpage>&#x02013;<lpage>237</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0075"><mixed-citation publication-type="journal" id="ece32957-cit-0075">
+<string-name>
+<surname>Ver&#x000ed;ssimo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>McDowell</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Graves</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2010</year>). <article-title>Global population structure of the spiny dogfish <italic>Squalus acanthias</italic>, a temperate shark with an antitropical distribution</article-title>. <source>Molecular Ecology</source>, <volume>19</volume>(<issue>8</issue>), <fpage>1651</fpage>&#x02013;<lpage>1662</lpage>.<pub-id pub-id-type="pmid">20345677</pub-id></mixed-citation></ref><ref id="ece32957-bib-0076"><mixed-citation publication-type="journal" id="ece32957-cit-0076">
+<string-name>
+<surname>Vilata</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Oliva</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sep&#x000fa;lveda</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>The predation of farmed salmon by South American sea lions (<italic>Otaria flavescens</italic>) in southern Chile</article-title>. <source>ICES Journal of Marine Science</source>, <volume>67</volume>(<issue>3</issue>), <fpage>475</fpage>&#x02013;<lpage>482</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0077"><mixed-citation publication-type="journal" id="ece32957-cit-0077">
+<string-name>
+<surname>Viswambharan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Pavan&#x02010;Kumar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name>
+<surname>Jaiswar</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Chakraborty</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name>
+<surname>Nair</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lakra</surname>, <given-names>W. S.</given-names>
+</string-name> (<year>2015</year>). <article-title>DNA barcoding of gobiid fishes (Perciformes, Gobioidei)</article-title>. <source>Mitochondrial DNA</source>, <volume>26</volume>(<issue>1</issue>), <fpage>15</fpage>&#x02013;<lpage>19</lpage>.<pub-id pub-id-type="pmid">24047183</pub-id></mixed-citation></ref><ref id="ece32957-bib-0078"><mixed-citation publication-type="journal" id="ece32957-cit-0078">
+<string-name>
+<surname>V&#x000f6;gler</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Milessi</surname>, <given-names>A. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Duarte</surname>, <given-names>L. O.</given-names>
+</string-name> (<year>2009</year>). <article-title>Changes in trophic level of Squatina guggenheim with increasing body length: Relationships with type, size and trophic level of its prey</article-title>. <source>Environmental Biology of Fishes</source>, <volume>84</volume>(<issue>1</issue>), <fpage>41</fpage>&#x02013;<lpage>52</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0079"><mixed-citation publication-type="book" id="ece32957-cit-0079">
+<string-name>
+<surname>Ward</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Holmes</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>Zemlak</surname>, <given-names>T. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smith</surname>, <given-names>P. J.</given-names>
+</string-name> (<year>2007</year>). <chapter-title>DNA barcoding discriminates spurdogs of the genus Squalus</chapter-title> In <person-group person-group-type="editor"><name><surname>Last</surname><given-names>P. R.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>White</surname><given-names>W. T.</given-names></name></person-group> &#x00026; <person-group person-group-type="editor"><name><surname>Pogonoski</surname><given-names>J.</given-names></name></person-group>, (Eds.), <source>Descriptions of new dogfishes of the genus squalus (Squaloidea: Squalidae)</source>. <publisher-loc>Hobart</publisher-loc>: <publisher-name>Marine and Atmospheric Research Paper, CSIRO</publisher-name>, pp. <fpage>17</fpage>&#x02013;<lpage>130</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0080"><mixed-citation publication-type="journal" id="ece32957-cit-0080">
+<string-name>
+<surname>Ward</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Holmes</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>W. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Last</surname>, <given-names>P. R.</given-names>
+</string-name> (<year>2008</year>). <article-title>DNA barcoding Australasian chondrichthyans: Resultsandpossible uses in conservation</article-title>. <source>Marine and Freshwater Research</source>, <volume>59</volume>(<issue>1</issue>), <fpage>57</fpage>&#x02013;<lpage>71</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0081"><mixed-citation publication-type="journal" id="ece32957-cit-0081">
+<string-name>
+<surname>Yigin</surname>, <given-names>C. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ismen</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Reproductive biology of spiny dogfish <italic>Squalus acanthias</italic>, in the North Aegean Sea</article-title>. <source>Turkish Journal of Fisheries and Aquatic Sciences</source>, <volume>13</volume>(<issue>1</issue>), <fpage>87</fpage>&#x02013;<lpage>94</lpage>.</mixed-citation></ref><ref id="ece32957-bib-0082"><mixed-citation publication-type="journal" id="ece32957-cit-0082">
+<string-name>
+<surname>Zounkov&#x000e1;</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Klime&#x00161;ov&#x000e1;</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Nepejchalov&#x000e1;</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Hilscherov&#x000e1;</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bl&#x000e1;ha</surname>, <given-names>L.</given-names>
+</string-name> (<year>2011</year>). <article-title>Complex evaluation of ecotoxicity and genotoxicity of antimicrobials oxytetracycline and flumequine used in aquaculture</article-title>. <source>Environmental Toxicology and Chemistry</source>, <volume>30</volume>(<issue>5</issue>), <fpage>1184</fpage>&#x02013;<lpage>1189</lpage>.<pub-id pub-id-type="pmid">21312248</pub-id></mixed-citation></ref></ref-list></back></article>

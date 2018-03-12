@@ -66,6 +66,17 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 
 	}
 	
+	@Test
+	public void testCropBMC() throws IOException {
+		// 295
+		File targetDir = new File("target/document/bmc/12936_2017_Article_1948/");
+		SVGHTMLFixtures.cleanAndCopyDir(new File(SVGHTMLFixtures.CORPUS_DIR, "mosquitos/12936_2017_Article_1948/"), targetDir);
+		DocumentCache documentCache = new DocumentCache(targetDir);
+		documentCache.processSVGInCTreeDirectory(targetDir);
+		XMLUtil.debug(documentCache.getHtmlDiv(), new File(targetDir, "pages.html"), 1);
+
+	}
+	
 
 
 }

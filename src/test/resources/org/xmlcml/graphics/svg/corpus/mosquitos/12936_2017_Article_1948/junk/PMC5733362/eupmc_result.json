@@ -1,0 +1,452 @@
+{
+  "id": [
+    "29326695"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29326695"
+  ],
+  "pmcid": [
+    "PMC5733362"
+  ],
+  "doi": [
+    "10.3389/fimmu.2017.01794"
+  ],
+  "title": [
+    "Caveolin-1 Expression Increases upon Maturation in Dendritic Cells and Promotes Their Migration to Lymph Nodes Thereby Favoring the Induction of CD8+ T Cell Responses."
+  ],
+  "authorString": [
+    "Oyarce C, Cruz-Gomez S, Galvez-Cancino F, Vargas P, Moreau HD, Diaz-Valdivia N, Diaz J, Salazar-Onfray FA, Pacheco R, Lennon-Dumenil AM, Quest AFG, Lladser A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Oyarce C"
+          ],
+          "firstName": [
+            "Cesar"
+          ],
+          "lastName": [
+            "Oyarce"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Laboratory of Gene Immunotherapy, Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Cruz-Gomez S"
+          ],
+          "firstName": [
+            "Sebastián"
+          ],
+          "lastName": [
+            "Cruz-Gomez"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Laboratory of Gene Immunotherapy, Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Galvez-Cancino F"
+          ],
+          "firstName": [
+            "Felipe"
+          ],
+          "lastName": [
+            "Galvez-Cancino"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Laboratory of Gene Immunotherapy, Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vargas P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6475-494X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institut National de la Santé et de la Recherche Médicale Unité 144, Institut Curie/CNRS, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Moreau HD"
+          ],
+          "firstName": [
+            "Hélène D"
+          ],
+          "lastName": [
+            "Moreau"
+          ],
+          "initials": [
+            "HD"
+          ],
+          "affiliation": [
+            "Institut National de la Santé et de la Recherche Médicale Unité 932, Institut Curie/CNRS, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz-Valdivia N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Diaz-Valdivia"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Laboratory of Cellular Communication, Advanced Center for Chronic Diseases (ACCDiS) and Center for Molecular Studies of the Cell (CEMC), Program in Cell and Molecular Biology, Faculty of Medicine, Biomedical Sciences Institute (ICBM), University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Diaz J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Diaz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Laboratory of Cellular Communication, Advanced Center for Chronic Diseases (ACCDiS) and Center for Molecular Studies of the Cell (CEMC), Program in Cell and Molecular Biology, Faculty of Medicine, Biomedical Sciences Institute (ICBM), University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Salazar-Onfray FA"
+          ],
+          "firstName": [
+            "Flavio Andres"
+          ],
+          "lastName": [
+            "Salazar-Onfray"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "affiliation": [
+            "Program in Immunology, Faculty of Medicine, Biomedical Sciences Institute (ICBM), University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Pacheco R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Pacheco"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Laboratory of Neuroimmunology, Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lennon-Dumenil AM"
+          ],
+          "firstName": [
+            "Ana Maria"
+          ],
+          "lastName": [
+            "Lennon-Dumenil"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "affiliation": [
+            "Institut National de la Santé et de la Recherche Médicale Unité 932, Institut Curie/CNRS, Paris, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Quest AFG"
+          ],
+          "firstName": [
+            "Andrew F G"
+          ],
+          "lastName": [
+            "Quest"
+          ],
+          "initials": [
+            "AFG"
+          ],
+          "affiliation": [
+            "Laboratory of Cellular Communication, Advanced Center for Chronic Diseases (ACCDiS) and Center for Molecular Studies of the Cell (CEMC), Program in Cell and Molecular Biology, Faculty of Medicine, Biomedical Sciences Institute (ICBM), University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Lladser A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Lladser"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Gene Immunotherapy, Fundación Ciencia & Vida, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6475-494X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "2550594"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in immunology"
+          ],
+          "ISOAbbreviation": [
+            "Front Immunol"
+          ],
+          "medlineAbbreviation": [
+            "Front Immunol"
+          ],
+          "NLMid": [
+            "101560960"
+          ],
+          "ISSN": [
+            "1664-3224"
+          ],
+          "ESSN": [
+            "1664-3224"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1794"
+  ],
+  "abstractText": [
+    "Dendritic cell (DC) trafficking from peripheral tissues to lymph nodes (LNs) is a key step required to initiate T cell responses against pathogens as well as tumors. In this context, cellular membrane protrusions and the actin cytoskeleton are essential to guide DC migration towards chemotactic signals. Caveolin-1 (CAV1) is a scaffolding protein that modulates signaling pathways leading to remodeling of the actin cytoskeleton and enhanced migration of cancer cells. However, whether CAV1 is relevant for DC function and specifically for DC migration to LNs is unknown. Here, we show that CAV1 expression is upregulated in DCs upon LPS- and TNF-α-induced maturation. CAV1 deficiency did not affect differentiation, maturation, or the ability of DCs to activate CD8+ T cells in vitro. However, CAV1-deficient (CAV1-/-) DCs displayed reduced in vivo trafficking to draining LNs in control and inflammatory conditions. In vitro, CAV1-/- DCs showed reduced directional migration in CCL21 gradients in transwell assays without affecting migration velocity in confined microchannels or three-dimensional collagen matrices. In addition, CAV1-/- DCs displayed reduced activation of the small GTPase Rac1, a regulator of actin cytoskeletal remodeling, and lower numbers of F-actin-forming protrusions. Furthermore, mice adoptively transferred with peptide-pulsed CAV1-/- DCs showed reduced CD8+ T cell responses and antitumor protection. Our results suggest that CAV1 promotes the activation of Rac1 and the formation of membrane protrusions that favor DC chemotactic trafficking toward LNs where they can initiate cytotoxic T cell responses."
+  ],
+  "affiliation": [
+    "Laboratory of Gene Immunotherapy, Fundación Ciencia & Vida, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chemotaxis",
+        "Migration",
+        "Dendritic cells",
+        "Caveolin-1",
+        "Antitumor Immune Response",
+        "Cd8+ T Cell Activation"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5733362?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5733362"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fimmu.2017.01794"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-01-13"
+  ],
+  "dateOfRevision": [
+    "2018-01-14"
+  ],
+  "electronicPublicationDate": [
+    "2017-12-13"
+  ],
+  "firstPublicationDate": [
+    "2017-12-13"
+  ]
+}

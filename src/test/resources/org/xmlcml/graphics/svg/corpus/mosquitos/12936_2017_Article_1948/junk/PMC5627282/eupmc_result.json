@@ -1,0 +1,627 @@
+{
+  "id": [
+    "28983475"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28983475"
+  ],
+  "pmcid": [
+    "PMC5627282"
+  ],
+  "doi": [
+    "10.3389/fcimb.2017.00427"
+  ],
+  "title": [
+    "Corrigendum: Helicobacter pylori cagA+ Is Associated with Milder Duodenal Histological Changes in Chilean Celiac Patients."
+  ],
+  "authorString": [
+    "Lucero Y, Oyarzún A, O'Ryan M, Quera R, Espinosa N, Valenzuela R, Simian D, Alcalde E, Arce C, Farfán MJ, Vergara AF, Gajardo I, Mendez J, Carrasco J, Errázuriz G, González M, Ossa JC, Maiza E, Perez-Bravo F, Castro M, Araya M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lucero Y"
+          ],
+          "firstName": [
+            "Yalda"
+          ],
+          "lastName": [
+            "Lucero"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8654-7239",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Pediatric Gastroenterology Unit, Department of Pediatrics, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Oyarzún A"
+          ],
+          "firstName": [
+            "Amaya"
+          ],
+          "lastName": [
+            "Oyarzún"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Laboratory of Immunegenetics, Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "O'Ryan M"
+          ],
+          "firstName": [
+            "Miguel"
+          ],
+          "lastName": [
+            "O'Ryan"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Millenium Institute of Immunology and Immunotherapy, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Quera R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Quera"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, Clínica Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Espinosa N"
+          ],
+          "firstName": [
+            "Nelly"
+          ],
+          "lastName": [
+            "Espinosa"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Hospital Militar, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Valenzuela R"
+          ],
+          "firstName": [
+            "Romina"
+          ],
+          "lastName": [
+            "Valenzuela"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Simian D"
+          ],
+          "firstName": [
+            "Daniela"
+          ],
+          "lastName": [
+            "Simian"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, Clínica Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Alcalde E"
+          ],
+          "firstName": [
+            "Elisa"
+          ],
+          "lastName": [
+            "Alcalde"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Arce C"
+          ],
+          "firstName": [
+            "Claudio"
+          ],
+          "lastName": [
+            "Arce"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Farfán MJ"
+          ],
+          "firstName": [
+            "Mauricio J"
+          ],
+          "lastName": [
+            "Farfán"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Vergara AF"
+          ],
+          "firstName": [
+            "Alejandra F"
+          ],
+          "lastName": [
+            "Vergara"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Gajardo I"
+          ],
+          "firstName": [
+            "Iván"
+          ],
+          "lastName": [
+            "Gajardo"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mendez J"
+          ],
+          "firstName": [
+            "Jocelyn"
+          ],
+          "lastName": [
+            "Mendez"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco J"
+          ],
+          "firstName": [
+            "Jorge"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Hospital Dr. Luis Calvo Mackenna, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Errázuriz G"
+          ],
+          "firstName": [
+            "Germán"
+          ],
+          "lastName": [
+            "Errázuriz"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, Clínica Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "González M"
+          ],
+          "firstName": [
+            "Mónica"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Hospital Dr. Roberto del Río, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Ossa JC"
+          ],
+          "firstName": [
+            "Juan C"
+          ],
+          "lastName": [
+            "Ossa"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "Department of Pediatrics and Pediatric Surgery, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Maiza E"
+          ],
+          "firstName": [
+            "Eduardo"
+          ],
+          "lastName": [
+            "Maiza"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Clínica Las Lilas, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Perez-Bravo F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Perez-Bravo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Nutrition Program, Faculty of Medicine, University of Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Castro M"
+          ],
+          "firstName": [
+            "Magdalena"
+          ],
+          "lastName": [
+            "Castro"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Department of Gastroenterology, Clínica Las Condes, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Araya M"
+          ],
+          "firstName": [
+            "Magdalena"
+          ],
+          "lastName": [
+            "Araya"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Laboratory of Immunegenetics, Institute of Nutrition and Food Technology, University of Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8654-7239",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2519726"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "427"
+  ],
+  "abstractText": [
+    "[This corrects the article on p. 376 in vol. 7, PMID: 28879170.]."
+  ],
+  "affiliation": [
+    "Pediatric Gastroenterology Unit, Department of Pediatrics, Clínica Alemana-Universidad del Desarrollo, Santiago, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Helicobacter Pylori",
+        "cagA gene",
+        "Celiac Disease",
+        "Potential Celiac Disease",
+        "Duodenal Atrophy"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5627282?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5627282"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2017.00427"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "28879170"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Front Cell Infect Microbiol. 2017 Aug 23;7:376"
+          ],
+          "type": [
+            "Erratum for"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-10-06"
+  ],
+  "dateOfRevision": [
+    "2017-10-06"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-29"
+  ],
+  "firstPublicationDate": [
+    "2017-09-29"
+  ]
+}

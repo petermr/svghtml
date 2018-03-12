@@ -1,0 +1,484 @@
+{
+  "id": [
+    "28628448"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28628448"
+  ],
+  "pmcid": [
+    "PMC5512488"
+  ],
+  "doi": [
+    "10.3201/eid2307.160129"
+  ],
+  "title": [
+    "Case-Control Study of Risk Factors for Meningococcal Disease in Chile."
+  ],
+  "authorString": [
+    "Olea A, Matute I, González C, Delgado I, Poffald L, Pedroni E, Alfaro T, Hirmas M, Nájera M, Gormaz A, López D, Loayza S, Ferreccio C, Gallegos D, Fuentes R, Vial P, Aguilera X."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Olea A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Olea"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Matute I"
+          ],
+          "firstName": [
+            "Isabel"
+          ],
+          "lastName": [
+            "Matute"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "González C"
+          ],
+          "firstName": [
+            "Claudia"
+          ],
+          "lastName": [
+            "González"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Delgado I"
+          ],
+          "firstName": [
+            "Iris"
+          ],
+          "lastName": [
+            "Delgado"
+          ],
+          "initials": [
+            "I"
+          ]
+        },
+        {
+          "fullName": [
+            "Poffald L"
+          ],
+          "firstName": [
+            "Lucy"
+          ],
+          "lastName": [
+            "Poffald"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Pedroni E"
+          ],
+          "firstName": [
+            "Elena"
+          ],
+          "lastName": [
+            "Pedroni"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Alfaro T"
+          ],
+          "firstName": [
+            "Tania"
+          ],
+          "lastName": [
+            "Alfaro"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Hirmas M"
+          ],
+          "firstName": [
+            "Macarena"
+          ],
+          "lastName": [
+            "Hirmas"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Nájera M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Nájera"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Gormaz A"
+          ],
+          "firstName": [
+            "Ana"
+          ],
+          "lastName": [
+            "Gormaz"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "López D"
+          ],
+          "firstName": [
+            "Darío"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Loayza S"
+          ],
+          "firstName": [
+            "Sergio"
+          ],
+          "lastName": [
+            "Loayza"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Ferreccio C"
+          ],
+          "firstName": [
+            "Catterina"
+          ],
+          "lastName": [
+            "Ferreccio"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Gallegos D"
+          ],
+          "firstName": [
+            "Doris"
+          ],
+          "lastName": [
+            "Gallegos"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Fuentes R"
+          ],
+          "firstName": [
+            "Rodrigo"
+          ],
+          "lastName": [
+            "Fuentes"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5154-3185",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Vial P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Vial"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Aguilera X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Aguilera"
+          ],
+          "initials": [
+            "X"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5154-3185",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "23"
+      ],
+      "journalIssueId": [
+        "2536273"
+      ],
+      "dateOfPublication": [
+        "2017 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging infectious diseases"
+          ],
+          "ISOAbbreviation": [
+            "Emerging Infect. Dis."
+          ],
+          "medlineAbbreviation": [
+            "Emerg Infect Dis"
+          ],
+          "NLMid": [
+            "9508155"
+          ],
+          "ISSN": [
+            "1080-6040"
+          ],
+          "ESSN": [
+            "1080-6059"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1070-1078"
+  ],
+  "abstractText": [
+    "An outbreak of meningococcal disease with a case-fatality rate of 30% and caused by predominantly serogroup W of Neisseria meningitidis began in Chile in 2012. This outbreak required a case-control study to assess determinants and risk factors for infection. We identified confirmed cases during January 2012-March 2013 and selected controls by random sampling of the population, matched for age and sex, resulting in 135 case-patients and 618 controls. Sociodemographic variables, habits, and previous illnesses were studied. Analyses yielded adjusted odds ratios as estimators of the probability of disease development. Results indicated that conditions of social vulnerability, such as low income and overcrowding, as well as familial history of this disease and clinical histories, especially chronic diseases and hospitalization for respiratory conditions, increased the probability of illness. Findings should contribute to direction of intersectoral public policies toward a highly vulnerable social group to enable them to improve their living conditions and health."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bacteria",
+        "Chile",
+        "Neisseria meningitidis",
+        "epidemiology",
+        "risk factors",
+        "Meningococcal Disease",
+        "Serogroups",
+        "Case−control Study",
+        "Meningitis/encephalitis"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5512488?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5512488"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3201/eid2307.160129"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-06-19"
+  ],
+  "dateOfRevision": [
+    "2017-11-09"
+  ],
+  "firstPublicationDate": [
+    "2017-07-01"
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": [
+    "28348523"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28348523"
+  ],
+  "pmcid": [
+    "PMC5346546"
+  ],
+  "doi": [
+    "10.3389/fnhum.2017.00098"
+  ],
+  "title": [
+    "A-Book: A Feedback-Based Adaptive System to Enhance Meta-Cognitive Skills during Reading."
+  ],
+  "authorString": [
+    "Guerra E, Mellado G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Guerra E"
+          ],
+          "firstName": [
+            "Ernesto"
+          ],
+          "lastName": [
+            "Guerra"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Experimental Psycholinguistics Lab, Pontificia Universidad Católica de ChileVillarrica, Chile; Center for Intercultural and Indigenous ResearchVillarrica, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Mellado G"
+          ],
+          "firstName": [
+            "Guido"
+          ],
+          "lastName": [
+            "Mellado"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Experimental Psycholinguistics Lab, Pontificia Universidad Católica de Chile Villarrica, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2550584"
+      ],
+      "dateOfPublication": [
+        "2017 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in human neuroscience"
+          ],
+          "ISOAbbreviation": [
+            "Front Hum Neurosci"
+          ],
+          "medlineAbbreviation": [
+            "Front Hum Neurosci"
+          ],
+          "NLMid": [
+            "101477954"
+          ],
+          "ISSN": [
+            "1662-5161"
+          ],
+          "ESSN": [
+            "1662-5161"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "98"
+  ],
+  "abstractText": [
+    "In the digital era, tech devices (hardware and software) are increasingly within hand's reach. Yet, implementing information and communication technologies for educational contexts that have robust and long-lasting effects on student learning outcomes is still a challenge. We propose that any such system must a) be theoretically motivated and designed to tackle specific cognitive skills (e.g., inference making) supporting a given cognitive task (e.g., reading comprehension) and b) must be able to identify and adapt to the user's profile. In the present study, we implemented a feedback-based adaptive system called A-book (assisted-reading book) and tested it in a sample of 4th, 5th, and 6th graders. To assess our hypotheses, we contrasted three experimental assisted-reading conditions; one that supported meta-cognitive skills and adapted to the user profile (adaptive condition), one that supported meta-cognitive skills but did not adapt to the user profile (training condition) and a control condition. The results provide initial support for our proposal; participants in the adaptive condition improved their accuracy scores on inference making questions over time, outperforming both the training and control groups. There was no evidence, however, of significant improvements on other tested meta-cognitive skills (i.e., text structure knowledge, comprehension monitoring). We discussed the practical implications of using the A-book for the enhancement of meta-cognitive skills in school contexts, as well as its current limitations and future developments that could improve the system."
+  ],
+  "affiliation": [
+    "Experimental Psycholinguistics Lab, Pontificia Universidad Católica de ChileVillarrica, Chile; Center for Intercultural and Indigenous ResearchVillarrica, Chile."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Reading Comprehension",
+        "Adaptive Icts",
+        "Meta-cognitive Skills"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5346546?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5346546"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fnhum.2017.00098"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-03-28"
+  ],
+  "dateOfRevision": [
+    "2017-08-16"
+  ],
+  "electronicPublicationDate": [
+    "2017-03-13"
+  ],
+  "firstPublicationDate": [
+    "2017-03-13"
+  ]
+}

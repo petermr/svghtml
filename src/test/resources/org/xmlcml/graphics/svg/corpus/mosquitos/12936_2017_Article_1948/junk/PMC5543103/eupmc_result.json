@@ -1,0 +1,413 @@
+{
+  "id": [
+    "28775285"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28775285"
+  ],
+  "pmcid": [
+    "PMC5543103"
+  ],
+  "doi": [
+    "10.1038/s41598-017-07681-z"
+  ],
+  "title": [
+    "Lateral prefrontal activity as a compensatory strategy for deficits of cortical processing in Attention Deficit Hyperactivity Disorder."
+  ],
+  "authorString": [
+    "Zamorano F, Billeke P, Kausel L, Larrain J, Stecher X, Hurtado JM, López V, Carrasco X, Aboitiz F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zamorano F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Zamorano"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3516-3630",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Unidad de Imágenes Cuantitativas Avanzadas, Departamento de Imágenes, Clínica Alemana de Santiago, Santiago, Chile. fzamorano@udd.cl."
+          ]
+        },
+        {
+          "fullName": [
+            "Billeke P"
+          ],
+          "firstName": [
+            "Pablo"
+          ],
+          "lastName": [
+            "Billeke"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4261-0678",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Facultad de Gobierno, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Kausel L"
+          ],
+          "firstName": [
+            "Leonie"
+          ],
+          "lastName": [
+            "Kausel"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Centro Interdisciplinario de Neurociencias, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Larrain J"
+          ],
+          "firstName": [
+            "Josefina"
+          ],
+          "lastName": [
+            "Larrain"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Facultad de Gobierno, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Stecher X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Stecher"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Departamento de Imágenes, Facultad de Medicina, Clinica Alemana Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Hurtado JM"
+          ],
+          "firstName": [
+            "Jose M"
+          ],
+          "lastName": [
+            "Hurtado"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "affiliation": [
+            "División de Neurociencia, Centro de Investigación en Complejidad Social (neuroCICS), Facultad de Gobierno, Universidad del Desarrollo, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "López V"
+          ],
+          "firstName": [
+            "Vladimir"
+          ],
+          "lastName": [
+            "López"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Escuela de Psicología, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Carrasco X"
+          ],
+          "firstName": [
+            "Ximena"
+          ],
+          "lastName": [
+            "Carrasco"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Servicio de Neurología y Psiquiatría, Hospital Luis Calvo Mackenna, Facultad de Medicina, Universidad de Chile, Santiago, Chile."
+          ]
+        },
+        {
+          "fullName": [
+            "Aboitiz F"
+          ],
+          "firstName": [
+            "Francisco"
+          ],
+          "lastName": [
+            "Aboitiz"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Departamento de Psiquiatría, Escuela de Medicina, Pontificia Universidad Católica de Chile, Santiago, Chile."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3516-3630",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4261-0678",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2582427"
+      ],
+      "dateOfPublication": [
+        "2017 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "7181"
+  ],
+  "abstractText": [
+    "Attention Deficit Hyperactivity Disorder (ADHD) is the most common neuropsychiatric disorder in childhood and is characterized by a delay of cortical maturation in frontal regions. In order to investigate interference control, which is a key function of frontal areas, a functional MRI study was conducted on 17 ADHD boys and 17 typically developing (TD) boys, while solving the multi source interference task (MSIT). This task consists of two conditions, a \"congruent condition\" and an \"incongruent condition\". The latter requires to inhibit information that interferes with task-relevant stimuli. Behavioral results showed that ADHD subjects committed more errors than TD children. In addition, TD children presented a larger MSIT effect -a greater difference in reaction times between the incongruent and the congruent conditions- than ADHD children. Associated to the MSIT effect, neuroimaging results showed a significant enhancement in the activation of the right lateral prefrontal cortex (rlPFC) in ADHD than in TD subjects. Finally, ADHD subjects presented greater functional connectivity between rlPFC and bilateral orbitofrontal cortex than the TD group. This difference in connectivity correlated with worse performance in both groups. Our results could reflect a compensatory strategy of ADHD children resulting from their effort to maintain an adequate performance during MSIT."
+  ],
+  "affiliation": [
+    "Unidad de Imágenes Cuantitativas Avanzadas, Departamento de Imágenes, Clínica Alemana de Santiago, Santiago, Chile. fzamorano@udd.cl."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543103?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5543103"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-017-07681-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2017-08-04"
+  ],
+  "dateOfRevision": [
+    "2017-08-08"
+  ],
+  "electronicPublicationDate": [
+    "2017-08-03"
+  ],
+  "firstPublicationDate": [
+    "2017-08-03"
+  ]
+}
