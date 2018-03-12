@@ -2,8 +2,12 @@ package org.xmlcml.graphics.util;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.FileVisitResult;
+import java.nio.file.FileVisitor;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.PathMatcher;
@@ -11,8 +15,10 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -20,6 +26,8 @@ import java.util.regex.Pattern;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.svg.layout.PubstyleManager;
+import org.xmlcml.graphics.svg.pubstyle.Publisher;
 
 /** uses java NIO PathMatcher to glob files
  * 
@@ -86,13 +94,20 @@ implementation-dependent and therefore not specified.
  * @author pm286
  *
  */
-public class CMineGlobberNew {
+public class FilePathGlobber {
 
+	public enum FSType {
+		DIR,
+		JAR,
+		FILE,
+		URI
+	}
 
-	private static final Logger LOG = Logger.getLogger(CMineGlobberNew.class);
+	private static final Logger LOG = Logger.getLogger(FilePathGlobber.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
+	private final static String JAR_STRING = "jar";
 	
 	private static final String GLOB = "glob:";
 	private static final String REGEX = "regex:";
@@ -102,13 +117,21 @@ public class CMineGlobberNew {
 	private List<File> fileList;
 	private Pattern pattern;
 	private boolean useDirectories = false;
+	private boolean recurse = true;
+
+	private Path root;
 
 
-	public CMineGlobberNew() {
+	public FilePathGlobber() {
 		useDirectories = false;
+		recurse = true;
+	}
+	
+	public void setRecurse(boolean b) {
+		this.recurse = b;
 	}
 
-	public CMineGlobberNew(String glob, File directory) {
+	public FilePathGlobber(String glob, File directory) {
 		this();
 		this.setGlob(glob);
 		this.setLocation(directory.toString());
@@ -187,7 +210,7 @@ public class CMineGlobberNew {
 		}
 	}
 
-	public CMineGlobberNew setLocation(File location) {
+	public FilePathGlobber setLocation(File location) {
 		if (location == null) {
 			LOG.warn("null location");
 		} else {
@@ -196,7 +219,7 @@ public class CMineGlobberNew {
 		return this;
 	}
 
-	public CMineGlobberNew setLocation(String location) {
+	public FilePathGlobber setLocation(String location) {
 		if (location == null) {
 			LOG.warn("null location");
 		} else {
@@ -208,7 +231,7 @@ public class CMineGlobberNew {
 		return this;
 	}
 
-	public CMineGlobberNew setGlob(String pathString) {
+	public FilePathGlobber setGlob(String pathString) {
 		if (pathString == null) {
 			LOG.warn("null pathString");
 		} else if (pathString.startsWith(REGEX)) {
@@ -221,7 +244,7 @@ public class CMineGlobberNew {
 		return this;
 	}
 
-	public CMineGlobberNew setRegex(String pathString) {
+	public FilePathGlobber setRegex(String pathString) {
 		if (pathString == null) {
 			LOG.warn("null pathString");
 		} else if (pathString.startsWith(GLOB)) {
@@ -269,7 +292,7 @@ public class CMineGlobberNew {
 	public static List<File> listGlobbedFilesQuietly(File directory, String glob) {
 		List<File> files = new ArrayList<File>();
 		try {
-			CMineGlobberNew globber = new CMineGlobberNew(glob, directory);
+			FilePathGlobber globber = new FilePathGlobber(glob, directory);
 			files = globber.listFiles();
 		} catch (IOException e) {
 			throw new RuntimeException("Cannot glob files, ", e);
@@ -283,9 +306,79 @@ public class CMineGlobberNew {
 		return s;
 	}
 
-	public CMineGlobberNew setUseDirectories(boolean b) {
+	public FilePathGlobber setUseDirectories(boolean b) {
 		this.useDirectories  = b;
 		return this;
+	}
+
+	/** BasicFileAttributes
+FileTime 	creationTime() Returns the creation time.
+Object 	fileKey() Returns an object that uniquely identifies the given file, or null if a file key is not available.
+boolean 	isDirectory() Tells whether the file is a directory.
+boolean 	isOther() Tells whether the file is something other than a regular file, directory, or symbolic link.
+boolean 	isRegularFile() Tells whether the file is a regular file with opaque content.
+boolean 	isSymbolicLink() Tells whether the file is a symbolic link.
+FileTime 	lastAccessTime() Returns the time of last access.
+FileTime 	lastModifiedTime() Returns the time of last modification.
+long 	size() Returns the size of the file (in bytes).	 */
+	/**
+	 * 
+	 * @param root
+	 * @param type
+	 * @return
+	 */
+	// https://stackoverflow.com/questions/11012819/how-can-i-get-a-resource-folder-from-inside-my-jar-file
+	public List<Path> createDirOrFileList(Path root, FSType type) {
+		this.root = root;
+		final List<Path> filePaths = new ArrayList<Path>();
+		final List<Path> dirPaths = new ArrayList<Path>();
+		final Path rootx = root;
+	
+	    FileVisitor<Path> simpleFileVisitor = new SimpleFileVisitor<Path>() {
+		    @Override
+		    public FileVisitResult preVisitDirectory(Path dir,BasicFileAttributes attrs) throws IOException {
+		        boolean addDir = dir.getParent().equals(rootx) || recurse;
+				if (addDir) {
+		        	dirPaths.add(dir);
+		        	LOG.debug("added"+dir);
+		        }
+				FileVisitResult fvr = (addDir || dir.equals(rootx)) ? 
+		        		FileVisitResult.CONTINUE : FileVisitResult.SKIP_SUBTREE;
+		        return fvr;
+		    }
+		       
+		    @Override
+		    public FileVisitResult visitFile(Path visitedFile,BasicFileAttributes fileAttributes)
+		        throws IOException {
+		        boolean addFile = visitedFile.getParent().equals(rootx) || recurse;
+				if (addFile) {
+		        	filePaths.add(visitedFile);
+		        }
+				FileVisitResult fvr = (addFile || recurse) ? 
+		        		FileVisitResult.CONTINUE : FileVisitResult.SKIP_SUBTREE;
+		        return fvr;
+		    }
+		};
+	    try {
+	        Files.walkFileTree(root, simpleFileVisitor);
+	    } catch (IOException ioe) {
+	        ioe.printStackTrace();
+	    }
+//	    LOG.debug("DIR "+dirPaths);
+//	    LOG.debug("FILE "+filePaths);
+		return FSType.DIR.equals(type) ? dirPaths : filePaths;
+	}
+
+	public Path getFolderPath(String resource, String pathRoot) throws URISyntaxException, IOException {
+		URI uri = this.getClass().getResource(resource).toURI();
+		String scheme = uri.getScheme();
+		if (JAR_STRING.equalsIgnoreCase(scheme)) {
+			// the hashmap is for special filesystems. Ignore for now
+			FileSystem fileSystem = FileSystems.newFileSystem(uri, new HashMap<String, String>(), (ClassLoader) null);
+			return fileSystem.getPath(pathRoot);
+		} else {
+		    return Paths.get(uri);
+		}
 	}
 
 
