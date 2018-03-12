@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="yes" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600.0" height="800.0" style="stroke:none;stroke-width:0.0;">
+    <g id="pubstyle" pubstyle="bmj" publisher="BritishMedicalJournal" doi="10.1136">
+	<!-- NOT YET DONE -->
+		<g id="page1" number="P1">
+			<g id="header">
+			<!-- 
+				<rect x="0" width="540" y="0" height="47" />
+				<text id="biblio" fontName="MyriadPro-It" y="38.469" x="450"
+					fontStyle="italic|normal" fontWeight="boldnormal">
+					<![CDATA[(?>auth)(\{\d+\)\s+(\d+:\d+)})]]></text>
+				<!- - DOI 10.1136/.* - ->
+				<text id="doi" fontName="MyriadPro-It" y="48.469" fontStyle="italic|normal"
+					fontWeight="boldnormal"><![CDATA[DOI (10\.1136/.*)]]> </text>
+				<text id="journalName" fontName="" fontSize="16.2" fontWeight="normal"
+					y="47.307" />
+				<title justify="left" wrap="true" fontSize="99" suscript="true"
+					font="" />
+			-->
+			</g>
+
+			<g id="abstract">
+			   <!--
+				<text level="2" x="63.122" fontSize="10.3" fontWeight="bold">Abstract
+				</text>
+				<g id="abs.section">
+					<text level="3" x="63.122" fontSize="10.0" fontWeight="bold">
+						(Background|Methods|Results|Discussion|Keywords):
+					</text>
+					<!- - running text - ->
+					<text level="3" fontSize="10.0" fontWeight="bold">ANY</text>
+				</g>
+				-->
+			</g>
+		</g>
+
+		<g id="page2" number="P2">
+			<g id="header">
+			<!-- 
+				<rect x="0" width="540" y="0" height="47" />
+				<text id="biblio" fontName="MyriadPro-It" y="38.469" x="450"
+					fontStyle="italic|normal" fontWeight="boldnormal>
+					<![CDATA[(?>auth)(\{\d+\)\s+(\d+:\d+)})]]></text>
+				<!- - DOI 10.1186/s12936-017-1948-z - ->
+				<text id="doi" fontName="MyriadPro-It" y="48.469" fontStyle="italic|normal"
+					fontWeight="boldnormal" regex="DOI (10\.1186/s\d+\-\d+\-\d+\-z)" />
+				<text id="journalName" fontName="" fontSize="16.2" fontWeight="normal"
+					y="47.307" />
+				<title justify="left" wrap="true" fontSize="99" suscript="true"
+					font="" />
+					-->
+			</g>
+
+			<g id="wideimage">
+				<!-- diagram -->
+				<!-- background? -->
+				<!-- 
+				<path style="fill:none;stroke-width:1.0;stroke:red;" signature="MLLLZ"
+					d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
+
+				<image xmlns:xlink="http://www.w3.org/1999/xlink"
+					transform="matrix(0.240,-0.0,-0.0,0.240,106.67,94.09)" xlink:href="fulltext.p4.i1.png"
+					x="0.0" y="0.0" width="1595.0" height="1637.0" />
+				<!- - rounded corners rect - ->
+				<path style="stroke:blue;stroke-width:2.25;fill:yellow;"
+					d="M61.068 88.092 
+	    C61.068 88.092 57.068 88.092 57.068 92.092 L57.068 519.852 
+	    C57.068 519.852 57.068 523.852 61.068 523.852 L534.958 523.852 
+	    C534.958 523.852 538.958 523.852 538.958 519.852 L538.958 92.092 
+	    C538.958 92.092 538.958 88.092 534.958 88.092 L61.068 88.092 Z"
+					signature="MCLCLCLCLZ" />
+                 -->
+			</g>
+
+			<g id="widetable">
+			</g>
+
+			<g id="left">
+			<!-- 
+				<rect x="55" width="238" y="82" height="639" />
+				<text fontName="MyriadPro-Bold"
+					style="fill:#000000;font-family:Helvetica;font-size:10.3px;font-weight:bold;">Background</text>
+				<text fontName="WarnockPro-Regular" x="56.693 ... 290.57"
+					style="fill:#000000;font-size:9.8px;font-weight:normal;">In 2015, ... countries </text>
+					-->
+			</g>
+			<g id="right">
+			<!-- 
+				<rect x="302" width="238" y="82" height="639" />
+				<text fontName="WarnockPro-Regular" y="94.917" x="304.721...531.08"
+					style="fill:#000000;font-size:9.8px;font-weight:normal;">only found in Ho Chi Minh City [</text>
+					-->
+			</g>
+			<g id="footer">
+			<!-- 
+				<rect x="0" width="540" y="700" height="47" />
+				-->
+			</g>
+		</g>
+	</g>
+</svg>
