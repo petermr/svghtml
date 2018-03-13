@@ -33,10 +33,30 @@
 		<g id="page2" number="P2">
 			<g id="header">
 				<rect x="0" width="540" y="0" height="47" />
-				<text id="biblio" fontName="MyriadPro-*" y="38.469" x="450" fontStyle="(italic|normal)" fontWeight="(bold|normal)">
-					(?&lt;authors>)(\{\d+\)\s+(\d+:\d+)})</text>
-				<text id="pages" justify="right" fontName="MyriadPro-*" fontSize="8.0" fontWeight="normal"
-					y="47.307" ><![CDATA[(Page?<page>\s+\d+\s+of\s+\d+)]]></text>
+					<!-- et al. Malar J  (2017) 16:299 -->
+				<text id="biblio" fontName="(MyriadPro\-(Regular|It))" y="38.469" fontStyle="(italic)" 
+				    fontSize="8.0" fontWeight="(bold|normal)">
+					<![CDATA[
+					(
+					(?:et\s+al\.)?\s*
+					(?<journal>[A-Za-z,\.\s]+)\s+
+					\((?<year>\d+)\)\s+
+					(?<vol>\d+)
+					:
+					(?<artno>\d+)\s*
+					)
+					]]></text>
+					<!-- Page 2 of 13 -->
+				<text id="pages" justify="right" fontName="MyriadPro-Regular" fontSize="8.0" fontWeight="(normal)"
+					y="47.307" ><![CDATA[(Page\s+(?<page>\d+)\s+of\s+(?<totalPage>\d+))]]></text>
+					<!-- Sumarnrote -->
+				<text id="authors" fontName="(MyriadPro\-(Regular))" y="38.469" fontStyle="(normal)" 
+				    fontSize="8.0" fontWeight="(normal)">
+					<![CDATA[
+					(
+					(?<authors>[A-Za-z,\s]+)\s*
+					)
+					]]></text>
 <!--
 <text fontName="MyriadPro-Regular" y="38.72" x="56.694,...96.198" 
 style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">Sumarnrote </text>
@@ -47,7 +67,7 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
 -->					
 			</g>
 
-			<g id="wideimage">
+			<g id="wideImage">
 				<!-- diagram -->
 				<!-- background? -->
 				<path style="fill:none;stroke-width:1.0;stroke:#000000;" signature="MLLLZ"
@@ -64,11 +84,9 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
 	    C534.958 523.852 538.958 523.852 538.958 519.852 L538.958 92.092 
 	    C538.958 92.092 538.958 88.092 534.958 88.092 L61.068 88.092 Z"
 					signature="MCLCLCLCLZ" />
-
-
 			</g>
 
-			<g id="widetable">
+			<g id="wideTable">
 				<!-- diagram -->
 				<!-- table rules -->
 				<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 572.729 L538.583 572.729 " />
@@ -77,18 +95,16 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
 				<!-- background? -->
 				<path style="fill:none;stroke-width:1.0;stroke:red;" signature="MLLLZ"
 					d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
-
-
 			</g>
 
-			<g id="left">
+			<g id="leftColumn">
 				<rect x="55" width="238" y="82" height="639" />
 				<text fontName="MyriadPro-Bold"
 					style="fill:#000000;font-family:Helvetica;font-size:10.3px;font-weight:bold;">Background</text>
 				<text fontName="WarnockPro-Regular" x="56.693 ... 290.57"
 					style="fill:#000000;font-size:9.8px;font-weight:normal;">In 2015, ... countries </text>
 			</g>
-			<g id="right">
+			<g id="rightColumn">
 				<rect x="302" width="238" y="82" height="639" />
 				<text fontName="WarnockPro-Regular" y="94.917" x="304.721...531.08"
 					style="fill:#000000;font-size:9.8px;font-weight:normal;">only found in Ho Chi Minh City [</text>
