@@ -96,7 +96,7 @@ public class PubstyleTest {
 		SVGPubstyleHeader pubstyleHeader = pubstyle.getHeader(PageType.P2);
 		Assert.assertNotNull(pubstyleHeader);
 		Assert.assertEquals("bbox rect", 1, SVGRect.extractSelfAndDescendantRects(pubstyleHeader).size());
-		Assert.assertEquals("header texts", 2, SVGText.extractSelfAndDescendantTexts(pubstyleHeader).size());
+		Assert.assertEquals("header texts", 3, SVGText.extractSelfAndDescendantTexts(pubstyleHeader).size());
 		Real2Range bbox = pubstyleHeader.getBoundingBox();
 		Assert.assertEquals("bbox", "((0.0,540.0),(0.0,47.0))", pubstyleHeader.getBoundingBox().toString());
 	}
