@@ -612,7 +612,7 @@ public class PageCacheTest {
 //		Pubstyle pubstyle = pubstyleManager.guessPubstyleFromFirstPage(new File(SVGHTMLFixtures.CORPUS_DIR, 
 //				"mosquitos/12936_2017_Article_1948/svg/fulltext-page2.svg.compact.svg"));
 		Assert.assertEquals("bmc", bmcStyle.getPubstyle());
-		SVGElement page1 = bmcStyle.getPage(PageType.P1);
+		SVGElement page1 = bmcStyle.getRawPage(PageType.P1);
 		Assert.assertNotNull(page1);
 		LOG.debug(page1.toXML());
 

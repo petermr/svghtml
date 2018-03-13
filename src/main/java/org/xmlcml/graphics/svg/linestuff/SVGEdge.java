@@ -53,7 +53,6 @@ public class SVGEdge extends SVGLine {
 			nodeList = new ArrayList<SVGNode>();
 			nodeList.add((SVGNode)null);
 			nodeList.add((SVGNode)null);
-//			LOG.debug("added null to bond: "+this.getId());
 		}
 		return nodeList;
 	}
