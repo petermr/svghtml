@@ -147,16 +147,12 @@ public class PubstyleManager {
 
 	private void getOrCreateProperties() {
 		svgHtmlProperties = SVGHtmlProperties.createSVGHtmlProperties();
-		LOG.debug("KEYS "+svgHtmlProperties.keySet());
 		String pubstyleResourceRootValue = svgHtmlProperties.getProperty(PUBSTYLE_RESOURCE_ROOT);
 		String pubstylePropertiesValue = svgHtmlProperties.getProperty(PUBSTYLE_PROPERTIES);
 		pubstyleRoot = svgHtmlProperties.getProperty(RESOURCE_ROOT)+"/"+pubstyleResourceRootValue;
-		LOG.debug("pubstyleRoot: "+pubstyleRoot);
 		pubstylePropertiesFile = pubstyleRoot+"/"+pubstylePropertiesValue;
-		LOG.debug("pubstylePropertiesFile: "+pubstylePropertiesFile);
 		jarRoot = MVN_ROOT+"/"+pubstyleRoot;
 		pubstyleFileName = SVGHtmlProperties.createProperties(pubstylePropertiesFile).getProperty(PUBSTYLE_FILE_NAME);
-		LOG.debug("pubstyleFileName: "+pubstyleFileName);
 	}
 	
 }
