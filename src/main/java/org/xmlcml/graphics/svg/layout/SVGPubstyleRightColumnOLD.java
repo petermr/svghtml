@@ -9,18 +9,18 @@ import org.xmlcml.graphics.svg.SVGElement;
  * @author pm286
  *
  */
-public class SVGPubstyleRightColumn extends AbstractPubstyle {
-	private static final Logger LOG = Logger.getLogger(SVGPubstyleRightColumn.class);
+public class SVGPubstyleRightColumnOLD extends AbstractPubstyle {
+	private static final Logger LOG = Logger.getLogger(SVGPubstyleRightColumnOLD.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 	public final static String SVG_CLASSNAME = "rightColumn";
 
-	public SVGPubstyleRightColumn() {
+	public SVGPubstyleRightColumnOLD() {
 		super();
 	}
 	
-	public SVGPubstyleRightColumn(SVGElement element) {
+	public SVGPubstyleRightColumnOLD(SVGElement element) {
 		super(element);
 	}
 

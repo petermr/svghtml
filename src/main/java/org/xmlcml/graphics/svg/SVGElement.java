@@ -47,6 +47,7 @@ import org.xmlcml.euclid.RealRangeArray;
 import org.xmlcml.euclid.RealSquareMatrix;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.graphics.AbstractCMElement;
+import org.xmlcml.graphics.layout.PubstyleTest;
 import org.xmlcml.graphics.svg.objects.SVGArrow;
 import org.xmlcml.graphics.svg.objects.SVGTriangle;
 import org.xmlcml.graphics.svg.text.SVGWord;
@@ -81,7 +82,7 @@ public class SVGElement extends GraphicsElement {
 
 
 
-	private static final Logger LOG = Logger.getLogger(SVGElement.class);
+	public static final Logger LOG = Logger.getLogger(SVGElement.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -999,7 +1000,9 @@ public class SVGElement extends GraphicsElement {
 	}
 	
 	public void setClassName(String name) {
-		this.addAttribute(new Attribute(CLASS, name));
+		if (name != null) {
+			this.addAttribute(new Attribute(CLASS, name));
+		}
 	}
 	
 	public String getSVGClassName() {

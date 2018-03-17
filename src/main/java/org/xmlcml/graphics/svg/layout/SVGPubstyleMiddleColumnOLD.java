@@ -9,18 +9,18 @@ import org.xmlcml.graphics.svg.SVGElement;
  * @author pm286
  *
  */
-public class SVGPubstyleMiddleColumn extends AbstractPubstyle {
-	private static final Logger LOG = Logger.getLogger(SVGPubstyleMiddleColumn.class);
+public class SVGPubstyleMiddleColumnOLD extends AbstractPubstyle {
+	private static final Logger LOG = Logger.getLogger(SVGPubstyleMiddleColumnOLD.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
 	public final static String SVG_CLASSNAME = "middleColumn";
 
-	public SVGPubstyleMiddleColumn() {
+	public SVGPubstyleMiddleColumnOLD() {
 		super();
 	}
 	
-	public SVGPubstyleMiddleColumn(SVGElement element) {
+	public SVGPubstyleMiddleColumnOLD(SVGElement element) {
 		super(element);
 	}
 

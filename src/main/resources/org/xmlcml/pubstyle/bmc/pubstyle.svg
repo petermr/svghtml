@@ -2,31 +2,153 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600.0" height="800.0"
 	style="stroke:none;stroke-width:0.0;">
 	<g id="pubstyle" pubstyle="bmc" publisher="BioMedCentral" doi="10.1186">
+	    <defs>
+   			<text id="biblio" class="biblio" fontName="(MyriadPro\-(Regular|It))" y="38.469" fontStyle="(italic)" 
+				fontSize="8.0" fontWeight="(bold|normal)">
+				<![CDATA[
+				(
+				(?:et\s+al\.)?\s*
+				(?<journal>[A-Za-z,\.\s]+)\s+
+				\((?<year>\d+)\)\s+
+				(?<vol>\d+)
+				:
+				(?<artno>\d+)\s*
+				)
+				]]>
+			</text>
+					<!-- Page 2 of 13 -->
+			<text id="pages" class="pages" justify="right" fontName="MyriadPro-Regular" fontSize="8.0" fontWeight="(normal)"
+				y="47.307" >
+				<![CDATA[
+				(Page\s+
+				(?<page>\d+)
+				\s+of\s+
+				(?<totalPage>\d+)
+				)
+				]]>
+			</text>
+					<!-- Sumarnrote -->
+			<text id="authors1" class="authors1" fontName="(MyriadPro\-(Regular))" y="38.469" fontStyle="(normal)" 
+				fontSize="8.0" fontWeight="(normal)">
+				<![CDATA[
+				(
+				(?<authors>[A-Za-z,\s]+)\s*
+				)
+				]]>
+			</text>
+			<text id="doi" class="doi" fontName="MyriadPro-Regular" y="48.469" x="56.622,159.878" 
+			    style="fill:#000000;font-size:8.0px;font-weight:normal;">
+				<![CDATA[
+    			(DOI\s
+	    		(?<doi>10\.1186/[^ ]+)
+		    	)
+		    	]]>
+		    </text>
+            <text id="journal" class="journal" newFill="cyan" fontName="OpenSans" y="47.307" x="436.912,536.315" 
+                style="fill:#555554;font-size:16.2px;font-weight:normal;">
+				<![CDATA[
+                (
+                (?<journal>.*)
+                )
+                ]]>
+			</text>
+			<!-- title -->
+            <text id="title" class="title" newFill="green" fontName="MyriadPro-Regular" x="80.646" 
+style="fill:#000000;font-size:24.0px;font-weight:normal;">(.*)</text>
+			<!-- title italic -->
+            <text id="titleit" class="titleit" newFill="lime" fontName="MyriadPro-It" x="80.646" 
+style="fill:#000000;font-size:24.0px;font-style:italic;font-weight:normal;">(.*)</text>
+
+            <text id="authors" class="authors" newFill="cyan" fontName="MyriadPro-Light" x="56.622" 
+                style="fill:#000000;font-size:11.0px;font-weight:normal;">(.*)</text>
+            <text id="authors.sub" class="authors.sub" newFill="cyan" fontName="MyriadPro-Light" x="56.622" 
+                style="fill:#000000;font-size:7.7px;font-weight:normal;">(.*)</text>
+			
+            <!-- page1 abstract -->
+            <text id="abstract" class="abstract" level="2" x="63.122" style="font-size:10.0;font-weight:bold;">Abstract</text>
+			<text id="abstract.section" class="abstract.section" level="3" x="63.122" style="font-size:10.0;font-weight:bold;">
+						(Background|Methods|Results|Discussion|Keywords):
+			</text>
+			<text id="abstract.section.text" class="abstract.section.text" newFill="orange" level="0" 
+			     style="font-size:10.0;font-weight:normal;">ANY</text>
+	    <!-- section header 1 -->
+			<text id="section1" class="section1" newFill="blue" fontName="(MyriadPro\-Bold)" level="1" wrap="true"
+					style="fill:#000000;font-size:10.3px;font-weight:bold;"><![CDATA[(.*)]]>
+					
+			</text>
+			<text id="section2" class="section2" newFill="cyan" fontName="{MyriadPro\-Semibold)" level="2" wrap="true"
+					style="fill:#000000;;font-size:9.2px;font-weight:bold;"><![CDATA[(.*)]]>
+			</text>
+			
+		<!-- backmatter -->
+		    <text id="admin" class="admin" newFill="purple" fontName="MyriadPro-Semibold" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:bold;">
+				<![CDATA[
+                (
+Funding|
+Abbreviations|
+Authors’\scontributions|
+Author\sdetails|
+Acknowledgements|
+Competing\sinterests|
+Consent\sfor\spublication|
+Ethics\sapproval\sand\sconsent\sto\sparticipate
+                )
+                ]]>
+                </text>
+                <text id="backtext" class="backtext" newFill="pink" fontName="MyriadPro-Light" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+                <![CDATA[
+                (.*)
+                ]]>
+                </text>
+                <text id="pubnote" class="pubnote" fontName="MyriadPro-Bold"   x="56.693"  style="fill:#000000;font-size:10.3px;font-weight:bold;">
+                <![CDATA[
+                (Publishers Note)
+                ]]>
+                </text>
+                <text id="pubstuff1" class="pubstuff1" fontName="MyriadPro-Light"    x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+                <![CDATA[
+                (Springer Nature.*)
+                ]]>
+                </text>
+                <text id="dates" class="dates" fontName="MyriadPro-Regular"  x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+                <![CDATA[
+                (Received: (\d+ ([^ ]*)\s(\d\d\d\d)\s+(Accepted: )(\d+ ([^ ]+)\s+\d\d\d\d)
+                ]]>
+                </text>
+                <text id="refsection" class="refsection" fontName="MyriadPro-Semibold" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:bold;">
+                <![CDATA[
+                (References)
+                ]]>
+                </text>
+                <text id="refstart" class="refstart" newFill="red" fontName="(MyriadPro-Light|MyriadPro-LightIt)" 
+                    y="93.342" x="56.693,219.0" style="fill:#000000;font-size:7.5px;font-weight:normal;">
+                    <![CDATA[
+                    (\s*(\d+)\..*)
+                    ]]></text>
+                <text id="refbody" class="refbody" newFill="gray" fontName="MyriadPro-Light" y="102.342" x="71.693,..." style="fill:#000000;font-size:7.5px;font-weight:normal;">
+                <![CDATA[
+                (.*)
+                ]]></text>
+                
+	    </defs>
+	    
 		<g id="page1" number="P1">
 			<g id="header">
-				<rect x="0" width="540" y="0" height="47" />
-				<text id="biblio" fontName="MyriadPro-It" y="38.469" x="450"
-					fontStyle="italic|normal" fontWeight="boldnormal">
-					<![CDATA[(?<auth>)(\{\d+\)\s+(\d+:\d+)})]]> </text>
-				<!-- DOI 10.1186/s12936-017-1948-z -->
-				<text id="doi" fontName="MyriadPro-It" y="48.469" fontStyle="italic|normal"
-					fontWeight="boldnormal"><![CDATA[(DOI (10\.1186/s\d+\-\d+\-\d+\-z))]]> </text>
-				<text id="journalName" fontName="" fontSize="16.2" fontWeight="normal"
-					y="47.307" />
-				<title justify="left" wrap="true" fontSize="99" suscript="true"
-					font="" />
+				<rect x="0" width="600" y="0" height="47" />
+				<text idref="authors"/>
+				<text idref="biblio"/>
+				<text idref="doi"/>
+				<text idref="journal"/>
 			</g>
-
-			<g id="abstract">
-				<text level="2" x="63.122" fontSize="10.3" fontWeight="bold">Abstract
-				</text>
-				<g id="abs.section">
-					<text level="3" x="63.122" fontSize="10.0" fontWeight="bold">
-						(Background|Methods|Results|Discussion|Keywords):
-					</text>
-					<!-- running text -->
-					<text level="3" fontSize="10.0" fontWeight="bold">ANY</text>
-				</g>
+			
+			<g id="wide">
+                <rect x="30" width="515" y="57" height="550"/>
+				<title idref="title"/>
+				<title idref="authors"/>
+				<title idref="authors.sub"/>
+				<text idref="abstract"/>
+				<text idref="abstract.section"/>
+				<text idref="abstract.section.text"/>
 			</g>
 		</g>
 
@@ -34,42 +156,15 @@
 			<g id="header">
 				<rect x="0" width="540" y="0" height="47" />
 					<!-- et al. Malar J  (2017) 16:299 -->
-				<text id="biblio" fontName="(MyriadPro\-(Regular|It))" y="38.469" fontStyle="(italic)" 
-				    fontSize="8.0" fontWeight="(bold|normal)">
-					<![CDATA[
-					(
-					(?:et\s+al\.)?\s*
-					(?<journal>[A-Za-z,\.\s]+)\s+
-					\((?<year>\d+)\)\s+
-					(?<vol>\d+)
-					:
-					(?<artno>\d+)\s*
-					)
-					]]></text>
-					<!-- Page 2 of 13 -->
-				<text id="pages" justify="right" fontName="MyriadPro-Regular" fontSize="8.0" fontWeight="(normal)"
-					y="47.307" ><![CDATA[(Page\s+(?<page>\d+)\s+of\s+(?<totalPage>\d+))]]></text>
-					<!-- Sumarnrote -->
-				<text id="authors" fontName="(MyriadPro\-(Regular))" y="38.469" fontStyle="(normal)" 
-				    fontSize="8.0" fontWeight="(normal)">
-					<![CDATA[
-					(
-					(?<authors>[A-Za-z,\s]+)\s*
-					)
-					]]></text>
-<!--
-<text fontName="MyriadPro-Regular" y="38.72" x="56.694,...96.198" 
-style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">Sumarnrote </text>
-<text fontName="MyriadPro-It" y="38.472" x="97.894,...,183.869" 
-style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-style:italic;font-weight:normal;">et al. Malar J  (2017) 16:299 </text>
-<text fontName="MyriadPro-Regular" y="38.984" x="498.15,...513.0" 
-style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">Page 2 of 13</text>
--->					
+				<text idref="biblio"/>
+				<text idref="authors1"/>
+				<text idref="pages"/>
 			</g>
 
-			<g id="wideImage">
+			<g id="wide">
 				<!-- diagram -->
 				<!-- background? -->
+				
 				<path style="fill:none;stroke-width:1.0;stroke:#000000;" signature="MLLLZ"
 					d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
 
@@ -84,9 +179,6 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
 	    C534.958 523.852 538.958 523.852 538.958 519.852 L538.958 92.092 
 	    C538.958 92.092 538.958 88.092 534.958 88.092 L61.068 88.092 Z"
 					signature="MCLCLCLCLZ" />
-			</g>
-
-			<g id="wideTable">
 				<!-- diagram -->
 				<!-- table rules -->
 				<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 572.729 L538.583 572.729 " />
@@ -99,18 +191,55 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
 
 			<g id="leftColumn">
 				<rect x="55" width="238" y="82" height="639" />
-				<text fontName="MyriadPro-Bold"
-					style="fill:#000000;font-family:Helvetica;font-size:10.3px;font-weight:bold;">Background</text>
-				<text fontName="WarnockPro-Regular" x="56.693 ... 290.57"
-					style="fill:#000000;font-size:9.8px;font-weight:normal;">In 2015, ... countries </text>
+				<text idref="section1"/>
+				<text idref="section2"/>
 			</g>
 			<g id="rightColumn">
 				<rect x="302" width="238" y="82" height="639" />
-				<text fontName="WarnockPro-Regular" y="94.917" x="304.721...531.08"
-					style="fill:#000000;font-size:9.8px;font-weight:normal;">only found in Ho Chi Minh City [</text>
+				<text idref="section1"/>
+				<text idref="section2"/>
 			</g>
 			<g id="footer">
 			</g>
 		</g>
+
+
+		<g id="pagen" number="PN">
+			<g id="header">
+				<rect x="0" width="540" y="0" height="47" />
+					<!-- et al. Malar J  (2017) 16:299 -->
+				<text idref="biblio"/>
+				<text idref="authors1"/>
+				<text idref="pages"/>
+			</g>
+
+			<g id="leftColumn">
+				<rect x="55" width="238" y="82" height="639" />
+			    <text idref="admin"/>
+                <text idref="backtext"/>
+                <text idref="pubnote"/>
+                <text idref="pubstuff1"/>
+                <text idref="dates"/>
+                <text idref="refsection"/>
+                <text idref="refstart"/>
+                <text idref="refbody"/>
+			</g>
+			<g id="rightColumn">
+				<rect x="302" width="238" y="82" height="639" />
+			    <text idref="admin"/>
+                <text idref="backtext"/>
+                <text idref="pubnote"/>
+                <text idref="pubstuff1"/>
+                <text idref="dates"/>
+                <text idref="refsection"/>
+                <text idref="refstart"/>
+                <text idref="refbody"/>
+			</g>
+			
+			
+			<g id="footer">
+			</g>
+		</g>
+		
 	</g>
 </svg>

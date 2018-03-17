@@ -1,7 +1,8 @@
 package org.xmlcml.graphics.svg.layout;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -19,6 +20,7 @@ public class SVGPubstyleHeader extends AbstractPubstyle {
 		LOG.setLevel(Level.DEBUG);
 	}
 	public final static String SVG_CLASSNAME = "header";
+	private Map<String, String> temporaryKV;
 
 	public SVGPubstyleHeader() {
 		super();
@@ -32,6 +34,7 @@ public class SVGPubstyleHeader extends AbstractPubstyle {
 	protected String getPubstyleClassName() {
 		return SVG_CLASSNAME;
 	}
+
 
 
 }

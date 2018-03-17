@@ -74,7 +74,6 @@ public static final Logger LOG = Logger.getLogger(DocumentCacheTest.class);
 		DocumentCache documentCache = new DocumentCache(targetDir);
 		documentCache.processSVGInCTreeDirectory(targetDir);
 		XMLUtil.debug(documentCache.getHtmlDiv(), new File(targetDir, "pages.html"), 1);
-
 	}
 	
 

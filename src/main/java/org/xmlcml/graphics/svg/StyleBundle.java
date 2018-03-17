@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import org.xmlcml.euclid.Real;
 import org.xmlcml.xml.XMLConstants;
 
 import nu.xom.Attribute;
@@ -672,7 +673,55 @@ public class StyleBundle implements XMLConstants {
 		return newFontName;
 	}
 
-	protected void removeAttributeWithName(String name) {
+	/** match fontWeights
+	 * assume null == normal
+	 * 
+	 * @param styleBundle
+	 * @return
+	 */
+	public boolean matchesFontWeight(StyleBundle styleBundle2) {
+		String fontWeight2 = styleBundle2.getFontWeight();
+		fontWeight2 = fontWeight2 == null ? NORMAL : fontWeight2;
+		String fontWeight1 = this.fontWeight == null ? NORMAL : fontWeight;
+		return fontWeight1.equals(fontWeight2);
 	}
-
+	
+	/** match fontStyles
+	 *  assume null == normal
+	 * 
+	 * @param styleBundle
+	 * @return
+	 */
+	public boolean matchesFontStyle(StyleBundle styleBundle2) {
+		String fontStyle2 = styleBundle2.getFontStyle();
+		fontStyle2 = fontStyle2 == null ? NORMAL : fontStyle2;
+		String fontStyle1 = this.fontStyle == null ? NORMAL : fontStyle;
+		return fontStyle1.equals(fontStyle2);
+	}
+	
+	/** assume null == normal
+	 * 
+	 * @param styleBundle
+	 * @return
+	 */
+	public boolean matchesFontSize(StyleBundle styleBundle, double tolerRatio) {
+		Double fontSize2 = styleBundle.getFontSize();
+		if (fontSize == null || fontSize2 == null) return false;
+		// normalize ratio to < 1.0
+		double ratio = tolerRatio < 1 ? tolerRatio : 1 / tolerRatio;
+		return  (fontSize / fontSize2 > ratio && fontSize2  / fontSize > ratio) ;
+	}
+	
+	/** assume null == normal
+	 * 
+	 * @param styleBundle
+	 * @return
+	 */
+	public boolean matchesStrokeWidth(StyleBundle styleBundle, double tolerRatio) {
+		Double strokeWidth2 = styleBundle.getStrokeWidth();
+		if (strokeWidth == null || strokeWidth2 == null) return false;
+		// normalize ratio to < 1.0
+		double ratio = tolerRatio < 1 ? tolerRatio : 1 / tolerRatio;
+		return  (strokeWidth / strokeWidth2 > ratio && strokeWidth2  / strokeWidth > ratio) ;
+	}
 }

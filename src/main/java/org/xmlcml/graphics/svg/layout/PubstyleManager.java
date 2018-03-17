@@ -142,7 +142,9 @@ public class PubstyleManager {
 	}
 
 	public SVGPubstyle getSVGPubstyleFromPubstyleString(String pubstyleString) {
-		return pubstyleByPubstyleString.get(pubstyleString);
+		SVGPubstyle pubstyle = pubstyleByPubstyleString.get(pubstyleString);
+		pubstyle.normalize();
+		return pubstyle;
 	}
 
 	private void getOrCreateProperties() {
