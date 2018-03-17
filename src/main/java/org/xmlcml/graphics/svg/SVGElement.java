@@ -47,7 +47,6 @@ import org.xmlcml.euclid.RealRangeArray;
 import org.xmlcml.euclid.RealSquareMatrix;
 import org.xmlcml.euclid.Transform2;
 import org.xmlcml.graphics.AbstractCMElement;
-import org.xmlcml.graphics.layout.PubstyleTest;
 import org.xmlcml.graphics.svg.objects.SVGArrow;
 import org.xmlcml.graphics.svg.objects.SVGTriangle;
 import org.xmlcml.graphics.svg.text.SVGWord;

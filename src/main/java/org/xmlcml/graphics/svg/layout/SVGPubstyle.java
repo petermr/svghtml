@@ -6,10 +6,8 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.xmlcml.graphics.layout.PubstyleTest;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.layout.SVGPubstyle.PageType;
 import org.xmlcml.graphics.svg.layout.SVGPubstyleColumn.ColumnPosition;
 import org.xmlcml.xml.XMLUtil;
 
@@ -348,7 +346,7 @@ public class SVGPubstyle extends AbstractPubstyle {
 		for (ColumnPosition columnPosition : getColumnPositions()) {
 			SVGPubstyleColumn pubstyleColumn = getColumn(getPageType(), columnPosition);
 			if (pubstyleColumn == null) {
-				PubstyleTest.LOG.error("null pubstyleColumn "+getPageType()+"; "+columnPosition);
+				LOG.error("null pubstyleColumn "+getPageType()+"; "+columnPosition);
 				continue;
 			} 
 			List<DocumentChunk> documentChunks1 = pubstyleColumn.extractDocumentChunksInBox(inputSVGElement);

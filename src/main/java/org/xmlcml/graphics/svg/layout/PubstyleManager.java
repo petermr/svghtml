@@ -1,7 +1,6 @@
 package org.xmlcml.graphics.svg.layout;
 
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Path;
 import java.util.Collection;

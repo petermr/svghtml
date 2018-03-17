@@ -40,7 +40,7 @@
 			    style="fill:#000000;font-size:8.0px;font-weight:normal;">
 				<![CDATA[
     			(DOI\s
-	    		(?<doi>10\.1186/[^ ]+)
+	    		(?<doi>10\.1186/[^\s]+)
 		    	)
 		    	]]>
 		    </text>
