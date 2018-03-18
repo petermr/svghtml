@@ -76,8 +76,10 @@ public class SVGPubstyleColumn extends AbstractPubstyle {
 			throw new RuntimeException("NULL svgElement");
 		}
 		
-//		List<SVGText> texts = extractTextsContainedInBox(svgElement);
+		List<SVGText> texts = extractTextsContainedInBox(svgElement);
+		containingPubstyle.setExtractedTexts(texts);
 		List<SVGPath> paths = extractPathsContainedInBox(svgElement);
+		containingPubstyle.setExtractedPaths(paths);
 		documentChunks1 = matchDocumentChunks();
 		// this is just debug
 //		int ipage = containingPubstyle.currentPage;
@@ -87,9 +89,9 @@ public class SVGPubstyleColumn extends AbstractPubstyle {
 		return documentChunks1;
 	}
 
-	public void setContainingPubstyle(SVGPubstyle svgPubstyle) {
-		this.containingPubstyle = svgPubstyle;
-	}
+//	public void setContainingPubstyle(SVGPubstyle svgPubstyle) {
+//		this.containingPubstyle = svgPubstyle;
+//	}
 
 
 }

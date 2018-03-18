@@ -1,6 +1,5 @@
 package org.xmlcml.graphics.svg.layout;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -220,6 +219,17 @@ public abstract class AbstractPubstyle extends SVGG {
 		return templatePaths;
 	}
 	
+	public void setExtractedTexts(List<SVGText> texts) {
+		this.extractedTexts = texts;
+	}
+	
+	public void setExtractedPaths(List<SVGPath> paths) {
+		this.extractedPaths = paths;
+	}
+
+	public void setContainingPubstyle(SVGPubstyle containingPubstyle) {
+		this.containingPubstyle = containingPubstyle;
+	}
 
 
 

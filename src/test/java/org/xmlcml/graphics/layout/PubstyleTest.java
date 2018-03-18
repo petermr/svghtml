@@ -48,51 +48,40 @@ public class PubstyleTest {
 	}
 	
 	@Test
-	@Ignore // FIXME!!
 	public void testPubstylePage1() {
 		PubstyleManager pubstyleManager = new PubstyleManager();
 		SVGPubstyle bmcPubstyle = pubstyleManager.getSVGPubstyleFromPubstyleString("bmc");
 		SVGElement pubstylePage1 = bmcPubstyle.getRawPage(PageType.P1);
-		Assert.assertNotNull(pubstylePage1);
+		Assert.assertNotNull("null page", pubstylePage1);
 		SVGElement pubstyleHeader = bmcPubstyle.getHeader(PageType.P1);
-		Assert.assertNotNull(pubstyleHeader);
-//		LOG.debug("header "+pubstyleHeader.toXML());
+		Assert.assertNotNull("null header", pubstyleHeader);
 		SVGElement pubstyleAbstract = bmcPubstyle.getAbstract();
-		Assert.assertNotNull(pubstyleAbstract);
+		Assert.assertNotNull("null abstract", pubstyleAbstract);
 		SVGElement abstractSection = bmcPubstyle.getAbstractSection();
 		Assert.assertNotNull("abstractSection", abstractSection);
-//		LOG.debug("abstract "+abstractSection.toXML());
 	}
 	
 	@Test
-	@Ignore // FIXME!!
 	public void testPubstylePage2() {
 		PubstyleManager pubstyleManager = new PubstyleManager();
 		SVGPubstyle pubstyle = pubstyleManager.getSVGPubstyleFromPubstyleString("bmc");
 		SVGPubstylePage pubstylePage2 = pubstyle.getPubstylePage(PageType.P2);
-		Assert.assertNotNull(pubstylePage2);
+		Assert.assertNotNull("page2", pubstylePage2);
 		LOG.debug("page2 "+pubstylePage2.toXML());
 		SVGPubstyleAbstract pubstyleAbstract = pubstyle.getAbstract();
-		Assert.assertNotNull(pubstyleAbstract);
-		LOG.debug("abstract "+pubstyleAbstract.toXML());
+		Assert.assertNotNull("abstract", pubstyleAbstract);
 		SVGElement pubstyleHeader = pubstyle.getHeader(PageType.P2);
-		Assert.assertNotNull(pubstyleHeader);
-		LOG.debug("header "+pubstyleHeader.toXML());
+		Assert.assertNotNull("header", pubstyleHeader);
 		SVGElement pubstyleFooter = pubstyle.getFooter(PageType.P2);
-		Assert.assertNotNull(pubstyleFooter);
-		LOG.debug("footer "+pubstyleHeader.toXML());
+		Assert.assertNotNull("footer", pubstyleFooter);
 		SVGElement pubstyleLeft = pubstyle.getLeft(PageType.P2);
-		Assert.assertNotNull(pubstyleLeft);
-		LOG.debug("left "+pubstyleLeft.toXML());
+		Assert.assertNotNull("left", pubstyleLeft);
 		SVGElement pubstyleRight = pubstyle.getRight(PageType.P2);
-		Assert.assertNotNull(pubstyleRight);
-		LOG.debug("right "+pubstyleRight.toXML());
+		Assert.assertNotNull("right", pubstyleRight);
 		SVGElement pubstyleWideImage = pubstyle.getWideImage(PageType.P2);
-		Assert.assertNotNull(pubstyleWideImage);
-		LOG.debug("wideImage "+pubstyleWideImage.toXML());
+		Assert.assertNotNull("wideImage", pubstyleWideImage);
 		SVGElement pubstyleWideTable = pubstyle.getWideTable(PageType.P2);
-		Assert.assertNotNull(pubstyleWideTable);
-		LOG.debug("wideTable "+pubstyleWideTable.toXML());
+		Assert.assertNotNull("wideTable", pubstyleWideTable);
 	}
 	
 	@Test
@@ -148,7 +137,9 @@ public class PubstyleTest {
 				break;
 			}
 			SVGElement inputSVGElement = SVGElement.readAndCreateSVG(inputSvgFile);
+			LOG.debug("inputSVG: "+inputSVGElement.toXML().length());
 			List<DocumentChunk> documentChunks = pubstyle.createDocumentChunks(inputSVGElement);
+			LOG.debug("DocumentChunks: "+documentChunks.size());
 			SVGSVG.wrapAndWriteAsSVG(documentChunks, new File("target/pubstyle/" + dirRoot + "/page"+page+".svg"));
 		}
 	}

@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="yes" ?>
 <svg xmlns="http://www.w3.org/2000/svg" width="600.0" height="800.0"
 	style="stroke:none;stroke-width:0.0;">
-	<g id="pubstyle" pubstyle="bmc" publisher="BioMedCentral" doi="10.1186">
+	<g id="pubstyle" class="pubstyle" pubstyle="bmc" publisher="BioMedCentral" doi="10.1186">
 	    <defs>
    			<text id="biblio" class="biblio" fontName="(MyriadPro\-(Regular|It))" y="38.469" fontStyle="(italic)" 
 				fontSize="8.0" fontWeight="(bold|normal)">
@@ -72,13 +72,20 @@ style="fill:#000000;font-size:24.0px;font-style:italic;font-weight:normal;">(.*)
 			<text id="abstract.section.text" class="abstract.section.text" newFill="orange" level="0" 
 			     style="font-size:10.0;font-weight:normal;">ANY</text>
 	    <!-- section header 1 -->
-			<text id="section1" class="section1" newFill="blue" fontName="(MyriadPro\-Bold)" level="1" wrap="true"
+			<text id="sectionHeader1" class="sectionHeader1" newFill="blue" fontName="(MyriadPro\-Bold)" level="1" wrap="true"
 					style="fill:#000000;font-size:10.3px;font-weight:bold;"><![CDATA[(.*)]]>
 					
 			</text>
-			<text id="section2" class="section2" newFill="cyan" fontName="{MyriadPro\-Semibold)" level="2" wrap="true"
+			<text id="sectionHeader2" class="sectionHeader2" newFill="cyan" fontName="(MyriadPro\-Semibold)" level="2" wrap="true"
 					style="fill:#000000;;font-size:9.2px;font-weight:bold;"><![CDATA[(.*)]]>
 			</text>
+			
+	        <!-- alternative columns -->
+	        <g id="narrowColumnHeader" class="narrowColumnHeader">
+	            <text id="narrowColumnHeader.1" idref="sectionHeader1"/>
+				<text id="narrowColumnHeader.2" idref="sectionHeader2"/>
+			</g>
+			
 			
 		<!-- backmatter -->
 		    <text id="admin" class="admin" newFill="purple" fontName="MyriadPro-Semibold" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:bold;">
@@ -94,46 +101,61 @@ Consent\sfor\spublication|
 Ethics\sapproval\sand\sconsent\sto\sparticipate
                 )
                 ]]>
-                </text>
-                <text id="backtext" class="backtext" newFill="pink" fontName="MyriadPro-Light" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+	        </text>
+	        <text id="backtext" class="backtext" newFill="pink" fontName="MyriadPro-Light" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
                 <![CDATA[
                 (.*)
                 ]]>
-                </text>
-                <text id="pubnote" class="pubnote" fontName="MyriadPro-Bold"   x="56.693"  style="fill:#000000;font-size:10.3px;font-weight:bold;">
+	        </text>
+	        <text id="pubnote" class="pubnote" fontName="MyriadPro-Bold"   x="56.693"  style="fill:#000000;font-size:10.3px;font-weight:bold;">
                 <![CDATA[
                 (Publishers Note)
                 ]]>
-                </text>
-                <text id="pubstuff1" class="pubstuff1" fontName="MyriadPro-Light"    x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+	        </text>
+	        <text id="pubstuff1" class="pubstuff1" fontName="MyriadPro-Light"    x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
                 <![CDATA[
                 (Springer Nature.*)
                 ]]>
-                </text>
-                <text id="dates" class="dates" fontName="MyriadPro-Regular"  x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
+	        </text>
+	        <text id="dates" class="dates" fontName="MyriadPro-Regular"  x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:normal;">
                 <![CDATA[
                 (Received: (\d+ ([^ ]*)\s(\d\d\d\d)\s+(Accepted: )(\d+ ([^ ]+)\s+\d\d\d\d)
                 ]]>
-                </text>
-                <text id="refsection" class="refsection" fontName="MyriadPro-Semibold" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:bold;">
+	        </text>
+	        <text id="refsection" class="refsection" fontName="MyriadPro-Semibold" x="56.693"  style="fill:#000000;font-size:7.5px;font-weight:bold;">
                 <![CDATA[
                 (References)
                 ]]>
-                </text>
-                <text id="refstart" class="refstart" newFill="red" fontName="(MyriadPro-Light|MyriadPro-LightIt)" 
+	        </text>
+	        <text id="refstart" class="refstart" newFill="red" fontName="(MyriadPro-Light|MyriadPro-LightIt)" 
                     y="93.342" x="56.693,219.0" style="fill:#000000;font-size:7.5px;font-weight:normal;">
                     <![CDATA[
                     (\s*(\d+)\..*)
-                    ]]></text>
-                <text id="refbody" class="refbody" newFill="gray" fontName="MyriadPro-Light" y="102.342" x="71.693,..." style="fill:#000000;font-size:7.5px;font-weight:normal;">
+		        ]]>
+		    </text>
+	        <text id="refbody" class="refbody" newFill="gray" fontName="MyriadPro-Light" y="102.342" x="71.693,..." style="fill:#000000;font-size:7.5px;font-weight:normal;">
                 <![CDATA[
                 (.*)
-                ]]></text>
+                ]]>
+	        </text>
+                
+            <!-- backmatter refs -->
+            <g id="backmatter" class="backmatter">
+                <text idref="admin"/>
+                <text idref="backtext"/>
+                <text idref="pubnote"/>
+                <text idref="pubstuff1"/>
+                <text idref="dates"/>
+                <text idref="refsection"/>
+                <text idref="refstart"/>
+                <text idref="refbody"/>
+            </g>
                 
 	    </defs>
-	    
-		<g id="page1" number="P1">
-			<g id="header">
+
+	<!-- ===============PAGE 1=========== -->	    
+		<g id="page1" class="page1" number="P1">
+			<g id="header" class="header">
 				<rect x="0" width="600" y="0" height="47" />
 				<text idref="authors"/>
 				<text idref="biblio"/>
@@ -141,19 +163,20 @@ Ethics\sapproval\sand\sconsent\sto\sparticipate
 				<text idref="journal"/>
 			</g>
 			
-			<g id="wide">
+			<g id="wide" class="wide">
                 <rect x="30" width="515" y="57" height="550"/>
 				<title idref="title"/>
 				<title idref="authors"/>
 				<title idref="authors.sub"/>
-				<text idref="abstract"/>
-				<text idref="abstract.section"/>
-				<text idref="abstract.section.text"/>
+				<text  idref="abstract"/>
+				<text  idref="abstract.section"/>
+				<text  idref="abstract.section.text"/>
 			</g>
 		</g>
 
-		<g id="page2" number="P2">
-			<g id="header">
+	<!-- ===============PAGE 2=========== -->	    
+		<g id="page2" class="page2" number="P2">
+			<g id="header" class="header">
 				<rect x="0" width="540" y="0" height="47" />
 					<!-- et al. Malar J  (2017) 16:299 -->
 				<text idref="biblio"/>
@@ -161,85 +184,73 @@ Ethics\sapproval\sand\sconsent\sto\sparticipate
 				<text idref="pages"/>
 			</g>
 
-			<g id="wide">
+			<g id="wide" class="wide">
 				<!-- diagram -->
 				<!-- background? -->
 				
-				<path style="fill:none;stroke-width:1.0;stroke:#000000;" signature="MLLLZ"
-					d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
+				<g id="wideImage" class="wideImage">
+	                <rect x="30" width="515" y="57" height="550"/>
+					<path style="fill:none;stroke-width:1.0;stroke:#000000;" signature="MLLLZ"
+						d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
+					<image id="wideImage" class="wideImage" xmlns:xlink="http://www.w3.org/1999/xlink"
+						transform="matrix(0.240,0.0,0.0,0.240,106.673,94.091)" xlink:href="fulltext.p4.i1.png"
+						x="0.0" y="0.0" width="1595.0" height="1637.0" boundingBox="" />
+						<!-- <rect x="106.67" y="94.091" width = 382.8, height = 392.9 -->
+					<!-- rounded corners rect -->
+					<path style="stroke:blue;stroke-width:2.25;fill:yellow;"
+						d="M61.068 88.092 
+		    C61.068 88.092 57.068 88.092 57.068 92.092 L57.068 519.852 
+		    C57.068 519.852 57.068 523.852 61.068 523.852 L534.958 523.852 
+		    C534.958 523.852 538.958 523.852 538.958 519.852 L538.958 92.092 
+		    C538.958 92.092 538.958 88.092 534.958 88.092 L61.068 88.092 Z"
+						signature="MCLCLCLCLZ" />
+				</g>
+				
+				<g id="wideTable" class="wideTable">
+					<!-- diagram -->
+					<!-- table rules -->
+					<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 572.729 L538.583 572.729 " />
+					<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 703.503 L538.583 703.503 " />
+	
+					<!-- background? -->
+					<path style="fill:none;stroke-width:1.0;stroke:red;" signature="MLLLZ"
+						d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
+				</g>
 
-				<image xmlns:xlink="http://www.w3.org/1999/xlink"
-					transform="matrix(0.240,-0.0,-0.0,0.240,106.67,94.09)" xlink:href="fulltext.p4.i1.png"
-					x="0.0" y="0.0" width="1595.0" height="1637.0" />
-				<!-- rounded corners rect -->
-				<path style="stroke:blue;stroke-width:2.25;fill:yellow;"
-					d="M61.068 88.092 
-	    C61.068 88.092 57.068 88.092 57.068 92.092 L57.068 519.852 
-	    C57.068 519.852 57.068 523.852 61.068 523.852 L534.958 523.852 
-	    C534.958 523.852 538.958 523.852 538.958 519.852 L538.958 92.092 
-	    C538.958 92.092 538.958 88.092 534.958 88.092 L61.068 88.092 Z"
-					signature="MCLCLCLCLZ" />
-				<!-- diagram -->
-				<!-- table rules -->
-				<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 572.729 L538.583 572.729 " />
-				<path style="stroke:#000000;stroke-width:0.15;" d="M56.693 703.503 L538.583 703.503 " />
-
-				<!-- background? -->
-				<path style="fill:none;stroke-width:1.0;stroke:red;" signature="MLLLZ"
-					d="M57.068 486.972 L538.958 486.972 L538.958 94.092 L57.068 94.092 Z" />
+				<g id="leftColumn" class="leftColumn">
+					<rect x="55" width="238" y="82" height="639" />
+					<g idref="narrowColumnHeader"/>
+				</g>
+				<g id="rightColumn" class="rightColumn">
+					<rect x="302" width="238" y="82" height="639" />
+					<g idref="narrowColumnHeader"/>
+				</g>
+				<g id="footer" class="footer">
+				</g>
 			</g>
 
-			<g id="leftColumn">
-				<rect x="55" width="238" y="82" height="639" />
-				<text idref="section1"/>
-				<text idref="section2"/>
-			</g>
-			<g id="rightColumn">
-				<rect x="302" width="238" y="82" height="639" />
-				<text idref="section1"/>
-				<text idref="section2"/>
-			</g>
-			<g id="footer">
+
+			<g id="pagen" class="pagen" number="PN">
+				<g id="header" class="header">
+					<rect x="0" width="540" y="0" height="47" />
+						<!-- et al. Malar J  (2017) 16:299 -->
+					<text idref="biblio"/>
+					<text idref="authors1"/>
+					<text idref="pages"/>
+				</g>
+
+				<g id="leftBackColumn" class="leftBackColumn">
+					<rect x="55" width="238" y="82" height="639" />
+					<g idref="backmatter"/>
+				</g>
+				<g id="rightBackColumn" class="rightBackColumn">
+					<rect x="302" width="238" y="82" height="639" />
+					<g idref="backmatter"/>
+				</g>
+				
+				<g id="footer" class="footer">
+				</g>
 			</g>
 		</g>
-
-
-		<g id="pagen" number="PN">
-			<g id="header">
-				<rect x="0" width="540" y="0" height="47" />
-					<!-- et al. Malar J  (2017) 16:299 -->
-				<text idref="biblio"/>
-				<text idref="authors1"/>
-				<text idref="pages"/>
-			</g>
-
-			<g id="leftColumn">
-				<rect x="55" width="238" y="82" height="639" />
-			    <text idref="admin"/>
-                <text idref="backtext"/>
-                <text idref="pubnote"/>
-                <text idref="pubstuff1"/>
-                <text idref="dates"/>
-                <text idref="refsection"/>
-                <text idref="refstart"/>
-                <text idref="refbody"/>
-			</g>
-			<g id="rightColumn">
-				<rect x="302" width="238" y="82" height="639" />
-			    <text idref="admin"/>
-                <text idref="backtext"/>
-                <text idref="pubnote"/>
-                <text idref="pubstuff1"/>
-                <text idref="dates"/>
-                <text idref="refsection"/>
-                <text idref="refstart"/>
-                <text idref="refbody"/>
-			</g>
-			
-			
-			<g id="footer">
-			</g>
-		</g>
-		
 	</g>
 </svg>
