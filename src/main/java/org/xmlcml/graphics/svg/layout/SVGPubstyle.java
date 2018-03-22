@@ -7,13 +7,14 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.SVGElement;
-import org.xmlcml.graphics.svg.SVGPath;
 import org.xmlcml.graphics.svg.SVGSVG;
-import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.cache.PageCache;
 import org.xmlcml.graphics.svg.layout.SVGPubstyleColumn.ColumnPosition;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
+import nu.xom.Node;
+import nu.xom.Nodes;
 
 /** per publisher pubstyle.
  * 
@@ -118,6 +119,7 @@ style="fill:#000000;font-family:Helvetica;font-size:8.0px;font-weight:normal;">P
  *
  */
 public class SVGPubstyle extends AbstractPubstyle {
+
 
 
 	public enum PageType {
@@ -227,16 +229,15 @@ public class SVGPubstyle extends AbstractPubstyle {
 	public SVGPubstyleHeader getHeader(PageType type) {
 		SVGElement page = getRawPage(type);
 		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, HEADER_XPATH);
-		debugNullElement(HEADER, element);
 		return element == null ? null : new SVGPubstyleHeader(element);
 	}
 
-	public SVGPubstyleLeftColumnOLD getLeft(PageType type) {
-		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, LEFT_XPATH);
-		return element == null ? null : new SVGPubstyleLeftColumnOLD(element);
-	}
-
+	/** returns PubstyleColumn for column position
+	 * 
+	 * @param type of page
+	 * @param columnPosition currently WIDE, LEFT, MIDDLE, RIGHT
+	 * @return
+	 */
 	public SVGPubstyleColumn getColumn(PageType type, ColumnPosition columnPosition) {
 		SVGElement page = getRawPage(type);
 		String columnXpath = null;
@@ -264,13 +265,6 @@ public class SVGPubstyle extends AbstractPubstyle {
 	public SVGPubstylePage getPubstylePage(PageType type) {
 		SVGElement page = getRawPage(type);
 		return page == null ? null : new SVGPubstylePage(page);
-	}
-
-	public SVGPubstyleRightColumnOLD getRight(PageType type) {
-		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, RIGHT_XPATH);
-		debugNullElement(RIGHT, element);
-		return element == null ? null : new SVGPubstyleRightColumnOLD(element);
 	}
 
 	public SVGElement getAbstractSection() {
@@ -321,7 +315,7 @@ public class SVGPubstyle extends AbstractPubstyle {
 
 	private void replaceIdrefByCopyOfId(Element idrefElement) {
 		String idref = idrefElement.getAttributeValue(IDREF);
-		String xpath = "//*[@id='"+idref+"']";
+		String xpath = "//*[@" + ID + "='"+idref+"']";
 		Element idElement = XMLUtil.getSingleElement(this, xpath);
 		if (idElement == null) {
 			throw new RuntimeException("Cannot find target id of: "+idref);
@@ -361,6 +355,21 @@ public class SVGPubstyle extends AbstractPubstyle {
 			pageType = PageType.P2;
 		}
 		return pageType;
+	}
+
+	public List<DocumentChunk> createDocumentChunks(PageCache pageCache) {
+		List<DocumentChunk> documentChunks = new ArrayList<DocumentChunk>();
+		ColumnPosition[] columnPositions = getColumnPositions();
+		for (ColumnPosition columnPosition : columnPositions) {
+			SVGPubstyleColumn pubstyleColumn = getColumn(getPageType(), columnPosition);
+			if (pubstyleColumn == null) {
+				LOG.error("null pubstyleColumn "+getPageType()+"; "+columnPosition);
+				continue;
+			} 
+			List<DocumentChunk> documentChunks1 = pubstyleColumn.extractDocumentChunksInBox(pageCache);
+			documentChunks.addAll(documentChunks1);
+		}
+		return documentChunks;
 	}
 
 	public List<DocumentChunk> createDocumentChunks(SVGElement inputSVGElement) {

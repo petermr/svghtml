@@ -12,6 +12,7 @@ import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGPath;
+import org.xmlcml.graphics.svg.SVGShape;
 import org.xmlcml.graphics.svg.SVGText;
 import org.xmlcml.graphics.svg.util.NamePattern;
 import org.xmlcml.xml.XMLUtil;
@@ -30,9 +31,10 @@ public abstract class AbstractPubstyle extends SVGG {
 
 	private List<NamePattern> namePatternList;
 	private List<SVGText> templateTexts;
-	private List<SVGText> extractedTexts;
+	protected List<SVGText> extractedTexts;
 	private List<SVGPath> templatePaths;
 	private List<SVGPath> extractedPaths;
+	protected List<SVGShape> extractedShapes;
 	protected SVGPubstyle containingPubstyle;
 
 	protected AbstractPubstyle() {
@@ -71,13 +73,6 @@ public abstract class AbstractPubstyle extends SVGG {
 		return keyValues;
 	}
 	
-//	private List<SVGText> extractTexts(File inputSvgFile) {
-//		this.inputSvgFile = inputSvgFile;
-//		inputSVGElement = SVGElement.readAndCreateSVG(inputSvgFile);
-//		extractTextsContainedInBox(inputSVGElement);
-//		return extractedTexts;
-//	}
-
 	public List<SVGText> extractTextsContainedInBox(SVGElement inputSVGElement) {
 		List<SVGElement> extractedElements = extractElementsContainedInBox(inputSVGElement);
 		extractedTexts = SVGText.extractTexts(extractedElements);
@@ -90,22 +85,32 @@ public abstract class AbstractPubstyle extends SVGG {
 		return extractedPaths;
 	}
 
+	public List<SVGShape> extractShapesContainedInBox(SVGElement inputSVGElement) {
+		List<SVGElement> extractedElements = extractElementsContainedInBox(inputSVGElement);
+		extractedShapes = SVGShape.extractShapes(extractedElements);
+		return extractedShapes;
+	}
+
 	public List<DocumentChunk> matchDocumentChunks() {
 		createTemplateTexts();
+		createTemplatePaths();
 		List<DocumentChunk> annotatedChunkList = new ArrayList<DocumentChunk>();
+		annotatedChunkList.addAll(addAnnotatedPathChunks());
 		annotatedChunkList.addAll(addAnnotatedTextChunks());
 		return annotatedChunkList;
 	}
 
 	private List<DocumentChunk> addAnnotatedTextChunks() {
 		List<DocumentChunk> annotatedTextChunkList = new ArrayList<DocumentChunk>();
-		for (SVGText templateText : templateTexts) {
-			ElementSelector selector = new ElementSelector(templateText);
-			if (extractedTexts != null) {
-				for (SVGText extractedText : extractedTexts) {
-					DocumentChunk annotatedChunk = selector.createAnnotatedSectionHead(templateText, extractedText);
-					if (annotatedChunk != null) {
-						annotatedTextChunkList.add(annotatedChunk);
+		if (templateTexts != null) {
+			for (SVGText templateText : templateTexts) {
+				ElementSelector selector = new ElementSelector(templateText);
+				if (extractedTexts != null) {
+					for (SVGText extractedText : extractedTexts) {
+						DocumentChunk annotatedChunk = selector.createAnnotatedSectionHead(templateText, extractedText);
+						if (annotatedChunk != null) {
+							annotatedTextChunkList.add(annotatedChunk);
+						}
 					}
 				}
 			}
@@ -115,13 +120,15 @@ public abstract class AbstractPubstyle extends SVGG {
 
 	private List<DocumentChunk> addAnnotatedPathChunks() {
 		List<DocumentChunk> annotatedPathChunkList = new ArrayList<DocumentChunk>();
-		for (SVGPath templatePath : templatePaths) {
-			ElementSelector selector = new ElementSelector(templatePath);
-			if (extractedPaths != null) {
-				for (SVGPath extractedPath : extractedPaths) {
-					DocumentChunk annotatedChunk = selector.createAnnotatedSectionHead(templatePath, extractedPath);
-					if (annotatedChunk != null) {
-						annotatedPathChunkList.add(annotatedChunk);
+		if (templatePaths != null) {
+			for (SVGPath templatePath : templatePaths) {
+				ElementSelector selector = new ElementSelector(templatePath);
+				if (extractedPaths != null) {
+					for (SVGPath extractedPath : extractedPaths) {
+						DocumentChunk annotatedChunk = selector.createDocumentChunk(templatePath, extractedPath);
+						if (annotatedChunk != null) {
+							annotatedPathChunkList.add(annotatedChunk);
+						}
 					}
 				}
 			}
@@ -216,6 +223,9 @@ public abstract class AbstractPubstyle extends SVGG {
 	
 	private List<SVGPath> createTemplatePaths() {
 		templatePaths = SVGPath.extractSelfAndDescendantPaths(this);
+		if (templatePaths.size() > 0) {
+			LOG.debug("PATHS "+templatePaths.size());
+		}
 		return templatePaths;
 	}
 	
@@ -225,6 +235,10 @@ public abstract class AbstractPubstyle extends SVGG {
 	
 	public void setExtractedPaths(List<SVGPath> paths) {
 		this.extractedPaths = paths;
+	}
+
+	public void setExtractedShapes(List<SVGShape> shapes) {
+		this.extractedShapes = shapes;
 	}
 
 	public void setContainingPubstyle(SVGPubstyle containingPubstyle) {

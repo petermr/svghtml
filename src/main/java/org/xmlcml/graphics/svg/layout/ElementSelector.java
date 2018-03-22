@@ -99,7 +99,23 @@ public class ElementSelector {
 			LOG.trace("fails width");
 			return false;
 		}
+		if (!matches(templatePath, extractedPath)) {
+			return false;
+		}
 		return true;
+	}
+
+	private boolean matches(SVGPath templatePath, SVGPath extractedPath) {
+		boolean matches = false;
+		Real2Range templateBox = templatePath.getBoundingBox().format(1);
+		Real2Range extractedBox = extractedPath.getBoundingBox().format(1);
+//		LOG.debug("BOXES: "+templateBox+" ?= "+extractedBox);
+		matches = templateBox.includes(extractedBox);
+		if (matches) {
+			// FIXME need stuff here
+//			LOG.debug("BOXES: "+templateBox+" ?= "+extractedBox);
+		}
+		return matches;
 	}
 
 	public DocumentChunk createSectionHead(SVGText extractedText) {
@@ -127,7 +143,7 @@ public class ElementSelector {
 		return extractedPath == null ? null : new DocumentChunk(extractedPath);
 	}
 
-	DocumentChunk createAnnotatedSectionHead(SVGPath templatePath, SVGPath extractedPath) {
+	DocumentChunk createDocumentChunk(SVGPath templatePath, SVGPath extractedPath) {
 		DocumentChunk sectionHead = null;
 		if (matches(extractedPath)) {
 			String svgClassName = templatePath.getSVGClassName();

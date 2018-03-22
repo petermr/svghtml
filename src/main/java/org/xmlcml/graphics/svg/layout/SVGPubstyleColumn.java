@@ -1,14 +1,16 @@
 package org.xmlcml.graphics.svg.layout;
 
-import java.io.File;
 import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.xmlcml.graphics.svg.SVGElement;
 import org.xmlcml.graphics.svg.SVGPath;
-import org.xmlcml.graphics.svg.SVGSVG;
+import org.xmlcml.graphics.svg.SVGShape;
 import org.xmlcml.graphics.svg.SVGText;
+import org.xmlcml.graphics.svg.cache.PageCache;
+import org.xmlcml.graphics.svg.cache.ShapeCache;
+import org.xmlcml.graphics.svg.cache.TextCache;
 
 import nu.xom.Attribute;
 
@@ -64,21 +66,62 @@ public class SVGPubstyleColumn extends AbstractPubstyle {
 		this.addAttribute(new Attribute(XPATH, columnXpath));
 	}
 
-	/** this is out of place here
+	/** 
 	 * 
+	 * @param svgElement TODO
+	 * @return
+	 */
+	public List<DocumentChunk> extractDocumentChunksInBox(PageCache pageCache) {
+		List<DocumentChunk> documentChunks1;
+		if (pageCache == null) {
+			throw new RuntimeException("NULL pageCache");
+		}
+		
+		TextCache textCache = pageCache.getOrCreateTextCache(1);
+		List<SVGText> texts = extractTextsContainedInBox(textCache.getOrCreateCurrentTextList());
+		containingPubstyle.setExtractedTexts(texts);
+		ShapeCache shapeCache = pageCache.getOrCreateShapeCache();
+		List<SVGShape> shapes = extractShapesContainedInBox(shapeCache.getShapeList());
+		LOG.debug("PATHS: "+shapes);
+		containingPubstyle.setExtractedShapes(shapes);
+		documentChunks1 = matchDocumentChunks();
+		// this is just debug
+//		int ipage = containingPubstyle.currentPage;
+//		String dirRoot = containingPubstyle.dirRoot;
+//		SVGSVG.wrapAndWriteAsSVG(texts, new File("target/pubstyle/"+dirRoot+"/page"+ipage+".texts.svg"));
+//		SVGSVG.wrapAndWriteAsSVG(paths, new File("target/pubstyle/"+dirRoot+"/page"+ipage+".paths.svg"));
+		return documentChunks1;
+	}
+
+	private List<SVGText> extractTextsContainedInBox(List<SVGText> textList0) {
+		List<SVGElement> elementsInBox = SVGElement.extractElementsContainedInBox(textList0, this.getBoundingBox());
+		extractedTexts = SVGText.extractTexts(elementsInBox);
+		return extractedTexts;
+	}
+
+	private List<SVGShape> extractShapesContainedInBox(List<SVGShape> shapeList0) {
+		List<SVGElement> elementsInBox = SVGElement.extractElementsContainedInBox(shapeList0, this.getBoundingBox());
+		extractedShapes = SVGShape.extractShapes(elementsInBox);
+		return extractedShapes;
+	}
+
+
+	/**  
+	 * 	 * 
 	 * @param svgElement TODO
 	 * @return
 	 */
 	public List<DocumentChunk> extractDocumentChunksInBox(SVGElement svgElement) {
 		List<DocumentChunk> documentChunks1;
 		if (svgElement == null) {
-			SVGElement.LOG.error("Null SVGElement");
+			LOG.error("Null SVGElement");
 			throw new RuntimeException("NULL svgElement");
 		}
 		
 		List<SVGText> texts = extractTextsContainedInBox(svgElement);
 		containingPubstyle.setExtractedTexts(texts);
 		List<SVGPath> paths = extractPathsContainedInBox(svgElement);
+		LOG.debug("PATHS: "+paths);
 		containingPubstyle.setExtractedPaths(paths);
 		documentChunks1 = matchDocumentChunks();
 		// this is just debug
