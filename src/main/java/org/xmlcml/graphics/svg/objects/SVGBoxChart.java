@@ -14,7 +14,7 @@ public class SVGBoxChart extends SVGDiagram {
 
 	public SVGBoxChart() {
 		super();
-		this.setClassName(BOX_CHART);
+		this.setSVGClassName(BOX_CHART);
 	}
 	
 	public SVGBoxChart(AbstractCMElement diagram) {

@@ -21,7 +21,7 @@ public class DocumentChunk extends SVGG {
 
 	public DocumentChunk() {
 		super();
-		this.setClassName("documentChunk");
+		this.setSVGClassName("documentChunk");
 		getLevel();
 	}
 	public DocumentChunk(SVGPath path) {

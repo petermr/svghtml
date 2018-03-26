@@ -124,7 +124,7 @@ public class AxialBox {
 
 	public AbstractCMElement createSVGElement() {
 		SVGG g = new SVGG();
-		g.setClassName("axialBox");
+		g.setSVGClassName("axialBox");
 		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}

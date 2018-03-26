@@ -40,7 +40,7 @@ public class PubstyleManager {
 	private static final String MVN_ROOT = "src/main/resource";
 	
 	public Map<String, SVGPubstyle> pubstyleByDoi;
-	public Map<String, SVGPubstyle> pubstyleByPubstyleString;
+	public Map<String, SVGPubstyle> pubstyleByPubstyleName;
 	
 	private List<Path> pubstylePathList;
 	private Properties svgHtmlProperties;
@@ -68,7 +68,7 @@ public class PubstyleManager {
 			pubstylePathList = globber.createDirOrFileList(path, FilePathGlobber.FSType.DIR); 
 			LOG.debug("pubstylePathList: "+pubstylePathList);
 			pubstyleByDoi = new HashMap<String, SVGPubstyle>();
-			pubstyleByPubstyleString = new HashMap<String, SVGPubstyle>();
+			pubstyleByPubstyleName = new HashMap<String, SVGPubstyle>();
 			for (int i = 0; i < pubstylePathList.size(); i++) {
 				pubstylePath = pubstylePathList.get(i);
 				readAndAddPubstyle(pubstylePath);
@@ -97,7 +97,7 @@ public class PubstyleManager {
 		} else {
 			LOG.warn("no DOI");
 		}
-		pubstyleByPubstyleString.put(name, pubstyle);
+		pubstyleByPubstyleName.put(name, pubstyle);
 	}
 	
 	public SVGPubstyle guessPubStyleFromFirstPage(List<File> svgFiles) {
@@ -140,8 +140,8 @@ public class PubstyleManager {
 		return pubstyle;
 	}
 
-	public SVGPubstyle getSVGPubstyleFromPubstyleString(String pubstyleString) {
-		SVGPubstyle pubstyle = pubstyleByPubstyleString.get(pubstyleString);
+	public SVGPubstyle getSVGPubstyleFromPubstyleName(String pubstyleString) {
+		SVGPubstyle pubstyle = pubstyleByPubstyleName.get(pubstyleString);
 		pubstyle.normalize();
 		return pubstyle;
 	}

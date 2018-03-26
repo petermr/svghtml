@@ -27,7 +27,7 @@ public abstract class Rule extends LineChunk {
 	
 	public Rule() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 	}
 
 	public Rule(SVGLine line) {

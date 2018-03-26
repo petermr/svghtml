@@ -203,7 +203,7 @@ public class SVGElement extends GraphicsElement {
 			newElement = new SVGTitle();
 		} else {
 			newElement = new SVGG();
-			newElement.setClassName(tag);
+			newElement.setSVGClassName(tag);
 			LOG.trace("unsupported svg element: "+tag);
 		}
 		if (newElement != null) {
@@ -998,14 +998,74 @@ public class SVGElement extends GraphicsElement {
 		this.addAttribute(new Attribute("height", String.valueOf(h)));
 	}
 	
-	public void setClassName(String name) {
-		if (name != null) {
-			this.addAttribute(new Attribute(CLASS, name));
+	/** set class.
+	 * always flattened to lower case
+	 * overwrites previous value/s.
+	 * 
+	 * 
+	 * @param clazz
+	 */
+	public void setSVGClassName(String clazz) {
+		if (clazz != null) {
+			clazz = clazz.trim().toLowerCase();
+			this.addAttribute(new Attribute(CLASS, clazz));
+		}
+	}
+
+	/** multiple classes are allowed. duplicates are ignored.
+	 * class is split at spaces so multiple labels can be added.
+	 * 
+	 * @param clazz class or classes to add; flattened to lowercase
+	 */
+	public void addSVGClassName(String clazz) {
+		addLabel(CLASS, clazz);
+	}
+
+	/** multiple labels are allowed. duplicates are ignored.
+	 * newLabel is split at spaces so multiple labels can be added.
+	 * @param labelValue label or labels to add; flattened to lowercase
+	 */
+	private void addLabel(String labelName, String labelValue) {
+		if (labelValue != null) {
+			labelValue = labelValue.trim().toLowerCase().replaceAll("\\s+", " "); // remove unnecessary spaces
+			String originalAttValue = this.getAttributeValue(labelName);
+			if (originalAttValue != null) {
+				// pad with blanks
+				if ((" "+originalAttValue+" ").contains(" "+labelValue+" ")) {
+					LOG.trace("duplicate class: "+labelValue);
+				} else {
+					originalAttValue += " "+labelValue;
+					this.addAttribute(new Attribute(labelName, originalAttValue));
+				}
+			} else {
+				this.addAttribute(new Attribute(labelName, labelValue));
+			}
 		}
 	}
 	
-	public String getSVGClassName() {
+	public String getSVGClassNameString() {
 		return this.getAttributeValue(CLASS);
+	}
+
+	public String getAncestorIDString() {
+		return this.getAttributeValue(ANCESTOR);
+	}
+
+	public List<String> getSVGClassNames() {
+		return getLabelValues(CLASS);
+	}
+
+	public List<String> getAncestorIDs() {
+		return getLabelValues(ANCESTOR);
+	}
+
+	private List<String> getLabelValues(String attName) {
+		List<String> classes = new ArrayList<String>();
+		String attValue = this.getAttributeValue(attName);
+		if (attValue != null) {
+			classes = Arrays.asList(attValue.split("\\s+"));
+		}
+		return classes;
 	}
 
 	/** traverse all children recursively
@@ -1808,6 +1868,50 @@ public class SVGElement extends GraphicsElement {
 		}
 	}
 
+	/** query descendant tree for complete qords in class attribute.
+	 * "foo" will match "foo junk", "junk foo", but not "foojunk" or "myfoo junk"
+	 * 
+	 * @param queryClass
+	 * @return
+	 */
+	public List<SVGElement> querySelfAndDescendantsForClass(String queryClass) {
+		String clazz = CLASS;
+		List<SVGElement> results = querySelfAndDescendantsForClass(clazz, queryClass);
+		return results;
+	}
 
+	/** query descendant tree for attribute attName with given value(s).
+	 * typical attNames are "id" and "class"
+	 * this allows searching for whitespace-separated values, e.g.
+	 *   class="foo bar"
+	 *   will be matched by value = "foo" or "bar but not "foobar", or "myfoo"
+	 *   
+	 * @param attName
+	 * @param queryClass
+	 * @return
+	 */
+	public List<SVGElement> querySelfAndDescendantsForClass(String attName, String value) {
+		String xpath = ".//*[contains(concat(' ',@" + attName + ",' '),concat(' ','"+value+"',' '))]";
+		return SVGUtil.getQuerySVGElements(this, xpath);
+	}
 
+	/** returns a single element with given complete word value in class attribute.
+	 * 
+	 * @param value to search for as complete word
+	 * @return null if 0 or >1 hits
+	 */
+	public SVGElement getSingleElementWithClassValue(String value) {
+		List<SVGElement> elements = this.querySelfAndDescendantsForClass(CLASS, value);
+		return elements.size() != 1 ? null : elements.get(0);
+	}
+	
+	/** returns text value of single element with given complete word value in class attribute.
+	 * 
+	 * @param value to search for as complete word
+	 * @return null if 0 or >1 hits
+	 */
+	public String getSingleValueWithClassValue(String value) {
+		SVGElement element = this.getSingleElementWithClassValue(value);
+		return element == null ? null : element.getValue();
+	}
 }

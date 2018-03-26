@@ -34,7 +34,7 @@ public class SVGLogger {
 	
 	private void init() {
 		this.topG = new SVGG();
-		topG.setClassName("extractedSVG");
+		topG.setSVGClassName("extractedSVG");
 		String dateString = JodaDate.formatDate(new DateTime());
 		topG.setDate("creationDate", dateString);
 	}

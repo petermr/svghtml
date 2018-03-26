@@ -38,7 +38,7 @@ public class PhraseChunk extends LineChunk implements Iterable<Phrase> {
 
 	public PhraseChunk() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 	}
 	
 	public PhraseChunk(PhraseChunk phraseChunk) {

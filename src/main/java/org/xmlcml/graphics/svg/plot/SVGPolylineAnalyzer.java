@@ -205,7 +205,7 @@ public class SVGPolylineAnalyzer {
 				if (yArray != null) {
 					parentG.appendChild(yArray);
 				}
-				parentG.setClassName(PLOT);
+				parentG.setSVGClassName(PLOT);
 //				polyline.setFill("blue");
 				/// for debugging
 				polyline.setStroke("red");

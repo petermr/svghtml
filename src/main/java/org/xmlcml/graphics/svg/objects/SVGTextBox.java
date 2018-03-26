@@ -36,7 +36,7 @@ public class SVGTextBox extends SVGG {
 	
 	public SVGTextBox() {
 		super();
-		this.setClassName(TEXT_BOX);
+		this.setSVGClassName(TEXT_BOX);
 	}
 
 	public SVGTextBox(SVGRect rect) {

@@ -45,7 +45,7 @@ public class SVGPhrase extends SVGG {
 	
 	public SVGPhrase() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 	
 	/** uses child Word elements to populate list.

@@ -28,6 +28,7 @@ public abstract class AbstractCMElement extends Element implements XMLConstants 
 		LOG.setLevel(Level.DEBUG);
 	}
 
+	public static final String ANCESTOR = "ancestor";
 	public static final String CLASS = "class";
 	public static final String ID = "id";
 	public static final String NAME = "name";

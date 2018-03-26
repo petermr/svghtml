@@ -89,7 +89,7 @@ public class PathCache extends AbstractCache{
 	public AbstractCMElement analyzePaths(List<SVGPath> pathList) {
 		this.pathList = pathList;
 		SVGG g = new SVGG();
-		g.setClassName("paths");
+		g.setSVGClassName("paths");
 		if (pathList != null) {
 			annotatePathsAsGlyphsWithSignatures();
 		}
@@ -109,7 +109,7 @@ public class PathCache extends AbstractCache{
 	
 	private AbstractCMElement annotatePathsWithSignatures() {
 		SVGG g = new SVGG();
-		g.setClassName("annotateAsGlyphs");
+		g.setSVGClassName("annotateAsGlyphs");
 		for (String sig : pathBySig.keySet()) {
 			SVGPath path = pathBySig.get(sig);
 			Real2 xy = path.getBoundingBox().getLLURCorners()[0];
@@ -156,7 +156,7 @@ public class PathCache extends AbstractCache{
 	public AbstractCMElement createSVGAnnotation() {
 		SVGG g = new SVGG();
 		
-		g.setClassName("pathAnnotation NYI");
+		g.setSVGClassName("pathAnnotation NYI");
 		return g;
 	}
 	

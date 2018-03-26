@@ -51,7 +51,7 @@ public class TextChunkList extends SVGG implements Iterable<TextChunk> {
 
 	public TextChunkList() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 	}
 	
 	public TextChunkList(TextChunkList textChunkList) {

@@ -51,13 +51,13 @@ public class Word extends LineChunk implements Iterable<SVGText> {
 
 	public Word() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 		
 	}
 
 	public Word(SVGG g) {
 		super(g);
-		if (Word.TAG.equals(g.getSVGClassName())) {
+		if (Word.TAG.equals(g.getSVGClassNameString())) {
 			LOG.trace("need to create subclassed Word constructor");
 		}
 	}

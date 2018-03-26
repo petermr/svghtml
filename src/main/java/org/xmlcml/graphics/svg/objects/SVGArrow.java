@@ -55,7 +55,7 @@ private static final Logger LOG = Logger.getLogger(SVGArrow.class);
 	
 	public SVGArrow() {
 		super();
-		this.setClassName(ARROW);
+		this.setSVGClassName(ARROW);
 	}
 
 	public SVGArrow(SVGLine subline, int linePoint, SVGTriangle triangle, int trianglePoint) {

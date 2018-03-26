@@ -17,7 +17,7 @@ public class SVGRoundedBox extends SVGG {
 	
 	public SVGRoundedBox() {
 		super();
-		this.setClassName(ROUNDED_BOX);
+		this.setSVGClassName(ROUNDED_BOX);
 	}
 	
 	public SVGRoundedBox(SVGPath path) {

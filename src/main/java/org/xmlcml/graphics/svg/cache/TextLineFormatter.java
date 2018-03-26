@@ -12,7 +12,7 @@ import org.xmlcml.graphics.svg.text.SVGTextLineList;
 import nu.xom.Node;
 import nu.xom.Text;
 
-/** formats lines especially wrapping, de-hyphenation.
+/** formats textlines especially wrapping, de-hyphenation.
  * defaults:
  * 		dehyphenate = true;
 		joinLines = true;
@@ -25,8 +25,8 @@ import nu.xom.Text;
  * @author pm286
  *
  */
-public class LineFormatter {
-	private static final Logger LOG = Logger.getLogger(LineFormatter.class);
+public class TextLineFormatter {
+	private static final Logger LOG = Logger.getLogger(TextLineFormatter.class);
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
@@ -49,7 +49,7 @@ public class LineFormatter {
 
 	private SVGTextLineList textLines;
 	
-	public LineFormatter(TextCache textCache) {
+	public TextLineFormatter(TextCache textCache) {
 		setDefaults();
 		this.setTextCache(textCache);
 	}
@@ -76,8 +76,8 @@ public class LineFormatter {
 	 * 
 	 * @return
 	 */
-	public static LineFormatter createEquationFormatter(TextCache textCache) {
-		LineFormatter lineFormatter = new LineFormatter(textCache);
+	public static TextLineFormatter createEquationFormatter(TextCache textCache) {
+		TextLineFormatter lineFormatter = new TextLineFormatter(textCache);
 		lineFormatter.dehyphenate = false;
 		lineFormatter.joinLines = false;
 		lineFormatter.indentedParagraphs = false;
@@ -98,8 +98,8 @@ public class LineFormatter {
 	 * 
 	 * @return
 	 */
-	public static LineFormatter createReferenceFormatter(TextCache textCache) {
-		LineFormatter lineFormatter = new LineFormatter(textCache);
+	public static TextLineFormatter createReferenceFormatter(TextCache textCache) {
+		TextLineFormatter lineFormatter = new TextLineFormatter(textCache);
 		lineFormatter.dehyphenate = false;
 		lineFormatter.joinLines = false;
 		lineFormatter.indentedParagraphs = false;
@@ -119,8 +119,8 @@ public class LineFormatter {
 
 	 * @return
 	 */
-	public static LineFormatter createDefaultFormatter(TextCache textCache) {
-		LineFormatter lineFormatter = new LineFormatter(textCache);
+	public static TextLineFormatter createDefaultFormatter(TextCache textCache) {
+		TextLineFormatter lineFormatter = new TextLineFormatter(textCache);
 		lineFormatter.setDefaults();
 		return lineFormatter;
 	}

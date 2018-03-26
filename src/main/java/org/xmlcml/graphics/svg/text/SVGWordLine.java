@@ -34,7 +34,7 @@ public class SVGWordLine extends SVGG {
 	
 	public SVGWordLine() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public List<SVGPhrase> makePhrasesFromWords() {

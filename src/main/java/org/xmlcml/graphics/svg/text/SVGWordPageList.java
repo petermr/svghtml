@@ -27,7 +27,7 @@ public class SVGWordPageList extends SVGG {
 	 */
 	public SVGWordPageList() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public SVGWordPage get(int i) {

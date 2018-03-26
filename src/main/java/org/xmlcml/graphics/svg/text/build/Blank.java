@@ -17,7 +17,7 @@ public class Blank extends LineChunk {
 
 	public Blank(Real2Range bbox) {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 		this.boundingBox = bbox;
 	}
 

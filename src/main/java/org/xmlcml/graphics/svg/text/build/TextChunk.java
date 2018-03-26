@@ -63,7 +63,7 @@ public class TextChunk extends SVGG implements Iterable<PhraseChunk> {
 
 	public TextChunk() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 	}
 	
 	public TextChunk(TextChunk textChunk) {

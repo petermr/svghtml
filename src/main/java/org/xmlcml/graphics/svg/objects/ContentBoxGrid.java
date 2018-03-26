@@ -80,7 +80,7 @@ public class ContentBoxGrid {
 	 */
 	public AbstractCMElement getOrCreateSVGElement() {
 		SVGG g = new SVGG();
-		g.setClassName(CONTEXT_BOX_GRID);
+		g.setSVGClassName(CONTEXT_BOX_GRID);
 		for (Real2Range box : bboxList) {
 			SVGRect rect = SVGRect.createFromReal2Range(box);
 			g.appendChild(rect);

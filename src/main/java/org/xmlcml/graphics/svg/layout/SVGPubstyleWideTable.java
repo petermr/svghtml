@@ -14,7 +14,7 @@ public class SVGPubstyleWideTable extends AbstractPubstyle {
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
-	public final static String SVG_CLASSNAME = "wideTable";
+	public final static String SVG_CLASSNAME = "wide.table";
 
 	public SVGPubstyleWideTable() {
 		super();

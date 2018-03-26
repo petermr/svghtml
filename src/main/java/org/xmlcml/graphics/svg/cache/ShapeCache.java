@@ -79,25 +79,26 @@ public class ShapeCache extends AbstractCache {
 		Path2ShapeConverter path2ShapeConverter = new Path2ShapeConverter();
 		path2ShapeConverter.setSplitAtMoveCommands(ownerComponentCache.getSplitAtMove());
 		convertedShapeListList = path2ShapeConverter.convertPathsToShapesAndSplitAtMoves(paths);
+		// see 
 		for (List<SVGShape> shapeList : convertedShapeListList) {
 			for (SVGShape shape : shapeList) {
 				if (shape instanceof SVGCircle) {
-					circleList.add((SVGCircle) shape);
+					addToListAndSetId(circleList, (SVGCircle) shape);
 				} else if (shape instanceof SVGEllipse) {
-					ellipseList.add((SVGEllipse) shape);
+					addToListAndSetId(ellipseList, (SVGEllipse) shape);
 				} else if (shape instanceof SVGLine) {
-					lineList.add((SVGLine) shape);
+					addToListAndSetId(lineList, (SVGLine) shape);
 				} else if (shape instanceof SVGPolygon) {
-					polygonList.add((SVGPolygon) shape);
+					addToListAndSetId(polygonList, (SVGPolygon) shape);
 				} else if (shape instanceof SVGPolyline) {
-					polylineList.add((SVGPolyline) shape);
-					LOG.trace("added polyline");
+					addToListAndSetId(polylineList, (SVGPolyline) shape);
 				} else if (shape instanceof SVGRect) {
-					rectList.add((SVGRect) shape);
+					addToListAndSetId(rectList, (SVGRect) shape);
 				} else if (shape instanceof SVGTriangle) {
+					addToListAndSetId(lineList, (SVGLine) shape);
 					triangleList.add((SVGTriangle) shape);
 				} else if (shape instanceof SVGPath) {
-					this.pathList.add((SVGPath) shape);
+					addToListAndSetId(pathList, (SVGPath) shape);
 					LOG.trace("unprocessed shape: "+shape);
 				} else {
 					LOG.warn("Unexpected shape: "+shape.getClass()); 
@@ -107,6 +108,17 @@ public class ShapeCache extends AbstractCache {
 		}
 		LOG.trace("polylines:: "+polylineList);
 		return;
+	}
+
+	/** form id as elementName.toLowerCase()+listcount
+	 * 
+	 * @param elementList
+	 * @param element
+	 */
+	private <T extends SVGElement> void addToListAndSetId(List<T> elementList, T element) {
+		elementList.add(element);
+		// more logic here
+		element.setId(element.getLocalName().toLowerCase() + elementList.size());
 	}
 
 	public List<SVGPath> getPathList() {

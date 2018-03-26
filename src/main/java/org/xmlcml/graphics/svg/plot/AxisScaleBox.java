@@ -264,7 +264,7 @@ public class AxisScaleBox extends AxialBox {
 	
 	public AbstractCMElement createSVGElement() {
 		SVGG g = (SVGG) super.createSVGElement();
-		g.setClassName("axisTextBox");
+		g.setSVGClassName("axisTextBox");
 		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}

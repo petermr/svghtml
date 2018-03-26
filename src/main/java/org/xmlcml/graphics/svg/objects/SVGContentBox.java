@@ -48,7 +48,7 @@ public class SVGContentBox extends SVGG {
 	
 	private SVGContentBox() {
 		super();
-		this.setClassName(CONTENT_BOX);
+		this.setSVGClassName(CONTENT_BOX);
 	}
 
 	public SVGContentBox(SVGRect rect) {
@@ -128,7 +128,7 @@ public class SVGContentBox extends SVGG {
 	public AbstractCMElement getOrCreateSVGElement() {
 		if (svgElement == null) {
 			svgElement = new SVGG();
-			svgElement.setClassName(CONTENT_BOX);
+			svgElement.setSVGClassName(CONTENT_BOX);
 			if (rect != null) {
 				SVGRect rectCopy = new SVGRect(rect);
 				rectCopy.setCSSStyle("stroke-width:1.0;fill:yellow;opacity:0.3;");

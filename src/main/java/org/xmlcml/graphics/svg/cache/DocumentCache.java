@@ -58,14 +58,14 @@ public class DocumentCache extends ComponentCache {
 		
 	}
 	
-	public DocumentCache(File cproject) {
-		if (cproject == null || !cproject.exists()) {
-			throw new RuntimeException("does not exist "+cproject);
+	public DocumentCache(File cTreeDir) {
+		if (cTreeDir == null || !cTreeDir.exists()) {
+			throw new RuntimeException("does not exist "+cTreeDir);
 		}
-		if (!cproject.isDirectory()) {
-			throw new RuntimeException("not a directory "+cproject);
+		if (!cTreeDir.isDirectory()) {
+			throw new RuntimeException("not a directory "+cTreeDir);
 		}
-		this.processSVGInCTreeDirectory(cproject);
+		this.processSVGInCTreeDirectory(cTreeDir);
 	}
 
 	public AbstractCMElement processSVGInCTreeDirectory(File cTreeDir) {
@@ -77,7 +77,11 @@ public class DocumentCache extends ComponentCache {
 		} catch (IOException e) {
 			throw new RuntimeException("Globber failed", e);
 		}
-		processSVGFiles(svgFiles);
+		try {
+			processSVGFiles(svgFiles);
+		} catch (Exception e) {
+			throw new RuntimeException("Failed in: "+this.cTreeDir, e);
+		}
 		return convertedSVGElement;
 	}
 

@@ -28,7 +28,7 @@ public class SVGMath extends SVGG {
 	 */
 	public SVGMath() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public SVGMath(AbstractCMElement svgText) {

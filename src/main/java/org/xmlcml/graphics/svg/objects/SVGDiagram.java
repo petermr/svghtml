@@ -43,7 +43,7 @@ public class SVGDiagram extends SVGG {
 
 	public SVGDiagram() {
 		super();
-		this.setClassName(DIAGRAM);
+		this.setSVGClassName(DIAGRAM);
 	}
 
 	protected void createShapes() {

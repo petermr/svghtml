@@ -40,7 +40,7 @@ public class SVGWord extends SVGG {
 	
 	public SVGWord() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public SVGWord(AbstractCMElement svgText) {

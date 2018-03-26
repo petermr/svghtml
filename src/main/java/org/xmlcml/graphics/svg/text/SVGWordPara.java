@@ -30,7 +30,7 @@ public class SVGWordPara extends SVGG {
 	
 	public SVGWordPara() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public List<SVGWordLine> getSVGLineList() {

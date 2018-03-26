@@ -125,11 +125,11 @@ public class ElementSelector {
 	DocumentChunk createAnnotatedSectionHead(SVGText templateText, SVGText extractedText) {
 		DocumentChunk sectionHead = null;
 		if (matches(extractedText)) {
-			String svgClassName = templateText.getSVGClassName();
+			String svgClassName = templateText.getSVGClassNameString();
 			if (svgClassName == null) {
 				throw new RuntimeException("missing classname: "+templateText.toXML());
 			}
-			extractedText.setClassName(svgClassName);
+			extractedText.setSVGClassName(svgClassName);
 			String fill = templateText.getAttributeValue(AbstractPubstyle.NEW_FILL);
 			if (fill != null) {
 				extractedText.setFill(fill);
@@ -146,11 +146,11 @@ public class ElementSelector {
 	DocumentChunk createDocumentChunk(SVGPath templatePath, SVGPath extractedPath) {
 		DocumentChunk sectionHead = null;
 		if (matches(extractedPath)) {
-			String svgClassName = templatePath.getSVGClassName();
+			String svgClassName = templatePath.getSVGClassNameString();
 			if (svgClassName == null) {
 				throw new RuntimeException("missing classname: "+templatePath.toXML());
 			}
-			extractedPath.setClassName(svgClassName);
+			extractedPath.setSVGClassName(svgClassName);
 			String fill = templatePath.getAttributeValue(AbstractPubstyle.NEW_FILL);
 			if (fill != null) {
 				extractedPath.setFill(fill);

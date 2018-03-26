@@ -229,7 +229,7 @@ public abstract class AbstractPlotBox {
 
 	private AbstractCMElement copyAnnotatedAxes() {
 		SVGG g = new SVGG();
-		g.setClassName("plotBox");
+		g.setSVGClassName("plotBox");
 		for (AnnotatedAxis axis : axisArray) {
 			g.appendChild(axis.getSVGElement().copy());
 		}

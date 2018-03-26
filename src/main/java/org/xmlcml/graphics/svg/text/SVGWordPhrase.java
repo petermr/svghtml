@@ -31,7 +31,7 @@ public class SVGWordPhrase extends SVGG {
 	 */
 	public SVGWordPhrase() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 

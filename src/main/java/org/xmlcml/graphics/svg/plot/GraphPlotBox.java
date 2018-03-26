@@ -72,7 +72,7 @@ public class GraphPlotBox {
 	public AbstractCMElement drawBox() {
 		AbstractCMElement g = new SVGG();
 		SVGRect bbox = this.createRect();
-		bbox.setClassName(AXES_BOX);
+		bbox.setSVGClassName(AXES_BOX);
 		bbox.setOpacity(0.3);
 		bbox.setStroke("cyan");
 		bbox.setStrokeWidth(5.0);

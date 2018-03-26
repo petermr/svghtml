@@ -35,7 +35,7 @@ public class SVGWordPage extends SVGG {
 	 */
 	public SVGWordPage() {
 		super();
-		this.setClassName(CLASS);
+		this.setSVGClassName(CLASS);
 	}
 
 	public List<SVGWordBlock> getSVGBlockList() {

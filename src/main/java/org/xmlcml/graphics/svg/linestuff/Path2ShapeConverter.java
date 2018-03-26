@@ -369,7 +369,7 @@ public class Path2ShapeConverter {
 				fill = line.getFill();
 			}
 			shape.copyAttributesFrom(path); // this will include oldStyle and CSSstyle
-			String className = shape.getSVGClassName();
+			String className = shape.getSVGClassNameString();
 			if (className != null && className.contains(LINE_FROM_SHAPE)) {
 				shape.setStrokeWidth(strokeWidth);
 				shape.setStroke(fill);
@@ -491,7 +491,7 @@ public class Path2ShapeConverter {
 			SVGLine newLine2 = createNarrowLine(line1, line3);
 			line = (newLine1 == null ? newLine2 : (newLine2 == null ? newLine1 : (newLine1.getLength() > newLine2.getLength() ? newLine1 : newLine2)));
 			if (line != null) {
-				line.setClassName(LINE_FROM_SHAPE);
+				line.setSVGClassName(LINE_FROM_SHAPE);
 			}
 		}
 		return line;
@@ -552,7 +552,7 @@ public class Path2ShapeConverter {
 		}
 		if (line != null) {
 			shape = line; 
-			line.setClassName(LINE_FROM_SHAPE);
+			line.setSVGClassName(LINE_FROM_SHAPE);
 		} else {
 			shape = rect;
 		}

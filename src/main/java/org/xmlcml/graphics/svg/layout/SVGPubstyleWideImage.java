@@ -14,7 +14,7 @@ public class SVGPubstyleWideImage extends AbstractPubstyle {
 	static {
 		LOG.setLevel(Level.DEBUG);
 	}
-	public final static String SVG_CLASSNAME = "wideImage";
+	public final static String SVG_CLASSNAME = "wide.image";
 
 	public SVGPubstyleWideImage() {
 		super();

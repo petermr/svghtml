@@ -6,14 +6,17 @@ import java.util.List;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.xmlcml.graphics.svg.SVGDefs;
 import org.xmlcml.graphics.svg.SVGElement;
+import org.xmlcml.graphics.svg.SVGG;
 import org.xmlcml.graphics.svg.SVGSVG;
+import org.xmlcml.graphics.svg.SVGUtil;
 import org.xmlcml.graphics.svg.cache.PageCache;
 import org.xmlcml.graphics.svg.layout.SVGPubstyleColumn.ColumnPosition;
 import org.xmlcml.xml.XMLUtil;
 
 import nu.xom.Element;
-import nu.xom.Node;
+import nu.xom.Elements;
 import nu.xom.Nodes;
 
 /** per publisher pubstyle.
@@ -133,40 +136,41 @@ public class SVGPubstyle extends AbstractPubstyle {
 		LOG.setLevel(Level.DEBUG);
 	}
 	
-	public final static String CLASSNAME = "pubstyle";
+	private static final String PUBSTYLE = "pubstyle";
+	private static final String PUBSTYLE_NAME = "pubstyleName";
+	public final static String CLASSNAME = PUBSTYLE;
 	// CLASS, ID defined above
-	private static final String IDREF_ELEMENTS = ".//*[@idref]";
 	private static final String IDREF = "idref";
-//	private static final String IDCLASS = ID;
+	private static final String IDREF_ELEMENTS = ".//*[@" + IDREF + "]";
 	private static final String IDCLASS = CLASS;
 	
 	private static final String NUMBER = "number";
 	private static final String ABSTRACT = SVGPubstyleAbstract.SVG_CLASSNAME;
-	private static final String ABSTRACT_XPATH = ".//*[@" + NUMBER + "='"+PageType.P1+"']//*[@" + IDCLASS + "='" + ABSTRACT + "']";
+//	private static final String ABSTRACT_XPATH = ".//*[@" + NUMBER + "='"+PageType.P1+"']//*[@" + IDCLASS + "='" + ABSTRACT + "']";
 	private static final String ABSTRACT_SECTION = "abstract.section";
-	private static final String ABSTRACT_SECTION_XPATH = ".//*[@" + IDCLASS + "='" + ABSTRACT_SECTION + "']";
+//	private static final String ABSTRACT_SECTION_XPATH = ".//*[@" + IDCLASS + "='" + ABSTRACT_SECTION + "']";
 	private static final String DOI = "doi";
-	private static final String DOI_XPATH = "./*/@" + DOI;
+//	private static final String DOI_XPATH = "./*/@" + DOI;
 	private static final String FOOTER =  SVGPubstyleFooter.SVG_CLASSNAME;
-	private static final String FOOTER_XPATH = "./*[@" + IDCLASS + "='" + FOOTER + "']";
+//	private static final String FOOTER_XPATH = "./*[@" + IDCLASS + "='" + FOOTER + "']";
 	private static final String HEADER =  SVGPubstyleHeader.SVG_CLASSNAME;
-	private static final String HEADER_XPATH = ".//*[@" + IDCLASS + "='" + HEADER + "']";
+//	private static final String HEADER_XPATH = ".//*[@" + IDCLASS + "='" + HEADER + "']";
+//	private static final String HEADER_XPATH1 = ".//*[contains(concat(' ',@" + IDCLASS + ",' '),concat(' '," + HEADER + ",' '))]";
 	private static final String LEFT =  SVGPubstyleLeftColumnOLD.SVG_CLASSNAME;
-	private static final String LEFT_XPATH = "./*[@" + IDCLASS + "='" + LEFT + "']";
+//	private static final String LEFT_XPATH = "./*[@" + IDCLASS + "='" + LEFT + "']";
 	private static final String MIDDLE = SVGPubstyleMiddleColumnOLD.SVG_CLASSNAME;
-	private static final String MIDDLE_XPATH = "./*[@" + IDCLASS + "='" + MIDDLE + "']";
-	private static final String PUBSTYLE = "pubstyle";
-	private static final String PUBSTYLE_XPATH = "./*/@" + PUBSTYLE;
+//	private static final String MIDDLE_XPATH = "./*[@" + IDCLASS + "='" + MIDDLE + "']";
+//	private static final String PUBSTYLE_XPATH = "./*/@" + PUBSTYLE;
 	private static final String PUBLISHER = "publisher";
-	private static final String PUBLISHER_XPATH = "./*/@" + PUBLISHER;
+//	private static final String PUBLISHER_XPATH = "./*/@" + PUBLISHER;
 	private static final String RIGHT = SVGPubstyleRightColumnOLD.SVG_CLASSNAME;
-	private static final String RIGHT_XPATH = "./*[@" + IDCLASS + "='" + RIGHT + "']";
+//	private static final String RIGHT_XPATH = "./*[@" + IDCLASS + "='" + RIGHT + "']";
 	private static final String WIDE = "wide";
-	private static final String WIDE_XPATH = "./*[@" + IDCLASS + "='" + WIDE + "']";
+//	private static final String WIDE_XPATH = "./*[@" + IDCLASS + "='" + WIDE + "']";
 	private static final String WIDE_IMAGE =  SVGPubstyleWideImage.SVG_CLASSNAME;
-	private static final String WIDE_IMAGE_XPATH = ".//*[@" + IDCLASS + "='" + WIDE_IMAGE + "']";
+//	private static final String WIDE_IMAGE_XPATH = ".//*[@" + IDCLASS + "='" + WIDE_IMAGE + "']";
 	private static final String WIDE_TABLE =  SVGPubstyleWideTable.SVG_CLASSNAME;
-	private static final String WIDE_TABLE_XPATH = ".//*[@" + IDCLASS + "='" + WIDE_TABLE + "']";
+//	private static final String WIDE_TABLE_XPATH = ".//*[@" + IDCLASS + "='" + WIDE_TABLE + "']";
 
 
 	private PubstyleManager pubstyleManager ;
@@ -186,6 +190,14 @@ public class SVGPubstyle extends AbstractPubstyle {
 		} else {
 			this.appendChild(svgElement.copy());
 		}
+		annotateAsPubstyle();
+	}
+
+	private void annotateAsPubstyle() {
+		List<SVGElement> elements = SVGElement.extractSelfAndDescendantElements(this);
+		for (SVGElement element : elements) {
+			element.addSVGClassName(PUBSTYLE);
+		}
 	}
 	
 	/** number can be 1, 2, last
@@ -200,35 +212,43 @@ public class SVGPubstyle extends AbstractPubstyle {
 	}
 
 	public String getPublisher() {
-		return XMLUtil.getSingleValue(this, PUBLISHER_XPATH);
+		return this.getFirstG().getAttributeValue(PUBLISHER);
 	}
 	
-	public String getPubstyle() {
-		return XMLUtil.getSingleValue(this, PUBSTYLE_XPATH);
+	public String getPubstyleName() {
+		return this.getFirstG().getAttributeValue(PUBSTYLE_NAME);
 	}
 	
+	private Element getFirstG() {
+		Nodes nodes= this.query("./*[local-name()='"+SVGG.TAG+"']");
+		Element element = nodes.size() != 1 ? null : (Element) nodes.get(0);
+		LOG.debug("el "+element.toXML().substring(0, 100));
+		return element;
+	}
+
 	public String getDoi() {
-		return XMLUtil.getSingleValue(this, DOI_XPATH);
+//		return this.getSingleValueWithClassValue(DOI);
+		return this.getFirstG().getAttributeValue(DOI);
 	}
 
 	public SVGPubstyleAbstract getAbstract() {
-		SVGElement element = (SVGElement)XMLUtil.getSingleElement(this, ABSTRACT_XPATH);
+		SVGElement element = this.getSingleElementWithClassValue(ABSTRACT);
 		if (element == null) {
-			LOG.debug("null abstract "+this.toXML());
+			LOG.debug("null abstract "+this.toXML().substring(0,  100)+" ...");
 		}
 		return element == null ? null : new SVGPubstyleAbstract(element);
 	}
 	
 	public SVGPubstyleFooter getFooter(PageType type) {
 		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, FOOTER_XPATH);
+		SVGElement element = page == null ? null : page.getSingleElementWithClassValue(FOOTER);
 		debugNullElement(FOOTER, element);
 		return element == null ? null : new SVGPubstyleFooter(element);
 	}
 
 	public SVGPubstyleHeader getHeader(PageType type) {
 		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, HEADER_XPATH);
+		SVGElement element = page == null ? null : page.getSingleElementWithClassValue(HEADER);
 		return element == null ? null : new SVGPubstyleHeader(element);
 	}
 
@@ -240,26 +260,26 @@ public class SVGPubstyle extends AbstractPubstyle {
 	 */
 	public SVGPubstyleColumn getColumn(PageType type, ColumnPosition columnPosition) {
 		SVGElement page = getRawPage(type);
-		String columnXpath = null;
+		String column = null;
 		if (ColumnPosition.LEFT.equals(columnPosition)) {
-			columnXpath = LEFT_XPATH;
+			column = LEFT;
 		} else if (ColumnPosition.MIDDLE.equals(columnPosition)) {
-			columnXpath = MIDDLE_XPATH;
+			column = MIDDLE;
 		} else if (ColumnPosition.RIGHT.equals(columnPosition)) {
-			columnXpath = RIGHT_XPATH;
+			column = RIGHT;
 		} else if (ColumnPosition.WIDE.equals(columnPosition)) {
-			columnXpath = WIDE_XPATH;
+			column = WIDE;
 		} else {
 			LOG.debug("NULL column xpath: "+columnPosition);
 		}
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, columnXpath);
-		SVGPubstyleColumn column = element == null ? null : new SVGPubstyleColumn(element);
-		if (column != null) {
-			column.setXPath(columnXpath);
-			column.setContainingPubstyle(this);
-			LOG.debug("XP "+columnXpath);
+		SVGElement element = page == null ? null : page.getSingleElementWithClassValue(column);
+		SVGPubstyleColumn pubstyleColumn = element == null ? null : new SVGPubstyleColumn(element);
+		if (pubstyleColumn != null) {
+			pubstyleColumn.setXPath(column);
+			pubstyleColumn.setContainingPubstyle(this);
+			LOG.debug("XP "+column);
 		}
-		return column;
+		return pubstyleColumn;
 	}
 
 	public SVGPubstylePage getPubstylePage(PageType type) {
@@ -269,21 +289,21 @@ public class SVGPubstyle extends AbstractPubstyle {
 
 	public SVGElement getAbstractSection() {
 		SVGElement page = getRawPage(PageType.P1);
-		SVGElement abstractElement = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, ABSTRACT_SECTION_XPATH);
+		SVGElement abstractElement = page == null ? null : page.getSingleElementWithClassValue(ABSTRACT_SECTION);
 		debugNullElement(ABSTRACT_SECTION, abstractElement);
 		return abstractElement;
 	}
 	
 	public SVGPubstyleWideImage getWideImage(PageType type) {
 		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, WIDE_IMAGE_XPATH);
+		SVGElement element = page == null ? null : page.getSingleElementWithClassValue(WIDE_IMAGE);
 		debugNullElement(WIDE_IMAGE, element);
 		return element == null ? null : new SVGPubstyleWideImage(element);
 	}
 	
 	public SVGPubstyleWideTable getWideTable(PageType type) {
 		SVGElement page = getRawPage(type);
-		SVGElement element = page == null ? null : (SVGElement)XMLUtil.getSingleElement(page, WIDE_TABLE_XPATH);
+		SVGElement element = page == null ? null : page.getSingleElementWithClassValue(WIDE_TABLE);
 		debugNullElement(WIDE_TABLE, element);
 		return element == null ? null : new SVGPubstyleWideTable(element);
 	}
@@ -310,7 +330,17 @@ public class SVGPubstyle extends AbstractPubstyle {
 				replaceIdrefByCopyOfId(element);
 			}
 		}
+		detachDefsElement();
 		SVGSVG.wrapAndWriteAsSVG(this, new File("target/pubstyle/pubstyle2.svg"));
+	}
+
+	private void detachDefsElement() {
+		List<SVGElement> svgElements = SVGUtil.getQuerySVGElements(this, ".//*[local-name()='" + SVGDefs.TAG + "']");
+		if (svgElements.size() == 1) {
+			for (SVGElement svgElement : svgElements) {
+				svgElement.detach();
+			}
+		}
 	}
 
 	private void replaceIdrefByCopyOfId(Element idrefElement) {
@@ -394,9 +424,10 @@ public class SVGPubstyle extends AbstractPubstyle {
 	// ===========================================
 	private void debugNullElement(String clazz, SVGElement element) {
 		if (element == null) {
-			LOG.debug("xml for null "+clazz+ this.toXML());
+			LOG.debug("xml for null "+clazz+ this.toXML().substring(0,  100)+" ...");
 		}
 	}
+
 
 
 }

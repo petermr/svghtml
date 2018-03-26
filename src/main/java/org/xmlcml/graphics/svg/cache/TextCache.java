@@ -76,7 +76,7 @@ public class TextCache extends AbstractCache {
 	Double largestCurrentFont;
 	SVGTextLineList textLines;
 	SVGTextLineList processedTextLines;
-	private Stack<LineFormatter> lineFormatterStack;
+	private Stack<TextLineFormatter> lineFormatterStack;
 	private SuscriptFormatter suscriptFormatter;
 
 	
@@ -86,8 +86,8 @@ public class TextCache extends AbstractCache {
 	}
 
 	private void init() {
-		this.lineFormatterStack = new Stack<LineFormatter>();
-		lineFormatterStack.push(LineFormatter.createDefaultFormatter(this));
+		this.lineFormatterStack = new Stack<TextLineFormatter>();
+		lineFormatterStack.push(TextLineFormatter.createDefaultFormatter(this));
 		setSuscriptFormatter(new SuscriptFormatter());
 	}
 
@@ -715,7 +715,7 @@ public class TextCache extends AbstractCache {
 	}
 
 	public HtmlElement createHtmlElement() {
-		LineFormatter lineFormatter = getCurrentLineFormatter();
+		TextLineFormatter lineFormatter = getCurrentLineFormatter();
 		if (processedTextLines != null) {
 			lineFormatter.setTextLines(processedTextLines);
 			for (SVGTextLine textLine : processedTextLines) {
@@ -734,8 +734,8 @@ public class TextCache extends AbstractCache {
 		
 	}
 
-	public LineFormatter getCurrentLineFormatter() {
-		LineFormatter currentLineFormatter = this.lineFormatterStack.peek();
+	public TextLineFormatter getCurrentLineFormatter() {
+		TextLineFormatter currentLineFormatter = this.lineFormatterStack.peek();
 		if (currentLineFormatter.getTextCache() == null) {
 			currentLineFormatter.setTextCache(this);
 		}
@@ -751,7 +751,7 @@ public class TextCache extends AbstractCache {
 	public static HtmlElement createHtmlFromTexts(List<SVGText> textLines) {
 		TextCache textCache1 = new TextCache(null);
 		textCache1.ingestOrginalTextList(textLines);
-		LineFormatter currentLineFormatter = textCache1.getCurrentLineFormatter();
+		TextLineFormatter currentLineFormatter = textCache1.getCurrentLineFormatter();
 		SVGTextLineList textLineList = currentLineFormatter.addSuscriptsAndJoinWrappedLines();
 		HtmlElement htmlElement = textCache1.createHtmlElement();
 		return htmlElement;
@@ -761,7 +761,7 @@ public class TextCache extends AbstractCache {
 	 * 
 	 * @param lineFormatter
 	 */
-	public void pushFormatter(LineFormatter lineFormatter) {
+	public void pushFormatter(TextLineFormatter lineFormatter) {
 		lineFormatterStack.push(lineFormatter);
 	}
 

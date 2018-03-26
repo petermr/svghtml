@@ -32,7 +32,7 @@ public class SVGTriangle extends SVGPolygon {
 	
 	public SVGTriangle() {
 		super();
-		this.setClassName(TRIANGLE);
+		this.setSVGClassName(TRIANGLE);
 	}
 
 	public SVGTriangle(SVGPolygon polygon) {
@@ -51,7 +51,7 @@ public class SVGTriangle extends SVGPolygon {
 	
 	public SVGTriangle(Real2Array real2Array) {
 		super(real2Array);
-		this.setClassName(TRIANGLE);
+		this.setSVGClassName(TRIANGLE);
 	}
 
 	/** "aesthetic triangle as arrowhead.

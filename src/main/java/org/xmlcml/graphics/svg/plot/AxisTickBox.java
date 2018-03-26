@@ -274,7 +274,7 @@ public class AxisTickBox extends AxialBox {
 
 	public AbstractCMElement createSVGElement() {
 		SVGG g = (SVGG) super.createSVGElement();
-		g.setClassName("axisTickBox");
+		g.setSVGClassName("axisTickBox");
 		for (AbstractCMElement element : containedGraphicalElements) {
 			g.appendChild(element.copy());
 		}

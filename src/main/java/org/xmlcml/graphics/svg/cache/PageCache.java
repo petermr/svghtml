@@ -259,8 +259,10 @@ public class PageCache extends ComponentCache {
 		addElementAndChildren(g,leftSidebarCache);
 		addElementAndChildren(g,rightSidebarCache);
 		g.appendChild(inputSVGElement.copy());
-		for (SVGRect rect : rectsList) {
-			g.appendChild(rect.copy());
+		if (rectsList !=  null) {
+			for (SVGRect rect : rectsList) {
+				g.appendChild(rect.copy());
+			}
 		}
 		return g;
 	}

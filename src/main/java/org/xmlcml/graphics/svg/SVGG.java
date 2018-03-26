@@ -63,7 +63,7 @@ public class SVGG extends SVGElement {
 	
 	public SVGG(String clazz) {
 		this();
-		this.setClassName(clazz);
+		this.setSVGClassName(clazz);
 	}
 
 	public SVGG(SVGElement element) {

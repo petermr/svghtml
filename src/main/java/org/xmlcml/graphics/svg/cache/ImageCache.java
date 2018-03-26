@@ -49,7 +49,7 @@ public class ImageCache extends AbstractCache{
 	public AbstractCMElement analyzeImages(List<SVGImage> imageList) {
 		this.imageList = imageList;
 		SVGG g = new SVGG();
-		g.setClassName("images");
+		g.setSVGClassName("images");
 		if (imageList != null) {
 //			annotateImagesAsGlyphsWithSignatures();
 		}

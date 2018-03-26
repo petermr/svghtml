@@ -282,7 +282,7 @@ public class AnnotatedAxis {
 
 	public AbstractCMElement getSVGElement() {
 		SVGG g = new SVGG();
-		g.setClassName("axis");
+		g.setSVGClassName("axis");
 		if (axisTickBox != null) {
 			g.appendChild(axisTickBox.createSVGElement());
 		}

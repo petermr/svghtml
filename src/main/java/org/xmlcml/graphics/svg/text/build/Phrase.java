@@ -50,7 +50,7 @@ public class Phrase extends LineChunk implements Iterable<Word> {
 	
 	public Phrase() {
 		super();
-		this.setClassName(TAG);
+		this.setSVGClassName(TAG);
 	}
 
 	public Phrase(LineChunk phrase) {

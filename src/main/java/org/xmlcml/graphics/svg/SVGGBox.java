@@ -31,7 +31,7 @@ public class SVGGBox extends SVGG {
 	public static final String BOX = "box";
 
 	public SVGGBox() {
-		this.setClassName(BOX);
+		this.setSVGClassName(BOX);
 	}
 	
 	public void addRect(SVGRect newRect) {

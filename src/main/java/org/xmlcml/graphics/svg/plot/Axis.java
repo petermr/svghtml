@@ -402,7 +402,7 @@ public class Axis {
 			throw new RuntimeException("backbone has no parent");
 		}
 		SVGG svgg = new SVGG();
-		svgg.setClassName(AXISCLASS);
+		svgg.setSVGClassName(AXISCLASS);
 		parent.appendChild(svgg);
 		
 //		groupBackbone(backbone, svgg);
@@ -426,7 +426,7 @@ public class Axis {
 
 	private void groupField(AbstractCMElement svgg, String fieldName, SVGElement field) {
 		if (field != null) {
-			field.setClassName(fieldName);
+			field.setSVGClassName(fieldName);
 			field.detach();
 			svgg.appendChild(field);
 		}
@@ -435,7 +435,7 @@ public class Axis {
 	private void groupFields(AbstractCMElement svgg, String fieldName, List<? extends SVGElement> fields) {
 		if (fields != null) {
 			for (SVGElement field : fields) {
-				field.setClassName(fieldName);
+				field.setSVGClassName(fieldName);
 				field.detach();
 				svgg.appendChild(field);
 			}
@@ -450,7 +450,7 @@ public class Axis {
 
 	private void groupTickJoints(AbstractCMElement svgg, String tickType, List<Joint> tickList) {
 		SVGG jointG = new SVGG();
-		jointG.setClassName(tickType);
+		jointG.setSVGClassName(tickType);
 		svgg.appendChild(jointG);
 		for (Joint joint : tickList) {
 			SVGLine line = joint.getLine();

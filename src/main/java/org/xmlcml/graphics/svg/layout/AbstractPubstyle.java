@@ -39,7 +39,7 @@ public abstract class AbstractPubstyle extends SVGG {
 
 	protected AbstractPubstyle() {
 		super();
-		this.setClassName(getPubstyleClassName());
+		this.setSVGClassName(getPubstyleClassName());
 	}
 
 	/** create from parsed element.
@@ -59,7 +59,8 @@ public abstract class AbstractPubstyle extends SVGG {
 
 	public Map<String, String> matchTexts(List<SVGText> texts) {
 		Map<String, String> keyValues = new HashMap<String, String>();
-		getOrCreateNamePatternList();
+		List<NamePattern> namePatterns = getOrCreateNamePatternList();
+		LOG.debug("namePatterns: "+namePatterns);
 		for (SVGText text : texts) {
 			matchAgainstText(keyValues, text);
 		}
