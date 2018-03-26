@@ -213,4 +213,86 @@ public class SVGElementTest {
 		Assert.assertEquals(0,elements.size());
 	}
 	
+	@Test
+	public void testAddClass() {
+		SVGCircle circle = new SVGCircle();
+		String className = circle.getSVGClassNameString();
+		Assert.assertNull("class", className);
+		List<String> classNames = circle.getSVGClassNames();
+		Assert.assertNotNull("classes", classNames);
+		Assert.assertEquals("classes", 0, classNames.size());
+		circle.addSVGClassName("foo");
+		className = circle.getSVGClassNameString();
+		Assert.assertNotNull("class", className);
+		Assert.assertEquals("class", "foo", className);
+		classNames = circle.getSVGClassNames();
+		Assert.assertNotNull("classes", classNames);
+		Assert.assertEquals("classes", 1, classNames.size());
+		// add second argument
+		circle.addSVGClassName("bar");
+		className = circle.getSVGClassNameString();
+		Assert.assertNotNull("class", className);
+		Assert.assertEquals("class", "foo bar", className);
+		classNames = circle.getSVGClassNames();
+		Assert.assertNotNull("classes", classNames);
+		Assert.assertEquals("classes", 2, classNames.size());
+		Assert.assertTrue("classes", classNames.contains("foo"));
+		Assert.assertTrue("classes", classNames.contains("bar"));
+		// add duplicate argument
+		circle.addSVGClassName("bar");
+		className = circle.getSVGClassNameString();
+		Assert.assertNotNull("class", className);
+		Assert.assertEquals("class", "foo bar", className);
+		classNames = circle.getSVGClassNames();
+		Assert.assertNotNull("classes", classNames);
+		Assert.assertEquals("classes", 2, classNames.size());
+		Assert.assertTrue("classes", classNames.contains("foo"));
+		Assert.assertTrue("classes", classNames.contains("bar"));
+	}
+	
+	@Test
+	/** search for elements with given values in "class" attribute.
+	 * 
+	 */
+	public void testQueryClass() {
+		SVGG g = new SVGG();
+		SVGCircle circle = new SVGCircle();
+		circle.addSVGClassName("foo");
+		circle.addSVGClassName("bar");
+		g.appendChild(circle);
+		SVGRect rect = new SVGRect();
+		rect.addSVGClassName("foo");
+		rect.addSVGClassName("plugh");
+		g.appendChild(rect);
+		List<SVGElement> sad = g.querySelfAndDescendantsForClass("bar");
+		Assert.assertEquals("bar", 1, sad.size());
+		sad = g.querySelfAndDescendantsForClass("foo");
+		Assert.assertEquals("foo", 2, sad.size());
+	}
+	
+	@Test
+	/** search for elements with given values in "class" attribute.
+	 * 
+	 */
+	public void testQueryClassAmbiguous() {
+		SVGG g = new SVGG();
+		SVGCircle circle = new SVGCircle();
+		circle.addSVGClassName("foo");
+		circle.addSVGClassName("bar");
+		g.appendChild(circle);
+		SVGRect rect = new SVGRect();
+		rect.addSVGClassName("foojunk");
+		rect.addSVGClassName("plugh");
+		g.appendChild(rect);
+		SVGEllipse ellipse = new SVGEllipse();
+		ellipse.addSVGClassName("foojunk");
+		ellipse.addSVGClassName("mybar");
+		g.appendChild(ellipse);
+		List<SVGElement> sad = g.querySelfAndDescendantsForClass("foo");
+		Assert.assertEquals("foo", 1, sad.size());
+		sad = g.querySelfAndDescendantsForClass("bar");
+		Assert.assertEquals("bar", 1, sad.size());
+		sad = g.querySelfAndDescendantsForClass("foojunk");
+		Assert.assertEquals("foojunk", 2, sad.size());
+	}
 }

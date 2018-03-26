@@ -608,10 +608,10 @@ public class PageCacheTest {
 	@Test
 	public void testBMCTextWithPubstyle() {
 		PubstyleManager pubstyleManager = new PubstyleManager();
-		SVGPubstyle bmcStyle = pubstyleManager.getSVGPubstyleFromPubstyleString("bmc");
+		SVGPubstyle bmcStyle = pubstyleManager.getSVGPubstyleFromPubstyleName("bmc");
 //		Pubstyle pubstyle = pubstyleManager.guessPubstyleFromFirstPage(new File(SVGHTMLFixtures.CORPUS_DIR, 
 //				"mosquitos/12936_2017_Article_1948/svg/fulltext-page2.svg.compact.svg"));
-		Assert.assertEquals("bmc", bmcStyle.getPubstyle());
+		Assert.assertEquals("bmc", bmcStyle.getPubstyleName());
 		SVGElement page1 = bmcStyle.getRawPage(PageType.P1);
 		Assert.assertNotNull(page1);
 		LOG.debug(page1.toXML());
