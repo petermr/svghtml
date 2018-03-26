@@ -256,7 +256,9 @@ public class Path2ShapeConverterTest {
 			Assert.assertTrue("1", groups.get(6).getChild(1) instanceof SVGLine);
 			SVGLine line61 = (SVGLine) groups.get(6).getChild(1);
 			line61.format(2);
-			Assert.assertEquals("line61", "<line class=\"lineFromShape\" inkscape:connector-curvature=\"0\" sodipodi:nodetypes=\"ccccc\" signature=\"MLLLL\" style=\"fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.0;\" id=\"line.0\" x1=\"377.81\" y1=\"281.62\" x2=\"113.38\" y2=\"281.62\" />",
+			Assert.assertEquals("line61", "<line class=\"lineFromShape\" inkscape:connector-curvature=\"0\" sodipodi:nodetypes=\"ccccc\" "
+					+ "signature=\"MLLLL\" style=\"fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.0;\" "
+					+ "id=\"line.0\" x1=\"377.81\" y1=\"281.62\" x2=\"113.38\" y2=\"281.62\" />",
 					line61.toXML());
 //			SVGLine line63 = (SVGLine) groups.get(6).getChild(3);
 //			line63.format(2);
@@ -479,7 +481,7 @@ public class Path2ShapeConverterTest {
 		Assert.assertEquals("lines", 1, lineList.size());
 		SVGLine svgLine0 = lineList.get(0);
 		Assert.assertEquals("line0", "#131313", svgLine0.getFill());
-		Assert.assertEquals("line0", "line.0", svgLine0.getId());
+		Assert.assertEquals("line0", "line1", svgLine0.getId());
 		Assert.assertTrue("line0", svgLine0.getStyle().startsWith("clip-path:url(#clipPath1);fill:#131313;stroke:black;stroke-width:0.2"));
 		Assert.assertEquals("line0", 0.283, svgLine0.getStrokeWidth(), 0.001);
 //		Real2Test.assertEquals("line0 XY0", new Real2(353.537, 106.369), svgLine0.getXY(0), 0.001);

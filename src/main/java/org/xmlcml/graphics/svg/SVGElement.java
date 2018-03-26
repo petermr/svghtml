@@ -999,7 +999,7 @@ public class SVGElement extends GraphicsElement {
 	}
 	
 	/** set class.
-	 * always flattened to lower case
+	 * case sensitive
 	 * overwrites previous value/s.
 	 * 
 	 * 
@@ -1007,7 +1007,7 @@ public class SVGElement extends GraphicsElement {
 	 */
 	public void setSVGClassName(String clazz) {
 		if (clazz != null) {
-			clazz = clazz.trim().toLowerCase();
+			clazz = clazz.trim();
 			this.addAttribute(new Attribute(CLASS, clazz));
 		}
 	}
@@ -1015,7 +1015,7 @@ public class SVGElement extends GraphicsElement {
 	/** multiple classes are allowed. duplicates are ignored.
 	 * class is split at spaces so multiple labels can be added.
 	 * 
-	 * @param clazz class or classes to add; flattened to lowercase
+	 * @param clazz class or classes to add; 
 	 */
 	public void addSVGClassName(String clazz) {
 		addLabel(CLASS, clazz);
@@ -1023,19 +1023,18 @@ public class SVGElement extends GraphicsElement {
 
 	/** multiple labels are allowed. duplicates are ignored.
 	 * newLabel is split at spaces so multiple labels can be added.
-	 * @param labelValue label or labels to add; flattened to lowercase
+	 * @param labelValue label or labels to add;
 	 */
 	private void addLabel(String labelName, String labelValue) {
 		if (labelValue != null) {
-			labelValue = labelValue.trim().toLowerCase().replaceAll("\\s+", " "); // remove unnecessary spaces
+			labelValue = labelValue.trim().replaceAll("\\s+", " "); // remove unnecessary spaces
 			String originalAttValue = this.getAttributeValue(labelName);
 			if (originalAttValue != null) {
 				// pad with blanks
 				if ((" "+originalAttValue+" ").contains(" "+labelValue+" ")) {
 					LOG.trace("duplicate class: "+labelValue);
 				} else {
-					originalAttValue += " "+labelValue;
-					this.addAttribute(new Attribute(labelName, originalAttValue));
+					this.addAttribute(new Attribute(labelName, originalAttValue+" "+labelValue));
 				}
 			} else {
 				this.addAttribute(new Attribute(labelName, labelValue));
