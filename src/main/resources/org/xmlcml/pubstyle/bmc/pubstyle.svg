@@ -17,7 +17,7 @@
 				]]>
 			</text>
 					<!-- Page 2 of 13 -->
-			<text id="header.pagecount" class="header.pagecount" justify="right" fontName="MyriadPro-Regular" fontSize="8.0" fontWeight="(normal)"
+			<text id="header.pagecount" class="header.pagecount rjustify" fontName="MyriadPro-Regular" fontSize="8.0" fontWeight="(normal)"
 				y="47.307" >
 				<![CDATA[
 				(Page\s+
@@ -84,7 +84,7 @@ style="fill:#000000;font-size:24.0px;font-weight:normal;">(.*)</text>
                 L538.262 260.482 C538.262 260.482 538.262 256.482 534.262 256.482 L60.872 256.482 Z"
                 signature="MCLCLCLCZ" />
                 <!-- adjustable bounding box in y, height -->
-                <rect class="bbox" x="56.872" y="0" width="481" height="0" fill="none" stroke="purple" stroke-width="1.0" />
+                <rect class="bbox xfix wfix" x="56.872" y="100" width="481" height="100" fill="none" stroke="purple" stroke-width="1.0" />
                 
 	            <text id="abstract.title" class="abstract.title" level="2" x="63.122" style="font-size:10.0;font-weight:bold;">Abstract</text>
 				<text id="abstract.section" class="abstract.section" level="3" x="63.122" style="font-size:10.0;font-weight:bold;">
